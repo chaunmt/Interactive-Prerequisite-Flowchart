@@ -1,6 +1,5 @@
 ## What to do before next meeting?
 - Please checkout JavaScript, Next.js, React.j.
-- Fill out this form: https://forms.gle/uWBirtyzCCiWn4jY6.
 
 ## What we plan
 ![IMG_0043](https://github.com/chaunmt/Interactive-Prerequisite-Flowchart/assets/37993386/6b9ef3f6-acbe-4a73-ad99-6a195b50adc9)
