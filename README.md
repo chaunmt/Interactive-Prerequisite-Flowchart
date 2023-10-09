@@ -1,6 +1,5 @@
 ## What to do before next meeting?
-- Please checkout JavaScript, Next.js, React.js
-- Checkout our 1st issues for tasks.
+- Please checkout JavaScript, Next.js, React.j.
 - Fill out this form: https://forms.gle/uWBirtyzCCiWn4jY6.
 
 ## What we plan
