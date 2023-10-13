@@ -4,12 +4,12 @@
   - pnpm is recommended but can be substituted by npm.
 
 ## Run: 
-  pnpm install
-  pnpm run dev
+  - pnpm install
+  - pnpm run dev
 
 ## Start: 
-  pnpm build
-  pnpm start
+  - pnpm build
+  - pnpm start
 
 ## What we plan
 ![image](https://github.com/chaunmt/Interactive-Prerequisite-Flowchart/assets/37993386/1d5657a3-0235-44bb-9672-93f383c5a9a0)
