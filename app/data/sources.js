@@ -6,15 +6,22 @@
 // Get class details
 // https://umn.lol/api/class/CSCI4041
 
-// try this in console
-// myData.courses[10].catalog_number
+// try this in terminal
+// run node sources.js
 let url = 'https://courses.umn.edu/campuses/UMNTC/terms/1239/courses.json?q=subject_id=CSCI';
 
-let myData;
+let fs = require('fs');
+let myData = null;
 
 fetch(url)
   .then(res => res.json())
-  .then(data => { myData = data; })
+  .then(data => { 
+    myData = data; 
+    fs.writeFile('myData.json', JSON.stringify(myData), (err) => {
+      if (err) throw err;
+      console.log('myData has been saved to myData.json');
+      console.log("example: " + myData.courses[10].catalog_number);
+  })})
   .catch(err => { throw err });
 
 // Term ID to Term's Name
