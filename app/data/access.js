@@ -3,8 +3,9 @@ const sample = require('./CSCI.json');
 
 
 const access = {
-  findCourseInfo
+  findCourseInfo,
 }
+
 
 function findCourseInfo(input){
     for(var i=0;sample.class.length;i++){
