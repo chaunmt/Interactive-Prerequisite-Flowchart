@@ -19,14 +19,16 @@ function findCourseInfo(course) {
   return access.findCourseInfo(course);
 }
 
-function addCourse() {
+function addCourse(prereq, course) {
   // TODO: add 1 course to prereq
   // TODO: mark course is removable
 }
 
-function removeCourse() {
+function removeCourse(prereq, index) {
   // TODO: check whether course is removable (user's added course using function addCourse)
-  // TODO: remove course if possible
+  // TODO: remove all course's prereq (removePrereq)
+  // TODO: remove course if possible 
+ 
 }
 
 function addPrereq(prereq, course) {
