@@ -1,0 +1,1 @@
+import buttons from /pages
