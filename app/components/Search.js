@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-function SearchBar() {
+function Search() {
   const [data, setData] = useState([]); //list of items from JSON
   const [search, setSearch] = useState(''); //Current search term
 
@@ -22,7 +22,7 @@ function SearchBar() {
   });
 
   return ( //Display 
-    <div className="SearchBar">
+    <div className="Search">
       <input type="text" placeholder="Search" onChange={handleSearch} />
       <ul>
         {filteredData.length > 0 ? 
@@ -37,4 +37,4 @@ function SearchBar() {
   );
 }
 
-export default SearchBar;
+export default Search;
