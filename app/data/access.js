@@ -1,13 +1,11 @@
-const sample = require('./CSCI.json');
-
-
+var sample = require('./CSCI.json');
 
 const access = {
   findCourseInfo,
+  findPrerequisite,
 }
 
-
-function findCourseInfo(input){
+function findPrerequisite(input){
     for(var i=0;sample.class.length;i++){
         if(input==sample.class[i].end){
             return sample.class[i].start;
@@ -15,8 +13,12 @@ function findCourseInfo(input){
     }
 }
 
-// this is for testing, you can erase if you want
-var arr=findCourseInfo('CSCI 1933');
-console.log(arr);
+function findCourseInfo(input){
+    for(var i=0;sample.class.length;i++){
+        if(input==sample.class[i].end){
+            return sample.class[i].info;
+        }
+    }
+}
 
 export default access;
