@@ -1,5 +1,4 @@
-import { access } from '../../data/access';
-import './Table.module.css'
+import './Table.css'
 
 export default function CoursesTable() {
   const data = require('../../data/CSCI.json');
@@ -21,7 +20,8 @@ export default function CoursesTable() {
   }
 
   return (
-    <div>
+    <div id="page">
+      <h1 id="title">CSCI COURSES</h1>
       <div id="card_table">
         {formatTable()}
       </div>

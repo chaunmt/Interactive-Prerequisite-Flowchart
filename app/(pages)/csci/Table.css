@@ -1,0 +1,22 @@
+@import url('../Global.css');
+#page {
+  background-color: var(--bg-color);
+}
+#title {
+  text-align: center;
+}
+#card_table {
+  background-color: var(--table-bg-color);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+  padding: 1rem;
+}
+.card {
+  text-align: center;
+  background-color: var(--card-bg-color);
+  border-radius: 0.5rem;
+  height: 10rem;
+  padding: 1rem;
+  overflow: auto;
+}
