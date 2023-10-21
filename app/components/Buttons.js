@@ -1,4 +1,4 @@
-import { access } from "../Routes.js"
+import Access from "../data/Access"
 
 const Buttons = {
   findCourseInfo,
@@ -10,13 +10,25 @@ const Buttons = {
 
 // Expected Hierarchy
 // -- Main Course
-// ---- Main Prereq
-// ------ Prereq Course
-// --------- Sub Prereq
+// ---- Prereq
+// ------ Prereq of prereq
+// --------- Prereq of prereq of prereq
+// ----------- ...
+// ==> Course[Prereq[Prereq[]]]
+// Main things to do: add course to a certain position in the array, remove course at a certain position in the array
+// You can start with ignoring runtime and just try to make it finish
+// Map, filter, include in javascript might be very helpful and suprisingly easy to use
+// Feel free to change the layout and name as you seem fit
+// Deadlines: as of 10/21/2023, we are at the end of week 5. 
+//            First presentation on week 7, final presentation on week 10.
+//            Please finish your scrappiest code by first presentation if possible.
 
 function findCourseInfo(course) {
   // choose a course in search --> return an array of course info
-  return access.findCourseInfo(course);
+  // Notice the difference between Access.info and Access.findCourseInfo
+  // One of them is an array name course that is equal to sample.class[index] array
+  // The other is just a string of id 
+  return Access.info(course);
 }
 
 function addCourse(prereq, course) {
