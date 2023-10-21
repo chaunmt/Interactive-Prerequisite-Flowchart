@@ -1,28 +1,35 @@
 "use client";
 import React from "react"
-import access from "../data/access";
+import Access from "../data/Access";
 import './styles/CoursesTable.css'
 
 export default function CoursesTable() {
-  const [selectedCourse, setSelectedCourse] = React.useState(null);
+  const [targetCourse, setTargetCourse] = React.useState(null)
 
-  const handleCardHover = (course) => {
-    setSelectedCourse(course);
+  const handleHoverCard = (course) => {
+    setTargetCourse(course)
+  }
+
+  const handleStopHoverCard = () => {
+    setTargetCourse(null)
   }
 
   const formatCard = (course) => {
-    const isPrereq = selectedCourse && selectedCourse.pre
-    
     return (
-    <div className="card">
-      <h2>{access.title(course)}</h2>
+    <div className={`card ${Access.isPrereq(targetCourse) ? 'prereq' : ''} ${course == targetCourse ? 'target' : ''}`}
+        onMouseEnter={() => handleHoverCard(course)}
+        onMouseLeave={() => handleStopHoverCard()}
+      >
+      <h2>{Access.title(course)}</h2>
+      <p>{Access.prereq(course)}</p>
+      <p>{Access.isPrereq(targetCourse).toString()}</p>
       {/* <p className="info">{course.info}</p> */}
     </div> 
     );
   }
 
   const formatTable = () => {
-    return access.courses.map((course, index) => (
+    return Access.courses().map((course, index) => (
       <div key={index}>
         {formatCard(course)}
       </div>

@@ -28,6 +28,9 @@
   display: block;
   background-color: var(--menu-bg-color);
 }
-.card:hover .prereq {
-
+.target {
+  background-color: var(--target-course-bg-color);
+}
+.prereq {
+  background-color: var(--prereq-course-bg-color);
 }

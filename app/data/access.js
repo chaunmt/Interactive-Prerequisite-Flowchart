@@ -3,19 +3,16 @@ var sample = require('./CSCI.json');
 const Access = {
   findCourseInfo,
   findPrerequisite,
+  findTargetOf,
   findTitle,
   courses,
-  prereq,
   id,
   title,
-  info
+  info,
+  prereq,
+  isPrereq,
+  isTargetOf
 }
-
-function courses() {
-  return sample.class;
-}
-
-function prereq(course) { return course.start }
 
 function id(course) { return course.end }
 
@@ -23,6 +20,28 @@ function title(course) { return course.name }
 
 function info(course) { return course.info }
 
+function courses() { return sample.class }
+
+function prereq(course) { return course.start }
+
+function isPrereq(course) { 
+  if (course == null || prereq(course) == null) return false
+  return prereq(course).includes(Access.title(course)) 
+}
+
+// function isCoreq(course) {}
+
+// return true if course has prereq as its prerequisites
+function isTargetOf(prereq) { return findTargetOf(prereq).includes(prereq) }
+
+// return the array of course that have prereq as its prerequisites
+function findTargetOf(prereq){
+  for(var i=0;sample.class.length;i++){
+      if(sample.class[i].start.includes(input)){
+          return sample.class[i].end;
+      }
+  }
+}
 
 function findPrerequisite(input){
     for(var i=0;sample.class.length;i++){
