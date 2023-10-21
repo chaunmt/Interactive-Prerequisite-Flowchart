@@ -1,7 +1,6 @@
-"use client"
 import React, { useState, useEffect } from 'react';
-import Link from 'next/link';
-import Access from '../data/Access';
+
+import Access from "../data/Access"
 
 function Search() {
   const [data, setData] = useState([]); //list of items from JSON
@@ -20,10 +19,10 @@ function Search() {
   };
 
   const processedSearch = search.replace(/\s+/g, '').toLowerCase(); 
-  
-  const filteredData = data.filter(item => {
-    return item.name.toLowerCase().replace(/\s+/g, '').includes(processedSearch) ||
-      item.end.some(code => {
+
+  const filteredData = Access.courses().filter(item => {
+    return Access.title(item).toLowerCase().replace(/\s+/g, '').includes(processedSearch) ||
+      Access.id(item).some(code => {
         const processedCode = code.replace(/\s+/g, '').toLowerCase();
         return processedCode.includes(processedSearch);
       });
@@ -35,11 +34,7 @@ function Search() {
       <ul>
         {filteredData.length > 0 ? 
           filteredData.map((item, index) => (
-            <Link key={index}
-                  href={'/' + Access.id(item)}  // Need some improvement in the data file
-            > 
-              <li>{Access.id(item)[0]} - {Access.title(item)}</li>
-            </Link>
+            <li key={index}> {Access.id(item)[0]} - {Access.title(item)}</li>
           ))
           :
           <li>No search results</li>
