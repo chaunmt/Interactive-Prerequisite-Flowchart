@@ -7,6 +7,7 @@ export default function CoursesTable() {
     return (
     <div className="card">
       <h2>{course.name}</h2>
+      <p className="popup">{course.info}</p>
     </div> 
     );
   }
