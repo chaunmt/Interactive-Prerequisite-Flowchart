@@ -19,11 +19,14 @@ function Search() {
     setSearch(event.target.value);
   };
 
-  // Improve filter with ignore space maybe?
-  // For example, csci4 should show csci4041 instead of no result
-  const filteredData = Access.courses().filter(item => {
-    return Access.title(item).toLowerCase().includes(search.toLowerCase()) || 
-           Access.id(item).some(code => (`CSCI ${code}`).toLowerCase().includes(search.toLowerCase()));
+  const processedSearch = search.replace(/\s+/g, '').toLowerCase(); 
+  
+  const filteredData = data.filter(item => {
+    return item.name.toLowerCase().replace(/\s+/g, '').includes(processedSearch) ||
+      item.end.some(code => {
+        const processedCode = code.replace(/\s+/g, '').toLowerCase();
+        return processedCode.includes(processedSearch);
+      });
   });
 
   return ( //Display 
