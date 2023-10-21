@@ -10,11 +10,10 @@
       "static/chunks/main-app.js",
       "static/chunks/app/(pages)/page.js"
     ],
-    "/(pages)/csci/page": [
+    "/not-found": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/(pages)/csci/page.css",
-      "static/chunks/app/(pages)/csci/page.js"
+      "static/chunks/app/not-found.js"
     ]
   }
 }
