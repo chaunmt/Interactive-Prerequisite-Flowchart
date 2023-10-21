@@ -1,10 +1,23 @@
 var sample = require('./CSCI.json');
 
-const access = {
+const Access = {
   findCourseInfo,
   findPrerequisite,
   findTitle,
+  prereq,
+  id,
+  title,
+  info
 }
+
+function prereq(course) { return course.start }
+
+function id(course) { return course.end }
+
+function title(course) { return course.name }
+
+function info(course) { return course.info }
+
 
 function findPrerequisite(input){
     for(var i=0;sample.class.length;i++){
