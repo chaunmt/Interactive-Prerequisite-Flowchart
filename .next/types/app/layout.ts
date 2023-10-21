@@ -1,4 +1,4 @@
-// File: D:\Projects\SocialCoding\Interactive-Prerequisite-Flowchart\app\layout.js
+// File: C:\Users\abdik\Interactive-Prerequisite-Flowchart\app\layout.js
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

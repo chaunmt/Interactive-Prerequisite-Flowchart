@@ -1,4 +1,4 @@
-// File: D:\Projects\SocialCoding\Interactive-Prerequisite-Flowchart\app\page.js
+// File: C:\Users\abdik\Interactive-Prerequisite-Flowchart\app\page.js
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
