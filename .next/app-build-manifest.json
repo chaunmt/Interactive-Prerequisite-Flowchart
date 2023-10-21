@@ -1,14 +1,14 @@
 {
   "pages": {
-    "/(pages)/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(pages)/page.js"
-    ],
     "/(pages)/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/(pages)/layout.js"
+    ],
+    "/(pages)/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(pages)/page.js"
     ],
     "/(pages)/csci/page": [
       "static/chunks/webpack.js",
