@@ -17,9 +17,14 @@ function Search() {
     setSearch(event.target.value);
   };
 
+  const processedSearch = search.replace(/\s+/g, '').toLowerCase(); 
+  
   const filteredData = data.filter(item => {
-    return item.name.toLowerCase().includes(search.toLowerCase()) || 
-           item.end.some(code => (`CSCI ${code}`).toLowerCase().includes(search.toLowerCase()));
+    return item.name.toLowerCase().replace(/\s+/g, '').includes(processedSearch) ||
+      item.end.some(code => {
+        const processedCode = code.replace(/\s+/g, '').toLowerCase();
+        return processedCode.includes(processedSearch);
+      });
   });
 
   return ( //Display 
