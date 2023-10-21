@@ -1,9 +1,9 @@
 "use client";
 import React from "react"
+import access from "../data/access";
 import './styles/CoursesTable.css'
 
 export default function CoursesTable() {
-  const data = require('../data/CSCI.json');
   const [selectedCourse, setSelectedCourse] = React.useState(null);
 
   const handleCardHover = (course) => {
@@ -15,14 +15,14 @@ export default function CoursesTable() {
     
     return (
     <div className="card">
-      <h2>{course.name}</h2>
+      <h2>{access.title(course)}</h2>
       {/* <p className="info">{course.info}</p> */}
     </div> 
     );
   }
 
   const formatTable = () => {
-    return data.class.map((course, index) => (
+    return access.courses.map((course, index) => (
       <div key={index}>
         {formatCard(course)}
       </div>

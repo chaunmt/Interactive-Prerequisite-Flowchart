@@ -4,10 +4,15 @@ const Access = {
   findCourseInfo,
   findPrerequisite,
   findTitle,
+  courses,
   prereq,
   id,
   title,
   info
+}
+
+function courses() {
+  return sample.class;
 }
 
 function prereq(course) { return course.start }
@@ -43,4 +48,4 @@ function findTitle(input){
     }
 }
 
-export default access;
+export default Access;
