@@ -10,11 +10,11 @@ const Buttons = {
 
 // Expected Hierarchy
 // -- Main Course
-// ---- Prereq
-// ------ Prereq of prereq
-// --------- Prereq of prereq of prereq
+// ---- Prereq Course
+// ------ Prereq of prereq Course
+// --------- Prereq of prereq of prereq Course
 // ----------- ...
-// ==> Course[Prereq[Prereq[]]]
+// ==> Course[Course[Course[]]]
 // Main things to do: add course to a certain position in the array, remove course at a certain position in the array
 // You can start with ignoring runtime and just try to make it finish
 // Map, filter, include in javascript might be very helpful and suprisingly easy to use
