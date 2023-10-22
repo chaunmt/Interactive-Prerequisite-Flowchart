@@ -30,4 +30,5 @@ function findTitle(input){
     }
 }
 
-export default access;
+
+//export default access;
