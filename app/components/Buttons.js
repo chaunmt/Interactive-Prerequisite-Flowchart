@@ -8,13 +8,16 @@ const Buttons = {
   removePrereq,
 }
 
-// Expected Hierarchy
-// -- Main Course
-// ---- Prereq Course
-// ------ Prereq of prereq Course
-// --------- Prereq of prereq of prereq Course
-// ----------- ...
-// ==> Course[Course[Course[]]]
+// Chosen Tool: Mermaid (test run in page.js)
+{/* <Mermaid graph={`
+        graph TD
+        A[CSCI 1933] --> C[CSCI 2041]
+        B[CSCI 2011] --> C
+        A --> D[CSCI 4041]
+        B --> D
+        C --> E[CSCI 4011]
+        `}/>
+      <Search /> */}
 // Main things to do: add course to a certain position in the array, remove course at a certain position in the array
 // You can start with ignoring runtime and just try to make it finish
 // Map, filter, include in javascript might be very helpful and suprisingly easy to use
