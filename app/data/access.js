@@ -11,7 +11,10 @@ const Access = {
   info,
   prereq,
   isPrereq,
-  isTargetOf
+  isTargetOf,
+  // isCoreq,
+  // major,
+  // idNum,
 }
 
 function id(course) { return course.end }
@@ -24,12 +27,10 @@ function courses() { return sample.class }
 
 function prereq(course) { return course.start }
 
-function isPrereq(course) { 
+function isPrereq(course) {
   if (course == null || prereq(course) == null) return false
-  return prereq(course).includes(Access.title(course)) 
+  return prereq(course).includes(Access.title(course))
 }
-
-// function isCoreq(course) {}
 
 // return true if course has prereq as its prerequisites
 function isTargetOf(prereq) { return findTargetOf(prereq).includes(prereq) }
