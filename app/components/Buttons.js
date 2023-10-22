@@ -11,11 +11,17 @@ const Buttons = {
 // Chosen Tool: Mermaid (test run in page.js)
 {/* <Mermaid graph={`
         graph TD
-        A[CSCI 1933] --> C[CSCI 2041]
-        B[CSCI 2011] --> C
-        A --> D[CSCI 4041]
+        graph TD
+        A[CSCI 1933]
+        B[CSCI 2011]
+        C[CSCI 2041]
+        D[CSCI 4041]
+        E[CSCI 4011]
+        A --> C
+        B --> C
+        A --> D
         B --> D
-        C --> E[CSCI 4011]
+        C --> E
         `}/>
       <Search /> */}
 // Main things to do: add course to a certain position in the array, remove course at a certain position in the array
