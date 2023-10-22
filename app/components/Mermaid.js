@@ -1,5 +1,5 @@
 "use client"
-import { useEffect } from "react"
+import { useEffect, useState } from "react"
 import mermaid from "mermaid"
 
 export default function Mermaid({ graph }) {
