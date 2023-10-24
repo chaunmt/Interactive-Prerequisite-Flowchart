@@ -15,9 +15,12 @@ const Access = {
   // isCoreq,
   // major,
   // idNum,
+  onlyNum,
 }
 
 function id(course) { return course.end }
+
+function onlyNum(id) { return id.replace(/[^0-9]/g, '') }
 
 function title(course) { return course.name }
 

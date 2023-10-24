@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from 'react';
+import Link from 'next/link';
 
 import Access from "../data/Access"
 
@@ -36,7 +37,13 @@ function Search() {
       <ul>
         {filteredData.length > 0 ? 
           filteredData.map((item, index) => (
-            <li key={index}> {Access.id(item)[0]} - {Access.title(item)}</li>
+            <li key={index}> 
+              <Link
+                href={'/csci/' + Access.onlyNum(Access.id(item)[0])}
+              >
+                {Access.id(item)[0]} - {Access.title(item)}
+              </Link>
+            </li>
           ))
           :
           <li>No search results</li>
