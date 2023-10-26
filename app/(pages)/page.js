@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Search from "../components/Search"
 import Mermaid from "../components/Mermaid"
+import MainPage.css from "../styles/MainPage"
 
 export default function Page() {
   const graph = `
@@ -22,6 +23,7 @@ export default function Page() {
       {/* ERROR: graph does not auto reload on changes */}
       <Mermaid graph = {graph}/>
       <Search />
+      
     </div>
   );
 }
