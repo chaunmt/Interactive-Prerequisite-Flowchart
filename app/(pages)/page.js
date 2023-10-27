@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Search from "../components/Search"
 import Mermaid from "../components/Mermaid"
-import MainPage.css from "../styles/MainPage"
+import MainPage from "../styles/MainPage"
 
 export default function Page() {
   const graph = `
