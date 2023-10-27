@@ -18,6 +18,7 @@ export default function Page() {
   `
   return (
     <div>
+      <header>Gophers Prerequisites</header>
       <h1>Welcome to "Interactive" Prerequisites</h1>
       <Link href="/csci"><button>All CSCI Classes</button></Link>
       {/* ERROR: graph does not auto reload on changes */}
