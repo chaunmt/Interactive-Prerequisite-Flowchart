@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Search from "../components/Search"
 import Mermaid from "../components/Mermaid"
-//import MainPage from "../styles/MainPage"
+import head from 'next/head'
 
 export default function Page() {
   const graph = `
@@ -18,13 +18,18 @@ export default function Page() {
   `
   return (
     <div>
-      <header>Gophers Prerequisites</header>
+<<<<<<< Updated upstream
+      <div class="header">
+        <div class="title"><h2>Gophers Prerequisites</h2></div>
+      </div>
+=======
+      <div class="header">Gophers Prerequisites</div>
+>>>>>>> Stashed changes
       <h1>Welcome to "Interactive" Prerequisites</h1>
       <Link href="/csci"><button>All CSCI Classes</button></Link>
       {/* ERROR: graph does not auto reload on changes */}
       <Mermaid graph = {graph}/>
       <Search />
-      
-    </div>
+       </div>
   );
 }

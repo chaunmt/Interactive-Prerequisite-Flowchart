@@ -20,6 +20,12 @@ img {
 
 h1 { color: black }
 
+header {
+    margin: 0;
+    background: #123;
+    color: white;
+  }
+
 Link { 
     color: black;
     text-decoration: none;
@@ -35,12 +41,16 @@ ul {
     color: black
 }
 
+<<<<<<< Updated upstream
+=======
 
-header {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #123;
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
     color: white;
+    font-size: 30px;
   }
   
+>>>>>>> Stashed changes
   
