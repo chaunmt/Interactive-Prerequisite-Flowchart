@@ -27,6 +27,10 @@ function filterExtraInfo(data) {  // ==> return string
   return data.split(';')[0]
 }
 
+// TODO: Filter recommend
+// TODO: Filter Sentences
+// TODO: Unite form [SUBC XXXX]
+
 // Note: there is an instance of ', or' which is filter to 'and or' => conflict
 // However: because ', or' in this case is treated as ';' => does not matter and will get remove later on anyway
 function filterPrereq(data) { // ==> return array
