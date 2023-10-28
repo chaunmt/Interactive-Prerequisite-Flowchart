@@ -1,42 +1,81 @@
-// Get all courses details
-// https://asr-custom.umn.edu/courses/
-// campus: UMNTC -> Twin Cities
-// terms: 1239 -> Fall 2023
+let fs = require('fs')
+let allSubjects = require('./General/subjectCode.json')
 
-// Get class details
-// https://umn.lol/api/class/CSCI4041
+// Remove all brackets
+function filterBracket(data) { // ==> return string
+  data = data.split('[').join('').split(']')
+  data = data.join('')
+  data = data.split('(').join('').split(')')
+  return data.join('')
+}
 
-// try this in terminal
-// run node sources.js
-let url = 'https://courses.umn.edu/campuses/UMNTC/terms/1239/courses.json?q=subject_id=CSCI';
+// Every ', ' is replaced with ' and '
+function replaceComma(data) { // ==> return string
+  return data.replace(/, /g, ' and ')
+}
 
-let fs = require('fs');
-let myData = null;
+// A and B ==> Need both to satisfy requirement => Different arrays 
+// A or B ==> Only need one to satisfy requirement => Same array
+function filterAndOr(data) {  // ==> return array
+  return data.split(' and ').map(
+    (subReq) => subReq.split(' or ')
+  )
+}
+
+// Observed: Info after each ';' are extra info (i.e. recommendation, major,...)
+function filterExtraInfo(data) {  // ==> return string
+  return data.split(';')[0]
+}
+
+// Note: there is an instance of ', or' which is filter to 'and or' => conflict
+// However: because ', or' in this case is treated as ';' => does not matter and will get remove later on anyway
+function filterPrereq(data) { // ==> return array
+  data = filterExtraInfo(data)
+  data = replaceComma(data)
+  data = filterBracket(data)
+  data = filterAndOr(data)
+  return data
+}
+
+
+const schoolId = 'umn_umntc_peoplesoft'
+let subject = 'CSCI'
+let subjectCode = 'subjectCode=' + subject
+let fileName = subject + '.json'
+let filePath = './Dog/'
+let returnFields = '&returnFields=subjectCode,courseNumber,name,description' // preq is at the end of description
+let limit = '&limit=infinity'
+
+let url = 'https://app.coursedog.com/api/v1/cm/' + schoolId + '/courses/search/$filters?' + subjectCode + returnFields + limit
 
 fetch(url)
   .then(res => res.json())
-  .then(data => { 
-    myData = data; 
-    fs.writeFile('myData.json', JSON.stringify(myData), (err) => {
-      if (err) throw err;
-      console.log('myData has been saved to myData.json');
-      console.log("example: " + myData.courses[10].catalog_number);
-  })})
-  .catch(err => { throw err });
+  .then(data => {
 
-// Term ID to Term's Name
-const termToName = (term) => {
-  const baseYear = 1900;
-  const year = baseYear + Math.floor(term / 10);
+    let courses = data.data.map(
+      (course) => {
 
-  switch (term % 10) {
-    case 3:
-      return `Spring ${year}`;
-    case 5:
-      return `Summer ${year}`;
-    case 9:
-      return `Fall ${year}`;
-    default:
-      return `Invalid Term`;
-  }
-}
+        const info = course.description.split('\n\nprereq: ')
+
+        const prereq = info[1]? filterPrereq(info[1]) : null
+
+        return {
+          // subject: course.subjectCode,
+          // id: course.courseNumber,
+          // title: course.name,
+          // info: info[0],
+          prereqInfo: info[1],
+          prereq: prereq
+        }
+      }
+    )
+
+    fs.writeFile(filePath + fileName, JSON.stringify(courses),
+      (error) => {
+        if (error) {
+          console.error('Error exporting data to JSON file' + fileName + ':', error);
+        } else {
+          console.log('Data exported to', fileName);
+        }
+      })
+  })

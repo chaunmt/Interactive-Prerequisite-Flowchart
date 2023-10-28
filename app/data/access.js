@@ -1,4 +1,4 @@
-var sample = require('./CSCI.json');
+var sample = require('./Old/CSCI.json');
 
 const Access = {
   findCourseInfo,
