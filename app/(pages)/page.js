@@ -8,7 +8,7 @@ export default function Page() {
     <div>
       <h1>Welcome to "Interactive" Prerequisites</h1>
       <Link href="/csci"><button>All CSCI Classes</button></Link>
-      <br/>
+      <br/> {/* this line break doesn't seem to do anything */}
       <GraphSearch />
     </div>
   );

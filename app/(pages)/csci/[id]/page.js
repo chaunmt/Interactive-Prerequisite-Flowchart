@@ -1,5 +1,17 @@
-export default function Page({ params }: { params: { id: string} } ) {
-  return <div>CSCI {params.id}</div>;
+import Link from "next/link";
+import GraphSearch from "../../../components/GraphSearch";
+
+export default function Page({ params }) {
+  return (
+    <div>
+      <h1>You are on the CSCI {params.id} page.</h1>
+      <p>Note: the graph does not currently update to match that—although it appears to be interactive with the search bar.</p>
+      <Link href="/csci"><button>All CSCI Classes</button></Link>
+      <br/> {/* this line break doesn't seem to do anything */}
+      {/* THIS SHOULD BE A STATIC GRAPH */}
+      <GraphSearch />
+    </div>
+  );
 }
 
 export async function getStaticPaths() {
