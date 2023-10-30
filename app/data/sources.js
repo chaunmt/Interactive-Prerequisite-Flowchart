@@ -1,12 +1,13 @@
 let fs = require('fs')
 let allSubjects = require('./General/subjectCode.json')
+let allCourseNumbers = require('./General/courseNumber.json')
 
 // Remove all brackets
 function filterBracket(data) { // ==> return string
   data = data.split('[').join('').split(']')
   data = data.join('')
   data = data.split('(').join('').split(')')
-  return data.join('')
+  return data
 }
 
 // Every ', ' is replaced with ' and '
@@ -31,19 +32,30 @@ function filterExtraInfo(data) {  // ==> return string
 // TODO: Filter Sentences
 // TODO: Unite form [SUBC XXXX]
 
+// function filterCodes(data) {
+//   const length = data.length
+//   let i = 0;
+//   while (i < length) {
+//     i = 
+//   }
+// }
+
+
 // Note: there is an instance of ', or' which is filter to 'and or' => conflict
 // However: because ', or' in this case is treated as ';' => does not matter and will get remove later on anyway
 function filterPrereq(data) { // ==> return array
+  // TODO: Re order
   data = filterExtraInfo(data)
   data = replaceComma(data)
   data = filterBracket(data)
-  data = filterAndOr(data)
+  //data = filterAndOr(data)
+  //data = filterCodes(data)
   return data
 }
 
 
 const schoolId = 'umn_umntc_peoplesoft'
-let subject = 'CSCI'
+let subject = 'MATH'
 let subjectCode = 'subjectCode=' + subject
 let fileName = subject + '.json'
 let filePath = './Dog/'
@@ -64,10 +76,10 @@ fetch(url)
         const prereq = info[1]? filterPrereq(info[1]) : null
 
         return {
-          // subject: course.subjectCode,
-          // id: course.courseNumber,
-          // title: course.name,
-          // info: info[0],
+          subject: course.subjectCode,
+          id: course.courseNumber,
+          title: course.name,
+          info: info[0],
           prereqInfo: info[1],
           prereq: prereq
         }
