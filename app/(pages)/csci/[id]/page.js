@@ -1,15 +1,47 @@
 import Link from "next/link";
-import GraphSearch from "../../../components/GraphSearch";
+import Mermaid from "../../../components/Mermaid";
+// import Search from "../../../components/Search";
+
+// this part will probably end up in a different file, but for now I'm leaving it here
+var courses_data = new Map();
+var subject_list = ["CSCI", "MATH"];
+subject_list.forEach(subject => {
+  var subject_data = require(`../../../data/Dummy/${subject}.json`);
+  // TODO I think I'm doing this part wrong
+  courses_data.set(subject, subject_data.class);
+});
+
+async function findCourse(subjectCode, courseNumber) {
+  var course = courses_data.get(subjectCode).filter(item => {
+      return item.subject == subjectCode && item.id == courseNumber;
+    })[0];
+  return course;
+}
+
+async function buildGraph(subjectCode, courseNumber) {
+  var current = findCourse(subjectCode, courseNumber);
+  if (current.prereq == null) {
+    // `CSCI_1133[CSCI 1133]\n`
+    return `${current.subject}_${current.id}[${current.subject} ${current.id}]\n`;
+  } else {
+    // `CSCI_1933[CSCI 1933]\n` + buildGraph(CSCI, 1133) + `CSCI_1133 --> CSCI_1933\n`
+    return `${current.subject}_${current.id}[${current.subject} ${current.id}]\n` + current.prereq.map(req => {
+      return req.map(course => {
+        return buildGraph(course.subject, course.id) + `${course.subject}_${course.id} --> ${current.subject}_${current.id}`;
+      }).join('\n');
+    }).join('\n');
+  }
+}
+
 
 export default function Page({ params }) {
+  console.log(buildGraph("CSCI", params.id));
   return (
     <div>
       <h1>You are on the CSCI {params.id} page.</h1>
-      <p>Note: the graph does not currently update to match that—although it appears to be interactive with the search bar.</p>
       <Link href="/csci"><button>All CSCI Classes</button></Link>
       <br/> {/* this line break doesn't seem to do anything */}
-      {/* THIS SHOULD BE A STATIC GRAPH */}
-      <GraphSearch />
+      <Mermaid graph={buildGraph("CSCI", params.id)}/>
     </div>
   );
 }
