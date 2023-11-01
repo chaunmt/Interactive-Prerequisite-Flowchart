@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 
-import Access from "../data/Access"
+import Access from "../data/Old/Access"
 
 function Search({ sendResults }) {
   const [data, setData] = useState([]); //list of items from JSON
