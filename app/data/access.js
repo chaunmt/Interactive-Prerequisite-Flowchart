@@ -1,74 +1,86 @@
-var sample = require('./Dummy/CSCI.json');
+function extractWords(code) { return code.match(/[a-zA-Z]+/g) }
 
-const Access = {
-  findCourseInfo,
-  findPrerequisite,
-  findTargetOf,
-  findTitle,
-  courses,
-  id,
-  title,
-  info,
-  prereq,
-  isPrereq,
-  isTargetOf,
-  // isCoreq,
-  // major,
-  // idNum,
-  onlyNum,
-}
+function extractNumbers(code) { return code.match(/\d+/g) }
 
-function id(course) { return course.end }
+export default function Access(SUBJECT) {
 
-function onlyNum(id) { return id.replace(/[^0-9]/g, '') }
+  const allCourses = require(`./Dummy/${SUBJECT}.json`);
 
-function title(course) { return course.name }
+  function courses() { return allCourses }
 
-function info(course) { return course.info }
+  function code(course) { return course.code  }
 
-function courses() { return sample.class }
+  function subject(course) { return course.subject }
 
-function prereq(course) { return course.start }
+  function id(course) { return course.id }
 
-function isPrereq(course) {
-  if (course == null || prereq(course) == null) return false
-  return prereq(course).includes(Access.title(course))
-}
+  function title(course) { return course.title }
 
-// return true if course has prereq as its prerequisites
-function isTargetOf(prereq) { return findTargetOf(prereq).includes(prereq) }
+  function info(course) { return course.info }
 
-// return the array of course that have prereq as its prerequisites
-function findTargetOf(prereq){
-  for(var i=0;sample.class.length;i++){
-      if(sample.class[i].start.includes(input)){
-          return sample.class[i].end;
+  function prereqInfo(course) {return course.prereqInfo}
+
+  function prereq(course) { return course.prereq }
+
+  // return the array of course that have prereq as its prerequisites
+  function target(prereq){
+    allCourses.map (
+      (target) => {
+        if (isPrereq(prereq, target)) return target
       }
+    )
+    return null
+  }
+
+  function isPrereq(prereq, target) {
+    prereq(target)?.map(
+      (each) => {
+        if (each.course.includes(code(prereq))) return true
+      }
+    )
+    return false
+  }
+
+  function isTarget(prereq, target) { 
+    return isPrereq(prereq, target)
+  }
+
+  function getCourse(itemType, item) {
+    return allCourses.find(each => each[itemType] === item) || null;
+  }
+
+  function getTitle(itemType, item) { return title(getCourse(itemType, item)) }
+
+  function getSubject(itemType, item) { return subject(getCourse(itemType, item)) }
+
+  function getId(itemType, item) { return id(getCourse(itemType, item)) }
+
+  function getInfo(itemType, item) { return info(getCourse(itemType, item)) }
+
+  function getPrereqInfo(itemType, item) { return prereqInfo(getCourse(itemType, item))}
+
+  function getPrereq(itemType, item) { return prereq(getCourse(itemType, item))}
+
+  return {
+    courses,
+    getCourse,
+    getTitle,
+    getSubject,
+    getId,
+    getInfo,
+    getPrereqInfo,
+    getPrereq,
+    code,
+    subject,
+    id,
+    title,
+    info,
+    prereqInfo,
+    prereq,
+    target,
+    isPrereq,
+    isTarget,
+    // isCoreq,
   }
 }
 
-function findPrerequisite(input){
-    for(var i=0;sample.class.length;i++){
-        if(input==sample.class[i].end){
-            return sample.class[i].start;
-        }
-    }
-}
-
-function findCourseInfo(input){
-    for(var i=0;sample.class.length;i++){
-        if(input==sample.class[i].end){
-            return sample.class[i].info;
-        }
-    }
-}
-
-function findTitle(input){
-    for(var i=0;sample.class.length;i++){
-        if(input==sample.class[i].end){
-            return sample.class[i].name;
-        }
-    }
-}
-
-export default Access;
