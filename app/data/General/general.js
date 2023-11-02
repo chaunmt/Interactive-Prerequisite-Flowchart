@@ -19,21 +19,30 @@ function filterDuplicate(data) {
 function exportSubject() {
   let filePath = './'
   let fileName = 'allSubjects.json'
-  let data = require(`../Dog/All`)
+  let data = require(`../Dog/allCourses`)
   data = filterDuplicate(data.map(
     (each) => each.subject
   ))
   fs.writeFile(filePath + fileName, JSON.stringify(data), (error) => handleErrorExportJSON(error, fileName))
 }
 
-// exportSubject()
-let allSubjects = require('./allSubjects.json')
-for (subject of allSubjects) {
-  let filePath = './id/'
-  let fileName = subject + '.json'
-  let data = require(`../Dog/${subject}`)
-  data = filterDuplicate(data.map(
-    (each) => each.id
-  ))
-  fs.writeFile(filePath + fileName, JSON.stringify(data), (error) => handleErrorExportJSON(error, fileName))
-}
+//exportSubject()
+// let allSubjects = require('./allSubjects.json')
+// for (subject of allSubjects) {
+//   let filePath = './id/'
+//   let fileName = subject + '.json'
+//   let data = require(`../Dog/${subject}`)
+//   data = filterDuplicate(data.map(
+//     (each) => each.id
+//   ))
+//   fs.writeFile(filePath + fileName, JSON.stringify(data), (error) => handleErrorExportJSON(error, fileName))
+// }
+
+// let subject = 'allCourses'
+// let filePath = './id/'
+// let fileName = subject + '.json'
+// let data = require(`../Dog/${subject}`)
+// data = filterDuplicate(data.map(
+//   (each) => each.id
+// ))
+// fs.writeFile(filePath + fileName, JSON.stringify(data), (error) => handleErrorExportJSON(error, fileName))

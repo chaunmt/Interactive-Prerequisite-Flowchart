@@ -101,7 +101,7 @@ function filterPrereq(data, defaultSubject) { // ==> return array
 function exportDogs(SUBJECT) {
   const schoolId = 'umn_umntc_peoplesoft'
   let subject = SUBJECT
-  let subjectCode = (subject == 'All') ? '' : 'subjectCode=' + subject
+  let subjectCode = (subject == 'allCourses') ? '' : 'subjectCode=' + subject
   let fileName = subject + '.json'
   let filePath = './Dog/'
   let returnFields = '&returnFields=subjectCode,courseNumber,name,description' // preq is at the end of description
@@ -110,7 +110,7 @@ function exportDogs(SUBJECT) {
   let url = 'https://app.coursedog.com/api/v1/cm/' + schoolId + '/courses/search/$filters?' + subjectCode + returnFields + limit
 
   // let allCourseNumbers = require(`./General/id/${subject}.json`)
-  let allCourseNumbers = require(`./General/id/All.json`)
+  //let allCourseNumbers = require(`./General/id/allCourses.json`)
 
   fetch(url)
     .then(res => res.json())
@@ -146,5 +146,6 @@ function exportDogs(SUBJECT) {
     })
 }
 
-let allSubjects = require('./General/allSubjects.json')
-for (pup of allSubjects) exportDogs(pup)
+// let allSubjects = require('./General/allSubjects.json')
+// for (pup of allSubjects) exportDogs(pup)
+// exportDogs('allCourses')
