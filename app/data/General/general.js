@@ -1,6 +1,14 @@
 const { error } = require('console')
 let fs = require('fs')
 
+function handleErrorExportJSON(error, fileName) {
+  if (error) {
+    console.error('Error exporting data to JSON file' + fileName + ':', error);
+  } else {
+    console.log('Data exported to', fileName);
+  }
+}
+
 function filterDuplicate(data) {
   var seen = {};
   return data.filter(function(item) {
@@ -8,51 +16,24 @@ function filterDuplicate(data) {
   });
 }
 
-function fetchSubjectCode() {
-  // get all subjectCode
-  let url = 'https://app.coursedog.com/api/v1/cm/umn_umntc_peoplesoft/courses/search/$filters?&returnFields=subjectCode&limit=inifnity'
-
-  let fileName = 'subjectCode.json'
-
-  return fetch(url)
-    .then(res => res.json())
-    .then(data => {
-      let subject = filterDuplicate(data.data.map((subject) => subject.subjectCode))
-
-      fs.writeFile(fileName, JSON.stringify(subject),
-        (error) => {
-          if (error) {
-            console.error('Error exporting data to JSON file' + fileName + ':', error);
-          } else {
-            console.log('Data exported to', fileName);
-          }
-        })
-    })
-    //.catch (err)
+function exportSubject() {
+  let filePath = './'
+  let fileName = 'allSubjects.json'
+  let data = require(`../Dog/All`)
+  data = filterDuplicate(data.map(
+    (each) => each.subject
+  ))
+  fs.writeFile(filePath + fileName, JSON.stringify(data), (error) => handleErrorExportJSON(error, fileName))
 }
 
-function fetchCourseNumber() {
-  // get all courseNumber
-  let url = 'https://app.coursedog.com/api/v1/cm/umn_umntc_peoplesoft/courses/search/$filters?&returnFields=courseNumber&limit=inifnity'
-
-  let fileName = 'courseNumber.json'
-
-  return fetch(url)
-    .then(res => res.json())
-    .then(data => {
-      let courseNumber = filterDuplicate(data.data.map((course) => course.courseNumber))
-
-      fs.writeFile(fileName, JSON.stringify(courseNumber),
-        (error) => {
-          if (error) {
-            console.error('Error exporting data to JSON file' + fileName + ':', error);
-          } else {
-            console.log('Data exported to', fileName);
-          }
-        })
-    })
-    //.catch (err)
+// exportSubject()
+let allSubjects = require('./allSubjects.json')
+for (subject of allSubjects) {
+  let filePath = './id/'
+  let fileName = subject + '.json'
+  let data = require(`../Dog/${subject}`)
+  data = filterDuplicate(data.map(
+    (each) => each.id
+  ))
+  fs.writeFile(filePath + fileName, JSON.stringify(data), (error) => handleErrorExportJSON(error, fileName))
 }
-
-fetchSubjectCode()
-fetchCourseNumber()
