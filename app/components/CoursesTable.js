@@ -1,6 +1,6 @@
 "use client";
 import React from "react"
-import Access from "../data/Access";
+import Access from "../data/Old/Access";
 import './styles/CoursesTable.css'
 
 export default function CoursesTable() {
@@ -38,7 +38,6 @@ export default function CoursesTable() {
 
   return (
     <div id="page">
-      <h1 id="title">CSCI COURSES</h1>
       <div id="card_table">
         {formatTable()}
       </div>

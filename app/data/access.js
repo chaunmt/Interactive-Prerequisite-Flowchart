@@ -4,7 +4,7 @@ function extractNumbers(code) { return code.match(/\d+/g) }
 
 export default function Access(SUBJECT) {
 
-  const allCourses = require(`./Dummy/${SUBJECT}.json`);
+  const allCourses = require(`./Dog/${SUBJECT}.json`);
 
   function courses() { return allCourses }
 
