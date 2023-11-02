@@ -37,7 +37,7 @@ export async function getStaticPaths() {
 function buildGraph(subjectCode, courseNumber) {
   console.log("buildgraph:", subjectCode, courseNumber)
   // It's easier to use Access("All") but I figured this would be much more efficient with the full data.
-  let accessor = Access(subjectCode);  // should hopefully eat less RAM, and probably be faster too
+  let accessor = Access(subjectCode)  // should hopefully eat less RAM, and probably be faster too
   /*
    * this is a named lambda (anonymous function), which might seem needlessly complicated,
    * but I needed this part to be recursive and didn't want to declare a whole new helper
@@ -46,8 +46,7 @@ function buildGraph(subjectCode, courseNumber) {
   const rec_helper = function (subj, idnum, acc) {
     console.log(':', subj, idnum)
     let graph = `${subj}_${idnum}[${subj} ${idnum}]\n`
-    // early exit for 0xxx-level courses
-    if (idnum < "1000") { return graph }
+    if (idnum < "1000") { return graph } // early exit for 0xxx-level courses
 
     /* commented out code to make this work for coursedog data
      * uncomment the commented code for post-mvp version (works on dummy data format)
