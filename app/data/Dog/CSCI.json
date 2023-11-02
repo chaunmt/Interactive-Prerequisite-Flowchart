@@ -1,0 +1,2687 @@
+[
+  {
+    "code": "CSCI 1001",
+    "subject": "CSCI",
+    "id": "1001",
+    "title": "Overview of Computer Science",
+    "info": "Foundations/limits of today's computing/information technology. How to reason about applications/technological advances. Policy issues. Algorithms for automating solutions. Abstraction in design/problem solving. Concepts of computer databases, networks, expert systems human-computer interaction, Internet, Web, desktop software, personal computers.",
+    "prereqInfo": "prereq: Non-CSci major, non-CompE major, non-EE major",
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 1101",
+    "subject": "CSCI",
+    "id": "1101",
+    "title": "Intro to Computing",
+    "info": "Problem solving and introduction to programming. Students write simple programs in pseudocode and in one or more programming languages (such as Java, C++ or Scheme). Assumes no programming background and is good preparation for CSci 1113.",
+    "prereqInfo": null,
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 1103",
+    "subject": "CSCI",
+    "id": "1103",
+    "title": "Intro to Java",
+    "info": "Fundamental programming concepts/software development using Java language. Problem solving skills. Algorithm development techniques. Use of abstractions/modularity. Data structures/abstract data types. Substantial programming projects. Weekly lab.\n",
+    "prereqInfo": null,
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 1107",
+    "subject": "CSCI",
+    "id": "1107",
+    "title": "FORTRAN Programming",
+    "info": "Not taught. Credit for transfer students who have taken a freshman- or sophomore-level FORTRAN class.",
+    "prereqInfo": null,
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 1109",
+    "subject": "CSCI",
+    "id": "1109",
+    "title": "C# Programming",
+    "info": "Not taught. Credit for transfer students who have taken a freshman- or sophomore-level C# class.",
+    "prereqInfo": null,
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 1113",
+    "subject": "CSCI",
+    "id": "1113",
+    "title": "Intro to C/C++",
+    "info": "Programming for scientists/engineers. C/C++ programming constructs, object-oriented programming, software development, fundamental numerical techniques. Exercises/examples from various scientific fields.\nThe online modality for CSci 1113 will only be offered during the summer session.",
+    "prereqInfo": "prereq: Math 1271 or Math 1371 or Math 1571H or instr consent.",
+    "prereq": {
+      "course": [
+        {
+          "code": "MATH 1271",
+          "subject": "MATH",
+          "id": "1271"
+        },
+        {
+          "code": "MATH 1371",
+          "subject": "MATH",
+          "id": "1371"
+        },
+        {
+          "code": "MATH 1571H",
+          "subject": "MATH",
+          "id": "1571H"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 1115",
+    "subject": "CSCI",
+    "id": "1115",
+    "title": "Exploring CSCI: C++",
+    "info": "This course is designed as a complement to CSCI 1113 for students who elect to devote additional time to get a broader exposure to concepts and practice of computer science. ",
+    "prereqInfo": "Students will work in small groups to sharpen their problem solving and computational skills, and be exposed to a variety of applications of computing.\n",
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 1121",
+    "subject": "CSCI",
+    "id": "1121",
+    "title": "Introduction to the Internet 1",
+    "info": "Concepts of the internet, analog vs digital communication, networking, packet switching, software protocols. E-mail, search engines, file transfer (ftp), remote login (Telnet). Creating Web pages using HTML and Cascading Style Sheets. Advanced programming concepts such as Java, Perl, and CGI.\n",
+    "prereqInfo": null,
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 1133",
+    "subject": "CSCI",
+    "id": "1133",
+    "title": "Intro to Programming Concepts",
+    "info": "Fundamental programming concepts using Python language. Problem solving skills, recursion, object-oriented programming. Algorithm development techniques. Use of abstractions/modularity. Data structures/abstract data types. Develop programs to solve real-world problems.",
+    "prereqInfo": "prereq: concurrent registration is required (or allowed) in MATH 1271 or concurrent registration is required (or allowed) in MATH 1371 or concurrent registration is required (or allowed) in MATH 1571H or instr consent",
+    "prereq": {
+      "course": [
+        {
+          "code": "MATH 1271",
+          "subject": "MATH",
+          "id": "1271"
+        },
+        {
+          "code": "MATH 1371",
+          "subject": "MATH",
+          "id": "1371"
+        },
+        {
+          "code": "MATH 1571H",
+          "subject": "MATH",
+          "id": "1571H"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 1133H",
+    "subject": "CSCI",
+    "id": "1133H",
+    "title": "Honors Intro to Progr Concepts",
+    "info": "Programming concepts using Python language. Real world problem solving, recursion, object-oriented programming. Algorithm development techniques. Abstractions/modularity. Optional honors topics: programming robots, programming paradigms, artificial intelligence.",
+    "prereqInfo": "prereq: [concurrent registration is required (or allowed) in MATH 1271 or concurrent registration is required (or allowed) in MATH 1371 or concurrent registration is required (or allowed) in MATH 1571H], CSci majors, pre-majors in CSE/CLA, honors student",
+    "prereq": {
+      "course": [
+        {
+          "code": "MATH 1271",
+          "subject": "MATH",
+          "id": "1271"
+        },
+        {
+          "code": "MATH 1371",
+          "subject": "MATH",
+          "id": "1371"
+        },
+        {
+          "code": "MATH 1571H",
+          "subject": "MATH",
+          "id": "1571H"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 1135",
+    "subject": "CSCI",
+    "id": "1135",
+    "title": "Exploring CSCI: Python",
+    "info": "This course is designed as a complement to CSCI 1133 for students who elect to devote additional time to get a broader exposure to concepts and practice of computer science. ",
+    "prereqInfo": "Students will work in small groups to sharpen their problem solving and computational skills, and be exposed to a variety of applications of computing.",
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 1901",
+    "subject": "CSCI",
+    "id": "1901",
+    "title": "Comp  Prog  I",
+    "info": "Recursion as algorithm development technique. Use of abstractions to hide program details. Use of modularity to manage complexity. Objects, data structures. Programming language Scheme as implementation vehicle. Introduction to Python as transition to other programming languages.",
+    "prereqInfo": null,
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 1901H",
+    "subject": "CSCI",
+    "id": "1901H",
+    "title": "Honors Computer Programming",
+    "info": "Key concepts in computer science: recursion, abstraction, modularity, data structures, algorithms, problem solving strategies. Programming languages Scheme and Python. More advanced computer topics as time permits.",
+    "prereqInfo": null,
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 1902",
+    "subject": "CSCI",
+    "id": "1902",
+    "title": "Comp. Prog. II",
+    "info": "Object-oriented programming using language such as C++ or Java. Builds on 1901, presenting additional data structures/algorithms. Object-oriented approach to implement data structures/operations as abstract data types.",
+    "prereqInfo": null,
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 1905",
+    "subject": "CSCI",
+    "id": "1905",
+    "title": "Applied Comp Sci w/Comp Games",
+    "info": "An overview of applied areas of computer science such as artificial\nintelligence, computer graphics, robotics, and user interfaces. Concepts\nfrom these fields are demonstrated by using a commercial computer game\ndevelopment environment to create interactive applications. High school\nalgebra, but no programming experience, is required.",
+    "prereqInfo": null,
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 1913",
+    "subject": "CSCI",
+    "id": "1913",
+    "title": "Intro to Algs. & Program Dev.",
+    "info": "Advanced object oriented programming to implement abstract data types(stacks, queues, linked lists, hash tables, binary trees) using Java language. Searching/sorting algorithms.  Basic algorithmic analysis. Scripting languages using Python language. Substantial programming projects. Weekly lab.",
+    "prereqInfo": "prereq: (EE major and EE 1301) or (CmpE major and EE 1301) or 1103 or 1113 or instr consent",
+    "prereq": {
+      "course": [
+        {
+          "code": "EE 1301",
+          "subject": "EE",
+          "id": "1301"
+        },
+        {
+          "code": "EE 1301",
+          "subject": "EE",
+          "id": "1301"
+        },
+        {
+          "code": "CSCI 1103",
+          "subject": "CSCI",
+          "id": "1103"
+        },
+        {
+          "code": "CSCI 1113",
+          "subject": "CSCI",
+          "id": "1113"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 1923",
+    "subject": "CSCI",
+    "id": "1923",
+    "title": "Python as a Second Language",
+    "info": "Fundamental programming concepts and scripting using the Python language for students already familiar with programming concepts and syntax in C, C++, or Java. File IO and the use of libraries. Develop programs to solve real-world problems. This course is not intended for students who have taken CSCI 1133.",
+    "prereqInfo": "Prereq: CSci 1103 or CSci 1113",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 1103",
+          "subject": "CSCI",
+          "id": "1103"
+        },
+        {
+          "code": "CSCI 1113",
+          "subject": "CSCI",
+          "id": "1113"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 1933",
+    "subject": "CSCI",
+    "id": "1933",
+    "title": "Intro Algs & Data Str.",
+    "info": "Advanced object oriented programming to implement abstract data types (stacks, queues, linked lists, hash tables, binary trees) using Java language. Inheritance. Searching/sorting algorithms. Basic algorithmic analysis.  Use of software development tools. Weekly lab.",
+    "prereqInfo": "prereq: 1133 or instr consent",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 1133",
+          "subject": "CSCI",
+          "id": "1133"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 1933H",
+    "subject": "CSCI",
+    "id": "1933H",
+    "title": "HonorsIntro Algorithm Data Str",
+    "info": "Advanced object oriented programming to implement abstract data types (stacks, queues, linked lists, hash tables, binary trees) using Java language. Inheritance. Searching/sorting algorithms. Basic algorithmic analysis. Use of software development tools. Weekly lab. Optional honors topics: Advanced Java topics, GUI programming, CS research examples.",
+    "prereqInfo": "prereq: [1133 or 1133H] and honors student, or inst consent",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 1133",
+          "subject": "CSCI",
+          "id": "1133"
+        },
+        {
+          "code": "CSCI 1133H",
+          "subject": "CSCI",
+          "id": "1133H"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 1935",
+    "subject": "CSCI",
+    "id": "1935",
+    "title": "Exploring Alg & Data Str",
+    "info": "This course is designed as a complement to CSCI 1933 for students who elect to devote additional time to get a broader exposure to algorithms, data structures, concepts, and practice of computer science. ",
+    "prereqInfo": "Students will work in small groups to sharpen their problem solving and computational skills with a special focus on developing efficient and effective algorithms using fundamental data structures.",
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 2011",
+    "subject": "CSCI",
+    "id": "2011",
+    "title": "Disc. Structures",
+    "info": "Foundations of discrete mathematics. Sets, sequences, functions, big-O, propositional/predicate logic, proof methods, counting methods, recursion/recurrences, relations, trees/graph fundamentals.",
+    "prereqInfo": "prereq: MATH 1271 or MATH 1371 or instr consent",
+    "prereq": {
+      "course": [
+        {
+          "code": "MATH 1271",
+          "subject": "MATH",
+          "id": "1271"
+        },
+        {
+          "code": "MATH 1371",
+          "subject": "MATH",
+          "id": "1371"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 2011H",
+    "subject": "CSCI",
+    "id": "2011H",
+    "title": "Honors Discrete Structures",
+    "info": "Foundations of discrete mathematics. Sets, sequences, functions, big-O, propositional/predicate logic, proof\nmethods, counting methods, recursion/recurrences, relations, trees/graph fundamentals.  Advanced topics in discrete structures as time permits.",
+    "prereqInfo": "prereq: [MATH 1271 or MATH 1371 or MATH 1571H], honors student.",
+    "prereq": {
+      "course": [
+        {
+          "code": "MATH 1271",
+          "subject": "MATH",
+          "id": "1271"
+        },
+        {
+          "code": "MATH 1371",
+          "subject": "MATH",
+          "id": "1371"
+        },
+        {
+          "code": "MATH 1571H",
+          "subject": "MATH",
+          "id": "1571H"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 2021",
+    "subject": "CSCI",
+    "id": "2021",
+    "title": "Machine Architecture and Org",
+    "info": "Introduction to hardware/software components of computer system. Data representation, boolean algebra, machine-level programs, instruction set architecture, processor organization, memory hierarchy, virtual memory,\ncompiling, linking. Programming in C.",
+    "prereqInfo": "prereq: 1913 or 1933 or instr consent",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 1913",
+          "subject": "CSCI",
+          "id": "1913"
+        },
+        {
+          "code": "CSCI 1933",
+          "subject": "CSCI",
+          "id": "1933"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 2031",
+    "subject": "CSCI",
+    "id": "2031",
+    "title": "Intro Num Comp",
+    "info": "Introduction to numerical computing for CSci, mathematics, and science/engineering students. Uses Mathematica or Matlab to cover numerical error, root finding, systems of equations, interpolation, numerical differentiation and integration, least squares, and differential equations.",
+    "prereqInfo": null,
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 2033",
+    "subject": "CSCI",
+    "id": "2033",
+    "title": "Elem Comput Linear Algebra",
+    "info": "Matrices/linear transformations, basic theory. Linear vector spaces. Inner product spaces. Systems of linear equations, Eigenvalues, singular values. Algorithms/computational matrix methods using MATLAB. Use of matrix methods to solve variety of computer science problems.",
+    "prereqInfo": "prereq: [MATH 1271 or MATH 1371], [1113 or 1133 or knowledge of programming concepts]",
+    "prereq": {
+      "course": [
+        {
+          "code": "MATH 1271",
+          "subject": "MATH",
+          "id": "1271"
+        },
+        {
+          "code": "MATH 1371",
+          "subject": "MATH",
+          "id": "1371"
+        },
+        {
+          "code": "CSCI 1113",
+          "subject": "CSCI",
+          "id": "1113"
+        },
+        {
+          "code": "CSCI 1133",
+          "subject": "CSCI",
+          "id": "1133"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 2041",
+    "subject": "CSCI",
+    "id": "2041",
+    "title": "Adv. Programming Principles",
+    "info": "Principles/techniques for creating correct, robust, modular programs. Computing with symbolic data, recursion/induction, functional programming, impact of evaluation strategies, parallelism. Organizing data/computations around types. Search-based programming, concurrency, modularity.",
+    "prereqInfo": "prereq: [1913 or 1933], 2011",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 1913",
+          "subject": "CSCI",
+          "id": "1913"
+        },
+        {
+          "code": "CSCI 1933",
+          "subject": "CSCI",
+          "id": "1933"
+        },
+        {
+          "code": "CSCI 2011",
+          "subject": "CSCI",
+          "id": "2011"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 2081",
+    "subject": "CSCI",
+    "id": "2081",
+    "title": "Intro. Software Development",
+    "info": "echniques for design and development of software using Java. Introduction to object-oriented programming and design, integrated development environments, inheritance, and polymorphism. Software design principles, testing and debugging, and use of project management tools. Implementation of a software project using data structures, files, and I/O. This course is intended for non-CS Majors. ",
+    "prereqInfo": "prereq: CSCI 1133 or CSCI 1133H",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 1133",
+          "subject": "CSCI",
+          "id": "1133"
+        },
+        {
+          "code": "CSCI 1133H",
+          "subject": "CSCI",
+          "id": "1133H"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 2101",
+    "subject": "CSCI",
+    "id": "2101",
+    "title": "Issues in Computing",
+    "info": "Impact of computers on society. Computer science perspective of ethical, legal, social, philosophical, political, and economic aspects of computing.",
+    "prereqInfo": null,
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 2121",
+    "subject": "CSCI",
+    "id": "2121",
+    "title": "Introduction to the Internet 2",
+    "info": "Programming for the Internet using HTML, JavaScript, and Perl. CGI, database programming with Perl. Database concepts such as relational vs object oriented database technologies, querying data using SQL. Interfacing databases to the Web. E-commerce, emerging trends such as XML.",
+    "prereqInfo": null,
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 2915",
+    "subject": "CSCI",
+    "id": "2915",
+    "title": "Teaching Methods in CS",
+    "info": "This is a seminar on teaching and learning for undergraduate teaching assistants (TAs) of CSci classes. Enrollment is by instructor or department permission. The course's main goal is to help TAs improve their knowledge of teaching and learning in computer science so they can be effective TAs. Topics covered include educational issues in computer science, TA professionalism, best practices in giving effective feedback, inclusive teaching, online teaching and learning, and how to communicate well with students and other course staff. Its secondary goals are to help TAs improve their own communication skills, leadership skills, and knowledge of computer science as a field.",
+    "prereqInfo": null,
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 2980",
+    "subject": "CSCI",
+    "id": "2980",
+    "title": "Spec topics in CSci",
+    "info": "Special topics. Lectures, informal discussions.",
+    "prereqInfo": null,
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 2999",
+    "subject": "CSCI",
+    "id": "2999",
+    "title": "Special Exam",
+    "info": "",
+    "prereqInfo": null,
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 3003",
+    "subject": "CSCI",
+    "id": "3003",
+    "title": "Intro to Computing in Biology",
+    "info": "This course builds computational skills needed to carry out basic data analysis tasks common in modern biology. Students will learn computing concepts (algorithm development, data structures, complexity analysis) along with practical programming skills in Python and R. No previous programming knowledge assumed. ",
+    "prereqInfo": "Prereq: introductory biology course.",
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 3041",
+    "subject": "CSCI",
+    "id": "3041",
+    "title": "Intro Disc. Struct/Algorithms",
+    "info": "Overview of strategies and techniques for the design and analysis of algorithms. Logic and proof techniques, asymptotic notation, recurrences, graphs and relations. Algorithm design strategies and examples from graph algorithms, greedy, divide-and-conquer, and dynamic programming. This course is intended for non-CS Majors. ",
+    "prereqInfo": "prerequisite: CSci 2081, concurrent registration with CSci 2081 and upper class standing, or instructor permission.",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 2081",
+          "subject": "CSCI",
+          "id": "2081"
+        },
+        {
+          "code": "CSCI 2081",
+          "subject": "CSCI",
+          "id": "2081"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 3061",
+    "subject": "CSCI",
+    "id": "3061",
+    "title": "Intro to Computer Systems",
+    "info": "Overview of the organization and interfaces of computing systems. Basics of machine organization, data representation, memory hierarchy and assembly language/ISA. Systems programming in C/C++, including memory management, files, processes and interprocess communication. This course is intended for non-CS Majors.",
+    "prereqInfo": "prereq: CSci 2081 or instructor permission\n",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 2081",
+          "subject": "CSCI",
+          "id": "2081"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 3081W",
+    "subject": "CSCI",
+    "id": "3081W",
+    "title": "Program Design & Development",
+    "info": "Principles of programming design/analysis. Concepts in software development. Uses a programming project to illustrate key ideas in program design/development, data structures, debugging, files, I/O, testing, and coding standards. ",
+    "prereqInfo": "prereq: [2021, 2041]; CS upper div, CS grad, or dept. permission",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 2021",
+          "subject": "CSCI",
+          "id": "2021"
+        },
+        {
+          "code": "CSCI 2041",
+          "subject": "CSCI",
+          "id": "2041"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 3901",
+    "subject": "CSCI",
+    "id": "3901",
+    "title": "Intro Undergrad Research in CS",
+    "info": "This seminar will prepare students to engage in undergraduate research in computer science by introducing and exploring the cycle involved in academic research. Students will learn how to access, read and evaluate credible literature, develop a research problem and hypothesis, select an appropriate methodology, and how to write a short research proposal. Students will engage with departmental research faculty through research talks and will explore and apply for research programs that are available (e.g. URGO, McNair, DREU.) Students will know what research entails, how it is performed, and why it can enhance an undergraduate experience.",
+    "prereqInfo": null,
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 3901H",
+    "subject": "CSCI",
+    "id": "3901H",
+    "title": "Intro Undergrad Research in CS",
+    "info": "This seminar will prepare students to engage in undergraduate research in computer science by introducing and exploring the cycle involved in academic research. Students will learn how to access, read and evaluate credible literature, develop a research problem and hypothesis, select an appropriate methodology, and how to write a short research proposal. Students will engage with departmental research faculty through research talks and will explore and apply for research programs that are available (e.g. URGO, McNair, DREU.) Students will know what research entails, how it is performed, and why it can enhance an undergraduate experience.",
+    "prereqInfo": null,
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 3921W",
+    "subject": "CSCI",
+    "id": "3921W",
+    "title": "Issues in Computing",
+    "info": "Impact of computers on society. Computer science perspective of ethical, legal, social, philosophical, political, and economic aspects of computing.",
+    "prereqInfo": "prereq: At least soph or instr consent",
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 3923",
+    "subject": "CSCI",
+    "id": "3923",
+    "title": "Ethics in Computing",
+    "info": "An introduction to ethics and computing, including ethical principles and codes, professional conduct and responsibilities, basics of topics such as freedom of speech and intellectual property, computing and current societal issues, data collection and privacy issues, fairness and related issues, and benefits and harms of computing systems.",
+    "prereqInfo": null,
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 3970",
+    "subject": "CSCI",
+    "id": "3970",
+    "title": "Indust Co-op",
+    "info": "Industrial work assignment in a co-op program involving advanced\ncomputer technology. Reviewed by a faculty member. Grade based on final written report.",
+    "prereqInfo": "prereq: CSci, in co-op program, instr consent",
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 3980",
+    "subject": "CSCI",
+    "id": "3980",
+    "title": "UG colloquium",
+    "info": "Current computing trends and hot topics; industrial and career related topics; research topics; research projects and undergraduate research\nopportunities; graduate school options.",
+    "prereqInfo": "prereq: Upper div CSci; can be repeated for cr",
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 4011",
+    "subject": "CSCI",
+    "id": "4011",
+    "title": "Form Lang & Autom.",
+    "info": "Logical/mathematical foundations of computer science. Formal languages, their correspondence to machine models. Lexical analysis, string matching, parsing. Decidability, undecidability, limits of computability. Computational complexity.",
+    "prereqInfo": "prereq: 2041 or instr consent",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 2041",
+          "subject": "CSCI",
+          "id": "2041"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 4041",
+    "subject": "CSCI",
+    "id": "4041",
+    "title": "Algs. & Data Str.",
+    "info": "Rigorous analysis of algorithms/implementation. Algorithm analysis, sorting algorithms, binary trees, heaps, priority queues, heapsort, balanced binary search trees, AVL trees, hash tables and hashing, graphs, graph traversal, single source shortest path, minimum cost spanning trees.",
+    "prereqInfo": "prereq: [(1913 or 1933) and 2011] or instr consent; cannot be taken for grad CSci cr",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 1913",
+          "subject": "CSCI",
+          "id": "1913"
+        },
+        {
+          "code": "CSCI 1933",
+          "subject": "CSCI",
+          "id": "1933"
+        },
+        {
+          "code": "CSCI 2011",
+          "subject": "CSCI",
+          "id": "2011"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 4041H",
+    "subject": "CSCI",
+    "id": "4041H",
+    "title": "Algs. & Data Str.",
+    "info": "Rigorous analysis of algorithms/implementation. Algorithm analysis, sorting algorithms, binary trees, heaps, priority queues, heapsort, balanced binary search trees, AVL trees, hash tables/hashing, graphs, graph traversal, single source shortest path, minimum cost spanning trees.",
+    "prereqInfo": "prereq: [(1913 or 1933) and 2011, honors student] or instr consent. Cannot be taken for Grad CSci cr",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 1913",
+          "subject": "CSCI",
+          "id": "1913"
+        },
+        {
+          "code": "CSCI 1933",
+          "subject": "CSCI",
+          "id": "1933"
+        },
+        {
+          "code": "CSCI 2011",
+          "subject": "CSCI",
+          "id": "2011"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 4061",
+    "subject": "CSCI",
+    "id": "4061",
+    "title": "Intro to Operating Systems",
+    "info": "Processes/threads, process coordination, interprocess communication, asynchronous events, memory management/file systems. Systems programming projects using operating system interfaces and program development tools.",
+    "prereqInfo": "prereq: 2021 or EE 2361; CS upper div, CompE upper div., EE upper div., EE grad, ITI upper div., Univ. honors student, or dept. permission; no cr for grads in CSci.",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 2021",
+          "subject": "CSCI",
+          "id": "2021"
+        },
+        {
+          "code": "EE 2361",
+          "subject": "EE",
+          "id": "2361"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 4081W",
+    "subject": "CSCI",
+    "id": "4081W",
+    "title": "Intro Soft Eng",
+    "info": "Basic theory and practice of software engineering. Software development, requirements/specifications, design, verification, and validation.",
+    "prereqInfo": null,
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 4089",
+    "subject": "CSCI",
+    "id": "4089",
+    "title": "Intro Soft Eng (non-WI)",
+    "info": "Basic theory/practice of software engineering. Software development, requirements/specifications, design, verification, and validation.",
+    "prereqInfo": null,
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 4107",
+    "subject": "CSCI",
+    "id": "4107",
+    "title": "Intro to Computer Graphics",
+    "info": "Theory/practice of computer graphics programming using C/C++ and OpenGL.  Practical concepts in computer graphics modeling, rendering, and animation. Emphasizes effective use of graphics toolkits.",
+    "prereqInfo": null,
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 4131",
+    "subject": "CSCI",
+    "id": "4131",
+    "title": "Internet Programming",
+    "info": "Issues in internet programming. Internet history, architecture/protocols, network programming, Web architecture. Client-server architectures and protocols. Client-side programming, server-side programming, dynamic HTML, Java programming, object-oriented architecture/design, distributed object computing, Web applications.",
+    "prereqInfo": "prereq: 4061, 4211 recommended, cannot be taken for grad CSci cr",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 4061",
+          "subject": "CSCI",
+          "id": "4061"
+        },
+        {
+          "code": "CSCI 4211",
+          "subject": "CSCI",
+          "id": "4211"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 4203",
+    "subject": "CSCI",
+    "id": "4203",
+    "title": "Comp. Architecture",
+    "info": "Introduction to computer architecture. Aspects of computer systems, such as pipelining, memory hierarchy, and input/output systems. Performance metrics. Examins each component of a complicated computer system.",
+    "prereqInfo": "prereq: 2021 or instr consent",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 2021",
+          "subject": "CSCI",
+          "id": "2021"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 4211",
+    "subject": "CSCI",
+    "id": "4211",
+    "title": "Intro to Computer Networks",
+    "info": "Concepts, principles, protocols, and applications of computer networks. Layered network architectures, data link protocols, local area networks, routing, transport, network programming interfaces, networked applications. Examples from Ethernet, Token Ring, TCP/IP, HTTP, WWW.",
+    "prereqInfo": "prereq: 4061 or instr consent; basic knowledge of [computer architecture, operating systems] recommended, cannot be taken for grad CSci cr",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 4061",
+          "subject": "CSCI",
+          "id": "4061"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 4271W",
+    "subject": "CSCI",
+    "id": "4271W",
+    "title": "Dev. Secure Software Sys.",
+    "info": "Overview of threat modeling and security assessment in the design and development of software systems. Techniques to identify, exploit, detect, mitigate and prevent software vulnerabilities at the design, coding, application, compiler, operating system, and networking layers. Methods for effectively communicating system designs and vulnerabilities. ",
+    "prereqInfo": "Prerequisites: 3081W",
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 4511W",
+    "subject": "CSCI",
+    "id": "4511W",
+    "title": "Intro: Artificial Intelligence",
+    "info": "Problem solving, search, inference techniques. Knowledge representation. Planning. Machine learning. Robotics. Lisp programming language. Cannot be taken for grad CSci credit.",
+    "prereqInfo": "prereq: 2041 or instr consent",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 2041",
+          "subject": "CSCI",
+          "id": "2041"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 4611",
+    "subject": "CSCI",
+    "id": "4611",
+    "title": "Programming Graphics and Games",
+    "info": "Tools/techniques for programming games/interactive computer graphics. Event loops, rendering/animation, polygonal models, texturing, physical simulation. Modern graphics toolkits. History/future of computer games technology. Social impact of interactive computer graphics.",
+    "prereqInfo": "prereq: 2021 or instr consent",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 2021",
+          "subject": "CSCI",
+          "id": "2021"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 4707",
+    "subject": "CSCI",
+    "id": "4707",
+    "title": "Practice of DB Systems",
+    "info": "Concepts, conceptual data models, case studies, common data manipulation languages, logical data models, database design, facilities for database security/integrity, applications.",
+    "prereqInfo": "prereq: 4041 or instr consent",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 4041",
+          "subject": "CSCI",
+          "id": "4041"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 4921",
+    "subject": "CSCI",
+    "id": "4921",
+    "title": "Hist of Computing",
+    "info": "Developments in last 150 years; evolution of hardware and software; growth of computer and semiconductor industries and their relation to other businesses; changing relationships resulting from new data-gathering and analysis techniques; automation; social and ethical issues.  ",
+    "prereqInfo": null,
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 4950",
+    "subject": "CSCI",
+    "id": "4950",
+    "title": "Senior Software Project",
+    "info": "Student teams develop a software system, distribute system to users, and extend/maintain it in response to their needs.  Software engineering techniques. Software development, team participation, leadership.",
+    "prereqInfo": "prereq: Upper div CSci, instr consent",
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 4970W",
+    "subject": "CSCI",
+    "id": "4970W",
+    "title": "Adv. Project",
+    "info": "Formulate and solve open-ended project: design, implement, interface, document, test. Team work strongly encouraged. Arranged with CSci faculty.",
+    "prereqInfo": "prereq: Upper div CSci, 4061, instr consent; cannot be taken for grad cr",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 4061",
+          "subject": "CSCI",
+          "id": "4061"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 4980",
+    "subject": "CSCI",
+    "id": "4980",
+    "title": "Spec Topics in CSci for UGs",
+    "info": "Lectures and informal discussions on current topics in computer science.",
+    "prereqInfo": "prereq: Undergrad, instr consent; no cr for grads in [CSci or CompE]",
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 4994H",
+    "subject": "CSCI",
+    "id": "4994H",
+    "title": "Honors Thesis",
+    "info": "Research work for an honors thesis arranged with a CS faculty member who is the adviser or coadviser.",
+    "prereqInfo": "prereq: Honors student, instr consent",
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 5103",
+    "subject": "CSCI",
+    "id": "5103",
+    "title": "Oper. Systems",
+    "info": "Conceptual foundation of operating system designs and implementations. Relationships between operating system structures and machine architectures. UNIX implementation mechanisms as examples.",
+    "prereqInfo": "prereq: 4061 or instr consent",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 4061",
+          "subject": "CSCI",
+          "id": "4061"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 5104",
+    "subject": "CSCI",
+    "id": "5104",
+    "title": "System Modeling",
+    "info": "Techniques for modeling computing systems for performance evaluation through analytical/simulation techniques. How to model computing systems and communications protocols to evaluate their performance under different operating conditions.",
+    "prereqInfo": null,
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 5105",
+    "subject": "CSCI",
+    "id": "5105",
+    "title": "Intro to Distributed Systems",
+    "info": "Distributed system design and implementation. Distributed communication and synchronization, data replication and consistency, distributed file systems, fault tolerance, and distributed scheduling.",
+    "prereqInfo": "prereq: [5103 or equiv] or instr consent",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 5103",
+          "subject": "CSCI",
+          "id": "5103"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 5106",
+    "subject": "CSCI",
+    "id": "5106",
+    "title": "Prog. Languages",
+    "info": "Design and implementation of high-level languages. Course has two parts: (1) language design principles, concepts, constructs; (2) language paradigms, applications. Note: course does not teach how to program in specific languages.",
+    "prereqInfo": "prereq: 4011 or instr consent",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 4011",
+          "subject": "CSCI",
+          "id": "4011"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 5115",
+    "subject": "CSCI",
+    "id": "5115",
+    "title": "User Interface Dsgn",
+    "info": "Theory, design, programming, and evaluation of interactive application interfaces. Human capabilities and limitations, interface design and engineering, prototyping and interface construction, interface evaluation, and topics such as data visualization and World Wide Web. Course is built around a group project.",
+    "prereqInfo": "prereq: 4041 or instr consent",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 4041",
+          "subject": "CSCI",
+          "id": "4041"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 5116",
+    "subject": "CSCI",
+    "id": "5116",
+    "title": "GUI Toolkits",
+    "info": "Structure and design of user interface toolkits and frameworks. Aspects of GUI toolkits (e.g., window system protocols, event processing, geometry management, resource management, data management, constraints). Course is built around implementation assignments and case studies of toolkits.",
+    "prereqInfo": null,
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 5117",
+    "subject": "CSCI",
+    "id": "5117",
+    "title": "Developing the Interactive Web",
+    "info": "Hands-on design experience using modern web development tools. Students work in teams to develop software programs using each of four toolkits. Analyze developments in forum posts and classroom discussions.",
+    "prereqInfo": "prereq: 4131 or 5131 or instr consent; upper div or grad in CSci recommended",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 4131",
+          "subject": "CSCI",
+          "id": "4131"
+        },
+        {
+          "code": "CSCI 5131",
+          "subject": "CSCI",
+          "id": "5131"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 5123",
+    "subject": "CSCI",
+    "id": "5123",
+    "title": "Recommender Systems",
+    "info": "An overview of recommender systems, including content-based and collaborative algorithms for recommendation, programming of recommender systems, and evaluation and metrics for recommender systems.",
+    "prereqInfo": "prereq: Java programming and 2033 and 3081, or instructor consent.",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 2033",
+          "subject": "CSCI",
+          "id": "2033"
+        },
+        {
+          "code": "CSCI 3081",
+          "subject": "CSCI",
+          "id": "3081"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 5125",
+    "subject": "CSCI",
+    "id": "5125",
+    "title": "Collab & Soc Computing",
+    "info": "Introduction to computer-supported cooperative work, social computing. Technology, research methods, theory, case studies of group computing systems. Readings, hands-on experience.",
+    "prereqInfo": "prereq: 5115 or instr consent",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 5115",
+          "subject": "CSCI",
+          "id": "5115"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 5127W",
+    "subject": "CSCI",
+    "id": "5127W",
+    "title": "Embodied Computing",
+    "info": "In this course, you will learn and apply the principles of embodied computing to human-centered challenges. Through a semester-long team project, you will learn and demonstrate mastery of human-centered embodied computing through two phases: (1) investigating human needs and current embodied practices and (2) rapidly prototyping and iterating embodied computing solutions. One of the ways you will demonstrate this mastery is through the collaborative creation of a written document and project capstone video describing your process and prototype.",
+    "prereqInfo": "prereq: CSci 4041, upper division or graduate student, or instructor permission; CSci 5115 or equivalent recommended.",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 4041",
+          "subject": "CSCI",
+          "id": "4041"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 5129",
+    "subject": "CSCI",
+    "id": "5129",
+    "title": "Online Intervention Design",
+    "info": "Planning, design, implementation, and evaluation of Internet-based public health interventions. Students work on interdisciplinary team projects. Instructors and students drawn from computer science, public health, and communications disciplines.  ",
+    "prereqInfo": null,
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 5131",
+    "subject": "CSCI",
+    "id": "5131",
+    "title": "Adv. Internet Programming",
+    "info": "Issues in Internet programming: Java programming, concurrent programming, workflow, distributed databases, security, collaborative computing, object-oriented architecture/design, network publishing, messaging architecture, distributed object computing, internets. ",
+    "prereqInfo": null,
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 5143",
+    "subject": "CSCI",
+    "id": "5143",
+    "title": "Real-Time and Embedded Systems",
+    "info": "Real-time systems that require timely response by computer to external stimulus. Embedded systems in which computer is part of machine. Increasing importance of these systems in commercial products. How to control robots and video game consoles. Lecture, informal lab.",
+    "prereqInfo": "prereq: [4061 or instr consent], experience with C language",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 4061",
+          "subject": "CSCI",
+          "id": "4061"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 5161",
+    "subject": "CSCI",
+    "id": "5161",
+    "title": "Intro Compilers",
+    "info": "Techniques for translating modern programming languages to intermediate forms or machine-executable instructions/their organization into compiler. Lexical analysis, syntax analysis, semantic analysis, data flow analysis, code generation. Compiler project for prototypical language.",
+    "prereqInfo": "prereq: [2021, 5106] or instr consent",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 2021",
+          "subject": "CSCI",
+          "id": "2021"
+        },
+        {
+          "code": "CSCI 5106",
+          "subject": "CSCI",
+          "id": "5106"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 5204",
+    "subject": "CSCI",
+    "id": "5204",
+    "title": "Adv Comp Arch",
+    "info": "Instruction set architecture, processor microarchitecture, memory, I/O systems. Interactions between computer software and hardware. Methodologies of computer design.",
+    "prereqInfo": "prereq: 4203 or EE 4363",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 4203",
+          "subject": "CSCI",
+          "id": "4203"
+        },
+        {
+          "code": "EE 4363",
+          "subject": "EE",
+          "id": "4363"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 5211",
+    "subject": "CSCI",
+    "id": "5211",
+    "title": "Data Comm & Computer Networks",
+    "info": "Concepts, principles, protocols, and applications of computer networks. Layered network architectures, data link protocols, local area networks, network layer/routing protocols, transport, congestion/flow control, emerging high-speed networks, network programming interfaces, networked applications. Case studies using Ethernet, Token Ring, FDDI, TCP/IP, ATM, Email, HTTP, and WWW.",
+    "prereqInfo": "prereq: [4061 or instr consent], basic knowledge of [computer architecture, operating systems, probability], grad student",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 4061",
+          "subject": "CSCI",
+          "id": "4061"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 5212",
+    "subject": "CSCI",
+    "id": "5212",
+    "title": "Network Prog & Adm",
+    "info": "Network and distributed programming concepts using C, C++, or Java on UNIX or PC platforms. TCP/IP, sockets, and RPC. Hands on experience with network components. Students plan, configure, install, diagnose, performance tune, operate, and manage state-of-the-art computer networks, internetworking devices, and protocols.",
+    "prereqInfo": null,
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 5221",
+    "subject": "CSCI",
+    "id": "5221",
+    "title": "Foundations of Adv Networking",
+    "info": "Design principles, protocol mechanisms. Network algorithmics, implementation techniques. Advanced network architectures, state-of-art/emerging networking technologies/applications, network modeling. Simulation, experiments.",
+    "prereqInfo": "prereq: 4211 or 5211 or equiv; intro course in computer networks recommended",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 4211",
+          "subject": "CSCI",
+          "id": "4211"
+        },
+        {
+          "code": "CSCI 5211",
+          "subject": "CSCI",
+          "id": "5211"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 5231",
+    "subject": "CSCI",
+    "id": "5231",
+    "title": "Wireless and Sensor Networks",
+    "info": "Enabling technologies, including hardware, embedded operating systems, programming environment, communication, networking, and middleware services. Hands-on experience in programming tiny communication devices.",
+    "prereqInfo": "prereq: 4211 or 5211 or instr consent",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 4211",
+          "subject": "CSCI",
+          "id": "4211"
+        },
+        {
+          "code": "CSCI 5211",
+          "subject": "CSCI",
+          "id": "5211"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 5271",
+    "subject": "CSCI",
+    "id": "5271",
+    "title": "Intro to Computer Security",
+    "info": "Concepts of computer, network, and information security.\nRisk analysis, authentication, access control, security evaluation, audit trails, cryptography, network/database/application security, viruses, firewalls.",
+    "prereqInfo": "prereq: 4061 or 5103 or equiv or instr consent",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 4061",
+          "subject": "CSCI",
+          "id": "4061"
+        },
+        {
+          "code": "CSCI 5103",
+          "subject": "CSCI",
+          "id": "5103"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 5283",
+    "subject": "CSCI",
+    "id": "5283",
+    "title": "Comp Aid Dsgn I",
+    "info": "CAD for digital systems. Emphasizes VLSI. Hardware description languages, synthesis, simulation, test generation.",
+    "prereqInfo": null,
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 5284",
+    "subject": "CSCI",
+    "id": "5284",
+    "title": "Comp Aided Dsgn II",
+    "info": "CAD for digital systems. Emphasizes VLSI. Physical design: partitioning, placement and routing, electrical rule checks. Inherent complexity of algorithms. Analysis of best known algorithms.",
+    "prereqInfo": null,
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 5285",
+    "subject": "CSCI",
+    "id": "5285",
+    "title": "CAD of VLSI",
+    "info": "CAD for digital systems. Emphasizes VLSI. Physical design: partitioning, placement/routing, electrical rule checks. Inherent complexity of algorithms. Analysis of best known algorithms.",
+    "prereqInfo": null,
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 5301",
+    "subject": "CSCI",
+    "id": "5301",
+    "title": "Num Analysis",
+    "info": "Fundamentals of numerical analysis. Differs from 2031 by covering different set of topics and in more detail. Floating point arithmetic and roundoff error, linear/nonlinear equations, matrix eigenvalue problems, linear programming.",
+    "prereqInfo": null,
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 5302",
+    "subject": "CSCI",
+    "id": "5302",
+    "title": "Analysis Num Algs",
+    "info": "Additional topics in numerical analysis. Interpolation, approximation, extrapolation, numerical integration/differentiation, numerical solutions of ordinary differential equations. Introduction to optimization techniques.",
+    "prereqInfo": "prereq: 2031 or 2033 or instr consent",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 2031",
+          "subject": "CSCI",
+          "id": "2031"
+        },
+        {
+          "code": "CSCI 2033",
+          "subject": "CSCI",
+          "id": "2033"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 5304",
+    "subject": "CSCI",
+    "id": "5304",
+    "title": "Matrix Theory",
+    "info": "Perturbation theory for linear systems and eigenvalue problems. Direct/iterative solution of large linear systems. Matrix factorizations. Computation of eigenvalues/eigenvectors. Singular value decomposition. LAPACK/other software packages. Introduction to sparse matrix methods.",
+    "prereqInfo": "prereq: 2031 or 2033 or instr consent",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 2031",
+          "subject": "CSCI",
+          "id": "2031"
+        },
+        {
+          "code": "CSCI 2033",
+          "subject": "CSCI",
+          "id": "2033"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 5315",
+    "subject": "CSCI",
+    "id": "5315",
+    "title": "Num methods for ODE",
+    "info": "Initial and boundary value problems. Runge-Kutta, multistep, and extrapolation methods. Basic theory for convergence, order, and stability. Mathematical software. Solution methods based on shooting, multiple shooting, and collocation techniques. Application of methods and theory from numerical ODEs to the solution of PDEs via the method of lines.",
+    "prereqInfo": null,
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 5321",
+    "subject": "CSCI",
+    "id": "5321",
+    "title": "Linear & Nonlinear Programming",
+    "info": "Standard form for linear programming (LP), simplex method and geometry of LP, revised simplex method, duality theory and sensitivity, approximation of data by LP, interior methods, affine scaling algorithms, unconstrained optimization.",
+    "prereqInfo": null,
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 5403",
+    "subject": "CSCI",
+    "id": "5403",
+    "title": "Comp complexity",
+    "info": "Computational models, complexity measures in each model, and related complexity classes.",
+    "prereqInfo": "prereq: 4041 or instr consent",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 4041",
+          "subject": "CSCI",
+          "id": "4041"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 5421",
+    "subject": "CSCI",
+    "id": "5421",
+    "title": "Adv. Algs. & Data",
+    "info": "Fundamental paradigms of algorithm and data structure design.  Divide-and-conquer, dynamic programming, greedy method, graph algorithms, amortization, priority queues and variants, search structures, disjoint-set structures. Theoretical underpinnings. Examples from various problem domains.",
+    "prereqInfo": "prereq: 4041 or instr consent",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 4041",
+          "subject": "CSCI",
+          "id": "4041"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 5451",
+    "subject": "CSCI",
+    "id": "5451",
+    "title": "Intro Parall Comput",
+    "info": "Parallel architectures design, embeddings, routing. Examples of parallel computers. Fundamental communication operations. Performance metrics. Parallel algorithms for sorting. Matrix problems, graph problems, dynamic load balancing, types of parallelisms. Parallel programming paradigms. Message passing programming in MPI. Shared-address space programming in openMP or threads.",
+    "prereqInfo": "prereq: 4041 or instr consent",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 4041",
+          "subject": "CSCI",
+          "id": "4041"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 5461",
+    "subject": "CSCI",
+    "id": "5461",
+    "title": "Fun. Gen., Sys. Bio, & Bioinf.",
+    "info": "Computational methods for analyzing, integrating, and\nderiving predictions from genomic/proteomic data. Analyzing gene expression, proteomic data, and protein-protein interaction networks. Protein/gene function prediction, Integrating diverse data, visualizing genomic datasets.",
+    "prereqInfo": "prereq: 3003 or 4041 or instr consent",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 3003",
+          "subject": "CSCI",
+          "id": "3003"
+        },
+        {
+          "code": "CSCI 4041",
+          "subject": "CSCI",
+          "id": "4041"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 5465",
+    "subject": "CSCI",
+    "id": "5465",
+    "title": "Intro to Comput for Biologists",
+    "info": "This course is designed for graduate students in biology or other related sciences that wish to learn fundamental computing skills that will enable them to develop their own computational approaches for meaningful interpretation of scientific data. Students will complete programming assignments in Python and R. No previous programming knowledge assumed. ",
+    "prereqInfo": "Prereq: Introductory biology course; non-CSE students only.",
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 5471",
+    "subject": "CSCI",
+    "id": "5471",
+    "title": "Modern Cryptography",
+    "info": "Introduction to cryptography. Theoretical foundations, practical applications. Threats, attacks, and countermeasures, including cryptosystems and cryptographic protocols. Secure systems/networks. History of cryptography, encryption (conventional, public key), digital signatures, hash functions, message authentication codes, identification, authentication, applications.",
+    "prereqInfo": "prereq: [2011, 4041, [familiarity with number theory or finite fields]] or instr consent",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 2011",
+          "subject": "CSCI",
+          "id": "2011"
+        },
+        {
+          "code": "CSCI 4041",
+          "subject": "CSCI",
+          "id": "4041"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 5481",
+    "subject": "CSCI",
+    "id": "5481",
+    "title": "Computational Techs. Genomics",
+    "info": "Techniques to analyze biological data generated by genome sequencing, proteomics, cell-wide measurements of gene expression changes. Algorithms for single/multiple sequence alignments/assembly. Search algorithms for sequence databases, phylogenetic tree construction algorithms. Algorithms for gene/promoter and protein structure prediction. Data mining for micro array expression analysis. Reverse engineering of regulatory networks.",
+    "prereqInfo": "prereq: 4041 or instr consent",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 4041",
+          "subject": "CSCI",
+          "id": "4041"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 5511",
+    "subject": "CSCI",
+    "id": "5511",
+    "title": "Artific Intellig I",
+    "info": "Introduction to AI. Problem solving, search, inference techniques. Logic/theorem proving. Knowledge representation, rules, frames, semantic networks. Planning/scheduling. Lisp programming language.",
+    "prereqInfo": "prereq: [2041 or instr consent], grad student",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 2041",
+          "subject": "CSCI",
+          "id": "2041"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 5512",
+    "subject": "CSCI",
+    "id": "5512",
+    "title": "Artif Intelligence II",
+    "info": "Uncertainty in artificial intelligence. Probability as a model of uncertainty, methods for reasoning/learning under uncertainty, utility theory, decision-theoretic methods.",
+    "prereqInfo": "prereq: [STAT 3021, 4041] or instr consent",
+    "prereq": {
+      "course": [
+        {
+          "code": "STAT 3021",
+          "subject": "STAT",
+          "id": "3021"
+        },
+        {
+          "code": "CSCI 4041",
+          "subject": "CSCI",
+          "id": "4041"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 5512W",
+    "subject": "CSCI",
+    "id": "5512W",
+    "title": "Artif Intellig II",
+    "info": "Uncertainty in artificial intelligence. Probability as a model of uncertainty, methods for reasoning/learning under uncertainty, utility theory, decision-theoretic methods.",
+    "prereqInfo": null,
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 5521",
+    "subject": "CSCI",
+    "id": "5521",
+    "title": "Machine Learning Fundamentals",
+    "info": "Problems of pattern recognition, feature selection, measurement techniques. Statistical decision theory, nonstatistical techniques. Automatic feature selection/data clustering. Syntactic pattern recognition. Mathematical pattern recognition/artificial intelligence.",
+    "prereqInfo": "Prereq: [2031 or 2033], STAT 3021, and knowledge of partial derivatives",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 2031",
+          "subject": "CSCI",
+          "id": "2031"
+        },
+        {
+          "code": "CSCI 2033",
+          "subject": "CSCI",
+          "id": "2033"
+        },
+        {
+          "code": "STAT 3021",
+          "subject": "STAT",
+          "id": "3021"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 5523",
+    "subject": "CSCI",
+    "id": "5523",
+    "title": "Introduction to Data Mining",
+    "info": "Data pre-processing techniques, data types, similarity measures, data visualization/exploration. Predictive models (e.g., decision trees, SVM, Bayes, K-nearest neighbors, bagging, boosting). Model evaluation techniques, Clustering (hierarchical, partitional, density-based), association analysis, anomaly detection. Case studies from areas such as earth science, the Web, network intrusion, and genomics. Hands-on projects.",
+    "prereqInfo": "prereq: 4041 or equiv or instr consent",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 4041",
+          "subject": "CSCI",
+          "id": "4041"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 5525",
+    "subject": "CSCI",
+    "id": "5525",
+    "title": "Advanced Machine Learning",
+    "info": "Models of learning. Supervised algorithms such as perceptrons, logistic regression, and large margin methods (SVMs, boosting). Hypothesis evaluation. Learning theory. Online algorithms such as winnow and weighted majority. Unsupervised algorithms, dimensionality reduction, spectral methods. Graphical models.",
+    "prereqInfo": "prereq: Grad student or instr consent",
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 5527",
+    "subject": "CSCI",
+    "id": "5527",
+    "title": "Deep Learning",
+    "info": "This course introduces the basic ingredients of deep learning, describes effective models and computational principles, and samples important applications. Topics include universal approximation theorems, basics of numerical optimization, auto-differentiation, convolution neural networks, recurrent neural networks, generative neural networks, representation learning, and deep reinforcement learning. ",
+    "prereqInfo": "Prerequisite: CSCI 5521 or equivalent",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 5521",
+          "subject": "CSCI",
+          "id": "5521"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 5541",
+    "subject": "CSCI",
+    "id": "5541",
+    "title": "Natural Language Processing",
+    "info": "Computers are poor conversationalists, despite decades of attempts to change that fact. This course will provide an overview of the computational techniques developed in the attempt to enable computers to interpret and respond appropriately to ideas expressed using natural languages (such as English or French) as opposed to formal languages (such as C++ or Python). Topics in this course will include parsing, semantic analysis, machine translation, dialogue systems, and statistical methods in speech recognition.",
+    "prereqInfo": "Suggested prerequisite: CSCI 2041",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 2041",
+          "subject": "CSCI",
+          "id": "2041"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 5551",
+    "subject": "CSCI",
+    "id": "5551",
+    "title": "Robotics",
+    "info": "Transformations, kinematics/inverse kinematics, dynamics, control. Sensing (robot vision, force control, tactile sensing), applications of sensor-based robot control, robot programming, mobile robotics, microrobotics.",
+    "prereqInfo": "prereq: 2031 or 2033 or instr consent",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 2031",
+          "subject": "CSCI",
+          "id": "2031"
+        },
+        {
+          "code": "CSCI 2033",
+          "subject": "CSCI",
+          "id": "2033"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 5552",
+    "subject": "CSCI",
+    "id": "5552",
+    "title": "Sensing/Estimation in Robotics",
+    "info": "Bayesian estimation, maximum likelihood estimation, Kalman filtering, particle filtering. Sensor modeling and fusion. Mobile robot motion estimation (odometry, inertial,laser scan matching, vision-based) and path planning. Map representations, landmark-based localization, Markov localization, simultaneous localization/mapping (SLAM), multi-robot localization/mapping.",
+    "prereqInfo": "prereq: [5551, Stat 3021] or instr consent",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 5551",
+          "subject": "CSCI",
+          "id": "5551"
+        },
+        {
+          "code": "STAT 3021",
+          "subject": "STAT",
+          "id": "3021"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 5561",
+    "subject": "CSCI",
+    "id": "5561",
+    "title": "Computer Vision",
+    "info": "Issues in perspective transformations, edge detection, image filtering, image segmentation, and feature tracking. Complex problems in shape recovery, stereo, active vision, autonomous navigation, shadows, and physics-based vision. Applications.",
+    "prereqInfo": "prereq: CSci 5511, 5521, or instructor consent.",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 5511",
+          "subject": "CSCI",
+          "id": "5511"
+        },
+        {
+          "code": "CSCI 5521",
+          "subject": "CSCI",
+          "id": "5521"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 5563",
+    "subject": "CSCI",
+    "id": "5563",
+    "title": "3D Computer Vision",
+    "info": "The 3D spatial relationship between cameras and scenes in computer vision. Application to tasks such as planning robots, reconstructing scenes from photos, and understanding human behaviors from body-worn cameras data. Multiview theory fundamentals, structure-from-motion, state-of-the-art approaches, and current research integration.",
+    "prereqInfo": "Prereq: Students enrolling in this course must have completed CSCI 5561 or have instructor consent. ",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 5561",
+          "subject": "CSCI",
+          "id": "5561"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 5571",
+    "subject": "CSCI",
+    "id": "5571",
+    "title": "Expert Systems",
+    "info": "Introduction to ideas and issues of expert systems.  Knowledge representation, problem-solving, search, inference techniques, theorem proving.  Use of an expert system shell.",
+    "prereqInfo": null,
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 5607",
+    "subject": "CSCI",
+    "id": "5607",
+    "title": "Computer Graphics 1",
+    "info": "Fundamental algorithms in computer graphics. Emphasizes programming projects in C/C++. Scan conversion, hidden surface removal, geometrical transformations, projection, illumination/shading, parametric cubic curves, texture mapping, antialising, ray tracing. Developing graphics software, graphics research.",
+    "prereqInfo": "prereq: concurrent registration is required (or allowed) in 2033, concurrent registration is required (or allowed) in 3081",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 2033",
+          "subject": "CSCI",
+          "id": "2033"
+        },
+        {
+          "code": "CSCI 3081",
+          "subject": "CSCI",
+          "id": "3081"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 5608",
+    "subject": "CSCI",
+    "id": "5608",
+    "title": "Computer Graphics II",
+    "info": "Advanced topics in image synthesis, modeling, rendering. Image processing, image warping, global illumination, non-photorealistic rendering, texture synthesis. Parametric cubic surfaces, subdivision surfaces, acceleration techniques, advanced texture mapping. Programming in C/C++.",
+    "prereqInfo": "prereq: 5607 or instr consent",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 5607",
+          "subject": "CSCI",
+          "id": "5607"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 5609",
+    "subject": "CSCI",
+    "id": "5609",
+    "title": "Visualization",
+    "info": "Fundamental theory/practice in data visualization. Programming applications. Perceptual issues in effective data representation, multivariate visualization, information visualization, vector field/volume visualization.",
+    "prereqInfo": "prereq: [1913, 4041] or equiv or instr consent",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 1913",
+          "subject": "CSCI",
+          "id": "1913"
+        },
+        {
+          "code": "CSCI 4041",
+          "subject": "CSCI",
+          "id": "4041"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 5611",
+    "subject": "CSCI",
+    "id": "5611",
+    "title": "Animation & Planning in Games",
+    "info": "Theory behind algorithms used to bring virtual worlds to life. Computer animation topics. Real-time, interactive techniques used in modern games. Physically-based animation, motion planning, character animation, simulation in virtual worlds.",
+    "prereqInfo": "prereq: 4041 or 4611 or instr consent",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 4041",
+          "subject": "CSCI",
+          "id": "4041"
+        },
+        {
+          "code": "CSCI 4611",
+          "subject": "CSCI",
+          "id": "4611"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 5619",
+    "subject": "CSCI",
+    "id": "5619",
+    "title": "VR and 3D Interaction",
+    "info": "Introduction to software, technology/applications in virtual/augmented reality, 3D user interaction. Overview of current research. Hands-on projects.",
+    "prereqInfo": "prereq: 4611 or 5607 or 5115 or equiv or instr consent",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 4611",
+          "subject": "CSCI",
+          "id": "4611"
+        },
+        {
+          "code": "CSCI 5607",
+          "subject": "CSCI",
+          "id": "5607"
+        },
+        {
+          "code": "CSCI 5115",
+          "subject": "CSCI",
+          "id": "5115"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 5707",
+    "subject": "CSCI",
+    "id": "5707",
+    "title": "Principles of DB Systems",
+    "info": "Concepts, database architecture, alternative conceptual data models, foundations of data manipulation/analysis, logical data models, database designs, models of database security/integrity, current trends.",
+    "prereqInfo": "prereq: [4041 or instr consent], grad student",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 4041",
+          "subject": "CSCI",
+          "id": "4041"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 5708",
+    "subject": "CSCI",
+    "id": "5708",
+    "title": "Database Mgmt Sys",
+    "info": "Techniques in commercial/research-oriented database systems. Catalogs. Physical storage techniques. Query processing/optimization. Transaction management. Mechanisms for concurrency control, disaster recovery, distribution, security, integrity, extended data types, triggers, and rules.",
+    "prereqInfo": "prereq: 4041 or 4707 or 5707 or instr. consent",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 4041",
+          "subject": "CSCI",
+          "id": "4041"
+        },
+        {
+          "code": "CSCI 4707",
+          "subject": "CSCI",
+          "id": "4707"
+        },
+        {
+          "code": "CSCI 5707",
+          "subject": "CSCI",
+          "id": "5707"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 5715",
+    "subject": "CSCI",
+    "id": "5715",
+    "title": "Spatial Data Science",
+    "info": "Spatial databases and querying, spatial big data mining, spatial data-structures and algorithms, positioning, earth observation, cartography, and geo-visulization. Trends such as spatio-temporal, and geospatial cloud analytics, etc.",
+    "prereqInfo": "prereq: Familiarity with Java, C++, or Python",
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 5751",
+    "subject": "CSCI",
+    "id": "5751",
+    "title": "Big Data Engineering",
+    "info": " Big data and data-intensive application management, design and processing concepts. Data modeling on different NoSQL databases: key/value, column-family, document, graph-based stores. Stream and real-time processing. Big data architectures. Distributed computing using Spark, Hadoop or other distributed systems. Big data projects.",
+    "prereqInfo": "prereq: 4041, 5707, or instructor consent.",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 4041",
+          "subject": "CSCI",
+          "id": "4041"
+        },
+        {
+          "code": "CSCI 5707",
+          "subject": "CSCI",
+          "id": "5707"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 5801",
+    "subject": "CSCI",
+    "id": "5801",
+    "title": "Software Eng. I",
+    "info": "Advanced introduction to software engineering. Software life cycle, development models, software requirements analysis, software design, coding, maintenance.",
+    "prereqInfo": "prereq: 2041 or instr consent",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 2041",
+          "subject": "CSCI",
+          "id": "2041"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 5802",
+    "subject": "CSCI",
+    "id": "5802",
+    "title": "Software Engr II",
+    "info": "Introduction to software testing, software maturity models, cost specification models, bug estimation, software reliability models, software complexity, quality control, and experience report. Student groups specify, design, implement, and test partial software systems.  Application of general software development methods and principles from 5801.",
+    "prereqInfo": "prereq: 5801 or instr consent",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 5801",
+          "subject": "CSCI",
+          "id": "5801"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 5980",
+    "subject": "CSCI",
+    "id": "5980",
+    "title": "Spec topics in CSci",
+    "info": "Lectures and informal discussions on current topics in computer science.",
+    "prereqInfo": "prereq: instr consent; may be repeated for cr",
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 5991",
+    "subject": "CSCI",
+    "id": "5991",
+    "title": "Independent study",
+    "info": "Independent study arranged with CS faculty member.",
+    "prereqInfo": "prereq: instr consent; may be repeated for cr",
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 5994",
+    "subject": "CSCI",
+    "id": "5994",
+    "title": "Directed Research",
+    "info": "Directed research arranged with faculty member.",
+    "prereqInfo": "prereq: instr consent; may be repeated for cr",
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 5996",
+    "subject": "CSCI",
+    "id": "5996",
+    "title": "Curr Practical Training",
+    "info": "Industrial work assignment involving advanced computer technology.  Reviewed by faculty member. Grade based on final report covering work assignment.",
+    "prereqInfo": "prereq: [CSci or CompE] major, instr consent",
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 5997",
+    "subject": "CSCI",
+    "id": "5997",
+    "title": "Curr Practical Training Ex",
+    "info": "Extension of an industrial work assignment involving advanced computer technology. Grade based on final report covering work assignment.",
+    "prereqInfo": "prereq: [CSci or CompE] major, instr consent",
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 8001",
+    "subject": "CSCI",
+    "id": "8001",
+    "title": "Intro to Research in CS, I",
+    "info": "First of two-part sequence course. Students must take both parts to complete course and receive grade. Conducting literature review. Identifying research questions. Writing a research proposal. Research areas in CS. Practical research skills. Research ethics. Resources.",
+    "prereqInfo": "prereq: 1st yr CS PhD student",
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 8002",
+    "subject": "CSCI",
+    "id": "8002",
+    "title": "Intro to Research in CS, II",
+    "info": "Second of two-part sequence course. Students must take both parts to complete course and receive grade. Conducting literature review. Identifying research questions. Writing a research proposal. Research areas in CS. Practical research skills. Research ethics. Resources.",
+    "prereqInfo": "prereq: 8001, 1st yr CS PhD student",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 8001",
+          "subject": "CSCI",
+          "id": "8001"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 8101",
+    "subject": "CSCI",
+    "id": "8101",
+    "title": "Adv. OS",
+    "info": "Successful research systems and existing theory of systems design. Goal is not merely to catalog systems or learn mathematics, but to develop a sense of elegance of design that leads to successful systems.",
+    "prereqInfo": "prereq: 5103 or instr consent",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 5103",
+          "subject": "CSCI",
+          "id": "5103"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 8102",
+    "subject": "CSCI",
+    "id": "8102",
+    "title": "Distributed Computing",
+    "info": "Fundamental principles underlying design of distributed and multiprocessor operating systems. Foundations of distributed computing systems; shared multiprocessor systems.",
+    "prereqInfo": "prereq: 8101 or instr consent",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 8101",
+          "subject": "CSCI",
+          "id": "8101"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 8115",
+    "subject": "CSCI",
+    "id": "8115",
+    "title": "HCI & UI Technology",
+    "info": "Current research issues in human-computer interaction, user interface toolkits and frameworks, and related areas. Research techniques, model-based development, gesture-based interfaces, constraint-based programming, event processing models, innovative systems, HCI in multimedia systems.",
+    "prereqInfo": "prereq: 5115 or instr consent",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 5115",
+          "subject": "CSCI",
+          "id": "5115"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 8117",
+    "subject": "CSCI",
+    "id": "8117",
+    "title": "Understanding the Social Web",
+    "info": "Research on the social web. Read, present, and discuss papers, do homework using social web research techniques such as data analysis and simulation. Semester research project.",
+    "prereqInfo": "prereq: CS grad or instr consent",
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 8161",
+    "subject": "CSCI",
+    "id": "8161",
+    "title": "Adv Compiler Tech",
+    "info": "Techniques for uniprocessors and parallel computers. Fundamental program analysis instruments such as data flow analysis and data dependence analysis. Variety of code generation and transformation techniques.",
+    "prereqInfo": "prereq: 4061 or instr consent",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 4061",
+          "subject": "CSCI",
+          "id": "4061"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 8205",
+    "subject": "CSCI",
+    "id": "8205",
+    "title": "Parallel Comp Org.",
+    "info": "Design/implementation of multiprocessor systems. Parallel machine organization, system design. Differences between parallel, uniprocessor machines. Programming models. Synchronization/communication. Topologies, message routing strategies. Performance optimization techniques. Compiler, system software issues.",
+    "prereqInfo": "prereq: 5204 or EE 5364 or  instr consent",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 5204",
+          "subject": "CSCI",
+          "id": "5204"
+        },
+        {
+          "code": "EE 5364",
+          "subject": "EE",
+          "id": "5364"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 8211",
+    "subject": "CSCI",
+    "id": "8211",
+    "title": "Adv Comp Networks",
+    "info": "Current research issues in traffic and resource management, quality-of-service provisioning for integrated services networks (such as next-generation Internet and ATM networks) and multimedia networking.",
+    "prereqInfo": "prereq: 5211 or instr consent",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 5211",
+          "subject": "CSCI",
+          "id": "5211"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 8271",
+    "subject": "CSCI",
+    "id": "8271",
+    "title": "Security/Privacy in Computing",
+    "info": "Recent security/privacy issues in computer systems/networks. Threats, attacks, countermeasures. Security research, authentication, network security, wireless security, computer system security, anonymous system, pseudonym, access control, intrusion detection system, cryptographic protocols. How to pursue research in security and design secure systems.",
+    "prereqInfo": "prereq: [5211, 5103] or instr consent; 5471 or EE 5248 or Math 5248 or equiv recommended",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 5211",
+          "subject": "CSCI",
+          "id": "5211"
+        },
+        {
+          "code": "CSCI 5103",
+          "subject": "CSCI",
+          "id": "5103"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 8283",
+    "subject": "CSCI",
+    "id": "8283",
+    "title": "Problems in CAD",
+    "info": "Open research problems in contemporary CAD for electronic design, approaches to their solution.",
+    "prereqInfo": null,
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 8314",
+    "subject": "CSCI",
+    "id": "8314",
+    "title": "Sparse Matrix Computations",
+    "info": "Sparsity and sparse matrices. Data structures for sparse matrices. Direct methods for sparse linear systems. Reordering techniques to reduce fill-in such as minimal degree ordering and nested dissection ordering. Iterative methods. Preconditioning algorithms. Algorithms for\nsparse eigenvalue problems and sparse least-squares.",
+    "prereqInfo": "prereq: 5304 or numerical linear algebra course or instr consent",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 5304",
+          "subject": "CSCI",
+          "id": "5304"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 8323",
+    "subject": "CSCI",
+    "id": "8323",
+    "title": "Lin. Least Squares",
+    "info": "Numerical methods for linear and nonlinear least square problems; designing efficient and accurate algorithms. Sensitivity of least squares problems, modification of decompositions, generalized least squares, special methods for structured problems, and nonlinear least squares.\n",
+    "prereqInfo": null,
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 8333",
+    "subject": "CSCI",
+    "id": "8333",
+    "title": "FTE: Master's",
+    "info": "(No description)",
+    "prereqInfo": "prereq: Master's student, adviser and DGS consent",
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 8353",
+    "subject": "CSCI",
+    "id": "8353",
+    "title": "Adv. Par. Num. Meth",
+    "info": "Parallel methods for problems in numerical linear algebra. Review of vector and parallel architectures; programming environments; parallel methods for linear least squares; eigenvalue problems, singular value decomposition, structured matrices, and linear systems.",
+    "prereqInfo": null,
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 8363",
+    "subject": "CSCI",
+    "id": "8363",
+    "title": "Lin Alg in Data Exploration",
+    "info": "Computational methods in linear algebra, matrix decompositions for linear  equations, least squares, eigenvalue problems, singular value decomposition, conditioning, stability in method for machine learning, large data collections. Principal directions, unsupervised clustering, latent semantic indexing, linear least squares fit. Markov chain models on hyperlink structure.",
+    "prereqInfo": "prereq: 5304 or instr consent",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 5304",
+          "subject": "CSCI",
+          "id": "5304"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 8404",
+    "subject": "CSCI",
+    "id": "8404",
+    "title": "Approx Algorithms",
+    "info": "Because an exact solution is often unfeasible for computationally difficult problems in important applications, approximation algorithms are a significant area of study. Introduces techniques for design of approximation algorithms; theory for evaluating the algorithms' performance.",
+    "prereqInfo": null,
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 8421",
+    "subject": "CSCI",
+    "id": "8421",
+    "title": "Adv Algs II",
+    "info": "Advanced methods for algorithm design. Network flow and matching, advanced dynamic programming, linear programming, cryptography, approximation algorithms, on-line algorithms, and randomized algorithms. Cutting-edge material provides enough background for students to pursue dissertation-level research.",
+    "prereqInfo": null,
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 8442",
+    "subject": "CSCI",
+    "id": "8442",
+    "title": "Comp. Geometry",
+    "info": "Designing efficient algorithms and data structures for geometric problems. Models of computation, convex hulls, geometric duality, multidimensional search, Voronoi diagrams and Delauney triangulations, linear programming \nin fixed dimensions, lower bound techniques. Applications, advanced topics.",
+    "prereqInfo": "prereq: 5421 or instr consent",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 5421",
+          "subject": "CSCI",
+          "id": "5421"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 8444",
+    "subject": "CSCI",
+    "id": "8444",
+    "title": "FTE: Doctoral",
+    "info": "(No description)",
+    "prereqInfo": "prereq: Doctoral student, adviser and DGS consent",
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 8481",
+    "subject": "CSCI",
+    "id": "8481",
+    "title": "Par. Algorithms",
+    "info": "Parallel algorithms for many important problems in computer science and related fields. Parallel algorithms for sorting, selection, graph problems, computational geometry, matrix problems, FFT, combinatorial search algorithms, dynamic programming, and data mining.",
+    "prereqInfo": null,
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 8521",
+    "subject": "CSCI",
+    "id": "8521",
+    "title": "Neural Comp. & Net.",
+    "info": "Introduction to Artificial Neural Networks (ANNs). Network architectures and learning rules; design of ANNs.\n",
+    "prereqInfo": null,
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 8523",
+    "subject": "CSCI",
+    "id": "8523",
+    "title": "AI for Earth",
+    "info": "Advances in machine learning in conjunction with massive amounts of data from Earth observing satellites offer huge potential for improving our understanding of how the Earth's environment and ecosystems have been changing and how they are being impacted by humans actions and changing climate.  Deep learning approaches, that have had phenomenal success in the domain of computer vision and language/speech translation, hold promise in dealing with environmental problems.  However, due to challenges that are unique to environmental applications, off-the-shelf deep learning techniques developed for related applications such as computer vision often have limited utility.  This class will introduce to the students the promise and challenges in using deep learning techniques to analyze complex, multi-scale, spatio-temporal data for monitoring changes in the Earth and its environment on a global scale.",
+    "prereqInfo": "Prerequisites: CSci 5523, CSci 5521, or equivalent",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 5523",
+          "subject": "CSCI",
+          "id": "5523"
+        },
+        {
+          "code": "CSCI 5521",
+          "subject": "CSCI",
+          "id": "5521"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 8551",
+    "subject": "CSCI",
+    "id": "8551",
+    "title": "Intell. Agents",
+    "info": "Theories of intelligent agents. Agent architectures; knowledge representation, communication, cooperation, and negotiation among multiple agents; planning and learning; issues in designing agents with a physical body; dealing with sensors and actuators; world modeling.",
+    "prereqInfo": "prereq: 5511 or instr consent",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 5511",
+          "subject": "CSCI",
+          "id": "5511"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 8571",
+    "subject": "CSCI",
+    "id": "8571",
+    "title": "Adv. Expert Systems",
+    "info": "Ideas and issues of expert systems.  Knowledge representation, problem solving, search, inference techniques, theorem proving.  Students use an expert system shell.",
+    "prereqInfo": null,
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 8581",
+    "subject": "CSCI",
+    "id": "8581",
+    "title": "Big Data in Astrophysics",
+    "info": "This course will introduce key concepts and techniques used to work with large datasets, in the context of the field of astrophysics.",
+    "prereqInfo": "Prerequisites: MATH 2263 and MATH 2243, or equivalent; or instructor consent.\nSuggested: familiarity with astrophysics topics such as star formation and evolution, galaxies and clusters, composition and expansion of the universe, gravitational wave sources and waveforms, and high-energy astrophysics.",
+    "prereq": {
+      "course": [
+        {
+          "code": "MATH 2263",
+          "subject": "MATH",
+          "id": "2263"
+        },
+        {
+          "code": "MATH 2243",
+          "subject": "MATH",
+          "id": "2243"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 8666",
+    "subject": "CSCI",
+    "id": "8666",
+    "title": "Doct Pre-Thesis Cr*",
+    "info": "tbd",
+    "prereqInfo": "prereq: Doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 8701",
+    "subject": "CSCI",
+    "id": "8701",
+    "title": "Database Research",
+    "info": "Research papers from journals and conferences on current topics in databases, such as database research methodologies, relational implementation techniques, active databases, storage systems, benchmarking, distributed and parallel databases, new data models, prototype systems, data mining, and future directions.",
+    "prereqInfo": "prereq: 5708 or instr consent",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 5708",
+          "subject": "CSCI",
+          "id": "5708"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 8703",
+    "subject": "CSCI",
+    "id": "8703",
+    "title": "Dist & Parallel DB",
+    "info": "Distributed database management systems (DBMS) architecture, including client-server, distributed DB design, distributed query optimization and processing; distributed transaction management (concurrency control and recovery); federated/multibases (definition and issues); database machines (concepts, successes, and failures); parallel databases.",
+    "prereqInfo": null,
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 8705",
+    "subject": "CSCI",
+    "id": "8705",
+    "title": "Sci. Databases",
+    "info": "Application domains of geographical information systems, common data types, queries and analyses, data models, languages to query, query optimization, access methods, clustering methods and file structures, system architectures and design (e.g., parallelism, entensibility), and new trends (e.g., spatial graphs).",
+    "prereqInfo": null,
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 8715",
+    "subject": "CSCI",
+    "id": "8715",
+    "title": "Spatial Data Science Research",
+    "info": "Motivation, models of spatial information, querying spatial data, processing strategies for spatial queries, multi-dimensional storage/access methods, spatial graph datasets, spatial data mining, trends (e.g., spatio-temporal databases, mobile objects, raster databases), research literature, how to pursue research.",
+    "prereqInfo": "prereq: 4707 or 5707 or 5715 or GIS 5571 or GIS 5573",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 4707",
+          "subject": "CSCI",
+          "id": "4707"
+        },
+        {
+          "code": "CSCI 5707",
+          "subject": "CSCI",
+          "id": "5707"
+        },
+        {
+          "code": "CSCI 5715",
+          "subject": "CSCI",
+          "id": "5715"
+        },
+        {
+          "code": "GIS 5571",
+          "subject": "GIS",
+          "id": "5571"
+        },
+        {
+          "code": "GIS 5573",
+          "subject": "GIS",
+          "id": "5573"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 8725",
+    "subject": "CSCI",
+    "id": "8725",
+    "title": "Databases for Bioinformatics",
+    "info": "DBMS support for biological databases, data models. Searching integrated public domain databases. Queries/analyses, DBMS extensions, emerging applications.",
+    "prereqInfo": "prereq: 4707 or 5707 or instr consent",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 4707",
+          "subject": "CSCI",
+          "id": "4707"
+        },
+        {
+          "code": "CSCI 5707",
+          "subject": "CSCI",
+          "id": "5707"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 8735",
+    "subject": "CSCI",
+    "id": "8735",
+    "title": "Advanced Database Systems",
+    "info": "Database systems for emerging applications, nontraditional query processors, multi-dimensional data indexing. Current research trends.",
+    "prereqInfo": "prereq: 4707 or 5707 or 5708",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 4707",
+          "subject": "CSCI",
+          "id": "4707"
+        },
+        {
+          "code": "CSCI 5707",
+          "subject": "CSCI",
+          "id": "5707"
+        },
+        {
+          "code": "CSCI 5708",
+          "subject": "CSCI",
+          "id": "5708"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 8760",
+    "subject": "CSCI",
+    "id": "8760",
+    "title": "Plan B Project",
+    "info": "Project arranged between student and faculty.",
+    "prereqInfo": "prereq: CSci MS student, instr consent",
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 8777",
+    "subject": "CSCI",
+    "id": "8777",
+    "title": "Thesis Credit:Mast*",
+    "info": "(No description)",
+    "prereqInfo": "prereq: Max 18 cr per semester or summer; 10 cr total required [Plan A only]",
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 8801",
+    "subject": "CSCI",
+    "id": "8801",
+    "title": "Adv Software Engr",
+    "info": "Software reusability, internet/intranet programming, software reengineering, and software safety.",
+    "prereqInfo": "prereq: 5801 or instr consent",
+    "prereq": {
+      "course": [
+        {
+          "code": "CSCI 5801",
+          "subject": "CSCI",
+          "id": "5801"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CSCI 8888",
+    "subject": "CSCI",
+    "id": "8888",
+    "title": "Thesis Credit:Doct*",
+    "info": "(No description)",
+    "prereqInfo": "prereq: Max 18 cr per semester or summer; 24 cr required",
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 8970",
+    "subject": "CSCI",
+    "id": "8970",
+    "title": "CSci colloquium",
+    "info": "Recent developments in computer science and related disciplines. Students must attend 13 of the 15 lectures.",
+    "prereqInfo": null,
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 8980",
+    "subject": "CSCI",
+    "id": "8980",
+    "title": "Spec Adv Topics CS",
+    "info": "Lectures and informal discussions.",
+    "prereqInfo": "prereq: instr consent",
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 8991",
+    "subject": "CSCI",
+    "id": "8991",
+    "title": "Independent study",
+    "info": "Independent study with professor.",
+    "prereqInfo": "prereq: instr consent",
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "CSCI 8994",
+    "subject": "CSCI",
+    "id": "8994",
+    "title": "Dir Rsrch in CSci",
+    "info": "Directed research with professor.",
+    "prereqInfo": "prereq: instr consent",
+    "prereq": {
+      "course": []
+    }
+  }
+]

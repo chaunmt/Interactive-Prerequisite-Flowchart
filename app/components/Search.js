@@ -3,9 +3,9 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 
-import Access from "../data/Access"
+import Access from "../data/Old/Access"
 
-function Search() {
+function Search({ sendResults }) {
   const [data, setData] = useState([]); //list of items from JSON
   const [search, setSearch] = useState(''); //Current search term
 
@@ -17,10 +17,6 @@ function Search() {
   //     });
   // }, []);
 
-  const handleSearch = (event) => { //Filtering data
-    setSearch(event.target.value);
-  };
-
   const processedSearch = search.replace(/\s+/g, '').toLowerCase(); 
 
   const filteredData = Access.courses().filter(item => {
@@ -30,6 +26,15 @@ function Search() {
         return processedCode.includes(processedSearch);
       });
   });
+
+  const handleSearch = (event) => { //Filtering data
+    setSearch(event.target.value);
+  };
+
+  useEffect(() => { //Filtering data
+    sendResults(filteredData)
+  }, [search]);
+
 
   return ( //Display 
     <div className="Search">
