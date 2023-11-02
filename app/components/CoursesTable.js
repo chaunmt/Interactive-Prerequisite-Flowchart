@@ -1,6 +1,6 @@
 "use client";
 import React from "react"
-import Access from "../data/Access";
+import Access from "../data/Old/Access";
 import './styles/CoursesTable.css'
 
 export default function CoursesTable() {
