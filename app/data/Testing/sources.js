@@ -4,14 +4,6 @@ function extractWords(code) { return code.match(/[a-zA-Z]+/g) }
 
 function extractNumbers(code) { return code.match(/\d+/g) }
 
-// Remove all brackets
-function filterBracket(data) { // ==> return string
-  data = data.replace('[', ' ')
-  data = data.replace('(', ' ')
-
-  return data
-}
-
 // Every ', ' is replaced with ' and '
 function replaceComma(data) { // ==> return string
   return data.replace(/, /g, ' and ')
@@ -31,18 +23,6 @@ function filterExtraInfo(data) {  // ==> return string
   return data.split(';')[0]
 }
 
-// TODO: Filter recommend
-// TODO: Filter Sentences
-// TODO: Unite form [SUBC XXXX]
-
-// function filterCodes(data) {
-//   const length = data.length
-//   let i = 0;
-//   while (i < length) {
-//     i = 
-//   }
-// }
-
 function deleteSpaces(inputString) {
   return inputString.replace(/\s/g, '');
 }
@@ -61,6 +41,7 @@ function splitStringAtNumber(inputString) {
 
 function extractCourses(inputString, defaultSubject) {
   // pattern = match full words : 4 digits or (some letters + optional white space + 4 digits + some letters)
+  // ERROR: DOES NOT WORK FOR "Prerequisuites: 3081W" BECAUSE : IS NOT LETTER
   const pattern = /\b\d{4}\b|\b[A-Za-z]+\s\d{4}[A-Za-z]*\b/g;
   const courses = inputString.match(pattern) || [];
 
@@ -70,6 +51,7 @@ function extractCourses(inputString, defaultSubject) {
         let [subject, id] = splitStringAtNumber(each)
         subject = subject.toUpperCase()
         if (!allSubjects.includes(subject)) subject = defaultSubject
+        // ERROR: ADD THE W IF ID DOES NOT FIND BUT ID + W IS FOUND, SAME FOR H
         //if (!allCourseNumbers.includes(id)) id = id + 'W'
         return { code: subject + ' ' + id, subject: subject, id: id }
       }
@@ -78,23 +60,31 @@ function extractCourses(inputString, defaultSubject) {
 
 }
 
-
-// Note: there is an instance of ', or' which is filter to 'and or' => conflict
-// However: because ', or' in this case is treated as ';' => does not matter and will get remove later on anyway
-function filterPrereq(data, defaultSubject) { // ==> return array
-  // TODO: Re order
-  data = filterExtraInfo(data)
-  //data = replaceComma(data)
-  //data = filterBracket(data)
+function filterPrereq(info, defaultSubject) { // ==> return array
+  info = filterExtraInfo(info)
+  info = replaceComma(info)
+  info = info.replace('[', ' ')
+  info = info.replace('(', ' ')
+  
+  // for each ] and ) meet, process string from start to its index
+  let data = []
+  let num = 0
+  for (index in info) 
+    if (info[index] == ']' || info[index] == ')') {
+      data[num] = filterAndOr(info.subString(0, index))
+      data[num].map(
+        (each) => {
+          // access all level and use extractCourses on each
+        }
+      )
+      info = info.subString(index + 1, info.length)
+      ++ num
+    }
+  
   //data = filterAndOr(data)
-  //data = filterCodes(data)
-  // data = data.map (
-  //   (each) => {
-  //     return extractCourses(each)
-  //   }
-  // )
-  data = extractCourses(data, defaultSubject)
-  return data
+  info = extractCourses(info, defaultSubject)
+  // ERROR: FILTER DUPLICATES TOO
+  return info
 }
 
 
@@ -111,7 +101,7 @@ function exportDogs(SUBJECT) {
   let url = 'https://app.coursedog.com/api/v1/cm/' + schoolId + '/courses/search/$filters?' + subjectCode + returnFields + limit
 
   // let allCourseNumbers = require(`./General/id/${subject}.json`)
-  let allCourseNumbers = require(`./General/id/All.json`)
+  //let allCourseNumbers = require(`./General/id/All.json`)
 
   fetch(url)
     .then(res => res.json())
@@ -123,8 +113,10 @@ function exportDogs(SUBJECT) {
           let descrip = course.description.toLowerCase()
           let splitPattern = ''
           if (descrip.includes('\n\nprereq: ')) splitPattern = '\n\nprereq'
-          else if (descrip.includes('\n\nprerequesite: ')) splitPattern = '\n\nprerequesite'
-          else if (descrip.includes('\n\nprerequesites: ')) splitPattern = '\n\nprerequesites'
+          else if (descrip.includes('\n\nprerequesite: ')) splitPattern = '\n\nprerequesite: '
+          else if (descrip.includes('\n\nprerequesites: ')) splitPattern = '\n\nprerequesites: '
+          else if (descrip.includes('\n\nprerequesite ')) splitPattern = '\n\nprerequesite '
+          else if (descrip.includes('\n\nprerequesites ')) splitPattern = '\n\nprerequesites '
 
           info = descrip.split(splitPattern)
 
