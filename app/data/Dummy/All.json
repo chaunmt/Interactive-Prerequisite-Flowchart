@@ -1,0 +1,134 @@
+[
+  {
+    "code": "CSCI 1101",
+    "subject": "CSCI",
+    "id": "1101",
+    "title": "Intro to Computing",
+    "info": "Problem solving and introduction to programming. Students write simple programs in pseudocode and in one or more programming languages (such as Java, C++ or Scheme). Assumes no programming background and is good preparation for CSci 1113.",
+    "prereqInfo": null,
+    "prereq": null
+  },
+  {
+    "code": "CSCI 1113",
+    "subject": "CSCI",
+    "id": "1113",
+    "title": "Intro to C/C++",
+    "info": "Programming for scientists/engineers. C/C++ programming constructs, object-oriented programming, software development, fundamental numerical techniques. Exercises/examples from various scientific fields.\nThe online modality for CSci 1113 will only be offered during the summer session.",
+    "prereqInfo": "Math 1271 or Math 1371 or Math 1571H or instr consent.",
+    "prereq": [
+      {
+        "course": [
+          {
+            "code": "MATH 1271",
+            "subject": "MATH",
+            "id": "1271"
+          },
+          {
+            "code": "MATH 1371",
+            "subject": "MATH",
+            "id": "1371"
+          },
+          {
+            "code": "MATH 1571H",
+            "subject": "MATH",
+            "id": "1571H"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "CSCI 1133",
+    "subject": "CSCI",
+    "id": "1133",
+    "title": "Intro to Programming Concepts",
+    "info": "Fundamental programming concepts using Python language. Problem solving skills, recursion, object-oriented programming. Algorithm development techniques. Use of abstractions/modularity. Data structures/abstract data types. Develop programs to solve real-world problems.",
+    "prereqInfo": "concurrent registration is required (or allowed) in MATH 1271 or concurrent registration is required (or allowed) in MATH 1371 or concurrent registration is required (or allowed) in MATH 1571H or instr consent",
+    "prereq": [
+      {
+        "course": [
+          {
+            "code": "MATH 1271",
+            "subject": "MATH",
+            "id": "1271"
+          },
+          {
+            "code": "MATH 1371",
+            "subject": "MATH",
+            "id": "1371"
+          },
+          {
+            "code": "MATH 1571H",
+            "subject": "MATH",
+            "id": "1571H"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "CSCI 2033",
+    "subject": "CSCI",
+    "id": "2033",
+    "title": "Elem Comput Linear Algebra",
+    "info": "Matrices/linear transformations, basic theory. Linear vector spaces. Inner product spaces. Systems of linear equations, Eigenvalues, singular values. Algorithms/computational matrix methods using MATLAB. Use of matrix methods to solve variety of computer science problems.",
+    "prereqInfo": "[MATH 1271 or MATH 1371], [1113 or 1133 or knowledge of programming concepts]",
+    "prereq": [
+      {
+        "course": [
+          {
+            "code": "MATH 1271",
+            "subject": "MATH",
+            "id": "1271"
+          },
+          {
+            "code": "MATH 1371",
+            "subject": "MATH",
+            "id": "1371"
+          }
+        ]
+      },
+      {
+        "course": [
+          {
+            "code": "CSCI 1113",
+            "subject": "CSCI",
+            "id": "1113"
+          },
+          {
+            "code": "CSCI 1133",
+            "subject": "CSCI",
+            "id": "1133"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "code": "MATH 1271",
+    "subject": "MATH",
+    "id": "1271",
+    "title": "Calculus I",
+    "info": "Differential calculus of functions of a single variable, including polynomial, rational, exponential, and trig functions. Applications, including optimization and related rates problems. Single variable integral calculus, using anti-derivatives and simple substitution. Applications may include area, volume, work problems.",
+    "prereqInfo": "4 yrs high school math including trig or satisfactory score on placement test or grade of at least C- in [1151 or 1155]",
+    "prereq": null
+  },
+  {
+    "code": "MATH 1371",
+    "subject": "MATH",
+    "id": "1371",
+    "title": "CSE Calc I",
+    "info": "Differentiation of single-variable functions, basics of integration of single-variable functions. Applications: max-min, related rates, area, curve-sketching. Use of calculator, cooperative learning.",
+    "prereqInfo": "CSE or pre-bioprod concurrent registration is required (or allowed) in  biosys engn (PRE), background in [precalculus, geometry, visualization of functions/graphs], instr consent; familiarity with graphing calculators recommended",
+    "prereq": null
+  },
+  {
+    "code": "MATH 1571H",
+    "subject": "MATH",
+    "id": "1571H",
+    "title": "Honors Calc I",
+    "info": "Differential/integral calculus of functions of a single variable. Emphasizes hard problem-solving rather than theory.",
+    "prereqInfo": "Honors student and permission of University Honors Program",
+    "prereq": null
+  }
+]
