@@ -1,6 +1,6 @@
 [
   {
-    "code" : "CSCI 1101",
+    "code": "CSCI 1101",
     "subject": "CSCI",
     "id": "1101",
     "title": "Intro to Computing",
@@ -9,7 +9,7 @@
     "prereq": null
   },
   {
-    "code" : "CSCI 1113",
+    "code": "CSCI 1113",
     "subject": "CSCI",
     "id": "1113",
     "title": "Intro to C/C++",
@@ -17,16 +17,28 @@
     "prereqInfo": "Math 1271 or Math 1371 or Math 1571H or instr consent.",
     "prereq": [
       {
-        "course" : [
-          {"code": "MATH 1271", "subject": "MATH", "id": "1271"},
-          {"code" : "MATH 1371", "subject": "MATH", "id": "1371"},
-          {"code" : "MATH 1571H", "subject": "MATH", "id": "1571H"}
+        "course": [
+          {
+            "code": "MATH 1271",
+            "subject": "MATH",
+            "id": "1271"
+          },
+          {
+            "code": "MATH 1371",
+            "subject": "MATH",
+            "id": "1371"
+          },
+          {
+            "code": "MATH 1571H",
+            "subject": "MATH",
+            "id": "1571H"
+          }
         ]
       }
     ]
   },
   {
-    "code" : "CSCI 1133",
+    "code": "CSCI 1133",
     "subject": "CSCI",
     "id": "1133",
     "title": "Intro to Programming Concepts",
@@ -34,10 +46,22 @@
     "prereqInfo": "concurrent registration is required (or allowed) in MATH 1271 or concurrent registration is required (or allowed) in MATH 1371 or concurrent registration is required (or allowed) in MATH 1571H or instr consent",
     "prereq": [
       {
-        "course" : [
-          {"code": "MATH 1271", "subject": "MATH", "id": "1271"},
-          {"code": "MATH 1371", "subject": "MATH", "id": "1371"},
-          {"code": "MATH 1571H", "subject": "MATH", "id": "1571H"}
+        "course": [
+          {
+            "code": "MATH 1271",
+            "subject": "MATH",
+            "id": "1271"
+          },
+          {
+            "code": "MATH 1371",
+            "subject": "MATH",
+            "id": "1371"
+          },
+          {
+            "code": "MATH 1571H",
+            "subject": "MATH",
+            "id": "1571H"
+          }
         ]
       }
     ]
@@ -50,16 +74,32 @@
     "info": "Matrices/linear transformations, basic theory. Linear vector spaces. Inner product spaces. Systems of linear equations, Eigenvalues, singular values. Algorithms/computational matrix methods using MATLAB. Use of matrix methods to solve variety of computer science problems.",
     "prereqInfo": "[MATH 1271 or MATH 1371], [1113 or 1133 or knowledge of programming concepts]",
     "prereq": [
-      { 
-        "course" : [
-          {"code": "MATH 1271", "subject": "MATH", "id": "1271"},
-          {"code": "MATH 1371", "subject": "MATH", "id": "1371"}
+      {
+        "course": [
+          {
+            "code": "MATH 1271",
+            "subject": "MATH",
+            "id": "1271"
+          },
+          {
+            "code": "MATH 1371",
+            "subject": "MATH",
+            "id": "1371"
+          }
         ]
       },
       {
-        "course" : [
-          {"code": "CSCI 1113", "subject": "CSCI", "id": "1113"},
-          {"code": "CSCI 1133", "subject": "CSCI", "id": "1133"}
+        "course": [
+          {
+            "code": "CSCI 1113",
+            "subject": "CSCI",
+            "id": "1113"
+          },
+          {
+            "code": "CSCI 1133",
+            "subject": "CSCI",
+            "id": "1133"
+          }
         ]
       }
     ]

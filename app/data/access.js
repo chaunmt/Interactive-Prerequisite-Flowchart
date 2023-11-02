@@ -8,7 +8,7 @@ export default function Access(SUBJECT) {
 
   function courses() { return allCourses }
 
-  function code(course) { return course.code  }
+  function code(course) { return course.code }
 
   function subject(course) { return course.subject }
 
@@ -18,13 +18,13 @@ export default function Access(SUBJECT) {
 
   function info(course) { return course.info }
 
-  function prereqInfo(course) {return course.prereqInfo}
+  function prereqInfo(course) { return course.prereqInfo }
 
   function prereq(course) { return course.prereq }
 
   // return the array of course that have prereq as its prerequisites
-  function target(prereq){
-    allCourses.map (
+  function target(prereq) {
+    allCourses.map(
       (target) => {
         if (isPrereq(prereq, target)) return target
       }
@@ -41,7 +41,7 @@ export default function Access(SUBJECT) {
     return false
   }
 
-  function isTarget(prereq, target) { 
+  function isTarget(prereq, target) {
     return isPrereq(prereq, target)
   }
 
@@ -57,9 +57,9 @@ export default function Access(SUBJECT) {
 
   function getInfo(itemType, item) { return info(getCourse(itemType, item)) }
 
-  function getPrereqInfo(itemType, item) { return prereqInfo(getCourse(itemType, item))}
+  function getPrereqInfo(itemType, item) { return prereqInfo(getCourse(itemType, item)) }
 
-  function getPrereq(itemType, item) { return prereq(getCourse(itemType, item))}
+  function getPrereq(itemType, item) { return prereq(getCourse(itemType, item)) }
 
   return {
     courses,

@@ -64,15 +64,17 @@ function extractCourses(inputString, defaultSubject) {
   const pattern = /\b\d{4}\b|\b[A-Za-z]+\s\d{4}[A-Za-z]*\b/g;
   const courses = inputString.match(pattern) || [];
 
-  return {course: courses.map(
-    (each) => {
-      let [subject, id] = splitStringAtNumber(each)
-      subject = subject.toUpperCase()
-      if (!allSubjects.includes(subject)) subject = defaultSubject
-      //if (!allCourseNumbers.includes(id)) id = id + 'W'
-      return {code: subject + ' ' + id, subject: subject, id: id}
-    }
-  )}
+  return {
+    course: courses.map(
+      (each) => {
+        let [subject, id] = splitStringAtNumber(each)
+        subject = subject.toUpperCase()
+        if (!allSubjects.includes(subject)) subject = defaultSubject
+        //if (!allCourseNumbers.includes(id)) id = id + 'W'
+        return { code: subject + ' ' + id, subject: subject, id: id }
+      }
+    )
+  }
 
 }
 
@@ -99,7 +101,7 @@ function filterPrereq(data, defaultSubject) { // ==> return array
 function exportDogs(SUBJECT) {
   const schoolId = 'umn_umntc_peoplesoft'
   let subject = SUBJECT
-  let subjectCode = (subject == 'All')? '' : 'subjectCode=' + subject
+  let subjectCode = (subject == 'All') ? '' : 'subjectCode=' + subject
   let fileName = subject + '.json'
   let filePath = './Dog/'
   let returnFields = '&returnFields=subjectCode,courseNumber,name,description' // preq is at the end of description
@@ -119,7 +121,7 @@ function exportDogs(SUBJECT) {
 
           const info = course.description.split('\n\n')
 
-          const prereq = info[1]? filterPrereq(info[1], course.subjectCode) : {"course": []}
+          const prereq = info[1] ? filterPrereq(info[1], course.subjectCode) : { "course": [] }
 
           return {
             code: course.subjectCode + ' ' + course.courseNumber,

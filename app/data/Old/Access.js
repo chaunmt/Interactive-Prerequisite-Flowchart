@@ -39,36 +39,36 @@ function isPrereq(course) {
 function isTargetOf(prereq) { return findTargetOf(prereq).includes(prereq) }
 
 // return the array of course that have prereq as its prerequisites
-function findTargetOf(prereq){
-  for(var i=0;sample.class.length;i++){
-      if(sample.class[i].start.includes(input)){
-          return sample.class[i].end;
-      }
+function findTargetOf(prereq) {
+  for (var i = 0; sample.class.length; i++) {
+    if (sample.class[i].start.includes(input)) {
+      return sample.class[i].end;
+    }
   }
 }
 
-function findPrerequisite(input){
-    for(var i=0;sample.class.length;i++){
-        if(input==sample.class[i].end){
-            return sample.class[i].start;
-        }
+function findPrerequisite(input) {
+  for (var i = 0; sample.class.length; i++) {
+    if (input == sample.class[i].end) {
+      return sample.class[i].start;
     }
+  }
 }
 
-function findCourseInfo(input){
-    for(var i=0;sample.class.length;i++){
-        if(input==sample.class[i].end){
-            return sample.class[i].info;
-        }
+function findCourseInfo(input) {
+  for (var i = 0; sample.class.length; i++) {
+    if (input == sample.class[i].end) {
+      return sample.class[i].info;
     }
+  }
 }
 
-function findTitle(input){
-    for(var i=0;sample.class.length;i++){
-        if(input==sample.class[i].end){
-            return sample.class[i].name;
-        }
+function findTitle(input) {
+  for (var i = 0; sample.class.length; i++) {
+    if (input == sample.class[i].end) {
+      return sample.class[i].name;
     }
+  }
 }
 
 export default Access;

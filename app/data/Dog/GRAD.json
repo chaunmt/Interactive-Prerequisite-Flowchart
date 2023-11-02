@@ -1,1 +1,102 @@
-[{"code":"GRAD 5102","subject":"GRAD","id":"5102","title":"Prep Univ Tchg NN Eng Spkrs","info":"Theory/practice of teaching in higher education in the United States. Emphasizes clear oral classroom communication and development of presentation skills. Students practice in a simulated instructional setting. ","prereqInfo":"prereq: English Language Proficiency Rating of 4; Contact cei@umn.edu for permission number.","prereq":{"course":[]}},{"code":"GRAD 5105","subject":"GRAD","id":"5105","title":"Prac Univ Tchg NN Spkrs","info":"Theory, advanced practice in teaching in higher education for nonnative speakers of English. Emphasizes interactive teaching strategies, awareness of cross-cultural classroom issues,oral classroom presentation skills, and legal/policy issues. ","prereqInfo":"prereq: 5102 or English Language Proficiency Rating of 2; Contact cei@umn.edu for permission number.","prereq":{"course":[{"code":"GRAD 5102","subject":"GRAD","id":"5102"}]}},{"code":"GRAD 8101","subject":"GRAD","id":"8101","title":"Teaching in Higher Education","info":"Teaching methods/techniques. Active learning, critical thinking, practice teaching, and preparing a portfolio to document/reflect upon teaching. Readings, discussion, peer teaching, e-mail dialog, reflective writing, co-facilitation of course.","prereqInfo":"prereq: Non-Degree Students: contact pffcollege consentumn.edu with questions about registration. If adding a section after first class meeting, contact your instructor as soon as you enroll.","prereq":{"course":[]}},{"code":"GRAD 8102","subject":"GRAD","id":"8102","title":"Practicum for Future Faculty","info":"Collegial support for teaching, faculty mentorship at regional college or university. Faculty role at various institutions. Classroom observation/feedback, preparation for academic job search.","prereqInfo":"prereq: [8101 or equiv], [native English speaker or [ibTOEFL score of 27-30] or [ELP score of 1 from CTL]]","prereq":{"course":[{"code":"GRAD 8101","subject":"GRAD","id":"8101"}]}},{"code":"GRAD 8200","subject":"GRAD","id":"8200","title":"Teaching/Learning in Higher Ed","info":"Create course materials for context/discipline. Assess student learning. Write action plan. Topics may include active learning in sciences, teaching with technology, multicultural education, teaching in clinical settings, learning-community course design.","prereqInfo":null,"prereq":{"course":[]}},{"code":"GRAD 8400","subject":"GRAD","id":"8400","title":"Interdiscipl Diss Writing Sem","info":"Led by graduate faculty. For course description, see sponsoring program(s).","prereqInfo":"prereq: PhD student, instr consent","prereq":{"course":[]}},{"code":"GRAD 8401","subject":"GRAD","id":"8401","title":"DPD Seminar","info":"This seminar is the culminating component of intensive work on dissertation proposal development. The program involves a five-day spring workshop, independent summer research, a five-day fall workshop, and opportunities for on-going interactions with the cohort and with faculty instructors. The work is designed to help participants develop cogent and fundable dissertation research proposals.","prereqInfo":"The main goal of the spring workshop is to help clarify students research questions and scope as well as to better prepare them for a productive predissertation summer research experience.","prereq":{"course":[]}},{"code":"GRAD 999","subject":"GRAD","id":"999","title":"Graduate Active Status","info":"Graduate active status.","prereqInfo":"prereq: Grad student","prereq":{"course":[]}}]
+[
+  {
+    "code": "GRAD 5102",
+    "subject": "GRAD",
+    "id": "5102",
+    "title": "Prep Univ Tchg NN Eng Spkrs",
+    "info": "Theory/practice of teaching in higher education in the United States. Emphasizes clear oral classroom communication and development of presentation skills. Students practice in a simulated instructional setting. ",
+    "prereqInfo": "prereq: English Language Proficiency Rating of 4; Contact cei@umn.edu for permission number.",
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "GRAD 5105",
+    "subject": "GRAD",
+    "id": "5105",
+    "title": "Prac Univ Tchg NN Spkrs",
+    "info": "Theory, advanced practice in teaching in higher education for nonnative speakers of English. Emphasizes interactive teaching strategies, awareness of cross-cultural classroom issues,oral classroom presentation skills, and legal/policy issues. ",
+    "prereqInfo": "prereq: 5102 or English Language Proficiency Rating of 2; Contact cei@umn.edu for permission number.",
+    "prereq": {
+      "course": [
+        {
+          "code": "GRAD 5102",
+          "subject": "GRAD",
+          "id": "5102"
+        }
+      ]
+    }
+  },
+  {
+    "code": "GRAD 8101",
+    "subject": "GRAD",
+    "id": "8101",
+    "title": "Teaching in Higher Education",
+    "info": "Teaching methods/techniques. Active learning, critical thinking, practice teaching, and preparing a portfolio to document/reflect upon teaching. Readings, discussion, peer teaching, e-mail dialog, reflective writing, co-facilitation of course.",
+    "prereqInfo": "prereq: Non-Degree Students: contact pffcollege consentumn.edu with questions about registration. If adding a section after first class meeting, contact your instructor as soon as you enroll.",
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "GRAD 8102",
+    "subject": "GRAD",
+    "id": "8102",
+    "title": "Practicum for Future Faculty",
+    "info": "Collegial support for teaching, faculty mentorship at regional college or university. Faculty role at various institutions. Classroom observation/feedback, preparation for academic job search.",
+    "prereqInfo": "prereq: [8101 or equiv], [native English speaker or [ibTOEFL score of 27-30] or [ELP score of 1 from CTL]]",
+    "prereq": {
+      "course": [
+        {
+          "code": "GRAD 8101",
+          "subject": "GRAD",
+          "id": "8101"
+        }
+      ]
+    }
+  },
+  {
+    "code": "GRAD 8200",
+    "subject": "GRAD",
+    "id": "8200",
+    "title": "Teaching/Learning in Higher Ed",
+    "info": "Create course materials for context/discipline. Assess student learning. Write action plan. Topics may include active learning in sciences, teaching with technology, multicultural education, teaching in clinical settings, learning-community course design.",
+    "prereqInfo": null,
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "GRAD 8400",
+    "subject": "GRAD",
+    "id": "8400",
+    "title": "Interdiscipl Diss Writing Sem",
+    "info": "Led by graduate faculty. For course description, see sponsoring program(s).",
+    "prereqInfo": "prereq: PhD student, instr consent",
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "GRAD 8401",
+    "subject": "GRAD",
+    "id": "8401",
+    "title": "DPD Seminar",
+    "info": "This seminar is the culminating component of intensive work on dissertation proposal development. The program involves a five-day spring workshop, independent summer research, a five-day fall workshop, and opportunities for on-going interactions with the cohort and with faculty instructors. The work is designed to help participants develop cogent and fundable dissertation research proposals.",
+    "prereqInfo": "The main goal of the spring workshop is to help clarify students research questions and scope as well as to better prepare them for a productive predissertation summer research experience.",
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "GRAD 999",
+    "subject": "GRAD",
+    "id": "999",
+    "title": "Graduate Active Status",
+    "info": "Graduate active status.",
+    "prereqInfo": "prereq: Grad student",
+    "prereq": {
+      "course": []
+    }
+  }
+]

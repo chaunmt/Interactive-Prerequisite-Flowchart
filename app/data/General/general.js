@@ -11,8 +11,8 @@ function handleErrorExportJSON(error, fileName) {
 
 function filterDuplicate(data) {
   var seen = {};
-  return data.filter(function(item) {
-      return seen.hasOwnProperty(item) ? false : (seen[item] = true);
+  return data.filter(function (item) {
+    return seen.hasOwnProperty(item) ? false : (seen[item] = true);
   });
 }
 

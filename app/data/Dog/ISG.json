@@ -1,1 +1,80 @@
-[{"code":"ISG 5010","subject":"ISG","id":"5010","title":"Risk Analysis for ISGs","info":"Analytic-deliberative model of Ecological Risk Assessment (ERA). Components of ERA. Risk characterization. Evaluation of risk management decision processes. Use-risk communication, multi-stakeholder deliberation techniques. Cases.","prereqInfo":"prereq: Grad student or [sr, instr consent]","prereq":{"course":[]}},{"code":"ISG 5020","subject":"ISG","id":"5020","title":"ERA Modeling","info":"Four-day workshop. Role/mechanics of mathematical modeling within ecological risk assessment. Integrated exercises, cases.","prereqInfo":"prereq: [5010 or equiv], instr consent","prereq":{"course":[{"code":"ISG 5010","subject":"ISG","id":"5010"}]}},{"code":"ISG 8001","subject":"ISG","id":"8001","title":"Discussions","info":"Forum for presentation of dissertation proposals, results from ISG practica, discussion of environmental risk assessment topics. Focuses on ongoing research or key publications on introduced species/genotypes.","prereqInfo":null,"prereq":{"course":[]}},{"code":"ISG 8021","subject":"ISG","id":"8021","title":"Problem Solving Practicum","info":"Students address real-world problems in environmental risk analysis of introduced species and genotypes, with faculty guidance and in consultation with public/private partner, and apply societal deliberation and scientific/policy analysis.","prereqInfo":"prereq: 5010, 5020","prereq":{"course":[{"code":"ISG 5010","subject":"ISG","id":"5010"},{"code":"ISG 5020","subject":"ISG","id":"5020"}]}},{"code":"ISG 8031","subject":"ISG","id":"8031","title":"Cooperative Learning Practicum","info":"Cooperative learning techniques. Scenario planning, decision cases. Students develop/test cooperative learning exercises for environmental risk assessment based on their research experience in 8021. Linking research to teaching.","prereqInfo":"prereq: 8021","prereq":{"course":[{"code":"ISG 8021","subject":"ISG","id":"8021"}]}}]
+[
+  {
+    "code": "ISG 5010",
+    "subject": "ISG",
+    "id": "5010",
+    "title": "Risk Analysis for ISGs",
+    "info": "Analytic-deliberative model of Ecological Risk Assessment (ERA). Components of ERA. Risk characterization. Evaluation of risk management decision processes. Use-risk communication, multi-stakeholder deliberation techniques. Cases.",
+    "prereqInfo": "prereq: Grad student or [sr, instr consent]",
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "ISG 5020",
+    "subject": "ISG",
+    "id": "5020",
+    "title": "ERA Modeling",
+    "info": "Four-day workshop. Role/mechanics of mathematical modeling within ecological risk assessment. Integrated exercises, cases.",
+    "prereqInfo": "prereq: [5010 or equiv], instr consent",
+    "prereq": {
+      "course": [
+        {
+          "code": "ISG 5010",
+          "subject": "ISG",
+          "id": "5010"
+        }
+      ]
+    }
+  },
+  {
+    "code": "ISG 8001",
+    "subject": "ISG",
+    "id": "8001",
+    "title": "Discussions",
+    "info": "Forum for presentation of dissertation proposals, results from ISG practica, discussion of environmental risk assessment topics. Focuses on ongoing research or key publications on introduced species/genotypes.",
+    "prereqInfo": null,
+    "prereq": {
+      "course": []
+    }
+  },
+  {
+    "code": "ISG 8021",
+    "subject": "ISG",
+    "id": "8021",
+    "title": "Problem Solving Practicum",
+    "info": "Students address real-world problems in environmental risk analysis of introduced species and genotypes, with faculty guidance and in consultation with public/private partner, and apply societal deliberation and scientific/policy analysis.",
+    "prereqInfo": "prereq: 5010, 5020",
+    "prereq": {
+      "course": [
+        {
+          "code": "ISG 5010",
+          "subject": "ISG",
+          "id": "5010"
+        },
+        {
+          "code": "ISG 5020",
+          "subject": "ISG",
+          "id": "5020"
+        }
+      ]
+    }
+  },
+  {
+    "code": "ISG 8031",
+    "subject": "ISG",
+    "id": "8031",
+    "title": "Cooperative Learning Practicum",
+    "info": "Cooperative learning techniques. Scenario planning, decision cases. Students develop/test cooperative learning exercises for environmental risk assessment based on their research experience in 8021. Linking research to teaching.",
+    "prereqInfo": "prereq: 8021",
+    "prereq": {
+      "course": [
+        {
+          "code": "ISG 8021",
+          "subject": "ISG",
+          "id": "8021"
+        }
+      ]
+    }
+  }
+]
