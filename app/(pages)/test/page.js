@@ -1,4 +1,4 @@
-import Access from "../../data/Access";
+import Access from "../../data/access";
 
 export default function Page() {
   let subject = 'CSCI'
