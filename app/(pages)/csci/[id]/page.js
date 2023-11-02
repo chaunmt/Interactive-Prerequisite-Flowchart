@@ -43,7 +43,9 @@ function buildGraph(subjectCode, courseNumber) {
    * but I needed this part to be recursive and didn't want to declare a whole new helper
    * function just because there's one part of the string that should only be included once
    */
-  const rec_helper = function (subj, idnum, acc) {
+  const rec_helper = function (subj, idnum, acc, duplicate_list) {
+    if (duplicate_list.includes(`${subj} ${idnum}`)) return ''
+    else duplicate_list.push(`${subj} ${idnum}`)
     console.log(':', subj, idnum)
     let graph = `${subj}_${idnum}[${subj} ${idnum}]\n`
     if (idnum < "1000") { return graph } // early exit for 0xxx-level courses
@@ -64,11 +66,11 @@ function buildGraph(subjectCode, courseNumber) {
         let pre_subj = req[j].subject
         let pre_id = req[j].id
         let next_acc = (subj === pre_subj) ? acc : Access(pre_subj) // solely for optimization
-        graph = graph + rec_helper(pre_subj, pre_id, next_acc) + `${pre_subj}_${pre_id} --> ${subj}_${idnum}\n`
+        graph = graph + rec_helper(pre_subj, pre_id, next_acc, duplicate_list) + `${pre_subj}_${pre_id} --> ${subj}_${idnum}\n`
       }
     // }
     return graph
   }
 
-  return 'graph TD\n' + rec_helper(subjectCode, courseNumber, accessor)
+  return 'graph TD\n' + rec_helper(subjectCode, courseNumber, accessor, [])
 }
