@@ -270,7 +270,7 @@ function filterPrereq(info, defaultSubject) {
 function exportDogs(SUBJECT) {
   const schoolId = 'umn_umntc_peoplesoft'
   let subject = SUBJECT
-  let subjectCode = (subject == 'All') ? '' : 'subjectCode=' + subject
+  let subjectCode = (subject == 'allCourses') ? '' : 'subjectCode=' + subject
   let fileName = subject + '.json'
   let filePath = './Dog/'
   let returnFields = '&returnFields=subjectCode,courseNumber,name,description' // preq is at the end of description
@@ -323,10 +323,13 @@ function exportDogs(SUBJECT) {
 let allSubjects = require('./General/allSubjects.json')
 let allCourseNumbers = ''
 
-for (pup of allSubjects) {
-  allCourseNumbers = require(`./General/id/${pup}.json`)
-  exportDogs(pup)
-}
+// for (pup of allSubjects) {
+//   allCourseNumbers = require(`./General/id/${pup}.json`)
+//   exportDogs(pup)
+// }
+
+allCourseNumbers = require(`./General/id/allCourses.json`)
+exportDogs('allCourses')
 
 // KNOWN ERRORS:
 //  1. Prerequisites = target
