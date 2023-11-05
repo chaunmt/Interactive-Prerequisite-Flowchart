@@ -1,9 +1,5 @@
 let fs = require('fs')
 
-function extractWords(code) { return code.match(/[a-zA-Z]+/g) }
-
-function extractNumbers(code) { return code.match(/\d+/g) }
-
 function hasNumber(str) { return /\d/.test(str); }
 
 function deleteSpaces(str) { return str.replace(/\s/g, ''); }
