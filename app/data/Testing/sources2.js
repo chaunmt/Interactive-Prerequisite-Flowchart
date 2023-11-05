@@ -4,115 +4,154 @@ function extractWords(code) { return code.match(/[a-zA-Z]+/g) }
 
 function extractNumbers(code) { return code.match(/\d+/g) }
 
-// Every ', ' is replaced with ' and '
-function replaceComma(data) { // ==> return string
-  return data.replace(/, /g, ' and ')
-}
+function hasNumber(str) { return /\d/.test(str); }
 
-// A and B ==> Need both to satisfy requirement => Different arrays 
-// A or B ==> Only need one to satisfy requirement => Same array
-function filterAndOr(data) {  // ==> return array
-  return data.split(' and ').map(
-    (subReq) => subReq.split(' or ')
-  )
+function deleteSpaces(str) { return str.replace(/\s/g, ''); }
+
+// Replace all commas with ' and '
+function replaceComma(str) {
+  return str.replaceAll(', ', ' and ')
 }
 
 // Observed: Info after each ';' are extra info (i.e. recommendation, major,...)
-function filterExtraInfo(data) {  // ==> return string
-  if (data.toUpperCase().includes('NO PREREQUISITE')) return ""
-  return data.split(';')[0]
+function filterExtraInfo(str) {  
+  if (str.toUpperCase().includes('NO PREREQUISITE')) return ""
+  return str.split(';')[0]
 }
 
-function deleteSpaces(inputString) {
-  return inputString.replace(/\s/g, '');
-}
+function splitStringAtNumber(str) {
+  str = deleteSpaces(str)
 
-function splitStringAtNumber(inputString) {
-  inputString = deleteSpaces(inputString)
-  const match = inputString.match(/\d/);
-
-  if (match) {
-    const index = match.index;
-    return [inputString.slice(0, index), inputString.slice(index)];
+  const num = str.match(/\d/);
+  if (num) {
+    const index = num.index;
+    return [str.slice(0, index), str.slice(index)];
   }
 
-  return [inputString];
+  // Course should always have number inside
+  return null;
 }
 
-function extractCourses(inputString, defaultSubject) {
-  // pattern = match full words : 4 digits or (some letters + optional white space + 4 digits + some letters)
-  // ERROR: DOES NOT WORK FOR "Prerequisuites: 3081W" BECAUSE : IS NOT LETTER
-  const pattern = /\b\d{4}[A-Za-z]*\b|\b[A-Za-z]+\s\d{4}[A-Za-z]*\b|\binside\d+\b/g;
-  const courses = inputString.match(pattern) || [];
+function extractCourses(str, defaultSubject) {
+  // match full words for 3 cases: 
+  //    3-4 digits + optional letters
+  //    some letters + optional white space + 3-4 digits + optional letters
+  //    'inside' + number
+  const pattern = /\b\d{3,4}[A-Za-z]*\b|\b[A-Za-z]+\s\d{3,4}[A-Za-z]*\b|\binside\d+\b/g;
+  const courses = str.match(pattern) || [];
 
   return courses.map(
-      (each) => {
-        let [subject, id] = splitStringAtNumber(each)
-        subject = subject.toUpperCase()
-        if (!allSubjects.includes(subject)) subject = defaultSubject
-        id = id.toUpperCase()
-        // ERROR: ADD THE W IF ID DOES NOT FIND BUT ID + W IS FOUND, SAME FOR H
-        if (!allCourseNumbers.includes(id)) {
-          if (allCourseNumbers.includes(id + 'W')) id = id + 'W'
-          if (allCourseNumbers.includes(id + 'H')) id = id + 'H'
-        }
-        return { code: subject + ' ' + id, subject: subject, id: id }
+    (each) => {
+      let [subject, id] = splitStringAtNumber(each)
+
+      // Get subject
+      subject = subject.toUpperCase()
+      if (!allSubjects.includes(subject)) subject = defaultSubject  // ASSUME: NO PREREQ'S SUBJECT --> USE TARGET'S SUBJECT
+
+      // Get id
+      id = id.toUpperCase()
+      if (!allCourseNumbers.includes(id)) {
+        if (allCourseNumbers.includes(id + 'W')) id = id + 'W'
+        if (allCourseNumbers.includes(id + 'H')) id = id + 'H'
       }
-    )
+
+      return { code: subject + ' ' + id, subject: subject, id: id }
+    }
+  )
 }
 
 function isEqualCourse(A, B) {
+  // If A or B is not course, return false
   if (!A || !B) return false
   if (!A.code || !A.subject || !A.id) return false
   if (!B.code || !B.subject || !B.id) return false
+
+  // If A's differs from B's, return false
   if (A.code != B.code) return false
   if (A.subject != B.subject) return false
   if (A.id != B.id) return false
+
   return true
 }
 
+// Use breadth first search to filter duplicate
 function filterDuplicate(item) {
-  if (!Array.isArray(item)) return item; 
+  // Return null and single course
+  if (item == null) return null
+  if (item.id) return item  
+
+  // Traverse through 'and' array, 'or' array
+  if (item.and) return { and : filterDuplicate(item.and) }
+  if (item.or) return { or : filterDuplicate(item.or) }
+
+  // Replace duplicate course with null
   for (let i = 0; i < item.length; i++) {
-    for (let j = i + 1; j < item.length; j++) {
-      if (isEqualCourse(item[i], item[j])) item[j] = null
-      else
-      if (isEqualCourse(item[i].and, item[j].and)) item[j].and = null
-      else
-      if (isEqualCourse(item[i].or, item[j].or)) item[j].or = null
-    }
+    for (let j = i + 1; j < item.length; j++)
+      if (isEqualCourse(item[i], item[j])) {
+        item[j] = null
+      }
+
+    // Filter each item
     filterDuplicate(item[i])
   }
-  
+
   return item
 }
 
 function filterExtraArray(item) {
-  if (typeof(item) == 'object') {
-    if (!item) return null
-    if (item.length == 0) return null
-    else if (item.length == 1) return filterExtraArray(item[0])
-    else {
-      let i = 0
-      while (i < item.length) {
-        if (typeof(item[i]) == 'object') item[i] = filterExtraArray(item[i])
-        i ++
-      }
+  // Return null and single course
+  if (!item) return null
+  if (item.id) return item  
+
+  // Empty array becomes null
+  if (item.length == 0) return null
+
+  // Handle 'and' array
+  if (item.and) {
+    if (item.and.length < 2) 
+      return filterExtraArray(item.and) // Single item array becomes single item
+    else 
+      return { and: filterExtraArray(item.and) }
+  }
+
+  // Handle 'or' array
+  if (item.or) {
+    if (item.or.length < 2) 
+      return filterExtraArray(item.or)  // Single item array becomes single item
+    else 
+      return { or: filterExtraArray(item.or) }
+  }
+
+  // Single item array becomes single item
+  if (item.length == 1) return filterExtraArray(item[0])
+
+  // Recursively handle nested arrays
+  for (let i = 0; i < item.length; i++) {
+    if (!item[i].id) {
+      item[i] = filterExtraArray(item[i])
     }
   }
+
   return item
 }
 
 function filterNull(item) {
-  if (typeof(item) == 'object') {
-    if (item == null) return []
-    let i = 0
-    while (i < item.length) {
-      if (typeof(item[i]) == 'object') item[i] = filterExtraArray(item[i])
-      if (item[i] == null) item.splice(i,1)
-      i ++
-    }
+  // Return null and single course
+  if (!item) return null
+  if (item.id) return item
+
+  // Traverse through 'and' array, 'or' array
+  if (item.and) return { and : filterNull(item.and) }
+  if (item.or) return { or : filterNull(item.or) }
+
+  // Recursively handle nested arrays
+  let i = 0
+  while (i < item.length) {
+    if (!item[i]?.id) item[i] = filterNull(item[i])
+    if (item[i] == null) item.splice(i, 1)  // Delete null
+    i++
   }
+
   return item
 }
 
@@ -126,117 +165,103 @@ function cutStringAtLastNumber(inputString) {
   return "";
 }
 
-function hasNumber(str) {
-  return /\d/.test(str);
+function convertLogic(str, defaultSubject) {
+  // convert 'A and B' into { and: ['A', 'B'] }
+  if (str.includes(' and ')) return { and: extractCourses(str, defaultSubject) }
+
+  // convert 'A or B' into { or: ['A', 'B'] }
+  if (str.includes(' or ')) return { or: extractCourses(str, defaultSubject) }
+
+  return extractCourses(str, defaultSubject)
 }
 
-// ASSUME: 
-//    Prerequisites that have Id without subject will have its subject = target's subject
-//    There can not be both 'and' & 'or' in the same level of []
-//    There are no more than 99 pairs of [] for each prereqInfo, please
-function filterPrereq(info, defaultSubject) { // ==> return array
+// Replace decoded substring with encoded data
+function decodeBracket(data, encodedData) {
+  // Handle 'and' array, 'or' array
+  if (data.and) return {and: decodeBracket(data.and, encodedData) }
+  if (data.or) return {or: decodeBracket(data.or, encodedData) }
+
+  // Data is array
+  if (!data.id) {
+    for (let i = 0; i < data.length; i++)
+      data[i] = decodeBracket(data[i], encodedData)
+  }
+  // Data is course
+  else {  
+    let numId = parseInt(data.id)
+
+    // ASSUME: NO MORE THAN 99 PAIRS OF [] FOR EACH STRING
+    if (numId < 100) {
+      data = encodedData[numId]
+      data = decodeBracket(data, encodedData)
+    }
+  }
+  return data
+}
+
+function encodeBracket(info, defaultSubject) {
+  let open = []
+  let inside = []
+  let inNum = -1
+  let i = 0
+
+  while (i < info.length) {
+    // Store all indexes of open square brackets '['
+    if (info[i] == '[') open.push(i)
+
+    // Get string inside square brackets '[' + string inside + ']'
+    if (info[i] == ']') {
+      inside[++inNum] = info.substring(open[open.length - 1], i + 1)
+      open.pop()
+      
+      // No number in inside == No course 
+      if (!hasNumber(inside[inNum])) {
+        info = info.replace(inside[inNum], '')
+        inNum--
+      }
+      // Replace '[' + string inside + ']' with 'inside' + its index in the saved array
+      else {
+        info = info.replace(inside[inNum], 'inside' + inNum.toString())
+        i = i - inside[inNum].length + 7
+      }
+    }
+    i++
+  }
+
+  // All information after last number are redundant
+  info = cutStringAtLastNumber(info)
+
+  // Convert encoded string and saved array into encoded array
+  let encodedArr = []
+  for (i = 0; i <= inNum; i++) {
+    encodedArr.push(convertLogic(inside[i], defaultSubject))
+  }
+  encodedArr.push(convertLogic(info, defaultSubject))
+
+  return encodedArr
+}
+
+function filterPrereq(info, defaultSubject) {
+  // No number == No prerequisite
   if (!hasNumber(info)) return []
+
   info = filterExtraInfo(info)
   info = info.replaceAll('(', '[')
   info = info.replaceAll(')', ']')
   info = replaceComma(info)
 
-  let open = []
-  let inside = []
-  let inNum = -1
-  let i = 0
-  while (i < info.length) {
-    if (info[i] == '[') open.push(i)
-    if (info[i] == ']') {
-      inside[++inNum] = info.substring(open[open.length - 1], i + 1)
-      open.pop()
-      if (!hasNumber(inside[inNum])) {
-        info = info.replace(inside[inNum], '') 
-        inNum--
-      } 
-      else {
-        info = info.replace(inside[inNum], 'inside' + inNum.toString()) 
-        i = i - inside[inNum].length + 7
-        // console.log('inside[' + inNum +'] = ' + inside[inNum] + '\n')
-      }
-    }
-    i ++
-  }
-  info = cutStringAtLastNumber(info)
-  //console.log('info = ' + info + '\n')
+  let encoded = encodeBracket(info, defaultSubject)
 
-  function processed(str, defaultSubject) {
-    if (str.includes(' and ')) return {and: extractCourses(str, defaultSubject)}
-    if (str.includes(' or ')) return {or: extractCourses(str, defaultSubject)}
-    return extractCourses(str, defaultSubject)
-  }
+  // Only one encoded data in encoded array == No bracket
+  if (!encoded.length || encoded.length == 0) return encoded
 
-  let data = []
-  let inData = []
-  for (i = 0; i <= inNum; i++) {
-    inData.push(processed(inside[i], defaultSubject))
-    // console.log('inData at i = ' + i + ' = ' + JSON.stringify(inData))
-  }
-  inData.push(processed(info, defaultSubject))
-  inData = filterExtraArray(inData)
-  // console.log('inData at info = ' + JSON.stringify(inData))
+  let data = encoded[encoded.length - 1]
+  data = decodeBracket(data, encoded)
+  data = filterExtraArray(data)
+  data = filterDuplicate(data)
+  data = filterNull(data)
 
-  // function traverseAll(item, inData) {
-  //   if (item == null) return null
-  //   if (typeof(item) != 'object') return item
-  //   if (item.id) {
-  //     let numId = parseInt(item.id)
-  //     while (numId < 100) {
-  //       item = inData[numId]
-  //       console.log('item = ', JSON.stringify(item) + '\n')
-  //       console.log('inData = ', JSON.stringify(inData[numId]) + '\n')
-  //       traverseAll(item, inData)
-  //     }
-  //   }
-  //   else
-  //   for (let i = 0; i < item.length; i++)
-  //     traverseAll(item[i], inData)
-  //   return item
-  // }
-  // if (inData != null) traverseAll(inData[inData.length - 1], inData)
-  if (inData == null) return inData
-  else 
-  if (inData.length == null) return inData
-  else {  
-    let data = inData[inData.length - 1]
-    
-    function traverse(data) {
-      if (data.and) {
-        for (let i = 0; i < data.and.length; i++) {
-          let numId = parseInt(data.and[i].id)
-          if (numId < 100) {
-            data.and[i] = inData[numId]
-            traverse(data.and[i])
-          }
-        }
-      }
-      else if (data.or) {
-        for (let i = 0; i < data.or.length; i++) {
-          let numId = parseInt(data.or[i].id)
-          if (numId < 100) {
-            data.or[i] = inData[numId]
-            traverse(data.or[i])
-          }
-        }
-      }
-      else {
-        let numId = parseInt(data.id)
-        if (numId < 100) {
-          data = inData[numId]
-          traverse(data)
-        }
-      }
-      return data
-    }
-
-    data = traverse(data)
-    return filterDuplicate(data)
-  }
+  return data
 }
 
 
@@ -281,7 +306,7 @@ function exportDogs(SUBJECT) {
             title: course.name,
             info: info[0],
             prereqInfo: info[1] || null,
-            prereq: prereq
+            prereq: prereq || []
           }
         }
       )

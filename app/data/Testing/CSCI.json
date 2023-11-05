@@ -198,22 +198,9 @@
     "prereq": {
       "or": [
         {
-          "and": [
-            {
-              "code": "EE 1301",
-              "subject": "EE",
-              "id": "1301"
-            }
-          ]
-        },
-        {
-          "and": [
-            {
-              "code": "EE 1301",
-              "subject": "EE",
-              "id": "1301"
-            }
-          ]
+          "code": "EE 1301",
+          "subject": "EE",
+          "id": "1301"
         },
         {
           "code": "CSCI 1103",
@@ -458,11 +445,6 @@
           "code": "CSCI 1133",
           "subject": "CSCI",
           "id": "1133"
-        },
-        {
-          "code": "CSCI 1133",
-          "subject": "CSCI",
-          "id": "1133"
         }
       ]
     }
@@ -530,11 +512,6 @@
     "prereqInfo": "csci 2081, concurrent registration with csci 2081 and upper class standing, or instructor permission.",
     "prereq": {
       "and": [
-        {
-          "code": "CSCI 2081",
-          "subject": "CSCI",
-          "id": "2081"
-        },
         {
           "code": "CSCI 2081",
           "subject": "CSCI",
@@ -882,13 +859,9 @@
     "info": "formulate and solve open-ended project: design, implement, interface, document, test. team work strongly encouraged. arranged with csci faculty.",
     "prereqInfo": "upper div csci, 4061, instr consent; cannot be taken for grad cr",
     "prereq": {
-      "and": [
-        {
-          "code": "CSCI 4061",
-          "subject": "CSCI",
-          "id": "4061"
-        }
-      ]
+      "code": "CSCI 4061",
+      "subject": "CSCI",
+      "id": "4061"
     }
   },
   {
@@ -939,13 +912,9 @@
     "info": "distributed system design and implementation. distributed communication and synchronization, data replication and consistency, distributed file systems, fault tolerance, and distributed scheduling.",
     "prereqInfo": "[5103 or equiv] or instr consent",
     "prereq": {
-      "or": [
-        {
-          "code": "CSCI 5103",
-          "subject": "CSCI",
-          "id": "5103"
-        }
-      ]
+      "code": "CSCI 5103",
+      "subject": "CSCI",
+      "id": "5103"
     }
   },
   {
@@ -1079,13 +1048,9 @@
     "info": "real-time systems that require timely response by computer to external stimulus. embedded systems in which computer is part of machine. increasing importance of these systems in commercial products. how to control robots and video game consoles. lecture, informal lab.",
     "prereqInfo": "[4061 or instr consent], experience with c language",
     "prereq": {
-      "or": [
-        {
-          "code": "CSCI 4061",
-          "subject": "CSCI",
-          "id": "4061"
-        }
-      ]
+      "code": "CSCI 4061",
+      "subject": "CSCI",
+      "id": "4061"
     }
   },
   {
@@ -1140,13 +1105,9 @@
     "info": "concepts, principles, protocols, and applications of computer networks. layered network architectures, data link protocols, local area networks, network layer/routing protocols, transport, congestion/flow control, emerging high-speed networks, network programming interfaces, networked applications. case studies using ethernet, token ring, fddi, tcp/ip, atm, email, http, and www.",
     "prereqInfo": "[4061 or instr consent], basic knowledge of [computer architecture, operating systems, probability], grad student",
     "prereq": {
-      "or": [
-        {
-          "code": "CSCI 4061",
-          "subject": "CSCI",
-          "id": "4061"
-        }
-      ]
+      "code": "CSCI 4061",
+      "subject": "CSCI",
+      "id": "4061"
     }
   },
   {
@@ -1435,13 +1396,9 @@
     "info": "introduction to ai. problem solving, search, inference techniques. logic/theorem proving. knowledge representation, rules, frames, semantic networks. planning/scheduling. lisp programming language.",
     "prereqInfo": "[2041 or instr consent], grad student",
     "prereq": {
-      "or": [
-        {
-          "code": "CSCI 2041",
-          "subject": "CSCI",
-          "id": "2041"
-        }
-      ]
+      "code": "CSCI 2041",
+      "subject": "CSCI",
+      "id": "2041"
     }
   },
   {
@@ -1756,13 +1713,9 @@
     "info": "concepts, database architecture, alternative conceptual data models, foundations of data manipulation/analysis, logical data models, database designs, models of database security/integrity, current trends.",
     "prereqInfo": "[4041 or instr consent], grad student",
     "prereq": {
-      "or": [
-        {
-          "code": "CSCI 4041",
-          "subject": "CSCI",
-          "id": "4041"
-        }
-      ]
+      "code": "CSCI 4041",
+      "subject": "CSCI",
+      "id": "4041"
     }
   },
   {
@@ -1901,7 +1854,7 @@
     "title": "Intro to Research in CS, I",
     "info": "first of two-part sequence course. students must take both parts to complete course and receive grade. conducting literature review. identifying research questions. writing a research proposal. research areas in cs. practical research skills. research ethics. resources.",
     "prereqInfo": "1st yr cs phd student",
-    "prereq": null
+    "prereq": []
   },
   {
     "code": "CSCI 8002",
@@ -1911,13 +1864,9 @@
     "info": "second of two-part sequence course. students must take both parts to complete course and receive grade. conducting literature review. identifying research questions. writing a research proposal. research areas in cs. practical research skills. research ethics. resources.",
     "prereqInfo": "8001, 1st yr cs phd student",
     "prereq": {
-      "and": [
-        {
-          "code": "CSCI 8001",
-          "subject": "CSCI",
-          "id": "8001"
-        }
-      ]
+      "code": "CSCI 8001",
+      "subject": "CSCI",
+      "id": "8001"
     }
   },
   {
@@ -2231,7 +2180,7 @@
     "title": "Doct Pre-Thesis Cr*",
     "info": "tbd",
     "prereqInfo": "doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": null
+    "prereq": []
   },
   {
     "code": "CSCI 8701",
@@ -2366,7 +2315,7 @@
     "title": "Thesis Credit:Mast*",
     "info": "(no description)",
     "prereqInfo": "max 18 cr per semester or summer; 10 cr total required [plan a only]",
-    "prereq": null
+    "prereq": []
   },
   {
     "code": "CSCI 8801",
@@ -2388,7 +2337,7 @@
     "title": "Thesis Credit:Doct*",
     "info": "(no description)",
     "prereqInfo": "max 18 cr per semester or summer; 24 cr required",
-    "prereq": null
+    "prereq": []
   },
   {
     "code": "CSCI 8970",
