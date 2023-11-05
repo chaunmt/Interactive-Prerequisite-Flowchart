@@ -327,3 +327,7 @@ for (pup of allSubjects) {
   allCourseNumbers = require(`./General/id/${pup}.json`)
   exportDogs(pup)
 }
+
+// KNOWN ERRORS:
+//  1. Prerequisites = target
+//  2. V and H ???
