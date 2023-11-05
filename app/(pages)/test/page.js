@@ -10,7 +10,7 @@ export default function Page() {
 
   //console.log(Access('CSCI').isEqualCourses(A, B))
 
-  let C = '3081V'
+  let C = '3081W'
   let D = '3081H'
   console.log(Access('CSCI').isEqualId(C, D))
 
