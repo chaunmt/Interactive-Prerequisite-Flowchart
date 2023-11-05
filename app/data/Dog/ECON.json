@@ -4,38 +4,30 @@
     "subject": "ECON",
     "id": "1101",
     "title": "Principles of Microeconomics",
-    "info": "Microeconomic behavior of consumers, firms, and markets in domestic and world economy. Demand and supply. Competition and monopoly. Distribution of income. Economic interdependencies in the global economy. Effects of global linkages on individual decisions.",
-    "prereqInfo": "prereq: knowledge of plane geometry and advanced algebra",
-    "prereq": {
-      "course": []
-    }
+    "info": "microeconomic behavior of consumers, firms, and markets in domestic and world economy. demand and supply. competition and monopoly. distribution of income. economic interdependencies in the global economy. effects of global linkages on individual decisions.",
+    "prereqInfo": "knowledge of plane geometry and advanced algebra",
+    "prereq": []
   },
   {
     "code": "ECON 1101H",
     "subject": "ECON",
     "id": "1101H",
     "title": "Honors: Princ Micro",
-    "info": "Microeconomic behavior of consumers, firms, markets in domestic/world economy. Demand/supply. Competition/monopoly. Distribution of income. Effects of economic interdependencies, global linkages on individual decisions. Emphasizes algebra, geometry, basic logic, proofs.",
+    "info": "microeconomic behavior of consumers, firms, markets in domestic/world economy. demand/supply. competition/monopoly. distribution of income. effects of economic interdependencies, global linkages on individual decisions. emphasizes algebra, geometry, basic logic, proofs.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "ECON 1102",
     "subject": "ECON",
     "id": "1102",
     "title": "Principles Macro",
-    "info": "Aggregate consumption, saving, investment, and national income. Role of money, banking, and business cycles in domestic and world economy. International trade, growth, and development. U.S. economy and its role in the world economy. International interdependencies among nations.",
-    "prereqInfo": "prereq: [1101 or equiv], knowledge of plane geometry and advanced algebra",
+    "info": "aggregate consumption, saving, investment, and national income. role of money, banking, and business cycles in domestic and world economy. international trade, growth, and development. u.s. economy and its role in the world economy. international interdependencies among nations.",
+    "prereqInfo": "[1101 or equiv], knowledge of plane geometry and advanced algebra",
     "prereq": {
-      "course": [
-        {
-          "code": "ECON 1101",
-          "subject": "ECON",
-          "id": "1101"
-        }
-      ]
+      "code": "ECON 1101",
+      "subject": "ECON",
+      "id": "1101"
     }
   },
   {
@@ -43,44 +35,36 @@
     "subject": "ECON",
     "id": "1102H",
     "title": "Hons Princ Macro",
-    "info": "Aggregate consumption, saving, investment, and national income. Money, banking, and business cycles in domestic/global economy. International trade, growth, and development. Role of the United States in world economy, international interdependencies. Emphasizes economic models to explain macroeconomic phenomena.",
+    "info": "aggregate consumption, saving, investment, and national income. money, banking, and business cycles in domestic/global economy. international trade, growth, and development. role of the united states in world economy, international interdependencies. emphasizes economic models to explain macroeconomic phenomena.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "ECON 1104",
     "subject": "ECON",
     "id": "1104",
     "title": "Principles of Microeconomics",
-    "info": "Microeconomic behavior of consumers, firms, and markets in domestic/world economy. Demand and supply. Competition and monopoly. Distribution of income. Effects of economic interdependencies and global linkages on individual decisions. Use of calculus and mathematical models.",
+    "info": "microeconomic behavior of consumers, firms, and markets in domestic/world economy. demand and supply. competition and monopoly. distribution of income. effects of economic interdependencies and global linkages on individual decisions. use of calculus and mathematical models.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "ECON 1105",
     "subject": "ECON",
     "id": "1105",
     "title": "Principles of Macroeconomics",
-    "info": "Aggregate consumption, saving, investment, national income. Role of money, banking, and business cycles in the domestic/world economy. International trade, growth, and development. U.S./world economy. International interdependencies among nations. Emphasizes calculus and mathematical reasoning.",
+    "info": "aggregate consumption, saving, investment, national income. role of money, banking, and business cycles in the domestic/world economy. international trade, growth, and development. u.s./world economy. international interdependencies among nations. emphasizes calculus and mathematical reasoning.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "ECON 1165",
     "subject": "ECON",
     "id": "1165",
     "title": "Business Economics",
-    "info": "This course introduces the fundamentals of microeconomics and macroeconomics to business/other students who desire a primer on the working of an economy in a mutually dependent world. It includes the microeconomic interaction of businesses and consumers in markets and the determination of prices and quantities under conditions of competition and monopoly. Economic interdependencies in the global economy are analyzed to obtain the effects of economic changes on the country itself and on the world. The macroeconomics of aggregate consumption, saving, investment, and national income are also examined, as well as the role played by money, banking, and business cycles in the domestic and world economy. This course is only for CSOM undergraduate students.",
+    "info": "this course introduces the fundamentals of microeconomics and macroeconomics to business/other students who desire a primer on the working of an economy in a mutually dependent world. it includes the microeconomic interaction of businesses and consumers in markets and the determination of prices and quantities under conditions of competition and monopoly. economic interdependencies in the global economy are analyzed to obtain the effects of economic changes on the country itself and on the world. the macroeconomics of aggregate consumption, saving, investment, and national income are also examined, as well as the role played by money, banking, and business cycles in the domestic and world economy. this course is only for csom undergraduate students.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "ECON 176",
@@ -89,129 +73,107 @@
     "title": "Comm Pol",
     "info": "",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "ECON 1902",
     "subject": "ECON",
     "id": "1902",
     "title": "Freshman Seminar",
-    "info": "Topics specified in Class Schedule.",
-    "prereqInfo": "prereq: freshman",
-    "prereq": {
-      "course": []
-    }
+    "info": "topics specified in class schedule.",
+    "prereqInfo": "freshman",
+    "prereq": []
   },
   {
     "code": "ECON 1903",
     "subject": "ECON",
     "id": "1903",
     "title": "Freshman Seminar",
-    "info": "Topics specified in Class Schedule.",
-    "prereqInfo": "prereq: freshman",
-    "prereq": {
-      "course": []
-    }
+    "info": "topics specified in class schedule.",
+    "prereqInfo": "freshman",
+    "prereq": []
   },
   {
     "code": "ECON 1904",
     "subject": "ECON",
     "id": "1904",
     "title": "Freshman Seminar",
-    "info": "Topics specified in Class Schedule.",
-    "prereqInfo": "prereq: freshman",
-    "prereq": {
-      "course": []
-    }
+    "info": "topics specified in class schedule.",
+    "prereqInfo": "freshman",
+    "prereq": []
   },
   {
     "code": "ECON 1905",
     "subject": "ECON",
     "id": "1905",
     "title": "Freshman Seminar",
-    "info": "Topics specified in Class Schedule.",
-    "prereqInfo": "prereq: Freshman",
-    "prereq": {
-      "course": []
-    }
+    "info": "topics specified in class schedule.",
+    "prereqInfo": "freshman",
+    "prereq": []
   },
   {
     "code": "ECON 1910W",
     "subject": "ECON",
     "id": "1910W",
     "title": "Freshman Seminar",
-    "info": "Topics specified in Class Schedule.",
-    "prereqInfo": "prereq: freshman",
-    "prereq": {
-      "course": []
-    }
+    "info": "topics specified in class schedule.",
+    "prereqInfo": "freshman",
+    "prereq": []
   },
   {
     "code": "ECON 2020",
     "subject": "ECON",
     "id": "2020",
     "title": "Econ of COVID-19",
-    "info": "This course explores incorporating the standard epidemiology models of disease into economic modeling.   The student will gain an understanding of how these epidemiology models work, and how they can be extended to allow the careful consideration of the tradeoffs inherent in choosing safety vs. economic well being.   Topics will include SIR models from epidemiology, how contagious disease relates to standard economic concepts such as externalities, calculations of the Statistical Value of Life from economics, and the uses and pitfalls of mathematical modeling.  ",
+    "info": "this course explores incorporating the standard epidemiology models of disease into economic modeling.   the student will gain an understanding of how these epidemiology models work, and how they can be extended to allow the careful consideration of the tradeoffs inherent in choosing safety vs. economic well being.   topics will include sir models from epidemiology, how contagious disease relates to standard economic concepts such as externalities, calculations of the statistical value of life from economics, and the uses and pitfalls of mathematical modeling.  ",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "ECON 3021",
     "subject": "ECON",
     "id": "3021",
     "title": "Survey Econ Ideas",
-    "info": "A historical and analytical treatment of how important economic ideas developed over time, and their relationship to prevailing economic conditions and politics. Economic ideas from Adam Smith to the present.",
+    "info": "a historical and analytical treatment of how important economic ideas developed over time, and their relationship to prevailing economic conditions and politics. economic ideas from adam smith to the present.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "ECON 3031",
     "subject": "ECON",
     "id": "3031",
     "title": "Amer Econ Problems",
-    "info": "American economic problems/relationships. Relevance of simple economic principles to economic problems in the United States.",
+    "info": "american economic problems/relationships. relevance of simple economic principles to economic problems in the united states.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "ECON 3033",
     "subject": "ECON",
     "id": "3033",
     "title": "Current Econ Issues",
-    "info": "Current controversies over economic policies used to deal with some economic problems. Students focus in part on a specific issue of their choice. Different economic issues are discussed each time the course is offered (every three years).",
+    "info": "current controversies over economic policies used to deal with some economic problems. students focus in part on a specific issue of their choice. different economic issues are discussed each time the course is offered (every three years).",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "ECON 3041",
     "subject": "ECON",
     "id": "3041",
     "title": "World Economy",
-    "info": "What economic future holds. What can be done about global issues. How to improve economic prospects of countries.",
+    "info": "what economic future holds. what can be done about global issues. how to improve economic prospects of countries.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "ECON 3101",
     "subject": "ECON",
     "id": "3101",
     "title": "Intermediate Microeconomics",
-    "info": "Behavior of households, firms, and industries under competitive/monopolistic conditions. Factors influencing production, price, and other decisions. Applications of theory. Economic efficiency. Distribution of well-being. Students cannot take this course if they have taken ApEc 3001, as ApEc 3001 does not contain all material in Econ 3101.",
-    "prereqInfo": "prereq: ECON 1101, 1102, and MATH 1271 or equivalent courses approved by the Economics Department.",
+    "info": "behavior of households, firms, and industries under competitive/monopolistic conditions. factors influencing production, price, and other decisions. applications of theory. economic efficiency. distribution of well-being. students cannot take this course if they have taken apec 3001, as apec 3001 does not contain all material in econ 3101.",
+    "prereqInfo": "econ 1101, 1102, and math 1271 or equivalent courses approved by the economics department.",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 1101",
           "subject": "ECON",
@@ -235,35 +197,37 @@
     "subject": "ECON",
     "id": "3101H",
     "title": "Hons Interm Micro",
-    "info": "Behavior of households, firms, and industries under competitive and monopolistic conditions; factors influencing production, price, and other decisions of the firm; applications of the theory. Economic efficiency and distribution of well-being.\n",
+    "info": "behavior of households, firms, and industries under competitive and monopolistic conditions; factors influencing production, price, and other decisions of the firm; applications of the theory. economic efficiency and distribution of well-being.\n",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "ECON 3102",
     "subject": "ECON",
     "id": "3102",
     "title": "Intermediate Macroeconomics",
-    "info": "Determinants of national income, employment, and price level; effects of monetary and fiscal policies; emphasis on a general equilibrium approach. Applications of the theory, especially to current modern macroeconomic policy issues.\n ApEc 3006 cannot be substituted for ECON 3102.",
-    "prereqInfo": "prereq: ECON 1101 (or ECON 1165, APEC 1101), ECON 1102 (or APEC1102), ECON 3101, MATH 1271 or equivalent courses approved by the Economics Department.",
+    "info": "determinants of national income, employment, and price level; effects of monetary and fiscal policies; emphasis on a general equilibrium approach. applications of the theory, especially to current modern macroeconomic policy issues.\n apec 3006 cannot be substituted for econ 3102.",
+    "prereqInfo": "econ 1101 (or econ 1165, apec 1101), econ 1102 (or apec1102), econ 3101, math 1271 or equivalent courses approved by the economics department.",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 1101",
           "subject": "ECON",
           "id": "1101"
         },
         {
-          "code": "ECON 1165",
-          "subject": "ECON",
-          "id": "1165"
-        },
-        {
-          "code": "APEC 1101",
-          "subject": "APEC",
-          "id": "1101"
+          "and": [
+            {
+              "code": "ECON 1165",
+              "subject": "ECON",
+              "id": "1165"
+            },
+            {
+              "code": "APEC 1101",
+              "subject": "APEC",
+              "id": "1101"
+            }
+          ]
         },
         {
           "code": "ECON 1102",
@@ -288,65 +252,55 @@
     "subject": "ECON",
     "id": "3102H",
     "title": "Hons Interm Macro",
-    "info": "Determinants of national income, employment, and price level; effects of monetary and fiscal policies; emphasis on a general equilibrium approach. Applications of economic efficiency and distribution of well-being.\n",
+    "info": "determinants of national income, employment, and price level; effects of monetary and fiscal policies; emphasis on a general equilibrium approach. applications of economic efficiency and distribution of well-being.\n",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "ECON 3105",
     "subject": "ECON",
     "id": "3105",
     "title": "Managerial Economics",
-    "info": "Theory of the firm. Managerial decision problems. Demand theory. Production technology and cost concepts. Pricing/output decisions under different market structures. Investment behavior. Government regulation.",
+    "info": "theory of the firm. managerial decision problems. demand theory. production technology and cost concepts. pricing/output decisions under different market structures. investment behavior. government regulation.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "ECON 3501",
     "subject": "ECON",
     "id": "3501",
     "title": "Labor Economics",
-    "info": "Role of labor in economy; labor as factor of production, population, and labor force; economics of labor markets; labor market institutions; theories of wages and employment; unions and collective bargaining; public policy.",
+    "info": "role of labor in economy; labor as factor of production, population, and labor force; economics of labor markets; labor market institutions; theories of wages and employment; unions and collective bargaining; public policy.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "ECON 3601",
     "subject": "ECON",
     "id": "3601",
     "title": "Industrial Organization",
-    "info": "Industrial organization and market structures. Relations between market structure, economic efficiency, and welfare. Purposes and effects of antitrust and related legislation. Industrial policy.",
+    "info": "industrial organization and market structures. relations between market structure, economic efficiency, and welfare. purposes and effects of antitrust and related legislation. industrial policy.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "ECON 3611",
     "subject": "ECON",
     "id": "3611",
     "title": "Environmental Econ",
-    "info": "Dependence of the economy on the environment; alternative visions of the future and issues on which actual outcome will depend, particular attention to global warming; future generations and sustainability; economic incentives for environmental protection and degradation; economic aspects of environmental policies.",
+    "info": "dependence of the economy on the environment; alternative visions of the future and issues on which actual outcome will depend, particular attention to global warming; future generations and sustainability; economic incentives for environmental protection and degradation; economic aspects of environmental policies.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "ECON 3701",
     "subject": "ECON",
     "id": "3701",
     "title": "Money and Banking",
-    "info": "Historical development, present characteristics, and economic role of financial institutions. Commercial banking, the Federal Reserve System, and monetary policy.",
-    "prereqInfo": "prereq: 1101, 1102 or equiv; not open to Econ majors",
+    "info": "historical development, present characteristics, and economic role of financial institutions. commercial banking, the federal reserve system, and monetary policy.",
+    "prereqInfo": "1101, 1102 or equiv; not open to econ majors",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 1101",
           "subject": "ECON",
@@ -365,16 +319,12 @@
     "subject": "ECON",
     "id": "3801",
     "title": "Elements of Public Economics",
-    "info": "Competing views on proper role of government in economy. Effects of tax/spending policies. Private agents' response to government actions. Optimal policies. Applications primarily to U.S. federal government.",
-    "prereqInfo": "prereq: [1102 or equiv]; not open to Econ majors",
+    "info": "competing views on proper role of government in economy. effects of tax/spending policies. private agents' response to government actions. optimal policies. applications primarily to u.s. federal government.",
+    "prereqInfo": "[1102 or equiv]; not open to econ majors",
     "prereq": {
-      "course": [
-        {
-          "code": "ECON 1102",
-          "subject": "ECON",
-          "id": "1102"
-        }
-      ]
+      "code": "ECON 1102",
+      "subject": "ECON",
+      "id": "1102"
     }
   },
   {
@@ -382,45 +332,51 @@
     "subject": "ECON",
     "id": "3896",
     "title": "Internship for Academic Credit",
-    "info": "An applied learning experience in an agreed-upon, short-term, supervised workplace activity, with defined goals, which may be related to a student's major field or area of interest. The work can be full or part time, paid or unpaid, primarily in off-campus environments. Internships integrate classroom knowledge and theory with practical application and skill development in professional or community settings. The skills and knowledge learned should be transferable to other employment settings and not simply to advance the operations of the employer.  The student's work is supervised and evaluated by a site coordinator or instructor.",
+    "info": "an applied learning experience in an agreed-upon, short-term, supervised workplace activity, with defined goals, which may be related to a student's major field or area of interest. the work can be full or part time, paid or unpaid, primarily in off-campus environments. internships integrate classroom knowledge and theory with practical application and skill development in professional or community settings. the skills and knowledge learned should be transferable to other employment settings and not simply to advance the operations of the employer.  the student's work is supervised and evaluated by a site coordinator or instructor.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "ECON 3951",
     "subject": "ECON",
     "id": "3951",
     "title": "Economics Capstone",
-    "info": "Students produce a significant written work in economics. Projects demonstrate critical thinking, collection/analysis of data, problem solving, interpretation of findings. Modes of inquiry in economics.",
-    "prereqInfo": "prereq: (ECON 1101 or ECON 1165, APEC 1101), (ECON 1102 or APEC 1102), ECON 3101, ECON 3102, (STAT 3011 or STAT 3021), (STAT 3022 or STAT 3032), and Econ writing intensive elective or equivalent courses approved by the Economics Department",
+    "info": "students produce a significant written work in economics. projects demonstrate critical thinking, collection/analysis of data, problem solving, interpretation of findings. modes of inquiry in economics.",
+    "prereqInfo": "(econ 1101 or econ 1165, apec 1101), (econ 1102 or apec 1102), econ 3101, econ 3102, (stat 3011 or stat 3021), (stat 3022 or stat 3032), and econ writing intensive elective or equivalent courses approved by the economics department",
     "prereq": {
-      "course": [
+      "and": [
         {
-          "code": "ECON 1101",
-          "subject": "ECON",
-          "id": "1101"
+          "and": [
+            {
+              "code": "ECON 1101",
+              "subject": "ECON",
+              "id": "1101"
+            },
+            {
+              "code": "ECON 1165",
+              "subject": "ECON",
+              "id": "1165"
+            },
+            {
+              "code": "APEC 1101",
+              "subject": "APEC",
+              "id": "1101"
+            }
+          ]
         },
         {
-          "code": "ECON 1165",
-          "subject": "ECON",
-          "id": "1165"
-        },
-        {
-          "code": "APEC 1101",
-          "subject": "APEC",
-          "id": "1101"
-        },
-        {
-          "code": "ECON 1102",
-          "subject": "ECON",
-          "id": "1102"
-        },
-        {
-          "code": "APEC 1102",
-          "subject": "APEC",
-          "id": "1102"
+          "or": [
+            {
+              "code": "ECON 1102",
+              "subject": "ECON",
+              "id": "1102"
+            },
+            {
+              "code": "APEC 1102",
+              "subject": "APEC",
+              "id": "1102"
+            }
+          ]
         },
         {
           "code": "ECON 3101",
@@ -433,24 +389,32 @@
           "id": "3102"
         },
         {
-          "code": "STAT 3011",
-          "subject": "STAT",
-          "id": "3011"
+          "or": [
+            {
+              "code": "STAT 3011",
+              "subject": "STAT",
+              "id": "3011"
+            },
+            {
+              "code": "STAT 3021",
+              "subject": "STAT",
+              "id": "3021"
+            }
+          ]
         },
         {
-          "code": "STAT 3021",
-          "subject": "STAT",
-          "id": "3021"
-        },
-        {
-          "code": "STAT 3022",
-          "subject": "STAT",
-          "id": "3022"
-        },
-        {
-          "code": "STAT 3032",
-          "subject": "STAT",
-          "id": "3032"
+          "or": [
+            {
+              "code": "STAT 3022",
+              "subject": "STAT",
+              "id": "3022"
+            },
+            {
+              "code": "STAT 3032",
+              "subject": "STAT",
+              "id": "3032"
+            }
+          ]
         }
       ]
     }
@@ -460,10 +424,10 @@
     "subject": "ECON",
     "id": "3960",
     "title": "Topics in Econ: Area Studies",
-    "info": "Topics specified in class schedule.",
-    "prereqInfo": "prereq: [1101, 1102] or equiv",
+    "info": "topics specified in class schedule.",
+    "prereqInfo": "[1101, 1102] or equiv",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 1101",
           "subject": "ECON",
@@ -482,10 +446,10 @@
     "subject": "ECON",
     "id": "3968",
     "title": "Topics in Economics",
-    "info": "Topics mentioned in Class Schedule.",
-    "prereqInfo": "prereq: [1101, 1102] or equivalents",
+    "info": "topics mentioned in class schedule.",
+    "prereqInfo": "[1101, 1102] or equivalents",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 1101",
           "subject": "ECON",
@@ -504,24 +468,28 @@
     "subject": "ECON",
     "id": "3970",
     "title": "Topics: Economics",
-    "info": "Topics specified in class schedule.",
-    "prereqInfo": "prereq: Econ 1101 (or Econ 1165, ApEc 1101), Econ 1102 (or ApEc 1102), Econ 3101, and Math 1271",
+    "info": "topics specified in class schedule.",
+    "prereqInfo": "econ 1101 (or econ 1165, apec 1101), econ 1102 (or apec 1102), econ 3101, and math 1271",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 1101",
           "subject": "ECON",
           "id": "1101"
         },
         {
-          "code": "ECON 1165",
-          "subject": "ECON",
-          "id": "1165"
-        },
-        {
-          "code": "APEC 1101",
-          "subject": "APEC",
-          "id": "1101"
+          "and": [
+            {
+              "code": "ECON 1165",
+              "subject": "ECON",
+              "id": "1165"
+            },
+            {
+              "code": "APEC 1101",
+              "subject": "APEC",
+              "id": "1101"
+            }
+          ]
         },
         {
           "code": "ECON 1102",
@@ -551,10 +519,10 @@
     "subject": "ECON",
     "id": "3991",
     "title": "Independent Study",
-    "info": "Students confirm topic of study with faculty supervisor or with director of undergraduate studies before beginning (otherwise no credit).",
-    "prereqInfo": "prereq: 3101, 3102, dept consent",
+    "info": "students confirm topic of study with faculty supervisor or with director of undergraduate studies before beginning (otherwise no credit).",
+    "prereqInfo": "3101, 3102, dept consent",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 3101",
           "subject": "ECON",
@@ -573,10 +541,10 @@
     "subject": "ECON",
     "id": "3993",
     "title": "Directed Studies",
-    "info": "Guided individual reading or study in areas not available in regular course offerings.",
-    "prereqInfo": "prereq: 3101, 3102, 4261, two semesters of statistics",
+    "info": "guided individual reading or study in areas not available in regular course offerings.",
+    "prereqInfo": "3101, 3102, 4261, two semesters of statistics",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 3101",
           "subject": "ECON",
@@ -600,65 +568,55 @@
     "subject": "ECON",
     "id": "4021",
     "title": "Econ Philosophy",
-    "info": "Types of economics. Ethics and its economic applications. Bases of different economic philosophies. Topics vary by semester. Examples: relationships between freedoms/reponsibilities, economics/ethics of stakeholder concept, different concepts of property rights or justice.",
+    "info": "types of economics. ethics and its economic applications. bases of different economic philosophies. topics vary by semester. examples: relationships between freedoms/reponsibilities, economics/ethics of stakeholder concept, different concepts of property rights or justice.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "ECON 4022",
     "subject": "ECON",
     "id": "4022",
     "title": "Survey Econ Ideas",
-    "info": "Historical and analytical view of how important economic ideas developed and their relationship to prevailing economic conditions and politics. Economic ideas from Adam Smith to the present.",
+    "info": "historical and analytical view of how important economic ideas developed and their relationship to prevailing economic conditions and politics. economic ideas from adam smith to the present.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "ECON 4031",
     "subject": "ECON",
     "id": "4031",
     "title": "Amer Econ Problems",
-    "info": "Discussion of American economic problems and relationships. Relevance of simple economic principles to economic problems in the United States.",
+    "info": "discussion of american economic problems and relationships. relevance of simple economic principles to economic problems in the united states.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "ECON 4033",
     "subject": "ECON",
     "id": "4033",
     "title": "Current Econ Issues",
-    "info": "Current controversies over economic policies used deal with some economic problems. Students focus in part on a specific issue. Different economic issues are discussed every time the course is offered (every three years).",
+    "info": "current controversies over economic policies used deal with some economic problems. students focus in part on a specific issue. different economic issues are discussed every time the course is offered (every three years).",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "ECON 4041",
     "subject": "ECON",
     "id": "4041",
     "title": "World Economy",
-    "info": "Considers what the economic future holds, what can be done now to deal with global issues, and how to improve economic prospects of countries.",
+    "info": "considers what the economic future holds, what can be done now to deal with global issues, and how to improve economic prospects of countries.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "ECON 4100W",
     "subject": "ECON",
     "id": "4100W",
     "title": "Writing in Economics",
-    "info": "Research essay.",
-    "prereqInfo": "prereq: 3101, [concurrent registration is required (or allowed) in 4831 or concurrent registration is required (or allowed) in  economics honors course], concurrent registration is required (or allowed) in economics advanced courses; freshman writing practice completed, instr consent",
+    "info": "research essay.",
+    "prereqInfo": "3101, [concurrent registration is required (or allowed) in 4831 or concurrent registration is required (or allowed) in  economics honors course], concurrent registration is required (or allowed) in economics advanced courses; freshman writing practice completed, instr consent",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 3101",
           "subject": "ECON",
@@ -677,10 +635,10 @@
     "subject": "ECON",
     "id": "4108",
     "title": "Advanced Game Theory",
-    "info": "For Econ B.S. students only. Games. Normal form, extensive form. Wars of attrition. Games of timing. Bargaining applications in industrial organization, macroeconomics, international economics.",
-    "prereqInfo": "prereq: ECON 3101, 3102, MATH 1271, MATH 1272 [or equiv courses]; and two 4xxx level  ECON electives.",
+    "info": "for econ b.s. students only. games. normal form, extensive form. wars of attrition. games of timing. bargaining applications in industrial organization, macroeconomics, international economics.",
+    "prereqInfo": "econ 3101, 3102, math 1271, math 1272 [or equiv courses]; and two 4xxx level  econ electives.",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 3101",
           "subject": "ECON",
@@ -709,29 +667,37 @@
     "subject": "ECON",
     "id": "4109H",
     "title": "Hon Game Theory & Applications",
-    "info": "For ECON B.S. students only. Games. Normal form, extensive form. Wars of attrition. Games of timing. Bargaining applications in industrial organization, macroeconomics, and international economics.",
-    "prereqInfo": "prereq: [[3101, 3102]] or equiv], [[MATH 1271, MATH 1272] or equiv]",
+    "info": "for econ b.s. students only. games. normal form, extensive form. wars of attrition. games of timing. bargaining applications in industrial organization, macroeconomics, and international economics.",
+    "prereqInfo": "[[3101, 3102]] or equiv], [[math 1271, math 1272] or equiv]",
     "prereq": {
-      "course": [
+      "and": [
         {
-          "code": "ECON 3101",
-          "subject": "ECON",
-          "id": "3101"
+          "and": [
+            {
+              "code": "ECON 3101",
+              "subject": "ECON",
+              "id": "3101"
+            },
+            {
+              "code": "ECON 3102",
+              "subject": "ECON",
+              "id": "3102"
+            }
+          ]
         },
         {
-          "code": "ECON 3102",
-          "subject": "ECON",
-          "id": "3102"
-        },
-        {
-          "code": "MATH 1271",
-          "subject": "MATH",
-          "id": "1271"
-        },
-        {
-          "code": "MATH 1272",
-          "subject": "MATH",
-          "id": "1272"
+          "and": [
+            {
+              "code": "MATH 1271",
+              "subject": "MATH",
+              "id": "1271"
+            },
+            {
+              "code": "MATH 1272",
+              "subject": "MATH",
+              "id": "1272"
+            }
+          ]
         }
       ]
     }
@@ -741,34 +707,42 @@
     "subject": "ECON",
     "id": "4113",
     "title": "Intro Mathematical Economics",
-    "info": "Development of selected models of economic behavior in mathematical terms. Topics selected to illustrate advantages of mathematical formulation.",
-    "prereqInfo": "prereq: [[3101, 3102] or equiv], [[MATH 1271, MATH 1272, MATH 2243] or equiv]",
+    "info": "development of selected models of economic behavior in mathematical terms. topics selected to illustrate advantages of mathematical formulation.",
+    "prereqInfo": "[[3101, 3102] or equiv], [[math 1271, math 1272, math 2243] or equiv]",
     "prereq": {
-      "course": [
+      "and": [
         {
-          "code": "ECON 3101",
-          "subject": "ECON",
-          "id": "3101"
+          "and": [
+            {
+              "code": "ECON 3101",
+              "subject": "ECON",
+              "id": "3101"
+            },
+            {
+              "code": "ECON 3102",
+              "subject": "ECON",
+              "id": "3102"
+            }
+          ]
         },
         {
-          "code": "ECON 3102",
-          "subject": "ECON",
-          "id": "3102"
-        },
-        {
-          "code": "MATH 1271",
-          "subject": "MATH",
-          "id": "1271"
-        },
-        {
-          "code": "MATH 1272",
-          "subject": "MATH",
-          "id": "1272"
-        },
-        {
-          "code": "MATH 2243",
-          "subject": "MATH",
-          "id": "2243"
+          "and": [
+            {
+              "code": "MATH 1271",
+              "subject": "MATH",
+              "id": "1271"
+            },
+            {
+              "code": "MATH 1272",
+              "subject": "MATH",
+              "id": "1272"
+            },
+            {
+              "code": "MATH 2243",
+              "subject": "MATH",
+              "id": "2243"
+            }
+          ]
         }
       ]
     }
@@ -778,34 +752,42 @@
     "subject": "ECON",
     "id": "4113H",
     "title": "Intro Math Economics Hons",
-    "info": "Development of selected models of economic behavior in mathematical terms. Topics selected to illustrate advantages of mathematical formulation.",
-    "prereqInfo": "prereq: [3101, 3102 or equiv], [MATH 1271, MATH 1272, MATH 2243 or equiv], honors student",
+    "info": "development of selected models of economic behavior in mathematical terms. topics selected to illustrate advantages of mathematical formulation.",
+    "prereqInfo": "[3101, 3102 or equiv], [math 1271, math 1272, math 2243 or equiv], honors student",
     "prereq": {
-      "course": [
+      "and": [
         {
-          "code": "ECON 3101",
-          "subject": "ECON",
-          "id": "3101"
+          "and": [
+            {
+              "code": "ECON 3101",
+              "subject": "ECON",
+              "id": "3101"
+            },
+            {
+              "code": "ECON 3102",
+              "subject": "ECON",
+              "id": "3102"
+            }
+          ]
         },
         {
-          "code": "ECON 3102",
-          "subject": "ECON",
-          "id": "3102"
-        },
-        {
-          "code": "MATH 1271",
-          "subject": "MATH",
-          "id": "1271"
-        },
-        {
-          "code": "MATH 1272",
-          "subject": "MATH",
-          "id": "1272"
-        },
-        {
-          "code": "MATH 2243",
-          "subject": "MATH",
-          "id": "2243"
+          "and": [
+            {
+              "code": "MATH 1271",
+              "subject": "MATH",
+              "id": "1271"
+            },
+            {
+              "code": "MATH 1272",
+              "subject": "MATH",
+              "id": "1272"
+            },
+            {
+              "code": "MATH 2243",
+              "subject": "MATH",
+              "id": "2243"
+            }
+          ]
         }
       ]
     }
@@ -815,32 +797,28 @@
     "subject": "ECON",
     "id": "4115",
     "title": "Uncertainty and Information",
-    "info": "For Econ B.S. students only. This Microeconomic theory course focuses on economies under uncertainty with possibly asymmetric information. Individual behavior of consumers and that of markets are studied under uncertainty with incomplete information. Related topics in technology and innovation. the information economy, and networks will be examined.\nprereq: [[3101, 3102]] or equiv], [[MATH 1271, MATH 1272, and Math 2243] or equiv]; strongly suggest students complete Stat 4101 before taking this course; students should have successfully completed two 4xxx level UMNTC economics courses.",
+    "info": "for econ b.s. students only. this microeconomic theory course focuses on economies under uncertainty with possibly asymmetric information. individual behavior of consumers and that of markets are studied under uncertainty with incomplete information. related topics in technology and innovation. the information economy, and networks will be examined.\nprereq: [[3101, 3102]] or equiv], [[math 1271, math 1272, and math 2243] or equiv]; strongly suggest students complete stat 4101 before taking this course; students should have successfully completed two 4xxx level umntc economics courses.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "ECON 4118",
     "subject": "ECON",
     "id": "4118",
     "title": "Advanced Mathematical Econ",
-    "info": "Development of selected models of economic behavior in mathematical terms. Topics selected to illustrate advantages of mathematical formulation.\nprereq: ECON 3101, 3102, MATH 1271, MATH 1272, MATH 2243 or equivalent courses; and at least two 4xxx level economics electives.",
+    "info": "development of selected models of economic behavior in mathematical terms. topics selected to illustrate advantages of mathematical formulation.\nprereq: econ 3101, 3102, math 1271, math 1272, math 2243 or equivalent courses; and at least two 4xxx level economics electives.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "ECON 4161",
     "subject": "ECON",
     "id": "4161",
     "title": "Microeconomic Analysis I",
-    "info": "Theories of consumer demand, producer supply, and market equilibrium. General equilibrium and welfare. May include topics such as externalities, economics of information/uncertainty. Seven-week course. ",
-    "prereqInfo": "prereq: 3101, 3102, MATH 2243, MATH 2263, [[STAT 4101, STAT 4102] or equiv]",
+    "info": "theories of consumer demand, producer supply, and market equilibrium. general equilibrium and welfare. may include topics such as externalities, economics of information/uncertainty. seven-week course. ",
+    "prereqInfo": "3101, 3102, math 2243, math 2263, [[stat 4101, stat 4102] or equiv]",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 3101",
           "subject": "ECON",
@@ -862,14 +840,18 @@
           "id": "2263"
         },
         {
-          "code": "STAT 4101",
-          "subject": "STAT",
-          "id": "4101"
-        },
-        {
-          "code": "STAT 4102",
-          "subject": "STAT",
-          "id": "4102"
+          "and": [
+            {
+              "code": "STAT 4101",
+              "subject": "STAT",
+              "id": "4101"
+            },
+            {
+              "code": "STAT 4102",
+              "subject": "STAT",
+              "id": "4102"
+            }
+          ]
         }
       ]
     }
@@ -879,10 +861,10 @@
     "subject": "ECON",
     "id": "4162",
     "title": "Microeconomic Analysis II",
-    "info": "Theories of consumer, producer, and market equilibrium. Includes general equilibrium, welfare, externalities, topics in information and uncertainty, and game theory. Seven-week course. ",
-    "prereqInfo": "prereq: 3101, 3102, 4161, MATH 2243, MATH 2263, [[STAT 4101, STAT 4102] or equiv]",
+    "info": "theories of consumer, producer, and market equilibrium. includes general equilibrium, welfare, externalities, topics in information and uncertainty, and game theory. seven-week course. ",
+    "prereqInfo": "3101, 3102, 4161, math 2243, math 2263, [[stat 4101, stat 4102] or equiv]",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 3101",
           "subject": "ECON",
@@ -909,14 +891,18 @@
           "id": "2263"
         },
         {
-          "code": "STAT 4101",
-          "subject": "STAT",
-          "id": "4101"
-        },
-        {
-          "code": "STAT 4102",
-          "subject": "STAT",
-          "id": "4102"
+          "and": [
+            {
+              "code": "STAT 4101",
+              "subject": "STAT",
+              "id": "4101"
+            },
+            {
+              "code": "STAT 4102",
+              "subject": "STAT",
+              "id": "4102"
+            }
+          ]
         }
       ]
     }
@@ -926,10 +912,10 @@
     "subject": "ECON",
     "id": "4163",
     "title": "Microecon Analysis III",
-    "info": "The course is an introduction to basic concepts of stochastic calculus and application in economic analysis and finance. The aim of the course is to provide a treatment of the prerequisites. The requirements are basic probability and real analysis concepts; these will be reviewed in the first lectures. ",
-    "prereqInfo": "prereq: 3101, 3102, 4162, MATH 2243, MATH 2263, dept consent",
+    "info": "the course is an introduction to basic concepts of stochastic calculus and application in economic analysis and finance. the aim of the course is to provide a treatment of the prerequisites. the requirements are basic probability and real analysis concepts; these will be reviewed in the first lectures. ",
+    "prereqInfo": "3101, 3102, 4162, math 2243, math 2263, dept consent",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 3101",
           "subject": "ECON",
@@ -963,10 +949,10 @@
     "subject": "ECON",
     "id": "4164",
     "title": "Microecon Analysis IV",
-    "info": "Theory and applications of dynamic optimal control to economic environments. Analysis of barrier problems, where a single decision must be made at some point in time; analysis of optimal control problems where multiple, continuous decisions are made over time. May include investment decisions, regulated decision-making and elements of dynamic contracting.",
-    "prereqInfo": "prereq: 3101, 3102, 4163, MATH 2243, MATH 2263, [[STAT 4101, STAT 4102] or equiv], dept consent",
+    "info": "theory and applications of dynamic optimal control to economic environments. analysis of barrier problems, where a single decision must be made at some point in time; analysis of optimal control problems where multiple, continuous decisions are made over time. may include investment decisions, regulated decision-making and elements of dynamic contracting.",
+    "prereqInfo": "3101, 3102, 4163, math 2243, math 2263, [[stat 4101, stat 4102] or equiv], dept consent",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 3101",
           "subject": "ECON",
@@ -993,14 +979,18 @@
           "id": "2263"
         },
         {
-          "code": "STAT 4101",
-          "subject": "STAT",
-          "id": "4101"
-        },
-        {
-          "code": "STAT 4102",
-          "subject": "STAT",
-          "id": "4102"
+          "and": [
+            {
+              "code": "STAT 4101",
+              "subject": "STAT",
+              "id": "4101"
+            },
+            {
+              "code": "STAT 4102",
+              "subject": "STAT",
+              "id": "4102"
+            }
+          ]
         }
       ]
     }
@@ -1010,10 +1000,10 @@
     "subject": "ECON",
     "id": "4165",
     "title": "Macroecon Theory",
-    "info": "Dynamic general equilibrium models: solving for paths of interest rates, consumption, investment, and prices. Seven-week course. Meets with 8105.",
-    "prereqInfo": "prereq: 3101, 3102, MATH 2243, MATH 2263, [[STAT 4101, STAT 4102] or equiv], dept consent",
+    "info": "dynamic general equilibrium models: solving for paths of interest rates, consumption, investment, and prices. seven-week course. meets with 8105.",
+    "prereqInfo": "3101, 3102, math 2243, math 2263, [[stat 4101, stat 4102] or equiv], dept consent",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 3101",
           "subject": "ECON",
@@ -1035,14 +1025,18 @@
           "id": "2263"
         },
         {
-          "code": "STAT 4101",
-          "subject": "STAT",
-          "id": "4101"
-        },
-        {
-          "code": "STAT 4102",
-          "subject": "STAT",
-          "id": "4102"
+          "and": [
+            {
+              "code": "STAT 4101",
+              "subject": "STAT",
+              "id": "4101"
+            },
+            {
+              "code": "STAT 4102",
+              "subject": "STAT",
+              "id": "4102"
+            }
+          ]
         }
       ]
     }
@@ -1052,10 +1046,10 @@
     "subject": "ECON",
     "id": "4166",
     "title": "Macroecon Theory",
-    "info": "Dynamic general equilibrium models: solving for paths of interest rates, consumption, investment, and prices. Seven-week course. Meets with 8106.",
-    "prereqInfo": "prereq: 3101, 3102, 4165, MATH 2243, MATH 2263, [[STAT 4101, STAT 4102] or equiv], dept consent",
+    "info": "dynamic general equilibrium models: solving for paths of interest rates, consumption, investment, and prices. seven-week course. meets with 8106.",
+    "prereqInfo": "3101, 3102, 4165, math 2243, math 2263, [[stat 4101, stat 4102] or equiv], dept consent",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 3101",
           "subject": "ECON",
@@ -1082,14 +1076,18 @@
           "id": "2263"
         },
         {
-          "code": "STAT 4101",
-          "subject": "STAT",
-          "id": "4101"
-        },
-        {
-          "code": "STAT 4102",
-          "subject": "STAT",
-          "id": "4102"
+          "and": [
+            {
+              "code": "STAT 4101",
+              "subject": "STAT",
+              "id": "4101"
+            },
+            {
+              "code": "STAT 4102",
+              "subject": "STAT",
+              "id": "4102"
+            }
+          ]
         }
       ]
     }
@@ -1099,10 +1097,10 @@
     "subject": "ECON",
     "id": "4167",
     "title": "Macroecon Theory",
-    "info": "General equilibrium models with uncertainty, search, matching, indivisibilities, private information. Implications of theory for measurement and data reporting. Overlapping generations, dynasty models with money/government. Variational/recursive methods. Seven-week course. Meets with 8107.",
-    "prereqInfo": "prereq: 3101, 3102, 4166, MATH 2243, MATH 2263, [[STAT 4101, STAT 4102] or equiv], dept consent",
+    "info": "general equilibrium models with uncertainty, search, matching, indivisibilities, private information. implications of theory for measurement and data reporting. overlapping generations, dynasty models with money/government. variational/recursive methods. seven-week course. meets with 8107.",
+    "prereqInfo": "3101, 3102, 4166, math 2243, math 2263, [[stat 4101, stat 4102] or equiv], dept consent",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 3101",
           "subject": "ECON",
@@ -1129,14 +1127,18 @@
           "id": "2263"
         },
         {
-          "code": "STAT 4101",
-          "subject": "STAT",
-          "id": "4101"
-        },
-        {
-          "code": "STAT 4102",
-          "subject": "STAT",
-          "id": "4102"
+          "and": [
+            {
+              "code": "STAT 4101",
+              "subject": "STAT",
+              "id": "4101"
+            },
+            {
+              "code": "STAT 4102",
+              "subject": "STAT",
+              "id": "4102"
+            }
+          ]
         }
       ]
     }
@@ -1146,10 +1148,10 @@
     "subject": "ECON",
     "id": "4168",
     "title": "Macroecon Theory",
-    "info": "General equilibrium models with uncertainty, search, matching, indivisibilities, private information. Implications of theory for measurement and data reporting. Overlapping generations, dynasty models with money/government. Variational/recursive methods. Seven-week course. Meets with 8108.",
-    "prereqInfo": "prereq: 3101, 3102, 4167, MATH 2243, MATH 2263, [[STAT 4101, STAT 4102] or equiv], dept consent",
+    "info": "general equilibrium models with uncertainty, search, matching, indivisibilities, private information. implications of theory for measurement and data reporting. overlapping generations, dynasty models with money/government. variational/recursive methods. seven-week course. meets with 8108.",
+    "prereqInfo": "3101, 3102, 4167, math 2243, math 2263, [[stat 4101, stat 4102] or equiv], dept consent",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 3101",
           "subject": "ECON",
@@ -1176,14 +1178,18 @@
           "id": "2263"
         },
         {
-          "code": "STAT 4101",
-          "subject": "STAT",
-          "id": "4101"
-        },
-        {
-          "code": "STAT 4102",
-          "subject": "STAT",
-          "id": "4102"
+          "and": [
+            {
+              "code": "STAT 4101",
+              "subject": "STAT",
+              "id": "4101"
+            },
+            {
+              "code": "STAT 4102",
+              "subject": "STAT",
+              "id": "4102"
+            }
+          ]
         }
       ]
     }
@@ -1193,10 +1199,10 @@
     "subject": "ECON",
     "id": "4171",
     "title": "History of Econ Thought",
-    "info": "Primarily a critical reading course. Smith, Ricardo, Malthus, Marx. Neoclassicists, Keynes, mercantilist/physiocratic doctrines. Modern theory.",
-    "prereqInfo": "prereq: [3101, 3102] or equiv",
+    "info": "primarily a critical reading course. smith, ricardo, malthus, marx. neoclassicists, keynes, mercantilist/physiocratic doctrines. modern theory.",
+    "prereqInfo": "[3101, 3102] or equiv",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 3101",
           "subject": "ECON",
@@ -1215,34 +1221,42 @@
     "subject": "ECON",
     "id": "4211",
     "title": "Principles of Econometrics",
-    "info": "Data analysis/quantitative methods in economics. Violation of classical regression model assumptions, modified estimation procedures that retain desirable properties. Multi-equation models. Computer applications/interpretation of empirical results.",
-    "prereqInfo": "prereq: (ECON 1101 or ECON 1165, APEC 1101), (ECON 1102 or APEC 1102), ECON 3101, MATH 1271, (STAT 3011 or 3021), (STAT 3022 or 3032) or equivalent courses approved by the Economics Department",
+    "info": "data analysis/quantitative methods in economics. violation of classical regression model assumptions, modified estimation procedures that retain desirable properties. multi-equation models. computer applications/interpretation of empirical results.",
+    "prereqInfo": "(econ 1101 or econ 1165, apec 1101), (econ 1102 or apec 1102), econ 3101, math 1271, (stat 3011 or 3021), (stat 3022 or 3032) or equivalent courses approved by the economics department",
     "prereq": {
-      "course": [
+      "and": [
         {
-          "code": "ECON 1101",
-          "subject": "ECON",
-          "id": "1101"
+          "and": [
+            {
+              "code": "ECON 1101",
+              "subject": "ECON",
+              "id": "1101"
+            },
+            {
+              "code": "ECON 1165",
+              "subject": "ECON",
+              "id": "1165"
+            },
+            {
+              "code": "APEC 1101",
+              "subject": "APEC",
+              "id": "1101"
+            }
+          ]
         },
         {
-          "code": "ECON 1165",
-          "subject": "ECON",
-          "id": "1165"
-        },
-        {
-          "code": "APEC 1101",
-          "subject": "APEC",
-          "id": "1101"
-        },
-        {
-          "code": "ECON 1102",
-          "subject": "ECON",
-          "id": "1102"
-        },
-        {
-          "code": "APEC 1102",
-          "subject": "APEC",
-          "id": "1102"
+          "or": [
+            {
+              "code": "ECON 1102",
+              "subject": "ECON",
+              "id": "1102"
+            },
+            {
+              "code": "APEC 1102",
+              "subject": "APEC",
+              "id": "1102"
+            }
+          ]
         },
         {
           "code": "ECON 3101",
@@ -1255,24 +1269,32 @@
           "id": "1271"
         },
         {
-          "code": "STAT 3011",
-          "subject": "STAT",
-          "id": "3011"
+          "or": [
+            {
+              "code": "STAT 3011",
+              "subject": "STAT",
+              "id": "3011"
+            },
+            {
+              "code": "ECON 3021",
+              "subject": "ECON",
+              "id": "3021"
+            }
+          ]
         },
         {
-          "code": "ECON 3021",
-          "subject": "ECON",
-          "id": "3021"
-        },
-        {
-          "code": "STAT 3022",
-          "subject": "STAT",
-          "id": "3022"
-        },
-        {
-          "code": "ECON 3032",
-          "subject": "ECON",
-          "id": "3032"
+          "or": [
+            {
+              "code": "STAT 3022",
+              "subject": "STAT",
+              "id": "3022"
+            },
+            {
+              "code": "ECON 3032",
+              "subject": "ECON",
+              "id": "3032"
+            }
+          ]
         }
       ]
     }
@@ -1282,24 +1304,28 @@
     "subject": "ECON",
     "id": "4261",
     "title": "Introduction to Econometrics",
-    "info": "For Econ B.S. majors only. Review of basic linear regression model, its variants. Time series/simultaneous equation models. Material may include panel data, censored/truncated regressions, discrete choice models.",
-    "prereqInfo": "prereq: (ECON 1101 or ECON 1165, APEC 1101), ECON 1102 (or APEC 1102), ECON 3101, MATH 1271, MATH 1272, MATH 2243, MATH 2263, STAT 4101 (or 5101), STAT 4102 (or 5102) or equivalent courses approved by the Economics Department.",
+    "info": "for econ b.s. majors only. review of basic linear regression model, its variants. time series/simultaneous equation models. material may include panel data, censored/truncated regressions, discrete choice models.",
+    "prereqInfo": "(econ 1101 or econ 1165, apec 1101), econ 1102 (or apec 1102), econ 3101, math 1271, math 1272, math 2243, math 2263, stat 4101 (or 5101), stat 4102 (or 5102) or equivalent courses approved by the economics department.",
     "prereq": {
-      "course": [
+      "and": [
         {
-          "code": "ECON 1101",
-          "subject": "ECON",
-          "id": "1101"
-        },
-        {
-          "code": "ECON 1165",
-          "subject": "ECON",
-          "id": "1165"
-        },
-        {
-          "code": "APEC 1101",
-          "subject": "APEC",
-          "id": "1101"
+          "and": [
+            {
+              "code": "ECON 1101",
+              "subject": "ECON",
+              "id": "1101"
+            },
+            {
+              "code": "ECON 1165",
+              "subject": "ECON",
+              "id": "1165"
+            },
+            {
+              "code": "APEC 1101",
+              "subject": "APEC",
+              "id": "1101"
+            }
+          ]
         },
         {
           "code": "ECON 1102",
@@ -1364,43 +1390,37 @@
     "subject": "ECON",
     "id": "4262",
     "title": "Econometric Analys",
-    "info": "Review of basic linear regression model, its variants. Time series/simultaneous equation models. Material may include panel data, censored/truncated regressions, discrete choice models.",
+    "info": "review of basic linear regression model, its variants. time series/simultaneous equation models. material may include panel data, censored/truncated regressions, discrete choice models.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "ECON 4263",
     "subject": "ECON",
     "id": "4263",
     "title": "Econometric Analys",
-    "info": "Basic linear regression model and its variants; panel data, censored and truncated regression, discrete choice models; time series and simultaneous equation models. This seven-week course meets with 8203.",
+    "info": "basic linear regression model and its variants; panel data, censored and truncated regression, discrete choice models; time series and simultaneous equation models. this seven-week course meets with 8203.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "ECON 4264",
     "subject": "ECON",
     "id": "4264",
     "title": "Econometric Analys",
-    "info": "Basic linear regression model and its variants; panel data, censored and truncated regression, discrete choice models; time series and simultaneous equation models. This seven-week course meets with 8204.",
+    "info": "basic linear regression model and its variants; panel data, censored and truncated regression, discrete choice models; time series and simultaneous equation models. this seven-week course meets with 8204.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "ECON 4301",
     "subject": "ECON",
     "id": "4301",
     "title": "Economic Development",
-    "info": "Economic growth in low income countries. Theory of aggregate and per capita income growth. Population growth, productivity increases, capital formation. Allocation of resources between consumption and investment and among sectors. International assistance and trade.",
-    "prereqInfo": "prereq: [[1101, 1102] or equiv], non-econ major",
+    "info": "economic growth in low income countries. theory of aggregate and per capita income growth. population growth, productivity increases, capital formation. allocation of resources between consumption and investment and among sectors. international assistance and trade.",
+    "prereqInfo": "[[1101, 1102] or equiv], non-econ major",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 1101",
           "subject": "ECON",
@@ -1419,10 +1439,10 @@
     "subject": "ECON",
     "id": "4307",
     "title": "Comparative Economic Systems",
-    "info": "Functions of economic systems; market economy vs. centrally planned economy. Post socialist transitions in Eastern Europe, Russia, and China and reforms undertaken. Initial conditions and strategies for reforms; results of reforms in terms of key economic indicators.",
-    "prereqInfo": "prereq: 1101, 1102 or equiv; not open to Econ majors",
+    "info": "functions of economic systems; market economy vs. centrally planned economy. post socialist transitions in eastern europe, russia, and china and reforms undertaken. initial conditions and strategies for reforms; results of reforms in terms of key economic indicators.",
+    "prereqInfo": "1101, 1102 or equiv; not open to econ majors",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 1101",
           "subject": "ECON",
@@ -1441,10 +1461,10 @@
     "subject": "ECON",
     "id": "4311",
     "title": "Economy of Latin America",
-    "info": "Economic evolution in Latin America since 1950. Trade liberalization, poverty, inflation, development strategies in selected Latin American countries. Theory/applications of important issues.",
-    "prereqInfo": "prereq: [MATH 1271, ECON 1101, ECON 1102] or equiv",
+    "info": "economic evolution in latin america since 1950. trade liberalization, poverty, inflation, development strategies in selected latin american countries. theory/applications of important issues.",
+    "prereqInfo": "[math 1271, econ 1101, econ 1102] or equiv",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "MATH 1271",
           "subject": "MATH",
@@ -1468,10 +1488,10 @@
     "subject": "ECON",
     "id": "4313",
     "title": "The Russian Economy",
-    "info": "Main features of Soviet economic system, its economic development from 1971 to 1980s. Collapse of Soviet Union in 1991. Recent economic reforms adopted by Russia and Commonwealth of Independent States. Russia's relations with world.",
-    "prereqInfo": "prereq: [1101, 1102] or equiv",
+    "info": "main features of soviet economic system, its economic development from 1971 to 1980s. collapse of soviet union in 1991. recent economic reforms adopted by russia and commonwealth of independent states. russia's relations with world.",
+    "prereqInfo": "[1101, 1102] or equiv",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 1101",
           "subject": "ECON",
@@ -1490,10 +1510,10 @@
     "subject": "ECON",
     "id": "4315",
     "title": "The Japanese Economy",
-    "info": "Economic development following contact with western civilization. Trade, development/growth, population growth, capital formation, international economic relations, agricultural/industrial policies. Role of government in economy. Current issues.",
-    "prereqInfo": "prereq: [1101, 1102] or equiv",
+    "info": "economic development following contact with western civilization. trade, development/growth, population growth, capital formation, international economic relations, agricultural/industrial policies. role of government in economy. current issues.",
+    "prereqInfo": "[1101, 1102] or equiv",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 1101",
           "subject": "ECON",
@@ -1512,34 +1532,42 @@
     "subject": "ECON",
     "id": "4317",
     "title": "The Chinese Economy",
-    "info": "Overview of the Chinese Economy; transition from command economy to a market-based one and effects on economic indicators; current economic issues and concerns of the Chinese economy; role of China in today's world economy.",
-    "prereqInfo": "prereq:  (ECON 1101or ECON 1165, APEC 1101), (ECON 1102 or APEC 1102), MATH 1271 or equivalent courses approved by the Economics Department.",
+    "info": "overview of the chinese economy; transition from command economy to a market-based one and effects on economic indicators; current economic issues and concerns of the chinese economy; role of china in today's world economy.",
+    "prereqInfo": " (econ 1101or econ 1165, apec 1101), (econ 1102 or apec 1102), math 1271 or equivalent courses approved by the economics department.",
     "prereq": {
-      "course": [
+      "and": [
         {
-          "code": "ECON 1101or",
-          "subject": "ECON",
-          "id": "1101or"
+          "and": [
+            {
+              "code": "ECON 1101OR",
+              "subject": "ECON",
+              "id": "1101OR"
+            },
+            {
+              "code": "ECON 1165",
+              "subject": "ECON",
+              "id": "1165"
+            },
+            {
+              "code": "APEC 1101",
+              "subject": "APEC",
+              "id": "1101"
+            }
+          ]
         },
         {
-          "code": "ECON 1165",
-          "subject": "ECON",
-          "id": "1165"
-        },
-        {
-          "code": "APEC 1101",
-          "subject": "APEC",
-          "id": "1101"
-        },
-        {
-          "code": "ECON 1102",
-          "subject": "ECON",
-          "id": "1102"
-        },
-        {
-          "code": "APEC 1102",
-          "subject": "APEC",
-          "id": "1102"
+          "or": [
+            {
+              "code": "ECON 1102",
+              "subject": "ECON",
+              "id": "1102"
+            },
+            {
+              "code": "APEC 1102",
+              "subject": "APEC",
+              "id": "1102"
+            }
+          ]
         },
         {
           "code": "MATH 1271",
@@ -1554,24 +1582,28 @@
     "subject": "ECON",
     "id": "4331W",
     "title": "Economic Development",
-    "info": "Economic growth in low income countries. Theory of aggregate and per capita income growth. Population growth, productivity increases, and capital formation. Allocation of resources between consumption and investment and among sectors. International assistance/trade.",
-    "prereqInfo": "prereq: ECON 1101 (or ECON 1165, APEC 1101), ECON 1102 (or APEC 1102), ECON 3101, ECON 3102, MATH 1271 or equivalent courses approved by the Economics Department, and completion of freshman writing practice.",
+    "info": "economic growth in low income countries. theory of aggregate and per capita income growth. population growth, productivity increases, and capital formation. allocation of resources between consumption and investment and among sectors. international assistance/trade.",
+    "prereqInfo": "econ 1101 (or econ 1165, apec 1101), econ 1102 (or apec 1102), econ 3101, econ 3102, math 1271 or equivalent courses approved by the economics department, and completion of freshman writing practice.",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 1101",
           "subject": "ECON",
           "id": "1101"
         },
         {
-          "code": "ECON 1165",
-          "subject": "ECON",
-          "id": "1165"
-        },
-        {
-          "code": "APEC 1101",
-          "subject": "APEC",
-          "id": "1101"
+          "and": [
+            {
+              "code": "ECON 1165",
+              "subject": "ECON",
+              "id": "1165"
+            },
+            {
+              "code": "APEC 1101",
+              "subject": "APEC",
+              "id": "1101"
+            }
+          ]
         },
         {
           "code": "ECON 1102",
@@ -1606,10 +1638,10 @@
     "subject": "ECON",
     "id": "4337",
     "title": "Comparative Economic Systems",
-    "info": "Functions of economic systems; market economy versus centrally planned economy. Comparison of different economic systems. Post socialist transitions in Eastern Europe, Russia, and China. Initial conditions and strategies for reforms; results of reforms in terms of key economic indicators.",
-    "prereqInfo": "prereq: 3101, 3102 or equiv",
+    "info": "functions of economic systems; market economy versus centrally planned economy. comparison of different economic systems. post socialist transitions in eastern europe, russia, and china. initial conditions and strategies for reforms; results of reforms in terms of key economic indicators.",
+    "prereqInfo": "3101, 3102 or equiv",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 3101",
           "subject": "ECON",
@@ -1628,10 +1660,10 @@
     "subject": "ECON",
     "id": "4341",
     "title": "Poverty and Income Inequality",
-    "info": "This course focuses on the economic aspects of poverty and inequality in the United States. The course utilizes economic theory and empirical research to analyze the determinants of, and potential strategies to overcome poverty and inequality. Topics include measurement and trends of poverty and income inequality, labor markets, education, discrimination, residential segregation,  immigration,  hunger and nutrition, US farm policy, food distribution, food security, food aid, the connection between food production and health outcomes, as well as other related themes. ",
-    "prereqInfo": "prereq: [MATH 1271, ECON 1101, ECON 1102, ECON 3101] or equiv; ",
+    "info": "this course focuses on the economic aspects of poverty and inequality in the united states. the course utilizes economic theory and empirical research to analyze the determinants of, and potential strategies to overcome poverty and inequality. topics include measurement and trends of poverty and income inequality, labor markets, education, discrimination, residential segregation,  immigration,  hunger and nutrition, us farm policy, food distribution, food security, food aid, the connection between food production and health outcomes, as well as other related themes. ",
+    "prereqInfo": "[math 1271, econ 1101, econ 1102, econ 3101] or equiv; ",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "MATH 1271",
           "subject": "MATH",
@@ -1660,10 +1692,10 @@
     "subject": "ECON",
     "id": "4401",
     "title": "International Econ",
-    "info": "International trade flows. Commercial policy and welfare implications, protection. Global trade organizations. International factor mobility. Balance of payments analysis and open-economy macroeconomics. Foreign exchange markets and exchange rate determination. International monetary system. Regional integration. Case studies.",
-    "prereqInfo": "prereq: [[1101, 1102] or equiv], not open to econ majors",
+    "info": "international trade flows. commercial policy and welfare implications, protection. global trade organizations. international factor mobility. balance of payments analysis and open-economy macroeconomics. foreign exchange markets and exchange rate determination. international monetary system. regional integration. case studies.",
+    "prereqInfo": "[[1101, 1102] or equiv], not open to econ majors",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 1101",
           "subject": "ECON",
@@ -1682,10 +1714,10 @@
     "subject": "ECON",
     "id": "4421W",
     "title": "Econ Integration",
-    "info": "Analysis of economic relationships among countries in the Western Hemisphere. Modeling the impact of NAFTA and similar regional trade accords. Prospects for further integration. Comparison with European integration.",
-    "prereqInfo": "prereq: 3101, 3102 or equiv or instr consent",
+    "info": "analysis of economic relationships among countries in the western hemisphere. modeling the impact of nafta and similar regional trade accords. prospects for further integration. comparison with european integration.",
+    "prereqInfo": "3101, 3102 or equiv or instr consent",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 3101",
           "subject": "ECON",
@@ -1704,41 +1736,41 @@
     "subject": "ECON",
     "id": "4425",
     "title": "London: Trade and Brexit",
-    "info": "The seminar includes a history of trade and culture in UK and London since the 1500s up until the formation of the EU. It also includes UK plans for Brexit, and will discuss economic outcomes of it on London and international trade.",
+    "info": "the seminar includes a history of trade and culture in uk and london since the 1500s up until the formation of the eu. it also includes uk plans for brexit, and will discuss economic outcomes of it on london and international trade.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "ECON 4428",
     "subject": "ECON",
     "id": "4428",
     "title": "London Trade and Brexit",
-    "info": "London is a “global city”- and has evolved from being a city of merchandise trade to being one of the premier financial services centers and cultural melting-pot in the world. The course explores the role of financial services, merchandise trade, trade policy, immigrant populations and cultures, and current race relations in the evolution of modern London. Globalization, the interactions and interdependencies between the city of London and the rest of the world, are researched and explored through class work and daily site visits to major economic and cultural locales.",
+    "info": "london is a “global city”- and has evolved from being a city of merchandise trade to being one of the premier financial services centers and cultural melting-pot in the world. the course explores the role of financial services, merchandise trade, trade policy, immigrant populations and cultures, and current race relations in the evolution of modern london. globalization, the interactions and interdependencies between the city of london and the rest of the world, are researched and explored through class work and daily site visits to major economic and cultural locales.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "ECON 4431V",
     "subject": "ECON",
     "id": "4431V",
     "title": "Honors: International Trade",
-    "info": "Theories of trade/explanations of trade patterns. Trade restrictions. Commercial policy. International factor movements. Economic growth/development. Multinational corporations. Regional integration.",
-    "prereqInfo": "prereq: [3101, 3102] or equiv, Math 1271, completion of freshman writing practice",
+    "info": "theories of trade/explanations of trade patterns. trade restrictions. commercial policy. international factor movements. economic growth/development. multinational corporations. regional integration.",
+    "prereqInfo": "[3101, 3102] or equiv, math 1271, completion of freshman writing practice",
     "prereq": {
-      "course": [
+      "and": [
         {
-          "code": "ECON 3101",
-          "subject": "ECON",
-          "id": "3101"
-        },
-        {
-          "code": "ECON 3102",
-          "subject": "ECON",
-          "id": "3102"
+          "and": [
+            {
+              "code": "ECON 3101",
+              "subject": "ECON",
+              "id": "3101"
+            },
+            {
+              "code": "ECON 3102",
+              "subject": "ECON",
+              "id": "3102"
+            }
+          ]
         },
         {
           "code": "MATH 1271",
@@ -1753,24 +1785,28 @@
     "subject": "ECON",
     "id": "4431W",
     "title": "International Trade",
-    "info": "Theories of trade/trade patterns. Trade restrictions/commercial policy. International factor movements. Economic growth/development.  Regional integration.",
-    "prereqInfo": "prereq: ECON 1101 (or ECON 1165, APEC 1101), ECON 1102 (or APEC 1102), ECON 3101, ECON 3102, MATH 1271, or equivalent courses approved by the Economics Department, and completion of freshman writing practice.",
+    "info": "theories of trade/trade patterns. trade restrictions/commercial policy. international factor movements. economic growth/development.  regional integration.",
+    "prereqInfo": "econ 1101 (or econ 1165, apec 1101), econ 1102 (or apec 1102), econ 3101, econ 3102, math 1271, or equivalent courses approved by the economics department, and completion of freshman writing practice.",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 1101",
           "subject": "ECON",
           "id": "1101"
         },
         {
-          "code": "ECON 1165",
-          "subject": "ECON",
-          "id": "1165"
-        },
-        {
-          "code": "APEC 1101",
-          "subject": "APEC",
-          "id": "1101"
+          "and": [
+            {
+              "code": "ECON 1165",
+              "subject": "ECON",
+              "id": "1165"
+            },
+            {
+              "code": "APEC 1101",
+              "subject": "APEC",
+              "id": "1101"
+            }
+          ]
         },
         {
           "code": "ECON 1102",
@@ -1805,24 +1841,28 @@
     "subject": "ECON",
     "id": "4432W",
     "title": "International Finance",
-    "info": "Balance of payments; international financial markets; exchange rate determination; international monetary system; international investment and capital flows; financial management of the multinational firm; open economy macroeconomic policy.",
-    "prereqInfo": "prereq: ECON 1101 (or ECON 1165, APEC 1101), ECON 1102 (or APEC 1102), ECON 3101, ECON 3102, MATH 1271 or equivalent courses approved by the Economics Department and first-writing course.",
+    "info": "balance of payments; international financial markets; exchange rate determination; international monetary system; international investment and capital flows; financial management of the multinational firm; open economy macroeconomic policy.",
+    "prereqInfo": "econ 1101 (or econ 1165, apec 1101), econ 1102 (or apec 1102), econ 3101, econ 3102, math 1271 or equivalent courses approved by the economics department and first-writing course.",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 1101",
           "subject": "ECON",
           "id": "1101"
         },
         {
-          "code": "ECON 1165",
-          "subject": "ECON",
-          "id": "1165"
-        },
-        {
-          "code": "APEC 1101",
-          "subject": "APEC",
-          "id": "1101"
+          "and": [
+            {
+              "code": "ECON 1165",
+              "subject": "ECON",
+              "id": "1165"
+            },
+            {
+              "code": "APEC 1101",
+              "subject": "APEC",
+              "id": "1101"
+            }
+          ]
         },
         {
           "code": "ECON 1102",
@@ -1857,45 +1897,51 @@
     "subject": "ECON",
     "id": "4438W",
     "title": "Advanced International Trade",
-    "info": "Theories of trade/explanations of trade patterns. Trade restrictions. Commercial policy. International factor movements. Economic growth/development. Multinational corporations. Regional integration. prereq: [3101, 3102] or equiv, Math 1271, completion of freshman writing practice, [Math 1272 or equiv]",
+    "info": "theories of trade/explanations of trade patterns. trade restrictions. commercial policy. international factor movements. economic growth/development. multinational corporations. regional integration. prereq: [3101, 3102] or equiv, math 1271, completion of freshman writing practice, [math 1272 or equiv]",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "ECON 4531",
     "subject": "ECON",
     "id": "4531",
     "title": "Labor Economics",
-    "info": "Economic analysis of labor markets and their operations; population and labor force; labor market institutions; wage and employment theories; unions and collective bargaining; public policy.",
-    "prereqInfo": "prereqs: (ECON 1101 or ECON 1165, APEC 1101), (ECON 1102 or APEC 1102), ECON 3101, ECON 3102, MATH 1271 or equivalent courses approved by the Economics Department",
+    "info": "economic analysis of labor markets and their operations; population and labor force; labor market institutions; wage and employment theories; unions and collective bargaining; public policy.",
+    "prereqInfo": "prereqs: (econ 1101 or econ 1165, apec 1101), (econ 1102 or apec 1102), econ 3101, econ 3102, math 1271 or equivalent courses approved by the economics department",
     "prereq": {
-      "course": [
+      "and": [
         {
-          "code": "ECON 1101",
-          "subject": "ECON",
-          "id": "1101"
+          "and": [
+            {
+              "code": "ECON 1101",
+              "subject": "ECON",
+              "id": "1101"
+            },
+            {
+              "code": "ECON 1165",
+              "subject": "ECON",
+              "id": "1165"
+            },
+            {
+              "code": "APEC 1101",
+              "subject": "APEC",
+              "id": "1101"
+            }
+          ]
         },
         {
-          "code": "ECON 1165",
-          "subject": "ECON",
-          "id": "1165"
-        },
-        {
-          "code": "APEC 1101",
-          "subject": "APEC",
-          "id": "1101"
-        },
-        {
-          "code": "ECON 1102",
-          "subject": "ECON",
-          "id": "1102"
-        },
-        {
-          "code": "APEC 1102",
-          "subject": "APEC",
-          "id": "1102"
+          "or": [
+            {
+              "code": "ECON 1102",
+              "subject": "ECON",
+              "id": "1102"
+            },
+            {
+              "code": "APEC 1102",
+              "subject": "APEC",
+              "id": "1102"
+            }
+          ]
         },
         {
           "code": "ECON 3101",
@@ -1920,34 +1966,42 @@
     "subject": "ECON",
     "id": "4538",
     "title": "Advanced Labor Economics",
-    "info": "For B.S. Econ majors only. Economic analysis of domestic and global labor markets; population and labor force; labor market institutions; wage and employment theories; unions and collective bargaining; public policy including immigration, outsourcing, living wages, earnings mobility, downsizing; special topics.",
-    "prereqInfo": "prereq: (ECON 1101 or ECON 1165, APEC 1101), (ECON 1102 or APEC 1102), ECON 3101, ECON 3102, MATH 1271, MATH 1272, and two Econ electives or equivalent courses approved by the Economics Department.",
+    "info": "for b.s. econ majors only. economic analysis of domestic and global labor markets; population and labor force; labor market institutions; wage and employment theories; unions and collective bargaining; public policy including immigration, outsourcing, living wages, earnings mobility, downsizing; special topics.",
+    "prereqInfo": "(econ 1101 or econ 1165, apec 1101), (econ 1102 or apec 1102), econ 3101, econ 3102, math 1271, math 1272, and two econ electives or equivalent courses approved by the economics department.",
     "prereq": {
-      "course": [
+      "and": [
         {
-          "code": "ECON 1101",
-          "subject": "ECON",
-          "id": "1101"
+          "and": [
+            {
+              "code": "ECON 1101",
+              "subject": "ECON",
+              "id": "1101"
+            },
+            {
+              "code": "ECON 1165",
+              "subject": "ECON",
+              "id": "1165"
+            },
+            {
+              "code": "APEC 1101",
+              "subject": "APEC",
+              "id": "1101"
+            }
+          ]
         },
         {
-          "code": "ECON 1165",
-          "subject": "ECON",
-          "id": "1165"
-        },
-        {
-          "code": "APEC 1101",
-          "subject": "APEC",
-          "id": "1101"
-        },
-        {
-          "code": "ECON 1102",
-          "subject": "ECON",
-          "id": "1102"
-        },
-        {
-          "code": "APEC 1102",
-          "subject": "APEC",
-          "id": "1102"
+          "or": [
+            {
+              "code": "ECON 1102",
+              "subject": "ECON",
+              "id": "1102"
+            },
+            {
+              "code": "APEC 1102",
+              "subject": "APEC",
+              "id": "1102"
+            }
+          ]
         },
         {
           "code": "ECON 3101",
@@ -1977,32 +2031,28 @@
     "subject": "ECON",
     "id": "4560",
     "title": "Economics of Discrimination",
-    "info": "Theory and empirical evidence of labor/consumer markets discrimination. Race/gender differentials. Effects of anti-discrimination policies such as affirmative action. Use of economic models, formal statistical analysis.",
+    "info": "theory and empirical evidence of labor/consumer markets discrimination. race/gender differentials. effects of anti-discrimination policies such as affirmative action. use of economic models, formal statistical analysis.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "ECON 4611H",
     "subject": "ECON",
     "id": "4611H",
     "title": "Environmental value",
-    "info": "Principles of cost-benefit analysis used for valuing the environment, costs of pollution. Defining, measuring, valuating benefits/costs. Economic growth, sustainable growth. Economic, ecological, ethical issues in using renewable/non-renewable resources. Optimal rate of use. Optimal pollution control.",
+    "info": "principles of cost-benefit analysis used for valuing the environment, costs of pollution. defining, measuring, valuating benefits/costs. economic growth, sustainable growth. economic, ecological, ethical issues in using renewable/non-renewable resources. optimal rate of use. optimal pollution control.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "ECON 4621",
     "subject": "ECON",
     "id": "4621",
     "title": "Urban Economics",
-    "info": "Economics of urbanization. Location of economic activity/cities. Central place theory. Urban economic base/economic policy. Urban problems. Transportation, poverty/segregation, housing, public finance.",
-    "prereqInfo": "prereq: [3101, 3102] or equivalents",
+    "info": "economics of urbanization. location of economic activity/cities. central place theory. urban economic base/economic policy. urban problems. transportation, poverty/segregation, housing, public finance.",
+    "prereqInfo": "[3101, 3102] or equivalents",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 3101",
           "subject": "ECON",
@@ -2021,16 +2071,12 @@
     "subject": "ECON",
     "id": "4621H",
     "title": "Hons Urban Econ",
-    "info": "Economics of urbanization. Location of economic activity and cities. Central place theory. Site rents and form of city. Urban economic base and economic policy. Urban problems and economic policies: transportation, poverty/segregation, housing, public finance.",
-    "prereqInfo": "prereq: 3101 or equiv",
+    "info": "economics of urbanization. location of economic activity and cities. central place theory. site rents and form of city. urban economic base and economic policy. urban problems and economic policies: transportation, poverty/segregation, housing, public finance.",
+    "prereqInfo": "3101 or equiv",
     "prereq": {
-      "course": [
-        {
-          "code": "ECON 3101",
-          "subject": "ECON",
-          "id": "3101"
-        }
-      ]
+      "code": "ECON 3101",
+      "subject": "ECON",
+      "id": "3101"
     }
   },
   {
@@ -2038,45 +2084,51 @@
     "subject": "ECON",
     "id": "4623",
     "title": "Housing Pub Policy",
-    "info": "Analysis of housing markets. Market failures, externalities and the case for government intervention. Relative efficiency of particular forms of intervention.",
+    "info": "analysis of housing markets. market failures, externalities and the case for government intervention. relative efficiency of particular forms of intervention.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "ECON 4631",
     "subject": "ECON",
     "id": "4631",
     "title": "Industrial Organization",
-    "info": "Relations between market structure, economic efficiency and welfare. Economic origins of monopoly and other restraints on competition. Purposes and effects of antitrust and related legislation. Industrial policy.",
-    "prereqInfo": "prereq: (ECON 1101 or ECON 1165, APEC 1101), (ECON 1102 or APEC 1102), ECON 3101, MATH 1271 or equivalent courses approved by the Economics Department\n",
+    "info": "relations between market structure, economic efficiency and welfare. economic origins of monopoly and other restraints on competition. purposes and effects of antitrust and related legislation. industrial policy.",
+    "prereqInfo": "(econ 1101 or econ 1165, apec 1101), (econ 1102 or apec 1102), econ 3101, math 1271 or equivalent courses approved by the economics department\n",
     "prereq": {
-      "course": [
+      "and": [
         {
-          "code": "ECON 1101",
-          "subject": "ECON",
-          "id": "1101"
+          "and": [
+            {
+              "code": "ECON 1101",
+              "subject": "ECON",
+              "id": "1101"
+            },
+            {
+              "code": "ECON 1165",
+              "subject": "ECON",
+              "id": "1165"
+            },
+            {
+              "code": "APEC 1101",
+              "subject": "APEC",
+              "id": "1101"
+            }
+          ]
         },
         {
-          "code": "ECON 1165",
-          "subject": "ECON",
-          "id": "1165"
-        },
-        {
-          "code": "APEC 1101",
-          "subject": "APEC",
-          "id": "1101"
-        },
-        {
-          "code": "ECON 1102",
-          "subject": "ECON",
-          "id": "1102"
-        },
-        {
-          "code": "APEC 1102",
-          "subject": "APEC",
-          "id": "1102"
+          "or": [
+            {
+              "code": "ECON 1102",
+              "subject": "ECON",
+              "id": "1102"
+            },
+            {
+              "code": "APEC 1102",
+              "subject": "APEC",
+              "id": "1102"
+            }
+          ]
         },
         {
           "code": "ECON 3101",
@@ -2096,16 +2148,12 @@
     "subject": "ECON",
     "id": "4631H",
     "title": "Hons Industrial Organization",
-    "info": "Economic aspects of antitrust and related policies. Relations between market structure, economic efficiency, and welfare. Economic origins of monopoly and other restraints on competition. Purposes/effects of antitrust/related legislation.",
-    "prereqInfo": "prereq: 3101 or equiv",
+    "info": "economic aspects of antitrust and related policies. relations between market structure, economic efficiency, and welfare. economic origins of monopoly and other restraints on competition. purposes/effects of antitrust/related legislation.",
+    "prereqInfo": "3101 or equiv",
     "prereq": {
-      "course": [
-        {
-          "code": "ECON 3101",
-          "subject": "ECON",
-          "id": "3101"
-        }
-      ]
+      "code": "ECON 3101",
+      "subject": "ECON",
+      "id": "3101"
     }
   },
   {
@@ -2113,10 +2161,10 @@
     "subject": "ECON",
     "id": "4638",
     "title": "Adv Industrial Organization",
-    "info": "For Econ BS majors only. Economic aspects of antitrust/related policies. Relations between market structure, economic efficiency, welfare. Economic origins of monopoly/other restraints on competition. Purposes/effects of antitrust/related legislation.",
-    "prereqInfo": "prereq: 3101 or equivalent, 3102 recommended",
+    "info": "for econ bs majors only. economic aspects of antitrust/related policies. relations between market structure, economic efficiency, welfare. economic origins of monopoly/other restraints on competition. purposes/effects of antitrust/related legislation.",
+    "prereqInfo": "3101 or equivalent, 3102 recommended",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 3101",
           "subject": "ECON",
@@ -2135,34 +2183,42 @@
     "subject": "ECON",
     "id": "4721",
     "title": "Money and Banking",
-    "info": "Theories of money demand and money supply. Financial intermediation and banking, banking practices and regulation, role of the Federal Reserve system. Monetary theory and policy.",
-    "prereqInfo": "prereq: (ECON 1101 or ECON 1165, APEC 1101), (ECON 1102 or APEC 1102), ECON 3101, ECON 3102, and MATH 1271, or equivalent courses approved by the Economics Department.",
+    "info": "theories of money demand and money supply. financial intermediation and banking, banking practices and regulation, role of the federal reserve system. monetary theory and policy.",
+    "prereqInfo": "(econ 1101 or econ 1165, apec 1101), (econ 1102 or apec 1102), econ 3101, econ 3102, and math 1271, or equivalent courses approved by the economics department.",
     "prereq": {
-      "course": [
+      "and": [
         {
-          "code": "ECON 1101",
-          "subject": "ECON",
-          "id": "1101"
+          "and": [
+            {
+              "code": "ECON 1101",
+              "subject": "ECON",
+              "id": "1101"
+            },
+            {
+              "code": "ECON 1165",
+              "subject": "ECON",
+              "id": "1165"
+            },
+            {
+              "code": "APEC 1101",
+              "subject": "APEC",
+              "id": "1101"
+            }
+          ]
         },
         {
-          "code": "ECON 1165",
-          "subject": "ECON",
-          "id": "1165"
-        },
-        {
-          "code": "APEC 1101",
-          "subject": "APEC",
-          "id": "1101"
-        },
-        {
-          "code": "ECON 1102",
-          "subject": "ECON",
-          "id": "1102"
-        },
-        {
-          "code": "APEC 1102",
-          "subject": "APEC",
-          "id": "1102"
+          "or": [
+            {
+              "code": "ECON 1102",
+              "subject": "ECON",
+              "id": "1102"
+            },
+            {
+              "code": "APEC 1102",
+              "subject": "APEC",
+              "id": "1102"
+            }
+          ]
         },
         {
           "code": "ECON 3101",
@@ -2187,10 +2243,10 @@
     "subject": "ECON",
     "id": "4721H",
     "title": "Honors: Money and Banking",
-    "info": "Theories of money demand and money supply. Financial intermediation and banking, banking practices and regulation, role of the Federal Reserve system. Monetary theory and policy.",
-    "prereqInfo": "prereq: [3101, 3102] or equiv",
+    "info": "theories of money demand and money supply. financial intermediation and banking, banking practices and regulation, role of the federal reserve system. monetary theory and policy.",
+    "prereqInfo": "[3101, 3102] or equiv",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 3101",
           "subject": "ECON",
@@ -2209,10 +2265,10 @@
     "subject": "ECON",
     "id": "4728",
     "title": "Advanced Money and Banking",
-    "info": "For Econ BS majors only. Theories of money demand/money supply. Financial intermediation, banking, nonbank financial institutions, banking practices, bank regulation, international banking, role of Federal Reserve system. Monetary policy.",
-    "prereqInfo": "prereq: [3101 or equiv], [3102 or equiv], Math 1271",
+    "info": "for econ bs majors only. theories of money demand/money supply. financial intermediation, banking, nonbank financial institutions, banking practices, bank regulation, international banking, role of federal reserve system. monetary policy.",
+    "prereqInfo": "[3101 or equiv], [3102 or equiv], math 1271",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 3101",
           "subject": "ECON",
@@ -2236,10 +2292,10 @@
     "subject": "ECON",
     "id": "4731",
     "title": "Macroeconomic Policy",
-    "info": "Monetary vs. fiscal policy debate in the context of the underlying macroeconomic theory controversy. Comparison of Keynesian, Monetarist, and Classical theories; rational expectations; policy ineffectiveness; time inconsistency; rules vs. discretion; budget deficits; unemployment and inflation.",
-    "prereqInfo": "prereq: 3101, 3102 or equiv",
+    "info": "monetary vs. fiscal policy debate in the context of the underlying macroeconomic theory controversy. comparison of keynesian, monetarist, and classical theories; rational expectations; policy ineffectiveness; time inconsistency; rules vs. discretion; budget deficits; unemployment and inflation.",
+    "prereqInfo": "3101, 3102 or equiv",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 3101",
           "subject": "ECON",
@@ -2258,19 +2314,23 @@
     "subject": "ECON",
     "id": "4731H",
     "title": "Honors Macro Policy",
-    "info": "Monetary vs. fiscal policy debate in context of underlying macroeconomic theory controversy. Comparison of Keynesian, Monetarist, and Classical theories. Rational expectations, policy ineffectiveness, time inconsistency, rules versus discretion, budget deficits. Unemployment and inflation.",
-    "prereqInfo": "prereq: [[3101, 3102] or equiv], Math 1271, honors",
+    "info": "monetary vs. fiscal policy debate in context of underlying macroeconomic theory controversy. comparison of keynesian, monetarist, and classical theories. rational expectations, policy ineffectiveness, time inconsistency, rules versus discretion, budget deficits. unemployment and inflation.",
+    "prereqInfo": "[[3101, 3102] or equiv], math 1271, honors",
     "prereq": {
-      "course": [
+      "and": [
         {
-          "code": "ECON 3101",
-          "subject": "ECON",
-          "id": "3101"
-        },
-        {
-          "code": "ECON 3102",
-          "subject": "ECON",
-          "id": "3102"
+          "and": [
+            {
+              "code": "ECON 3101",
+              "subject": "ECON",
+              "id": "3101"
+            },
+            {
+              "code": "ECON 3102",
+              "subject": "ECON",
+              "id": "3102"
+            }
+          ]
         },
         {
           "code": "MATH 1271",
@@ -2285,19 +2345,23 @@
     "subject": "ECON",
     "id": "4738",
     "title": "Advanced Macro Policy",
-    "info": "For Econ B.S. majors only. Monetary vs. fiscal policy debate in context of underlying macroeconomic theory controversy. Comparison of Keynesian, Monetarist, Classical theories. Rational expectations, policy ineffectiveness, time inconsistency, rules versus discretion, budget deficits. Unemployment/inflation.",
-    "prereqInfo": "prereq: [[3101, 3102] or equiv], Math 1271",
+    "info": "for econ b.s. majors only. monetary vs. fiscal policy debate in context of underlying macroeconomic theory controversy. comparison of keynesian, monetarist, classical theories. rational expectations, policy ineffectiveness, time inconsistency, rules versus discretion, budget deficits. unemployment/inflation.",
+    "prereqInfo": "[[3101, 3102] or equiv], math 1271",
     "prereq": {
-      "course": [
+      "and": [
         {
-          "code": "ECON 3101",
-          "subject": "ECON",
-          "id": "3101"
-        },
-        {
-          "code": "ECON 3102",
-          "subject": "ECON",
-          "id": "3102"
+          "and": [
+            {
+              "code": "ECON 3101",
+              "subject": "ECON",
+              "id": "3101"
+            },
+            {
+              "code": "ECON 3102",
+              "subject": "ECON",
+              "id": "3102"
+            }
+          ]
         },
         {
           "code": "MATH 1271",
@@ -2312,19 +2376,23 @@
     "subject": "ECON",
     "id": "4741",
     "title": "Quant Analysis Macroeconomy",
-    "info": "Development/calibration of growth model. Effects of policies on output, employment, other aggregate variables. Documentation of business cycle facts. Estimation of business cycles' cost. Real business theory, prediction of business cycle facts. Money in augmented model.",
-    "prereqInfo": "prereq: [[3101, 3102] or equiv], [Stat 3011 or equiv]",
+    "info": "development/calibration of growth model. effects of policies on output, employment, other aggregate variables. documentation of business cycle facts. estimation of business cycles' cost. real business theory, prediction of business cycle facts. money in augmented model.",
+    "prereqInfo": "[[3101, 3102] or equiv], [stat 3011 or equiv]",
     "prereq": {
-      "course": [
+      "and": [
         {
-          "code": "ECON 3101",
-          "subject": "ECON",
-          "id": "3101"
-        },
-        {
-          "code": "ECON 3102",
-          "subject": "ECON",
-          "id": "3102"
+          "and": [
+            {
+              "code": "ECON 3101",
+              "subject": "ECON",
+              "id": "3101"
+            },
+            {
+              "code": "ECON 3102",
+              "subject": "ECON",
+              "id": "3102"
+            }
+          ]
         },
         {
           "code": "STAT 3011",
@@ -2339,19 +2407,23 @@
     "subject": "ECON",
     "id": "4741H",
     "title": "Advanced Macro Policy",
-    "info": "For Honors and Econ B.S. majors only. Monetary vs. fiscal policy debate in context of underlying macroeconomic theory controversy. Comparison of Keynesian, Monetarist, Classical theories. Rational expectations, policy ineffectiveness, time inconsistency, rules versus discretion, budget deficits. Unemployment/inflation.",
-    "prereqInfo": "prereq: [[3101, 3102] or equiv], Math 1271",
+    "info": "for honors and econ b.s. majors only. monetary vs. fiscal policy debate in context of underlying macroeconomic theory controversy. comparison of keynesian, monetarist, classical theories. rational expectations, policy ineffectiveness, time inconsistency, rules versus discretion, budget deficits. unemployment/inflation.",
+    "prereqInfo": "[[3101, 3102] or equiv], math 1271",
     "prereq": {
-      "course": [
+      "and": [
         {
-          "code": "ECON 3101",
-          "subject": "ECON",
-          "id": "3101"
-        },
-        {
-          "code": "ECON 3102",
-          "subject": "ECON",
-          "id": "3102"
+          "and": [
+            {
+              "code": "ECON 3101",
+              "subject": "ECON",
+              "id": "3101"
+            },
+            {
+              "code": "ECON 3102",
+              "subject": "ECON",
+              "id": "3102"
+            }
+          ]
         },
         {
           "code": "MATH 1271",
@@ -2366,19 +2438,23 @@
     "subject": "ECON",
     "id": "4748",
     "title": "Adv: Quant Analysis Macroecon",
-    "info": "For Econ B.S. majors only. Development/calibration of growth model. Effects of policies on output, employment, other aggregate variables. Documentation and estimation of business cycle facts and costs. Real business theory. Prediction of business cycle facts. Course provides students some basic analytical and numerical tools that allows them to quantify the impact of fiscal and monetary policies on the macroeconomy.",
-    "prereqInfo": "prereq: [[Econ 3101, 3102] or equiv], [Stat 3011 or equiv]",
+    "info": "for econ b.s. majors only. development/calibration of growth model. effects of policies on output, employment, other aggregate variables. documentation and estimation of business cycle facts and costs. real business theory. prediction of business cycle facts. course provides students some basic analytical and numerical tools that allows them to quantify the impact of fiscal and monetary policies on the macroeconomy.",
+    "prereqInfo": "[[econ 3101, 3102] or equiv], [stat 3011 or equiv]",
     "prereq": {
-      "course": [
+      "and": [
         {
-          "code": "ECON 3101",
-          "subject": "ECON",
-          "id": "3101"
-        },
-        {
-          "code": "ECON 3102",
-          "subject": "ECON",
-          "id": "3102"
+          "and": [
+            {
+              "code": "ECON 3101",
+              "subject": "ECON",
+              "id": "3101"
+            },
+            {
+              "code": "ECON 3102",
+              "subject": "ECON",
+              "id": "3102"
+            }
+          ]
         },
         {
           "code": "STAT 3011",
@@ -2393,34 +2469,42 @@
     "subject": "ECON",
     "id": "4751",
     "title": "Financial Economics",
-    "info": "Financial decisions of firms/investors. Determination of interest rates and asset prices. Role of risk/uncertainty. Emphasizes economic models.",
-    "prereqInfo": "prereqs: (ECON 1101 or ECON 1165, APEC 1101), (ECON 1102 or APEC 1102), ECON 3101, MATH 1271, STAT 3011 or equivalent courses approved by the Economics Department.",
+    "info": "financial decisions of firms/investors. determination of interest rates and asset prices. role of risk/uncertainty. emphasizes economic models.",
+    "prereqInfo": "prereqs: (econ 1101 or econ 1165, apec 1101), (econ 1102 or apec 1102), econ 3101, math 1271, stat 3011 or equivalent courses approved by the economics department.",
     "prereq": {
-      "course": [
+      "and": [
         {
-          "code": "ECON 1101",
-          "subject": "ECON",
-          "id": "1101"
+          "and": [
+            {
+              "code": "ECON 1101",
+              "subject": "ECON",
+              "id": "1101"
+            },
+            {
+              "code": "ECON 1165",
+              "subject": "ECON",
+              "id": "1165"
+            },
+            {
+              "code": "APEC 1101",
+              "subject": "APEC",
+              "id": "1101"
+            }
+          ]
         },
         {
-          "code": "ECON 1165",
-          "subject": "ECON",
-          "id": "1165"
-        },
-        {
-          "code": "APEC 1101",
-          "subject": "APEC",
-          "id": "1101"
-        },
-        {
-          "code": "ECON 1102",
-          "subject": "ECON",
-          "id": "1102"
-        },
-        {
-          "code": "APEC 1102",
-          "subject": "APEC",
-          "id": "1102"
+          "or": [
+            {
+              "code": "ECON 1102",
+              "subject": "ECON",
+              "id": "1102"
+            },
+            {
+              "code": "APEC 1102",
+              "subject": "APEC",
+              "id": "1102"
+            }
+          ]
         },
         {
           "code": "ECON 3101",
@@ -2445,10 +2529,10 @@
     "subject": "ECON",
     "id": "4751H",
     "title": "Honors: Financial Economics",
-    "info": "Efficiency of financial markets. Theoretical concepts, empirical evidence.",
-    "prereqInfo": "prereq: 3101, [3102 or equiv], [Math 1271 or equiv], [Stat 3011 or equiv]",
+    "info": "efficiency of financial markets. theoretical concepts, empirical evidence.",
+    "prereqInfo": "3101, [3102 or equiv], [math 1271 or equiv], [stat 3011 or equiv]",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 3101",
           "subject": "ECON",
@@ -2477,10 +2561,10 @@
     "subject": "ECON",
     "id": "4758",
     "title": "Advanced Financial Economics",
-    "info": "Efficiency/role of financial markets. Theoretical concepts, empirical evidence. Price of financial assets, value of investment projects, risk management trading strategies.",
-    "prereqInfo": "prereq: 3101, [3102 or equiv], [Math 1271 or equiv], [Stat 3011 or equiv], [Math 1272 or equiv]",
+    "info": "efficiency/role of financial markets. theoretical concepts, empirical evidence. price of financial assets, value of investment projects, risk management trading strategies.",
+    "prereqInfo": "3101, [3102 or equiv], [math 1271 or equiv], [stat 3011 or equiv], [math 1272 or equiv]",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 3101",
           "subject": "ECON",
@@ -2514,34 +2598,42 @@
     "subject": "ECON",
     "id": "4821",
     "title": "Public Economics",
-    "info": "Competing views on proper role of government in economy. Effects of tax/spending policies, taking into account private agents' response to government actions/ways government officials may use powers. Optimal policies. Applications primarily to U.S. government.",
-    "prereqInfo": "prereq: (ECON 1101 or ECON 1165, APEC 1101),  (ECON 1102 or APEC 1102), ECON 3101, ECON 3102, MATH 1271 or equivalent courses approved by the Economics Department",
+    "info": "competing views on proper role of government in economy. effects of tax/spending policies, taking into account private agents' response to government actions/ways government officials may use powers. optimal policies. applications primarily to u.s. government.",
+    "prereqInfo": "(econ 1101 or econ 1165, apec 1101),  (econ 1102 or apec 1102), econ 3101, econ 3102, math 1271 or equivalent courses approved by the economics department",
     "prereq": {
-      "course": [
+      "and": [
         {
-          "code": "ECON 1101",
-          "subject": "ECON",
-          "id": "1101"
+          "and": [
+            {
+              "code": "ECON 1101",
+              "subject": "ECON",
+              "id": "1101"
+            },
+            {
+              "code": "ECON 1165",
+              "subject": "ECON",
+              "id": "1165"
+            },
+            {
+              "code": "APEC 1101",
+              "subject": "APEC",
+              "id": "1101"
+            }
+          ]
         },
         {
-          "code": "ECON 1165",
-          "subject": "ECON",
-          "id": "1165"
-        },
-        {
-          "code": "APEC 1101",
-          "subject": "APEC",
-          "id": "1101"
-        },
-        {
-          "code": "ECON 1102",
-          "subject": "ECON",
-          "id": "1102"
-        },
-        {
-          "code": "APEC 1102",
-          "subject": "APEC",
-          "id": "1102"
+          "or": [
+            {
+              "code": "ECON 1102",
+              "subject": "ECON",
+              "id": "1102"
+            },
+            {
+              "code": "APEC 1102",
+              "subject": "APEC",
+              "id": "1102"
+            }
+          ]
         },
         {
           "code": "ECON 3101",
@@ -2566,10 +2658,10 @@
     "subject": "ECON",
     "id": "4828",
     "title": "Advanced Public Economics",
-    "info": "Competing views/models on the role of government in an economy. Effects of tax and spending policies, private agents' response to government actions; optimal policies. Financial crisis and government policies on subsidizing private debt and private housing. Climate change policy of government. Government health care reforms. Tax issues of MNCs, tax evasion, industry relocations and corporate taxes.",
-    "prereqInfo": "prereqs: Econ 3101 and 3102; advise completing Econometrics before taking this course.",
+    "info": "competing views/models on the role of government in an economy. effects of tax and spending policies, private agents' response to government actions; optimal policies. financial crisis and government policies on subsidizing private debt and private housing. climate change policy of government. government health care reforms. tax issues of mncs, tax evasion, industry relocations and corporate taxes.",
+    "prereqInfo": "prereqs: econ 3101 and 3102; advise completing econometrics before taking this course.",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 3101",
           "subject": "ECON",
@@ -2588,34 +2680,42 @@
     "subject": "ECON",
     "id": "4831",
     "title": "Cost-Benefit Analysis",
-    "info": "Evaluation of benefits and costs of public projects and programs. Issues connected with definition and measurement of benefits and costs. Rate of return and discount. Market imperfections, risk, uncertainty. Case studies.",
-    "prereqInfo": "prereq: (ECON 1101 or ECON 1165, APEC 1101), (ECON 1102 or APEC 1102), ECON 3101, MATH 1271 or equivalent courses approved by the Economics Department",
+    "info": "evaluation of benefits and costs of public projects and programs. issues connected with definition and measurement of benefits and costs. rate of return and discount. market imperfections, risk, uncertainty. case studies.",
+    "prereqInfo": "(econ 1101 or econ 1165, apec 1101), (econ 1102 or apec 1102), econ 3101, math 1271 or equivalent courses approved by the economics department",
     "prereq": {
-      "course": [
+      "and": [
         {
-          "code": "ECON 1101",
-          "subject": "ECON",
-          "id": "1101"
+          "and": [
+            {
+              "code": "ECON 1101",
+              "subject": "ECON",
+              "id": "1101"
+            },
+            {
+              "code": "ECON 1165",
+              "subject": "ECON",
+              "id": "1165"
+            },
+            {
+              "code": "APEC 1101",
+              "subject": "APEC",
+              "id": "1101"
+            }
+          ]
         },
         {
-          "code": "ECON 1165",
-          "subject": "ECON",
-          "id": "1165"
-        },
-        {
-          "code": "APEC 1101",
-          "subject": "APEC",
-          "id": "1101"
-        },
-        {
-          "code": "ECON 1102",
-          "subject": "ECON",
-          "id": "1102"
-        },
-        {
-          "code": "APEC 1102",
-          "subject": "APEC",
-          "id": "1102"
+          "or": [
+            {
+              "code": "ECON 1102",
+              "subject": "ECON",
+              "id": "1102"
+            },
+            {
+              "code": "APEC 1102",
+              "subject": "APEC",
+              "id": "1102"
+            }
+          ]
         },
         {
           "code": "ECON 3101",
@@ -2635,19 +2735,23 @@
     "subject": "ECON",
     "id": "4960",
     "title": "Topics in Economics",
-    "info": "Topics specified in Class Schedule.",
-    "prereqInfo": "prereq: [3101 or 3102 or equiv], MATH 1271",
+    "info": "topics specified in class schedule.",
+    "prereqInfo": "[3101 or 3102 or equiv], math 1271",
     "prereq": {
-      "course": [
+      "and": [
         {
-          "code": "ECON 3101",
-          "subject": "ECON",
-          "id": "3101"
-        },
-        {
-          "code": "ECON 3102",
-          "subject": "ECON",
-          "id": "3102"
+          "or": [
+            {
+              "code": "ECON 3101",
+              "subject": "ECON",
+              "id": "3101"
+            },
+            {
+              "code": "ECON 3102",
+              "subject": "ECON",
+              "id": "3102"
+            }
+          ]
         },
         {
           "code": "MATH 1271",
@@ -2662,19 +2766,23 @@
     "subject": "ECON",
     "id": "4960H",
     "title": "Honors: Topics in Economics",
-    "info": "Topics specified in Class Schedule",
-    "prereqInfo": "prereq: [[3101, 3102] or equiv], MATH 1271; may change based on topic",
+    "info": "topics specified in class schedule",
+    "prereqInfo": "[[3101, 3102] or equiv], math 1271; may change based on topic",
     "prereq": {
-      "course": [
+      "and": [
         {
-          "code": "ECON 3101",
-          "subject": "ECON",
-          "id": "3101"
-        },
-        {
-          "code": "ECON 3102",
-          "subject": "ECON",
-          "id": "3102"
+          "and": [
+            {
+              "code": "ECON 3101",
+              "subject": "ECON",
+              "id": "3101"
+            },
+            {
+              "code": "ECON 3102",
+              "subject": "ECON",
+              "id": "3102"
+            }
+          ]
         },
         {
           "code": "MATH 1271",
@@ -2689,19 +2797,23 @@
     "subject": "ECON",
     "id": "4968",
     "title": "Advanced Topics: Economics",
-    "info": "Topics specified in Class Schedule.",
-    "prereqInfo": "prereq: [[3101, 3102] or equiv], MATH 1271, [Stat 3011 or equiv], successfully complete at least two 4xxx level UMNTC economics courses.",
+    "info": "topics specified in class schedule.",
+    "prereqInfo": "[[3101, 3102] or equiv], math 1271, [stat 3011 or equiv], successfully complete at least two 4xxx level umntc economics courses.",
     "prereq": {
-      "course": [
+      "and": [
         {
-          "code": "ECON 3101",
-          "subject": "ECON",
-          "id": "3101"
-        },
-        {
-          "code": "ECON 3102",
-          "subject": "ECON",
-          "id": "3102"
+          "and": [
+            {
+              "code": "ECON 3101",
+              "subject": "ECON",
+              "id": "3101"
+            },
+            {
+              "code": "ECON 3102",
+              "subject": "ECON",
+              "id": "3102"
+            }
+          ]
         },
         {
           "code": "MATH 1271",
@@ -2721,73 +2833,69 @@
     "subject": "ECON",
     "id": "4970",
     "title": "Advanced Topics: Economics",
-    "info": "Topics specified in Class Schedule,\nprereq: [[3101, 3102] or equiv], MATH 1271, [Stat 3011 or equiv], successfully complete at least two 4xxx level UMNTC economics courses.",
+    "info": "topics specified in class schedule,\nprereq: [[3101, 3102] or equiv], math 1271, [stat 3011 or equiv], successfully complete at least two 4xxx level umntc economics courses.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "ECON 4991",
     "subject": "ECON",
     "id": "4991",
     "title": "Independent Study",
-    "info": "Honors thesis.",
+    "info": "honors thesis.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "ECON 4993",
     "subject": "ECON",
     "id": "4993",
     "title": "Directed Study",
-    "info": "Guided individual reading or study in areas not available in regular course offerings.",
-    "prereqInfo": "prereq: dept consent",
-    "prereq": {
-      "course": []
-    }
+    "info": "guided individual reading or study in areas not available in regular course offerings.",
+    "prereqInfo": "dept consent",
+    "prereq": []
   },
   {
     "code": "ECON 4993H",
     "subject": "ECON",
     "id": "4993H",
     "title": "Directed Study Honors Thesis",
-    "info": "Honors Thesis.",
+    "info": "honors thesis.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "ECON 5109",
     "subject": "ECON",
     "id": "5109",
     "title": "Game Theory for Engineers",
-    "info": "Introduction to game theory. Utility theory, non-cooperative/cooperative games, bargaining theory. Games in normal/extensive form. Nash equilibria/refinements.",
-    "prereqInfo": "prereq: [Math 2283, 2373, 2374, 3283] or Math 4606, [M.S./Ph.D. student in engineering or comp sci or info tech or operations mgmt] or instr consent",
+    "info": "introduction to game theory. utility theory, non-cooperative/cooperative games, bargaining theory. games in normal/extensive form. nash equilibria/refinements.",
+    "prereqInfo": "[math 2283, 2373, 2374, 3283] or math 4606, [m.s./ph.d. student in engineering or comp sci or info tech or operations mgmt] or instr consent",
     "prereq": {
-      "course": [
+      "or": [
         {
-          "code": "MATH 2283",
-          "subject": "MATH",
-          "id": "2283"
-        },
-        {
-          "code": "ECON 2373",
-          "subject": "ECON",
-          "id": "2373"
-        },
-        {
-          "code": "ECON 2374",
-          "subject": "ECON",
-          "id": "2374"
-        },
-        {
-          "code": "ECON 3283",
-          "subject": "ECON",
-          "id": "3283"
+          "and": [
+            {
+              "code": "MATH 2283",
+              "subject": "MATH",
+              "id": "2283"
+            },
+            {
+              "code": "ECON 2373",
+              "subject": "ECON",
+              "id": "2373"
+            },
+            {
+              "code": "ECON 2374",
+              "subject": "ECON",
+              "id": "2374"
+            },
+            {
+              "code": "ECON 3283",
+              "subject": "ECON",
+              "id": "3283"
+            }
+          ]
         },
         {
           "code": "MATH 4606",
@@ -2802,29 +2910,33 @@
     "subject": "ECON",
     "id": "5109H",
     "title": "Game Theory for Engineers",
-    "info": "Introduction to game theory and its applications. Utility theory, noncooperative/cooperative games, bargaining theory. Games in normal/extensive form, Nash equilibria/refinements.",
-    "prereqInfo": "prereq: [[[Math 2283, Math 2373, Math 2374, Math 3283] or Math 4606], M.S./Ph.D. student in [engineerg or comp sci or info tech or operations mgmt]] or instr consent; not for econ [undergrads or PhD students]",
+    "info": "introduction to game theory and its applications. utility theory, noncooperative/cooperative games, bargaining theory. games in normal/extensive form, nash equilibria/refinements.",
+    "prereqInfo": "[[[math 2283, math 2373, math 2374, math 3283] or math 4606], m.s./ph.d. student in [engineerg or comp sci or info tech or operations mgmt]] or instr consent; not for econ [undergrads or phd students]",
     "prereq": {
-      "course": [
+      "or": [
         {
-          "code": "MATH 2283",
-          "subject": "MATH",
-          "id": "2283"
-        },
-        {
-          "code": "MATH 2373",
-          "subject": "MATH",
-          "id": "2373"
-        },
-        {
-          "code": "MATH 2374",
-          "subject": "MATH",
-          "id": "2374"
-        },
-        {
-          "code": "MATH 3283",
-          "subject": "MATH",
-          "id": "3283"
+          "and": [
+            {
+              "code": "MATH 2283",
+              "subject": "MATH",
+              "id": "2283"
+            },
+            {
+              "code": "MATH 2373",
+              "subject": "MATH",
+              "id": "2373"
+            },
+            {
+              "code": "MATH 2374",
+              "subject": "MATH",
+              "id": "2374"
+            },
+            {
+              "code": "MATH 3283",
+              "subject": "MATH",
+              "id": "3283"
+            }
+          ]
         },
         {
           "code": "MATH 4606",
@@ -2839,49 +2951,39 @@
     "subject": "ECON",
     "id": "5151",
     "title": "Econ Anal Firm Hous",
-    "info": "Decision-making by households and firms under conditions of perfect competition, monopoly, and monopolistic competition.",
+    "info": "decision-making by households and firms under conditions of perfect competition, monopoly, and monopolistic competition.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "ECON 5152",
     "subject": "ECON",
     "id": "5152",
     "title": "Econ Anal Macro",
-    "info": "Determinants of national income, employment, and price level; aggregate consumption, investment, and asset holding.",
+    "info": "determinants of national income, employment, and price level; aggregate consumption, investment, and asset holding.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "ECON 5312",
     "subject": "ECON",
     "id": "5312",
     "title": "Growth, Technology, Devel",
-    "info": "Economics of research and development; technical change and productivity growth; impact of technology on institutions; science and technology policy.",
+    "info": "economics of research and development; technical change and productivity growth; impact of technology on institutions; science and technology policy.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "ECON 5890",
     "subject": "ECON",
     "id": "5890",
     "title": "Econ Health Care System",
-    "info": "Economic analysis of U.S. health-care sector. Emphasizes problems of pricing, production, distribution. Health-care services as one factor contributing to nation's health.",
-    "prereqInfo": "prereq: 3101 or instr consent",
+    "info": "economic analysis of u.s. health-care sector. emphasizes problems of pricing, production, distribution. health-care services as one factor contributing to nation's health.",
+    "prereqInfo": "3101 or instr consent",
     "prereq": {
-      "course": [
-        {
-          "code": "ECON 3101",
-          "subject": "ECON",
-          "id": "3101"
-        }
-      ]
+      "code": "ECON 3101",
+      "subject": "ECON",
+      "id": "3101"
     }
   },
   {
@@ -2889,10 +2991,10 @@
     "subject": "ECON",
     "id": "8001",
     "title": "Microeconomic Analysis 1",
-    "info": "Theories of consumer demand, producer supply, and market equilibrium; general equilibrium and welfare. Sample topics: externalities, economics of information and uncertainty, and game theory. This seven-week course meets with 4161.",
-    "prereqInfo": "prereq: 5151 or equiv, Math 2243, Math 2263 or equiv or instr consent",
+    "info": "theories of consumer demand, producer supply, and market equilibrium; general equilibrium and welfare. sample topics: externalities, economics of information and uncertainty, and game theory. this seven-week course meets with 4161.",
+    "prereqInfo": "5151 or equiv, math 2243, math 2263 or equiv or instr consent",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 5151",
           "subject": "ECON",
@@ -2916,16 +3018,12 @@
     "subject": "ECON",
     "id": "8002",
     "title": "Microeconomic Analysis II",
-    "info": "Theories of consumer demand, producer supply, and market equilibrium; general equilibrium and welfare. Sample topics: externalities, economics of information and uncertainty, and game theory. This seven-week course meets with 4162.",
-    "prereqInfo": "prereq: 8001",
+    "info": "theories of consumer demand, producer supply, and market equilibrium; general equilibrium and welfare. sample topics: externalities, economics of information and uncertainty, and game theory. this seven-week course meets with 4162.",
+    "prereqInfo": "8001",
     "prereq": {
-      "course": [
-        {
-          "code": "ECON 8001",
-          "subject": "ECON",
-          "id": "8001"
-        }
-      ]
+      "code": "ECON 8001",
+      "subject": "ECON",
+      "id": "8001"
     }
   },
   {
@@ -2933,16 +3031,12 @@
     "subject": "ECON",
     "id": "8003",
     "title": "Microecon Analysis",
-    "info": "Theories of consumer demand, producer supply, and market equilibrium; general equilibrium and welfare. Sample topics: externalities, economics of information and uncertainty, and game theory. This seven-week course meets with 4163.",
-    "prereqInfo": "prereq: 8002",
+    "info": "theories of consumer demand, producer supply, and market equilibrium; general equilibrium and welfare. sample topics: externalities, economics of information and uncertainty, and game theory. this seven-week course meets with 4163.",
+    "prereqInfo": "8002",
     "prereq": {
-      "course": [
-        {
-          "code": "ECON 8002",
-          "subject": "ECON",
-          "id": "8002"
-        }
-      ]
+      "code": "ECON 8002",
+      "subject": "ECON",
+      "id": "8002"
     }
   },
   {
@@ -2950,16 +3044,12 @@
     "subject": "ECON",
     "id": "8004",
     "title": "Microecon Analysis",
-    "info": "Theories of consumer demand, producer supply, and market equilibrium; general equilibrium and welfare. Sample topics: externalities, economics of information and uncertainty, and game theory. This seven-week course meets with 4164.",
-    "prereqInfo": "prereq: 8003",
+    "info": "theories of consumer demand, producer supply, and market equilibrium; general equilibrium and welfare. sample topics: externalities, economics of information and uncertainty, and game theory. this seven-week course meets with 4164.",
+    "prereqInfo": "8003",
     "prereq": {
-      "course": [
-        {
-          "code": "ECON 8003",
-          "subject": "ECON",
-          "id": "8003"
-        }
-      ]
+      "code": "ECON 8003",
+      "subject": "ECON",
+      "id": "8003"
     }
   },
   {
@@ -2967,10 +3057,10 @@
     "subject": "ECON",
     "id": "8101",
     "title": "Microecon Theory",
-    "info": "Decision problems faced by the household and firm; theories of choice under conditions of certainty and uncertainty. Partial equilibrium analysis of competition and monopoly. General equilibrium analysis. Welfare economics: economic efficiency of alternative market structures, social welfare functions. Dynamics: stability of markets, capital theory. Seven-week course.",
-    "prereqInfo": "prereq: 5151 or equiv, Math 2243 or equiv, concurrent registration is required (or allowed) in  Math 5615 or concurrent registration in Math 8601, grad econ major or instr consent",
+    "info": "decision problems faced by the household and firm; theories of choice under conditions of certainty and uncertainty. partial equilibrium analysis of competition and monopoly. general equilibrium analysis. welfare economics: economic efficiency of alternative market structures, social welfare functions. dynamics: stability of markets, capital theory. seven-week course.",
+    "prereqInfo": "5151 or equiv, math 2243 or equiv, concurrent registration is required (or allowed) in  math 5615 or concurrent registration in math 8601, grad econ major or instr consent",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 5151",
           "subject": "ECON",
@@ -2999,10 +3089,10 @@
     "subject": "ECON",
     "id": "8102",
     "title": "Microecon Theory",
-    "info": "Decision problems faced by the household and firm; theories of choice under conditions of certainty and uncertainty. Partial equilibrium analysis of competition and monopoly. General equilibrium analysis. Welfare economics: economic efficiency of alternative market structures, social welfare functions. Dynamics: stability of markets, capital theory. Seven-week course.",
-    "prereqInfo": "prereq: 8101, concurrent registration is required (or allowed) in  Math 5615 or concurrent registration is required (or allowed) in  Math 8601, grad econ major or instr consent",
+    "info": "decision problems faced by the household and firm; theories of choice under conditions of certainty and uncertainty. partial equilibrium analysis of competition and monopoly. general equilibrium analysis. welfare economics: economic efficiency of alternative market structures, social welfare functions. dynamics: stability of markets, capital theory. seven-week course.",
+    "prereqInfo": "8101, concurrent registration is required (or allowed) in  math 5615 or concurrent registration is required (or allowed) in  math 8601, grad econ major or instr consent",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 8101",
           "subject": "ECON",
@@ -3026,10 +3116,10 @@
     "subject": "ECON",
     "id": "8103",
     "title": "Microecon Theory",
-    "info": "Decision problems faced by the household and firm; theories of choice under conditions of certainty and uncertainty. Partial equilibrium analysis of competition and monopoly. General equilibrium analysis. Welfare economics: economic efficiency of alternative market structures, social welfare functions. Dynamics: stability of markets, capital theory. Seven-week course.",
-    "prereqInfo": "prereq: 8102, concurrent registration is required (or allowed) in  Math 5616 or concurrent registration is required (or allowed) in  Math 8602 or comparable abstract math course, grad econ major or instr consent",
+    "info": "decision problems faced by the household and firm; theories of choice under conditions of certainty and uncertainty. partial equilibrium analysis of competition and monopoly. general equilibrium analysis. welfare economics: economic efficiency of alternative market structures, social welfare functions. dynamics: stability of markets, capital theory. seven-week course.",
+    "prereqInfo": "8102, concurrent registration is required (or allowed) in  math 5616 or concurrent registration is required (or allowed) in  math 8602 or comparable abstract math course, grad econ major or instr consent",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 8102",
           "subject": "ECON",
@@ -3053,10 +3143,10 @@
     "subject": "ECON",
     "id": "8104",
     "title": "Microecon Theory",
-    "info": "Decision problems faced by the household and firm; theories of choice under conditions of certainty and uncertainty. Partial equilibrium analysis of competition and monopoly. General equilibrium analysis. Welfare economics: economic efficiency of alternative market structures, social welfare functions. Dynamics: stability of markets, capital theory.\nSeven-week course.",
-    "prereqInfo": "prereq: 8103, concurrent registration is required (or allowed) in  Math 5616 or concurrent registration is required (or allowed) in  Math 8602 or comparable abstract math course, grad econ major or instr consent",
+    "info": "decision problems faced by the household and firm; theories of choice under conditions of certainty and uncertainty. partial equilibrium analysis of competition and monopoly. general equilibrium analysis. welfare economics: economic efficiency of alternative market structures, social welfare functions. dynamics: stability of markets, capital theory.\nseven-week course.",
+    "prereqInfo": "8103, concurrent registration is required (or allowed) in  math 5616 or concurrent registration is required (or allowed) in  math 8602 or comparable abstract math course, grad econ major or instr consent",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 8103",
           "subject": "ECON",
@@ -3080,10 +3170,10 @@
     "subject": "ECON",
     "id": "8105",
     "title": "Macroecon Theory",
-    "info": "Dynamic general equilibrium models: solving for paths of interest rates, consumption, investment, prices. Models with uncertainty, search, matching, indivisibilities, private information. Implications for measurement and data reporting. Overlapping generations and dynasty models. Variational and recursive methods. This seven-week course meets with 4165.",
-    "prereqInfo": "prereq: 5152 or equiv, Math 2243, Math 2263 or equiv or instr consent",
+    "info": "dynamic general equilibrium models: solving for paths of interest rates, consumption, investment, prices. models with uncertainty, search, matching, indivisibilities, private information. implications for measurement and data reporting. overlapping generations and dynasty models. variational and recursive methods. this seven-week course meets with 4165.",
+    "prereqInfo": "5152 or equiv, math 2243, math 2263 or equiv or instr consent",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 5152",
           "subject": "ECON",
@@ -3107,16 +3197,12 @@
     "subject": "ECON",
     "id": "8106",
     "title": "Macroecon Theory",
-    "info": "Dynamic general equilibrium models: solving for paths of interest rates, consumption, investment, prices. Models with uncertainty, search, matching, indivisibilities, private information. Implications for measurement and data reporting. Overlapping generations and dynasty models. Variational and recursive methods. This seven-week course meets with 4166.",
-    "prereqInfo": "prereq: 8105",
+    "info": "dynamic general equilibrium models: solving for paths of interest rates, consumption, investment, prices. models with uncertainty, search, matching, indivisibilities, private information. implications for measurement and data reporting. overlapping generations and dynasty models. variational and recursive methods. this seven-week course meets with 4166.",
+    "prereqInfo": "8105",
     "prereq": {
-      "course": [
-        {
-          "code": "ECON 8105",
-          "subject": "ECON",
-          "id": "8105"
-        }
-      ]
+      "code": "ECON 8105",
+      "subject": "ECON",
+      "id": "8105"
     }
   },
   {
@@ -3124,16 +3210,12 @@
     "subject": "ECON",
     "id": "8107",
     "title": "Macroecon Theory",
-    "info": "Dynamic general equilibrium models: solving for paths of interest rates, consumption, investment, prices. Models with uncertainty, search, matching, indivisibilities, private information. Implications for measurement and data reporting. Overlapping generations and dynasty models. Variational and recursive methods. This seven-week course meets with 4167.",
-    "prereqInfo": "prereq: 8106",
+    "info": "dynamic general equilibrium models: solving for paths of interest rates, consumption, investment, prices. models with uncertainty, search, matching, indivisibilities, private information. implications for measurement and data reporting. overlapping generations and dynasty models. variational and recursive methods. this seven-week course meets with 4167.",
+    "prereqInfo": "8106",
     "prereq": {
-      "course": [
-        {
-          "code": "ECON 8106",
-          "subject": "ECON",
-          "id": "8106"
-        }
-      ]
+      "code": "ECON 8106",
+      "subject": "ECON",
+      "id": "8106"
     }
   },
   {
@@ -3141,16 +3223,12 @@
     "subject": "ECON",
     "id": "8108",
     "title": "Macroecon Theory",
-    "info": "Dynamic general equilibrium models: solving for paths of interest rates, consumption, investment, prices. Models with uncertainty, search, matching, indivisibilities, private information. Implications for measurement and data reporting. Overlapping generations and dynasty models. Variational and recursive methods. This seven-week course meets with 4168.",
-    "prereqInfo": "prereq: 8107",
+    "info": "dynamic general equilibrium models: solving for paths of interest rates, consumption, investment, prices. models with uncertainty, search, matching, indivisibilities, private information. implications for measurement and data reporting. overlapping generations and dynasty models. variational and recursive methods. this seven-week course meets with 4168.",
+    "prereqInfo": "8107",
     "prereq": {
-      "course": [
-        {
-          "code": "ECON 8107",
-          "subject": "ECON",
-          "id": "8107"
-        }
-      ]
+      "code": "ECON 8107",
+      "subject": "ECON",
+      "id": "8107"
     }
   },
   {
@@ -3158,10 +3236,10 @@
     "subject": "ECON",
     "id": "8111",
     "title": "Intro Math Econ",
-    "info": "Use of mathematical models in economic theory.",
-    "prereqInfo": "prereq: Math 2243 or equiv, concurrent registration is required (or allowed) in  Econ 8101, concurrent registration is required (or allowed) in  Math 5615 or equiv or instr consent; Math 4242 recommended",
+    "info": "use of mathematical models in economic theory.",
+    "prereqInfo": "math 2243 or equiv, concurrent registration is required (or allowed) in  econ 8101, concurrent registration is required (or allowed) in  math 5615 or equiv or instr consent; math 4242 recommended",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "MATH 2243",
           "subject": "MATH",
@@ -3185,10 +3263,10 @@
     "subject": "ECON",
     "id": "8112",
     "title": "Intro Math Econ",
-    "info": "Use of mathematical models in economic theory. Standard techniques.",
-    "prereqInfo": "prereq: 8111, concurrent registration is required (or allowed) in  8102, concurrent registration is required (or allowed) in  Math 5615 or comparable abstract math course",
+    "info": "use of mathematical models in economic theory. standard techniques.",
+    "prereqInfo": "8111, concurrent registration is required (or allowed) in  8102, concurrent registration is required (or allowed) in  math 5615 or comparable abstract math course",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 8111",
           "subject": "ECON",
@@ -3212,10 +3290,10 @@
     "subject": "ECON",
     "id": "8113",
     "title": "Intro Math Econ",
-    "info": "Use of mathematical models in economic theory. May include special topics.",
-    "prereqInfo": "prereq: 8112, Math 5616 or comparable abstract math course, concurrent registration is required (or allowed) in  8103",
+    "info": "use of mathematical models in economic theory. may include special topics.",
+    "prereqInfo": "8112, math 5616 or comparable abstract math course, concurrent registration is required (or allowed) in  8103",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 8112",
           "subject": "ECON",
@@ -3239,16 +3317,12 @@
     "subject": "ECON",
     "id": "8117",
     "title": "Noncoop Game Theory",
-    "info": "Solution concepts for noncooperative games in normal form, including Nash and perfect equilibrium and stable sets of equilibria. Extensive form games of perfect and incomplete information, sequential equilibrium, and consequences of stability for extensive form. Applications including bargaining and auctions. Seven-week course.",
-    "prereqInfo": "prereq: Math 5616 or equiv or instr consent",
+    "info": "solution concepts for noncooperative games in normal form, including nash and perfect equilibrium and stable sets of equilibria. extensive form games of perfect and incomplete information, sequential equilibrium, and consequences of stability for extensive form. applications including bargaining and auctions. seven-week course.",
+    "prereqInfo": "math 5616 or equiv or instr consent",
     "prereq": {
-      "course": [
-        {
-          "code": "MATH 5616",
-          "subject": "MATH",
-          "id": "5616"
-        }
-      ]
+      "code": "MATH 5616",
+      "subject": "MATH",
+      "id": "5616"
     }
   },
   {
@@ -3256,16 +3330,12 @@
     "subject": "ECON",
     "id": "8118",
     "title": "Noncoop Game Theory",
-    "info": "Solution concepts for noncooperative games in normal form, including Nash and perfect equilibrium and stable sets of equilibria. Extensive form games of perfect and incomplete information, sequential equilibrium, and consequences of stability for extensive form. Applications including bargaining and auctions. Seven-week course.",
-    "prereqInfo": "prereq: 8117",
+    "info": "solution concepts for noncooperative games in normal form, including nash and perfect equilibrium and stable sets of equilibria. extensive form games of perfect and incomplete information, sequential equilibrium, and consequences of stability for extensive form. applications including bargaining and auctions. seven-week course.",
+    "prereqInfo": "8117",
     "prereq": {
-      "course": [
-        {
-          "code": "ECON 8117",
-          "subject": "ECON",
-          "id": "8117"
-        }
-      ]
+      "code": "ECON 8117",
+      "subject": "ECON",
+      "id": "8117"
     }
   },
   {
@@ -3273,10 +3343,10 @@
     "subject": "ECON",
     "id": "8119",
     "title": "Coop Game Theory",
-    "info": "Basics of cooperative game theory, emphasizing concepts used in economics. Games with and without transferable utility; the core, the value, and other solution concepts. Recent results, including potentials, reduced games, consistency, and noncooperative implementation of cooperative solution concepts. Seven-week course.",
-    "prereqInfo": "prereq: 8104, Math 5616 or equiv or instr consent",
+    "info": "basics of cooperative game theory, emphasizing concepts used in economics. games with and without transferable utility; the core, the value, and other solution concepts. recent results, including potentials, reduced games, consistency, and noncooperative implementation of cooperative solution concepts. seven-week course.",
+    "prereqInfo": "8104, math 5616 or equiv or instr consent",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 8104",
           "subject": "ECON",
@@ -3295,38 +3365,30 @@
     "subject": "ECON",
     "id": "8124",
     "title": "Hist Econ Thought",
-    "info": "Selected topics, emphasizing development of theoretical topics. Seven-week course.",
+    "info": "selected topics, emphasizing development of theoretical topics. seven-week course.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "ECON 8125",
     "subject": "ECON",
     "id": "8125",
     "title": "Hist Econ Thought",
-    "info": "Selected topics, emphasizing development of theoretical topics. Seven-week course.",
+    "info": "selected topics, emphasizing development of theoretical topics. seven-week course.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "ECON 8181",
     "subject": "ECON",
     "id": "8181",
     "title": "Advanced Microecon",
-    "info": "Faculty and student presentations based on recent literature. Seven-week course.",
-    "prereqInfo": "prereq: 8104 or instr consent",
+    "info": "faculty and student presentations based on recent literature. seven-week course.",
+    "prereqInfo": "8104 or instr consent",
     "prereq": {
-      "course": [
-        {
-          "code": "ECON 8104",
-          "subject": "ECON",
-          "id": "8104"
-        }
-      ]
+      "code": "ECON 8104",
+      "subject": "ECON",
+      "id": "8104"
     }
   },
   {
@@ -3334,16 +3396,12 @@
     "subject": "ECON",
     "id": "8182",
     "title": "Advanced Microecon",
-    "info": "Faculty and student presentations based on recent literature. Seven-week course.",
-    "prereqInfo": "prereq: 8104 or instr consent",
+    "info": "faculty and student presentations based on recent literature. seven-week course.",
+    "prereqInfo": "8104 or instr consent",
     "prereq": {
-      "course": [
-        {
-          "code": "ECON 8104",
-          "subject": "ECON",
-          "id": "8104"
-        }
-      ]
+      "code": "ECON 8104",
+      "subject": "ECON",
+      "id": "8104"
     }
   },
   {
@@ -3351,16 +3409,12 @@
     "subject": "ECON",
     "id": "8185",
     "title": "Advanced Macroecon",
-    "info": "Faculty and student presentations based on recent literature. Seven-week course.",
-    "prereqInfo": "prereq: 8108 or instr consent",
+    "info": "faculty and student presentations based on recent literature. seven-week course.",
+    "prereqInfo": "8108 or instr consent",
     "prereq": {
-      "course": [
-        {
-          "code": "ECON 8108",
-          "subject": "ECON",
-          "id": "8108"
-        }
-      ]
+      "code": "ECON 8108",
+      "subject": "ECON",
+      "id": "8108"
     }
   },
   {
@@ -3368,16 +3422,12 @@
     "subject": "ECON",
     "id": "8186",
     "title": "Adv Topics in Macroeconomics",
-    "info": "Faculty and student presentations based on recent literature. Seven-week course.",
-    "prereqInfo": "prereq: 8108 or instr consent",
+    "info": "faculty and student presentations based on recent literature. seven-week course.",
+    "prereqInfo": "8108 or instr consent",
     "prereq": {
-      "course": [
-        {
-          "code": "ECON 8108",
-          "subject": "ECON",
-          "id": "8108"
-        }
-      ]
+      "code": "ECON 8108",
+      "subject": "ECON",
+      "id": "8108"
     }
   },
   {
@@ -3385,16 +3435,12 @@
     "subject": "ECON",
     "id": "8191",
     "title": "Workshop Math Econ",
-    "info": "Students conduct research and present papers under faculty supervision.",
-    "prereqInfo": "prereq: 8104 or instr consent",
+    "info": "students conduct research and present papers under faculty supervision.",
+    "prereqInfo": "8104 or instr consent",
     "prereq": {
-      "course": [
-        {
-          "code": "ECON 8104",
-          "subject": "ECON",
-          "id": "8104"
-        }
-      ]
+      "code": "ECON 8104",
+      "subject": "ECON",
+      "id": "8104"
     }
   },
   {
@@ -3402,16 +3448,12 @@
     "subject": "ECON",
     "id": "8192",
     "title": "Workshop Math Econ",
-    "info": "Students work on research and present papers under faculty supervision.",
-    "prereqInfo": "prereq: 8104 or instr consent",
+    "info": "students work on research and present papers under faculty supervision.",
+    "prereqInfo": "8104 or instr consent",
     "prereq": {
-      "course": [
-        {
-          "code": "ECON 8104",
-          "subject": "ECON",
-          "id": "8104"
-        }
-      ]
+      "code": "ECON 8104",
+      "subject": "ECON",
+      "id": "8104"
     }
   },
   {
@@ -3419,10 +3461,10 @@
     "subject": "ECON",
     "id": "8201",
     "title": "Econometric Analys",
-    "info": "Basic linear regression model, its variants. Panel data, censored/truncated regression, discrete choice models. Time series, simultaneous equation models.",
-    "prereqInfo": "prereq: [[3101 or equiv], [Math 1272 or equiv], Stat 5102] or  instr consent",
+    "info": "basic linear regression model, its variants. panel data, censored/truncated regression, discrete choice models. time series, simultaneous equation models.",
+    "prereqInfo": "[[3101 or equiv], [math 1272 or equiv], stat 5102] or  instr consent",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 3101",
           "subject": "ECON",
@@ -3446,27 +3488,21 @@
     "subject": "ECON",
     "id": "8202",
     "title": "Econometric Analys",
-    "info": "Basic linear regression model, its variants. Panel data, censored/truncated regression, discrete choice models. Time series, simultaneous equation models.",
+    "info": "basic linear regression model, its variants. panel data, censored/truncated regression, discrete choice models. time series, simultaneous equation models.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "ECON 8203",
     "subject": "ECON",
     "id": "8203",
     "title": "Econometric Analys",
-    "info": "Basic linear regression model, its variants. Panel data, censored/truncated regression, discrete choice models. Time series, simultaneous equation models.",
-    "prereqInfo": "prereq: 8202",
+    "info": "basic linear regression model, its variants. panel data, censored/truncated regression, discrete choice models. time series, simultaneous equation models.",
+    "prereqInfo": "8202",
     "prereq": {
-      "course": [
-        {
-          "code": "ECON 8202",
-          "subject": "ECON",
-          "id": "8202"
-        }
-      ]
+      "code": "ECON 8202",
+      "subject": "ECON",
+      "id": "8202"
     }
   },
   {
@@ -3474,16 +3510,12 @@
     "subject": "ECON",
     "id": "8204",
     "title": "Econometric Analys",
-    "info": "Basic linear regression model, its variants. Panel data, censored/truncated regression, discrete choice models. Time series, simultaneous equation models.",
-    "prereqInfo": "prereq: 8203",
+    "info": "basic linear regression model, its variants. panel data, censored/truncated regression, discrete choice models. time series, simultaneous equation models.",
+    "prereqInfo": "8203",
     "prereq": {
-      "course": [
-        {
-          "code": "ECON 8203",
-          "subject": "ECON",
-          "id": "8203"
-        }
-      ]
+      "code": "ECON 8203",
+      "subject": "ECON",
+      "id": "8203"
     }
   },
   {
@@ -3491,10 +3523,10 @@
     "subject": "ECON",
     "id": "8205",
     "title": "Appl Econometrics",
-    "info": "Application in research, including classical and Bayesian approaches; formulation, comparison, and use of models and hypotheses; inference and prediction in structural models; simulation methods. Seven-week course.",
-    "prereqInfo": "prereq: Math 4242 or equiv, concurrent registration is required (or allowed) in  Econ 8101, concurrent registration is required (or allowed) in  Econ 8105, concurrent registration is required (or allowed) in  Stat 5101 or instr consent",
+    "info": "application in research, including classical and bayesian approaches; formulation, comparison, and use of models and hypotheses; inference and prediction in structural models; simulation methods. seven-week course.",
+    "prereqInfo": "math 4242 or equiv, concurrent registration is required (or allowed) in  econ 8101, concurrent registration is required (or allowed) in  econ 8105, concurrent registration is required (or allowed) in  stat 5101 or instr consent",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "MATH 4242",
           "subject": "MATH",
@@ -3523,10 +3555,10 @@
     "subject": "ECON",
     "id": "8206",
     "title": "Appl Econometrics",
-    "info": "Application in research, including classical and Bayesian approaches; formulation, comparison, and use of models and hypotheses; inference and prediction in structural models; simulation methods. Seven-week course.",
-    "prereqInfo": "prereq: 8205, concurrent registration is required (or allowed) in  8102, concurrent registration is required (or allowed) in  8106, concurrent registration is required (or allowed) in  Stat 5101 or instr consent",
+    "info": "application in research, including classical and bayesian approaches; formulation, comparison, and use of models and hypotheses; inference and prediction in structural models; simulation methods. seven-week course.",
+    "prereqInfo": "8205, concurrent registration is required (or allowed) in  8102, concurrent registration is required (or allowed) in  8106, concurrent registration is required (or allowed) in  stat 5101 or instr consent",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 8205",
           "subject": "ECON",
@@ -3555,10 +3587,10 @@
     "subject": "ECON",
     "id": "8207",
     "title": "Appl Econometrics",
-    "info": "Application in research, including classical and Bayesian approaches; formulation, comparison, and use of models and hypotheses; inference and prediction in structural models; simulation methods. Seven-week course.",
-    "prereqInfo": "prereq: 8206, concurrent registration is required (or allowed) in  8103, concurrent registration is required (or allowed) in  8107, concurrent registration is required (or allowed) in  Stat 5102 or instr consent",
+    "info": "application in research, including classical and bayesian approaches; formulation, comparison, and use of models and hypotheses; inference and prediction in structural models; simulation methods. seven-week course.",
+    "prereqInfo": "8206, concurrent registration is required (or allowed) in  8103, concurrent registration is required (or allowed) in  8107, concurrent registration is required (or allowed) in  stat 5102 or instr consent",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 8206",
           "subject": "ECON",
@@ -3587,10 +3619,10 @@
     "subject": "ECON",
     "id": "8208",
     "title": "Appl Econometrics",
-    "info": "Application in research, including classical and Bayesian approaches; formulation, comparison, and use of models and hypotheses; inference and prediction in structural models; simulation methods. Seven-week course.",
-    "prereqInfo": "prereq: 8207, concurrent registration is required (or allowed) in  8104, concurrent registration is required (or allowed) in  8108, concurrent registration is required (or allowed) in  Stat 5102 or instr consent",
+    "info": "application in research, including classical and bayesian approaches; formulation, comparison, and use of models and hypotheses; inference and prediction in structural models; simulation methods. seven-week course.",
+    "prereqInfo": "8207, concurrent registration is required (or allowed) in  8104, concurrent registration is required (or allowed) in  8108, concurrent registration is required (or allowed) in  stat 5102 or instr consent",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 8207",
           "subject": "ECON",
@@ -3619,10 +3651,10 @@
     "subject": "ECON",
     "id": "8211",
     "title": "Econometrics",
-    "info": "Linear regression; general linear hypotheses; Gauss Markov Theorem, generalized least squares and their applications. Decision-theoretic choice among estimators. Simultaneous equations models; identification and estimation. Asymptotic distribution theory. Applications, including multivariate time series models and/or limited dependent variables models. Seven-week course.",
-    "prereqInfo": "prereq: 5151, 5152, Math 4242 or equiv, Stat 5102 or instr consent",
+    "info": "linear regression; general linear hypotheses; gauss markov theorem, generalized least squares and their applications. decision-theoretic choice among estimators. simultaneous equations models; identification and estimation. asymptotic distribution theory. applications, including multivariate time series models and/or limited dependent variables models. seven-week course.",
+    "prereqInfo": "5151, 5152, math 4242 or equiv, stat 5102 or instr consent",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 5151",
           "subject": "ECON",
@@ -3651,16 +3683,12 @@
     "subject": "ECON",
     "id": "8212",
     "title": "Econometrics",
-    "info": "Linear regression; general linear hypotheses; Gauss Markov Theorem, generalized least squares and their applications. Decision-theoretic choice among estimators. Simultaneous equations models; identification and estimation. Asymptotic distribution theory. Applications, including multivariate time series models and/or limited dependent variables models. Seven-week course.",
-    "prereqInfo": "prereq: 8211",
+    "info": "linear regression; general linear hypotheses; gauss markov theorem, generalized least squares and their applications. decision-theoretic choice among estimators. simultaneous equations models; identification and estimation. asymptotic distribution theory. applications, including multivariate time series models and/or limited dependent variables models. seven-week course.",
+    "prereqInfo": "8211",
     "prereq": {
-      "course": [
-        {
-          "code": "ECON 8211",
-          "subject": "ECON",
-          "id": "8211"
-        }
-      ]
+      "code": "ECON 8211",
+      "subject": "ECON",
+      "id": "8211"
     }
   },
   {
@@ -3668,16 +3696,12 @@
     "subject": "ECON",
     "id": "8213",
     "title": "Econometrics",
-    "info": "Linear regression; general linear hypotheses; Gauss Markov Theorem, generalized least squares and their applications. Decision-theoretic choice among estimators. Simultaneous equations models; identification and estimation. Asymptotic distribution theory. Applications, including multivariate time series models and/or limited dependent variables models. Seven-week course.",
-    "prereqInfo": "prereq: 8212",
+    "info": "linear regression; general linear hypotheses; gauss markov theorem, generalized least squares and their applications. decision-theoretic choice among estimators. simultaneous equations models; identification and estimation. asymptotic distribution theory. applications, including multivariate time series models and/or limited dependent variables models. seven-week course.",
+    "prereqInfo": "8212",
     "prereq": {
-      "course": [
-        {
-          "code": "ECON 8212",
-          "subject": "ECON",
-          "id": "8212"
-        }
-      ]
+      "code": "ECON 8212",
+      "subject": "ECON",
+      "id": "8212"
     }
   },
   {
@@ -3685,16 +3709,12 @@
     "subject": "ECON",
     "id": "8281",
     "title": "Adv Econometrics",
-    "info": "Faculty and student presentations based on recent literature. This is a 7-week course.",
-    "prereqInfo": "prereq: 8213 or instr consent",
+    "info": "faculty and student presentations based on recent literature. this is a 7-week course.",
+    "prereqInfo": "8213 or instr consent",
     "prereq": {
-      "course": [
-        {
-          "code": "ECON 8213",
-          "subject": "ECON",
-          "id": "8213"
-        }
-      ]
+      "code": "ECON 8213",
+      "subject": "ECON",
+      "id": "8213"
     }
   },
   {
@@ -3702,27 +3722,21 @@
     "subject": "ECON",
     "id": "8282",
     "title": "Adv Econometrics",
-    "info": "Faculty and student presentations based on recent literature. Seven-week course.",
+    "info": "faculty and student presentations based on recent literature. seven-week course.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "ECON 8291",
     "subject": "ECON",
     "id": "8291",
     "title": "Wkshop Econometrics",
-    "info": "Workshop in Econometrics",
-    "prereqInfo": "prereq: 8213 or instr consent",
+    "info": "workshop in econometrics",
+    "prereqInfo": "8213 or instr consent",
     "prereq": {
-      "course": [
-        {
-          "code": "ECON 8213",
-          "subject": "ECON",
-          "id": "8213"
-        }
-      ]
+      "code": "ECON 8213",
+      "subject": "ECON",
+      "id": "8213"
     }
   },
   {
@@ -3730,16 +3744,12 @@
     "subject": "ECON",
     "id": "8292",
     "title": "Wkshop Econometrics",
-    "info": "Workshop in Econometrics",
-    "prereqInfo": "prereq: 8213 or instr consent",
+    "info": "workshop in econometrics",
+    "prereqInfo": "8213 or instr consent",
     "prereq": {
-      "course": [
-        {
-          "code": "ECON 8213",
-          "subject": "ECON",
-          "id": "8213"
-        }
-      ]
+      "code": "ECON 8213",
+      "subject": "ECON",
+      "id": "8213"
     }
   },
   {
@@ -3747,10 +3757,10 @@
     "subject": "ECON",
     "id": "8311",
     "title": "Econ Growth/Dev",
-    "info": "Methods of analyzing dynamical systems; applying methods to new models of growth and development; deriving and evaluating models' quantitative implications in light of growth and development in a number of countries. Seven-week course.",
-    "prereqInfo": "prereq: 8104, 8106 or instr consent",
+    "info": "methods of analyzing dynamical systems; applying methods to new models of growth and development; deriving and evaluating models' quantitative implications in light of growth and development in a number of countries. seven-week course.",
+    "prereqInfo": "8104, 8106 or instr consent",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 8104",
           "subject": "ECON",
@@ -3769,16 +3779,12 @@
     "subject": "ECON",
     "id": "8312",
     "title": "Econ Growth/Dev",
-    "info": "Methods of analyzing dynamical systems; applying methods to new models of growth and development; deriving and evaluating models' quantitative implications in light of growth and development in a number of countries. Seven-week course.",
-    "prereqInfo": "prereq: 8311 or instr consent",
+    "info": "methods of analyzing dynamical systems; applying methods to new models of growth and development; deriving and evaluating models' quantitative implications in light of growth and development in a number of countries. seven-week course.",
+    "prereqInfo": "8311 or instr consent",
     "prereq": {
-      "course": [
-        {
-          "code": "ECON 8311",
-          "subject": "ECON",
-          "id": "8311"
-        }
-      ]
+      "code": "ECON 8311",
+      "subject": "ECON",
+      "id": "8311"
     }
   },
   {
@@ -3786,16 +3792,12 @@
     "subject": "ECON",
     "id": "8313",
     "title": "Econ Growth/Dev",
-    "info": "Methods of analyzing dynamical systems; applying methods to new models of growth and development; deriving and evaluating models' quantitative implications in light of growth and development in a number of countries. Seven-week course.",
-    "prereqInfo": "prereq: 8312 or instr consent",
+    "info": "methods of analyzing dynamical systems; applying methods to new models of growth and development; deriving and evaluating models' quantitative implications in light of growth and development in a number of countries. seven-week course.",
+    "prereqInfo": "8312 or instr consent",
     "prereq": {
-      "course": [
-        {
-          "code": "ECON 8312",
-          "subject": "ECON",
-          "id": "8312"
-        }
-      ]
+      "code": "ECON 8312",
+      "subject": "ECON",
+      "id": "8312"
     }
   },
   {
@@ -3803,27 +3805,21 @@
     "subject": "ECON",
     "id": "8333",
     "title": "FTE: Master's",
-    "info": "(No description)",
-    "prereqInfo": "prereq: Master's student, adviser and DGS consent",
-    "prereq": {
-      "course": []
-    }
+    "info": "(no description)",
+    "prereqInfo": "master's student, adviser and dgs consent",
+    "prereq": []
   },
   {
     "code": "ECON 8381",
     "subject": "ECON",
     "id": "8381",
     "title": "Adv Economic Dev",
-    "info": "Faculty and student presentations based on recent literature. Seven-week course.",
-    "prereqInfo": "prereq: 8312 or instr consent; offered when feasible",
+    "info": "faculty and student presentations based on recent literature. seven-week course.",
+    "prereqInfo": "8312 or instr consent; offered when feasible",
     "prereq": {
-      "course": [
-        {
-          "code": "ECON 8312",
-          "subject": "ECON",
-          "id": "8312"
-        }
-      ]
+      "code": "ECON 8312",
+      "subject": "ECON",
+      "id": "8312"
     }
   },
   {
@@ -3831,22 +3827,18 @@
     "subject": "ECON",
     "id": "8382",
     "title": "Adv Economic Dev",
-    "info": "Faculty and student presentations based on recent literature. Seven-week course.",
+    "info": "faculty and student presentations based on recent literature. seven-week course.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "ECON 8391",
     "subject": "ECON",
     "id": "8391",
     "title": "Wkshop Growth/Dev",
-    "info": "Workshop in Economic Growth and Development",
-    "prereqInfo": "prereq: instr consent",
-    "prereq": {
-      "course": []
-    }
+    "info": "workshop in economic growth and development",
+    "prereqInfo": "instr consent",
+    "prereq": []
   },
   {
     "code": "ECON 8392",
@@ -3854,20 +3846,18 @@
     "id": "8392",
     "title": "Wkshop Growth/Dev",
     "info": "tbd",
-    "prereqInfo": "prereq: instr consent",
-    "prereq": {
-      "course": []
-    }
+    "prereqInfo": "instr consent",
+    "prereq": []
   },
   {
     "code": "ECON 8401",
     "subject": "ECON",
     "id": "8401",
     "title": "Intl Trade/Payments",
-    "info": "Impact of trade on factor rentals. Stolper-Samuelson, Rybczynski, and factor price equalization theorems. Heckscher-Ohlin theorem. Derivation of offer curves and general international equilibrium. Transfer problem. Seven-week course.",
-    "prereqInfo": "prereq: 8103, 8105 or instr consent",
+    "info": "impact of trade on factor rentals. stolper-samuelson, rybczynski, and factor price equalization theorems. heckscher-ohlin theorem. derivation of offer curves and general international equilibrium. transfer problem. seven-week course.",
+    "prereqInfo": "8103, 8105 or instr consent",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 8103",
           "subject": "ECON",
@@ -3886,16 +3876,12 @@
     "subject": "ECON",
     "id": "8402",
     "title": "Intl Trade/Payments",
-    "info": "Tariffs, quotas, and other barriers to trade; gains from trade; trading blocs; increasing returns; growth. This is a seven-week course.",
-    "prereqInfo": "prereq: 8401 or instr consent",
+    "info": "tariffs, quotas, and other barriers to trade; gains from trade; trading blocs; increasing returns; growth. this is a seven-week course.",
+    "prereqInfo": "8401 or instr consent",
     "prereq": {
-      "course": [
-        {
-          "code": "ECON 8401",
-          "subject": "ECON",
-          "id": "8401"
-        }
-      ]
+      "code": "ECON 8401",
+      "subject": "ECON",
+      "id": "8401"
     }
   },
   {
@@ -3903,16 +3889,12 @@
     "subject": "ECON",
     "id": "8403",
     "title": "Intl Trade/Payments",
-    "info": "International business cycles; exchange rates; capital movements; international liquidity. This is a 7-week course.",
-    "prereqInfo": "prereq: 8402 or instr consent",
+    "info": "international business cycles; exchange rates; capital movements; international liquidity. this is a 7-week course.",
+    "prereqInfo": "8402 or instr consent",
     "prereq": {
-      "course": [
-        {
-          "code": "ECON 8402",
-          "subject": "ECON",
-          "id": "8402"
-        }
-      ]
+      "code": "ECON 8402",
+      "subject": "ECON",
+      "id": "8402"
     }
   },
   {
@@ -3920,10 +3902,10 @@
     "subject": "ECON",
     "id": "8404",
     "title": "Intl Trade/Payments",
-    "info": "Theoretical models of international trade. Trade data, empirical work on trade. Seven week course.",
-    "prereqInfo": "prereq: [8402, 8403] or instr consent",
+    "info": "theoretical models of international trade. trade data, empirical work on trade. seven week course.",
+    "prereqInfo": "[8402, 8403] or instr consent",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 8402",
           "subject": "ECON",
@@ -3942,27 +3924,21 @@
     "subject": "ECON",
     "id": "8444",
     "title": "FTE: Doctoral",
-    "info": "(No description)",
-    "prereqInfo": "prereq: Doctoral student, adviser and DGS consent",
-    "prereq": {
-      "course": []
-    }
+    "info": "(no description)",
+    "prereqInfo": "doctoral student, adviser and dgs consent",
+    "prereq": []
   },
   {
     "code": "ECON 8481",
     "subject": "ECON",
     "id": "8481",
     "title": "Adv Intl Trade",
-    "info": "Faculty and student presentations based on recent literature. Seven-week course.",
-    "prereqInfo": "prereq: 8403 or instr consent",
+    "info": "faculty and student presentations based on recent literature. seven-week course.",
+    "prereqInfo": "8403 or instr consent",
     "prereq": {
-      "course": [
-        {
-          "code": "ECON 8403",
-          "subject": "ECON",
-          "id": "8403"
-        }
-      ]
+      "code": "ECON 8403",
+      "subject": "ECON",
+      "id": "8403"
     }
   },
   {
@@ -3970,16 +3946,12 @@
     "subject": "ECON",
     "id": "8482",
     "title": "Adv Intl Trade",
-    "info": "Faculty and student presentations based on recent literature. Seven-week course.",
-    "prereqInfo": "prereq: 8403 or instr consent",
+    "info": "faculty and student presentations based on recent literature. seven-week course.",
+    "prereqInfo": "8403 or instr consent",
     "prereq": {
-      "course": [
-        {
-          "code": "ECON 8403",
-          "subject": "ECON",
-          "id": "8403"
-        }
-      ]
+      "code": "ECON 8403",
+      "subject": "ECON",
+      "id": "8403"
     }
   },
   {
@@ -3987,11 +3959,9 @@
     "subject": "ECON",
     "id": "8491",
     "title": "Wkshop Trade/Dev",
-    "info": "Workshop in Trade and Development",
-    "prereqInfo": "prereq: instr consent",
-    "prereq": {
-      "course": []
-    }
+    "info": "workshop in trade and development",
+    "prereqInfo": "instr consent",
+    "prereq": []
   },
   {
     "code": "ECON 8492",
@@ -3999,20 +3969,18 @@
     "id": "8492",
     "title": "Wkshop Trade/Dev",
     "info": "tbd",
-    "prereqInfo": "prereq: instr consent",
-    "prereq": {
-      "course": []
-    }
+    "prereqInfo": "instr consent",
+    "prereq": []
   },
   {
     "code": "ECON 8501",
     "subject": "ECON",
     "id": "8501",
     "title": "Wages & Employment",
-    "info": "Economic analysis of labor markets and their operation under conditions of both individual and collective bargaining. Implications of labor market operations for resource allocation, wage and price stability, income and employment growth. Wage structures and wage levels. Wage and employment theories and practices. Economic impacts of unions. Seven-week course.",
-    "prereqInfo": "prereq: 8102, 8106 or instr consent",
+    "info": "economic analysis of labor markets and their operation under conditions of both individual and collective bargaining. implications of labor market operations for resource allocation, wage and price stability, income and employment growth. wage structures and wage levels. wage and employment theories and practices. economic impacts of unions. seven-week course.",
+    "prereqInfo": "8102, 8106 or instr consent",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 8102",
           "subject": "ECON",
@@ -4031,16 +3999,12 @@
     "subject": "ECON",
     "id": "8502",
     "title": "Wages and Employment",
-    "info": "Economic analysis of labor markets and their operation under conditions of both individual and collective bargaining. Implications of labor market operations for resource allocation, wage and price stability, income and employment growth. Wage structures and wage levels. Wage and employment theories and practices. Economic impacts of unions. Seven-week course.",
-    "prereqInfo": "prereq: 8501 or instr consent",
+    "info": "economic analysis of labor markets and their operation under conditions of both individual and collective bargaining. implications of labor market operations for resource allocation, wage and price stability, income and employment growth. wage structures and wage levels. wage and employment theories and practices. economic impacts of unions. seven-week course.",
+    "prereqInfo": "8501 or instr consent",
     "prereq": {
-      "course": [
-        {
-          "code": "ECON 8501",
-          "subject": "ECON",
-          "id": "8501"
-        }
-      ]
+      "code": "ECON 8501",
+      "subject": "ECON",
+      "id": "8501"
     }
   },
   {
@@ -4048,16 +4012,12 @@
     "subject": "ECON",
     "id": "8503",
     "title": "Wages & Employment",
-    "info": "Economic analysis of labor markets and their operation under conditions of individual/collective bargaining. Implications of labor market operations for resource allocation, wage/price stability, income/employment growth. Wage structures and wage levels. Wage/employment theories/practices. Economic impacts of unions. Seven-week course.",
-    "prereqInfo": "prereq: 8502 or instr consent",
+    "info": "economic analysis of labor markets and their operation under conditions of individual/collective bargaining. implications of labor market operations for resource allocation, wage/price stability, income/employment growth. wage structures and wage levels. wage/employment theories/practices. economic impacts of unions. seven-week course.",
+    "prereqInfo": "8502 or instr consent",
     "prereq": {
-      "course": [
-        {
-          "code": "ECON 8502",
-          "subject": "ECON",
-          "id": "8502"
-        }
-      ]
+      "code": "ECON 8502",
+      "subject": "ECON",
+      "id": "8502"
     }
   },
   {
@@ -4065,16 +4025,12 @@
     "subject": "ECON",
     "id": "8581",
     "title": "Adv Labor Econ",
-    "info": "Faculty and student presentations based on recent literature. Seven-week course.",
-    "prereqInfo": "prereq: 8502 or instr consent",
+    "info": "faculty and student presentations based on recent literature. seven-week course.",
+    "prereqInfo": "8502 or instr consent",
     "prereq": {
-      "course": [
-        {
-          "code": "ECON 8502",
-          "subject": "ECON",
-          "id": "8502"
-        }
-      ]
+      "code": "ECON 8502",
+      "subject": "ECON",
+      "id": "8502"
     }
   },
   {
@@ -4082,16 +4038,12 @@
     "subject": "ECON",
     "id": "8582",
     "title": "Adv Labor Econ",
-    "info": "Faculty and student presentations based on recent literature. Seven-week course.",
-    "prereqInfo": "prereq: 8502 or instr consent",
+    "info": "faculty and student presentations based on recent literature. seven-week course.",
+    "prereqInfo": "8502 or instr consent",
     "prereq": {
-      "course": [
-        {
-          "code": "ECON 8502",
-          "subject": "ECON",
-          "id": "8502"
-        }
-      ]
+      "code": "ECON 8502",
+      "subject": "ECON",
+      "id": "8502"
     }
   },
   {
@@ -4099,16 +4051,12 @@
     "subject": "ECON",
     "id": "8601",
     "title": "Industrial Org",
-    "info": "Behavior of businesses and industries: productivity, firm size distributions, exit-entry dynamics, etc. Theories of the firm, industry structure and performance, invention and innovation, and technology adoption. Positive and normative theories of regulation. Seven-week course.",
-    "prereqInfo": "prereq: 8102 or instr consent",
+    "info": "behavior of businesses and industries: productivity, firm size distributions, exit-entry dynamics, etc. theories of the firm, industry structure and performance, invention and innovation, and technology adoption. positive and normative theories of regulation. seven-week course.",
+    "prereqInfo": "8102 or instr consent",
     "prereq": {
-      "course": [
-        {
-          "code": "ECON 8102",
-          "subject": "ECON",
-          "id": "8102"
-        }
-      ]
+      "code": "ECON 8102",
+      "subject": "ECON",
+      "id": "8102"
     }
   },
   {
@@ -4116,16 +4064,12 @@
     "subject": "ECON",
     "id": "8602",
     "title": "Industrial Org",
-    "info": "Behavior of businesses and industries: productivity, firm size distributions, exit-entry dynamics, etc. Theories of the firm, industry structure and performance, invention and innovation, and technology adoption. Positive and normative theories of regulation. Seven-week course.",
-    "prereqInfo": "prereq: 8601 or instr consent",
+    "info": "behavior of businesses and industries: productivity, firm size distributions, exit-entry dynamics, etc. theories of the firm, industry structure and performance, invention and innovation, and technology adoption. positive and normative theories of regulation. seven-week course.",
+    "prereqInfo": "8601 or instr consent",
     "prereq": {
-      "course": [
-        {
-          "code": "ECON 8601",
-          "subject": "ECON",
-          "id": "8601"
-        }
-      ]
+      "code": "ECON 8601",
+      "subject": "ECON",
+      "id": "8601"
     }
   },
   {
@@ -4133,16 +4077,12 @@
     "subject": "ECON",
     "id": "8603",
     "title": "Industrial Org",
-    "info": "Behavior of businesses and industries: productivity, firm size distributions, exit-entry dynamics, etc. Theories of the firm, industry structure and performance, invention and innovation, and technology adoption. Positive and normative theories of regulation. Seven-week course.",
-    "prereqInfo": "prereq: 8602 or instr consent",
+    "info": "behavior of businesses and industries: productivity, firm size distributions, exit-entry dynamics, etc. theories of the firm, industry structure and performance, invention and innovation, and technology adoption. positive and normative theories of regulation. seven-week course.",
+    "prereqInfo": "8602 or instr consent",
     "prereq": {
-      "course": [
-        {
-          "code": "ECON 8602",
-          "subject": "ECON",
-          "id": "8602"
-        }
-      ]
+      "code": "ECON 8602",
+      "subject": "ECON",
+      "id": "8602"
     }
   },
   {
@@ -4151,26 +4091,20 @@
     "id": "8666",
     "title": "Doct Pre-Thesis Cr*",
     "info": "tbd",
-    "prereqInfo": "prereq: Doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": {
-      "course": []
-    }
+    "prereqInfo": "doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
+    "prereq": []
   },
   {
     "code": "ECON 8681",
     "subject": "ECON",
     "id": "8681",
     "title": "Adv Industrial Org",
-    "info": "Faculty and student presentations based on recent literature. Seven-week course.",
-    "prereqInfo": "prereq: 8603 or instr consent",
+    "info": "faculty and student presentations based on recent literature. seven-week course.",
+    "prereqInfo": "8603 or instr consent",
     "prereq": {
-      "course": [
-        {
-          "code": "ECON 8603",
-          "subject": "ECON",
-          "id": "8603"
-        }
-      ]
+      "code": "ECON 8603",
+      "subject": "ECON",
+      "id": "8603"
     }
   },
   {
@@ -4178,22 +4112,18 @@
     "subject": "ECON",
     "id": "8682",
     "title": "Adv Industrial Org",
-    "info": "Faculty and student presentations based on recent literature. Seven-week course.",
+    "info": "faculty and student presentations based on recent literature. seven-week course.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "ECON 8691",
     "subject": "ECON",
     "id": "8691",
     "title": "Wkshop Appl Micro",
-    "info": "Workshop in Applied Microeconomics",
-    "prereqInfo": "prereq: instr consent",
-    "prereq": {
-      "course": []
-    }
+    "info": "workshop in applied microeconomics",
+    "prereqInfo": "instr consent",
+    "prereq": []
   },
   {
     "code": "ECON 8692",
@@ -4201,20 +4131,18 @@
     "id": "8692",
     "title": "Wkshop Appl Micro",
     "info": "tbd",
-    "prereqInfo": "prereq: instr consent",
-    "prereq": {
-      "course": []
-    }
+    "prereqInfo": "instr consent",
+    "prereq": []
   },
   {
     "code": "ECON 8701",
     "subject": "ECON",
     "id": "8701",
     "title": "Monetary Economics",
-    "info": "Economic role of principal financial institutions. Determinants of value of money. Principal problems of monetary policy. Seven-week course.",
-    "prereqInfo": "prereq: 8103, 8106 or instr consent",
+    "info": "economic role of principal financial institutions. determinants of value of money. principal problems of monetary policy. seven-week course.",
+    "prereqInfo": "8103, 8106 or instr consent",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 8103",
           "subject": "ECON",
@@ -4233,16 +4161,12 @@
     "subject": "ECON",
     "id": "8702",
     "title": "Monetary Economics",
-    "info": "Economic role of principal financial institutions. Determinants of value of money. Principal problems of monetary policy. Seven-week course.",
-    "prereqInfo": "prereq: 8701 or instr consent",
+    "info": "economic role of principal financial institutions. determinants of value of money. principal problems of monetary policy. seven-week course.",
+    "prereqInfo": "8701 or instr consent",
     "prereq": {
-      "course": [
-        {
-          "code": "ECON 8701",
-          "subject": "ECON",
-          "id": "8701"
-        }
-      ]
+      "code": "ECON 8701",
+      "subject": "ECON",
+      "id": "8701"
     }
   },
   {
@@ -4250,16 +4174,12 @@
     "subject": "ECON",
     "id": "8703",
     "title": "Monetary Economics",
-    "info": "Economic role of principal financial institutions. Determinants of value of money. Principal problems of monetary policy. Seven-week course.",
-    "prereqInfo": "prereq: 8702 or instr consent",
+    "info": "economic role of principal financial institutions. determinants of value of money. principal problems of monetary policy. seven-week course.",
+    "prereqInfo": "8702 or instr consent",
     "prereq": {
-      "course": [
-        {
-          "code": "ECON 8702",
-          "subject": "ECON",
-          "id": "8702"
-        }
-      ]
+      "code": "ECON 8702",
+      "subject": "ECON",
+      "id": "8702"
     }
   },
   {
@@ -4267,10 +4187,10 @@
     "subject": "ECON",
     "id": "8704",
     "title": "Financial Econ",
-    "info": "Role of financial institutions in efficient allocation of risk; multiperiod and continuous-time securities markets; theory of firm under uncertainty; financial intermediation; derivation of empirical asset-pricing relationships; tests concerning alternative market structures. Seven-week course.",
-    "prereqInfo": "prereq: 8103, 8106 or instr consent",
+    "info": "role of financial institutions in efficient allocation of risk; multiperiod and continuous-time securities markets; theory of firm under uncertainty; financial intermediation; derivation of empirical asset-pricing relationships; tests concerning alternative market structures. seven-week course.",
+    "prereqInfo": "8103, 8106 or instr consent",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 8103",
           "subject": "ECON",
@@ -4289,16 +4209,12 @@
     "subject": "ECON",
     "id": "8705",
     "title": "Financial Econ",
-    "info": "Role of financial institutions in efficient allocation of risk; multiperiod and continuous-time securities markets; theory of firm under uncertainty; financial intermediation; derivation of empirical asset-pricing relationships; tests concerning alternative market structures. Seven-week course.",
-    "prereqInfo": "prereq: 8704 or instr consent",
+    "info": "role of financial institutions in efficient allocation of risk; multiperiod and continuous-time securities markets; theory of firm under uncertainty; financial intermediation; derivation of empirical asset-pricing relationships; tests concerning alternative market structures. seven-week course.",
+    "prereqInfo": "8704 or instr consent",
     "prereq": {
-      "course": [
-        {
-          "code": "ECON 8704",
-          "subject": "ECON",
-          "id": "8704"
-        }
-      ]
+      "code": "ECON 8704",
+      "subject": "ECON",
+      "id": "8704"
     }
   },
   {
@@ -4306,16 +4222,12 @@
     "subject": "ECON",
     "id": "8706",
     "title": "Financial Econ",
-    "info": "Role of financial institutions in efficient allocation of risk; multiperiod and continuous-time securities markets; theory of firm under uncertainty; financial intermediation; derivation of empirical asset-pricing relationships; tests concerning alternative market structures. Seven-week course.",
-    "prereqInfo": "prereq: 8705 or instr consent",
+    "info": "role of financial institutions in efficient allocation of risk; multiperiod and continuous-time securities markets; theory of firm under uncertainty; financial intermediation; derivation of empirical asset-pricing relationships; tests concerning alternative market structures. seven-week course.",
+    "prereqInfo": "8705 or instr consent",
     "prereq": {
-      "course": [
-        {
-          "code": "ECON 8705",
-          "subject": "ECON",
-          "id": "8705"
-        }
-      ]
+      "code": "ECON 8705",
+      "subject": "ECON",
+      "id": "8705"
     }
   },
   {
@@ -4323,27 +4235,21 @@
     "subject": "ECON",
     "id": "8777",
     "title": "Thesis Credit:Mast*",
-    "info": "(No description)",
-    "prereqInfo": "prereq: Max 18 cr per semester or summer; 10 cr total required [Plan A only]",
-    "prereq": {
-      "course": []
-    }
+    "info": "(no description)",
+    "prereqInfo": "max 18 cr per semester or summer; 10 cr total required [plan a only]",
+    "prereq": []
   },
   {
     "code": "ECON 8781",
     "subject": "ECON",
     "id": "8781",
     "title": "Adv Monetary Econ",
-    "info": "Faculty and student presentations based on recent literature. Seven-week course.",
-    "prereqInfo": "prereq: 8702 or instr consent",
+    "info": "faculty and student presentations based on recent literature. seven-week course.",
+    "prereqInfo": "8702 or instr consent",
     "prereq": {
-      "course": [
-        {
-          "code": "ECON 8702",
-          "subject": "ECON",
-          "id": "8702"
-        }
-      ]
+      "code": "ECON 8702",
+      "subject": "ECON",
+      "id": "8702"
     }
   },
   {
@@ -4351,43 +4257,37 @@
     "subject": "ECON",
     "id": "8782",
     "title": "Adv Monetary Econ",
-    "info": "Faculty and student presentations based on recent literature. Seven-week course.",
+    "info": "faculty and student presentations based on recent literature. seven-week course.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "ECON 8791",
     "subject": "ECON",
     "id": "8791",
     "title": "Workshop Macro",
-    "info": "Workshop in Macroeconomics",
-    "prereqInfo": "prereq: instr consent",
-    "prereq": {
-      "course": []
-    }
+    "info": "workshop in macroeconomics",
+    "prereqInfo": "instr consent",
+    "prereq": []
   },
   {
     "code": "ECON 8792",
     "subject": "ECON",
     "id": "8792",
     "title": "Workshop Macro",
-    "info": "Workshop in Macroeconomics",
-    "prereqInfo": "prereq: instr consent",
-    "prereq": {
-      "course": []
-    }
+    "info": "workshop in macroeconomics",
+    "prereqInfo": "instr consent",
+    "prereq": []
   },
   {
     "code": "ECON 8801",
     "subject": "ECON",
     "id": "8801",
     "title": "Public Economics",
-    "info": "Theories of public choice and role of government in economy. Economic effects of taxes, public debt, and public expenditure. Current problems in economics of public sector, including political economy. Seven-week course.",
-    "prereqInfo": "prereq: 8103, 8106 or instr consent",
+    "info": "theories of public choice and role of government in economy. economic effects of taxes, public debt, and public expenditure. current problems in economics of public sector, including political economy. seven-week course.",
+    "prereqInfo": "8103, 8106 or instr consent",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "ECON 8103",
           "subject": "ECON",
@@ -4406,16 +4306,12 @@
     "subject": "ECON",
     "id": "8802",
     "title": "Public Economics",
-    "info": "Theories of public choice and role of government in economy. Economic effects of taxes, public debt, and public expenditure. Current problems in economics of public sector, including political economy. Seven-week course.",
-    "prereqInfo": "prereq: 8801 or instr consent",
+    "info": "theories of public choice and role of government in economy. economic effects of taxes, public debt, and public expenditure. current problems in economics of public sector, including political economy. seven-week course.",
+    "prereqInfo": "8801 or instr consent",
     "prereq": {
-      "course": [
-        {
-          "code": "ECON 8801",
-          "subject": "ECON",
-          "id": "8801"
-        }
-      ]
+      "code": "ECON 8801",
+      "subject": "ECON",
+      "id": "8801"
     }
   },
   {
@@ -4423,16 +4319,12 @@
     "subject": "ECON",
     "id": "8803",
     "title": "Public Econ",
-    "info": "Theories of public choice and role of government in economy. Economic effects of taxes, public debt, and public expenditure. Current problems in economics of public sector, including political economy. Seven-week course.",
-    "prereqInfo": "prereq: 8802 or instr consent",
+    "info": "theories of public choice and role of government in economy. economic effects of taxes, public debt, and public expenditure. current problems in economics of public sector, including political economy. seven-week course.",
+    "prereqInfo": "8802 or instr consent",
     "prereq": {
-      "course": [
-        {
-          "code": "ECON 8802",
-          "subject": "ECON",
-          "id": "8802"
-        }
-      ]
+      "code": "ECON 8802",
+      "subject": "ECON",
+      "id": "8802"
     }
   },
   {
@@ -4440,16 +4332,12 @@
     "subject": "ECON",
     "id": "8881",
     "title": "Adv Public Econ",
-    "info": "Faculty and student presentations based on recent literature. Seven-week course.",
-    "prereqInfo": "prereq: 8803 or instr consent",
+    "info": "faculty and student presentations based on recent literature. seven-week course.",
+    "prereqInfo": "8803 or instr consent",
     "prereq": {
-      "course": [
-        {
-          "code": "ECON 8803",
-          "subject": "ECON",
-          "id": "8803"
-        }
-      ]
+      "code": "ECON 8803",
+      "subject": "ECON",
+      "id": "8803"
     }
   },
   {
@@ -4457,54 +4345,44 @@
     "subject": "ECON",
     "id": "8882",
     "title": "Adv Public Econ",
-    "info": "Faculty and student presentations based on recent literature. Seven-week course.",
+    "info": "faculty and student presentations based on recent literature. seven-week course.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "ECON 8888",
     "subject": "ECON",
     "id": "8888",
     "title": "Thesis Credit:Doct*",
-    "info": "(No description)",
-    "prereqInfo": "prereq: Max 18 cr per semester or summer; 24 cr required",
-    "prereq": {
-      "course": []
-    }
+    "info": "(no description)",
+    "prereqInfo": "max 18 cr per semester or summer; 24 cr required",
+    "prereq": []
   },
   {
     "code": "ECON 8891",
     "subject": "ECON",
     "id": "8891",
     "title": "Workshop Public",
-    "info": "Workshop in Public Economics and Policy",
-    "prereqInfo": "prereq: instr consent",
-    "prereq": {
-      "course": []
-    }
+    "info": "workshop in public economics and policy",
+    "prereqInfo": "instr consent",
+    "prereq": []
   },
   {
     "code": "ECON 8892",
     "subject": "ECON",
     "id": "8892",
     "title": "Workshop Public",
-    "info": "Workshop in Public Economics and Policy",
-    "prereqInfo": "prereq: instr consent",
-    "prereq": {
-      "course": []
-    }
+    "info": "workshop in public economics and policy",
+    "prereqInfo": "instr consent",
+    "prereq": []
   },
   {
     "code": "ECON 8990",
     "subject": "ECON",
     "id": "8990",
     "title": "Indiv Grad Research",
-    "info": "Individual Graduate Research",
-    "prereqInfo": "prereq: instr consent",
-    "prereq": {
-      "course": []
-    }
+    "info": "individual graduate research",
+    "prereqInfo": "instr consent",
+    "prereq": []
   }
 ]

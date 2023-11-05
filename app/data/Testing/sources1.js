@@ -46,19 +46,19 @@ function extractCourses(inputString, defaultSubject) {
   const courses = inputString.match(pattern) || [];
 
   return courses.map(
-      (each) => {
-        let [subject, id] = splitStringAtNumber(each)
-        subject = subject.toUpperCase()
-        if (!allSubjects.includes(subject)) subject = defaultSubject
-        id = id.toUpperCase()
-        // ERROR: ADD THE W IF ID DOES NOT FIND BUT ID + W IS FOUND, SAME FOR H
-        if (!allCourseNumbers.includes(id)) {
-          if (allCourseNumbers.includes(id + 'W')) id = id + 'W'
-          if (allCourseNumbers.includes(id + 'H')) id = id + 'H'
-        }
-        return { code: subject + ' ' + id, subject: subject, id: id }
+    (each) => {
+      let [subject, id] = splitStringAtNumber(each)
+      subject = subject.toUpperCase()
+      if (!allSubjects.includes(subject)) subject = defaultSubject
+      id = id.toUpperCase()
+      // ERROR: ADD THE W IF ID DOES NOT FIND BUT ID + W IS FOUND, SAME FOR H
+      if (!allCourseNumbers.includes(id)) {
+        if (allCourseNumbers.includes(id + 'W')) id = id + 'W'
+        if (allCourseNumbers.includes(id + 'H')) id = id + 'H'
       }
-    )
+      return { code: subject + ' ' + id, subject: subject, id: id }
+    }
+  )
 }
 
 function isEqualCourse(A, B) {
@@ -72,27 +72,27 @@ function isEqualCourse(A, B) {
 }
 
 function filterDuplicate(item) {
-  if (!Array.isArray(item)) return item; 
+  if (!Array.isArray(item)) return item;
   for (let i = 0; i < item.length; i++) {
     for (let j = i + 1; j < item.length; j++) {
       if (isEqualCourse(item[i], item[j])) item[j] = null
     }
     filterDuplicate(item[i])
   }
-  
+
   return item
 }
 
 function filterExtraArray(item) {
-  if (typeof(item) == 'object') {
+  if (typeof (item) == 'object') {
     if (!item) return null
     if (item.length == 0) return null
     else if (item.length == 1) return filterExtraArray(item[0])
     else {
       let i = 0
       while (i < item.length) {
-        if (typeof(item[i]) == 'object') item[i] = filterExtraArray(item[i])
-        i ++
+        if (typeof (item[i]) == 'object') item[i] = filterExtraArray(item[i])
+        i++
       }
     }
   }
@@ -100,13 +100,13 @@ function filterExtraArray(item) {
 }
 
 function filterNull(item) {
-  if (typeof(item) == 'object') {
+  if (typeof (item) == 'object') {
     if (item == null) return []
     let i = 0
     while (i < item.length) {
-      if (typeof(item[i]) == 'object') item[i] = filterExtraArray(item[i])
-      if (item[i] == null) item.splice(i,1)
-      i ++
+      if (typeof (item[i]) == 'object') item[i] = filterExtraArray(item[i])
+      if (item[i] == null) item.splice(i, 1)
+      i++
     }
   }
   return item
@@ -114,16 +114,16 @@ function filterNull(item) {
 function filterPrereq(info, defaultSubject) { // ==> return array
   info = filterExtraInfo(info)
   info = replaceComma(info)
-  
+
   info = info.replaceAll('[', ' ')
   info = info.replaceAll('(', ' ')
   // for each ] and ) meet, process string from start to its index
   let data = []
   let num = -1
   let l = 0
-  for (let r = 0; r < info.length; r ++) {
+  for (let r = 0; r < info.length; r++) {
     if (info[r] === ']' || info[r] === ')') {
-      num ++
+      num++
       data.push([info.substring(l, r)])
       l = r + 1
     }
@@ -132,20 +132,20 @@ function filterPrereq(info, defaultSubject) { // ==> return array
   else data.push(info.substring(l, info.length))
 
   function traverseEach(item) {
-    if (typeof(item) == 'object') {
+    if (typeof (item) == 'object') {
       let i = 0
       while (i < item.length) {
-        if (typeof(item[i]) == 'object') item[i] = traverseEach(item[i])
+        if (typeof (item[i]) == 'object') item[i] = traverseEach(item[i])
         else {
           item[i] = item[i].replaceAll(')', '')
           item[i] = item[i].replaceAll(']', '')
-          if (item[i].substring(0,5).includes(' or ')) 
+          if (item[i].substring(0, 5).includes(' or '))
             item[i] = item[i].replace(' or ', '')
-          if (item[i].substring(0,5).includes(' and ')) 
+          if (item[i].substring(0, 5).includes(' and '))
             item[i] = item[i].replace(' and ', '')
           item[i] = extractCourses(item[i], defaultSubject)
         }
-        i ++
+        i++
       }
     }
     return item

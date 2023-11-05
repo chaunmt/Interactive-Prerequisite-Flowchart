@@ -14,7 +14,7 @@ function replaceComma(str) {
 }
 
 // Observed: Info after each ';' are extra info (i.e. recommendation, major,...)
-function filterExtraInfo(str) {  
+function filterExtraInfo(str) {
   if (str.toUpperCase().includes('NO PREREQUISITE')) return ""
   return str.split(';')[0]
 }
@@ -78,11 +78,11 @@ function isEqualCourse(A, B) {
 function filterDuplicate(item) {
   // Return null and single course
   if (item == null) return null
-  if (item.id) return item  
+  if (item.id) return item
 
   // Traverse through 'and' array, 'or' array
-  if (item.and) return { and : filterDuplicate(item.and) }
-  if (item.or) return { or : filterDuplicate(item.or) }
+  if (item.and) return { and: filterDuplicate(item.and) }
+  if (item.or) return { or: filterDuplicate(item.or) }
 
   // Replace duplicate course with null
   for (let i = 0; i < item.length; i++) {
@@ -101,24 +101,24 @@ function filterDuplicate(item) {
 function filterExtraArray(item) {
   // Return null and single course
   if (!item) return null
-  if (item.id) return item  
+  if (item.id) return item
 
   // Empty array becomes null
   if (item.length == 0) return null
 
   // Handle 'and' array
   if (item.and) {
-    if (item.and.length < 2) 
+    if (item.and.length < 2)
       return filterExtraArray(item.and) // Single item array becomes single item
-    else 
+    else
       return { and: filterExtraArray(item.and) }
   }
 
   // Handle 'or' array
   if (item.or) {
-    if (item.or.length < 2) 
+    if (item.or.length < 2)
       return filterExtraArray(item.or)  // Single item array becomes single item
-    else 
+    else
       return { or: filterExtraArray(item.or) }
   }
 
@@ -141,8 +141,8 @@ function filterNull(item) {
   if (item.id) return item
 
   // Traverse through 'and' array, 'or' array
-  if (item.and) return { and : filterNull(item.and) }
-  if (item.or) return { or : filterNull(item.or) }
+  if (item.and) return { and: filterNull(item.and) }
+  if (item.or) return { or: filterNull(item.or) }
 
   // Recursively handle nested arrays
   let i = 0
@@ -177,9 +177,11 @@ function convertLogic(str, defaultSubject) {
 
 // Replace decoded substring with encoded data
 function decodeBracket(data, encodedData) {
+  if (!data) return null
+
   // Handle 'and' array, 'or' array
-  if (data.and) return {and: decodeBracket(data.and, encodedData) }
-  if (data.or) return {or: decodeBracket(data.or, encodedData) }
+  if (data.and) return { and: decodeBracket(data.and, encodedData) }
+  if (data.or) return { or: decodeBracket(data.or, encodedData) }
 
   // Data is array
   if (!data.id) {
@@ -187,7 +189,7 @@ function decodeBracket(data, encodedData) {
       data[i] = decodeBracket(data[i], encodedData)
   }
   // Data is course
-  else {  
+  else {
     let numId = parseInt(data.id)
 
     // ASSUME: NO MORE THAN 99 PAIRS OF [] FOR EACH STRING
@@ -213,7 +215,7 @@ function encodeBracket(info, defaultSubject) {
     if (info[i] == ']') {
       inside[++inNum] = info.substring(open[open.length - 1], i + 1)
       open.pop()
-      
+
       // No number in inside == No course 
       if (!hasNumber(inside[inNum])) {
         info = info.replace(inside[inNum], '')
@@ -318,13 +320,10 @@ function exportDogs(SUBJECT) {
     })
 }
 
-let allSubjects = require('../General/allSubjects.json')
+let allSubjects = require('./General/allSubjects.json')
 let allCourseNumbers = ''
 
 for (pup of allSubjects) {
   allCourseNumbers = require(`./General/id/${pup}.json`)
   exportDogs(pup)
 }
-
-allCourseNumbers = require(`./General/id/allCourses.json`)
-exportDogs('allCourses')

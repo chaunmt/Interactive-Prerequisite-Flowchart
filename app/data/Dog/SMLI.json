@@ -4,27 +4,21 @@
     "subject": "SMLI",
     "id": "1221",
     "title": "Beginning Somali",
-    "info": "Comprehension, speaking, reading, writing.",
+    "info": "comprehension, speaking, reading, writing.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "SMLI 1222",
     "subject": "SMLI",
     "id": "1222",
     "title": "Somali II",
-    "info": "Comprehension, speaking, reading, writing.",
-    "prereqInfo": "prereq: 1221",
+    "info": "comprehension, speaking, reading, writing.",
+    "prereqInfo": "1221",
     "prereq": {
-      "course": [
-        {
-          "code": "SMLI 1221",
-          "subject": "SMLI",
-          "id": "1221"
-        }
-      ]
+      "code": "SMLI 1221",
+      "subject": "SMLI",
+      "id": "1221"
     }
   },
   {
@@ -32,16 +26,12 @@
     "subject": "SMLI",
     "id": "1225",
     "title": "Accelerated Beginning Somali I",
-    "info": "Review of grammar/usage, practice in reading/writing. Introduction to Somali literature and formal writing. Topics in Somali culture. ",
-    "prereqInfo": "prereq: EPT Placement of SMLI 1225 and ability in basic spoken Somali",
+    "info": "review of grammar/usage, practice in reading/writing. introduction to somali literature and formal writing. topics in somali culture. ",
+    "prereqInfo": "ept placement of smli 1225 and ability in basic spoken somali",
     "prereq": {
-      "course": [
-        {
-          "code": "SMLI 1225",
-          "subject": "SMLI",
-          "id": "1225"
-        }
-      ]
+      "code": "SMLI 1225",
+      "subject": "SMLI",
+      "id": "1225"
     }
   },
   {
@@ -49,16 +39,12 @@
     "subject": "SMLI",
     "id": "1226",
     "title": "Accelerated Beg Somali II",
-    "info": "Review of grammar/usages, practice in reading/writing. Introduction to Somali literature and formal writing. Topics in Somali culture.",
-    "prereqInfo": "prereq: 1225 or instr consent",
+    "info": "review of grammar/usages, practice in reading/writing. introduction to somali literature and formal writing. topics in somali culture.",
+    "prereqInfo": "1225 or instr consent",
     "prereq": {
-      "course": [
-        {
-          "code": "SMLI 1225",
-          "subject": "SMLI",
-          "id": "1225"
-        }
-      ]
+      "code": "SMLI 1225",
+      "subject": "SMLI",
+      "id": "1225"
     }
   },
   {
@@ -66,27 +52,21 @@
     "subject": "SMLI",
     "id": "1227",
     "title": "Intermediate Somali",
-    "info": "Review of grammar/usage, practice in reading/writing. Introduction to Somali literature and formal writing. Somali culture.",
+    "info": "review of grammar/usage, practice in reading/writing. introduction to somali literature and formal writing. somali culture.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "SMLI 3227",
     "subject": "SMLI",
     "id": "3227",
     "title": "Intermediate Somali I",
-    "info": "Intermediate level Somali language for undergraduate students. ",
-    "prereqInfo": "prereq: SMLI 1222",
+    "info": "intermediate level somali language for undergraduate students. ",
+    "prereqInfo": "smli 1222",
     "prereq": {
-      "course": [
-        {
-          "code": "SMLI 1222",
-          "subject": "SMLI",
-          "id": "1222"
-        }
-      ]
+      "code": "SMLI 1222",
+      "subject": "SMLI",
+      "id": "1222"
     }
   },
   {
@@ -94,32 +74,26 @@
     "subject": "SMLI",
     "id": "3228",
     "title": "Intermediate Somali II",
-    "info": "Intermediate Somali language for undergraduate students.",
+    "info": "intermediate somali language for undergraduate students.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "SMLI 4227",
     "subject": "SMLI",
     "id": "4227",
     "title": "Int Somali Grad Research I",
-    "info": "Intermediate Somali language for graduate students.",
+    "info": "intermediate somali language for graduate students.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "SMLI 4228",
     "subject": "SMLI",
     "id": "4228",
     "title": "Int Somali Grad Research II",
-    "info": "Intermediate Somali II for graduate students.",
+    "info": "intermediate somali ii for graduate students.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   }
 ]

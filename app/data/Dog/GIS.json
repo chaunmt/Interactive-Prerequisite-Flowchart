@@ -4,27 +4,21 @@
     "subject": "GIS",
     "id": "5530",
     "title": "GIS Internship",
-    "info": "Practical hands-on experience using GIS to solve problems in a real-world work environment.",
-    "prereqInfo": "prereq: instr consent, strong GIS/mapping skills",
-    "prereq": {
-      "course": []
-    }
+    "info": "practical hands-on experience using gis to solve problems in a real-world work environment.",
+    "prereqInfo": "instr consent, strong gis/mapping skills",
+    "prereq": []
   },
   {
     "code": "GIS 5555",
     "subject": "GIS",
     "id": "5555",
     "title": "Basic Spatial Analysis",
-    "info": "How to use spatial data to answer questions on a wide array of social, natural, and information science issues. Exploratory data analysis/visualization. Spatial autocorrelation analysis/regression.",
-    "prereqInfo": "prereq: [STAT 3001 or equiv, MGIS student] or instr consent",
+    "info": "how to use spatial data to answer questions on a wide array of social, natural, and information science issues. exploratory data analysis/visualization. spatial autocorrelation analysis/regression.",
+    "prereqInfo": "[stat 3001 or equiv, mgis student] or instr consent",
     "prereq": {
-      "course": [
-        {
-          "code": "STAT 3001",
-          "subject": "STAT",
-          "id": "3001"
-        }
-      ]
+      "code": "STAT 3001",
+      "subject": "STAT",
+      "id": "3001"
     }
   },
   {
@@ -32,16 +26,12 @@
     "subject": "GIS",
     "id": "5571",
     "title": "ArcGIS I",
-    "info": "First of a two-course series focusing on ArcGIS Desktop. Overview of ArcGIS system and its use for spatial data processing. Data capture, editing, geometric transformations, map projections, topology, Python scripting, and map production.",
-    "prereqInfo": "prereq: [GEOG 5561 or equiv, status in MGIS program, familiarity with computer operating systems] or instr consent",
+    "info": "first of a two-course series focusing on arcgis desktop. overview of arcgis system and its use for spatial data processing. data capture, editing, geometric transformations, map projections, topology, python scripting, and map production.",
+    "prereqInfo": "[geog 5561 or equiv, status in mgis program, familiarity with computer operating systems] or instr consent",
     "prereq": {
-      "course": [
-        {
-          "code": "GEOG 5561",
-          "subject": "GEOG",
-          "id": "5561"
-        }
-      ]
+      "code": "GEOG 5561",
+      "subject": "GEOG",
+      "id": "5561"
     }
   },
   {
@@ -49,10 +39,10 @@
     "subject": "GIS",
     "id": "5572",
     "title": "ArcGIS II",
-    "info": "Continues GIS 5571. Raster analysis, dynamic segmentation, geometric networks, geocoding, Python scripting, and data interoperability.  Substantial projects include map and poster design and production.",
-    "prereqInfo": "prereq: [5571, [GEOG 5561 or equiv], in MGIS program] or instr consent",
+    "info": "continues gis 5571. raster analysis, dynamic segmentation, geometric networks, geocoding, python scripting, and data interoperability.  substantial projects include map and poster design and production.",
+    "prereqInfo": "[5571, [geog 5561 or equiv], in mgis program] or instr consent",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "GIS 5571",
           "subject": "GIS",
@@ -71,16 +61,12 @@
     "subject": "GIS",
     "id": "5573",
     "title": "Intro to Digital Mapping",
-    "info": "Desktop mapping functions using ArcGIS software. Application of systems to display/analysis of geographical data.",
-    "prereqInfo": "prereq: [GEOG 5561 or equiv, in MGIS program] or instr consent",
+    "info": "desktop mapping functions using arcgis software. application of systems to display/analysis of geographical data.",
+    "prereqInfo": "[geog 5561 or equiv, in mgis program] or instr consent",
     "prereq": {
-      "course": [
-        {
-          "code": "GEOG 5561",
-          "subject": "GEOG",
-          "id": "5561"
-        }
-      ]
+      "code": "GEOG 5561",
+      "subject": "GEOG",
+      "id": "5561"
     }
   },
   {
@@ -88,16 +74,12 @@
     "subject": "GIS",
     "id": "5574",
     "title": "Web GIS and Services",
-    "info": "Plan, design, develop, publish web-based GIS solution. Build websites, prepare data for web. Commercial software, Open Source software, volunteer geographic information, open GIS standards/developing web GIS application. Hands-on experience with variety of web GIS technologies/software.",
-    "prereqInfo": "prereq: [GEOG 5561 or equiv, in MGIS program] or instr consent",
+    "info": "plan, design, develop, publish web-based gis solution. build websites, prepare data for web. commercial software, open source software, volunteer geographic information, open gis standards/developing web gis application. hands-on experience with variety of web gis technologies/software.",
+    "prereqInfo": "[geog 5561 or equiv, in mgis program] or instr consent",
     "prereq": {
-      "course": [
-        {
-          "code": "GEOG 5561",
-          "subject": "GEOG",
-          "id": "5561"
-        }
-      ]
+      "code": "GEOG 5561",
+      "subject": "GEOG",
+      "id": "5561"
     }
   },
   {
@@ -105,16 +87,12 @@
     "subject": "GIS",
     "id": "5575",
     "title": "Practical Surveying for GIS",
-    "info": "Surveying techniques/relationship of GPS to GIS professionals. Geodesy, data adjustment, datums, ellipsoids, coordinate systems, transformations.",
-    "prereqInfo": "prereq: GEOG 5561 or equiv in MGIS program or instr consent",
+    "info": "surveying techniques/relationship of gps to gis professionals. geodesy, data adjustment, datums, ellipsoids, coordinate systems, transformations.",
+    "prereqInfo": "geog 5561 or equiv in mgis program or instr consent",
     "prereq": {
-      "course": [
-        {
-          "code": "GEOG 5561",
-          "subject": "GEOG",
-          "id": "5561"
-        }
-      ]
+      "code": "GEOG 5561",
+      "subject": "GEOG",
+      "id": "5561"
     }
   },
   {
@@ -122,76 +100,62 @@
     "subject": "GIS",
     "id": "5576",
     "title": "Spatial Digital Humanities",
-    "info": "Introduction to Spatial Digital Humanities GIS 5576 is a basic overview of desktop GIS (both Esri and open source), as well as an introduction to a number of other mapping techniques (such as Esri Maps for Office, ArcGIS Online, web mapping basics, georeferencing historical maps, etc) in addition to digital scholarship techniques. Course objectives include: understanding the basics of mapping and geospatial information using GIS;  documenting and managing spatial data using coherent/standardized methods;  understanding several spatial analysis methods that are relevant to student research area; and applying spatial research methods into student research. ",
+    "info": "introduction to spatial digital humanities gis 5576 is a basic overview of desktop gis (both esri and open source), as well as an introduction to a number of other mapping techniques (such as esri maps for office, arcgis online, web mapping basics, georeferencing historical maps, etc) in addition to digital scholarship techniques. course objectives include: understanding the basics of mapping and geospatial information using gis;  documenting and managing spatial data using coherent/standardized methods;  understanding several spatial analysis methods that are relevant to student research area; and applying spatial research methods into student research. ",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "GIS 5577",
     "subject": "GIS",
     "id": "5577",
     "title": "Spatial Database Design",
-    "info": "This semi-synchronous online graduate level course is aimed at students who have a foundation in GIS and spatial analysis methods and applications, and are interested in expanding their knowledge into the area spatial database design and spatial analysis. The course covers the following topics: 1) SQL and spatial-SQL queries, database design, and ArcServer Administration. This is an applied course and the objective is to introduce the fundamentals of databases, learn about how spatial data is treated into databases and apply spatial analysis methods. Students taking the class will have moderate to advanced understanding of GIS classes, but do not have much exposure to databases.",
+    "info": "this semi-synchronous online graduate level course is aimed at students who have a foundation in gis and spatial analysis methods and applications, and are interested in expanding their knowledge into the area spatial database design and spatial analysis. the course covers the following topics: 1) sql and spatial-sql queries, database design, and arcserver administration. this is an applied course and the objective is to introduce the fundamentals of databases, learn about how spatial data is treated into databases and apply spatial analysis methods. students taking the class will have moderate to advanced understanding of gis classes, but do not have much exposure to databases.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "GIS 5578",
     "subject": "GIS",
     "id": "5578",
     "title": "GIS Programming",
-    "info": "This Python-focused GIS course is intended for students who have some Python programming experience, or have experience with other programming language(s) and knowledge transferable to Python. Following a review of Python basics, students will use Python modules for spatial data management, mapping, and analysis, including ArcGIS's ArcPy package; work with classes in Python; develop custom modules; and create development environments. A semester-long programming project applying Python skills to a GIS challenge is a significant component of the course.",
-    "prereqInfo": "prereq: instr consent",
-    "prereq": {
-      "course": []
-    }
+    "info": "this python-focused gis course is intended for students who have some python programming experience, or have experience with other programming language(s) and knowledge transferable to python. following a review of python basics, students will use python modules for spatial data management, mapping, and analysis, including arcgis's arcpy package; work with classes in python; develop custom modules; and create development environments. a semester-long programming project applying python skills to a gis challenge is a significant component of the course.",
+    "prereqInfo": "instr consent",
+    "prereq": []
   },
   {
     "code": "GIS 5590",
     "subject": "GIS",
     "id": "5590",
     "title": "Special Topics",
-    "info": "Topics vary according to curricular needs, technological developments in field.",
+    "info": "topics vary according to curricular needs, technological developments in field.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "GIS 8333",
     "subject": "GIS",
     "id": "8333",
     "title": "FTE: Master's",
-    "info": "(No description)",
-    "prereqInfo": "prereq: Master's student, adviser and DGS consent",
-    "prereq": {
-      "course": []
-    }
+    "info": "(no description)",
+    "prereqInfo": "master's student, adviser and dgs consent",
+    "prereq": []
   },
   {
     "code": "GIS 8501",
     "subject": "GIS",
     "id": "8501",
     "title": "GIS Project Management",
-    "info": "Project management/professional development. Portfolio creation, career exploration, degree program planning. GIS project management through lectures, class exercises, guest speakers.",
-    "prereqInfo": "prereq: MGIS student or instr consent",
-    "prereq": {
-      "course": []
-    }
+    "info": "project management/professional development. portfolio creation, career exploration, degree program planning. gis project management through lectures, class exercises, guest speakers.",
+    "prereqInfo": "mgis student or instr consent",
+    "prereq": []
   },
   {
     "code": "GIS 8990",
     "subject": "GIS",
     "id": "8990",
     "title": "Research Problems in GIS",
-    "info": "Project of sufficient scope/complexity to document student's ability to apply spatial analysis and visualization techniques to real-world problems. Supervised by faculty member.",
-    "prereqInfo": "prereq: MGIS student, instr consent",
-    "prereq": {
-      "course": []
-    }
+    "info": "project of sufficient scope/complexity to document student's ability to apply spatial analysis and visualization techniques to real-world problems. supervised by faculty member.",
+    "prereqInfo": "mgis student, instr consent",
+    "prereq": []
   }
 ]
