@@ -1,10 +1,12 @@
 function extractWords(code) { 
+  if (!code) return ''
   let match = code.match(/[a-zA-Z]+/g)
   if (!match) return ''
   return match[0] 
 }
 
 function extractNumbers(code) { 
+  if (!code) return ''
   let match = code.match(/\d+/g)
   if (!match) return ''
   return match[0]
@@ -31,20 +33,29 @@ export default function Access(SUBJECT) {
 
   function prereq(course) { return course.prereq }
 
+  function isEqualId(A, B) {
+    if (extractNumbers(A) != extractNumbers(B)) return false
+
+    let honors = ['H', 'V']
+    let normal = ['W', '']
+
+    let lvA = extractWords(A[A.length - 1])
+    let lvB = extractWords(B[B.length - 1])
+
+    if (lvA == lvB) return true
+    if (honors.includes(lvA) && honors.includes(lvB)) return true
+    if (normal.includes(lvA) && normal.includes(lvB)) return true
+
+    return false
+  }
+
   // xxxxW == xxxx and xxxxH == xxxxV
   function isEqualCourses(A, B) {
     if (!A || !B) return false
     if (!A.code || !B.code) return false
 
-    let honors = ['H', 'V']
-    let normal = ['W', '']
-    let lvA = extractWords(A.id)
-    let lvB = extractWords(B.id)
-
-    if (extractNumbers(A.id) == extractNumbers(B.id) && A.subject == B.subject) {
-      if (lvA == lvB) return true
-      if (honors.includes(lvA) && honors.includes(lvB)) return true
-      if (normal.includes(lvA) && normal.includes(lvB)) return true
+    if (A.subject == B.subject) {
+      return isEqualId(A.id, B.id)
     }
 
     return false
@@ -90,7 +101,13 @@ export default function Access(SUBJECT) {
 
   // Return the first code with matched itemType and item
   function getCourse(itemType, item) {
-    return allCourses.find(each => each[itemType] === item) || null;
+    for (let i = 0; i < allCourses.length; i++) {
+      if (itemType == 'code' || itemType == 'id') {
+        if (isEqualId(allCourses[i].id, item)) return allCourses[i]
+      }
+      if (allCourses[i][itemType] === item) return allCourses[i]
+    }
+    // return allCourses.find(each => each[itemType] === item) || null;
   }
 
   function getTitle(itemType, item) { return title(getCourse(itemType, item)) }
@@ -125,6 +142,7 @@ export default function Access(SUBJECT) {
     isPrereq,
     isTarget,
     isEqualCourses,
+    isEqualId,
     // isCoreq,
   }
 }
