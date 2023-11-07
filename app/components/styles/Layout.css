@@ -1,0 +1,24 @@
+.layout-header{
+    background:linear-gradient(90deg,maroon,gold);
+    color:gold;
+    font-size:30px;
+    font-weight: 5000;
+    font-family:Optima, sans-serif;
+    text-align: center;
+    padding: 30px;
+}
+
+.layout-footer{
+    background:linear-gradient(90deg,gold,maroon);
+    color:gold;
+    font-size:20px;
+    font-family:Optima, sans-serif;
+    font-style: bold;
+    text-align: center;
+    font-weight: 500;
+    padding: 30px;
+}
+
+.layout-footer button{
+    margin-top: 15px;
+}
