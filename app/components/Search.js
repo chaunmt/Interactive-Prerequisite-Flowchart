@@ -37,8 +37,8 @@ function Search({ sendResults }) {
 
 
   return ( //Display 
-    <div className="Search">
-      <input type="text" placeholder="Search" onChange={handleSearch} />
+    <div className="Search"> 
+      <input type="text" placeholder="Search By Class" onChange={handleSearch} />
       <ul>
         {filteredData.length > 0 ? 
           filteredData.map((item, index) => (

@@ -1,12 +1,12 @@
 @import url('../styles/Global.css');
-#page {
+/* #page {
   background-color: var(--bg-color);
-}
+} */
 #title {
   text-align: center;
 }
 #card_table {
-  background-color: var(--table-bg-color);
+  /* background-color: var(--table-bg-color); */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 5px;
@@ -26,8 +26,8 @@
   font-family: Arial, sans-serif;
 }
 #backBoard {
-  background-color: #fff; 
-  border: 1px solid #000; 
+  /* background-color: #fff;  */
+  /* border: 1px solid #000;  */
   border-radius: 10px; 
   box-shadow: 3px 3px 5px #888; 
   padding: 20px; 
