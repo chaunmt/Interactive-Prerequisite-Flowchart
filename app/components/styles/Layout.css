@@ -1,24 +1,43 @@
-.layout-header{
-    background:linear-gradient(90deg,maroon,gold);
-    color:gold;
-    font-size:30px;
-    font-weight: 5000;
-    font-family:Optima, sans-serif;
-    text-align: center;
-    padding: 30px;
+.header nav{
+   width:100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-top: 10px;
+   padding-bottom: 50px;
+   font-size:30px;
+   color:rgb(224, 137, 120);
+   padding-left:10px;
+
+}
+
+.header nav ul{
+    list-style: none;
+    width:50%;
+    text-align: right;
+    padding-right: 10px;
+
+}
+
+.header nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+    font-size:20px;
+}
+
+.header nav ul li a{
+    color:rgb(224, 137, 120);
 }
 
 .layout-footer{
-    background:linear-gradient(90deg,gold,maroon);
-    color:gold;
-    font-size:20px;
-    font-family:Optima, sans-serif;
-    font-style: bold;
+    color:white;
     text-align: center;
-    font-weight: 500;
-    padding: 30px;
+    padding:25px;
+    margin-bottom: 20px;
+
 }
 
 .layout-footer button{
-    margin-top: 15px;
+    margin-bottom: 15px;
+
 }
