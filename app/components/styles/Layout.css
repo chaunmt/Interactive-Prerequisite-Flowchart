@@ -27,30 +27,41 @@
 .header nav ul li{
     display: inline-block;
     margin: 10px 20px;
-    font-size:20px;
+    font-size:22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
 }
 
 .header nav ul li a{
     color:rgb(224, 137, 120);
 }
 
+.header nav ul li:hover{
+    background-color: maroon;
+    transition:.5s;
+}
 .layout-footer{
     border-top-style: solid;
-    border-top-width: medium;
+    border-top-width: slim;
     bottom:0;
     color:rgb(224, 137, 120);
     text-align: center;
     padding:25px;
     margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
 .title{
     color:#ffffff;
-    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
 
 .layout-footer button{
     margin-bottom: 15px;
 
+}
+
+.hyperlink{
+    margin-top:15px;
 }

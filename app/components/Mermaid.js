@@ -3,6 +3,7 @@ import React from "react";
 import { useEffect, useState } from "react";
 import mermaid from "mermaid"
 
+
 mermaid.initialize({
     //do not render until react is ready
     startOnLoad: false,

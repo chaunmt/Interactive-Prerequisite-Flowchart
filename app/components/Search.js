@@ -45,7 +45,8 @@ function Search({ sendResults }) {
             <li key={index}> 
               <Link
                 href={'/csci/' + Access.onlyNum(Access.id(item)[0])}
-              >
+                style={{ textDecoration: 'none' }}
+                className="link">
                 {Access.id(item)[0]} - {Access.title(item)}
               </Link>
             </li>
