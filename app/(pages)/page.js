@@ -10,7 +10,6 @@ export default function Page() {
   return (
     <div>
       <Header/>
-      <Link href="/csci"><button>All CSCI Classes</button></Link>
       <br/> {/* this line break doesn't seem to do anything */}
       <GraphSearch />
       <Footer/>
