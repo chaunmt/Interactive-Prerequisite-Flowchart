@@ -9,7 +9,7 @@ export default function Page({ params }) {
   return (
     <div>
       {/* <h1>You are on the {params.subj.toUpperCase()} {params.id} page.</h1> */}
-      <Link href="/"><button>Homepage</button></Link>
+      <Link href="/"><button><img src="https://i.ibb.co/ZBLJYqL/Gophers-1-2.png" alt="umn_prerequisit_logo"/></button></Link>
       {/* <Link href={`/${params.subj}`}><button>All {params.subj.toUpperCase()} Classes</button></Link> */}
       <Link href="/csci"><button>All {params.subj.toUpperCase()} Classes</button></Link>
       <Mermaid graph={test}/>
