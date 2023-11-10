@@ -1,6 +1,5 @@
 import Link from "next/link";
 import GraphSearch from "../components/GraphSearch";
-
 import mermaid from "mermaid";
 import '../components/styles/Layout.css';
 import '../components/styles/Mainpage.css';

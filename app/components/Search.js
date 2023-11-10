@@ -38,8 +38,9 @@ function Search({ sendResults }) {
 
   return ( //Display 
     <div className="Search"> 
-      <input type="text" placeholder="Search By Class" onChange={handleSearch} />
-      <ul>
+      <input type="text" placeholder="Search By Class" onChange={handleSearch} className="searchBar" />
+      {search.trim()!==""&&(
+      <ul className='list'>
         {filteredData.length > 0 ? 
           filteredData.map((item, index) => (
             <li key={index}> 
@@ -54,9 +55,9 @@ function Search({ sendResults }) {
           :
           <li>No search results</li>
         }
-      </ul>
+      </ul>)}
     </div>
-  );
-}
+  )};
+
 
 export default Search;
