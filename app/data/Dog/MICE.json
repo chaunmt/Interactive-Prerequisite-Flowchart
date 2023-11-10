@@ -4,10 +4,10 @@
     "subject": "MICE",
     "id": "5035",
     "title": "Personal Microbiome Analysis",
-    "info": "Personal Microbiome Analysis, an introduction to the computational exploration and analysis of your inner microbial community, also known as your microbiome. In this course, you will have the opportunity to explore your own microbiome using visualization and analysis tools. Sequencing your own microbiome is encouraged but not required for the course.",
-    "prereqInfo": "Introductory biology or genetics is recommended: BIOL 1009, GCD 3022 or BIOL 4003.",
+    "info": "personal microbiome analysis, an introduction to the computational exploration and analysis of your inner microbial community, also known as your microbiome. in this course, you will have the opportunity to explore your own microbiome using visualization and analysis tools. sequencing your own microbiome is encouraged but not required for the course.",
+    "prereqInfo": "introductory biology or genetics is recommended: biol 1009, gcd 3022 or biol 4003.",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "BIOL 1009",
           "subject": "BIOL",
@@ -31,21 +31,19 @@
     "subject": "MICE",
     "id": "5309",
     "title": "Biocat & Biodegrad",
-    "info": "Assessing validity of information on biocatalysis and biodegradation; fundamentals of microbial catabolic metabolism as it pertains to biodegradation of environmental pollutants; biocatalysis for specialty chemical synthesis; display of this information on the World Wide Web.",
+    "info": "assessing validity of information on biocatalysis and biodegradation; fundamentals of microbial catabolic metabolism as it pertains to biodegradation of environmental pollutants; biocatalysis for specialty chemical synthesis; display of this information on the world wide web.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "MICE 5355",
     "subject": "MICE",
     "id": "5355",
     "title": "Adv. Fermentation/Biocatal Lab",
-    "info": "Methods in industrial microbiology, lab, and pilot scale fermentation/biocatalysis engineering. Lab experiments carried out in fermentation pilot plant. Operation of bench/pilot scale bioreactors. Designing bioreactors. Process optimization, monitoring, and control. Scale-up experiments, data analysis.",
-    "prereqInfo": "prereq: [3301 or BIOL 3301], [grad student in microbial engineering or upper-div major in [microbiology or chem engineering or biochemistry]], instr consent",
+    "info": "methods in industrial microbiology, lab, and pilot scale fermentation/biocatalysis engineering. lab experiments carried out in fermentation pilot plant. operation of bench/pilot scale bioreactors. designing bioreactors. process optimization, monitoring, and control. scale-up experiments, data analysis.",
+    "prereqInfo": "[3301 or biol 3301], [grad student in microbial engineering or upper-div major in [microbiology or chem engineering or biochemistry]], instr consent",
     "prereq": {
-      "course": [
+      "or": [
         {
           "code": "MICE 3301",
           "subject": "MICE",
@@ -64,43 +62,35 @@
     "subject": "MICE",
     "id": "8333",
     "title": "FTE: Master's",
-    "info": "(No description)",
-    "prereqInfo": "prereq: Master's student, adviser and DGS consent",
-    "prereq": {
-      "course": []
-    }
+    "info": "(no description)",
+    "prereqInfo": "master's student, adviser and dgs consent",
+    "prereq": []
   },
   {
     "code": "MICE 8777",
     "subject": "MICE",
     "id": "8777",
     "title": "Thesis Credit:Mast*",
-    "info": "(No description)",
-    "prereqInfo": "prereq: Max 18 cr per semester or summer; 10 cr total required [Plan A only]",
-    "prereq": {
-      "course": []
-    }
+    "info": "(no description)",
+    "prereqInfo": "max 18 cr per semester or summer; 10 cr total required [plan a only]",
+    "prereq": []
   },
   {
     "code": "MICE 8920",
     "subject": "MICE",
     "id": "8920",
     "title": "MicE Teach",
-    "info": "Supervised experience in classroom, laboratory, and/or recitation instruction; develops skills in effective use of instructional techniques, materials, tests, and measurements.",
-    "prereqInfo": "prereq: Grad MicE major",
-    "prereq": {
-      "course": []
-    }
+    "info": "supervised experience in classroom, laboratory, and/or recitation instruction; develops skills in effective use of instructional techniques, materials, tests, and measurements.",
+    "prereqInfo": "grad mice major",
+    "prereq": []
   },
   {
     "code": "MICE 8990",
     "subject": "MICE",
     "id": "8990",
     "title": "Biotechnology Seminar",
-    "info": "Student presentations of thesis research and presentations by invited speakers.",
-    "prereqInfo": "prereq: Prereq-First-yr MiCEstudents enroll S-N, as they do not make a presentation. Second-yr MiCE students enroll A-F, as they present a seminar; fall, spring, every year). Student presentations of thesis research and presentations by invited speakers or designated lecturers.",
-    "prereq": {
-      "course": []
-    }
+    "info": "student presentations of thesis research and presentations by invited speakers.",
+    "prereqInfo": "prereq-first-yr micestudents enroll s-n, as they do not make a presentation. second-yr mice students enroll a-f, as they present a seminar; fall, spring, every year). student presentations of thesis research and presentations by invited speakers or designated lecturers.",
+    "prereq": []
   }
 ]

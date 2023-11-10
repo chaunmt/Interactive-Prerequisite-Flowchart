@@ -1,16 +1,13 @@
 @import url('../styles/Global.css');
-#page {
+/* #page {
   background-color: var(--bg-color);
-  display: flex;
-  justify-content: space-between;
-
-}
+} */
 #title {
   text-align: center;
   font-size: 2.5vw
 }
 #card_table {
-  background-color: var(--table-bg-color);
+  /* background-color: var(--table-bg-color); */
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-gap: 0.3vw;
@@ -29,8 +26,8 @@
   padding: 0.5rem;  
 }
 #backBoard {
-  background-color: #fff; 
-  border: 1px solid #000; 
+  /* background-color: #fff;  */
+  /* border: 1px solid #000;  */
   border-radius: 10px; 
   box-shadow: 3px 3px 5px #888; 
   padding: 20px; 

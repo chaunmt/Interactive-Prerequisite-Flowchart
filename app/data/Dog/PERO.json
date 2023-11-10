@@ -4,49 +4,39 @@
     "subject": "PERO",
     "id": "5123",
     "title": "Prac Mgmt Extern",
-    "info": "Familiarizes periodontal students with the private practice environment and prepares them to select the type of practice they want to purchase or build and successfully manage their office.",
-    "prereqInfo": "prereq: Resident in advanced education program in periodontology",
-    "prereq": {
-      "course": []
-    }
+    "info": "familiarizes periodontal students with the private practice environment and prepares them to select the type of practice they want to purchase or build and successfully manage their office.",
+    "prereqInfo": "resident in advanced education program in periodontology",
+    "prereq": []
   },
   {
     "code": "PERO 7321",
     "subject": "PERO",
     "id": "7321",
     "title": "Perio/Orthodontics Seminar",
-    "info": "Seminar related to postdoctoral work in periodontics/orthodontics.",
+    "info": "seminar related to postdoctoral work in periodontics/orthodontics.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "PERO 7322",
     "subject": "PERO",
     "id": "7322",
     "title": "Multi. Discip. Seminars",
-    "info": "Series of multidisciplinary treatment seminars related to specialized fields in periodontology, endodontics, pediatric dentistry, AEGD/GPR, and prosthodontics dentistry.",
-    "prereqInfo": "prereq: Resident enrolled in [periodontology, endodontics, pediatric dentistry, AEGD/GPR, prosthodontics]",
-    "prereq": {
-      "course": []
-    }
+    "info": "series of multidisciplinary treatment seminars related to specialized fields in periodontology, endodontics, pediatric dentistry, aegd/gpr, and prosthodontics dentistry.",
+    "prereqInfo": "resident enrolled in [periodontology, endodontics, pediatric dentistry, aegd/gpr, prosthodontics]",
+    "prereq": []
   },
   {
     "code": "PERO 7323",
     "subject": "PERO",
     "id": "7323",
     "title": "Multi. Discip. Seminars II",
-    "info": "Series of multidisciplinary treatment seminars related to specialized fields in periodontology, endodontics, pediatric dentistry, AEGD/GPR, and prosthodontics dentistry.",
-    "prereqInfo": "prereq: Resident enrolled in [periodontology, endodontics, pediatric dentistry, AEGD/GPR, prosthodontics], completion of PERO 7322",
+    "info": "series of multidisciplinary treatment seminars related to specialized fields in periodontology, endodontics, pediatric dentistry, aegd/gpr, and prosthodontics dentistry.",
+    "prereqInfo": "resident enrolled in [periodontology, endodontics, pediatric dentistry, aegd/gpr, prosthodontics], completion of pero 7322",
     "prereq": {
-      "course": [
-        {
-          "code": "PERO 7322",
-          "subject": "PERO",
-          "id": "7322"
-        }
-      ]
+      "code": "PERO 7322",
+      "subject": "PERO",
+      "id": "7322"
     }
   },
   {
@@ -54,11 +44,9 @@
     "subject": "PERO",
     "id": "8000",
     "title": "Perio Clinic",
-    "info": "Clinical training in examination, diagnosis, treatment planning, and various phases of prevention and treatment of periodontal diseases in patients.",
-    "prereqInfo": "prereq: Resident in advanced education program in periodontology",
-    "prereq": {
-      "course": []
-    }
+    "info": "clinical training in examination, diagnosis, treatment planning, and various phases of prevention and treatment of periodontal diseases in patients.",
+    "prereqInfo": "resident in advanced education program in periodontology",
+    "prereq": []
   },
   {
     "code": "PERO 8200",
@@ -66,31 +54,25 @@
     "id": "8200",
     "title": "Clinical Seminars",
     "info": "tbd",
-    "prereqInfo": "prereq: Resident in advanced education program in periodontology",
-    "prereq": {
-      "course": []
-    }
+    "prereqInfo": "resident in advanced education program in periodontology",
+    "prereq": []
   },
   {
     "code": "PERO 8250",
     "subject": "PERO",
     "id": "8250",
     "title": "Anatomy of the Periodontium",
-    "info": "Gingival tissues, cementum, periodontal ligament, and alveolar bone discussed from histological, physiological. and pathological point of view.",
-    "prereqInfo": "prereq: Resident in advanced education program in periodontology",
-    "prereq": {
-      "course": []
-    }
+    "info": "gingival tissues, cementum, periodontal ligament, and alveolar bone discussed from histological, physiological. and pathological point of view.",
+    "prereqInfo": "resident in advanced education program in periodontology",
+    "prereq": []
   },
   {
     "code": "PERO 8251",
     "subject": "PERO",
     "id": "8251",
     "title": "Histology of the Periodontium",
-    "info": "The goal of this course is to develop in-depth knowledge of the histology of the periodontium. The class format is a weekly seminar in which students must be able to identify and describe unlabeled histological components to the faculty. ",
+    "info": "the goal of this course is to develop in-depth knowledge of the histology of the periodontium. the class format is a weekly seminar in which students must be able to identify and describe unlabeled histological components to the faculty. ",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   }
 ]

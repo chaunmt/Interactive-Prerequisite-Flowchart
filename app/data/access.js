@@ -1,7 +1,18 @@
-function extractWords(code) { return code.match(/[a-zA-Z]+/g) }
+function extractWords(code) { 
+  if (!code) return ''
+  let match = code.match(/[a-zA-Z]+/g)
+  if (!match) return ''
+  return match[0] 
+}
 
-function extractNumbers(code) { return code.match(/\d+/g) }
+function extractNumbers(code) { 
+  if (!code) return ''
+  let match = code.match(/\d+/g)
+  if (!match) return ''
+  return match[0]
+}
 
+// Access all courses by 'allCourses'
 export default function Access(SUBJECT) {
 
   const allCourses = require(`./Dog/${SUBJECT}.json`);
@@ -22,6 +33,34 @@ export default function Access(SUBJECT) {
 
   function prereq(course) { return course.prereq }
 
+  function isEqualId(A, B) {
+    if (extractNumbers(A) != extractNumbers(B)) return false
+
+    let honors = ['H', 'V']
+    let normal = ['W', '']
+
+    let lvA = extractWords(A[A.length - 1])
+    let lvB = extractWords(B[B.length - 1])
+
+    if (lvA == lvB) return true
+    if (honors.includes(lvA) && honors.includes(lvB)) return true
+    if (normal.includes(lvA) && normal.includes(lvB)) return true
+
+    return false
+  }
+
+  // xxxxW == xxxx and xxxxH == xxxxV
+  function isEqualCourses(A, B) {
+    if (!A || !B) return false
+    if (!A.code || !B.code) return false
+
+    if (A.subject == B.subject) {
+      return isEqualId(A.id, B.id)
+    }
+
+    return false
+  }
+
   // return the array of course that have prereq as its prerequisites
   function target(prereq) {
     allCourses.map(
@@ -32,21 +71,43 @@ export default function Access(SUBJECT) {
     return null
   }
 
+  // Check whether prereq is in target's prereq 
   function isPrereq(prereq, target) {
-    prereq(target)?.map(
-      (each) => {
-        if (each.course.includes(code(prereq))) return true
+
+    function traverse(prereq, arr) {
+      if (!arr) return false
+
+      // Found course --> Check course.code
+      if (arr.code && isEqualCourses(prereq, arr)) return true
+
+      // Traverse 'and' array, 'or' array
+      if (arr.and) return traverse(prereq, arr.and)
+      if (arr.or) return traverse(prereq, arr.or)
+
+      // Traverse through normal array
+      for (let i = 0; i < arr.length; i++) {
+        if (traverse(prereq, arr[i]) == true) return true
       }
-    )
-    return false
+
+      return false
+    }
+
+    return traverse(prereq, prereq(target))
   }
 
   function isTarget(prereq, target) {
     return isPrereq(prereq, target)
   }
 
+  // Return the first code with matched itemType and item
   function getCourse(itemType, item) {
-    return allCourses.find(each => each[itemType] === item) || null;
+    for (let i = 0; i < allCourses.length; i++) {
+      if (itemType == 'code' || itemType == 'id') {
+        if (isEqualId(allCourses[i].id, item)) return allCourses[i]
+      }
+      if (allCourses[i][itemType] === item) return allCourses[i]
+    }
+    // return allCourses.find(each => each[itemType] === item) || null;
   }
 
   function getTitle(itemType, item) { return title(getCourse(itemType, item)) }
@@ -80,6 +141,8 @@ export default function Access(SUBJECT) {
     target,
     isPrereq,
     isTarget,
+    isEqualCourses,
+    isEqualId,
     // isCoreq,
   }
 }

@@ -37,15 +37,17 @@ function Search({ sendResults }) {
 
 
   return ( //Display 
-    <div className="Search">
-      <input type="text" placeholder="Search" onChange={handleSearch} />
-      <ul>
+    <div className="Search"> 
+      <input type="text" placeholder="Search By Class" onChange={handleSearch} className="searchBar" />
+      {search.trim()!==""&&(
+      <ul className='list'>
         {filteredData.length > 0 ? 
           filteredData.map((item, index) => (
             <li key={index}> 
               <Link
                 href={'/csci/' + Access.onlyNum(Access.id(item)[0])}
-              >
+                style={{ textDecoration: 'none' }}
+                className="link">
                 {Access.id(item)[0]} - {Access.title(item)}
               </Link>
             </li>
@@ -53,9 +55,9 @@ function Search({ sendResults }) {
           :
           <li>No search results</li>
         }
-      </ul>
+      </ul>)}
     </div>
-  );
-}
+  )};
+
 
 export default Search;

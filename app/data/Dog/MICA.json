@@ -4,73 +4,69 @@
     "subject": "MICA",
     "id": "5000",
     "title": "Prac: Teaching",
-    "info": "Supervised experience in lab instruction. Use of instructional materials, tests/measurement.",
+    "info": "supervised experience in lab instruction. use of instructional materials, tests/measurement.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "MICA 8002",
     "subject": "MICA",
     "id": "8002",
     "title": "St Fun Gen Bact Vir",
-    "info": "Structure, function, and metabolism of microorganisms. Microbial genetics. Molecular virology.",
-    "prereqInfo": "prereq: [One undergrad or grad course each in [microbiology, genetics, biochemistry]] or instr consent",
-    "prereq": {
-      "course": []
-    }
+    "info": "structure, function, and metabolism of microorganisms. microbial genetics. molecular virology.",
+    "prereqInfo": "[one undergrad or grad course each in [microbiology, genetics, biochemistry]] or instr consent",
+    "prereq": []
   },
   {
     "code": "MICA 8003",
     "subject": "MICA",
     "id": "8003",
     "title": "Immunity & Immunop",
-    "info": "Lymphocyte activation, signal transduction in lymphocytes, antigen receptor genetics, antigen presentation, lymphoid anatomy, adaptive immune responses to microbes, immunodeficiency, immunopathology, cytokines, transplantation, autoimmunity.",
-    "prereqInfo": "prereq: Upper level undergrad immunology course or  instr consent",
-    "prereq": {
-      "course": []
-    }
+    "info": "lymphocyte activation, signal transduction in lymphocytes, antigen receptor genetics, antigen presentation, lymphoid anatomy, adaptive immune responses to microbes, immunodeficiency, immunopathology, cytokines, transplantation, autoimmunity.",
+    "prereqInfo": "upper level undergrad immunology course or  instr consent",
+    "prereq": []
   },
   {
     "code": "MICA 8004",
     "subject": "MICA",
     "id": "8004",
     "title": "Cell. & Cancer Biol.",
-    "info": "Fundamental concepts in cellular, molecular, and genetic basis of disease. Molecular basis of inflammation and cancer metastasis. Genetic basis for inherited disorders and gene therapy. Molecular mechanisms of pathogenesis.",
-    "prereqInfo": "prereq: [One undergrad or grad course each in [biochemistry, cell biology]] or instr consent",
-    "prereq": {
-      "course": []
-    }
+    "info": "fundamental concepts in cellular, molecular, and genetic basis of disease. molecular basis of inflammation and cancer metastasis. genetic basis for inherited disorders and gene therapy. molecular mechanisms of pathogenesis.",
+    "prereqInfo": "[one undergrad or grad course each in [biochemistry, cell biology]] or instr consent",
+    "prereq": []
   },
   {
     "code": "MICA 8005",
     "subject": "MICA",
     "id": "8005",
     "title": "MICaB Topics",
-    "info": "Colloquium format. Readings/discussion on specialized topic.",
-    "prereqInfo": "prereq: 8012, [8002 or 8003 or 8004] or instr consent",
+    "info": "colloquium format. readings/discussion on specialized topic.",
+    "prereqInfo": "8012, [8002 or 8003 or 8004] or instr consent",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "MICA 8012",
           "subject": "MICA",
           "id": "8012"
         },
         {
-          "code": "MICA 8002",
-          "subject": "MICA",
-          "id": "8002"
-        },
-        {
-          "code": "MICA 8003",
-          "subject": "MICA",
-          "id": "8003"
-        },
-        {
-          "code": "MICA 8004",
-          "subject": "MICA",
-          "id": "8004"
+          "or": [
+            {
+              "code": "MICA 8002",
+              "subject": "MICA",
+              "id": "8002"
+            },
+            {
+              "code": "MICA 8003",
+              "subject": "MICA",
+              "id": "8003"
+            },
+            {
+              "code": "MICA 8004",
+              "subject": "MICA",
+              "id": "8004"
+            }
+          ]
         }
       ]
     }
@@ -80,21 +76,19 @@
     "subject": "MICA",
     "id": "8006",
     "title": "Protein Sequen Anal",
-    "info": "DNA and protein sequence and protein structure databases; protein sequence analysis; methods for display of sequence comparison and prediction results; Genetics Computer Group (GCG) sequence analysis programs; and current literature and research problems.",
-    "prereqInfo": "prereq: Biochem course, knowledge of UNIX operating system recommended",
-    "prereq": {
-      "course": []
-    }
+    "info": "dna and protein sequence and protein structure databases; protein sequence analysis; methods for display of sequence comparison and prediction results; genetics computer group (gcg) sequence analysis programs; and current literature and research problems.",
+    "prereqInfo": "biochem course, knowledge of unix operating system recommended",
+    "prereq": []
   },
   {
     "code": "MICA 8007",
     "subject": "MICA",
     "id": "8007",
     "title": "Extracellular Matrix",
-    "info": "Concepts in cell adhesion and tissue composition and importance of cell adhesion in tissue function and disease. Topics range from structure/function/assembly of tissue components to cellular adhesion mechanisms.",
-    "prereqInfo": "prereq: 8002 or 8004 or instr consent",
+    "info": "concepts in cell adhesion and tissue composition and importance of cell adhesion in tissue function and disease. topics range from structure/function/assembly of tissue components to cellular adhesion mechanisms.",
+    "prereqInfo": "8002 or 8004 or instr consent",
     "prereq": {
-      "course": [
+      "or": [
         {
           "code": "MICA 8002",
           "subject": "MICA",
@@ -113,24 +107,28 @@
     "subject": "MICA",
     "id": "8009",
     "title": "Biochemical Aspects",
-    "info": "Aspects of mechanisms involved in growth control at level of nuclear function. Neoplasia in hormonal cancers (such as prostate cancer) and role of protein phosphorylation in normal and abnormal growth. Mechanisms of cell death via apoptosis and its implications in normal and abnormal proliferation.",
-    "prereqInfo": "prereq: 8004 or [BioC 3021, Biol 4004] or instr consent",
+    "info": "aspects of mechanisms involved in growth control at level of nuclear function. neoplasia in hormonal cancers (such as prostate cancer) and role of protein phosphorylation in normal and abnormal growth. mechanisms of cell death via apoptosis and its implications in normal and abnormal proliferation.",
+    "prereqInfo": "8004 or [bioc 3021, biol 4004] or instr consent",
     "prereq": {
-      "course": [
+      "or": [
         {
           "code": "MICA 8004",
           "subject": "MICA",
           "id": "8004"
         },
         {
-          "code": "BIOC 3021",
-          "subject": "BIOC",
-          "id": "3021"
-        },
-        {
-          "code": "BIOL 4004",
-          "subject": "BIOL",
-          "id": "4004"
+          "and": [
+            {
+              "code": "BIOC 3021",
+              "subject": "BIOC",
+              "id": "3021"
+            },
+            {
+              "code": "BIOL 4004",
+              "subject": "BIOL",
+              "id": "4004"
+            }
+          ]
         }
       ]
     }
@@ -140,27 +138,21 @@
     "subject": "MICA",
     "id": "8010",
     "title": "Microbial Pathogenesis",
-    "info": "Molecular mechanisms of bacterial/viral pathogenesis. Strategies of disease causation/interaction with host, regulation of virulence factors, mechanism of virulence factor transmission to other microbes.",
-    "prereqInfo": "prereq: MICa grad student or instr",
-    "prereq": {
-      "course": []
-    }
+    "info": "molecular mechanisms of bacterial/viral pathogenesis. strategies of disease causation/interaction with host, regulation of virulence factors, mechanism of virulence factor transmission to other microbes.",
+    "prereqInfo": "mica grad student or instr",
+    "prereq": []
   },
   {
     "code": "MICA 8011",
     "subject": "MICA",
     "id": "8011",
     "title": "Current Topics in Immunology",
-    "info": "Colloquium format. In-depth reading, discussion",
-    "prereqInfo": "prereq: MICA 8003 or instr consent",
+    "info": "colloquium format. in-depth reading, discussion",
+    "prereqInfo": "mica 8003 or instr consent",
     "prereq": {
-      "course": [
-        {
-          "code": "MICA 8003",
-          "subject": "MICA",
-          "id": "8003"
-        }
-      ]
+      "code": "MICA 8003",
+      "subject": "MICA",
+      "id": "8003"
     }
   },
   {
@@ -168,27 +160,21 @@
     "subject": "MICA",
     "id": "8012",
     "title": "Grant Skills",
-    "info": "Assist first/second year graduate students to prepare research proposals for funding.",
-    "prereqInfo": "prereq: First or second year MICaB grad student",
-    "prereq": {
-      "course": []
-    }
+    "info": "assist first/second year graduate students to prepare research proposals for funding.",
+    "prereqInfo": "first or second year micab grad student",
+    "prereq": []
   },
   {
     "code": "MICA 8013",
     "subject": "MICA",
     "id": "8013",
     "title": "Translational Cancer Research",
-    "info": "Clinical issues in cancer research. Discuss translational research projects as they pertain to a variety of cancers.",
-    "prereqInfo": "prereq: 8004 or instr consent",
+    "info": "clinical issues in cancer research. discuss translational research projects as they pertain to a variety of cancers.",
+    "prereqInfo": "8004 or instr consent",
     "prereq": {
-      "course": [
-        {
-          "code": "MICA 8004",
-          "subject": "MICA",
-          "id": "8004"
-        }
-      ]
+      "code": "MICA 8004",
+      "subject": "MICA",
+      "id": "8004"
     }
   },
   {
@@ -196,10 +182,10 @@
     "subject": "MICA",
     "id": "8014",
     "title": "Small RNA Biology",
-    "info": "Small RNAs as major regulators of gene/protein expression. MicroRNAs and their potential use in diagnosis/prognosis of various disease conditions, including cancers. Biology of small RNAs and their role in health and disease.",
-    "prereqInfo": "prereq: BIOC 8002 or MICA 8004 or equiv or instr consent",
+    "info": "small rnas as major regulators of gene/protein expression. micrornas and their potential use in diagnosis/prognosis of various disease conditions, including cancers. biology of small rnas and their role in health and disease.",
+    "prereqInfo": "bioc 8002 or mica 8004 or equiv or instr consent",
     "prereq": {
-      "course": [
+      "or": [
         {
           "code": "BIOC 8002",
           "subject": "BIOC",
@@ -218,49 +204,39 @@
     "subject": "MICA",
     "id": "8094",
     "title": "Research:  MICaB",
-    "info": "One-on-one research training from faculty adviser during laboratory rotation.",
-    "prereqInfo": "prereq: 1st yr MICa grad student",
-    "prereq": {
-      "course": []
-    }
+    "info": "one-on-one research training from faculty adviser during laboratory rotation.",
+    "prereqInfo": "1st yr mica grad student",
+    "prereq": []
   },
   {
     "code": "MICA 8320",
     "subject": "MICA",
     "id": "8320",
     "title": "Read Neurobio",
-    "info": "Topics in neurobiology and neurophysiology.",
+    "info": "topics in neurobiology and neurophysiology.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "MICA 8333",
     "subject": "MICA",
     "id": "8333",
     "title": "FTE: Master's",
-    "info": "(No description)",
-    "prereqInfo": "prereq: Master's student, adviser and DGS consent",
-    "prereq": {
-      "course": []
-    }
+    "info": "(no description)",
+    "prereqInfo": "master's student, adviser and dgs consent",
+    "prereq": []
   },
   {
     "code": "MICA 8371",
     "subject": "MICA",
     "id": "8371",
     "title": "Mucosal Immunobiology",
-    "info": "Host immune processes at body surfaces. Innate/adaptive immunity at mucosal surfaces, interactions/responses of various mucosal tissues to pathogens, current approaches being used to target protective vaccination to mucosal tissues. Lectures, journal club format.",
-    "prereqInfo": "prereq: 8001 or instr consent",
+    "info": "host immune processes at body surfaces. innate/adaptive immunity at mucosal surfaces, interactions/responses of various mucosal tissues to pathogens, current approaches being used to target protective vaccination to mucosal tissues. lectures, journal club format.",
+    "prereqInfo": "8001 or instr consent",
     "prereq": {
-      "course": [
-        {
-          "code": "MICA 8001",
-          "subject": "MICA",
-          "id": "8001"
-        }
-      ]
+      "code": "MICA 8001",
+      "subject": "MICA",
+      "id": "8001"
     }
   },
   {
@@ -268,11 +244,9 @@
     "subject": "MICA",
     "id": "8444",
     "title": "FTE: Doctoral",
-    "info": "(No description)",
-    "prereqInfo": "prereq: Doctoral student, adviser and DGS consent",
-    "prereq": {
-      "course": []
-    }
+    "info": "(no description)",
+    "prereqInfo": "doctoral student, adviser and dgs consent",
+    "prereq": []
   },
   {
     "code": "MICA 8666",
@@ -280,53 +254,43 @@
     "id": "8666",
     "title": "Doct Pre-Thesis Cr",
     "info": "tbd",
-    "prereqInfo": "prereq: Doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": {
-      "course": []
-    }
+    "prereqInfo": "doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
+    "prereq": []
   },
   {
     "code": "MICA 8777",
     "subject": "MICA",
     "id": "8777",
     "title": "Thesis Credit:Mast*",
-    "info": "(No description)",
-    "prereqInfo": "prereq: Max 18 cr per semester or summer; 10 cr total required [Plan A only]",
-    "prereq": {
-      "course": []
-    }
+    "info": "(no description)",
+    "prereqInfo": "max 18 cr per semester or summer; 10 cr total required [plan a only]",
+    "prereq": []
   },
   {
     "code": "MICA 8888",
     "subject": "MICA",
     "id": "8888",
     "title": "Thesis Credit:Doct*",
-    "info": "Thesis credit: doctoral.",
-    "prereqInfo": "prereq: MICaB PhD student, adviser consent",
-    "prereq": {
-      "course": []
-    }
+    "info": "thesis credit: doctoral.",
+    "prereqInfo": "micab phd student, adviser consent",
+    "prereq": []
   },
   {
     "code": "MICA 8910",
     "subject": "MICA",
     "id": "8910",
     "title": "Seminar:  Faculty",
-    "info": "State-of-the-art information presented by scientific experts within/outside the University.",
-    "prereqInfo": "prereq: MICaB grad student",
-    "prereq": {
-      "course": []
-    }
+    "info": "state-of-the-art information presented by scientific experts within/outside the university.",
+    "prereqInfo": "micab grad student",
+    "prereq": []
   },
   {
     "code": "MICA 8920",
     "subject": "MICA",
     "id": "8920",
     "title": "Seminar:  Students",
-    "info": "Current thesis topics and other aspects of microbiology, immunology, and cancer biology.",
-    "prereqInfo": "prereq: MICaB grad student or instr consent",
-    "prereq": {
-      "course": []
-    }
+    "info": "current thesis topics and other aspects of microbiology, immunology, and cancer biology.",
+    "prereqInfo": "micab grad student or instr consent",
+    "prereq": []
   }
 ]

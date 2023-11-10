@@ -4,87 +4,73 @@
     "subject": "CLSP",
     "id": "1010",
     "title": "Orientation",
-    "info": "Orientation to medical technology (clinical laboratory science) profession.",
-    "prereqInfo": "prereq: Interest in field of Clinical Laboratory Sciences",
-    "prereq": {
-      "course": []
-    }
+    "info": "orientation to medical technology (clinical laboratory science) profession.",
+    "prereqInfo": "interest in field of clinical laboratory sciences",
+    "prereq": []
   },
   {
     "code": "CLSP 4089",
     "subject": "CLSP",
     "id": "4089",
     "title": "Specialty Rotation",
-    "info": "One-week clinical rotation in specialty lab such as immunophenotyping, cytogenetics, surgical pathology, molecular diagnostics, immunology, or forensics.",
+    "info": "one-week clinical rotation in specialty lab such as immunophenotyping, cytogenetics, surgical pathology, molecular diagnostics, immunology, or forensics.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "CLSP 4092",
     "subject": "CLSP",
     "id": "4092",
     "title": "Honors",
-    "info": "Individual assignment to special projects or research in one of the clinical areas of chemistry, hematology, immunohematology, or microbiology.",
-    "prereqInfo": "prereq: instr consent",
-    "prereq": {
-      "course": []
-    }
+    "info": "individual assignment to special projects or research in one of the clinical areas of chemistry, hematology, immunohematology, or microbiology.",
+    "prereqInfo": "instr consent",
+    "prereq": []
   },
   {
     "code": "CLSP 4101",
     "subject": "CLSP",
     "id": "4101",
     "title": "Diagnostic Microbiology II",
-    "info": "Overview of lab-aided diagnosis of bacterial, mycobacterial, viral, fungal, parasitic infectious diseases.",
-    "prereqInfo": "prereq: One microbiology course with lab, one biochem course, enrolled year 4 CLSP student, instr consent",
-    "prereq": {
-      "course": []
-    }
+    "info": "overview of lab-aided diagnosis of bacterial, mycobacterial, viral, fungal, parasitic infectious diseases.",
+    "prereqInfo": "one microbiology course with lab, one biochem course, enrolled year 4 clsp student, instr consent",
+    "prereq": []
   },
   {
     "code": "CLSP 4102",
     "subject": "CLSP",
     "id": "4102",
     "title": "Diagnostic Microbiology Lectur",
-    "info": "Techniques used in laboratory diagnosis of infectious disease.  Isolating/identifying bacteria/yeast. Antibacterial susceptibility testing. Lecture.",
-    "prereqInfo": "prereq: One microbiology course with lab, one biochem course, enrolled year 4 CLS student, instr consent",
-    "prereq": {
-      "course": []
-    }
+    "info": "techniques used in laboratory diagnosis of infectious disease.  isolating/identifying bacteria/yeast. antibacterial susceptibility testing. lecture.",
+    "prereqInfo": "one microbiology course with lab, one biochem course, enrolled year 4 cls student, instr consent",
+    "prereq": []
   },
   {
     "code": "CLSP 4103",
     "subject": "CLSP",
     "id": "4103",
     "title": "Diagnostic Microbiology Lab",
-    "info": "Techniques used in lab diagnosis of infectious disease. Isolating/identifying bacteria/yeasts. Antimicrobial susceptibility testing. Lab.",
-    "prereqInfo": "prereq: One microbiology course with lab, one biochem course, enrolled CLSP student, instr consent",
-    "prereq": {
-      "course": []
-    }
+    "info": "techniques used in lab diagnosis of infectious disease. isolating/identifying bacteria/yeasts. antimicrobial susceptibility testing. lab.",
+    "prereqInfo": "one microbiology course with lab, one biochem course, enrolled clsp student, instr consent",
+    "prereq": []
   },
   {
     "code": "CLSP 4201",
     "subject": "CLSP",
     "id": "4201",
     "title": "Hematology I",
-    "info": "Theory/application of basic principles in clinical hematology.  Lecture, lab.",
-    "prereqInfo": "prereq: Enrolled year 4 CLSP student, instr consent",
-    "prereq": {
-      "course": []
-    }
+    "info": "theory/application of basic principles in clinical hematology.  lecture, lab.",
+    "prereqInfo": "enrolled year 4 clsp student, instr consent",
+    "prereq": []
   },
   {
     "code": "CLSP 4202",
     "subject": "CLSP",
     "id": "4202",
     "title": "Hemat ology II",
-    "info": "Fundamentals of examining blood/bone marrow. Emphasizes identification of normal, immature, abnormal cells. Correlation of clinical/lab findings. Lecture, lab.",
-    "prereqInfo": "prereq: [4201 or 5201], enrolled year 4 CLSP student, instr consent",
+    "info": "fundamentals of examining blood/bone marrow. emphasizes identification of normal, immature, abnormal cells. correlation of clinical/lab findings. lecture, lab.",
+    "prereqInfo": "[4201 or 5201], enrolled year 4 clsp student, instr consent",
     "prereq": {
-      "course": [
+      "or": [
         {
           "code": "CLSP 4201",
           "subject": "CLSP",
@@ -103,10 +89,10 @@
     "subject": "CLSP",
     "id": "4203",
     "title": "Hemostasis",
-    "info": "Theory/application of concepts/techniques in hemostasis/coagulation. Lecture, Lab. Online course.",
-    "prereqInfo": "prereq: [4201 or 5201], enrolled year 4 CLSP student, instr consent",
+    "info": "theory/application of concepts/techniques in hemostasis/coagulation. lecture, lab. online course.",
+    "prereqInfo": "[4201 or 5201], enrolled year 4 clsp student, instr consent",
     "prereq": {
-      "course": [
+      "or": [
         {
           "code": "CLSP 4201",
           "subject": "CLSP",
@@ -125,43 +111,37 @@
     "subject": "CLSP",
     "id": "4263",
     "title": "Compar Hemostasis",
-    "info": "Theory and application of specific concepts and techniques in hemostasis and coagulation.",
+    "info": "theory and application of specific concepts and techniques in hemostasis and coagulation.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "CLSP 4301",
     "subject": "CLSP",
     "id": "4301",
     "title": "Urinalysis",
-    "info": "Procedures for physical, chemical, microscopic examination of urine. Lecture, lab.",
-    "prereqInfo": "prereq: Enrolled year 4 CLSP student",
-    "prereq": {
-      "course": []
-    }
+    "info": "procedures for physical, chemical, microscopic examination of urine. lecture, lab.",
+    "prereqInfo": "enrolled year 4 clsp student",
+    "prereq": []
   },
   {
     "code": "CLSP 4302",
     "subject": "CLSP",
     "id": "4302",
     "title": "Clinical Chemistry I",
-    "info": "Assessing renal/metabolic disease/dysfunction, electrolyte, and acid-base balance. Principles/processes for quality management in clinical lab. Lecture online only, lab.",
-    "prereqInfo": "prereq: Two organic chem courses with lab, one biochem course, instr consent",
-    "prereq": {
-      "course": []
-    }
+    "info": "assessing renal/metabolic disease/dysfunction, electrolyte, and acid-base balance. principles/processes for quality management in clinical lab. lecture online only, lab.",
+    "prereqInfo": "two organic chem courses with lab, one biochem course, instr consent",
+    "prereq": []
   },
   {
     "code": "CLSP 4304",
     "subject": "CLSP",
     "id": "4304",
     "title": "Clinical Chemistry II",
-    "info": "Principles/application of clinical chemistry. Correlation of clinical/lab findings.",
-    "prereqInfo": "prereq: [4302 or 5302], two organic chem courses with lab, one biochem course, year 4 CLSP student.",
+    "info": "principles/application of clinical chemistry. correlation of clinical/lab findings.",
+    "prereqInfo": "[4302 or 5302], two organic chem courses with lab, one biochem course, year 4 clsp student.",
     "prereq": {
-      "course": [
+      "or": [
         {
           "code": "CLSP 4302",
           "subject": "CLSP",
@@ -180,10 +160,10 @@
     "subject": "CLSP",
     "id": "4305",
     "title": "Clinical Chemistry II: Lab",
-    "info": "Principles/application of lab procedures in clinical chemistry.",
-    "prereqInfo": "prereq: [4302 or 5302], two organic chem courses with lab, one biochem course",
+    "info": "principles/application of lab procedures in clinical chemistry.",
+    "prereqInfo": "[4302 or 5302], two organic chem courses with lab, one biochem course",
     "prereq": {
-      "course": [
+      "or": [
         {
           "code": "CLSP 4302",
           "subject": "CLSP",
@@ -202,27 +182,21 @@
     "subject": "CLSP",
     "id": "4311",
     "title": "Clin Chem I: Lab",
-    "info": "Application of clinical chemistry principles and lab techniques in the analysis of urine, plasma, and body fluids.  Emphasis on lab tests to evaluate renal function, electrolytes, and acid-base balance.  Principles and processes for managing test quality.",
+    "info": "application of clinical chemistry principles and lab techniques in the analysis of urine, plasma, and body fluids.  emphasis on lab tests to evaluate renal function, electrolytes, and acid-base balance.  principles and processes for managing test quality.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "CLSP 4401",
     "subject": "CLSP",
     "id": "4401",
     "title": "Immunology",
-    "info": "Basic principles of human immune function, clinical applications, clinical techniques (including flow cytometry).",
-    "prereqInfo": "prereq: BIOC 3021, instr consent",
+    "info": "basic principles of human immune function, clinical applications, clinical techniques (including flow cytometry).",
+    "prereqInfo": "bioc 3021, instr consent",
     "prereq": {
-      "course": [
-        {
-          "code": "BIOC 3021",
-          "subject": "BIOC",
-          "id": "3021"
-        }
-      ]
+      "code": "BIOC 3021",
+      "subject": "BIOC",
+      "id": "3021"
     }
   },
   {
@@ -230,32 +204,28 @@
     "subject": "CLSP",
     "id": "4402",
     "title": "Molecular Diagnostics",
-    "info": "Theory/application of molecular diagnostics in clinical lab.  Lecture, lab.",
+    "info": "theory/application of molecular diagnostics in clinical lab.  lecture, lab.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "CLSP 4501",
     "subject": "CLSP",
     "id": "4501",
     "title": "Intro Transfusion Medicine",
-    "info": "Principles of blood grouping, antibody identification, compatibility testing, donor testing for transfusion medicine.",
+    "info": "principles of blood grouping, antibody identification, compatibility testing, donor testing for transfusion medicine.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "CLSP 4502",
     "subject": "CLSP",
     "id": "4502",
     "title": "Transfusion Med Laboratory",
-    "info": "Exercises illustrating basic techniques in blood grouping, antibody identification, compatibility testing, donor testing for transfusion medicine.",
-    "prereqInfo": "prereq: 4401 or 5401",
+    "info": "exercises illustrating basic techniques in blood grouping, antibody identification, compatibility testing, donor testing for transfusion medicine.",
+    "prereqInfo": "4401 or 5401",
     "prereq": {
-      "course": [
+      "or": [
         {
           "code": "CLSP 4401",
           "subject": "CLSP",
@@ -274,16 +244,12 @@
     "subject": "CLSP",
     "id": "4601W",
     "title": "Mgmt & Prof Issues",
-    "info": "Basic concepts in professional issues and management as applied to clinical lab.",
-    "prereqInfo": "prereq: 4602, CLSP student",
+    "info": "basic concepts in professional issues and management as applied to clinical lab.",
+    "prereqInfo": "4602, clsp student",
     "prereq": {
-      "course": [
-        {
-          "code": "CLSP 4602",
-          "subject": "CLSP",
-          "id": "4602"
-        }
-      ]
+      "code": "CLSP 4602",
+      "subject": "CLSP",
+      "id": "4602"
     }
   },
   {
@@ -291,21 +257,19 @@
     "subject": "CLSP",
     "id": "4602",
     "title": "Education and Research",
-    "info": "Basic concepts in education/research as applied to clinical laboratory.",
-    "prereqInfo": "prereq: instr consent",
-    "prereq": {
-      "course": []
-    }
+    "info": "basic concepts in education/research as applied to clinical laboratory.",
+    "prereqInfo": "instr consent",
+    "prereq": []
   },
   {
     "code": "CLSP 4701",
     "subject": "CLSP",
     "id": "4701",
     "title": "App Diagn Micro",
-    "info": "Isolation, identification, and antimicrobial susceptibility testing of clinically significant microbes from patient specimens.",
-    "prereqInfo": "prereq: 4102, 4101 enrolled CLSP student, instr consent",
+    "info": "isolation, identification, and antimicrobial susceptibility testing of clinically significant microbes from patient specimens.",
+    "prereqInfo": "4102, 4101 enrolled clsp student, instr consent",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "CLSP 4102",
           "subject": "CLSP",
@@ -324,10 +288,10 @@
     "subject": "CLSP",
     "id": "4702",
     "title": "Appl Clin Heme/Hemostasis",
-    "info": "Application of basic methods/techniques in clinical hematology, cellular morphology, and hemostasis.",
-    "prereqInfo": "prereq: 4201, 4202, 4203, enrolled CLSP student, instr consent",
+    "info": "application of basic methods/techniques in clinical hematology, cellular morphology, and hemostasis.",
+    "prereqInfo": "4201, 4202, 4203, enrolled clsp student, instr consent",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "CLSP 4201",
           "subject": "CLSP",
@@ -351,10 +315,10 @@
     "subject": "CLSP",
     "id": "4703",
     "title": "App Clin Chem/UA",
-    "info": "Application of basic methods/techniques in clinical chemistry lab.",
-    "prereqInfo": "prereq: 4301, 4302, 4304, 4305, enrolled CLSP student, instr consent",
+    "info": "application of basic methods/techniques in clinical chemistry lab.",
+    "prereqInfo": "4301, 4302, 4304, 4305, enrolled clsp student, instr consent",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "CLSP 4301",
           "subject": "CLSP",
@@ -383,10 +347,10 @@
     "subject": "CLSP",
     "id": "4704",
     "title": "App Transfusion Medicine",
-    "info": "Application of basic methods/techniques in tranfusion medicine lab.",
-    "prereqInfo": "prereq: 4501, 4502, enrolled CLSP student, instr consent",
+    "info": "application of basic methods/techniques in tranfusion medicine lab.",
+    "prereqInfo": "4501, 4502, enrolled clsp student, instr consent",
     "prereq": {
-      "course": [
+      "and": [
         {
           "code": "CLSP 4501",
           "subject": "CLSP",
@@ -405,21 +369,17 @@
     "subject": "CLSP",
     "id": "4705",
     "title": "Specialty Rotation",
-    "info": "A one week rotation in specialty lab such as cytogenetics, flow cytometry, microbiology lab at MN Dept of Health, and other choices.",
+    "info": "a one week rotation in specialty lab such as cytogenetics, flow cytometry, microbiology lab at mn dept of health, and other choices.",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "CLSP 4901",
     "subject": "CLSP",
     "id": "4901",
     "title": "Spec Lab Methods",
-    "info": "Individual assignment to special project in research lab or clinical lab.",
-    "prereqInfo": "prereq: CLSP student, instr consent",
-    "prereq": {
-      "course": []
-    }
+    "info": "individual assignment to special project in research lab or clinical lab.",
+    "prereqInfo": "clsp student, instr consent",
+    "prereq": []
   }
 ]

@@ -1,0 +1,53 @@
+:root{
+    background: linear-gradient(180deg,#ffffff,rgb(218, 178, 178));
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1{
+    text-align: center;
+    padding:40px;
+}
+
+
+.Search{
+    text-align: center; 
+
+}
+
+.Search input{
+    margin-top: 50px;
+    width:60%;
+    border:0;
+    outline: 0;
+    background: #ebfffc;
+    padding:10px 25px;
+    height:40px;
+    border-radius: 30px;
+    flex:1;
+    margin-right:16px;
+    font-size: large;
+    
+    
+}
+
+.Search ul li{
+    border:0;
+    outline:0;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    list-style-type: none;  
+    margin-bottom: 16px;
+    margin-right:16px;
+    padding:10px 25px;
+    flex:1;
+    color: maroon;
+}
+
+.mermaid {
+    text-align: center;
+}
+  
+

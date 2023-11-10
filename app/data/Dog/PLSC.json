@@ -4,10 +4,10 @@
     "subject": "PLSC",
     "id": "3002",
     "title": "Seed Sci, Technology, Society",
-    "info": "Cultivate an understanding of seed and appreciation for seed with respect to agriculture. Focus of this course will be on agronomic crop seeds produced in the upper Midwest.",
-    "prereqInfo": "prereq: HORT 1001 or BIOL 1009 or BIOL 2002 or consent of the instructor",
+    "info": "cultivate an understanding of seed and appreciation for seed with respect to agriculture. focus of this course will be on agronomic crop seeds produced in the upper midwest.",
+    "prereqInfo": "hort 1001 or biol 1009 or biol 2002 or consent of the instructor",
     "prereq": {
-      "course": [
+      "or": [
         {
           "code": "HORT 1001",
           "subject": "HORT",
@@ -31,52 +31,46 @@
     "subject": "PLSC",
     "id": "3005W",
     "title": "Intro to Plant Physiology",
-    "info": "Introduction to physiological basis for effects of environment on plant growth/development. How to produce optimal plant growth. Experimental technique, data analysis, scientific writing. Lecture, readings, lab. Prerequisites: Biol 1009 or Hort 1001 and BioC 3021 or Hort 2100 or BioC 2011",
+    "info": "introduction to physiological basis for effects of environment on plant growth/development. how to produce optimal plant growth. experimental technique, data analysis, scientific writing. lecture, readings, lab. prerequisites: biol 1009 or hort 1001 and bioc 3021 or hort 2100 or bioc 2011",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "PLSC 3093",
     "subject": "PLSC",
     "id": "3093",
     "title": "Directed Study",
-    "info": "A course in which a student designs and carries out a directed study on selected topics or problems under the direction of a faculty member; eg, literature review. Directed study courses may be taken for variable credit and special permission is needed for enrollment.  Students enrolling in a directed study will be required to use the University-wide on-line directed study contract process in order to enroll.\n \nPrereq: department consent, instructor consent, no more than 6 credits of directed study counts towards CFANS major requirements.\n",
+    "info": "a course in which a student designs and carries out a directed study on selected topics or problems under the direction of a faculty member; eg, literature review. directed study courses may be taken for variable credit and special permission is needed for enrollment.  students enrolling in a directed study will be required to use the university-wide on-line directed study contract process in order to enroll.\n \nprereq: department consent, instructor consent, no more than 6 credits of directed study counts towards cfans major requirements.\n",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "PLSC 3094",
     "subject": "PLSC",
     "id": "3094",
     "title": "Directed Research",
-    "info": "An opportunity in which a student designs and carries\nout a directed research project under the direction of a faculty member. Directed research may be taken for variable credit and special permission is needed for enrollment.Students enrolling in a directed research will be required to use the\nUniversity-wide on-line directed research contract process in order to enroll.\n \nPrereq: department consent, instructor consent, no more than 6 credits of directed research counts towards CFANS major requirements.\n",
+    "info": "an opportunity in which a student designs and carries\nout a directed research project under the direction of a faculty member. directed research may be taken for variable credit and special permission is needed for enrollment.students enrolling in a directed research will be required to use the\nuniversity-wide on-line directed research contract process in order to enroll.\n \nprereq: department consent, instructor consent, no more than 6 credits of directed research counts towards cfans major requirements.\n",
     "prereqInfo": null,
-    "prereq": {
-      "course": []
-    }
+    "prereq": []
   },
   {
     "code": "PLSC 3401",
     "subject": "PLSC",
     "id": "3401",
     "title": "Plant Genetics and Breeding",
-    "info": "Principles of plant genetics and environmental variation. Applications of genetics to crop evolution and breeding of self-pollinated, cross-pollinated, and asexually propagated crops. Investigation of hybridization, variation, and selection. Course is offered with two alternating instructors: Spring Odd its with Eric Watkins. Spring Even is with Aaron Lorenz. ",
-    "prereqInfo": "Prerequisites: BIOL 1009 or 1009H",
+    "info": "principles of plant genetics and environmental variation. applications of genetics to crop evolution and breeding of self-pollinated, cross-pollinated, and asexually propagated crops. investigation of hybridization, variation, and selection. course is offered with two alternating instructors: spring odd its with eric watkins. spring even is with aaron lorenz. ",
+    "prereqInfo": "biol 1009 or 1009h",
     "prereq": {
-      "course": [
+      "or": [
         {
           "code": "BIOL 1009",
           "subject": "BIOL",
           "id": "1009"
         },
         {
-          "code": "PLSC 1009H",
+          "code": "PLSC 1009",
           "subject": "PLSC",
-          "id": "1009H"
+          "id": "1009"
         }
       ]
     }
