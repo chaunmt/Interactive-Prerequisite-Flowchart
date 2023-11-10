@@ -1,13 +1,16 @@
-import CoursesTable from "../../components/CoursesTable";
+import CoursesTable from "../../components/CoursesTable.js";
+
 
 export default function CSCI() {
   return (
     <div id="page">
-      <p>CSCI Classes:</p>
+       
       <div id="backBoard">
       <h1 id="title">CSCI COURSES</h1>
       <CoursesTable />
       </div>
+      {/* <div id="infoBackBoard"></div> */}
+      
       </div>
   );
 }

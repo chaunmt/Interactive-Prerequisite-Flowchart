@@ -8,6 +8,7 @@ export default function CoursesTable() {
 
   const handleHoverCard = (course) => {
     setTargetCourse(course)
+    onCardHover(course);
   }
 
   const handleStopHoverCard = () => {
@@ -20,17 +21,17 @@ export default function CoursesTable() {
         onMouseEnter={() => handleHoverCard(course)}
         onMouseLeave={() => handleStopHoverCard()}
       >
-      <h2>{Access.title(course)}</h2>
-      <p>{Access.prereq(course)}</p>
-      <p>{Access.isPrereq(targetCourse).toString()}</p>
-      {/* <p className="info">{course.info}</p> */}
+      <h2 id="cardTitle">{Access.title(course)}</h2>
+      {/* <p id="classNumb"> {Access.prereq(course)}</p> */}
+      {/* <p>{Access.isPrereq(targetCourse).toString()}</p> */}
+      <p className="info">{course.info}</p>
     </div> 
     );
   }
 
   const formatTable = () => {
     return Access.courses().map((course, index) => (
-      <div key={index}>
+      <div key={index} >
         {formatCard(course)}
       </div>
     ));
@@ -42,5 +43,6 @@ export default function CoursesTable() {
         {formatTable()}
       </div>
     </div>
+    
   );
 }
