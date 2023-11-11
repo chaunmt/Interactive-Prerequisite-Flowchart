@@ -326,7 +326,3 @@ let allCourseNumbers = ''
 
 allCourseNumbers = require(`./General/id/allCourses.json`)
 exportDogs('allCourses')
-
-// KNOWN ERRORS:
-//  1. Prerequisites = target
-//  2. V and H ???

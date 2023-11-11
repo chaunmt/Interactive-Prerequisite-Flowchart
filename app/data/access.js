@@ -123,7 +123,10 @@ export default function Access(SUBJECT) {
   function getPrereq(itemType, item) { return prereq(getCourse(itemType, item)) }
 
   return {
+    // We only have API code for Twin Cities Campus
+    // Get all courses in subject or campus
     courses,
+    // Get information for non 'course' item base on item's type and item's value
     getCourse,
     getTitle,
     getSubject,
@@ -131,6 +134,7 @@ export default function Access(SUBJECT) {
     getInfo,
     getPrereqInfo,
     getPrereq,
+    // Get information for item with type 'course'
     code,
     subject,
     id,
@@ -139,6 +143,7 @@ export default function Access(SUBJECT) {
     prereqInfo,
     prereq,
     target,
+    // Check whether a 'course' is something
     isPrereq,
     isTarget,
     isEqualCourses,
