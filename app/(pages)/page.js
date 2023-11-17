@@ -11,7 +11,7 @@ export default function Page() {
     <div>
       <Header/>
       <br/> {/* this line break doesn't seem to do anything */}
-      <GraphSearch />
+      <GraphSearch/>
       <Footer/>
     </div>
   );

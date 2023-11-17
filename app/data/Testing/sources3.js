@@ -9,20 +9,17 @@ function replaceComma(str) {
   return str.replaceAll(', ', ' and ')
 }
 
-// Omit this case because of data's inconsistency
-// function filterExtraInfo(str) {
-//   if (str.toUpperCase().includes('NO PREREQUISITE')) return ""
-//   arr = str.split(';')
-//   let i = 0;
-//   while (i < arr.length) {
-//     if (!arr[i]) arr.splice(i, 1)
-//     else if (arr[i].includes('recommended')) arr.splice(i, 1)
-//     else if (arr[i].includes('recommend')) arr.splice(i, 1)
-//     else if (arr[i].includes('recommends')) arr.splice(i, 1)
-//     else i ++
-//   }
-//   return arr.join(' or ')
-// }
+// WARNING: Omit this case because of data's inconsistency ???
+function filterExtraInfo(str) {
+  if (str.toUpperCase().includes('NO PREREQUISITE')) return ""
+  arr = str.split(';')
+  let i = 0;
+  while (i < arr.length) {
+    if (!arr[i] || arr[i].toUpperCase().includes('RECOMMEND')) arr.splice(i, 1)
+    else i ++
+  }
+  return arr.join(' or ')
+}
 
 function splitStringAtNumber(str) {
   str = deleteSpaces(str)
@@ -103,6 +100,13 @@ function filterDuplicate(item) {
     filterDuplicate(item[i])
   }
 
+  return item
+}
+
+function filterEmptyArray(item) {
+  if (!item) return null
+  if (item.id) return item
+  if (item.length == 0) return null
   return item
 }
 
@@ -272,6 +276,7 @@ function filterPrereq(info, targetSubject, targetId) {
   data = decodeBracket(data, encoded)
   data = filterDuplicate(data)
   data = filterNull(data)
+  data = filterEmptyArray(data)
   data = filterExtraArray(data)
   data = filterNull(data)
 

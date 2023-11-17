@@ -1,9 +1,12 @@
-import CoursesTable from "../../components/CoursesTable";
+import CoursesTable from "../../../components/CoursesTable.js";
+
+import CoursesTable from "../../../components/CoursesTable";
 import '../../components/styles/Layout.css';
 import '../../components/styles/Mainpage.css';
-import Footer from '../../components/Footer.js';
-import Header from '../../components/Header.js';
+import Footer from '../../../components/Footer.js';
+import Header from '../../../components/Header.js';
 
+//TODO: fix or update
 export default function CSCI() {
   return (
     <div id="page">
@@ -14,6 +17,7 @@ export default function CSCI() {
       <CoursesTable />
       <Footer/>
       </div>
+      {/* <div id="infoBackBoard"></div> */}
       
       </div>
   );
