@@ -17,6 +17,16 @@ export default function Access(SUBJECT) {
 
   const allCourses = require(`./Dog/${SUBJECT}.json`);
 
+  function allSbj() {
+    const sbjArr = require(`./General/allSubjects.json`)
+    return sbjArr
+  }
+
+  function allId() { 
+    const idArr = require(`./General/id/${SUBJECT}.json`)
+    return idArr
+  }
+
   function courses() { return allCourses }
 
   function code(course) { return course.code }
