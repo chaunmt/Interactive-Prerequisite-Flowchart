@@ -8,7 +8,6 @@ export default function CoursesTable() {
 
   const handleHoverCard = (course) => {
     setTargetCourse(course)
-    onCardHover(course);
   }
 
   const handleStopHoverCard = () => {
@@ -38,11 +37,11 @@ export default function CoursesTable() {
   }
 
   return (
-    <div id="page">
+
       <div id="card_table">
         {formatTable()}
       </div>
-    </div>
+
     
   );
 }

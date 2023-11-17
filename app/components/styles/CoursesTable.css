@@ -1,49 +1,39 @@
 @import url('../styles/Global.css');
-/* #page {
-  background-color: var(--bg-color);
-} */
 #title {
   text-align: center;
   font-size: 2.5vw
 }
 #card_table {
-  /* background-color: var(--table-bg-color); */
+  position: absolute;
+  top: 20rem;
+  left: 10px;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-gap: 0.3vw;
-  grid-column-gap: 15px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row: 0;
+  gap: 3px;
   padding: 1rem;
-  overflow-y: auto; 
-  overflow-x: auto; 
-  /* max-height: 30vw; */
+  /* overflow-y: auto; 
+  overflow-x: auto;  */
+  max-height: 30vw;
 }
 .card {
   text-align: center;
-  background-color: var(--card-bg-color);
-  border-radius: 0.5rem;
-  height: 1vw;
-  width: 7vw;
+  background-color: FloralWhite;
+  border-radius: 0.2rem;
   padding: 0.5rem;  
+  width: 20vw;
+  height: 3px;
 }
 #backBoard {
-  /* background-color: #fff;  */
-  /* border: 1px solid #000;  */
-  border-radius: 10px; 
-  box-shadow: 3px 3px 5px #888; 
-  padding: 20px; 
-  width: 99vw;
-  height: 40vw;
-}
-#infoBackBoard{
-  background-color: #fff; 
   border: 1px solid #000; 
   border-radius: 10px; 
   box-shadow: 3px 3px 5px #888; 
   padding: 20px; 
-  width: 25vw;
-  height: 40vw;
-  margin-right: 10px;
+  width: 90vw;
+  height: 38vw;
+  margin: 0; 
 }
+
 #cardTitle{
   font-size: 0.5vw; 
   font-family: Arial, sans-serif;
@@ -59,14 +49,18 @@
   /* TODO: make pop up info float ouside card or a separate pop up menu instead of inside card */
   display: none;
   position: absolute; 
-  left: 790px; 
-  top: 105px; 
-  background-color: var(--menu-bg-color);
-  width: 400px; 
-  height: 400px; 
+  top: 1%;
+  left: 55rem;
+  border-radius: 10px; 
+  box-shadow: 3px 3px 5px #888; 
+  font-size: 14px;
   border-radius: 0.5rem;
-  
+  border: 1px solid #5e1818; 
+  height: 21rem;
+  width: 15rem;
+  background-color: FloralWhite;
 }
+
 .card:hover .info {
   display: block;
   
