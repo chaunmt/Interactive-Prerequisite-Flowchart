@@ -10,7 +10,7 @@ function Header(){
                 <ul>
                     <li><a href='#'>About</a></li>
                     <li><a href='#'>Q&A</a></li>
-                    <li><a href='/csci'>Course Table</a></li>
+                    {/* <li><a href='/subject/table'>Course Table</a></li> */}
                     <li><a href='https://github.com/chaunmt/Interactive-Prerequisite-Flowchart' target="_blank">Contribute to Github</a></li>
                 </ul>
             </nav>
