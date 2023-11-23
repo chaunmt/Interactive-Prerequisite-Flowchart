@@ -61,3 +61,43 @@ function Search({ sendResults }) {
 
 
 export default Search;
+
+//still working on it
+/*
+function Search({ sendResults }) {
+  const [inputValue, setInputValue] = useState('');
+  const [subject, setSubject] = useState('');
+  const [filteredData, setFilteredData] = useState([]);
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    setSubject(inputValue.trim().toUpperCase()); //subject code format
+  };
+
+  useEffect(() => {
+    if (subject) {
+      const access = Access(subject);
+      sendResults(access.courses());
+    }
+  }, [subject]);
+
+  const handleSearch = (event) => {
+    setInputValue(event.target.value);
+  };
+
+  useEffect(() => {
+    if (subject) {
+      const access = Access(subject);
+      const processedSearch = inputValue.replace(/\s+/g, '').toLowerCase();
+
+      // Filter based on the new data format
+      const result = access.courses().filter(course => {
+        return course.title.toLowerCase().replace(/\s+/g, '').includes(processedSearch) ||
+               course.code.toLowerCase().replace(/\s+/g, '').includes(processedSearch);
+      });
+
+      setFilteredData(result);
+      sendResults(result);
+    }
+  }, [inputValue, subject]);
+*/
