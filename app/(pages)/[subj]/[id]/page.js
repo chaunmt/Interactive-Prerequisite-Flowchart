@@ -1,12 +1,12 @@
 import Link from "next/link";
 import Mermaid from "../../../components/Mermaid";
-import {buildGraph, buildCombinedGraph} from "../../../data/graphBuilder";
+import buildGraph from "../../../data/graphBuilder";
 
 
 export default function Page({ params }) {
   var id = params.id;
   var subj = params.subj.toUpperCase();
-  var test = buildCombinedGraph([`${subj} ${id}`]);
+  var test = buildGraph(`${subj} ${id}`);
   
   return (
     <div>
