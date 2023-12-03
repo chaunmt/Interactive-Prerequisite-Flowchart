@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Mermaid from "../../../components/Mermaid";
-import buildGraph from "../../../data/graphBuilder";
+import {buildGraph} from "../../../data/graphBuilder";
 
 
 export default function Page({ params }) {
