@@ -1,9 +1,13 @@
 import Access from "./access"
 
 const use_elk = true;
-const graph_config = (use_elk
-  ? '---\nconfig:\n flowchart:\n  defaultRenderer: elk\n theme: dark\n themeVariables:\n  primaryColor: "#00ff00"\n---\n'
-  : '---\nconfig:\n theme: dark\n themeVariables:\n  primaryColor: "#00ff00"\n---\n'
+const graph_config = (use_elk  // neither of these work currently
+    // frontmatter is preferred
+    ? '---\nconfig:\n flowchart:\n  defaultRenderer: elk\n theme: dark\n---\n'
+    : '---\nconfig:\n theme: dark\n---\n'
+    // directives are deprecated
+    ? '%%{ init: { "theme": "dark", "flowchart": { "defaultRenderer": "elk" } } }%%\n'
+    : '%%{ init: { "theme": "dark" } }%%\n'
 );
 
 // DOES NOT RECURSIVELY BUILD YET (only traverses one level back)
@@ -17,7 +21,7 @@ export function buildCombinedGraph(courses) {
             if (preqs.code) return `${preqs.subject}_${preqs.id}[${preqs.code}]\n${preqs.subject}_${preqs.id} --> ${target}\n`
 
             let proc = ''
-            for (j = 0; j < preqs.length; j++) { proc += process(preqs[j], target) }
+            for (let i = 0; i < preqs.length; i++) { proc += process(preqs[i], target) }
             return proc
         }  // end of process
 
@@ -36,11 +40,11 @@ export function buildCombinedGraph(courses) {
     console.log("buildgraph:", courses)
     if (courses.length == 0) { console.log("WARNING: no courses passed in, built empty graph.") }
 
-    const accs = Map()  // add Access(subject) as they are made, reuse them when possible
+    const accs = new Map()  // add Access(subject) as they are made, reuse them when possible
     let course_dupes = []
     let graph = ''
 
-    for (var k = 0; k < courses.length; k++) {
+    for (let k = 0; k < courses.length; k++) {
         console.log('>', courses[k])
         let [subjcode, coursenum] = courses[k].split(' ', 2)
         if (!accs.has(subjcode)) { accs.set(subjcode, Access(subjcode)) }
@@ -48,7 +52,11 @@ export function buildCombinedGraph(courses) {
         graph = graph.concat( helper(subjcode, coursenum) )
     }
 
-    return graph_config + "graph TD\n" + graph
+    return (
+        // graph_config +
+        "graph TB\n" +
+        graph
+    )
 }
 
 // DOES NOT RECURSIVELY BUILD YET (only traverses one level back)

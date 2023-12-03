@@ -1,3 +1,8 @@
+/* 
+ * this file (/table/page.js) shouldn't exist--not removing it yet so people
+ * editing the correct one (/[subj]/table/page.js) can reference this
+ */
+
 // import Link from "next/link";
 // import GraphSearch from "../components/GraphSearch";
 // import mermaid from "mermaid";
