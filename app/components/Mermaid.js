@@ -1,15 +1,21 @@
 "use client"
 import React from "react";
 import { useEffect, useState } from "react";
-import mermaid from "mermaid"
+import mermaid from "mermaid";
 
+const config = {
+  theme: 'dark',
+  securityLevel: 'loose', // allows click interaction
+  startOnLoad: false, // do not render until react is ready
+  logLevel: 'debug',
+  flowchart: {
+    defaultRenderer: 'elk',
+    nodeSpacing: 50,
+    rankSpacing: 50,
+  }
+};
 
-mermaid.initialize({
-    //do not render until react is ready
-    startOnLoad: false,
-    //allow click events in mermaid
-    securityLevel: 'loose'
-})
+mermaid.initialize(config);
 
 export default function Mermaid({ graph }) {
     const [didMount, setDidMount] = useState(false);
