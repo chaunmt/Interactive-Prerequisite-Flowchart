@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import mermaid from "mermaid";
 
 const config = {
-  theme: 'dark',
+  // theme: 'dark',  // this should be dynamically updated
   securityLevel: 'loose', // allows click interaction
   startOnLoad: false, // do not render until react is ready
   logLevel: 'debug',
