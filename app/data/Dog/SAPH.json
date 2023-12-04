@@ -4,7 +4,7 @@
     "subject": "SAPH",
     "id": "5100",
     "title": "Pro-Seminar",
-    "info": "history, foundational frameworks, and key research domains for social and administrative pharmacy through examining landmark literature. students think critically, reflect on important works, and create a cognitive map of the discipline and their own focus for study.  ",
+    "info": "history, foundational frameworks, and key research domains for social and administrative pharmacy through examining landmark literature. students think critically, reflect on important works, and create a cognitive map of the discipline and their own focus for study.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -94,7 +94,7 @@
     "subject": "SAPH",
     "id": "8255",
     "title": "Pharmaceutical Marketing",
-    "info": "historical development of distributive systems, marketing channels, institutions, policies, and practices as they relate to pharmaceutical industry. contemporary issues/theory related to pharmaceutical marketing. pharmaceutical proportion, especially directed to consumer advertising.\n",
+    "info": "historical development of distributive systems, marketing channels, institutions, policies, and practices as they relate to pharmaceutical industry. contemporary issues/theory related to pharmaceutical marketing. pharmaceutical proportion, especially directed to consumer advertising.",
     "prereqInfo": "grad sacp major or  instr consent",
     "prereq": []
   },
@@ -186,7 +186,11 @@
     "title": "Doct Pre-Thesis Cr*",
     "info": "doctoral pre-thesis credits.",
     "prereqInfo": "doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": []
+    "prereq": {
+      "code": "SAPH 60",
+      "subject": "SAPH",
+      "id": "60"
+    }
   },
   {
     "code": "SAPH 8700",
@@ -213,7 +217,11 @@
     "title": "Thesis Credit:Mast*",
     "info": "(no description)",
     "prereqInfo": "max 18 cr per semester or summer; 10 cr total required [plan a only]",
-    "prereq": []
+    "prereq": {
+      "code": "SAPH 10",
+      "subject": "SAPH",
+      "id": "10"
+    }
   },
   {
     "code": "SAPH 8810",

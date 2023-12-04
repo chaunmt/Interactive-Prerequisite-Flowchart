@@ -4,7 +4,7 @@
     "subject": "CVM",
     "id": "1000",
     "title": "Intro. Vet Med",
-    "info": "history of veterinary profession, careers within the profession, employment trends.  information about admission to dvm.  veterinary technology programs. ",
+    "info": "history of veterinary profession, careers within the profession, employment trends.  information about admission to dvm.  veterinary technology programs.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -76,7 +76,7 @@
     "subject": "CVM",
     "id": "6007",
     "title": "Glbal Perpctve & Intercult Dev",
-    "info": "this course provides information on international and cultural immersion opportunities including finding and applying for opportunities, securing funding, and traveling safely. additionally, students will explore cultural humility through the intercultural development inventory, case studies, and class activities.  students will also have the opportunity to view posters and ask questions from current students who have participated in international projects ",
+    "info": "this course provides information on international and cultural immersion opportunities including finding and applying for opportunities, securing funding, and traveling safely. additionally, students will explore cultural humility through the intercultural development inventory, case studies, and class activities.  students will also have the opportunity to view posters and ask questions from current students who have participated in international projects",
     "prereqInfo": null,
     "prereq": []
   },
@@ -85,7 +85,7 @@
     "subject": "CVM",
     "id": "6008",
     "title": "Integrated Physiology",
-    "info": "fundamental principles of animal metabolism and physiology including the function of cells, skeletal muscle, heart and vascular system, gastrointestinal tract and nervous system. ",
+    "info": "fundamental principles of animal metabolism and physiology including the function of cells, skeletal muscle, heart and vascular system, gastrointestinal tract and nervous system.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -184,8 +184,8 @@
     "subject": "CVM",
     "id": "6025",
     "title": "LAH Practicum: Year 2",
-    "info": "animal handling, evaluation, treatment protocols. presentation/considerations related to veterinary diseases. case care. team skills. hospital procedures for clinical rotations. students provide primary case care and service support.\nprereq-2nd yr dvm or instr consent.",
-    "prereqInfo": null,
+    "info": "animal handling, evaluation, treatment protocols. presentation/considerations related to veterinary diseases. case care. team skills. hospital procedures for clinical rotations. students provide primary case care and service support.",
+    "prereqInfo": "-2nd yr dvm or instr consent.",
     "prereq": []
   },
   {
@@ -202,8 +202,8 @@
     "subject": "CVM",
     "id": "6027",
     "title": "LA Practicum: Year 3",
-    "info": "experience in procedures/policies involved in after-hours care of hospitalized/emergency cases in the large-animal hospital.\nprereq-3rd dvm or [instr consent, college consent]",
-    "prereqInfo": null,
+    "info": "experience in procedures/policies involved in after-hours care of hospitalized/emergency cases in the large-animal hospital.",
+    "prereqInfo": "-3rd dvm or [instr consent, college consent]",
     "prereq": []
   },
   {
@@ -319,7 +319,7 @@
     "subject": "CVM",
     "id": "6050",
     "title": "Animals and Society",
-    "info": "roles that animals have in society. problem-based learning. students research their assigned topics, followed by presentation (e.g., point-counter point debate, power point presentation, skits, educational handout, videos) at the beginning of class in the following class period. ",
+    "info": "roles that animals have in society. problem-based learning. students research their assigned topics, followed by presentation (e.g., point-counter point debate, power point presentation, skits, educational handout, videos) at the beginning of class in the following class period.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -495,7 +495,7 @@
     "subject": "CVM",
     "id": "6131",
     "title": "Mixed & Food Animal Problems",
-    "info": "this course combines cases commonly encountered in mixed or food animal practice and allows students to select assignments based on their track and species interest. all students will complete the same core cases emphasizing common learning objectives across species, and in addition, students will complete core and elective cases for their species of interest. ",
+    "info": "this course combines cases commonly encountered in mixed or food animal practice and allows students to select assignments based on their track and species interest. all students will complete the same core cases emphasizing common learning objectives across species, and in addition, students will complete core and elective cases for their species of interest.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -567,7 +567,7 @@
     "subject": "CVM",
     "id": "6201",
     "title": "Host Defenses",
-    "info": "mechanisms of host defense against microbial pathogens and neoplasia. immune-mediated pathologies such as allergies and autoimmunity. different immune cells/molecules, their roles in innate or adaptive immunity. interaction between the immune system and microbes, parasites, and viruses. ",
+    "info": "mechanisms of host defense against microbial pathogens and neoplasia. immune-mediated pathologies such as allergies and autoimmunity. different immune cells/molecules, their roles in innate or adaptive immunity. interaction between the immune system and microbes, parasites, and viruses.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -1098,8 +1098,8 @@
     "subject": "CVM",
     "id": "6491",
     "title": "Avian Core",
-    "info": "avian nutrition, physiology, anatomy, and disease.\nprereq-dvm or instr consent.",
-    "prereqInfo": null,
+    "info": "avian nutrition, physiology, anatomy, and disease.",
+    "prereqInfo": "-dvm or instr consent.",
     "prereq": []
   },
   {
@@ -1539,7 +1539,7 @@
     "subject": "CVM",
     "id": "6562",
     "title": "Adv Anesthesiology & Pain Med",
-    "info": "this course will provide additional experience in veterinary anesthesiology allowing safe and confident sedation and anesthesia of clinical cases (asa 1-3) beyond spays and neuters. the primary emphasis will be small companion animal anesthesia/analgesia; other species will be included when possible (schedule and case-load dependent). ",
+    "info": "this course will provide additional experience in veterinary anesthesiology allowing safe and confident sedation and anesthesia of clinical cases (asa 1-3) beyond spays and neuters. the primary emphasis will be small companion animal anesthesia/analgesia; other species will be included when possible (schedule and case-load dependent).",
     "prereqInfo": null,
     "prereq": []
   },
@@ -1569,13 +1569,9 @@
     "info": "problem-solving skills, clinical skills, communication skills, record keeping, ethical issues in referral cases. methods of knowledge acquisition, including computerized searches and diagnostic programs. small group rounds discussions.  students assist clinicians in management of referral/emergency cases. cases typically related to gastroenterology, nephrology, urology, oncology, nutrition, neurology, and cardiology.",
     "prereqInfo": "[6601, [dvm 3rd or 4th yr]] or instr consent",
     "prereq": {
-      "and": [
-        {
-          "code": "CVM 6601",
-          "subject": "CVM",
-          "id": "6601"
-        }
-      ]
+      "code": "CVM 6601",
+      "subject": "CVM",
+      "id": "6601"
     }
   },
   {
@@ -1655,7 +1651,7 @@
     "subject": "CVM",
     "id": "6611",
     "title": "Equine Dentistry Elective",
-    "info": "equine dental disorders for the equine or mixed animal practitioner. oral health maintenance in horses and diagnosis of dental disorders. ",
+    "info": "equine dental disorders for the equine or mixed animal practitioner. oral health maintenance in horses and diagnosis of dental disorders.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -1901,13 +1897,9 @@
     "info": "basic veterinary acupuncture theory, point combination, treatment, diagnosis of diseases, hands-on veterinary acupuncture technique.",
     "prereqInfo": "[6690, [yr 3 or 4 dvm]] or instr consent",
     "prereq": {
-      "and": [
-        {
-          "code": "CVM 6690",
-          "subject": "CVM",
-          "id": "6690"
-        }
-      ]
+      "code": "CVM 6690",
+      "subject": "CVM",
+      "id": "6690"
     }
   },
   {
@@ -2140,7 +2132,7 @@
     "subject": "CVM",
     "id": "6733",
     "title": "Equine Dentistry and Nutrition",
-    "info": "equine dentistry and practical abilities for diagnosis/treatment of dental disorders. equine nutrition and the practical application of common nutrition related health problems. lectures, hands on activities, group work, and case correlates. ",
+    "info": "equine dentistry and practical abilities for diagnosis/treatment of dental disorders. equine nutrition and the practical application of common nutrition related health problems. lectures, hands on activities, group work, and case correlates.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -2180,7 +2172,7 @@
     "subject": "CVM",
     "id": "6738",
     "title": "Equine Podiatry",
-    "info": "concepts of equine podiatry. anatomy and physiology of foot and hoof. labs to provide experience supporting lessons learned in lectures. disease seminars and discussion of actual cases. labs introducing basic techniques and methods of treatment for injuries.\n",
+    "info": "concepts of equine podiatry. anatomy and physiology of foot and hoof. labs to provide experience supporting lessons learned in lectures. disease seminars and discussion of actual cases. labs introducing basic techniques and methods of treatment for injuries.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -2189,7 +2181,7 @@
     "subject": "CVM",
     "id": "6739",
     "title": "Prof Dev in Clinical Training",
-    "info": "students will complete valuable work including writing manuscripts for publication, completing research work toward an advanced degree, achieving certifications (fear free handling, beef quality assurance), taking courses not available in our curriculum (aquaculture, spanish for veterinarians), and preparing for navle. ",
+    "info": "students will complete valuable work including writing manuscripts for publication, completing research work toward an advanced degree, achieving certifications (fear free handling, beef quality assurance), taking courses not available in our curriculum (aquaculture, spanish for veterinarians), and preparing for navle.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -2421,13 +2413,9 @@
     "info": "cattle health, production medicine. topics not included in core, more extensive discussion of conditions introduced in core.",
     "prereqInfo": "[6802, [dvm 3rd or 4th yr]] or instr consent",
     "prereq": {
-      "and": [
-        {
-          "code": "CVM 6802",
-          "subject": "CVM",
-          "id": "6802"
-        }
-      ]
+      "code": "CVM 6802",
+      "subject": "CVM",
+      "id": "6802"
     }
   },
   {
@@ -2529,8 +2517,8 @@
     "subject": "CVM",
     "id": "6815",
     "title": "Dairy Ruminant Nutrition",
-    "info": "basic principles of nutritional management of ruminant, including digestive physiology, nutrient requirements, common feed stuffs, forage management, processing and storage systems, laboratory analysis of nutrient composition of feed stuffs, feeding management systems, and nutrition-related health disorders. develop skills using different techniques (e.g. spreadsheet analysis, spartan ration balancing software program, dairycomp 305 production and health records) to evaluate nutritional management programs. on-farm investigations include assessment of forage quality, feeding management, environment, facilities, cow comfort, dry matter intakes, ration effective fiber, ration moisture content, urine phs, body condition scoring, and production records review. discussion of unique aspects of nutritional management of beef cattle and small ruminants. highly recommended for students interested in dairy or beef practice. prerequisite for students considering later enrolling in applied dairy nutrition.",
-    "prereqInfo": null,
+    "info": "basic principles of nutritional management of ruminant, including digestive physiology, nutrient requirements, common feed stuffs, forage management, processing and storage systems, laboratory analysis of nutrient composition of feed stuffs, feeding management systems, and nutrition-related health disorders. develop skills using different techniques (e.g. spreadsheet analysis, spartan ration balancing software program, dairycomp 305 production and health records) to evaluate nutritional management programs. on-farm investigations include assessment of forage quality, feeding management, environment, facilities, cow comfort, dry matter intakes, ration effective fiber, ration moisture content, urine phs, body condition scoring, and production records review. discussion of unique aspects of nutritional management of beef cattle and small ruminants. highly recommended for students interested in dairy or beef practice.",
+    "prereqInfo": "uisite for students considering later enrolling in applied dairy nutrition.",
     "prereq": []
   },
   {
@@ -2565,7 +2553,7 @@
     "subject": "CVM",
     "id": "6819",
     "title": "Advanced dentistry",
-    "info": "the goal of this rotation is to allow fourth year students to run their own cases as if they are out in practice while still having back-up from the dentistry clinicians. this is the final step in dentistry education. ",
+    "info": "the goal of this rotation is to allow fourth year students to run their own cases as if they are out in practice while still having back-up from the dentistry clinicians. this is the final step in dentistry education.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -2889,8 +2877,8 @@
     "subject": "CVM",
     "id": "6880",
     "title": "Avian Core",
-    "info": "avian nutrition, physiology, anatomy, and disease.\nprereq-dvm or instr consent.",
-    "prereqInfo": null,
+    "info": "avian nutrition, physiology, anatomy, and disease.",
+    "prereqInfo": "-dvm or instr consent.",
     "prereq": []
   },
   {
@@ -2920,7 +2908,7 @@
     "subject": "CVM",
     "id": "6884",
     "title": "Poultry Medicine Clerkship",
-    "info": "broiler, layer, and turkey industries, performance analysis, disease diagnosis, management techniques for prevention/control of disease, food safety problems and diagnostic pathology in a laboratory setting. classroom presentations, discussions, on-farm evaluations. ",
+    "info": "broiler, layer, and turkey industries, performance analysis, disease diagnosis, management techniques for prevention/control of disease, food safety problems and diagnostic pathology in a laboratory setting. classroom presentations, discussions, on-farm evaluations.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -2929,7 +2917,7 @@
     "subject": "CVM",
     "id": "6889",
     "title": "Spay/Neuter Anes Practicum",
-    "info": "this rotation is designed to give you experience in elective procedures such as ovariohysterectomies, castrations, and umbilical hernia repairs on cats and dogs and the anesthesia required for them. animals are supplied by local animal shelters and rescue groups. the surgeries you provide will make them more adoptable. this elective was designed to help you transition into a practitioner capable of anesthesia and surgery for gonadectomies. we will not teach high-volume surgery techniques in this course as this is not a high-volume spay/neuter rotation.  however, you will be assigned a day to travel to a high quality high volume spay neuter operation on 2 of the 4 fridays of the rotation. ",
+    "info": "this rotation is designed to give you experience in elective procedures such as ovariohysterectomies, castrations, and umbilical hernia repairs on cats and dogs and the anesthesia required for them. animals are supplied by local animal shelters and rescue groups. the surgeries you provide will make them more adoptable. this elective was designed to help you transition into a practitioner capable of anesthesia and surgery for gonadectomies. we will not teach high-volume surgery techniques in this course as this is not a high-volume spay/neuter rotation.  however, you will be assigned a day to travel to a high quality high volume spay neuter operation on 2 of the 4 fridays of the rotation.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -2983,7 +2971,7 @@
     "subject": "CVM",
     "id": "6905",
     "title": "Professional Development I",
-    "info": "this course is the first in the pd course series. students will be introduced to the cbve framework and the four streams that are at the heart of the course series. the overall goal of this course is to help students transition to veterinary school, and later, to the veterinary profession.\n",
+    "info": "this course is the first in the pd course series. students will be introduced to the cbve framework and the four streams that are at the heart of the course series. the overall goal of this course is to help students transition to veterinary school, and later, to the veterinary profession.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -3001,7 +2989,7 @@
     "subject": "CVM",
     "id": "6907",
     "title": "Professional Development II",
-    "info": "develop knowledge/proficiency needed to be successful veterinarian in areas such as communication, ethics, clinical decision-making, medical record keeping. lecture, hands-on experiences, small group/mentor group discussions. the course will provide an overview of one-health, animal welfare, legislative/current issues, and field trips to visit animal production facilities. ",
+    "info": "develop knowledge/proficiency needed to be successful veterinarian in areas such as communication, ethics, clinical decision-making, medical record keeping. lecture, hands-on experiences, small group/mentor group discussions. the course will provide an overview of one-health, animal welfare, legislative/current issues, and field trips to visit animal production facilities.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -3091,7 +3079,7 @@
     "subject": "CVM",
     "id": "6917",
     "title": "Agents of Disease II",
-    "info": "this course is the second part of the agents of disease series dealing with diseases caused by infectious agents. this course extends the foundational information obtained on viruses, bacteria and parasites in agents of disease i, into understanding diseases caused by these agents in species of veterinary importance. in this course we will continue to integrate concepts on pathogenesis, life cycle, host response, diagnostic tests, and transmission of agents of diseases into developing solutions for diagnosis, prevention and control of infectious diseases in animals. ",
+    "info": "this course is the second part of the agents of disease series dealing with diseases caused by infectious agents. this course extends the foundational information obtained on viruses, bacteria and parasites in agents of disease i, into understanding diseases caused by these agents in species of veterinary importance. in this course we will continue to integrate concepts on pathogenesis, life cycle, host response, diagnostic tests, and transmission of agents of diseases into developing solutions for diagnosis, prevention and control of infectious diseases in animals.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -3127,7 +3115,7 @@
     "subject": "CVM",
     "id": "6921",
     "title": "Clinical Skills III",
-    "info": "builds on clinical application of first year clinical skills. include 2-3 clinical skills labs throughout year. hands on practical experience with live animals. other options include vmc mini rotations, humane society visits, sirvs, ravs, gelding project, vida, vettouch other student specific proposals. ",
+    "info": "builds on clinical application of first year clinical skills. include 2-3 clinical skills labs throughout year. hands on practical experience with live animals. other options include vmc mini rotations, humane society visits, sirvs, ravs, gelding project, vida, vettouch other student specific proposals.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -3136,7 +3124,7 @@
     "subject": "CVM",
     "id": "6922",
     "title": "Clinical Epidemiology",
-    "info": "this course introduces the concepts, principles, and applications of veterinary epidemiology. veterinary epidemiology is the foundation of health management of animal populations, be they companion animals, livestock or wild populations. clinical epidemiology provides the basis for medical decision-making in clinical practice. ",
+    "info": "this course introduces the concepts, principles, and applications of veterinary epidemiology. veterinary epidemiology is the foundation of health management of animal populations, be they companion animals, livestock or wild populations. clinical epidemiology provides the basis for medical decision-making in clinical practice.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -3163,7 +3151,7 @@
     "subject": "CVM",
     "id": "6925",
     "title": "Diagnostic Laboratory",
-    "info": "laboratory experiences designed to help veterinary students practice common clinical tests, understand principles of various types of tests, gain better appreciation of test selection/interpretation. urinalysis, hematology, serology, detection of parasitic/microbial agents of disease. this course represents an effort to collect the relevant clinical laboratory information needed by the practicing veterinarian. ",
+    "info": "laboratory experiences designed to help veterinary students practice common clinical tests, understand principles of various types of tests, gain better appreciation of test selection/interpretation. urinalysis, hematology, serology, detection of parasitic/microbial agents of disease. this course represents an effort to collect the relevant clinical laboratory information needed by the practicing veterinarian.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -3181,7 +3169,7 @@
     "subject": "CVM",
     "id": "6927",
     "title": "Small Animal Surgery I",
-    "info": "provide students with the basic knowledge and skills needed to evaluate and treat common small animal surgical diseases. provide students with background knowledge, problem-solving, and technical skills that will be the basis for clinical rotations and initial years in practice. ",
+    "info": "provide students with the basic knowledge and skills needed to evaluate and treat common small animal surgical diseases. provide students with background knowledge, problem-solving, and technical skills that will be the basis for clinical rotations and initial years in practice.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -3226,7 +3214,7 @@
     "subject": "CVM",
     "id": "6932",
     "title": "Gov/Industry/Wildlife Careers",
-    "info": "introductory course for first year veterinary students. overview of veterinary career opportunities and activities related to non-domestic species including zoo, rehabilitation, wildlife, and conservation medicine, as well as careers in government and private industry.\n",
+    "info": "introductory course for first year veterinary students. overview of veterinary career opportunities and activities related to non-domestic species including zoo, rehabilitation, wildlife, and conservation medicine, as well as careers in government and private industry.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -3253,7 +3241,7 @@
     "subject": "CVM",
     "id": "6935",
     "title": "Veterinary Imaging",
-    "info": "introduction to radiographic imaging, foundational principles, imaging modalities, and musculoskeletal, general abdomen and alimentary tract systems. interpretation of radiographic studies and clinical applications germane to common animal diseases. lectures and exercises using a body systems approach to imaging of large/small animals. ",
+    "info": "introduction to radiographic imaging, foundational principles, imaging modalities, and musculoskeletal, general abdomen and alimentary tract systems. interpretation of radiographic studies and clinical applications germane to common animal diseases. lectures and exercises using a body systems approach to imaging of large/small animals.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -3280,7 +3268,7 @@
     "subject": "CVM",
     "id": "6938",
     "title": "Professional Development III",
-    "info": "this course is the third of six in the pd course series. students will continue to work within the cbve framework and the four domains that are at the heart of the course series. ",
+    "info": "this course is the third of six in the pd course series. students will continue to work within the cbve framework and the four domains that are at the heart of the course series.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -3289,7 +3277,7 @@
     "subject": "CVM",
     "id": "6939",
     "title": "Non-Traditional Pets",
-    "info": "introduction to the care and handling of a variety of small animals including reptiles, amphibians, rodents, rabbits and ferrets, seen by veterinarians in primary care practice. this course provides an overview of gross and radiographic anatomy, major infectious diseases and their management, and normal behavior in domestic environments.  ",
+    "info": "introduction to the care and handling of a variety of small animals including reptiles, amphibians, rodents, rabbits and ferrets, seen by veterinarians in primary care practice. this course provides an overview of gross and radiographic anatomy, major infectious diseases and their management, and normal behavior in domestic environments.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -3361,7 +3349,7 @@
     "subject": "CVM",
     "id": "6947",
     "title": "Veterinary Imaging II",
-    "info": "imaging of the thorax, urogenital tract, and spine. emphasis on interpretation of radiographic studies and clinical applications germane to common animal diseases. lectures and active learning exercises using a body systems approach to imaging (primarily radiographic) of small and large animals.",
+    "info": "imaging of the thorax, urogenital tract, and spine. emphasis on interpretation of radiographic studies and clinical applications germane to common animal diseases. lectures and active learning exercises using a body system's approach to imaging (primarily radiographic) of small and large animals.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -3532,8 +3520,8 @@
     "subject": "CVM",
     "id": "6966",
     "title": "Apld SmRu & Camelid Practice",
-    "info": "this course will build upon previously taught core material focusing on diagnosing, treating, and preventing common problems seen in routine veterinary practice with sheep, goats, and camelids. this course will be a prerequisite for 4th year small ruminant and doe/kid rotations (unless instructor permission is given). ",
-    "prereqInfo": null,
+    "info": "this course will build upon previously taught core material focusing on diagnosing, treating, and preventing common problems seen in routine veterinary practice with sheep, goats, and camelids. this course will be a",
+    "prereqInfo": "uisite for 4th year small ruminant and doe/kid rotations (unless instructor permission is given).",
     "prereq": []
   },
   {
@@ -3568,7 +3556,7 @@
     "subject": "CVM",
     "id": "6970",
     "title": "Professional Development V",
-    "info": "this course is the fifth in the pd course series. students will be (re-)introduced to the cbve framework and the four streams that are at the heart of the course series. entering veterinary school and the veterinary workforce bring new sets of opportunities and challenges. the overall goal of this program is to help students transition to veterinary school, and later, to the veterinary profession.\n",
+    "info": "this course is the fifth in the pd course series. students will be (re-)introduced to the cbve framework and the four streams that are at the heart of the course series. entering veterinary school and the veterinary workforce bring new sets of opportunities and challenges. the overall goal of this program is to help students transition to veterinary school, and later, to the veterinary profession.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -3613,7 +3601,7 @@
     "subject": "CVM",
     "id": "6975",
     "title": "Mixed Animal Problems",
-    "info": "this course uses a mixture of didactic classroom mini-lecture and group discussion and case-based homework to cover a variety of problems encountered in small and large animal medicine and laboratory animal medicine. ",
+    "info": "this course uses a mixture of didactic classroom mini-lecture and group discussion and case-based homework to cover a variety of problems encountered in small and large animal medicine and laboratory animal medicine.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -3622,8 +3610,8 @@
     "subject": "CVM",
     "id": "6976",
     "title": "Small Ruminant Practice Elec",
-    "info": "this course will build upon previously taught core fa material focusing on diagnosing, treating, and preventing common problems seen in routine veterinary practice with sheep and goats. this course will be a prerequisite for 4th year small ruminant and doe/kid rotations (unless instructor permission is given).",
-    "prereqInfo": null,
+    "info": "this course will build upon previously taught core fa material focusing on diagnosing, treating, and preventing common problems seen in routine veterinary practice with sheep and goats. this course will be a",
+    "prereqInfo": "uisite for 4th year small ruminant and doe/kid rotations (unless instructor permission is given).",
     "prereq": []
   },
   {
@@ -3631,7 +3619,7 @@
     "subject": "CVM",
     "id": "6977",
     "title": "Adv Dairy Production Med I",
-    "info": "this rotation will give students the background necessary to provide production medicine related services. the concepts introduced in odpm will used as a basis to explore topics further. this will allow participants to assist clients in making decisions that enhance their farms productivity, promote animal and financial well-being. ",
+    "info": "this rotation will give students the background necessary to provide production medicine related services. the concepts introduced in odpm will used as a basis to explore topics further. this will allow participants to assist clients in making decisions that enhance their farms productivity, promote animal and financial well-being.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -3640,7 +3628,7 @@
     "subject": "CVM",
     "id": "6978",
     "title": "Adv Dairy Production Med II",
-    "info": "this rotation will give students the background necessary to provide production medicine related services. the concepts introduced in odpm will used as a basis to explore topics further. this will allow participants to assist clients in making decisions that enhance their farms productivity, promote animal and financial well-being. ",
+    "info": "this rotation will give students the background necessary to provide production medicine related services. the concepts introduced in odpm will used as a basis to explore topics further. this will allow participants to assist clients in making decisions that enhance their farms productivity, promote animal and financial well-being.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -3766,7 +3754,7 @@
     "subject": "CVM",
     "id": "6992",
     "title": "Vet Genetics and Genomics",
-    "info": "this course integrates principles of genetics and genomics, with the goals of illustrating how an understanding of these molecular biosciences enables a better understanding of the many mechanisms at play in animal health and disease. ",
+    "info": "this course integrates principles of genetics and genomics, with the goals of illustrating how an understanding of these molecular biosciences enables a better understanding of the many mechanisms at play in animal health and disease.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -3811,7 +3799,7 @@
     "subject": "CVM",
     "id": "6997",
     "title": "Veterinary Clinical Experience",
-    "info": "this is  1-week clinical experience with virtual and or hands-on training under the supervision of a veterinarian or trained professional in a related profession that fosters clinical decision-making and growth in the areas of veterinary knowledge, technical skills, and/or professionalism. ",
+    "info": "this is  1-week clinical experience with virtual and or hands-on training under the supervision of a veterinarian or trained professional in a related profession that fosters clinical decision-making and growth in the areas of veterinary knowledge, technical skills, and/or professionalism.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -3820,7 +3808,7 @@
     "subject": "CVM",
     "id": "6998",
     "title": "Evidence Based Decision Making",
-    "info": "this course allows students to use evidence based medicine principles to answer clinical questions. this includes incorporating patient values, clinical experience, and the best evidence. we will start with assigned reading of specific journal articles and discussion of those articles and their evidentiary value. we will then move to clinical cases that naturally elicit a clinical question. the students will search relevant data bases to find possible sources for the answer, read the sources to determine the best evidence, write a client\neducation handout justifying the recommendation. ",
+    "info": "this course allows students to use evidence based medicine principles to answer clinical questions. this includes incorporating patient values, clinical experience, and the best evidence. we will start with assigned reading of specific journal articles and discussion of those articles and their evidentiary value. we will then move to clinical cases that naturally elicit a clinical question. the students will search relevant data bases to find possible sources for the answer, read the sources to determine the best evidence, write a client\neducation handout justifying the recommendation.",
     "prereqInfo": null,
     "prereq": []
   },

@@ -17,17 +17,30 @@
     "subject": "GCD",
     "id": "2171",
     "title": "Stem Cells in Biomedicine",
-    "info": "a course that focuses on the general properties of stem cells, their potential uses in biomedicine, and the potential impact of their use on society. the course is suitable for students who have successfully completed at least one general biology course that included coverage of basic genetics and cell biology. stem cells are one of the rapidly growing topics in biology. research into stem cells ranges from basic biology to regeneration to clinical applications to ethics. in this course, you will learn the general features of embryonic, artificial, or adult-tissue stem cells: how they contribute to tissue regeneration, how scientists create and manipulate stem cells, what scientists do with them, what the public considers stem cell research and why. then, you will learn about bone marrow transplantation, an established stem cell-based therapy, and various diseases and potential applications of stem cells to treat/cure the diseases. by the end of this course, you will have deeper insights into stem cells. recommended prerequisites: biol1009 (general biology), biol1951 (foundations of biology lecture i for biological sciences majors) or an equivalent general biology course that includes basic coverage of genetics and cell biology this course can not be used as an elective for some cbs majors, such as the gcd major. check the program requirements for your major to determine if it can be used as an elective.",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "a course that focuses on the general properties of stem cells, their potential uses in biomedicine, and the potential impact of their use on society. the course is suitable for students who have successfully completed at least one general biology course that included coverage of basic genetics and cell biology. stem cells are one of the rapidly growing topics in biology. research into stem cells ranges from basic biology to regeneration to clinical applications to ethics. in this course, you will learn the general features of embryonic, artificial, or adult-tissue stem cells: how they contribute to tissue regeneration, how scientists create and manipulate stem cells, what scientists do with them, what the public considers stem cell research and why. then, you will learn about bone marrow transplantation, an established stem cell-based therapy, and various diseases and potential applications of stem cells to treat/cure the diseases. by the end of this course, you will have deeper insights into stem cells. recommended",
+    "prereqInfo": "biol1009 (general biology), biol1951 (foundations of biology lecture i for biological sciences majors) or an equivalent general biology course that includes basic coverage of genetics and cell biology this course can not be used as an elective for some cbs majors, such as the gcd major. check the program requirements for your major to determine if it can be used as an elective.",
+    "prereq": {
+      "and": [
+        {
+          "code": "BIOL 1009",
+          "subject": "BIOL",
+          "id": "1009"
+        },
+        {
+          "code": "BIOL 1951",
+          "subject": "BIOL",
+          "id": "1951"
+        }
+      ]
+    }
   },
   {
     "code": "GCD 3022",
     "subject": "GCD",
     "id": "3022",
     "title": "Genetics",
-    "info": "mechanisms of heredity, implications for biological populations. applications to practical problems.",
-    "prereqInfo": "*credit will not be granted if credit has been received for biol4003",
+    "info": "mechanisms of heredity, implications for biological populations. applications to practical problems.\n\n*credit will not be granted if credit has been received for biol4003",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -57,7 +70,7 @@
     "subject": "GCD",
     "id": "3485",
     "title": "Bioinformatic Analysis",
-    "info": "bioinformatic analysis is the exploration of molecular sequence, structure, and function using online tools and databases. in this class, we'll learn to use some of the most powerful tools available for biologists to investigate the nature of genes and proteins. we will each explore a gene and the protein it encodes that no one before us has studied. we will learn to analyze and interpret the diverse forms of bioinformatic data we obtain, and we will consider how the data we find allows us to generate and evaluate original hypotheses that can be tested in the laboratory. this is a hands-on course. while the class has no exams, it does require the completion of four problem sets and a summative final project over the course of the semester. it also involves doing some peer review of classmates’ work. ",
+    "info": "bioinformatic analysis is the exploration of molecular sequence, structure, and function using online tools and databases. in this class, we'll learn to use some of the most powerful tools available for biologists to investigate the nature of genes and proteins. we will each explore a gene and the protein it encodes that no one before us has studied. we will learn to analyze and interpret the diverse forms of bioinformatic data we obtain, and we will consider how the data we find allows us to generate and evaluate original hypotheses that can be tested in the laboratory. this is a hands-on course. while the class has no exams, it does require the completion of four problem sets and a summative final project over the course of the semester. it also involves doing some peer review of classmates’ work.",
     "prereqInfo": "introductory course in genetics and cell biology such as foundations",
     "prereq": []
   },
@@ -66,32 +79,43 @@
     "subject": "GCD",
     "id": "3486",
     "title": "Personal Genome Analysis",
-    "info": "in this course, students will analyze their personal genome data. they will gain experience using computer applications and online databases of human genetic information. they will learn about their ancestry, their regional origins, and their risks of genetically linked disease. they will learn how to put human genome results into context and how to explain human genomics in non-technical language. ",
+    "info": "in this course, students will analyze their personal genome data. they will gain experience using computer applications and online databases of human genetic information. they will learn about their ancestry, their regional origins, and their risks of genetically linked disease. they will learn how to put human genome results into context and how to explain human genomics in non-technical language.",
     "prereqInfo": "biol 2003/2003h",
-    "prereq": [
-      {
-        "code": "BIOL 2003",
-        "subject": "BIOL",
-        "id": "2003"
-      },
-      {
-        "code": "GCD 2003",
-        "subject": "GCD",
-        "id": "2003"
-      }
-    ]
+    "prereq": {
+      "and": [
+        {
+          "code": "BIOL 2003",
+          "subject": "BIOL",
+          "id": "2003"
+        },
+        {
+          "code": "GCD 2003",
+          "subject": "GCD",
+          "id": "2003"
+        }
+      ]
+    }
   },
   {
     "code": "GCD 4005W",
     "subject": "GCD",
     "id": "4005W",
     "title": "Cell Biology-Writing Intensive",
-    "info": "processes fundamental to cells. emphasizes eukaryotic cells. assembly/function of membranes/organelles. cell division, cell form/movement, intercellular communication, transport, secretion pathways. cancer cells, differentiated cells. ",
+    "info": "processes fundamental to cells. emphasizes eukaryotic cells. assembly/function of membranes/organelles. cell division, cell form/movement, intercellular communication, transport, secretion pathways. cancer cells, differentiated cells.",
     "prereqInfo": "gcd major, biol2003/2003h or biol4003 or grad",
     "prereq": {
-      "code": "GCD 2003H",
-      "subject": "GCD",
-      "id": "2003H"
+      "and": [
+        {
+          "code": "BIOL 2003",
+          "subject": "BIOL",
+          "id": "2003"
+        },
+        {
+          "code": "BIOL 4003",
+          "subject": "BIOL",
+          "id": "4003"
+        }
+      ]
     }
   },
   {
@@ -108,27 +132,34 @@
     "subject": "GCD",
     "id": "4025",
     "title": "Cell Biol, Dev & Regen Lab",
-    "info": "this course is designed for juniors and seniors to learn experimental approaches and techniques to study cellular processes and stem cell biology during animal development and tissue regeneration. students will be exposed to the advantages of different model systems that include cultured cells, chick, c. elegans and zebrafish. students will learn to manipulate the cytoskeleton, perform cell differentiation, rnai and regeneration assays, and to image both fixed tissue and live animal samples with conventional light microscopes as well as cutting edge technology, including super-resolution and multi-photon microscopes. ",
+    "info": "this course is designed for juniors and seniors to learn experimental approaches and techniques to study cellular processes and stem cell biology during animal development and tissue regeneration. students will be exposed to the advantages of different model systems that include cultured cells, chick, c. elegans and zebrafish. students will learn to manipulate the cytoskeleton, perform cell differentiation, rnai and regeneration assays, and to image both fixed tissue and live animal samples with conventional light microscopes as well as cutting edge technology, including super-resolution and multi-photon microscopes.",
     "prereqInfo": "biol 2003/2003h or instructor permission; recommended prerequisite: biol 4004 or gcd 4005w (priority enrollment to gcd majors)",
-    "prereq": [
-      {
-        "code": "BIOL 2003",
-        "subject": "BIOL",
-        "id": "2003"
-      },
-      {
-        "code": "GCD 2003",
-        "subject": "GCD",
-        "id": "2003"
-      }
-    ]
+    "prereq": {
+      "and": [
+        {
+          "code": "BIOL 2003",
+          "subject": "BIOL",
+          "id": "2003"
+        },
+        {
+          "code": "BIOL 4004",
+          "subject": "BIOL",
+          "id": "4004"
+        },
+        {
+          "code": "GCD 4005",
+          "subject": "GCD",
+          "id": "4005"
+        }
+      ]
+    }
   },
   {
     "code": "GCD 4034",
     "subject": "GCD",
     "id": "4034",
     "title": "Molecular Genetics & Genomics",
-    "info": "molecular genetics and genomics of eukaryotes. course emphasizes mechanisms of gene regulation and how these are studied. current strategies used to study the activity and function of genes and genomes, including the role of chromatin, will be covered. techniques will include gene knockouts/knockdown, genome engineering, genome-wide analysis of rna and protein expression and function, as well as genome-wide protein binding and chromatin interaction mapping. technologies covered will include next-generations and third-generation sequencing and crispr-based strategies for gene modification and precision gene regulation. students will analyze and present recent primary papers in molecular genetic and genomics. ",
+    "info": "molecular genetics and genomics of eukaryotes. course emphasizes mechanisms of gene regulation and how these are studied. current strategies used to study the activity and function of genes and genomes, including the role of chromatin, will be covered. techniques will include gene knockouts/knockdown, genome engineering, genome-wide analysis of rna and protein expression and function, as well as genome-wide protein binding and chromatin interaction mapping. technologies covered will include next-generations and third-generation sequencing and crispr-based strategies for gene modification and precision gene regulation. students will analyze and present recent primary papers in molecular genetic and genomics.",
     "prereqInfo": "biol 4003",
     "prereq": {
       "code": "BIOL 4003",
@@ -141,7 +172,7 @@
     "subject": "GCD",
     "id": "4111",
     "title": "Histology",
-    "info": "structure/function of vertebrate tissues/organs. electron microscopy, light microscopy, physiology, cell biology of higher animals. light microscopy of mammalian tissues. ",
+    "info": "structure/function of vertebrate tissues/organs. electron microscopy, light microscopy, physiology, cell biology of higher animals. light microscopy of mammalian tissues.",
     "prereqInfo": "gcd 3033 or biol 4004 or instructor consent",
     "prereq": {
       "or": [
@@ -195,7 +226,7 @@
     "subject": "GCD",
     "id": "4143",
     "title": "Human Genetics and Genomics",
-    "info": "human genetics – the science of how our genomes function, vary, and shape our unique, individual characteristics – is a rapidly expanding field with major implications for medical and fundamental research, clinical practice, and many other areas. in this course, students will learn about the principles of human genetics & genomics at the levels of molecules, cells, individuals, and populations. topics include patterns of inheritance; the molecular causes and biochemical basis of genetic disorders; disease gene identification; the origin and distribution of human genetic variation; genetic influences on common, complex diseases; epigenetics and regulation of gene expression; genomic technologies for understanding human genomes; cancer genetics; behavioral genetics; human ancestry and evolution; applications such as genetic screening, genetic counseling, and gene therapy; and ethical questions raised by emerging abilities to edit the human genome, modify the human germline, and many more. ",
+    "info": "human genetics – the science of how our genomes function, vary, and shape our unique, individual characteristics – is a rapidly expanding field with major implications for medical and fundamental research, clinical practice, and many other areas. in this course, students will learn about the principles of human genetics & genomics at the levels of molecules, cells, individuals, and populations. topics include patterns of inheritance; the molecular causes and biochemical basis of genetic disorders; disease gene identification; the origin and distribution of human genetic variation; genetic influences on common, complex diseases; epigenetics and regulation of gene expression; genomic technologies for understanding human genomes; cancer genetics; behavioral genetics; human ancestry and evolution; applications such as genetic screening, genetic counseling, and gene therapy; and ethical questions raised by emerging abilities to edit the human genome, modify the human germline, and many more.",
     "prereqInfo": "biol 4003 or instructor consent",
     "prereq": {
       "code": "BIOL 4003",
@@ -208,7 +239,7 @@
     "subject": "GCD",
     "id": "4144W",
     "title": "Human Genetics - WI",
-    "info": "human genetics is the science of how our genomes function, vary, and shape our unique, individual characteristics and is a rapidly expanding field with major implications for medical and fundamental research, clinical practice, and many other areas. in this course, students will learn about the principles of human genetics & genomics at the levels of molecules, cells, individuals, and populations. topics include patterns of inheritance; the molecular causes and biochemical basis of genetic disorders; disease gene identification; the origin and distribution of human genetic variation; genetic influences on common, complex diseases; epigenetics and regulation of gene expression; genomic technologies for understanding human genomes; cancer genetics; behavioral genetics; human ancestry and evolution; applications such as genetic screening, genetic counseling, and gene therapy; and ethical questions raised by emerging abilities to edit the human genome, modify the human germline, and many more. this writing intensive course is available only to health and genomics minors. ",
+    "info": "human genetics is the science of how our genomes function, vary, and shape our unique, individual characteristics and is a rapidly expanding field with major implications for medical and fundamental research, clinical practice, and many other areas. in this course, students will learn about the principles of human genetics & genomics at the levels of molecules, cells, individuals, and populations. topics include patterns of inheritance; the molecular causes and biochemical basis of genetic disorders; disease gene identification; the origin and distribution of human genetic variation; genetic influences on common, complex diseases; epigenetics and regulation of gene expression; genomic technologies for understanding human genomes; cancer genetics; behavioral genetics; human ancestry and evolution; applications such as genetic screening, genetic counseling, and gene therapy; and ethical questions raised by emerging abilities to edit the human genome, modify the human germline, and many more. this writing intensive course is available only to health and genomics minors.",
     "prereqInfo": "biol 4003 or instr consent; health and genomics minor",
     "prereq": {
       "code": "BIOL 4003",
@@ -234,12 +265,26 @@
     "subject": "GCD",
     "id": "4161",
     "title": "Developmental Biology",
-    "info": "developmental biology is the study of the process by which organisms grow and develop from embryo to adult. this field encompasses the biology of morphogenesis, differentiation, regeneration, metamorphosis, and the growth and differentiation of stem cells. topics focus primarily on animal development to include fertilization, cell specification, body patterning, stem cells, neurogenesis, organogenesis, limb formation, regeneration, sex determination, and developmental timing, as well as environmental impacts on development. students will learn about genetic models such as fruit flies, nematodes, fish, mice, and plants. coverage will be extended to human development and disease as appropriate. ",
+    "info": "developmental biology is the study of the process by which organisms grow and develop from embryo to adult. this field encompasses the biology of morphogenesis, differentiation, regeneration, metamorphosis, and the growth and differentiation of stem cells. topics focus primarily on animal development to include fertilization, cell specification, body patterning, stem cells, neurogenesis, organogenesis, limb formation, regeneration, sex determination, and developmental timing, as well as environmental impacts on development. students will learn about genetic models such as fruit flies, nematodes, fish, mice, and plants. coverage will be extended to human development and disease as appropriate.",
     "prereqInfo": "biol 4003; also recommended prerequisite: biol 4004 or gcd 4005w",
     "prereq": {
-      "code": "BIOL 4003",
-      "subject": "BIOL",
-      "id": "4003"
+      "or": [
+        {
+          "code": "BIOL 4003",
+          "subject": "BIOL",
+          "id": "4003"
+        },
+        {
+          "code": "BIOL 4004",
+          "subject": "BIOL",
+          "id": "4004"
+        },
+        {
+          "code": "GCD 4005",
+          "subject": "GCD",
+          "id": "4005"
+        }
+      ]
     }
   },
   {
@@ -247,12 +292,21 @@
     "subject": "GCD",
     "id": "4171",
     "title": "Stem Cells in Biol & Med",
-    "info": "contemporary stem cell biology with emphasis on mechanisms/applications. embryonic, tissue-specific, and induced pluripotent stem cells and potential uses in human disease. ",
-    "prereqInfo": "biol 4003 genetics; recommended prerequisite: biol 4004 cell biology or gcd 4005w this course can be used as an elective for certain cbs majors, such as the gcd major. check the program requirements for your major to determine if it can be used as an elective.",
+    "info": "contemporary stem cell biology with emphasis on mechanisms/applications. embryonic, tissue-specific, and induced pluripotent stem cells and potential uses in human disease. \n\nprerequisites: biol 4003 genetics; recommended",
+    "prereqInfo": "biol 4004 cell biology or gcd 4005w this course can be used as an elective for certain cbs majors, such as the gcd major. check the program requirements for your major to determine if it can be used as an elective.",
     "prereq": {
-      "code": "BIOL 4003",
-      "subject": "BIOL",
-      "id": "4003"
+      "or": [
+        {
+          "code": "BIOL 4004",
+          "subject": "BIOL",
+          "id": "4004"
+        },
+        {
+          "code": "GCD 4005",
+          "subject": "GCD",
+          "id": "4005"
+        }
+      ]
     }
   },
   {
@@ -260,8 +314,8 @@
     "subject": "GCD",
     "id": "4593",
     "title": "Genomics Dir. Stud. Comm. Exp.",
-    "info": "directed studies is an individual-study, community-based experience in which the student is mentored directly by a faculty member. the topic for the course is the application of genomics in human health and healthcare. this course is designed for students to get experience in applied genetics or genomics. the details need to be explained in a research/directed studies contract and agreed on by both the student and faculty mentor. the contract must be approved by the director of undergraduate studies (dugs) for the minor before the student is allowed to register.  \nfour credits total of 4593, 4693, or 4694, or a combination thereof, are required for the health & genomics minor. \nprereq: department consent, instructor consent",
-    "prereqInfo": null,
+    "info": "directed studies is an individual-study, community-based experience in which the student is mentored directly by a faculty member. the topic for the course is the application of genomics in human health and healthcare. this course is designed for students to get experience in applied genetics or genomics. the details need to be explained in a research/directed studies contract and agreed on by both the student and faculty mentor. the contract must be approved by the director of undergraduate studies (dugs) for the minor before the student is allowed to register.  \nfour credits total of 4593, 4693, or 4694, or a combination thereof, are required for the health & genomics minor.",
+    "prereqInfo": "department consent, instructor consent",
     "prereq": []
   },
   {
@@ -269,8 +323,8 @@
     "subject": "GCD",
     "id": "4693",
     "title": "Genomics Dir. Stud. Lit Review",
-    "info": "directed research is an individual-study, laboratory, or field investigation course. the research topic needs to be agreed on by both the student and the faculty mentor and explained in a research/directed studies contract. the contract must be approved by the director of undergraduate studies (dugs) for the major before the student is allowed to register. the contract includes a description of learning objectives for the course, methodology to be used, and how the assessment of learning will be conducted. four credits total of 4593, 4693, or 4694, or a combination thereof, are required for the health & genomics minor. prereq: department consent; instructor consent.",
-    "prereqInfo": null,
+    "info": "directed research is an individual-study, laboratory, or field investigation course. the research topic needs to be agreed on by both the student and the faculty mentor and explained in a research/directed studies contract. the contract must be approved by the director of undergraduate studies (dugs) for the major before the student is allowed to register. the contract includes a description of learning objectives for the course, methodology to be used, and how the assessment of learning will be conducted. four credits total of 4593, 4693, or 4694, or a combination thereof, are required for the health & genomics minor.",
+    "prereqInfo": "department consent; instructor consent.",
     "prereq": []
   },
   {
@@ -278,8 +332,8 @@
     "subject": "GCD",
     "id": "4694",
     "title": "Genomics Directed Research",
-    "info": "directed research is an individual-study, laboratory, or field investigation course. the research topic needs to be agreed on by both the student and the faculty mentor and explained in a research/directed studies contract. the contract must be approved by the director of undergraduate studies (dugs) for the major before the student is allowed to register. the contract includes a description of learning objectives for the course, methodology to be used, and how the assessment of learning will be conducted. four credits total of 4593, 4693, or 4694, or a combination thereof, are required for the health & genomics minor. prereq: department consent; instructor consent.",
-    "prereqInfo": null,
+    "info": "directed research is an individual-study, laboratory, or field investigation course. the research topic needs to be agreed on by both the student and the faculty mentor and explained in a research/directed studies contract. the contract must be approved by the director of undergraduate studies (dugs) for the major before the student is allowed to register. the contract includes a description of learning objectives for the course, methodology to be used, and how the assessment of learning will be conducted. four credits total of 4593, 4693, or 4694, or a combination thereof, are required for the health & genomics minor.",
+    "prereqInfo": "department consent; instructor consent.",
     "prereq": []
   },
   {
@@ -287,8 +341,8 @@
     "subject": "GCD",
     "id": "4793W",
     "title": "Directed Studies: WI",
-    "info": "writing intensive directed studies is an individual-study, literature-based investigation in which the student is mentored directly by a faculty member. one main feature of this course is that the student will receive writing instruction and the written output of the course will be revised during the semester. the project needs to be explained in a research/directed studies contract and agreed on by both the student and faculty mentor. the contract must be approved by the director of undergraduate studies (dugs) for the major before the student is allowed to register. the contract includes a description of learning objectives for the course, how writing instruction will take place, a timeline for when student writing will be handed in and how it will be assessed, methodology to be used by the student, and how assessment of learning will be conducted by the mentor. additional oversight is established for this course near the end of the semester the written output is submitted to the dugs for the major. the dugs is responsible to determine that the writing meets standards set by the cbs education policy committee for quality of writing, appropriate citation of literature, well-constructed figures, tables, and legends (if present), appropriate use and interpretation of statistics (if present), conclusions that are supported by evidence, and well-formatted references. this course is graded s/n and approval of the dugs is required before a grade of s can be given by the faculty mentor. ",
-    "prereqInfo": "department consent, instructor consent, no more than 7 credits of 4793, 4794, 4993w, 4994w counts towards cbs major requirements.\n",
+    "info": "writing intensive directed studies is an individual-study, literature-based investigation in which the student is mentored directly by a faculty member. one main feature of this course is that the student will receive writing instruction and the written output of the course will be revised during the semester. the project needs to be explained in a research/directed studies contract and agreed on by both the student and faculty mentor. the contract must be approved by the director of undergraduate studies (dugs) for the major before the student is allowed to register. the contract includes a description of learning objectives for the course, how writing instruction will take place, a timeline for when student writing will be handed in and how it will be assessed, methodology to be used by the student, and how assessment of learning will be conducted by the mentor. additional oversight is established for this course near the end of the semester the written output is submitted to the dugs for the major. the dugs is responsible to determine that the writing meets standards set by the cbs education policy committee for quality of writing, appropriate citation of literature, well-constructed figures, tables, and legends (if present), appropriate use and interpretation of statistics (if present), conclusions that are supported by evidence, and well-formatted references. this course is graded s/n and approval of the dugs is required before a grade of s can be given by the faculty mentor.",
+    "prereqInfo": "department consent, instructor consent, no more than 7 credits of 4793, 4794, 4993w, 4994w counts towards cbs major requirements.",
     "prereq": {
       "and": [
         {
@@ -329,11 +383,6 @@
           "id": "4793W"
         },
         {
-          "code": "GCD 4794W",
-          "subject": "GCD",
-          "id": "4794W"
-        },
-        {
           "code": "GCD 4993",
           "subject": "GCD",
           "id": "4993"
@@ -360,25 +409,66 @@
     "subject": "GCD",
     "id": "4993",
     "title": "Directed Studies",
-    "info": "directed studies is an individual-study, literature-based investigation in which the student is mentored directly by a faculty member. the topic for the course needs to be explained in a research/directed studies contract and agreed on by both the student and faculty mentor. the contract must be approved by the director of undergraduate studies (dugs) for the major before the student is allowed to register. the contract includes a description of learning objectives for the course, methodology to be used, and how the assessment of learning will be conducted. prereq: department consent, instructor consent, no more than 7 credits of 4793, 4794, 4993w, 4994w counts towards cbs major requirements.",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "directed studies is an individual-study, literature-based investigation in which the student is mentored directly by a faculty member. the topic for the course needs to be explained in a research/directed studies contract and agreed on by both the student and faculty mentor. the contract must be approved by the director of undergraduate studies (dugs) for the major before the student is allowed to register. the contract includes a description of learning objectives for the course, methodology to be used, and how the assessment of learning will be conducted.",
+    "prereqInfo": "department consent, instructor consent, no more than 7 credits of 4793, 4794, 4993w, 4994w counts towards cbs major requirements.",
+    "prereq": {
+      "and": [
+        {
+          "code": "GCD 4793",
+          "subject": "GCD",
+          "id": "4793"
+        },
+        {
+          "code": "GCD 4794",
+          "subject": "GCD",
+          "id": "4794"
+        },
+        {
+          "code": "GCD 4993W",
+          "subject": "GCD",
+          "id": "4993W"
+        },
+        {
+          "code": "GCD 4994",
+          "subject": "GCD",
+          "id": "4994"
+        }
+      ]
+    }
   },
   {
     "code": "GCD 4994",
     "subject": "GCD",
     "id": "4994",
     "title": "Directed Research",
-    "info": "directed research is an individual-study, laboratory or field investigation course. the research topic needs to be agreed on by both the student and the faculty mentor and explained in a research/directed studies contract. the contract must be approved by the director of undergraduate studies (dugs) for the major before the student is allowed to register. the contract includes a description of learning objectives for the course, methodology to be used, and how the assessment of learning will be conducted. \nprereq: department consent, instructor consent, no more than 7 credits of 4793, 4794, 4993w, 4994w counts towards cbs major requirements.\n",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "directed research is an individual-study, laboratory or field investigation course. the research topic needs to be agreed on by both the student and the faculty mentor and explained in a research/directed studies contract. the contract must be approved by the director of undergraduate studies (dugs) for the major before the student is allowed to register. the contract includes a description of learning objectives for the course, methodology to be used, and how the assessment of learning will be conducted.",
+    "prereqInfo": "department consent, instructor consent, no more than 7 credits of 4793, 4794, 4993w, 4994w counts towards cbs major requirements.",
+    "prereq": {
+      "and": [
+        {
+          "code": "GCD 4793",
+          "subject": "GCD",
+          "id": "4793"
+        },
+        {
+          "code": "GCD 4794",
+          "subject": "GCD",
+          "id": "4794"
+        },
+        {
+          "code": "GCD 4993W",
+          "subject": "GCD",
+          "id": "4993W"
+        }
+      ]
+    }
   },
   {
     "code": "GCD 5005",
     "subject": "GCD",
     "id": "5005",
     "title": "Comp Programming for Biology",
-    "info": "computer programming skills with applications in biology. design/build new computer programs for applications in cell/developmental biology, including modeling of biological processes, advanced data analysis, automated image analysis. ",
+    "info": "computer programming skills with applications in biology. design/build new computer programs for applications in cell/developmental biology, including modeling of biological processes, advanced data analysis, automated image analysis.",
     "prereqInfo": "biol 4003 or biol 4004 or gcd 3033 or cbs grad or bmbb or mcdb&g grad student, general statistics course",
     "prereq": {
       "or": [
@@ -405,7 +495,7 @@
     "subject": "GCD",
     "id": "5036",
     "title": "Molecular Cell Biology",
-    "info": "analysis of dynamic cellular activities at the molecular level in cell biological fields that are experiencing new research advances not yet reflected in textbooks. significant emphasis is placed on understanding the experimental basis of our current knowledge of cellular processes through analysis of scientific papers. project and presentation-based assessments of learning outcomes. ",
+    "info": "analysis of dynamic cellular activities at the molecular level in cell biological fields that are experiencing new research advances not yet reflected in textbooks. significant emphasis is placed on understanding the experimental basis of our current knowledge of cellular processes through analysis of scientific papers. project and presentation-based assessments of learning outcomes.",
     "prereqInfo": "biol 4004 or gcd 4005w or grad",
     "prereq": {
       "or": [
@@ -427,7 +517,7 @@
     "subject": "GCD",
     "id": "5101",
     "title": "Reasoning in Visual Science",
-    "info": "this course is appropriate for graduate and senior undergraduate students in several areas of biology, including gcd, nsc, ibp, and bmbb programs. students will be introduced to the function of the visual system, including the retina and brain, and learn to understand the visual system on a cellular level. main goals of the course include to practice scientific and translational reasoning and scientific communication. this will be facilitated through a combination of lectures and group discussions of scientific papers, as well as writing of a term paper. in most weeks one lecture and one group discussion will be held. \n\nscientific and translational reasoning and scientific communication are core competencies for life scientists. scientific reasoning includes the ability to recognize why a scientific question is significant (or not), experimental design and rigor, interpretation of data, and identifying caveats to conclusions. models of biological processes will be discussed and appropriate predictions will be identified in order to test those models. translational reasoning is needed to move basic scientific discoveries into practice. to practice translational reasoning, we will investigate how diseases manifest on the cellular level, examine the use of disease models (cell based or animal models) and their limitations, how investigational therapeutic drugs are tested, how their effects on disease are scored, and how clinical trials are used to test the safety and efficacy of new therapeutic drug candidates. \n\nstudents will interact with md and phd faculty and learn about their respective priorities. this course should be informative for students who are interested in the life sciences, and may help to discover personal interests and preferred career paths. the course will be taught by a team of instructors who share an interest in vision science. ",
+    "info": "this course is appropriate for graduate and senior undergraduate students in several areas of biology, including gcd, nsc, ibp, and bmbb programs. students will be introduced to the function of the visual system, including the retina and brain, and learn to understand the visual system on a cellular level. main goals of the course include to practice scientific and translational reasoning and scientific communication. this will be facilitated through a combination of lectures and group discussions of scientific papers, as well as writing of a term paper. in most weeks one lecture and one group discussion will be held. \n\nscientific and translational reasoning and scientific communication are core competencies for life scientists. scientific reasoning includes the ability to recognize why a scientific question is significant (or not), experimental design and rigor, interpretation of data, and identifying caveats to conclusions. models of biological processes will be discussed and appropriate predictions will be identified in order to test those models. translational reasoning is needed to move basic scientific discoveries into practice. to practice translational reasoning, we will investigate how diseases manifest on the cellular level, examine the use of disease models (cell based or animal models) and their limitations, how investigational therapeutic drugs are tested, how their effects on disease are scored, and how clinical trials are used to test the safety and efficacy of new therapeutic drug candidates. \n\nstudents will interact with md and phd faculty and learn about their respective priorities. this course should be informative for students who are interested in the life sciences, and may help to discover personal interests and preferred career paths. the course will be taught by a team of instructors who share an interest in vision science.",
     "prereqInfo": "senior major in gcd, neuroscience, ibp, or bmbb or grad, open to advanced juniors with instructor permission",
     "prereq": []
   },
@@ -436,15 +526,10 @@
     "subject": "GCD",
     "id": "5111",
     "title": "Quantitative Microscopy",
-    "info": "fluorescence microscopy is an essential technique to probe the inner workings of cells and tissues. you will learn hands on the inner workings of fluorescent microscopes, how to set up and acquire fluorescent images using microscopes, and how to quantitatively analyze image data using fiji (imagej) software. ",
+    "info": "fluorescence microscopy is an essential technique to probe the inner workings of cells and tissues. you will learn hands on the inner workings of fluorescent microscopes, how to set up and acquire fluorescent images using microscopes, and how to quantitatively analyze image data using fiji (imagej) software.",
     "prereqInfo": "undergraduate students require instructor permission for enrollment. graduate students are allowed to register for 5111 without instructor permission. recommended prerequisite: gcd 3033 or biol 4004",
     "prereq": {
       "or": [
-        {
-          "code": "GCD 5111",
-          "subject": "GCD",
-          "id": "5111"
-        },
         {
           "code": "GCD 3033",
           "subject": "GCD",
@@ -472,8 +557,8 @@
     "subject": "GCD",
     "id": "6103",
     "title": "Human Histology",
-    "info": "human histology is a lecture and laboratory class covering light and electron microscopic anatomy of tissues and their organization into human organs.  the emphasis is on integrating structure and its relationship to function at levels from molecules to organs. prereq: enrolled as medical or dental student or instr consent",
-    "prereqInfo": null,
+    "info": "human histology is a lecture and laboratory class covering light and electron microscopic anatomy of tissues and their organization into human organs.  the emphasis is on integrating structure and its relationship to function at levels from molecules to organs.",
+    "prereqInfo": "enrolled as medical or dental student or instr consent",
     "prereq": []
   },
   {
@@ -700,9 +785,41 @@
     "subject": "GCD",
     "id": "8161",
     "title": "Adv Cell Biol and Development",
-    "info": "the advanced cell and developmental biology of embryos, taught through in-depth, comparative analysis of historical and current primary research articles that illustrate developmental mechanisms and experimental approaches in key invertebrate and vertebrate model organisms.\n \nprereq:[bmbb or mcdbg grad student] or [gcd 4161, [gcd 8131 or biol 4003], biol 4004, and gcd 4034] or instr consent",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "the advanced cell and developmental biology of embryos, taught through in-depth, comparative analysis of historical and current primary research articles that illustrate developmental mechanisms and experimental approaches in key invertebrate and vertebrate model organisms.",
+    "prereqInfo": "[bmbb or mcdbg grad student] or [gcd 4161, [gcd 8131 or biol 4003], biol 4004, and gcd 4034] or instr consent",
+    "prereq": {
+      "and": [
+        {
+          "and": [
+            {
+              "code": "GCD 4161",
+              "subject": "GCD",
+              "id": "4161"
+            },
+            {
+              "code": "GCD 8131",
+              "subject": "GCD",
+              "id": "8131"
+            },
+            {
+              "code": "BIOL 4003",
+              "subject": "BIOL",
+              "id": "4003"
+            }
+          ]
+        },
+        {
+          "code": "BIOL 4004",
+          "subject": "BIOL",
+          "id": "4004"
+        },
+        {
+          "code": "GCD 4034",
+          "subject": "GCD",
+          "id": "4034"
+        }
+      ]
+    }
   },
   {
     "code": "GCD 8171",
@@ -817,8 +934,8 @@
     "subject": "GCD",
     "id": "8916",
     "title": "Genetic Counseling Rsrch Smnr",
-    "info": "this course is designed to develop student knowledge and skills needed for addressing researchable questions encountered in genetic counseling. ",
-    "prereqInfo": "must be a genetic counseling master's student or gc-first fellow.",
+    "info": "this course is designed to develop student knowledge and skills needed for addressing researchable questions encountered in genetic counseling. \n\nmust be a genetic counseling master's student or gc-first fellow.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -826,7 +943,7 @@
     "subject": "GCD",
     "id": "8917",
     "title": "Medical Genetics I",
-    "info": "this course integrates basic biochemical, molecular, and genetic principles with human development and disease. this course will provide a scientific foundation for clinical medicine genetics. topics covered include chromosomal abnormalities, protein structural and folding abnormalities (e.g. hemoglobinapathies, connective tissue disorders, familial hypercholesterolemia), metabolic pathways and disorders. ",
+    "info": "this course integrates basic biochemical, molecular, and genetic principles with human development and disease. this course will provide a scientific foundation for clinical medicine genetics. topics covered include chromosomal abnormalities, protein structural and folding abnormalities (e.g. hemoglobinapathies, connective tissue disorders, familial hypercholesterolemia), metabolic pathways and disorders.",
     "prereqInfo": "mcdg ms student with genetic counseling specialization",
     "prereq": []
   },

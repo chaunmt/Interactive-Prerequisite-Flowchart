@@ -89,9 +89,13 @@
     "subject": "HNDI",
     "id": "3032",
     "title": "Advanced Hindi II",
-    "info": "this course is the second half of the advanced hindi course sequence. continued emphasis on development of communication skills, ability to comprehend both written/spoken texts. speak, read, write in hindi beyond intermediate level. \nprereq: hndi 3031 or instr consent",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "this course is the second half of the advanced hindi course sequence. continued emphasis on development of communication skills, ability to comprehend both written/spoken texts. speak, read, write in hindi beyond intermediate level.",
+    "prereqInfo": "hndi 3031 or instr consent",
+    "prereq": {
+      "code": "HNDI 3031",
+      "subject": "HNDI",
+      "id": "3031"
+    }
   },
   {
     "code": "HNDI 3101",
@@ -223,8 +227,8 @@
     "subject": "HNDI",
     "id": "5993",
     "title": "Directed Study",
-    "info": "guided individual reading or study of modern hindi-urdu texts.\nprereq instr consent, dept consent, college consent.",
-    "prereqInfo": null,
+    "info": "guided individual reading or study of modern hindi-urdu texts.",
+    "prereqInfo": "instr consent, dept consent, college consent.",
     "prereq": []
   },
   {

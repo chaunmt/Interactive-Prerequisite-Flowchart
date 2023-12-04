@@ -22,8 +22,8 @@
     "subject": "HINF",
     "id": "5430",
     "title": "Fndn Health Informatics I",
-    "info": "an introductory survey of health informatics, focusing on foundational concepts. topics covered include: conceptualizations of data, information, and knowledge; current terminologies, coding, and classification systems for medical information; ethics, privacy, and security; systems analysis, process and data modeling; human-computer interaction and data visualization. lectures, readings, and exercises highlight the intersections of these topics with electronic health record systems and other health information technology.\nprereq: junior, senior, grad student, professional student, or instr consent",
-    "prereqInfo": null,
+    "info": "an introductory survey of health informatics, focusing on foundational concepts. topics covered include: conceptualizations of data, information, and knowledge; current terminologies, coding, and classification systems for medical information; ethics, privacy, and security; systems analysis, process and data modeling; human-computer interaction and data visualization. lectures, readings, and exercises highlight the intersections of these topics with electronic health record systems and other health information technology.",
+    "prereqInfo": "junior, senior, grad student, professional student, or instr consent",
     "prereq": []
   },
   {
@@ -158,7 +158,7 @@
     "id": "5610",
     "title": "Foundations of Biomedical NLP",
     "info": "the course will provide a systematic introduction to basic knowledge and methods used in natural language processing (nlp) research. it will introduce biomedical nlp tasks and methods as well as their resources and applications in the biomedical domain. the course will also provide hands-on experience with existing nlp tools and systems. students will gain basic knowledge and skills in handling with main biomedical nlp tasks.",
-    "prereqInfo": "graduate student or instructor consent; experience with at least one programming language (python or perl preferred)\n\nrecommended: basic understanding of data mining concepts, basic knowledge of computational linguistics \n",
+    "prereqInfo": "uisites graduate student or instructor consent; experience with at least one programming language (python or perl preferred)\n\nrecommended: basic understanding of data mining concepts, basic knowledge of computational linguistics",
     "prereq": []
   },
   {
@@ -176,19 +176,21 @@
     "id": "5630",
     "title": "Clinical Data Mining",
     "info": "this is a hands-on introductory data mining course specifically focusing on health care applications. analogously to the relationship between biostatistics and statistics, the data and computational challenges, the experiment design and the model performance requirements towards data mining in the clinical domain differ from those in general applications. this course aims to teach the students the most common data mining techniques and elaborate on the differences between general and clinical data mining. specifically, the course will focus on (i) clinical data challenges and preprocessing; (ii) survey of the most common techniques in the clinical domain; (iii) clinical application touching up on experimental design and collaborations with physicians. the class will meet twice a week, one day dedicated to lectures and one day to a hands-on lab component, where students are expected to apply the techniques to health-related data. some of the models will be evaluated with the involvement of a physician collaborator.",
-    "prereqInfo": "prerequisites:\nbasic linear algebra (matrix notation), basic optimization (gradient descent)\ngraduate level introductory statistics (e.g. stat 5101-5102) or equivalent or instructor consent",
-    "prereq": [
-      {
-        "code": "STAT 5101",
-        "subject": "STAT",
-        "id": "5101"
-      },
-      {
-        "code": "HINF 5102",
-        "subject": "HINF",
-        "id": "5102"
-      }
-    ]
+    "prereqInfo": "basic linear algebra (matrix notation), basic optimization (gradient descent)\ngraduate level introductory statistics (e.g. stat 5101-5102) or equivalent or instructor consent",
+    "prereq": {
+      "or": [
+        {
+          "code": "STAT 5101",
+          "subject": "STAT",
+          "id": "5101"
+        },
+        {
+          "code": "HINF 5102",
+          "subject": "HINF",
+          "id": "5102"
+        }
+      ]
+    }
   },
   {
     "code": "HINF 5640",
@@ -376,7 +378,11 @@
     "title": "Doct Pre-Thesis Cr*",
     "info": "tbd",
     "prereqInfo": "doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": []
+    "prereq": {
+      "code": "HINF 60",
+      "subject": "HINF",
+      "id": "60"
+    }
   },
   {
     "code": "HINF 8770",
@@ -394,7 +400,11 @@
     "title": "Thesis Credit:Mast*",
     "info": "(no description)",
     "prereqInfo": "max 18 cr per semester or summer; 10 cr total required [plan a only]",
-    "prereq": []
+    "prereq": {
+      "code": "HINF 10",
+      "subject": "HINF",
+      "id": "10"
+    }
   },
   {
     "code": "HINF 8888",

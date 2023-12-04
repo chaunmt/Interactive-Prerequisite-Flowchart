@@ -4,7 +4,7 @@
     "subject": "PORT",
     "id": "1022",
     "title": "Intensive Beginning Portuguese",
-    "info": " intensive course for those with no portuguese background. develops novice-intermediate low proficiency in listening, speaking, reading, writing. based on materials from portugal, brazil, and portuguese-speaking africa. pair and small-group communicative activities, focused on interpreting and producing audio(visual) and written texts. this class is partially online. \n \n \n",
+    "info": "intensive course for those with no portuguese background. develops novice-intermediate low proficiency in listening, speaking, reading, writing. based on materials from portugal, brazil, and portuguese-speaking africa. pair and small-group communicative activities, focused on interpreting and producing audio(visual) and written texts. this class is partially online.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -35,12 +35,21 @@
     "subject": "PORT",
     "id": "1103",
     "title": "Intermediate Port",
-    "info": " advancing listening, speaking, reading, writing skills based on materials from portugal, brazil, or portuguese-speaking africa. paired and small-group communicative activities, focused on interpreting and producing audio(visual) and written texts at the intermediate level. this class is partially online. \n \nprereq: 1102 or instr consent",
-    "prereqInfo": "meets concurrently with 4103.",
+    "info": "advancing listening, speaking, reading, writing skills based on materials from portugal, brazil, or portuguese-speaking africa. paired and small-group communicative activities, focused on interpreting and producing audio(visual) and written texts at the intermediate level. this class is partially online.",
+    "prereqInfo": "1102 or instr consent\n\nmeets concurrently with 4103.",
     "prereq": {
-      "code": "PORT 4103",
-      "subject": "PORT",
-      "id": "4103"
+      "or": [
+        {
+          "code": "PORT 1102",
+          "subject": "PORT",
+          "id": "1102"
+        },
+        {
+          "code": "PORT 4103",
+          "subject": "PORT",
+          "id": "4103"
+        }
+      ]
     }
   },
   {
@@ -48,7 +57,7 @@
     "subject": "PORT",
     "id": "1104",
     "title": "Intermediate Port",
-    "info": "advancing listening, speaking, reading, writing skills based on materials from portugal, brazil, or portuguese-speaking africa. paired and small-group communicative activities, focused on interpreting and producing audio(visual) and written texts at the intermediate level. this class is partially online. ",
+    "info": "advancing listening, speaking, reading, writing skills based on materials from portugal, brazil, or portuguese-speaking africa. paired and small-group communicative activities, focused on interpreting and producing audio(visual) and written texts at the intermediate level. this class is partially online.",
     "prereqInfo": "1103 or instr consent",
     "prereq": {
       "code": "PORT 1103",
@@ -97,7 +106,7 @@
     "subject": "PORT",
     "id": "3001",
     "title": "Port Span Speakers",
-    "info": "this intensive, introductory portuguese course emphasizes speaking and writing, the interpretation of written and audi(visual) portuguese-language texts, and knowledge of cultural aspects of portuguese-speaking countries. it uses students' spanish language skills as a point of departure to develop knowledge of and the ability to apply portuguese language forms to the interpretation and creation of portuguese-language texts.\n\nportuguese 3001 is a course developed for students with at least intermediate-level skills in spanish. it builds on spanish-language skills to cover the linguistic content of port 1101-1104 in one semester. you will use your developing portuguese language skills to explore the cultures of various portuguese-speaking communities via a wealth of authentic materials such as news stories, pop culture magazines, literature, film, and tv. the course simultaneously develops your knowledge of different language structures and your ability to use them in real world contexts.\n\nthis class follows a flipped classroom model, in which the study of grammatical concepts is to be done outside of class. prior to class, students study the material in the textbook and complete any assigned exercises; in class group exercises are done to practice and apply the new grammatical concepts learned. since the ultimate goal of the program is for you to communicate in the portuguese language, actual communication in class will be emphasized. ",
+    "info": "this intensive, introductory portuguese course emphasizes speaking and writing, the interpretation of written and audi(visual) portuguese-language texts, and knowledge of cultural aspects of portuguese-speaking countries. it uses students' spanish language skills as a point of departure to develop knowledge of and the ability to apply portuguese language forms to the interpretation and creation of portuguese-language texts.\n\nportuguese 3001 is a course developed for students with at least intermediate-level skills in spanish. it builds on spanish-language skills to cover the linguistic content of port 1101-1104 in one semester. you will use your developing portuguese language skills to explore the cultures of various portuguese-speaking communities via a wealth of authentic materials such as news stories, pop culture magazines, literature, film, and tv. the course simultaneously develops your knowledge of different language structures and your ability to use them in real world contexts.\n\nthis class follows a flipped classroom model, in which the study of grammatical concepts is to be done outside of class. prior to class, students study the material in the textbook and complete any assigned exercises; in class group exercises are done to practice and apply the new grammatical concepts learned. since the ultimate goal of the program is for you to communicate in the portuguese language, actual communication in class will be emphasized.",
     "prereqInfo": "span lpe pass",
     "prereq": []
   },
@@ -133,7 +142,7 @@
     "subject": "PORT",
     "id": "3003",
     "title": "Portuguese Conv & Comp",
-    "info": "the goals of this course are twofold. the first goal is to improve your abilities in the four areas of language (speaking, listening, reading, and writing) to the point that you can communicate advanced ideas in written and spoken portuguese. the second goal is for you to possess a foundational understanding of cultural texts (plays, short stories, poems, films, and essays) from the 1950s onward that will help generate your enthusiasm for portuguese and help you understand how the arts are entwined in resistance to injustice throughout the communities where portuguese, among other languages, is spoken. as a course that bridges the language courses and the content courses, port3003 includes both advanced grammar and critical analysis to prepare you for content courses, such as port 3501w, and the longer writing assignments that you will have in such courses. the course will be taught in portuguese, and the reading, writing, and speaking will be done in portuguese. assessments include, but are not necessarily limited to, writing assignments, oral presentations, and written exams. ",
+    "info": "the goals of this course are twofold. the first goal is to improve your abilities in the four areas of language (speaking, listening, reading, and writing) to the point that you can communicate advanced ideas in written and spoken portuguese. the second goal is for you to possess a foundational understanding of cultural texts (plays, short stories, poems, films, and essays) from the 1950s onward that will help generate your enthusiasm for portuguese and help you understand how the arts are entwined in resistance to injustice throughout the communities where portuguese, among other languages, is spoken. as a course that bridges the language courses and the content courses, port3003 includes both advanced grammar and critical analysis to prepare you for content courses, such as port 3501w, and the longer writing assignments that you will have in such courses. the course will be taught in portuguese, and the reading, writing, and speaking will be done in portuguese. assessments include, but are not necessarily limited to, writing assignments, oral presentations, and written exams.",
     "prereqInfo": "1104 or 3001 or port lpe",
     "prereq": {
       "or": [
@@ -151,57 +160,30 @@
     }
   },
   {
-    "code": "PORT 3501V",
-    "subject": "PORT",
-    "id": "3501V",
-    "title": "Honors: Lusophone Cultures",
-    "info": "foundations of portuguese-speaking cultures (portugal, brazil, lusophone africa) from origins to present. social/cultural trends that are basis for modern portuguese-speaking world (literature, history, cinema, music).",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
     "code": "PORT 3501W",
     "subject": "PORT",
     "id": "3501W",
     "title": "Global Portuguese: 1300-1900",
-    "info": "this course is the first half of a two-semester introduction to literatures and cultures in portuguese taught from historical and nationally specific perspectives, from the 16th through the 19th centuries. keeping in mind the cultural, social, and racial violence affecting bipoc people around us, you will learn how cultural common senses of “others” originate in and are perpetuated by representations that are considered icons of nationality. for that end, this first semester of global portuguese is taught from a critical race feminist perspective that prompts you to question the colonialist, racist, classist, and sexist implications of certain stories and images. at the same time, you will be introduced to indigenous, black, and female voices of resistance and self-affirmation. all writing assignments and discussions are meant to encourage critical, plural thought about such topics as empire, globalization, slavery, colonialism, exclusion, displacement, and belonging. the course will be taught in portuguese, and all the reading, writing, and speaking will be done in portuguese. assessments include essays and two exams as well as graded homework and class activities. ",
+    "info": "this course is the first half of a two-semester introduction to literatures and cultures in portuguese taught from historical and nationally specific perspectives, from the 16th through the 19th centuries. keeping in mind the cultural, social, and racial violence affecting bipoc people around us, you will learn how cultural common senses of “others” originate in and are perpetuated by representations that are considered icons of nationality. for that end, this first semester of global portuguese is taught from a critical race feminist perspective that prompts you to question the colonialist, racist, classist, and sexist implications of certain stories and images. at the same time, you will be introduced to indigenous, black, and female voices of resistance and self-affirmation. all writing assignments and discussions are meant to encourage critical, plural thought about such topics as empire, globalization, slavery, colonialism, exclusion, displacement, and belonging. the course will be taught in portuguese, and all the reading, writing, and speaking will be done in portuguese. assessments include essays and two exams as well as graded homework and class activities.",
     "prereqInfo": "3003",
     "prereq": {
       "code": "PORT 3003",
       "subject": "PORT",
       "id": "3003"
     }
-  },
-  {
-    "code": "PORT 3502V",
-    "subject": "PORT",
-    "id": "3502V",
-    "title": "Honors: Brazilian Culture",
-    "info": "emphasizes modern brazilian society. history, culture (e.g., music, art, cinema, literature, intellectual thought, popular culture, media), social problems (e.g., ethnicity, tropical deforestation).",
-    "prereqInfo": null,
-    "prereq": []
   },
   {
     "code": "PORT 3502W",
     "subject": "PORT",
     "id": "3502W",
     "title": "Global Portuguese/1900-present",
-    "info": "this course is the second half of a two-semester introduction to global portuguese literatures and cultures. beginning where port3501w ended, you will examine twentieth-century cultural texts in portuguese, focusing primarily on brazil, though also reading texts from other countries where portuguese, among other languages, is spoken, such as angola, mozambique, and portugal. much of what you will study is related to different modernist traditions. you will primarily read poetry and short stories, though you may also study other genres, such as songs and essays. port3501w is not a prerequisite. port3502w is taught in portuguese, and all of the reading, writing, and speaking will be done in portuguese. assessments include essays and may also include other graded assignments, such as oral presentations or written exams. ",
+    "info": "this course is the second half of a two-semester introduction to global portuguese literatures and cultures. beginning where port3501w ended, you will examine twentieth-century cultural texts in portuguese, focusing primarily on brazil, though also reading texts from other countries where portuguese, among other languages, is spoken, such as angola, mozambique, and portugal. much of what you will study is related to different modernist traditions. you will primarily read poetry and short stories, though you may also study other genres, such as songs and essays. port3501w is not a prerequisite. port3502w is taught in portuguese, and all of the reading, writing, and speaking will be done in portuguese. assessments include essays and may also include other graded assignments, such as oral presentations or written exams.",
     "prereqInfo": "3003",
     "prereq": {
       "code": "PORT 3003",
       "subject": "PORT",
       "id": "3003"
     }
-  },
-  {
-    "code": "PORT 3503V",
-    "subject": "PORT",
-    "id": "3503V",
-    "title": "Honors:Lit & Cult Luso Africa",
-    "info": "origins/development of lusophone africa (angola, cape-verde, guinea-bissau, mozambique, sao tome, principe) using literature, cultural/literary criticism, history, anthropology, and various media (e.g., film, art, music, internet).",
-    "prereqInfo": null,
-    "prereq": []
   },
   {
     "code": "PORT 3503W",
@@ -230,7 +212,7 @@
     "subject": "PORT",
     "id": "3800",
     "title": "Film Studies in Portuguese",
-    "info": "this course offers an introduction to brazilian film from the 1960s to the present and to postcolonial films from portugal, angola, and mozambique. you will learn about the history of brazilian film from cinema novo on, with attention to state funding; internationalization; and recurrent themes, such as the sertão or backlands and the favela or shantytown. in the case of lusophone postcolonial films, you will learn about issues of personal and collective identity, including hybrid, diasporic, and non-heteronormative identities; nation building and post-conflict trauma; memory and healing. the approach is two-fold: cinema as representation of society, history, culture, and the individual subject; and cinema as a complex, multi-layered, and expensive art form. you are expected to critically engage with the form and content of each film as you acquire an understanding of the historical, cultural, (geo)political, and socio-economic forces that have shaped the development of film in the various countries, in addition to the social issues raised by filmmakers. you will also become familiar with philosophical and aesthetic insights from which to critically review a film. the course will be taught in portuguese and you are expected to use portuguese orally in class and in all written assignments. readings will be in portuguese and occasionally in english.\n\ntopics vary and are specified in the class schedule. ",
+    "info": "this course offers an introduction to brazilian film from the 1960s to the present and to postcolonial films from portugal, angola, and mozambique. you will learn about the history of brazilian film from cinema novo on, with attention to state funding; internationalization; and recurrent themes, such as the sertão or backlands and the favela or shantytown. in the case of lusophone postcolonial films, you will learn about issues of personal and collective identity, including hybrid, diasporic, and non-heteronormative identities; nation building and post-conflict trauma; memory and healing. the approach is two-fold: cinema as representation of society, history, culture, and the individual subject; and cinema as a complex, multi-layered, and expensive art form. you are expected to critically engage with the form and content of each film as you acquire an understanding of the historical, cultural, (geo)political, and socio-economic forces that have shaped the development of film in the various countries, in addition to the social issues raised by filmmakers. you will also become familiar with philosophical and aesthetic insights from which to critically review a film. the course will be taught in portuguese and you are expected to use portuguese orally in class and in all written assignments. readings will be in portuguese and occasionally in english.\n\ntopics vary and are specified in the class schedule.",
     "prereqInfo": "3003 or instr consent or dept consent",
     "prereq": {
       "code": "PORT 3003",
@@ -239,29 +221,11 @@
     }
   },
   {
-    "code": "PORT 3800H",
-    "subject": "PORT",
-    "id": "3800H",
-    "title": "Honors: Film in Portuguese",
-    "info": "films from portuguese-speaking world in their historical, (geo)political, and socio-economic contexts. films from brazil, portugal, or lusophone africa analyzed under interdisciplinary framework, noting aspects related to cinematography/rhethorics.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
     "code": "PORT 3830",
     "subject": "PORT",
     "id": "3830",
     "title": "Film Studies in Portuguese",
     "info": "films from the portuguese-speaking world in their historical, (geo)political, and socio-economic contexts. films from brazil, portugal, or lusophone africa analyzed under interdisciplinary framework, noting aspects related to cinematography/rhetorics.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "PORT 3830H",
-    "subject": "PORT",
-    "id": "3830H",
-    "title": "Hon: FilmStudiesinPortuguese",
-    "info": "films from portuguese-speaking world in their historical, (geo)political, and socio-economic contexts. films from brazil, portugal, or lusophone africa analyzed under interdisciplinary framework, noting aspects related to cinematography/rhetorics.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -279,20 +243,11 @@
     }
   },
   {
-    "code": "PORT 3910H",
-    "subject": "PORT",
-    "id": "3910H",
-    "title": "Honors: Lusophone Literatures",
-    "info": "lusophone literary texts (from brazil, portugal, portuguese-speaking africa) representing various genres (e.g., novel, short story, poetry). terminology of criticism, literary problems, techniques.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
     "code": "PORT 3920",
     "subject": "PORT",
     "id": "3920",
     "title": "Topics in Lusophone Cultures",
-    "info": "the present course seeks to bring portugal, brazil ,and portuguese-speaking africa to bear on current, mostly anglo-american understandings of empire, colonialism, cultural conflicts, mixings, and assimilation; diaspora, postcolonialism, and globalization. to that end, you will study a number of literary, visual, and musical texts from portugal, brazil, and lusophone africa featuring empire as fantasy to be fulfilled; violent reality to be denounced, exorcized and rejected, or further mythified; and/or ever returning phantoms unsettling the notion of independence and of the so called transnational turn of globalization. the course is divided into three segments within which readings and viewings will follow a chronological order. first you will learn about the portuguese empire in india and its present-day remnants in goa; you will then learn about brazil's postcolonial development and how the former colony \\\"writes back\\\" to the former metropolis and decrees itself as \\\"the country of the future,\\\" albeit not without the racist heritage of colonialism and the myth of racial democracy; finally, you will learn about decolonization, immigration, and the africanness of postcolonial portugal. the course is taught in portuguese and you will use portuguese in class and in all written assessments. the latter includes graded written assignments, a research project with class presentations, and may also include partial exams. \n\ntopics vary and are specified in the class schedule. ",
+    "info": "the present course seeks to bring portugal, brazil ,and portuguese-speaking africa to bear on current, mostly anglo-american understandings of empire, colonialism, cultural conflicts, mixings, and assimilation; diaspora, postcolonialism, and globalization. to that end, you will study a number of literary, visual, and musical texts from portugal, brazil, and lusophone africa featuring empire as fantasy to be fulfilled; violent reality to be denounced, exorcized and rejected, or further mythified; and/or ever returning phantoms unsettling the notion of independence and of the so called transnational turn of globalization. the course is divided into three segments within which readings and viewings will follow a chronological order. first you will learn about the portuguese empire in india and its present-day remnants in goa; you will then learn about brazil's postcolonial development and how the former colony \\\"writes back\\\" to the former metropolis and decrees itself as \\\"the country of the future,\\\" albeit not without the racist heritage of colonialism and the myth of racial democracy; finally, you will learn about decolonization, immigration, and the africanness of postcolonial portugal. the course is taught in portuguese and you will use portuguese in class and in all written assessments. the latter includes graded written assignments, a research project with class presentations, and may also include partial exams. \n\ntopics vary and are specified in the class schedule.",
     "prereqInfo": "[1101, 1102, 1103, 1104] or [3001, 3003] or equiv",
     "prereq": {
       "or": [
@@ -378,8 +333,8 @@
     "subject": "PORT",
     "id": "4003",
     "title": "Portuguese Conv & Comp Grad",
-    "info": "the goals of this course are twofold. the first goal is to improve your abilities in the four areas of language (speaking, listening, reading, and writing) to the point that you can communicate advanced ideas in written and spoken portuguese. the second goal is for you to possess a foundational understanding of cultural texts (plays, short stories, poems, films, and essays) from the 1950s onward that will help generate your enthusiasm for portuguese and help you understand how the arts are entwined in resistance to injustice throughout the communities where portuguese, among other languages, is spoken. as a course that bridges the language courses and the content courses, port3003 includes both advanced grammar and critical analysis to prepare you for content courses, such as port 3501w, and the longer writing assignments that you will have in such courses. the course will be taught in portuguese, and the reading, writing, and speaking will be done in portuguese. assessments include, but are not necessarily limited to, writing assignments, oral presentations, and written exams. ",
-    "prereqInfo": "1104 or 3001 or port lpe\n",
+    "info": "the goals of this course are twofold. the first goal is to improve your abilities in the four areas of language (speaking, listening, reading, and writing) to the point that you can communicate advanced ideas in written and spoken portuguese. the second goal is for you to possess a foundational understanding of cultural texts (plays, short stories, poems, films, and essays) from the 1950s onward that will help generate your enthusiasm for portuguese and help you understand how the arts are entwined in resistance to injustice throughout the communities where portuguese, among other languages, is spoken. as a course that bridges the language courses and the content courses, port3003 includes both advanced grammar and critical analysis to prepare you for content courses, such as port 3501w, and the longer writing assignments that you will have in such courses. the course will be taught in portuguese, and the reading, writing, and speaking will be done in portuguese. assessments include, but are not necessarily limited to, writing assignments, oral presentations, and written exams.",
+    "prereqInfo": "1104 or 3001 or port lpe",
     "prereq": {
       "or": [
         {
@@ -400,7 +355,7 @@
     "subject": "PORT",
     "id": "4022",
     "title": "Intensive Beginning Portuguese",
-    "info": "intensive course for those with no portuguese background. students develop novice-intermediate low proficiency in listening, speaking, reading, writing. based on materials from portugal, brazil, and portuguese-speaking africa. pair and small-group communicative activities, focused on interpreting and producing audio(visual) and written texts. this class is partially online. \n \n \n",
+    "info": "intensive course for those with no portuguese background. students develop novice-intermediate low proficiency in listening, speaking, reading, writing. based on materials from portugal, brazil, and portuguese-speaking africa. pair and small-group communicative activities, focused on interpreting and producing audio(visual) and written texts. this class is partially online.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -427,26 +382,18 @@
     "subject": "PORT",
     "id": "4103",
     "title": "Int Portuguese Grad Research",
-    "info": "advancing listening, speaking, reading, writing skills based on materials from portugal, brazil, or portuguese-speaking africa. paired and small-group communicative activities, focused on interpreting and producing audio(visual) and written texts at the intermediate level. this class is partially online.  ",
-    "prereqInfo": "meets concurrently with 1103.",
-    "prereq": {
-      "code": "PORT 1103",
-      "subject": "PORT",
-      "id": "1103"
-    }
+    "info": "advancing listening, speaking, reading, writing skills based on materials from portugal, brazil, or portuguese-speaking africa. paired and small-group communicative activities, focused on interpreting and producing audio(visual) and written texts at the intermediate level. this class is partially online.  \n\nmeets concurrently with 1103.",
+    "prereqInfo": null,
+    "prereq": []
   },
   {
     "code": "PORT 4104",
     "subject": "PORT",
     "id": "4104",
     "title": "Int Portugueuse Grad Research",
-    "info": "advancing listening, speaking, reading, writing skills based on materials from portugal, brazil, or portuguese-speaking africa. paired and small-group communicative activities, focused on interpreting and producing audio(visual) and written texts at the intermediate level. this class is partially online.",
-    "prereqInfo": "meets concurrently with 1104.",
-    "prereq": {
-      "code": "PORT 1104",
-      "subject": "PORT",
-      "id": "1104"
-    }
+    "info": "advancing listening, speaking, reading, writing skills based on materials from portugal, brazil, or portuguese-speaking africa. paired and small-group communicative activities, focused on interpreting and producing audio(visual) and written texts at the intermediate level. this class is partially online.\n\nmeets concurrently with 1104.",
+    "prereqInfo": null,
+    "prereq": []
   },
   {
     "code": "PORT 5520",
@@ -507,8 +454,8 @@
     "subject": "PORT",
     "id": "5993",
     "title": "Directed Studies",
-    "info": "lusophone studies (portuguese-speaking africa, brazil, portugal). areas not covered in other courses. students submit reading plans for particular topics, figures, periods, or issues.\nprereq ma or phd candidate, instr consent.",
-    "prereqInfo": "\nstudents enrolling in this directed study/research course will complete the university's common directed study/research contract with the faculty mentor/evaluator. the faculty member will ensure academic standards are upheld, including:\n- the work proposed is at the appropriate level for the course, academic in nature, and the student will be involved intellectually in the project.\n- the project scope is reasonable for one semester and the number of credits specified (42 hours of work per credit)\n- the faculty mentor is qualified to serve in this role\n- assessment of student learning and grading criteria are clear and appropriate\n- the student will be working in a respectful, inclusive environment",
+    "info": "lusophone studies (portuguese-speaking africa, brazil, portugal). areas not covered in other courses. students submit reading plans for particular topics, figures, periods, or issues.",
+    "prereqInfo": "ma or phd candidate, instr consent.\n\n\nstudents enrolling in this directed study/research course will complete the university's common directed study/research contract with the faculty mentor/evaluator. the faculty member will ensure academic standards are upheld, including:\n- the work proposed is at the appropriate level for the course, academic in nature, and the student will be involved intellectually in the project.\n- the project scope is reasonable for one semester and the number of credits specified (42 hours of work per credit)\n- the faculty mentor is qualified to serve in this role\n- assessment of student learning and grading criteria are clear and appropriate\n- the student will be working in a respectful, inclusive environment",
     "prereq": []
   },
   {
@@ -516,8 +463,8 @@
     "subject": "PORT",
     "id": "5994",
     "title": "Directed Research",
-    "info": "graduate-level research in literatures and cultures of the portuguese-speaking world. topics vary. prereq grad student or instr consent. students enrolling in this directed study/research course will complete the university's common directed study/research contract with the faculty mentor/evaluator. ",
-    "prereqInfo": "the faculty member will ensure academic standards are upheld, including: \n- the work proposed is at the appropriate level for the course, academic in nature, and the student will be involved intellectually in the project. \n- the project scope is reasonable for one semester and the number of credits specified (42 hours of work per credit) \n- the faculty mentor is qualified to serve in this role \n- assessment of student learning and grading criteria are clear and appropriate \n- the student will be working in a respectful, inclusive environment",
+    "info": "graduate-level research in literatures and cultures of the portuguese-speaking world. topics vary.",
+    "prereqInfo": "grad student or instr consent. students enrolling in this directed study/research course will complete the university's common directed study/research contract with the faculty mentor/evaluator. \n\nthe faculty member will ensure academic standards are upheld, including: \n- the work proposed is at the appropriate level for the course, academic in nature, and the student will be involved intellectually in the project. \n- the project scope is reasonable for one semester and the number of credits specified (42 hours of work per credit) \n- the faculty mentor is qualified to serve in this role \n- assessment of student learning and grading criteria are clear and appropriate \n- the student will be working in a respectful, inclusive environment",
     "prereq": []
   },
   {
@@ -536,15 +483,19 @@
     "title": "Thesis Credit:Mast*",
     "info": "(no description)",
     "prereqInfo": "max 18 cr per semester or summer; 10 cr total required [plan a only]",
-    "prereq": []
+    "prereq": {
+      "code": "PORT 10",
+      "subject": "PORT",
+      "id": "10"
+    }
   },
   {
     "code": "PORT 8888",
     "subject": "PORT",
     "id": "8888",
     "title": "Thesis Credit:Doct*",
-    "info": "prereq: max 18 cr per semester or summer; 24 cr required",
-    "prereqInfo": null,
+    "info": "",
+    "prereqInfo": "max 18 cr per semester or summer; 24 cr required",
     "prereq": []
   },
   {

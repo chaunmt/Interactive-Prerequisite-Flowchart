@@ -58,20 +58,9 @@
     "subject": "NURS",
     "id": "2996",
     "title": "Health Science Exp for Nursing",
-    "info": "this course will supplement and enrich co-curricular health sciences practical experiences like work, volunteer positions, or non-nursing internships. students will set and work toward goals, receive and respond to feedback, reflect on their progress, and connect their experience to nursing careers.",
-    "prereqInfo": "course notes: nurs 2996 is designed for nursing students who have secured a health sciences practical experience (such as a volunteer position, job, or internship) that requires them to be enrolled in a course for academic credit including cpt for international students. this course is not for students completing their junior year nursing internship. there are specific requirements for nursing internship courses set by the minnesota board of nursing which are only met through nurs 3996.",
-    "prereq": [
-      {
-        "code": "NURS 2996",
-        "subject": "NURS",
-        "id": "2996"
-      },
-      {
-        "code": "NURS 3996",
-        "subject": "NURS",
-        "id": "3996"
-      }
-    ]
+    "info": "this course will supplement and enrich co-curricular health sciences practical experiences like work, volunteer positions, or non-nursing internships. students will set and work toward goals, receive and respond to feedback, reflect on their progress, and connect their experience to nursing careers.\n\ncourse notes: nurs 2996 is designed for nursing students who have secured a health sciences practical experience (such as a volunteer position, job, or internship) that requires them to be enrolled in a course for academic credit including cpt for international students. this course is not for students completing their junior year nursing internship. there are specific requirements for nursing internship courses set by the minnesota board of nursing which are only met through nurs 3996.",
+    "prereqInfo": null,
+    "prereq": []
   },
   {
     "code": "NURS 3115",
@@ -199,15 +188,6 @@
     "prereq": []
   },
   {
-    "code": "NURS 3802H",
-    "subject": "NURS",
-    "id": "3802H",
-    "title": "Nurs Care of Families I Honors",
-    "info": "nursing care of childbearing/childrearing families. family theory, family-centered care, family culture in the context of home and community settings and therapeutic communication between nurse and patients/families.",
-    "prereqInfo": "enrolled nursing student",
-    "prereq": []
-  },
-  {
     "code": "NURS 3803",
     "subject": "NURS",
     "id": "3803",
@@ -223,15 +203,6 @@
     "title": "Nurse as Professional",
     "info": "basic nursing concepts, role development, competencies, therapeutic use of self, and communication skills for person-centered care and professional teamwork; beginning development of own nursing philosophy; career exploration.",
     "prereqInfo": "admitted to nursing bsn program",
-    "prereq": []
-  },
-  {
-    "code": "NURS 3806H",
-    "subject": "NURS",
-    "id": "3806H",
-    "title": "Nurse as Professional: Honors",
-    "info": "basic nursing concepts, role development, competencies, therapeutic use of self, communication skills for person centered care/professional teamwork. develop own nursing philosophy. explore careers/qualitative research methods while interviewing school of nursing alumni.",
-    "prereqInfo": "[undergrad nursing student, honors] or instr consent",
     "prereq": []
   },
   {
@@ -329,7 +300,7 @@
     "subject": "NURS",
     "id": "4202",
     "title": "Core Interventions Nursing Pra",
-    "info": "psychomotor skills in core nursing, complementary, and delegated medical interventions for persons/families, throughout the life span, experiencing health disruptions/developmental transitions. ",
+    "info": "psychomotor skills in core nursing, complementary, and delegated medical interventions for persons/families, throughout the life span, experiencing health disruptions/developmental transitions.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -340,15 +311,6 @@
     "title": "Nurs FundamentII:Assess&Interv",
     "info": "foundational, complex, and advanced psychomotor nursing interventions and their research basis. lab components provide opportunities to perform psychomotor skills used in nursing/complementary interventions. skills taught within caring framework.",
     "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "NURS 4205V",
-    "subject": "NURS",
-    "id": "4205V",
-    "title": "Honors: Nurs Theory & Research",
-    "info": "knowledge basic to discipline/practice of nursing. relationships among research, theory, practice. introduction to research process, with attention to use of research in practice. students develop honors research proposal.",
-    "prereqInfo": "nurs honors",
     "prereq": []
   },
   {
@@ -444,18 +406,9 @@
           "id": "3801"
         },
         {
-          "or": [
-            {
-              "code": "NURS 3802",
-              "subject": "NURS",
-              "id": "3802"
-            },
-            {
-              "code": "NURS 3802H",
-              "subject": "NURS",
-              "id": "3802H"
-            }
-          ]
+          "code": "NURS 3802",
+          "subject": "NURS",
+          "id": "3802"
         }
       ]
     }
@@ -485,18 +438,9 @@
           "id": "3801"
         },
         {
-          "or": [
-            {
-              "code": "NURS 3802",
-              "subject": "NURS",
-              "id": "3802"
-            },
-            {
-              "code": "NURS 3802H",
-              "subject": "NURS",
-              "id": "3802H"
-            }
-          ]
+          "code": "NURS 3802",
+          "subject": "NURS",
+          "id": "3802"
         }
       ]
     }
@@ -600,7 +544,7 @@
     "subject": "NURS",
     "id": "4401",
     "title": "Hlth Care of Pop: Prac",
-    "info": "guided practice in population-based nursing to promote and protect health through systematic assessment, planning, intervention, and evaluation. critical examination of interdisciplinary collaboration, partnering with culturally diverse populations, and ethical decision-making in public health.  ",
+    "info": "guided practice in population-based nursing to promote and protect health through systematic assessment, planning, intervention, and evaluation. critical examination of interdisciplinary collaboration, partnering with culturally diverse populations, and ethical decision-making in public health.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -636,24 +580,11 @@
     "prereq": []
   },
   {
-    "code": "NURS 4404V",
-    "subject": "NURS",
-    "id": "4404V",
-    "title": "Honors: App Res/Resear Utiliza",
-    "info": "systematic inquiry in interpreting/evaluating research.  implement study proposed in nurs4205v. write scholarly research report, which will serve as honors research thesis.",
-    "prereqInfo": "honors student in school of nursing, nurs 4205v, upper division statistics course",
-    "prereq": {
-      "code": "NURS 4205",
-      "subject": "NURS",
-      "id": "4205"
-    }
-  },
-  {
     "code": "NURS 4406W",
     "subject": "NURS",
     "id": "4406W",
     "title": "Leadership/Mgmnt for Nsg Prax",
-    "info": "provides a basis for synthesis of current leadership and management theories within the professional practice of nursing. examine the interaction among professional nursing issues, health care trends, and the leadership potential of nurses. \n",
+    "info": "provides a basis for synthesis of current leadership and management theories within the professional practice of nursing. examine the interaction among professional nursing issues, health care trends, and the leadership potential of nurses.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -878,7 +809,7 @@
     "subject": "NURS",
     "id": "4705",
     "title": "NursCareAcrssLifeII",
-    "info": "synthesize person-centered evidence-based nursing care for persons across the lifespan with complex health conditions in the context of families and communities. didactic course. ",
+    "info": "synthesize person-centered evidence-based nursing care for persons across the lifespan with complex health conditions in the context of families and communities. didactic course.",
     "prereqInfo": "4703, sr in good standing in bsn",
     "prereq": {
       "code": "NURS 4703",
@@ -909,7 +840,7 @@
     "subject": "NURS",
     "id": "4708",
     "title": "NursCreAcrssLfeSpnPracticumII",
-    "info": "synthesis of the nursing process to provide nursing care in a clinical setting that demonstrates the school of nursing pre-licensure competencies. preceptor led. ",
+    "info": "synthesis of the nursing process to provide nursing care in a clinical setting that demonstrates the school of nursing pre-licensure competencies. preceptor led.",
     "prereqInfo": "bsn student",
     "prereq": []
   },
@@ -918,7 +849,7 @@
     "subject": "NURS",
     "id": "4777W",
     "title": "Senior Proj in the Nurs Major",
-    "info": "application of evidence-based practice and the relationship to research, quality improvement, and safety leading to improved patient, population, or system outcomes. scholarly exploration of a clinical problem or system issue from a nursing perspective that culminates in a professional presentation. ",
+    "info": "application of evidence-based practice and the relationship to research, quality improvement, and safety leading to improved patient, population, or system outcomes. scholarly exploration of a clinical problem or system issue from a nursing perspective that culminates in a professional presentation.",
     "prereqInfo": "4205w or 4205v",
     "prereq": {
       "or": [
@@ -1084,15 +1015,6 @@
     "prereq": []
   },
   {
-    "code": "NURS 5040H",
-    "subject": "NURS",
-    "id": "5040H",
-    "title": "Solutions Global Health Issues",
-    "info": "global health issues from interdisciplinary perspective. ethical/cultural sensitivity, complexities. students propose realistic actions to resolve issues.",
-    "prereqInfo": "prereq junior or senior university honors program (uhp) student in nursing or other major, or graduate student, or instr consent; meets lib ed req of global perspectives; meets honors req of honors",
-    "prereq": []
-  },
-  {
     "code": "NURS 5111",
     "subject": "NURS",
     "id": "5111",
@@ -1115,7 +1037,7 @@
     "subject": "NURS",
     "id": "5115",
     "title": "Nurs Informatics & Dig Health",
-    "info": "this course will provide an introduction to the field of nursing informatics and its role in supporting care processes to ensure safe, high-quality, and efficient healthcare. nurses, as members of multidisciplinary healthcare teams, play an important role in the implementation and governance of these informatics and digital health tools. skills on using data from these tools to generate knowledge, drive decision-making, and support equitable access to quality, safe care will be shared. nurse contributions in using digital technologies, influencing policies, and emerging trends in the field will be discussed. \n",
+    "info": "this course will provide an introduction to the field of nursing informatics and its role in supporting care processes to ensure safe, high-quality, and efficient healthcare. nurses, as members of multidisciplinary healthcare teams, play an important role in the implementation and governance of these informatics and digital health tools. skills in using data from these tools to generate knowledge, drive decision-making, and support equitable access to quality, safe care will be shared. nurse contributions in using digital technologies, influencing policies, and emerging trends in the field will be discussed.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -1136,7 +1058,12 @@
     "info": "students apply consumer health informatics principles, theories, and research to consumer health informatics topics and how technology is used to engage patients, clinicians, and family members in their health care. specific topics include electronic health literacy, digital/mobile health technologies (health apps), and sensor/remote monitoring.",
     "prereqInfo": "graduate student, [nurs 5116 or &nurs 5116] or instructor consent",
     "prereq": {
-      "or": [
+      "and": [
+        {
+          "code": "NURS 5116",
+          "subject": "NURS",
+          "id": "5116"
+        },
         {
           "code": "NURS 5116",
           "subject": "NURS",
@@ -1204,7 +1131,7 @@
     "subject": "NURS",
     "id": "5190",
     "title": "Ess Hol Hlth Asses Fndtl Clini",
-    "info": "introduction to health and physical assessment for safe, culturally sensitive, inclusive, and ethical nursing practice across the life span. active learning, simulation, and clinical settings are used to develop a holistic approach to nursing process: assessment, diagnosis, outcome, planning, implementation, and evaluation. ",
+    "info": "introduction to health and physical assessment for safe, culturally sensitive, inclusive, and ethical nursing practice across the life span. active learning, simulation, and clinical settings are used to develop a holistic approach to nursing process: assessment, diagnosis, outcome, planning, implementation, and evaluation.",
     "prereqInfo": "admission to mn program",
     "prereq": []
   },
@@ -1213,7 +1140,7 @@
     "subject": "NURS",
     "id": "5200",
     "title": "Holistic Health & Therapeutics",
-    "info": "provides students with advanced holistic health assessment knowledge and skills needed for anp across the life span. prepares students to utilize advanced health assessment skills to differentiate between normal, variations of normal and abnormal findings. integrates integrates eb data into a comprehensive health assessment. ",
+    "info": "provides students with advanced holistic health assessment knowledge and skills needed for anp across the life span. prepares students to utilize advanced health assessment skills to differentiate between normal, variations of normal and abnormal findings. integrates integrates eb data into a comprehensive health assessment.",
     "prereqInfo": "admission to advanced practice nursing area of study (dnp or post-graduate certificate program), instr consent",
     "prereq": []
   },
@@ -1307,7 +1234,7 @@
     "subject": "NURS",
     "id": "5226",
     "title": "Advanced Human Pathophysiology",
-    "info": "this course will provide an in-depth review of pathophysiological principles at the mechanistic and clinical levels across the lifespan. basic science principles will be reviewed in conjunction with clinical assessments and diagnoses, to effectively inform therapeutic decision making. deviations from normal physiological processes will be a focus across all systems. clinical case studies will be used to enhance understanding of key scientific principles at the local and systemic levels. students will be able to apply knowledge gained in clinical settings on common diseases as well as rare and esoteric disorders using current research, theory, and relevant case studies. \n",
+    "info": "this course will provide an in-depth review of pathophysiological principles at the mechanistic and clinical levels across the lifespan. basic science principles will be reviewed in conjunction with clinical assessments and diagnoses, to effectively inform therapeutic decision making. deviations from normal physiological processes will be a focus across all systems. clinical case studies will be used to enhance understanding of key scientific principles at the local and systemic levels. students will be able to apply knowledge gained in clinical settings on common diseases as well as rare and esoteric disorders using current research, theory, and relevant case studies.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -1334,7 +1261,7 @@
     "subject": "NURS",
     "id": "5229",
     "title": "Clinical Pharmacotherapeutics",
-    "info": "this course focuses on the prescription and application of the principles of drug therapy, patterns of drug use, prescriptive privileges, and prescription writing for advanced practice nurses. students review the pharmacokinetics and pharmacodynamics of commonly used drug classes, and the pharmacotherapeutic treatment guidelines for the management of health conditions in various age groups. ",
+    "info": "this course focuses on the prescription and application of the principles of drug therapy, patterns of drug use, prescriptive privileges, and prescription writing for advanced practice nurses. students review the pharmacokinetics and pharmacodynamics of commonly used drug classes, and the pharmacotherapeutic treatment guidelines for the management of health conditions in various age groups.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -1361,7 +1288,7 @@
     "subject": "NURS",
     "id": "5284",
     "title": "Support Labor&Birth for Nurses",
-    "info": "techniques to provide labor support, discussion about doula role and overlap with nursing support. emphasizing continuous physical and emotional labor support plus information to enhance physiologic birth. experience providing labor support to women at a clinical facility included. ",
+    "info": "techniques to provide labor support, discussion about doula role and overlap with nursing support. emphasizing continuous physical and emotional labor support plus information to enhance physiologic birth. experience providing labor support to women at a clinical facility included.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -1415,7 +1342,7 @@
     "subject": "NURS",
     "id": "5505",
     "title": "AssessSupportIndivInLabor",
-    "info": "this course builds the knowledge and skills required to care for individuals in labor. ",
+    "info": "this course builds the knowledge and skills required to care for individuals in labor.",
     "prereqInfo": "admission to dnp program",
     "prereq": []
   },
@@ -1464,8 +1391,8 @@
     "subject": "NURS",
     "id": "5611",
     "title": "Database Principles Healthcare",
-    "info": "principles of database theory, modeling, design, and manipulation of databases will be introduced, taught with a healthcare applications emphasis. students will be able to critically evaluate database query methods and results, and understand their implications for healthcare.",
-    "prereqInfo": "course prerequisites: graduate student or instructor consent",
+    "info": "principles of database theory, modeling, design, and manipulation of databases will be introduced, taught with a healthcare applications emphasis. students will be able to critically evaluate database query methods and results, and understand their implications for healthcare.\n\ncourse",
+    "prereqInfo": "graduate student or instructor consent",
     "prereq": []
   },
   {
@@ -1711,7 +1638,7 @@
     "subject": "NURS",
     "id": "6100",
     "title": "Evidence-based Practice",
-    "info": "examination of evidence based nursing. types/levels of evidence. science of implementing evidence to change practice/improve patient outcomes.   ",
+    "info": "examination of evidence based nursing. types/levels of evidence. science of implementing evidence to change practice/improve patient outcomes.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -1755,7 +1682,7 @@
     "subject": "NURS",
     "id": "6200",
     "title": "Foundations Nursng Interventns",
-    "info": "develop advanced knowledge and skills in the critical evaluation and synthesis of theoretical structures and research evidence.  demonstrate application of these advanced knowledge and skills to address nursing practice problems.  demonstrate use of ethics and inclusivity, diversity and equity (ide) perspectives to explore how middle range nursing and ethics theories, concepts, research and/or interventions can be used to improve the care of individuals and populations.\n",
+    "info": "develop advanced knowledge and skills in the critical evaluation and synthesis of theoretical structures and research evidence.  demonstrate application of these advanced knowledge and skills to address nursing practice problems.  demonstrate use of ethics and inclusivity, diversity and equity (ide) perspectives to explore how middle range nursing and ethics theories, concepts, research and/or interventions can be used to improve the care of individuals and populations.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -1764,7 +1691,7 @@
     "subject": "NURS",
     "id": "6210",
     "title": "Midwi Care Childbearing Family",
-    "info": "in this course students will investigate and evaluate evidence-based models of midwifery practice for the management and support of women, individuals seeking midwifery care and their families during labor, birth, the immediate postpartum period, and care of the newborn. ",
+    "info": "in this course students will investigate and evaluate evidence-based models of midwifery practice for the management and support of women, individuals seeking midwifery care and their families during labor, birth, the immediate postpartum period, and care of the newborn.",
     "prereqInfo": "6305, 6306, 6308, 6925",
     "prereq": {
       "and": [
@@ -1796,7 +1723,7 @@
     "subject": "NURS",
     "id": "6211",
     "title": "Midw Care ChildbearingFam Prac",
-    "info": "in this course students will implement evidence-based models of midwifery practice in the management and support of women, individuals seeking midwifery care and their families during labor, birth, the immediate postpartum period, and care of the newborn. ",
+    "info": "in this course students will implement evidence-based models of midwifery practice in the management and support of women, individuals seeking midwifery care and their families during labor, birth, the immediate postpartum period, and care of the newborn.",
     "prereqInfo": "6305, 6306, 6308, 6925",
     "prereq": {
       "and": [
@@ -1870,8 +1797,8 @@
     "subject": "NURS",
     "id": "6213",
     "title": "ReprodHlthCarePatComplxCndtns",
-    "info": "the course provides an evidence based, theoretical and epidemiologic basis for advanced practice nursing care of patients with complex reproductive health problems requiring multidisciplinary interventions. selected high-risk gynecologic and perinatal conditions are examined. ",
-    "prereqInfo": "prereqs: (nm and whnp) 6305/6306, 6501, 6925; (nm only) 6308, 6210/6211; (whnp only) 6502, 6926, 6927/6928",
+    "info": "the course provides an evidence based, theoretical and epidemiologic basis for advanced practice nursing care of patients with complex reproductive health problems requiring multidisciplinary interventions. selected high-risk gynecologic and perinatal conditions are examined.",
+    "prereqInfo": "s: (nm and whnp) 6305/6306, 6501, 6925; (nm only) 6308, 6210/6211; (whnp only) 6502, 6926, 6927/6928",
     "prereq": {
       "and": [
         {
@@ -1893,6 +1820,41 @@
           "code": "NURS 6925",
           "subject": "NURS",
           "id": "6925"
+        },
+        {
+          "code": "NURS 6308",
+          "subject": "NURS",
+          "id": "6308"
+        },
+        {
+          "code": "NURS 6210",
+          "subject": "NURS",
+          "id": "6210"
+        },
+        {
+          "code": "NURS 6211",
+          "subject": "NURS",
+          "id": "6211"
+        },
+        {
+          "code": "NURS 6502",
+          "subject": "NURS",
+          "id": "6502"
+        },
+        {
+          "code": "NURS 6926",
+          "subject": "NURS",
+          "id": "6926"
+        },
+        {
+          "code": "NURS 6927",
+          "subject": "NURS",
+          "id": "6927"
+        },
+        {
+          "code": "NURS 6928",
+          "subject": "NURS",
+          "id": "6928"
         }
       ]
     }
@@ -1902,9 +1864,112 @@
     "subject": "NURS",
     "id": "6214",
     "title": "ReprodHlthPatntsCmplxCondtPrac",
-    "info": "apply advanced assessment and management skills in the care of patients and infants at risk for medical and/or psychosocial problems and to gain experience in the management of selected high-risk perinatal conditions. ",
-    "prereqInfo": "prereqs: nurse-midwife dnp student, n5222, n5228, n5229, n5200, n6305, n6306, n6308, n6925, n6210, n6211 whnp dnp student: n5222, n5228, n5229, n5200, n6305, n6306, n6926, n6925, n6927, n6928",
-    "prereq": []
+    "info": "apply advanced assessment and management skills in the care of patients and infants at risk for medical and/or psychosocial problems and to gain experience in the management of selected high-risk perinatal conditions.",
+    "prereqInfo": "s: nurse-midwife dnp student, n5222, n5228, n5229, n5200, n6305, n6306, n6308, n6925, n6210, n6211 whnp dnp student: n5222, n5228, n5229, n5200, n6305, n6306, n6926, n6925, n6927, n6928",
+    "prereq": {
+      "and": [
+        {
+          "code": "NURS 5222",
+          "subject": "NURS",
+          "id": "5222"
+        },
+        {
+          "code": "NURS 5228",
+          "subject": "NURS",
+          "id": "5228"
+        },
+        {
+          "code": "NURS 5229",
+          "subject": "NURS",
+          "id": "5229"
+        },
+        {
+          "code": "NURS 5200",
+          "subject": "NURS",
+          "id": "5200"
+        },
+        {
+          "code": "NURS 6305",
+          "subject": "NURS",
+          "id": "6305"
+        },
+        {
+          "code": "NURS 6306",
+          "subject": "NURS",
+          "id": "6306"
+        },
+        {
+          "code": "NURS 6308",
+          "subject": "NURS",
+          "id": "6308"
+        },
+        {
+          "code": "NURS 6925",
+          "subject": "NURS",
+          "id": "6925"
+        },
+        {
+          "code": "NURS 6210",
+          "subject": "NURS",
+          "id": "6210"
+        },
+        {
+          "code": "NURS 6211",
+          "subject": "NURS",
+          "id": "6211"
+        },
+        {
+          "code": "NURS 5222",
+          "subject": "NURS",
+          "id": "5222"
+        },
+        {
+          "code": "NURS 5228",
+          "subject": "NURS",
+          "id": "5228"
+        },
+        {
+          "code": "NURS 5229",
+          "subject": "NURS",
+          "id": "5229"
+        },
+        {
+          "code": "NURS 5200",
+          "subject": "NURS",
+          "id": "5200"
+        },
+        {
+          "code": "NURS 6305",
+          "subject": "NURS",
+          "id": "6305"
+        },
+        {
+          "code": "NURS 6306",
+          "subject": "NURS",
+          "id": "6306"
+        },
+        {
+          "code": "NURS 6926",
+          "subject": "NURS",
+          "id": "6926"
+        },
+        {
+          "code": "NURS 6925",
+          "subject": "NURS",
+          "id": "6925"
+        },
+        {
+          "code": "NURS 6927",
+          "subject": "NURS",
+          "id": "6927"
+        },
+        {
+          "code": "NURS 6928",
+          "subject": "NURS",
+          "id": "6928"
+        }
+      ]
+    }
   },
   {
     "code": "NURS 6302",
@@ -1920,7 +1985,7 @@
     "subject": "NURS",
     "id": "6305",
     "title": "Reproductive Sexual Hlth Care",
-    "info": "application of theory and evidence to holistic practice in reproductive and sexual health care. emphasis is placed on theoretical knowledge and skills related to caring for persons with common reproductive health needs throughout the life cycle. the sociopolitical context of women's lives and those seeking reproductive and sexual health care is integrated throughout. ",
+    "info": "application of theory and evidence to holistic practice in reproductive and sexual health care. emphasis is placed on theoretical knowledge and skills related to caring for persons with common reproductive health needs throughout the life cycle. the sociopolitical context of women's lives and those seeking reproductive and sexual health care is integrated throughout.",
     "prereqInfo": "dnp student, 5200, 5222, 5228, 5229",
     "prereq": {
       "and": [
@@ -1952,7 +2017,7 @@
     "subject": "NURS",
     "id": "6306",
     "title": "Reprod and Sexual Health Pract",
-    "info": "this course provides clinical experience in a reproductive and sexual health setting to develop basic skills in providing holistic, safe, and competent care, including history taking, physical examination, and patient education specific to reproductive and sexual health issues across the lifespan. ",
+    "info": "this course provides clinical experience in a reproductive and sexual health setting to develop basic skills in providing holistic, safe, and competent care, including history taking, physical examination, and patient education specific to reproductive and sexual health issues across the lifespan.",
     "prereqInfo": "5200, 5222, 5228, 5229, 6305 (or concurrent)",
     "prereq": {
       "and": [
@@ -1999,7 +2064,7 @@
     "id": "6308",
     "title": "Women's Primary Care Practicum",
     "info": "practicum in  reproductive/primary health care settings to continue development of basic skills in providing holistic, safe, and competent care, including history taking, physical examination, and patient education specific to reproductive and primary health care issues across the lifespan.",
-    "prereqInfo": "prereqs: 5200, 5222, 5228, 5229, 6501, 6305, 6306",
+    "prereqInfo": "s: 5200, 5222, 5228, 5229, 6501, 6305, 6306",
     "prereq": {
       "and": [
         {
@@ -2290,12 +2355,26 @@
     "subject": "NURS",
     "id": "6519",
     "title": "Advanced Pediatric Assessment",
-    "info": "students develop the advanced pediatric health assessment knowledge and skills needed for the pediatric nurse practitioner/pediatric clinical nurse specialist. selected nursing interventions and integrative therapies are examined for their application to the pediatric population.  ",
-    "prereqInfo": "\nnurs 5200 holistic health assessment & therapeutics for apns;\nnurs 5222 advanced physiology;\nnurs 5229 clinical pharmacotherapeutics \nor instructor consent\n",
+    "info": "students develop the advanced pediatric health assessment knowledge and skills needed for the pediatric nurse practitioner/pediatric clinical nurse specialist. selected nursing interventions and integrative therapies are examined for their application to the pediatric population.",
+    "prereqInfo": "nurs 5200 holistic health assessment & therapeutics for apns;\nnurs 5222 advanced physiology;\nnurs 5229 clinical pharmacotherapeutics \nor instructor consent",
     "prereq": {
-      "code": "NURS 5200",
-      "subject": "NURS",
-      "id": "5200"
+      "and": [
+        {
+          "code": "NURS 5200",
+          "subject": "NURS",
+          "id": "5200"
+        },
+        {
+          "code": "NURS 5222",
+          "subject": "NURS",
+          "id": "5222"
+        },
+        {
+          "code": "NURS 5229",
+          "subject": "NURS",
+          "id": "5229"
+        }
+      ]
     }
   },
   {
@@ -2530,9 +2609,27 @@
     "subject": "NURS",
     "id": "6707",
     "title": "HlthCare Desgn Innovation Prac",
-    "info": "synthesis, reflection, and evaluation of learning from courses in the health innovation leadership and design curriculum to identify gaps in knowledge and developmental practicum needs related to leadership in health care innovation and design. prereq: students in health care design and innovation certificate program or dnp students who have completed nurs 7610, csph 5711, humf 5874.",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "synthesis, reflection, and evaluation of learning from courses in the health innovation leadership and design curriculum to identify gaps in knowledge and developmental practicum needs related to leadership in health care innovation and design.",
+    "prereqInfo": "students in health care design and innovation certificate program or dnp students who have completed nurs 7610, csph 5711, humf 5874.",
+    "prereq": {
+      "and": [
+        {
+          "code": "NURS 7610",
+          "subject": "NURS",
+          "id": "7610"
+        },
+        {
+          "code": "CSPH 5711",
+          "subject": "CSPH",
+          "id": "5711"
+        },
+        {
+          "code": "HUMF 5874",
+          "subject": "HUMF",
+          "id": "5874"
+        }
+      ]
+    }
   },
   {
     "code": "NURS 6800",
@@ -2607,8 +2704,8 @@
     "subject": "NURS",
     "id": "6881",
     "title": "IntrotoPubHlthInfoSystems",
-    "info": "public health is an information-intense enterprise. surveillance systems provide information on infectious disease tracking, disease clusters, food-borne outbreaks, and injuries. registries in public health contain information on vital statistics such as birth, death, cancer, and immunizations. introduction to public health informatics describes these public health information systems, their role in providing data for decision-making and addressing inequities in health. key issues in managing this information effectively, such as data analytics, decision support, data standards, health information exchange, privacy, and security are discussed. ",
-    "prereqInfo": "graduate student or instructor permission ",
+    "info": "public health is an information-intense enterprise. surveillance systems provide information on infectious disease tracking, disease clusters, food-borne outbreaks, and injuries. registries in public health contain information on vital statistics such as birth, death, cancer, and immunizations. introduction to public health informatics describes these public health information systems, their role in providing data for decision-making and addressing inequities in health. key issues in managing this information effectively, such as data analytics, decision support, data standards, health information exchange, privacy, and security are discussed. \n\ngraduate student or instructor permission",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -2625,8 +2722,8 @@
     "subject": "NURS",
     "id": "6900",
     "title": "Intro PrinciplesNurseAnesthes",
-    "info": "introduction to basic and safe nurse anesthesia care principles and orientation to clinical setting for patients undergoing surgical procedures. prereq: doctorate of nursing practice program",
-    "prereqInfo": null,
+    "info": "introduction to basic and safe nurse anesthesia care principles and orientation to clinical setting for patients undergoing surgical procedures.",
+    "prereqInfo": "doctorate of nursing practice program",
     "prereq": []
   },
   {
@@ -2735,7 +2832,7 @@
     "subject": "NURS",
     "id": "6910",
     "title": "Nurs Anesth Clncl Integration",
-    "info": "develop progressive proficiency in nurse anesthesia practice including basic equipment safety checks, room set up, pre-operative assessment, basic airway skills, intravenous fluid replacement, positioning of the patient and management of emergence ",
+    "info": "develop progressive proficiency in nurse anesthesia practice including basic equipment safety checks, room set up, pre-operative assessment, basic airway skills, intravenous fluid replacement, positioning of the patient and management of emergence",
     "prereqInfo": "grad student in doctorate of nursing practice program, concurrent registration is required (or allowed) in 6900",
     "prereq": {
       "code": "NURS 6900",
@@ -2748,18 +2845,35 @@
     "subject": "NURS",
     "id": "6911",
     "title": "Basic Nurs Anes Princ Prac I",
-    "info": "develop progressive proficiency in nurse anesthesia practice including basic equipment safety checks, room set up, pre-operative assessment, basic/advanced airway skills, intravenous fluid replacement, positioning of the patient, apply interventions, charting, management of emergence, handoff report, and setting personal daily clinical goals to achieve. ",
+    "info": "develop progressive proficiency in nurse anesthesia practice including basic equipment safety checks, room set up, pre-operative assessment, basic/advanced airway skills, intravenous fluid replacement, positioning of the patient, apply interventions, charting, management of emergence, handoff report, and setting personal daily clinical goals to achieve.",
     "prereqInfo": "n6910; concurrent registration is required (or allowed) in n6901, grad student in doctorate of nursing practice program",
-    "prereq": []
+    "prereq": {
+      "or": [
+        {
+          "code": "NURS 6910",
+          "subject": "NURS",
+          "id": "6910"
+        },
+        {
+          "code": "NURS 6901",
+          "subject": "NURS",
+          "id": "6901"
+        }
+      ]
+    }
   },
   {
     "code": "NURS 6912",
     "subject": "NURS",
     "id": "6912",
     "title": "Anes Care: Cardiothor Prac III",
-    "info": "introduction to basic and safe nurse anesthesia care principles and orientation to clinical setting for patients undergoing surgical procedures. prereq: concurrent registration is required (or allowed) in 6902, dnp-nurse anesthesia specialty student",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "introduction to basic and safe nurse anesthesia care principles and orientation to clinical setting for patients undergoing surgical procedures.",
+    "prereqInfo": "concurrent registration is required (or allowed) in 6902, dnp-nurse anesthesia specialty student",
+    "prereq": {
+      "code": "NURS 6902",
+      "subject": "NURS",
+      "id": "6902"
+    }
   },
   {
     "code": "NURS 6913",
@@ -2768,7 +2882,11 @@
     "title": "AnesCareSpecPopAcrLifespanPrac",
     "info": "develop proficiency in nurse anesthesia practice for special populations, including pediatrics, obstetrics/gynecology, trauma, and patients with acute and chronic pain.",
     "prereqInfo": "grad student in doctorate of nursing practice program nurse anesthesia specialty; concurrent registration is required (or allowed) in 6903",
-    "prereq": []
+    "prereq": {
+      "code": "NURS 6903",
+      "subject": "NURS",
+      "id": "6903"
+    }
   },
   {
     "code": "NURS 6914",
@@ -2777,7 +2895,20 @@
     "title": "Basic Nurs Anes Princ Prac II",
     "info": "develop progressive proficiency in nurse anesthesia practice including basic equipment safety checks, room set up, pre-operative assessment, basic airway skills, intravenous fluid replacement, positioning of patient, management of emergence.",
     "prereqInfo": "n6910, concurrent registration is required (or allowed) in n6901",
-    "prereq": []
+    "prereq": {
+      "and": [
+        {
+          "code": "NURS 6910",
+          "subject": "NURS",
+          "id": "6910"
+        },
+        {
+          "code": "NURS 6901",
+          "subject": "NURS",
+          "id": "6901"
+        }
+      ]
+    }
   },
   {
     "code": "NURS 6920",
@@ -2911,7 +3042,7 @@
     "subject": "NURS",
     "id": "6925",
     "title": "AdvConceptsReprod&SexHlthCare",
-    "info": "the course builds on foundational theoretical and evidence-based content to develop advanced assessment and care planning competencies throughout the lifespan with a focus on complex gynecological and pregnancy-related conditions.  ",
+    "info": "the course builds on foundational theoretical and evidence-based content to develop advanced assessment and care planning competencies throughout the lifespan with a focus on complex gynecological and pregnancy-related conditions.",
     "prereqInfo": "6305, 6306, 6501",
     "prereq": {
       "and": [
@@ -3069,9 +3200,13 @@
     "subject": "NURS",
     "id": "6929",
     "title": "Adv Nurs Pract Acute Ill Child",
-    "info": "synthesis and application of theory, research, and evidence-based practice to effectively implement pediatric clinical nurse specialist role. focuses on comprehensive acute, complex care, role implementation, and contextual factors affecting health of children with special health needs and families.\nprereq: [6405, grad student in nursing admitted to pediatric clinical nurse specialist area] or instr consent",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "synthesis and application of theory, research, and evidence-based practice to effectively implement pediatric clinical nurse specialist role. focuses on comprehensive acute, complex care, role implementation, and contextual factors affecting health of children with special health needs and families.",
+    "prereqInfo": "[6405, grad student in nursing admitted to pediatric clinical nurse specialist area] or instr consent",
+    "prereq": {
+      "code": "NURS 6405",
+      "subject": "NURS",
+      "id": "6405"
+    }
   },
   {
     "code": "NURS 6930",
@@ -3327,8 +3462,8 @@
     "subject": "NURS",
     "id": "7051",
     "title": "Data Science for Healthcare",
-    "info": "this course builds understanding of data science and analytics for use in healthcare, explores concepts of clinical intelligence and the learning health system, and introduces data science methods and analytical skills to evaluate healthcare quality and outcomes.",
-    "prereqInfo": "course prerequisites: strongly recommended graduate level statistical course; graduate students, and/or instructor consent.",
+    "info": "this course builds understanding of data science and analytics for use in healthcare, explores concepts of clinical intelligence and the learning health system, and introduces data science methods and analytical skills to evaluate healthcare quality and outcomes.\n\ncourse",
+    "prereqInfo": "strongly recommended graduate level statistical course; graduate students, and/or instructor consent.",
     "prereq": []
   },
   {
@@ -3336,8 +3471,8 @@
     "subject": "NURS",
     "id": "7052",
     "title": "Data Sci Healthcare Practicum",
-    "info": "this course applies knowledge of data science and analytics concepts within the learning health system using selected methods to address gaps in knowledge regarding health care quality or outcome in simulated or real life healthcare data.",
-    "prereqInfo": "course prerequisites: recommend graduate level statistics course",
+    "info": "this course applies knowledge of data science and analytics concepts within the learning health system using selected methods to address gaps in knowledge regarding health care quality or outcome in simulated or real life healthcare data.\n\ncourse",
+    "prereqInfo": "recommend graduate level statistics course",
     "prereq": []
   },
   {
@@ -3354,9 +3489,13 @@
     "subject": "NURS",
     "id": "7101",
     "title": "Change Theory &QuaIity Improve",
-    "info": "analysis and evaluation of change theories in relationship to quality improvement in health care in order to integrate change theory into the design and development of the student's dnp project. \nprereq: 7100 or instr consent",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "analysis and evaluation of change theories in relationship to quality improvement in health care in order to integrate change theory into the design and development of the student's dnp project.",
+    "prereqInfo": "7100 or instr consent",
+    "prereq": {
+      "code": "NURS 7100",
+      "subject": "NURS",
+      "id": "7100"
+    }
   },
   {
     "code": "NURS 7102",
@@ -3372,7 +3511,7 @@
     "subject": "NURS",
     "id": "7103",
     "title": "Nursing Research Methods",
-    "info": "evaluate research methods underlying development of knowledge for discipline/practice of nursing. ",
+    "info": "evaluate research methods underlying development of knowledge for discipline/practice of nursing.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -3405,6 +3544,11 @@
         },
         {
           "or": [
+            {
+              "code": "NURS 7105",
+              "subject": "NURS",
+              "id": "7105"
+            },
             {
               "code": "NURS 7105",
               "subject": "NURS",
@@ -3468,6 +3612,11 @@
               "id": "7108"
             },
             {
+              "code": "NURS 7108",
+              "subject": "NURS",
+              "id": "7108"
+            },
+            {
               "and": [
                 {
                   "code": "HINF 5430",
@@ -3521,7 +3670,7 @@
     "info": "principles and concepts of knowledge management and decision making for support of clinical practice. students design a clinical decision support intervention and examine the legal, ethical, and practical issues related to its implementation and maintenance of cds interventions.",
     "prereqInfo": "5115 or hinf 5430/5431 or instr consent",
     "prereq": {
-      "or": [
+      "and": [
         {
           "code": "NURS 5115",
           "subject": "NURS",
@@ -3556,6 +3705,11 @@
         },
         {
           "or": [
+            {
+              "code": "NURS 7113",
+              "subject": "NURS",
+              "id": "7113"
+            },
             {
               "code": "NURS 7113",
               "subject": "NURS",
@@ -3612,7 +3766,7 @@
     "subject": "NURS",
     "id": "7209",
     "title": "Integrative Nursing I",
-    "info": "this is a foundational course for advanced nursing practice with a focus on the scholarship, research, and theory underlying integrative nursing. ",
+    "info": "this is a foundational course for advanced nursing practice with a focus on the scholarship, research, and theory underlying integrative nursing.",
     "prereqInfo": "nurs 5101, nurs 5200, nurs 5222, nurs 7000, taken concurrent with csph 5226",
     "prereq": {
       "and": [
@@ -3649,10 +3803,30 @@
     "subject": "NURS",
     "id": "7210",
     "title": "Integrative Nursng Practicum I",
-    "info": "this is a foundation clinical course in advanced integrative nursing practice with a focus on integrative nursing assessment, management, and evaluation. ",
-    "prereqInfo": "prereqs: n5101, n5200, n5222, n7000, csph 5535, csph 5806, csph 5631, csph 5313, csph 5503, concurrent with n7209",
+    "info": "this is a foundation clinical course in advanced integrative nursing practice with a focus on integrative nursing assessment, management, and evaluation.",
+    "prereqInfo": "s: n5101, n5200, n5222, n7000, csph 5535, csph 5806, csph 5631, csph 5313, csph 5503, concurrent with n7209",
     "prereq": {
       "and": [
+        {
+          "code": "NURS 5101",
+          "subject": "NURS",
+          "id": "5101"
+        },
+        {
+          "code": "NURS 5200",
+          "subject": "NURS",
+          "id": "5200"
+        },
+        {
+          "code": "NURS 5222",
+          "subject": "NURS",
+          "id": "5222"
+        },
+        {
+          "code": "NURS 7000",
+          "subject": "NURS",
+          "id": "7000"
+        },
         {
           "code": "CSPH 5535",
           "subject": "CSPH",
@@ -3677,6 +3851,11 @@
           "code": "CSPH 5503",
           "subject": "CSPH",
           "id": "5503"
+        },
+        {
+          "code": "NURS 7209",
+          "subject": "NURS",
+          "id": "7209"
         }
       ]
     }
@@ -3686,10 +3865,55 @@
     "subject": "NURS",
     "id": "7211",
     "title": "Integrative Nursng Didactic II",
-    "info": "this is a foundational course for advanced integrative nursing practice with a focus on the scholarship, research, and theory underlying integrative therapies and integrative models of care within the context of health promotion, disease prevention, health care provider wellbeing and resilience, interprofessional collaboration, and education. ",
-    "prereqInfo": "prereqs: n5101, n5200, n5222, n5701, n6200, n7000, n7209, n7210, n7900, csph 5421, csph 5713, csph 5431, csph 5226, csph 5706",
+    "info": "this is a foundational course for advanced integrative nursing practice with a focus on the scholarship, research, and theory underlying integrative therapies and integrative models of care within the context of health promotion, disease prevention, health care provider wellbeing and resilience, interprofessional collaboration, and education.",
+    "prereqInfo": "s: n5101, n5200, n5222, n5701, n6200, n7000, n7209, n7210, n7900, csph 5421, csph 5713, csph 5431, csph 5226, csph 5706",
     "prereq": {
       "and": [
+        {
+          "code": "NURS 5101",
+          "subject": "NURS",
+          "id": "5101"
+        },
+        {
+          "code": "NURS 5200",
+          "subject": "NURS",
+          "id": "5200"
+        },
+        {
+          "code": "NURS 5222",
+          "subject": "NURS",
+          "id": "5222"
+        },
+        {
+          "code": "NURS 5701",
+          "subject": "NURS",
+          "id": "5701"
+        },
+        {
+          "code": "NURS 6200",
+          "subject": "NURS",
+          "id": "6200"
+        },
+        {
+          "code": "NURS 7000",
+          "subject": "NURS",
+          "id": "7000"
+        },
+        {
+          "code": "NURS 7209",
+          "subject": "NURS",
+          "id": "7209"
+        },
+        {
+          "code": "NURS 7210",
+          "subject": "NURS",
+          "id": "7210"
+        },
+        {
+          "code": "NURS 7900",
+          "subject": "NURS",
+          "id": "7900"
+        },
         {
           "code": "CSPH 5421",
           "subject": "CSPH",
@@ -3723,10 +3947,60 @@
     "subject": "NURS",
     "id": "7212",
     "title": "Integrative Nurs Practicum II",
-    "info": "this is a foundational course for advanced integrative nursing practice with a focus on the development of clinical competencies in community needs assessment, healthcare provider wellbeing, teaching and learning, and interprofessional collaboration. ",
+    "info": "this is a foundational course for advanced integrative nursing practice with a focus on the development of clinical competencies in community needs assessment, healthcare provider wellbeing, teaching and learning, and interprofessional collaboration.",
     "prereqInfo": "n5101, n5200, n5222, n5701, n6200, n7000, n7209, n7210, n7900, n7211 (or concurrent enrollment), csph 5535, csph 5806, csph 5631, csph 5313, csph 5503, csph 5421, csph 5713, csph 5431, csph 5226, csph 5706",
     "prereq": {
       "and": [
+        {
+          "code": "NURS 5101",
+          "subject": "NURS",
+          "id": "5101"
+        },
+        {
+          "code": "NURS 5200",
+          "subject": "NURS",
+          "id": "5200"
+        },
+        {
+          "code": "NURS 5222",
+          "subject": "NURS",
+          "id": "5222"
+        },
+        {
+          "code": "NURS 5701",
+          "subject": "NURS",
+          "id": "5701"
+        },
+        {
+          "code": "NURS 6200",
+          "subject": "NURS",
+          "id": "6200"
+        },
+        {
+          "code": "NURS 7000",
+          "subject": "NURS",
+          "id": "7000"
+        },
+        {
+          "code": "NURS 7209",
+          "subject": "NURS",
+          "id": "7209"
+        },
+        {
+          "code": "NURS 7210",
+          "subject": "NURS",
+          "id": "7210"
+        },
+        {
+          "code": "NURS 7900",
+          "subject": "NURS",
+          "id": "7900"
+        },
+        {
+          "code": "NURS 7211",
+          "subject": "NURS",
+          "id": "7211"
+        },
         {
           "code": "CSPH 5535",
           "subject": "CSPH",
@@ -3856,7 +4130,7 @@
     "subject": "NURS",
     "id": "7314",
     "title": "PNP-AC Practicum I",
-    "info": "in this practicum, the student will have practical application of the pnp-ac role in a variety of acute care clinical settings. emphasis will be on nursing intervention strategies including diagnostics, therapeutics, education, and follow-up of clinical outcomes. \n",
+    "info": "in this practicum, the student will have practical application of the pnp-ac role in a variety of acute care clinical settings. emphasis will be on nursing intervention strategies including diagnostics, therapeutics, education, and follow-up of clinical outcomes.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -3865,7 +4139,7 @@
     "subject": "NURS",
     "id": "7323",
     "title": "PNP- Acute Care II",
-    "info": "the second of two theoretical courses focusing on the principles of diagnostic evaluation and treatment of acutely and critically ill pediatric patients within the context of their families. emphasis on research-based evaluation and management of the acutely and critically ill pediatric patient. ",
+    "info": "the second of two theoretical courses focusing on the principles of diagnostic evaluation and treatment of acutely and critically ill pediatric patients within the context of their families. emphasis on research-based evaluation and management of the acutely and critically ill pediatric patient.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -3940,17 +4214,50 @@
           "subject": "NURS",
           "id": "7505"
         },
-        null,
-        null,
+        {
+          "code": "NURS 5222",
+          "subject": "NURS",
+          "id": "5222"
+        },
+        {
+          "code": "NURS 5228",
+          "subject": "NURS",
+          "id": "5228"
+        },
+        {
+          "code": "NURS 5224",
+          "subject": "NURS",
+          "id": "5224"
+        },
+        {
+          "code": "NURS 5200",
+          "subject": "NURS",
+          "id": "5200"
+        },
+        {
+          "code": "NURS 6407",
+          "subject": "NURS",
+          "id": "6407"
+        },
         {
           "code": "NURS 6500",
           "subject": "NURS",
           "id": "6500"
         },
         {
+          "code": "NURS 6501",
+          "subject": "NURS",
+          "id": "6501"
+        },
+        {
           "code": "NURS 7504",
           "subject": "NURS",
           "id": "7504"
+        },
+        {
+          "code": "NURS 7505",
+          "subject": "NURS",
+          "id": "7505"
         }
       ]
     }
@@ -4165,6 +4472,16 @@
           "id": "6501"
         },
         {
+          "code": "NURS 6501",
+          "subject": "NURS",
+          "id": "6501"
+        },
+        {
+          "code": "NURS 6502",
+          "subject": "NURS",
+          "id": "6502"
+        },
+        {
           "code": "NURS 6502",
           "subject": "NURS",
           "id": "6502"
@@ -4224,10 +4541,15 @@
     "subject": "NURS",
     "id": "7507",
     "title": "AssesMgmtHlthPracIVHlthLead",
-    "info": "integration of the essentials of doctoral education into the fnp clinical role. students analyze individual level and community/systems factors and public policies to demonstrate leadership capabilities in creating holistic, multi-system, interprofessional collaborative approaches to address health concerns and health disparities. ",
+    "info": "integration of the essentials of doctoral education into the fnp clinical role. students analyze individual level and community/systems factors and public policies to demonstrate leadership capabilities in creating holistic, multi-system, interprofessional collaborative approaches to address health concerns and health disparities.",
     "prereqInfo": "7400 or concurrent registration is required (or allowed) in 7400, 7506",
     "prereq": {
       "and": [
+        {
+          "code": "NURS 7400",
+          "subject": "NURS",
+          "id": "7400"
+        },
         {
           "code": "NURS 7400",
           "subject": "NURS",
@@ -4379,7 +4701,7 @@
     "subject": "NURS",
     "id": "7600",
     "title": "Nurs Res & Evidence Based Prac",
-    "info": "examination of evidence based nursing including types and levels of evidence, research process, critique, and synthesis of research studies, and the science of implementation. ",
+    "info": "examination of evidence based nursing including types and levels of evidence, research process, critique, and synthesis of research studies, and the science of implementation.",
     "prereqInfo": "completion of or concurrent enrollment in a 3 credit inferential statistics course",
     "prereq": []
   },
@@ -4558,9 +4880,48 @@
     "info": "development of clinical expertise of cns in provision of advanced nursing care for adults/elders. students will utilize theory/research to implement roles of cns.",
     "prereqInfo": "n5222, n5228, n5224, n7103, n5200, n7900, n6100, 7705 (co-requisite)",
     "prereq": {
-      "code": "NURS 7705",
-      "subject": "NURS",
-      "id": "7705"
+      "and": [
+        {
+          "code": "NURS 5222",
+          "subject": "NURS",
+          "id": "5222"
+        },
+        {
+          "code": "NURS 5228",
+          "subject": "NURS",
+          "id": "5228"
+        },
+        {
+          "code": "NURS 5224",
+          "subject": "NURS",
+          "id": "5224"
+        },
+        {
+          "code": "NURS 7103",
+          "subject": "NURS",
+          "id": "7103"
+        },
+        {
+          "code": "NURS 5200",
+          "subject": "NURS",
+          "id": "5200"
+        },
+        {
+          "code": "NURS 7900",
+          "subject": "NURS",
+          "id": "7900"
+        },
+        {
+          "code": "NURS 6100",
+          "subject": "NURS",
+          "id": "6100"
+        },
+        {
+          "code": "NURS 7705",
+          "subject": "NURS",
+          "id": "7705"
+        }
+      ]
     }
   },
   {
@@ -4604,7 +4965,7 @@
     "subject": "NURS",
     "id": "7904",
     "title": "Nursing Education Practicum",
-    "info": "design, implementation, and evaluation of evidence-based, scholarly teaching and learning in various nursing education contexts. analysis of select nursing program in relation to meeting standards for accreditation and various other expected outcomes of nursing programs. ",
+    "info": "design, implementation, and evaluation of evidence-based, scholarly teaching and learning in various nursing education contexts. analysis of select nursing program in relation to meeting standards for accreditation and various other expected outcomes of nursing programs.",
     "prereqInfo": "graduate student in nursing or nurs 7900 or equivalent.",
     "prereq": {
       "code": "NURS 7900",
@@ -4945,7 +5306,7 @@
     "subject": "NURS",
     "id": "8150",
     "title": "Eth Dev Nurs Sc",
-    "info": "interactions among research and theory in moral judgment and behavior, applied ethics, and nursing.    ",
+    "info": "interactions among research and theory in moral judgment and behavior, applied ethics, and nursing.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -4954,7 +5315,7 @@
     "subject": "NURS",
     "id": "8152",
     "title": "Adv Ethics in Nurs Res and Sch",
-    "info": "students will analyze values underlying concepts and discourses of health, disease, risk, and use of health care technologies. they will analyze central ethical issues in nursing research, scholarship, and research integrity as part of ethics training required to conduct research. ",
+    "info": "students will analyze values underlying concepts and discourses of health, disease, risk, and use of health care technologies. they will analyze central ethical issues in nursing research, scholarship, and research integrity as part of ethics training required to conduct research.",
     "prereqInfo": "nursing phd student or permission of faculty",
     "prereq": []
   },
@@ -4992,11 +5353,7 @@
     "title": "Res in Nurs",
     "info": "research process/methods appropriate for problems relevant to nursing. critique of research studies, proposal development.",
     "prereqInfo": "concurrent registration is required (or allowed) in  8170 or inferential stat course taken within two yrs",
-    "prereq": {
-      "code": "NURS 8170",
-      "subject": "NURS",
-      "id": "8170"
-    }
+    "prereq": []
   },
   {
     "code": "NURS 8171",
@@ -5056,7 +5413,7 @@
     "subject": "NURS",
     "id": "8177",
     "title": "Adv Nsg Research Practicum",
-    "info": "nurs 8177 advanced nursing research practicum is a required independent study course where students participate in designing or conducting a nursing or health-related research study under the supervision of a school of nursing faculty investigator. ",
+    "info": "nurs 8177 advanced nursing research practicum is a required independent study course where students participate in designing or conducting a nursing or health-related research study under the supervision of a school of nursing faculty investigator.",
     "prereqInfo": "phd nursing student, instr consent, adviser consent",
     "prereq": []
   },
@@ -5149,7 +5506,7 @@
     "subject": "NURS",
     "id": "8190",
     "title": "Crit Review Nur & Hlth Res",
-    "info": "skills needed to critique a body of scientific literature in focused areas of nursing research and related fields. includes construction of literature reviews for planning research projects and for research utilization. ",
+    "info": "skills needed to critique a body of scientific literature in focused areas of nursing research and related fields. includes construction of literature reviews for planning research projects and for research utilization.",
     "prereqInfo": "nurs 8142, instructor consent",
     "prereq": {
       "code": "NURS 8142",
@@ -5181,6 +5538,16 @@
           "id": "8100"
         },
         {
+          "code": "NURS 8100",
+          "subject": "NURS",
+          "id": "8100"
+        },
+        {
+          "code": "NURS 8170",
+          "subject": "NURS",
+          "id": "8170"
+        },
+        {
           "code": "NURS 8170",
           "subject": "NURS",
           "id": "8170"
@@ -5193,7 +5560,7 @@
     "subject": "NURS",
     "id": "8195",
     "title": "Mixed Methods Research",
-    "info": "synthesis of of qualitative and quantitative approaches in research designs. evaluation of major mixed method designs and strategies for evaluating quality based on criteria. data collection and analysis strategies for integrating quantitative and qualitative findings will be explored. ",
+    "info": "synthesis of of qualitative and quantitative approaches in research designs. evaluation of major mixed method designs and strategies for evaluating quality based on criteria. data collection and analysis strategies for integrating quantitative and qualitative findings will be explored.",
     "prereqInfo": "nurs 8141",
     "prereq": {
       "code": "NURS 8141",
@@ -5296,7 +5663,7 @@
     "subject": "NURS",
     "id": "8301",
     "title": "Oncology Clinical I",
-    "info": "synthesis and clinical application of knowledge of cancer risk factors and\nadvanced practice interventions to modify cancer risk behaviors of \t\t\tindividuals, families, and communities. use of research and clinical \t\t\tmodels to analyze, manage, and evaluate responses to cancer and treatment.\n",
+    "info": "synthesis and clinical application of knowledge of cancer risk factors and\nadvanced practice interventions to modify cancer risk behaviors of \t\t\tindividuals, families, and communities. use of research and clinical \t\t\tmodels to analyze, manage, and evaluate responses to cancer and treatment.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -5341,7 +5708,7 @@
     "subject": "NURS",
     "id": "8306",
     "title": "Cancer & Acute Care",
-    "info": "research-based evaluation and management of hematological and \t\timmunological responses to cancer and acute life-threatening illness. \nexploration of theories and models used to explain and predict psychological adaptation in clients and their family members.  ",
+    "info": "research-based evaluation and management of hematological and \t\timmunological responses to cancer and acute life-threatening illness. \nexploration of theories and models used to explain and predict psychological adaptation in clients and their family members.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -5599,8 +5966,8 @@
     "subject": "NURS",
     "id": "8333",
     "title": "FTE: Master's",
-    "info": "(no description)\nprereq master's student, adviser and dgs consent.",
-    "prereqInfo": null,
+    "info": "(no description)",
+    "prereqInfo": "master's student, adviser and dgs consent.",
     "prereq": []
   },
   {
@@ -5705,9 +6072,32 @@
     "subject": "NURS",
     "id": "8402",
     "title": "Prim Care:Advance Prac Nurses",
-    "info": "data-based assessment/management of preventive health services and common acute/chronic conditions of primary care populations. emphasizes clinical reasoning and independent/collaborative practice health care plans.\nprereq-5200, 5222, 5224, 8242.",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "data-based assessment/management of preventive health services and common acute/chronic conditions of primary care populations. emphasizes clinical reasoning and independent/collaborative practice health care plans.",
+    "prereqInfo": "-5200, 5222, 5224, 8242.",
+    "prereq": {
+      "and": [
+        {
+          "code": "NURS 5200",
+          "subject": "NURS",
+          "id": "5200"
+        },
+        {
+          "code": "NURS 5222",
+          "subject": "NURS",
+          "id": "5222"
+        },
+        {
+          "code": "NURS 5224",
+          "subject": "NURS",
+          "id": "5224"
+        },
+        {
+          "code": "NURS 8242",
+          "subject": "NURS",
+          "id": "8242"
+        }
+      ]
+    }
   },
   {
     "code": "NURS 8403",
@@ -6255,7 +6645,11 @@
     "title": "Doct Pre-Thesis Cr",
     "info": "tbd",
     "prereqInfo": "doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": []
+    "prereq": {
+      "code": "NURS 60",
+      "subject": "NURS",
+      "id": "60"
+    }
   },
   {
     "code": "NURS 8701",
@@ -6304,7 +6698,11 @@
     "title": "Thesis Credit:Mast*",
     "info": "(no description)",
     "prereqInfo": "max 18 cr per semester or summer; 10 cr total required [plan a only]",
-    "prereq": []
+    "prereq": {
+      "code": "NURS 10",
+      "subject": "NURS",
+      "id": "10"
+    }
   },
   {
     "code": "NURS 8800",

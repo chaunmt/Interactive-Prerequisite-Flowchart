@@ -103,7 +103,7 @@
     "subject": "NEUR",
     "id": "7120",
     "title": "Neurology Research",
-    "info": "students are eligible to participate in clinical or basic science research programs conducted by members of the department of neurology at the fairview-university medical center or affiliated hospitals. the specific nature of the project is decided upon by the student and the faculty member. the student is responsible for making their own arrangements with the faculty member. ",
+    "info": "students are eligible to participate in clinical or basic science research programs conducted by members of the department of neurology at the fairview-university medical center or affiliated hospitals. the specific nature of the project is decided upon by the student and the faculty member. the student is responsible for making their own arrangements with the faculty member.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -139,7 +139,7 @@
     "subject": "NEUR",
     "id": "7221",
     "title": "Neurochem Asp of Clin Disord",
-    "info": "neurochemical aspects of selected clinical disorders. ",
+    "info": "neurochemical aspects of selected clinical disorders.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -148,9 +148,13 @@
     "subject": "NEUR",
     "id": "7300",
     "title": "Interventional Neurology Elect",
-    "info": "rotation with the interventional neurology team: observe procedures, see patients in clinic, participate in research projects.\nprereq 7510.",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "rotation with the interventional neurology team: observe procedures, see patients in clinic, participate in research projects.",
+    "prereqInfo": "7510.",
+    "prereq": {
+      "code": "NEUR 7510",
+      "subject": "NEUR",
+      "id": "7510"
+    }
   },
   {
     "code": "NEUR 7510",
@@ -166,7 +170,7 @@
     "subject": "NEUR",
     "id": "7511",
     "title": "Essentials of Clinical Neur",
-    "info": "the goals of the neurology clerkship are to increase clinical skills in diagnosing and treating neurologic illnesses, to stimulate interest in clinical neurosciences, and to increase awareness of the role of the neurologist. upon completion of the course, the student will be familiar with common neurological disorders and will have a sense for when neurologic consultation is appropriate.\n",
+    "info": "the goals of the neurology clerkship are to increase clinical skills in diagnosing and treating neurologic illnesses, to stimulate interest in clinical neurosciences, and to increase awareness of the role of the neurologist. upon completion of the course, the student will be familiar with common neurological disorders and will have a sense for when neurologic consultation is appropriate.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -193,8 +197,8 @@
     "subject": "NEUR",
     "id": "7542",
     "title": "Peds Neurology Elec",
-    "info": "successful completion of this rotation satisfies the neurology requirement (neur 7-510). ",
-    "prereqInfo": "pediatric neurology patients have a variety of problems ranging from coma, muscular dystrophy, epilepsy to learning disabilities;\nfrom inborn errors of metabolism, metabolic neurologic dysfunction to behavior disorders. patients are seen both on service and in\nconsultation in the hospital and in the outpatient clinic which meets three times weekly. students will function as part of the group\nof physicians who evaluate and suggest therapy for these children. there will be close supervision and tutorial sessions with the\nsenior pediatric neurology fellows as well as scheduled rounds with pediatric neurology staff members at least three times weekly.\nthere is no night call, routinely. a teaching conference is held weekly and students are encouraged to participate during the\nrotation. ",
+    "info": "successful completion of this rotation satisfies the neurology requirement (neur 7-510). \n\npediatric neurology patients have a variety of problems ranging from coma, muscular dystrophy, epilepsy to learning disabilities;\nfrom inborn errors of metabolism, metabolic neurologic dysfunction to behavior disorders. patients are seen both on service and in\nconsultation in the hospital and in the outpatient clinic which meets three times weekly. students will function as part of the group\nof physicians who evaluate and suggest therapy for these children. there will be close supervision and tutorial sessions with the\nsenior pediatric neurology fellows as well as scheduled rounds with pediatric neurology staff members at least three times weekly.\nthere is no night call, routinely. a teaching conference is held weekly and students are encouraged to participate during the\nrotation.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -202,7 +206,7 @@
     "subject": "NEUR",
     "id": "7544",
     "title": "Electroencephal Ele",
-    "info": "the student attends eeg interpretative sessions and tracings discussions, correlating these with the clinical picture. in addition, he or she will observe recording techniques. the student should also review a topic, accompanying its presentation with an adequate written bibliography. the bibliography should be arranged in the format of one of the journals in the field. ",
+    "info": "the student attends eeg interpretative sessions and tracings discussions, correlating these with the clinical picture. in addition, he or she will observe recording techniques. the student should also review a topic, accompanying its presentation with an adequate written bibliography. the bibliography should be arranged in the format of one of the journals in the field.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -211,7 +215,7 @@
     "subject": "NEUR",
     "id": "7545",
     "title": "Neuromuscular Elective",
-    "info": "students participate in all aspects of diagnosis/management of patients with neuromuscular disease. rotation includes neuromuscular and muscular dystrophy association clinics, clinical electrophysiology laboratory evaluations of patients, nerve/muscle biopsy histological interpretation, and clinic/electromyography conferences. diseases seen include carpal tunnel syndrome, radiculopathies, polyneuropathies, muscular dystrophy, amyotrophic lateral sclerosis, myasthenia gravis. molecular basis of inherited neuromuscular disease. students may participate in clinical research projects. ",
+    "info": "students participate in all aspects of diagnosis/management of patients with neuromuscular disease. rotation includes neuromuscular and muscular dystrophy association clinics, clinical electrophysiology laboratory evaluations of patients, nerve/muscle biopsy histological interpretation, and clinic/electromyography conferences. diseases seen include carpal tunnel syndrome, radiculopathies, polyneuropathies, muscular dystrophy, amyotrophic lateral sclerosis, myasthenia gravis. molecular basis of inherited neuromuscular disease. students may participate in clinical research projects.",
     "prereqInfo": null,
     "prereq": []
   },

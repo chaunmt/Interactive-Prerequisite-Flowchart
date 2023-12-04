@@ -125,7 +125,7 @@
     "subject": "MBT",
     "id": "6201",
     "title": "Tax Acct Methods I",
-    "info": "this course covers the federal income tax rules for when income and expense should be recognized.  the purpose of this course is to provide students the statutory and regulatory framework for analyzing and explaining the federal income tax consequences of tax accounting methods and periods issues. ",
+    "info": "this course covers the federal income tax rules for when income and expense should be recognized.  the purpose of this course is to provide students the statutory and regulatory framework for analyzing and explaining the federal income tax consequences of tax accounting methods and periods issues.",
     "prereqInfo": "acct 5135, mbt student - note:  previous course number was mbt 5200.",
     "prereq": {
       "and": [
@@ -147,25 +147,27 @@
     "subject": "MBT",
     "id": "6202",
     "title": "Tax Acct Methods II",
-    "info": "this course covers special topics within the tax accounting methods area, including changes in accounting methods, accounting periods, installment sales, and inventory concepts. the purpose of this course is to provide students statutory and regulatory framework for analyzing and explaining the federal income tax consequences of special tax accounting methods issues. ",
+    "info": "this course covers special topics within the tax accounting methods area, including changes in accounting methods, accounting periods, installment sales, and inventory concepts. the purpose of this course is to provide students statutory and regulatory framework for analyzing and explaining the federal income tax consequences of special tax accounting methods issues.",
     "prereqInfo": "mbt 5200/6201  note: previous course number was mbt 5201",
-    "prereq": [
-      {
-        "code": "MBT 5200",
-        "subject": "MBT",
-        "id": "5200"
-      },
-      {
-        "code": "MBT 6201",
-        "subject": "MBT",
-        "id": "6201"
-      },
-      {
-        "code": "MBT 5201",
-        "subject": "MBT",
-        "id": "5201"
-      }
-    ]
+    "prereq": {
+      "and": [
+        {
+          "code": "MBT 5200",
+          "subject": "MBT",
+          "id": "5200"
+        },
+        {
+          "code": "MBT 6201",
+          "subject": "MBT",
+          "id": "6201"
+        },
+        {
+          "code": "MBT 5201",
+          "subject": "MBT",
+          "id": "5201"
+        }
+      ]
+    }
   },
   {
     "code": "MBT 6221",
@@ -192,7 +194,7 @@
     "subject": "MBT",
     "id": "6226",
     "title": "Negotiation techniques in tax",
-    "info": "hands-on approach. applications from facilitating business sales, mergers, and acquisitions, to representing a client's position before irs, to controlling tv remote. negotiation process: planning, pre-negotiation preparation, strategy development.   note: previous course number was mbt 5226.  ",
+    "info": "hands-on approach. applications from facilitating business sales, mergers, and acquisitions, to representing a client's position before irs, to controlling tv remote. negotiation process: planning, pre-negotiation preparation, strategy development.   note: previous course number was mbt 5226.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -201,7 +203,7 @@
     "subject": "MBT",
     "id": "6231",
     "title": "Corporate Taxation I",
-    "info": "federal income taxation of corporations/shareholders. organization of a corporation. establishment of capital structure. determination of tax liability. dividends, non-liquidating distributions. stock redemptions, liquidations.  ",
+    "info": "federal income taxation of corporations/shareholders. organization of a corporation. establishment of capital structure. determination of tax liability. dividends, non-liquidating distributions. stock redemptions, liquidations.",
     "prereqInfo": "acct 5135   note: previous course number was mbt 5230",
     "prereq": [
       {
@@ -223,18 +225,20 @@
     "title": "Corporate Taxation II",
     "info": "different types of acquisitions, dispositions, reorganizations, and spin-offs involving c corporations. tax consequences of acquisition to corporations/shareholders involved. use of 338 elections, limitations on acquired net operating losses/credits, use of covenants not to compete, consulting agreements, deferred payment terms, treatment of transaction costs.   note: previous course number was mbt 5323",
     "prereqInfo": "mbt 6231/5230",
-    "prereq": [
-      {
-        "code": "MBT 6231",
-        "subject": "MBT",
-        "id": "6231"
-      },
-      {
-        "code": "MBT 5230",
-        "subject": "MBT",
-        "id": "5230"
-      }
-    ]
+    "prereq": {
+      "and": [
+        {
+          "code": "MBT 6231",
+          "subject": "MBT",
+          "id": "6231"
+        },
+        {
+          "code": "MBT 5230",
+          "subject": "MBT",
+          "id": "5230"
+        }
+      ]
+    }
   },
   {
     "code": "MBT 6333",
@@ -250,7 +254,7 @@
     "subject": "MBT",
     "id": "6335",
     "title": "Taxation Small Business Corp",
-    "info": "federal income taxation of s corporations. election eligibility; termination of status; treatment of income and deduction items; distributions, basis of stock and debt. compensation arrangements in closely held corporations; fiscal year issues; personal service corporations; advantages of c corporations vs. s corporations; corporation liquidation and redemption rules; s corporation's built-in gains tax. note: previous course number was mbt 5335. ",
+    "info": "federal income taxation of s corporations. election eligibility; termination of status; treatment of income and deduction items; distributions, basis of stock and debt. compensation arrangements in closely held corporations; fiscal year issues; personal service corporations; advantages of c corporations vs. s corporations; corporation liquidation and redemption rules; s corporation's built-in gains tax. note: previous course number was mbt 5335.",
     "prereqInfo": "mbt 6231\\\\5230",
     "prereq": [
       {
@@ -431,23 +435,25 @@
     "title": "Tax Aspects Int'l Business I",
     "info": "multinational business operations/transactions involving foreign income. tax consequences of transactions with/by foreign organizations/companies.",
     "prereqInfo": "mbt 6231/5230   note: previous course number was mbt 5380.",
-    "prereq": [
-      {
-        "code": "MBT 6231",
-        "subject": "MBT",
-        "id": "6231"
-      },
-      {
-        "code": "MBT 5230",
-        "subject": "MBT",
-        "id": "5230"
-      },
-      {
-        "code": "MBT 5380",
-        "subject": "MBT",
-        "id": "5380"
-      }
-    ]
+    "prereq": {
+      "and": [
+        {
+          "code": "MBT 6231",
+          "subject": "MBT",
+          "id": "6231"
+        },
+        {
+          "code": "MBT 5230",
+          "subject": "MBT",
+          "id": "5230"
+        },
+        {
+          "code": "MBT 5380",
+          "subject": "MBT",
+          "id": "5380"
+        }
+      ]
+    }
   },
   {
     "code": "MBT 6382",
@@ -456,32 +462,47 @@
     "title": "Tax Aspects Int'l Business II",
     "info": "foreign tax credit, subpart f planning opportunities, international structuring (joint ventures, use of entity classification regulations). transfer pricing, foreign currency. legislative, regulatory, and judicial developments.",
     "prereqInfo": "mbt 6381/5380    note: previous course number was mbt 5381",
-    "prereq": [
-      {
-        "code": "MBT 6381",
-        "subject": "MBT",
-        "id": "6381"
-      },
-      {
-        "code": "MBT 5380",
-        "subject": "MBT",
-        "id": "5380"
-      },
-      {
-        "code": "MBT 5381",
-        "subject": "MBT",
-        "id": "5381"
-      }
-    ]
+    "prereq": {
+      "and": [
+        {
+          "code": "MBT 6381",
+          "subject": "MBT",
+          "id": "6381"
+        },
+        {
+          "code": "MBT 5380",
+          "subject": "MBT",
+          "id": "5380"
+        },
+        {
+          "code": "MBT 5381",
+          "subject": "MBT",
+          "id": "5381"
+        }
+      ]
+    }
   },
   {
     "code": "MBT 6383",
     "subject": "MBT",
     "id": "6383",
     "title": "Transfer Pricing",
-    "info": "this course provides an introduction to transfer pricing issues facing multinational businesses. the discussion will focus on the application of the arm’s length standard as described in us treasury regulations 1.482, and application of transfer pricing legislation and regulations in other countries, largely through the transfer pricing guidelines published by the organization for economic cooperation and development (oecd). the course examines economic models, pricing policies, global intangible property, and controversy involving transfer pricing.  prereq: acct 5135.    note: previous course number was mbt 5382.\n",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "this course provides an introduction to transfer pricing issues facing multinational businesses. the discussion will focus on the application of the arm’s length standard as described in us treasury regulations 1.482, and application of transfer pricing legislation and regulations in other countries, largely through the transfer pricing guidelines published by the organization for economic cooperation and development (oecd). the course examines economic models, pricing policies, global intangible property, and controversy involving transfer pricing.",
+    "prereqInfo": "acct 5135.    note: previous course number was mbt 5382.",
+    "prereq": {
+      "or": [
+        {
+          "code": "ACCT 5135",
+          "subject": "ACCT",
+          "id": "5135"
+        },
+        {
+          "code": "MBT 5382",
+          "subject": "MBT",
+          "id": "5382"
+        }
+      ]
+    }
   },
   {
     "code": "MBT 6420",
@@ -512,23 +533,25 @@
     "title": "Bus, Gov, Econ Tax Policy",
     "info": "effects of business/government on tax system. social, political, economic, cultural values affecting tax system. macroeconomics/implication for taxation. history of taxes/alternate approaches to taxation, public finance, government expenditures in theory/practice. specific taxes.",
     "prereqInfo": "mbt 6231/5230.   note: previous course number was mbt 5500.",
-    "prereq": [
-      {
-        "code": "MBT 6231",
-        "subject": "MBT",
-        "id": "6231"
-      },
-      {
-        "code": "MBT 5230",
-        "subject": "MBT",
-        "id": "5230"
-      },
-      {
-        "code": "MBT 5500",
-        "subject": "MBT",
-        "id": "5500"
-      }
-    ]
+    "prereq": {
+      "and": [
+        {
+          "code": "MBT 6231",
+          "subject": "MBT",
+          "id": "6231"
+        },
+        {
+          "code": "MBT 5230",
+          "subject": "MBT",
+          "id": "5230"
+        },
+        {
+          "code": "MBT 5500",
+          "subject": "MBT",
+          "id": "5500"
+        }
+      ]
+    }
   },
   {
     "code": "MBT 8333",

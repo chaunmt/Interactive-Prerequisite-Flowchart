@@ -112,7 +112,7 @@
     "subject": "NSU",
     "id": "7520",
     "title": "Neurosurgery Res",
-    "info": "designed to provide exposure to research in the neurological sciences for the student interested in specializing in the neurosciences. the student is expected to undertake either a circumscribed project or a library research project requiring a final paper as well as scheduled tutorials. research may be clinical, in applied and basic neuroscience. there are opportunities to work on a range of laboratory projects. ",
+    "info": "designed to provide exposure to research in the neurological sciences for the student interested in specializing in the neurosciences. the student is expected to undertake either a circumscribed project or a library research project requiring a final paper as well as scheduled tutorials. research may be clinical, in applied and basic neuroscience. there are opportunities to work on a range of laboratory projects.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -157,8 +157,12 @@
     "subject": "NSU",
     "id": "8324",
     "title": "Fundamentals of Neuroscience",
-    "info": "provide neuroscience foundation needed for practice of clinical neurosurgery.\nprereq 8104, college consent.",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "provide neuroscience foundation needed for practice of clinical neurosurgery.",
+    "prereqInfo": "8104, college consent.",
+    "prereq": {
+      "code": "NSU 8104",
+      "subject": "NSU",
+      "id": "8104"
+    }
   }
 ]

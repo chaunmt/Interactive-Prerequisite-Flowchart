@@ -4,22 +4,32 @@ function hasNumber(str) { return /\d/.test(str); }
 
 function deleteSpaces(str) { return str.replace(/\s/g, ''); }
 
-// Replace all commas with ' and '
-function replaceComma(str) {
-  return str.replaceAll(', ', ' and ')
+// Replace all ',' with ' and '
+// Replace all '/' with ' and '
+function replaceSigns(str) {
+  str = str.replaceAll(', ', ' and ')
+  str = str.replaceAll('/', ' and ')
+  return str
 }
 
 // WARNING: Omit this case because of data's inconsistency ???
-function filterExtraInfo(str) {
-  if (str.toUpperCase().includes('NO PREREQUISITE')) return ""
-  arr = str.split(';')
-  let i = 0;
-  while (i < arr.length) {
-    if (!arr[i] || arr[i].toUpperCase().includes('RECOMMEND')) arr.splice(i, 1)
-    else i ++
-  }
-  return arr.join(' or ')
-}
+
+// function spliceRecommendAt(str, splitPattern) {
+//   arr = str.split(splitPattern)
+//   let i = 0;
+//   while (i < arr.length) {
+//     if (!arr[i] || arr[i].toUpperCase().includes('RECOMMEND')) arr.splice(i, 1)
+//     else i ++
+//   }
+//   return arr.join(' or ')
+// }
+
+// function filterExtraInfo(str) {
+//   if (str.toUpperCase().includes('NO PREREQUISITE')) return ""
+//   str = spliceRecommendAt(str, ';')
+//   str = spliceRecommendAt(str, '.')
+//   return str
+// }
 
 function splitStringAtNumber(str) {
   str = deleteSpaces(str)
@@ -34,13 +44,18 @@ function splitStringAtNumber(str) {
   return null;
 }
 
+// function filterHonorCourses() {
+  
+// }
+
 function extractCourses(str, targetSubject, targetId) {
   // match full words for 3 cases: 
   //    3-4 digits + optional letters
   //    some letters + optional white space + 3-4 digits + optional letters
   //    'inside' + number
-  const pattern = /\b\d{3,4}[A-Za-z]*\b|\b[A-Za-z]+\s?\d{3,4}[A-Za-z]*\b|\binside\d+\b/g;
-  const courses = str.match(pattern) || [];
+  const pattern = /\b\d{2,4}[A-Za-z]*\b|\b[A-Za-z]+\s?\d{2,4}[A-Za-z]*\b|\binside\d+\b/g
+  const courses = str.match(pattern) || []
+  const allSems = require('../General/allSemesters.json')
 
   return courses.map(
     (each) => {
@@ -48,7 +63,13 @@ function extractCourses(str, targetSubject, targetId) {
 
       // Get subject
       subject = subject.toUpperCase()
-      if (!allSubjects.includes(subject)) subject = targetSubject  // ASSUME: NO PREREQ'S SUBJECT --> USE TARGET'S SUBJECT
+
+      // Remove semester and year (not a course)
+      // ASSUME: NO PREREQ'S SUBJECT --> USE TARGET'S SUBJECT
+      if (!allSubjects.includes(subject)) {
+        if (!allSems.includes(subject)) subject = targetSubject  
+        else return null
+      }
 
       // Get id
       id = id.toUpperCase()
@@ -59,6 +80,9 @@ function extractCourses(str, targetSubject, targetId) {
 
       // If this course = target, it is not prereq
       if (subject == targetSubject && id == targetId) return null
+
+      // We don't have any honor
+      if (id.includes('V') || id.includes('H')) return null
 
       return { code: subject + ' ' + id, subject: subject, id: id }
     }
@@ -86,8 +110,16 @@ function filterDuplicate(item) {
   if (item.id) return item
 
   // Traverse through 'and' array, 'or' array
-  if (item.and) return { and: filterDuplicate(item.and) }
-  if (item.or) return { or: filterDuplicate(item.or) }
+  if (item.and) {
+    let filteredItem = filterDuplicate(item.and)
+    if (!filteredItem) return {}
+    return { and: filterDuplicate(item.and) }
+  }
+  if (item.or) {
+    let filteredItem = filterDuplicate(item.or)
+    if (!filteredItem) return {}
+    return { or: filterDuplicate(item.or) }
+  }
 
   // Replace duplicate course with null
   for (let i = 0; i < item.length; i++) {
@@ -103,13 +135,6 @@ function filterDuplicate(item) {
   return item
 }
 
-function filterEmptyArray(item) {
-  if (!item) return null
-  if (item.id) return item
-  if (item.length == 0) return null
-  return item
-}
-
 function filterExtraArray(item) {
   // Return null and single course
   if (!item) return null
@@ -120,16 +145,16 @@ function filterExtraArray(item) {
 
   // Handle 'and' array
   if (item.and) {
-    if (item.and.length < 2)
-      return filterExtraArray(item.and) // Single item array becomes single item
+    if (item.and.length == 1)
+      return filterExtraArray(item.and[0]) // Single item array becomes single item
     else
       return { and: filterExtraArray(item.and) }
   }
 
   // Handle 'or' array
   if (item.or) {
-    if (item.or.length < 2)
-      return filterExtraArray(item.or)  // Single item array becomes single item
+    if (item.or.length == 1)
+      return filterExtraArray(item.or[0])  // Single item array becomes single item
     else
       return { or: filterExtraArray(item.or) }
   }
@@ -140,7 +165,7 @@ function filterExtraArray(item) {
   // Recursively handle nested arrays
   let i = 0
   while (i < item.length) {
-    if (!item[i] && !item[i].id) {
+    if (item[i] && !item[i].id) {
       item[i] = filterExtraArray(item[i])
     }
     if (!item[i]) item.splice(i, 1)
@@ -158,6 +183,9 @@ function filterNull(item) {
   // Traverse through 'and' array, 'or' array
   if (item.and) return { and: filterNull(item.and) }
   if (item.or) return { or: filterNull(item.or) }
+
+  // If item is not an array, it is null
+  if (!item.length) return {}
 
   // Recursively handle nested arrays
   let i = 0
@@ -179,8 +207,9 @@ function cutStringAtLastNumber(inputString) {
 
   return "";
 }
-
+// WARNING: Problem with ambiguous level
 function convertLogic(str, targetSubject, targetId) {
+ 
   // convert 'A and B' into { and: ['A', 'B'] }
   if (str.includes(' and ')) return { and: extractCourses(str, targetSubject, targetId) }
 
@@ -262,11 +291,12 @@ function filterPrereq(info, targetSubject, targetId) {
   // No number == No prerequisite
   if (!hasNumber(info)) return []
 
-  // info = filterExtraInfo(info) // Too inconsistent to be able to filter this case
+  // info = filterExtraInfo(info) // WARNING: Too inconsistent 
   info = info.replaceAll('(', '[')
   info = info.replaceAll(')', ']')
-  info = replaceComma(info)
+  info = replaceSigns(info)
 
+  // return info
   let encoded = encodeBracket(info, targetSubject, targetId)
 
   // Only one encoded data in encoded array == No bracket
@@ -276,13 +306,12 @@ function filterPrereq(info, targetSubject, targetId) {
   data = decodeBracket(data, encoded)
   data = filterDuplicate(data)
   data = filterNull(data)
-  data = filterEmptyArray(data)
   data = filterExtraArray(data)
   data = filterNull(data)
+  data = filterExtraArray(data)
 
   return data
 }
-
 
 function exportDogs(SUBJECT) {
   const schoolId = 'umn_umntc_peoplesoft'

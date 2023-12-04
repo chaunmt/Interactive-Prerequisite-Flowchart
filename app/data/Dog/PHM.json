@@ -76,7 +76,7 @@
     "subject": "PHM",
     "id": "8230",
     "title": "Physical Pharmacy Module II",
-    "info": "second course in a two course sequence which provides foundational materials in physical pharmacy for pharmaceutics graduate students. ",
+    "info": "second course in a two course sequence which provides foundational materials in physical pharmacy for pharmaceutics graduate students.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -121,8 +121,8 @@
     "subject": "PHM",
     "id": "8421",
     "title": "Adv. Pharmacokinetics",
-    "info": "topics in kinetics of drug absorption, distribution, metabolism, and excretion.",
-    "prereqInfo": "instructor consent required.",
+    "info": "topics in kinetics of drug absorption, distribution, metabolism, and excretion.\n\ninstructor consent required.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -195,7 +195,11 @@
     "title": "Doct Pre-Thesis Cr",
     "info": "tbd",
     "prereqInfo": "doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": []
+    "prereq": {
+      "code": "PHM 60",
+      "subject": "PHM",
+      "id": "60"
+    }
   },
   {
     "code": "PHM 8777",
@@ -204,7 +208,11 @@
     "title": "Thesis Credit:Mast*",
     "info": "(no description)",
     "prereqInfo": "max 18 cr per semester or summer; 10 cr total required [plan a only]",
-    "prereq": []
+    "prereq": {
+      "code": "PHM 10",
+      "subject": "PHM",
+      "id": "10"
+    }
   },
   {
     "code": "PHM 8888",
@@ -220,7 +228,7 @@
     "subject": "PHM",
     "id": "8900",
     "title": "Spec Topics in Pharmaceutics",
-    "info": "special topics in pharmaceutics ",
+    "info": "special topics in pharmaceutics",
     "prereqInfo": null,
     "prereq": []
   },
@@ -238,8 +246,8 @@
     "subject": "PHM",
     "id": "8990",
     "title": "Curricular Practical Training",
-    "info": "industrial work assignment involving pharmaceutical science. reviewed/approved by faculty advisor and director of graduate studies. grade based on report covering working assignment. prereq: phm grad student and instructor consent.",
-    "prereqInfo": null,
+    "info": "industrial work assignment involving pharmaceutical science. reviewed/approved by faculty advisor and director of graduate studies. grade based on report covering working assignment.",
+    "prereqInfo": "phm grad student and instructor consent.",
     "prereq": []
   }
 ]

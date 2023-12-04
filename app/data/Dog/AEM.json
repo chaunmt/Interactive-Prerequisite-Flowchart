@@ -4,8 +4,8 @@
     "subject": "AEM",
     "id": "1301",
     "title": "Ballooning: Design, Build, Fly",
-    "info": "outer space, sometimes called the “final frontier,” has always been difficult to reach due to the tremendous expense of rocket launches and the limited number of launch opportunities. in this hands-on course, we will hone “amateur-spacecraft”-building skills including light-weight-but-rugged structural assembly, microcontroller programming, soldering, wiring, and cad. then we will design and build miniature spacecraft and use relatively-inexpensive helium-filled weather balloons to carry them into the stratosphere (aka “near-space”), which has many of the same physical properties (and view!) as outer space. the overarching theme for fall 2022 payloads will be “preparing for eclipse ballooning missions\n(to be conducted during solar eclipses in october 2023 and april 2024).”",
-    "prereqInfo": "the balloon launch and recovery will be a required day-long class activity on a weekend date in late october or early november. this activity is weather dependent, so the flight date will need to be flexible. a “primary” date and several back-up dates will be announced at the start of the semester. after the balloon flight, the remainder of the semester will involve data analysis as well as discussions and activities relating to full-fledged (i.e. outer space) spaceflight, including scientific accomplishments and engineering challenges of past, current, and future space missions.",
+    "info": "outer space, sometimes called the “final frontier,” has always been difficult to reach due to the tremendous expense of rocket launches and the limited number of launch opportunities. in this hands-on course, we will hone “amateur-spacecraft”-building skills including light-weight-but-rugged structural assembly, microcontroller programming, soldering, wiring, and cad. then we will design and build miniature spacecraft and use relatively-inexpensive helium-filled weather balloons to carry them into the stratosphere (aka “near-space”), which has many of the same physical properties (and view!) as outer space. the overarching theme for fall 2022 payloads will be “preparing for eclipse ballooning missions\n(to be conducted during solar eclipses in october 2023 and april 2024).”\n\nthe balloon launch and recovery will be a required day-long class activity on a weekend date in late october or early november. this activity is weather dependent, so the flight date will need to be flexible. a “primary” date and several back-up dates will be announced at the start of the semester. after the balloon flight, the remainder of the semester will involve data analysis as well as discussions and activities relating to full-fledged (i.e. outer space) spaceflight, including scientific accomplishments and engineering challenges of past, current, and future space missions.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -233,15 +233,6 @@
     "title": "Independent Design Project",
     "info": "independent design project construction/testing under guidance of faculty member. group projects allowed. students responsible for finding faculty adviser for project. final project report (written or oral).",
     "prereqInfo": "dept consent",
-    "prereq": []
-  },
-  {
-    "code": "AEM 4000H",
-    "subject": "AEM",
-    "id": "4000H",
-    "title": "Honors Seminar",
-    "info": "research seminars in aerospace engineering and mechanics, given by faculty members and visiting scholars.",
-    "prereqInfo": "honors student, permission of university honors program, aem major",
     "prereq": []
   },
   {
@@ -521,9 +512,13 @@
     "subject": "AEM",
     "id": "4333",
     "title": "Aerospace Design Projects",
-    "info": "student groups design, build, and test aerospace projects. projects include designs from aem4331 or projects such as microgravity experiments. students create and maintain an electronic project data repository, prepare weekly status reports, build and test their design, and prepare a final report. prereq: 4331 or instr consent",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "student groups design, build, and test aerospace projects. projects include designs from aem4331 or projects such as microgravity experiments. students create and maintain an electronic project data repository, prepare weekly status reports, build and test their design, and prepare a final report.",
+    "prereqInfo": "4331 or instr consent",
+    "prereq": {
+      "code": "AEM 4331",
+      "subject": "AEM",
+      "id": "4331"
+    }
   },
   {
     "code": "AEM 4351",
@@ -570,8 +565,8 @@
     "subject": "AEM",
     "id": "4493",
     "title": "Dirctd Stdy Aerospace Systems",
-    "info": "topics of current interest. individual projects with consent of faculty sponsor. prereq: dept consent",
-    "prereqInfo": null,
+    "info": "topics of current interest. individual projects with consent of faculty sponsor.",
+    "prereqInfo": "dept consent",
     "prereq": []
   },
   {
@@ -605,9 +600,20 @@
     "subject": "AEM",
     "id": "4511",
     "title": "Composite Materials",
-    "info": "analysis, design, and applications of laminated and chopped fiber reinforced composites. micro-/macro-mechanical analysis of elastic constants, failure, and environmental degradation. design project. prereq: 3031 (or 2031 if matsci), [cse upper div or grad student]",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "analysis, design, and applications of laminated and chopped fiber reinforced composites. micro-/macro-mechanical analysis of elastic constants, failure, and environmental degradation. design project.",
+    "prereqInfo": "3031 (or 2031 if matsci), [cse upper div or grad student]",
+    "prereq": [
+      {
+        "code": "AEM 3031",
+        "subject": "AEM",
+        "id": "3031"
+      },
+      {
+        "code": "AEM 2031",
+        "subject": "AEM",
+        "id": "2031"
+      }
+    ]
   },
   {
     "code": "AEM 4581",
@@ -650,8 +656,8 @@
     "subject": "AEM",
     "id": "4593",
     "title": "Directed Stdy Solid Mechanics",
-    "info": "topics of current interest. individual projects with consent of faculty sponsor. prereq: dept consent",
-    "prereqInfo": null,
+    "info": "topics of current interest. individual projects with consent of faculty sponsor.",
+    "prereqInfo": "dept consent",
     "prereq": []
   },
   {
@@ -745,7 +751,7 @@
     "subject": "AEM",
     "id": "4822W",
     "title": "Honors Thesis II",
-    "info": "individual projects under the direction of aem faculty member.  ",
+    "info": "individual projects under the direction of aem faculty member.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -1251,7 +1257,7 @@
     "subject": "AEM",
     "id": "8232",
     "title": "Molecular Gas Dynamics II",
-    "info": "molecular description of gas dynamics. kinetic theory, transport theory, quantum mechanics for internal energy partitions, statistical thermodynamics. finite rate chemical kinetics. emphasis on link to continuum fluid dynamics. overview of numerical simulation techniques for the boltzmann equation with emphasis on direct simulation monte carlo. ",
+    "info": "molecular description of gas dynamics. kinetic theory, transport theory, quantum mechanics for internal energy partitions, statistical thermodynamics. finite rate chemical kinetics. emphasis on link to continuum fluid dynamics. overview of numerical simulation techniques for the boltzmann equation with emphasis on direct simulation monte carlo.",
     "prereqInfo": "aem 8231",
     "prereq": {
       "code": "AEM 8231",
@@ -1264,7 +1270,7 @@
     "subject": "AEM",
     "id": "8233",
     "title": "Multi Flows",
-    "info": "introduction to fluid flows with multiple interacting phases, with emphasis on cases in which a dispersed phase is carried by a continuous one. droplet dynamics, bubbly flows and bubble-induced fluctuations, particle-turbulence interaction. fundamentals of measurement techniques and modeling approaches. elements of rheology for complex and active fluids.\n",
+    "info": "introduction to fluid flows with multiple interacting phases, with emphasis on cases in which a dispersed phase is carried by a continuous one. droplet dynamics, bubbly flows and bubble-induced fluctuations, particle-turbulence interaction. fundamentals of measurement techniques and modeling approaches. elements of rheology for complex and active fluids.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -1731,7 +1737,11 @@
     "title": "Doct Pre-Thesis Cr*",
     "info": "to be determined",
     "prereqInfo": "doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": []
+    "prereq": {
+      "code": "AEM 60",
+      "subject": "AEM",
+      "id": "60"
+    }
   },
   {
     "code": "AEM 8777",
@@ -1740,7 +1750,11 @@
     "title": "Thesis Credit:Mast*",
     "info": "(no description)",
     "prereqInfo": "max 18 cr per semester or summer; 10 cr total required [plan a only]",
-    "prereq": []
+    "prereq": {
+      "code": "AEM 10",
+      "subject": "AEM",
+      "id": "10"
+    }
   },
   {
     "code": "AEM 8880",

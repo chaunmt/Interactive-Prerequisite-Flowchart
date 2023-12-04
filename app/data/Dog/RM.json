@@ -99,14 +99,52 @@
     "prereq": {
       "or": [
         {
-          "code": "RM 2215",
-          "subject": "RM",
-          "id": "2215"
+          "or": [
+            {
+              "code": "RM 2215",
+              "subject": "RM",
+              "id": "2215"
+            },
+            {
+              "code": "DHA 2215",
+              "subject": "DHA",
+              "id": "2215"
+            }
+          ]
         },
         {
-          "code": "DHA 2215",
-          "subject": "DHA",
-          "id": "2215"
+          "or": [
+            {
+              "code": "MATH 1031",
+              "subject": "MATH",
+              "id": "1031"
+            },
+            {
+              "code": "MATH 1051",
+              "subject": "MATH",
+              "id": "1051"
+            },
+            {
+              "code": "MATH 1142",
+              "subject": "MATH",
+              "id": "1142"
+            },
+            {
+              "code": "MATH 1151",
+              "subject": "MATH",
+              "id": "1151"
+            },
+            {
+              "code": "MATH 1155",
+              "subject": "MATH",
+              "id": "1155"
+            },
+            {
+              "code": "MATH 1271",
+              "subject": "MATH",
+              "id": "1271"
+            }
+          ]
         }
       ]
     }
@@ -165,15 +203,6 @@
     "prereq": []
   },
   {
-    "code": "RM 4160H",
-    "subject": "RM",
-    "id": "4160H",
-    "title": "Capstone Project",
-    "info": "individualizes honors experience by connecting aspects of major program with special academic interests.",
-    "prereqInfo": "retail merchandising honors",
-    "prereq": []
-  },
-  {
     "code": "RM 4193",
     "subject": "RM",
     "id": "4193",
@@ -218,7 +247,7 @@
     "subject": "RM",
     "id": "4217",
     "title": "International Retail Markets",
-    "info": "operating a retail business in foreign countries. how international markets differ from u.s. market. effects of sociocultural systems within foreign countries. theories of international trade. interface between countries and firms. strategic alternatives for global retail operations.\n",
+    "info": "operating a retail business in foreign countries. how international markets differ from u.s. market. effects of sociocultural systems within foreign countries. theories of international trade. interface between countries and firms. strategic alternatives for global retail operations.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -236,7 +265,7 @@
     "subject": "RM",
     "id": "4234",
     "title": "Dig. Retail Analytics & Soc. M",
-    "info": "in this digital era, a large volume of digital footprints of users is being generated. the characteristics of users and their behaviors are tracked through various digital media such as websites, social media, and mobile platforms. using quantitative methods to measure and analyze this “big data” has become crucial as it allows retailers and marketers to make informed decisions concerning consumer behavior. this course is designed to prepare students to become leaders in the digital retail world by leveraging various digital metrics and insights related to sales, reach, customers, to make strategic business decisions.\n",
+    "info": "in this digital era, a large volume of digital footprints of users is being generated. the characteristics of users and their behaviors are tracked through various digital media such as websites, social media, and mobile platforms. using quantitative methods to measure and analyze this “big data” has become crucial as it allows retailers and marketers to make informed decisions concerning consumer behavior. this course is designed to prepare students to become leaders in the digital retail world by leveraging various digital metrics and insights related to sales, reach, customers, to make strategic business decisions.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -254,7 +283,7 @@
     "subject": "RM",
     "id": "4247",
     "title": "Advanced Buying and Sourcing",
-    "info": "this course is designed to familiarize students with the decisions involved in running a retail business and the concepts and principles for making those decisions. major topics covered include sourcing, factory production and operations, supply chain management, translating trends into designs, managing merchandise assortments, merchandise planning systems, buying and sourcing, retail pricing and building a six month financial plan. ms-excel for solving strategic problems in retail buying.\n",
+    "info": "this course is designed to familiarize students with the decisions involved in running a retail business and the concepts and principles for making those decisions. major topics covered include sourcing, factory production and operations, supply chain management, translating trends into designs, managing merchandise assortments, merchandise planning systems, buying and sourcing, retail pricing and building a six month financial plan. ms-excel for solving strategic problems in retail buying.",
     "prereqInfo": null,
     "prereq": []
   },

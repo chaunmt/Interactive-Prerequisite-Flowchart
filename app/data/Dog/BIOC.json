@@ -75,8 +75,8 @@
     "subject": "BIOC",
     "id": "3021",
     "title": "Biochemistry",
-    "info": "fundamentals of biochemistry. structure/function of nucleic acids, proteins, lipids, carbohydrates. enzymes. metabolism. dna replication and repair, transcription, protein synthesis. ",
-    "prereqInfo": "recommended prerequisites: introductory biology (biol 1009 or biol 2003 or equivalent), organic chemistry (chem 2301 or chem 2081/2085 or equivalent). note: cbs students should take bioc 3022 not 3021.",
+    "info": "fundamentals of biochemistry. structure/function of nucleic acids, proteins, lipids, carbohydrates. enzymes. metabolism. dna replication and repair, transcription, protein synthesis. \n\nrecommended",
+    "prereqInfo": "introductory biology (biol 1009 or biol 2003 or equivalent), organic chemistry (chem 2301 or chem 2081/2085 or equivalent). note: cbs students should take bioc 3022 not 3021.",
     "prereq": {
       "and": [
         {
@@ -94,7 +94,7 @@
           ]
         },
         {
-          "or": [
+          "and": [
             {
               "code": "CHEM 2301",
               "subject": "CHEM",
@@ -116,11 +116,6 @@
           "code": "BIOC 3022",
           "subject": "BIOC",
           "id": "3022"
-        },
-        {
-          "code": "BIOC 3021",
-          "subject": "BIOC",
-          "id": "3021"
         }
       ]
     }
@@ -133,7 +128,7 @@
     "info": "this course provides an introduction to biochemistry including discussion of the structure and functions of biomolecules (proteins, carbohydrates, lipids, and nucleic acids), central metabolic pathways, and the mechanisms of enzyme action.\n\nthis course is intended for students in the college of biological sciences. students from other colleges should register for bioc 3021.",
     "prereqInfo": "chem 2301 or chem 2081/2085 or equivalent",
     "prereq": {
-      "or": [
+      "and": [
         {
           "code": "CHEM 2301",
           "subject": "CHEM",
@@ -211,7 +206,7 @@
     "subject": "BIOC",
     "id": "4025W",
     "title": "Laboratory in Biochemistry",
-    "info": "theory, principles, and use of fundamental techniques in modern biochemistry labs. ",
+    "info": "theory, principles, and use of fundamental techniques in modern biochemistry labs.",
     "prereqInfo": "3021, 3022, or 4331 or equiv",
     "prereq": {
       "and": [
@@ -297,9 +292,18 @@
     "info": "practical aspects of nuclear magnetic resonance (nmr) spectrometry. hands-on experience with 500/600 mhz instruments. sample preparation/handling, contamination sources, tube/probe options, experiment selection, experimental procedures, software, data processing.",
     "prereqInfo": "4331; 4521 recommended; intended for biochemistry majors",
     "prereq": {
-      "code": "BIOC 4331",
-      "subject": "BIOC",
-      "id": "4331"
+      "or": [
+        {
+          "code": "BIOC 4331",
+          "subject": "BIOC",
+          "id": "4331"
+        },
+        {
+          "code": "BIOC 4521",
+          "subject": "BIOC",
+          "id": "4521"
+        }
+      ]
     }
   },
   {
@@ -348,7 +352,7 @@
           ]
         },
         {
-          "or": [
+          "and": [
             {
               "code": "CHEM 2302",
               "subject": "CHEM",
@@ -374,7 +378,7 @@
     "subject": "BIOC",
     "id": "4332",
     "title": "Signal Trans/Gene Expression",
-    "info": "advanced survey of molecular biology. mechanisms of gene action/biological regulation. ",
+    "info": "advanced survey of molecular biology. mechanisms of gene action/biological regulation.",
     "prereqInfo": "bioc 4331 or bioc 3201 or bioc 3022",
     "prereq": {
       "or": [
@@ -423,7 +427,7 @@
     "subject": "BIOC",
     "id": "4521",
     "title": "Intro to Physical Biochemistry",
-    "info": "physical chemical principles, their applications in biochemistry. thermodynamics, kinetics, spectroscopy, solution dynamics as applied to biochemical reactions/ biopolymers. ",
+    "info": "physical chemical principles, their applications in biochemistry. thermodynamics, kinetics, spectroscopy, solution dynamics as applied to biochemical reactions/ biopolymers.",
     "prereqInfo": "4331 recommended, (chem 1081 or 1061 and 1065) and (physics 1221 or 1201w or 1301w) required",
     "prereq": {
       "and": [
@@ -478,15 +482,10 @@
     "subject": "BIOC",
     "id": "4793W",
     "title": "Directed Studies: WI",
-    "info": "writing intensive directed studies is an individual-study, literature-based investigation in which the student is mentored directly by a faculty member. one main feature of this course is that the student will receive writing instruction and the written output of the course will be revised during the semester. the project needs to be explained in a research/directed studies contract and agreed on by both the student and faculty mentor. the contract must be approved by the director of undergraduate studies (dugs) for the major before the student is allowed to register. the contract includes a description of learning objectives for the course, how writing instruction will take place, a timeline for when student writing will be handed in and how it will be assessed, methodology to be used by the student, and how assessment of learning will be conducted by the mentor. additional oversight is established for this course near the end of the semester the written output is submitted to the dugs for the major. the dugs is responsible to determine that the writing meets standards set by the cbs education policy committee for quality of writing, appropriate citation of literature, well-constructed figures, tables, and legends (if present), appropriate use and interpretation of statistics (if present), conclusions that are supported by evidence, and well-formatted references. this course is graded s/n and approval of the dugs is required before a grade of s can be given by the faculty mentor. ",
+    "info": "writing intensive directed studies is an individual-study, literature-based investigation in which the student is mentored directly by a faculty member. one main feature of this course is that the student will receive writing instruction and the written output of the course will be revised during the semester. the project needs to be explained in a research/directed studies contract and agreed on by both the student and faculty mentor. the contract must be approved by the director of undergraduate studies (dugs) for the major before the student is allowed to register. the contract includes a description of learning objectives for the course, how writing instruction will take place, a timeline for when student writing will be handed in and how it will be assessed, methodology to be used by the student, and how assessment of learning will be conducted by the mentor. additional oversight is established for this course near the end of the semester the written output is submitted to the dugs for the major. the dugs is responsible to determine that the writing meets standards set by the cbs education policy committee for quality of writing, appropriate citation of literature, well-constructed figures, tables, and legends (if present), appropriate use and interpretation of statistics (if present), conclusions that are supported by evidence, and well-formatted references. this course is graded s/n and approval of the dugs is required before a grade of s can be given by the faculty mentor.",
     "prereqInfo": "department consent, instructor consent, no more than 7 credits of 4793w, 4794w, 4993, 4994 counts towards cbs major requirements.",
     "prereq": {
       "and": [
-        {
-          "code": "BIOC 4793W",
-          "subject": "BIOC",
-          "id": "4793W"
-        },
         {
           "code": "BIOC 4794W",
           "subject": "BIOC",
@@ -518,11 +517,6 @@
           "code": "BIOC 4793W",
           "subject": "BIOC",
           "id": "4793W"
-        },
-        {
-          "code": "BIOC 4794W",
-          "subject": "BIOC",
-          "id": "4794W"
         },
         {
           "code": "BIOC 4993",
@@ -591,7 +585,34 @@
     "subject": "BIOC",
     "id": "4993",
     "title": "Directed Studies",
-    "info": "directed studies is an individual-study, literature-based investigation in which the student is mentored directly by a faculty member. the topic for the course needs to be explained in a research/directed studies contract and agreed on by both the student and faculty mentor. the contract must be approved by the director of undergraduate studies (dugs) for the major before the student is allowed to register. the contract includes a description of learning objectives for the course, methodology to be used, and how the assessment of learning will be conducted. ",
+    "info": "directed studies is an individual-study, literature-based investigation in which the student is mentored directly by a faculty member. the topic for the course needs to be explained in a research/directed studies contract and agreed on by both the student and faculty mentor. the contract must be approved by the director of undergraduate studies (dugs) for the major before the student is allowed to register. the contract includes a description of learning objectives for the course, methodology to be used, and how the assessment of learning will be conducted.",
+    "prereqInfo": "department consent, instructor consent, no more than 7 credits of 4793w, 4794w, 4993, 4994 counts towards cbs major requirements.",
+    "prereq": {
+      "and": [
+        {
+          "code": "BIOC 4793W",
+          "subject": "BIOC",
+          "id": "4793W"
+        },
+        {
+          "code": "BIOC 4794W",
+          "subject": "BIOC",
+          "id": "4794W"
+        },
+        {
+          "code": "BIOC 4994",
+          "subject": "BIOC",
+          "id": "4994"
+        }
+      ]
+    }
+  },
+  {
+    "code": "BIOC 4994",
+    "subject": "BIOC",
+    "id": "4994",
+    "title": "Directed Research",
+    "info": "directed research is an individual-study, laboratory or field investigation course. the research topic needs to be agreed on by both the student and the faculty mentor and explained in a research/directed studies contract. the contract must be approved by the director of undergraduate studies (dugs) for the major before the student is allowed to register. the contract includes a description of learning objectives for the course, methodology to be used, and how the assessment of learning will be conducted.",
     "prereqInfo": "department consent, instructor consent, no more than 7 credits of 4793w, 4794w, 4993, 4994 counts towards cbs major requirements.",
     "prereq": {
       "and": [
@@ -609,43 +630,6 @@
           "code": "BIOC 4993",
           "subject": "BIOC",
           "id": "4993"
-        },
-        {
-          "code": "BIOC 4994",
-          "subject": "BIOC",
-          "id": "4994"
-        }
-      ]
-    }
-  },
-  {
-    "code": "BIOC 4994",
-    "subject": "BIOC",
-    "id": "4994",
-    "title": "Directed Research",
-    "info": "directed research is an individual-study, laboratory or field investigation course. the research topic needs to be agreed on by both the student and the faculty mentor and explained in a research/directed studies contract. the contract must be approved by the director of undergraduate studies (dugs) for the major before the student is allowed to register. the contract includes a description of learning objectives for the course, methodology to be used, and how the assessment of learning will be conducted. ",
-    "prereqInfo": "department consent, instructor consent, no more than 7 credits of 4793w, 4794w, 4993, 4994 counts towards cbs major requirements.\n",
-    "prereq": {
-      "and": [
-        {
-          "code": "BIOC 4793W",
-          "subject": "BIOC",
-          "id": "4793W"
-        },
-        {
-          "code": "BIOC 4794W",
-          "subject": "BIOC",
-          "id": "4794W"
-        },
-        {
-          "code": "BIOC 4993",
-          "subject": "BIOC",
-          "id": "4993"
-        },
-        {
-          "code": "BIOC 4994",
-          "subject": "BIOC",
-          "id": "4994"
         }
       ]
     }
@@ -749,8 +733,8 @@
     "subject": "BIOC",
     "id": "5352",
     "title": "Biotech and Bioengineering",
-    "info": "protein biotechnology. microorganisms used as hosts for protein expression, protein expression, and engineering methods. production of enzymes of industrial interest. applications of protein biotechnology in bioelectronics. formulation of therapeutic biopharmaceuticals.",
-    "prereqInfo": "recommended prerequisites: biochemistry (bioc 3021 or 3022 or 4331) and microbiology micb 3301\n",
+    "info": "protein biotechnology. microorganisms used as hosts for protein expression, protein expression, and engineering methods. production of enzymes of industrial interest. applications of protein biotechnology in bioelectronics. formulation of therapeutic biopharmaceuticals.\n\nrecommended",
+    "prereqInfo": "biochemistry (bioc 3021 or 3022 or 4331) and microbiology micb 3301",
     "prereq": {
       "and": [
         {
@@ -835,7 +819,7 @@
     "subject": "BIOC",
     "id": "5361",
     "title": "Microbial Genomics",
-    "info": "introduction to genomics. emphasizes microbial genomics. sequencing methods, sequence analysis, genomics databases, genome mapping, prokaryotic horizontal gene transfer, genomics in biotechnology, intellectual property issues. hands-on introduction to unix shell scripting, genomic data analysis using r and excel in a computer lab setting. ",
+    "info": "introduction to genomics. emphasizes microbial genomics. sequencing methods, sequence analysis, genomics databases, genome mapping, prokaryotic horizontal gene transfer, genomics in biotechnology, intellectual property issues. hands-on introduction to unix shell scripting, genomic data analysis using r and excel in a computer lab setting.",
     "prereqInfo": "college-level courses in [organic chemistry, biochemistry, microbiology]",
     "prereq": []
   },
@@ -948,7 +932,7 @@
     "subject": "BIOC",
     "id": "5535",
     "title": "Intro Structrl Bio-Diffraction",
-    "info": "theory and practice in the determination of three-dimensional structures of macromolecules using x-ray and neutron diffraction and electron microscopy. ",
+    "info": "theory and practice in the determination of three-dimensional structures of macromolecules using x-ray and neutron diffraction and electron microscopy.",
     "prereqInfo": "(introductory biochemistry, introductory physics, college calculus] or physical chemistry or instr consent",
     "prereq": []
   },
@@ -957,8 +941,8 @@
     "subject": "BIOC",
     "id": "5536",
     "title": "Intro Structural Biology - NMR",
-    "info": "theory and practice in the determination of three-dimensional structures of macromolecules using nmr. ",
-    "prereqInfo": "recommended prerequisite courses: (introductory biochemistry, introductory physics, college calculus) or physical chemistry",
+    "info": "theory and practice in the determination of three-dimensional structures of macromolecules using nmr. \n\nrecommended",
+    "prereqInfo": "uisite courses: (introductory biochemistry, introductory physics, college calculus) or physical chemistry",
     "prereq": []
   },
   {
@@ -1051,7 +1035,7 @@
     "subject": "BIOC",
     "id": "8005",
     "title": "Biochem: Structure & Catalysis",
-    "info": "protein structure, methods to determine structure, protein folding, forces stabilizing macromolecular structure, protein engineering, design. dynamic properties of proteins/enzymes, enzyme substrate complexes, mechanism of enzyme catalysis.  ",
+    "info": "protein structure, methods to determine structure, protein folding, forces stabilizing macromolecular structure, protein engineering, design. dynamic properties of proteins/enzymes, enzyme substrate complexes, mechanism of enzyme catalysis.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -1060,7 +1044,7 @@
     "subject": "BIOC",
     "id": "8006",
     "title": "Biochem: Metabolism & Control",
-    "info": "enzymology of metabolism, metabolic regulation, metabolic control and cell signaling.  ",
+    "info": "enzymology of metabolism, metabolic regulation, metabolic control and cell signaling.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -1096,7 +1080,7 @@
     "subject": "BIOC",
     "id": "8101",
     "title": "Milestones in Biology of Aging",
-    "info": "this course introduces the participant to historical perspectives and emerging topics on the biology of aging.  the course utilizes original literature, including both seminal, historical background papers and the most recent advances in the field of biogerontology. the participants use these resources to advance in-depth discussions on each of the topics.  this course is directed to graduate students and post-doctoral fellows currently engaged in conducting research in the area of biological aging. ",
+    "info": "this course introduces the participant to historical perspectives and emerging topics on the biology of aging.  the course utilizes original literature, including both seminal, historical background papers and the most recent advances in the field of biogerontology. the participants use these resources to advance in-depth discussions on each of the topics.  this course is directed to graduate students and post-doctoral fellows currently engaged in conducting research in the area of biological aging.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -1105,8 +1089,8 @@
     "subject": "BIOC",
     "id": "8102",
     "title": "Topics in the Biology of Aging",
-    "info": "this course is intended to provide a platform of understanding about the major issues surrounding biological research in aging. this course will include a combination of student- and faculty-led discussions on select research topics that are highly relevant to the field of biogerontology research, along with instruction/discussions on scientific integrity. student participants will lead discussions focused on their area of research expertise, utilizing a combination of review articles and research articles. discussion of scientific misconduct will include case studies.  ",
-    "prereqInfo": "this course is open to graduate students and post-doctoral fellows involved in the national institutes on aging (nia) training grant “functional proteomics of aging”. this course is also open to other graduate students or post-doctoral fellows who are conducting biological research in aging with instructor’s permission.\t",
+    "info": "this course is intended to provide a platform of understanding about the major issues surrounding biological research in aging. this course will include a combination of student- and faculty-led discussions on select research topics that are highly relevant to the field of biogerontology research, along with instruction/discussions on scientific integrity. student participants will lead discussions focused on their area of research expertise, utilizing a combination of review articles and research articles. discussion of scientific misconduct will include case studies.  \n\nthis course is open to graduate students and post-doctoral fellows involved in the national institutes on aging (nia) training grant “functional proteomics of aging”. this course is also open to other graduate students or post-doctoral fellows who are conducting biological research in aging with instructor’s permission.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -1201,7 +1185,11 @@
     "title": "Doct Pre-Thesis Cr*",
     "info": "tbd",
     "prereqInfo": "doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": []
+    "prereq": {
+      "code": "BIOC 60",
+      "subject": "BIOC",
+      "id": "60"
+    }
   },
   {
     "code": "BIOC 8777",
@@ -1210,7 +1198,11 @@
     "title": "Thesis Credit:Mast*",
     "info": "(no description)",
     "prereqInfo": "max 18 cr per semester or summer; 10 cr total required [plan a only]",
-    "prereq": []
+    "prereq": {
+      "code": "BIOC 10",
+      "subject": "BIOC",
+      "id": "10"
+    }
   },
   {
     "code": "BIOC 8888",

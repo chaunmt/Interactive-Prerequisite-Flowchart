@@ -78,7 +78,11 @@
     "title": "Agricultural Policy",
     "info": "this course will introduce students to advocacy and policy-making that affects minnesota's agricultural industry, specifically at the farm level. they will experience the policy-making process from an initial idea to building support, lobbying, legislative work, implementation, and the effect policies have on minnesota farmers. students will get a behind-the-scenes look at the policy process in action by meeting lawmakers, lobbyists, and staff while on field trips to the minnesota state capitol and minnesota department of agriculture. students will also shadow a current legislator, participate in a mock senate, hear from multiple guest speakers, and research the decision-making process by following an agricultural bill through the legislative session.",
     "prereqInfo": "30 credits or instructor approval",
-    "prereq": []
+    "prereq": {
+      "code": "AECM 30",
+      "subject": "AECM",
+      "id": "30"
+    }
   },
   {
     "code": "AECM 3125",
@@ -103,7 +107,7 @@
     "subject": "AECM",
     "id": "3434",
     "title": "SocMedia Food/Ag/NtrlRsrc Sci",
-    "info": "the convergence of multiple forms of media, newspaper, video, radio, and photojournalism on the internet is impacting how we communicate complicated scientific issues related to topics such as food safety, agricultural production, and good stewardship of natural resources, and social media have been found to play a critical role in shaping science literacy. because of the increasing presence of social media in our everyday lives, agriculturists are challenged with how to best package these complex scientific topics to increase science literacy through social media networks. this course aims to provide agriculturists who possess a strong background and understanding of food, agriculture and natural resource sciences with the skills needed to communicate these complex topics to audiences across social media platforms. ",
+    "info": "the convergence of multiple forms of media, newspaper, video, radio, and photojournalism on the internet is impacting how we communicate complicated scientific issues related to topics such as food safety, agricultural production, and good stewardship of natural resources, and social media have been found to play a critical role in shaping science literacy. because of the increasing presence of social media in our everyday lives, agriculturists are challenged with how to best package these complex scientific topics to increase science literacy through social media networks. this course aims to provide agriculturists who possess a strong background and understanding of food, agriculture and natural resource sciences with the skills needed to communicate these complex topics to audiences across social media platforms.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -130,7 +134,7 @@
     "subject": "AECM",
     "id": "3462",
     "title": "Podcasting for Sci Literacy",
-    "info": "this course will introduce students to the art of audio storytelling and develop the professional skills used to communicate complex science topics to an intended audience.  the course explores a variety of concepts used in audio storytelling and educational programming.  science topics will be researched and scripted in order to maximize acquired production skills with the intention of offering informative content to a target market. ",
+    "info": "this course will introduce students to the art of audio storytelling and develop the professional skills used to communicate complex science topics to an intended audience.  the course explores a variety of concepts used in audio storytelling and educational programming.  science topics will be researched and scripted in order to maximize acquired production skills with the intention of offering informative content to a target market.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -148,8 +152,8 @@
     "subject": "AECM",
     "id": "3993",
     "title": "Directed Study",
-    "info": "a course in which a student designs and carries out a directed study on selected topics or problems under the direction of a faculty member; eg, literature review. directed study courses may be taken for variable credit and special permission is needed for enrollment.  students enrolling in a directed study will be required to use the university-wide on-line directed study contract process in order to enroll.\n \nprereq: department consent, instructor consent, no more than 6 credits of directed study counts towards cfans major requirements.",
-    "prereqInfo": null,
+    "info": "a course in which a student designs and carries out a directed study on selected topics or problems under the direction of a faculty member; eg, literature review. directed study courses may be taken for variable credit and special permission is needed for enrollment.  students enrolling in a directed study will be required to use the university-wide on-line directed study contract process in order to enroll.",
+    "prereqInfo": "department consent, instructor consent, no more than 6 credits of directed study counts towards cfans major requirements.",
     "prereq": []
   },
   {
@@ -193,7 +197,7 @@
     "subject": "AECM",
     "id": "4432",
     "title": "Advcd Video Agro/Food/Envrnmnt",
-    "info": "this course focuses on advanced digital media production skills necessary to be successful in today's workplace specific to professions in agriculture, food and the environment. students will infuse learning strategies into advanced documentary-style audio/visual productions. content will be used to produce educational websites focused on informing and communicating complex science topics. ",
+    "info": "this course focuses on advanced digital media production skills necessary to be successful in today's workplace specific to professions in agriculture, food and the environment. students will infuse learning strategies into advanced documentary-style audio/visual productions. content will be used to produce educational websites focused on informing and communicating complex science topics.",
     "prereqInfo": "aecm 3452 or instructor consent",
     "prereq": {
       "code": "AECM 3452",
@@ -310,7 +314,7 @@
     "id": "5145",
     "title": "Ag Ed Classroom & Prog Ldshp",
     "info": "this course examines models of classroom and program leadership within school-based agricultural education. through coursework and a part-time clinical field experience (minimum of 25 hours) in a school setting (grades \n5-12), students will learn, observe, and experience the ways in which school-based agricultural education teachers create and maintain an effective classroom/lab environment, manage student behavior, communicate and engage with school district leaders, program stakeholders, and community members to ensure student success. (3 credits)",
-    "prereqInfo": "prereqs: jr or sr ag ed student or ag ed ms il student",
+    "prereqInfo": "s: jr or sr ag ed student or ag ed ms il student",
     "prereq": []
   },
   {
@@ -319,7 +323,7 @@
     "id": "5155",
     "title": "Ag Ed Teaching Seminar",
     "info": "this course emphasizes professionalism and the code of ethics for school-based agricultural educators. students are prepared for the job search and teacher licensure application process. students take this course concurrent with aecm 5698-teaching internship and apply professionalism and the integrated program model in their classroom, school, and community.",
-    "prereqInfo": "prereqs: jr or sr ag ed student or ag ed ms il student",
+    "prereqInfo": "s: jr or sr ag ed student or ag ed ms il student",
     "prereq": []
   },
   {
@@ -363,7 +367,7 @@
     "subject": "AECM",
     "id": "5252",
     "title": "Principles of Comm in AELS",
-    "info": "this course provides an overview of the essential communication theories, strategies, and practical tactics necessary for communicating information related to agricultural, environmental, and life sciences to different audiences. course curriculum is designed to improve your ability to engage in public communication and outreach efforts. we will discuss both the science of science communication, as well as apply high-level concepts to the practice of science communication. course content will include case studies, current research, and programs to better understand connections between science communication, information acquisition, and behavior change. we will focus on understanding audiences and their information needs, designing effective communication strategies that build dialogue, and strengthening science communication skills.\n",
+    "info": "this course provides an overview of the essential communication theories, strategies, and practical tactics necessary for communicating information related to agricultural, environmental, and life sciences to different audiences. course curriculum is designed to improve your ability to engage in public communication and outreach efforts. we will discuss both the science of science communication, as well as apply high-level concepts to the practice of science communication. course content will include case studies, current research, and programs to better understand connections between science communication, information acquisition, and behavior change. we will focus on understanding audiences and their information needs, designing effective communication strategies that build dialogue, and strengthening science communication skills.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -390,7 +394,7 @@
     "subject": "AECM",
     "id": "5696",
     "title": "Teaching Internship",
-    "info": "agricultural education teaching experience in a school system that provides instruction to grades 5-12. ",
+    "info": "agricultural education teaching experience in a school system that provides instruction to grades 5-12.",
     "prereqInfo": "admission to initial licensure program",
     "prereq": []
   },

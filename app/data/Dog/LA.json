@@ -22,7 +22,7 @@
     "subject": "LA",
     "id": "1201",
     "title": "Learning Landscape",
-    "info": "this course is about the ordinary landscape: the objects, spaces, sites, and stories that are the stage for our everyday lives. \nbut the landscape is not just a neutral stage. the landscape influences our lives and we construct and shape the landscape. \nthis course examines the landscape through lenses of race, equity, justice, and climate change, taking an environmental justice framing in our investigations. ",
+    "info": "this course is about the ordinary landscape: the objects, spaces, sites, and stories that are the stage for our everyday lives. \nbut the landscape is not just a neutral stage. the landscape influences our lives and we construct and shape the landscape. \nthis course examines the landscape through lenses of race, equity, justice, and climate change, taking an environmental justice framing in our investigations.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -54,20 +54,11 @@
     "prereq": []
   },
   {
-    "code": "LA 1601H",
-    "subject": "LA",
-    "id": "1601H",
-    "title": "Design and Equity",
-    "info": "investigate the world from new perspectives. spaces of everyday life that reflect/shape values. will house honor sections within the normal class meeting times. course work will be amended and enhanced in the honor sections and will reflect a deeper exploration of the core ideas while delivering in-depth responses within the project expectations.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
     "code": "LA 2301",
     "subject": "LA",
     "id": "2301",
     "title": "Advanced Representation",
-    "info": "explore multimedia rendering techniques using analog (hand sketching/drawing) and digital techniques for raster and vector image generation used to illustrate landscape architecture analysis and design processes. ",
+    "info": "explore multimedia rendering techniques using analog (hand sketching/drawing) and digital techniques for raster and vector image generation used to illustrate landscape architecture analysis and design processes.",
     "prereqInfo": "la 1301 or gdes 1311 or instructor consent",
     "prereq": {
       "or": [
@@ -89,7 +80,7 @@
     "subject": "LA",
     "id": "2302",
     "title": "Computer Rep for Envirn Design",
-    "info": "use of computer-aided design (cad) technologies in developing, representing, and communicating environmental design ideas. adobe creative suite, autodesk autocad, dynascape, esri arcmap, etc. integration of images generated from various computer and hand-rendered technologies.\n",
+    "info": "use of computer-aided design (cad) technologies in developing, representing, and communicating environmental design ideas. adobe creative suite, autodesk autocad, dynascape, esri arcmap, etc. integration of images generated from various computer and hand-rendered technologies.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -133,6 +124,16 @@
           "code": "FR 3131",
           "subject": "FR",
           "id": "3131"
+        },
+        {
+          "code": "FR 3131",
+          "subject": "FR",
+          "id": "3131"
+        },
+        {
+          "code": "GEOG 3561",
+          "subject": "GEOG",
+          "id": "3561"
         },
         {
           "code": "GEOG 3561",
@@ -228,7 +229,7 @@
     "subject": "LA",
     "id": "4001",
     "title": "Sust LA Design & Plan Practice",
-    "info": "applications of sustainable landscape design and planning practices. examination of the systemic, formal, and spatial relationships across the integration of these practices and quantitative and qualitative changes in biodiversity, quality of the earth’s air, soil, and water resources, development and consumption of energy resources and climate change. development of design processes for selection, deployment, and management of sustainable practices to create evocative and meaningful landscape in the context of cultural change. ",
+    "info": "applications of sustainable landscape design and planning practices. examination of the systemic, formal, and spatial relationships across the integration of these practices and quantitative and qualitative changes in biodiversity, quality of the earth’s air, soil, and water resources, development and consumption of energy resources and climate change. development of design processes for selection, deployment, and management of sustainable practices to create evocative and meaningful landscape in the context of cultural change.",
     "prereqInfo": "la 2302 and la 3002 or instructor consent.",
     "prereq": {
       "and": [
@@ -250,7 +251,7 @@
     "subject": "LA",
     "id": "4002",
     "title": "Design of Urban Landscapes",
-    "info": "la 4002 will provide an in-depth look at the urban environment. the studio will explore the forces that shape the city and how the city will potentially meet the challenges exerted upon it by a changing climate, reorganized populations, and the technologies of the future. ",
+    "info": "la 4002 will provide an in-depth look at the urban environment. the studio will explore the forces that shape the city and how the city will potentially meet the challenges exerted upon it by a changing climate, reorganized populations, and the technologies of the future.",
     "prereqInfo": "la 2302, la 3002",
     "prereq": {
       "and": [
@@ -308,15 +309,6 @@
         }
       ]
     }
-  },
-  {
-    "code": "LA 4160H",
-    "subject": "LA",
-    "id": "4160H",
-    "title": "Thesis/Capstone Project",
-    "info": "individualizes honors experience by connecting aspects of major program with special academic interests.",
-    "prereqInfo": null,
-    "prereq": []
   },
   {
     "code": "LA 4501",
@@ -451,7 +443,7 @@
     "id": "5201",
     "title": "Studio 01 Landscape Spaces",
     "info": "introductory studio for landscape architecture. consideration of built environments for human and other than human habitation. introduction to ways in which site conditions (soils, water, climate, plant communities, etc.) are mapped, analyzed, and incorporated into design process. consideration of ways that landscapes are complex combinations of issues of aesthetics, politics, economics, identity, biophysical, and ecological elements.",
-    "prereqInfo": " la grad or instr consent",
+    "prereqInfo": "la grad or instr consent",
     "prereq": []
   },
   {
@@ -581,7 +573,7 @@
     "id": "5377",
     "title": "Representation II",
     "info": "this course further develops student?s digital skills with an emphasis on advanced skills in adobe illustrator and rhino, including some work in parametric scripting with grasshopper and digital fabrication with 3-d printers or cnc milling machine.",
-    "prereqInfo": "master of landscape architecture (mla) ",
+    "prereqInfo": "master of landscape architecture (mla)",
     "prereq": []
   },
   {
@@ -607,7 +599,7 @@
     "subject": "LA",
     "id": "5400",
     "title": "Topics: Land Arch",
-    "info": "current topics in landscape architecture. taught by regular or visiting faculty in their areas of specialization.\n",
+    "info": "current topics in landscape architecture. taught by regular or visiting faculty in their areas of specialization.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -755,7 +747,7 @@
     "subject": "LA",
     "id": "5573",
     "title": "Intro to GIS",
-    "info": "gis as an analytical tool to solve geographical problems of regional landscape design and resource management. topics include application techniques, analytical procedures, data characteristics, data sources, input/output methods, and implementation. ",
+    "info": "gis as an analytical tool to solve geographical problems of regional landscape design and resource management. topics include application techniques, analytical procedures, data characteristics, data sources, input/output methods, and implementation.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -809,7 +801,7 @@
     "subject": "LA",
     "id": "5761",
     "title": "Infrastructure + Culture",
-    "info": "as attitudes about ecology and nature are shifting and as the threats from climate change are becoming more pronounced, new infrastructure works in the netherlands are caught a a double bind of responding to ecological concerns and protection of the land. \nthis course will explore both historic and modern water management infrastructures as cultural and engineering constructs through visual representation as a form of critique. the course will be structured around study trips, preparatory readings, on-site lectures, and will be supplemented by the participation of several guest speakers. ",
+    "info": "as attitudes about ecology and nature are shifting and as the threats from climate change are becoming more pronounced, new infrastructure works in the netherlands are caught a a double bind of responding to ecological concerns and protection of the land. \nthis course will explore both historic and modern water management infrastructures as cultural and engineering constructs through visual representation as a form of critique. the course will be structured around study trips, preparatory readings, on-site lectures, and will be supplemented by the participation of several guest speakers.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -930,6 +922,11 @@
     "prereqInfo": "8201 or concurrent registration is required (or allowed) in  8201, grad la major or instr consent",
     "prereq": {
       "or": [
+        {
+          "code": "LA 8201",
+          "subject": "LA",
+          "id": "8201"
+        },
         {
           "code": "LA 8201",
           "subject": "LA",
@@ -1121,8 +1118,8 @@
     "subject": "LA",
     "id": "8773",
     "title": "Landscape Technology III",
-    "info": "la 8773 focuses on the use of plant materials, plant communities, and the design of planted spaces in supporting the construction of sustainable landscapes. emphasis is placed on understanding the ecology of plant communities and the use of plants in different environments, including dry and wet landscapes. advanced work in creating professional drawing sets (planting plans and specifications) for construction.\nprereq: master of landscape architecture student or instr consent",
-    "prereqInfo": null,
+    "info": "la 8773 focuses on the use of plant materials, plant communities, and the design of planted spaces in supporting the construction of sustainable landscapes. emphasis is placed on understanding the ecology of plant communities and the use of plants in different environments, including dry and wet landscapes. advanced work in creating professional drawing sets (planting plans and specifications) for construction.",
+    "prereqInfo": "master of landscape architecture student or instr consent",
     "prereq": []
   },
   {
@@ -1163,6 +1160,10 @@
     "title": "Thesis Credit:Mast*",
     "info": "(no description)",
     "prereqInfo": "max 18 cr per semester or summer; 10 cr total required (plan a only)",
-    "prereq": []
+    "prereq": {
+      "code": "LA 10",
+      "subject": "LA",
+      "id": "10"
+    }
   }
 ]

@@ -4,8 +4,8 @@
     "subject": "ARAB",
     "id": "1001",
     "title": "Survival Arabic",
-    "info": "in this two-credit course, you will learn fundamental arabic skills that allow you to interact successfully in arabic with native speakers of the language, and navigate environments where arabic is written and spoken. topics we cover include greeting and inquiring about people; using appropriate politeness phrases; giving and following directions; ordering meals; making transactions and reservations; and getting medical care. you will also learn about arab communities and societies and explore examples of popular culture from the arabic-speaking world. this practice-oriented course is a great introduction to arabic for college and high-school students, researchers, professionals, and travelers. it can be taken on its own or as a prequel to arabic study during the academic year. this course is taught in person and has no prerequisites.",
-    "prereqInfo": null,
+    "info": "in this two-credit course, you will learn fundamental arabic skills that allow you to interact successfully in arabic with native speakers of the language, and navigate environments where arabic is written and spoken. topics we cover include greeting and inquiring about people; using appropriate politeness phrases; giving and following directions; ordering meals; making transactions and reservations; and getting medical care. you will also learn about arab communities and societies and explore examples of popular culture from the arabic-speaking world. this practice-oriented course is a great introduction to arabic for college and high-school students, researchers, professionals, and travelers. it can be taken on its own or as a prequel to arabic study during the academic year. this course is taught in person and has no",
+    "prereqInfo": "uisites.",
     "prereq": []
   },
   {
@@ -22,20 +22,9 @@
     "subject": "ARAB",
     "id": "1102",
     "title": "Beginning Arabic II",
-    "info": "as the continuation of arab-1101, arab-1102 focuses on the equal development of the fundamental skills of speaking, writing, reading, and listening in modern standard arabic. content is tailored to meet the communicative demands of daily life. class time is mostly devoted to practice. in addition to daily homework assignments, students give oral presentations, compose basic essays, and work on an oral or written project. attendance of this class is required for all five weekly contact hours. ",
-    "prereqInfo": "pre-req: pass in arab-1101/4101, or equivalent experience as assessed through a placement test.",
-    "prereq": [
-      {
-        "code": "ARAB 1101",
-        "subject": "ARAB",
-        "id": "1101"
-      },
-      {
-        "code": "ARAB 4101",
-        "subject": "ARAB",
-        "id": "4101"
-      }
-    ]
+    "info": "as the continuation of arab-1101, arab-1102 focuses on the equal development of the fundamental skills of speaking, writing, reading, and listening in modern standard arabic. content is tailored to meet the communicative demands of daily life. class time is mostly devoted to practice. in addition to daily homework assignments, students give oral presentations, compose basic essays, and work on an oral or written project. attendance of this class is required for all five weekly contact hours. \n\npre-req: pass in arab-1101/4101, or equivalent experience as assessed through a placement test.",
+    "prereqInfo": null,
+    "prereq": []
   },
   {
     "code": "ARAB 1201",
@@ -87,48 +76,39 @@
     "subject": "ARAB",
     "id": "3101",
     "title": "Intermediate Arabic I",
-    "info": "this course is designed for students who have successfully completed two semesters of intensive beginner modern standard arabic. like its prequels, intermediate arabic i focuses on the equal development of the fundamental skills of speaking, writing, reading, and listening in modern standard arabic. this course is designed as a communicative and interactive learning environment, with a strong emphasis on practice. presentations, oral interaction and writing samples are expected to become lengthier and more intricate. students study increasingly complex grammar through engagement with authentic oral, print and digital texts. ",
+    "info": "this course is designed for students who have successfully completed two semesters of intensive beginner modern standard arabic. like its prequels, intermediate arabic i focuses on the equal development of the fundamental skills of speaking, writing, reading, and listening in modern standard arabic. this course is designed as a communicative and interactive learning environment, with a strong emphasis on practice. presentations, oral interaction and writing samples are expected to become lengthier and more intricate. students study increasingly complex grammar through engagement with authentic oral, print and digital texts.",
     "prereqInfo": "pass in arab 1102/4102 or equivalent experience as assessed through a placement test.",
-    "prereq": [
-      {
-        "code": "ARAB 1102",
-        "subject": "ARAB",
-        "id": "1102"
-      },
-      {
-        "code": "ARAB 4102",
-        "subject": "ARAB",
-        "id": "4102"
-      }
-    ]
+    "prereq": {
+      "and": [
+        {
+          "code": "ARAB 1102",
+          "subject": "ARAB",
+          "id": "1102"
+        },
+        {
+          "code": "ARAB 4102",
+          "subject": "ARAB",
+          "id": "4102"
+        }
+      ]
+    }
   },
   {
     "code": "ARAB 3102",
     "subject": "ARAB",
     "id": "3102",
     "title": "Intermediate Arabic II",
-    "info": "this course is designed for students who have successfully completed three semesters of intensive modern standard arabic. like its prequels, intermediate arabic ii focuses on the equal development of the fundamental skills of speaking, writing, reading, and listening in modern standard arabic. thematic units, however, transcend the communicative needs of daily life to include communication about subjects of a broader cultural, historical and sociological relevance. this course is designed as a communicative and interactive learning environment, with a strong emphasis on practice. presentations, oral interaction, and writing samples are expected to become lengthier and more intricate. students study increasingly complex grammar through engagement with authentic oral, print, and digital texts. ",
-    "prereqInfo": "pre-req: pass in arab-3101/4122 or equivalent experience as assessed through a placement test.",
-    "prereq": [
-      {
-        "code": "ARAB 3101",
-        "subject": "ARAB",
-        "id": "3101"
-      },
-      {
-        "code": "ARAB 4122",
-        "subject": "ARAB",
-        "id": "4122"
-      }
-    ]
+    "info": "this course is designed for students who have successfully completed three semesters of intensive modern standard arabic. like its prequels, intermediate arabic ii focuses on the equal development of the fundamental skills of speaking, writing, reading, and listening in modern standard arabic. thematic units, however, transcend the communicative needs of daily life to include communication about subjects of a broader cultural, historical and sociological relevance. this course is designed as a communicative and interactive learning environment, with a strong emphasis on practice. presentations, oral interaction, and writing samples are expected to become lengthier and more intricate. students study increasingly complex grammar through engagement with authentic oral, print, and digital texts. \n\npre-req: pass in arab-3101/4122 or equivalent experience as assessed through a placement test.",
+    "prereqInfo": null,
+    "prereq": []
   },
   {
     "code": "ARAB 3201",
     "subject": "ARAB",
     "id": "3201",
     "title": "Arabic Calligraphy",
-    "info": "in this course, you will study the history of arabic calligraphy and explore various calligraphic styles. you will learn about the work of well-known arab calligraphers, and about the ways in which visual artists from the arab world have incorporated calligraphy into their work. additionally, you will practice creating your own calligraphic work under the guidance of your instructor.\nprerequisite: minimal knowledge of the arabic alphabet required; can be developed by means of concurrent registration in an arabic language course.",
-    "prereqInfo": null,
+    "info": "in this course, you will study the history of arabic calligraphy and explore various calligraphic styles. you will learn about the work of well-known arab calligraphers, and about the ways in which visual artists from the arab world have incorporated calligraphy into their work. additionally, you will practice creating your own calligraphic work under the guidance of your instructor.",
+    "prereqInfo": "minimal knowledge of the arabic alphabet required; can be developed by means of concurrent registration in an arabic language course.",
     "prereq": []
   },
   {
@@ -138,18 +118,20 @@
     "title": "Arabic Teaching Tutorial",
     "info": "students tutor beginning students of arabic and are part of department's arabic language team.",
     "prereqInfo": "grade of a in 3102/4122",
-    "prereq": [
-      {
-        "code": "ARAB 3102",
-        "subject": "ARAB",
-        "id": "3102"
-      },
-      {
-        "code": "ARAB 4122",
-        "subject": "ARAB",
-        "id": "4122"
-      }
-    ]
+    "prereq": {
+      "and": [
+        {
+          "code": "ARAB 3102",
+          "subject": "ARAB",
+          "id": "3102"
+        },
+        {
+          "code": "ARAB 4122",
+          "subject": "ARAB",
+          "id": "4122"
+        }
+      ]
+    }
   },
   {
     "code": "ARAB 3491",
@@ -237,56 +219,25 @@
     "subject": "ARAB",
     "id": "3811",
     "title": "Egyptian Colloquial Arabic I",
-    "info": "this course is designed for students of arabic who have taken a minimum of two semesters of modern standard arabic (arab 1101 and 1102), or the equivalent thereof as determined by a placement test. the course provides training in the fundamentals of egyptian colloquial arabic, one of the most widely-spoken and widely-understood arabic vernaculars. students practice the expression and comprehension of communicative needs in a variety of daily-life, informal situations. in addition, they are acquainted with a range of authentic cultural materials (film, tv broadcasts, songs) in egyptian arabic. the course relies heavily on oral practice and class periods are designed to be interactive.",
-    "prereqInfo": "credit will not be granted if student has already taken arab 3900 fall 2015, summer 2016",
-    "prereq": {
-      "and": [
-        {
-          "code": "ARAB 3900",
-          "subject": "ARAB",
-          "id": "3900"
-        },
-        {
-          "code": "ARAB 2015",
-          "subject": "ARAB",
-          "id": "2015"
-        },
-        {
-          "code": "ARAB 2016",
-          "subject": "ARAB",
-          "id": "2016"
-        }
-      ]
-    }
+    "info": "this course is designed for students of arabic who have taken a minimum of two semesters of modern standard arabic (arab 1101 and 1102), or the equivalent thereof as determined by a placement test. the course provides training in the fundamentals of egyptian colloquial arabic, one of the most widely-spoken and widely-understood arabic vernaculars. students practice the expression and comprehension of communicative needs in a variety of daily-life, informal situations. in addition, they are acquainted with a range of authentic cultural materials (film, tv broadcasts, songs) in egyptian arabic. the course relies heavily on oral practice and class periods are designed to be interactive.\n\ncredit will not be granted if student has already taken arab 3900 fall 2015, summer 2016",
+    "prereqInfo": null,
+    "prereq": []
   },
   {
     "code": "ARAB 3812",
     "subject": "ARAB",
     "id": "3812",
     "title": "Egyptian Colloquial Arabic II",
-    "info": "as the continuation of arab 3811 egyptian colloquial arabic i, this course focuses on further developing oral expression and comprehension skills in egyptian arabic. by practicing the target language, students explore important elements of egyptian culture and history and engage with a dynamic cross-section of authentic media and cultural material including film, television, news, and music. the course relies heavily on oral practice and class periods are designed to be interactive. textbooks used are samia louis' kallimni 'arabi and kallimni 'arabi aktar. the course is designed for students of arabic who have completed egyptian colloquial arabic i, or the equivalent thereof, as determined by a placement test. this course is open to non-native speakers and non-heritage learners of arabic only. as a 3-credit course, it cannot be taken in lieu of arab 3101 or arab 3102 to fulfill the cla second language requirement. it can, however, be taken concurrently with these classes.",
-    "prereqInfo": "credit will not be granted if student has already taken arab 3900 spring 2016, summer 2016",
-    "prereq": {
-      "and": [
-        {
-          "code": "ARAB 3900",
-          "subject": "ARAB",
-          "id": "3900"
-        },
-        {
-          "code": "ARAB 2016",
-          "subject": "ARAB",
-          "id": "2016"
-        }
-      ]
-    }
+    "info": "as the continuation of arab 3811 egyptian colloquial arabic i, this course focuses on further developing oral expression and comprehension skills in egyptian arabic. by practicing the target language, students explore important elements of egyptian culture and history and engage with a dynamic cross-section of authentic media and cultural material including film, television, news, and music. the course relies heavily on oral practice and class periods are designed to be interactive. textbooks used are samia louis' kallimni 'arabi and kallimni 'arabi aktar. the course is designed for students of arabic who have completed egyptian colloquial arabic i, or the equivalent thereof, as determined by a placement test. this course is open to non-native speakers and non-heritage learners of arabic only. as a 3-credit course, it cannot be taken in lieu of arab 3101 or arab 3102 to fulfill the cla second language requirement. it can, however, be taken concurrently with these classes.\n\ncredit will not be granted if student has already taken arab 3900 spring 2016, summer 2016",
+    "prereqInfo": null,
+    "prereq": []
   },
   {
     "code": "ARAB 3813",
     "subject": "ARAB",
     "id": "3813",
     "title": "Jordanian Colloquial Arabic",
-    "info": "this course is designed for students of arabic who have taken minimum two semesters of modern standard arabic (arab 1101 & 1102), or the equivalent thereof as determined by a placement test. the course provides training in the fundamentals of jordanian and palestinian spoken arabic, which is widely understood all over the arab world, and is also very similar to the arabic spoken in syria and lebanon. this course specifically revolves around the development of your speaking, listening and transcultural skills. it will provide you with many opportunities to speak, watch, and listen to jordanian arabic and to learn about the cultures and societies of the levant. the course aims to increase your ability to successfully navigate the variety of arabic language registers, and to substantially improve your cultural competence. \nthis course is open to non-native speakers and non-heritage learners of arabic only. as a 3-credit course, it cannot be taken in lieu of arab 3101 or arab 3102 to fulfill the cla second language requirement. it can, however, be taken concurrently with these classes. ",
+    "info": "this course is designed for students of arabic who have taken minimum two semesters of modern standard arabic (arab 1101 & 1102), or the equivalent thereof as determined by a placement test. the course provides training in the fundamentals of jordanian and palestinian spoken arabic, which is widely understood all over the arab world, and is also very similar to the arabic spoken in syria and lebanon. this course specifically revolves around the development of your speaking, listening and transcultural skills. it will provide you with many opportunities to speak, watch, and listen to jordanian arabic and to learn about the cultures and societies of the levant. the course aims to increase your ability to successfully navigate the variety of arabic language registers, and to substantially improve your cultural competence. \nthis course is open to non-native speakers and non-heritage learners of arabic only. as a 3-credit course, it cannot be taken in lieu of arab 3101 or arab 3102 to fulfill the cla second language requirement. it can, however, be taken concurrently with these classes.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -295,7 +246,7 @@
     "subject": "ARAB",
     "id": "3814",
     "title": "Gulf Colloquial Arabic",
-    "info": "this course is designed for students of arabic who have taken minimum two semesters of modern standard arabic (arab 1101 & 1102), or the equivalent thereof as determined by a placement test. the course provides training in the fundamentals of the spoken arabic of the arabian peninsula region. you will learn how to participate with ease and confidence in informal conversations in gulf colloquial arabic around topics in the domestic and informal sphere, as well as some general interest topics of communal/regional relevance. you will engage with a wide variety of authentic popular culture materials from the region, and will explore a variety of cultural practices prevalent in the arabian peninsula region, thereby substantially improving your intercultural competence.\nthis course is open to non-native speakers and non-heritage learners of arabic only. as a 3-credit course, it cannot be taken in lieu of arab 3101 or arab 3102 to fulfill the cla second language requirement. it can, however, be taken concurrently with these classes. ",
+    "info": "this course is designed for students of arabic who have taken minimum two semesters of modern standard arabic (arab 1101 & 1102), or the equivalent thereof as determined by a placement test. the course provides training in the fundamentals of the spoken arabic of the arabian peninsula region. you will learn how to participate with ease and confidence in informal conversations in gulf colloquial arabic around topics in the domestic and informal sphere, as well as some general interest topics of communal/regional relevance. you will engage with a wide variety of authentic popular culture materials from the region, and will explore a variety of cultural practices prevalent in the arabian peninsula region, thereby substantially improving your intercultural competence.\nthis course is open to non-native speakers and non-heritage learners of arabic only. as a 3-credit course, it cannot be taken in lieu of arab 3101 or arab 3102 to fulfill the cla second language requirement. it can, however, be taken concurrently with these classes.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -322,8 +273,8 @@
     "subject": "ARAB",
     "id": "3993",
     "title": "Directed Study",
-    "info": "for advanced students with individual faculty members.\nprereq-instr consent, dept consent, college consent.",
-    "prereqInfo": null,
+    "info": "for advanced students with individual faculty members.",
+    "prereqInfo": "-instr consent, dept consent, college consent.",
     "prereq": []
   },
   {
@@ -353,20 +304,22 @@
     "subject": "ARAB",
     "id": "4121",
     "title": "Int Arabic I Grad Research",
-    "info": "this course is designed for students who have successfully completed two semesters of intensive beginner modern standard arabic. like its prequels, intermediate arabic i focuses on the equal development of the fundamental skills of speaking, writing, reading, and listening in modern standard arabic. this course is designed as a communicative and interactive learning environment, with a strong emphasis on practice. presentations, oral interaction, and writing samples are expected to become lengthier and more intricate. students study increasingly complex grammar through engagement with authentic oral, print, and digital texts. ",
+    "info": "this course is designed for students who have successfully completed two semesters of intensive beginner modern standard arabic. like its prequels, intermediate arabic i focuses on the equal development of the fundamental skills of speaking, writing, reading, and listening in modern standard arabic. this course is designed as a communicative and interactive learning environment, with a strong emphasis on practice. presentations, oral interaction, and writing samples are expected to become lengthier and more intricate. students study increasingly complex grammar through engagement with authentic oral, print, and digital texts.",
     "prereqInfo": "pass in arab 1102/4102 or equivalent experience as assessed through a placement test.",
-    "prereq": [
-      {
-        "code": "ARAB 1102",
-        "subject": "ARAB",
-        "id": "1102"
-      },
-      {
-        "code": "ARAB 4102",
-        "subject": "ARAB",
-        "id": "4102"
-      }
-    ]
+    "prereq": {
+      "and": [
+        {
+          "code": "ARAB 1102",
+          "subject": "ARAB",
+          "id": "1102"
+        },
+        {
+          "code": "ARAB 4102",
+          "subject": "ARAB",
+          "id": "4102"
+        }
+      ]
+    }
   },
   {
     "code": "ARAB 4122",
@@ -386,7 +339,7 @@
     "subject": "ARAB",
     "id": "4811",
     "title": "Egyptian Arabic I Grad Resrch",
-    "info": " this course is designed for students of arabic who have taken a minimum of two semesters of modern standard arabic (arab 1101 and 1102), or the equivalent thereof as determined by a placement test. the course provides training in the fundamentals of egyptian colloquial arabic, one of the most widely-spoken and widely-understood arabic vernaculars. students practice the expression and comprehension of communicative needs in a variety of daily-life, informal situations. in addition, they are acquainted with a range of authentic cultural materials (film, tv broadcasts, songs) in egyptian arabic. the course relies heavily on oral practice and class periods are designed to be interactive.\nmeets with arab 3811.",
+    "info": "this course is designed for students of arabic who have taken a minimum of two semesters of modern standard arabic (arab 1101 and 1102), or the equivalent thereof as determined by a placement test. the course provides training in the fundamentals of egyptian colloquial arabic, one of the most widely-spoken and widely-understood arabic vernaculars. students practice the expression and comprehension of communicative needs in a variety of daily-life, informal situations. in addition, they are acquainted with a range of authentic cultural materials (film, tv broadcasts, songs) in egyptian arabic. the course relies heavily on oral practice and class periods are designed to be interactive.\nmeets with arab 3811.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -395,7 +348,7 @@
     "subject": "ARAB",
     "id": "4813",
     "title": "Jordanian Arabic Grad Research",
-    "info": "this course is designed for students of arabic who have taken minimum two semesters of modern standard arabic (arab 1101 & 1102), or the equivalent thereof as determined by a placement test. the course provides training in the fundamentals of jordanian and palestinian spoken arabic, which is widely understood all over the arab world, and is also very similar to the arabic spoken in syria and lebanon. this course specifically revolves around the development of your speaking, listening and transcultural skills. it will provide you with many opportunities to speak, watch, and listen to jordanian arabic and to learn about the cultures and societies of the levant. the course aims to increase your ability to successfully navigate the variety of arabic language registers, and to substantially improve your cultural competence. \nthis course is open to non-native speakers and non-heritage learners of arabic only. ",
+    "info": "this course is designed for students of arabic who have taken minimum two semesters of modern standard arabic (arab 1101 & 1102), or the equivalent thereof as determined by a placement test. the course provides training in the fundamentals of jordanian and palestinian spoken arabic, which is widely understood all over the arab world, and is also very similar to the arabic spoken in syria and lebanon. this course specifically revolves around the development of your speaking, listening and transcultural skills. it will provide you with many opportunities to speak, watch, and listen to jordanian arabic and to learn about the cultures and societies of the levant. the course aims to increase your ability to successfully navigate the variety of arabic language registers, and to substantially improve your cultural competence. \nthis course is open to non-native speakers and non-heritage learners of arabic only.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -404,7 +357,7 @@
     "subject": "ARAB",
     "id": "4814",
     "title": "Gulf Arabic Grad Research",
-    "info": "this course is designed for students of arabic who have taken minimum two semesters of modern standard arabic (arab 1101 & 1102), or the equivalent thereof as determined by a placement test. the course provides training in the fundamentals of the spoken arabic of the arabian peninsula region. you will learn how to participate with ease and confidence in informal conversations in gulf colloquial arabic around topics in the domestic and informal sphere, as well as some general interest topics of communal/regional relevance. you will engage with a wide variety of authentic popular culture materials from the region, and will explore a variety of cultural practices prevalent in the arabian peninsula region, thereby substantially improving your intercultural competence.\nthis course is open to non-native speakers and non-heritage learners of arabic only. ",
+    "info": "this course is designed for students of arabic who have taken minimum two semesters of modern standard arabic (arab 1101 & 1102), or the equivalent thereof as determined by a placement test. the course provides training in the fundamentals of the spoken arabic of the arabian peninsula region. you will learn how to participate with ease and confidence in informal conversations in gulf colloquial arabic around topics in the domestic and informal sphere, as well as some general interest topics of communal/regional relevance. you will engage with a wide variety of authentic popular culture materials from the region, and will explore a variety of cultural practices prevalent in the arabian peninsula region, thereby substantially improving your intercultural competence.\nthis course is open to non-native speakers and non-heritage learners of arabic only.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -449,9 +402,13 @@
     "subject": "ARAB",
     "id": "5041",
     "title": "Classical/Modern Arabic Prose",
-    "info": "in this class, students read extensive, complex, original arabic texts and develop their academic discussion and writing skills in arabic. the course covers a substantial number of arabic literary texts of different genres and time periods: excerpts of the prophet's biography, classical treatises and travel writing, stories from the \\\"1001 nights,\\\" 20th-century short stories, and short novels. to contextualize the literary texts, students read secondary texts also composed in arabic and engage with arabic audiovisual materials (video clips, tv interviews, songs) in class and at home. in-class analysis and discussion of the texts is conducted exclusively in arabic. prereq: arab 5102 or the equivalent thereof as established by a placement test",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "in this class, students read extensive, complex, original arabic texts and develop their academic discussion and writing skills in arabic. the course covers a substantial number of arabic literary texts of different genres and time periods: excerpts of the prophet's biography, classical treatises and travel writing, stories from the \\\"1001 nights,\\\" 20th-century short stories, and short novels. to contextualize the literary texts, students read secondary texts also composed in arabic and engage with arabic audiovisual materials (video clips, tv interviews, songs) in class and at home. in-class analysis and discussion of the texts is conducted exclusively in arabic.",
+    "prereqInfo": "arab 5102 or the equivalent thereof as established by a placement test",
+    "prereq": {
+      "code": "ARAB 5102",
+      "subject": "ARAB",
+      "id": "5102"
+    }
   },
   {
     "code": "ARAB 5101",
@@ -579,8 +536,8 @@
     "subject": "ARAB",
     "id": "5993",
     "title": "Directed Studies",
-    "info": "students enrolling in this directed study/research course will complete the university's common directed study/research contract with the faculty mentor/evaluator. the faculty member will ensure academic standards are upheld, including: ",
-    "prereqInfo": "-the work proposed is at the appropriate level for the course, academic in nature, and the student will be involved intellectually in the project. \n-the project scope is reasonable for one semester and the number of credits specified (42 hours of work per credit).\n-the faculty mentor is qualified to serve in this role.\n-assessment of student learning and grading criteria are clear and appropriate.\n-the student will be working in a respectful, inclusive environment.\n",
+    "info": "students enrolling in this directed study/research course will complete the university's common directed study/research contract with the faculty mentor/evaluator. the faculty member will ensure academic standards are upheld, including: \n\n-the work proposed is at the appropriate level for the course, academic in nature, and the student will be involved intellectually in the project. \n-the project scope is reasonable for one semester and the number of credits specified (42 hours of work per credit).\n-the faculty mentor is qualified to serve in this role.\n-assessment of student learning and grading criteria are clear and appropriate.\n-the student will be working in a respectful, inclusive environment.",
+    "prereqInfo": null,
     "prereq": []
   },
   {

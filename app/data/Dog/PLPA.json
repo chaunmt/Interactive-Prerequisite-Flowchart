@@ -40,7 +40,7 @@
     "subject": "PLPA",
     "id": "1005",
     "title": "Plants Get Sick Too",
-    "info": "biology of plant disease and plant-disease-causing organisms. effects of plant disease on agriculture, human health/welfare, and the environment. management/control of plant disease. lecture, internet, lab. ",
+    "info": "biology of plant disease and plant-disease-causing organisms. effects of plant disease on agriculture, human health/welfare, and the environment. management/control of plant disease. lecture, internet, lab.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -58,8 +58,8 @@
     "subject": "PLPA",
     "id": "1902",
     "title": "Sqnce Plants, Pets, Pathogens",
-    "info": "sequencing dna enables powerful new insights into the biology of plants, animals, and microbes. this freshman seminar explores the discoveries, applications, and implications of dna sequencing technology. along the way, we learn about genomics, dna testing, domestication, genome engineering, archaic hominids, de-extinction, microbiomes, and sequence-based tracking of epidemics – primarily through readings in the popular press, youtube videos, in-class practicums, and debates. ",
-    "prereqInfo": "nevin young is a genomicist and professor of plant pathology. his lab studies the genomic basis of symbiosis between legume plants and nitrogen-fixing bacteria. in the classroom, he teaches courses in genomics and biotechnology, exploring their impacts on public policy and environmental debates. \n",
+    "info": "sequencing dna enables powerful new insights into the biology of plants, animals, and microbes. this freshman seminar explores the discoveries, applications, and implications of dna sequencing technology. along the way, we learn about genomics, dna testing, domestication, genome engineering, archaic hominids, de-extinction, microbiomes, and sequence-based tracking of epidemics – primarily through readings in the popular press, youtube videos, in-class practicums, and debates. \n\nnevin young is a genomicist and professor of plant pathology. his lab studies the genomic basis of symbiosis between legume plants and nitrogen-fixing bacteria. in the classroom, he teaches courses in genomics and biotechnology, exploring their impacts on public policy and environmental debates.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -98,7 +98,7 @@
     "subject": "PLPA",
     "id": "2003",
     "title": "Plague, Famine, and Beer",
-    "info": "impacts that microbes have made on course of human civilization. negative influences of major human/plant infectious disease. positive benefits attained by harnessing power of microbes. scale of history includes prehistoric to present day. projected future impacts. ",
+    "info": "impacts that microbes have made on course of human civilization. negative influences of major human/plant infectious disease. positive benefits attained by harnessing power of microbes. scale of history includes prehistoric to present day. projected future impacts.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -143,8 +143,8 @@
     "subject": "PLPA",
     "id": "3993",
     "title": "Directed Study",
-    "info": " a course in which a student designs and carries out a directed study on selected topics or problems under the direction of a faculty member; eg, literature review. directed study courses may be taken for variable credit and special permission is needed for enrollment.  students enrolling in a directed study will be required to use the university-wide on-line directed study contract process in order to enroll.",
-    "prereqInfo": "department consent, instructor consent, no more than 6 credits of directed study counts towards cfans major requirements.\n",
+    "info": "a course in which a student designs and carries out a directed study on selected topics or problems under the direction of a faculty member; eg, literature review. directed study courses may be taken for variable credit and special permission is needed for enrollment.  students enrolling in a directed study will be required to use the university-wide on-line directed study contract process in order to enroll.",
+    "prereqInfo": "department consent, instructor consent, no more than 6 credits of directed study counts towards cfans major requirements.",
     "prereq": []
   },
   {
@@ -182,9 +182,18 @@
     "info": "sustainable agricultural practices are crucial to address food security as climate change and the increasing world population continue to challenge food production. several aspects of agricultural sustainability are important to achieve increased food production, including; maintaining soil fertility, managing water, and plant genetic resources, reducing the environmental impact of agriculture, and restoring\ndegraded lands. to keep up with the growing food demand, there has been an increased use of fertilizers and pesticides in agriculture; however, these chemicals when used in large quantities harm the environment and limit the beneficial activities of plant-associated microbes. millions of microorganisms live in soil and plants, and many of them have been shown to increase plant biomass without supplementary fertilizers or\nthe use of pesticides to provide protection against plant pathogens. this course is designed for graduate and advanced undergraduate students interested in learning about beneficial soil microbes, how to identify such microbes, and how these microbes can be harnessed to improve the sustainability of our agricultural production systems.",
     "prereqInfo": "basic microbiology is required: biol 1961 or plpa1005. instructor consent for grads without either prereq course listed.",
     "prereq": {
-      "code": "BIOL 1961",
-      "subject": "BIOL",
-      "id": "1961"
+      "or": [
+        {
+          "code": "BIOL 1961",
+          "subject": "BIOL",
+          "id": "1961"
+        },
+        {
+          "code": "PLPA 1005",
+          "subject": "PLPA",
+          "id": "1005"
+        }
+      ]
     }
   },
   {
@@ -228,7 +237,7 @@
     "subject": "PLPA",
     "id": "5201",
     "title": "Biology of Plant Diseases",
-    "info": "principles and concepts of plant disease caused by selected viruses, bacteria, fungi, nematodes, and environmental factors. pathogen biology, interaction of pathogens and the environment; epidemiology and control measures appropriate to plant disease.  ",
+    "info": "principles and concepts of plant disease caused by selected viruses, bacteria, fungi, nematodes, and environmental factors. pathogen biology, interaction of pathogens and the environment; epidemiology and control measures appropriate to plant disease.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -268,7 +277,7 @@
     "subject": "PLPA",
     "id": "5300",
     "title": "Current Molec Plant Path",
-    "info": "current topics in molecular plant pathology is a highly interactive class in which students read, discuss, and critique pivotal publications in the field of molecular plant pathology. specific topics will change from year to year, but will generally include subjects such as plant-microbe communication, diversity and evolution of plant-microbe associations, genomic analysis of pathogens (symbionts) and plant host responses, and mechanisms of pathogenicity. ",
+    "info": "current topics in molecular plant pathology is a highly interactive class in which students read, discuss, and critique pivotal publications in the field of molecular plant pathology. specific topics will change from year to year, but will generally include subjects such as plant-microbe communication, diversity and evolution of plant-microbe associations, genomic analysis of pathogens (symbionts) and plant host responses, and mechanisms of pathogenicity.",
     "prereqInfo": "introductory courses in plant pathology or microbiology; genetics; molecular biology or genomics; or consent of instructor",
     "prereq": []
   },
@@ -295,7 +304,7 @@
     "subject": "PLPA",
     "id": "5303",
     "title": "Data Visualization",
-    "info": "data visualization in plant and microbial biology is a course for graduate and advanced undergraduate students interested in developing skills to visualize common datasets in plant and microbial research. students will learn fundamentals of data visualization and reproducibility that are common approaches to present plant and microbial biological data. the topics to be covered in the course are not limited to but can include fundamentals of proper data visualization techniques, principles of manuscript figure design, differences between manuscript, poster, presentation, and communication data visualizations, and how to ensure that analysis and visualizations are reproducible. the class will consist of lectures, discussions, group activities, and lots of hands-on learning and analysis. ",
+    "info": "data visualization in plant and microbial biology is a course for graduate and advanced undergraduate students interested in developing skills to visualize common datasets in plant and microbial research. students will learn fundamentals of data visualization and reproducibility that are common approaches to present plant and microbial biological data. the topics to be covered in the course are not limited to but can include fundamentals of proper data visualization techniques, principles of manuscript figure design, differences between manuscript, poster, presentation, and communication data visualizations, and how to ensure that analysis and visualizations are reproducible. the class will consist of lectures, discussions, group activities, and lots of hands-on learning and analysis.",
     "prereqInfo": "limited experience with r software is recommended, but not required.",
     "prereq": []
   },
@@ -313,7 +322,7 @@
     "subject": "PLPA",
     "id": "5480",
     "title": "Principles of Plant Pathology",
-    "info": "this course is intended for graduate students and undergraduate students in their third or fourth year that are interested in learning about principles of plant pathology, diseases that affect plants, microbiology and microbial and plant interactions.  in this course students will learn principles of plant pathology through lectures and demonstrations and exercises in laboratory.  students will gain knowledge of mycology and select diseases caused by fungi within ascomycota, basidiomycota and the fungal-like oomycota.  diseases caused by bacteria, nematodes, viruses, parasitic plants and abiotic damage are also examined. lectures will include information concerning the history and importance of plant pathology, mycology, bacteriology, nematology, virology, infection process, genetics of host and microorganism interactions, epidemiology of diseases and disease control strategies.  in the hands-on laboratory period the student will learn laboratory skills, gain experience using the microscope, work with microorganisms, learn diagnostic skills, and be able to recognize 30 plant diseases.    ",
+    "info": "this course is intended for graduate students and undergraduate students in their third or fourth year that are interested in learning about principles of plant pathology, diseases that affect plants, microbiology and microbial and plant interactions.  in this course students will learn principles of plant pathology through lectures and demonstrations and exercises in laboratory.  students will gain knowledge of mycology and select diseases caused by fungi within ascomycota, basidiomycota and the fungal-like oomycota.  diseases caused by bacteria, nematodes, viruses, parasitic plants and abiotic damage are also examined. lectures will include information concerning the history and importance of plant pathology, mycology, bacteriology, nematology, virology, infection process, genetics of host and microorganism interactions, epidemiology of diseases and disease control strategies.  in the hands-on laboratory period the student will learn laboratory skills, gain experience using the microscope, work with microorganisms, learn diagnostic skills, and be able to recognize 30 plant diseases.",
     "prereqInfo": "biol 1009 or equiv",
     "prereq": {
       "code": "BIOL 1009",
@@ -357,7 +366,7 @@
     "subject": "PLPA",
     "id": "8005",
     "title": "Supervised Teaching",
-    "info": "teaching experience in plant pathology. discussions about effective teaching to strengthen skills and develop a personal teaching philosophy. \n",
+    "info": "teaching experience in plant pathology. discussions about effective teaching to strengthen skills and develop a personal teaching philosophy.",
     "prereqInfo": "instr consent",
     "prereq": []
   },
@@ -366,7 +375,7 @@
     "subject": "PLPA",
     "id": "8090",
     "title": "Research and Internship",
-    "info": "special assignment in lab or field problems in pathological research.  opportunities to provide students with unique exposure to research in other environments, including private industries, federal agencies, other countries, or other universities. because of their value to the graduate student experience, the department of plant pathology will offer credit for internships of 3-12 weeks duration.\n",
+    "info": "special assignment in lab or field problems in pathological research.  opportunities to provide students with unique exposure to research in other environments, including private industries, federal agencies, other countries, or other universities. because of their value to the graduate student experience, the department of plant pathology will offer credit for internships of 3-12 weeks duration.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -424,7 +433,7 @@
     "subject": "PLPA",
     "id": "8105",
     "title": "Plant Bacteriology",
-    "info": "bacteria interact with plants in various ways depending upon environmental conditions, nutrient status, and host plant genotypes. the outcome of these interactions can result in the plant associated bacteria being pathogens, or mutualists. in the plant bacteriology course, we will examine several bacterial diseases in-depth to understand the disease cycles, epidemiology, mechanisms of pathogenesis, beneficial microbes, and means of disease control. the laboratory section will focus on techniques used to identify bacteria, for inoculating plants, isolating bacteria from plant material, and methods to understand the plant-bacterial interactions. the first hour of most class sessions will consist primarily of lectures by the instructor followed by group discussion of assigned readings. laboratory sessions will occur for 90 minutes and are designed to illustrate concepts presented during the lecture/discussion sessions. ",
+    "info": "bacteria interact with plants in various ways depending upon environmental conditions, nutrient status, and host plant genotypes. the outcome of these interactions can result in the plant associated bacteria being pathogens, or mutualists. in the plant bacteriology course, we will examine several bacterial diseases in-depth to understand the disease cycles, epidemiology, mechanisms of pathogenesis, beneficial microbes, and means of disease control. the laboratory section will focus on techniques used to identify bacteria, for inoculating plants, isolating bacteria from plant material, and methods to understand the plant-bacterial interactions. the first hour of most class sessions will consist primarily of lectures by the instructor followed by group discussion of assigned readings. laboratory sessions will occur for 90 minutes and are designed to illustrate concepts presented during the lecture/discussion sessions.",
     "prereqInfo": "5480",
     "prereq": {
       "code": "PLPA 5480",
@@ -437,8 +446,8 @@
     "subject": "PLPA",
     "id": "8123",
     "title": "Ethics Training",
-    "info": "ethics training to graduate students enrolled in plant/environmental graduate research programs and fulfill requirement for training in responsible conduct of research. prereq: enrolled in a plant/environmental grad research program",
-    "prereqInfo": null,
+    "info": "ethics training to graduate students enrolled in plant/environmental graduate research programs and fulfill requirement for training in responsible conduct of research.",
+    "prereqInfo": "enrolled in a plant/environmental grad research program",
     "prereq": []
   },
   {
@@ -511,7 +520,11 @@
     "title": "Doct Pre-Thesis Cr",
     "info": "tbd",
     "prereqInfo": "doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": []
+    "prereq": {
+      "code": "PLPA 60",
+      "subject": "PLPA",
+      "id": "60"
+    }
   },
   {
     "code": "PLPA 8777",
@@ -520,7 +533,11 @@
     "title": "Thesis Credit:Mast*",
     "info": "(no description)",
     "prereqInfo": "max 18 cr per semester or summer; 10 cr total required [plan a only]",
-    "prereq": []
+    "prereq": {
+      "code": "PLPA 10",
+      "subject": "PLPA",
+      "id": "10"
+    }
   },
   {
     "code": "PLPA 8888",

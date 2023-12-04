@@ -44,8 +44,8 @@
     "subject": "LAAS",
     "id": "5416",
     "title": "Precision Ag and Nutrient Mgmt",
-    "info": "precision agriculture is an integrated information- and technology-based modern agricultural management system, with the intent to manage the spatial and temporal variability associated with all important aspects of agricultural production to achieve optimum yield, quality, efficiency and profitability, protection of the environment and sustainable development. it is an important direction of future agriculture. ",
-    "prereqInfo": "the focus of this course is on the concept, principles and technologies of precision agriculture and their applications in nutrient resource management. the specific topics include concept and development of precision agriculture and nutrient management, key supporting technologies, soil spatial variability and analysis, yield data analysis, remote sensing-based precision nutrient management, management zone delineation and application, crop growth modeling, combining crop growth modeling and remote sensing for precision nutrient management, and the challenges and future directions of precision agriculture and nutrient management.  ",
+    "info": "precision agriculture is an integrated information- and technology-based modern agricultural management system, with the intent to manage the spatial and temporal variability associated with all important aspects of agricultural production to achieve optimum yield, quality, efficiency and profitability, protection of the environment and sustainable development. it is an important direction of future agriculture. \n\nthe focus of this course is on the concept, principles and technologies of precision agriculture and their applications in nutrient resource management. the specific topics include concept and development of precision agriculture and nutrient management, key supporting technologies, soil spatial variability and analysis, yield data analysis, remote sensing-based precision nutrient management, management zone delineation and application, crop growth modeling, combining crop growth modeling and remote sensing for precision nutrient management, and the challenges and future directions of precision agriculture and nutrient management.  \n\nprecision agriculture and nutrient management is data intensive and the students will also learn basic agro-informatics through hands-on experiences and computer exercises. this course will involve background knowledge and technologies from multi-disciplines, which will facilitate multi-disciplinary integration and innovation. the class will include both lectures and activities such as case studies, group discussion and presentation, problem-solving, and hands-on exercises.\n\nthis course is intended for graduate students and upper-level undergraduate students whose major is related to agriculture, environmental science and sustainability. \n\nthis course is equivalent to laas 5480 (001) in fall of 2018 only.  this course was taught one semester as a topic course and is only equivalent to that particular topic and semester.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -64,7 +64,11 @@
     "title": "Atmospheric Processes II",
     "info": "atmospheric radiation, composition/chemistry, climate change. radiative transfer in earth's atmosphere. changing chemical makeup of troposphere/stratosphere. interplay between natural processes and human activities in air pollution, stratospheric ozone depletion, and chemical forcing of climate. anthropogenic contribution to climate change/role of land-atmosphere feedbacks affecting atmosphere's energy budget and cycling of greenhouse gases. application to numerical modeling.",
     "prereqInfo": "[one yr college-level [calculus, physics, chemistry]]; laas 5425 recommended",
-    "prereq": []
+    "prereq": {
+      "code": "LAAS 5425",
+      "subject": "LAAS",
+      "id": "5425"
+    }
   },
   {
     "code": "LAAS 5480",
@@ -93,7 +97,7 @@
     "subject": "LAAS",
     "id": "5621",
     "title": "Envir. Genomics & Microbiomes",
-    "info": "this course deals with molecular and genomic approaches to answer ecological questions related to environmental sciences. the course focuses on microbial community analysis and (meta)genomics, but also covers transcriptomics and other omics approaches. it includes hands-on computer exercises to learn basic bioinformatics with python and r. ",
+    "info": "this course deals with molecular and genomic approaches to answer ecological questions related to environmental sciences. the course focuses on microbial community analysis and (meta)genomics, but also covers transcriptomics and other omics approaches. it includes hands-on computer exercises to learn basic bioinformatics with python and r.",
     "prereqInfo": "college-level courses in microbiology",
     "prereq": []
   },
@@ -158,7 +162,11 @@
     "title": "Doct Pre-Thesis Cr",
     "info": "doctoral pre-thesis credits.",
     "prereqInfo": "doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": []
+    "prereq": {
+      "code": "LAAS 60",
+      "subject": "LAAS",
+      "id": "60"
+    }
   },
   {
     "code": "LAAS 8777",
@@ -167,7 +175,11 @@
     "title": "Thesis Credit:Mast*",
     "info": "(no description)",
     "prereqInfo": "max 18 cr per semester or summer; 10 cr total required [plan a only]",
-    "prereq": []
+    "prereq": {
+      "code": "LAAS 10",
+      "subject": "LAAS",
+      "id": "10"
+    }
   },
   {
     "code": "LAAS 8888",

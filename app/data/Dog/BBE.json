@@ -49,7 +49,7 @@
     "subject": "BBE",
     "id": "1302",
     "title": "Wood as a Raw Material",
-    "info": "physical/chemical nature of wood and wood fiber. raw material requirements, manufacturing processes, product characteristics for principal forest products. world wood supply, consumption trends. ",
+    "info": "physical/chemical nature of wood and wood fiber. raw material requirements, manufacturing processes, product characteristics for principal forest products. world wood supply, consumption trends.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -85,7 +85,7 @@
     "subject": "BBE",
     "id": "2001",
     "title": "Mechanics & Structl Design",
-    "info": "fundamental treatment of statics, dynamics, and principles of structural design. techniques for individual components, including trusses, beams, and columns. using conventional lumber products, engineered wood products, and steel. lab. ",
+    "info": "fundamental treatment of statics, dynamics, and principles of structural design. techniques for individual components, including trusses, beams, and columns. using conventional lumber products, engineered wood products, and steel. lab.",
     "prereqInfo": "math 1272 or math 1372 or math 1572h and phys 1101w or phys 1301w or phys 1401v)",
     "prereq": {
       "and": [
@@ -100,11 +100,6 @@
           "id": "1372"
         },
         {
-          "code": "MATH 1572H",
-          "subject": "MATH",
-          "id": "1572H"
-        },
-        {
           "code": "PHYS 1101W",
           "subject": "PHYS",
           "id": "1101W"
@@ -113,11 +108,6 @@
           "code": "PHYS 1301W",
           "subject": "PHYS",
           "id": "1301W"
-        },
-        {
-          "code": "PHYS 1401V",
-          "subject": "PHYS",
-          "id": "1401V"
         }
       ]
     }
@@ -127,7 +117,7 @@
     "subject": "BBE",
     "id": "2003",
     "title": "Computer Applications in BBE",
-    "info": "applications of computational methods for solving practical problems in bioproducts and biosystems engineering.\napplications of computer software, for instance, matlab, r, and excel, in assisting engineering calculations and designs in bioproducts and biosystems engineering. ",
+    "info": "applications of computational methods for solving practical problems in bioproducts and biosystems engineering.\napplications of computer software, for instance, matlab, r, and excel, in assisting engineering calculations and designs in bioproducts and biosystems engineering.",
     "prereqInfo": "(math 1271 or math 1371, math 1272 or math 1372, concurrent registration in [{math 2243 or 2373} or {math 2263 or 2374}]) cse lower division or cse upper division bbe majors or cfans pre-bbe (premajor) or instructor consent.",
     "prereq": {
       "and": [
@@ -201,7 +191,7 @@
     "subject": "BBE",
     "id": "3002",
     "title": "Intro to Engineering Design",
-    "info": "identify, formulate, develop/complete open-ended designs in bioproducts & biosystems engineering at the conceptual level; engineering economics principles, safety/health considerations, and ethics for design project. written, graphical, and oral presentations. ",
+    "info": "identify, formulate, develop/complete open-ended designs in bioproducts & biosystems engineering at the conceptual level; engineering economics principles, safety/health considerations, and ethics for design project. written, graphical, and oral presentations.",
     "prereqInfo": "bbe 2003, chem 1061, math 2243 or math 2373, bbe or pre-bbe student or instr consent",
     "prereq": {
       "and": [
@@ -263,11 +253,6 @@
           "id": "2373"
         },
         {
-          "code": "MATH 2574H",
-          "subject": "MATH",
-          "id": "2574H"
-        },
-        {
           "code": "MATH 2263",
           "subject": "MATH",
           "id": "2263"
@@ -276,11 +261,6 @@
           "code": "MATH 2374",
           "subject": "MATH",
           "id": "2374"
-        },
-        {
-          "code": "MATH 2573H",
-          "subject": "MATH",
-          "id": "2573H"
         },
         {
           "code": "PHYS 1302W",
@@ -301,9 +281,9 @@
     "id": "3013",
     "title": "Molecular & Cellular Processes",
     "info": "applied engineering principles in biological processes. classification of microbes of industrial importance. parameters for cellular control. modeling of cell growth/metabolism, enzymatic catalysis, bioreactor design, product recovery operations design. case studies.",
-    "prereqInfo": " biol 1009 or biol 2003; and chem 1062/chem 1066 or equivalent or chem 1082; math 1372 or math 1282",
+    "prereqInfo": "biol 1009 or biol 2003; and chem 1062/chem 1066 or equivalent or chem 1082; math 1372 or math 1282",
     "prereq": {
-      "or": [
+      "and": [
         {
           "code": "BIOL 1009",
           "subject": "BIOL",
@@ -313,6 +293,31 @@
           "code": "BIOL 2003",
           "subject": "BIOL",
           "id": "2003"
+        },
+        {
+          "code": "CHEM 1062",
+          "subject": "CHEM",
+          "id": "1062"
+        },
+        {
+          "code": "CHEM 1066",
+          "subject": "CHEM",
+          "id": "1066"
+        },
+        {
+          "code": "CHEM 1082",
+          "subject": "CHEM",
+          "id": "1082"
+        },
+        {
+          "code": "MATH 1372",
+          "subject": "MATH",
+          "id": "1372"
+        },
+        {
+          "code": "MATH 1282",
+          "subject": "MATH",
+          "id": "1282"
         }
       ]
     }
@@ -330,6 +335,11 @@
           "code": "BIOL 1009",
           "subject": "BIOL",
           "id": "1009"
+        },
+        {
+          "code": "BBE 3012",
+          "subject": "BBE",
+          "id": "3012"
         },
         {
           "code": "BBE 3012",
@@ -474,8 +484,8 @@
     "subject": "BBE",
     "id": "3394",
     "title": "Directed Research",
-    "info": "an opportunity in which a student designs and carries\nout a directed research project under the direction of a faculty member. directed research may be taken for variable credit and special permission is needed for enrollment.students enrolling in a directed research will be required to use the\nuniversity-wide on-line directed research contract process in order to enroll.\n \nprereq: department consent, instructor consent, no more than 6 credits of directed research counts towards cfans major requirements.\n",
-    "prereqInfo": null,
+    "info": "an opportunity in which a student designs and carries\nout a directed research project under the direction of a faculty member. directed research may be taken for variable credit and special permission is needed for enrollment.students enrolling in a directed research will be required to use the\nuniversity-wide on-line directed research contract process in order to enroll.",
+    "prereqInfo": "department consent, instructor consent, no more than 6 credits of directed research counts towards cfans major requirements.",
     "prereq": []
   },
   {
@@ -577,15 +587,6 @@
     "prereq": []
   },
   {
-    "code": "BBE 4200H",
-    "subject": "BBE",
-    "id": "4200H",
-    "title": "Honors Seminar",
-    "info": "current topics presented by faculty/students. lecture/discussion.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
     "code": "BBE 4301",
     "subject": "BBE",
     "id": "4301",
@@ -635,7 +636,7 @@
     "subject": "BBE",
     "id": "4303",
     "title": "Intro Bio-Based Materials Sci",
-    "info": "principles of materials science, their application to bio-based materials. ",
+    "info": "principles of materials science, their application to bio-based materials.",
     "prereqInfo": "2001 or instr consent",
     "prereq": {
       "code": "BBE 2001",
@@ -745,6 +746,11 @@
               "code": "CEGE 3502",
               "subject": "CEGE",
               "id": "3502"
+            },
+            {
+              "code": "CEGE 3502",
+              "subject": "CEGE",
+              "id": "3502"
             }
           ]
         }
@@ -809,7 +815,7 @@
     "subject": "BBE",
     "id": "4403",
     "title": "Bio-based Prods Eng Lab I",
-    "info": "lab exercises in bio-based products engineering. ",
+    "info": "lab exercises in bio-based products engineering.",
     "prereqInfo": "bbe 4001",
     "prereq": {
       "code": "BBE 4001",
@@ -889,7 +895,7 @@
     "subject": "BBE",
     "id": "4502W",
     "title": "BBE Capstone Design",
-    "info": "students develop, select, formulate, and complete an open-ended, comprehensive engineering process/product design project. this course should be taken during the last spring semester before graduation. ",
+    "info": "students develop, select, formulate, and complete an open-ended, comprehensive engineering process/product design project. this course should be taken during the last spring semester before graduation.",
     "prereqInfo": "bbe 3002 and bbe 3012 and bbe 4013 and or concurrent with bbe 4013 and cse upper division.",
     "prereq": {
       "and": [
@@ -902,6 +908,11 @@
           "code": "BBE 3012",
           "subject": "BBE",
           "id": "3012"
+        },
+        {
+          "code": "BBE 4013",
+          "subject": "BBE",
+          "id": "4013"
         },
         {
           "code": "BBE 4013",
@@ -942,7 +953,7 @@
     "subject": "BBE",
     "id": "4535",
     "title": "Assess/Diag Impaired Waters",
-    "info": "assessing impaired waters and developing tmdl for conventional pollutants. preparing/communicating legal, social, and policy aspects. tmdl analysis of real-world impaired waters problem. field trip to impaired waters site. ",
+    "info": "assessing impaired waters and developing tmdl for conventional pollutants. preparing/communicating legal, social, and policy aspects. tmdl analysis of real-world impaired waters problem. field trip to impaired waters site.",
     "prereqInfo": "bbe 3012 and upper division in cse or cfans or cbs student or instr consent",
     "prereq": {
       "code": "BBE 3012",
@@ -1012,6 +1023,11 @@
               "code": "BBE 4013",
               "subject": "BBE",
               "id": "4013"
+            },
+            {
+              "code": "BBE 4013",
+              "subject": "BBE",
+              "id": "4013"
             }
           ]
         }
@@ -1027,6 +1043,11 @@
     "prereqInfo": "[[4013 or concurrent registration is required (or allowed) in 4013], upper div cse] or instr consent",
     "prereq": {
       "and": [
+        {
+          "code": "BBE 4013",
+          "subject": "BBE",
+          "id": "4013"
+        },
         {
           "code": "BBE 4013",
           "subject": "BBE",
@@ -1090,7 +1111,7 @@
     "id": "4753",
     "title": "Air Qual/Pollution Control Eng",
     "info": "air quality and pollution control engineering systems. air pollutant sources, emissions transformations, dispersion, fate and impacts. introduction to air quality and pollution laws, regulations and permits. control technologies including energy conservation, cyclones, electrostatic precipitators, fabric filters, absorbers, adsorbers, incinerators and biofilters.",
-    "prereqInfo": "prereqs: bbe 3012, 3043, upper division cse, graduate student or instructor consent. credit will not be granted if credit has been received for cege 5561",
+    "prereqInfo": "s: bbe 3012, 3043, upper division cse, graduate student or instructor consent. credit will not be granted if credit has been received for cege 5561",
     "prereq": {
       "and": [
         {
@@ -1110,24 +1131,6 @@
         }
       ]
     }
-  },
-  {
-    "code": "BBE 4801H",
-    "subject": "BBE",
-    "id": "4801H",
-    "title": "Honors Research",
-    "info": "first semester of independent research project supervised by faculty member.",
-    "prereqInfo": "bbe upper div honors, instr consent",
-    "prereq": []
-  },
-  {
-    "code": "BBE 4802H",
-    "subject": "BBE",
-    "id": "4802H",
-    "title": "Honors Research",
-    "info": "complete honors thesis. oral report.",
-    "prereqInfo": "bbe upper div honors, instr consent",
-    "prereq": []
   },
   {
     "code": "BBE 4900",
@@ -1170,8 +1173,8 @@
     "subject": "BBE",
     "id": "5093",
     "title": "Directed Study",
-    "info": "a course in which a student designs and carries out a directed study on selected topics or problems under the direction of a faculty member; eg, literature review. directed study courses may be taken for variable credit and special permission is needed for enrollment. students enrolling in a directed study will be required to use the university-wide on-line directed study contract process in order to enroll.\n \nprereq: department consent, instructor consent, no more than 6 credits of directed research counts towards cfans major requirements.\n",
-    "prereqInfo": null,
+    "info": "a course in which a student designs and carries out a directed study on selected topics or problems under the direction of a faculty member; eg, literature review. directed study courses may be taken for variable credit and special permission is needed for enrollment. students enrolling in a directed study will be required to use the university-wide on-line directed study contract process in order to enroll.",
+    "prereqInfo": "department consent, instructor consent, no more than 6 credits of directed research counts towards cfans major requirements.",
     "prereq": []
   },
   {
@@ -1208,7 +1211,11 @@
     "title": "Env Impacts of Food Production",
     "info": "crop production intensity, animal raising options, food processing waste alternatives, pest control.",
     "prereqInfo": "intended for non-engineering students; credit will not be granted if credit has been received for aget 5203",
-    "prereq": []
+    "prereq": {
+      "code": "AGET 5203",
+      "subject": "AGET",
+      "id": "5203"
+    }
   },
   {
     "code": "BBE 5212",
@@ -1327,6 +1334,16 @@
               "id": "3012"
             },
             {
+              "code": "BBE 3012",
+              "subject": "BBE",
+              "id": "3012"
+            },
+            {
+              "code": "CEGE 3502",
+              "subject": "CEGE",
+              "id": "3502"
+            },
+            {
               "code": "CEGE 3502",
               "subject": "CEGE",
               "id": "3502"
@@ -1413,7 +1430,7 @@
     "subject": "BBE",
     "id": "5513",
     "title": "Watershed Engr",
-    "info": "application of engineering principles to managing surface runoff from agricultural, range, and urban watersheds. design of facilities and selection of land use practices for controlling surface runoff to mitigate problems of flooding and degradation of surface-water quality. ",
+    "info": "application of engineering principles to managing surface runoff from agricultural, range, and urban watersheds. design of facilities and selection of land use practices for controlling surface runoff to mitigate problems of flooding and degradation of surface-water quality.",
     "prereqInfo": "3023, upper div cse or grad student",
     "prereq": {
       "code": "BBE 3023",
@@ -1466,6 +1483,11 @@
           "code": "BBE 4013",
           "subject": "BBE",
           "id": "4013"
+        },
+        {
+          "code": "BBE 4013",
+          "subject": "BBE",
+          "id": "4013"
         }
       ]
     }
@@ -1479,6 +1501,11 @@
     "prereqInfo": "[[4013 or concurrent registration is required (or allowed) in 4013], or instr consent",
     "prereq": {
       "or": [
+        {
+          "code": "BBE 4013",
+          "subject": "BBE",
+          "id": "4013"
+        },
         {
           "code": "BBE 4013",
           "subject": "BBE",
@@ -1510,8 +1537,8 @@
     "subject": "BBE",
     "id": "5753",
     "title": "Air Qual/Pollution Control Eng",
-    "info": "air quality and pollution control engineering systems. air pollutant sources, emissions transformations, dispersion, fate and impacts. introduction to air quality and pollution laws, regulations and permits. control technologies including energy conservation, cyclones, electrostatic precipitators, fabric filters, absorbers, adsorbers, incinerators and biofilters. ",
-    "prereqInfo": "course prerequisites\ngraduate student or instructor consent\ncredit will not be granted if credit has been received for cege 5561",
+    "info": "air quality and pollution control engineering systems. air pollutant sources, emissions transformations, dispersion, fate and impacts. introduction to air quality and pollution laws, regulations and permits. control technologies including energy conservation, cyclones, electrostatic precipitators, fabric filters, absorbers, adsorbers, incinerators and biofilters. \n\ncourse",
+    "prereqInfo": "uisites\ngraduate student or instructor consent\ncredit will not be granted if credit has been received for cege 5561",
     "prereq": {
       "code": "CEGE 5561",
       "subject": "CEGE",
@@ -1536,6 +1563,11 @@
     "prereqInfo": "8001 or concurrent registration is required (or allowed) in 8001 or equiv",
     "prereq": {
       "or": [
+        {
+          "code": "BBE 8001",
+          "subject": "BBE",
+          "id": "8001"
+        },
         {
           "code": "BBE 8001",
           "subject": "BBE",
@@ -1759,7 +1791,11 @@
     "title": "Doct Pre-Thesis Cr*",
     "info": "tbd",
     "prereqInfo": "doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": []
+    "prereq": {
+      "code": "BBE 60",
+      "subject": "BBE",
+      "id": "60"
+    }
   },
   {
     "code": "BBE 8703",
@@ -1795,7 +1831,11 @@
     "title": "Thesis Credit:Mast*",
     "info": "(no description)",
     "prereqInfo": "max 18 cr per semester or summer; 10 cr total required [plan a only]",
-    "prereq": []
+    "prereq": {
+      "code": "BBE 10",
+      "subject": "BBE",
+      "id": "10"
+    }
   },
   {
     "code": "BBE 8888",

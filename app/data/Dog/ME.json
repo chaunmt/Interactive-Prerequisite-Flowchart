@@ -35,11 +35,6 @@
           "code": "ME 1372",
           "subject": "ME",
           "id": "1372"
-        },
-        {
-          "code": "ME 1572H",
-          "subject": "ME",
-          "id": "1572H"
         }
       ]
     }
@@ -113,6 +108,11 @@
           "id": "3221"
         },
         {
+          "code": "ME 3221",
+          "subject": "ME",
+          "id": "3221"
+        },
+        {
           "code": "CSCI 1113",
           "subject": "CSCI",
           "id": "1113"
@@ -125,9 +125,31 @@
     "subject": "ME",
     "id": "3281",
     "title": "Sys Dyn & Control",
-    "info": "dynamics of mechanical, electrical, thermal, fluid, and hybrid systems. system response using laplace transform and numerical integration. fourier transform and convolution. transfer functions and frequency response. introduction to classical control.\nprereq: aem 2021, [math 2243 or math 2373], me upper div",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "dynamics of mechanical, electrical, thermal, fluid, and hybrid systems. system response using laplace transform and numerical integration. fourier transform and convolution. transfer functions and frequency response. introduction to classical control.",
+    "prereqInfo": "aem 2021, [math 2243 or math 2373], me upper div",
+    "prereq": {
+      "and": [
+        {
+          "code": "AEM 2021",
+          "subject": "AEM",
+          "id": "2021"
+        },
+        {
+          "or": [
+            {
+              "code": "MATH 2243",
+              "subject": "MATH",
+              "id": "2243"
+            },
+            {
+              "code": "MATH 2373",
+              "subject": "MATH",
+              "id": "2373"
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "code": "ME 3321",
@@ -309,8 +331,8 @@
     "subject": "ME",
     "id": "4053",
     "title": "Mech. Engineering Modeling",
-    "info": "this course is aimed at teaching undergraduate students mechanical engineering modeling, technical analysis and technical design capabilities from a non-compartmentalized perspective. the course focuses on, (i) modeling complex, multi-disciplinary mechanical engineering problems by identifying critical elements of a problem, (ii) design and development of analysis tools using analytical and numerical techniques and (iii) developing optimized solutions/designs to problems/challenges. ",
-    "prereqInfo": "me 3221, me 3222, me 3281, me 3331, me 3332, me 3333 ",
+    "info": "this course is aimed at teaching undergraduate students mechanical engineering modeling, technical analysis and technical design capabilities from a non-compartmentalized perspective. the course focuses on, (i) modeling complex, multi-disciplinary mechanical engineering problems by identifying critical elements of a problem, (ii) design and development of analysis tools using analytical and numerical techniques and (iii) developing optimized solutions/designs to problems/challenges.",
+    "prereqInfo": "me 3221, me 3222, me 3281, me 3331, me 3332, me 3333",
     "prereq": {
       "and": [
         {
@@ -418,7 +440,7 @@
     "subject": "ME",
     "id": "4055W",
     "title": "Extended Design",
-    "info": "continuation of 4054 for students wishing to undertake a more substantial design project for an entire year. permission granted when student takes 4054 and commits to undertake a two-semester design project. meets with 4054.   ",
+    "info": "continuation of 4054 for students wishing to undertake a more substantial design project for an entire year. permission granted when student takes 4054 and commits to undertake a two-semester design project. meets with 4054.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -429,24 +451,6 @@
     "title": "Topics Mechanical Engineering",
     "info": "topics vary each semester.",
     "prereqInfo": "me upper div",
-    "prereq": []
-  },
-  {
-    "code": "ME 4081H",
-    "subject": "ME",
-    "id": "4081H",
-    "title": "Honors Thesis I",
-    "info": "unstructured research course enabling honors students to do independent research supervised by faculty.  selection of suitable topics according to individual interests and faculty approval.  thesis and oral defense.",
-    "prereqInfo": "me upper div honors student, instr consent",
-    "prereq": []
-  },
-  {
-    "code": "ME 4082H",
-    "subject": "ME",
-    "id": "4082H",
-    "title": "Honors Thesis II",
-    "info": "unstructured research course enabling honors students to do independent research supervised by faculty.  selection of suitable topics according to individual interests and faculty approval.  thesis and oral defense.",
-    "prereqInfo": "me upper div honors student, instr consent",
     "prereq": []
   },
   {
@@ -463,7 +467,7 @@
     "subject": "ME",
     "id": "4131W",
     "title": "Indoor Environ & Energy Lab",
-    "info": "experiments in psychrometrics, refrigeration, air conditioning, solar energy, indoor air quality, and other topics related to refrigeration, building heating/cooling, and indoor air quality. ",
+    "info": "experiments in psychrometrics, refrigeration, air conditioning, solar energy, indoor air quality, and other topics related to refrigeration, building heating/cooling, and indoor air quality.",
     "prereqInfo": "me 3333, me 4031w, admitted to upper division/me major",
     "prereq": {
       "and": [
@@ -605,7 +609,7 @@
     "subject": "ME",
     "id": "4583",
     "title": "Design for Life: Water in Tanz",
-    "info": " teams will evaluate community needs and infrastructure to design potable water-handling systems in rural tanzania, typically off the power grid. fluid mechanics: complex distribution networks, system losses, pump selection, borehole development; field measurements. designs must address tanzanian design guidelines.\n",
+    "info": "teams will evaluate community needs and infrastructure to design potable water-handling systems in rural tanzania, typically off the power grid. fluid mechanics: complex distribution networks, system losses, pump selection, borehole development; field measurements. designs must address tanzanian design guidelines.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -623,7 +627,7 @@
     "subject": "ME",
     "id": "5101",
     "title": "Vapor Power Cycles",
-    "info": "vapor power cycle analysis, regeneration, reheat, compound cycle modifications, combined gas turbine--vapor cycle systems, components, fuels and combustion, heat sources -- solar, nuclear, geothermal, low t cycles, bottoming cycles, environmental concerns. ees software used extensively for cycle analysis.\n",
+    "info": "vapor power cycle analysis, regeneration, reheat, compound cycle modifications, combined gas turbine--vapor cycle systems, components, fuels and combustion, heat sources -- solar, nuclear, geothermal, low t cycles, bottoming cycles, environmental concerns. ees software used extensively for cycle analysis.",
     "prereqInfo": "cse upper div or grad student",
     "prereq": []
   },
@@ -681,7 +685,7 @@
     "subject": "ME",
     "id": "5115",
     "title": "Air Pollution",
-    "info": "air pollution sources, atmospheric transport, transformations, fate, and emissions control.  air pollution meteorology, dispersion, chemistry of secondary pollutant formation, standards and regulation.  control devices and techniques for gaseous and particulate emissions.  cyclones, electrostatic precipitators, wet and dry scrubbers, combustion modification.\n",
+    "info": "air pollution sources, atmospheric transport, transformations, fate, and emissions control.  air pollution meteorology, dispersion, chemistry of secondary pollutant formation, standards and regulation.  control devices and techniques for gaseous and particulate emissions.  cyclones, electrostatic precipitators, wet and dry scrubbers, combustion modification.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -794,32 +798,9 @@
     "subject": "ME",
     "id": "5229",
     "title": "FEM for Transient/Dynamic Appl",
-    "info": "computational mechanics involving transient/ dynamic situations for solids and structures, heat transfer, fluid flow, nano-mechanics and the like. development and analysis of numerical methods and computational algorithms. stability and accuracy of algorithms, convergence issues; linear/nonlinear situations. implicit, explicit, mixed, and variable time discretization approaches; modal-based methods for engineering problems.",
-    "prereqInfo": "cse upper div or grad, csci 1113, me 3221, me 3333, me 5228 or equiv",
-    "prereq": {
-      "and": [
-        {
-          "code": "CSCI 1113",
-          "subject": "CSCI",
-          "id": "1113"
-        },
-        {
-          "code": "ME 3221",
-          "subject": "ME",
-          "id": "3221"
-        },
-        {
-          "code": "ME 3333",
-          "subject": "ME",
-          "id": "3333"
-        },
-        {
-          "code": "ME 5228",
-          "subject": "ME",
-          "id": "5228"
-        }
-      ]
-    }
+    "info": "computational mechanics involving transient/ dynamic situations for solids and structures, heat transfer, fluid flow, nano-mechanics and the like. development and analysis of numerical methods and computational algorithms. stability and accuracy of algorithms, convergence issues; linear/nonlinear situations. implicit, explicit, mixed, and variable time discretization approaches; modal-based methods for engineering problems.\n\ncse upper div or grad, csci 1113, me 3221, me 3333, me 5228 or equiv",
+    "prereqInfo": null,
+    "prereq": []
   },
   {
     "code": "ME 5231",
@@ -870,7 +851,7 @@
     "subject": "ME",
     "id": "5247",
     "title": "Applied Stress Analysis",
-    "info": "intermediate-level solid mechanics with application to common machine elements such as unsymmetrical beams, non-circular shafts and plates. stress functions. introduction to energy methods for stress analysis. experimental methods for measuring strains and determining related stresses, with lab. ",
+    "info": "intermediate-level solid mechanics with application to common machine elements such as unsymmetrical beams, non-circular shafts and plates. stress functions. introduction to energy methods for stress analysis. experimental methods for measuring strains and determining related stresses, with lab.",
     "prereqInfo": "aem 3031, mats 2001, me 3221",
     "prereq": {
       "and": [
@@ -958,7 +939,7 @@
     "subject": "ME",
     "id": "5332",
     "title": "Intermediate Fluid Mechanics",
-    "info": "bridge between introductory fluid mechanics and advanced graduate level course. principles of incompressible and compressible flows, boundary layer theory, and analysis using differential formulations of the governing conservation equations. analysis of phenomena relevant to the practice of engineering is emphasized through problem solving. ",
+    "info": "bridge between introductory fluid mechanics and advanced graduate level course. principles of incompressible and compressible flows, boundary layer theory, and analysis using differential formulations of the governing conservation equations. analysis of phenomena relevant to the practice of engineering is emphasized through problem solving.",
     "prereqInfo": "me 3332, admitted to upper division/me major or graduate student",
     "prereq": {
       "code": "ME 3332",
@@ -984,7 +965,7 @@
     "subject": "ME",
     "id": "5344",
     "title": "Thermo of Fluid Flow with App",
-    "info": "conservation of mass, momentum, energy. relevant thermodynamic properties. nozzles, diffusers, thrust producers, shocks. fluid-wall frictional interactions. wall heat transfer, internal heat release. temperature recovery. mass addition. ",
+    "info": "conservation of mass, momentum, energy. relevant thermodynamic properties. nozzles, diffusers, thrust producers, shocks. fluid-wall frictional interactions. wall heat transfer, internal heat release. temperature recovery. mass addition.",
     "prereqInfo": "me 3331, me 3332, completed, or concurrent registration in me 3333; admitted to upper division/me major or grad student",
     "prereq": {
       "and": [
@@ -1033,7 +1014,7 @@
     "subject": "ME",
     "id": "5361",
     "title": "Plasma-Aided Manuf",
-    "info": "properties of plasmas as a processing medium, process control and system design considerations using specific examples of plasma spray coating, welding, and microelectronics processing.  ",
+    "info": "properties of plasmas as a processing medium, process control and system design considerations using specific examples of plasma spray coating, welding, and microelectronics processing.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -1162,7 +1143,7 @@
     "subject": "ME",
     "id": "8001",
     "title": "Research Ethics",
-    "info": "intellectual property, data management, social responsibility, authorship, and plagiarism, conflict of interest, and reporting misconduct. case studies. recent newspaper articles. ",
+    "info": "intellectual property, data management, social responsibility, authorship, and plagiarism, conflict of interest, and reporting misconduct. case studies. recent newspaper articles.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -1171,8 +1152,8 @@
     "subject": "ME",
     "id": "8111",
     "title": "Multiphase Systems Analysis",
-    "info": "this course provides an introduction to the physical behavior of multiphase systems, including aerosols, granular systems, colloids, sprays, foams, dusty plasmas, and emulsions.  the course emphasis is on developing fundamental relationships that describe how the behavior of one phase is influenced by its interaction with the other phase.  ",
-    "prereqInfo": "the course will be divided into four sections. in the first, transport of dilute systems of rigid particles in a gaseous or liquid medium is examined at the single particle level.  students will be taught how to construct and numerically solve lagrangian particle tracking models with one-way coupling and will be provided with codes to compute the free molecular drag force on particles of arbitrary shape (imos).  in the second section, the course will discuss dense dispersed media, including effective medium approximations to describe thermal and electrical transport in complex systems, an introduction to foams and unit cells, flow in porous media, and granular systems (four-way coupled systems).  in the third section, the course will return to dilute systems, but wherein the dispersed phase is deformable (droplets).  topics will include droplet behavior on a surface (wetting and line tension), an introduction to emulsions, droplet-droplet coalescence, and atomization processes.  the fourth and final section of the course, phase change and multiphase system formation will be introduced, including the kinetics of nucleation of condensed phase material in a gas, as well as solid (ice) formation in a liquid.  the overarching goal of the course is to prepare phd and ms students to be able to address research level questions experimentally, numerically, and theoretically in their studies beyond the course.\n",
+    "info": "this course provides an introduction to the physical behavior of multiphase systems, including aerosols, granular systems, colloids, sprays, foams, dusty plasmas, and emulsions.  the course emphasis is on developing fundamental relationships that describe how the behavior of one phase is influenced by its interaction with the other phase.  \n\nthe course will be divided into four sections. in the first, transport of dilute systems of rigid particles in a gaseous or liquid medium is examined at the single particle level.  students will be taught how to construct and numerically solve lagrangian particle tracking models with one-way coupling and will be provided with codes to compute the free molecular drag force on particles of arbitrary shape (imos).  in the second section, the course will discuss dense dispersed media, including effective medium approximations to describe thermal and electrical transport in complex systems, an introduction to foams and unit cells, flow in porous media, and granular systems (four-way coupled systems).  in the third section, the course will return to dilute systems, but wherein the dispersed phase is deformable (droplets).  topics will include droplet behavior on a surface (wetting and line tension), an introduction to emulsions, droplet-droplet coalescence, and atomization processes.  the fourth and final section of the course, phase change and multiphase system formation will be introduced, including the kinetics of nucleation of condensed phase material in a gas, as well as solid (ice) formation in a liquid.  the overarching goal of the course is to prepare phd and ms students to be able to address research level questions experimentally, numerically, and theoretically in their studies beyond the course.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -1387,7 +1368,7 @@
     "id": "8283",
     "title": "Design of Mechatronic Products",
     "info": "the purpose of this course is for advanced mechanical engineering students to gain additional mechatronic skills by learning how to use microcontrollers to implement control systems in the context of a practical product or device. embedded microcontrollers are ubiquitous in modern products from washing machines to cell phones to automobiles to space rockets. knowing how to design and program microcontrollers, how to interface microcontrollers to sensors and actuators, and how to implement control algorithms on a microcontroller is an important skill for the modern control system design engineer.  the course is hands-on and follows a learn by doing approach. students spend 1/3 the course in a microcontroller boot camp and 2/3 on a substantial microcontroller project. the lectures cover didactic material related to microcontrollers, sensors, actuators, electronics circuit design and fabrication and control algorithm implementation.",
-    "prereqInfo": "an introductory system dynamics and controls course or permission of instructor.  ",
+    "prereqInfo": "an introductory system dynamics and controls course or permission of instructor.",
     "prereq": []
   },
   {
@@ -1426,8 +1407,8 @@
     "subject": "ME",
     "id": "8332",
     "title": "Advanced Fluid Dynamics",
-    "info": "advanced fluid dynamics course addressing the theory and applications of fluid flows pertinent to mechanical engineering. the course focuses on the physical phenomena, mathematical formulations, and advanced problem-solving techniques for flows ranging from microscale flows to turbulence, with examples from mechanical engineering practice. prerequisite an intermediate fluid mechanics course or permission of instructor.",
-    "prereqInfo": null,
+    "info": "advanced fluid dynamics course addressing the theory and applications of fluid flows pertinent to mechanical engineering. the course focuses on the physical phenomena, mathematical formulations, and advanced problem-solving techniques for flows ranging from microscale flows to turbulence, with examples from mechanical engineering practice.",
+    "prereqInfo": "uisite an intermediate fluid mechanics course or permission of instructor.",
     "prereq": []
   },
   {
@@ -1547,10 +1528,15 @@
     "subject": "ME",
     "id": "8363",
     "title": "Reacting Flow",
-    "info": "this is an advanced graduate level course that covers the basics of reactive flow systems pertinent to mechanical engineering. after the introduction/review of the fundamentals of collisions, chemical kinetics, reactions and relevant aspects of basic physical chemistry, the course focuses on reaction kinetics and transport phenomena in reactive flow systems. it will introduce modeling approaches of zero and one dimensional reaction kinetics systems and diagnostics to measure the chemical and transport properties of reactive flow systems. the fundamentals and approaches introduced in this course will be applied to examples of reactive flow systems from mechanical engineering practice including both gas phase and multiphase systems (solid-gas and liquid-gas). ",
+    "info": "this is an advanced graduate level course that covers the basics of reactive flow systems pertinent to mechanical engineering. after the introduction/review of the fundamentals of collisions, chemical kinetics, reactions and relevant aspects of basic physical chemistry, the course focuses on reaction kinetics and transport phenomena in reactive flow systems. it will introduce modeling approaches of zero and one dimensional reaction kinetics systems and diagnostics to measure the chemical and transport properties of reactive flow systems. the fundamentals and approaches introduced in this course will be applied to examples of reactive flow systems from mechanical engineering practice including both gas phase and multiphase systems (solid-gas and liquid-gas).",
     "prereqInfo": "me 8361 is a co-prerequisite and can be taken in parallel with me 8361",
     "prereq": {
       "and": [
+        {
+          "code": "ME 8361",
+          "subject": "ME",
+          "id": "8361"
+        },
         {
           "code": "ME 8361",
           "subject": "ME",
@@ -1593,7 +1579,20 @@
     "title": "Adv Combustion",
     "info": "fundamental understanding of linkage between thermodynamics, chemical kinetics, and transport phenomena in combustion systems. heat release rate, flame stability, and emissions. how those issues arise in furnaces, internal combustion engines, and rockets.",
     "prereqInfo": "undergrad courses in thermodynamics, fluid mechanics, heat transfer, it grad student; 5446 or 8641 highly recommended",
-    "prereq": []
+    "prereq": {
+      "and": [
+        {
+          "code": "ME 5446",
+          "subject": "ME",
+          "id": "5446"
+        },
+        {
+          "code": "ME 8641",
+          "subject": "ME",
+          "id": "8641"
+        }
+      ]
+    }
   },
   {
     "code": "ME 8462",
@@ -1651,7 +1650,11 @@
     "title": "Doct Pre-Thesis Cr",
     "info": "tbd",
     "prereqInfo": "doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": []
+    "prereq": {
+      "code": "ME 60",
+      "subject": "ME",
+      "id": "60"
+    }
   },
   {
     "code": "ME 8772",
@@ -1700,7 +1703,11 @@
     "title": "Thesis Credit:Mast*",
     "info": "(no description)",
     "prereqInfo": "max 18 cr per semester or summer; 10 cr total required [plan a only]",
-    "prereq": []
+    "prereq": {
+      "code": "ME 10",
+      "subject": "ME",
+      "id": "10"
+    }
   },
   {
     "code": "ME 8794",

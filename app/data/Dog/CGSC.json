@@ -78,16 +78,33 @@
     "title": "Doct Pre-Thesis Cr*",
     "info": "tbd",
     "prereqInfo": "doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": []
+    "prereq": {
+      "code": "CGSC 60",
+      "subject": "CGSC",
+      "id": "60"
+    }
   },
   {
     "code": "CGSC 8777",
     "subject": "CGSC",
     "id": "8777",
     "title": "Thesis Credit: Masters",
-    "info": "(no description)\nprereq: max 18 cr per semester or summer; 10 cr total required [plan a only] max crs 50; 10 completions allowed",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "(no description)",
+    "prereqInfo": "max 18 cr per semester or summer; 10 cr total required [plan a only] max crs 50; 10 completions allowed",
+    "prereq": {
+      "or": [
+        {
+          "code": "CGSC 10",
+          "subject": "CGSC",
+          "id": "10"
+        },
+        {
+          "code": "CGSC 10",
+          "subject": "CGSC",
+          "id": "10"
+        }
+      ]
+    }
   },
   {
     "code": "CGSC 8888",

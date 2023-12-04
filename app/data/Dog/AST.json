@@ -27,15 +27,6 @@
     "prereq": []
   },
   {
-    "code": "AST 1011H",
-    "subject": "AST",
-    "id": "1011H",
-    "title": "Explore Universe, H",
-    "info": "human place in universe. earth, other planets, sun, stars, galaxies. background/fragility of life on earth. scale, origin, history of universe, our relationship to it. honors version of 1001.",
-    "prereqInfo": "high school trigonometry, [high school physics or chemistry]",
-    "prereq": []
-  },
-  {
     "code": "AST 1901",
     "subject": "AST",
     "id": "1901",
@@ -223,22 +214,13 @@
     "subject": "AST",
     "id": "4041",
     "title": "Computational Methods",
-    "info": "introduction to using computer programs to solve problems in physical sciences. selected numerical methods, mapping problems onto computational algorithms. arranged lab. ",
+    "info": "introduction to using computer programs to solve problems in physical sciences. selected numerical methods, mapping problems onto computational algorithms. arranged lab.",
     "prereqInfo": "phys 3041",
     "prereq": {
       "code": "PHYS 3041",
       "subject": "PHYS",
       "id": "3041"
     }
-  },
-  {
-    "code": "AST 4299H",
-    "subject": "AST",
-    "id": "4299H",
-    "title": "Honors Seminar",
-    "info": "based on department's research seminar.",
-    "prereqInfo": "upper div honors student in it or cla, inst consent",
-    "prereq": []
   },
   {
     "code": "AST 4993",
@@ -343,7 +325,7 @@
     "id": "5731",
     "title": "Bayesian Astrostatistics",
     "info": "this course will introduce bayesian methods for interpreting and analyzing large data sets from astrophysical experiments. these methods will be demonstrated using astrophysics real-world data sets and a focus on modern statistical software, such as r and python.",
-    "prereqInfo": "math 2263 and math 2243, or equivalent; or instructor consent\nsuggested: statistical course at the level of ast 4031, ast 5031, stat 3021, or stat 5021\n",
+    "prereqInfo": "math 2263 and math 2243, or equivalent; or instructor consent\nsuggested: statistical course at the level of ast 4031, ast 5031, stat 3021, or stat 5021",
     "prereq": {
       "and": [
         {
@@ -355,6 +337,26 @@
           "code": "MATH 2243",
           "subject": "MATH",
           "id": "2243"
+        },
+        {
+          "code": "AST 4031",
+          "subject": "AST",
+          "id": "4031"
+        },
+        {
+          "code": "AST 5031",
+          "subject": "AST",
+          "id": "5031"
+        },
+        {
+          "code": "STAT 3021",
+          "subject": "STAT",
+          "id": "3021"
+        },
+        {
+          "code": "STAT 5021",
+          "subject": "STAT",
+          "id": "5021"
         }
       ]
     }
@@ -445,7 +447,7 @@
     "subject": "AST",
     "id": "8110",
     "title": "Topics in Astrophysics",
-    "info": "sample topics include understanding supernovae, structure formation, and gravitational lensing.  ",
+    "info": "sample topics include understanding supernovae, structure formation, and gravitational lensing.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -490,7 +492,7 @@
     "subject": "AST",
     "id": "8581",
     "title": "Big Data in Astrophysics",
-    "info": "this course will introduce key concepts and techniques used to work with large datasets, in the context of the field of astrophysics. ",
+    "info": "this course will introduce key concepts and techniques used to work with large datasets, in the context of the field of astrophysics.",
     "prereqInfo": "math 2263 and math 2243, or equivalent; or instructor consent.\nsuggested: familiarity with astrophysics topics, such as star formation and evolution, galaxies and clusters, composition and expansion of the universe, gravitational wave sources and waveforms, and high-energy astrophysics.",
     "prereq": {
       "and": [
@@ -514,7 +516,11 @@
     "title": "Doct Pre-Thesis Cr*",
     "info": "tbd",
     "prereqInfo": "doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": []
+    "prereq": {
+      "code": "AST 60",
+      "subject": "AST",
+      "id": "60"
+    }
   },
   {
     "code": "AST 8777",
@@ -523,7 +529,11 @@
     "title": "Thesis Credit:Mast*",
     "info": "(no description)",
     "prereqInfo": "max 18 cr per semester or summer; 10 cr total required [plan a only]",
-    "prereq": []
+    "prereq": {
+      "code": "AST 10",
+      "subject": "AST",
+      "id": "10"
+    }
   },
   {
     "code": "AST 8888",

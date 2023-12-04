@@ -9,15 +9,6 @@
     "prereq": []
   },
   {
-    "code": "PSY 1001H",
-    "subject": "PSY",
-    "id": "1001H",
-    "title": "Honors Intro Psych",
-    "info": "scientific study of human behavior. problems, methods, findings of modern psychology.",
-    "prereqInfo": "honors.",
-    "prereq": []
-  },
-  {
     "code": "PSY 1010",
     "subject": "PSY",
     "id": "1010",
@@ -40,15 +31,6 @@
     "subject": "PSY",
     "id": "1905",
     "title": "Freshman Seminar",
-    "info": "topics specified in class schedule.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "PSY 1905H",
-    "subject": "PSY",
-    "id": "1905H",
-    "title": "Honors Freshman Seminar",
     "info": "topics specified in class schedule.",
     "prereqInfo": null,
     "prereq": []
@@ -184,7 +166,7 @@
     "subject": "PSY",
     "id": "1924",
     "title": "Grappling with Behavior Change",
-    "info": "many of the challenges facing society today in the areas of health and the environment are tied to patterns of human behavior.  given this state of affairs, numerous policies and initiatives have emerged, designed to shape our behavior -- to help us eat better, be more active, drink responsibly, refrain from smoking, use fewer resources, recycle more, to name but a few.  and even a cursory review of these efforts reveals they can take many forms including the provision of incentives; the implementation of bans or mandates; supports for self-monitoring; the restructuring of behaviors to make them more accessible; the use of warning labels; or the dissemination of messages to heighten awareness, model behavior, or shape beliefs.  what determines which strategies are used for which problems?  are these strategies effective?  if so, why?  if not, why not?  we will spend the semester grappling with challenge of trying to shape human behavior.  together, we will examine policies and initiatives that are currently in place, think through how they are supposed to work, and try to determine whether (or when) they are effective.  together we will form recommendations regarding best practices; recognizing where current efforts are succeeding and offer advice for where we can do better. ",
+    "info": "many of the challenges facing society today in the areas of health and the environment are tied to patterns of human behavior.  given this state of affairs, numerous policies and initiatives have emerged, designed to shape our behavior -- to help us eat better, be more active, drink responsibly, refrain from smoking, use fewer resources, recycle more, to name but a few.  and even a cursory review of these efforts reveals they can take many forms including the provision of incentives; the implementation of bans or mandates; supports for self-monitoring; the restructuring of behaviors to make them more accessible; the use of warning labels; or the dissemination of messages to heighten awareness, model behavior, or shape beliefs.  what determines which strategies are used for which problems?  are these strategies effective?  if so, why?  if not, why not?  we will spend the semester grappling with challenge of trying to shape human behavior.  together, we will examine policies and initiatives that are currently in place, think through how they are supposed to work, and try to determine whether (or when) they are effective.  together we will form recommendations regarding best practices; recognizing where current efforts are succeeding and offer advice for where we can do better.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -234,37 +216,6 @@
     "prereq": []
   },
   {
-    "code": "PSY 3001V",
-    "subject": "PSY",
-    "id": "3001V",
-    "title": "Honors Intro Research  Methods",
-    "info": "concepts/procedures used to conduct/evaluate research, especially in social sciences. benefits/limitations of traditional research methods. evaluating scientific claims.",
-    "prereqInfo": "[1001, [2081/3801 or equiv]]or dept consent, psy major, honors student",
-    "prereq": {
-      "and": [
-        {
-          "code": "PSY 1001",
-          "subject": "PSY",
-          "id": "1001"
-        },
-        {
-          "or": [
-            {
-              "code": "PSY 2081",
-              "subject": "PSY",
-              "id": "2081"
-            },
-            {
-              "code": "PSY 3801",
-              "subject": "PSY",
-              "id": "3801"
-            }
-          ]
-        }
-      ]
-    }
-  },
-  {
     "code": "PSY 3001W",
     "subject": "PSY",
     "id": "3001W",
@@ -294,15 +245,6 @@
         }
       ]
     }
-  },
-  {
-    "code": "PSY 3005V",
-    "subject": "PSY",
-    "id": "3005V",
-    "title": "Honors Rsch Methds & Stats",
-    "info": "concepts/procedures used to conduct/evaluate research, especially in social sciences. benefits/limitations of traditional research methods. using statistics to describe/interpret research outcomes. evaluating scientific claims.",
-    "prereqInfo": null,
-    "prereq": []
   },
   {
     "code": "PSY 3005W",
@@ -582,7 +524,7 @@
           "id": "1001"
         },
         {
-          "or": [
+          "and": [
             {
               "code": "PSY 2801",
               "subject": "PSY",
@@ -594,11 +536,6 @@
               "id": "3801"
             }
           ]
-        },
-        {
-          "code": "SCO 2550H",
-          "subject": "SCO",
-          "id": "2550H"
         }
       ]
     }
@@ -617,24 +554,11 @@
     }
   },
   {
-    "code": "PSY 3801H",
-    "subject": "PSY",
-    "id": "3801H",
-    "title": "Hrs Psy Meas & Data Analysis",
-    "info": "descriptive/basic inferential statistics in psychology. measures of central tendency, variability, t tests, one-way anova, correlation, regression, confidence intervals, effect sizes. psychological measurement. graphical data presentation. statistical software.",
-    "prereqInfo": "[1001 or equiv], high school algebra, honors; intended for students who plan to major in psychology",
-    "prereq": {
-      "code": "PSY 1001",
-      "subject": "PSY",
-      "id": "1001"
-    }
-  },
-  {
     "code": "PSY 3896",
     "subject": "PSY",
     "id": "3896",
     "title": "Internship in Psychology",
-    "info": "students first need to secure an internship related to the field of psychology. support from psychology undergraduate advising and cla career services is available for this process. corresponding online coursework includes written goals, journal entries, career development activities, and a culminating paper/project. credits are variable based on hours at your site: - 1 credit - 45 hour minimum (average 3-4 hours per week) - 2 credit - 90 hour minimum (average 5-7 hours per week) - 3 credit - 135 hour minimum (average 8-9 hours per week) - 4 credit - 180 hour minimum (average 10-12 hours per week). the classwork (journal entries, final paper, etc.) required is increased relative to your credit registration. students work with their site supervisors to submit a completed internship contract via handshake in order to register. https://handshake.umn.edu/ -- \\\"request an experience\\\". contact the psyadvis@umn.edu with any questions. a student may only earn credit for a given internship through one course at a time. ",
+    "info": "students first need to secure an internship related to the field of psychology. support from psychology undergraduate advising and cla career services is available for this process. corresponding online coursework includes written goals, journal entries, career development activities, and a culminating paper/project. credits are variable based on hours at your site: - 1 credit - 45 hour minimum (average 3-4 hours per week) - 2 credit - 90 hour minimum (average 5-7 hours per week) - 3 credit - 135 hour minimum (average 8-9 hours per week) - 4 credit - 180 hour minimum (average 10-12 hours per week). the classwork (journal entries, final paper, etc.) required is increased relative to your credit registration. students work with their site supervisors to submit a completed internship contract via handshake in order to register. https://handshake.umn.edu/ -- \\\"request an experience\\\". contact the psyadvis@umn.edu with any questions. a student may only earn credit for a given internship through one course at a time.",
     "prereqInfo": "psychology ba or bs major, department permission",
     "prereq": []
   },
@@ -643,7 +567,7 @@
     "subject": "PSY",
     "id": "3901W",
     "title": "Capstone: Research Laboratory",
-    "info": "\tthe capstone courses in psychology synthesize knowledge gained throughout major and create pathways to post-graduation life. students will reflect on the discipline of psychology and on their experiences in their degree program; class and small group discussions will support this reflection. students will be provided with access to professionals who are alumni of the psychology program and will have the opportunity to hear these career professionals speak about their varied career paths and to network with them for advice and connections to other professionals. students will also receive important information regarding graduate school and career preparation from the psychology advising office and cla career services.\n\nin this course, you will draw from your experience in a faculty research lab (psy 4/5993) to help develop the topic of your major project paper. students complete a research paper based on activities in the lab, or a literature review if the lab did not complete empirical work. \n\nbefore class begins students must secure a laboratory research experience in a faculty member's lab for psy 4/5993 credits or enroll in the psy 5993 class, either the semester prior to or concurrently with your psy 3901w enrollment. because research lab positions are not guaranteed, we recommend ba students only select this option if they already have a psy 4/5993 position secured. ",
+    "info": "the capstone courses in psychology synthesize knowledge gained throughout major and create pathways to post-graduation life. students will reflect on the discipline of psychology and on their experiences in their degree program; class and small group discussions will support this reflection. students will be provided with access to professionals who are alumni of the psychology program and will have the opportunity to hear these career professionals speak about their varied career paths and to network with them for advice and connections to other professionals. students will also receive important information regarding graduate school and career preparation from the psychology advising office and cla career services.\n\nin this course, you will draw from your experience in a faculty research lab (psy 4/5993) to help develop the topic of your major project paper. students complete a research paper based on activities in the lab, or a literature review if the lab did not complete empirical work. \n\nbefore class begins students must secure a laboratory research experience in a faculty member's lab for psy 4/5993 credits or enroll in the psy 5993 class, either the semester prior to or concurrently with your psy 3901w enrollment. because research lab positions are not guaranteed, we recommend ba students only select this option if they already have a psy 4/5993 position secured.",
     "prereqInfo": "[3801 or equiv], 3001w, completion of five courses from three distribution areas, psy major, senio",
     "prereq": {
       "and": [
@@ -687,7 +611,7 @@
     "subject": "PSY",
     "id": "3903W",
     "title": "Capstone: Community Engagement",
-    "info": "\tthe capstone courses in psychology synthesize knowledge gained throughout major and create pathways to post-graduation life. students will reflect on the discipline of psychology and on their experiences in their degree program; class and small group discussions will support this reflection. students will be provided with access to professionals who are alumni of the psychology program and will have the opportunity to hear these career professionals speak about their varied career paths and to network with them for advice and connections to other professionals. students will also receive important information regarding graduate school and career preparation from the psychology advising office and cla career services.\n\nin this course, you will have the opportunity to connect your study of psychology to important issues in the local community. the center for community-engaged learning provides students with the opportunity to work onsite at a nearby community organization for approximately four hours each week throughout the semester. students draw from this community experience to help identify the topic of their capstone paper.\n\nin the first week of classes you will receive instructions from the center for community-engaged learning regarding community site placement.",
+    "info": "the capstone courses in psychology synthesize knowledge gained throughout major and create pathways to post-graduation life. students will reflect on the discipline of psychology and on their experiences in their degree program; class and small group discussions will support this reflection. students will be provided with access to professionals who are alumni of the psychology program and will have the opportunity to hear these career professionals speak about their varied career paths and to network with them for advice and connections to other professionals. students will also receive important information regarding graduate school and career preparation from the psychology advising office and cla career services.\n\nin this course, you will have the opportunity to connect your study of psychology to important issues in the local community. the center for community-engaged learning provides students with the opportunity to work onsite at a nearby community organization for approximately four hours each week throughout the semester. students draw from this community experience to help identify the topic of their capstone paper.\n\nin the first week of classes you will receive instructions from the center for community-engaged learning regarding community site placement.",
     "prereqInfo": "[3801 or equiv], 3001w, completion of five courses from three distribution areas, psy major, senior",
     "prereq": {
       "and": [
@@ -718,21 +642,12 @@
     }
   },
   {
-    "code": "PSY 3960H",
-    "subject": "PSY",
-    "id": "3960H",
-    "title": "Undergrad Honors Sem in Psych",
-    "info": "undergraduate seminars in subjects of current interest in psychology.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
     "code": "PSY 3993",
     "subject": "PSY",
     "id": "3993",
     "title": "Directed Study",
-    "info": "independent reading leading to paper or to oral or written exam.\nprereq instr consent, dept consent, college consent.",
-    "prereqInfo": null,
+    "info": "independent reading leading to paper or to oral or written exam.",
+    "prereqInfo": "instr consent, dept consent, college consent.",
     "prereq": []
   },
   {
@@ -892,19 +807,9 @@
           "id": "3001W"
         },
         {
-          "code": "PSY 3001V",
-          "subject": "PSY",
-          "id": "3001V"
-        },
-        {
           "code": "PSY 3801",
           "subject": "PSY",
           "id": "3801"
-        },
-        {
-          "code": "PSY 3801H",
-          "subject": "PSY",
-          "id": "3801H"
         },
         {
           "code": "PSY 3301",
@@ -928,7 +833,7 @@
     "subject": "PSY",
     "id": "4521",
     "title": "Psychology of Stress & Trauma",
-    "info": "this course covers the major theories and research findings related to stress and trauma, including the effects of stress and trauma on mental and physical health, factors related to more effective coping with stress/trauma and interventions designed to decrease the negative effects of stress and trauma. course material will highlight research related to stress and coping with the covid-19 pandemic. the course focuses on both research methods and personal application of research findings. ",
+    "info": "this course covers the major theories and research findings related to stress and trauma, including the effects of stress and trauma on mental and physical health, factors related to more effective coping with stress/trauma and interventions designed to decrease the negative effects of stress and trauma. course material will highlight research related to stress and coping with the covid-19 pandemic. the course focuses on both research methods and personal application of research findings.",
     "prereqInfo": "psy 1001 and 3001w or psy 3001v or cpsy 3308w",
     "prereq": {
       "and": [
@@ -941,11 +846,6 @@
           "code": "PSY 3001W",
           "subject": "PSY",
           "id": "3001W"
-        },
-        {
-          "code": "PSY 3001V",
-          "subject": "PSY",
-          "id": "3001V"
         },
         {
           "code": "CPSY 3308",
@@ -993,37 +893,6 @@
     "title": "Directed Research in Psych",
     "info": "directed research projects in psychology.",
     "prereqInfo": "instr consent, dept consent",
-    "prereq": []
-  },
-  {
-    "code": "PSY 4994V",
-    "subject": "PSY",
-    "id": "4994V",
-    "title": "Honors: Research Practicum",
-    "info": "practical experience conducting psychological research. preparation for completion of honors thesis. research ethics, practical aspects of conducting psychological research, writing research reports. students assist faculty and advanced graduate students in research.",
-    "prereqInfo": "[3001w or 3001v], psych major, honors",
-    "prereq": {
-      "or": [
-        {
-          "code": "PSY 3001W",
-          "subject": "PSY",
-          "id": "3001W"
-        },
-        {
-          "code": "PSY 3001V",
-          "subject": "PSY",
-          "id": "3001V"
-        }
-      ]
-    }
-  },
-  {
-    "code": "PSY 4996H",
-    "subject": "PSY",
-    "id": "4996H",
-    "title": "Honors Internship",
-    "info": "supervised internship/externship experience in a community-service or industrial setting relevant to formal academic training/objectives.",
-    "prereqInfo": "honors, instr consent, dept consent, college consent",
     "prereq": []
   },
   {
@@ -1128,19 +997,6 @@
     "info": "psy 4016/5016: behavior analysis and autism\nfall semester only\nthis practicum course is a special service-learning opportunity on current applied behavior analysis (aba) interventions for children who suffer from the challenges of autism. in this practicum, students gain substantial experience working with children in off-campus settings under the supervision of board certified behavior analysts who are engaged in the direct application of aba and behavior therapy. this field experience involves a minimum of 7 hours per week for 12 weeks. each week, the students participate in two 3-hour, one-on-one therapy sessions at either a home-based or center-based aba program site, plus one 1-hour clinical review meeting at that site. students also attend one 1.5-hour lecture/discussion session and complete weekly reading assignments. students are introduced to the principles and methods currently employed to help young children with autism acquire functional language and appropriate social behavior, and control autistic behavior. issues of professional ethics, social responsibility, and scientific and moral philosophy pertaining to the treatment of children with autism are also addressed. grading is based on appropriate participation in the service-learning activities, competency evaluations at the service-learning site, and performance on a final exam. the prerequisite for the course is either psy 4011/5011: applied behavior analysis, or a comparable course or experience. students who have prior mastery of the technical vocabulary of aba are given preference.",
     "prereqInfo": "individual auto transportation, instr consent",
     "prereq": []
-  },
-  {
-    "code": "PSY 5018H",
-    "subject": "PSY",
-    "id": "5018H",
-    "title": "Math Models Human Behavior",
-    "info": "mathematical models of complex human behavior, including individual/group decision making, information processing, learning, perception, and overt action. specific computational techniques drawn from decision theory, information theory, probability theory, machine learning, and elements of data analysis.",
-    "prereqInfo": "math 1271 or instr consent",
-    "prereq": {
-      "code": "MATH 1271",
-      "subject": "MATH",
-      "id": "1271"
-    }
   },
   {
     "code": "PSY 5031W",
@@ -1267,7 +1123,7 @@
     "subject": "PSY",
     "id": "5052",
     "title": "Psychology of Attention",
-    "info": "is attention needed for perception? are we more likely to attend to locations associated with reward? does brain training work? are attention deficits at the root of autism spectrum disorders? this course will introduce students to advanced topics in the psychology of attention. it will combine didactic lecturing, instructor-led discussions, and student-led discussions on core topics of attention and its neural substrates. students will acquire familiarity with theories, phenomena, and experimental paradigms of attention. ",
+    "info": "is attention needed for perception? are we more likely to attend to locations associated with reward? does brain training work? are attention deficits at the root of autism spectrum disorders? this course will introduce students to advanced topics in the psychology of attention. it will combine didactic lecturing, instructor-led discussions, and student-led discussions on core topics of attention and its neural substrates. students will acquire familiarity with theories, phenomena, and experimental paradigms of attention.",
     "prereqInfo": "psy 3051 or equivalent",
     "prereq": {
       "code": "PSY 3051",
@@ -1420,15 +1276,6 @@
     "prereq": []
   },
   {
-    "code": "PSY 5101H",
-    "subject": "PSY",
-    "id": "5101H",
-    "title": "Honors: Personality",
-    "info": "current theory and research on personality functioning and personality structure. descriptive, biological, evolutionary, cognitive, developmental, cultural, and narrative perspectives on personality. ",
-    "prereqInfo": "honors psychology major or psychology phd student",
-    "prereq": []
-  },
-  {
     "code": "PSY 5135",
     "subject": "PSY",
     "id": "5135",
@@ -1460,18 +1307,9 @@
     "prereq": {
       "and": [
         {
-          "or": [
-            {
-              "code": "PSY 3001W",
-              "subject": "PSY",
-              "id": "3001W"
-            },
-            {
-              "code": "PSY 3001V",
-              "subject": "PSY",
-              "id": "3001V"
-            }
-          ]
+          "code": "PSY 3001W",
+          "subject": "PSY",
+          "id": "3001W"
         },
         {
           "or": [
@@ -1601,15 +1439,6 @@
     }
   },
   {
-    "code": "PSY 5604H",
-    "subject": "PSY",
-    "id": "5604H",
-    "title": "Abnormal Psychology",
-    "info": "comprehensive review of psychopathological disorders. etiology, diagnostic criteria, clinical research findings.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
     "code": "PSY 5606",
     "subject": "PSY",
     "id": "5606",
@@ -1623,9 +1452,22 @@
     "subject": "PSY",
     "id": "5701",
     "title": "Employee Selection & Staffing",
-    "info": "application of psychological research/theory to issues in personnel recruitment/selection and to measurement of job performance. applying principles of individual differences, psychological measurement to decision making in organizations (recruitment, selection, performance appraisal). prerequisite: psy 3001w, psy 3711 or instructor permission",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "application of psychological research/theory to issues in personnel recruitment/selection and to measurement of job performance. applying principles of individual differences, psychological measurement to decision making in organizations (recruitment, selection, performance appraisal).",
+    "prereqInfo": "psy 3001w, psy 3711 or instructor permission",
+    "prereq": {
+      "and": [
+        {
+          "code": "PSY 3001W",
+          "subject": "PSY",
+          "id": "3001W"
+        },
+        {
+          "code": "PSY 3711",
+          "subject": "PSY",
+          "id": "3711"
+        }
+      ]
+    }
   },
   {
     "code": "PSY 5702",
@@ -1642,7 +1484,7 @@
     "id": "5703",
     "title": "Organizational Training & Dev",
     "info": "theories, methods, research, and practice of improving performance of individuals at work through adult learning and instruction, including needs analysis, learning philosophy, models of program and instructional design, theory of knowledge and training transfer, learning analytics, and training evaluation.",
-    "prereqInfo": "prerequisites:\tpsy 3801 or equivalent",
+    "prereqInfo": "psy 3801 or equivalent",
     "prereq": {
       "code": "PSY 3801",
       "subject": "PSY",
@@ -1695,11 +1537,6 @@
           "id": "3001W"
         },
         {
-          "code": "PSY 3001V",
-          "subject": "PSY",
-          "id": "3001V"
-        },
-        {
           "code": "PSY 3711",
           "subject": "PSY",
           "id": "3711"
@@ -1715,18 +1552,9 @@
     "info": "types of measurements (tests, scales, inventories) and their construction. theory/measurement of reliability/validity.",
     "prereqInfo": "3801h or math 1271 or grad student",
     "prereq": {
-      "or": [
-        {
-          "code": "PSY 3801H",
-          "subject": "PSY",
-          "id": "3801H"
-        },
-        {
-          "code": "MATH 1271",
-          "subject": "MATH",
-          "id": "1271"
-        }
-      ]
+      "code": "MATH 1271",
+      "subject": "MATH",
+      "id": "1271"
     }
   },
   {
@@ -1769,13 +1597,9 @@
     "subject": "PSY",
     "id": "5994",
     "title": "Dir Rsrch: Psy Honors Thesis",
-    "info": "individual research/writing of departmental honors thesis. ",
-    "prereqInfo": "pre-req: psy 4994v",
-    "prereq": {
-      "code": "PSY 4994",
-      "subject": "PSY",
-      "id": "4994"
-    }
+    "info": "individual research/writing of departmental honors thesis. \n\npre-req: psy 4994v",
+    "prereqInfo": null,
+    "prereq": []
   },
   {
     "code": "PSY 8004",
@@ -2006,7 +1830,11 @@
     "title": "Impr Mgmnt",
     "info": "classic and contemporary theory and research concerning interpersonal strategies of impression management and interplay between private and public self.",
     "prereqInfo": "grad psych major; 8208 recommended; instr consent",
-    "prereq": []
+    "prereq": {
+      "code": "PSY 8208",
+      "subject": "PSY",
+      "id": "8208"
+    }
   },
   {
     "code": "PSY 8204",
@@ -2107,7 +1935,7 @@
     "subject": "PSY",
     "id": "8410",
     "title": "Perspectives in Cog",
-    "info": "lectures and discussions in cognitive sciences by local and visiting faculty. ",
+    "info": "lectures and discussions in cognitive sciences by local and visiting faculty.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -2368,7 +2196,7 @@
     "subject": "PSY",
     "id": "8601",
     "title": "Clinical Psych Seminar Series",
-    "info": "the central goal of this series is to provide incoming clinical students broad exposure to clinical science methodologies used by cspr faculty and affiliated scientists in the u of mn community. each week, faculty will provide an hour long, formal presentation of their research program, emphasizing employed research design and methods. students will be assigned 1-2 readings relevant to the presentation of the week. students are encouraged to meet with faculty presenters further to follow-up on specific research methods of interest. this seminar lays the foundation for more in-depth methodological training, in lab-specific areas, to be completed during the research laboratories in psychology course (psy 5993). ",
+    "info": "the central goal of this series is to provide incoming clinical students broad exposure to clinical science methodologies used by cspr faculty and affiliated scientists in the u of mn community. each week, faculty will provide an hour long, formal presentation of their research program, emphasizing employed research design and methods. students will be assigned 1-2 readings relevant to the presentation of the week. students are encouraged to meet with faculty presenters further to follow-up on specific research methods of interest. this seminar lays the foundation for more in-depth methodological training, in lab-specific areas, to be completed during the research laboratories in psychology course (psy 5993).",
     "prereqInfo": "phd student in clinical psychology",
     "prereq": []
   },
@@ -2377,7 +2205,7 @@
     "subject": "PSY",
     "id": "8602",
     "title": "Psychopathology & Personality",
-    "info": "psychopathology and personality. theory/research. evaluation of current experimentation in various behavior disorders. ",
+    "info": "psychopathology and personality. theory/research. evaluation of current experimentation in various behavior disorders.",
     "prereqInfo": "clinical psych grad student, instr consent",
     "prereq": []
   },
@@ -2424,18 +2252,20 @@
     "title": "Applied Assessment II",
     "info": "theory/practice in clinical application of assessment techniques/interviewing. lab observations, administration, scoring, interpretation.",
     "prereqInfo": "8611/8615, clinical psych grad student",
-    "prereq": [
-      {
-        "code": "PSY 8611",
-        "subject": "PSY",
-        "id": "8611"
-      },
-      {
-        "code": "PSY 8615",
-        "subject": "PSY",
-        "id": "8615"
-      }
-    ]
+    "prereq": {
+      "and": [
+        {
+          "code": "PSY 8611",
+          "subject": "PSY",
+          "id": "8611"
+        },
+        {
+          "code": "PSY 8615",
+          "subject": "PSY",
+          "id": "8615"
+        }
+      ]
+    }
   },
   {
     "code": "PSY 8617",
@@ -2520,7 +2350,11 @@
     "title": "Doct Pre-Thesis Cr",
     "info": "tbd",
     "prereqInfo": "doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": []
+    "prereq": {
+      "code": "PSY 60",
+      "subject": "PSY",
+      "id": "60"
+    }
   },
   {
     "code": "PSY 8701",
@@ -2565,7 +2399,11 @@
     "title": "Thesis Credit:Mast*",
     "info": "(no description)",
     "prereqInfo": "max 18 cr per semester or summer; 10 cr total required [plan a only]",
-    "prereq": []
+    "prereq": {
+      "code": "PSY 10",
+      "subject": "PSY",
+      "id": "10"
+    }
   },
   {
     "code": "PSY 8814",
@@ -2621,7 +2459,7 @@
     "subject": "PSY",
     "id": "8885",
     "title": "Computerized Adaptive Testing",
-    "info": "computerized adaptive testing (cat) is the redesign of psychological, educational, and other tests and instruments for delivery by computers?it is the first application of artificial intelligence in the field of psychological measurement.  cats dynamically adjust the test questions delivered to each examinee in real time to simultaneously maximize measurement precision and efficiency.  although cat research began in the early 1970s, it was not until the mid-1990s that cats began to impact testing programs and instruments in education, business and industry, medical research, personality measurement, and other applications, worldwide. this seminar is designed to (1) expose graduate students to the origins, methods, and applications of cat, (2) evaluate its current status as reflected in the research literature, (3) identify areas in need of further research, and (4) provide the knowledge to design cats for specific purposes. ",
+    "info": "computerized adaptive testing (cat) is the redesign of psychological, educational, and other tests and instruments for delivery by computers?it is the first application of artificial intelligence in the field of psychological measurement.  cats dynamically adjust the test questions delivered to each examinee in real time to simultaneously maximize measurement precision and efficiency.  although cat research began in the early 1970s, it was not until the mid-1990s that cats began to impact testing programs and instruments in education, business and industry, medical research, personality measurement, and other applications, worldwide. this seminar is designed to (1) expose graduate students to the origins, methods, and applications of cat, (2) evaluate its current status as reflected in the research literature, (3) identify areas in need of further research, and (4) provide the knowledge to design cats for specific purposes.",
     "prereqInfo": "psy 5865, epsy 8226, or equivalent, or instructor permission",
     "prereq": {
       "and": [

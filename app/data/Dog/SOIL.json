@@ -66,7 +66,7 @@
     "subject": "SOIL",
     "id": "3521",
     "title": "Soil Judging",
-    "info": "a field-based course which requires students to apply fundamental knowledge obtained from basic soil science and field study of soils to the description of soils in the field. this course includes an inter-collegiate soil judging contest that takes during the course of the class.  ",
+    "info": "a field-based course which requires students to apply fundamental knowledge obtained from basic soil science and field study of soils to the description of soils in the field. this course includes an inter-collegiate soil judging contest that takes during the course of the class.",
     "prereqInfo": "an introductory soils course and field studies course.",
     "prereq": []
   },
@@ -75,8 +75,8 @@
     "subject": "SOIL",
     "id": "3993",
     "title": "Directed Study",
-    "info": "a course in which a student designs and carries out a directed study on selected topics or problems under the direction of a faculty member; eg, literature review. directed study courses may be taken for variable credit and special permission is needed for enrollment. students enrolling in a directed study will be required to use the university-wide on-line directed study contract process in order to enroll. prereq: department consent, instructor consent, no more than 6 credits of directed research counts towards cfans major requirements",
-    "prereqInfo": null,
+    "info": "a course in which a student designs and carries out a directed study on selected topics or problems under the direction of a faculty member; eg, literature review. directed study courses may be taken for variable credit and special permission is needed for enrollment. students enrolling in a directed study will be required to use the university-wide on-line directed study contract process in order to enroll.",
+    "prereqInfo": "department consent, instructor consent, no more than 6 credits of directed research counts towards cfans major requirements",
     "prereq": []
   },
   {
@@ -84,7 +84,7 @@
     "subject": "SOIL",
     "id": "3994",
     "title": "Directed Research",
-    "info": "an opportunity in which a student designs and carries out a directed research project under the direction of a faculty member. directed research may be taken for variable credit and special permission is needed for enrollment. students enrolling in a directed research will be required to use the university-wide on-line directed research contract process in order to enroll. ",
+    "info": "an opportunity in which a student designs and carries out a directed research project under the direction of a faculty member. directed research may be taken for variable credit and special permission is needed for enrollment. students enrolling in a directed research will be required to use the university-wide on-line directed research contract process in order to enroll.",
     "prereqInfo": "department consent, instructor consent, no more than 6 credits of directed research counts towards cfans major requirements.",
     "prereq": []
   },
@@ -204,7 +204,7 @@
     "subject": "SOIL",
     "id": "5312",
     "title": "Soil Chem & Mineralogy Lab",
-    "info": "companion laboratory 5311. clay mineral preparation for x-ray diffraction, selective mineral dissolution, cation exchange properties, absorption and solubility reactions and their modeling, carbonate equilibria, and organic matter extraction and identification. ",
+    "info": "companion laboratory 5311. clay mineral preparation for x-ray diffraction, selective mineral dissolution, cation exchange properties, absorption and solubility reactions and their modeling, carbonate equilibria, and organic matter extraction and identification.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -235,6 +235,11 @@
           "code": "SOIL 2125",
           "subject": "SOIL",
           "id": "2125"
+        },
+        {
+          "code": "SOIL 4511",
+          "subject": "SOIL",
+          "id": "4511"
         }
       ]
     }
@@ -257,6 +262,11 @@
           "code": "CHEM 1021",
           "subject": "CHEM",
           "id": "1021"
+        },
+        {
+          "code": "SOIL 2125",
+          "subject": "SOIL",
+          "id": "2125"
         }
       ]
     }
@@ -275,8 +285,8 @@
     "subject": "SOIL",
     "id": "5993",
     "title": "Directed Study",
-    "info": "a course in which a student designs and carries out a directed study on selected topics or problems under the direction of a faculty member; eg, literature review. directed study courses may be taken for variable credit and special permission is needed for enrollment.  students enrolling in a directed study will be required to use the university-wide on-line directed study contract process in order to enroll.\n \nprereq: department consent, instructor consent, no more than 6 credits of directed study counts towards cfans major requirements.",
-    "prereqInfo": null,
+    "info": "a course in which a student designs and carries out a directed study on selected topics or problems under the direction of a faculty member; eg, literature review. directed study courses may be taken for variable credit and special permission is needed for enrollment.  students enrolling in a directed study will be required to use the university-wide on-line directed study contract process in order to enroll.",
+    "prereqInfo": "department consent, instructor consent, no more than 6 credits of directed study counts towards cfans major requirements.",
     "prereq": []
   },
   {
@@ -284,8 +294,8 @@
     "subject": "SOIL",
     "id": "5994",
     "title": "Directed Research",
-    "info": "an opportunity in which a student designs and carries out a directed research project under the direction of a faculty member. directed research may be taken for variable credit and special permission is needed for enrollment.students enrolling in a directed research will be required to use the\nuniversity-wide on-line directed research contract process in order to enroll.\n \nprereq: department consent, instructor consent, no more than 6 credits of directed research counts towards cfans major requirements.",
-    "prereqInfo": null,
+    "info": "an opportunity in which a student designs and carries out a directed research project under the direction of a faculty member. directed research may be taken for variable credit and special permission is needed for enrollment.students enrolling in a directed research will be required to use the\nuniversity-wide on-line directed research contract process in order to enroll.",
+    "prereqInfo": "department consent, instructor consent, no more than 6 credits of directed research counts towards cfans major requirements.",
     "prereq": []
   },
   {
@@ -358,9 +368,23 @@
     "info": "physical chemical principles, geochemical processes controlling chemical composition of natural waters, soil-/sediment-water interactions. emphasizes behavior of inorganic contaminants in natural waters, engineered systems, dissolved natural organic matter.",
     "prereqInfo": "credit will not be granted if credit has been received for: : ce 8541; 5311 or ce 4541",
     "prereq": {
-      "code": "CE 8541",
-      "subject": "CE",
-      "id": "8541"
+      "or": [
+        {
+          "code": "CE 8541",
+          "subject": "CE",
+          "id": "8541"
+        },
+        {
+          "code": "SOIL 5311",
+          "subject": "SOIL",
+          "id": "5311"
+        },
+        {
+          "code": "CE 4541",
+          "subject": "CE",
+          "id": "4541"
+        }
+      ]
     }
   }
 ]

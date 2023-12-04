@@ -116,8 +116,8 @@
     "subject": "VMED",
     "id": "5193",
     "title": "Dairy Financial Decisions",
-    "info": "concepts/tools of economic analysis needed to support decision making on dairy farms, particularly as those decisions relate to health, disease impact, nutrition, general farm management.\nprereq earned dvm, instr consent.",
-    "prereqInfo": null,
+    "info": "concepts/tools of economic analysis needed to support decision making on dairy farms, particularly as those decisions relate to health, disease impact, nutrition, general farm management.",
+    "prereqInfo": "earned dvm, instr consent.",
     "prereq": []
   },
   {
@@ -145,7 +145,11 @@
     "title": "Large Animal Physiology II",
     "info": "large animal physiology for specialty board certification or beginning research. students present topics in physiology and supplement reading with clinical case material or journal articles.",
     "prereqInfo": "instr consent; 5210 recommended",
-    "prereq": []
+    "prereq": {
+      "code": "VMED 5210",
+      "subject": "VMED",
+      "id": "5210"
+    }
   },
   {
     "code": "VMED 5212",
@@ -170,8 +174,8 @@
     "subject": "VMED",
     "id": "5240",
     "title": "Adv Small Animal Patho I",
-    "info": "biology, physiology, pathophysiology, and medicine of disciplines relevant to companion animals. pathogenesis/treatment of diseases. developing hypotheses that can be translated into clinical research.\nprereq cvm grad student, [dvm or foreign equiv] degree.",
-    "prereqInfo": null,
+    "info": "biology, physiology, pathophysiology, and medicine of disciplines relevant to companion animals. pathogenesis/treatment of diseases. developing hypotheses that can be translated into clinical research.",
+    "prereqInfo": "cvm grad student, [dvm or foreign equiv] degree.",
     "prereq": []
   },
   {
@@ -179,8 +183,8 @@
     "subject": "VMED",
     "id": "5241",
     "title": "Adv Small Animal Patho II",
-    "info": "overview of biology, physiology, pathophysiology, and medicine of disciplines. underlying pathogenesis/treatment of diseases of companion animals. developing hypotheses that could be translated into clinical research.\nprereq cvm grad student, [dvm or foreign equiv] degree.",
-    "prereqInfo": null,
+    "info": "overview of biology, physiology, pathophysiology, and medicine of disciplines. underlying pathogenesis/treatment of diseases of companion animals. developing hypotheses that could be translated into clinical research.",
+    "prereqInfo": "cvm grad student, [dvm or foreign equiv] degree.",
     "prereq": []
   },
   {
@@ -188,8 +192,8 @@
     "subject": "VMED",
     "id": "5242",
     "title": "Adv Small Animal Patho III",
-    "info": "overview of biology, physiology, pathophysiology, and medicine. underlying pathogenesis/treatment of diseases of companion animals. developing hypotheses that could be translated into clinical research.\nprereq cvm grad student, [dvm or foreign equivalent] degree.",
-    "prereqInfo": null,
+    "info": "overview of biology, physiology, pathophysiology, and medicine. underlying pathogenesis/treatment of diseases of companion animals. developing hypotheses that could be translated into clinical research.",
+    "prereqInfo": "cvm grad student, [dvm or foreign equivalent] degree.",
     "prereq": []
   },
   {
@@ -197,8 +201,8 @@
     "subject": "VMED",
     "id": "5243",
     "title": "Adv Small Animal Patho IV",
-    "info": "overview of biology, physiology, pathophysiology, and medicine. underlying pathogenesis/treatment of diseases of companion animals. developing hypotheses that could be translated into clinical research.\nprereq cvm grad student, [dvm or foreign equiv] degree.",
-    "prereqInfo": null,
+    "info": "overview of biology, physiology, pathophysiology, and medicine. underlying pathogenesis/treatment of diseases of companion animals. developing hypotheses that could be translated into clinical research.",
+    "prereqInfo": "cvm grad student, [dvm or foreign equiv] degree.",
     "prereq": []
   },
   {
@@ -206,7 +210,7 @@
     "subject": "VMED",
     "id": "5274",
     "title": "Urinary System Disease",
-    "info": "expands on disorders of small animal urinary system. introduction to core and to additional disorders. ",
+    "info": "expands on disorders of small animal urinary system. introduction to core and to additional disorders.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -215,7 +219,7 @@
     "subject": "VMED",
     "id": "5291",
     "title": "Indep Study Vet Med",
-    "info": "arranged independent study in a clinical area of veterinary medicine. ",
+    "info": "arranged independent study in a clinical area of veterinary medicine.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -251,8 +255,8 @@
     "subject": "VMED",
     "id": "5319",
     "title": "Veterinary Gross Pathology",
-    "info": "diagnosing gross lesions of tissues. evaluating images from wide variety of animals submitted to lab. mock exams. students prepare two in-depth reviews on topics covered during in course.\nprereq grad student in cmb or [vmed, [dvm degree or foreign equivalent], college consent]",
-    "prereqInfo": null,
+    "info": "diagnosing gross lesions of tissues. evaluating images from wide variety of animals submitted to lab. mock exams. students prepare two in-depth reviews on topics covered during in course.",
+    "prereqInfo": "grad student in cmb or [vmed, [dvm degree or foreign equivalent], college consent]",
     "prereq": []
   },
   {
@@ -269,7 +273,7 @@
     "subject": "VMED",
     "id": "5321",
     "title": "Adv. Vet. Systemic Path. II",
-    "info": "students review/summarize topics in systemic pathology using veterinary pathology textbooks and relevant updates from pathology and veterinary medical journals. representative diagnostic cases in endocrine, reproductive, musculoskeletal, nervous, special senses, and integumentary system pathology. student give 10-15 presentations with handouts for other students.  ",
+    "info": "students review/summarize topics in systemic pathology using veterinary pathology textbooks and relevant updates from pathology and veterinary medical journals. representative diagnostic cases in endocrine, reproductive, musculoskeletal, nervous, special senses, and integumentary system pathology. student give 10-15 presentations with handouts for other students.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -350,7 +354,7 @@
     "subject": "VMED",
     "id": "5492",
     "title": "One Hlth & Infec Dis Wildlife",
-    "info": "the course will explore the applied concept of one health and infectious diseases of wildlife in weekly case studies. in each case study, students will gain an understanding of system dynamics, infer the interplay between humans, animals and the environment in the context of a given wildlife disease, and confront current disease management practices and challenges for successfully mediating transmission and spread. ",
+    "info": "the course will explore the applied concept of one health and infectious diseases of wildlife in weekly case studies. in each case study, students will gain an understanding of system dynamics, infer the interplay between humans, animals and the environment in the context of a given wildlife disease, and confront current disease management practices and challenges for successfully mediating transmission and spread.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -449,7 +453,7 @@
     "subject": "VMED",
     "id": "5720",
     "title": "SA Orthopedic Radiology",
-    "info": "roentgen signs of common bone diseases of small animals. ",
+    "info": "roentgen signs of common bone diseases of small animals.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -467,7 +471,7 @@
     "subject": "VMED",
     "id": "5881",
     "title": "Food Prod, Proc, Sply Chain",
-    "info": "food commodities and agricultural crops play critical roles relevant to public health, energy and economic vitality, feeding the increasing global human population, and providing multiple outputs from feed for animals, to fuel for vehicles, transportation and energy. this course focuses on agricultural commodities. for 2019 we will focus on corn and dairy production systems in minnesota. the commodity of interest will change from year-to-year to other commodities like pork and sugar beets – which provide critical outputs for the state of minnesota. ",
+    "info": "food commodities and agricultural crops play critical roles relevant to public health, energy and economic vitality, feeding the increasing global human population, and providing multiple outputs from feed for animals, to fuel for vehicles, transportation and energy. this course focuses on agricultural commodities. for 2019 we will focus on corn and dairy production systems in minnesota. the commodity of interest will change from year-to-year to other commodities like pork and sugar beets – which provide critical outputs for the state of minnesota.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -485,7 +489,7 @@
     "subject": "VMED",
     "id": "5895",
     "title": "Vet Pub Hlth Learning Exper",
-    "info": "part of the curriculum for the master's degree includes an opportunity for students to develop a written document detailing applications of public health practice. completion of the ile allows students to synthesize aspects of public health into a document that can be utilized by public health professionals.   ",
+    "info": "part of the curriculum for the master's degree includes an opportunity for students to develop a written document detailing applications of public health practice. completion of the ile allows students to synthesize aspects of public health into a document that can be utilized by public health professionals.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -512,8 +516,8 @@
     "subject": "VMED",
     "id": "5915",
     "title": "Essential Stats for Life Sci",
-    "info": "this course is a broad overview of the principles and methods of statistical analysis used in life sciences research, including biological, veterinary, and translational research, and provides the background a new researcher needs to understand and apply commonly used statistical methods and the preparation needed for more advanced coursework.",
-    "prereqInfo": "classes will include general instruction and background information, detailed examples of how to perform the analyses, with actual data sets, and discussion on how the topic has been applied in biological research, including reading and assessing papers in the field. computing will be performed using the r software environment, though students may use alternate software with permission.",
+    "info": "this course is a broad overview of the principles and methods of statistical analysis used in life sciences research, including biological, veterinary, and translational research, and provides the background a new researcher needs to understand and apply commonly used statistical methods and the preparation needed for more advanced coursework.\n\nclasses will include general instruction and background information, detailed examples of how to perform the analyses, with actual data sets, and discussion on how the topic has been applied in biological research, including reading and assessing papers in the field. computing will be performed using the r software environment, though students may use alternate software with permission.\n\ntopics will include:\n\n descriptive statistics and exploratory graphics\n understanding statistical inference and interpreting p-values and confidence intervals.\n one and two sample inference, including t-tests, proportion tests, and non-parametric alternatives\n linear regression, including the effects of confounders\n anova methods, including pairwise comparisons and multiple comparisons",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -593,7 +597,7 @@
     "subject": "VMED",
     "id": "7000",
     "title": "Veterinary Public Prac Seminar",
-    "info": "interactive review of current public practice topics in infectious and parasitic diseases, epidemiology and stats, food safety, environmental health, and toxicology.  ",
+    "info": "interactive review of current public practice topics in infectious and parasitic diseases, epidemiology and stats, food safety, environmental health, and toxicology.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -638,7 +642,7 @@
     "subject": "VMED",
     "id": "7991",
     "title": "An Hlth Fd Sys Policy Intergov",
-    "info": "evidence-based policy development. relevant global animal health and food system issue. role of scientific evidence in developing/implementing policy and in intergovernmental organization's policy development. policy-making process as it pertains to trade, animal health, and food system across intergovernmental organizations. ",
+    "info": "evidence-based policy development. relevant global animal health and food system issue. role of scientific evidence in developing/implementing policy and in intergovernmental organization's policy development. policy-making process as it pertains to trade, animal health, and food system across intergovernmental organizations.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -656,7 +660,7 @@
     "subject": "VMED",
     "id": "7993",
     "title": "An Hlth Fd Sy Policy State Gov",
-    "info": "policy-making process as it pertains to animal health, public health, and food systems at the state and provincial levels. global animal health, public health, and food system issue with a particular emphasis on the interplay of science, politics and belief in developing and implementing policy associated. ",
+    "info": "policy-making process as it pertains to animal health, public health, and food systems at the state and provincial levels. global animal health, public health, and food system issue with a particular emphasis on the interplay of science, politics and belief in developing and implementing policy associated.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -719,7 +723,7 @@
     "subject": "VMED",
     "id": "8201",
     "title": "Adv Sm An Vet Med",
-    "info": "discussions of diseases of organs or systems in animals, including degenerative, psychological, anomolous, metabolic, nutritional, neoplastic, immune, inflammatory, toxic, and traumatic disorders. ",
+    "info": "discussions of diseases of organs or systems in animals, including degenerative, psychological, anomolous, metabolic, nutritional, neoplastic, immune, inflammatory, toxic, and traumatic disorders.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -953,7 +957,7 @@
     "subject": "VMED",
     "id": "8560",
     "title": "Research & Literature Vet Med",
-    "info": "a combination of literature review, group discussions and analyses are utilized to improve participants' capacity to critically evaluate scientific journal articles. scientific research presentations will be led by students or faculty.  ",
+    "info": "a combination of literature review, group discussions and analyses are utilized to improve participants' capacity to critically evaluate scientific journal articles. scientific research presentations will be led by students or faculty.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -962,7 +966,7 @@
     "subject": "VMED",
     "id": "8592",
     "title": "InfDisJnlsCritRead",
-    "info": "this course is intended to discuss published papers, experimental methods, approaches, diseases and animal health problems with the goal of promoting critical thinking. students will be responsible for identifying, reviewing and sharing relevant material as well as leading discussion of their assigned class meeting.  ",
+    "info": "this course is intended to discuss published papers, experimental methods, approaches, diseases and animal health problems with the goal of promoting critical thinking. students will be responsible for identifying, reviewing and sharing relevant material as well as leading discussion of their assigned class meeting.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -982,7 +986,11 @@
     "title": "Doct Pre-Thesis Cr",
     "info": "tbd",
     "prereqInfo": "doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": []
+    "prereq": {
+      "code": "VMED 60",
+      "subject": "VMED",
+      "id": "60"
+    }
   },
   {
     "code": "VMED 8679",
@@ -1144,7 +1152,11 @@
     "title": "Thesis Credit:Mast*",
     "info": "(no description)",
     "prereqInfo": "max 18 cr per semester or summer; 10 cr total required [plan a only]",
-    "prereq": []
+    "prereq": {
+      "code": "VMED 10",
+      "subject": "VMED",
+      "id": "10"
+    }
   },
   {
     "code": "VMED 8780",
@@ -1209,7 +1221,7 @@
     "subject": "VMED",
     "id": "8785",
     "title": "Vet Nuc Med",
-    "info": "in-depth discussion of principles, practice, techniques, and complications. ",
+    "info": "in-depth discussion of principles, practice, techniques, and complications.",
     "prereqInfo": null,
     "prereq": []
   },

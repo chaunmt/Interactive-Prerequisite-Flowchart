@@ -61,7 +61,7 @@
     "subject": "NOR",
     "id": "3011",
     "title": "Advanced Norwegian",
-    "info": "fiction, film, journalistic, and professional prose. grammar, vocabulary building exercises, systematic review of oral/written modes of communication.  ",
+    "info": "fiction, film, journalistic, and professional prose. grammar, vocabulary building exercises, systematic review of oral/written modes of communication.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -106,8 +106,12 @@
     "subject": "NOR",
     "id": "4004",
     "title": "Int Norwegian Grad Research",
-    "info": "emphasis on developing intermediate mid-high proficiency in listening, reading, speaking, and writing. contextualized work on grammar and vocabulary is supported by work with authentic readings and essay assignments. meets concurrently with 1004.\nprereq: 1004 in another language or passing score on lpe or grad student",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "emphasis on developing intermediate mid-high proficiency in listening, reading, speaking, and writing. contextualized work on grammar and vocabulary is supported by work with authentic readings and essay assignments. meets concurrently with 1004.",
+    "prereqInfo": "1004 in another language or passing score on lpe or grad student",
+    "prereq": {
+      "code": "NOR 1004",
+      "subject": "NOR",
+      "id": "1004"
+    }
   }
 ]

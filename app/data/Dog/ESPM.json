@@ -18,29 +18,11 @@
     "prereq": []
   },
   {
-    "code": "ESPM 1003H",
-    "subject": "ESPM",
-    "id": "1003H",
-    "title": "Honors Colloq",
-    "info": "lectures from experts, readings, discussions of current environmental topics/issues. topics vary, see class schedule.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
     "code": "ESPM 1011",
     "subject": "ESPM",
     "id": "1011",
     "title": "Issues in the Environment",
     "info": "introductory survey of environmental issues that explores the connections between environmental sciences, policy, and management. you will explore interrelationships between the environment and human society, as well as the underlying social, ethical, political and economic factors that affect those relationships.  you will also examine the roles for science, technology, policy, and environmental justice in meeting environmental challenges.  asynchronous online lectures with weekly discussions in small groups.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "ESPM 1012H",
-    "subject": "ESPM",
-    "id": "1012H",
-    "title": "Environmental Sci & Society",
-    "info": "selection of current environmental issues affecting our daily lives. evaluate the scientific and social approaches necessary to resolve environmental issues. students explore how everything we do affects the environment in different ways.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -108,15 +90,6 @@
     "prereq": []
   },
   {
-    "code": "ESPM 1901H",
-    "subject": "ESPM",
-    "id": "1901H",
-    "title": "Topics: Freshman Seminar",
-    "info": "topics vary.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
     "code": "ESPM 1905",
     "subject": "ESPM",
     "id": "1905",
@@ -139,9 +112,13 @@
     "subject": "ESPM",
     "id": "2021",
     "title": "Env Sci: Integratd Prob Solvng",
-    "info": "environmental issues facing the world today are increasingly complex. challenges such as global climate change, air and water quality impairments, land use change for forest and agricultural production, and species conservation require an ability to conceptualize problems broadly so that solutions are crafted in a manner that addresses a multitude of perspectives and considerations.  this course will use an interdisciplinary case-study approach to expose students to the most important environmental problems facing society today as well as innovative solutions.  the case studies include investigations of ecosystem services, invasive species and pollution remediation, with world experts on these topics leading the discussions.  throughout, a focus on interdisciplinary analysis, including linkages to environmental grand challenges will be emphasized.  an interactive approach will be utilized as well, in which students work in groups and engage in class discussions as ways to internalize and conceptualize information.       \nprereq: 1011, espm major",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "environmental issues facing the world today are increasingly complex. challenges such as global climate change, air and water quality impairments, land use change for forest and agricultural production, and species conservation require an ability to conceptualize problems broadly so that solutions are crafted in a manner that addresses a multitude of perspectives and considerations.  this course will use an interdisciplinary case-study approach to expose students to the most important environmental problems facing society today as well as innovative solutions.  the case studies include investigations of ecosystem services, invasive species and pollution remediation, with world experts on these topics leading the discussions.  throughout, a focus on interdisciplinary analysis, including linkages to environmental grand challenges will be emphasized.  an interactive approach will be utilized as well, in which students work in groups and engage in class discussions as ways to internalize and conceptualize information.",
+    "prereqInfo": "1011, espm major",
+    "prereq": {
+      "code": "ESPM 1011",
+      "subject": "ESPM",
+      "id": "1011"
+    }
   },
   {
     "code": "ESPM 2401",
@@ -175,7 +152,7 @@
     "subject": "ESPM",
     "id": "3001",
     "title": "Treaty Rights & Natural Resrcs",
-    "info": "readings, class discussion about nature of treaty rights reserved by indigenous americans with respect to utilization of natural resources. emphasizes midwest issues. web-assisted course. ",
+    "info": "readings, class discussion about nature of treaty rights reserved by indigenous americans with respect to utilization of natural resources. emphasizes midwest issues. web-assisted course.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -193,7 +170,7 @@
     "subject": "ESPM",
     "id": "3012",
     "title": "Stats Methods for Env Sci/Mgrs",
-    "info": "introduction to statistical principles, foundations, and methods for examining data and drawing conclusions. confidence intervals, hypothesis testing, analysis of variance, and regression modeling of relationships in environmental and natural resource science and management problems. ",
+    "info": "introduction to statistical principles, foundations, and methods for examining data and drawing conclusions. confidence intervals, hypothesis testing, analysis of variance, and regression modeling of relationships in environmental and natural resource science and management problems.",
     "prereqInfo": "two yrs of high school math",
     "prereq": []
   },
@@ -641,6 +618,11 @@
           "code": "CHEM 1021",
           "subject": "CHEM",
           "id": "1021"
+        },
+        {
+          "code": "SOIL 2125",
+          "subject": "SOIL",
+          "id": "2125"
         }
       ]
     }
@@ -672,8 +654,8 @@
     "subject": "ESPM",
     "id": "3777",
     "title": "Climate Change-Physics & Myths",
-    "info": "climate variations are the norm; not the exception. the geological and archaeological records are rich with evidence of a climate system that is dynamic and non-steady state. yet we face the challenges of understanding the complexities of this system in order to manage our natural resources and to prepare wisely for the future. this class examines the basic theory and physics behind the atmospheric greenhouse effect and radiative forcings in the climate system. the myths, mysteries, and uncertainties about the climate record and feedback processes operating in the earth-atmosphere system will be examined. simple models will be used to demonstrate the atmospheric greenhouse effect. sophisticated numerical weather models, such as the regional weather and forecast chemistry (wrf-chem) model, will be used to demonstrate climate predictions and biophysical feedback processes. we will also study some of the classic warming papers that provide the physical scientific basis for the anthropogenic greenhouse effect. finally, we will explore the uncertainties related to climate predictions and how scientists use fingerprint techniques to diagnose natural versus anthropogenic climate signals. there is no prerequisite required for this course, but first year calculus and one other first year science course is recommended.",
-    "prereqInfo": null,
+    "info": "climate variations are the norm; not the exception. the geological and archaeological records are rich with evidence of a climate system that is dynamic and non-steady state. yet we face the challenges of understanding the complexities of this system in order to manage our natural resources and to prepare wisely for the future. this class examines the basic theory and physics behind the atmospheric greenhouse effect and radiative forcings in the climate system. the myths, mysteries, and uncertainties about the climate record and feedback processes operating in the earth-atmosphere system will be examined. simple models will be used to demonstrate the atmospheric greenhouse effect. sophisticated numerical weather models, such as the regional weather and forecast chemistry (wrf-chem) model, will be used to demonstrate climate predictions and biophysical feedback processes. we will also study some of the classic warming papers that provide the physical scientific basis for the anthropogenic greenhouse effect. finally, we will explore the uncertainties related to climate predictions and how scientists use fingerprint techniques to diagnose natural versus anthropogenic climate signals. there is no",
+    "prereqInfo": "uisite required for this course, but first year calculus and one other first year science course is recommended.",
     "prereq": []
   },
   {
@@ -681,8 +663,8 @@
     "subject": "ESPM",
     "id": "3921",
     "title": "Science and Critical Thinking",
-    "info": "today more than ever we must deal with multiple sources of conflicting information on topics that affect our lives in big ways.  we use this information to make important decisions, from major policy decisions to personal lifestyle choices. understanding complex, high-stakes societal issues such as the global covid-19 pandemic requires that we rapidly process and synthesize new science that is changing fast, and that we do so in an environment of partisan bias and media spin that make it extremely difficult for citizens to stay informed and make good decisions. the debate surrounding the response to covid-19, climate change, water policy, and other planetary and human health issues, invoke moral or ethical principles in addition to scientific arguments. as a result, problem solving and decision making requires simultaneously evaluating complex scientific and ethical arguments. several aspects of human psychology mean that we do not reliably make logical choices when presented with complex information. furthermore, data and science are frequently used to mislead, from the naïve misuse of statistics to deliberate misinformation campaigns. as a result, weighing evidence and rational decision-making for complex issues requires skepticism, critical thinking, and lots of practice. ",
-    "prereqInfo": "in this course, students will develop critical thinking tools and cultivate scientific skepticism for evaluating claims encountered in peer-reviewed scientific papers, popular press articles, or on social media. examples and case studies will draw heavily on current events surrounding the covid-19 pandemic and associated societal and environmental responses,  but will also include other environmental, health, and public policy issues to demonstrate the range of ways in which data and science can be used or misused to support a position. to create the necessary habits of mind for skepticism and critical thinking, this course will cover background material from ethics, neurology, behavioral economics, statistics, and logic. we will employ a number of active learning strategies, and class meetings will frequently consist of students actively engaged in processing and understanding course content. ",
+    "info": "today more than ever we must deal with multiple sources of conflicting information on topics that affect our lives in big ways.  we use this information to make important decisions, from major policy decisions to personal lifestyle choices. understanding complex, high-stakes societal issues such as the global covid-19 pandemic requires that we rapidly process and synthesize new science that is changing fast, and that we do so in an environment of partisan bias and media spin that make it extremely difficult for citizens to stay informed and make good decisions. the debate surrounding the response to covid-19, climate change, water policy, and other planetary and human health issues, invoke moral or ethical principles in addition to scientific arguments. as a result, problem solving and decision making requires simultaneously evaluating complex scientific and ethical arguments. several aspects of human psychology mean that we do not reliably make logical choices when presented with complex information. furthermore, data and science are frequently used to mislead, from the naïve misuse of statistics to deliberate misinformation campaigns. as a result, weighing evidence and rational decision-making for complex issues requires skepticism, critical thinking, and lots of practice. \n\nin this course, students will develop critical thinking tools and cultivate scientific skepticism for evaluating claims encountered in peer-reviewed scientific papers, popular press articles, or on social media. examples and case studies will draw heavily on current events surrounding the covid-19 pandemic and associated societal and environmental responses,  but will also include other environmental, health, and public policy issues to demonstrate the range of ways in which data and science can be used or misused to support a position. to create the necessary habits of mind for skepticism and critical thinking, this course will cover background material from ethics, neurology, behavioral economics, statistics, and logic. we will employ a number of active learning strategies, and class meetings will frequently consist of students actively engaged in processing and understanding course content. \n\nupon leaving this course students will be able to confidently evaluate the veracity of information as they encounter it in multiple contexts throughout their lives. students will understand how views of the role of ethics in scientific inquiry have evolved, and the roles of science, uncertainty, and ethics in determining public opinion and policy decisions on environmental topics. students will learn to identify and recognize misinformation in its various forms and to articulate why a particular piece of information is misleading. we will explore the various ways that our intuition and memory make interpreting data and statistics challenging, and develop tools and habits of mind to overcome these challenges.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -690,8 +672,8 @@
     "subject": "ESPM",
     "id": "3993",
     "title": "Directed Study",
-    "info": "a course in which a student designs and carries out a directed study on selected topics or problems under the direction of a faculty member; eg, literature review. directed study courses may be taken for variable credit and special permission is needed for enrollment.  students enrolling in a directed study will be required to use the university-wide on-line directed study contract process in order to enroll.\n \nprereq: department consent, instructor consent, no more than 6 credits of directed study counts towards cfans major requirements",
-    "prereqInfo": null,
+    "info": "a course in which a student designs and carries out a directed study on selected topics or problems under the direction of a faculty member; eg, literature review. directed study courses may be taken for variable credit and special permission is needed for enrollment.  students enrolling in a directed study will be required to use the university-wide on-line directed study contract process in order to enroll.",
+    "prereqInfo": "department consent, instructor consent, no more than 6 credits of directed study counts towards cfans major requirements",
     "prereq": []
   },
   {
@@ -699,8 +681,8 @@
     "subject": "ESPM",
     "id": "3994",
     "title": "Directed Research",
-    "info": "an opportunity in which a student designs and carries out a directed research project under the direction of a faculty member. directed research may be taken for variable credit and special permission is needed for enrollment. students enrolling in a directed research will be required to use the university-wide on-line directed research contract process in order to enroll.\n \nprereq: department consent, instructor consent, no more than 6 credits of directed research counts towards cfans major requirements.",
-    "prereqInfo": null,
+    "info": "an opportunity in which a student designs and carries out a directed research project under the direction of a faculty member. directed research may be taken for variable credit and special permission is needed for enrollment. students enrolling in a directed research will be required to use the university-wide on-line directed research contract process in order to enroll.",
+    "prereqInfo": "department consent, instructor consent, no more than 6 credits of directed research counts towards cfans major requirements.",
     "prereq": []
   },
   {
@@ -762,15 +744,6 @@
     "prereq": []
   },
   {
-    "code": "ESPM 4200H",
-    "subject": "ESPM",
-    "id": "4200H",
-    "title": "Hon. Sem.",
-    "info": "topics presented by faculty, students, guest speakers. lecture/discussion.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
     "code": "ESPM 4216",
     "subject": "ESPM",
     "id": "4216",
@@ -784,9 +757,27 @@
     "subject": "ESPM",
     "id": "4242",
     "title": "Mthds: Envir/Nat Res Pol Anlys",
-    "info": "methods, formal/informal, for analyzing environmental/natural resource policies. how to critically evaluate policies, using economic/non-economic decision-making criteria. application of policy analysis to  environmental/natural resource problems. recognizing politically-charged environment in which decisions over use, management, and protection of resources often occur.\nprereqs: espm 3241w or espm 3271 and espm 3261, undergrads with  jr or sr standing.",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "methods, formal/informal, for analyzing environmental/natural resource policies. how to critically evaluate policies, using economic/non-economic decision-making criteria. application of policy analysis to  environmental/natural resource problems. recognizing politically-charged environment in which decisions over use, management, and protection of resources often occur.",
+    "prereqInfo": "s: espm 3241w or espm 3271 and espm 3261, undergrads with  jr or sr standing.",
+    "prereq": {
+      "and": [
+        {
+          "code": "ESPM 3241W",
+          "subject": "ESPM",
+          "id": "3241W"
+        },
+        {
+          "code": "ESPM 3271",
+          "subject": "ESPM",
+          "id": "3271"
+        },
+        {
+          "code": "ESPM 3261",
+          "subject": "ESPM",
+          "id": "3261"
+        }
+      ]
+    }
   },
   {
     "code": "ESPM 4256",
@@ -794,7 +785,7 @@
     "id": "4256",
     "title": "NR Law & Mgmt of Pub Land/Wtr",
     "info": "this course is intended to provide non-law students with an understanding of the role of the judiciary in the management of public lands and public waters. the course will examine constitutional provisions affecting the management of public resources, the concept of property rights, major principles of water law, the role of the legal system in environmental review, the scope of legal authority granted to administrative agencies, and limitations of private property rights to protect public lands and public waters. the class will introduce students to the concepts of legal reasoning including case synthesis and analysis. the class will be taught using a combination of lecture, guest lectures, written exercises, and class participation. this course will be taught online.",
-    "prereqInfo": "prereqs: 3241w, juniors, seniors and graduate students or instructor permission",
+    "prereqInfo": "s: 3241w, juniors, seniors and graduate students or instructor permission",
     "prereq": {
       "code": "ESPM 3241",
       "subject": "ESPM",
@@ -932,30 +923,12 @@
     }
   },
   {
-    "code": "ESPM 4801H",
-    "subject": "ESPM",
-    "id": "4801H",
-    "title": "Honors Research",
-    "info": "independent research project supervised by faculty member.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "ESPM 4802H",
-    "subject": "ESPM",
-    "id": "4802H",
-    "title": "Honors Research",
-    "info": "completion of honors thesis. oral report.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
     "code": "ESPM 4811",
     "subject": "ESPM",
     "id": "4811",
     "title": "Environmental Interpretation",
-    "info": "this course is designed to be an introduction to the broad field of environmental interpretation, communication theory, visitor information services (vis), and nonformal education experience's found in parks, nature centers, camps, zoos, museums, arboretums, and free-choice learning environments. ",
-    "prereqInfo": "students will understand the definitions, role and scope of interpretation, differences between audiences and/or users of interpretive services, and distinguish between interpretive techniques based on their advantages/disadvantages. students can also qualify for the national association for interpretation's (nai) certified interpretive guide (cig) program.",
+    "info": "this course is designed to be an introduction to the broad field of environmental interpretation, communication theory, visitor information services (vis), and nonformal education experience's found in parks, nature centers, camps, zoos, museums, arboretums, and free-choice learning environments. \n\nstudents will understand the definitions, role and scope of interpretation, differences between audiences and/or users of interpretive services, and distinguish between interpretive techniques based on their advantages/disadvantages. students can also qualify for the national association for interpretation's (nai) certified interpretive guide (cig) program.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -972,7 +945,7 @@
     "subject": "ESPM",
     "id": "5001",
     "title": "Treaty Rights & Natural Resour",
-    "info": "readings, class discussion about treaty rights reserved by indigenous americans with respect to use of natural resources. emphasizes midwest issues. web-assisted course. ",
+    "info": "readings, class discussion about treaty rights reserved by indigenous americans with respect to use of natural resources. emphasizes midwest issues. web-assisted course.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -1044,7 +1017,7 @@
     "subject": "ESPM",
     "id": "5071",
     "title": "Ecol Restoration",
-    "info": "each ecosystem restoration is the product of a myriad of decisions made in response to existing site conditions (biotic and abiotic), anticipated effects from the surrounding landscape, predictions about future events, logistical realities, and, of course, desired conditions. during this course, you will learn about the ecological and social factors that affect ecosystem recovery and how people intervene to reverse ecosystem degradation. the course includes examples from ecosystems around the world, with emphasis on those found in the midwestern us. field trips. ",
+    "info": "each ecosystem restoration is the product of a myriad of decisions made in response to existing site conditions (biotic and abiotic), anticipated effects from the surrounding landscape, predictions about future events, logistical realities, and, of course, desired conditions. during this course, you will learn about the ecological and social factors that affect ecosystem recovery and how people intervene to reverse ecosystem degradation. the course includes examples from ecosystems around the world, with emphasis on those found in the midwestern us. field trips.",
     "prereqInfo": "this course presumes previous courses in basic ecology and plant science.",
     "prereq": []
   },
@@ -1179,8 +1152,8 @@
     "subject": "ESPM",
     "id": "5256",
     "title": "NatRes Law & Mgmt Pub Land/Wtr",
-    "info": "this course is intended to provide non-law students with an understanding of the role of the judiciary in the management of public lands and public waters. the course will examine constitutional provisions affecting the management of public resources, the concept of property rights, major principles of water law, the role of the legal system in environmental review, the scope of legal authority granted to administrative agencies, and limitations of private property rights to protect public lands and public waters. the class will introduce students to the concepts of legal reasoning including case synthesis and analysis. the class will be taught using a combination of lecture, guest lectures, written exercises and class participation.\nprereq: grad student",
-    "prereqInfo": null,
+    "info": "this course is intended to provide non-law students with an understanding of the role of the judiciary in the management of public lands and public waters. the course will examine constitutional provisions affecting the management of public resources, the concept of property rights, major principles of water law, the role of the legal system in environmental review, the scope of legal authority granted to administrative agencies, and limitations of private property rights to protect public lands and public waters. the class will introduce students to the concepts of legal reasoning including case synthesis and analysis. the class will be taught using a combination of lecture, guest lectures, written exercises and class participation.",
+    "prereqInfo": "grad student",
     "prereq": []
   },
   {
@@ -1206,7 +1179,7 @@
     "subject": "ESPM",
     "id": "5402",
     "title": "Biometeorology",
-    "info": "this course examines the interactions between the atmosphere and the earths surface. we will discuss the principles of the surface energy and radiation balance, air motion in the atmospheric boundary layer, land surface parameterization for climate models, boundary layer budgets, and field research methods. the course aims to achieve exemplary learning through hands-on activities and examining recent field studies conducted in natural and managed ecosystems. ",
+    "info": "this course examines the interactions between the atmosphere and the earths surface. we will discuss the principles of the surface energy and radiation balance, air motion in the atmospheric boundary layer, land surface parameterization for climate models, boundary layer budgets, and field research methods. the course aims to achieve exemplary learning through hands-on activities and examining recent field studies conducted in natural and managed ecosystems.",
     "prereqInfo": "math 1271, phys 1201, stat 3011, [instr consent]",
     "prereq": {
       "and": [
@@ -1273,6 +1246,11 @@
           "code": "ESPM 2125",
           "subject": "ESPM",
           "id": "2125"
+        },
+        {
+          "code": "SOIL 4511",
+          "subject": "SOIL",
+          "id": "4511"
         }
       ]
     }
@@ -1516,8 +1494,8 @@
     "subject": "ESPM",
     "id": "5811",
     "title": "Environmental Interpretation",
-    "info": "this course is designed to be an introduction to the broad field of environmental interpretation, communication theory, visitor information services (vis), and nonformal education experience's found in parks, nature centers, camps, zoos, museums, arboretums, and free-choice learning environments. ",
-    "prereqInfo": "students will understand the definitions, role and scope of interpretation, differences between audiences and/or users of interpretive services, and distinguish between interpretive techniques based on their advantages/disadvantages. students can also qualify for the national association for interpretation's (nai) certified interpretive guide (cig) program.",
+    "info": "this course is designed to be an introduction to the broad field of environmental interpretation, communication theory, visitor information services (vis), and nonformal education experience's found in parks, nature centers, camps, zoos, museums, arboretums, and free-choice learning environments. \n\nstudents will understand the definitions, role and scope of interpretation, differences between audiences and/or users of interpretive services, and distinguish between interpretive techniques based on their advantages/disadvantages. students can also qualify for the national association for interpretation's (nai) certified interpretive guide (cig) program.",
+    "prereqInfo": null,
     "prereq": []
   }
 ]

@@ -79,9 +79,23 @@
     "info": "this course will expose students to the studies of therapeutic agents used for the treatment of cancer.  we will study the mechanisms of current anticancer drugs.  we will also explore the recent development of novel anticancer agents, as well as the process of drug discovery & development.",
     "prereqInfo": "college-level biology: phcl 2001 and/or phcl3100, gcd4151 recommended.",
     "prereq": {
-      "code": "PHCL 2001",
-      "subject": "PHCL",
-      "id": "2001"
+      "and": [
+        {
+          "code": "PHCL 2001",
+          "subject": "PHCL",
+          "id": "2001"
+        },
+        {
+          "code": "PHCL 3100",
+          "subject": "PHCL",
+          "id": "3100"
+        },
+        {
+          "code": "GCD 4151",
+          "subject": "GCD",
+          "id": "4151"
+        }
+      ]
     }
   },
   {
@@ -148,22 +162,9 @@
     "subject": "PHCL",
     "id": "4343",
     "title": "Pharmacology of the Synapse",
-    "info": "study synapse as pharmacological gateway to nervous system. explore physiology of/cellular signalling at synapse, how signalling influences conditions such as parkinson's disease, depression, anxiety, pain, addiction. how various drugs modify signalling at synapse.",
-    "prereqInfo": "recommend: [phcl 2001, phcl 3100]",
-    "prereq": {
-      "and": [
-        {
-          "code": "PHCL 2001",
-          "subject": "PHCL",
-          "id": "2001"
-        },
-        {
-          "code": "PHCL 3100",
-          "subject": "PHCL",
-          "id": "3100"
-        }
-      ]
-    }
+    "info": "study synapse as pharmacological gateway to nervous system. explore physiology of/cellular signalling at synapse, how signalling influences conditions such as parkinson's disease, depression, anxiety, pain, addiction. how various drugs modify signalling at synapse.\n\nrecommend: [phcl 2001, phcl 3100]",
+    "prereqInfo": null,
+    "prereq": []
   },
   {
     "code": "PHCL 4993",
@@ -246,7 +247,7 @@
     "subject": "PHCL",
     "id": "5110",
     "title": "Introduction to Pharmacology",
-    "info": "this is a course for first-year students in the graduate program in pharmacology. the course introduces students to the basic principles of pharmacology and focuses on molecular mechanisms of drug action. topics covered include pharmacokinetics, pharmacodynamics, signal transduction, toxicology pharmacogenomics, and drug discovery. ",
+    "info": "this is a course for first-year students in the graduate program in pharmacology. the course introduces students to the basic principles of pharmacology and focuses on molecular mechanisms of drug action. topics covered include pharmacokinetics, pharmacodynamics, signal transduction, toxicology pharmacogenomics, and drug discovery.",
     "prereqInfo": "student in the graduate program in pharmacology or approval from the course director(s) keywords: introduction, pharmacology, molecular, drug, pharmacokinetics, pharmacodynamics, protein, pharmacokinetics",
     "prereq": []
   },
@@ -398,7 +399,7 @@
     "subject": "PHCL",
     "id": "8200",
     "title": "SciComm I",
-    "info": "the mission of the course is to increase the students’ ability to critically evaluate and comprehend the scientific literature, properly present scientific literature/figures, and critique presentations related to the field of pharmacology. after the course is completed, the students will be able to understand and differentiate the six components of a scientific paper, quickly identify the hypothesis and objective of a scientific paper, recognize the key figure(s), with controls, that support the hypothesis, how to present scientific data, how to submit journal articles and navigate the submission and publication process, and critique presentations. ",
+    "info": "the mission of the course is to increase the students’ ability to critically evaluate and comprehend the scientific literature, properly present scientific literature/figures, and critique presentations related to the field of pharmacology. after the course is completed, the students will be able to understand and differentiate the six components of a scientific paper, quickly identify the hypothesis and objective of a scientific paper, recognize the key figure(s), with controls, that support the hypothesis, how to present scientific data, how to submit journal articles and navigate the submission and publication process, and critique presentations.",
     "prereqInfo": "student in the graduate program in pharmacology\n\nkeywords: pharmacology, seminar, presentation, lecture, research, basic science",
     "prereq": []
   },
@@ -452,8 +453,8 @@
     "subject": "PHCL",
     "id": "8211",
     "title": "Advanced Pharmacology",
-    "info": "this hybrid course offers a combination of online and in-class lectures coupled with interactive literature discussion/flipped classroom components. the course has three sections focusing on 1) pharmacology of the autonomic, cardiovascular, and respiratory systems, 2) anti-cancer and anti-microbial therapeutics and 3) pharmacology of the nervous system. course instructors will highlight key features of currently utilized therapeutic agents and underscore recent advances in basic and clinical research that underpin emerging or potential approaches to pharmacotherapy. ",
-    "prereqInfo": "student in the graduate program in pharmacology, or course director consent",
+    "info": "this hybrid course offers a combination of online and in-class lectures coupled with interactive literature discussion/flipped classroom components. the course has three sections focusing on 1) pharmacology of the autonomic, cardiovascular, and respiratory systems, 2) anti-cancer and anti-microbial therapeutics and 3) pharmacology of the nervous system. course instructors will highlight key features of currently utilized therapeutic agents and underscore recent advances in basic and clinical research that underpin emerging or potential approaches to pharmacotherapy. \n\nstudent in the graduate program in pharmacology, or course director consent\n\nkeywords: pharmacology, drug, therapy, medical, biomedical, clinic",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -474,7 +475,7 @@
     "subject": "PHCL",
     "id": "8216",
     "title": "Signal Transduction & Gene Exp",
-    "info": "mechanisms of intracellular signal transduction. transcriptional regulation> cellular/molecular techniques to study cell signaling. well-characterized signaling pathways, experimental approaches. current issues/problems. ",
+    "info": "mechanisms of intracellular signal transduction. transcriptional regulation> cellular/molecular techniques to study cell signaling. well-characterized signaling pathways, experimental approaches. current issues/problems.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -548,7 +549,11 @@
     "title": "Doct Pre-Thesis Cr",
     "info": "tbd",
     "prereqInfo": "doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": []
+    "prereq": {
+      "code": "PHCL 60",
+      "subject": "PHCL",
+      "id": "60"
+    }
   },
   {
     "code": "PHCL 8777",
@@ -557,7 +562,11 @@
     "title": "Thesis Credit:Mast*",
     "info": "(no description)",
     "prereqInfo": "max 18 cr per semester or summer; 10 cr total required [plan a only]",
-    "prereq": []
+    "prereq": {
+      "code": "PHCL 10",
+      "subject": "PHCL",
+      "id": "10"
+    }
   },
   {
     "code": "PHCL 8888",

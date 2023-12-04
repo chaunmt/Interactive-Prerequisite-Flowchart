@@ -114,7 +114,11 @@
     "title": "Doct Pre-Thesis Cr",
     "info": "tbd",
     "prereqInfo": "doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": []
+    "prereq": {
+      "code": "SCIC 60",
+      "subject": "SCIC",
+      "id": "60"
+    }
   },
   {
     "code": "SCIC 8777",
@@ -123,7 +127,11 @@
     "title": "Thesis Credit:Mast*",
     "info": "(no description)",
     "prereqInfo": "max 18 cr per semester or summer; 10 cr total required [plan a only]",
-    "prereq": []
+    "prereq": {
+      "code": "SCIC 10",
+      "subject": "SCIC",
+      "id": "10"
+    }
   },
   {
     "code": "SCIC 8888",

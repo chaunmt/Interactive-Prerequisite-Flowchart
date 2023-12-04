@@ -76,8 +76,8 @@
     "subject": "AGRO",
     "id": "2022",
     "title": "Growth & Develop of MN Crops",
-    "info": "students learn how field crop species grow and develop, how unique traits of crop species contribute to ecosystem services, and how to identify important growth stages of crops. in addition to traditional agronomic crops (small grains, alfalfa, soybean and corn), students will work with annual and perennial species that represent emerging crops grown for grain, oil seed, novel products, cover crops and biomass. course work includes lectures, labs (greenhouse and field), and online assignments and quizzes.  ",
-    "prereqInfo": "prereqs: agro 1101 or hort 1001 or biol 1009 or biol 1001 and agro 1103",
+    "info": "students learn how field crop species grow and develop, how unique traits of crop species contribute to ecosystem services, and how to identify important growth stages of crops. in addition to traditional agronomic crops (small grains, alfalfa, soybean and corn), students will work with annual and perennial species that represent emerging crops grown for grain, oil seed, novel products, cover crops and biomass. course work includes lectures, labs (greenhouse and field), and online assignments and quizzes.",
+    "prereqInfo": "s: agro 1101 or hort 1001 or biol 1009 or biol 1001 and agro 1103",
     "prereq": {
       "and": [
         {
@@ -140,7 +140,7 @@
     "subject": "AGRO",
     "id": "2402",
     "title": "The Science of Cannabis",
-    "info": "botany, growth and development of cannabis, industrial and medical uses, cultivation of industrial and medical cannabis, human health and social impacts, federal and state regulations. ",
+    "info": "botany, growth and development of cannabis, industrial and medical uses, cultivation of industrial and medical cannabis, human health and social impacts, federal and state regulations.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -162,7 +162,7 @@
     "subject": "AGRO",
     "id": "2502",
     "title": "Intro Integrated Weed Mgmt",
-    "info": "weeds reduce crop yield and quality, affect human health, and result in significant economic loss. this course is for undergraduate students interested in learning more about weed management techniques in an applied context. the goal is to develop a basic understanding of how weed biology and ecology are used to select and integrate weed control tools for effective long-term management of weeds in annual and perennial cropping systems. the topics to be covered in this course will include basic understanding of weed biology/ecology, knowledge of different mechanical, cultural, and chemical weed control tools, and process for integration to meet specific goals.  the course involves active, hands-on learning around new technologies as well as guest lecturers from industry. agro 1103 or biol 1009 is recommended. agro 2501 is highly encouraged. ",
+    "info": "weeds reduce crop yield and quality, affect human health, and result in significant economic loss. this course is for undergraduate students interested in learning more about weed management techniques in an applied context. the goal is to develop a basic understanding of how weed biology and ecology are used to select and integrate weed control tools for effective long-term management of weeds in annual and perennial cropping systems. the topics to be covered in this course will include basic understanding of weed biology/ecology, knowledge of different mechanical, cultural, and chemical weed control tools, and process for integration to meet specific goals.  the course involves active, hands-on learning around new technologies as well as guest lecturers from industry. agro 1103 or biol 1009 is recommended. agro 2501 is highly encouraged.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -180,8 +180,8 @@
     "subject": "AGRO",
     "id": "3093",
     "title": "Directed Study",
-    "info": "directed study: a course in which a student designs and carries out a directed study on selected topics or problems under the direction of a faculty member; eg, literature review. directed study courses may be taken for variable credit and special permission is needed for enrollment.  students enrolling in a directed study will be required to use the university-wide on-line directed study contract process in order to enroll.\n \nprereq: department consent, instructor consent, no more than 6 credits of directed study counts towards cfans major requirements.",
-    "prereqInfo": null,
+    "info": "directed study: a course in which a student designs and carries out a directed study on selected topics or problems under the direction of a faculty member; eg, literature review. directed study courses may be taken for variable credit and special permission is needed for enrollment.  students enrolling in a directed study will be required to use the university-wide on-line directed study contract process in order to enroll.",
+    "prereqInfo": "department consent, instructor consent, no more than 6 credits of directed study counts towards cfans major requirements.",
     "prereq": []
   },
   {
@@ -189,8 +189,8 @@
     "subject": "AGRO",
     "id": "3094",
     "title": "Directed Research",
-    "info": "an opportunity in which a student designs and carries\nout a directed research project under the direction of a faculty member. directed\nresearch may be taken for variable credit and special permission is needed for\nenrollment.students enrolling in a directed research will be required to use the\nuniversity-wide on-line directed research contract process in order to enroll.\nprereq: department consent, instructor consent, no more than 6 credits of\ndirected research counts towards cfans major requirements.",
-    "prereqInfo": null,
+    "info": "an opportunity in which a student designs and carries\nout a directed research project under the direction of a faculty member. directed\nresearch may be taken for variable credit and special permission is needed for\nenrollment.students enrolling in a directed research will be required to use the\nuniversity-wide on-line directed research contract process in order to enroll.",
+    "prereqInfo": "department consent, instructor consent, no more than 6 credits of\ndirected research counts towards cfans major requirements.",
     "prereq": []
   },
   {
@@ -256,7 +256,7 @@
     "subject": "AGRO",
     "id": "4015",
     "title": "Topics in Agronomy",
-    "info": "this course focuses on current topics in crops, cropping systems, and plant improvement.     ",
+    "info": "this course focuses on current topics in crops, cropping systems, and plant improvement.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -267,7 +267,11 @@
     "title": "Dir Studies for Adv Students",
     "info": "allows study of agronomy in greater depth or in areas not currently offered in formal courses. tutorial instruction under staff guidance.",
     "prereqInfo": "15 cr in agronomy, instr consent",
-    "prereq": []
+    "prereq": {
+      "code": "AGRO 15",
+      "subject": "AGRO",
+      "id": "15"
+    }
   },
   {
     "code": "AGRO 4094W",
@@ -311,7 +315,7 @@
     "id": "4105",
     "title": "Crop Management Field School",
     "info": "in this course, you will apply and integrate principles and concepts of agronomy, plant pathology, entomology, and soil and weed science in a hands-on field setting with real-life scenarios and problems common in production agriculture.",
-    "prereqInfo": "prereqs: biol 1001, 1009 or hort 1001; agro 1103, and soil 2125  ",
+    "prereqInfo": "s: biol 1001, 1009 or hort 1001; agro 1103, and soil 2125",
     "prereq": {
       "and": [
         {
@@ -328,6 +332,16 @@
           "code": "HORT 1001",
           "subject": "HORT",
           "id": "1001"
+        },
+        {
+          "code": "AGRO 1103",
+          "subject": "AGRO",
+          "id": "1103"
+        },
+        {
+          "code": "SOIL 2125",
+          "subject": "SOIL",
+          "id": "2125"
         }
       ]
     }
@@ -426,6 +440,16 @@
           "code": "AGRO 1101",
           "subject": "AGRO",
           "id": "1101"
+        },
+        {
+          "code": "CHEM 1015",
+          "subject": "CHEM",
+          "id": "1015"
+        },
+        {
+          "code": "SOIL 1125",
+          "subject": "SOIL",
+          "id": "1125"
         }
       ]
     }
@@ -636,7 +660,7 @@
     "subject": "AGRO",
     "id": "8305",
     "title": "Plant Envir Physiol",
-    "info": "introduction to plants and their reactions and responses in managed and natural ecosystems, including carbon and nitrogen allocation, root biology, microbial interaction, secondary metabolism, and plant response to biotic and abiotic stress. ",
+    "info": "introduction to plants and their reactions and responses in managed and natural ecosystems, including carbon and nitrogen allocation, root biology, microbial interaction, secondary metabolism, and plant response to biotic and abiotic stress.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -654,7 +678,7 @@
     "subject": "AGRO",
     "id": "8605",
     "title": "Adv Mgmt of Agroecosystems",
-    "info": "problem-based learning approach to developing a holistic approach to agroecosystem-based crop management. field trips combined with classroom discussion and decision-focused case studies. students conduct research and develop a decision case.  ",
+    "info": "problem-based learning approach to developing a holistic approach to agroecosystem-based crop management. field trips combined with classroom discussion and decision-focused case studies. students conduct research and develop a decision case.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -663,7 +687,7 @@
     "subject": "AGRO",
     "id": "8900",
     "title": "Advanced Discussions",
-    "info": "special workshops or courses in applied plant sciences for graduate students only.\n",
+    "info": "special workshops or courses in applied plant sciences for graduate students only.",
     "prereqInfo": null,
     "prereq": []
   }

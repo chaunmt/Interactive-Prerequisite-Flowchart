@@ -40,7 +40,7 @@
     "subject": "ANES",
     "id": "7181",
     "title": "Introduction to Anesthesiology",
-    "info": "the student will receive supervised training in the operating suite at fairview-university medical center (university campus), assisting in the management of all types of surgical patients under the direction of the faculty and residents of the department of anesthesiology. the rotation is divided into one-week segments; each student may select sub-specialty areas on the basis of interest. the student will spend the majority of his/her time in the operating room because only under such controlled conditions can there be leisurely teaching of essential life-support skills. there is no night or weekend call. ",
+    "info": "the student will receive supervised training in the operating suite at fairview-university medical center (university campus), assisting in the management of all types of surgical patients under the direction of the faculty and residents of the department of anesthesiology. the rotation is divided into one-week segments; each student may select sub-specialty areas on the basis of interest. the student will spend the majority of his/her time in the operating room because only under such controlled conditions can there be leisurely teaching of essential life-support skills. there is no night or weekend call.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -49,7 +49,7 @@
     "subject": "ANES",
     "id": "7182",
     "title": "Anesthesiology Research",
-    "info": "on- or off-campus learning experiences individually arranged between the student and a faculty member for credit in areas not covered by regular courses. may include clinical/basic science research, library research or special projects. ",
+    "info": "on- or off-campus learning experiences individually arranged between the student and a faculty member for credit in areas not covered by regular courses. may include clinical/basic science research, library research or special projects.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -94,8 +94,8 @@
     "subject": "ANES",
     "id": "7187",
     "title": "Peroperative Clinic Rotation",
-    "info": "this is a 4-week advanced elective that takes place in the preoperative anesthesia clinic with the department of anesthesiology faculty.  the goal of this elective is for medical students to gain experience evaluating medically complex patients and optimizing them prior to their procedures.",
-    "prereqInfo": "this elective is geared towards medical students planning to go into the primary care fields, surgery, or anesthesiology.  primary care physicians routinely perform the preoperative history and physical examinations for patients’ procedures.  they will gain a greater understanding of the anesthetic and procedural considerations that affect their patients. ",
+    "info": "this is a 4-week advanced elective that takes place in the preoperative anesthesia clinic with the department of anesthesiology faculty.  the goal of this elective is for medical students to gain experience evaluating medically complex patients and optimizing them prior to their procedures.\n\nthis elective is geared towards medical students planning to go into the primary care fields, surgery, or anesthesiology.  primary care physicians routinely perform the preoperative history and physical examinations for patients’ procedures.  they will gain a greater understanding of the anesthetic and procedural considerations that affect their patients. \n\nmedical students will work closely with the preoperative anesthesia clinic faculty and anesthesiology residents.  initially, the medical student will shadow residents/faculty, then they will progress to see patients independently and present to staff pertinent history and physical, assessment, and plan of action.  they will also assist in the coordination of the patient’s care which involves contacting primary care providers, surgical teams, and consultants.\n\nthe medical student will have the opportunity to follow select medically complex patients from a patient-centered, longitudinal perspective including coordination of care; application of evidence based, best practice protocols and pathways;  observation of the anesthetic care of the patient intraoperatively;  observation of the recovery and rehabilitation of the patient post operatively; and finally return of the patient to his or her primary care physician.  this is a unique, all encompassing view of a complex health care event not typically afforded trainees in traditional rotations.   \n\nover the course of 4 weeks, the medical student will have ten one-on-one didactic sessions in journal club format with faculty to cover topics related to the pre-operative assessment including evaluation of cardiovascular risk and testing, pulmonary testing, diabetes, and frailty.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -103,25 +103,51 @@
     "subject": "ANES",
     "id": "7188",
     "title": "Pain Medicine Elective",
-    "info": "pain is a common ailment that physicians across a range of specialties manage. therefore, accurately diagnosing and effectively managing pain is an important skillset to acquire. medical students will gain a greater depth of understanding of the complex mechanisms that contribute to pain and appreciate the multidisciplinary approach to pain medicine. medical students will spend their two weeks in both the outpatient and inpatient settings. in the chronic pain clinic they will evaluate patients with faculty, fellows, and residents, and observe and participate in interventional pain procedures. in the inpatient setting, they will observe and participate in regional anesthesia procedures prior to surgical procedures, evaluate hospitalized patients with chronic pain or complex pain management concerns and round on patients on the inpatient pain management service. students can fulfill the anesthesiology prerequisite either by completing anes 7181 or by doing at least 2 weeks of anesthesiology in surg 7552.",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "pain is a common ailment that physicians across a range of specialties manage. therefore, accurately diagnosing and effectively managing pain is an important skillset to acquire. medical students will gain a greater depth of understanding of the complex mechanisms that contribute to pain and appreciate the multidisciplinary approach to pain medicine. medical students will spend their two weeks in both the outpatient and inpatient settings. in the chronic pain clinic they will evaluate patients with faculty, fellows, and residents, and observe and participate in interventional pain procedures. in the inpatient setting, they will observe and participate in regional anesthesia procedures prior to surgical procedures, evaluate hospitalized patients with chronic pain or complex pain management concerns and round on patients on the inpatient pain management service. students can fulfill the anesthesiology",
+    "prereqInfo": "uisite either by completing anes 7181 or by doing at least 2 weeks of anesthesiology in surg 7552.",
+    "prereq": {
+      "or": [
+        {
+          "code": "ANES 7181",
+          "subject": "ANES",
+          "id": "7181"
+        },
+        {
+          "code": "SURG 7552",
+          "subject": "SURG",
+          "id": "7552"
+        }
+      ]
+    }
   },
   {
     "code": "ANES 7189",
     "subject": "ANES",
     "id": "7189",
     "title": "Acting Intern: CVICU",
-    "info": "in the u.s., cardiovascular disease is the leading cause of mortality and many patients require surgical treatment for cardiovascular disease. understanding the principles of diagnosis and management of complications in cardiac surgical patients is essential for students interested in pursuing a career in critical care regardless of avenue (surgery, emergency medicine, internal medicine, and anesthesiology). the goal of the cardiovascular icu (cvicu) clerkship is to give students the opportunity to develop basic skills in evaluation and treatment of patients requiring cardiac surgery including management of patients requiring mechanical circulatory support such as ventricular assist devices (vad's) and extracorporeal membrane oxygenation (ecmo). students can fulfill the anesthesiology prerequisite either by completing anes 7181 or by doing at least 2 weeks of anesthesiology in surg 7552.",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "in the u.s., cardiovascular disease is the leading cause of mortality and many patients require surgical treatment for cardiovascular disease. understanding the principles of diagnosis and management of complications in cardiac surgical patients is essential for students interested in pursuing a career in critical care regardless of avenue (surgery, emergency medicine, internal medicine, and anesthesiology). the goal of the cardiovascular icu (cvicu) clerkship is to give students the opportunity to develop basic skills in evaluation and treatment of patients requiring cardiac surgery including management of patients requiring mechanical circulatory support such as ventricular assist devices (vad's) and extracorporeal membrane oxygenation (ecmo). students can fulfill the anesthesiology",
+    "prereqInfo": "uisite either by completing anes 7181 or by doing at least 2 weeks of anesthesiology in surg 7552.",
+    "prereq": {
+      "or": [
+        {
+          "code": "ANES 7181",
+          "subject": "ANES",
+          "id": "7181"
+        },
+        {
+          "code": "SURG 7552",
+          "subject": "SURG",
+          "id": "7552"
+        }
+      ]
+    }
   },
   {
     "code": "ANES 7195",
     "subject": "ANES",
     "id": "7195",
     "title": "Virtual Anes Advanced Elective",
-    "info": "students will learn more advanced concepts by being exposed to cardiothoracic anesthesiology, regional,\nand/or pediatric anesthesiology.\noptions:\n2 weeks of cardiac anesthesiology or\n1 week of regional anesthesiology and pain and 1 week of pediatric anesthesiology.\nthe medical student will develop a greater understanding of perioperative cardiovascular\nphysiology/hemodynamics, pulmonary physiology, and interpretation of data from multiple monitors in adult patients undergoing cardiothoracic surgery.\nthe regional anesthesia rotation will include learning about specific procedures such as transversus abdominis\nplane and brachial plexus blocks, epidural catheter placement, and the management of acute pain patients.\nthe medical student will develop a greater understanding of perioperative cardiovascular\nphysiology/hemodynamics, pulmonary physiology, and interpretation of data in pediatric patients undergoing\ncommon procedures.\n",
+    "info": "students will learn more advanced concepts by being exposed to cardiothoracic anesthesiology, regional,\nand/or pediatric anesthesiology.\noptions:\n2 weeks of cardiac anesthesiology or\n1 week of regional anesthesiology and pain and 1 week of pediatric anesthesiology.\nthe medical student will develop a greater understanding of perioperative cardiovascular\nphysiology/hemodynamics, pulmonary physiology, and interpretation of data from multiple monitors in adult patients undergoing cardiothoracic surgery.\nthe regional anesthesia rotation will include learning about specific procedures such as transversus abdominis\nplane and brachial plexus blocks, epidural catheter placement, and the management of acute pain patients.\nthe medical student will develop a greater understanding of perioperative cardiovascular\nphysiology/hemodynamics, pulmonary physiology, and interpretation of data in pediatric patients undergoing\ncommon procedures.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -130,8 +156,8 @@
     "subject": "ANES",
     "id": "7196",
     "title": "Advanced Clinical Anes",
-    "info": "medical students will learn advanced anesthesiology concepts by being exposed to the anesthetic management of patients undergoing cardiothoracic procedures in the clinical setting.  medical students will develop a greater understanding of perioperative cardiovascular physiology/hemodynamics, pulmonary physiology, and interpretation of data from multiple monitors in adult patients undergoing cardiothoracic surgery. ",
-    "prereqInfo": "anes 7195 \n\n\n\n\n",
+    "info": "medical students will learn advanced anesthesiology concepts by being exposed to the anesthetic management of patients undergoing cardiothoracic procedures in the clinical setting.  medical students will develop a greater understanding of perioperative cardiovascular physiology/hemodynamics, pulmonary physiology, and interpretation of data from multiple monitors in adult patients undergoing cardiothoracic surgery.",
+    "prereqInfo": "anes 7195",
     "prereq": {
       "code": "ANES 7195",
       "subject": "ANES",

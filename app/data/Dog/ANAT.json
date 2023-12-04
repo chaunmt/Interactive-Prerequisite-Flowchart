@@ -101,27 +101,10 @@
           "id": "3001"
         },
         {
-          "code": "ANAT 3601",
+          "code": "ANAT 3301",
           "subject": "ANAT",
-          "id": "3601"
+          "id": "3301"
         },
-        {
-          "code": "ANAT 3611",
-          "subject": "ANAT",
-          "id": "3611"
-        }
-      ]
-    }
-  },
-  {
-    "code": "ANAT 3608H",
-    "subject": "ANAT",
-    "id": "3608H",
-    "title": "Honors Human Anatomy Lab",
-    "info": "lab work required for 3602 or 3612. additional dissection of human cadavers/related projects. supplements 3001 or 3601 or 3611.",
-    "prereqInfo": "[concurrent registration is required (or allowed) in 3601 or concurrent registration is required (or allowed) in 3611] or 3001], sophomore, junior or senior, honors",
-    "prereq": {
-      "or": [
         {
           "code": "ANAT 3601",
           "subject": "ANAT",
@@ -131,11 +114,6 @@
           "code": "ANAT 3611",
           "subject": "ANAT",
           "id": "3611"
-        },
-        {
-          "code": "ANAT 3001",
-          "subject": "ANAT",
-          "id": "3001"
         }
       ]
     }
@@ -148,21 +126,35 @@
     "info": "anatomical relationships. function based upon form. clinical applications. gross (macroscopic) anatomy, histology (microscopic anatomy). neuroanatomy (nervous system), embryology (developmental anatomy).",
     "prereqInfo": "[biol 1002 or biol 1009 or biol 2002 or equiv], at least soph; [concurrent registration is required (or allowed) in 3602 or concurrent registration is required (or allowed) in 3612] recommended",
     "prereq": {
-      "or": [
+      "and": [
         {
-          "code": "BIOL 1002",
-          "subject": "BIOL",
-          "id": "1002"
+          "or": [
+            {
+              "code": "BIOL 1002",
+              "subject": "BIOL",
+              "id": "1002"
+            },
+            {
+              "code": "BIOL 1009",
+              "subject": "BIOL",
+              "id": "1009"
+            },
+            {
+              "code": "BIOL 2002",
+              "subject": "BIOL",
+              "id": "2002"
+            }
+          ]
         },
         {
-          "code": "BIOL 1009",
-          "subject": "BIOL",
-          "id": "1009"
+          "code": "ANAT 3602",
+          "subject": "ANAT",
+          "id": "3602"
         },
         {
-          "code": "BIOL 2002",
-          "subject": "BIOL",
-          "id": "2002"
+          "code": "ANAT 3612",
+          "subject": "ANAT",
+          "id": "3612"
         }
       ]
     }
@@ -190,6 +182,11 @@
           "code": "INMD 3001",
           "subject": "INMD",
           "id": "3001"
+        },
+        {
+          "code": "ANAT 3301",
+          "subject": "ANAT",
+          "id": "3301"
         },
         {
           "code": "ANAT 3601",
@@ -229,19 +226,6 @@
           "id": "2002"
         }
       ]
-    }
-  },
-  {
-    "code": "ANAT 3658H",
-    "subject": "ANAT",
-    "id": "3658H",
-    "title": "Honors Human Anatomy w/ lab",
-    "info": "anatomical relationships. function based upon form. clinical applications. gross (macroscopic) anatomy, histology (microscopic anatomy). neuroanatomy (nervous system), embryology (developmental anatomy). ",
-    "prereqInfo": "150 minutes of lecture and 2 hrs or lab per week. lecture sections are (i) three 50-minute sessions per week; or (ii) two 75-minute session per week. all lab sections are 2hrs. prereq: [biol 1002 or biol 1009 or biol 2002 or equiv], at least soph. the course director will not allow students to register after the class has started. this course has mandatory orientation sessions that cannot be missed. principles of human anatomy (anat 3651, lecture and lab components) is offered in the spring. human anatomy (anat 3001, has only a lecture component) is offered in fall. anat 3651 and anat 3001 are not equivalent. a student in-need of a lab component must register for anat 3651.",
-    "prereq": {
-      "code": "ANAT 150",
-      "subject": "ANAT",
-      "id": "150"
     }
   },
   {

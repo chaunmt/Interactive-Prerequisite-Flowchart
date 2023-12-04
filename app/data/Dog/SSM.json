@@ -22,8 +22,8 @@
     "subject": "SSM",
     "id": "3093",
     "title": "Directed Study",
-    "info": "a course in which a student designs and carries out a directed study on selected topics or problems under the direction of a faculty member; eg, literature review. directed study courses may be taken for variable credit and special permission is needed for enrollment.  students enrolling in a directed study will be required to use the university-wide on-line directed study contract process in order to enroll.\n \nprereq: department consent, instructor consent, no more than 6 credits of directed study counts towards cfans major requirements.\n",
-    "prereqInfo": null,
+    "info": "a course in which a student designs and carries out a directed study on selected topics or problems under the direction of a faculty member; eg, literature review. directed study courses may be taken for variable credit and special permission is needed for enrollment.  students enrolling in a directed study will be required to use the university-wide on-line directed study contract process in order to enroll.",
+    "prereqInfo": "department consent, instructor consent, no more than 6 credits of directed study counts towards cfans major requirements.",
     "prereq": []
   },
   {
@@ -31,8 +31,8 @@
     "subject": "SSM",
     "id": "3094",
     "title": "Directed Research",
-    "info": "an opportunity in which a student designs and carries\nout a directed research project under the direction of a faculty member. directed research may be taken for variable credit and special permission is needed for enrollment.students enrolling in a directed research will be required to use the\nuniversity-wide on-line directed research contract process in order to enroll.\n \nprereq: department consent, instructor consent, no more than 6 credits of directed research counts towards cfans major requirements.",
-    "prereqInfo": null,
+    "info": "an opportunity in which a student designs and carries\nout a directed research project under the direction of a faculty member. directed research may be taken for variable credit and special permission is needed for enrollment.students enrolling in a directed research will be required to use the\nuniversity-wide on-line directed research contract process in order to enroll.",
+    "prereqInfo": "department consent, instructor consent, no more than 6 credits of directed research counts towards cfans major requirements.",
     "prereq": []
   },
   {
@@ -98,7 +98,7 @@
     "subject": "SSM",
     "id": "4614",
     "title": "Bldg Sys Perform: Test & Diag",
-    "info": "theoretical basis for performance testing. diagnostics applications for residential structures. existing structures, retrofit/remedial applications. digital differential pressure gauges, blower doors, airflow hoods/grids, duct pressure testing, infrared thermography. hands-on equipment use, problem solving. ",
+    "info": "theoretical basis for performance testing. diagnostics applications for residential structures. existing structures, retrofit/remedial applications. digital differential pressure gauges, blower doors, airflow hoods/grids, duct pressure testing, infrared thermography. hands-on equipment use, problem solving.",
     "prereqInfo": "ssm 3612",
     "prereq": {
       "code": "SSM 3612",
@@ -112,57 +112,61 @@
     "id": "4616",
     "title": "Bldg Science I: Fundamentals",
     "info": "theory, advanced applications for residential buildings. focuses on heat/mass transfer.",
-    "prereqInfo": " ssm 3612/5612 & ssm 4614/5614 ",
-    "prereq": [
-      {
-        "code": "SSM 3612",
-        "subject": "SSM",
-        "id": "3612"
-      },
-      {
-        "code": "SSM 5612",
-        "subject": "SSM",
-        "id": "5612"
-      },
-      {
-        "code": "SSM 4614",
-        "subject": "SSM",
-        "id": "4614"
-      },
-      {
-        "code": "SSM 5614",
-        "subject": "SSM",
-        "id": "5614"
-      }
-    ]
+    "prereqInfo": "ssm 3612/5612 & ssm 4614/5614",
+    "prereq": {
+      "and": [
+        {
+          "code": "SSM 3612",
+          "subject": "SSM",
+          "id": "3612"
+        },
+        {
+          "code": "SSM 5612",
+          "subject": "SSM",
+          "id": "5612"
+        },
+        {
+          "code": "SSM 4614",
+          "subject": "SSM",
+          "id": "4614"
+        },
+        {
+          "code": "SSM 5614",
+          "subject": "SSM",
+          "id": "5614"
+        }
+      ]
+    }
   },
   {
     "code": "SSM 4618",
     "subject": "SSM",
     "id": "4618",
     "title": "Bldg Science II: Applications",
-    "info": "a capstone applications course, where students will learn how to apply key building science principles (from ssm 4616/5616 building science i: fundamentals) to common building enclosure and mechanical system problems. students will be guided to develop both qualitative and quantitative solutions for many common energy, moisture, and indoor air quality problems facing contemporary buildings. ",
-    "prereqInfo": "ssm 4616/ssm 5616\n\n\n",
-    "prereq": [
-      {
-        "code": "SSM 4616",
-        "subject": "SSM",
-        "id": "4616"
-      },
-      {
-        "code": "SSM 5616",
-        "subject": "SSM",
-        "id": "5616"
-      }
-    ]
+    "info": "a capstone applications course, where students will learn how to apply key building science principles (from ssm 4616/5616 building science i: fundamentals) to common building enclosure and mechanical system problems. students will be guided to develop both qualitative and quantitative solutions for many common energy, moisture, and indoor air quality problems facing contemporary buildings.",
+    "prereqInfo": "ssm 4616/ssm 5616",
+    "prereq": {
+      "and": [
+        {
+          "code": "SSM 4616",
+          "subject": "SSM",
+          "id": "4616"
+        },
+        {
+          "code": "SSM 5616",
+          "subject": "SSM",
+          "id": "5616"
+        }
+      ]
+    }
   },
   {
     "code": "SSM 5093",
     "subject": "SSM",
     "id": "5093",
     "title": "Directed Study",
-    "info": "a course in which a student designs and carries out a directed study on selected topics or problems under the direction of a faculty member; eg, literature review. directed study courses may be taken for variable credit and special permission is needed for enrollment.  students enrolling in a directed study will be required to use the university-wide on-line directed study contract process in order to enroll.\n \nprereq: department consent, instructor consent, no more than 6 credits of directed study counts towards cfans major requirements.",
-    "prereqInfo": null,
+    "info": "a course in which a student designs and carries out a directed study on selected topics or problems under the direction of a faculty member; eg, literature review. directed study courses may be taken for variable credit and special permission is needed for enrollment.  students enrolling in a directed study will be required to use the university-wide on-line directed study contract process in order to enroll.",
+    "prereqInfo": "department consent, instructor consent, no more than 6 credits of directed study counts towards cfans major requirements.",
     "prereq": []
   },
   {
@@ -170,8 +174,8 @@
     "subject": "SSM",
     "id": "5094",
     "title": "Directed Research",
-    "info": "an opportunity in which a student designs and carries\nout a directed research project under the direction of a faculty member. directed research may be taken for variable credit and special permission is needed for enrollment.students enrolling in a directed research will be required to use the\nuniversity-wide on-line directed research contract process in order to enroll.\n \nprereq: department consent, instructor consent, no more than 6 credits of directed research counts towards cfans major requirements.",
-    "prereqInfo": "\n",
+    "info": "an opportunity in which a student designs and carries\nout a directed research project under the direction of a faculty member. directed research may be taken for variable credit and special permission is needed for enrollment.students enrolling in a directed research will be required to use the\nuniversity-wide on-line directed research contract process in order to enroll.",
+    "prereqInfo": "department consent, instructor consent, no more than 6 credits of directed research counts towards cfans major requirements.",
     "prereq": []
   },
   {
@@ -207,7 +211,7 @@
     "id": "5612",
     "title": "Sys Approach Bldg Sci & Const",
     "info": "dynamic/interrelated issues of energy, moisture control, indoor air quality in residential bldgs. emphasizes design, construction, and operational aspects to provide an energy efficient, durable structure, and healthy living environment. interaction between moisture and wood products within building system.",
-    "prereqInfo": " graduate student",
+    "prereqInfo": "graduate student",
     "prereq": []
   },
   {

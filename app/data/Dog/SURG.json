@@ -123,7 +123,7 @@
     "subject": "SURG",
     "id": "7515",
     "title": "Acting Intern Vascular Surgery",
-    "info": "this course will provide instruction and advanced experience in vascular surgery for the student who has completed a basic internship or clerkship in surgery. students taking this course can expect to participate directly in patient care at a level of responsibility that is similar to a first year intern. the student will work with their assigned team under the supervision of the faculty and will participate fully in the care of patients on the hospital wards and in the icus, operating room and clinics. ",
+    "info": "this course will provide instruction and advanced experience in vascular surgery for the student who has completed a basic internship or clerkship in surgery. students taking this course can expect to participate directly in patient care at a level of responsibility that is similar to a first year intern. the student will work with their assigned team under the supervision of the faculty and will participate fully in the care of patients on the hospital wards and in the icus, operating room and clinics.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -132,33 +132,25 @@
     "subject": "SURG",
     "id": "7520",
     "title": "Surgery Externship A",
-    "info": "course created specifically to accommodate clinical setting restrictions due to covid-19 from spring 2020 to spring 2021. part a of this course covers the virtual coursework while part b covers the clinical component. both parts a and b must be completed for the clerkship requirement to be considered fulfilled. ",
-    "prereqInfo": "catalog description: in addition to competence in the course objectives, it is expected that the students will attend clinical departmental conferences, laboratory exercises, team discussions and group seminars. recommended textbooks for the rotation: way: current surgical diagnosis and treatment, 11th edition, 1996, sabiston and lyerly; essentials of surgery, 2nd edition, 1994. a handbook of core topics, readings, and oral exam questions is provided at the beginning of each period.",
-    "prereq": {
-      "code": "SURG 1996",
-      "subject": "SURG",
-      "id": "1996"
-    }
+    "info": "course created specifically to accommodate clinical setting restrictions due to covid-19 from spring 2020 to spring 2021. part a of this course covers the virtual coursework while part b covers the clinical component. both parts a and b must be completed for the clerkship requirement to be considered fulfilled. \n\ncatalog description: in addition to competence in the course objectives, it is expected that the students will attend clinical departmental conferences, laboratory exercises, team discussions and group seminars. recommended textbooks for the rotation: way: current surgical diagnosis and treatment, 11th edition, 1996, sabiston and lyerly; essentials of surgery, 2nd edition, 1994. a handbook of core topics, readings, and oral exam questions is provided at the beginning of each period.",
+    "prereqInfo": null,
+    "prereq": []
   },
   {
     "code": "SURG 7521",
     "subject": "SURG",
     "id": "7521",
     "title": "Surgery Externship B",
-    "info": "course created specifically to accommodate clinical setting restrictions due to covid-19 from spring 2020 to spring 2021. part a of this course covers the virtual coursework while part b covers the clinical component. both parts a and b must be completed for the clerkship requirement to be considered fulfilled. ",
-    "prereqInfo": "catalog description: in addition to competence in the course objectives, it is expected that the students will attend clinical departmental conferences, laboratory exercises, team discussions, and group seminars. recommended textbooks for the rotation: way: current surgical diagnosis and treatment, 11th edition, 1996, sabiston and lyerly; essentials of surgery, 2nd edition, 1994. a handbook of core topics, readings, and oral exam questions is provided at the beginning of each period.",
-    "prereq": {
-      "code": "SURG 1996",
-      "subject": "SURG",
-      "id": "1996"
-    }
+    "info": "course created specifically to accommodate clinical setting restrictions due to covid-19 from spring 2020 to spring 2021. part a of this course covers the virtual coursework while part b covers the clinical component. both parts a and b must be completed for the clerkship requirement to be considered fulfilled. \n\ncatalog description: in addition to competence in the course objectives, it is expected that the students will attend clinical departmental conferences, laboratory exercises, team discussions, and group seminars. recommended textbooks for the rotation: way: current surgical diagnosis and treatment, 11th edition, 1996, sabiston and lyerly; essentials of surgery, 2nd edition, 1994. a handbook of core topics, readings, and oral exam questions is provided at the beginning of each period.",
+    "prereqInfo": null,
+    "prereq": []
   },
   {
     "code": "SURG 7522",
     "subject": "SURG",
     "id": "7522",
     "title": "Actng Intrn Plastic Recon Surg",
-    "info": "the student is exposed to the full spectrum of plastic and reconstructive problems while on the rotation. ",
+    "info": "the student is exposed to the full spectrum of plastic and reconstructive problems while on the rotation.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -203,7 +195,7 @@
     "subject": "SURG",
     "id": "7550",
     "title": "Essentials of Surg Clerkship",
-    "info": "required 4- week clinical clerkship. designed to provide the learner with a multidisciplinary experience in approaching surgical disease and surgical decision making. ",
+    "info": "required 4- week clinical clerkship. designed to provide the learner with a multidisciplinary experience in approaching surgical disease and surgical decision making.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -349,7 +341,11 @@
     "title": "Doct Pre-Thesis Cr",
     "info": "tbd",
     "prereqInfo": "doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": []
+    "prereq": {
+      "code": "SURG 60",
+      "subject": "SURG",
+      "id": "60"
+    }
   },
   {
     "code": "SURG 8777",
@@ -358,7 +354,11 @@
     "title": "Thesis Credit:Mast*",
     "info": "(no description)",
     "prereqInfo": "max 18 cr per semester or summer; 10 cr total required [plan a only]",
-    "prereq": []
+    "prereq": {
+      "code": "SURG 10",
+      "subject": "SURG",
+      "id": "10"
+    }
   },
   {
     "code": "SURG 8888",

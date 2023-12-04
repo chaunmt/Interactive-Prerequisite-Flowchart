@@ -48,11 +48,6 @@
           "code": "PSTL 732",
           "subject": "PSTL",
           "id": "732"
-        },
-        {
-          "code": "CI 0832",
-          "subject": "CI",
-          "id": "0832"
         }
       ]
     }
@@ -120,20 +115,9 @@
     "subject": "MATH",
     "id": "1049",
     "title": "Intermediate Algebra Skills",
-    "info": "this course serves as a co-requisite course to math 1031 and math 1051. it is designed to reinforce the skills in intermediate algebra and trigonometry that are necessary for success in college algebra. students should enroll in this course if their placement exam score indicates that their preparedness for college algebra is borderline. other students with sufficiently high placement exam scores can enroll in math 1031/1051 without registering for math 1049. students enrolled in this course should be concurrently enrolled in math 1031 or math 1051.",
-    "prereqInfo": "this course is designed to build computational skills in material that is important for success in math 1031/1051. skills include signed expressions, simplifying rational numbers and radicals, evaluating expressions, functions and function notation, and simplifying monomial expressions.",
-    "prereq": [
-      {
-        "code": "MATH 1031",
-        "subject": "MATH",
-        "id": "1031"
-      },
-      {
-        "code": "MATH 1051",
-        "subject": "MATH",
-        "id": "1051"
-      }
-    ]
+    "info": "this course serves as a co-requisite course to math 1031 and math 1051. it is designed to reinforce the skills in intermediate algebra and trigonometry that are necessary for success in college algebra. students should enroll in this course if their placement exam score indicates that their preparedness for college algebra is borderline. other students with sufficiently high placement exam scores can enroll in math 1031/1051 without registering for math 1049. students enrolled in this course should be concurrently enrolled in math 1031 or math 1051.\n\nthis course is designed to build computational skills in material that is important for success in math 1031/1051. skills include signed expressions, simplifying rational numbers and radicals, evaluating expressions, functions and function notation, and simplifying monomial expressions.",
+    "prereqInfo": null,
+    "prereq": []
   },
   {
     "code": "MATH 1051",
@@ -153,11 +137,6 @@
           "code": "PSTL 732",
           "subject": "PSTL",
           "id": "732"
-        },
-        {
-          "code": "CI 0832",
-          "subject": "CI",
-          "id": "0832"
         }
       ]
     }
@@ -185,13 +164,9 @@
     "subject": "MATH",
     "id": "1139",
     "title": "College Algebra Skills",
-    "info": "this course serves as a co-requisite course to math 1142. it is designed to reinforce the skills in college\nalgebra that are necessary for success in short calculus. students should enroll in this course if their\nplacement exam score indicates that their preparedness for short calculus is borderline. other students\nwith sufficiently high placement exam scores can enroll in math 1142 without registering for math\n1139. students enrolled in this course should be concurrently enrolled in math 1142.\nthis course is designed to review computational skills in material that is important for success in math",
-    "prereqInfo": "1142. skills include simplifying rational expressions, rationalizing the denominator, functions and\nfunction notation, factoring polynomials, the distance formula, equations of lines, exponential and\nlogarithmic functions, and systems of equations.\n",
-    "prereq": {
-      "code": "MATH 1142",
-      "subject": "MATH",
-      "id": "1142"
-    }
+    "info": "this course serves as a co-requisite course to math 1142. it is designed to reinforce the skills in college\nalgebra that are necessary for success in short calculus. students should enroll in this course if their\nplacement exam score indicates that their preparedness for short calculus is borderline. other students\nwith sufficiently high placement exam scores can enroll in math 1142 without registering for math\n1139. students enrolled in this course should be concurrently enrolled in math 1142.\nthis course is designed to review computational skills in material that is important for success in math\n\n1142. skills include simplifying rational expressions, rationalizing the denominator, functions and\nfunction notation, factoring polynomials, the distance formula, equations of lines, exponential and\nlogarithmic functions, and systems of equations.",
+    "prereqInfo": null,
+    "prereq": []
   },
   {
     "code": "MATH 1142",
@@ -220,7 +195,7 @@
     "subject": "MATH",
     "id": "1143",
     "title": "Intro: Advanced Math",
-    "info": "topics that are covered in more depth in 2243 and 2263, plus probability theory. matrices, eigenvectors, conditional probability, independence, distributions, basic statistical tools, linear regression. linear differential equations and systems of differential equations. multivariable differentiability and linearization. ",
+    "info": "topics that are covered in more depth in 2243 and 2263, plus probability theory. matrices, eigenvectors, conditional probability, independence, distributions, basic statistical tools, linear regression. linear differential equations and systems of differential equations. multivariable differentiability and linearization.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -229,13 +204,9 @@
     "subject": "MATH",
     "id": "1149",
     "title": "College Algebra Skills",
-    "info": "this course serves as a co-requisite course to math 1151. it is designed to reinforce the skills in college algebra that are necessary for success in trigonometry.  students should enroll in this course if their placement exam score indicates that their preparedness for trigonometry is borderline. other students with sufficiently high placement exam scores can enroll in math 1151 without registering for math 1149. students enrolled in this course should be concurrently enrolled in math 1151.",
-    "prereqInfo": "this course is designed to review computational skills in material that is important for success in math 1151. skills include simplifying rational expressions, rationalizing the denominator, functions and function notation, factoring polynomials, congruent and similar triangles, distance formula, equations of lines, exponential functions, and sequences.",
-    "prereq": {
-      "code": "MATH 1151",
-      "subject": "MATH",
-      "id": "1151"
-    }
+    "info": "this course serves as a co-requisite course to math 1151. it is designed to reinforce the skills in college algebra that are necessary for success in trigonometry.  students should enroll in this course if their placement exam score indicates that their preparedness for trigonometry is borderline. other students with sufficiently high placement exam scores can enroll in math 1151 without registering for math 1149. students enrolled in this course should be concurrently enrolled in math 1151.\n\nthis course is designed to review computational skills in material that is important for success in math 1151. skills include simplifying rational expressions, rationalizing the denominator, functions and function notation, factoring polynomials, congruent and similar triangles, distance formula, equations of lines, exponential functions, and sequences.",
+    "prereqInfo": null,
+    "prereq": []
   },
   {
     "code": "MATH 1151",
@@ -344,8 +315,8 @@
     "subject": "MATH",
     "id": "1269",
     "title": "Precalculus Skills",
-    "info": "this course serves as a co-requisite course to math 1241, math 1271, and math 1371. it is designed to reinforce the skills in college algebra and trigonometry that are necessary for success in calculus. students should enroll in this course if their placement exam score indicates that their preparedness for calculus is borderline. other students with sufficiently high placement exam scores can enroll in math 1241/1271/1371 without registering for math 1269. students enrolled in this course should be concurrently enrolled in math 1241, math 1271, or math 1371. ",
-    "prereqInfo": "this course is designed to review computational skills in material that is important for success in an introductory differential calculus. skills include simplifying rational expressions, factoring, binomial theorem, finding roots, quadratic formula, rationalizing denominators, equations of lines, laws of exponents and logarithms, graphs of common functions, the unit circle, trig identities, inverse trig functions, isolating variables, similar triangles, geometric formulas, inequalities, functions and function notation, domain and range of functions, inverse functions, composition of functions, symmetry, recursion and sequences, and solving systems of equations.\n",
+    "info": "this course serves as a co-requisite course to math 1241, math 1271, and math 1371. it is designed to reinforce the skills in college algebra and trigonometry that are necessary for success in calculus. students should enroll in this course if their placement exam score indicates that their preparedness for calculus is borderline. other students with sufficiently high placement exam scores can enroll in math 1241/1271/1371 without registering for math 1269. students enrolled in this course should be concurrently enrolled in math 1241, math 1271, or math 1371. \n\nthis course is designed to review computational skills in material that is important for success in an introductory differential calculus. skills include simplifying rational expressions, factoring, binomial theorem, finding roots, quadratic formula, rationalizing denominators, equations of lines, laws of exponents and logarithms, graphs of common functions, the unit circle, trig identities, inverse trig functions, isolating variables, similar triangles, geometric formulas, inequalities, functions and function notation, domain and range of functions, inverse functions, composition of functions, symmetry, recursion and sequences, and solving systems of equations.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -455,7 +426,7 @@
     "subject": "MATH",
     "id": "1472",
     "title": "UMTYMP Calculus IB",
-    "info": "accelerated honors sequence for selected mathematically talented high school students. integration and its applications.\n",
+    "info": "accelerated honors sequence for selected mathematically talented high school students. integration and its applications.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -464,7 +435,7 @@
     "subject": "MATH",
     "id": "1473",
     "title": "UMTYMP Calculus IIA",
-    "info": "accelerated honors sequence for selected mathematically talented high school students. sequences and series, differential equations, 3d analytical geometry, and methods of proof.\n",
+    "info": "accelerated honors sequence for selected mathematically talented high school students. sequences and series, differential equations, 3d analytical geometry, and methods of proof.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -482,34 +453,12 @@
     }
   },
   {
-    "code": "MATH 1571H",
-    "subject": "MATH",
-    "id": "1571H",
-    "title": "Honors Calc I",
-    "info": "differential/integral calculus of functions of a single variable. emphasizes hard problem-solving rather than theory.",
-    "prereqInfo": "honors student and permission of university honors program",
-    "prereq": []
-  },
-  {
-    "code": "MATH 1572H",
-    "subject": "MATH",
-    "id": "1572H",
-    "title": "Honors Calculus II",
-    "info": "continuation of 1571. infinite series, differential calculus of several variables, introduction to linear algebra.",
-    "prereqInfo": "1571h (or equivalent)  honors student",
-    "prereq": {
-      "code": "MATH 1571H",
-      "subject": "MATH",
-      "id": "1571H"
-    }
-  },
-  {
     "code": "MATH 2001",
     "subject": "MATH",
     "id": "2001",
     "title": "Actuarial Sci Sem",
     "info": "actuarial science as a subject and career. guest lectures by actuaries. resume preparation and interviewing skills. review and practice for actuarial exams.",
-    "prereqInfo": "prereq 1272 or equiv",
+    "prereqInfo": "1272 or equiv",
     "prereq": {
       "code": "MATH 1272",
       "subject": "MATH",
@@ -530,7 +479,7 @@
     "subject": "MATH",
     "id": "2142",
     "title": "Elementary Linear Algebra",
-    "info": "this course has three primary objectives. (1) to present the basic theory of linear algebra, including: solving systems of linear equations; determinants; the theory of euclidean vector spaces and general vector spaces; eigenvalues and eigenvectors of matrices; inner products; diagonalization of quadratic forms; and linear transformations between vector spaces. (2) to introduce certain aspects of numerical linear algebra and computation. (3) to introduce applications of linear algebra to other domains such as data science. objectives (2) and (3) will be taught with hands-on computer projects in a high-level programming language. ",
+    "info": "this course has three primary objectives. (1) to present the basic theory of linear algebra, including: solving systems of linear equations; determinants; the theory of euclidean vector spaces and general vector spaces; eigenvalues and eigenvectors of matrices; inner products; diagonalization of quadratic forms; and linear transformations between vector spaces. (2) to introduce certain aspects of numerical linear algebra and computation. (3) to introduce applications of linear algebra to other domains such as data science. objectives (2) and (3) will be taught with hands-on computer projects in a high-level programming language.",
     "prereqInfo": "math 1272 or equivalent",
     "prereq": {
       "code": "MATH 1272",
@@ -543,7 +492,7 @@
     "subject": "MATH",
     "id": "2241",
     "title": "Math Model Biological Systems",
-    "info": "development, analysis and simulation of models for the dynamics of biological systems. mathematical topics include discrete and continuous dynamical systems, linear algebra, and probability. models from fields such as ecology, epidemiology, physiology, genetics, neuroscience, and biochemistry. ",
+    "info": "development, analysis and simulation of models for the dynamics of biological systems. mathematical topics include discrete and continuous dynamical systems, linear algebra, and probability. models from fields such as ecology, epidemiology, physiology, genetics, neuroscience, and biochemistry.",
     "prereqInfo": "[1241 or 1271 or 1371] w/grade of at least c-",
     "prereq": {
       "or": [
@@ -588,11 +537,6 @@
           "code": "MATH 1372",
           "subject": "MATH",
           "id": "1372"
-        },
-        {
-          "code": "MATH 1572H",
-          "subject": "MATH",
-          "id": "1572H"
         }
       ]
     }
@@ -633,11 +577,6 @@
           "code": "MATH 1372",
           "subject": "MATH",
           "id": "1372"
-        },
-        {
-          "code": "MATH 1572H",
-          "subject": "MATH",
-          "id": "1572H"
         }
       ]
     }
@@ -697,11 +636,6 @@
           "code": "MATH 1372",
           "subject": "MATH",
           "id": "1372"
-        },
-        {
-          "code": "MATH 1572H",
-          "subject": "MATH",
-          "id": "1572H"
         }
       ]
     }
@@ -729,11 +663,6 @@
           "code": "MATH 1372",
           "subject": "MATH",
           "id": "1372"
-        },
-        {
-          "code": "MATH 1572H",
-          "subject": "MATH",
-          "id": "1572H"
         }
       ]
     }
@@ -743,7 +672,7 @@
     "subject": "MATH",
     "id": "2471",
     "title": "UMTYMP Calculus IIB",
-    "info": "accelerated honors sequence for selected mathematically talented high school students. theoretical and geometric linear algebra.\n",
+    "info": "accelerated honors sequence for selected mathematically talented high school students. theoretical and geometric linear algebra.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -752,7 +681,7 @@
     "subject": "MATH",
     "id": "2472",
     "title": "UMTYMP Calculus IIIA",
-    "info": "accelerated honors sequence for selected mathematically talented high school students. geometry of surfaces and curves in r^n.  multivariable calculus through differentation using linear algebra.\n",
+    "info": "accelerated honors sequence for selected mathematically talented high school students. geometry of surfaces and curves in r^n.  multivariable calculus through differentation using linear algebra.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -779,64 +708,11 @@
     }
   },
   {
-    "code": "MATH 2573H",
-    "subject": "MATH",
-    "id": "2573H",
-    "title": "Honors Calculus III",
-    "info": "integral calculus of several variables. vector analysis, including theorems of gauss, green, stokes.",
-    "prereqInfo": "math 1572h (or equivalent), honors student",
-    "prereq": {
-      "code": "MATH 1572H",
-      "subject": "MATH",
-      "id": "1572H"
-    }
-  },
-  {
     "code": "MATH 2574",
     "subject": "MATH",
     "id": "2574",
     "title": "Honors Calculus III",
     "info": "continuation of 1572. matrix based multivariable calculus.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "MATH 2574H",
-    "subject": "MATH",
-    "id": "2574H",
-    "title": "Honors Calculus IV",
-    "info": "advanced linear algebra, differential equations. additional topics as time permits.",
-    "prereqInfo": "math 1572h or math 2573h, honors student and permission of university honors program",
-    "prereq": {
-      "or": [
-        {
-          "code": "MATH 1572H",
-          "subject": "MATH",
-          "id": "1572H"
-        },
-        {
-          "code": "MATH 2573H",
-          "subject": "MATH",
-          "id": "2573H"
-        }
-      ]
-    }
-  },
-  {
-    "code": "MATH 2582H",
-    "subject": "MATH",
-    "id": "2582H",
-    "title": "Honors Calc 2 - Adv Placement",
-    "info": "first semester of integrated three semester sequence covering infinite series, multivariable calculus (including vector analysis with gauss, green and stokes theorems, linear algebra (with vector spaces), ode, and introduction to complex analysis. material is covered at a faster pace and at a somewhat deeper level than the regular honors sequence.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "MATH 2583H",
-    "subject": "MATH",
-    "id": "2583H",
-    "title": "Honors Calc 3 - Adv Placement",
-    "info": "second semester of three-semester sequence. infinite series. multivariable calculus including vector analysis with gauss, green, and stokes theorems. linear algebra (with vector spaces), ode, and introduction to complex analysis. material is covered at faster pace and deeper level than in regular honors sequence.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -936,50 +812,6 @@
     "prereq": []
   },
   {
-    "code": "MATH 3574H",
-    "subject": "MATH",
-    "id": "3574H",
-    "title": "Honors Math IV (AP)",
-    "info": "advanced linear algebra, differential equations. introduction to complex analysis.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "MATH 3584H",
-    "subject": "MATH",
-    "id": "3584H",
-    "title": "Honors Calc 3 - Adv Placement",
-    "info": "advanced linear algebra, differential equations. introduction to complex analysis.",
-    "prereqInfo": "[2583 or equiv], it honors office approval",
-    "prereq": {
-      "code": "MATH 2583H",
-      "subject": "MATH",
-      "id": "2583H"
-    }
-  },
-  {
-    "code": "MATH 3592H",
-    "subject": "MATH",
-    "id": "3592H",
-    "title": "Honors Mathematics I",
-    "info": "first semester of two-semester sequence. focuses on multivariable calculus at deeper level than regular calculus offerings. rigorous introduction to sequences/series. theoretical treatment of multivariable calculus. strong introduction to linear algebra.",
-    "prereqInfo": "dept consent; for students with mathematical talent",
-    "prereq": []
-  },
-  {
-    "code": "MATH 3593H",
-    "subject": "MATH",
-    "id": "3593H",
-    "title": "Honors Mathematics II",
-    "info": "second semester of three-semester sequence. focuses on multivariable calculus at deeper level than regular calculus offerings. rigorous introduction to sequences/series. theoretical treatment of multivariable calculus. strong introduction to linear algebra.",
-    "prereqInfo": "3592h or instr consent",
-    "prereq": {
-      "code": "MATH 3592",
-      "subject": "MATH",
-      "id": "3592"
-    }
-  },
-  {
     "code": "MATH 4005",
     "subject": "MATH",
     "id": "4005",
@@ -1006,11 +838,6 @@
           "code": "MATH 1372",
           "subject": "MATH",
           "id": "1372"
-        },
-        {
-          "code": "MATH 1572H",
-          "subject": "MATH",
-          "id": "1572H"
         }
       ]
     }
@@ -1061,7 +888,7 @@
     "subject": "MATH",
     "id": "4116",
     "title": "Topics Elem Math II",
-    "info": "probability/statistics, vector geometry, real/complex numbers. meets during first half of semester only. grading standard one-third higher than 3116. ",
+    "info": "probability/statistics, vector geometry, real/complex numbers. meets during first half of semester only. grading standard one-third higher than 3116.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -1110,11 +937,6 @@
           "code": "MATH 2373",
           "subject": "MATH",
           "id": "2373"
-        },
-        {
-          "code": "MATH 2573H",
-          "subject": "MATH",
-          "id": "2573H"
         }
       ]
     }
@@ -1168,11 +990,6 @@
           "code": "MATH 2373",
           "subject": "MATH",
           "id": "2373"
-        },
-        {
-          "code": "MATH 2573H",
-          "subject": "MATH",
-          "id": "2573H"
         }
       ]
     }
@@ -1182,7 +999,7 @@
     "subject": "MATH",
     "id": "4457",
     "title": "Applied Math I",
-    "info": "vector spaces, minimization principles, least squares approximation, orthogonal bases, linear functions, linear systems of ordinary differential equations. applications include statics/dynamics of electrical circuits, mechanical structures. stability/resonance, approximation/interpolation of data. numerical methods and geometry.\n",
+    "info": "vector spaces, minimization principles, least squares approximation, orthogonal bases, linear functions, linear systems of ordinary differential equations. applications include statics/dynamics of electrical circuits, mechanical structures. stability/resonance, approximation/interpolation of data. numerical methods and geometry.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -1200,9 +1017,13 @@
     "subject": "MATH",
     "id": "4471W",
     "title": "Math for Social Justice",
-    "info": "this course will introduce you to quantitative literacy, critical thinking, and problem solving skills in socially relevant contexts. while students may be accustomed to thinking about mathematics as an abstract set of principles and proofs, this course will encourage thinking about mathematics in concrete contexts as a way to improve our communities and the world. students will develop the ability and inclination to understand and develop realistic solutions to issues of social, political, and economic justice. examples of specific topics include: the flint water crisis, sea level change in an island community, gerrymandering, and racial bias in policing. the mathematical tools used will include basic statistics, modeling, and data analysis, among others. while most students in this class will be ''good at math,'' this class explores using math to do good. \nprereq:  math 1272 or instructor consent\n",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "this course will introduce you to quantitative literacy, critical thinking, and problem solving skills in socially relevant contexts. while students may be accustomed to thinking about mathematics as an abstract set of principles and proofs, this course will encourage thinking about mathematics in concrete contexts as a way to improve our communities and the world. students will develop the ability and inclination to understand and develop realistic solutions to issues of social, political, and economic justice. examples of specific topics include: the flint water crisis, sea level change in an island community, gerrymandering, and racial bias in policing. the mathematical tools used will include basic statistics, modeling, and data analysis, among others. while most students in this class will be ''good at math,'' this class explores using math to do good.",
+    "prereqInfo": "math 1272 or instructor consent",
+    "prereq": {
+      "code": "MATH 1272",
+      "subject": "MATH",
+      "id": "1272"
+    }
   },
   {
     "code": "MATH 4512",
@@ -1222,11 +1043,6 @@
           "code": "MATH 2373",
           "subject": "MATH",
           "id": "2373"
-        },
-        {
-          "code": "MATH 2573H",
-          "subject": "MATH",
-          "id": "2573H"
         }
       ]
     }
@@ -1249,11 +1065,6 @@
           "code": "MATH 2373",
           "subject": "MATH",
           "id": "2373"
-        },
-        {
-          "code": "MATH 2573H",
-          "subject": "MATH",
-          "id": "2573H"
         }
       ]
     }
@@ -1348,19 +1159,37 @@
     "prereq": {
       "or": [
         {
-          "code": "MATH 2263",
-          "subject": "MATH",
-          "id": "2263"
+          "or": [
+            {
+              "code": "MATH 2263",
+              "subject": "MATH",
+              "id": "2263"
+            },
+            {
+              "code": "MATH 2374",
+              "subject": "MATH",
+              "id": "2374"
+            }
+          ]
         },
         {
-          "code": "MATH 2374",
-          "subject": "MATH",
-          "id": "2374"
-        },
-        {
-          "code": "MATH 2573H",
-          "subject": "MATH",
-          "id": "2573H"
+          "or": [
+            {
+              "code": "MATH 2283",
+              "subject": "MATH",
+              "id": "2283"
+            },
+            {
+              "code": "MATH 2574",
+              "subject": "MATH",
+              "id": "2574"
+            },
+            {
+              "code": "MATH 3283",
+              "subject": "MATH",
+              "id": "3283"
+            }
+          ]
         }
       ]
     }
@@ -1428,7 +1257,7 @@
     "subject": "MATH",
     "id": "4993",
     "title": "Directed Study",
-    "info": "tbd  ",
+    "info": "tbd",
     "prereqInfo": null,
     "prereq": []
   },
@@ -1458,13 +1287,9 @@
     "info": "future lifetime random variable, survival function. insurance, life annuity, future loss random variables. net single premium, actuarial present value, net premium, net reserves.",
     "prereqInfo": "4065, [one sem [4xxx or 5xxx] [probability or statistics] course]",
     "prereq": {
-      "and": [
-        {
-          "code": "MATH 4065",
-          "subject": "MATH",
-          "id": "4065"
-        }
-      ]
+      "code": "MATH 4065",
+      "subject": "MATH",
+      "id": "4065"
     }
   },
   {
@@ -1561,69 +1386,6 @@
     "prereq": []
   },
   {
-    "code": "MATH 5285H",
-    "subject": "MATH",
-    "id": "5285H",
-    "title": "Honors Algebra I",
-    "info": "review of matrix theory, linear algebra. vector spaces, linear transformations over abstract fields. group theory, including\nnormal subgroups, quotient groups, homomorphisms, class equation, sylow's theorems. specific examples: permutation groups, symmetry groups of geometric figures, matrix groups.",
-    "prereqInfo": "[2243 or 2373 or 2573], [2283 or 2574 or 3283]",
-    "prereq": {
-      "and": [
-        {
-          "or": [
-            {
-              "code": "MATH 2243",
-              "subject": "MATH",
-              "id": "2243"
-            },
-            {
-              "code": "MATH 2373",
-              "subject": "MATH",
-              "id": "2373"
-            },
-            {
-              "code": "MATH 2573H",
-              "subject": "MATH",
-              "id": "2573H"
-            }
-          ]
-        },
-        {
-          "or": [
-            {
-              "code": "MATH 2283",
-              "subject": "MATH",
-              "id": "2283"
-            },
-            {
-              "code": "MATH 2574",
-              "subject": "MATH",
-              "id": "2574"
-            },
-            {
-              "code": "MATH 3283",
-              "subject": "MATH",
-              "id": "3283"
-            }
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "code": "MATH 5286H",
-    "subject": "MATH",
-    "id": "5286H",
-    "title": "Honors Algebra II",
-    "info": "ring/module theory, including ideals, quotients, homomorphisms,\ndomains (unique factorization, euclidean, principal ideal), fundamental theorem for finitely generated modules over euclidean domains, jordan canonical form. introduction to field theory, including finite fields,\nalgebraic/transcendental extensions, galois theory.",
-    "prereqInfo": "5285",
-    "prereq": {
-      "code": "MATH 5285",
-      "subject": "MATH",
-      "id": "5285"
-    }
-  },
-  {
     "code": "MATH 5335",
     "subject": "MATH",
     "id": "5335",
@@ -1643,11 +1405,6 @@
               "code": "MATH 2373",
               "subject": "MATH",
               "id": "2373"
-            },
-            {
-              "code": "MATH 2573H",
-              "subject": "MATH",
-              "id": "2573H"
             }
           ]
         },
@@ -1683,52 +1440,6 @@
     }
   },
   {
-    "code": "MATH 5345H",
-    "subject": "MATH",
-    "id": "5345H",
-    "title": "Honors: Intro to Topology",
-    "info": "rigorous introduction to general topology. set theory, euclidean/metric spaces, compactness/connectedness. may include urysohn metrization, tychonoff theorem or fundamental group/covering spaces.",
-    "prereqInfo": "[2263 or 2374 or 2573], [concurrent registration is required (or allowed) in 2283 or concurrent registration is required (or allowed) in 2574 or concurrent registration is required (or allowed) in 3283]",
-    "prereq": {
-      "and": [
-        {
-          "or": [
-            {
-              "code": "MATH 2263",
-              "subject": "MATH",
-              "id": "2263"
-            },
-            {
-              "code": "MATH 2374",
-              "subject": "MATH",
-              "id": "2374"
-            },
-            {
-              "code": "MATH 2573H",
-              "subject": "MATH",
-              "id": "2573H"
-            }
-          ]
-        },
-        {
-          "code": "MATH 2283",
-          "subject": "MATH",
-          "id": "2283"
-        },
-        {
-          "code": "MATH 2574",
-          "subject": "MATH",
-          "id": "2574"
-        },
-        {
-          "code": "MATH 3283",
-          "subject": "MATH",
-          "id": "3283"
-        }
-      ]
-    }
-  },
-  {
     "code": "MATH 5378",
     "subject": "MATH",
     "id": "5378",
@@ -1748,11 +1459,6 @@
               "code": "MATH 2374",
               "subject": "MATH",
               "id": "2374"
-            },
-            {
-              "code": "MATH 2573H",
-              "subject": "MATH",
-              "id": "2573H"
             }
           ]
         },
@@ -1772,6 +1478,20 @@
               "code": "MATH 2574",
               "subject": "MATH",
               "id": "2574"
+            }
+          ]
+        },
+        {
+          "or": [
+            {
+              "code": "MATH 2283",
+              "subject": "MATH",
+              "id": "2283"
+            },
+            {
+              "code": "MATH 3283",
+              "subject": "MATH",
+              "id": "3283"
             }
           ]
         }
@@ -1798,11 +1518,6 @@
               "code": "MATH 2374",
               "subject": "MATH",
               "id": "2374"
-            },
-            {
-              "code": "MATH 2573H",
-              "subject": "MATH",
-              "id": "2573H"
             }
           ]
         },
@@ -1869,18 +1584,95 @@
     "subject": "MATH",
     "id": "5465",
     "title": "Math of Data Analysis I",
-    "info": "this course gives a basic overview of the mathematical foundations for some commonly used techniques in machine learning and data science. the course will cover basic topics in fully supervised learning (support vector machines, k-nearest neighbor classification), unsupervised learning techniques (principal component analysis, k-means clustering, multi-dimensional scaling), modern methods in deep learning with applications to image classification, an introduction to graph-based learning (spectral clustering, label propagation, pagerank, the discrete fourier transform, and applications to image processing), and a basic introduction to the convergence theory for gradient-based optimization.\nprerequisites: linear algebra (for example math 2142, 2243 or 2373) and multivariable\ncalculus (for example math 2263 or 2374), or consent of the instructor.\n",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "this course gives a basic overview of the mathematical foundations for some commonly used techniques in machine learning and data science. the course will cover basic topics in fully supervised learning (support vector machines, k-nearest neighbor classification), unsupervised learning techniques (principal component analysis, k-means clustering, multi-dimensional scaling), modern methods in deep learning with applications to image classification, an introduction to graph-based learning (spectral clustering, label propagation, pagerank, the discrete fourier transform, and applications to image processing), and a basic introduction to the convergence theory for gradient-based optimization.",
+    "prereqInfo": "linear algebra (for example math 2142, 2243 or 2373) and multivariable\ncalculus (for example math 2263 or 2374), or consent of the instructor.",
+    "prereq": {
+      "and": [
+        {
+          "and": [
+            {
+              "code": "MATH 2142",
+              "subject": "MATH",
+              "id": "2142"
+            },
+            {
+              "code": "MATH 2243",
+              "subject": "MATH",
+              "id": "2243"
+            },
+            {
+              "code": "MATH 2373",
+              "subject": "MATH",
+              "id": "2373"
+            }
+          ]
+        },
+        {
+          "or": [
+            {
+              "code": "MATH 2263",
+              "subject": "MATH",
+              "id": "2263"
+            },
+            {
+              "code": "MATH 2374",
+              "subject": "MATH",
+              "id": "2374"
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "code": "MATH 5466",
     "subject": "MATH",
     "id": "5466",
     "title": "Math of Data Analysis II",
-    "info": "this course gives an overview of the mathematical foundations for some commonly used techniques in machine learning and data science. the course will cover unsupervised learning techniques (johnson-lindenstrauss randomized embeddings, spectral embeddings and diffusion maps, the t-distributed stochastic neighbor embedding, low-rank approximations), neural networks and deep learning (auto-differentiation, universal approximation, graph-neural networks), advanced techniques in graph-based learning (graph-cuts and graph total variation, active learning, semi-supervised learning at low label rates), and optimization for machine learning (iteratively reweighted least squares (irls), momentum descent, stochastic optimization, proximal gradient descent, newton's method, matrix optimization and matrix calculus, matrix completion, and the continuum perspective on optimization). \nprerequisites: math 5465. linear algebra (for example math 2142, 2243 or 2373) and\nmultivariable calculus (for example math 2263 or 2374), or consent of the instructor.",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "this course gives an overview of the mathematical foundations for some commonly used techniques in machine learning and data science. the course will cover unsupervised learning techniques (johnson-lindenstrauss randomized embeddings, spectral embeddings and diffusion maps, the t-distributed stochastic neighbor embedding, low-rank approximations), neural networks and deep learning (auto-differentiation, universal approximation, graph-neural networks), advanced techniques in graph-based learning (graph-cuts and graph total variation, active learning, semi-supervised learning at low label rates), and optimization for machine learning (iteratively reweighted least squares (irls), momentum descent, stochastic optimization, proximal gradient descent, newton's method, matrix optimization and matrix calculus, matrix completion, and the continuum perspective on optimization).",
+    "prereqInfo": "math 5465. linear algebra (for example math 2142, 2243 or 2373) and\nmultivariable calculus (for example math 2263 or 2374), or consent of the instructor.",
+    "prereq": {
+      "or": [
+        {
+          "code": "MATH 5465",
+          "subject": "MATH",
+          "id": "5465"
+        },
+        {
+          "and": [
+            {
+              "code": "MATH 2142",
+              "subject": "MATH",
+              "id": "2142"
+            },
+            {
+              "code": "MATH 2243",
+              "subject": "MATH",
+              "id": "2243"
+            },
+            {
+              "code": "MATH 2373",
+              "subject": "MATH",
+              "id": "2373"
+            }
+          ]
+        },
+        {
+          "or": [
+            {
+              "code": "MATH 2263",
+              "subject": "MATH",
+              "id": "2263"
+            },
+            {
+              "code": "MATH 2374",
+              "subject": "MATH",
+              "id": "2374"
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "code": "MATH 5467",
@@ -1902,11 +1694,6 @@
               "code": "MATH 2373",
               "subject": "MATH",
               "id": "2373"
-            },
-            {
-              "code": "MATH 2573H",
-              "subject": "MATH",
-              "id": "2573H"
             }
           ]
         },
@@ -1926,6 +1713,29 @@
               "code": "MATH 3283",
               "subject": "MATH",
               "id": "3283"
+            }
+          ]
+        },
+        {
+          "and": [
+            {
+              "or": [
+                {
+                  "code": "MATH 2263",
+                  "subject": "MATH",
+                  "id": "2263"
+                },
+                {
+                  "code": "MATH 2374",
+                  "subject": "MATH",
+                  "id": "2374"
+                }
+              ]
+            },
+            {
+              "code": "MATH 4567",
+              "subject": "MATH",
+              "id": "4567"
             }
           ]
         }
@@ -1968,11 +1778,6 @@
           "code": "MATH 2373",
           "subject": "MATH",
           "id": "2373"
-        },
-        {
-          "code": "MATH 2573H",
-          "subject": "MATH",
-          "id": "2573H"
         }
       ]
     }
@@ -2037,11 +1842,6 @@
               "code": "MATH 2373",
               "subject": "MATH",
               "id": "2373"
-            },
-            {
-              "code": "MATH 2573H",
-              "subject": "MATH",
-              "id": "2573H"
             }
           ]
         },
@@ -2087,11 +1887,6 @@
               "code": "MATH 2373",
               "subject": "MATH",
               "id": "2373"
-            },
-            {
-              "code": "MATH 2573H",
-              "subject": "MATH",
-              "id": "2573H"
             }
           ]
         },
@@ -2137,11 +1932,6 @@
               "code": "MATH 2374",
               "subject": "MATH",
               "id": "2374"
-            },
-            {
-              "code": "MATH 2573H",
-              "subject": "MATH",
-              "id": "2573H"
             }
           ]
         },
@@ -2182,11 +1972,6 @@
               "code": "MATH 2373",
               "subject": "MATH",
               "id": "2373"
-            },
-            {
-              "code": "MATH 2573H",
-              "subject": "MATH",
-              "id": "2573H"
             }
           ]
         },
@@ -2232,11 +2017,6 @@
               "code": "MATH 2373",
               "subject": "MATH",
               "id": "2373"
-            },
-            {
-              "code": "MATH 2573H",
-              "subject": "MATH",
-              "id": "2573H"
             }
           ]
         },
@@ -2268,95 +2048,6 @@
     }
   },
   {
-    "code": "MATH 5594H",
-    "subject": "MATH",
-    "id": "5594H",
-    "title": "Honors Mathematics - Topics",
-    "info": "topics vary depending on interests of instructor. theoretical treatment of chosen topic.",
-    "prereqInfo": "[3593h with grade of at least b, experience in writing proofs] or dept consent; intended for mathematically-talented students with proven achievement in theoretical mathematics courses",
-    "prereq": {
-      "code": "MATH 3593H",
-      "subject": "MATH",
-      "id": "3593H"
-    }
-  },
-  {
-    "code": "MATH 5615H",
-    "subject": "MATH",
-    "id": "5615H",
-    "title": "Honors Analysis I",
-    "info": "axiomatic treatment of real/complex number systems. introduction to metric spaces: convergence, connectedness, compactness. convergence of sequences/series of real/complex numbers, cauchy criterion, root/ratio tests. continuity in metric spaces. rigorous treatment of differentiation of single-variable functions, taylor's theorem.",
-    "prereqInfo": "[[2243 or 2373], [2263 or 2374], [2283 or 3283]] or 2574",
-    "prereq": {
-      "or": [
-        {
-          "and": [
-            {
-              "or": [
-                {
-                  "code": "MATH 2243",
-                  "subject": "MATH",
-                  "id": "2243"
-                },
-                {
-                  "code": "MATH 2373",
-                  "subject": "MATH",
-                  "id": "2373"
-                }
-              ]
-            },
-            {
-              "or": [
-                {
-                  "code": "MATH 2263",
-                  "subject": "MATH",
-                  "id": "2263"
-                },
-                {
-                  "code": "MATH 2374",
-                  "subject": "MATH",
-                  "id": "2374"
-                }
-              ]
-            },
-            {
-              "or": [
-                {
-                  "code": "MATH 2283",
-                  "subject": "MATH",
-                  "id": "2283"
-                },
-                {
-                  "code": "MATH 3283",
-                  "subject": "MATH",
-                  "id": "3283"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "code": "MATH 2574",
-          "subject": "MATH",
-          "id": "2574"
-        }
-      ]
-    }
-  },
-  {
-    "code": "MATH 5616H",
-    "subject": "MATH",
-    "id": "5616H",
-    "title": "Honors Analysis II",
-    "info": "rigorous treatment of riemann-stieltjes integration. sequences/series of functions, uniform convergence, equicontinuous families, stone-weierstrass theorem, power series. rigorous treatment of differentiation/integration of multivariable functions, implicit function theorem, stokes' theorem.  additional topics as time permits.",
-    "prereqInfo": "5615",
-    "prereq": {
-      "code": "MATH 5615",
-      "subject": "MATH",
-      "id": "5615"
-    }
-  },
-  {
     "code": "MATH 5651",
     "subject": "MATH",
     "id": "5651",
@@ -2376,11 +2067,6 @@
               "code": "MATH 2374",
               "subject": "MATH",
               "id": "2374"
-            },
-            {
-              "code": "MATH 2573H",
-              "subject": "MATH",
-              "id": "2573H"
             }
           ]
         },
@@ -2395,6 +2081,25 @@
               "code": "MATH 2373",
               "subject": "MATH",
               "id": "2373"
+            }
+          ]
+        },
+        {
+          "or": [
+            {
+              "code": "MATH 2283",
+              "subject": "MATH",
+              "id": "2283"
+            },
+            {
+              "code": "MATH 2574",
+              "subject": "MATH",
+              "id": "2574"
+            },
+            {
+              "code": "MATH 3283",
+              "subject": "MATH",
+              "id": "3283"
             }
           ]
         }
@@ -2465,11 +2170,6 @@
               "code": "MATH 2373",
               "subject": "MATH",
               "id": "2373"
-            },
-            {
-              "code": "MATH 2573H",
-              "subject": "MATH",
-              "id": "2573H"
             }
           ]
         },
@@ -2525,11 +2225,6 @@
               "code": "MATH 2373",
               "subject": "MATH",
               "id": "2373"
-            },
-            {
-              "code": "MATH 2573H",
-              "subject": "MATH",
-              "id": "2573H"
             }
           ]
         },
@@ -2551,6 +2246,25 @@
               "id": "2574"
             }
           ]
+        },
+        {
+          "or": [
+            {
+              "code": "MATH 2283",
+              "subject": "MATH",
+              "id": "2283"
+            },
+            {
+              "code": "MATH 3283",
+              "subject": "MATH",
+              "id": "3283"
+            }
+          ]
+        },
+        {
+          "code": "MATH 4707",
+          "subject": "MATH",
+          "id": "4707"
         }
       ]
     }
@@ -2573,11 +2287,6 @@
           "code": "MATH 2373",
           "subject": "MATH",
           "id": "2373"
-        },
-        {
-          "code": "MATH 2573H",
-          "subject": "MATH",
-          "id": "2573H"
         }
       ]
     }
@@ -2903,7 +2612,7 @@
     "subject": "MATH",
     "id": "8280",
     "title": "Topics Number Th",
-    "info": "various topics in number theory.  ",
+    "info": "various topics in number theory.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -3094,11 +2803,7 @@
     "title": "Math Model Ind Prob",
     "info": "techniques for analysis of mathematical models.  asymptotic methods; design of simulation and visualization techniques.  specific computation for models arising in industrial problems.",
     "prereqInfo": "8597 or instr consent",
-    "prereq": {
-      "code": "MATH 8597",
-      "subject": "MATH",
-      "id": "8597"
-    }
+    "prereq": []
   },
   {
     "code": "MATH 8390",
@@ -3174,9 +2879,23 @@
     "info": "numerical methods for integral equations, parabolic partial differential equations, hyperbolic partial differential equations. monte carlo methods.",
     "prereqInfo": "8441 or instr consent; 5477-5478 recommended for engineering and science grad students",
     "prereq": {
-      "code": "MATH 8441",
-      "subject": "MATH",
-      "id": "8441"
+      "or": [
+        {
+          "code": "MATH 8441",
+          "subject": "MATH",
+          "id": "8441"
+        },
+        {
+          "code": "MATH 5477",
+          "subject": "MATH",
+          "id": "5477"
+        },
+        {
+          "code": "MATH 5478",
+          "subject": "MATH",
+          "id": "5478"
+        }
+      ]
     }
   },
   {
@@ -3581,7 +3300,11 @@
     "title": "Doct Pre-Thesis Cr",
     "info": "tbd",
     "prereqInfo": "doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": []
+    "prereq": {
+      "code": "MATH 60",
+      "subject": "MATH",
+      "id": "60"
+    }
   },
   {
     "code": "MATH 8668",
@@ -3643,7 +3366,11 @@
     "title": "Thesis Credit:Mast*",
     "info": "(no description)",
     "prereqInfo": "max 18 cr per semester or summer; 10 cr total required [plan a only]",
-    "prereq": []
+    "prereq": {
+      "code": "MATH 10",
+      "subject": "MATH",
+      "id": "10"
+    }
   },
   {
     "code": "MATH 8790",

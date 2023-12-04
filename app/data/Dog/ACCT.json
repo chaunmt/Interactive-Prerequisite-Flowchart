@@ -4,8 +4,8 @@
     "subject": "ACCT",
     "id": "1911",
     "title": "The Language of Business",
-    "info": "have you ever wondered why tesla’s stock price tripled in a 3-month time period? why did toys r us go bankrupt? why does apple hold on to $200 billion of cash? why is snapchat still not profitable yet? all of these questions can be answered by looking at a company’s financial statements!",
-    "prereqInfo": "financial accounting is often called the language of business as it is the language that companies use to communicate their financial information to various parties. regardless of whether you want to work in the field of accounting and finance, become a manager at a company, or just dabble in stock market investing, understanding how a business works, how managers make decisions, and how to analyze financial statements will be hugely beneficial for your future. ",
+    "info": "have you ever wondered why tesla’s stock price tripled in a 3-month time period? why did toys r us go bankrupt? why does apple hold on to $200 billion of cash? why is snapchat still not profitable yet? all of these questions can be answered by looking at a company’s financial statements!\n\nfinancial accounting is often called the language of business as it is the language that companies use to communicate their financial information to various parties. regardless of whether you want to work in the field of accounting and finance, become a manager at a company, or just dabble in stock market investing, understanding how a business works, how managers make decisions, and how to analyze financial statements will be hugely beneficial for your future. \n\nthis seminar will start by exposing you to basic business terminology and concepts, as well as analyzing how businesses make decisions. next, we will focus on the abcs of financial statements and financial analysis. finally, we will apply these principles to real-life case studies and discussions that explore various companies such as spotify, tesla, uber, netflix, starbucks, apple, snapchat, and more!",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -14,15 +14,6 @@
     "id": "2051",
     "title": "Intr Financial Rptg",
     "info": "this course introduces the topics of financial reporting and accounting. the purpose of financial accounting is to provide information to the entity owners and external parties to serve as the basis for making decisions about that entity. a student who successfully completes this class should be able to 1) understand the concepts and principles of accounting, 2) analyze, record and report the accounting treatment of business transactions, and 3) prepare, interpret, and analyze financial statements.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "ACCT 2051H",
-    "subject": "ACCT",
-    "id": "2051H",
-    "title": "Honors:  Intr Financial Rptg",
-    "info": "this course introduces the topics of financial reporting and accounting.  the purpose of the financial accounting is to provide information to the entity owners and external parties to serve as the basis for making decisions about that entity.  a student who successfully completes this class should be able to 1) understand the concepts and principles of accounting, 2) analyze, record and report the accounting treatment of business transactions, and 3) prepare, interpret, and analyze financial statements.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -104,7 +95,7 @@
     "info": "valuation, measurement, reporting issues related to selected assets/liabilities of firm. theory underlying accounting issues. applying accounting principles.",
     "prereqInfo": "grade of b- or better in acct 2050/acct 2051 or passed the acct pretest (z.umn.edu/acct5101pretest); csom major, mgmt minor, mgmt grad student",
     "prereq": {
-      "or": [
+      "and": [
         {
           "code": "ACCT 2050",
           "subject": "ACCT",
@@ -181,7 +172,7 @@
     "subject": "ACCT",
     "id": "5135",
     "title": "Federal Income Tax",
-    "info": "u.s. federal system of taxation. concepts of gross income, deductions, credits. analysis of structure of internal revenue code, its provisions with respect to specific areas of law. interrelationships between legislative, judicial, and administrative authority. methods, tools, and techniques to conduct tax research. ",
+    "info": "u.s. federal system of taxation. concepts of gross income, deductions, credits. analysis of structure of internal revenue code, its provisions with respect to specific areas of law. interrelationships between legislative, judicial, and administrative authority. methods, tools, and techniques to conduct tax research.",
     "prereqInfo": "[2050 and or 2051] or mba 6030], [mgmt or grad mgmt student]",
     "prereq": {
       "or": [
@@ -212,15 +203,10 @@
     "subject": "ACCT",
     "id": "5141",
     "title": "Financial-Data Analytics",
-    "info": "this is a 2-credit introductory course on financial reporting data analytics for carlson students. the main learning objective is to introduce students specializing in business (accounting, auditing, tax, finance, marketing, operations, etc.) to data analytics, providing them the necessary knowledge and tools needed to effectively use data analytics in their specialized domain. the goal is thus for students to be able to consume and use available data analytics technologies to complement existing technical skills, rather than to train \\\"data analytics specialists\\\" (although this class is a good jumping-off point for students who wish to pursue a career specializing in data analytics!). prior coding experience is thus not required, although students should have completed business statistics (sco 2550 or ba 2551 or equivalent statistics course). \n\nafter a general overview of data analytics and machine learning, we will dive into the etl (extract, transform, load) process, covering topics and showcasing applications such as data joins, variable types, formulas, and regular expressions. we will then explore data visualization tools (including pivot tables and dashboards) and conclude the term by modeling data to create business insights via predictions. students will gain hands-on experience using state-of-the-art data analytics tools and will learn how to conduct basic sql queries. students will improve their quantitative and problem-solving skills and learn how to apply scientific research methods to answer questions, present solutions, and discuss limitations. an emphasis will be placed on financial reporting datasets/applications, although the methods and concepts covered are applicable to other business settings/functions. ultimately, students will enhance their analytical skills and achieve a deeper understanding of issues related to financial reporting specifically and business more generally.  ",
+    "info": "this is a 2-credit introductory course on financial reporting data analytics for carlson students. the main learning objective is to introduce students specializing in business (accounting, auditing, tax, finance, marketing, operations, etc.) to data analytics, providing them the necessary knowledge and tools needed to effectively use data analytics in their specialized domain. the goal is thus for students to be able to consume and use available data analytics technologies to complement existing technical skills, rather than to train \\\"data analytics specialists\\\" (although this class is a good jumping-off point for students who wish to pursue a career specializing in data analytics!). prior coding experience is thus not required, although students should have completed business statistics (sco 2550 or ba 2551 or equivalent statistics course). \n\nafter a general overview of data analytics and machine learning, we will dive into the etl (extract, transform, load) process, covering topics and showcasing applications such as data joins, variable types, formulas, and regular expressions. we will then explore data visualization tools (including pivot tables and dashboards) and conclude the term by modeling data to create business insights via predictions. students will gain hands-on experience using state-of-the-art data analytics tools and will learn how to conduct basic sql queries. students will improve their quantitative and problem-solving skills and learn how to apply scientific research methods to answer questions, present solutions, and discuss limitations. an emphasis will be placed on financial reporting datasets/applications, although the methods and concepts covered are applicable to other business settings/functions. ultimately, students will enhance their analytical skills and achieve a deeper understanding of issues related to financial reporting specifically and business more generally.",
     "prereqInfo": "sco 2550 or ba 2551 or equivalent statistics course and acct 2050 or 2051",
     "prereq": {
       "and": [
-        {
-          "code": "SCO 2550H",
-          "subject": "SCO",
-          "id": "2550H"
-        },
         {
           "code": "BA 2551",
           "subject": "BA",
@@ -257,7 +243,7 @@
     "subject": "ACCT",
     "id": "5181",
     "title": "Advanced Reporting",
-    "info": "theory underlying preparation of consolidated financial statements, as well as mechanical computations needed to prepare statements. ",
+    "info": "theory underlying preparation of consolidated financial statements, as well as mechanical computations needed to prepare statements.",
     "prereqInfo": "5101, 5102 recommended, or mba 6031 (equiv. is also mba 6030 before course number change in fall 2022). mba/mgmt sci mba students must register a/f grade base.",
     "prereq": {
       "and": [
@@ -276,18 +262,11 @@
           "subject": "MBA",
           "id": "6031"
         },
-        [
-          {
-            "code": "MBA 6030",
-            "subject": "MBA",
-            "id": "6030"
-          },
-          {
-            "code": "ACCT 2022",
-            "subject": "ACCT",
-            "id": "2022"
-          }
-        ]
+        {
+          "code": "MBA 6030",
+          "subject": "MBA",
+          "id": "6030"
+        }
       ]
     }
   },
@@ -383,9 +362,23 @@
     "info": "causes/history of international differences in design of financial accounting/reporting systems, efforts to harmonize them into worldwide system. role/impact of currency translation on financial statements. international accounting standards, conceptual framework.",
     "prereqInfo": "5101; [5102 or concurrent registration is required (or allowed) in 5102] recommended",
     "prereq": {
-      "code": "ACCT 5101",
-      "subject": "ACCT",
-      "id": "5101"
+      "or": [
+        {
+          "code": "ACCT 5101",
+          "subject": "ACCT",
+          "id": "5101"
+        },
+        {
+          "code": "ACCT 5102",
+          "subject": "ACCT",
+          "id": "5102"
+        },
+        {
+          "code": "ACCT 5102",
+          "subject": "ACCT",
+          "id": "5102"
+        }
+      ]
     }
   },
   {
@@ -447,7 +440,7 @@
     "subject": "ACCT",
     "id": "6101",
     "title": "Financial Accounting II",
-    "info": "interpreting financial statements and their financial disclosures. us disclosure rules. communication methods for managers. managers incentives. ability to exert discretion over reported earnings. interplay between corporate strategy and its financial reporting policies/practices.  ",
+    "info": "interpreting financial statements and their financial disclosures. us disclosure rules. communication methods for managers. managers incentives. ability to exert discretion over reported earnings. interplay between corporate strategy and its financial reporting policies/practices.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -456,7 +449,7 @@
     "subject": "ACCT",
     "id": "6102",
     "title": "Financial Statement Analysis",
-    "info": "firms communicate their results to various users through financial statements. by developing an understanding about how companies report their economic transactions, financial statement users can better understand the results of those transactions. financial statements tell the story of a firm and are the basis upon which business decisions are made, so users need the ability to properly analyze the financial statements in order to make accurate decisions regarding the firm’s future. by the end of this course, students should be able to evaluate how a firm’s business strategy translates to the financial statements, recognize potential earnings management, decipher whether a firm’s profitability is sustainable or unsustainable, understand revenue recognition rules and the potential for manipulation, articulate the general accounting rules regarding operating activities for a firm, evaluate how investing and financing activities affect a firm’s health, and utilize financial forecasting to predict how a company will likely perform in the future.\n",
+    "info": "firms communicate their results to various users through financial statements. by developing an understanding about how companies report their economic transactions, financial statement users can better understand the results of those transactions. financial statements tell the story of a firm and are the basis upon which business decisions are made, so users need the ability to properly analyze the financial statements in order to make accurate decisions regarding the firm’s future. by the end of this course, students should be able to evaluate how a firm’s business strategy translates to the financial statements, recognize potential earnings management, decipher whether a firm’s profitability is sustainable or unsustainable, understand revenue recognition rules and the potential for manipulation, articulate the general accounting rules regarding operating activities for a firm, evaluate how investing and financing activities affect a firm’s health, and utilize financial forecasting to predict how a company will likely perform in the future.",
     "prereqInfo": "mba 6031, mba/mgmt sci mba student",
     "prereq": {
       "code": "MBA 6031",
@@ -714,7 +707,7 @@
     "subject": "ACCT",
     "id": "8821",
     "title": "Topics in Capital Mrkts I",
-    "info": "auction markets; price formation in experimental asset markets; experimental studies of information transfer and capital market efficiency; experimental tests of strategic behavior, trust, and reciprocity. ",
+    "info": "auction markets; price formation in experimental asset markets; experimental studies of information transfer and capital market efficiency; experimental tests of strategic behavior, trust, and reciprocity.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -723,7 +716,7 @@
     "subject": "ACCT",
     "id": "8822",
     "title": "Topics in Capital Markets II",
-    "info": "heuristics and biases in information processing, auditor judgment, mental accounting, and decision aids. ",
+    "info": "heuristics and biases in information processing, auditor judgment, mental accounting, and decision aids.",
     "prereqInfo": null,
     "prereq": []
   },

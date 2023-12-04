@@ -67,7 +67,7 @@
     "subject": "ECP",
     "id": "5994",
     "title": "Directed Research: ECP",
-    "info": "student works with faculty adviser to design a scientific research project.  ",
+    "info": "student works with faculty adviser to design a scientific research project.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -130,8 +130,8 @@
     "subject": "ECP",
     "id": "8333",
     "title": "FTE: Master's",
-    "info": "fte: master's.\nprereq-master's student, adviser and dgs consent.",
-    "prereqInfo": null,
+    "info": "fte: master's.",
+    "prereqInfo": "-master's student, adviser and dgs consent.",
     "prereq": []
   },
   {
@@ -139,8 +139,8 @@
     "subject": "ECP",
     "id": "8444",
     "title": "FTE: Doctoral",
-    "info": "fte: doctoral.\nprereq-doctoral student, adviser and dgs consent.",
-    "prereqInfo": null,
+    "info": "fte: doctoral.",
+    "prereqInfo": "-doctoral student, adviser and dgs consent.",
     "prereq": []
   },
   {
@@ -184,8 +184,8 @@
     "subject": "ECP",
     "id": "8504",
     "title": "Modeling Biologics",
-    "info": "this course will develop computer skills to apply nonlinear regression models to describe the pharmacokinetics and pharmacodynamics of biologics.  ",
-    "prereqInfo": "a course in basic pharmacokinetics; enrollment in the experimental & clinical pharmacology or pharmaceutics graduate program, or instructor consent\n",
+    "info": "this course will develop computer skills to apply nonlinear regression models to describe the pharmacokinetics and pharmacodynamics of biologics.",
+    "prereqInfo": "a course in basic pharmacokinetics; enrollment in the experimental & clinical pharmacology or pharmaceutics graduate program, or instructor consent",
     "prereq": []
   },
   {
@@ -222,7 +222,11 @@
     "title": "Doct Pre-Thesis Cr*",
     "info": "doctoral pre-thesis credits.",
     "prereqInfo": "doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": []
+    "prereq": {
+      "code": "ECP 60",
+      "subject": "ECP",
+      "id": "60"
+    }
   },
   {
     "code": "ECP 8776",
@@ -231,7 +235,11 @@
     "title": "Project Credit: Mast. Plan B",
     "info": "project credits: master's plan b",
     "prereqInfo": "max 18 cr per semester or summer; 10 cr total required (plan b only)",
-    "prereq": []
+    "prereq": {
+      "code": "ECP 10",
+      "subject": "ECP",
+      "id": "10"
+    }
   },
   {
     "code": "ECP 8777",
@@ -240,7 +248,11 @@
     "title": "Thesis Credit:Mast*",
     "info": "thesis credits: master's.",
     "prereqInfo": "max 18 cr per semester or summer; 10 cr total required [plan a only]",
-    "prereq": []
+    "prereq": {
+      "code": "ECP 10",
+      "subject": "ECP",
+      "id": "10"
+    }
   },
   {
     "code": "ECP 8888",
@@ -301,7 +313,7 @@
     "subject": "ECP",
     "id": "8992",
     "title": "Directed Readings: ECP",
-    "info": "tbd ",
+    "info": "tbd",
     "prereqInfo": null,
     "prereq": []
   },

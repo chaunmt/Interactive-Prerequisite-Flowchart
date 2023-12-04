@@ -4,8 +4,8 @@
     "subject": "MORT",
     "id": "2171",
     "title": "Introductory Anatomy",
-    "info": "study of the human body systems and functions in a systemic approach with an emphasis placed on providing a foundation for funeral service preparation in the areas of embalming and restorative art.  systems covered include integumentary, skeletal, muscular, nervous, endocrine, cardiovascular, lymphatic, respiratory, digestive, urinary, and reproductive.",
-    "prereqInfo": "pre- / co-requisite: medical terminology",
+    "info": "study of the human body systems and functions in a systemic approach with an emphasis placed on providing a foundation for funeral service preparation in the areas of embalming and restorative art.  systems covered include integumentary, skeletal, muscular, nervous, endocrine, cardiovascular, lymphatic, respiratory, digestive, urinary, and reproductive.\n\npre- / co-requisite: medical terminology",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -31,7 +31,7 @@
     "subject": "MORT",
     "id": "3012W",
     "title": "Org & Mgnt Funeral Business",
-    "info": "how to create an entrepreneurial marketing strategy and business plan for a small funeral business. various forms of ownership. financial requirements, risk management, human resources management. theory supplemented with practical information, real-life experiences. ",
+    "info": "how to create an entrepreneurial marketing strategy and business plan for a small funeral business. various forms of ownership. financial requirements, risk management, human resources management. theory supplemented with practical information, real-life experiences.",
     "prereqInfo": "diversified core mathematical thinking, acct 2050: introduction to financial reporting",
     "prereq": {
       "code": "ACCT 2050",
@@ -62,7 +62,7 @@
     "subject": "MORT",
     "id": "3018",
     "title": "Funeral Service Practice I",
-    "info": "a study of the practice of funeral service, the conduct of funerals in the diverse american society; various survivor benefits including social security, veterans benefits, active military benefits, and others; private and national cemetery familiarization, including eligibility; merchandise familiarization\n",
+    "info": "a study of the practice of funeral service, the conduct of funerals in the diverse american society; various survivor benefits including social security, veterans benefits, active military benefits, and others; private and national cemetery familiarization, including eligibility; merchandise familiarization",
     "prereqInfo": null,
     "prereq": []
   },
@@ -89,16 +89,39 @@
     "subject": "MORT",
     "id": "3021W",
     "title": "Funeral Psych. & Arrangements",
-    "info": "this course instructs students in grief psychology principles as they relate to funeral service, as well as principles underlying successful funeral arrangements. coursework includes psychology, counseling, and communication principles, as well as an introduction to helping skills, communication techniques, and other tools to conduct funeral arrangements with diverse client families. particular emphasis is placed on adapting these tools to a variety of arrangement factors, including disposition type, family dynamics, veteran status, and religious affiliation. coursework is delivered and assessed via readings, lectures, in-class role-playing, writing-to-learn activities, quizzes, tests, discussions, qualitative research, and reflective writing assignments. prerequisites: writ 1301, psy 1001, comm 3401 or comm 3402",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "this course instructs students in grief psychology principles as they relate to funeral service, as well as principles underlying successful funeral arrangements. coursework includes psychology, counseling, and communication principles, as well as an introduction to helping skills, communication techniques, and other tools to conduct funeral arrangements with diverse client families. particular emphasis is placed on adapting these tools to a variety of arrangement factors, including disposition type, family dynamics, veteran status, and religious affiliation. coursework is delivered and assessed via readings, lectures, in-class role-playing, writing-to-learn activities, quizzes, tests, discussions, qualitative research, and reflective writing assignments.",
+    "prereqInfo": "writ 1301, psy 1001, comm 3401 or comm 3402",
+    "prereq": {
+      "and": [
+        {
+          "code": "WRIT 1301",
+          "subject": "WRIT",
+          "id": "1301"
+        },
+        {
+          "code": "PSY 1001",
+          "subject": "PSY",
+          "id": "1001"
+        },
+        {
+          "code": "COMM 3401",
+          "subject": "COMM",
+          "id": "3401"
+        },
+        {
+          "code": "COMM 3402",
+          "subject": "COMM",
+          "id": "3402"
+        }
+      ]
+    }
   },
   {
     "code": "MORT 3022W",
     "subject": "MORT",
     "id": "3022W",
     "title": "Funeral Arrangements Lab",
-    "info": "this course provides students with practical tools to conduct funeral arrangements with diverse client families. coursework includes application of mort 3021w material, group discussion, and laboratory-based application of skills. each student will conduct a simulated arrangement with a community volunteer based on real-world arrangement scenarios. delivery and assessment of coursework will be via readings, lectures, in-class role-playing, quizzes, tests, writing-to-learn activities, and reflective writing assignments. ",
+    "info": "this course provides students with practical tools to conduct funeral arrangements with diverse client families. coursework includes application of mort 3021w material, group discussion, and laboratory-based application of skills. each student will conduct a simulated arrangement with a community volunteer based on real-world arrangement scenarios. delivery and assessment of coursework will be via readings, lectures, in-class role-playing, quizzes, tests, writing-to-learn activities, and reflective writing assignments.",
     "prereqInfo": "mort 3021w, mort 3014",
     "prereq": {
       "and": [
@@ -169,20 +192,22 @@
     "subject": "MORT",
     "id": "3051",
     "title": "Restorative Art",
-    "info": "in restorative art 3051, we will consider the importance of, and techniques for, creating an acceptable physical appearance upon deceased persons for the benefit of the survivors.\nover the semester, we will study a variety of topics for the purpose of building skills in the area of restorative art, including anatomical terminology; skeletal structures of the face and cranium; musculature of the face and neck; photographic interpretations; classical proportions of the face and cranium; physiognomy of the face and cranium; essential components of the nose, mouth, eyes, and ears; various modeling techniques; proper placement guides for the restoration of damaged structures and/or missing features; treatments and techniques for both general and specific injuries; color theory, and cosmetology related to the funeral profession.",
-    "prereqInfo": "pre / co-requisite: mort 3061 embalming theory\nprerequisites: mort 2171 introductory human anatomy; mort 3171 human anatomy laboratory\n",
-    "prereq": [
-      {
-        "code": "MORT 3061",
-        "subject": "MORT",
-        "id": "3061"
-      },
-      {
-        "code": "MORT 2171",
-        "subject": "MORT",
-        "id": "2171"
-      }
-    ]
+    "info": "in restorative art 3051, we will consider the importance of, and techniques for, creating an acceptable physical appearance upon deceased persons for the benefit of the survivors.\nover the semester, we will study a variety of topics for the purpose of building skills in the area of restorative art, including anatomical terminology; skeletal structures of the face and cranium; musculature of the face and neck; photographic interpretations; classical proportions of the face and cranium; physiognomy of the face and cranium; essential components of the nose, mouth, eyes, and ears; various modeling techniques; proper placement guides for the restoration of damaged structures and/or missing features; treatments and techniques for both general and specific injuries; color theory, and cosmetology related to the funeral profession.\n\npre / co-requisite: mort 3061 embalming theory",
+    "prereqInfo": "mort 2171 introductory human anatomy; mort 3171 human anatomy laboratory",
+    "prereq": {
+      "or": [
+        {
+          "code": "MORT 2171",
+          "subject": "MORT",
+          "id": "2171"
+        },
+        {
+          "code": "MORT 3171",
+          "subject": "MORT",
+          "id": "3171"
+        }
+      ]
+    }
   },
   {
     "code": "MORT 3055W",
@@ -201,9 +226,18 @@
     "info": "this is an introductory course which covers the phenomenon of death of the human body, and the fundamental procedures associated with the practice of the art and science of embalming. embalming is the process of chemically treating the dead human body in order to: (1) reduce the presence and growth of microorganisms; (2) retard organic decomposition; and (3) restore an acceptable physical appearance to the decedent.1 the semester begins with such topics as personal and public health considerations, and government regulations that are applicable to the embalming process and the fundamentals of embalming. next are the topics of terminology and identification of embalming instruments, the importance of embalming analysis, and the completion of embalming reports. we advance to vessel location and selection, and procedures for preparing the body before the embalming process begins. we move on to the subject of embalming chemicals, with our lectures and discussions focusing on the reasons why we use various quantities and types of chemicals for each individual case.\nthe course continues with presentations focusing on treatments for embalming difficult cases, including discussion of traumatic and pathological conditions, infections, communicable diseases, autopsied bodies, organ and tissue donors, and other various conditions.",
     "prereqInfo": "mort 2171 introductory human anatomy; mort 3171 human anatomy laboratory",
     "prereq": {
-      "code": "MORT 2171",
-      "subject": "MORT",
-      "id": "2171"
+      "or": [
+        {
+          "code": "MORT 2171",
+          "subject": "MORT",
+          "id": "2171"
+        },
+        {
+          "code": "MORT 3171",
+          "subject": "MORT",
+          "id": "3171"
+        }
+      ]
     }
   },
   {
@@ -220,7 +254,7 @@
     "subject": "MORT",
     "id": "3065",
     "title": "Embalming Chemistry",
-    "info": "a survey of the basic principles of chemistry as relate to funeral service. emphasis on the chemical principles and precautions involved in the\npreservation and disinfection of the dead human body. \n",
+    "info": "a survey of the basic principles of chemistry as relate to funeral service. emphasis on the chemical principles and precautions involved in the\npreservation and disinfection of the dead human body.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -247,7 +281,7 @@
     "subject": "MORT",
     "id": "3151",
     "title": "Restorative Art Lab",
-    "info": "principles/techniques for restorative art. modeling facial features with clay or wax. use of restorative techniques. cosmetic application on human remains.\nmortuary science major\npre / co-requisites: mort 3051 restorative art\n",
+    "info": "principles/techniques for restorative art. modeling facial features with clay or wax. use of restorative techniques. cosmetic application on human remains.\nmortuary science major\npre / co-requisites: mort 3051 restorative art",
     "prereqInfo": null,
     "prereq": []
   },
@@ -256,13 +290,9 @@
     "subject": "MORT",
     "id": "3161",
     "title": "Embalming Laboratory",
-    "info": "practices/procedures of chemically preserving/restoring human remains.",
-    "prereqInfo": "mortuary science major\npre / co-requisites: mort 3061 embalming lecture\n",
-    "prereq": {
-      "code": "MORT 3061",
-      "subject": "MORT",
-      "id": "3061"
-    }
+    "info": "practices/procedures of chemically preserving/restoring human remains.\n\nmortuary science major\npre / co-requisites: mort 3061 embalming lecture",
+    "prereqInfo": null,
+    "prereq": []
   },
   {
     "code": "MORT 3162",
@@ -278,13 +308,9 @@
     "subject": "MORT",
     "id": "3171",
     "title": "Human Anatomy Laboratory",
-    "info": "study of gross human anatomy using cadavers, with emphasis on anatomical structures as relate to embalming, restorative art, and postmortem decedent care. ",
-    "prereqInfo": "prerec: phar 1002: medical terminology; co-requisite: mort 2171: introductory anatomy",
-    "prereq": {
-      "code": "PHAR 1002",
-      "subject": "PHAR",
-      "id": "1002"
-    }
+    "info": "study of gross human anatomy using cadavers, with emphasis on anatomical structures as relate to embalming, restorative art, and postmortem decedent care. \n\nprerec: phar 1002: medical terminology; co-requisite: mort 2171: introductory anatomy",
+    "prereqInfo": null,
+    "prereq": []
   },
   {
     "code": "MORT 3371",
@@ -300,20 +326,32 @@
     "subject": "MORT",
     "id": "3379",
     "title": "Clinical Funeral Srvc Rotation",
-    "info": "practical experience working in clinical settings related to funeral service. what it means to be a funeral director in contemporary american society.",
-    "prereqInfo": "mortuary science major\npre / co-requisite: 3021w\nprerequisites: mort 3051; 3061; 3151; 3161",
-    "prereq": [
-      {
-        "code": "MORT 3021W",
-        "subject": "MORT",
-        "id": "3021W"
-      },
-      {
-        "code": "MORT 3051",
-        "subject": "MORT",
-        "id": "3051"
-      }
-    ]
+    "info": "practical experience working in clinical settings related to funeral service. what it means to be a funeral director in contemporary american society.\n\nmortuary science major\npre / co-requisite: 3021w",
+    "prereqInfo": "mort 3051; 3061; 3151; 3161",
+    "prereq": {
+      "or": [
+        {
+          "code": "MORT 3051",
+          "subject": "MORT",
+          "id": "3051"
+        },
+        {
+          "code": "MORT 3061",
+          "subject": "MORT",
+          "id": "3061"
+        },
+        {
+          "code": "MORT 3151",
+          "subject": "MORT",
+          "id": "3151"
+        },
+        {
+          "code": "MORT 3161",
+          "subject": "MORT",
+          "id": "3161"
+        }
+      ]
+    }
   },
   {
     "code": "MORT 3380",
@@ -329,8 +367,8 @@
     "subject": "MORT",
     "id": "3384",
     "title": "Integrative Capstone Course",
-    "info": "the purpose of this course is to synthesize concepts relating to professional practice, culminating in the completion of the national board examination of the international conference of funeral examining boards (icfseb).  the course will consider the application of mortuary science-related concepts to professional practice practice, and will include activities that integrate funeral service knowledge with problems as presented by the national funeral service task analysis of the icfseb.  in the course we  will explore issues related to licensure, continuing professional education and development, and the application of mortuary science principles to professional practice.  the course will integrate key theories relating to the practice of mortuary science for the goal of ensuring competency in professional practice upon graduation.",
-    "prereqInfo": "note: this course will be taken during the student's last semester of enrollment in the program.\n",
+    "info": "the purpose of this course is to synthesize concepts relating to professional practice, culminating in the completion of the national board examination of the international conference of funeral examining boards (icfseb).  the course will consider the application of mortuary science-related concepts to professional practice practice, and will include activities that integrate funeral service knowledge with problems as presented by the national funeral service task analysis of the icfseb.  in the course we  will explore issues related to licensure, continuing professional education and development, and the application of mortuary science principles to professional practice.  the course will integrate key theories relating to the practice of mortuary science for the goal of ensuring competency in professional practice upon graduation.\n\nnote: this course will be taken during the student's last semester of enrollment in the program.",
+    "prereqInfo": null,
     "prereq": []
   }
 ]

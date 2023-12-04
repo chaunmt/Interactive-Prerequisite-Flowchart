@@ -58,8 +58,8 @@
     "subject": "LGTT",
     "id": "5993",
     "title": "Directed Studies",
-    "info": "individual reading/study, with guidance of a faculty member, on topics not covered in regular courses.\nprerequisite-instructor consent, department consent.",
-    "prereqInfo": null,
+    "info": "individual reading/study, with guidance of a faculty member, on topics not covered in regular courses.",
+    "prereqInfo": "uisite-instructor consent, department consent.",
     "prereq": []
   },
   {
@@ -67,26 +67,8 @@
     "subject": "LGTT",
     "id": "8999",
     "title": "Advanced Teaching Methods",
-    "info": "this course explores theoretical and practical approaches to cultivating students' advanced literacies in a second language through the integration of language proficiency development and the study of disciplinary content in upper-level literature, linguistics, and culture courses.",
-    "prereqInfo": "students must have passed frit 5999 or gsd 5103 or sppt 5999 or have permission from the instructor in order to take this course.",
-    "prereq": {
-      "or": [
-        {
-          "code": "FRIT 5999",
-          "subject": "FRIT",
-          "id": "5999"
-        },
-        {
-          "code": "GSD 5103",
-          "subject": "GSD",
-          "id": "5103"
-        },
-        {
-          "code": "SPPT 5999",
-          "subject": "SPPT",
-          "id": "5999"
-        }
-      ]
-    }
+    "info": "this course explores theoretical and practical approaches to cultivating students' advanced literacies in a second language through the integration of language proficiency development and the study of disciplinary content in upper-level literature, linguistics, and culture courses.\n\nstudents must have passed frit 5999 or gsd 5103 or sppt 5999 or have permission from the instructor in order to take this course.",
+    "prereqInfo": null,
+    "prereq": []
   }
 ]

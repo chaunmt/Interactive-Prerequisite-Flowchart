@@ -6,7 +6,11 @@
     "title": "AutoCAD for Construction Mgrs",
     "info": "most current version of autocad software skills and construction concepts. 2-d techniques and business applications of computer-aided drafting (cad) at job entry level.",
     "prereqInfo": "30 sem cr",
-    "prereq": []
+    "prereq": {
+      "code": "CMGT 30",
+      "subject": "CMGT",
+      "id": "30"
+    }
   },
   {
     "code": "CMGT 3001W",
@@ -31,8 +35,8 @@
     "subject": "CMGT",
     "id": "3024W",
     "title": "Facility Programming & Design",
-    "info": "facility programming and design moves through the process of defining a building-related need, evaluating the existing facility, exploring design solutions, and presenting a business case for the final project. this course is constructed from the viewpoint of the facility manager, and each step of the instruction and each assignment builds to the final project and presentation. it is a requirement for construction management degree and certificate students. it can also be used as an elective for undergraduate or graduate students pursuing degrees in architecture, civil engineering, facility management, interior design, housing studies, and other related majors.",
-    "prereqInfo": "there are no formal prerequisites, but it is recommended that students have completed at least one of the following: \n1. cmgt 3011 (construction plan reading) or cmgt 3001/3001w (introduction to construction) taken before or simultaneously with this course; 2. completion of a first or second year architecture or interior design studio; 3. relevant prior experience in the facility management industry; 4. approval of the instructor.\n",
+    "info": "facility programming and design moves through the process of defining a building-related need, evaluating the existing facility, exploring design solutions, and presenting a business case for the final project. this course is constructed from the viewpoint of the facility manager, and each step of the instruction and each assignment builds to the final project and presentation. it is a requirement for construction management degree and certificate students. it can also be used as an elective for undergraduate or graduate students pursuing degrees in architecture, civil engineering, facility management, interior design, housing studies, and other related majors.\n\nthere are no formal",
+    "prereqInfo": "uisites, but it is recommended that students have completed at least one of the following: \n1. cmgt 3011 (construction plan reading) or cmgt 3001/3001w (introduction to construction) taken before or simultaneously with this course; 2. completion of a first or second year architecture or interior design studio; 3. relevant prior experience in the facility management industry; 4. approval of the instructor.",
     "prereq": {
       "and": [
         {
@@ -76,8 +80,8 @@
     "subject": "CMGT",
     "id": "4002",
     "title": "Lean Construction",
-    "info": "an introduction to lean principles and how they can be applied to the design and construction industries.\nprerequisites:  none, although planning/scheduling coursework or experience is recommended.",
-    "prereqInfo": null,
+    "info": "an introduction to lean principles and how they can be applied to the design and construction industries.",
+    "prereqInfo": "none, although planning/scheduling coursework or experience is recommended.",
     "prereq": []
   },
   {
@@ -85,9 +89,22 @@
     "subject": "CMGT",
     "id": "4003",
     "title": "Managing with BIM",
-    "info": "for 5,000 years we have used hand drawings to communicate ideas and methodologies, from egyptian hieroglyphs to computer technology. building information modeling (bim) computer models act as simulators, analyzing architectural programs, materials, energy usage, constructability, construction sequencing, and more, down to tens of micrometers. today, building systems such as sheet metal and steel are fabricated directly from 3d models; material quantities are extracted from modeled objects and tied to cost early in the design process; coordinated models are visualized by project teams, clarifying scope, and providing a vehicle for communication.  this course combines high-level technical training in bim software with theoretical processes for managing a construction project using bim techniques and tools.\nprereqs: none. however, if you have no prior experience with construction, we recommend cmgt 3001 - intro to construction and cmgt 4021 - construction planning and scheduling for knowledge of industry project delivery.  basic computer skills are required.",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "for 5,000 years we have used hand drawings to communicate ideas and methodologies, from egyptian hieroglyphs to computer technology. building information modeling (bim) computer models act as simulators, analyzing architectural programs, materials, energy usage, constructability, construction sequencing, and more, down to tens of micrometers. today, building systems such as sheet metal and steel are fabricated directly from 3d models; material quantities are extracted from modeled objects and tied to cost early in the design process; coordinated models are visualized by project teams, clarifying scope, and providing a vehicle for communication.  this course combines high-level technical training in bim software with theoretical processes for managing a construction project using bim techniques and tools.",
+    "prereqInfo": "s: none. however, if you have no prior experience with construction, we recommend cmgt 3001 - intro to construction and cmgt 4021 - construction planning and scheduling for knowledge of industry project delivery.  basic computer skills are required.",
+    "prereq": {
+      "and": [
+        {
+          "code": "CMGT 3001",
+          "subject": "CMGT",
+          "id": "3001"
+        },
+        {
+          "code": "CMGT 4021",
+          "subject": "CMGT",
+          "id": "4021"
+        }
+      ]
+    }
   },
   {
     "code": "CMGT 4011",
@@ -280,6 +297,11 @@
           "code": "CMGT 4011",
           "subject": "CMGT",
           "id": "4011"
+        },
+        {
+          "code": "CMGT 4011",
+          "subject": "CMGT",
+          "id": "4011"
         }
       ]
     }
@@ -334,9 +356,13 @@
     "subject": "CMGT",
     "id": "4081",
     "title": "Erosion and Sediment Control",
-    "info": "designed for those who will supervise, run, or direct construction site operations, grading, culvert replacement, and bridge construction. best management practices to reduce or control erosion and sedimentation. topics include permit requirements, stakeholder roles and responsibilities, sample specifications, and using the storm water pollution prevention plan (swppp). soil erodibility, turf establishment techniques, grading techniques to minimize erosion, timing of installations, and proper application of best management practices are also covered. students will learn how to implement an erosion and sediment control plan, the requirements of various regulatory agencies, and consequences of permit violations.  can be used to achieve the erosion and stormwater construction site management certification, which is required by the minnesota department of transportation standard specifications on construction sites.\nprereq: cmgt 3001- introduction to the built environment or relevant experience",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "designed for those who will supervise, run, or direct construction site operations, grading, culvert replacement, and bridge construction. best management practices to reduce or control erosion and sedimentation. topics include permit requirements, stakeholder roles and responsibilities, sample specifications, and using the storm water pollution prevention plan (swppp). soil erodibility, turf establishment techniques, grading techniques to minimize erosion, timing of installations, and proper application of best management practices are also covered. students will learn how to implement an erosion and sediment control plan, the requirements of various regulatory agencies, and consequences of permit violations.  can be used to achieve the erosion and stormwater construction site management certification, which is required by the minnesota department of transportation standard specifications on construction sites.",
+    "prereqInfo": "cmgt 3001- introduction to the built environment or relevant experience",
+    "prereq": {
+      "code": "CMGT 3001",
+      "subject": "CMGT",
+      "id": "3001"
+    }
   },
   {
     "code": "CMGT 4111",
@@ -412,6 +438,11 @@
           "id": "4213"
         },
         {
+          "code": "CMGT 4213",
+          "subject": "CMGT",
+          "id": "4213"
+        },
+        {
           "code": "CMGT 4542",
           "subject": "CMGT",
           "id": "4542"
@@ -439,7 +470,7 @@
     "id": "4302",
     "title": "Environmental Health Princpls",
     "info": "the construction industry has one of the highest morbidity and mortality rates among professions, and there is also an economic implication. companies can reduce the risk of injuries, diseases, and death due to environmental hazards by implementing an appropriate health and safety plan. plans must be continually reviewed to ensure they are current with new products, scientific evidence, legal parameters, and cultural changes. this course will review requirements and provide direction in controlling regulations related to environmental and occupational health, chemical and biological safety, hazardous materials, and other health hazards.",
-    "prereqInfo": "prereqs: 45 credits completed. some knowledge of construction management principles is strongly recommended.\n",
+    "prereqInfo": "s: 45 credits completed. some knowledge of construction management principles is strongly recommended.",
     "prereq": []
   },
   {
@@ -447,8 +478,8 @@
     "subject": "CMGT",
     "id": "4303",
     "title": "Industrial Hygiene Principles",
-    "info": "overview of the practice of industrial hygiene: the science of anticipating, recognizing, evaluating, and controlling workplace conditions that may cause workers' injury or illness.   presents critical topics to enhance technical skills, deepen understanding, and gain the necessary knowledge and tools to apply the principles of industrial hygiene effectively, efficiently, and reasonably, including hazard types, routes of exposure, and determination of exposure levels,  also explores the industrial hygiene hazard evaluation process and how it applies to the goal of workplace safety, as well as related federal and state regulations.  students will examine specific workplace problems related to worker health and safety.\nprerequisites:  none",
-    "prereqInfo": null,
+    "info": "overview of the practice of industrial hygiene: the science of anticipating, recognizing, evaluating, and controlling workplace conditions that may cause workers' injury or illness.   presents critical topics to enhance technical skills, deepen understanding, and gain the necessary knowledge and tools to apply the principles of industrial hygiene effectively, efficiently, and reasonably, including hazard types, routes of exposure, and determination of exposure levels,  also explores the industrial hygiene hazard evaluation process and how it applies to the goal of workplace safety, as well as related federal and state regulations.  students will examine specific workplace problems related to worker health and safety.",
+    "prereqInfo": "none",
     "prereq": []
   },
   {
@@ -456,8 +487,8 @@
     "subject": "CMGT",
     "id": "4304",
     "title": "Fire & Life Safety Principles",
-    "info": "provides an overview of the fire and life safety requirements for new and existing buildings, as indicated in the national fire protection association (nfpa) life safety code.  the code addresses life safety for fire emergencies, but also other types of emergencies, such as bomb threats. the purpose of the code is to establish minimum requirements that will provide a reasonable degree of safety during emergencies in any structure. to apply the code effectively, one must understand its legal authority in various jurisdictions, code navigation, and the ways proper application of the code can minimize the effects of a devastating fire or other emergency.  specific topics include building classification, types of construction, fire protection, means of egress, and occupancy features. the course will enhance technical skills and provide knowledge and tools to apply the code effectively, efficiently, and reasonably. students will prepare a facility compliance checklist that can be used in everyday execution of the principles learned in this course.\nprerequisites:  none",
-    "prereqInfo": null,
+    "info": "provides an overview of the fire and life safety requirements for new and existing buildings, as indicated in the national fire protection association (nfpa) life safety code.  the code addresses life safety for fire emergencies, but also other types of emergencies, such as bomb threats. the purpose of the code is to establish minimum requirements that will provide a reasonable degree of safety during emergencies in any structure. to apply the code effectively, one must understand its legal authority in various jurisdictions, code navigation, and the ways proper application of the code can minimize the effects of a devastating fire or other emergency.  specific topics include building classification, types of construction, fire protection, means of egress, and occupancy features. the course will enhance technical skills and provide knowledge and tools to apply the code effectively, efficiently, and reasonably. students will prepare a facility compliance checklist that can be used in everyday execution of the principles learned in this course.",
+    "prereqInfo": "none",
     "prereq": []
   },
   {
@@ -465,8 +496,8 @@
     "subject": "CMGT",
     "id": "4305",
     "title": "Health & Safety Planning/Mgmt",
-    "info": "companies can reduce the risk of injury, disease, and death due to environmental hazards by implementing an appropriate health and safety plan. each plan must be continually reviewed to ensure it is current with new products, scientific evidence, legal parameters, and cultural changes. this course is a comprehensive study of the essential components of an effective safety planning and management system. it also examines the cultural aspects of integrating total safety planning and management into all levels of an operation.\nprerequisites:  none",
-    "prereqInfo": null,
+    "info": "companies can reduce the risk of injury, disease, and death due to environmental hazards by implementing an appropriate health and safety plan. each plan must be continually reviewed to ensure it is current with new products, scientific evidence, legal parameters, and cultural changes. this course is a comprehensive study of the essential components of an effective safety planning and management system. it also examines the cultural aspects of integrating total safety planning and management into all levels of an operation.",
+    "prereqInfo": "none",
     "prereq": []
   },
   {
@@ -487,7 +518,7 @@
     "subject": "CMGT",
     "id": "4471",
     "title": "Sustainability forConst Mgrs",
-    "info": "building industry's impact on the environment; sustainable building initiatives; environmental principles and practices in pre-con, construction, close-out and operations; impact on construction manager role, procurement methods, contracts, estimating and scheduling, and team structure; green adoption issues; current technologies; future trends. ",
+    "info": "building industry's impact on the environment; sustainable building initiatives; environmental principles and practices in pre-con, construction, close-out and operations; impact on construction manager role, procurement methods, contracts, estimating and scheduling, and team structure; green adoption issues; current technologies; future trends.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -519,7 +550,7 @@
     "id": "4545",
     "title": "Materials and Structures II",
     "info": "building on the engineering, materials, and structural concepts of materials and structures i, this course explores concrete as a material (components, manufacture, installation, and mix design), and in terms of its structural uses. soils and aggregates (origin, analysis, and classification) and earthwork/compaction concepts are also surveyed.  laboratory testing of these materials is included. these two broad topics are then combined with masonry concepts to discuss foundations, retaining walls, slabs, and footings. finally, lateral systems within a structure are discussed. an overall curriculum project (which will refer back to m&s i) will examine a real-world structural system, including loading, engineering, materials, and construction aspects.",
-    "prereqInfo": " cmgt 4544",
+    "prereqInfo": "cmgt 4544",
     "prereq": {
       "code": "CMGT 4544",
       "subject": "CMGT",
@@ -598,9 +629,32 @@
     "subject": "CMGT",
     "id": "4861",
     "title": "Construction Mgmt Capstone",
-    "info": "using a case study approach, explores concepts of project management, decision theory, and leadership needed to solve critical, complex, and even routine problems within construction businesses and their projects. students will be required to think critically and creatively about the possible solutions and be able to effectively articulate those solutions. it will apply all prior construction management-related coursework into a comprehensive construction and facility project management capstone intended to demonstrate mastery of the construction and facility management body of knowledge prior to graduation. prereqs: cmgt 4011, 4021, 4022, and 4031 (which may be taken concurrently with instructor permission).",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "using a case study approach, explores concepts of project management, decision theory, and leadership needed to solve critical, complex, and even routine problems within construction businesses and their projects. students will be required to think critically and creatively about the possible solutions and be able to effectively articulate those solutions. it will apply all prior construction management-related coursework into a comprehensive construction and facility project management capstone intended to demonstrate mastery of the construction and facility management body of knowledge prior to graduation.",
+    "prereqInfo": "s: cmgt 4011, 4021, 4022, and 4031 (which may be taken concurrently with instructor permission).",
+    "prereq": {
+      "and": [
+        {
+          "code": "CMGT 4011",
+          "subject": "CMGT",
+          "id": "4011"
+        },
+        {
+          "code": "CMGT 4021",
+          "subject": "CMGT",
+          "id": "4021"
+        },
+        {
+          "code": "CMGT 4022",
+          "subject": "CMGT",
+          "id": "4022"
+        },
+        {
+          "code": "CMGT 4031",
+          "subject": "CMGT",
+          "id": "4031"
+        }
+      ]
+    }
   },
   {
     "code": "CMGT 4901",

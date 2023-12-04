@@ -58,19 +58,6 @@
     }
   },
   {
-    "code": "STAT 3021H",
-    "subject": "STAT",
-    "id": "3021H",
-    "title": "Intro to Prob&Stat Honors",
-    "info": "this is an introductory course in statistics whose primary objectives are to teach students\nthe theory of elementary probability theory and an introduction to the elements of\nstatistical inference, including testing, estimation, and confidence statements.",
-    "prereqInfo": "math 1272",
-    "prereq": {
-      "code": "MATH 1272",
-      "subject": "MATH",
-      "id": "1272"
-    }
-  },
-  {
     "code": "STAT 3022",
     "subject": "STAT",
     "id": "3022",
@@ -124,7 +111,7 @@
     "subject": "STAT",
     "id": "3301",
     "title": "Regression/Statistical Cmptng",
-    "info": "this is a second course in statistics for students that have completed a calculus-based introductory course. students will learn to analyze data with the multiple linear regression model.  this will include inference, diagnostics, validation, transformations, and model selection.\n\nstudents will also design and perform monte carlo simulation studies to improve their understanding of statistical concepts like coverage probability, type i error probability, and power.  this will allow students to understand the impacts of model misspecification and the quality of approximate inference. ",
+    "info": "this is a second course in statistics for students that have completed a calculus-based introductory course. students will learn to analyze data with the multiple linear regression model.  this will include inference, diagnostics, validation, transformations, and model selection.\n\nstudents will also design and perform monte carlo simulation studies to improve their understanding of statistical concepts like coverage probability, type i error probability, and power.  this will allow students to understand the impacts of model misspecification and the quality of approximate inference.",
     "prereqInfo": "stat 3021 and (csci 1113 or csci 1133), and co-requisite (csci 2033 or math 2142 or math 2243 or math 2373)",
     "prereq": {
       "and": [
@@ -203,11 +190,6 @@
               "code": "STAT 1372",
               "subject": "STAT",
               "id": "1372"
-            },
-            {
-              "code": "STAT 1572H",
-              "subject": "STAT",
-              "id": "1572H"
             }
           ]
         },
@@ -238,7 +220,7 @@
     "subject": "STAT",
     "id": "4051",
     "title": "Statistical Machine Learning I",
-    "info": "this is the first semester of the applied statistics sequence for majors seeking a ba or bs in statistics. the course introduces a wide variety of applied statistical methods, methodology for identifying types of problems and selecting appropriate methods for data analysis, to correctly interpret results, and to provide hands-on experience with real-life data analysis. the course covers basic concepts of single factor analysis of variance (anova) with fixed and random effects, factorial designs, analysis of covariance (ancova), repeated measures analysis with mixed effect models, principal component analysis (pca) and multidimensional scaling, robust estimation and regression methods, and rank tests. numerous datasets will be analyzed and interpreted, using the open-source statistical software r and rstudio. ",
+    "info": "this is the first semester of the applied statistics sequence for majors seeking a ba or bs in statistics. the course introduces a wide variety of applied statistical methods, methodology for identifying types of problems and selecting appropriate methods for data analysis, to correctly interpret results, and to provide hands-on experience with real-life data analysis. the course covers basic concepts of single factor analysis of variance (anova) with fixed and random effects, factorial designs, analysis of covariance (ancova), repeated measures analysis with mixed effect models, principal component analysis (pca) and multidimensional scaling, robust estimation and regression methods, and rank tests. numerous datasets will be analyzed and interpreted, using the open-source statistical software r and rstudio.",
     "prereqInfo": "(stat 3701 or stat 3301) and (stat 4101 or stat 5101 or math 5651)",
     "prereq": {
       "and": [
@@ -327,11 +309,6 @@
           "code": "MATH 1372",
           "subject": "MATH",
           "id": "1372"
-        },
-        {
-          "code": "MATH 1572H",
-          "subject": "MATH",
-          "id": "1572H"
         }
       ]
     }
@@ -399,9 +376,13 @@
     "subject": "STAT",
     "id": "5021",
     "title": "Stat Analysis",
-    "info": "intensive introduction to statistical methods for graduate students needing statistics as a research technique. ",
+    "info": "intensive introduction to statistical methods for graduate students needing statistics as a research technique.",
     "prereqInfo": "college algebra or instr consent; credit will not be granted if credit has been received for stat 3011",
-    "prereq": []
+    "prereq": {
+      "code": "STAT 3011",
+      "subject": "STAT",
+      "id": "3011"
+    }
   },
   {
     "code": "STAT 5031",
@@ -510,11 +491,6 @@
               "code": "MATH 2374",
               "subject": "MATH",
               "id": "2374"
-            },
-            {
-              "code": "MATH 2573H",
-              "subject": "MATH",
-              "id": "2573H"
             }
           ]
         },
@@ -572,7 +548,7 @@
     "subject": "STAT",
     "id": "5201",
     "title": "Samp Methodology in Finite Pop",
-    "info": "simple random, systematic, stratified, unequal probability sampling. ratio, model based estimation. single stage, multistage, adaptive cluster sampling. spatial sampling. ",
+    "info": "simple random, systematic, stratified, unequal probability sampling. ratio, model based estimation. single stage, multistage, adaptive cluster sampling. spatial sampling.",
     "prereqInfo": "3022 or 3032 or 3301 or 4102 or 5021 or 5102 or instr consent",
     "prereq": {
       "or": [
@@ -614,7 +590,7 @@
     "subject": "STAT",
     "id": "5302",
     "title": "Applied Regression Analysis",
-    "info": "simple, multiple, and polynomial regression. estimation, testing, prediction. use of graphics in regression. stepwise and other numerical methods. weighted least squares, nonlinear models, response surfaces. experimental research/applications. ",
+    "info": "simple, multiple, and polynomial regression. estimation, testing, prediction. use of graphics in regression. stepwise and other numerical methods. weighted least squares, nonlinear models, response surfaces. experimental research/applications.",
     "prereqInfo": "3032 or 3022 or 4102 or 5021 or 5102 or instr consent please note this course generally does not count in the statistical practice ba or statistical science bs degrees. please consult with a department advisor with questions.",
     "prereq": {
       "or": [
@@ -651,7 +627,7 @@
     "subject": "STAT",
     "id": "5303",
     "title": "Designing Experiments",
-    "info": "analysis of variance. multiple comparisons. variance-stabilizing transformations. contrasts. construction/analysis of complete/incomplete block designs. fractional factorial designs. confounding split plots. response surface design. ",
+    "info": "analysis of variance. multiple comparisons. variance-stabilizing transformations. contrasts. construction/analysis of complete/incomplete block designs. fractional factorial designs. confounding split plots. response surface design.",
     "prereqInfo": "3022 or 3032 or 3301 or 4102 or 5021 or 5102 or instr consent",
     "prereq": {
       "or": [
@@ -693,42 +669,9 @@
     "subject": "STAT",
     "id": "5401",
     "title": "Applied Multivariate Methods",
-    "info": "bivariate and multivariate distributions. multivariate normal distributions. analysis of multivariate linear models. repeated measures, growth curve, and profile analysis. canonical correlation analysis. principal components and factor analysis. discrimination, classification, and clustering.",
-    "prereqInfo": "pre-req: stat 3032 or 3301 or 3022 or 4102 or 5021 or 5102 or instr consent\nalthough not a formal prerequisite of this course, students are encouraged to have familiarity with linear algebra prior to enrolling. please consult with a department advisor with questions. ",
-    "prereq": {
-      "or": [
-        {
-          "code": "STAT 3032",
-          "subject": "STAT",
-          "id": "3032"
-        },
-        {
-          "code": "STAT 3301",
-          "subject": "STAT",
-          "id": "3301"
-        },
-        {
-          "code": "STAT 3022",
-          "subject": "STAT",
-          "id": "3022"
-        },
-        {
-          "code": "STAT 4102",
-          "subject": "STAT",
-          "id": "4102"
-        },
-        {
-          "code": "STAT 5021",
-          "subject": "STAT",
-          "id": "5021"
-        },
-        {
-          "code": "STAT 5102",
-          "subject": "STAT",
-          "id": "5102"
-        }
-      ]
-    }
+    "info": "bivariate and multivariate distributions. multivariate normal distributions. analysis of multivariate linear models. repeated measures, growth curve, and profile analysis. canonical correlation analysis. principal components and factor analysis. discrimination, classification, and clustering.\n\npre-req: stat 3032 or 3301 or 3022 or 4102 or 5021 or 5102 or instr consent\nalthough not a formal",
+    "prereqInfo": "uisite of this course, students are encouraged to have familiarity with linear algebra prior to enrolling. please consult with a department advisor with questions.",
+    "prereq": []
   },
   {
     "code": "STAT 5421",
@@ -887,7 +830,7 @@
     "id": "5731",
     "title": "Bayesian Astrostatistics",
     "info": "this course will introduce bayesian methods for interpreting and analyzing large data sets from astrophysical experiments. these methods will be demonstrated using astrophysics real-world data sets and a focus on modern statistical software, such as r and python.",
-    "prereqInfo": " math 2263 and math 2243, or equivalent; or instructor consent\nsuggested: statistical course at the level of ast 4031, ast 5031, stat 3021, or stat 5021",
+    "prereqInfo": "math 2263 and math 2243, or equivalent; or instructor consent\nsuggested: statistical course at the level of ast 4031, ast 5031, stat 3021, or stat 5021",
     "prereq": {
       "and": [
         {
@@ -899,6 +842,26 @@
           "code": "MATH 2243",
           "subject": "MATH",
           "id": "2243"
+        },
+        {
+          "code": "AST 4031",
+          "subject": "AST",
+          "id": "4031"
+        },
+        {
+          "code": "AST 5031",
+          "subject": "AST",
+          "id": "5031"
+        },
+        {
+          "code": "STAT 3021",
+          "subject": "STAT",
+          "id": "3021"
+        },
+        {
+          "code": "STAT 5021",
+          "subject": "STAT",
+          "id": "5021"
         }
       ]
     }
@@ -936,7 +899,7 @@
     "id": "8051",
     "title": "Advanced Regression Techniques",
     "info": "linear/generalized linear models, modern regression methods including nonparametric regression, generalized additive models, splines/basis function methods, regularization, bootstrap/other resampling-based inference.",
-    "prereqInfo": "statistics grad or instr consent\n",
+    "prereqInfo": "statistics grad or instr consent",
     "prereq": []
   },
   {
@@ -1335,9 +1298,22 @@
     "subject": "STAT",
     "id": "8581",
     "title": "Big Data in Astrophysics",
-    "info": "this course will introduce key concepts and techniques used to work with large datasets, in the context of the field of astrophysics. prerequisites: math 2263 and math 2243, or equivalent; or instructor consent.\nsuggested: familiarity with astrophysics topics such as star formation and evolution, galaxies and clusters, composition and expansion of the universe, gravitational wave sources and waveforms, and high-energy astrophysics.\n",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "this course will introduce key concepts and techniques used to work with large datasets, in the context of the field of astrophysics.",
+    "prereqInfo": "math 2263 and math 2243, or equivalent; or instructor consent.\nsuggested: familiarity with astrophysics topics such as star formation and evolution, galaxies and clusters, composition and expansion of the universe, gravitational wave sources and waveforms, and high-energy astrophysics.",
+    "prereq": {
+      "and": [
+        {
+          "code": "MATH 2263",
+          "subject": "MATH",
+          "id": "2263"
+        },
+        {
+          "code": "MATH 2243",
+          "subject": "MATH",
+          "id": "2243"
+        }
+      ]
+    }
   },
   {
     "code": "STAT 8666",
@@ -1346,7 +1322,11 @@
     "title": "Doct Pre-Thesis Cr",
     "info": "tbd",
     "prereqInfo": "doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": []
+    "prereq": {
+      "code": "STAT 60",
+      "subject": "STAT",
+      "id": "60"
+    }
   },
   {
     "code": "STAT 8701",
@@ -1403,7 +1383,11 @@
     "title": "Thesis Credit:Mast*",
     "info": "(no description)",
     "prereqInfo": "max 18 cr per semester or summer; 10 cr total required [plan a only]",
-    "prereq": []
+    "prereq": {
+      "code": "STAT 10",
+      "subject": "STAT",
+      "id": "10"
+    }
   },
   {
     "code": "STAT 8801",

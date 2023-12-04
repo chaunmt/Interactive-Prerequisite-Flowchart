@@ -18,15 +18,6 @@
     "prereq": []
   },
   {
-    "code": "CSE 1001H",
-    "subject": "CSE",
-    "id": "1001H",
-    "title": "First Year Experience",
-    "info": "resources and strategies for college success. majors and career opportunities offered in the physical sciences, mathematics, and engineering. personal responsibility, academic integrity, and level of academic rigor required for success. personal action plan for achievement in cse.",
-    "prereqInfo": "cse, fr, honors",
-    "prereq": []
-  },
-  {
     "code": "CSE 1002",
     "subject": "CSE",
     "id": "1002",
@@ -206,7 +197,7 @@
     "subject": "CSE",
     "id": "2501",
     "title": "Ireland: Career Readiness",
-    "info": "in this global seminar, you will learn about ireland, the stem industry, what it takes to get and maintain a fulfilling career and more about you. you will discover the rich intellectual, cultural, and economic history of ireland and how it shapes the business and organizational cultural of today. you will continue to develop your core career competencies through career and work related activities, such as business and organizational site visits, informational interviews, resume critiques, and interview practice. you will discover more about yourself and your own path toward career readiness.\n",
+    "info": "in this global seminar, you will learn about ireland, the stem industry, what it takes to get and maintain a fulfilling career and more about you. you will discover the rich intellectual, cultural, and economic history of ireland and how it shapes the business and organizational cultural of today. you will continue to develop your core career competencies through career and work related activities, such as business and organizational site visits, informational interviews, resume critiques, and interview practice. you will discover more about yourself and your own path toward career readiness.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -233,26 +224,34 @@
     "subject": "CSE",
     "id": "4896",
     "title": "Co-op Industrial Assign I",
-    "info": "this course accompanies an industrial work assignment in engineering and applied science. it includes analysis of technical problems that require developing criteria, evaluating alternatives, and completing a final analysis. a final technical design report emphasizes design communication and describes the technical decision process, analysis, and final recommendations. this course is intended for any college of science and engineering student who has been admitted to their major and is participating in the co-op program. there are no specific prerequisites for this course, though it is expected that students taking this course have a background in science or engineering appropriate for their industrial co-op position. registration is by permission only. please submit your application to the co-op program via handshake to initiate the course access process. detailed instructions can be found on the co-op website (https://cse.umn.edu/coop/application-process). this is the first course in a two-semester sequence. cse 4896 is offered in the summer and spring semesters. cse 4996 is offered in the summer and fall semesters. it is expected that students complete a co-op experience back-to-back (i.e. summer/fall or spring/summer). if your co-op plan differs from that, please email co-op@umn.edu to receive permission to take the courses in reverse order.",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "this course accompanies an industrial work assignment in engineering and applied science. it includes analysis of technical problems that require developing criteria, evaluating alternatives, and completing a final analysis. a final technical design report emphasizes design communication and describes the technical decision process, analysis, and final recommendations. this course is intended for any college of science and engineering student who has been admitted to their major and is participating in the co-op program. there are no specific",
+    "prereqInfo": "uisites for this course, though it is expected that students taking this course have a background in science or engineering appropriate for their industrial co-op position. registration is by permission only. please submit your application to the co-op program via handshake to initiate the course access process. detailed instructions can be found on the co-op website (https://cse.umn.edu/coop/application-process). this is the first course in a two-semester sequence. cse 4896 is offered in the summer and spring semesters. cse 4996 is offered in the summer and fall semesters. it is expected that students complete a co-op experience back-to-back (i.e. summer/fall or spring/summer). if your co-op plan differs from that, please email co-op@umn.edu to receive permission to take the courses in reverse order.",
+    "prereq": {
+      "code": "CSE 4996",
+      "subject": "CSE",
+      "id": "4996"
+    }
   },
   {
     "code": "CSE 4996",
     "subject": "CSE",
     "id": "4996",
     "title": "Co-op Industrial Assign II",
-    "info": "this course accompanies an industrial work assignment in engineering and applied science. the course includes generation of a novel idea requiring developing criteria, evaluating alternatives, and completing a final analysis. a final invention disclosure report emphasizes innovation and communication and includes the technical creation process, hypothesis testing, analysis, and final recommendations. this is the second course in a two course series. while some content is similar between the courses, the first course focuses more on the design and problem solving in an industrial context, this course focuses on the idea creation process and intellectual property protection. this course also includes a section on diversity, equity and inclusion in corporate settings. this course is intended for any college of science and engineering student who has been admitted to their major and is participating in the cse co-op program. there are no specific prerequisites for this course, though it is expected that students taking this course have a background in science or engineering appropriate for their industrial co-op position. registration is by permission only. please submit your application to the co-op program via handshake to initiate the course access process. detailed instructions can be found on the co-op website (https://cse.umn.edu/coop/application-process). this is the second course in a two semester sequence. cse 4896 is offered in the summer and spring semesters. cse 4996 is offered in the summer and fall semesters. it is expected that students complete a co-op experience back-to-back (ie. summer/fall or spring/summer). if your co-op plan differs from that, please email co-op@umn.edu to receive permission to take the courses in reverse order.",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "this course accompanies an industrial work assignment in engineering and applied science. the course includes generation of a novel idea requiring developing criteria, evaluating alternatives, and completing a final analysis. a final invention disclosure report emphasizes innovation and communication and includes the technical creation process, hypothesis testing, analysis, and final recommendations. this is the second course in a two course series. while some content is similar between the courses, the first course focuses more on the design and problem solving in an industrial context, this course focuses on the idea creation process and intellectual property protection. this course also includes a section on diversity, equity and inclusion in corporate settings. this course is intended for any college of science and engineering student who has been admitted to their major and is participating in the cse co-op program. there are no specific",
+    "prereqInfo": "uisites for this course, though it is expected that students taking this course have a background in science or engineering appropriate for their industrial co-op position. registration is by permission only. please submit your application to the co-op program via handshake to initiate the course access process. detailed instructions can be found on the co-op website (https://cse.umn.edu/coop/application-process). this is the second course in a two semester sequence. cse 4896 is offered in the summer and spring semesters. cse 4996 is offered in the summer and fall semesters. it is expected that students complete a co-op experience back-to-back (ie. summer/fall or spring/summer). if your co-op plan differs from that, please email co-op@umn.edu to receive permission to take the courses in reverse order.",
+    "prereq": {
+      "code": "CSE 4896",
+      "subject": "CSE",
+      "id": "4896"
+    }
   },
   {
     "code": "CSE 5101",
     "subject": "CSE",
     "id": "5101",
     "title": "Engrg Design for Teachers",
-    "info": "history, career opportunities, portfolios, visualization, geometry, modeling, construction, analysis, documentation. part of project lead the way curriculum.\nprereq-college consent.",
-    "prereqInfo": null,
+    "info": "history, career opportunities, portfolios, visualization, geometry, modeling, construction, analysis, documentation. part of project lead the way curriculum.",
+    "prereqInfo": "-college consent.",
     "prereq": []
   },
   {
@@ -260,8 +259,8 @@
     "subject": "CSE",
     "id": "5102",
     "title": "Princ. Engrg for Teachers",
-    "info": "communication/documentation, design process, engineering systems, strength of materials, testing, reliability, statics/dynamics. part of project lead the way curriculum.\nprereq-college consent.",
-    "prereqInfo": null,
+    "info": "communication/documentation, design process, engineering systems, strength of materials, testing, reliability, statics/dynamics. part of project lead the way curriculum.",
+    "prereqInfo": "-college consent.",
     "prereq": []
   },
   {
@@ -269,8 +268,8 @@
     "subject": "CSE",
     "id": "5103",
     "title": "Digit Electronics for Teachers",
-    "info": "fundamentals of digital electronics, number systems, gates, boolean algebra, circuit design, adding, flip-flops, shift registers/counters, families/specifications, microprocessors, design topic. part of project lead the way curriculum.\nprereq-college consent.",
-    "prereqInfo": null,
+    "info": "fundamentals of digital electronics, number systems, gates, boolean algebra, circuit design, adding, flip-flops, shift registers/counters, families/specifications, microprocessors, design topic. part of project lead the way curriculum.",
+    "prereqInfo": "-college consent.",
     "prereq": []
   },
   {
@@ -278,8 +277,8 @@
     "subject": "CSE",
     "id": "5104",
     "title": "Civil Engr & Arch",
-    "info": "overview of civil engineering and architecture, their interrelationship/dependence on each other. students use software to solve real world problems. project/site planning. project documentation/presentation. part of project lead the way.\nprereq-college consent.",
-    "prereqInfo": null,
+    "info": "overview of civil engineering and architecture, their interrelationship/dependence on each other. students use software to solve real world problems. project/site planning. project documentation/presentation. part of project lead the way.",
+    "prereqInfo": "-college consent.",
     "prereq": []
   },
   {
@@ -287,8 +286,8 @@
     "subject": "CSE",
     "id": "5105",
     "title": "Gate to Tech",
-    "info": "activity-oriented middle school curriculum to help students in grades six-eight explore math, science, and technology. five independent, nine-week units: design/modeling, automation/robotics, magic of electrons, science of technology, and flight/space.\nprereq-college consent.",
-    "prereqInfo": null,
+    "info": "activity-oriented middle school curriculum to help students in grades six-eight explore math, science, and technology. five independent, nine-week units: design/modeling, automation/robotics, magic of electrons, science of technology, and flight/space.",
+    "prereqInfo": "-college consent.",
     "prereq": []
   }
 ]

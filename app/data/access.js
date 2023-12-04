@@ -10,7 +10,7 @@ function extractNumbers(code) {
   let match = code.match(/\d+/g)
   if (!match) return ''
   return match[0]
-}
+} 
 
 // Access all courses by 'allCourses'
 export default function Access(SUBJECT) {
@@ -33,7 +33,7 @@ export default function Access(SUBJECT) {
 
   function subject(course) { return course.subject }
 
-  function id(course) { return course.id }
+  function id(course) { return course?.id }
 
   function title(course) { return course.title }
 
@@ -41,19 +41,19 @@ export default function Access(SUBJECT) {
 
   function prereqInfo(course) { return course.prereqInfo }
 
-  function prereq(course) { return course.prereq }
+  function prereq(course) { return course?.prereq }
 
   function isEqualId(A, B) {
     if (extractNumbers(A) != extractNumbers(B)) return false
 
-    let honors = ['H', 'V']
+    // let honors = ['H', 'V']
     let normal = ['W', '']
 
     let lvA = extractWords(A[A.length - 1])
     let lvB = extractWords(B[B.length - 1])
 
     if (lvA == lvB) return true
-    if (honors.includes(lvA) && honors.includes(lvB)) return true
+    // if (honors.includes(lvA) && honors.includes(lvB)) return true
     if (normal.includes(lvA) && normal.includes(lvB)) return true
 
     return false
@@ -65,7 +65,7 @@ export default function Access(SUBJECT) {
     if (!A.code || !B.code) return false
 
     if (A.subject == B.subject) {
-      return isEqualId(A.id, B.id)
+      return isEqualId(id(A), id(B))
     }
 
     return false
@@ -111,12 +111,19 @@ export default function Access(SUBJECT) {
 
   // Return the first code with matched itemType and item
   function getCourse(itemType, item) {
+    if (!item || !itemType) return null
+
     for (let i = 0; i < allCourses.length; i++) {
-      if (itemType == 'code' || itemType == 'id') {
-        if (isEqualId(allCourses[i].id, item)) return allCourses[i]
+      if (itemType == 'id') {
+        if (isEqualId(id(allCourses[i]), item)) return allCourses[i]
+      }
+      if (itemType == 'code') {
+        let arr = item.split(' ')
+        if (isEqualId(id(allCourses[i]), arr[1])) return allCourses[i]
       }
       if (allCourses[i][itemType] === item) return allCourses[i]
     }
+    return null
     // return allCourses.find(each => each[itemType] === item) || null;
   }
 

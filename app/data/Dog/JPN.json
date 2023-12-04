@@ -92,15 +92,6 @@
     }
   },
   {
-    "code": "JPN 3090H",
-    "subject": "JPN",
-    "id": "3090H",
-    "title": "Honors Course: Tutorial",
-    "info": "tutorial.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
     "code": "JPN 3167",
     "subject": "JPN",
     "id": "3167",
@@ -334,7 +325,7 @@
     "subject": "JPN",
     "id": "5162",
     "title": "Premod Tale Lit",
-    "info": "tale literature, both buddhist and secular, presents the world of the middle- to lower-class people. rhetoric and religion, fiction and history, gender and sexuality, the role of the supernatural/fantastic, and re-tellings of earlier texts.\n",
+    "info": "tale literature, both buddhist and secular, presents the world of the middle- to lower-class people. rhetoric and religion, fiction and history, gender and sexuality, the role of the supernatural/fantastic, and re-tellings of earlier texts.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -361,7 +352,7 @@
     "subject": "JPN",
     "id": "5165",
     "title": "Contemp J Lit",
-    "info": "literary and historical exploration of selected works published between 1945 and the present. focus may be on a writer, a period, or a theme. offered in a rotating format alternating between readings in the original language and readings in english translation. ",
+    "info": "literary and historical exploration of selected works published between 1945 and the present. focus may be on a writer, a period, or a theme. offered in a rotating format alternating between readings in the original language and readings in english translation.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -446,8 +437,8 @@
     "subject": "JPN",
     "id": "5993",
     "title": "Jpn Direct Studies",
-    "info": "individual study with guidance of a faculty member.\nprereq instr consent, dept consent, college consent.",
-    "prereqInfo": null,
+    "info": "individual study with guidance of a faculty member.",
+    "prereqInfo": "instr consent, dept consent, college consent.",
     "prereq": []
   },
   {
@@ -529,7 +520,11 @@
     "title": "Doct Pre-Thesis Cr*",
     "info": "tbd",
     "prereqInfo": "doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": []
+    "prereq": {
+      "code": "JPN 60",
+      "subject": "JPN",
+      "id": "60"
+    }
   },
   {
     "code": "JPN 8777",
@@ -538,7 +533,11 @@
     "title": "Thesis Credit:Mast*",
     "info": "(no description)",
     "prereqInfo": "max 18 cr per semester or summer; 10 cr total required (plan a only)",
-    "prereq": []
+    "prereq": {
+      "code": "JPN 10",
+      "subject": "JPN",
+      "id": "10"
+    }
   },
   {
     "code": "JPN 8888",

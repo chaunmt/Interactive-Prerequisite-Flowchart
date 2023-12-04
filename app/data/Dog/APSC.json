@@ -13,8 +13,8 @@
     "subject": "APSC",
     "id": "8201",
     "title": "Advanced Plant Breeding",
-    "info": "this course covers the principles underlying the application of genetics and statistics to cultivar development; evaluation of breeding methods; and methods to enhance genetic progress and efficiency through the application of statistical genetics, genomics, and molecular markers. in terms of format, this course is combination of lecture, discussion, and computer lab, varying according to the topic. an emphasis will be placed on classical and current literature to teach concepts, as well as hands-on experience with data analysis.  ",
-    "prereqInfo": "introductory courses in plant breeding/genetics and statistics. knowledge of population and quantitative genetics would be useful but not required.",
+    "info": "this course covers the principles underlying the application of genetics and statistics to cultivar development; evaluation of breeding methods; and methods to enhance genetic progress and efficiency through the application of statistical genetics, genomics, and molecular markers. in terms of format, this course is combination of lecture, discussion, and computer lab, varying according to the topic. an emphasis will be placed on classical and current literature to teach concepts, as well as hands-on experience with data analysis.  \n\nintroductory courses in plant breeding/genetics and statistics. knowledge of population and quantitative genetics would be useful but not required.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -22,7 +22,7 @@
     "subject": "APSC",
     "id": "8270",
     "title": "Graduate Seminar",
-    "info": "examine qualities of effective scientific presentations. develop skills in presenting scientific information effectively. practice public speaking skills. presenting scientific information to the general public. organize a seminar series. ",
+    "info": "examine qualities of effective scientific presentations. develop skills in presenting scientific information effectively. practice public speaking skills. presenting scientific information to the general public. organize a seminar series.",
     "prereqInfo": "grad major in applied plant sciences or instructor consent",
     "prereq": []
   },
@@ -60,7 +60,11 @@
     "title": "Doct Pre-Thesis Cr*",
     "info": "tbd",
     "prereqInfo": "doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": []
+    "prereq": {
+      "code": "APSC 60",
+      "subject": "APSC",
+      "id": "60"
+    }
   },
   {
     "code": "APSC 8777",
@@ -69,7 +73,11 @@
     "title": "Thesis Credit:Mast*",
     "info": "(no description)",
     "prereqInfo": "max 18 cr per semester or summer; 10 cr total required [plan a only]",
-    "prereq": []
+    "prereq": {
+      "code": "APSC 10",
+      "subject": "APSC",
+      "id": "10"
+    }
   },
   {
     "code": "APSC 8888",

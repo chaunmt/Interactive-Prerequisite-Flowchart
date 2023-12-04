@@ -103,25 +103,7 @@
     "subject": "LING",
     "id": "3001",
     "title": "Introduction to Linguistics",
-    "info": "the ability to acquire and use language is a biological trait of the human species.  this capacity for language manifests itself as thousands of particular languages spoken around the world in communities large and small. but what is language? what does it mean for a human to “know” a particular language? how do children acquire this knowledge? how do we use language to communicate? these are some of the important questions addressed by the field of linguistics, the scientific study of the human capacity for language in its physiological, cognitive, historical, and social manifestations.",
-    "prereqInfo": "this course introduces some of the essential findings of linguistics: first and foremost, that all varieties of all languages are intricately structured at multiple distinct but related levels. second, that this intricate structure can be described in terms that are not only precise, but which apply to all human languages.  we will work to replicate some of these findings by deploying simple analytical methods on data from a variety of languages.  these methods allow us to answer questions about the different structural components of language: phonology (how do speech sounds pattern?), morphology (what are possible words and how are they built?), and syntax (what is the hierarchical structure underlying sequences of words?). in all instances these methods require that we pay attention to basic notions of semantics, from which more complex conceptions of meaning will emerge.",
-    "prereq": []
-  },
-  {
-    "code": "LING 3001H",
-    "subject": "LING",
-    "id": "3001H",
-    "title": "Honors: Intro to Linguistics",
-    "info": "scientific study of human language. methods, questions, findings, and perspectives of modern linguistics. components of the language system (phonetics/phonology, syntax, semantics/pragmatics); language acquisition; language and social variables; language and cognition; language change; language processing; language and public policy. \nprereq: honors student or instr consent",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "LING 3052V",
-    "subject": "LING",
-    "id": "3052V",
-    "title": "Honors: Thesis",
-    "info": "supervised research, writing, and revision for honors thesis begun in ling 3093 or through work with the individual advisor. completion of ling 3093 or instructor permission is required.",
+    "info": "the ability to acquire and use language is a biological trait of the human species.  this capacity for language manifests itself as thousands of particular languages spoken around the world in communities large and small. but what is language? what does it mean for a human to “know” a particular language? how do children acquire this knowledge? how do we use language to communicate? these are some of the important questions addressed by the field of linguistics, the scientific study of the human capacity for language in its physiological, cognitive, historical, and social manifestations.\n\nthis course introduces some of the essential findings of linguistics: first and foremost, that all varieties of all languages are intricately structured at multiple distinct but related levels. second, that this intricate structure can be described in terms that are not only precise, but which apply to all human languages.  we will work to replicate some of these findings by deploying simple analytical methods on data from a variety of languages.  these methods allow us to answer questions about the different structural components of language: phonology (how do speech sounds pattern?), morphology (what are possible words and how are they built?), and syntax (what is the hierarchical structure underlying sequences of words?). in all instances these methods require that we pay attention to basic notions of semantics, from which more complex conceptions of meaning will emerge.\n\nhaving characterized language as an intricately-structured system of knowledge, we will then possess the tools to ask a number of additional questions about language and cognition. how does such complex knowledge play into the actual task of sentence production or comprehension? what do we know about the neural implementation of this knowledge in human brains? how does child language acquisition proceed, and what makes it so much more robust than language acquisition later in life? do animals have languages of their own? can they learn human languages?\n\nfinally, we will turn our attention to variation in language patterns observed over the passage of time, across geographical space, and within social systems. how and why do languages change over historical time? what can we know about languages spoken before the invention of writing? what distinctions exist between languages spoken in different places, and how can we tell whether similarities are due to genealogical relationships? how do new languages emerge? how do languages disappear? how does language use vary between individuals from the same place or the same community? how do socioeconomic class, ethnicity, and gender relate to the linguistic behavior of individuals? how does language policy affect educational outcomes? what about social cohesion and conflict?\n\nalthough we will find that most of these questions lack definitive answers, we will develop an understanding of what it takes to ask them meaningfully and precisely. in particular, we will be able to eliminate false or misleading answers, especially when they fail to take into account the observable and describable properties of the human capacity for language.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -147,11 +129,6 @@
           "code": "LING 3001",
           "subject": "LING",
           "id": "3001"
-        },
-        {
-          "code": "LING 3001H",
-          "subject": "LING",
-          "id": "3001H"
         },
         {
           "code": "LING 5001",
@@ -212,11 +189,6 @@
           "id": "3001"
         },
         {
-          "code": "LING 3001H",
-          "subject": "LING",
-          "id": "3001H"
-        },
-        {
           "code": "LING 5001",
           "subject": "LING",
           "id": "5001"
@@ -257,11 +229,6 @@
           "id": "3001"
         },
         {
-          "code": "LING 3001H",
-          "subject": "LING",
-          "id": "3001H"
-        },
-        {
           "code": "LING 5001",
           "subject": "LING",
           "id": "5001"
@@ -282,11 +249,6 @@
           "code": "LING 3001",
           "subject": "LING",
           "id": "3001"
-        },
-        {
-          "code": "LING 3001H",
-          "subject": "LING",
-          "id": "3001H"
         },
         {
           "code": "LING 5001",
@@ -331,11 +293,6 @@
           "code": "LING 3001",
           "subject": "LING",
           "id": "3001"
-        },
-        {
-          "code": "LING 3001H",
-          "subject": "LING",
-          "id": "3001H"
         },
         {
           "code": "LING 5001",
@@ -452,7 +409,7 @@
     "subject": "LING",
     "id": "5201",
     "title": "Syntactic Theory I",
-    "info": "concepts/issues in current syntactic theory. ",
+    "info": "concepts/issues in current syntactic theory.",
     "prereqInfo": "ling 5001 and graduate student or honors student, or instructor consent",
     "prereq": {
       "code": "LING 5001",
@@ -469,6 +426,11 @@
     "prereqInfo": "5201 or instructor consent. ling 5201 is directed towards honors students and graduate students.",
     "prereq": {
       "or": [
+        {
+          "code": "LING 5201",
+          "subject": "LING",
+          "id": "5201"
+        },
         {
           "code": "LING 5201",
           "subject": "LING",
@@ -526,9 +488,13 @@
     "subject": "LING",
     "id": "5207",
     "title": "Advanced Semantics",
-    "info": "in this course, we will explore some semi-advanced to advanced topics in the field of natural language semantics. broadly construed, natural language semanticists study how human beings process complexity in meaning in language, with the building blocks being how small units of meaning compose together to form larger and larger units, all of which are produced and understood in milliseconds. building on the fundamental foundations of semantic theory learnt in semantics, advanced semantics is geared towards providing expansive knowledge on several vital topics that current vibrant research in the field is concerned with. the array of topics include quantifier scope, definiteness and indefiniteness, plurals and mass/count nouns, attitude predicates and attitude ascription, event semantics, tense and aspect, modality and conditionals, questions, focus and alternative semantics, and imperatives. as we make our way through the critical last few decades of formal semantics through these vast and diverse topics, we will balance empirical coverage and formalism with development of intuition and methodology. prerequisites: ling 5205 - semantics i",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "in this course, we will explore some semi-advanced to advanced topics in the field of natural language semantics. broadly construed, natural language semanticists study how human beings process complexity in meaning in language, with the building blocks being how small units of meaning compose together to form larger and larger units, all of which are produced and understood in milliseconds. building on the fundamental foundations of semantic theory learnt in semantics, advanced semantics is geared towards providing expansive knowledge on several vital topics that current vibrant research in the field is concerned with. the array of topics include quantifier scope, definiteness and indefiniteness, plurals and mass/count nouns, attitude predicates and attitude ascription, event semantics, tense and aspect, modality and conditionals, questions, focus and alternative semantics, and imperatives. as we make our way through the critical last few decades of formal semantics through these vast and diverse topics, we will balance empirical coverage and formalism with development of intuition and methodology.",
+    "prereqInfo": "ling 5205 - semantics i",
+    "prereq": {
+      "code": "LING 5205",
+      "subject": "LING",
+      "id": "5205"
+    }
   },
   {
     "code": "LING 5301",
@@ -547,18 +513,9 @@
     "info": "how sounds are organized/patterned in human languages. phonological theory/problem-solving for advanced work in in linguistics. analyzing data. presenting written solutions to problem sets.",
     "prereqInfo": "5001 or honors student or instructor consent. ling 5302 is directed towards honors students and graduate students.",
     "prereq": {
-      "or": [
-        {
-          "code": "LING 5001",
-          "subject": "LING",
-          "id": "5001"
-        },
-        {
-          "code": "LING 5302",
-          "subject": "LING",
-          "id": "5302"
-        }
-      ]
+      "code": "LING 5001",
+      "subject": "LING",
+      "id": "5001"
     }
   },
   {
@@ -569,18 +526,9 @@
     "info": "phonology of human languages. reading papers in the literature. doing research in phonology.",
     "prereqInfo": "5302 or instr consent. ling 5303 is directed towards honors and graduate students.",
     "prereq": {
-      "or": [
-        {
-          "code": "LING 5302",
-          "subject": "LING",
-          "id": "5302"
-        },
-        {
-          "code": "LING 5303",
-          "subject": "LING",
-          "id": "5303"
-        }
-      ]
+      "code": "LING 5302",
+      "subject": "LING",
+      "id": "5302"
     }
   },
   {
@@ -596,11 +544,6 @@
           "code": "LING 3001",
           "subject": "LING",
           "id": "3001"
-        },
-        {
-          "code": "LING 3001H",
-          "subject": "LING",
-          "id": "3001H"
         },
         {
           "code": "LING 5001",
@@ -625,11 +568,6 @@
           "id": "3001"
         },
         {
-          "code": "LING 3001H",
-          "subject": "LING",
-          "id": "3001H"
-        },
-        {
           "code": "LING 5001",
           "subject": "LING",
           "id": "5001"
@@ -650,11 +588,6 @@
           "code": "LING 3001",
           "subject": "LING",
           "id": "3001"
-        },
-        {
-          "code": "LING 3001H",
-          "subject": "LING",
-          "id": "3001H"
         },
         {
           "code": "LING 5001",
@@ -686,11 +619,6 @@
           "code": "LING 3001",
           "subject": "LING",
           "id": "3001"
-        },
-        {
-          "code": "LING 3011H",
-          "subject": "LING",
-          "id": "3011H"
         },
         {
           "code": "LING 5001",
@@ -773,11 +701,6 @@
           "id": "3001"
         },
         {
-          "code": "LING 3001H",
-          "subject": "LING",
-          "id": "3001H"
-        },
-        {
           "code": "LING 5001",
           "subject": "LING",
           "id": "5001"
@@ -799,8 +722,8 @@
     "subject": "LING",
     "id": "5993",
     "title": "Directed Study",
-    "info": "directed study for linguistics.\nprereq instr consent, dept consent, college consent.",
-    "prereqInfo": null,
+    "info": "directed study for linguistics.",
+    "prereqInfo": "instr consent, dept consent, college consent.",
     "prereq": []
   },
   {
@@ -1024,7 +947,11 @@
     "title": "Doct Pre-Thesis Cr",
     "info": "tbd",
     "prereqInfo": "doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": []
+    "prereq": {
+      "code": "LING 60",
+      "subject": "LING",
+      "id": "60"
+    }
   },
   {
     "code": "LING 8777",
@@ -1033,7 +960,11 @@
     "title": "Thesis Credit:Mast*",
     "info": "(no description)",
     "prereqInfo": "max 18 cr per semester or summer; 10 cr total required [plan a only]",
-    "prereq": []
+    "prereq": {
+      "code": "LING 10",
+      "subject": "LING",
+      "id": "10"
+    }
   },
   {
     "code": "LING 8888",

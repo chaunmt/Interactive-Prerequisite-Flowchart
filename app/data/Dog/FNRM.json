@@ -31,8 +31,8 @@
     "subject": "FNRM",
     "id": "1902",
     "title": "Satellites to Drones: Chng Env",
-    "info": "this freshman seminar course explores the many ways imagery from satellites, airplanes, and more recently drones, allows us to better manage our environment and natural resources. this remotely sensed imagery, combined with other geospatial technologies, gives us an unparalleled ability to monitor our changing world, including identifying natural and anthropogenic environmental impacts such as deforestation and urbanization. imagery also allows us to plan our land use to minimize or avoid those impacts. in this course, we will discuss how imagery and geospatial data are being used to solve environmental problems, experience imaging data applied to actual environmental issues, learn about the imaging sensors used to acquire these data, and study related applications of remote sensing. we will explore imagery from satellites such as nasa's landsat, high-resolution commercial sensors (as seen in google earth), aircraft-based imaging and lidar sensors, drones, and non-earth remote sensing. we will discuss the future of the remote sensing of the environment in light of new and emerging imaging technologies.",
-    "prereqInfo": "since this is a freshman seminar that is focused on new college students, each class period will begin with a “college pro tip” that will cover an important skill, piece of information, or resource that will help you succeed at the university of minnesota. these will generally take 10-15 minutes, after which we will cover the geospatial topic of the day. see the class schedule at the end of this syllabus for more information.\nprereq: freshman",
+    "info": "this freshman seminar course explores the many ways imagery from satellites, airplanes, and more recently drones, allows us to better manage our environment and natural resources. this remotely sensed imagery, combined with other geospatial technologies, gives us an unparalleled ability to monitor our changing world, including identifying natural and anthropogenic environmental impacts such as deforestation and urbanization. imagery also allows us to plan our land use to minimize or avoid those impacts. in this course, we will discuss how imagery and geospatial data are being used to solve environmental problems, experience imaging data applied to actual environmental issues, learn about the imaging sensors used to acquire these data, and study related applications of remote sensing. we will explore imagery from satellites such as nasa's landsat, high-resolution commercial sensors (as seen in google earth), aircraft-based imaging and lidar sensors, drones, and non-earth remote sensing. we will discuss the future of the remote sensing of the environment in light of new and emerging imaging technologies.\n\nsince this is a freshman seminar that is focused on new college students, each class period will begin with a “college pro tip” that will cover an important skill, piece of information, or resource that will help you succeed at the university of minnesota. these will generally take 10-15 minutes, after which we will cover the geospatial topic of the day. see the class schedule at the end of this syllabus for more information.",
+    "prereqInfo": "freshman",
     "prereq": []
   },
   {
@@ -89,8 +89,8 @@
     "subject": "FNRM",
     "id": "3101",
     "title": "Park & Protected Area Tourism",
-    "info": "tourism is a significant industry locally, nationally, and internationally. park and protected area attractions are among the most visited but also the most vulnerable attractions. this course is designed to familiarize you with the basic concept of park and protected area tourism, including cultural and ecotourism, and then develop your expertise to plan and evaluate sustainable tourism development and operations. accordingly, you will complete assignments that apply the knowledge gained to planning and evaluation activities. this course is offered partially on-line.",
-    "prereqInfo": "course objectives\nby the end of the class you will be able to:\n1.differentiate and appreciate the complexities involved with defining and developing nature, eco, heritage, geo-, park and protected, cultural and \\\"sustainable tourism.\\\"\n2.identify specific social, economic, and environmental impacts associated with park and protected area tourism, how to measure them, and methods to minimize the negative and maximize the positive impacts.\n3.analyze domestic and international case studies of park and protected area tourism.\n4.critically evaluate park and protected area tourism services and effective management and planning.\n5. create elements of a business plan for park and protected area tourism operations that emphasize sustainability.",
+    "info": "tourism is a significant industry locally, nationally, and internationally. park and protected area attractions are among the most visited but also the most vulnerable attractions. this course is designed to familiarize you with the basic concept of park and protected area tourism, including cultural and ecotourism, and then develop your expertise to plan and evaluate sustainable tourism development and operations. accordingly, you will complete assignments that apply the knowledge gained to planning and evaluation activities. this course is offered partially on-line.\n\ncourse objectives\nby the end of the class you will be able to:\n1.differentiate and appreciate the complexities involved with defining and developing nature, eco, heritage, geo-, park and protected, cultural and \\\"sustainable tourism.\\\"\n2.identify specific social, economic, and environmental impacts associated with park and protected area tourism, how to measure them, and methods to minimize the negative and maximize the positive impacts.\n3.analyze domestic and international case studies of park and protected area tourism.\n4.critically evaluate park and protected area tourism services and effective management and planning.\n5. create elements of a business plan for park and protected area tourism operations that emphasize sustainability.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -210,8 +210,8 @@
     "subject": "FNRM",
     "id": "3205",
     "title": "Prodctvty&Ecol of Forest Soils",
-    "info": "forest soils are fundamental to the development and function of forested ecosystems. this course will focus on soil-site factors affecting plant and wildlife communities, site quality estimation, site modification and enhancement, and the effects of forest management and other human-related disturbances on forest soil functions. ",
-    "prereqInfo": "prior coursework in soils, hydrology, and forest management will enhance student learning, but are not required for successful completion of the course.",
+    "info": "forest soils are fundamental to the development and function of forested ecosystems. this course will focus on soil-site factors affecting plant and wildlife communities, site quality estimation, site modification and enhancement, and the effects of forest management and other human-related disturbances on forest soil functions. \n\nprior coursework in soils, hydrology, and forest management will enhance student learning, but are not required for successful completion of the course.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -219,7 +219,7 @@
     "subject": "FNRM",
     "id": "3206",
     "title": "Protected Area Field Studies",
-    "info": "this course is designed to be a directed field study of park and protected area management including observation of and training in (1) recreation planning and visitor management, (2) cultural resource management, (3) natural resource management, (4) nature-based tourism management, and (5) resource interpretation and communication across local, state, federal and tribal park and protected areas in northern minnesota. ",
+    "info": "this course is designed to be a directed field study of park and protected area management including observation of and training in (1) recreation planning and visitor management, (2) cultural resource management, (3) natural resource management, (4) nature-based tourism management, and (5) resource interpretation and communication across local, state, federal and tribal park and protected areas in northern minnesota.",
     "prereqInfo": "sophomore status or higher",
     "prereq": []
   },
@@ -319,18 +319,20 @@
     "title": "Adv Remote Sen&Geospa Analysis",
     "info": "this course builds on the introductory remote sensing class, fnrm 3262/5262. it provides a detailed treatment of advanced remote sensing and geospatial theory and methods including object-based image analysis (obia), lidar processing and derivatives, advanced classification algorithms (including random forest, neural networks, support vector machines), biophysics of remote sensing, measurements and sensors, data transforms, data fusion, multi-temporal analysis, and empirical modeling. in-class and independent lab activities will be used to apply the course topics to real-world problems. prior coursework in geographic information systems, remote sensing, and statistics is necessary.",
     "prereqInfo": "fnrm 3262/5262 or instr consent",
-    "prereq": [
-      {
-        "code": "FNRM 3262",
-        "subject": "FNRM",
-        "id": "3262"
-      },
-      {
-        "code": "FNRM 5262",
-        "subject": "FNRM",
-        "id": "5262"
-      }
-    ]
+    "prereq": {
+      "and": [
+        {
+          "code": "FNRM 3262",
+          "subject": "FNRM",
+          "id": "3262"
+        },
+        {
+          "code": "FNRM 5262",
+          "subject": "FNRM",
+          "id": "5262"
+        }
+      ]
+    }
   },
   {
     "code": "FNRM 3471",
@@ -395,8 +397,8 @@
     "subject": "FNRM",
     "id": "3993",
     "title": "Directed Study",
-    "info": "a course in which a student designs and carries out a directed study on selected topics or problems under the direction of a faculty member; eg, literature review. directed study courses may be taken for variable credit and special permission is needed for enrollment.  students enrolling in a directed study will be required to use the university-wide on-line directed study contract process in order to enroll.\n \nprereq: department consent, instructor consent, no more than 6 credits of directed study counts towards cfans major requirements\n",
-    "prereqInfo": null,
+    "info": "a course in which a student designs and carries out a directed study on selected topics or problems under the direction of a faculty member; eg, literature review. directed study courses may be taken for variable credit and special permission is needed for enrollment.  students enrolling in a directed study will be required to use the university-wide on-line directed study contract process in order to enroll.",
+    "prereqInfo": "department consent, instructor consent, no more than 6 credits of directed study counts towards cfans major requirements",
     "prereq": []
   },
   {
@@ -404,8 +406,8 @@
     "subject": "FNRM",
     "id": "3994",
     "title": "Directed Research",
-    "info": "an opportunity in which a student designs and carries out a directed research project under the direction of a faculty member. directed research may be taken for variable credit and special permission is needed for enrollment.students enrolling in a directed research will be required to use the university-wide on-line directed research contract process in order to enroll.\n \nprereq: department consent, instructor consent, no more than 6 credits of directed research counts towards cfans major requirements.\n",
-    "prereqInfo": null,
+    "info": "an opportunity in which a student designs and carries out a directed research project under the direction of a faculty member. directed research may be taken for variable credit and special permission is needed for enrollment.students enrolling in a directed research will be required to use the university-wide on-line directed research contract process in order to enroll.",
+    "prereqInfo": "department consent, instructor consent, no more than 6 credits of directed research counts towards cfans major requirements.",
     "prereq": []
   },
   {
@@ -413,8 +415,8 @@
     "subject": "FNRM",
     "id": "4232W",
     "title": "Managing Recreational Lands",
-    "info": "most of us participate in some form of outdoor recreation: hiking, hunting, riding all-terrain vehicles, or simply enjoying nature. managing for outdoor recreation on public lands is mandated by federal law and an integral part of natural resource management. in this class, we'll learn why and how agencies manage recreation at the federal level, the management frameworks that guide this work, and apply management principles to an actual federal property in minnesota.",
-    "prereqInfo": "this course is designed to provide students with an understanding of the principles and practices of outdoor recreation management. specific objectives are to:",
+    "info": "most of us participate in some form of outdoor recreation: hiking, hunting, riding all-terrain vehicles, or simply enjoying nature. managing for outdoor recreation on public lands is mandated by federal law and an integral part of natural resource management. in this class, we'll learn why and how agencies manage recreation at the federal level, the management frameworks that guide this work, and apply management principles to an actual federal property in minnesota.\n\nthis course is designed to provide students with an understanding of the principles and practices of outdoor recreation management. specific objectives are to:\n\n1)compare and contrast federal recreation land management policies & organizations,\n2)develop and demonstrate an understanding of conceptual frameworks for recreation resource and visitor use management,\n3)evaluate visitor caused impacts to resources and to visitor experiences,\n4)understand and apply management tools designed to reduce recreation- related impacts and conflicts, and\n5)demonstrate an understanding of course material through exams & applied assignments.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -444,7 +446,7 @@
     "subject": "FNRM",
     "id": "4515",
     "title": "Field Resource Survey",
-    "info": "field applications of sampling/measurement methods for inventory and assessment of forest and other natural resources. offered at the cloquet forestry center. ",
+    "info": "field applications of sampling/measurement methods for inventory and assessment of forest and other natural resources. offered at the cloquet forestry center.",
     "prereqInfo": "fnrm 3218 or instructor consent",
     "prereq": {
       "code": "FNRM 3218",
@@ -457,7 +459,7 @@
     "subject": "FNRM",
     "id": "4521",
     "title": "Fld Timber Harvstg & Road Plng",
-    "info": "design, layout, and administration of timber sales. forest road planning and design. timber appraisal, forest management guidelines. field visits to timber harvesting and road planning sites with private organizations. develop a harvest plan for landowner's property. taught at the cloquet forestry center. ",
+    "info": "design, layout, and administration of timber sales. forest road planning and design. timber appraisal, forest management guidelines. field visits to timber harvesting and road planning sites with private organizations. develop a harvest plan for landowner's property. taught at the cloquet forestry center.",
     "prereqInfo": "fnrm 3411 and 3431, or instructor consent.",
     "prereq": {
       "and": [
@@ -479,8 +481,8 @@
     "subject": "FNRM",
     "id": "5101",
     "title": "Park & Protected Area Tourism",
-    "info": "tourism is a significant industry locally, nationally, and internationally. park and protected area attractions are among the most visited but also the most vulnerable attractions. this course is designed to familiarize you with the basic concept of park and protected area tourism, including cultural and ecotourism, and then develop your expertise to plan and evaluate sustainable tourism development and operations. accordingly, you will complete assignments that apply the knowledge gained to planning and evaluation activities. this course is offered partially online.",
-    "prereqInfo": "course objectives \nby the end of the class you will be able to:\n1. differentiate and appreciate the complexities involved with defining and developing nature, eco, heritage, geo-, park and protected, cultural & \\\"sustainable tourism.\\\"\n2. identify specific social, economic, and environmental impacts associated with park and protected area tourism, how to measure them, and methods to minimize the negative and maximize the positive impacts.\n3. analyze domestic and international case studies of park and protected area tourism.\n4. critically evaluate park and protected area tourism services and effective management and planning.\n5. create elements of a business plan for park and protected area tourism operations that emphasize sustainability.",
+    "info": "tourism is a significant industry locally, nationally, and internationally. park and protected area attractions are among the most visited but also the most vulnerable attractions. this course is designed to familiarize you with the basic concept of park and protected area tourism, including cultural and ecotourism, and then develop your expertise to plan and evaluate sustainable tourism development and operations. accordingly, you will complete assignments that apply the knowledge gained to planning and evaluation activities. this course is offered partially online.\n\ncourse objectives \nby the end of the class you will be able to:\n1. differentiate and appreciate the complexities involved with defining and developing nature, eco, heritage, geo-, park and protected, cultural & \\\"sustainable tourism.\\\"\n2. identify specific social, economic, and environmental impacts associated with park and protected area tourism, how to measure them, and methods to minimize the negative and maximize the positive impacts.\n3. analyze domestic and international case studies of park and protected area tourism.\n4. critically evaluate park and protected area tourism services and effective management and planning.\n5. create elements of a business plan for park and protected area tourism operations that emphasize sustainability.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -488,8 +490,8 @@
     "subject": "FNRM",
     "id": "5104",
     "title": "Forest Ecology",
-    "info": "form and function of forests as ecological systems. characteristics and dynamics of species, populations, communities, landscapes, and ecosystem processes. examples applying ecology to forest management. weekly discussions on research topics, exercises, and current issues in forest resource management. required weekend field trip.",
-    "prereqInfo": "introductory biology course recommended.",
+    "info": "form and function of forests as ecological systems. characteristics and dynamics of species, populations, communities, landscapes, and ecosystem processes. examples applying ecology to forest management. weekly discussions on research topics, exercises, and current issues in forest resource management. required weekend field trip.\n\nintroductory biology course recommended.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -672,8 +674,8 @@
     "subject": "FNRM",
     "id": "5259",
     "title": "Visitor Behavior Analysis",
-    "info": "recreation, leisure, and tourism are significant parts of the world, national, and state economies. understanding visitor behavior is important and has significant implications for organizations, agencies, and businesses related to parks, tourism destinations, and museums.",
-    "prereqInfo": "in this class, you will learn to apply both social science theory and methods to understand consumers, with an emphasis on visitors to parks and protected areas. you will immediately apply your learning of survey development, interviewing, observation and content analysis to real-word situations in class projects. this is an online course.",
+    "info": "recreation, leisure, and tourism are significant parts of the world, national, and state economies. understanding visitor behavior is important and has significant implications for organizations, agencies, and businesses related to parks, tourism destinations, and museums.\n\nin this class, you will learn to apply both social science theory and methods to understand consumers, with an emphasis on visitors to parks and protected areas. you will immediately apply your learning of survey development, interviewing, observation and content analysis to real-word situations in class projects. this is an online course.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -728,15 +730,28 @@
     "title": "Mng For Ecosys:Silvicultre Lab",
     "info": "development of silvicultural prescriptions to achieve various landowner objectives. timber cruise, growth/yield simulations, stand density management diagrams, thinning schedules, use of forest vegetation simulator. field trips, computer labs, lectures.",
     "prereqInfo": "fnrm major or minor or grad student; fnrm-femc track students should take fnrm 3411/5411 concurrently or instructor consent",
-    "prereq": []
+    "prereq": {
+      "and": [
+        {
+          "code": "FNRM 3411",
+          "subject": "FNRM",
+          "id": "3411"
+        },
+        {
+          "code": "FNRM 5411",
+          "subject": "FNRM",
+          "id": "5411"
+        }
+      ]
+    }
   },
   {
     "code": "FNRM 5431",
     "subject": "FNRM",
     "id": "5431",
     "title": "Timber Harvesting & Road Plng",
-    "info": "introduction to forest operations. terminology, basic engineering, equipment and harvesting system options, productivity/costs. relationship to forest management and silviculture. road planning, forest management guidelines, approaches for mitigating potential impacts to forest resources. environmental implications of method/equipment choices. selling timber. sale design, layout, and administration. one all-day field trip.\nprereq: grad student",
-    "prereqInfo": null,
+    "info": "introduction to forest operations. terminology, basic engineering, equipment and harvesting system options, productivity/costs. relationship to forest management and silviculture. road planning, forest management guidelines, approaches for mitigating potential impacts to forest resources. environmental implications of method/equipment choices. selling timber. sale design, layout, and administration. one all-day field trip.",
+    "prereqInfo": "grad student",
     "prereq": []
   },
   {

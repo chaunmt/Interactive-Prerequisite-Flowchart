@@ -1,14 +1,5 @@
 [
   {
-    "code": "MGMT 1001H",
-    "subject": "MGMT",
-    "id": "1001H",
-    "title": "Honors:Contemporary Management",
-    "info": "how/why organizations differ in their forms/purposes in relation to complex/changing environments/technologies. challenges related to international management and social responsibility. models of effective leadership/teamwork.",
-    "prereqInfo": "[fr or soph] honors",
-    "prereq": []
-  },
-  {
     "code": "MGMT 1350",
     "subject": "MGMT",
     "id": "1350",
@@ -72,15 +63,6 @@
     "prereq": []
   },
   {
-    "code": "MGMT 3033V",
-    "subject": "MGMT",
-    "id": "3033V",
-    "title": "Honors: Business Communication",
-    "info": "written/oral communication skills for organizations. communication technology. cases, simulations of real-world situations. small groups meet with instructor three times for presentation coaching. recitation times are arranged.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
     "code": "MGMT 3039",
     "subject": "MGMT",
     "id": "3039",
@@ -90,31 +72,48 @@
     "prereq": []
   },
   {
-    "code": "MGMT 3040H",
-    "subject": "MGMT",
-    "id": "3040H",
-    "title": "Honors:  Int'l Env. of Firms",
-    "info": "theories, frameworks, tools, and facts for understanding the environment of firms in international competition. main world-level economic flows (trade, investment, finance). how country-/industry-level economic, political, and socio-cultural factors influence behavior/functions of firms in international competition.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
     "code": "MGMT 3041",
     "subject": "MGMT",
     "id": "3041",
     "title": "Individual & the Organization",
-    "info": "the purpose of this course is to understand both the impact and experience of the individual in an organizational setting. we will discuss the influence that individual differences and behaviors play within an organization, focusing on the employee as the key factor through which organizations function and grow. an employer’s success is largely attributable to the motivation and performance of those they employ. the factors that influence both their motivation and performance will be the focus of our content. we will explore topics such as personality, values, perceptions, and diversity among others. each topic covered will enrich our understanding of the complex relationship between the individual and the organization. recommended prerequisite: hrir 3021. prior, this course's designator was hrir 3041.",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "the purpose of this course is to understand both the impact and experience of the individual in an organizational setting. we will discuss the influence that individual differences and behaviors play within an organization, focusing on the employee as the key factor through which organizations function and grow. an employer’s success is largely attributable to the motivation and performance of those they employ. the factors that influence both their motivation and performance will be the focus of our content. we will explore topics such as personality, values, perceptions, and diversity among others. each topic covered will enrich our understanding of the complex relationship between the individual and the organization. recommended",
+    "prereqInfo": "hrir 3021. prior, this course's designator was hrir 3041.",
+    "prereq": {
+      "and": [
+        {
+          "code": "HRIR 3021",
+          "subject": "HRIR",
+          "id": "3021"
+        },
+        {
+          "code": "HRIR 3041",
+          "subject": "HRIR",
+          "id": "3041"
+        }
+      ]
+    }
   },
   {
     "code": "MGMT 3042",
     "subject": "MGMT",
     "id": "3042",
     "title": "Org Behavior: Groups & Teams",
-    "info": "the purpose of this course is to understand both the impact and experience of the individual, leaders, and teams in an organizational setting. we will discuss the influence that individual differences and behaviors play within work teams, and how leadership may shape team experiences, focusing on the team as the key factor through which organizations function and grow. an employer’s success is largely attributable to the motivation and performance of those they employ. the factors that influence group, team, and organizational performance will be the focus of this class. we will explore topics such as communication, conflict, negotiation, leadership, organizational structure and change, among others. each topic covered will enrich our understanding of the complex relationship between the individual, team, and the organization. recommended prerequisite: hrir 3021. prior, the course's designator was: hrir 3042.",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "the purpose of this course is to understand both the impact and experience of the individual, leaders, and teams in an organizational setting. we will discuss the influence that individual differences and behaviors play within work teams, and how leadership may shape team experiences, focusing on the team as the key factor through which organizations function and grow. an employer’s success is largely attributable to the motivation and performance of those they employ. the factors that influence group, team, and organizational performance will be the focus of this class. we will explore topics such as communication, conflict, negotiation, leadership, organizational structure and change, among others. each topic covered will enrich our understanding of the complex relationship between the individual, team, and the organization. recommended",
+    "prereqInfo": "hrir 3021. prior, the course's designator was: hrir 3042.",
+    "prereq": {
+      "and": [
+        {
+          "code": "HRIR 3021",
+          "subject": "HRIR",
+          "id": "3021"
+        },
+        {
+          "code": "HRIR 3042",
+          "subject": "HRIR",
+          "id": "3042"
+        }
+      ]
+    }
   },
   {
     "code": "MGMT 3045",
@@ -143,8 +142,8 @@
     "subject": "MGMT",
     "id": "3061",
     "title": "Leadership in Practice",
-    "info": "every day, life gives us opportunities to practice leadership: experiencing group conflicts, recognizing the achievements of a classmate, overhearing an offensive joke, observing microaggressions, sharing innovative ideas with your team. in this course, you will learn how to investigate and respond to these moments of leadership using fundamental leadership science and frameworks based on leadership theory and empirical evidence. these moments provide an opportunity to become something, to do something different, usually through understanding complex issues, navigating change, empathy, and influencing others. ",
-    "prereqInfo": "the course will expose you to fundamental leadership science and frameworks backed by leadership theory and empirical evidence. you will focus on understanding personal leadership strengths and vulnerabilities through assessments, reflection, and feedback. to improve your leadership capabilities, you must know from what point you are starting. throughout the class, there will be reflection exercises and assessments that will help you understand your values, default traits, and work styles as you navigate everyday moments of leadership.",
+    "info": "every day, life gives us opportunities to practice leadership: experiencing group conflicts, recognizing the achievements of a classmate, overhearing an offensive joke, observing microaggressions, sharing innovative ideas with your team. in this course, you will learn how to investigate and respond to these moments of leadership using fundamental leadership science and frameworks based on leadership theory and empirical evidence. these moments provide an opportunity to become something, to do something different, usually through understanding complex issues, navigating change, empathy, and influencing others. \n\nthe course will expose you to fundamental leadership science and frameworks backed by leadership theory and empirical evidence. you will focus on understanding personal leadership strengths and vulnerabilities through assessments, reflection, and feedback. to improve your leadership capabilities, you must know from what point you are starting. throughout the class, there will be reflection exercises and assessments that will help you understand your values, default traits, and work styles as you navigate everyday moments of leadership.\n\nleadership skills are best learned by integrating and applying evidence-based theoretical concepts to practical situations. these skills are difficult to meaningfully assess with exams and typical assignments. thus, we will learn with practical exercises and the application of course materials to your life as a leader. the experiential learning of the class will allow you to navigate leadership moments and bring the course concepts to life.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -283,15 +282,6 @@
     "prereq": []
   },
   {
-    "code": "MGMT 4004V",
-    "subject": "MGMT",
-    "id": "4004V",
-    "title": "Honors:  Business Policy",
-    "info": "integrative perspective on overall direction of enterprise. choice of products/markets, selection of organizaton structures and management styles. case analysis: identifying key issues, evaluating options, and making recommendations, under conditions of uncertainty and incomplete information.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
     "code": "MGMT 4004W",
     "subject": "MGMT",
     "id": "4004W",
@@ -299,9 +289,18 @@
     "info": "integrative perspective on overall direction of the enterprise involving both choice of products and markets and selection of organization structures and management styles; case analysis involving the identification of key issues, evaluation of options, and making recommendations under conditions of uncertainty and incomplete information.",
     "prereqInfo": "3040, 90 cr, completion of business core courses",
     "prereq": {
-      "code": "MGMT 3040",
-      "subject": "MGMT",
-      "id": "3040"
+      "and": [
+        {
+          "code": "MGMT 3040",
+          "subject": "MGMT",
+          "id": "3040"
+        },
+        {
+          "code": "MGMT 90",
+          "subject": "MGMT",
+          "id": "90"
+        }
+      ]
     }
   },
   {
@@ -354,8 +353,8 @@
     "subject": "MGMT",
     "id": "4031",
     "title": "Industry Analysis Global Cntxt",
-    "info": "this course covers concepts and tools required to devise strategies that enable a global business to create superior value for customers and to capture a sufficient share of that value. it will offer perspectives on analyzing competitive situations and identifying and evaluating strategic options. in particular, it focuses on:\n- applying fundamental concepts of strategic management--including strategy identification, the relationship of strategy and organization, industry analysis, competitor analysis, firm and industry evolution--coupled with economic theory and quantitative analysis to evaluate competitive strategies in a global context;\n- developing an awareness of the impact of external environmental forces and of strategic actions by the firm and its rivals on business strategy.\n- integrating knowledge gained in previous and concurrent core courses with a focus on understanding applying analytical concepts that are most useful to business analysts and managers. ",
-    "prereqInfo": "mgmt 3004 ",
+    "info": "this course covers concepts and tools required to devise strategies that enable a global business to create superior value for customers and to capture a sufficient share of that value. it will offer perspectives on analyzing competitive situations and identifying and evaluating strategic options. in particular, it focuses on:\n- applying fundamental concepts of strategic management--including strategy identification, the relationship of strategy and organization, industry analysis, competitor analysis, firm and industry evolution--coupled with economic theory and quantitative analysis to evaluate competitive strategies in a global context;\n- developing an awareness of the impact of external environmental forces and of strategic actions by the firm and its rivals on business strategy.\n- integrating knowledge gained in previous and concurrent core courses with a focus on understanding applying analytical concepts that are most useful to business analysts and managers.",
+    "prereqInfo": "mgmt 3004",
     "prereq": {
       "code": "MGMT 3004",
       "subject": "MGMT",
@@ -367,7 +366,7 @@
     "subject": "MGMT",
     "id": "4032",
     "title": "Corporate Strategy",
-    "info": "this course examines issues of corporate strategy, i.e., issues associated with creating and managing a firm that operates in multiple businesses. some of the key questions we shall seek to address through this course are:  \n\n• what are the drivers of corporate scope? how should a firm choose the activities/businesses it participates in?\n• what are the sources of value for a firm from being diversified across multiple businesses?\n• what are the challenges associated with managing across multiple businesses and markets?\n• how are these challenges best dealt with? what structures and processes enable successful corporate diversification over time?\n\nthe learning objective of this course is to help you learn to identify and define successful corporate strategies and offer solutions for the common problems that diversified firms face. the course not only introduces you to core concepts around corporate strategy, but it also seeks to develop your ability to critically evaluate the strategies of multi-business firms, through the extensive use of case discussions. ",
+    "info": "this course examines issues of corporate strategy, i.e., issues associated with creating and managing a firm that operates in multiple businesses. some of the key questions we shall seek to address through this course are:  \n\n• what are the drivers of corporate scope? how should a firm choose the activities/businesses it participates in?\n• what are the sources of value for a firm from being diversified across multiple businesses?\n• what are the challenges associated with managing across multiple businesses and markets?\n• how are these challenges best dealt with? what structures and processes enable successful corporate diversification over time?\n\nthe learning objective of this course is to help you learn to identify and define successful corporate strategies and offer solutions for the common problems that diversified firms face. the course not only introduces you to core concepts around corporate strategy, but it also seeks to develop your ability to critically evaluate the strategies of multi-business firms, through the extensive use of case discussions.",
     "prereqInfo": "mgmt 3004",
     "prereq": {
       "code": "MGMT 3004",
@@ -424,7 +423,7 @@
     "subject": "MGMT",
     "id": "4035",
     "title": "Mergers & Acquisition Strategy",
-    "info": "this course focuses on the strategic use of mergers and acquisitions (m&a) as a means of new market entry and growth. it covers such questions as: when should one pursue an acquisition? what are the sources of value from an acquisition? what are the common challenges acquirers face? what should acquirers look for in a potential target? how should they integrate a target post-acquisition? it also considers the sell-side strategies for firms looking to exit businesses through divestiture.\n\nthe learning objective of this course is to help you learn to identify and define successful mergers and acquisitions, and offer solutions for the common problems that firms face when undertaking acquisitions. the course not only introduces you to core concepts around m&a, it also seeks to develop your ability to critically evaluate firms’ m&a choices, and to effectively communicate your assessment of these choices to a business audience. ",
+    "info": "this course focuses on the strategic use of mergers and acquisitions (m&a) as a means of new market entry and growth. it covers such questions as: when should one pursue an acquisition? what are the sources of value from an acquisition? what are the common challenges acquirers face? what should acquirers look for in a potential target? how should they integrate a target post-acquisition? it also considers the sell-side strategies for firms looking to exit businesses through divestiture.\n\nthe learning objective of this course is to help you learn to identify and define successful mergers and acquisitions, and offer solutions for the common problems that firms face when undertaking acquisitions. the course not only introduces you to core concepts around m&a, it also seeks to develop your ability to critically evaluate firms’ m&a choices, and to effectively communicate your assessment of these choices to a business audience.",
     "prereqInfo": "mgmt 4032",
     "prereq": {
       "code": "MGMT 4032",
@@ -527,6 +526,11 @@
           "code": "MGMT 4008",
           "subject": "MGMT",
           "id": "4008"
+        },
+        {
+          "code": "MGMT 4008",
+          "subject": "MGMT",
+          "id": "4008"
         }
       ]
     }
@@ -549,20 +553,16 @@
     "subject": "MGMT",
     "id": "4173",
     "title": "New Venture Financing",
-    "info": "this experiential course is offered to university undergraduate students interested in learning about new venture\nfinancing through the operation of an independent angel investment fund. it serves as an introduction to the subject\nmatter, while providing a forum for the students to review investment opportunities, connect with members from the\nentrepreneurial and investor communities, and learn about startup fundraising through direct participation in the\ninvestment process.",
-    "prereqInfo": "this course is being offered to complement a student-owned private venture capital fund in collaboration with\nindividual accredited investors, which was initially formed in april of 2018. in addition to the ongoing management of\nthe fund operations and reporting, the students will be responsible for ongoing capital raising. final authority for all\ninvestment decisions rests with the students.",
-    "prereq": {
-      "code": "MGMT 2018H",
-      "subject": "MGMT",
-      "id": "2018H"
-    }
+    "info": "this experiential course is offered to university undergraduate students interested in learning about new venture\nfinancing through the operation of an independent angel investment fund. it serves as an introduction to the subject\nmatter, while providing a forum for the students to review investment opportunities, connect with members from the\nentrepreneurial and investor communities, and learn about startup fundraising through direct participation in the\ninvestment process.\n\nthis course is being offered to complement a student-owned private venture capital fund in collaboration with\nindividual accredited investors, which was initially formed in april of 2018. in addition to the ongoing management of\nthe fund operations and reporting, the students will be responsible for ongoing capital raising. final authority for all\ninvestment decisions rests with the students.",
+    "prereqInfo": null,
+    "prereq": []
   },
   {
     "code": "MGMT 4175W",
     "subject": "MGMT",
     "id": "4175W",
     "title": "New Business Feasibility",
-    "info": "the purpose of this course is to provide students with the following insights into • techniques for developing and screening business ideas • criteria for properly assessing idea feasibility • equipping yourself with the necessary information and analysis to develop a useful business plan • preparing an effective business plan • effectively pitching the plan to stakeholders, primarily prospective investors the class makes use of lecture, videos, articles, cases, class exercises, assignments, and quizzes to help develop depth of understanding amongst students of the relevant subject matter of this course. ",
+    "info": "the purpose of this course is to provide students with the following insights into • techniques for developing and screening business ideas • criteria for properly assessing idea feasibility • equipping yourself with the necessary information and analysis to develop a useful business plan • preparing an effective business plan • effectively pitching the plan to stakeholders, primarily prospective investors the class makes use of lecture, videos, articles, cases, class exercises, assignments, and quizzes to help develop depth of understanding amongst students of the relevant subject matter of this course.",
     "prereqInfo": "mgmt 3010 or mgmt 3015 or ibus 3010",
     "prereq": {
       "or": [
@@ -670,7 +670,7 @@
     "subject": "MGMT",
     "id": "6004",
     "title": "Negotiation Strategies",
-    "info": "at its core, negotiation is the art and science of getting what you want in a world of innumerable interests, possibilities, and standards of fairness---a world in which we must often compete or cooperate with others to do anything from picking a restaurant to transforming markets. the objective of this course is to equip students with a simple, ready-to-use framework from which we can prepare for and engage in negotiations. topics include interest-based bargaining, psychological biases, multiparty negotiations, and hard tactics. regular cases and exercises reinforce our negotiation framework and provide students a safe forum to thoughtfully reflect on their experiences and improve. ",
+    "info": "at its core, negotiation is the art and science of getting what you want in a world of innumerable interests, possibilities, and standards of fairness---a world in which we must often compete or cooperate with others to do anything from picking a restaurant to transforming markets. the objective of this course is to equip students with a simple, ready-to-use framework from which we can prepare for and engage in negotiations. topics include interest-based bargaining, psychological biases, multiparty negotiations, and hard tactics. regular cases and exercises reinforce our negotiation framework and provide students a safe forum to thoughtfully reflect on their experiences and improve.",
     "prereqInfo": "mba or mgmt sci mba student",
     "prereq": []
   },
@@ -735,7 +735,7 @@
     "subject": "MGMT",
     "id": "6032",
     "title": "Strategic Alliances",
-    "info": "how inter-/intra-alliance rivalry influences global competitive landscape. how interplay of competitive/cooperative arrangements among firms invigorate intellectual/operational tasks. designing/managing international strategy, organizational structure, and alliances. ",
+    "info": "how inter-/intra-alliance rivalry influences global competitive landscape. how interplay of competitive/cooperative arrangements among firms invigorate intellectual/operational tasks. designing/managing international strategy, organizational structure, and alliances.",
     "prereqInfo": "mba or mgmt sci mba studentt",
     "prereq": []
   },
@@ -744,7 +744,7 @@
     "subject": "MGMT",
     "id": "6033",
     "title": "Strategy Implementation",
-    "info": "this course focuses on strategy execution at both the organizational and functional levels. specific topics include the relationships between strategy formulation and execution, and between implementation and change. the course goes into depth on the systemic and structural problems that make most of these efforts difficult and often unsuccessful, along with various methods to minimize these problems. ",
+    "info": "this course focuses on strategy execution at both the organizational and functional levels. specific topics include the relationships between strategy formulation and execution, and between implementation and change. the course goes into depth on the systemic and structural problems that make most of these efforts difficult and often unsuccessful, along with various methods to minimize these problems.",
     "prereqInfo": "mba or mgmt sci mba student",
     "prereq": []
   },
@@ -787,9 +787,18 @@
     "info": "how innovation typically unfolds in wide variety of new technologies, products, programs, and services. what paths are likely to lead to success/failure. diagnostic skills/principles.",
     "prereqInfo": "credit will not be granted if credit has been received for: : 5051; 6050",
     "prereq": {
-      "code": "MGMT 5051",
-      "subject": "MGMT",
-      "id": "5051"
+      "or": [
+        {
+          "code": "MGMT 5051",
+          "subject": "MGMT",
+          "id": "5051"
+        },
+        {
+          "code": "MGMT 6050",
+          "subject": "MGMT",
+          "id": "6050"
+        }
+      ]
     }
   },
   {
@@ -806,8 +815,8 @@
     "subject": "MGMT",
     "id": "6071",
     "title": "Strat Mgmt of Tech Change",
-    "info": "this course addresses challenges and opportunities in the strategic management of technology. it will equip students with conceptual frameworks tools, and language for analyzing and managing businesses in environments of technological change. students will understand how new technologies transform industries and create new markets, ways that firms shape and/or respond to technological evolution in industries, and the strategic decisions for managing technological change and creating and capturing value from new technologies. we will also consider the influences of factors outside the control of a particular firm, such as complementary markets or the organization of innovations in the broader technology developing community. because innovation and responding to technological change involve changing organizations, we will also consider factors in leading and managing organizational change. the course uses a combination of readings, lectures, case discussions, exercises, and simulations, and includes cases and vignettes on situations of specific companies managing technology strategy. ",
-    "prereqInfo": "anyone who wants to lead innovation or create and capture value from new technologies should take this course. we live in a world of constant technological change and disruption. an understanding of the patterns and processes of innovation and technological change will help students formulate and execute successful technology strategies.",
+    "info": "this course addresses challenges and opportunities in the strategic management of technology. it will equip students with conceptual frameworks tools, and language for analyzing and managing businesses in environments of technological change. students will understand how new technologies transform industries and create new markets, ways that firms shape and/or respond to technological evolution in industries, and the strategic decisions for managing technological change and creating and capturing value from new technologies. we will also consider the influences of factors outside the control of a particular firm, such as complementary markets or the organization of innovations in the broader technology developing community. because innovation and responding to technological change involve changing organizations, we will also consider factors in leading and managing organizational change. the course uses a combination of readings, lectures, case discussions, exercises, and simulations, and includes cases and vignettes on situations of specific companies managing technology strategy. \n\nanyone who wants to lead innovation or create and capture value from new technologies should take this course. we live in a world of constant technological change and disruption. an understanding of the patterns and processes of innovation and technological change will help students formulate and execute successful technology strategies.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -842,7 +851,7 @@
     "subject": "MGMT",
     "id": "6085",
     "title": "Corp Strategy",
-    "info": "case for/against insourcing vs outsourcing, and corporate diversification. managing a multi-business firm. role of acquisitions/mergers in corporate diversification. contrasting mergers with strategic alliances. corporate restructuring and divestitures. ",
+    "info": "case for/against insourcing vs outsourcing, and corporate diversification. managing a multi-business firm. role of acquisitions/mergers in corporate diversification. contrasting mergers with strategic alliances. corporate restructuring and divestitures.",
     "prereqInfo": "mba or mgmt sci mba student",
     "prereq": []
   },
@@ -887,9 +896,13 @@
     "subject": "MGMT",
     "id": "6131",
     "title": "Competitive Dynamics of Indust",
-    "info": "this course offers perspectives on analyzing competitive situations and identifying and evaluating strategic options. in particular, the course focuses on applying fundamental concepts of strategic management—including competitor analysis, game theory, co-operation, network effects, firm and industry evolution—coupled with economic theory and quantitative analysis to evaluate competitive strategies; developing an awareness of the impact of external environmental forces and of strategic actions buy the firm and its rivals on business strategy; integrating knowledge gained in previous and concurrent core courses with a focus on understanding applying analytical concepts that are most useful to general managers.\nprerequisites: mba 6300; mba student",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "this course offers perspectives on analyzing competitive situations and identifying and evaluating strategic options. in particular, the course focuses on applying fundamental concepts of strategic management—including competitor analysis, game theory, co-operation, network effects, firm and industry evolution—coupled with economic theory and quantitative analysis to evaluate competitive strategies; developing an awareness of the impact of external environmental forces and of strategic actions buy the firm and its rivals on business strategy; integrating knowledge gained in previous and concurrent core courses with a focus on understanding applying analytical concepts that are most useful to general managers.",
+    "prereqInfo": "mba 6300; mba student",
+    "prereq": {
+      "code": "MBA 6300",
+      "subject": "MBA",
+      "id": "6300"
+    }
   },
   {
     "code": "MGMT 6222",
@@ -905,7 +918,7 @@
     "subject": "MGMT",
     "id": "6305",
     "title": "Int'l Envrmt of Business",
-    "info": "introduction to international trade/finance theory and political economy. institutional governance of international trade/monetary policy, differences in political-economic/sociocultural systems, implications for managerial decision-making. ",
+    "info": "introduction to international trade/finance theory and political economy. institutional governance of international trade/monetary policy, differences in political-economic/sociocultural systems, implications for managerial decision-making.",
     "prereqInfo": "mba or mgmt sci mba student",
     "prereq": []
   },
@@ -914,8 +927,8 @@
     "subject": "MGMT",
     "id": "6311",
     "title": "Cross-Cultural Management",
-    "info": "the emphasis of this course is on people-related (i.e., psychological and behavioral) issues that arise when managing across cultures. through the use of cases and interactive experiential activities, this course will develop your intellectual ability to critically examine, analyze, and deal with cross-cultural problems in business contexts, while also cultivating a tolerance for ambiguity that is necessary in the global workplace.",
-    "prereqInfo": "the combination of materials and experiences will allow you to evaluate your cross-cultural savvy, understand and appreciate the nuances of cultural identities and the impact these have on work relationships, and create a plan to increase your intercultural competence.",
+    "info": "the emphasis of this course is on people-related (i.e., psychological and behavioral) issues that arise when managing across cultures. through the use of cases and interactive experiential activities, this course will develop your intellectual ability to critically examine, analyze, and deal with cross-cultural problems in business contexts, while also cultivating a tolerance for ambiguity that is necessary in the global workplace.\n\nthe combination of materials and experiences will allow you to evaluate your cross-cultural savvy, understand and appreciate the nuances of cultural identities and the impact these have on work relationships, and create a plan to increase your intercultural competence.\n\nprior to spring 2023 course number was: mba 6310.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -923,7 +936,7 @@
     "subject": "MGMT",
     "id": "6345",
     "title": "Powerful Problem Solving",
-    "info": "one of the key distinguishing characteristics of effective leaders is the ability to parse through the overwhelming number of inputs we all receive to understand what needs to be done. “what problem are we trying to solve?” is a crucial question that too often goes unaddressed in the rush to “just fix it”.  powerful problem solving will expose students to a clear problem-solving framework and process, a variety of perspectives on how to approach problems, as well as individual and group activities and assignments to inform and sharpen skills.\n",
+    "info": "one of the key distinguishing characteristics of effective leaders is the ability to parse through the overwhelming number of inputs we all receive to understand what needs to be done. “what problem are we trying to solve?” is a crucial question that too often goes unaddressed in the rush to “just fix it”.  powerful problem solving will expose students to a clear problem-solving framework and process, a variety of perspectives on how to approach problems, as well as individual and group activities and assignments to inform and sharpen skills.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -932,7 +945,7 @@
     "subject": "MGMT",
     "id": "6402",
     "title": "Integrative Leadership",
-    "info": "are you interested in working across government, business, and the non-profit sector for public good? are you wondering how you can create sustainable shared leadership on challenges that can best be addressed together? this course explores multi-sector leadership and related governance and management challenges from a variety of perspectives and provides an opportunity for students to work together to apply what they are learning individually and in teams through in-class exercises and a final team project. the course is taught by a team of interdisciplinary faculty and considers different contexts, forms, and specific examples of multisector leadership that can enable transformative action to tackle a significant societal issue and achieve lasting change. credit will be not be granted if credit has been received for gcc 5023, olpd 6402, pubh 6702, pa 5105, pa 5130, law 6623 ",
+    "info": "are you interested in working across government, business, and the non-profit sector for public good? are you wondering how you can create sustainable shared leadership on challenges that can best be addressed together? this course explores multi-sector leadership and related governance and management challenges from a variety of perspectives and provides an opportunity for students to work together to apply what they are learning individually and in teams through in-class exercises and a final team project. the course is taught by a team of interdisciplinary faculty and considers different contexts, forms, and specific examples of multisector leadership that can enable transformative action to tackle a significant societal issue and achieve lasting change. credit will be not be granted if credit has been received for gcc 5023, olpd 6402, pubh 6702, pa 5105, pa 5130, law 6623",
     "prereqInfo": "doctoral or master's student",
     "prereq": []
   },
@@ -1132,7 +1145,7 @@
     "subject": "MGMT",
     "id": "8404",
     "title": "Non-Market Strategy",
-    "info": "this is a ph.d. seminar in the field of nonmarket strategy, i.e., the strategies by which firms alter, influence, or adapt to their existing institutional environment in order to gain competitive advantage. drawing on foundations in both institutional economics and institutional theory, the seminar examines a body of recent research in the field of strategic management that studies how and to what effect firms engage with political, legal, and social stakeholders. while the primary focus of the course is on the antecedents and consequences of such nonmarket strategies for firms, we shall also consider the impact of these strategies on social welfare, and the resulting implications for public policy. ",
+    "info": "this is a ph.d. seminar in the field of nonmarket strategy, i.e., the strategies by which firms alter, influence, or adapt to their existing institutional environment in order to gain competitive advantage. drawing on foundations in both institutional economics and institutional theory, the seminar examines a body of recent research in the field of strategic management that studies how and to what effect firms engage with political, legal, and social stakeholders. while the primary focus of the course is on the antecedents and consequences of such nonmarket strategies for firms, we shall also consider the impact of these strategies on social welfare, and the resulting implications for public policy.",
     "prereqInfo": "business admin phd student or instr consent",
     "prereq": []
   },
@@ -1141,7 +1154,7 @@
     "subject": "MGMT",
     "id": "8405",
     "title": "Technology Strategy",
-    "info": "this is a course that will cover theories and phenomena that are central to the field of technology strategy. the course will include readings on a broad range of topics and perspectives pertaining to firms’ technology and innovation strategy. an illustrative list of readings are provided below. these readings will be grouped into required and recommended readings.\n\nthe course is intended to prepare students to undertake research in technology strategy. towards this goal students will prepare summaries of assigned readings, serve as discussion leaders for the class topics and write a research proposal (including a research question, theory and hypotheses and research design) that builds on the course concepts.\n",
+    "info": "this is a course that will cover theories and phenomena that are central to the field of technology strategy. the course will include readings on a broad range of topics and perspectives pertaining to firms’ technology and innovation strategy. an illustrative list of readings are provided below. these readings will be grouped into required and recommended readings.\n\nthe course is intended to prepare students to undertake research in technology strategy. towards this goal students will prepare summaries of assigned readings, serve as discussion leaders for the class topics and write a research proposal (including a research question, theory and hypotheses and research design) that builds on the course concepts.",
     "prereqInfo": "phd student or instr consent",
     "prereq": []
   },
@@ -1150,8 +1163,8 @@
     "subject": "MGMT",
     "id": "8406",
     "title": "Organizational Theory I",
-    "info": "major theories and current research on organizational and interorganizational topics from a macro perspective. this is course one of two. \nprereq: business admin phd student or instructor consent",
-    "prereqInfo": null,
+    "info": "major theories and current research on organizational and interorganizational topics from a macro perspective. this is course one of two.",
+    "prereqInfo": "business admin phd student or instructor consent",
     "prereq": []
   },
   {

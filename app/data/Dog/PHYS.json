@@ -89,7 +89,7 @@
     "subject": "PHYS",
     "id": "1108",
     "title": "Introductory Physics Online II",
-    "info": "fundamental principles of physics in context of everyday world. use of conservation principles and quantitative/qualitative problem solving techniques to understand natural phenomena. ",
+    "info": "fundamental principles of physics in context of everyday world. use of conservation principles and quantitative/qualitative problem solving techniques to understand natural phenomena.",
     "prereqInfo": "1107; primarily for students interested in technical areas",
     "prereq": {
       "code": "PHYS 1107",
@@ -111,7 +111,7 @@
     "subject": "PHYS",
     "id": "1112",
     "title": "Basic Phys II",
-    "info": "algebra-based. work, energy, momentum, collisions, circular motion, universal gravitation, heat, electricity. systematic approach to problem solving. experiments. no lab component. ",
+    "info": "algebra-based. work, energy, momentum, collisions, circular motion, universal gravitation, heat, electricity. systematic approach to problem solving. experiments. no lab component.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -237,7 +237,11 @@
     "title": "Intro Phys for Bio & Pre-med I",
     "info": "intended only to be used to recognize proficiency in material of phys 1201w.",
     "prereqInfo": "proficiency in the material of phys1201w",
-    "prereq": []
+    "prereq": {
+      "code": "PHYS 1201",
+      "subject": "PHYS",
+      "id": "1201"
+    }
   },
   {
     "code": "PHYS 1282",
@@ -246,21 +250,30 @@
     "title": "Intro Phys Bio & Pre-med II",
     "info": "intended only to be used to recognize proficiency in material of phys 1202w.",
     "prereqInfo": "proficiency in the material of phys1202w",
-    "prereq": []
+    "prereq": {
+      "code": "PHYS 1202",
+      "subject": "PHYS",
+      "id": "1202"
+    }
   },
   {
     "code": "PHYS 1301W",
     "subject": "PHYS",
     "id": "1301W",
     "title": "Phys for Sci and Engr I",
-    "info": "use of fundamental principles to solve quantitative problems. motion, forces, conservation principles, structure of matter. applications to mechanical systems. ",
-    "prereqInfo": "prereq or concurrent: math 1271/1371/1371h or equivalent",
+    "info": "use of fundamental principles to solve quantitative problems. motion, forces, conservation principles, structure of matter. applications to mechanical systems.",
+    "prereqInfo": "or concurrent: math 1271/1371/1371h or equivalent",
     "prereq": {
-      "or": [
+      "and": [
         {
           "code": "MATH 1271",
           "subject": "MATH",
           "id": "1271"
+        },
+        {
+          "code": "PHYS 1371",
+          "subject": "PHYS",
+          "id": "1371"
         },
         {
           "code": "PHYS 1371",
@@ -275,7 +288,7 @@
     "subject": "PHYS",
     "id": "1302W",
     "title": "Physics for Sci and Engr II",
-    "info": "use of fundamental principles to solve quantitative problems. motion, forces, conservation principles, fields, structure of matter. applications to electromagnetic phenomena. ",
+    "info": "use of fundamental principles to solve quantitative problems. motion, forces, conservation principles, fields, structure of matter. applications to electromagnetic phenomena.",
     "prereqInfo": "phys 1301 or equivalent, prereq or concurrent: math 1272/1372/1572h or equivalent",
     "prereq": {
       "and": [
@@ -293,11 +306,6 @@
           "code": "PHYS 1372",
           "subject": "PHYS",
           "id": "1372"
-        },
-        {
-          "code": "PHYS 1572H",
-          "subject": "PHYS",
-          "id": "1572H"
         }
       ]
     }
@@ -309,7 +317,11 @@
     "title": "Intro Phys Sci & Eng I",
     "info": "intended only to be used to recognize proficiency in material of phys 1301w.",
     "prereqInfo": "proficiency in the material of phys1301w",
-    "prereq": []
+    "prereq": {
+      "code": "PHYS 1301",
+      "subject": "PHYS",
+      "id": "1301"
+    }
   },
   {
     "code": "PHYS 1382",
@@ -318,87 +330,10 @@
     "title": "Intro Phys Sci & Eng II",
     "info": "intended only to be used to recognize proficiency in material of phys 1302w.",
     "prereqInfo": "proficiency in the material of phys1302w",
-    "prereq": []
-  },
-  {
-    "code": "PHYS 1401V",
-    "subject": "PHYS",
-    "id": "1401V",
-    "title": "Honors Physics I",
-    "info": "comprehensive, calculus-level general physics. emphasizes use of fundamental principles to solve quantitative problems. description of motion, forces, conservation principles. structure of matter, with applications to mechanical systems. ",
-    "prereqInfo": "honors program or with permission, prereq or concurrent: math 1271/1371/1571h or equivalent",
     "prereq": {
-      "and": [
-        {
-          "code": "MATH 1271",
-          "subject": "MATH",
-          "id": "1271"
-        },
-        {
-          "code": "PHYS 1371",
-          "subject": "PHYS",
-          "id": "1371"
-        },
-        {
-          "code": "PHYS 1571H",
-          "subject": "PHYS",
-          "id": "1571H"
-        }
-      ]
-    }
-  },
-  {
-    "code": "PHYS 1402V",
-    "subject": "PHYS",
-    "id": "1402V",
-    "title": "Honors Physics II",
-    "info": "fundamental principles to solve quantitative problems. description of motion, forces, conservation principles, fields. structure of matter, with applications to electro-magnetic phenomena. ",
-    "prereqInfo": "honors program or with permission, phys 1401v or equivalent, prereq or cc: math 1272/1372/1572h or equivalent",
-    "prereq": {
-      "and": [
-        {
-          "code": "PHYS 1401V",
-          "subject": "PHYS",
-          "id": "1401V"
-        },
-        {
-          "code": "MATH 1272",
-          "subject": "MATH",
-          "id": "1272"
-        },
-        {
-          "code": "PHYS 1372",
-          "subject": "PHYS",
-          "id": "1372"
-        },
-        {
-          "code": "PHYS 1572H",
-          "subject": "PHYS",
-          "id": "1572H"
-        }
-      ]
-    }
-  },
-  {
-    "code": "PHYS 1501V",
-    "subject": "PHYS",
-    "id": "1501V",
-    "title": "Honors Intro. Mechanics",
-    "info": "principles of mechanics for those with full year of calculus/equivalent of one year of high-school physics. introduction to kinematics, forces, momentum/energy, conservation laws, angular momentum, rigid body motion, gravity, simple harmonic motion, waves.",
-    "prereqInfo": "one year of high school physics, one year of college-level calculus (or a grade of 5 on the bc-level ap calculus exam), honors, permission of uhp",
-    "prereq": []
-  },
-  {
-    "code": "PHYS 1502V",
-    "subject": "PHYS",
-    "id": "1502V",
-    "title": "Honors Intro. Electr. and Mag.",
-    "info": "principles of electricity/magnetism for those with full year of calculus/equivalent of one year of high-school physics. introduction to electrostatics, magnetostatics, electrodynamics, electric/magnetic properties of materials, circuits, maxwell's equations, electromagnetic waves.",
-    "prereqInfo": "1501v, honors",
-    "prereq": {
-      "code": "PHYS 1501",
+      "code": "PHYS 1302",
       "subject": "PHYS",
-      "id": "1501"
+      "id": "1302"
     }
   },
   {
@@ -433,8 +368,8 @@
     "subject": "PHYS",
     "id": "1904",
     "title": "Conquest of Cold",
-    "info": "the mastery of cold has yielded innumerable advances, from the\ndevelopment of refrigeration and air-conditioning to phenomenal leaps in examine methods of scientific thought and experimentation that led us to understand thermodynamics, the subject that developed hand-in-hand with the major technologies that involve cold. the latter include refrigeration, frozen food preparation, air conditioning, and the handling of liquefied gases (currently more than a $10 billion industry). modern scientific developments that will be discussed include superconductors and new states of matter, such as the quantum hall liquids and bose-einstein condensates, all of which have resulted in nobel prizes in physics for their discoverers. ",
-    "prereqInfo": "upon completion of this seminar you will have some understanding of the laws of thermodynamics, you will know what entropy is, and you will appreciate the reality that minnesota winters are not all that cold on an absolute scale.",
+    "info": "the mastery of cold has yielded innumerable advances, from the\ndevelopment of refrigeration and air-conditioning to phenomenal leaps in examine methods of scientific thought and experimentation that led us to understand thermodynamics, the subject that developed hand-in-hand with the major technologies that involve cold. the latter include refrigeration, frozen food preparation, air conditioning, and the handling of liquefied gases (currently more than a $10 billion industry). modern scientific developments that will be discussed include superconductors and new states of matter, such as the quantum hall liquids and bose-einstein condensates, all of which have resulted in nobel prizes in physics for their discoverers. \n\nupon completion of this seminar you will have some understanding of the laws of thermodynamics, you will know what entropy is, and you will appreciate the reality that minnesota winters are not all that cold on an absolute scale.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -451,7 +386,7 @@
     "subject": "PHYS",
     "id": "1906",
     "title": "What is Space Weather?",
-    "info": "in this class, we will explore the way our sun changes over the eleven-year solar cycle and how this can affect events from gps signals, airline travel, cell phone coverage, and power outages to beautiful aurora and manned spaceflight to mars. we will also touch on space weather and the possible impact on development of life on other planets (and exoplanets). if the space weather cooperates, we will try to observe the aurora and related phenomena including sunspots.\n",
+    "info": "in this class, we will explore the way our sun changes over the eleven-year solar cycle and how this can affect events from gps signals, airline travel, cell phone coverage, and power outages to beautiful aurora and manned spaceflight to mars. we will also touch on space weather and the possible impact on development of life on other planets (and exoplanets). if the space weather cooperates, we will try to observe the aurora and related phenomena including sunspots.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -487,7 +422,7 @@
     "subject": "PHYS",
     "id": "2201",
     "title": "Thermodynamics & Stat Physics",
-    "info": "thermodynamics and its underlying statistical nature. ",
+    "info": "thermodynamics and its underlying statistical nature.",
     "prereqInfo": "phys 1302w or equivalent",
     "prereq": {
       "code": "PHYS 1302",
@@ -520,11 +455,6 @@
               "code": "MATH 1372",
               "subject": "MATH",
               "id": "1372"
-            },
-            {
-              "code": "MATH 1572H",
-              "subject": "MATH",
-              "id": "1572H"
             }
           ]
         }
@@ -568,24 +498,11 @@
     }
   },
   {
-    "code": "PHYS 2403H",
-    "subject": "PHYS",
-    "id": "2403H",
-    "title": "Hnrs Phys III",
-    "info": "third semester of comprehensive calculus-level general physics. emphasizes use of fundamental principles to solve quantitative problems. applications to 20th-century physics such as classical/quantum mechanical waves, optics, special relativity, and atomic structure of materials.",
-    "prereqInfo": "1402v, honors student and permission of university honors program",
-    "prereq": {
-      "code": "PHYS 1402",
-      "subject": "PHYS",
-      "id": "1402"
-    }
-  },
-  {
     "code": "PHYS 2503",
     "subject": "PHYS",
     "id": "2503",
     "title": "Foundations of Modern Phys",
-    "info": "third semester of introductory physics. mechanical/electromagnetic waves, optics, special relativity. ",
+    "info": "third semester of introductory physics. mechanical/electromagnetic waves, optics, special relativity.",
     "prereqInfo": "1302w or equivalent",
     "prereq": {
       "code": "PHYS 1302",
@@ -594,40 +511,18 @@
     }
   },
   {
-    "code": "PHYS 2503H",
-    "subject": "PHYS",
-    "id": "2503H",
-    "title": "Honors Physics III",
-    "info": "the third semester of a calculus-based introductory physics sequence. topics include: relativistic kinematics and dynamics, mechanical and electromagnetic waves, light, interference, diffraction, wave-particle duality, and topics in modern physics. course emphasizes the use of fundamental problems to solve quantitative problems. intended primarily for those who have completed 1401v/1402v, although those students with outstanding performance in 1301w/1302w may be granted permission to enroll. ",
-    "prereqInfo": "honors program or with permission, phys 1402v or equivalent\nprereq: 1402v or 1502v, honors student or permission of university honors program or instr consent",
-    "prereq": {
-      "and": [
-        {
-          "code": "PHYS 1402V",
-          "subject": "PHYS",
-          "id": "1402V"
-        },
-        {
-          "code": "PHYS 1502",
-          "subject": "PHYS",
-          "id": "1502"
-        }
-      ]
-    }
-  },
-  {
     "code": "PHYS 2601",
     "subject": "PHYS",
     "id": "2601",
     "title": "Quantum Physics",
-    "info": "introduction to quantum mechanics. applications to atomic, molecular, condensed-matter, nuclear, elementary-particle, and statistical physics. ",
+    "info": "introduction to quantum mechanics. applications to atomic, molecular, condensed-matter, nuclear, elementary-particle, and statistical physics.",
     "prereqInfo": "phys2503/2503h, recommended concurrent: phys 3041",
     "prereq": {
       "and": [
         {
-          "code": "PHYS 2503H",
+          "code": "PHYS 2503",
           "subject": "PHYS",
-          "id": "2503H"
+          "id": "2503"
         },
         {
           "code": "PHYS 3041",
@@ -655,7 +550,7 @@
     "subject": "PHYS",
     "id": "3022",
     "title": "Introduction to Cosmology",
-    "info": "large-scale structure and history of universe. dark matter, cosmic microwave background. newtonian/relativistic world models. physics of early universe. cosmological tests. ",
+    "info": "large-scale structure and history of universe. dark matter, cosmic microwave background. newtonian/relativistic world models. physics of early universe. cosmological tests.",
     "prereqInfo": "phys 2601",
     "prereq": {
       "code": "PHYS 2601",
@@ -668,39 +563,14 @@
     "subject": "PHYS",
     "id": "3041",
     "title": "Math Methods for Physicists",
-    "info": "this course introduces additional mathematical topics that physics majors need to properly handle upper division physics classes.",
-    "prereqInfo": "phys 1302w, \nprereq or cc: math 2263/2374/2573h or equivalent, recommended prereq: 2503/2503h, \nrecommended cc: phys 2601",
+    "info": "this course introduces additional mathematical topics that physics majors need to properly handle upper division physics classes.\n\nphys 1302w, \nprereq or cc: math 2263/2374/2573h or equivalent, recommended",
+    "prereqInfo": "2503/2503h, \nrecommended cc: phys 2601",
     "prereq": {
       "and": [
-        {
-          "code": "PHYS 1302W",
-          "subject": "PHYS",
-          "id": "1302W"
-        },
-        {
-          "code": "MATH 2263",
-          "subject": "MATH",
-          "id": "2263"
-        },
-        {
-          "code": "PHYS 2374",
-          "subject": "PHYS",
-          "id": "2374"
-        },
-        {
-          "code": "PHYS 2573H",
-          "subject": "PHYS",
-          "id": "2573H"
-        },
         {
           "code": "PHYS 2503",
           "subject": "PHYS",
           "id": "2503"
-        },
-        {
-          "code": "PHYS 2503H",
-          "subject": "PHYS",
-          "id": "2503H"
         },
         {
           "code": "PHYS 2601",
@@ -717,7 +587,50 @@
     "title": "Lab-Based Physics for Teachers",
     "info": "laboratory-based introductory physics. topics selected to apply to elementary school curriculum: earth's motion, properties of matter, heat and temperature, kinematics, and electric current.",
     "prereqInfo": "college algebra; no credit for cse students or students who have completed phys 1201/1202, phys 1301/1301, phys 1401/1402, or phys 1501/1502.",
-    "prereq": []
+    "prereq": {
+      "and": [
+        {
+          "code": "PHYS 1201",
+          "subject": "PHYS",
+          "id": "1201"
+        },
+        {
+          "code": "PHYS 1202",
+          "subject": "PHYS",
+          "id": "1202"
+        },
+        {
+          "code": "PHYS 1301",
+          "subject": "PHYS",
+          "id": "1301"
+        },
+        {
+          "code": "PHYS 1301",
+          "subject": "PHYS",
+          "id": "1301"
+        },
+        {
+          "code": "PHYS 1401",
+          "subject": "PHYS",
+          "id": "1401"
+        },
+        {
+          "code": "PHYS 1402",
+          "subject": "PHYS",
+          "id": "1402"
+        },
+        {
+          "code": "PHYS 1501",
+          "subject": "PHYS",
+          "id": "1501"
+        },
+        {
+          "code": "PHYS 1502",
+          "subject": "PHYS",
+          "id": "1502"
+        }
+      ]
+    }
   },
   {
     "code": "PHYS 3201",
@@ -734,9 +647,14 @@
     "id": "3605W",
     "title": "Modern Physics Laboratory",
     "info": "laboratory experiments in atomic, solid state, and nuclear physics.  introduction to data analysis techniques as well as the communication of scientific results through maintaining a logbook and writing papers.",
-    "prereqInfo": " completion (or concurrent registration) in phys 2503 or 2503h.",
+    "prereqInfo": "completion (or concurrent registration) in phys 2503 or 2503h.",
     "prereq": {
       "or": [
+        {
+          "code": "PHYS 2503",
+          "subject": "PHYS",
+          "id": "2503"
+        },
         {
           "code": "PHYS 2503",
           "subject": "PHYS",
@@ -744,15 +662,6 @@
         }
       ]
     }
-  },
-  {
-    "code": "PHYS 3940H",
-    "subject": "PHYS",
-    "id": "3940H",
-    "title": "Jr Hon Sem",
-    "info": "designed to prepare students for senior honors thesis projects and provide guidance in choice of future careers.",
-    "prereqInfo": null,
-    "prereq": []
   },
   {
     "code": "PHYS 3993",
@@ -777,7 +686,7 @@
     "subject": "PHYS",
     "id": "4001",
     "title": "Analytical Mechanics",
-    "info": "analytic newtonian mechanics. mathematics beyond prerequisites developed as required. ",
+    "info": "analytic newtonian mechanics. mathematics beyond prerequisites developed as required.",
     "prereqInfo": "phys 2503/2503h or equivalent, phys 304",
     "prereq": {
       "and": [
@@ -785,11 +694,6 @@
           "code": "PHYS 2503",
           "subject": "PHYS",
           "id": "2503"
-        },
-        {
-          "code": "PHYS 2503H",
-          "subject": "PHYS",
-          "id": "2503H"
         },
         {
           "code": "PHYS 304",
@@ -804,7 +708,7 @@
     "subject": "PHYS",
     "id": "4002",
     "title": "Electricity and Magnetism",
-    "info": "classical theory of electromagnetic fields using vector algebra and vector calculus. ",
+    "info": "classical theory of electromagnetic fields using vector algebra and vector calculus.",
     "prereqInfo": "phys 3041, phys 2503/2503h or equivalent",
     "prereq": {
       "and": [
@@ -812,6 +716,11 @@
           "code": "PHYS 3041",
           "subject": "PHYS",
           "id": "3041"
+        },
+        {
+          "code": "PHYS 2503",
+          "subject": "PHYS",
+          "id": "2503"
         },
         {
           "code": "PHYS 2503",
@@ -826,7 +735,7 @@
     "subject": "PHYS",
     "id": "4041",
     "title": "Computational Methods",
-    "info": "introduction to using computer programs to solve problems in physical sciences. selected numerical methods, mapping problems onto computational algorithms. arranged lab. ",
+    "info": "introduction to using computer programs to solve problems in physical sciences. selected numerical methods, mapping problems onto computational algorithms. arranged lab.",
     "prereqInfo": "phys 3041",
     "prereq": {
       "code": "PHYS 3041",
@@ -839,8 +748,8 @@
     "subject": "PHYS",
     "id": "4051",
     "title": "Experimental Physics I",
-    "info": "contemporary experimental techniques. introduction to modern analog and digital electronics from an experimental viewpoint. use of computers for data acquisition and experimental control. statistics of data analysis. ",
-    "prereqInfo": "prereq or concurrent phys 3605w, phys 3041",
+    "info": "contemporary experimental techniques. introduction to modern analog and digital electronics from an experimental viewpoint. use of computers for data acquisition and experimental control. statistics of data analysis.",
+    "prereqInfo": "or concurrent phys 3605w, phys 3041",
     "prereq": {
       "and": [
         {
@@ -861,7 +770,7 @@
     "subject": "PHYS",
     "id": "4052W",
     "title": "Experimental Physics II",
-    "info": "second semester of laboratory sequence. contemporary experimental techniques illustrated by experiments with data analysis. students design and execute an experimental project. lectures on specialized topics of professional concern. ",
+    "info": "second semester of laboratory sequence. contemporary experimental techniques illustrated by experiments with data analysis. students design and execute an experimental project. lectures on specialized topics of professional concern.",
     "prereqInfo": "phys 4051",
     "prereq": {
       "code": "PHYS 4051",
@@ -896,7 +805,7 @@
     "subject": "PHYS",
     "id": "4101",
     "title": "Quantum Mechanics",
-    "info": "mathematical techniques of quantum mechanics. schrodinger equation and simple applications. general structure of wave mechanics. operator methods, perturbation theory, radiation from atoms. ",
+    "info": "mathematical techniques of quantum mechanics. schrodinger equation and simple applications. general structure of wave mechanics. operator methods, perturbation theory, radiation from atoms.",
     "prereqInfo": "phys 3041, phys 2601",
     "prereq": {
       "and": [
@@ -918,7 +827,7 @@
     "subject": "PHYS",
     "id": "4111",
     "title": "Hist 19th-C Phys",
-    "info": "legacy of 17th-century experimental and theoretical physics especially light, electricity, magnetism, and heat. experimental and theoretical discoveries in 19th-century physics set within the context of concurrent educational, institutional, and political developments in europe and the united states.  heritage of 19th-century physics.\n",
+    "info": "legacy of 17th-century experimental and theoretical physics especially light, electricity, magnetism, and heat. experimental and theoretical discoveries in 19th-century physics set within the context of concurrent educational, institutional, and political developments in europe and the united states.  heritage of 19th-century physics.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -927,8 +836,8 @@
     "subject": "PHYS",
     "id": "4121W",
     "title": "History 20th-Century Physics",
-    "info": "the transition from classical to modern physics (relativity, quantum) and its architects (from planck and einstein to heisenberg and schrödinger). the wwii bomb projects in the us and in germany. post-war developments (solid state, particle physics).\nprereq: calculus or permission from the instructor.",
-    "prereqInfo": null,
+    "info": "the transition from classical to modern physics (relativity, quantum) and its architects (from planck and einstein to heisenberg and schrödinger). the wwii bomb projects in the us and in germany. post-war developments (solid state, particle physics).",
+    "prereqInfo": "calculus or permission from the instructor.",
     "prereq": []
   },
   {
@@ -936,7 +845,7 @@
     "subject": "PHYS",
     "id": "4201",
     "title": "Statistical & Thermal Physics",
-    "info": "principles of thermodynamics and statistical mechanics. selected applications such as kinetic theory, transport theory, and phase transitions. ",
+    "info": "principles of thermodynamics and statistical mechanics. selected applications such as kinetic theory, transport theory, and phase transitions.",
     "prereqInfo": "phys 3041, phys 2201, phys 2601",
     "prereq": {
       "and": [
@@ -994,9 +903,13 @@
     "subject": "PHYS",
     "id": "4223",
     "title": "Quantum Computation & Info",
-    "info": "this course is intended to introduce physics majors and graduate students to the tools and concepts underlying quantum information science and quantum computing.  the course will focus on aspects of quantum mechanics central to quantum information science, such as entanglement, quantum measurements, and noise in quantum systems.  students will learn how the unique features of quantum mechanics can be harnessed for computational power, as well as about the many experimental challenges of doing so. \nprerequisite - phys 2601 (quantum physics) or equivalent or instructor permission",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "this course is intended to introduce physics majors and graduate students to the tools and concepts underlying quantum information science and quantum computing.  the course will focus on aspects of quantum mechanics central to quantum information science, such as entanglement, quantum measurements, and noise in quantum systems.  students will learn how the unique features of quantum mechanics can be harnessed for computational power, as well as about the many experimental challenges of doing so.",
+    "prereqInfo": "uisite - phys 2601 (quantum physics) or equivalent or instructor permission",
+    "prereq": {
+      "code": "PHYS 2601",
+      "subject": "PHYS",
+      "id": "2601"
+    }
   },
   {
     "code": "PHYS 4303",
@@ -1123,18 +1036,9 @@
           "id": "4001"
         },
         {
-          "or": [
-            {
-              "code": "PHYS 2503",
-              "subject": "PHYS",
-              "id": "2503"
-            },
-            {
-              "code": "PHYS 2503H",
-              "subject": "PHYS",
-              "id": "2503H"
-            }
-          ]
+          "code": "PHYS 2503",
+          "subject": "PHYS",
+          "id": "2503"
         }
       ]
     }
@@ -1144,8 +1048,8 @@
     "subject": "PHYS",
     "id": "4894",
     "title": "Thesis - Directed Research",
-    "info": "thesis research/writing under direction of a faculty member. students plan/implement scientific study while gaining experience in research methods. details of work are determined in consultation with faculty thesis adviser selected based on availability/topic. final grade (s/n) will be based on the completed thesis. ",
-    "prereqInfo": "students enrolling in this directed research course will complete the university's common directed study/research contract with the faculty mentor/evaluator.",
+    "info": "thesis research/writing under direction of a faculty member. students plan/implement scientific study while gaining experience in research methods. details of work are determined in consultation with faculty thesis adviser selected based on availability/topic. final grade (s/n) will be based on the completed thesis. \n\nstudents enrolling in this directed research course will complete the university's common directed study/research contract with the faculty mentor/evaluator.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -1160,24 +1064,6 @@
       "subject": "PHYS",
       "id": "2201"
     }
-  },
-  {
-    "code": "PHYS 4940H",
-    "subject": "PHYS",
-    "id": "4940H",
-    "title": "Sr Honors Seminar",
-    "info": "a seminar for upper division physics majors in the honors program.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "PHYS 4960H",
-    "subject": "PHYS",
-    "id": "4960H",
-    "title": "Hnrs Seminar",
-    "info": "designed to prepare students for senior honors thesis projects and provide guidance in choice of future careers.",
-    "prereqInfo": "upper div honors, instr consent",
-    "prereq": []
   },
   {
     "code": "PHYS 4993",
@@ -1364,9 +1250,13 @@
     "subject": "PHYS",
     "id": "5223",
     "title": "Quantum Computation & Info",
-    "info": "this course is intended to introduce physics majors and graduate students to the tools and concepts underlying quantum information science and quantum computing.  the course will focus on aspects of quantum mechanics central to quantum information science, such as entanglement, quantum measurements, and noise in quantum systems.  students will learn how the unique features of quantum mechanics can be harnessed for computational power, as well as about the many experimental challenges of doing so. \nprerequisite - phys 2601 (quantum physics) or equivalent or instructor permission",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "this course is intended to introduce physics majors and graduate students to the tools and concepts underlying quantum information science and quantum computing.  the course will focus on aspects of quantum mechanics central to quantum information science, such as entanglement, quantum measurements, and noise in quantum systems.  students will learn how the unique features of quantum mechanics can be harnessed for computational power, as well as about the many experimental challenges of doing so.",
+    "prereqInfo": "uisite - phys 2601 (quantum physics) or equivalent or instructor permission",
+    "prereq": {
+      "code": "PHYS 2601",
+      "subject": "PHYS",
+      "id": "2601"
+    }
   },
   {
     "code": "PHYS 5401",
@@ -1375,7 +1265,11 @@
     "title": "Physio Phys",
     "info": "musculoskeletal system, circulatory system/membrane transport, biological control systems, propagation/action potential in nervous system, biomagnetism, electromagnetism at cellular level.",
     "prereqInfo": "one semester of introductory calculus-based physics, such as phys1301w. students not sure if they meet prerequisites should consult instructor.",
-    "prereq": []
+    "prereq": {
+      "code": "PHYS 1301",
+      "subject": "PHYS",
+      "id": "1301"
+    }
   },
   {
     "code": "PHYS 5402",
@@ -1384,7 +1278,11 @@
     "title": "Radiological Physics",
     "info": "signal analysis, medical imaging, medical x-rays, tomography, radiation therapy, nuclear medicine, mri, similar topics.",
     "prereqInfo": "two semesters of introductory calculus-based physics, such as phys1302w. students not sure if they meet prerequisites should consult instructor.",
-    "prereq": []
+    "prereq": {
+      "code": "PHYS 1302",
+      "subject": "PHYS",
+      "id": "1302"
+    }
   },
   {
     "code": "PHYS 5621",
@@ -1541,7 +1439,7 @@
     "subject": "PHYS",
     "id": "8014",
     "title": "Quantum Many Body Systems",
-    "info": "applications of quantum field theory to systems at finite density and temperature.  perturbative field theory of the interacting electron gas and its response functions.  instabilities of interacting fermions at finite density using renormalization group and diagrammatic methods. ",
+    "info": "applications of quantum field theory to systems at finite density and temperature.  perturbative field theory of the interacting electron gas and its response functions.  instabilities of interacting fermions at finite density using renormalization group and diagrammatic methods.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -1826,7 +1724,11 @@
     "title": "Doct Pre-Thesis Cr",
     "info": "tbd",
     "prereqInfo": "doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": []
+    "prereq": {
+      "code": "PHYS 60",
+      "subject": "PHYS",
+      "id": "60"
+    }
   },
   {
     "code": "PHYS 8700",
@@ -1842,7 +1744,7 @@
     "subject": "PHYS",
     "id": "8701",
     "title": "Stat Mech Trans I",
-    "info": "equilibrium properties of macroscopic classical and quantum systems. phase transitions and renormalization group. transport theory. applications to soft condensed matter systems.    ",
+    "info": "equilibrium properties of macroscopic classical and quantum systems. phase transitions and renormalization group. transport theory. applications to soft condensed matter systems.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -1914,7 +1816,11 @@
     "title": "Thesis Credit:Mast*",
     "info": "(no description)",
     "prereqInfo": "max 18 cr per semester or summer; 10 cr total required [plan a only]",
-    "prereq": []
+    "prereq": {
+      "code": "PHYS 10",
+      "subject": "PHYS",
+      "id": "10"
+    }
   },
   {
     "code": "PHYS 8800",
@@ -1958,6 +1864,11 @@
           "code": "PHYS 5201",
           "subject": "PHYS",
           "id": "5201"
+        },
+        {
+          "code": "AST 4001",
+          "subject": "AST",
+          "id": "4001"
         }
       ]
     }

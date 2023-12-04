@@ -4,8 +4,8 @@
     "subject": "CHEN",
     "id": "1001",
     "title": "Adv in Chem Eng and Mat Sci",
-    "info": "survey the roles chemical and materials engineers play in addressing societal and technological challenges in areas including human health and biotechnology, energy and sustainability, and data-driven discovery and design. lectures, panel discussions, and interactive exercises.",
-    "prereqInfo": "recommended for students interested in chemical engineering and/or materials science and engineering majors. ",
+    "info": "survey the roles chemical and materials engineers play in addressing societal and technological challenges in areas including human health and biotechnology, energy and sustainability, and data-driven discovery and design. lectures, panel discussions, and interactive exercises.\n\nrecommended for students interested in chemical engineering and/or materials science and engineering majors.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -13,7 +13,7 @@
     "subject": "CHEN",
     "id": "1901",
     "title": "Chemical Engineering & Society",
-    "info": "the goal of this freshman seminar is to provide students with a background on what chemical engineers do and how their skills are being employed to address some of the most pressing technological issues in society today. ",
+    "info": "the goal of this freshman seminar is to provide students with a background on what chemical engineers do and how their skills are being employed to address some of the most pressing technological issues in society today.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -136,7 +136,11 @@
     "title": "Ind Assign I",
     "info": "industrial work assignment in engineering co-op program. formal report on technical project related to industrial work.",
     "prereqInfo": "chen upper div, completion of required courses in chen prog through fall sem of 3rd yr, gpa of at least 2.80, registered in co-op prog",
-    "prereq": []
+    "prereq": {
+      "code": "CHEN 80",
+      "subject": "CHEN",
+      "id": "80"
+    }
   },
   {
     "code": "CHEN 3045",
@@ -308,9 +312,18 @@
     "info": "industrial assignment in engineering co-op program. application of chemical engineering principles to engineering design problems related to industrial work. formal written report and presentation.",
     "prereqInfo": "3041, gpa of at least 2.80, registration in co-op prog",
     "prereq": {
-      "code": "CHEN 3041",
-      "subject": "CHEN",
-      "id": "3041"
+      "and": [
+        {
+          "code": "CHEN 3041",
+          "subject": "CHEN",
+          "id": "3041"
+        },
+        {
+          "code": "CHEN 80",
+          "subject": "CHEN",
+          "id": "80"
+        }
+      ]
     }
   },
   {
@@ -358,9 +371,22 @@
     "subject": "CHEN",
     "id": "4401W",
     "title": "Senior Chem Eng Lab",
-    "info": "principles/techniques of efficient design, structure, measurement, planning, analysis, presentation of experiments. energy balances, fluid flow, heat transfer, mass transfer. design of new systems using experimental data obtained in lab. oral/written presentations. prereq: chen 3006, chen 3401w",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "principles/techniques of efficient design, structure, measurement, planning, analysis, presentation of experiments. energy balances, fluid flow, heat transfer, mass transfer. design of new systems using experimental data obtained in lab. oral/written presentations.",
+    "prereqInfo": "chen 3006, chen 3401w",
+    "prereq": {
+      "and": [
+        {
+          "code": "CHEN 3006",
+          "subject": "CHEN",
+          "id": "3006"
+        },
+        {
+          "code": "CHEN 3401",
+          "subject": "CHEN",
+          "id": "3401"
+        }
+      ]
+    }
   },
   {
     "code": "CHEN 4402W",
@@ -414,6 +440,11 @@
           "id": "3006"
         },
         {
+          "code": "CHEN 3006",
+          "subject": "CHEN",
+          "id": "3006"
+        },
+        {
           "code": "CHEM 2301",
           "subject": "CHEM",
           "id": "2301"
@@ -459,15 +490,6 @@
     "title": "Directed research",
     "info": "independent lab research under faculty supervision.",
     "prereqInfo": "upper div chen",
-    "prereq": []
-  },
-  {
-    "code": "CHEN 4594H",
-    "subject": "CHEN",
-    "id": "4594H",
-    "title": "Directed Research - Honors",
-    "info": "independent lab research under faculty supervision for upper division students wanting honors experience.",
-    "prereqInfo": "instr and dugs consent, upper div chen major",
     "prereq": []
   },
   {
@@ -937,8 +959,8 @@
     "subject": "CHEN",
     "id": "5803",
     "title": "ChemMat Tech Commercialization",
-    "info": "introduction to chemical and materials technology commercialization including a focus on products, markets, customers, and processes for brining innovations to market. ",
-    "prereqInfo": " prereq: courses:  chen 3101 or mats 3001",
+    "info": "introduction to chemical and materials technology commercialization including a focus on products, markets, customers, and processes for brining innovations to market.",
+    "prereqInfo": "courses:  chen 3101 or mats 3001",
     "prereq": {
       "or": [
         {
@@ -977,8 +999,8 @@
     "subject": "CHEN",
     "id": "8102",
     "title": "Introduction to Rheology",
-    "info": "this course will describe flow behavior of complex fluids from both a macroscopic\nexperimental point of view, in which we focus on characterizing nontrivial responses to stress\nand strain, and from a microstructural point of view, in which we focus on the microstructural\nand molecular origins of observed behavior. ",
-    "prereqInfo": "primary topics will include:\n• linear viscoelasticity (dynamic response to varied types of small deformation)\n• non-linear phenomena (non-newtonian flow and nonlinear elasticity)\n• phenomenological constitutive relations\n• experimental methods for shear and extensional flow\n• microstructural models of colloidal dispersions and polymer liquids",
+    "info": "this course will describe flow behavior of complex fluids from both a macroscopic\nexperimental point of view, in which we focus on characterizing nontrivial responses to stress\nand strain, and from a microstructural point of view, in which we focus on the microstructural\nand molecular origins of observed behavior. \n\nprimary topics will include:\n• linear viscoelasticity (dynamic response to varied types of small deformation)\n• non-linear phenomena (non-newtonian flow and nonlinear elasticity)\n• phenomenological constitutive relations\n• experimental methods for shear and extensional flow\n• microstructural models of colloidal dispersions and polymer liquids",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -1017,6 +1039,16 @@
           "code": "CHEN 4702",
           "subject": "CHEN",
           "id": "4702"
+        },
+        {
+          "code": "CHEN 4702",
+          "subject": "CHEN",
+          "id": "4702"
+        },
+        {
+          "code": "CHEN 8102",
+          "subject": "CHEN",
+          "id": "8102"
         },
         {
           "code": "CHEN 8102",
@@ -1103,7 +1135,7 @@
     "subject": "CHEN",
     "id": "8401",
     "title": "Phys Chem Thermodynamics",
-    "info": "principles of thermodynamics with emphasis on solving problems encountered in chemical engineering and materials science. an organized exposition of fundamental concepts that will help students understand and analyze the systems they are likely to encounter while conducting original research. this course is for students who seek a much deeper understanding than a typical undergraduate course provides. ",
+    "info": "principles of thermodynamics with emphasis on solving problems encountered in chemical engineering and materials science. an organized exposition of fundamental concepts that will help students understand and analyze the systems they are likely to encounter while conducting original research. this course is for students who seek a much deeper understanding than a typical undergraduate course provides.",
     "prereqInfo": "undergraduate engineering course or chemistry course in thermodynamics, chemical engineering graduate student, or instructor consent.",
     "prereq": []
   },
@@ -1175,7 +1207,7 @@
     "subject": "CHEN",
     "id": "8594",
     "title": "M.S. Plan B Project II",
-    "info": "this course is one of two key project components for the plan b masters program.\nobjectives:\n- learn to formulate a research plan, devise and substantiate effective methods\n- identify and communicate the scientific premise and motivation for a doctoral thesis scale research study ",
+    "info": "this course is one of two key project components for the plan b masters program.\nobjectives:\n- learn to formulate a research plan, devise and substantiate effective methods\n- identify and communicate the scientific premise and motivation for a doctoral thesis scale research study",
     "prereqInfo": null,
     "prereq": []
   },
@@ -1186,7 +1218,11 @@
     "title": "Doct Pre-Thesis Cr*",
     "info": "tbd",
     "prereqInfo": "doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": []
+    "prereq": {
+      "code": "CHEN 60",
+      "subject": "CHEN",
+      "id": "60"
+    }
   },
   {
     "code": "CHEN 8752",
@@ -1222,7 +1258,11 @@
     "title": "Thesis Credit:Mast*",
     "info": "(no description)",
     "prereqInfo": "max 18 cr per semester or summer; 10 cr total required [plan a only]",
-    "prereq": []
+    "prereq": {
+      "code": "CHEN 10",
+      "subject": "CHEN",
+      "id": "10"
+    }
   },
   {
     "code": "CHEN 8888",

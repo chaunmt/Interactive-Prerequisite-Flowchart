@@ -4,16 +4,7 @@
     "subject": "IDSC",
     "id": "3001",
     "title": "Info Syst & Dig Transformation",
-    "info": "information technologies have transformed the way businesses operate and the way consumers interact with businesses. they have enabled organizations to increase efficiency, reduce costs, and reach new customers. their impact goes beyond the business world and affects nearly every aspect of modern society. along with the benefits they provide, technologies have created new problems around privacy, security, misinformation on social media, algorithmic bias, and potential stifling of competition and innovation. in today's digital age, it is crucial to develop an understanding of information technologies, their impact on business and society, and the challenges they pose for decision making in commercial firms, government agencies, and public policies.  ",
-    "prereqInfo": "this course is designed to cover a broad range of information technology issues in order to prepare students for the knowledge intensive economy of the 21st century. students will be exposed to not only the technical aspects of information technologies, but also the social, political, and economic factors that shape its development and use. through a combination of lectures, discussions, videos, in-class exercises and talks by guest speakers, students will gain an in-depth understanding of how information technologies are shaping businesses and the society as a whole. students will also develop critical thinking skills to analyze and evaluate the impact of technology on society. ",
-    "prereq": []
-  },
-  {
-    "code": "IDSC 3001H",
-    "subject": "IDSC",
-    "id": "3001H",
-    "title": "Honors: IS Bus Proc, Mgmt",
-    "info": "digital transformation through new technologies such as artificial intelligence, enterprise systems, electronic commerce, internet of things, social media; it strategy and data-driven decision making; privacy and security issues related to the internet; a must take for honors students who want to be prepared for the rapidly changing technological landscape as successful professionals.",
+    "info": "information technologies have transformed the way businesses operate and the way consumers interact with businesses. they have enabled organizations to increase efficiency, reduce costs, and reach new customers. their impact goes beyond the business world and affects nearly every aspect of modern society. along with the benefits they provide, technologies have created new problems around privacy, security, misinformation on social media, algorithmic bias, and potential stifling of competition and innovation. in today's digital age, it is crucial to develop an understanding of information technologies, their impact on business and society, and the challenges they pose for decision making in commercial firms, government agencies, and public policies.  \n\nthis course is designed to cover a broad range of information technology issues in order to prepare students for the knowledge intensive economy of the 21st century. students will be exposed to not only the technical aspects of information technologies, but also the social, political, and economic factors that shape its development and use. through a combination of lectures, discussions, videos, in-class exercises and talks by guest speakers, students will gain an in-depth understanding of how information technologies are shaping businesses and the society as a whole. students will also develop critical thinking skills to analyze and evaluate the impact of technology on society. \n\ntopics include business strategy and disruptive technologies, enterprise systems such as those for customer relationship management, supply chain management and human resource management, electronic and mobile commerce, social media applications and their social impact, cloud computing, data analytics, it privacy and security, artificial intelligence and its social impact.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -93,7 +84,7 @@
     "subject": "IDSC",
     "id": "3511",
     "title": "Pitching Business Strategy",
-    "info": "contemporary business strategy drives growth across industries and geographies. thus, effectively selling an approach to an ambiguous business situation is an important skill for those entering the business world - either as a consultant or a staff member wishing to sell ideas to senior management. you will learn how to approach an opportunity and how to communicate your approach and an action plan to management with appropriate emphasis and structure. the class consists of a series of hands-on workshops and real-world, global business cases (which serve as proxies for real-life consulting and staff experiences). ",
+    "info": "contemporary business strategy drives growth across industries and geographies. thus, effectively selling an approach to an ambiguous business situation is an important skill for those entering the business world - either as a consultant or a staff member wishing to sell ideas to senior management. you will learn how to approach an opportunity and how to communicate your approach and an action plan to management with appropriate emphasis and structure. the class consists of a series of hands-on workshops and real-world, global business cases (which serve as proxies for real-life consulting and staff experiences).",
     "prereqInfo": "idsc 3001 or i-core (completed or concurrent), or instructor permission.",
     "prereq": {
       "code": "IDSC 3001",
@@ -216,18 +207,20 @@
     "title": "Prescriptive Analytics",
     "info": "prescriptive analytics answer the question \\\"what should i do?\\\" this class of analytical techniques focuses on moving beyond simply analyzing the data to providing an optimal action plan. prescriptive techniques combine learnings from the descriptive and predictive disciplines with a new layer of insight and computer algorithms that suggests an action plan rather than just describing the data or predicting what might happen.",
     "prereqInfo": "idsc 4110 & 4210 recommended.",
-    "prereq": [
-      {
-        "code": "IDSC 4110",
-        "subject": "IDSC",
-        "id": "4110"
-      },
-      {
-        "code": "IDSC 4210",
-        "subject": "IDSC",
-        "id": "4210"
-      }
-    ]
+    "prereq": {
+      "and": [
+        {
+          "code": "IDSC 4110",
+          "subject": "IDSC",
+          "id": "4110"
+        },
+        {
+          "code": "IDSC 4210",
+          "subject": "IDSC",
+          "id": "4210"
+        }
+      ]
+    }
   },
   {
     "code": "IDSC 4401",
@@ -273,7 +266,7 @@
     "subject": "IDSC",
     "id": "4431",
     "title": "Advanced Database Design",
-    "info": "reviews er/relational modeling and normalization, then focuses on fact modeling (orm) to produce advanced richer business data models. \\\"flipped\\\" class, fully online, including all lectures & final exam. weekly in-class review session is recorded and online for questions, discussion, and results of assignments & quizzes. ",
+    "info": "reviews er/relational modeling and normalization, then focuses on fact modeling (orm) to produce advanced richer business data models. \\\"flipped\\\" class, fully online, including all lectures & final exam. weekly in-class review session is recorded and online for questions, discussion, and results of assignments & quizzes.",
     "prereqInfo": "3103 or csci 4707 or csci 5707 or instr consent",
     "prereq": {
       "or": [
@@ -322,12 +315,21 @@
     "subject": "IDSC",
     "id": "4444",
     "title": "Descrip & Predict Analytics",
-    "info": "descriptive and predictive analytics exposes students to a number of data mining and machine learning methods, including: exploratory methods (such as association rules and cluster analysis), predictive methods (such as k-nn and decision trees), and text mining methods. the course combines theoretical lectures with lab lectures, where the methods are practically implemented using the software r. ",
-    "prereqInfo": "prereqs: idsc 3001; non-mis majors also need idsc 4110",
+    "info": "descriptive and predictive analytics exposes students to a number of data mining and machine learning methods, including: exploratory methods (such as association rules and cluster analysis), predictive methods (such as k-nn and decision trees), and text mining methods. the course combines theoretical lectures with lab lectures, where the methods are practically implemented using the software r.",
+    "prereqInfo": "s: idsc 3001; non-mis majors also need idsc 4110",
     "prereq": {
-      "code": "IDSC 3001",
-      "subject": "IDSC",
-      "id": "3001"
+      "or": [
+        {
+          "code": "IDSC 3001",
+          "subject": "IDSC",
+          "id": "3001"
+        },
+        {
+          "code": "IDSC 4110",
+          "subject": "IDSC",
+          "id": "4110"
+        }
+      ]
     }
   },
   {
@@ -451,8 +453,8 @@
     "subject": "IDSC",
     "id": "6041",
     "title": "Info Tech Mgmt",
-    "info": "management of information systems, information technology (it) in global organization. strategic uses of it. alignment of it, organizational strategy, internet/web technologies, e-commerce customer services. integration of e-business applications, interorganizational systems, systems implementation. management of information as resource. lecture, case analysis, classroom discussion.\nprereq mba student.",
-    "prereqInfo": null,
+    "info": "management of information systems, information technology (it) in global organization. strategic uses of it. alignment of it, organizational strategy, internet/web technologies, e-commerce customer services. integration of e-business applications, interorganizational systems, systems implementation. management of information as resource. lecture, case analysis, classroom discussion.",
+    "prereqInfo": "mba student.",
     "prereq": []
   },
   {
@@ -586,7 +588,7 @@
     "subject": "IDSC",
     "id": "6423",
     "title": "Enterprise Systems",
-    "info": "enterprise systems are the information core of diverse organizations and play a major role in their management and performance. this course provides the context of enterprise systems role in organization's journey of digital transformation. it examines enterprise system's structural aspects such as governance, program & change management, sourcing, development (programming), testing, operations, and regulatory compliance. business cases provide real world examples across these subjects and focus on specifics such as labor multi-sourcing and a/b testing strategies. ",
+    "info": "enterprise systems are the information core of diverse organizations and play a major role in their management and performance. this course provides the context of enterprise systems role in organization's journey of digital transformation. it examines enterprise system's structural aspects such as governance, program & change management, sourcing, development (programming), testing, operations, and regulatory compliance. business cases provide real world examples across these subjects and focus on specifics such as labor multi-sourcing and a/b testing strategies.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -658,7 +660,7 @@
     "subject": "IDSC",
     "id": "6444",
     "title": "Bus Analytics for Managers I",
-    "info": "use of information technologies to organize and analyze data to help managers make decisions about their business and the way they serve customers. focused on data mining, the course also provides an orientation to statistical modeling, programming, and the design and testing of prototype systems and evaluation models, and an introduction to basic techniques in visualization, association rules, clustering, classification, regression, and elementary natural language processing. ",
+    "info": "use of information technologies to organize and analyze data to help managers make decisions about their business and the way they serve customers. focused on data mining, the course also provides an orientation to statistical modeling, programming, and the design and testing of prototype systems and evaluation models, and an introduction to basic techniques in visualization, association rules, clustering, classification, regression, and elementary natural language processing.",
     "prereqInfo": "[idsc 6041 or idsc 6051 or mba 6241], mba student",
     "prereq": {
       "or": [
@@ -703,7 +705,7 @@
     "subject": "IDSC",
     "id": "6452",
     "title": "Internet Technologies",
-    "info": "structure/organization/evolution of internet. standards, ip functions. arp, dns, dhcp, routers/protocols. tcp, udp, multicasting. ftp, http, smtp, snmp. http 1.1, ipv6, mime. encryption, ssh, ssl, ipsec. intranets, extranets. public key infrastructures, certification hierarchies. products/technologies that support information systems/e-commerce.\n",
+    "info": "structure/organization/evolution of internet. standards, ip functions. arp, dns, dhcp, routers/protocols. tcp, udp, multicasting. ftp, http, smtp, snmp. http 1.1, ipv6, mime. encryption, ssh, ssl, ipsec. intranets, extranets. public key infrastructures, certification hierarchies. products/technologies that support information systems/e-commerce.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -842,7 +844,7 @@
     "subject": "IDSC",
     "id": "8620",
     "title": "Data Mining & Personalization",
-    "info": "idsc 8620 is intended primarily for research-oriented graduate students who are interested in learning about current data mining / machine learning methodologies and how to use them in research.  the course will provide a comprehensive overview of the exploratory and predictive analytics techniques, focusing on the fundamentals but covering a number of advanced issues as well, and will demonstrate how these techniques can be applied various application areas (including the increasingly important areas of text analytics and recommender systems). the course puts significant emphasis on practical, hands-on experience applying data mining techniques in different settings using real-world datasets, but will also discuss the use and value of data mining in a variety of research contexts.  ",
+    "info": "idsc 8620 is intended primarily for research-oriented graduate students who are interested in learning about current data mining / machine learning methodologies and how to use them in research.  the course will provide a comprehensive overview of the exploratory and predictive analytics techniques, focusing on the fundamentals but covering a number of advanced issues as well, and will demonstrate how these techniques can be applied various application areas (including the increasingly important areas of text analytics and recommender systems). the course puts significant emphasis on practical, hands-on experience applying data mining techniques in different settings using real-world datasets, but will also discuss the use and value of data mining in a variety of research contexts.",
     "prereqInfo": null,
     "prereq": []
   },

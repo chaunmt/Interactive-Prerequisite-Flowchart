@@ -63,15 +63,6 @@
     "prereq": []
   },
   {
-    "code": "HSG 4160H",
-    "subject": "HSG",
-    "id": "4160H",
-    "title": "Capstone Project",
-    "info": "individualizes honors experience by connecting aspects of major program with special academic interests.",
-    "prereqInfo": "housing studies honors",
-    "prereq": []
-  },
-  {
     "code": "HSG 4193",
     "subject": "HSG",
     "id": "4193",
@@ -169,34 +160,16 @@
     "info": "institutional/environmental settings that make up housing policy in the united states. competing ideas about solving housing problems through public intervention in the market. federal/local public sector responses to housing problems.",
     "prereqInfo": "[[2401 or dha 2401], [2463 or dha 2463]] or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         {
-          "or": [
-            {
-              "code": "HSG 2401",
-              "subject": "HSG",
-              "id": "2401"
-            },
-            {
-              "code": "DHA 2401",
-              "subject": "DHA",
-              "id": "2401"
-            }
-          ]
+          "code": "HSG 2401",
+          "subject": "HSG",
+          "id": "2401"
         },
         {
-          "or": [
-            {
-              "code": "HSG 2463",
-              "subject": "HSG",
-              "id": "2463"
-            },
-            {
-              "code": "DHA 2463",
-              "subject": "DHA",
-              "id": "2463"
-            }
-          ]
+          "code": "DHA 2401",
+          "subject": "DHA",
+          "id": "2401"
         }
       ]
     }

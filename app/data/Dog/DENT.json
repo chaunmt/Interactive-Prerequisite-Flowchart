@@ -22,7 +22,7 @@
     "subject": "DENT",
     "id": "5103",
     "title": "ORAD PreClin Lab I",
-    "info": "this course consists of preclinical demonstration-participation phases in radiographic technique using mounted human skulls.  ",
+    "info": "this course consists of preclinical demonstration-participation phases in radiographic technique using mounted human skulls.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -58,7 +58,7 @@
     "subject": "DENT",
     "id": "5302",
     "title": "Topics:Dent Biochem",
-    "info": "biological, chemical, and biochemical phenomenon occurring in the oral cavity and the interrelationships between these phenomenon.  biological and chemical basis of dental caries and how saliva, dental plaque, and plaque fluid interact and impact on the caries process.  metabolic handling and anticaries mechanisms of fluoride.\n",
+    "info": "biological, chemical, and biochemical phenomenon occurring in the oral cavity and the interrelationships between these phenomenon.  biological and chemical basis of dental caries and how saliva, dental plaque, and plaque fluid interact and impact on the caries process.  metabolic handling and anticaries mechanisms of fluoride.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -67,7 +67,7 @@
     "subject": "DENT",
     "id": "5303",
     "title": "Dent MicB",
-    "info": "general microbiology, bacterial pathogenesis, virology with specific emphasis on oral microbial ecology, dental caries and periodontal diseases.  evaluation of current literature will be done by student essays.  discussions are based on assigned literature and focus on methodology.  ",
+    "info": "general microbiology, bacterial pathogenesis, virology with specific emphasis on oral microbial ecology, dental caries and periodontal diseases.  evaluation of current literature will be done by student essays.  discussions are based on assigned literature and focus on methodology.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -76,7 +76,7 @@
     "subject": "DENT",
     "id": "5321",
     "title": "Dent Biomat I",
-    "info": "this introductory course includes ten laboratory sessions and ten lectures. in the laboratory class, students practice handling materials used in restorative dentistry and prosthodontics. accompanying lectures provide a scientific foundation for selection and use of dentistry materials.\n",
+    "info": "this introductory course includes ten laboratory sessions and ten lectures. in the laboratory class, students practice handling materials used in restorative dentistry and prosthodontics. accompanying lectures provide a scientific foundation for selection and use of dentistry materials.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -85,7 +85,7 @@
     "subject": "DENT",
     "id": "5322",
     "title": "Dent Biomat II",
-    "info": "lectures on applications of dental materials, including areas of restorative dentistry, prosthodontics, orthodontics, and endodontics. instruction in the scientific basis for selection and utilization of materials. areas of current controversy, including replacement of traditional materials with new materials. literature review seminars cover the evaluation principles for information sources on dental materials.\n",
+    "info": "lectures on applications of dental materials, including areas of restorative dentistry, prosthodontics, orthodontics, and endodontics. instruction in the scientific basis for selection and utilization of materials. areas of current controversy, including replacement of traditional materials with new materials. literature review seminars cover the evaluation principles for information sources on dental materials.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -112,7 +112,7 @@
     "subject": "DENT",
     "id": "5401",
     "title": "DENT CARE DEL & ORAL EPI",
-    "info": "public health approach to disease. tools to address the public's oral health needs. oral health care delivery in the united states. factors impacting supply/demand for dental services. critical thinking regarding dental care delivery. ",
+    "info": "public health approach to disease. tools to address the public's oral health needs. oral health care delivery in the united states. factors impacting supply/demand for dental services. critical thinking regarding dental care delivery.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -202,7 +202,7 @@
     "subject": "DENT",
     "id": "5806",
     "title": "Intro Psychomotor Motor Skill2",
-    "info": "maintaining r psychomotor skills for tooth preparation work.  ",
+    "info": "maintaining r psychomotor skills for tooth preparation work.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -292,7 +292,7 @@
     "subject": "DENT",
     "id": "6113",
     "title": "Oral Rad Clin III",
-    "info": "this course consists of radiographing dental school patients, radiographic interpretations, panoramic and extraoral technique seminars and quality assurance procedures.  ",
+    "info": "this course consists of radiographing dental school patients, radiographic interpretations, panoramic and extraoral technique seminars and quality assurance procedures.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -409,7 +409,7 @@
     "subject": "DENT",
     "id": "6319",
     "title": "Surg & Clin OMF Path",
-    "info": "this elective involves spending time with division of oral and maxillofacial pathology faculty while they diagnose surgical pathology cases and see clinical oral pathology referral patients. ",
+    "info": "this elective involves spending time with division of oral and maxillofacial pathology faculty while they diagnose surgical pathology cases and see clinical oral pathology referral patients.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -715,7 +715,7 @@
     "subject": "DENT",
     "id": "6622",
     "title": "Perio Clinic",
-    "info": "nonsurgical and surgical treatment of periodontal diseases, evaluation of periodontal therapy, implementation of maintenance programs. ",
+    "info": "nonsurgical and surgical treatment of periodontal diseases, evaluation of periodontal therapy, implementation of maintenance programs.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -868,7 +868,7 @@
     "subject": "DENT",
     "id": "6916",
     "title": "Adv Sim Clinic Elective II",
-    "info": "operative dental procedures. psycho-motor skills for performing basic operative preparations according to specifications of densim software. ",
+    "info": "operative dental procedures. psycho-motor skills for performing basic operative preparations according to specifications of densim software.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -976,9 +976,13 @@
     "subject": "DENT",
     "id": "7062",
     "title": "Special Oral Pathology II",
-    "info": "review of the clinical, radiographic, and treatment aspects of oral disease and oral manifestations of systemic disease.\nprereq-7061, resident [or grad student] in discipline other than oral pathology.",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "review of the clinical, radiographic, and treatment aspects of oral disease and oral manifestations of systemic disease.",
+    "prereqInfo": "-7061, resident [or grad student] in discipline other than oral pathology.",
+    "prereq": {
+      "code": "DENT 7061",
+      "subject": "DENT",
+      "id": "7061"
+    }
   },
   {
     "code": "DENT 7071",
@@ -1003,7 +1007,7 @@
     "subject": "DENT",
     "id": "7082",
     "title": "Cranio Growth and Development",
-    "info": "this course is structured as a combination of two-hour lectures, seminars, and distance learning meeting once a week. the overall objectives of this course are to present essential concepts necessary to understand growth and development as it pertains to orthodontic diagnosis and treatment planning.   ",
+    "info": "this course is structured as a combination of two-hour lectures, seminars, and distance learning meeting once a week. the overall objectives of this course are to present essential concepts necessary to understand growth and development as it pertains to orthodontic diagnosis and treatment planning.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -1066,7 +1070,7 @@
     "subject": "DENT",
     "id": "7123",
     "title": "TMD Disorders & Orofacial Pain",
-    "info": "basic didactic information needed to recognize/manage patients with temporomandibular disorders. overview of scope/complexity of clinical practice of tmd/orofacial pain management.  ",
+    "info": "basic didactic information needed to recognize/manage patients with temporomandibular disorders. overview of scope/complexity of clinical practice of tmd/orofacial pain management.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -1093,7 +1097,7 @@
     "subject": "DENT",
     "id": "7411",
     "title": "Dental Biomaterials in Pros",
-    "info": "understanding structure-properties relationship. role/performance of synthetic materials in living environment.  ",
+    "info": "understanding structure-properties relationship. role/performance of synthetic materials in living environment.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -1120,7 +1124,7 @@
     "subject": "DENT",
     "id": "7993",
     "title": "Curricular Prac Train Elective",
-    "info": "this course is an elective internship or employment to gain practical work experience, advance professional skills and explore career interests.  ",
+    "info": "this course is an elective internship or employment to gain practical work experience, advance professional skills and explore career interests.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -1183,7 +1187,7 @@
     "subject": "DENT",
     "id": "8114",
     "title": "Topics Adv Perio: Lit Review",
-    "info": "state-of-the-art information on a variety of topics concerning risk factors and therapeutic modalities for periodontal disease. ",
+    "info": "state-of-the-art information on a variety of topics concerning risk factors and therapeutic modalities for periodontal disease.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -1192,7 +1196,7 @@
     "subject": "DENT",
     "id": "8115",
     "title": "Topics Adv Perio: Classic Lit",
-    "info": "state-of-the-art information on a variety of topics concerning risk factors and therapeutic modalities for periodontal disease. ",
+    "info": "state-of-the-art information on a variety of topics concerning risk factors and therapeutic modalities for periodontal disease.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -1266,6 +1270,10 @@
     "title": "Thesis Credit:Mast*",
     "info": "(no description)",
     "prereqInfo": "max 18 cr per semester or summer; 10 cr total required [plan a only]",
-    "prereq": []
+    "prereq": {
+      "code": "DENT 10",
+      "subject": "DENT",
+      "id": "10"
+    }
   }
 ]

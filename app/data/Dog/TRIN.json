@@ -64,16 +64,24 @@
     "title": "Intro Interpreting",
     "info": "practical and theoretical introduction to interpreting in health, human service, and legal settings. emphasis on understanding the unique role of the interpreter, current models and modes of interpreting, ethical issues and professional standards of practice, and developing pre-interpreting skills.",
     "prereqInfo": "high level of proficiency in spoken english and another language; 3001 recommended",
-    "prereq": []
+    "prereq": {
+      "code": "TRIN 3001",
+      "subject": "TRIN",
+      "id": "3001"
+    }
   },
   {
     "code": "TRIN 3102",
     "subject": "TRIN",
     "id": "3102",
     "title": "Consecutive Interpreting",
-    "info": "\t\npractice/theory at professional level in interpreting in health, human service, legal settings. emphasizes professional/client dialogues. consecutive interpreting skills, vocabulary research/storage, intercultural issues. analyzing interpretive process. performance assessment through audio/videotaping. subject languages (e.g., spanish, russian, somali) specified for each section. prereq: 3101, high level of proficiency in [spoken english, another language]",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "practice/theory at professional level in interpreting in health, human service, legal settings. emphasizes professional/client dialogues. consecutive interpreting skills, vocabulary research/storage, intercultural issues. analyzing interpretive process. performance assessment through audio/videotaping. subject languages (e.g., spanish, russian, somali) specified for each section.",
+    "prereqInfo": "3101, high level of proficiency in [spoken english, another language]",
+    "prereq": {
+      "code": "TRIN 3101",
+      "subject": "TRIN",
+      "id": "3101"
+    }
   },
   {
     "code": "TRIN 3103",
@@ -142,7 +150,7 @@
     "subject": "TRIN",
     "id": "4901",
     "title": "Interpreting in Special Ed",
-    "info": "this course is designed to build interpreting capacity and competency in the specialized field of educational interpreting. it is also designed to give students simulated opportunities to employ the terminology, processes, concepts, and legalities studied in trin 1901.\n",
+    "info": "this course is designed to build interpreting capacity and competency in the specialized field of educational interpreting. it is also designed to give students simulated opportunities to employ the terminology, processes, concepts, and legalities studied in trin 1901.",
     "prereqInfo": null,
     "prereq": []
   },

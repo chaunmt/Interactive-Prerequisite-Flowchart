@@ -31,7 +31,7 @@
     "subject": "MPHY",
     "id": "5160",
     "title": "Radiation Physics & Dosimetry",
-    "info": "interactions and energy deposition by ionizing radiation in matter; concepts, quantities and units in radiological physics; principles and methods of radiation dosimetry. ",
+    "info": "interactions and energy deposition by ionizing radiation in matter; concepts, quantities and units in radiological physics; principles and methods of radiation dosimetry.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -123,7 +123,7 @@
     "subject": "MPHY",
     "id": "5178",
     "title": "Physical Principles of MRI",
-    "info": "magnetic resonance imaging physics, spatial selection and encoding, imaging hardware and system engineering. imaging sequences, signal-to-noise, and contrast. ",
+    "info": "magnetic resonance imaging physics, spatial selection and encoding, imaging hardware and system engineering. imaging sequences, signal-to-noise, and contrast.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -218,7 +218,11 @@
     "title": "Doct Pre-Thesis Cr*",
     "info": "tbd",
     "prereqInfo": "doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": []
+    "prereq": {
+      "code": "MPHY 60",
+      "subject": "MPHY",
+      "id": "60"
+    }
   },
   {
     "code": "MPHY 8777",
@@ -227,7 +231,11 @@
     "title": "Thesis Credit:Mast*",
     "info": "(no description)",
     "prereqInfo": "max 18 cr per semester or summer; 10 cr total required [plan a only]",
-    "prereq": []
+    "prereq": {
+      "code": "MPHY 10",
+      "subject": "MPHY",
+      "id": "10"
+    }
   },
   {
     "code": "MPHY 8888",

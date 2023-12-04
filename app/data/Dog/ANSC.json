@@ -4,7 +4,7 @@
     "subject": "ANSC",
     "id": "1001",
     "title": "Orientation to Animal Science",
-    "info": "current issues, career planning, professional development. interviews with faculty and other resource persons. ",
+    "info": "current issues, career planning, professional development. interviews with faculty and other resource persons.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -121,8 +121,8 @@
     "subject": "ANSC",
     "id": "1903",
     "title": "Fork to Fine Dining in France",
-    "info": "this study abroad course examines the concepts of sustainability in relation to food production and culture in a country and place where food is a fundamental component of the regional and national culture. the course incorporates intercultural development concepts to introduce students to past and present french culture through the cultural importance of food systems, the ethics of food consumption, and production and the concepts of sustainability.",
-    "prereqInfo": "this course involves a study abroad component to france during spring break. please note that you must also apply and confirm your spot for this seminar through the learning abroad center. application deadline is december 12. for more information, visit: https://umabroad.umn.edu/programs/europe/food-systems-france.",
+    "info": "this study abroad course examines the concepts of sustainability in relation to food production and culture in a country and place where food is a fundamental component of the regional and national culture. the course incorporates intercultural development concepts to introduce students to past and present french culture through the cultural importance of food systems, the ethics of food consumption, and production and the concepts of sustainability.\n\nthis course involves a study abroad component to france during spring break. please note that you must also apply and confirm your spot for this seminar through the learning abroad center. application deadline is december 12. for more information, visit: https://umabroad.umn.edu/programs/europe/food-systems-france.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -175,7 +175,7 @@
     "subject": "ANSC",
     "id": "2015",
     "title": "Animal Welfare & Ethics",
-    "info": "this multidisciplinary course helps students develop an intellectual framework for understanding and interpreting issues involving animal welfare and ethics of animal use in agriculture, science and society. ",
+    "info": "this multidisciplinary course helps students develop an intellectual framework for understanding and interpreting issues involving animal welfare and ethics of animal use in agriculture, science and society.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -206,6 +206,11 @@
     "prereqInfo": "2055 or concurrent registration is required (or allowed) in 2055",
     "prereq": {
       "or": [
+        {
+          "code": "ANSC 2055",
+          "subject": "ANSC",
+          "id": "2055"
+        },
         {
           "code": "ANSC 2055",
           "subject": "ANSC",
@@ -286,8 +291,8 @@
     "subject": "ANSC",
     "id": "3093",
     "title": "Directed Study",
-    "info": "directed study: a course in which a student designs and carries out a directed study on selected topics or problems under the direction of a faculty member; eg, literature review. directed study courses may be taken for variable credit and special permission is needed for enrollment.  students enrolling in a directed study will be required to use the university-wide on-line directed study contract process in order to enroll.\n \nprereq: department consent, instructor consent, no more than 6 credits of directed study counts towards cfans major requirements.\n",
-    "prereqInfo": null,
+    "info": "directed study: a course in which a student designs and carries out a directed study on selected topics or problems under the direction of a faculty member; eg, literature review. directed study courses may be taken for variable credit and special permission is needed for enrollment.  students enrolling in a directed study will be required to use the university-wide on-line directed study contract process in order to enroll.",
+    "prereqInfo": "department consent, instructor consent, no more than 6 credits of directed study counts towards cfans major requirements.",
     "prereq": []
   },
   {
@@ -295,8 +300,8 @@
     "subject": "ANSC",
     "id": "3094",
     "title": "Directed Research",
-    "info": "an opportunity in which a student designs and carries out a directed research project under the direction of a faculty member. directed research may be taken for variable credit and special permission is needed for enrollment.students enrolling in a directed research will be required to use the university-wide on-line directed research contract process in order to enroll.\n \nprereq: department consent, instructor consent, no more than 6 credits of directed research counts towards cfans major requirements.\n",
-    "prereqInfo": null,
+    "info": "an opportunity in which a student designs and carries out a directed research project under the direction of a faculty member. directed research may be taken for variable credit and special permission is needed for enrollment.students enrolling in a directed research will be required to use the university-wide on-line directed research contract process in order to enroll.",
+    "prereqInfo": "department consent, instructor consent, no more than 6 credits of directed research counts towards cfans major requirements.",
     "prereq": []
   },
   {
@@ -362,7 +367,7 @@
     "subject": "ANSC",
     "id": "3301",
     "title": "Human and Animal Physiology",
-    "info": "functions of major systems in mammals. nervous system, muscles, cardiovascular system, respiration, renal system. \nendocrinology/metabolism. blood, immunology, reproduction. ",
+    "info": "functions of major systems in mammals. nervous system, muscles, cardiovascular system, respiration, renal system. \nendocrinology/metabolism. blood, immunology, reproduction.",
     "prereqInfo": "must have taken a biology and chemistry course. biol 1009 or equivalent is strongly recommended.",
     "prereq": {
       "code": "BIOL 1009",
@@ -379,6 +384,11 @@
     "prereqInfo": "3301 or concurrent registration is required (or allowed) in 3301",
     "prereq": {
       "or": [
+        {
+          "code": "ANSC 3301",
+          "subject": "ANSC",
+          "id": "3301"
+        },
         {
           "code": "ANSC 3301",
           "subject": "ANSC",
@@ -463,8 +473,8 @@
     "subject": "ANSC",
     "id": "3509",
     "title": "Animal Biotechnology",
-    "info": "ansc 3509 is a course for undergraduates seeking a broad understanding of animal biotechnology in a single semester. the course covers the major concepts and principles of modern animal biotechnology. topics include: genes and genomes, recombinant dna technology, genetically modified foods and medicines, proteins as products, dna fingerprinting and forensic analysis, bioremediation, aquatic biotechnology, medical biotechnology, and bioethics as it pertains to biotechnology. the course does not require any prerequisites and is targeted at students from all backgrounds and majors. we will discuss this history of biotechnology through current events. the laboratory component will focus on basic skills required in a molecular lab including aseptic technique, dna extraction, pipetting, pcr, casting and running gels, data analysis, and guided bioinformatics lessons. the laboratory component will also teach molecular techniques necessary in forensic dna fingerprinting, and how to gather dna profiling data of individual animals to study population genetics. the course focuses primarily on the science biotechnology, but has strong components on ethics, policy, and society. for each topic, career paths are discussed, including how to prepare for careers in biotechnology fields.",
-    "prereqInfo": null,
+    "info": "ansc 3509 is a course for undergraduates seeking a broad understanding of animal biotechnology in a single semester. the course covers the major concepts and principles of modern animal biotechnology. topics include: genes and genomes, recombinant dna technology, genetically modified foods and medicines, proteins as products, dna fingerprinting and forensic analysis, bioremediation, aquatic biotechnology, medical biotechnology, and bioethics as it pertains to biotechnology. the course does not require any",
+    "prereqInfo": "uisites and is targeted at students from all backgrounds and majors. we will discuss this history of biotechnology through current events. the laboratory component will focus on basic skills required in a molecular lab including aseptic technique, dna extraction, pipetting, pcr, casting and running gels, data analysis, and guided bioinformatics lessons. the laboratory component will also teach molecular techniques necessary in forensic dna fingerprinting, and how to gather dna profiling data of individual animals to study population genetics. the course focuses primarily on the science biotechnology, but has strong components on ethics, policy, and society. for each topic, career paths are discussed, including how to prepare for careers in biotechnology fields.",
     "prereq": []
   },
   {
@@ -490,8 +500,8 @@
     "subject": "ANSC",
     "id": "3555",
     "title": "Applied Microbiology for AnSc",
-    "info": "this applied microbiology course is intended to provide theoretical basis and hands-on experience to students on major pathogenic bacteria colonizing livestock and domestic poultry. this course will provide skills to the students who seriously consider farm animal and poultry microbiology research and/or teaching in their careers. pathogenic bacteria in livestock and poultry such as listeria monocytogenes, escherichia coli o157: h7, and salmonella, fungal microorganisms (aspergillus), and beneficial microorganisms such as lactobacillus, will be discussed. in addition, the course will introduce feed testing methods (bacteriological analytical manual (bam) methodology), common antibacterials/antibiotics used for decontamination and disinfection, and the emerging alternatives to antibiotics with a perspective on bacterial antibiotic resistance. in a flipped class room format, the students will gather necessary information provided by the instructor, listen to short lectures on the methods and mechanisms, participate in demonstrations, and apply it in a typical bsl2 laboratory set up under supervision.\n\nall students should undergo bsl2 training prior to enrollment. online training counts to approximately 5-6 hours. not more than 4 students will be allowed for each session due to bsl2 pathogenic microbiology space restriction, access to rar facilities, and some non-conventional microbiological methods. special health conditions, pregnancy, and immunocompromised situations must be consulted with the instructor prior to enrollment. the students must obtain clearance from rohc for their tetanus vaccination status.  ",
-    "prereqInfo": "instructor permission\n",
+    "info": "this applied microbiology course is intended to provide theoretical basis and hands-on experience to students on major pathogenic bacteria colonizing livestock and domestic poultry. this course will provide skills to the students who seriously consider farm animal and poultry microbiology research and/or teaching in their careers. pathogenic bacteria in livestock and poultry such as listeria monocytogenes, escherichia coli o157: h7, and salmonella, fungal microorganisms (aspergillus), and beneficial microorganisms such as lactobacillus, will be discussed. in addition, the course will introduce feed testing methods (bacteriological analytical manual (bam) methodology), common antibacterials/antibiotics used for decontamination and disinfection, and the emerging alternatives to antibiotics with a perspective on bacterial antibiotic resistance. in a flipped class room format, the students will gather necessary information provided by the instructor, listen to short lectures on the methods and mechanisms, participate in demonstrations, and apply it in a typical bsl2 laboratory set up under supervision.\n\nall students should undergo bsl2 training prior to enrollment. online training counts to approximately 5-6 hours. not more than 4 students will be allowed for each session due to bsl2 pathogenic microbiology space restriction, access to rar facilities, and some non-conventional microbiological methods. special health conditions, pregnancy, and immunocompromised situations must be consulted with the instructor prior to enrollment. the students must obtain clearance from rohc for their tetanus vaccination status.",
+    "prereqInfo": "instructor permission",
     "prereq": []
   },
   {
@@ -517,7 +527,7 @@
     "subject": "ANSC",
     "id": "3702",
     "title": "Applied Avian Physiology",
-    "info": "applied avian physiology is an intensive 3-credit lecture and laboratory course designed to introduce industry relevant aspects of avian physiology\nwith emphasis on behavior, neurology, muscle, cardiovascular, immunology, digestive, endocrinology, and reproductive systems for egg and meat producing birds. ",
+    "info": "applied avian physiology is an intensive 3-credit lecture and laboratory course designed to introduce industry relevant aspects of avian physiology\nwith emphasis on behavior, neurology, muscle, cardiovascular, immunology, digestive, endocrinology, and reproductive systems for egg and meat producing birds.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -526,7 +536,7 @@
     "subject": "ANSC",
     "id": "3703",
     "title": "Avian Health",
-    "info": "trains students to identify diseases that commonly plague poultry. instruction on animal well-being, transport regulations, disease surveillance, and methods of disinfection and sanitation are included. ",
+    "info": "trains students to identify diseases that commonly plague poultry. instruction on animal well-being, transport regulations, disease surveillance, and methods of disinfection and sanitation are included.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -620,7 +630,7 @@
     "subject": "ANSC",
     "id": "4099",
     "title": "Workshop in Animal Science",
-    "info": "independent study in an area of animal science, under supervision of faculty member. ",
+    "info": "independent study in an area of animal science, under supervision of faculty member.",
     "prereqInfo": "instr consent",
     "prereq": []
   },
@@ -735,7 +745,7 @@
     "subject": "ANSC",
     "id": "4604",
     "title": "Dairy Production Systems Mgmt",
-    "info": "practical applications of principles of dairy cattle health and welfare, nutrition, reproduction, housing, genetics, and economics in a problem solving context. lectures, farm evaluations and case studies. ",
+    "info": "practical applications of principles of dairy cattle health and welfare, nutrition, reproduction, housing, genetics, and economics in a problem solving context. lectures, farm evaluations and case studies.",
     "prereqInfo": "ansc 1101, ansc 2401",
     "prereq": {
       "and": [
@@ -819,7 +829,7 @@
     "subject": "ANSC",
     "id": "4712",
     "title": "Poultry Enterprise Management",
-    "info": "poultry enterprise management is designed to compile various aspects of previous poultry classes and is designed to expose students to the business and management aspects of the poultry industry. it is also designed to teach students how to interact and communicate effectively within the poultry industry and train them to make business decisions that impact the economic welfare of various poultry industry sectors. students will learn how to develop a poultry operation business plan that includes everything from building design to an overall economic analysis of their operation.  ",
+    "info": "poultry enterprise management is designed to compile various aspects of previous poultry classes and is designed to expose students to the business and management aspects of the poultry industry. it is also designed to teach students how to interact and communicate effectively within the poultry industry and train them to make business decisions that impact the economic welfare of various poultry industry sectors. students will learn how to develop a poultry operation business plan that includes everything from building design to an overall economic analysis of their operation.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -828,7 +838,7 @@
     "subject": "ANSC",
     "id": "5015",
     "title": "Animal Welfare Science& Ethics",
-    "info": "this multidisciplinary course helps students develop an intellectual framework for understanding and interpreting issues involving animal welfare and ethics of animal use in agriculture, science and society. \n",
+    "info": "this multidisciplinary course helps students develop an intellectual framework for understanding and interpreting issues involving animal welfare and ethics of animal use in agriculture, science and society.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -837,8 +847,8 @@
     "subject": "ANSC",
     "id": "5025",
     "title": "Gut Microbiome Systems",
-    "info": "this course is primarily focused on providing conceptual and methodological tools to understand how diet and the gut microbiome converge to impact the physiological landscape of animals and humans, considering diet, host and microbiome as one highly integrated system. to that end, the course relies on concepts of data analysis, gastrointestinal microbiology, the breadth of scientific literature produced up to date and hands on experiences to immerse attendants in the ever-growing microbiome field and open them to consider a microbiome lens to address different research questions in their respective fields. ",
-    "prereqInfo": "the course emphasizes three main conceptual areas:",
+    "info": "this course is primarily focused on providing conceptual and methodological tools to understand how diet and the gut microbiome converge to impact the physiological landscape of animals and humans, considering diet, host and microbiome as one highly integrated system. to that end, the course relies on concepts of data analysis, gastrointestinal microbiology, the breadth of scientific literature produced up to date and hands on experiences to immerse attendants in the ever-growing microbiome field and open them to consider a microbiome lens to address different research questions in their respective fields. \n\nthe course emphasizes three main conceptual areas:\n\n1.\tcompositional and functional organization of microbial communities in the mammalian gut: from cells to functional communities.\n2.\tdietary drivers of the mammalian gut microbiome: nutritional ecology in the mammalian gut \n3.\thost-microbiome interactions: physiological impact of the mammalian gut microbiome  \n\nrather than memorizing these concepts, the course emphasizes the need to apply them to real life issues in animal and human nutrition and health. as such, recognizing these conceptual areas in context, and using them for problem solving in their respective research areas is the ultimate goal of the course.\n\nundergraduate level course in microbiology and physiology are suggested to enroll in this course. also, previous completion of statistics courses and familiarity with the r statistical interface and command line are recommended.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -846,7 +856,7 @@
     "subject": "ANSC",
     "id": "5035",
     "title": "Animal Welfare Judging Assess",
-    "info": "advanced application of animal welfare science toward the assessment of real-life scenarios in agriculture, companion, and exotic animals. top students will compete on the umn team at the intercollegiate animal welfare judging and assessment competition held in november each year.\n",
+    "info": "advanced application of animal welfare science toward the assessment of real-life scenarios in agriculture, companion, and exotic animals. top students will compete on the umn team at the intercollegiate animal welfare judging and assessment competition held in november each year.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -857,7 +867,11 @@
     "title": "From Ideas to Strategic Plans",
     "info": "you have a great research idea, now what? how do you turn your idea into a proposal? it has been said paraphrasing edison, that innovation is one percent inspiration, ninety-nice percent perspiration. in this course, we will start with and inspiring idea and sweat our way to develop a research proposal. the students will go through a step-by-step process that starts choosing and defining a research idea, then proceeding to do literature reviews and to the development of hypothesis, aims, objectives and a research strategy. the aim of this course is to provide students with tools to understand the structure of scientific reports and proposals, literature searches and basic data interpretation. the student will learn about different research approaches and how to achieve consistency in their research projects. we will guide students in how to begin and develop a written research proposal that will satisfy the requirements of their advisers, institution and funding organizations.",
     "prereqInfo": "there are no prerequisites, however, having taken ansc 3011 statistics for animal science is desirable.",
-    "prereq": []
+    "prereq": {
+      "code": "ANSC 3011",
+      "subject": "ANSC",
+      "id": "3011"
+    }
   },
   {
     "code": "ANSC 5099",
@@ -904,7 +918,7 @@
     "subject": "ANSC",
     "id": "5327",
     "title": "Endocrine and Repro Physiology",
-    "info": "endocrine system. synthesis, structure, actions, and regulation of hormones. major endocrine glands/tissues, including the hypothalamus, anterior/posterior pituitary, thyroid, parathyroid, pancreas, adrenal cortex and medulla, gastrointestinal tract, and gonads. emphasizes metabolic/reproductive endocrinology.\n",
+    "info": "endocrine system. synthesis, structure, actions, and regulation of hormones. major endocrine glands/tissues, including the hypothalamus, anterior/posterior pituitary, thyroid, parathyroid, pancreas, adrenal cortex and medulla, gastrointestinal tract, and gonads. emphasizes metabolic/reproductive endocrinology.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -913,8 +927,8 @@
     "subject": "ANSC",
     "id": "5555",
     "title": "Applied Microbiology for AnSc",
-    "info": "this applied microbiology course is intended to provide theoretical basis and hands-on experience to students on major pathogenic bacteria colonizing livestock and domestic poultry. this course will provide skills to the students who seriously consider farm animal and poultry microbiology research and/or teaching in their careers. pathogenic bacteria in livestock and poultry such as listeria monocytogenes, escherichia coli o157: h7, and salmonella, fungal microorganisms (aspergillus), and beneficial microorganisms such as lactobacillus, will be discussed. in addition, the course will introduce feed testing methods (bacteriological analytical manual (bam) methodology), common antibacterials/antibiotics used for decontamination and disinfection, and the emerging alternatives to antibiotics with a perspective on bacterial antibiotic resistance. in a flipped class room format, the students will gather necessary information provided by the instructor, listen to short lectures on the methods and mechanisms, participate in demonstrations, and apply it in a typical bsl2 laboratory set up under supervision. ",
-    "prereqInfo": "\nall students should undergo bsl2 training prior to enrollment. online training counts to approximately 5-6 hours. not more than 4 students will be allowed for each session due to bsl2 pathogenic microbiology space restriction, access to rar facilities, and some non-conventional microbiological methods. special health conditions, pregnancy, and immunocompromised situations must be consulted with the instructor prior to enrollment. the students must obtain clearance from rohc for their tetanus vaccination status.  ",
+    "info": "this applied microbiology course is intended to provide theoretical basis and hands-on experience to students on major pathogenic bacteria colonizing livestock and domestic poultry. this course will provide skills to the students who seriously consider farm animal and poultry microbiology research and/or teaching in their careers. pathogenic bacteria in livestock and poultry such as listeria monocytogenes, escherichia coli o157: h7, and salmonella, fungal microorganisms (aspergillus), and beneficial microorganisms such as lactobacillus, will be discussed. in addition, the course will introduce feed testing methods (bacteriological analytical manual (bam) methodology), common antibacterials/antibiotics used for decontamination and disinfection, and the emerging alternatives to antibiotics with a perspective on bacterial antibiotic resistance. in a flipped class room format, the students will gather necessary information provided by the instructor, listen to short lectures on the methods and mechanisms, participate in demonstrations, and apply it in a typical bsl2 laboratory set up under supervision. \n\n\nall students should undergo bsl2 training prior to enrollment. online training counts to approximately 5-6 hours. not more than 4 students will be allowed for each session due to bsl2 pathogenic microbiology space restriction, access to rar facilities, and some non-conventional microbiological methods. special health conditions, pregnancy, and immunocompromised situations must be consulted with the instructor prior to enrollment. the students must obtain clearance from rohc for their tetanus vaccination status.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -953,7 +967,7 @@
     "subject": "ANSC",
     "id": "8011",
     "title": "Animal Science Applied Stats",
-    "info": "this course is designed for graduate students in the applied agricultural, animal science, and related programs that require an understanding of applied statistical analysis and interpretation of research data.  \n\nstudents will learn central principles in sampling, experimental design, and statistical analysis.  the course will have an intense focus on data analysis of research data with sas software. by the end of the semester, students should be able to generate testable hypotheses, organize a work plan to collect research data, and analyze results using appropriate statistical procedures and sas software. ",
+    "info": "this course is designed for graduate students in the applied agricultural, animal science, and related programs that require an understanding of applied statistical analysis and interpretation of research data.  \n\nstudents will learn central principles in sampling, experimental design, and statistical analysis.  the course will have an intense focus on data analysis of research data with sas software. by the end of the semester, students should be able to generate testable hypotheses, organize a work plan to collect research data, and analyze results using appropriate statistical procedures and sas software.",
     "prereqInfo": "stat 3021 or 5021: statistical analysis or equivalent, or consent of instructors",
     "prereq": {
       "or": [
@@ -1066,7 +1080,11 @@
     "title": "Animal Bioenergetics",
     "info": "integrated systems approach to energy metabolism of animals. application of classical techniques of calorimetry and comparative slaughter. development of systems for expressing energy content of feeds, and techniques for measuring whole body and organ metabolism of specific nutrients.",
     "prereqInfo": "instr consent; bioc 4331 recommended",
-    "prereq": []
+    "prereq": {
+      "code": "BIOC 4331",
+      "subject": "BIOC",
+      "id": "4331"
+    }
   },
   {
     "code": "ANSC 8312",
@@ -1253,7 +1271,11 @@
     "title": "Doct Pre-Thesis Cr*",
     "info": "x",
     "prereqInfo": "doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": []
+    "prereq": {
+      "code": "ANSC 60",
+      "subject": "ANSC",
+      "id": "60"
+    }
   },
   {
     "code": "ANSC 8777",
@@ -1262,7 +1284,11 @@
     "title": "Thesis Credit:Mast*",
     "info": "(no description)",
     "prereqInfo": "max 18 cr per semester or summer; 10 cr total required [plan a only]",
-    "prereq": []
+    "prereq": {
+      "code": "ANSC 10",
+      "subject": "ANSC",
+      "id": "10"
+    }
   },
   {
     "code": "ANSC 8888",

@@ -6,7 +6,11 @@
     "title": "Undergraduate Exchange",
     "info": "study at one of carlson school's international exchange partner universities. students select courses based on academic needs/interests.",
     "prereqInfo": "60 cr",
-    "prereq": []
+    "prereq": {
+      "code": "IBUS 60",
+      "subject": "IBUS",
+      "id": "60"
+    }
   },
   {
     "code": "IBUS 1101",
@@ -15,7 +19,11 @@
     "title": "Undergraduate Exchange",
     "info": "study at one of carlson school's international exchange partner universities. students select courses based on academic needs/interests.",
     "prereqInfo": "60 cr",
-    "prereq": []
+    "prereq": {
+      "code": "IBUS 60",
+      "subject": "IBUS",
+      "id": "60"
+    }
   },
   {
     "code": "IBUS 1102",
@@ -24,7 +32,11 @@
     "title": "Undergraduate Exchange",
     "info": "study at one of carlson school's international exchange partner universities. students select courses based on academic needs/interests.",
     "prereqInfo": "60 cr",
-    "prereq": []
+    "prereq": {
+      "code": "IBUS 60",
+      "subject": "IBUS",
+      "id": "60"
+    }
   },
   {
     "code": "IBUS 1103",
@@ -33,7 +45,11 @@
     "title": "Undergraduate Exchange",
     "info": "study at one of carlson school's international exchange partner universities. students select courses based on academic needs/interests.",
     "prereqInfo": "60 cr",
-    "prereq": []
+    "prereq": {
+      "code": "IBUS 60",
+      "subject": "IBUS",
+      "id": "60"
+    }
   },
   {
     "code": "IBUS 1104",
@@ -42,7 +58,11 @@
     "title": "Undergraduate Exchange",
     "info": "study at one of carlson school's international exchange partner universities. students select courses based on academic needs/interests.",
     "prereqInfo": "60 cr",
-    "prereq": []
+    "prereq": {
+      "code": "IBUS 60",
+      "subject": "IBUS",
+      "id": "60"
+    }
   },
   {
     "code": "IBUS 1105",
@@ -51,7 +71,11 @@
     "title": "Undergraduate Exchange",
     "info": "study at one of carlson school's international exchange partner universities. students select courses based on academic needs/interests.",
     "prereqInfo": "60 cr",
-    "prereq": []
+    "prereq": {
+      "code": "IBUS 60",
+      "subject": "IBUS",
+      "id": "60"
+    }
   },
   {
     "code": "IBUS 1106",
@@ -60,7 +84,11 @@
     "title": "Undergraduate Exchange",
     "info": "study at one of carlson school's international exchange partner universities. students select courses based on academic needs/interests.",
     "prereqInfo": "60 cr",
-    "prereq": []
+    "prereq": {
+      "code": "IBUS 60",
+      "subject": "IBUS",
+      "id": "60"
+    }
   },
   {
     "code": "IBUS 1107",
@@ -69,7 +97,11 @@
     "title": "Undergraduate Exchange",
     "info": "study at one of carlson school's international exchange partner universities. students select courses based on academic needs/interests.",
     "prereqInfo": "60 cr",
-    "prereq": []
+    "prereq": {
+      "code": "IBUS 60",
+      "subject": "IBUS",
+      "id": "60"
+    }
   },
   {
     "code": "IBUS 1400",
@@ -86,7 +118,7 @@
     "id": "2021",
     "title": "Design Your Career",
     "info": "the focus of this course is to increase your awareness, knowledge, and skills associated with the career and job search process. the course includes major/career exploration and discovery, as well as the tactical pieces of a job search and will include perspectives domestically and in the globally. you will learn how to write a professional resume and cover letter and will learn how to navigate the interview process. you will be exposed to a variety of individuals who will give you different perspectives on the process, including recruiters from local organizations, alumni, other business professionals in minnesota and abroad. this development will increase your ability to undertake a successful career and job search in your succeeding years. (credit will not be granted if credit was received for ba 3000 or ba 2021. )",
-    "prereqInfo": "carlson school undergraduate student\n",
+    "prereqInfo": "carlson school undergraduate student",
     "prereq": []
   },
   {
@@ -112,7 +144,7 @@
     "subject": "IBUS",
     "id": "3002",
     "title": "Strategic Mgmt Accounting",
-    "info": "costing techniques, including activity-based costing. applying costing methods to determine costs of products, services, and production processes. use of costs in operating/strategic decisions.  this education abroad course provides an overview of managerial accounting concepts with a lens towards how different cultural contexts might influence the decisions that managers make around the world or in within different organizational cultures. ",
+    "info": "costing techniques, including activity-based costing. applying costing methods to determine costs of products, services, and production processes. use of costs in operating/strategic decisions.  this education abroad course provides an overview of managerial accounting concepts with a lens towards how different cultural contexts might influence the decisions that managers make around the world or in within different organizational cultures.",
     "prereqInfo": "acct 2051 or 2050",
     "prereq": {
       "or": [
@@ -143,7 +175,7 @@
     "subject": "IBUS",
     "id": "3004",
     "title": "Int'l Intern Dvlpmt Global Wrk",
-    "info": "this course offers the opportunity for students to observe and explore the business culture of your host country through their full-time internship placement.  students will develop intercultural communication and leadership skills through observation and structured reflection. students in this course are participating on a carlson education abroad program where they intern with a company, organization, or government agency related to their academic discipline of interest (e.g. marketing, finance, human resources, supply chain, mis, etc.). students intern at their placement about 40 hours per week for 8 weeks. ",
+    "info": "this course offers the opportunity for students to observe and explore the business culture of your host country through their full-time internship placement.  students will develop intercultural communication and leadership skills through observation and structured reflection. students in this course are participating on a carlson education abroad program where they intern with a company, organization, or government agency related to their academic discipline of interest (e.g. marketing, finance, human resources, supply chain, mis, etc.). students intern at their placement about 40 hours per week for 8 weeks.",
     "prereqInfo": "acceptance in business internship program through the carlson global institute",
     "prereq": []
   },
@@ -179,17 +211,21 @@
     "subject": "IBUS",
     "id": "3033W",
     "title": "Business Communication",
-    "info": "written/oral communication skills for effective participation in contemporary organizations. from basic principles to communication strategy.  communication technology. cases, simulations of \\\"real-world\\\" situations in a domestic and global context. global perspectives of focus have included india, spain, south korea and japan.  ",
+    "info": "written/oral communication skills for effective participation in contemporary organizations. from basic principles to communication strategy.  communication technology. cases, simulations of \\\"real-world\\\" situations in a domestic and global context. global perspectives of focus have included india, spain, south korea and japan.",
     "prereqInfo": "fr composition, csom upper-div, at least 60 cr",
-    "prereq": []
+    "prereq": {
+      "code": "IBUS 60",
+      "subject": "IBUS",
+      "id": "60"
+    }
   },
   {
     "code": "IBUS 3055",
     "subject": "IBUS",
     "id": "3055",
     "title": "Global IT Entrepreneurship",
-    "info": "this course provides state-of-the-art knowledge about information technologies and fundamentals of entrepreneurship with an international perspective. it also provides a comprehensive overview of current and emerging technologies in several different areas of it, focusing on the needs of the modern net-enhanced organizations and it adaptation to local markets. in particular, the course covers basics of consumer electronics, internet and mobile communications, web technologies, cloud computing, cyber-security, social network, etc. students will be trained to use sprints to evaluate ideas, risk, costs, and culturalization needs of it solution for local markets. we will look at how technology leaders/entrepreneurs in the rest of the world are addressing these opportunities.",
-    "prereqInfo": "this class will teach students to use sprints to answer pressing business questions. first, students will map out the problem and pick an important place to focus. second, they will sketch competing it solutions on paper. third, they will need to make decisions and turn their ideas into testable hypothesis. fourth, they will develop a real or conceptual model for a prototype. lastly, they will prepare to test out the ideas or pitch them to the partner companies. ",
+    "info": "this course provides state-of-the-art knowledge about information technologies and fundamentals of entrepreneurship with an international perspective. it also provides a comprehensive overview of current and emerging technologies in several different areas of it, focusing on the needs of the modern net-enhanced organizations and it adaptation to local markets. in particular, the course covers basics of consumer electronics, internet and mobile communications, web technologies, cloud computing, cyber-security, social network, etc. students will be trained to use sprints to evaluate ideas, risk, costs, and culturalization needs of it solution for local markets. we will look at how technology leaders/entrepreneurs in the rest of the world are addressing these opportunities.\n\nthis class will teach students to use sprints to answer pressing business questions. first, students will map out the problem and pick an important place to focus. second, they will sketch competing it solutions on paper. third, they will need to make decisions and turn their ideas into testable hypothesis. fourth, they will develop a real or conceptual model for a prototype. lastly, they will prepare to test out the ideas or pitch them to the partner companies.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -197,7 +233,7 @@
     "subject": "IBUS",
     "id": "3081",
     "title": "Sustainability and CSR",
-    "info": "study abroad course focused on sustainability and corporate social responsibility.  this course will utilize these constructs to introduce students to an overview of emerging approaches to business and its relationship with the environment.  csr and corporate approaches to sustainability will be explored from a global perspective.  ",
+    "info": "study abroad course focused on sustainability and corporate social responsibility.  this course will utilize these constructs to introduce students to an overview of emerging approaches to business and its relationship with the environment.  csr and corporate approaches to sustainability will be explored from a global perspective.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -217,16 +253,24 @@
     "title": "Understanding Int'l Business",
     "info": "this course is an experiential introduction to global business.  this course focuses on how international organizations innovate their business models to adapt to new markets and how global entrepreneurs launch businesses.  students will seek to understand diverse philosophies and cultures within and across societies and understand the role of creativity, innovation, discovery, and expression.  they will deepen their own cultural awareness through the cq assessment.  students will interact virtually with south american business leaders to conduct their own research and experiential projects.",
     "prereqInfo": "carlson school undergraduate students with at least 90 cumulative credits",
-    "prereq": []
+    "prereq": {
+      "code": "IBUS 90",
+      "subject": "IBUS",
+      "id": "90"
+    }
   },
   {
     "code": "IBUS 3101",
     "subject": "IBUS",
     "id": "3101",
     "title": "Undergraduate Semester - CIMBA",
-    "info": "semester of study at one of carlson school's international exchange partner universities. students select courses based on academic needs/interests. for current offerings, contact carlson global institute. ",
+    "info": "semester of study at one of carlson school's international exchange partner universities. students select courses based on academic needs/interests. for current offerings, contact carlson global institute.",
     "prereqInfo": "60 cr",
-    "prereq": []
+    "prereq": {
+      "code": "IBUS 60",
+      "subject": "IBUS",
+      "id": "60"
+    }
   },
   {
     "code": "IBUS 3200",
@@ -280,7 +324,11 @@
     "title": "Undergraduate Exchange",
     "info": "study at one of carlson school's international exchange partner universities. students select courses based on academic needs/interests.",
     "prereqInfo": "60 cr",
-    "prereq": []
+    "prereq": {
+      "code": "IBUS 60",
+      "subject": "IBUS",
+      "id": "60"
+    }
   },
   {
     "code": "IBUS 3501",
@@ -289,7 +337,11 @@
     "title": "Undergraduate Exchange",
     "info": "study at one of carlson school's international exchange partner universities. students select courses based on academic needs/interests.",
     "prereqInfo": "60 cr",
-    "prereq": []
+    "prereq": {
+      "code": "IBUS 60",
+      "subject": "IBUS",
+      "id": "60"
+    }
   },
   {
     "code": "IBUS 3502",
@@ -298,7 +350,11 @@
     "title": "Undergraduate Exchange",
     "info": "study at one of carlson school's international exchange partner universities. students select courses based on academic needs/interests.",
     "prereqInfo": "60 cr",
-    "prereq": []
+    "prereq": {
+      "code": "IBUS 60",
+      "subject": "IBUS",
+      "id": "60"
+    }
   },
   {
     "code": "IBUS 3503",
@@ -307,7 +363,11 @@
     "title": "Undergraduate Exchange",
     "info": "study at one of carlson school's international exchange partner universities. students select courses based on academic needs/interests.",
     "prereqInfo": "60 cr",
-    "prereq": []
+    "prereq": {
+      "code": "IBUS 60",
+      "subject": "IBUS",
+      "id": "60"
+    }
   },
   {
     "code": "IBUS 3504",
@@ -316,7 +376,11 @@
     "title": "Undergraduate Exchange",
     "info": "study at one of carlson school's international exchange partner universities. students select courses based on academic needs/interests.",
     "prereqInfo": "60 cr",
-    "prereq": []
+    "prereq": {
+      "code": "IBUS 60",
+      "subject": "IBUS",
+      "id": "60"
+    }
   },
   {
     "code": "IBUS 3505",
@@ -325,7 +389,11 @@
     "title": "Undergraduate Exchange",
     "info": "study at one of carlson school's international exchange partner universities. students select courses based on academic needs/interests.",
     "prereqInfo": "60 cr",
-    "prereq": []
+    "prereq": {
+      "code": "IBUS 60",
+      "subject": "IBUS",
+      "id": "60"
+    }
   },
   {
     "code": "IBUS 3506",
@@ -334,7 +402,11 @@
     "title": "Undergraduate Exchange",
     "info": "study at one of carlson school's international exchange partner universities. students select courses based on academic needs/interests.",
     "prereqInfo": "60 cr",
-    "prereq": []
+    "prereq": {
+      "code": "IBUS 60",
+      "subject": "IBUS",
+      "id": "60"
+    }
   },
   {
     "code": "IBUS 3507",
@@ -343,7 +415,11 @@
     "title": "Undergraduate Exchange",
     "info": "study at one of carlson school's international exchange partner universities. students select courses based on academic needs/interests.",
     "prereqInfo": "60 cr",
-    "prereq": []
+    "prereq": {
+      "code": "IBUS 60",
+      "subject": "IBUS",
+      "id": "60"
+    }
   },
   {
     "code": "IBUS 3508",
@@ -352,7 +428,11 @@
     "title": "Undergraduate Exchange",
     "info": "study at one of carlson school's international exchange partner universities. students select courses based on academic needs/interests.",
     "prereqInfo": "60 cr",
-    "prereq": []
+    "prereq": {
+      "code": "IBUS 60",
+      "subject": "IBUS",
+      "id": "60"
+    }
   },
   {
     "code": "IBUS 3509",
@@ -361,7 +441,11 @@
     "title": "Undergraduate Exchange",
     "info": "study at one of carlson school's international exchange partner universities. students select courses based on academic needs/interests.",
     "prereqInfo": "60 cr",
-    "prereq": []
+    "prereq": {
+      "code": "IBUS 60",
+      "subject": "IBUS",
+      "id": "60"
+    }
   },
   {
     "code": "IBUS 3510",
@@ -370,7 +454,11 @@
     "title": "Undergraduate Exchange",
     "info": "study at one of carlson school's international exchange partner universities. students select courses based on academic needs/interests.",
     "prereqInfo": "60 cr",
-    "prereq": []
+    "prereq": {
+      "code": "IBUS 60",
+      "subject": "IBUS",
+      "id": "60"
+    }
   },
   {
     "code": "IBUS 3600",
@@ -442,7 +530,11 @@
     "title": "International Business Summer",
     "info": "summer study abroad at one of carlson school's international exchange partner universities. students select courses based on academic needs/interests. for current offerings, contact carlson international programs.",
     "prereqInfo": "60 cr",
-    "prereq": []
+    "prereq": {
+      "code": "IBUS 60",
+      "subject": "IBUS",
+      "id": "60"
+    }
   },
   {
     "code": "IBUS 3703",
@@ -476,7 +568,7 @@
     "subject": "IBUS",
     "id": "3999",
     "title": "Self-Designed Int'l Research",
-    "info": "in meeting the international experience requirement through a self-design students will develop reflective research component.  through this course, students are expected to gain meaningful exposure to an international setting that allows for cultural interaction, in-depth study, research, and reflection.  this experience would serve as a catalyst for students to attain a broader mindset and to gain deeper understanding of cultural norms and expectations of others.  contact the carlson global institute (cgi@umn.edu) to discuss the application process.  ",
+    "info": "in meeting the international experience requirement through a self-design students will develop reflective research component.  through this course, students are expected to gain meaningful exposure to an international setting that allows for cultural interaction, in-depth study, research, and reflection.  this experience would serve as a catalyst for students to attain a broader mindset and to gain deeper understanding of cultural norms and expectations of others.  contact the carlson global institute (cgi@umn.edu) to discuss the application process.",
     "prereqInfo": "approved proposal and dept consent.",
     "prereq": []
   },
@@ -539,7 +631,7 @@
     "subject": "IBUS",
     "id": "4082",
     "title": "Brand Management",
-    "info": "brand asset management. measuring brand knowledge. building/leveraging brands. managing brands globally. ",
+    "info": "brand asset management. measuring brand knowledge. building/leveraging brands. managing brands globally.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -548,7 +640,7 @@
     "subject": "IBUS",
     "id": "4082W",
     "title": "Brand Management",
-    "info": "how do firms build great brands, such as apple and nike? how do firms leverage their popular brands to expand into new markets, new products, and new countries? this course focuses on questions like these to help students understand how to use brand strategies to successfully build, measure, and manage brands. students participate in a course-long project to research and evaluate brand strategies used by a brand of their choosing. the course includes lectures, cases, and project check-ins between group members and their instructor.  ",
+    "info": "how do firms build great brands, such as apple and nike? how do firms leverage their popular brands to expand into new markets, new products, and new countries? this course focuses on questions like these to help students understand how to use brand strategies to successfully build, measure, and manage brands. students participate in a course-long project to research and evaluate brand strategies used by a brand of their choosing. the course includes lectures, cases, and project check-ins between group members and their instructor.",
     "prereqInfo": "mktg 3010 and mktg 3040",
     "prereq": {
       "and": [
@@ -570,7 +662,7 @@
     "subject": "IBUS",
     "id": "4090",
     "title": "Corp Strat in Emerging Europe",
-    "info": "consulting project focused on regional strategy of major american company expanding operations in central/eastern europe. business practices of corporations operating in emerging markets. marketing, operations, international business topics. ",
+    "info": "consulting project focused on regional strategy of major american company expanding operations in central/eastern europe. business practices of corporations operating in emerging markets. marketing, operations, international business topics.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -579,8 +671,8 @@
     "subject": "IBUS",
     "id": "4125",
     "title": "Global Banking",
-    "info": "this course provides students with an understanding of the functions of large, global banking organizations. we will start with a review of the impact of the financial crisis on the regulatory landscape, and identify some of the key differences between us, european, and global regulatory frameworks; discuss the different business models adopted by banks in europe compared to the united states. we will look at how those different business models are reflected in financial statements, and learn how to interpret bank financial statements through ratio analysis. finally, we will discuss the impact of digital disruption, and how it is forcing banks to consider new strategic directions. ",
-    "prereqInfo": "fina 4121\n\n",
+    "info": "this course provides students with an understanding of the functions of large, global banking organizations. we will start with a review of the impact of the financial crisis on the regulatory landscape, and identify some of the key differences between us, european, and global regulatory frameworks; discuss the different business models adopted by banks in europe compared to the united states. we will look at how those different business models are reflected in financial statements, and learn how to interpret bank financial statements through ratio analysis. finally, we will discuss the impact of digital disruption, and how it is forcing banks to consider new strategic directions.",
+    "prereqInfo": "fina 4121",
     "prereq": {
       "code": "FINA 4121",
       "subject": "FINA",
@@ -648,7 +740,11 @@
     "title": "Undergraduate Semester - CIMBA",
     "info": "study at one of carlson school's international exchange partner universities. students select courses based on academic needs/interests.",
     "prereqInfo": "60 cr",
-    "prereq": []
+    "prereq": {
+      "code": "IBUS 60",
+      "subject": "IBUS",
+      "id": "60"
+    }
   },
   {
     "code": "IBUS 5112",
@@ -657,7 +753,11 @@
     "title": "Undergraduate Semester - CIMBA",
     "info": "study at one of carlson school's international exchange partner universities. students select courses based on academic needs/interests.",
     "prereqInfo": "60 cr",
-    "prereq": []
+    "prereq": {
+      "code": "IBUS 60",
+      "subject": "IBUS",
+      "id": "60"
+    }
   },
   {
     "code": "IBUS 5113",
@@ -666,7 +766,11 @@
     "title": "Undergraduate Seminar - CIMBA",
     "info": "study at one of carlson school's international exchange partner universities. student select courses based on academic needs/interests.",
     "prereqInfo": "60 cr",
-    "prereq": []
+    "prereq": {
+      "code": "IBUS 60",
+      "subject": "IBUS",
+      "id": "60"
+    }
   },
   {
     "code": "IBUS 5114",
@@ -675,7 +779,11 @@
     "title": "Undergraduate Semester - CIMBA",
     "info": "study at one of carlson school's international exchange partner universities. students select courses based on academic needs/interests.",
     "prereqInfo": "60 cr",
-    "prereq": []
+    "prereq": {
+      "code": "IBUS 60",
+      "subject": "IBUS",
+      "id": "60"
+    }
   },
   {
     "code": "IBUS 5115",
@@ -693,7 +801,11 @@
     "title": "Undergraduate Semester - CIMBA",
     "info": "study at one of carlson school's international exchange partner universities. students select courses based on academic needs/interests.",
     "prereqInfo": "60 cr",
-    "prereq": []
+    "prereq": {
+      "code": "IBUS 60",
+      "subject": "IBUS",
+      "id": "60"
+    }
   },
   {
     "code": "IBUS 5117",
@@ -702,7 +814,11 @@
     "title": "Undergraduate Semester - CIMBA",
     "info": "study at one of carlson school's international exchange partner universities. students select courses based on academic needs/interests.",
     "prereqInfo": "60 cr",
-    "prereq": []
+    "prereq": {
+      "code": "IBUS 60",
+      "subject": "IBUS",
+      "id": "60"
+    }
   },
   {
     "code": "IBUS 5120",
@@ -718,7 +834,7 @@
     "subject": "IBUS",
     "id": "5122",
     "title": "Global Banking in China",
-    "info": "this course will explore the banking and finance industry in hong kong, shenzhen, and shanghai with a comparative perspective between these locations and the united states. program has site visits, business meetings, and guest lectures overseas. spring b term classes followed by two weeks in china.  ",
+    "info": "this course will explore the banking and finance industry in hong kong, shenzhen, and shanghai with a comparative perspective between these locations and the united states. program has site visits, business meetings, and guest lectures overseas. spring b term classes followed by two weeks in china.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -819,7 +935,11 @@
     "title": "Undergraduate Exchange",
     "info": "study at one of carlson school's international exchange partner universities. students select courses based on academic needs/interests.",
     "prereqInfo": "60 cr",
-    "prereq": []
+    "prereq": {
+      "code": "IBUS 60",
+      "subject": "IBUS",
+      "id": "60"
+    }
   },
   {
     "code": "IBUS 5201",
@@ -828,7 +948,11 @@
     "title": "Undergraduate Exchange",
     "info": "study at one of carlson school's international exchange partner universities. students select courses based on academic needs/interests.",
     "prereqInfo": "60 cr",
-    "prereq": []
+    "prereq": {
+      "code": "IBUS 60",
+      "subject": "IBUS",
+      "id": "60"
+    }
   },
   {
     "code": "IBUS 5202",
@@ -846,7 +970,11 @@
     "title": "Undergraduate Exchange",
     "info": "study at one of carlson school's international exchange partner universities. students select courses based on academic needs/interests.",
     "prereqInfo": "60 cr",
-    "prereq": []
+    "prereq": {
+      "code": "IBUS 60",
+      "subject": "IBUS",
+      "id": "60"
+    }
   },
   {
     "code": "IBUS 5204",
@@ -855,7 +983,11 @@
     "title": "Undergraduate Exchange",
     "info": "study at one of carlson school's international exchange partner universities. students select courses based on academic needs/interests.",
     "prereqInfo": "60 cr",
-    "prereq": []
+    "prereq": {
+      "code": "IBUS 60",
+      "subject": "IBUS",
+      "id": "60"
+    }
   },
   {
     "code": "IBUS 5205",
@@ -864,7 +996,11 @@
     "title": "Undergraduate Exchange",
     "info": "study at one of carlson school's international exchange partner universities. students select courses based on academic needs/interests.",
     "prereqInfo": "60 cr",
-    "prereq": []
+    "prereq": {
+      "code": "IBUS 60",
+      "subject": "IBUS",
+      "id": "60"
+    }
   },
   {
     "code": "IBUS 5206",
@@ -873,7 +1009,11 @@
     "title": "Undergraduate Exchange",
     "info": "study at one of carlson school's international exchange partner universities. students select courses based on academic needs/interests.",
     "prereqInfo": "60 cr, carlson school international programs consent",
-    "prereq": []
+    "prereq": {
+      "code": "IBUS 60",
+      "subject": "IBUS",
+      "id": "60"
+    }
   },
   {
     "code": "IBUS 5207",
@@ -882,7 +1022,11 @@
     "title": "Undergraduate Exchange",
     "info": "study at one of carlson school's international exchange partner universities. student's select courses based on academic needs/interests.",
     "prereqInfo": "60 cr",
-    "prereq": []
+    "prereq": {
+      "code": "IBUS 60",
+      "subject": "IBUS",
+      "id": "60"
+    }
   },
   {
     "code": "IBUS 5208",
@@ -891,7 +1035,11 @@
     "title": "Undergraduate Exchange",
     "info": "study at one of carlson school's international exchange partner universities. student's select courses based on academic needs/interests.",
     "prereqInfo": "60 cr",
-    "prereq": []
+    "prereq": {
+      "code": "IBUS 60",
+      "subject": "IBUS",
+      "id": "60"
+    }
   },
   {
     "code": "IBUS 5209",
@@ -900,15 +1048,19 @@
     "title": "Undergraduate Exchange",
     "info": "study at one of carlson school's international exchange partner universities. students select courses based on academic needs/interests.",
     "prereqInfo": "60 cr",
-    "prereq": []
+    "prereq": {
+      "code": "IBUS 60",
+      "subject": "IBUS",
+      "id": "60"
+    }
   },
   {
     "code": "IBUS 5260",
     "subject": "IBUS",
     "id": "5260",
     "title": "The New Management Paradigm",
-    "info": "view of integrated reporting (sustainability reporting) as it relates to various fields of business.",
-    "prereqInfo": "site visits, meetings with business executives/governmental agencies. two weeks in the united kingdom following commencement week, preceded by spring b term classes.",
+    "info": "view of integrated reporting (sustainability reporting) as it relates to various fields of business.\n\nsite visits, meetings with business executives/governmental agencies. two weeks in the united kingdom following commencement week, preceded by spring b term classes.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -1069,7 +1221,7 @@
     "subject": "IBUS",
     "id": "5998",
     "title": "Directed Studies",
-    "info": "n/a ",
+    "info": "n/a",
     "prereqInfo": null,
     "prereq": []
   },
@@ -1150,7 +1302,7 @@
     "subject": "IBUS",
     "id": "6406",
     "title": "Global Business Practicum",
-    "info": "it provides students with a unique opportunity to work on cross-cultural teams with students from across the world enrolled at a partner university to address a business issue posed by the sponsoring company. the course is designed to: increase students ability to work in diverse teams and analyze problems from a global perspective; help students develop a more robust understanding of the business topic of the project; and increase students tolerance for working through ambiguous situations.  contact the carlson global institute with questions.  ",
+    "info": "it provides students with a unique opportunity to work on cross-cultural teams with students from across the world enrolled at a partner university to address a business issue posed by the sponsoring company. the course is designed to: increase students ability to work in diverse teams and analyze problems from a global perspective; help students develop a more robust understanding of the business topic of the project; and increase students tolerance for working through ambiguous situations.  contact the carlson global institute with questions.",
     "prereqInfo": "approved application",
     "prereq": []
   },

@@ -15,7 +15,40 @@
     "title": "Intro Chem: Lecture",
     "info": "matter/energy, atoms, compounds, solutions, chemical reactions, mole/chemical calculations, gases, liquids, solids, chemical bonding, atomic/molecular structure, acids, bases, equilibria. physical/chemical properties of hydrocarbons and organic compounds. problem solving.",
     "prereqInfo": "[high school chemistry or equiv], two yrs high school math, not passed chem placement exam, high school physics recommended;\n\nstudents who will go on to take chem 1061/1065 should take chem 1015 only. students who will not be continuing on to chem 1061/1065 and need to fulfill the physical science/lab core requirement need take the 1-credit lab course chem 1017 either concurrently or consecutively. this course will not fulfill the physical science/lab core requirement unless the chem 1017 lab course is completed either concurrently or consecutively.",
-    "prereq": []
+    "prereq": {
+      "and": [
+        {
+          "code": "CHEM 1061",
+          "subject": "CHEM",
+          "id": "1061"
+        },
+        {
+          "code": "CHEM 1065",
+          "subject": "CHEM",
+          "id": "1065"
+        },
+        {
+          "code": "CHEM 1061",
+          "subject": "CHEM",
+          "id": "1061"
+        },
+        {
+          "code": "CHEM 1065",
+          "subject": "CHEM",
+          "id": "1065"
+        },
+        {
+          "code": "CHEM 1017",
+          "subject": "CHEM",
+          "id": "1017"
+        },
+        {
+          "code": "CHEM 1017",
+          "subject": "CHEM",
+          "id": "1017"
+        }
+      ]
+    }
   },
   {
     "code": "CHEM 1016",
@@ -34,7 +67,37 @@
     "info": "organic chemistry. matter/energy, atoms, compounds, solutions, chemical reactions, mole/chemical calculations, gases, liquids, solids, chemical bonding, atomic/molecular structure, acids, bases, equilibria. physical/chemical properties of hydrocarbons and organic compounds containing halogens, nitrogen, or oxygen. problem solving.",
     "prereqInfo": "[1015 or concurrent registration is required (or allowed) in 1015], dept consent; credit will not be granted if credit received for: 1011; chem 1017 is a 1-credit lab-only course. this course is not intended for students who are planning to take chem 1061/1065. intended only for students who need the course to fulfill the physical science/lab requirement, and are taking chem 1015 either concurrently or consecutively. this course will not fulfill the physical science/lab core requirement, unless chem 1015 is completed either concurrently or consecutively.; meets lib ed req of physical sciences)",
     "prereq": {
-      "or": [
+      "and": [
+        {
+          "code": "CHEM 1015",
+          "subject": "CHEM",
+          "id": "1015"
+        },
+        {
+          "code": "CHEM 1015",
+          "subject": "CHEM",
+          "id": "1015"
+        },
+        {
+          "code": "CHEM 1011",
+          "subject": "CHEM",
+          "id": "1011"
+        },
+        {
+          "code": "CHEM 1061",
+          "subject": "CHEM",
+          "id": "1061"
+        },
+        {
+          "code": "CHEM 1065",
+          "subject": "CHEM",
+          "id": "1065"
+        },
+        {
+          "code": "CHEM 1015",
+          "subject": "CHEM",
+          "id": "1015"
+        },
         {
           "code": "CHEM 1015",
           "subject": "CHEM",
@@ -62,31 +125,45 @@
     "prereq": []
   },
   {
-    "code": "CHEM 1031H",
-    "subject": "CHEM",
-    "id": "1031H",
-    "title": "Honors Chem I",
-    "info": "advanced introduction to atomic theory. periodic properties of elements. behavior of gases, liquids, and solids. molecular/ionic structure, bonding. aspects of organic chemistry, spectroscopy, and polymers. energy sources, environmental issues. mathematically demanding quantitative problems. writing for scientific journals. lecture, lab.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "CHEM 1032H",
-    "subject": "CHEM",
-    "id": "1032H",
-    "title": "Honors Chem II",
-    "info": "advanced introduction. chemical kinetics/reaction mechanisms, chemical/physical equilibria, acids/bases, entropy/second law of thermodynamics, electrochemistry/corrosion; descriptive chemistry of the elements; coordination chemistry; biochemistry; applications of chemical principles to environmental problems. lab emphasizes writing for scientific journals.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
     "code": "CHEM 1061",
     "subject": "CHEM",
     "id": "1061",
     "title": "Chem Prin I",
-    "info": "atomic theory, periodic properties of elements. thermochemistry, reaction stoichiometry. behavior of gases, liquids, and solids. molecular/ionic structure/bonding. organic chemistry and polymers. energy sources, environmental issues related to energy use.\nprereq-grade of at least c- in [1011 or 1015] or [passing placement exam, concurrent registration is required (or allowed) in 1065]; intended for science or engineering majors; concurrent registration is required (or allowed) in 1065; registration for 1065 must precede registration for 1061 ",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "atomic theory, periodic properties of elements. thermochemistry, reaction stoichiometry. behavior of gases, liquids, and solids. molecular/ionic structure/bonding. organic chemistry and polymers. energy sources, environmental issues related to energy use.",
+    "prereqInfo": "-grade of at least c- in [1011 or 1015] or [passing placement exam, concurrent registration is required (or allowed) in 1065]; intended for science or engineering majors; concurrent registration is required (or allowed) in 1065; registration for 1065 must precede registration for 1061",
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            {
+              "code": "CHEM 1011",
+              "subject": "CHEM",
+              "id": "1011"
+            },
+            {
+              "code": "CHEM 1015",
+              "subject": "CHEM",
+              "id": "1015"
+            }
+          ]
+        },
+        {
+          "code": "CHEM 1065",
+          "subject": "CHEM",
+          "id": "1065"
+        },
+        {
+          "code": "CHEM 1065",
+          "subject": "CHEM",
+          "id": "1065"
+        },
+        {
+          "code": "CHEM 1065",
+          "subject": "CHEM",
+          "id": "1065"
+        }
+      ]
+    }
   },
   {
     "code": "CHEM 1062",
@@ -101,6 +178,11 @@
           "code": "CHEM 1061",
           "subject": "CHEM",
           "id": "1061"
+        },
+        {
+          "code": "CHEM 1066",
+          "subject": "CHEM",
+          "id": "1066"
         },
         {
           "code": "CHEM 1066",
@@ -137,72 +219,6 @@
     }
   },
   {
-    "code": "CHEM 1071H",
-    "subject": "CHEM",
-    "id": "1071H",
-    "title": "Honors Chem I",
-    "info": "advanced introduction to atomic theory. periodic properties of elements. behavior of gases, liquids, and solids. molecular/ionic structure, bonding. aspects of organic chemistry, spectroscopy, and polymers. mathematically demanding quantitative problems. writing for scientific journals.",
-    "prereqInfo": "honors student, permission of university honors program, concurrent registration is required (or allowed) in 1075h; registration for 1075h must precede registration for 1071h",
-    "prereq": {
-      "code": "CHEM 1075",
-      "subject": "CHEM",
-      "id": "1075"
-    }
-  },
-  {
-    "code": "CHEM 1072H",
-    "subject": "CHEM",
-    "id": "1072H",
-    "title": "Honors Chem II",
-    "info": "advanced introduction. chemical kinetics/reaction mechanisms, chemical/physical equilibria, acids/bases, entropy/second law of thermodynamics, electrochemistry/corrosion; descriptive chemistry of elements; coordination chemistry; biochemistry.",
-    "prereqInfo": "1071h, concurrent registration is required (or allowed) in 1076h, honors student, registration for 1076h must precede registration for 1072h",
-    "prereq": {
-      "and": [
-        {
-          "code": "CHEM 1071H",
-          "subject": "CHEM",
-          "id": "1071H"
-        },
-        {
-          "code": "CHEM 1076H",
-          "subject": "CHEM",
-          "id": "1076H"
-        },
-        {
-          "code": "CHEM 1072",
-          "subject": "CHEM",
-          "id": "1072"
-        }
-      ]
-    }
-  },
-  {
-    "code": "CHEM 1075H",
-    "subject": "CHEM",
-    "id": "1075H",
-    "title": "Honors Chemistry I Laboratory",
-    "info": "develop laboratory skills while investigating physical and chemical phenomena closely linked to lecture material. experimental design, data collection and treatment, discussion of errors, and the proper treatment of hazardous wastes. ",
-    "prereqInfo": "prereq or coreq 1071h; honors student or permission of university honors program",
-    "prereq": {
-      "code": "CHEM 1071",
-      "subject": "CHEM",
-      "id": "1071"
-    }
-  },
-  {
-    "code": "CHEM 1076H",
-    "subject": "CHEM",
-    "id": "1076H",
-    "title": "Honors Chem II Lab",
-    "info": "develop laboratory skills as experiments become increasingly complex. data collection/treatment, discussion of errors, proper treatment of hazardous wastes, experiment design.",
-    "prereqInfo": "concurrent registration is required (or allowed) in 1072h",
-    "prereq": {
-      "code": "CHEM 1072",
-      "subject": "CHEM",
-      "id": "1072"
-    }
-  },
-  {
     "code": "CHEM 1081",
     "subject": "CHEM",
     "id": "1081",
@@ -220,8 +236,8 @@
     "subject": "CHEM",
     "id": "1082",
     "title": "Chemistry for Life Sciences II",
-    "info": "the topics of acids, bases and equilibrium, kinetics, nucleophilic substitution and elimination reactions, free radicals, electrochemistry, and alkene addition reactions will be presented along with their application to biological systems. intended to provide a strong chemistry background for students pursuing life science related majors or careers in life science related fields. ",
-    "prereqInfo": "grade of a c- or better in chem 1081 (lecture) and chem 1065 (lab); concurrent registration is required (or allowed) in 1086; registration for 1086 must precede registration for 1082. this course is recommended for cbs majors. ",
+    "info": "the topics of acids, bases and equilibrium, kinetics, nucleophilic substitution and elimination reactions, free radicals, electrochemistry, and alkene addition reactions will be presented along with their application to biological systems. intended to provide a strong chemistry background for students pursuing life science related majors or careers in life science related fields.",
+    "prereqInfo": "grade of a c- or better in chem 1081 (lecture) and chem 1065 (lab); concurrent registration is required (or allowed) in 1086; registration for 1086 must precede registration for 1082. this course is recommended for cbs majors.",
     "prereq": {
       "and": [
         {
@@ -233,6 +249,16 @@
           "code": "CHEM 1065",
           "subject": "CHEM",
           "id": "1065"
+        },
+        {
+          "code": "CHEM 1086",
+          "subject": "CHEM",
+          "id": "1086"
+        },
+        {
+          "code": "CHEM 1086",
+          "subject": "CHEM",
+          "id": "1086"
         }
       ]
     }
@@ -242,7 +268,7 @@
     "subject": "CHEM",
     "id": "1086",
     "title": "Chem for Life Sci II Lab",
-    "info": "experimental techniques and instrumentation applied to the study of chemical reactions. techniques include computational chemistry, isolation of natural products, chromatography, acid-base titrations, preparation of buffers, study of reaction kinetics, and examination of polymer degration. ",
+    "info": "experimental techniques and instrumentation applied to the study of chemical reactions. techniques include computational chemistry, isolation of natural products, chromatography, acid-base titrations, preparation of buffers, study of reaction kinetics, and examination of polymer degration.",
     "prereqInfo": "grade of a c- or better in chem 1081 (lecture) and chem 1065 (lab). concurrent registration in chem 1082 is required. this course is recommended for cbs majors.",
     "prereq": {
       "and": [
@@ -350,7 +376,7 @@
     "subject": "CHEM",
     "id": "1911W",
     "title": "Quant Mech & Popular Philos",
-    "info": "one may argue about its causal role in these matters, but there is no doubt that the language of quantum mechanics has provided a powerful new set of metaphors with which to express our understanding of ourselves and our place in the overall scheme of things. we will begin with an introduction to some of the basic ideas of quantum mechanics, including the uncertainty principle and wave/particle duality, and discuss some of the quantum paradoxes that highlight the counter-intuitive nature of these concepts. we will then go on to discuss the reflection of these ideas in popular books, articles, and web sites concerning religion, mythology, and philosophy.\n",
+    "info": "one may argue about its causal role in these matters, but there is no doubt that the language of quantum mechanics has provided a powerful new set of metaphors with which to express our understanding of ourselves and our place in the overall scheme of things. we will begin with an introduction to some of the basic ideas of quantum mechanics, including the uncertainty principle and wave/particle duality, and discuss some of the quantum paradoxes that highlight the counter-intuitive nature of these concepts. we will then go on to discuss the reflection of these ideas in popular books, articles, and web sites concerning religion, mythology, and philosophy.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -386,7 +412,7 @@
     "subject": "CHEM",
     "id": "1915",
     "title": "“Seeing is Believing.”",
-    "info": "science is predominantly an empirical field. at its core, the scientific method is based on the formulation and testing of hypotheses based on observations and measurements; but how do we “see” in science? cells are too small to see with the naked eye, proteins and molecules are too small to be observed even with the most powerful microscopes. so how do scientists know a process is happening and what that process is? many powerful techniques have been developed over the years to help scientists observe the systems of interest, each type of observation providing specific data. the data, however, are often subject to interpretation. we will discuss different imaging and characterization techniques widely used in chemistry, biology, biochemistry, and material science. classes will include field trips to several imaging and characterization facilities hosted by various departments and colleges on the twin cities campus and guest lectures by experts in specific techniques.\n",
+    "info": "science is predominantly an empirical field. at its core, the scientific method is based on the formulation and testing of hypotheses based on observations and measurements; but how do we “see” in science? cells are too small to see with the naked eye, proteins and molecules are too small to be observed even with the most powerful microscopes. so how do scientists know a process is happening and what that process is? many powerful techniques have been developed over the years to help scientists observe the systems of interest, each type of observation providing specific data. the data, however, are often subject to interpretation. we will discuss different imaging and characterization techniques widely used in chemistry, biology, biochemistry, and material science. classes will include field trips to several imaging and characterization facilities hosted by various departments and colleges on the twin cities campus and guest lectures by experts in specific techniques.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -395,7 +421,7 @@
     "subject": "CHEM",
     "id": "1916",
     "title": "The Future We Want",
-    "info": "do you ever wonder how the world look like in 2030? recognizing that the future is humanity’s hands, the united nations launched an agenda called, “transforming our world: 2030 agenda for sustainable development”. this agenda focuses 17 sustainable development goals that stimulate action for people, planet, prosperity, peace, and partnerships. (check out: sdgs.un.org/goals)\n \nin this seminar we will be discussing on what these sustainable goals mean to us as individuals and members of our communities. we will be speaking with experts on sustainability, we will brainstorm about solutions that may impact our communities and beyond. we will have fun working together on a project that highlights how our education and training could align with one or more of these goals. \n",
+    "info": "do you ever wonder how the world look like in 2030? recognizing that the future is humanity’s hands, the united nations launched an agenda called, “transforming our world: 2030 agenda for sustainable development”. this agenda focuses 17 sustainable development goals that stimulate action for people, planet, prosperity, peace, and partnerships. (check out: sdgs.un.org/goals)\n \nin this seminar we will be discussing on what these sustainable goals mean to us as individuals and members of our communities. we will be speaking with experts on sustainability, we will brainstorm about solutions that may impact our communities and beyond. we will have fun working together on a project that highlights how our education and training could align with one or more of these goals.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -426,7 +452,7 @@
     "subject": "CHEM",
     "id": "2085",
     "title": "Chem for Life Sci III Lab",
-    "info": "experimental techniques and instrumentation applied to the study of chemical reactions and related biological systems. techniques include spectroscopy, isolation, kinetics and thermodynamics, green chemistry, oxidations, enzymatic reductions, drug discovery. ",
+    "info": "experimental techniques and instrumentation applied to the study of chemical reactions and related biological systems. techniques include spectroscopy, isolation, kinetics and thermodynamics, green chemistry, oxidations, enzymatic reductions, drug discovery.",
     "prereqInfo": "grade of a c- or better in chem 1082 (lecture) and chem 1086 (lab). concurrent registration in chem 2081 is required.",
     "prereq": {
       "and": [
@@ -463,9 +489,9 @@
     "id": "2301",
     "title": "Organic Chemistry I",
     "info": "organic compounds, constitutions, configurations, conformations, reactions. molecular structure. chemical reactivity/properties. spectroscopic characterization of organic molecules.",
-    "prereqInfo": "c- or better in 1062/1066 or 1072h/1076h ",
+    "prereqInfo": "c- or better in 1062/1066 or 1072h/1076h",
     "prereq": {
-      "or": [
+      "and": [
         {
           "code": "CHEM 1062",
           "subject": "CHEM",
@@ -475,11 +501,6 @@
           "code": "CHEM 1066",
           "subject": "CHEM",
           "id": "1066"
-        },
-        {
-          "code": "CHEM 1072H",
-          "subject": "CHEM",
-          "id": "1072H"
         },
         {
           "code": "CHEM 1076",
@@ -528,23 +549,11 @@
           "code": "CHEM 2302",
           "subject": "CHEM",
           "id": "2302"
-        }
-      ]
-    }
-  },
-  {
-    "code": "CHEM 2312H",
-    "subject": "CHEM",
-    "id": "2312H",
-    "title": "Honors Organic Lab",
-    "info": "honors organic chemistry lab.",
-    "prereqInfo": "[2301 or concurrent registration is required (or allowed) in 2301], [chem or cheme or bioc major], instr consent",
-    "prereq": {
-      "or": [
+        },
         {
-          "code": "CHEM 2301",
+          "code": "CHEM 2302",
           "subject": "CHEM",
-          "id": "2301"
+          "id": "2302"
         }
       ]
     }
@@ -559,32 +568,6 @@
     "prereq": []
   },
   {
-    "code": "CHEM 2331H",
-    "subject": "CHEM",
-    "id": "2331H",
-    "title": "Honors Elem Org Chem I",
-    "info": "important classes of organic compounds, their constitutions, configurations, conformations, reactions. relationships between molecular structure/chemical properties/reactivities. spectroscopic methods/characterization of organic molecules.",
-    "prereqInfo": "at least b+ in 1072h, uhp student",
-    "prereq": {
-      "code": "CHEM 1072",
-      "subject": "CHEM",
-      "id": "1072"
-    }
-  },
-  {
-    "code": "CHEM 2332H",
-    "subject": "CHEM",
-    "id": "2332H",
-    "title": "Honors Elem Org Chem II",
-    "info": "continuation of 2331h. reactions, synthesis, and spectroscopic characterization of organic compounds, organic polymers, and their role in biologically important classes of organic molecules such as lipids, carbohydrates, amino acids, peptides, proteins, and nucleic acids.",
-    "prereqInfo": "at least c- in 2331h, uhp student",
-    "prereq": {
-      "code": "CHEM 2331",
-      "subject": "CHEM",
-      "id": "2331"
-    }
-  },
-  {
     "code": "CHEM 2910",
     "subject": "CHEM",
     "id": "2910",
@@ -594,30 +577,12 @@
     "prereq": []
   },
   {
-    "code": "CHEM 2910H",
-    "subject": "CHEM",
-    "id": "2910H",
-    "title": "Spec Topics in Chem",
-    "info": "topics in chemistry. opportunities, current research.",
-    "prereqInfo": "one sem 1xxx chemistry or instr consent",
-    "prereq": []
-  },
-  {
     "code": "CHEM 2920",
     "subject": "CHEM",
     "id": "2920",
     "title": "Special Topics in Chemistry",
     "info": "topics in chemistry. opportunities and current research.",
     "prereqInfo": "1 sem 1xxx chemistry or instr consent",
-    "prereq": []
-  },
-  {
-    "code": "CHEM 2920H",
-    "subject": "CHEM",
-    "id": "2920H",
-    "title": "Spec Topics in Chem",
-    "info": "topics in chemistry. opportunities, current research.",
-    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -633,6 +598,11 @@
           "code": "CHEM 2302",
           "subject": "CHEM",
           "id": "2302"
+        },
+        {
+          "code": "CHEM 2302",
+          "subject": "CHEM",
+          "id": "2302"
         }
       ]
     }
@@ -644,28 +614,35 @@
     "title": "Intro Analytical Chemistry",
     "info": "primarily for chemistry majors. methods/concepts of measurement by chemical/instrumental analysis, including titrimetry, quantitative spectrophotometric analysis, chromatographic separations, equilibrium/rate methods.",
     "prereqInfo": "1062/1066 or equiv",
-    "prereq": [
-      {
-        "code": "CHEM 1062",
-        "subject": "CHEM",
-        "id": "1062"
-      },
-      {
-        "code": "CHEM 1066",
-        "subject": "CHEM",
-        "id": "1066"
-      }
-    ]
+    "prereq": {
+      "and": [
+        {
+          "code": "CHEM 1062",
+          "subject": "CHEM",
+          "id": "1062"
+        },
+        {
+          "code": "CHEM 1066",
+          "subject": "CHEM",
+          "id": "1066"
+        }
+      ]
+    }
   },
   {
     "code": "CHEM 3111",
     "subject": "CHEM",
     "id": "3111",
     "title": "Intro Anal Chem Lab",
-    "info": "lab for 3101. high precision methods, acidimetry and complexometry, single and multicomponent analysis by spectrophotometry, analysis of mixtures by ion exchange and gas chromatography, enzymatic and rate methods. ",
+    "info": "lab for 3101. high precision methods, acidimetry and complexometry, single and multicomponent analysis by spectrophotometry, analysis of mixtures by ion exchange and gas chromatography, enzymatic and rate methods.",
     "prereqInfo": "3101 or concurrent registration is required (or allowed) in 3101",
     "prereq": {
       "or": [
+        {
+          "code": "CHEM 3101",
+          "subject": "CHEM",
+          "id": "3101"
+        },
         {
           "code": "CHEM 3101",
           "subject": "CHEM",
@@ -687,6 +664,16 @@
           "code": "CHEM 2302",
           "subject": "CHEM",
           "id": "2302"
+        },
+        {
+          "code": "CHEM 2302",
+          "subject": "CHEM",
+          "id": "2302"
+        },
+        {
+          "code": "CHEM 4501",
+          "subject": "CHEM",
+          "id": "4501"
         },
         {
           "code": "CHEM 4501",
@@ -720,7 +707,7 @@
     "id": "4001",
     "title": "Biomass Chemistry & Conversion",
     "info": "chemistry of biomass and its sustainable utilization for biofuels and bioproducts, including bio-based materials. chemicals/energy and their environmental implications within the context of chemical principles and associated reactions underlying the structure, properties, processing, and performance of plant materials.",
-    "prereqInfo": "chem 2301 or chem 1082 or instructor consent\n",
+    "prereqInfo": "chem 2301 or chem 1082 or instructor consent",
     "prereq": {
       "or": [
         {
@@ -781,15 +768,6 @@
     "prereq": []
   },
   {
-    "code": "CHEM 4094V",
-    "subject": "CHEM",
-    "id": "4094V",
-    "title": "Dir Research",
-    "info": "learning experience in areas not covered by regular courses. individually arranged with faculty member.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
     "code": "CHEM 4094W",
     "subject": "CHEM",
     "id": "4094W",
@@ -826,7 +804,7 @@
     "id": "4111W",
     "title": "Instrum Mthd Chem Analysis Lab",
     "info": "instrumental techniques, including spectroscopic methods, electrochemical methods, and analysis based on separation. use of computers in data collection and reduction.",
-    "prereqInfo": "4101 or concurrent registration is required (or allowed) ",
+    "prereqInfo": "4101 or concurrent registration is required (or allowed)",
     "prereq": {
       "code": "CHEM 4101",
       "subject": "CHEM",
@@ -918,7 +896,7 @@
     "subject": "CHEM",
     "id": "4223W",
     "title": "Polymer Lab",
-    "info": "synthesis, characterization, and physical properties of polymers. free radical, condensation, emulsion, anionic polymerization. infrared spectroscopy/gel permeation chromatography. viscoelasticity, rubber elasticity, crystallization. ",
+    "info": "synthesis, characterization, and physical properties of polymers. free radical, condensation, emulsion, anionic polymerization. infrared spectroscopy/gel permeation chromatography. viscoelasticity, rubber elasticity, crystallization.",
     "prereqInfo": "chem 4221 coreq chem 4214 or chen 4214 or mats 4214 or instr consent",
     "prereq": {
       "or": [
@@ -1161,21 +1139,31 @@
     "info": "experimental techniques from all areas of chemistry applied to biological problems. experiments to highlight techniques and concepts used in modern chemical biology research. emphasis on connections between classroom/laboratory learning and experimental science, health, disease, and medical research. while biochemistry courses are allowed as a prerequisite, completion of or concurrent enrollment in chem 4411, introduction to chemical biology, will provide students with the best preparation for this lab course.",
     "prereqInfo": "chem 2311 or 2312h or 2085 (prereq); and chem 4411 or bioc 4331 or bioc 3021 (concurrent allowed)",
     "prereq": {
-      "or": [
+      "and": [
         {
           "code": "CHEM 2311",
           "subject": "CHEM",
           "id": "2311"
         },
         {
-          "code": "CHEM 2312H",
-          "subject": "CHEM",
-          "id": "2312H"
-        },
-        {
           "code": "CHEM 2085",
           "subject": "CHEM",
           "id": "2085"
+        },
+        {
+          "code": "CHEM 4411",
+          "subject": "CHEM",
+          "id": "4411"
+        },
+        {
+          "code": "BIOC 4331",
+          "subject": "BIOC",
+          "id": "4331"
+        },
+        {
+          "code": "BIOC 3021",
+          "subject": "BIOC",
+          "id": "3021"
         }
       ]
     }
@@ -1190,7 +1178,7 @@
     "prereq": {
       "and": [
         {
-          "or": [
+          "and": [
             {
               "code": "CHEM 1062",
               "subject": "CHEM",
@@ -1200,16 +1188,6 @@
               "code": "CHEM 1066",
               "subject": "CHEM",
               "id": "1066"
-            },
-            {
-              "code": "CHEM 1071H",
-              "subject": "CHEM",
-              "id": "1071H"
-            },
-            {
-              "code": "CHEM 1075H",
-              "subject": "CHEM",
-              "id": "1075H"
             }
           ]
         },
@@ -1221,6 +1199,16 @@
               "id": "2263"
             },
             {
+              "code": "MATH 2263",
+              "subject": "MATH",
+              "id": "2263"
+            },
+            {
+              "code": "MATH 2374",
+              "subject": "MATH",
+              "id": "2374"
+            },
+            {
               "code": "MATH 2374",
               "subject": "MATH",
               "id": "2374"
@@ -1228,23 +1216,9 @@
           ]
         },
         {
-          "or": [
-            {
-              "code": "PHYS 1302",
-              "subject": "PHYS",
-              "id": "1302"
-            },
-            {
-              "code": "PHYS 1402V",
-              "subject": "PHYS",
-              "id": "1402V"
-            },
-            {
-              "code": "PHYS 1502V",
-              "subject": "PHYS",
-              "id": "1502V"
-            }
-          ]
+          "code": "PHYS 1302",
+          "subject": "PHYS",
+          "id": "1302"
         }
       ]
     }
@@ -1259,7 +1233,7 @@
     "prereq": {
       "and": [
         {
-          "or": [
+          "and": [
             {
               "code": "CHEM 1062",
               "subject": "CHEM",
@@ -1269,16 +1243,6 @@
               "code": "CHEM 1066",
               "subject": "CHEM",
               "id": "1066"
-            },
-            {
-              "code": "CHEM 1072H",
-              "subject": "CHEM",
-              "id": "1072H"
-            },
-            {
-              "code": "CHEM 1076H",
-              "subject": "CHEM",
-              "id": "1076H"
             },
             {
               "code": "CHEM 1082",
@@ -1300,6 +1264,16 @@
               "id": "2263"
             },
             {
+              "code": "MATH 2263",
+              "subject": "MATH",
+              "id": "2263"
+            },
+            {
+              "code": "MATH 2374",
+              "subject": "MATH",
+              "id": "2374"
+            },
+            {
               "code": "MATH 2374",
               "subject": "MATH",
               "id": "2374"
@@ -1310,6 +1284,16 @@
               "id": "2243"
             },
             {
+              "code": "MATH 2243",
+              "subject": "MATH",
+              "id": "2243"
+            },
+            {
+              "code": "MATH 2373",
+              "subject": "MATH",
+              "id": "2373"
+            },
+            {
               "code": "MATH 2373",
               "subject": "MATH",
               "id": "2373"
@@ -1317,23 +1301,9 @@
           ]
         },
         {
-          "or": [
-            {
-              "code": "PHYS 1302",
-              "subject": "PHYS",
-              "id": "1302"
-            },
-            {
-              "code": "PHYS 1402V",
-              "subject": "PHYS",
-              "id": "1402V"
-            },
-            {
-              "code": "PHYS 1502V",
-              "subject": "PHYS",
-              "id": "1502V"
-            }
-          ]
+          "code": "PHYS 1302",
+          "subject": "PHYS",
+          "id": "1302"
         }
       ]
     }
@@ -1343,7 +1313,7 @@
     "subject": "CHEM",
     "id": "4511W",
     "title": "Adv Phys Chem Lab",
-    "info": "experiments illustrating principles and methods of thermodynamics, reaction kinetics, and quantum mechanics. ",
+    "info": "experiments illustrating principles and methods of thermodynamics, reaction kinetics, and quantum mechanics.",
     "prereqInfo": "4502, chemistry major",
     "prereq": {
       "code": "CHEM 4502",
@@ -1356,9 +1326,22 @@
     "subject": "CHEM",
     "id": "4601",
     "title": "Green Chemistry",
-    "info": "survey key aspects of green chemistry in modern research and development both in academia and industry, as well as relevant implications for the environment, technology, and public policy. prereq: [2302 or 2081 or equiv]",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "survey key aspects of green chemistry in modern research and development both in academia and industry, as well as relevant implications for the environment, technology, and public policy.",
+    "prereqInfo": "[2302 or 2081 or equiv]",
+    "prereq": {
+      "or": [
+        {
+          "code": "CHEM 2302",
+          "subject": "CHEM",
+          "id": "2302"
+        },
+        {
+          "code": "CHEM 2081",
+          "subject": "CHEM",
+          "id": "2081"
+        }
+      ]
+    }
   },
   {
     "code": "CHEM 4701",
@@ -1375,28 +1358,6 @@
           "id": "2311"
         },
         {
-          "code": "CHEM 4501",
-          "subject": "CHEM",
-          "id": "4501"
-        },
-        {
-          "code": "CHEM 4502",
-          "subject": "CHEM",
-          "id": "4502"
-        }
-      ]
-    }
-  },
-  {
-    "code": "CHEM 4701H",
-    "subject": "CHEM",
-    "id": "4701H",
-    "title": "Honors Inorg Chem",
-    "info": "periodic trends. structure/bonding in compounds where s and p electrons are important. descriptive chemistry of solids and transition metal compounds. transition metal chemistry. topics in main group and materials chemistry.",
-    "prereqInfo": "[2311 or concurrent registration is required (or allowed) in 2311], [4501 or concurrent registration is required (or allowed) in 4501 or 4502 or concurrent registration is required (or allowed) in 4502]",
-    "prereq": {
-      "and": [
-        {
           "code": "CHEM 2311",
           "subject": "CHEM",
           "id": "2311"
@@ -1405,6 +1366,16 @@
           "code": "CHEM 4501",
           "subject": "CHEM",
           "id": "4501"
+        },
+        {
+          "code": "CHEM 4501",
+          "subject": "CHEM",
+          "id": "4501"
+        },
+        {
+          "code": "CHEM 4502",
+          "subject": "CHEM",
+          "id": "4502"
         },
         {
           "code": "CHEM 4502",
@@ -1568,7 +1539,7 @@
     "subject": "CHEM",
     "id": "8025",
     "title": "Graduate Research",
-    "info": "new areas of chemistry, hands-on exposure to graduate research. students rotate through up to two different labs for seven weeks. labs are run by chemistry graduate faculty members.  ",
+    "info": "new areas of chemistry, hands-on exposure to graduate research. students rotate through up to two different labs for seven weeks. labs are run by chemistry graduate faculty members.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -1936,8 +1907,8 @@
     "subject": "CHEM",
     "id": "8566",
     "title": "Spin Dynamics",
-    "info": "chemistry 8566 is a 1/2-semester course on spin dynamics. the course prerequisites are described in the cse bulletin. briefly, they are: one year of college-level chemistry, one year of college-level physics, and one year of college-level calculus. all of the prerequisites should have been completed before enrollment in this course. students who do not satisfy the course prerequisites, please contact the instructor.",
-    "prereqInfo": null,
+    "info": "chemistry 8566 is a 1/2-semester course on spin dynamics. the course",
+    "prereqInfo": "uisites are described in the cse bulletin. briefly, they are: one year of college-level chemistry, one year of college-level physics, and one year of college-level calculus. all of the",
     "prereq": []
   },
   {
@@ -1945,8 +1916,8 @@
     "subject": "CHEM",
     "id": "8567",
     "title": "Biophysical Chemistry",
-    "info": "chem 8567 is a graduate level course which emphasizes how macromolecular and membrane structure and dynamics impact biological function. topics to be covered include high-resolution structure determination, biomolecular spectroscopy, and microscopy as applied to folding, solvation, and reaction dynamics.",
-    "prereqInfo": "the objectives for this course are to become well-versed in the language of biophysics, at a level sufficient to understand and critically evaluate the literature and to understand fundamental concepts related to structure determination and structure-function relationships of biomolecules, and to be able to apply those concepts to a variety of biological systems.\n",
+    "info": "chem 8567 is a graduate level course which emphasizes how macromolecular and membrane structure and dynamics impact biological function. topics to be covered include high-resolution structure determination, biomolecular spectroscopy, and microscopy as applied to folding, solvation, and reaction dynamics.\n\nthe objectives for this course are to become well-versed in the language of biophysics, at a level sufficient to understand and critically evaluate the literature and to understand fundamental concepts related to structure determination and structure-function relationships of biomolecules, and to be able to apply those concepts to a variety of biological systems.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -1963,7 +1934,7 @@
     "subject": "CHEM",
     "id": "8569",
     "title": "Electronic Structure",
-    "info": "this course covers electronic structure theory applied to atoms and molecules and includes a hands-on computational project that requires writing of computer code.  it will cover hartree-fock theory, density functional theory, electron correlation theories, relativistic effects, and other related topics.  ",
+    "info": "this course covers electronic structure theory applied to atoms and molecules and includes a hands-on computational project that requires writing of computer code.  it will cover hartree-fock theory, density functional theory, electron correlation theories, relativistic effects, and other related topics.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -2001,7 +1972,11 @@
     "title": "Doct Pre-Thesis Cr*",
     "info": "tbd",
     "prereqInfo": "doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": []
+    "prereq": {
+      "code": "CHEM 60",
+      "subject": "CHEM",
+      "id": "60"
+    }
   },
   {
     "code": "CHEM 8700",
@@ -2084,7 +2059,11 @@
     "title": "Thesis Credit:Mast*",
     "info": "(no description)",
     "prereqInfo": "max 18 cr per semester or summer; 10 cr total required [plan a only]",
-    "prereq": []
+    "prereq": {
+      "code": "CHEM 10",
+      "subject": "CHEM",
+      "id": "10"
+    }
   },
   {
     "code": "CHEM 8780",

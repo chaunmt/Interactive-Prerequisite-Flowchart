@@ -9,15 +9,6 @@
     "prereq": []
   },
   {
-    "code": "ECON 1101H",
-    "subject": "ECON",
-    "id": "1101H",
-    "title": "Honors: Princ Micro",
-    "info": "microeconomic behavior of consumers, firms, markets in domestic/world economy. demand/supply. competition/monopoly. distribution of income. effects of economic interdependencies, global linkages on individual decisions. emphasizes algebra, geometry, basic logic, proofs.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
     "code": "ECON 1102",
     "subject": "ECON",
     "id": "1102",
@@ -29,15 +20,6 @@
       "subject": "ECON",
       "id": "1101"
     }
-  },
-  {
-    "code": "ECON 1102H",
-    "subject": "ECON",
-    "id": "1102H",
-    "title": "Hons Princ Macro",
-    "info": "aggregate consumption, saving, investment, and national income. money, banking, and business cycles in domestic/global economy. international trade, growth, and development. role of the united states in world economy, international interdependencies. emphasizes economic models to explain macroeconomic phenomena.",
-    "prereqInfo": null,
-    "prereq": []
   },
   {
     "code": "ECON 1104",
@@ -125,7 +107,7 @@
     "subject": "ECON",
     "id": "2020",
     "title": "Econ of COVID-19",
-    "info": "this course explores incorporating the standard epidemiology models of disease into economic modeling.   the student will gain an understanding of how these epidemiology models work, and how they can be extended to allow the careful consideration of the tradeoffs inherent in choosing safety vs. economic well being.   topics will include sir models from epidemiology, how contagious disease relates to standard economic concepts such as externalities, calculations of the statistical value of life from economics, and the uses and pitfalls of mathematical modeling.  ",
+    "info": "this course explores incorporating the standard epidemiology models of disease into economic modeling.   the student will gain an understanding of how these epidemiology models work, and how they can be extended to allow the careful consideration of the tradeoffs inherent in choosing safety vs. economic well being.   topics will include sir models from epidemiology, how contagious disease relates to standard economic concepts such as externalities, calculations of the statistical value of life from economics, and the uses and pitfalls of mathematical modeling.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -193,15 +175,6 @@
     }
   },
   {
-    "code": "ECON 3101H",
-    "subject": "ECON",
-    "id": "3101H",
-    "title": "Hons Interm Micro",
-    "info": "behavior of households, firms, and industries under competitive and monopolistic conditions; factors influencing production, price, and other decisions of the firm; applications of the theory. economic efficiency and distribution of well-being.\n",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
     "code": "ECON 3102",
     "subject": "ECON",
     "id": "3102",
@@ -235,6 +208,11 @@
           "id": "1102"
         },
         {
+          "code": "APEC 1102",
+          "subject": "APEC",
+          "id": "1102"
+        },
+        {
           "code": "ECON 3101",
           "subject": "ECON",
           "id": "3101"
@@ -246,15 +224,6 @@
         }
       ]
     }
-  },
-  {
-    "code": "ECON 3102H",
-    "subject": "ECON",
-    "id": "3102H",
-    "title": "Hons Interm Macro",
-    "info": "determinants of national income, employment, and price level; effects of monetary and fiscal policies; emphasis on a general equilibrium approach. applications of economic efficiency and distribution of well-being.\n",
-    "prereqInfo": null,
-    "prereq": []
   },
   {
     "code": "ECON 3105",
@@ -663,46 +632,6 @@
     }
   },
   {
-    "code": "ECON 4109H",
-    "subject": "ECON",
-    "id": "4109H",
-    "title": "Hon Game Theory & Applications",
-    "info": "for econ b.s. students only. games. normal form, extensive form. wars of attrition. games of timing. bargaining applications in industrial organization, macroeconomics, and international economics.",
-    "prereqInfo": "[[3101, 3102]] or equiv], [[math 1271, math 1272] or equiv]",
-    "prereq": {
-      "and": [
-        {
-          "and": [
-            {
-              "code": "ECON 3101",
-              "subject": "ECON",
-              "id": "3101"
-            },
-            {
-              "code": "ECON 3102",
-              "subject": "ECON",
-              "id": "3102"
-            }
-          ]
-        },
-        {
-          "and": [
-            {
-              "code": "MATH 1271",
-              "subject": "MATH",
-              "id": "1271"
-            },
-            {
-              "code": "MATH 1272",
-              "subject": "MATH",
-              "id": "1272"
-            }
-          ]
-        }
-      ]
-    }
-  },
-  {
     "code": "ECON 4113",
     "subject": "ECON",
     "id": "4113",
@@ -748,12 +677,12 @@
     }
   },
   {
-    "code": "ECON 4113H",
+    "code": "ECON 4115",
     "subject": "ECON",
-    "id": "4113H",
-    "title": "Intro Math Economics Hons",
-    "info": "development of selected models of economic behavior in mathematical terms. topics selected to illustrate advantages of mathematical formulation.",
-    "prereqInfo": "[3101, 3102 or equiv], [math 1271, math 1272, math 2243 or equiv], honors student",
+    "id": "4115",
+    "title": "Uncertainty and Information",
+    "info": "for econ b.s. students only. this microeconomic theory course focuses on economies under uncertainty with possibly asymmetric information. individual behavior of consumers and that of markets are studied under uncertainty with incomplete information. related topics in technology and innovation. the information economy, and networks will be examined.",
+    "prereqInfo": "[[3101, 3102]] or equiv], [[math 1271, math 1272, and math 2243] or equiv]; strongly suggest students complete stat 4101 before taking this course; students should have successfully completed two 4xxx level umntc economics courses.",
     "prereq": {
       "and": [
         {
@@ -788,34 +717,58 @@
               "id": "2243"
             }
           ]
+        },
+        {
+          "code": "STAT 4101",
+          "subject": "STAT",
+          "id": "4101"
         }
       ]
     }
-  },
-  {
-    "code": "ECON 4115",
-    "subject": "ECON",
-    "id": "4115",
-    "title": "Uncertainty and Information",
-    "info": "for econ b.s. students only. this microeconomic theory course focuses on economies under uncertainty with possibly asymmetric information. individual behavior of consumers and that of markets are studied under uncertainty with incomplete information. related topics in technology and innovation. the information economy, and networks will be examined.\nprereq: [[3101, 3102]] or equiv], [[math 1271, math 1272, and math 2243] or equiv]; strongly suggest students complete stat 4101 before taking this course; students should have successfully completed two 4xxx level umntc economics courses.",
-    "prereqInfo": null,
-    "prereq": []
   },
   {
     "code": "ECON 4118",
     "subject": "ECON",
     "id": "4118",
     "title": "Advanced Mathematical Econ",
-    "info": "development of selected models of economic behavior in mathematical terms. topics selected to illustrate advantages of mathematical formulation.\nprereq: econ 3101, 3102, math 1271, math 1272, math 2243 or equivalent courses; and at least two 4xxx level economics electives.",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "development of selected models of economic behavior in mathematical terms. topics selected to illustrate advantages of mathematical formulation.",
+    "prereqInfo": "econ 3101, 3102, math 1271, math 1272, math 2243 or equivalent courses; and at least two 4xxx level economics electives.",
+    "prereq": {
+      "and": [
+        {
+          "code": "ECON 3101",
+          "subject": "ECON",
+          "id": "3101"
+        },
+        {
+          "code": "ECON 3102",
+          "subject": "ECON",
+          "id": "3102"
+        },
+        {
+          "code": "MATH 1271",
+          "subject": "MATH",
+          "id": "1271"
+        },
+        {
+          "code": "MATH 1272",
+          "subject": "MATH",
+          "id": "1272"
+        },
+        {
+          "code": "MATH 2243",
+          "subject": "MATH",
+          "id": "2243"
+        }
+      ]
+    }
   },
   {
     "code": "ECON 4161",
     "subject": "ECON",
     "id": "4161",
     "title": "Microeconomic Analysis I",
-    "info": "theories of consumer demand, producer supply, and market equilibrium. general equilibrium and welfare. may include topics such as externalities, economics of information/uncertainty. seven-week course. ",
+    "info": "theories of consumer demand, producer supply, and market equilibrium. general equilibrium and welfare. may include topics such as externalities, economics of information/uncertainty. seven-week course.",
     "prereqInfo": "3101, 3102, math 2243, math 2263, [[stat 4101, stat 4102] or equiv]",
     "prereq": {
       "and": [
@@ -861,7 +814,7 @@
     "subject": "ECON",
     "id": "4162",
     "title": "Microeconomic Analysis II",
-    "info": "theories of consumer, producer, and market equilibrium. includes general equilibrium, welfare, externalities, topics in information and uncertainty, and game theory. seven-week course. ",
+    "info": "theories of consumer, producer, and market equilibrium. includes general equilibrium, welfare, externalities, topics in information and uncertainty, and game theory. seven-week course.",
     "prereqInfo": "3101, 3102, 4161, math 2243, math 2263, [[stat 4101, stat 4102] or equiv]",
     "prereq": {
       "and": [
@@ -912,7 +865,7 @@
     "subject": "ECON",
     "id": "4163",
     "title": "Microecon Analysis III",
-    "info": "the course is an introduction to basic concepts of stochastic calculus and application in economic analysis and finance. the aim of the course is to provide a treatment of the prerequisites. the requirements are basic probability and real analysis concepts; these will be reviewed in the first lectures. ",
+    "info": "the course is an introduction to basic concepts of stochastic calculus and application in economic analysis and finance. the aim of the course is to provide a treatment of the prerequisites. the requirements are basic probability and real analysis concepts; these will be reviewed in the first lectures.",
     "prereqInfo": "3101, 3102, 4162, math 2243, math 2263, dept consent",
     "prereq": {
       "and": [
@@ -1533,15 +1486,15 @@
     "id": "4317",
     "title": "The Chinese Economy",
     "info": "overview of the chinese economy; transition from command economy to a market-based one and effects on economic indicators; current economic issues and concerns of the chinese economy; role of china in today's world economy.",
-    "prereqInfo": " (econ 1101or econ 1165, apec 1101), (econ 1102 or apec 1102), math 1271 or equivalent courses approved by the economics department.",
+    "prereqInfo": "(econ 1101or econ 1165, apec 1101), (econ 1102 or apec 1102), math 1271 or equivalent courses approved by the economics department.",
     "prereq": {
       "and": [
         {
           "and": [
             {
-              "code": "ECON 1101OR",
+              "code": "ECON 1101",
               "subject": "ECON",
-              "id": "1101OR"
+              "id": "1101"
             },
             {
               "code": "ECON 1165",
@@ -1660,8 +1613,8 @@
     "subject": "ECON",
     "id": "4341",
     "title": "Poverty and Income Inequality",
-    "info": "this course focuses on the economic aspects of poverty and inequality in the united states. the course utilizes economic theory and empirical research to analyze the determinants of, and potential strategies to overcome poverty and inequality. topics include measurement and trends of poverty and income inequality, labor markets, education, discrimination, residential segregation,  immigration,  hunger and nutrition, us farm policy, food distribution, food security, food aid, the connection between food production and health outcomes, as well as other related themes. ",
-    "prereqInfo": "[math 1271, econ 1101, econ 1102, econ 3101] or equiv; ",
+    "info": "this course focuses on the economic aspects of poverty and inequality in the united states. the course utilizes economic theory and empirical research to analyze the determinants of, and potential strategies to overcome poverty and inequality. topics include measurement and trends of poverty and income inequality, labor markets, education, discrimination, residential segregation,  immigration,  hunger and nutrition, us farm policy, food distribution, food security, food aid, the connection between food production and health outcomes, as well as other related themes.",
+    "prereqInfo": "[math 1271, econ 1101, econ 1102, econ 3101] or equiv;",
     "prereq": {
       "and": [
         {
@@ -1748,37 +1701,6 @@
     "info": "london is a “global city”- and has evolved from being a city of merchandise trade to being one of the premier financial services centers and cultural melting-pot in the world. the course explores the role of financial services, merchandise trade, trade policy, immigrant populations and cultures, and current race relations in the evolution of modern london. globalization, the interactions and interdependencies between the city of london and the rest of the world, are researched and explored through class work and daily site visits to major economic and cultural locales.",
     "prereqInfo": null,
     "prereq": []
-  },
-  {
-    "code": "ECON 4431V",
-    "subject": "ECON",
-    "id": "4431V",
-    "title": "Honors: International Trade",
-    "info": "theories of trade/explanations of trade patterns. trade restrictions. commercial policy. international factor movements. economic growth/development. multinational corporations. regional integration.",
-    "prereqInfo": "[3101, 3102] or equiv, math 1271, completion of freshman writing practice",
-    "prereq": {
-      "and": [
-        {
-          "and": [
-            {
-              "code": "ECON 3101",
-              "subject": "ECON",
-              "id": "3101"
-            },
-            {
-              "code": "ECON 3102",
-              "subject": "ECON",
-              "id": "3102"
-            }
-          ]
-        },
-        {
-          "code": "MATH 1271",
-          "subject": "MATH",
-          "id": "1271"
-        }
-      ]
-    }
   },
   {
     "code": "ECON 4431W",
@@ -1897,9 +1819,36 @@
     "subject": "ECON",
     "id": "4438W",
     "title": "Advanced International Trade",
-    "info": "theories of trade/explanations of trade patterns. trade restrictions. commercial policy. international factor movements. economic growth/development. multinational corporations. regional integration. prereq: [3101, 3102] or equiv, math 1271, completion of freshman writing practice, [math 1272 or equiv]",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "theories of trade/explanations of trade patterns. trade restrictions. commercial policy. international factor movements. economic growth/development. multinational corporations. regional integration.",
+    "prereqInfo": "[3101, 3102] or equiv, math 1271, completion of freshman writing practice, [math 1272 or equiv]",
+    "prereq": {
+      "and": [
+        {
+          "and": [
+            {
+              "code": "ECON 3101",
+              "subject": "ECON",
+              "id": "3101"
+            },
+            {
+              "code": "ECON 3102",
+              "subject": "ECON",
+              "id": "3102"
+            }
+          ]
+        },
+        {
+          "code": "MATH 1271",
+          "subject": "MATH",
+          "id": "1271"
+        },
+        {
+          "code": "MATH 1272",
+          "subject": "MATH",
+          "id": "1272"
+        }
+      ]
+    }
   },
   {
     "code": "ECON 4531",
@@ -1907,7 +1856,7 @@
     "id": "4531",
     "title": "Labor Economics",
     "info": "economic analysis of labor markets and their operations; population and labor force; labor market institutions; wage and employment theories; unions and collective bargaining; public policy.",
-    "prereqInfo": "prereqs: (econ 1101 or econ 1165, apec 1101), (econ 1102 or apec 1102), econ 3101, econ 3102, math 1271 or equivalent courses approved by the economics department",
+    "prereqInfo": "s: (econ 1101 or econ 1165, apec 1101), (econ 1102 or apec 1102), econ 3101, econ 3102, math 1271 or equivalent courses approved by the economics department",
     "prereq": {
       "and": [
         {
@@ -2036,15 +1985,6 @@
     "prereq": []
   },
   {
-    "code": "ECON 4611H",
-    "subject": "ECON",
-    "id": "4611H",
-    "title": "Environmental value",
-    "info": "principles of cost-benefit analysis used for valuing the environment, costs of pollution. defining, measuring, valuating benefits/costs. economic growth, sustainable growth. economic, ecological, ethical issues in using renewable/non-renewable resources. optimal rate of use. optimal pollution control.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
     "code": "ECON 4621",
     "subject": "ECON",
     "id": "4621",
@@ -2067,19 +2007,6 @@
     }
   },
   {
-    "code": "ECON 4621H",
-    "subject": "ECON",
-    "id": "4621H",
-    "title": "Hons Urban Econ",
-    "info": "economics of urbanization. location of economic activity and cities. central place theory. site rents and form of city. urban economic base and economic policy. urban problems and economic policies: transportation, poverty/segregation, housing, public finance.",
-    "prereqInfo": "3101 or equiv",
-    "prereq": {
-      "code": "ECON 3101",
-      "subject": "ECON",
-      "id": "3101"
-    }
-  },
-  {
     "code": "ECON 4623",
     "subject": "ECON",
     "id": "4623",
@@ -2094,7 +2021,7 @@
     "id": "4631",
     "title": "Industrial Organization",
     "info": "relations between market structure, economic efficiency and welfare. economic origins of monopoly and other restraints on competition. purposes and effects of antitrust and related legislation. industrial policy.",
-    "prereqInfo": "(econ 1101 or econ 1165, apec 1101), (econ 1102 or apec 1102), econ 3101, math 1271 or equivalent courses approved by the economics department\n",
+    "prereqInfo": "(econ 1101 or econ 1165, apec 1101), (econ 1102 or apec 1102), econ 3101, math 1271 or equivalent courses approved by the economics department",
     "prereq": {
       "and": [
         {
@@ -2141,19 +2068,6 @@
           "id": "1271"
         }
       ]
-    }
-  },
-  {
-    "code": "ECON 4631H",
-    "subject": "ECON",
-    "id": "4631H",
-    "title": "Hons Industrial Organization",
-    "info": "economic aspects of antitrust and related policies. relations between market structure, economic efficiency, and welfare. economic origins of monopoly and other restraints on competition. purposes/effects of antitrust/related legislation.",
-    "prereqInfo": "3101 or equiv",
-    "prereq": {
-      "code": "ECON 3101",
-      "subject": "ECON",
-      "id": "3101"
     }
   },
   {
@@ -2239,28 +2153,6 @@
     }
   },
   {
-    "code": "ECON 4721H",
-    "subject": "ECON",
-    "id": "4721H",
-    "title": "Honors: Money and Banking",
-    "info": "theories of money demand and money supply. financial intermediation and banking, banking practices and regulation, role of the federal reserve system. monetary theory and policy.",
-    "prereqInfo": "[3101, 3102] or equiv",
-    "prereq": {
-      "and": [
-        {
-          "code": "ECON 3101",
-          "subject": "ECON",
-          "id": "3101"
-        },
-        {
-          "code": "ECON 3102",
-          "subject": "ECON",
-          "id": "3102"
-        }
-      ]
-    }
-  },
-  {
     "code": "ECON 4728",
     "subject": "ECON",
     "id": "4728",
@@ -2305,37 +2197,6 @@
           "code": "ECON 3102",
           "subject": "ECON",
           "id": "3102"
-        }
-      ]
-    }
-  },
-  {
-    "code": "ECON 4731H",
-    "subject": "ECON",
-    "id": "4731H",
-    "title": "Honors Macro Policy",
-    "info": "monetary vs. fiscal policy debate in context of underlying macroeconomic theory controversy. comparison of keynesian, monetarist, and classical theories. rational expectations, policy ineffectiveness, time inconsistency, rules versus discretion, budget deficits. unemployment and inflation.",
-    "prereqInfo": "[[3101, 3102] or equiv], math 1271, honors",
-    "prereq": {
-      "and": [
-        {
-          "and": [
-            {
-              "code": "ECON 3101",
-              "subject": "ECON",
-              "id": "3101"
-            },
-            {
-              "code": "ECON 3102",
-              "subject": "ECON",
-              "id": "3102"
-            }
-          ]
-        },
-        {
-          "code": "MATH 1271",
-          "subject": "MATH",
-          "id": "1271"
         }
       ]
     }
@@ -2403,37 +2264,6 @@
     }
   },
   {
-    "code": "ECON 4741H",
-    "subject": "ECON",
-    "id": "4741H",
-    "title": "Advanced Macro Policy",
-    "info": "for honors and econ b.s. majors only. monetary vs. fiscal policy debate in context of underlying macroeconomic theory controversy. comparison of keynesian, monetarist, classical theories. rational expectations, policy ineffectiveness, time inconsistency, rules versus discretion, budget deficits. unemployment/inflation.",
-    "prereqInfo": "[[3101, 3102] or equiv], math 1271",
-    "prereq": {
-      "and": [
-        {
-          "and": [
-            {
-              "code": "ECON 3101",
-              "subject": "ECON",
-              "id": "3101"
-            },
-            {
-              "code": "ECON 3102",
-              "subject": "ECON",
-              "id": "3102"
-            }
-          ]
-        },
-        {
-          "code": "MATH 1271",
-          "subject": "MATH",
-          "id": "1271"
-        }
-      ]
-    }
-  },
-  {
     "code": "ECON 4748",
     "subject": "ECON",
     "id": "4748",
@@ -2470,7 +2300,7 @@
     "id": "4751",
     "title": "Financial Economics",
     "info": "financial decisions of firms/investors. determination of interest rates and asset prices. role of risk/uncertainty. emphasizes economic models.",
-    "prereqInfo": "prereqs: (econ 1101 or econ 1165, apec 1101), (econ 1102 or apec 1102), econ 3101, math 1271, stat 3011 or equivalent courses approved by the economics department.",
+    "prereqInfo": "s: (econ 1101 or econ 1165, apec 1101), (econ 1102 or apec 1102), econ 3101, math 1271, stat 3011 or equivalent courses approved by the economics department.",
     "prereq": {
       "and": [
         {
@@ -2510,38 +2340,6 @@
           "code": "ECON 3101",
           "subject": "ECON",
           "id": "3101"
-        },
-        {
-          "code": "MATH 1271",
-          "subject": "MATH",
-          "id": "1271"
-        },
-        {
-          "code": "STAT 3011",
-          "subject": "STAT",
-          "id": "3011"
-        }
-      ]
-    }
-  },
-  {
-    "code": "ECON 4751H",
-    "subject": "ECON",
-    "id": "4751H",
-    "title": "Honors: Financial Economics",
-    "info": "efficiency of financial markets. theoretical concepts, empirical evidence.",
-    "prereqInfo": "3101, [3102 or equiv], [math 1271 or equiv], [stat 3011 or equiv]",
-    "prereq": {
-      "and": [
-        {
-          "code": "ECON 3101",
-          "subject": "ECON",
-          "id": "3101"
-        },
-        {
-          "code": "ECON 3102",
-          "subject": "ECON",
-          "id": "3102"
         },
         {
           "code": "MATH 1271",
@@ -2659,7 +2457,7 @@
     "id": "4828",
     "title": "Advanced Public Economics",
     "info": "competing views/models on the role of government in an economy. effects of tax and spending policies, private agents' response to government actions; optimal policies. financial crisis and government policies on subsidizing private debt and private housing. climate change policy of government. government health care reforms. tax issues of mncs, tax evasion, industry relocations and corporate taxes.",
-    "prereqInfo": "prereqs: econ 3101 and 3102; advise completing econometrics before taking this course.",
+    "prereqInfo": "s: econ 3101 and 3102; advise completing econometrics before taking this course.",
     "prereq": {
       "and": [
         {
@@ -2762,37 +2560,6 @@
     }
   },
   {
-    "code": "ECON 4960H",
-    "subject": "ECON",
-    "id": "4960H",
-    "title": "Honors: Topics in Economics",
-    "info": "topics specified in class schedule",
-    "prereqInfo": "[[3101, 3102] or equiv], math 1271; may change based on topic",
-    "prereq": {
-      "and": [
-        {
-          "and": [
-            {
-              "code": "ECON 3101",
-              "subject": "ECON",
-              "id": "3101"
-            },
-            {
-              "code": "ECON 3102",
-              "subject": "ECON",
-              "id": "3102"
-            }
-          ]
-        },
-        {
-          "code": "MATH 1271",
-          "subject": "MATH",
-          "id": "1271"
-        }
-      ]
-    }
-  },
-  {
     "code": "ECON 4968",
     "subject": "ECON",
     "id": "4968",
@@ -2833,9 +2600,36 @@
     "subject": "ECON",
     "id": "4970",
     "title": "Advanced Topics: Economics",
-    "info": "topics specified in class schedule,\nprereq: [[3101, 3102] or equiv], math 1271, [stat 3011 or equiv], successfully complete at least two 4xxx level umntc economics courses.",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "topics specified in class schedule,",
+    "prereqInfo": "[[3101, 3102] or equiv], math 1271, [stat 3011 or equiv], successfully complete at least two 4xxx level umntc economics courses.",
+    "prereq": {
+      "and": [
+        {
+          "and": [
+            {
+              "code": "ECON 3101",
+              "subject": "ECON",
+              "id": "3101"
+            },
+            {
+              "code": "ECON 3102",
+              "subject": "ECON",
+              "id": "3102"
+            }
+          ]
+        },
+        {
+          "code": "MATH 1271",
+          "subject": "MATH",
+          "id": "1271"
+        },
+        {
+          "code": "STAT 3011",
+          "subject": "STAT",
+          "id": "3011"
+        }
+      ]
+    }
   },
   {
     "code": "ECON 4991",
@@ -2853,15 +2647,6 @@
     "title": "Directed Study",
     "info": "guided individual reading or study in areas not available in regular course offerings.",
     "prereqInfo": "dept consent",
-    "prereq": []
-  },
-  {
-    "code": "ECON 4993H",
-    "subject": "ECON",
-    "id": "4993H",
-    "title": "Directed Study Honors Thesis",
-    "info": "honors thesis.",
-    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -2893,47 +2678,6 @@
             {
               "code": "ECON 3283",
               "subject": "ECON",
-              "id": "3283"
-            }
-          ]
-        },
-        {
-          "code": "MATH 4606",
-          "subject": "MATH",
-          "id": "4606"
-        }
-      ]
-    }
-  },
-  {
-    "code": "ECON 5109H",
-    "subject": "ECON",
-    "id": "5109H",
-    "title": "Game Theory for Engineers",
-    "info": "introduction to game theory and its applications. utility theory, noncooperative/cooperative games, bargaining theory. games in normal/extensive form, nash equilibria/refinements.",
-    "prereqInfo": "[[[math 2283, math 2373, math 2374, math 3283] or math 4606], m.s./ph.d. student in [engineerg or comp sci or info tech or operations mgmt]] or instr consent; not for econ [undergrads or phd students]",
-    "prereq": {
-      "or": [
-        {
-          "and": [
-            {
-              "code": "MATH 2283",
-              "subject": "MATH",
-              "id": "2283"
-            },
-            {
-              "code": "MATH 2373",
-              "subject": "MATH",
-              "id": "2373"
-            },
-            {
-              "code": "MATH 2374",
-              "subject": "MATH",
-              "id": "2374"
-            },
-            {
-              "code": "MATH 3283",
-              "subject": "MATH",
               "id": "3283"
             }
           ]
@@ -3254,6 +2998,11 @@
           "code": "MATH 5615",
           "subject": "MATH",
           "id": "5615"
+        },
+        {
+          "code": "MATH 4242",
+          "subject": "MATH",
+          "id": "4242"
         }
       ]
     }
@@ -4092,7 +3841,11 @@
     "title": "Doct Pre-Thesis Cr*",
     "info": "tbd",
     "prereqInfo": "doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": []
+    "prereq": {
+      "code": "ECON 60",
+      "subject": "ECON",
+      "id": "60"
+    }
   },
   {
     "code": "ECON 8681",
@@ -4237,7 +3990,11 @@
     "title": "Thesis Credit:Mast*",
     "info": "(no description)",
     "prereqInfo": "max 18 cr per semester or summer; 10 cr total required [plan a only]",
-    "prereq": []
+    "prereq": {
+      "code": "ECON 10",
+      "subject": "ECON",
+      "id": "10"
+    }
   },
   {
     "code": "ECON 8781",

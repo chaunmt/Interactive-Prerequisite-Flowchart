@@ -22,8 +22,8 @@
     "subject": "GERO",
     "id": "5102",
     "title": "Hot Topics: Biology of Aging",
-    "info": "the goals of the course include providing the students with an essential understanding of the contemporary issues in biogerontology, including analysis of ethics issues in the field.",
-    "prereqInfo": "this course is open to graduate students and post-doctoral fellows involved in the nia training grant functional proteomics of aging. others may enroll with instr permission.",
+    "info": "the goals of the course include providing the students with an essential understanding of the contemporary issues in biogerontology, including analysis of ethics issues in the field.\n\nthis course is open to graduate students and post-doctoral fellows involved in the nia training grant functional proteomics of aging. others may enroll with instr permission.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -85,7 +85,7 @@
     "subject": "GERO",
     "id": "5117",
     "title": "Adult Development and Aging",
-    "info": "this course examines the dynamic interaction of individual development and aging. students will review the principal theories applied to understand individual development and aging, and explore methodological issues in adult development and aging; cognitive aging; social and health factors that influence developmental trajectories in aging and vice versa; and psychopathological issues in aging. it is recommended that those new to the field of aging students take pubh 6883/gero 5105: multidisciplinary perspectives in aging prior to taking this course. this course fulfills the behavioral and social sciences concentration area requirement of the gerontology minor. ",
+    "info": "this course examines the dynamic interaction of individual development and aging. students will review the principal theories applied to understand individual development and aging, and explore methodological issues in adult development and aging; cognitive aging; social and health factors that influence developmental trajectories in aging and vice versa; and psychopathological issues in aging. it is recommended that those new to the field of aging students take pubh 6883/gero 5105: multidisciplinary perspectives in aging prior to taking this course. this course fulfills the behavioral and social sciences concentration area requirement of the gerontology minor.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -112,9 +112,22 @@
     "subject": "GERO",
     "id": "5518",
     "title": "Equity and Long-Term Care Qlty",
-    "info": "the objective of this course is to help students gain a deeper understanding of long-term care quality with a focus on equity. we will\npay particular attention to post-acute care settings, care integration across settings, the role of the workforce, and equity considerations\nacross all these topics. post-acute care settings reviewed will include home care, assisted living, alternative care arrangements, nursing\nhomes, and hospice. there are no required prerequisites but students are encouraged to take a course on u.s. health care (e.g., pubh 6556, health and health systems) prior to taking the course. cross-listed with: pubh 6518",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "the objective of this course is to help students gain a deeper understanding of long-term care quality with a focus on equity. we will\npay particular attention to post-acute care settings, care integration across settings, the role of the workforce, and equity considerations\nacross all these topics. post-acute care settings reviewed will include home care, assisted living, alternative care arrangements, nursing\nhomes, and hospice. there are no required",
+    "prereqInfo": "uisites but students are encouraged to take a course on u.s. health care (e.g., pubh 6556, health and health systems) prior to taking the course. cross-listed with: pubh 6518",
+    "prereq": {
+      "or": [
+        {
+          "code": "PUBH 6556",
+          "subject": "PUBH",
+          "id": "6556"
+        },
+        {
+          "code": "PUBH 6518",
+          "subject": "PUBH",
+          "id": "6518"
+        }
+      ]
+    }
   },
   {
     "code": "GERO 8020",

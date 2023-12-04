@@ -49,8 +49,8 @@
     "subject": "HUMF",
     "id": "5874",
     "title": "Human Centered Design",
-    "info": "class participants will work together using design thinking frameworks to discover, define, develop, and propose solutions to help solve complex system problems. the class will use cognitive design methods and research to guide in developing prototypes that foster improved experiences in information delivery, processes of systems, and technology.",
-    "prereqInfo": "teams, will tackle complex real-world problems. projects may focus on a variety of areas ranging from retail to health care. coursework will primarily focus on team-based projects. participants will immerse themselves the following activities while working towards remediating their chosen problems. \n•\tinsights gathering/research methods\n•\tcognitive design methods and principles\n•\tidentifying strengths/weaknesses in actual vs. proposed systems\n•\timplementation (prototyping) considerations/strategies ",
+    "info": "class participants will work together using design thinking frameworks to discover, define, develop, and propose solutions to help solve complex system problems. the class will use cognitive design methods and research to guide in developing prototypes that foster improved experiences in information delivery, processes of systems, and technology.\n\nteams, will tackle complex real-world problems. projects may focus on a variety of areas ranging from retail to health care. coursework will primarily focus on team-based projects. participants will immerse themselves the following activities while working towards remediating their chosen problems. \n•\tinsights gathering/research methods\n•\tcognitive design methods and principles\n•\tidentifying strengths/weaknesses in actual vs. proposed systems\n•\timplementation (prototyping) considerations/strategies \n\nthe course will be highly interactive with little lecture. it will strive to foster critical thinking and will offer an environment where creativity can thrive. students are expected to come to class fully prepared to interact during class time with the readings and research consumed outside class. material from course readings will focus on cognitive design, systems thinking principles and will be interwoven during the discussions and class activities.\n\nthis course is designed for students from a variety of backgrounds and programs, including students from human factors, the academic health center, graphic design, product design, retail, interior design, landscape architecture, architecture, biomedical engineering, mechanical engineering, industrial engineering, and the carlson school.\n\nhuman factors students working toward a plan c master’s degree may use this course as one of the two\ncourses required to be 50% project-based.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -114,7 +114,11 @@
     "title": "Thesis Credit:Mast*",
     "info": "thesis credits: master's.",
     "prereqInfo": "max 18 cr per semester or summer; 10 cr total required [plan a only]",
-    "prereq": []
+    "prereq": {
+      "code": "HUMF 10",
+      "subject": "HUMF",
+      "id": "10"
+    }
   },
   {
     "code": "HUMF 8794",

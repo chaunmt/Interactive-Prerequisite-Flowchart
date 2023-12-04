@@ -129,7 +129,7 @@
     "subject": "RSC",
     "id": "5281",
     "title": "Physiology for Phys Rehab",
-    "info": "this course provides an in-depth presentation of fundamental concepts in tissue and organ system physiology as it relate to general health, aging, and physical exercise. emphasis is on the following systems: muscle, bone & connective tissue, endocrine, immune, renal, gi, and hematology. influence of aging on these systems will be addressed as well. ",
+    "info": "this course provides an in-depth presentation of fundamental concepts in tissue and organ system physiology as it relate to general health, aging, and physical exercise. emphasis is on the following systems: muscle, bone & connective tissue, endocrine, immune, renal, gi, and hematology. influence of aging on these systems will be addressed as well.",
     "prereqInfo": "rehabilitation science grad student",
     "prereq": []
   },
@@ -175,20 +175,16 @@
     "id": "5402",
     "title": "Shoulder Sports Rehab Science",
     "info": "a three-credit online course for students who are interested in investigating the biomechanical and epidemiological aspects of the shoulder in athletics. the course will explore the unique demands placed on the shoulder in sports that involve throwing, swimming, swinging, and bodily impacts. the course begins with an investigation into sport-specific biomechanics, pathomechanics, and epidemiology and progresses to applied problem solving for rehabilitation and research scenarios.",
-    "prereqInfo": "(1) an undergraduate or graduate human anatomy course and (2) an undergraduate or graduate biomechanics course. it is recommended, but not required, you have an anatomy course including a detailed shoulder anatomy section and a biomechanics course including a detailed shoulder biomechanics section. consent from course instructor or rehabilitation science graduate program is required.\n",
-    "prereq": {
-      "and": [
-        null
-      ]
-    }
+    "prereqInfo": "(1) an undergraduate or graduate human anatomy course and (2) an undergraduate or graduate biomechanics course. it is recommended, but not required, you have an anatomy course including a detailed shoulder anatomy section and a biomechanics course including a detailed shoulder biomechanics section. consent from course instructor or rehabilitation science graduate program is required.",
+    "prereq": []
   },
   {
     "code": "RSC 5404",
     "subject": "RSC",
     "id": "5404",
     "title": "Appl Shoulder Anat and Biomech",
-    "info": "the shoulder is capable of more range of motion than any other joint in the human body. it is involved in virtually any motion that places the hand in space. subsequently, the shoulder is prone to injury. there are many mechanisms of shoulder injury, and many are related to the anatomy of the shoulder joint and the anatomical relationship to movement. ",
-    "prereqInfo": "this course will serve as an overview of the anatomy and biomechanics of the shoulder joint complex. students taking this course will have the opportunity to explore the intricate anatomy of the shoulder complex. in doing so, students will create their own anatomical-reference-guide that they will use beyond this class. we will build upon this anatomical knowledge and apply the purpose of these structures in the context of functional movement. lastly, we will examine how these relationships may be altered during several common surgical techniques. \n",
+    "info": "the shoulder is capable of more range of motion than any other joint in the human body. it is involved in virtually any motion that places the hand in space. subsequently, the shoulder is prone to injury. there are many mechanisms of shoulder injury, and many are related to the anatomy of the shoulder joint and the anatomical relationship to movement. \n\nthis course will serve as an overview of the anatomy and biomechanics of the shoulder joint complex. students taking this course will have the opportunity to explore the intricate anatomy of the shoulder complex. in doing so, students will create their own anatomical-reference-guide that they will use beyond this class. we will build upon this anatomical knowledge and apply the purpose of these structures in the context of functional movement. lastly, we will examine how these relationships may be altered during several common surgical techniques.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -205,8 +201,8 @@
     "subject": "RSC",
     "id": "5841",
     "title": "Applied Data Acqstn & Process",
-    "info": "this course will introduce students to collecting and processing biomedical time series data. students will gain experience using data acquisition hardware common in many laboratories, as well as related software for acquisition of the data and digital signal processing. data sources will include electromyography (emg), wearable sensors, motion capture, and data from other systems based on the background and interests of students in the class. the overall goal of this course is to provide students with the necessary, fundamental skills to run a successful experiment, troubleshoot errors, and produce high quality data sets. prereq: prefer students to have completed general physics, introductory of short calculus",
-    "prereqInfo": null,
+    "info": "this course will introduce students to collecting and processing biomedical time series data. students will gain experience using data acquisition hardware common in many laboratories, as well as related software for acquisition of the data and digital signal processing. data sources will include electromyography (emg), wearable sensors, motion capture, and data from other systems based on the background and interests of students in the class. the overall goal of this course is to provide students with the necessary, fundamental skills to run a successful experiment, troubleshoot errors, and produce high quality data sets.",
+    "prereqInfo": "prefer students to have completed general physics, introductory of short calculus",
     "prereq": []
   },
   {
@@ -400,7 +396,11 @@
     "title": "Doct Pre-Thesis Cr",
     "info": "tbd",
     "prereqInfo": "doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": []
+    "prereq": {
+      "code": "RSC 60",
+      "subject": "RSC",
+      "id": "60"
+    }
   },
   {
     "code": "RSC 8777",
@@ -409,7 +409,11 @@
     "title": "Thesis Credit:Mast*",
     "info": "(no description)",
     "prereqInfo": "max 18 cr per semester or summer; 10 cr total required [plan a only]",
-    "prereq": []
+    "prereq": {
+      "code": "RSC 10",
+      "subject": "RSC",
+      "id": "10"
+    }
   },
   {
     "code": "RSC 8888",

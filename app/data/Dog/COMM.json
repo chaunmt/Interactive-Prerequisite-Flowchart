@@ -4,17 +4,8 @@
     "subject": "COMM",
     "id": "1101",
     "title": "Public Speaking",
-    "info": "public communication processes, elements, and ethics. criticism of and response to public discourse. practice in individual speaking designed to encourage civic participation. ",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "COMM 1101H",
-    "subject": "COMM",
-    "id": "1101H",
-    "title": "Hon: Public Speaking",
     "info": "public communication processes, elements, and ethics. criticism of and response to public discourse. practice in individual speaking designed to encourage civic participation.",
-    "prereqInfo": "honors",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -23,24 +14,6 @@
     "id": "1102",
     "title": "Intro/Communication",
     "info": "verbal and nonverbal communication:  public address, interpersonal, organizational, intercultural, and electronic.  ways in which new communication technologies influence and are influenced by existing forms of communication.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "COMM 1102H",
-    "subject": "COMM",
-    "id": "1102H",
-    "title": "Hon: Intro/Communication",
-    "info": "verbal/nonverbal communication: public address, interpersonal, organizational, intercultural, electronic. ways in which new communication technologies influence/are influenced by existing forms of communication.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "COMM 1313V",
-    "subject": "COMM",
-    "id": "1313V",
-    "title": "Hon: Analy of Argum",
-    "info": "strategies for analyzing, evaluating, generating arguments. problems in listening/responding to argument.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -78,7 +51,11 @@
     "title": "Freshman Seminar",
     "info": "toopics specified in class schedule.",
     "prereqInfo": "fr or fewer than 30 cr",
-    "prereq": []
+    "prereq": {
+      "code": "COMM 30",
+      "subject": "COMM",
+      "id": "30"
+    }
   },
   {
     "code": "COMM 1905",
@@ -130,8 +107,8 @@
     "subject": "COMM",
     "id": "1911",
     "title": "Intro to Crisis Communication",
-    "info": "with this freshman seminar course students will be introduced to key concepts in crisis communication. we will explore key theories and case studies that illustrate the ways individuals and groups communicate during moments of crisis. as a freshman seminar, the course is designed to introduce students to the undergraduate study of communication. students will begin to develop critical reading and writing skills that are central to a successful undergraduate education. the course bridges the fields of business communication, organizational communication, rhetorical studies, and critical media studies.",
-    "prereqInfo": "at the end of the course, students will emerge with better understanding of communicative practices during crises. students will be encouraged to identify ethical and unethical communication practices. students will also learn to discuss and recognize the larger societal and political implications of a variety of case studies.",
+    "info": "with this freshman seminar course students will be introduced to key concepts in crisis communication. we will explore key theories and case studies that illustrate the ways individuals and groups communicate during moments of crisis. as a freshman seminar, the course is designed to introduce students to the undergraduate study of communication. students will begin to develop critical reading and writing skills that are central to a successful undergraduate education. the course bridges the fields of business communication, organizational communication, rhetorical studies, and critical media studies.\n\nat the end of the course, students will emerge with better understanding of communicative practices during crises. students will be encouraged to identify ethical and unethical communication practices. students will also learn to discuss and recognize the larger societal and political implications of a variety of case studies.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -157,7 +134,7 @@
     "subject": "COMM",
     "id": "1914",
     "title": "Food, Media, and Culture",
-    "info": "food is intimately linked to media: meanings attached to what we eat are produced, distributed, and consumed via cookbooks, reality tv, restaurant reviews, social media, film, and advertisements. this seminar attempts to make visible what stories our culture tells itself about food. therefore, as critical media theorists have argued, food media (and the rituals surrounding it) raise important questions in relation to power, identity, and ethics. accordingly, food media are situated at the intersecting categories of race, class, gender, nationality, sexuality, and the environment. this course provides an introduction to the food and media nexus by drawing particular attention to the ways in which the political economy of the media, content analysis, ethnography, and audiences can lend unique insight into what we eat. students will critically analyze food media across a wide-range of platforms and embark on field trips to restaurants and food-related sites in the minneapolis-st. paul area. ",
+    "info": "food is intimately linked to media: meanings attached to what we eat are produced, distributed, and consumed via cookbooks, reality tv, restaurant reviews, social media, film, and advertisements. this seminar attempts to make visible what stories our culture tells itself about food. therefore, as critical media theorists have argued, food media (and the rituals surrounding it) raise important questions in relation to power, identity, and ethics. accordingly, food media are situated at the intersecting categories of race, class, gender, nationality, sexuality, and the environment. this course provides an introduction to the food and media nexus by drawing particular attention to the ways in which the political economy of the media, content analysis, ethnography, and audiences can lend unique insight into what we eat. students will critically analyze food media across a wide-range of platforms and embark on field trips to restaurants and food-related sites in the minneapolis-st. paul area.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -175,7 +152,7 @@
     "subject": "COMM",
     "id": "1916",
     "title": "Reproductive Justice",
-    "info": "according to sistersong, the term reproductive justice refers to “the human right to maintain personal bodily autonomy, have children, not have children, and parent the children we have in safe and sustainable communities.” while many immediately think of abortion when they consider struggles for reproductive rights, pregnancy termination is only one small part of the story.  in this seminar, we will examine the history of social movements designed to provide women and men with reproductive autonomy, paying close attention to how those movements often failed to center the needs of those most marginalized.  this seminar will address the various elements that impact family creation including medical racism, economic (in)security, comprehensive sexual education, and environmental protections.  students will learn how to critique and invent better reproductive rhetoric that more accurately accounts for the contextual complexities surrounding our reproductive moment.  ",
+    "info": "according to sistersong, the term reproductive justice refers to “the human right to maintain personal bodily autonomy, have children, not have children, and parent the children we have in safe and sustainable communities.” while many immediately think of abortion when they consider struggles for reproductive rights, pregnancy termination is only one small part of the story.  in this seminar, we will examine the history of social movements designed to provide women and men with reproductive autonomy, paying close attention to how those movements often failed to center the needs of those most marginalized.  this seminar will address the various elements that impact family creation including medical racism, economic (in)security, comprehensive sexual education, and environmental protections.  students will learn how to critique and invent better reproductive rhetoric that more accurately accounts for the contextual complexities surrounding our reproductive moment.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -193,8 +170,8 @@
     "subject": "COMM",
     "id": "1918",
     "title": "Communication and Sport",
-    "info": "sports are something that illustrate both the best and worst aspects of society. on one hand, sports can provide common ground for those who may share few other similarities.  on the other hand, sports serve to construct and reinforce the very social and cultural differences they so effectively transcend.  perhaps more than any other popular cultural arena, sports shape, illustrate, and bolster expectations for how people ought to conduct themselves depending on their racial, class, gender, and sexual identities.  consequently, sporting events, the identity performances these events reinforce, and the way media outlets represent these events and performances can expose some of the most difficult and urgent questions within contemporary cultural theory, popular culture studies, and media studies.",
-    "prereqInfo": "focusing specifically on an american context, this course will combine theoretical and sports-oriented readings from communication scholars to discuss the roles sports play in american culture, their power to influence identity performances, and how sports are represented and consumed—from live events viewed in a stadium to fantasy sports.  we will examine how sports, as texts, help us to grapple with the intersections among identity, politics, media, and culture. \n",
+    "info": "sports are something that illustrate both the best and worst aspects of society. on one hand, sports can provide common ground for those who may share few other similarities.  on the other hand, sports serve to construct and reinforce the very social and cultural differences they so effectively transcend.  perhaps more than any other popular cultural arena, sports shape, illustrate, and bolster expectations for how people ought to conduct themselves depending on their racial, class, gender, and sexual identities.  consequently, sporting events, the identity performances these events reinforce, and the way media outlets represent these events and performances can expose some of the most difficult and urgent questions within contemporary cultural theory, popular culture studies, and media studies.\n\nfocusing specifically on an american context, this course will combine theoretical and sports-oriented readings from communication scholars to discuss the roles sports play in american culture, their power to influence identity performances, and how sports are represented and consumed—from live events viewed in a stadium to fantasy sports.  we will examine how sports, as texts, help us to grapple with the intersections among identity, politics, media, and culture.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -202,7 +179,7 @@
     "subject": "COMM",
     "id": "1919",
     "title": "Communication & Migration",
-    "info": "humans have long been on the move. the motives, circumstances, and practices of migration, however, have changed over time. this course will introduce students to various ways in which communication can facilitate or hinder migration. it will examine how stories by migrants and about migrants interlock to shape the historical and current frameworks that make immigration an enduring social and political issue. ",
+    "info": "humans have long been on the move. the motives, circumstances, and practices of migration, however, have changed over time. this course will introduce students to various ways in which communication can facilitate or hinder migration. it will examine how stories by migrants and about migrants interlock to shape the historical and current frameworks that make immigration an enduring social and political issue.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -211,7 +188,7 @@
     "subject": "COMM",
     "id": "1921",
     "title": "True Crime Media",
-    "info": "this seminar explores true crime as a compelling and enduring media genre that originated with the rise of mass media and now proliferates across television, the internet, and newer media formats such as podcasting. we will examine the cultural history of true crime media and learn theories and techniques for analyzing the conventions, meanings, popular appeals, and the societal implications of today’s fascination with true crime-based entertainment. topics for exploration include the popular mediation of crime and justice, the role of gender, race, sexuality, and class in true crime media, and the involvement of audiences as true crime spectators, fans, and interactive citizen detectives. we will also consider how true crime media influences public assumptions about criminality, safety, and police and legal justice reform. ",
+    "info": "this seminar explores true crime as a compelling and enduring media genre that originated with the rise of mass media and now proliferates across television, the internet, and newer media formats such as podcasting. we will examine the cultural history of true crime media and learn theories and techniques for analyzing the conventions, meanings, popular appeals, and the societal implications of today’s fascination with true crime-based entertainment. topics for exploration include the popular mediation of crime and justice, the role of gender, race, sexuality, and class in true crime media, and the involvement of audiences as true crime spectators, fans, and interactive citizen detectives. we will also consider how true crime media influences public assumptions about criminality, safety, and police and legal justice reform.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -234,30 +211,12 @@
     "prereq": []
   },
   {
-    "code": "COMM 3110H",
-    "subject": "COMM",
-    "id": "3110H",
-    "title": "HonorsTopics in Comm Studies",
-    "info": "cases illustrating communication studies, theory, underlying issues.",
-    "prereqInfo": "honors",
-    "prereq": []
-  },
-  {
     "code": "COMM 3131",
     "subject": "COMM",
     "id": "3131",
     "title": "Leadership Theory/Practice",
     "info": "preparation for new student program leadership position. attitudes/skills with leadership and student life issues. building authentic community.",
     "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "COMM 3190H",
-    "subject": "COMM",
-    "id": "3190H",
-    "title": "Honors: Research Seminar",
-    "info": "students conduct original research in rhetoric, communication theory, or media for honors thesis. theory, methods, research writing.",
-    "prereqInfo": "honors candidate in comm, instr consent, dept consent",
     "prereq": []
   },
   {
@@ -332,7 +291,7 @@
     "subject": "COMM",
     "id": "3341",
     "title": "Asian American Images",
-    "info": "from 19th-century anti-chinese political cartoons to harold and kumar, visual representations of asians in the united states have long influenced how asian americans are seen and treated. what are some of the ways that photography, graphic arts, and digital culture have pictured asian americans as aliens, citizens, immigrants, workers, family and community members, entertainers, and artists? course topics will relate visual images to particular historical moments, including the early exclusion period and the \\\"yellow peril\\\" stereotype; wwii japanese american incarceration and the drawings of miné okubo, and photo-journalism documenting u.s. military involvement in southeast asia and its aftermath. how do photographic and other images work to counter historical amnesia, heal traumatic loss, and document social injustice? other weeks of the class will explore the ways that individuals, families, and communities use photographs, video, and other visual media to preserve a sense of connection and belonging. we will also look at how contemporary asian american photographers such as tseng kwong chi, nikki lee, and wing young huie experiment with visual images to raise questions of racial and national identity, social inequality, gender, sexuality, and political agency. the course also includes a digital storytelling project that encourages students to create video images and sound reflecting asian american immigration stories from local communities.\n",
+    "info": "from 19th-century anti-chinese political cartoons to harold and kumar, visual representations of asians in the united states have long influenced how asian americans are seen and treated. what are some of the ways that photography, graphic arts, and digital culture have pictured asian americans as aliens, citizens, immigrants, workers, family and community members, entertainers, and artists? course topics will relate visual images to particular historical moments, including the early exclusion period and the \\\"yellow peril\\\" stereotype; wwii japanese american incarceration and the drawings of miné okubo, and photo-journalism documenting u.s. military involvement in southeast asia and its aftermath. how do photographic and other images work to counter historical amnesia, heal traumatic loss, and document social injustice? other weeks of the class will explore the ways that individuals, families, and communities use photographs, video, and other visual media to preserve a sense of connection and belonging. we will also look at how contemporary asian american photographers such as tseng kwong chi, nikki lee, and wing young huie experiment with visual images to raise questions of racial and national identity, social inequality, gender, sexuality, and political agency. the course also includes a digital storytelling project that encourages students to create video images and sound reflecting asian american immigration stories from local communities.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -368,7 +327,7 @@
     "subject": "COMM",
     "id": "3405",
     "title": "Language and Gender",
-    "info": "gender/communication. interdisciplinary theory. role of communication in creating, maintaining, reinforcing, and changing gender relations in society.  ",
+    "info": "gender/communication. interdisciplinary theory. role of communication in creating, maintaining, reinforcing, and changing gender relations in society.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -463,15 +422,6 @@
     "prereq": []
   },
   {
-    "code": "COMM 3601V",
-    "subject": "COMM",
-    "id": "3601V",
-    "title": "Honors: Intro Rhet Theory",
-    "info": "theoretical systems to explain/direct the creation of public discourse.  traditional rhetoric to contemporary perspectives. using theory to explain practice of public discourse.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
     "code": "COMM 3605W",
     "subject": "COMM",
     "id": "3605W",
@@ -489,7 +439,7 @@
     "subject": "COMM",
     "id": "3614",
     "title": "Adv Public Policy & Debate",
-    "info": "instruction in advanced theories and practices of both public and ndt/ceda policy debate. ",
+    "info": "instruction in advanced theories and practices of both public and ndt/ceda policy debate.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -498,7 +448,7 @@
     "subject": "COMM",
     "id": "3615W",
     "title": "Argumentation",
-    "info": "this course explores how arguments help us manage uncertainties in various contexts, straddling the space between inquiry (knowledge making), and advocacy (change making). by combining theory and practice, the class provides students with strategies for thoughtfully analyzing and producing critical judgments. it cultivates their ability to read critically and charitably, to write and argue creatively, cogently and appropriately, and to participate ethically and constructively in various deliberative environments. ",
+    "info": "this course explores how arguments help us manage uncertainties in various contexts, straddling the space between inquiry (knowledge making), and advocacy (change making). by combining theory and practice, the class provides students with strategies for thoughtfully analyzing and producing critical judgments. it cultivates their ability to read critically and charitably, to write and argue creatively, cogently and appropriately, and to participate ethically and constructively in various deliberative environments.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -543,7 +493,7 @@
     "subject": "COMM",
     "id": "3666",
     "title": "Greek Intellectual Revolution",
-    "info": "this course is a three-week study abroad experience in greece with the objective to examine how this ancient culture revolutionized its self-understanding of certain eternal human questions. students will first acquire a degree of cultural competence in understanding the ancient culture, secondly understand how that revolution shaped our own western cultural foundations, and thirdly to use the ancient answers to provoke a critical assessment our answers to those same human questions.\n",
+    "info": "this course is a three-week study abroad experience in greece with the objective to examine how this ancient culture revolutionized its self-understanding of certain eternal human questions. students will first acquire a degree of cultural competence in understanding the ancient culture, secondly understand how that revolution shaped our own western cultural foundations, and thirdly to use the ancient answers to provoke a critical assessment our answers to those same human questions.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -575,15 +525,6 @@
     "prereq": []
   },
   {
-    "code": "COMM 3811H",
-    "subject": "COMM",
-    "id": "3811H",
-    "title": "Hon: Basic Soc Stats",
-    "info": "descriptive statistics, including measures of central tendency, deviation, association. inferential statistics, focusing on probability, hypothesis testing. t-tests, chi-square tests, variance analysis, bivariate regression. statistical software used to analyze sociological data.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
     "code": "COMM 3896",
     "subject": "COMM",
     "id": "3896",
@@ -597,7 +538,7 @@
     "subject": "COMM",
     "id": "3993",
     "title": "Directed Study",
-    "info": "guided individual reading or study. an opportunity in which a student completes a reading project, and/or designs and carries out a research project under the direction of a faculty member.  ",
+    "info": "guided individual reading or study. an opportunity in which a student completes a reading project, and/or designs and carries out a research project under the direction of a faculty member.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -624,8 +565,8 @@
     "subject": "COMM",
     "id": "3999W",
     "title": "Capstone Project",
-    "info": "the capstone is fulfilled by completing a 10-20 page capstone paper. students seeking honors in communication studies may fulfill the capstone requirement with the honors thesis. the honors thesis is completed by taking 6 credits of of comm 3190h, which counts towards the additional electives requirement. students who double major and choose to complete the capstone requirement in their other major may waive the communication studies ba capstone, and they do not need to replace the 1 credit. take comm 3999w concurrently with any comm 4xxx or 5xxx course. comm 3999w is taken s-n only and must be taken during the same semester in which the capstone paper is written. the instructor sets the criteria for standards of quality and conceptual/theoretical content. prerequisites: comm major; instructor consent",
-    "prereqInfo": null,
+    "info": "the capstone is fulfilled by completing a 10-20 page capstone paper. students seeking honors in communication studies may fulfill the capstone requirement with the honors thesis. the honors thesis is completed by taking 6 credits of of comm 3190h, which counts towards the additional electives requirement. students who double major and choose to complete the capstone requirement in their other major may waive the communication studies ba capstone, and they do not need to replace the 1 credit. take comm 3999w concurrently with any comm 4xxx or 5xxx course. comm 3999w is taken s-n only and must be taken during the same semester in which the capstone paper is written. the instructor sets the criteria for standards of quality and conceptual/theoretical content.",
+    "prereqInfo": "comm major; instructor consent",
     "prereq": []
   },
   {
@@ -752,7 +693,7 @@
     "subject": "COMM",
     "id": "4461",
     "title": "Prosocial Comm and Health",
-    "info": "there has been a shift in how we think about and study human health and well-being. this shift also emphasizes the cultivation of positive emotions, behaviors, and practices into our daily lives so that we may improve our relationships with others and ultimately our well-being. in this senior-level undergraduate seminar we will examine a) the meaning and importance of prosocial communication in our lives; b) the communicative and relational contributions of prosociality to our health and well-being; and c) how the popular press presents happiness research.\n",
+    "info": "there has been a shift in how we think about and study human health and well-being. this shift also emphasizes the cultivation of positive emotions, behaviors, and practices into our daily lives so that we may improve our relationships with others and ultimately our well-being. in this senior-level undergraduate seminar we will examine a) the meaning and importance of prosocial communication in our lives; b) the communicative and relational contributions of prosociality to our health and well-being; and c) how the popular press presents happiness research.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -841,7 +782,7 @@
     "subject": "COMM",
     "id": "5210",
     "title": "Probs in U.S. Electronic Media",
-    "info": "problems affecting u.s. commercial and educational electronic media. audiences; race/gender issues; regulation. ",
+    "info": "problems affecting u.s. commercial and educational electronic media. audiences; race/gender issues; regulation.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -850,7 +791,7 @@
     "subject": "COMM",
     "id": "5211",
     "title": "Critical Media Studies",
-    "info": "survey of theories, research methods, and scholars dominating critical media studies since late 1920s. ",
+    "info": "survey of theories, research methods, and scholars dominating critical media studies since late 1920s.",
     "prereqInfo": "graduate students or undergraduates who have completed comm 3211 (introduction to media studies) or its equivalent",
     "prereq": {
       "code": "COMM 3211",
@@ -894,7 +835,7 @@
     "subject": "COMM",
     "id": "5233W",
     "title": "Natl Dev/Elect Med",
-    "info": "use of electronic media to change social, political, economic, and cultural life.  use by developing nations to improve agricultural practices, hygienic standards, literacy, and awareness of civic responsibility. ",
+    "info": "use of electronic media to change social, political, economic, and cultural life.  use by developing nations to improve agricultural practices, hygienic standards, literacy, and awareness of civic responsibility.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -1087,9 +1028,18 @@
     "info": "analysis of public discourse using various theoretical perspectives.",
     "prereqInfo": "1101; 3601 recommended",
     "prereq": {
-      "code": "COMM 1101",
-      "subject": "COMM",
-      "id": "1101"
+      "or": [
+        {
+          "code": "COMM 1101",
+          "subject": "COMM",
+          "id": "1101"
+        },
+        {
+          "code": "COMM 3601",
+          "subject": "COMM",
+          "id": "3601"
+        }
+      ]
     }
   },
   {
@@ -1115,8 +1065,8 @@
     "subject": "COMM",
     "id": "5970",
     "title": "Directed Study",
-    "info": "guided individual reading or study.",
-    "prereqInfo": "instructor and department consent is required.",
+    "info": "guided individual reading or study.\n\ninstructor and department consent is required.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -1142,7 +1092,7 @@
     "subject": "COMM",
     "id": "8100",
     "title": "Research Colloquium",
-    "info": "the friday colloquium is a mix of research presentations by scholars in communication studies and related fields, and workshops on professional development. the colloquium provides graduate students with a broader introduction to the field, cutting edge work, and opportunities for developing their interests and skills.\n \nthe content and specific requirements of comm 8xxx will vary by year, depending upon the faculty member who coordinates the colloquium series and the direction provided by the director of graduate studies. in the fall of each year, the professional development portion of the colloquium will focus on teaching.  professional development sessions in the spring may include: navigating the job market, publishing, networking, or alternative academic career paths, depending on the range of speakers and interests of the cohort.\n",
+    "info": "the friday colloquium is a mix of research presentations by scholars in communication studies and related fields, and workshops on professional development. the colloquium provides graduate students with a broader introduction to the field, cutting edge work, and opportunities for developing their interests and skills.\n \nthe content and specific requirements of comm 8xxx will vary by year, depending upon the faculty member who coordinates the colloquium series and the direction provided by the director of graduate studies. in the fall of each year, the professional development portion of the colloquium will focus on teaching.  professional development sessions in the spring may include: navigating the job market, publishing, networking, or alternative academic career paths, depending on the range of speakers and interests of the cohort.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -1361,7 +1311,11 @@
     "title": "Doct Pre-Thesis Cr",
     "info": "tbd",
     "prereqInfo": "doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": []
+    "prereq": {
+      "code": "COMM 60",
+      "subject": "COMM",
+      "id": "60"
+    }
   },
   {
     "code": "COMM 8777",
@@ -1370,7 +1324,11 @@
     "title": "Thesis Credit:Mast*",
     "info": "(no description)",
     "prereqInfo": "max 18 cr per semester or summer; 10 cr total required [plan a only]",
-    "prereq": []
+    "prereq": {
+      "code": "COMM 10",
+      "subject": "COMM",
+      "id": "10"
+    }
   },
   {
     "code": "COMM 8888",

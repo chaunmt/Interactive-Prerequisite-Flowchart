@@ -4,8 +4,8 @@
     "subject": "MATS",
     "id": "1001",
     "title": "Adv in Chem Eng and Mat Sci",
-    "info": "survey the roles chemical and materials engineers play in addressing societal and technological challenges in areas including human health and biotechnology, energy and sustainability, and data-driven discovery and design. lectures, panel discussions, and interactive exercises.",
-    "prereqInfo": "recommended for students interested in chemical engineering and/or materials science and engineering majors. ",
+    "info": "survey the roles chemical and materials engineers play in addressing societal and technological challenges in areas including human health and biotechnology, energy and sustainability, and data-driven discovery and design. lectures, panel discussions, and interactive exercises.\n\nrecommended for students interested in chemical engineering and/or materials science and engineering majors.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -71,6 +71,11 @@
           "code": "MATS 2001",
           "subject": "MATS",
           "id": "2001"
+        },
+        {
+          "code": "MATS 2001",
+          "subject": "MATS",
+          "id": "2001"
         }
       ]
     }
@@ -98,7 +103,7 @@
     "subject": "MATS",
     "id": "3002",
     "title": "Diffusion",
-    "info": "mass transport in solids: solid state diffusion, fick's laws, defects/diffusion mechanisms. mass transport in fluids: fluid flow, diffusion with convection, mass transfer. kinetics of chemical reactions and phase transformations. computer-based problems illustrating applications. ",
+    "info": "mass transport in solids: solid state diffusion, fick's laws, defects/diffusion mechanisms. mass transport in fluids: fluid flow, diffusion with convection, mass transfer. kinetics of chemical reactions and phase transformations. computer-based problems illustrating applications.",
     "prereqInfo": "3001, 3141, [math 2373 or equiv], upper div mat",
     "prereq": {
       "and": [
@@ -212,7 +217,11 @@
     "title": "Indust Assign I",
     "info": "industrial work assignment in engineering co-op program. formal report on technical project related to industrial work.",
     "prereqInfo": "mats upper div, completion of required courses in mats program through fall sem of 3rd yr, gpa of at least 2.80, regis in co-op program",
-    "prereq": []
+    "prereq": {
+      "code": "MATS 80",
+      "subject": "MATS",
+      "id": "80"
+    }
   },
   {
     "code": "MATS 3045",
@@ -228,7 +237,7 @@
     "subject": "MATS",
     "id": "3141",
     "title": "Numerical Methods for MatS",
-    "info": "mathematics and numerical/computation methods for materials science. example problems include: diffusion problems; coupled diffusion/kinetics problems; nucleation, growth and crystallization; quantum mechanics/electrostatic problems relevant to electronic/magnetic/optical devices. the use of matlab will be emphasized. ",
+    "info": "mathematics and numerical/computation methods for materials science. example problems include: diffusion problems; coupled diffusion/kinetics problems; nucleation, growth and crystallization; quantum mechanics/electrostatic problems relevant to electronic/magnetic/optical devices. the use of matlab will be emphasized.",
     "prereqInfo": "math 2374 or equivalent, mats 3011 (or &) coreqs: math 2373 or equivalent, chem 4502/phys 2303",
     "prereq": {
       "and": [
@@ -303,9 +312,18 @@
     "info": "industrial assignment in engineering co-op program. application of materials science principles to engineering design problems in an industrial work environment.  formal written report and presentation.",
     "prereqInfo": "3041, gpa of at least 2.80, registration in co-op program",
     "prereq": {
-      "code": "MATS 3041",
-      "subject": "MATS",
-      "id": "3041"
+      "and": [
+        {
+          "code": "MATS 3041",
+          "subject": "MATS",
+          "id": "3041"
+        },
+        {
+          "code": "MATS 80",
+          "subject": "MATS",
+          "id": "80"
+        }
+      ]
     }
   },
   {
@@ -375,7 +393,7 @@
     "subject": "MATS",
     "id": "4221",
     "title": "Mat. Performance",
-    "info": "thermal/mechanical processing to control properties/other applications. analysis of costs/performance, failure in metallurgical structures by use of fracture mechanics methodology. ",
+    "info": "thermal/mechanical processing to control properties/other applications. analysis of costs/performance, failure in metallurgical structures by use of fracture mechanics methodology.",
     "prereqInfo": "3012, aem 2031, upper div mats",
     "prereq": {
       "and": [
@@ -414,6 +432,11 @@
           "code": "MATS 4212",
           "subject": "MATS",
           "id": "4212"
+        },
+        {
+          "code": "MATS 4214",
+          "subject": "MATS",
+          "id": "4214"
         },
         {
           "code": "MATS 4214",
@@ -521,15 +544,6 @@
     "prereq": []
   },
   {
-    "code": "MATS 4594H",
-    "subject": "MATS",
-    "id": "4594H",
-    "title": "Directed Research - Honors",
-    "info": "independent lab research under faculty supervision for upper division students wanting honors experience.",
-    "prereqInfo": "instr and dugs consent, upper div honor mats major",
-    "prereq": []
-  },
-  {
     "code": "MATS 5221",
     "subject": "MATS",
     "id": "5221",
@@ -619,7 +633,7 @@
     "subject": "MATS",
     "id": "5801",
     "title": "Opt & Energy Systems Eng",
-    "info": "mathematical optimization is a rigorous and systematic method for modeling and solving decision-making problems. it has become an indispensable tool in various disciplines, including economics, science, and engineering. in this course, students are introduced to the theory of mathematical optimization, systematic approaches to modeling complex optimization problems, and state-of-the-art algorithms for solving them. while the presented methods are general, we focus on applications in chemical engineering, energy systems engineering, and related disciplines. many of the applications are directly related to the efficient design and operation of sustainable industrial systems.\n",
+    "info": "mathematical optimization is a rigorous and systematic method for modeling and solving decision-making problems. it has become an indispensable tool in various disciplines, including economics, science, and engineering. in this course, students are introduced to the theory of mathematical optimization, systematic approaches to modeling complex optimization problems, and state-of-the-art algorithms for solving them. while the presented methods are general, we focus on applications in chemical engineering, energy systems engineering, and related disciplines. many of the applications are directly related to the efficient design and operation of sustainable industrial systems.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -718,8 +732,8 @@
     "subject": "MATS",
     "id": "8201",
     "title": "Applied Math",
-    "info": "integrated approach to solving linear mathematical problems. linear algebraic equations. linear ordinary and partial differential equations using theoretical/numerical analysis based on linear operator theory.\nprereq: materials science grad student or instructor consent.",
-    "prereqInfo": null,
+    "info": "integrated approach to solving linear mathematical problems. linear algebraic equations. linear ordinary and partial differential equations using theoretical/numerical analysis based on linear operator theory.",
+    "prereqInfo": "materials science grad student or instructor consent.",
     "prereq": []
   },
   {
@@ -763,7 +777,7 @@
     "subject": "MATS",
     "id": "8214",
     "title": "Electr Props Organic Materials",
-    "info": "introduction to current and prospective applications of organic materials in electronic, electroluminescent, and photoconductive devices. bonding, electronic structure, charge carriers, transport mechanisms, luminescence, and photoconductivity in molecular crystals and conducting polymers. ",
+    "info": "introduction to current and prospective applications of organic materials in electronic, electroluminescent, and photoconductive devices. bonding, electronic structure, charge carriers, transport mechanisms, luminescence, and photoconductivity in molecular crystals and conducting polymers.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -871,7 +885,7 @@
     "subject": "MATS",
     "id": "8593",
     "title": "M.S. Plan B Project I",
-    "info": "this course is one of two key project components for the plan b masters program.\nobjectives:\n- learn to review, evaluate, and synthesize scientific literature\n- identify and communicate the scientific premise and motivation for a doctoral thesis scale research study ",
+    "info": "this course is one of two key project components for the plan b masters program.\nobjectives:\n- learn to review, evaluate, and synthesize scientific literature\n- identify and communicate the scientific premise and motivation for a doctoral thesis scale research study",
     "prereqInfo": null,
     "prereq": []
   },
@@ -880,7 +894,7 @@
     "subject": "MATS",
     "id": "8594",
     "title": "M.S. Plan B Project II",
-    "info": "this course is one of two key project components for the plan b masters program. \nobjectives:\n- learn to formulate a research plan, devise and substantiate effective methods\n- identify and communicate the scientific premise and motivation for a doctoral thesis scale research study \n",
+    "info": "this course is one of two key project components for the plan b masters program. \nobjectives:\n- learn to formulate a research plan, devise and substantiate effective methods\n- identify and communicate the scientific premise and motivation for a doctoral thesis scale research study",
     "prereqInfo": null,
     "prereq": []
   },
@@ -891,7 +905,11 @@
     "title": "Doct Pre-Thesis Cr",
     "info": "tbd",
     "prereqInfo": "doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": []
+    "prereq": {
+      "code": "MATS 60",
+      "subject": "MATS",
+      "id": "60"
+    }
   },
   {
     "code": "MATS 8777",
@@ -900,7 +918,11 @@
     "title": "Thesis Credit:Mast*",
     "info": "(no description)",
     "prereqInfo": "max 18 cr per semester or summer; 10 cr total required [plan a only]",
-    "prereq": []
+    "prereq": {
+      "code": "MATS 10",
+      "subject": "MATS",
+      "id": "10"
+    }
   },
   {
     "code": "MATS 8888",
@@ -916,7 +938,7 @@
     "subject": "MATS",
     "id": "8900",
     "title": "Seminar",
-    "info": "presentation and discussion of papers concerning the newer developments in chemical engineering and materials science and engineering.\n",
+    "info": "presentation and discussion of papers concerning the newer developments in chemical engineering and materials science and engineering.",
     "prereqInfo": null,
     "prereq": []
   },

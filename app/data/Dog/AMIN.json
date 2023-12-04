@@ -112,8 +112,8 @@
     "subject": "AMIN",
     "id": "1912",
     "title": "Strange Spirits Am. Indian Lit",
-    "info": "maybe you've seen a movie where the characters spot some strange creature moving through the dark woods of a shadowy night and one of them explains, \\\"it's a windigo. native americans say it eats human flesh.\\\" maybe you wondered what this monster is and what native people think of it. maybe you thought it strange that a film was using a creature from native tradition to threaten non-native characters. maybe you thought using such a creature was a bit too similar to those old movies where \\\"savage\\\" indians threaten pioneer families.",
-    "prereqInfo": "in this seminar, we explore what strange spirits like windigos, sasquatch, or star beings (aliens) mean in native and non-native contexts. in indigenous contexts, such stories carry knowledge about how to live ethically with the world. we will also examine texts by non-natives that engage with the native content of these stories, asking whether they engage with this content as knowledge or as entertainment. our comparative examination raises important questions about the relation of colonialism to the appropriation of native lands and cultural expressions.",
+    "info": "maybe you've seen a movie where the characters spot some strange creature moving through the dark woods of a shadowy night and one of them explains, \\\"it's a windigo. native americans say it eats human flesh.\\\" maybe you wondered what this monster is and what native people think of it. maybe you thought it strange that a film was using a creature from native tradition to threaten non-native characters. maybe you thought using such a creature was a bit too similar to those old movies where \\\"savage\\\" indians threaten pioneer families.\n\nin this seminar, we explore what strange spirits like windigos, sasquatch, or star beings (aliens) mean in native and non-native contexts. in indigenous contexts, such stories carry knowledge about how to live ethically with the world. we will also examine texts by non-natives that engage with the native content of these stories, asking whether they engage with this content as knowledge or as entertainment. our comparative examination raises important questions about the relation of colonialism to the appropriation of native lands and cultural expressions.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -237,7 +237,7 @@
     "subject": "AMIN",
     "id": "3205",
     "title": "Pre-Columbian Art",
-    "info": "art/architecture of native peoples of americas from twelfth century b.c. until arrival of europeans in sixteenth century. ways that people living in diverse areas of south america/mesoamerica used art/architecture. tools to investigate pre-columbian art at more advanced levels.\n",
+    "info": "art/architecture of native peoples of americas from twelfth century b.c. until arrival of europeans in sixteenth century. ways that people living in diverse areas of south america/mesoamerica used art/architecture. tools to investigate pre-columbian art at more advanced levels.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -264,7 +264,7 @@
     "subject": "AMIN",
     "id": "3304",
     "title": "Indigenous Filmmakers",
-    "info": "analysis of film/video made by american indian writers, directors, producers within contexts of tribally specific cultures/histories, as well as within context of us culture/film history. ",
+    "info": "analysis of film/video made by american indian writers, directors, producers within contexts of tribally specific cultures/histories, as well as within context of us culture/film history.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -345,9 +345,22 @@
     "subject": "AMIN",
     "id": "3604",
     "title": "Indigenous Immersion Methods",
-    "info": "prepares students as advanced language students to participate in and facilitate immersion environments within both formal and informal settings including the home, second language classrooms, immersion classrooms, language tables, immersion camps, and other community settings. prereq: ojib 3104, dako 3124 or four semesters of another target language, or with instructor approval.",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "prepares students as advanced language students to participate in and facilitate immersion environments within both formal and informal settings including the home, second language classrooms, immersion classrooms, language tables, immersion camps, and other community settings.",
+    "prereqInfo": "ojib 3104, dako 3124 or four semesters of another target language, or with instructor approval.",
+    "prereq": {
+      "and": [
+        {
+          "code": "OJIB 3104",
+          "subject": "OJIB",
+          "id": "3104"
+        },
+        {
+          "code": "DAKO 3124",
+          "subject": "DAKO",
+          "id": "3124"
+        }
+      ]
+    }
   },
   {
     "code": "AMIN 3701",
@@ -408,7 +421,7 @@
     "subject": "AMIN",
     "id": "3872",
     "title": "Indians since 1830",
-    "info": "focus on the impact of federal indian policy on american indian cultures and societies, and on american indian culture change.  ",
+    "info": "focus on the impact of federal indian policy on american indian cultures and societies, and on american indian culture change.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -453,7 +466,7 @@
     "subject": "AMIN",
     "id": "4231",
     "title": "Color of Public Policy in US",
-    "info": "structural or institutional conditions through which people of color have been marginalized in public policy. critical evaluation of social theory in addressing the problem of contemporary communities of color in the united states. ",
+    "info": "structural or institutional conditions through which people of color have been marginalized in public policy. critical evaluation of social theory in addressing the problem of contemporary communities of color in the united states.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -506,7 +519,7 @@
     "subject": "AMIN",
     "id": "4515",
     "title": "Am In Movements",
-    "info": "american indian organizations and social movements of the 20th century. explorations of political activism on and off reservations; treaty disputes; economic development strategies; the revival of traditional beliefs.\n",
+    "info": "american indian organizations and social movements of the 20th century. explorations of political activism on and off reservations; treaty disputes; economic development strategies; the revival of traditional beliefs.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -551,8 +564,8 @@
     "subject": "AMIN",
     "id": "4991",
     "title": "Amer Indian Independent Study",
-    "info": "prereq-instr consent, dept consent, college consent.",
-    "prereqInfo": null,
+    "info": "",
+    "prereqInfo": "-instr consent, dept consent, college consent.",
     "prereq": []
   },
   {
@@ -560,8 +573,8 @@
     "subject": "AMIN",
     "id": "4994",
     "title": "Directed Research",
-    "info": "individually arranged research with faculty to meet student needs and interests.\nprereq-instr consent, dept consent, college consent.",
-    "prereqInfo": null,
+    "info": "individually arranged research with faculty to meet student needs and interests.",
+    "prereqInfo": "-instr consent, dept consent, college consent.",
     "prereq": []
   },
   {
@@ -569,8 +582,8 @@
     "subject": "AMIN",
     "id": "4996",
     "title": "Am In Field Study",
-    "info": "opportunities for experiential learning in a variety of american indian community settings. consult department faculty at least one term before enrolling.\nprereq-instr consent, dept consent, college consent.",
-    "prereqInfo": null,
+    "info": "opportunities for experiential learning in a variety of american indian community settings. consult department faculty at least one term before enrolling.",
+    "prereqInfo": "-instr consent, dept consent, college consent.",
     "prereq": []
   },
   {
@@ -680,7 +693,7 @@
     "subject": "AMIN",
     "id": "5407",
     "title": "Craft of Amer Indian Ethnohist",
-    "info": "conventions and paradigmatic approaches scholars follow to represent/interpret written documents and oral traditions in constructing their narratives. craft of ethnohistory: techniques, methods, styles of criticism.  ",
+    "info": "conventions and paradigmatic approaches scholars follow to represent/interpret written documents and oral traditions in constructing their narratives. craft of ethnohistory: techniques, methods, styles of criticism.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -716,7 +729,7 @@
     "subject": "AMIN",
     "id": "5802",
     "title": "The Inka and Their Ancestors",
-    "info": "art/architecture of people of andes, from first appearance in archaeological record until spanish invasion in 16th century. problems, theoretical/methodological approaches. analysis of scholarly writing, focusing on evidence. ",
+    "info": "art/architecture of people of andes, from first appearance in archaeological record until spanish invasion in 16th century. problems, theoretical/methodological approaches. analysis of scholarly writing, focusing on evidence.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -725,8 +738,8 @@
     "subject": "AMIN",
     "id": "5890",
     "title": "Readings in Amer Indian Hist",
-    "info": "students in this course will read recently published scholarship in american indian and indigenous history that takes up pressing research questions, promises to push inquiry in new directions, and that theorizes important interventions in our thinking to understand where the field is situated and moving. reflecting the instinctively interdisciplinary nature of american indian and indigenous history, readings will be drawn not just from the discipline of history but across other disciplines such as anthropology, american studies, geography, literature, political science, and legal studies. as well, readings will include scholarship that reaches out to embrace the global indigenous studies turn.\nprereq: advanced undergrad with instr consent or grad student",
-    "prereqInfo": null,
+    "info": "students in this course will read recently published scholarship in american indian and indigenous history that takes up pressing research questions, promises to push inquiry in new directions, and that theorizes important interventions in our thinking to understand where the field is situated and moving. reflecting the instinctively interdisciplinary nature of american indian and indigenous history, readings will be drawn not just from the discipline of history but across other disciplines such as anthropology, american studies, geography, literature, political science, and legal studies. as well, readings will include scholarship that reaches out to embrace the global indigenous studies turn.",
+    "prereqInfo": "advanced undergrad with instr consent or grad student",
     "prereq": []
   },
   {

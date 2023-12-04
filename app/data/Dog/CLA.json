@@ -9,29 +9,11 @@
     "prereq": []
   },
   {
-    "code": "CLA 1001H",
-    "subject": "CLA",
-    "id": "1001H",
-    "title": "Honors CLA First-Year Exper I",
-    "info": "in-class/out-of-class learning experiences/reflection. charting educational path on basis of strengths, values, life goals.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
     "code": "CLA 1002",
     "subject": "CLA",
     "id": "1002",
     "title": "CLA First-Year Experience II",
     "info": "this course is designed to help each student achieve their individual goals by promoting proactive educational and career planning, introducing cla’s core career competencies, and encouraging students to reflect on how they are developing them in their first year.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "CLA 1002H",
-    "subject": "CLA",
-    "id": "1002H",
-    "title": "Honors CLA First-Year Exper II",
-    "info": "in-class/out-of-class learning experiences/reflection. charting educational path on basis of strengths, values, life goals.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -49,8 +31,8 @@
     "subject": "CLA",
     "id": "1005",
     "title": "Intro to Liberal Arts Learning",
-    "info": "this course is about you: your identity, your dreams, your goals, your values, your strengths, and your first year university experience. this course is also about ?you? in the plural sense. more specifically, through a shared experience that includes dialogue, readings, videos, and a group project. we will explore how diverse us college students understand their college education, what they want from it, and how they negotiate and give meaning to their university experience.\n\nthis course is designed to help you navigate the challenges of college, the workplace, and society and propel you towards personal excellence, fulfillment, and wellness. as active partners in the quest for educational and personal success, our teaching team will work with you to develop the knowledge and understanding of self, society, and the university required to successfully navigate college life in an increasingly diverse and interconnected world. ",
-    "prereqInfo": "cla presidents emerging scholars, freshman ",
+    "info": "this course is about you: your identity, your dreams, your goals, your values, your strengths, and your first year university experience. this course is also about ?you? in the plural sense. more specifically, through a shared experience that includes dialogue, readings, videos, and a group project. we will explore how diverse us college students understand their college education, what they want from it, and how they negotiate and give meaning to their university experience.\n\nthis course is designed to help you navigate the challenges of college, the workplace, and society and propel you towards personal excellence, fulfillment, and wellness. as active partners in the quest for educational and personal success, our teaching team will work with you to develop the knowledge and understanding of self, society, and the university required to successfully navigate college life in an increasingly diverse and interconnected world.",
+    "prereqInfo": "cla presidents emerging scholars, freshman",
     "prereq": []
   },
   {
@@ -58,7 +40,7 @@
     "subject": "CLA",
     "id": "1007",
     "title": "CLA 1st Yr Exper: Indep Study",
-    "info": "independent study version of cla 1001/1002. by permission number only.  ",
+    "info": "independent study version of cla 1001/1002. by permission number only.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -85,8 +67,8 @@
     "subject": "CLA",
     "id": "1051",
     "title": "CLA Freshman Research",
-    "info": "freshman research or creative opportunity with faculty. \nprereq-available only to cla freshmen receiving a cla research opportunity.",
-    "prereqInfo": null,
+    "info": "freshman research or creative opportunity with faculty.",
+    "prereqInfo": "-available only to cla freshmen receiving a cla research opportunity.",
     "prereq": []
   },
   {
@@ -94,8 +76,8 @@
     "subject": "CLA",
     "id": "1052",
     "title": "Research & Creative Experience",
-    "info": "freshman research or creative opportunity with faculty.\nprereq-only available to cla freshmen receiving a cla research opportunity.",
-    "prereqInfo": null,
+    "info": "freshman research or creative opportunity with faculty.",
+    "prereqInfo": "-only available to cla freshmen receiving a cla research opportunity.",
     "prereq": []
   },
   {
@@ -103,9 +85,13 @@
     "subject": "CLA",
     "id": "1053",
     "title": "Continued Research Experience",
-    "info": "continued work with matched faculty as part of their first year research or creative opportunity with faculty.\nprereq-only available to cla freshmen or transfer students who have completed cla 1052.",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "continued work with matched faculty as part of their first year research or creative opportunity with faculty.",
+    "prereqInfo": "-only available to cla freshmen or transfer students who have completed cla 1052.",
+    "prereq": {
+      "code": "CLA 1052",
+      "subject": "CLA",
+      "id": "1052"
+    }
   },
   {
     "code": "CLA 1200",
@@ -121,7 +107,7 @@
     "subject": "CLA",
     "id": "1201",
     "title": "BA MD Medical Ed Seminar I",
-    "info": "this is the first course in a series of 4 required courses for students enrolled in the ba/md joint admissions scholars program. the curriculum is based on aamc competencies for entering medical students with an objective of preparing students for success in medical school and as practicing physicians. the course will be taught by medical school faculty. ",
+    "info": "this is the first course in a series of 4 required courses for students enrolled in the ba/md joint admissions scholars program. the curriculum is based on aamc competencies for entering medical students with an objective of preparing students for success in medical school and as practicing physicians. the course will be taught by medical school faculty.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -166,7 +152,7 @@
     "subject": "CLA",
     "id": "1401",
     "title": "Leadership,Citizenship & the U",
-    "info": "local civic history. leadership. technological/academic skill development. sense of agency/ownership as citizens within the university community. ",
+    "info": "local civic history. leadership. technological/academic skill development. sense of agency/ownership as citizens within the university community.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -350,7 +336,7 @@
     "subject": "CLA",
     "id": "3001",
     "title": "CLA Transfer Smster Experience",
-    "info": "this course will support first-semester college of liberal arts transfer students in making a smooth transition and connect them with campus resources. although online, some in-person assignments are required (available at various times) to help students benefit from resources, meet people, and develop a sense of belonging on campus. time will also be dedicated to major exploration and career/post-graduation planning, so that students are well-prepared to meet their individual goals. some weekly lessons will carefully relate to cla's career readiness themes, and involve taking a personal assessment and finalizing a new resume. ",
+    "info": "this course will support first-semester college of liberal arts transfer students in making a smooth transition and connect them with campus resources. although online, some in-person assignments are required (available at various times) to help students benefit from resources, meet people, and develop a sense of belonging on campus. time will also be dedicated to major exploration and career/post-graduation planning, so that students are well-prepared to meet their individual goals. some weekly lessons will carefully relate to cla's career readiness themes, and involve taking a personal assessment and finalizing a new resume.",
     "prereqInfo": "must be a new cla transfer student in their first or second semester on the umtc campus.",
     "prereq": []
   },
@@ -359,8 +345,8 @@
     "subject": "CLA",
     "id": "3002",
     "title": "Career Kickstarter",
-    "info": "for sophomores and juniors. this course helps you explore and apply for internships or other career-related opportunities for undergraduate students (e.g., undergraduate research, leadership, etc.). you'll have opportunities to begin learning and gaining experience through employer engagement within the class.",
-    "prereqInfo": "assignments include researching internship options, writing cover letters, and learning how to network as a student. ",
+    "info": "for sophomores and juniors. this course helps you explore and apply for internships or other career-related opportunities for undergraduate students (e.g., undergraduate research, leadership, etc.). you'll have opportunities to begin learning and gaining experience through employer engagement within the class.\n\nassignments include researching internship options, writing cover letters, and learning how to network as a student.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -386,8 +372,8 @@
     "subject": "CLA",
     "id": "3101",
     "title": "Career Exploration",
-    "info": "for cla transfer students or students considering transferring to cla. this course helps you learn about campus career resources and your cla core career competencies, write cover letters, and connect career fields and cla majors with careers. ",
-    "prereqInfo": "assignments include learning about and using campus career resources, writing cover letters, and exploring career fields common to cla students.",
+    "info": "for cla transfer students or students considering transferring to cla. this course helps you learn about campus career resources and your cla core career competencies, write cover letters, and connect career fields and cla majors with careers. \n\nassignments include learning about and using campus career resources, writing cover letters, and exploring career fields common to cla students.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -395,7 +381,7 @@
     "subject": "CLA",
     "id": "3201",
     "title": "Career Planning",
-    "info": "for juniors and seniors. this course helps you plan and prepare for your post-graduation plans, such as finding a job or applying for graduate school. assignments include preparing for interviews, conducting informational interviews, and crafting your personal brand and online presence. ",
+    "info": "for juniors and seniors. this course helps you plan and prepare for your post-graduation plans, such as finding a job or applying for graduate school. assignments include preparing for interviews, conducting informational interviews, and crafting your personal brand and online presence.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -440,7 +426,7 @@
     "subject": "CLA",
     "id": "3896",
     "title": "Internship Reflection",
-    "info": "for any student with an internship. allows students to examine, reflect on, and construct meaning from their internship experience through self assessment of personal and career needs and goals, examination of what it means to be a \\\"professional\\\" and operate within professional environments, evaluation of performance and accomplishments, and articulation of knowledge and skills via effective resume writing. ",
+    "info": "for any student with an internship. allows students to examine, reflect on, and construct meaning from their internship experience through self assessment of personal and career needs and goals, examination of what it means to be a \\\"professional\\\" and operate within professional environments, evaluation of performance and accomplishments, and articulation of knowledge and skills via effective resume writing.",
     "prereqInfo": "dept consent",
     "prereq": []
   },

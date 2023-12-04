@@ -13,16 +13,7 @@
     "subject": "HRIR",
     "id": "3021",
     "title": "Human Capital Management",
-    "info": "this course will focus on the people side of business. we will look at how, through managing and leading people, we can create an engaged, productive workforce in order to achieve organizational strategic objectives. the content of this course is complementary to any major or minor.",
-    "prereqInfo": "major topics in this course:\n- managing people in an ethical, legal way that is aligned with corporate strategy and helps organizations reach their goals;\n- successfully attracting, recruiting, and selecting talented people;\n- creating interesting, engaging jobs and giving meaningful feedback in order to retain great employees;\n- rewarding and motivating people through intrinsic and extrinsic methods to encourage the most effective and \\\"right\\\" kind of employee behaviors to create an engaged, productive workforce through people strategies and practices.",
-    "prereq": []
-  },
-  {
-    "code": "HRIR 3021H",
-    "subject": "HRIR",
-    "id": "3021H",
-    "title": "Honors: Human Capital Mgmt",
-    "info": "human capital is an essential role in today’s organizations. if you plan to be a manager or organizational leader, or if you plan to major or minor in hr, this course is an essential introduction to the role of human resource management in organizations. in this class you will learn:\nhow to recruit and select the best people.\nhow to evaluate performance and give employees feedback.\nhow to help individuals improve when their performance is subpar, and how to conduct terminations when those efforts do not work.\nmethods that are used to develop individuals so they can move into higher leadership roles.\nhow to examine turnover problems and retain employees.\nhow large companies set pay levels to ensure internal and external equity.\nrecent issues around worker rights and unions.\nthe basics of employment law. \ncontemporary human resources issues that employers are dealing with, such as labor market shortages and sexual harassment policies. ",
+    "info": "this course will focus on the people side of business. we will look at how, through managing and leading people, we can create an engaged, productive workforce in order to achieve organizational strategic objectives. the content of this course is complementary to any major or minor.\n\nmajor topics in this course:\n- managing people in an ethical, legal way that is aligned with corporate strategy and helps organizations reach their goals;\n- successfully attracting, recruiting, and selecting talented people;\n- creating interesting, engaging jobs and giving meaningful feedback in order to retain great employees;\n- rewarding and motivating people through intrinsic and extrinsic methods to encourage the most effective and \\\"right\\\" kind of employee behaviors to create an engaged, productive workforce through people strategies and practices.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -86,18 +77,18 @@
     "id": "3111",
     "title": "HR Analytics",
     "info": "this course introduces students to fundamentals of machine learning with a strong focus on communicating insights from data analysis and analytics. it is designed to provide students with opportunities to develop data processing, analysis, and visualization skills by taking a data-driven approach to hr’s impact on the business, with a topical focus on diversity, equity and inclusion.  students will learn how to effectively communicate insights from data analysis and analytics through streamlined storytelling presentations aimed to provide compelling recommendations to decision makers.  students will be given the opportunity to use excel and/or tableau, and will also be introduced to predictive analytics software.",
-    "prereqInfo": "hrir3021 or hrir3021h or ibus 3021 and sco 2550 or ba 2551 or equivalent statistics course\n",
+    "prereqInfo": "hrir3021 or hrir3021h or ibus 3021 and sco 2550 or ba 2551 or equivalent statistics course",
     "prereq": {
       "and": [
+        {
+          "code": "HRIR 3021",
+          "subject": "HRIR",
+          "id": "3021"
+        },
         {
           "code": "IBUS 3021",
           "subject": "IBUS",
           "id": "3021"
-        },
-        {
-          "code": "SCO 2550H",
-          "subject": "SCO",
-          "id": "2550H"
         },
         {
           "code": "BA 2551",
@@ -121,7 +112,7 @@
     "subject": "HRIR",
     "id": "4801W",
     "title": "HRIR Capstone",
-    "info": "this course is a writing intensive capstone course for undergraduates majoring in hr. given the emphasis of the society for human resource management (shrm) on the critical need for hr professionals to both be leaders and understand leadership development, we focus this capstone class on the topic of leadership within the context of the shrm competency model. the first part of the course provides students with a solid understanding of leadership needs within organizations and current tools, vendors, and techniques that can be used to develop leadership bench strength and capability within companies. the second part of the course features guest speakers from different areas of hr and student presentations based on the shrm competency model. the course will help students reflect upon the extreme importance of leadership, how to develop organizational leaders, and will provide means to develop their own first level leadership and human resources competencies.  ",
+    "info": "this course is a writing intensive capstone course for undergraduates majoring in hr. given the emphasis of the society for human resource management (shrm) on the critical need for hr professionals to both be leaders and understand leadership development, we focus this capstone class on the topic of leadership within the context of the shrm competency model. the first part of the course provides students with a solid understanding of leadership needs within organizations and current tools, vendors, and techniques that can be used to develop leadership bench strength and capability within companies. the second part of the course features guest speakers from different areas of hr and student presentations based on the shrm competency model. the course will help students reflect upon the extreme importance of leadership, how to develop organizational leaders, and will provide means to develop their own first level leadership and human resources competencies.",
     "prereqInfo": "3021, 6 hrir credits, [senior status or dept consent]",
     "prereq": {
       "code": "HRIR 3021",
@@ -134,13 +125,9 @@
     "subject": "HRIR",
     "id": "5000",
     "title": "Topics in HRIR",
-    "info": "topics in human resources/industrial relations.",
-    "prereqInfo": "hrir ma student must register a-f, 3021, [csom or hrd junior or senior or dept consent]",
-    "prereq": {
-      "code": "HRIR 3021",
-      "subject": "HRIR",
-      "id": "3021"
-    }
+    "info": "topics in human resources/industrial relations.\n\nhrir ma student must register a-f, 3021, [csom or hrd junior or senior or dept consent]",
+    "prereqInfo": null,
+    "prereq": []
   },
   {
     "code": "HRIR 5021",
@@ -187,7 +174,7 @@
     "subject": "HRIR",
     "id": "5225",
     "title": "Comp Intl HRIR",
-    "info": "comparison of key human resource management practices, industrial relations systems, collective bargaining across different parts of the world.  analysis of the cultural, political, and historical sources of these differences and their implications for workers, organizations, and societies. ",
+    "info": "comparison of key human resource management practices, industrial relations systems, collective bargaining across different parts of the world.  analysis of the cultural, political, and historical sources of these differences and their implications for workers, organizations, and societies.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -222,7 +209,7 @@
     "subject": "HRIR",
     "id": "5443",
     "title": "Principles of Coaching",
-    "info": "skills/competencies required to coach, mentor, develop employees/leaders. managing coaching process. planning coaching relationship. coaching as leadership development strategy. coaching executives. ",
+    "info": "skills/competencies required to coach, mentor, develop employees/leaders. managing coaching process. planning coaching relationship. coaching as leadership development strategy. coaching executives.",
     "prereqInfo": "hrir ma student must register a-f, [csom or hrd junior or senior or dept consent] with hrir 3021",
     "prereq": {
       "code": "HRIR 3021",
@@ -301,7 +288,7 @@
     "subject": "HRIR",
     "id": "6001",
     "title": "Business Principles for HRIR",
-    "info": "nature/functions of business corporations. role of hrir in business. markets, competition, profitability, employment, investment. introduction to finance/accounting. global business pressures/hrir. trends for future. ",
+    "info": "nature/functions of business corporations. role of hrir in business. markets, competition, profitability, employment, investment. introduction to finance/accounting. global business pressures/hrir. trends for future.",
     "prereqInfo": "mhrir student or dept consent",
     "prereq": []
   },
@@ -319,7 +306,7 @@
     "subject": "HRIR",
     "id": "6111",
     "title": "Fndns of People Analytics",
-    "info": "theory/applications of methods of data analysis for using data in hrir decision-making. descriptive/inferential statistics, especially hypothesis tests/confidence intervals. regression analysis. identification of appropriate techniques. avoiding unreliable inferences. introduction to hrir metrics. ",
+    "info": "theory/applications of methods of data analysis for using data in hrir decision-making. descriptive/inferential statistics, especially hypothesis tests/confidence intervals. regression analysis. identification of appropriate techniques. avoiding unreliable inferences. introduction to hrir metrics.",
     "prereqInfo": "mhrir student or dept consent",
     "prereq": []
   },
@@ -328,7 +315,7 @@
     "subject": "HRIR",
     "id": "6112",
     "title": "People Analytics",
-    "info": "grounded in a data-driven approach to solving business challenges tied to people, this course emphasizes how students can apply their hr domain knowledge to inform, shape, and deliver on people analytics projects.  the course aims to give you exposure to core concepts in machine learning, including prediction, classification, and segmentation, in order to collaborate with data scientists, generate insights, and inform decisions. students will learn how to more effectively communicate their data insights through streamlined storytelling to provide compelling recommendations to decision makers.  students will be given the opportunity to use excel and/or tableau, and will also be introduced to predictive analytics software.\n",
+    "info": "grounded in a data-driven approach to solving business challenges tied to people, this course emphasizes how students can apply their hr domain knowledge to inform, shape, and deliver on people analytics projects.  the course aims to give you exposure to core concepts in machine learning, including prediction, classification, and segmentation, in order to collaborate with data scientists, generate insights, and inform decisions. students will learn how to more effectively communicate their data insights through streamlined storytelling to provide compelling recommendations to decision makers.  students will be given the opportunity to use excel and/or tableau, and will also be introduced to predictive analytics software.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -883,7 +870,11 @@
     "title": "Doct Pre-Thesis Cr*",
     "info": "tbd",
     "prereqInfo": "doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": []
+    "prereq": {
+      "code": "HRIR 60",
+      "subject": "HRIR",
+      "id": "60"
+    }
   },
   {
     "code": "HRIR 8777",

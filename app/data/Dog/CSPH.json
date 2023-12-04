@@ -13,7 +13,7 @@
     "subject": "CSPH",
     "id": "1001",
     "title": "Health and Wellbeing",
-    "info": "this course explores models of health and wellbeing, investigating the interconnection of our body, mind, and spirit, as well as our connections with other people and the environment. students will read popular and scholarly articles and watch videos on aspects of health and wellbeing.  students will also practice short weekly wellbeing activities and apply learnings to their own and societal health and wellbeing.   ",
+    "info": "this course explores models of health and wellbeing, investigating the interconnection of our body, mind, and spirit, as well as our connections with other people and the environment. students will read popular and scholarly articles and watch videos on aspects of health and wellbeing.  students will also practice short weekly wellbeing activities and apply learnings to their own and societal health and wellbeing.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -31,7 +31,7 @@
     "subject": "CSPH",
     "id": "1202",
     "title": "Music for Wellbeing",
-    "info": "in this course, we will explore music’s tremendous potential to influence our moods and overall wellbeing. specifically, we will examine (a) the ways in which music profoundly affects the brain and body, (b) how people around the world have used music to support emotional healing, throughout history, (c) current research on music for the reduction of anxiety and distress, and (d) specific ways for using music to promote your own calmness and equilibrium, even in times of high stress.  ",
+    "info": "in this course, we will explore music’s tremendous potential to influence our moods and overall wellbeing. specifically, we will examine (a) the ways in which music profoundly affects the brain and body, (b) how people around the world have used music to support emotional healing, throughout history, (c) current research on music for the reduction of anxiety and distress, and (d) specific ways for using music to promote your own calmness and equilibrium, even in times of high stress.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -58,18 +58,26 @@
     "subject": "CSPH",
     "id": "3001",
     "title": "Intro to Integrative Healing",
-    "info": "this course provides an overview of the current us healthcare system and us cultural views of health and wellness. within this context it also provides students with an introduction to various complementary and alternative medical systems (also known as complementary and integrative approaches) that might be integrated into the current way of thinking about health and wellness and treatment of illness/disease. examples include: whole systems of thinking about health such as traditional chinese medicine or native american healing; manual therapies like spinal manipulation and massage therapy; energy therapies like reiki and qigong; mind body therapies like yoga and meditation; and biologically based therapies like botanicals and aromatherapy. ",
+    "info": "this course provides an overview of the current us healthcare system and us cultural views of health and wellness. within this context it also provides students with an introduction to various complementary and alternative medical systems (also known as complementary and integrative approaches) that might be integrated into the current way of thinking about health and wellness and treatment of illness/disease. examples include: whole systems of thinking about health such as traditional chinese medicine or native american healing; manual therapies like spinal manipulation and massage therapy; energy therapies like reiki and qigong; mind body therapies like yoga and meditation; and biologically based therapies like botanicals and aromatherapy.",
     "prereqInfo": "junior or senior undergraduates (60+ credits), or instructor consent.",
-    "prereq": []
+    "prereq": {
+      "code": "CSPH 60",
+      "subject": "CSPH",
+      "id": "60"
+    }
   },
   {
     "code": "CSPH 3101",
     "subject": "CSPH",
     "id": "3101",
     "title": "Ecosystems of Well-Being",
-    "info": "this course focuses on information, practices, and tools that enable individuals and communities to build capacity for wellbeing. students will examine factors and ecosystems that contribute to health, happiness, and wellbeing and will develop a personal plan for health and wellbeing, a critique of an existing ecosystem and ideas for a community yet to be developed. ",
+    "info": "this course focuses on information, practices, and tools that enable individuals and communities to build capacity for wellbeing. students will examine factors and ecosystems that contribute to health, happiness, and wellbeing and will develop a personal plan for health and wellbeing, a critique of an existing ecosystem and ideas for a community yet to be developed.",
     "prereqInfo": "sophomore, junior or senior undergraduates (30+ credits) or instructor consent",
-    "prereq": []
+    "prereq": {
+      "code": "CSPH 30",
+      "subject": "CSPH",
+      "id": "30"
+    }
   },
   {
     "code": "CSPH 3201",
@@ -85,45 +93,55 @@
     "subject": "CSPH",
     "id": "3211",
     "title": "Living on Purpose",
-    "info": "exploring our purpose in life means asking and answering the essential question, “what makes me want to get out of bed in the morning?” purpose is that deepest belief within us where we have a strong sense of who we are, where we came from, and where we’re going. it is the ability to know yourself, know what you know, to reflect on it, and base your judgments, choices and actions on it. living on purpose is a course designed to help students explore questions of meaning and purpose in college and in their lives. in this class, students will examine the context and meaning of their own lives, explore other people’s ways of living on purpose, and consider the big questions that shape their present and future. through three retreats, readings, reflections, experiential exercises, and assignments, the course will offer students time to define their own purpose at this time in their lives and to help build a framework to lead a purposeful life now and into the future. ",
-    "prereqInfo": "prereq sophomore, junior or senior undergraduates (30+ credits) or instructor consent",
-    "prereq": []
+    "info": "exploring our purpose in life means asking and answering the essential question, “what makes me want to get out of bed in the morning?” purpose is that deepest belief within us where we have a strong sense of who we are, where we came from, and where we’re going. it is the ability to know yourself, know what you know, to reflect on it, and base your judgments, choices and actions on it. living on purpose is a course designed to help students explore questions of meaning and purpose in college and in their lives. in this class, students will examine the context and meaning of their own lives, explore other people’s ways of living on purpose, and consider the big questions that shape their present and future. through three retreats, readings, reflections, experiential exercises, and assignments, the course will offer students time to define their own purpose at this time in their lives and to help build a framework to lead a purposeful life now and into the future.",
+    "prereqInfo": "sophomore, junior or senior undergraduates (30+ credits) or instructor consent",
+    "prereq": {
+      "code": "CSPH 30",
+      "subject": "CSPH",
+      "id": "30"
+    }
   },
   {
     "code": "CSPH 3301",
     "subject": "CSPH",
     "id": "3301",
     "title": "Food Choices",
-    "info": "food production in our current industrial system feeds the world, but at a cost to the environment. in nutrition, we often talk about a healthy diet, but only occasionally do we link our food and diet choices to agricultural practices and the health of the planet. this class will link the concepts of human health and planetary health in terms of food. starting with the framework of complexity theory and gentle action, we will cover human food/nutrition needs and food security, how food is produced from farm to fork, labor, equity and race issues within agriculture and the food system, food choices and the earth’s bio-diversity, land and water use, climate change, organic and sustainable agriculture, marketing, processing and distribution, fair trade, and economic policies. ",
+    "info": "food production in our current industrial system feeds the world, but at a cost to the environment. in nutrition, we often talk about a healthy diet, but only occasionally do we link our food and diet choices to agricultural practices and the health of the planet. this class will link the concepts of human health and planetary health in terms of food. starting with the framework of complexity theory and gentle action, we will cover human food/nutrition needs and food security, how food is produced from farm to fork, labor, equity and race issues within agriculture and the food system, food choices and the earth’s bio-diversity, land and water use, climate change, organic and sustainable agriculture, marketing, processing and distribution, fair trade, and economic policies.",
     "prereqInfo": "junior or senior undergraduates (60+ credits) or instructor consent",
-    "prereq": []
+    "prereq": {
+      "code": "CSPH 60",
+      "subject": "CSPH",
+      "id": "60"
+    }
   },
   {
     "code": "CSPH 4311",
     "subject": "CSPH",
     "id": "4311",
     "title": "Foundations of Hatha Yoga",
-    "info": "this course is the first course in a sequence of three (3) courses in the university of minnesota yoga teachers’ education & training sequence. students who complete the three courses a-f or s/n may be qualified to register with yoga alliance (ya) as a 200 hour registered yoga teacher (ryt). students who audit the course cannot use the course to be registered with yoga alliance. \n\nthis course will introduce students to the anatomical considerations and understanding critical to executing safe and effective hatha yoga instruction. this course includes, as essential to hatha yoga, an overview of human gross anatomy and bodily systems (specifically neuro-musculoskeletal and respiratory systems). students will learn and practice foundational concepts of hatha yoga and movement, as related to yoga asana. additionally, students will be introduced to methods of effectively communicating these principles as a hatha yoga instructor. ",
+    "info": "this course is the first course in a sequence of three (3) courses in the university of minnesota yoga teachers’ education & training sequence. students who complete the three courses a-f or s/n may be qualified to register with yoga alliance (ya) as a 200 hour registered yoga teacher (ryt). students who audit the course cannot use the course to be registered with yoga alliance. \n\nthis course will introduce students to the anatomical considerations and understanding critical to executing safe and effective hatha yoga instruction. this course includes, as essential to hatha yoga, an overview of human gross anatomy and bodily systems (specifically neuro-musculoskeletal and respiratory systems). students will learn and practice foundational concepts of hatha yoga and movement, as related to yoga asana. additionally, students will be introduced to methods of effectively communicating these principles as a hatha yoga instructor.",
     "prereqInfo": "kin 3027 human anatomy for kinesiology students (or equivalent, with instructor permission). recommended: dnce 1331 for students with no prior yoga experience. these courses can be taken concurrently.",
-    "prereq": [
-      {
-        "code": "KIN 3027",
-        "subject": "KIN",
-        "id": "3027"
-      },
-      {
-        "code": "DNCE 1331",
-        "subject": "DNCE",
-        "id": "1331"
-      }
-    ]
+    "prereq": {
+      "or": [
+        {
+          "code": "KIN 3027",
+          "subject": "KIN",
+          "id": "3027"
+        },
+        {
+          "code": "DNCE 1331",
+          "subject": "DNCE",
+          "id": "1331"
+        }
+      ]
+    }
   },
   {
     "code": "CSPH 4312",
     "subject": "CSPH",
     "id": "4312",
     "title": "Hatha Yoga Philosophy",
-    "info": "this course is the second course in a sequence of three (3) courses in the university of minnesota yoga teachers’ education & training sequence. students who complete the three courses a-f or s/n may be qualified to register with yoga alliance (ya) as a 200 hour registered yoga teacher (ryt). students who audit the course may not use the course to be registered with yoga alliance. \n\nthis course will introduce students to the history, tradition, and philosophy of hatha yoga with an emphasis on the ethical practice of hatha yoga. through study of classical and modern text alike, students will learn foundational concepts of how to use this knowledge to facilitate a strong yoga asana, pranayama, and meditation practice as well as how to apply these principles in everyday life. additionally, students learn and practice methods of effectively introducing these principles as a hatha yoga teacher. ",
+    "info": "this course is the second course in a sequence of three (3) courses in the university of minnesota yoga teachers’ education & training sequence. students who complete the three courses a-f or s/n may be qualified to register with yoga alliance (ya) as a 200 hour registered yoga teacher (ryt). students who audit the course may not use the course to be registered with yoga alliance. \n\nthis course will introduce students to the history, tradition, and philosophy of hatha yoga with an emphasis on the ethical practice of hatha yoga. through study of classical and modern text alike, students will learn foundational concepts of how to use this knowledge to facilitate a strong yoga asana, pranayama, and meditation practice as well as how to apply these principles in everyday life. additionally, students learn and practice methods of effectively introducing these principles as a hatha yoga teacher.",
     "prereqInfo": "csph 4311 foundations of hatha yoga: alignment & movement principles. these courses can be taken concurrently.",
     "prereq": {
       "code": "CSPH 4311",
@@ -136,7 +154,7 @@
     "subject": "CSPH",
     "id": "4313",
     "title": "Hatha Yoga Teaching Principles",
-    "info": "this course is the third course in a sequence of three (3) courses in the university of minnesota yoga teachers’ education & training sequence. students who complete the three courses a-f or s/n may be qualified to register with yoga alliance (ya) as a 200 hour registered yoga teacher (ryt). students who audit the course cannot use the course to be registered with yoga alliance. \n\nthis course will provide students the opportunity to study communication and sequencing principles necessary for teaching effective, safe hatha yoga classes. using knowledge and skills gained during the first two hatha yoga courses, students will develop skills to design and facilitate hatha yoga asana, pranayama, and meditation techniques. students will have the opportunity to practice their learned skills through participation in service learning. ",
+    "info": "this course is the third course in a sequence of three (3) courses in the university of minnesota yoga teachers’ education & training sequence. students who complete the three courses a-f or s/n may be qualified to register with yoga alliance (ya) as a 200 hour registered yoga teacher (ryt). students who audit the course cannot use the course to be registered with yoga alliance. \n\nthis course will provide students the opportunity to study communication and sequencing principles necessary for teaching effective, safe hatha yoga classes. using knowledge and skills gained during the first two hatha yoga courses, students will develop skills to design and facilitate hatha yoga asana, pranayama, and meditation techniques. students will have the opportunity to practice their learned skills through participation in service learning.",
     "prereqInfo": "csph 4311 foundations of hatha yoga: alignment & movement principles and csph 4312 hatha yoga philosophy, lifestyle, & ethics",
     "prereq": {
       "and": [
@@ -167,7 +185,7 @@
     "subject": "CSPH",
     "id": "5101",
     "title": "Intro to Int Healing Prac",
-    "info": "by the end of the course, students will demonstrate an understanding of the overall field of integrative healing practices, which includes both integrative and alternative (cam) therapies. the course will cover theoretical framework, safety, efficacy, and evidence for various therapies and practices. the online version of this course is an approved 1health interprofessional education (ipe) activity. ",
+    "info": "by the end of the course, students will demonstrate an understanding of the overall field of integrative healing practices, which includes both integrative and alternative (cam) therapies. the course will cover theoretical framework, safety, efficacy, and evidence for various therapies and practices. the online version of this course is an approved 1health interprofessional education (ipe) activity.",
     "prereqInfo": "jr or sr or grad student; or instructor consent",
     "prereq": []
   },
@@ -185,7 +203,7 @@
     "subject": "CSPH",
     "id": "5111",
     "title": "Ways of Thinking about Health",
-    "info": "this course is your opportunity to examine, challenge and critically reflect upon your thinking about health. the class meets in a hybrid model that includes in-person, field-trip “micro-immersion experience” to explore different understandings of health through visits to cultural communities.  we include with field trips virtual experiential glimpses into fundamentally different systems of knowledge often conflicting with the scientific/professional models emphasized in many professional fields on campus.  \n\nframeworks for critical thinking, critical self-reflection, cultural self-study, intellectual virtues and supplemental readings are offered to support your effort to step into culturally different knowledge systems and mental models of health and well-being. these frames and approaches offer you a mirror through which your own perspective, thinking and background assumptions of health become more visible and explicit.  i ask you to challenge your own thinking and better recognize the culture you carry in your thinking as you attempt to inhabit different cognitive worlds.  you will also apply this examination to the professional fields of your interest, sharing your insights with learners in other professions.  in this way, we bring together interdisciplinary and intercultural learning.  on the dates that we meet virtually, our goal is to create a space that encourages us to share with sincerity our thoughts and emerging insights with one another in zoom conversations.  the synchronous zoom sessions allow you to benefit from each other’s personal and professional take on the immersion experiences as you develop your philosophy, narrative and understanding of health. ",
+    "info": "this course is your opportunity to examine, challenge and critically reflect upon your thinking about health. the class meets in a hybrid model that includes in-person, field-trip “micro-immersion experience” to explore different understandings of health through visits to cultural communities.  we include with field trips virtual experiential glimpses into fundamentally different systems of knowledge often conflicting with the scientific/professional models emphasized in many professional fields on campus.  \n\nframeworks for critical thinking, critical self-reflection, cultural self-study, intellectual virtues and supplemental readings are offered to support your effort to step into culturally different knowledge systems and mental models of health and well-being. these frames and approaches offer you a mirror through which your own perspective, thinking and background assumptions of health become more visible and explicit.  i ask you to challenge your own thinking and better recognize the culture you carry in your thinking as you attempt to inhabit different cognitive worlds.  you will also apply this examination to the professional fields of your interest, sharing your insights with learners in other professions.  in this way, we bring together interdisciplinary and intercultural learning.  on the dates that we meet virtually, our goal is to create a space that encourages us to share with sincerity our thoughts and emerging insights with one another in zoom conversations.  the synchronous zoom sessions allow you to benefit from each other’s personal and professional take on the immersion experiences as you develop your philosophy, narrative and understanding of health.",
     "prereqInfo": "jr, sr, grad, or instr consent",
     "prereq": []
   },
@@ -203,8 +221,8 @@
     "subject": "CSPH",
     "id": "5118",
     "title": "Whole Person, Whole Community",
-    "info": "this course explores the symbiotic and reciprocal relationship between individual and community health and wellbeing, as well as the many factors/forces which influence that relationship. drawing upon recent studies in the area of reciprocal/symbiotic effects between individual wellbeing and community wellbeing, this course will include the following core topics: definitions of community and related dimensions of wellbeing, importance of individual/community reciprocity (social justice, equity, safety, and trust), historical trauma and healing, and individual action and personal empowerment in community transformation. utilizing elements of the center for spirituality & healing's wellbeing model and modes of contemplative practice, this course will ultimately assist learners through phases of individual reflection and mindfulness for the purpose of creating more open and reciprocal relationships with entities they describe as their communities.\nan extension of recent studies in the area of the reciprocal (or rippling) effect between individual wellbeing and community wellbeing this course will guide individuals in identifying the various communities in which they live or participate, the roles they \\\"play\\\" within those communities and why/ how this knowledge can help prepare them for action and leadership.",
-    "prereqInfo": "main themes of the course will include:\n- mindfulness, reflection and healing: historical trauma and marginalization.\n- roles and reciprocity: justice, equity, security and trust between individuals and their communities.\n- transformation: individual action/leadership as bridge between personal and community wellbeing.",
+    "info": "this course explores the symbiotic and reciprocal relationship between individual and community health and wellbeing, as well as the many factors/forces which influence that relationship. drawing upon recent studies in the area of reciprocal/symbiotic effects between individual wellbeing and community wellbeing, this course will include the following core topics: definitions of community and related dimensions of wellbeing, importance of individual/community reciprocity (social justice, equity, safety, and trust), historical trauma and healing, and individual action and personal empowerment in community transformation. utilizing elements of the center for spirituality & healing's wellbeing model and modes of contemplative practice, this course will ultimately assist learners through phases of individual reflection and mindfulness for the purpose of creating more open and reciprocal relationships with entities they describe as their communities.\nan extension of recent studies in the area of the reciprocal (or rippling) effect between individual wellbeing and community wellbeing this course will guide individuals in identifying the various communities in which they live or participate, the roles they \\\"play\\\" within those communities and why/ how this knowledge can help prepare them for action and leadership.\n\nmain themes of the course will include:\n- mindfulness, reflection and healing: historical trauma and marginalization.\n- roles and reciprocity: justice, equity, security and trust between individuals and their communities.\n- transformation: individual action/leadership as bridge between personal and community wellbeing.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -230,7 +248,7 @@
     "subject": "CSPH",
     "id": "5201",
     "title": "Spirituality and Resilience",
-    "info": "in-depth exploration of resilience, spirituality, and the link between them. specific applications of resilience and health realization principles applied to students’ personal and professional lives. relevant literature, theory and research will be explored. this class examines natural resilience and our inner landscape. discussions are reflective, instructive, and thought provoking. we explore life experiences, examine relevant resilience and spiritual literature, and discover how we operate from the inside out in ordinary life. we learn, live, and share basic principles behind resilience. the study is applicable in a wide variety of disciplines from helping professions, scientific endeavors, education, to business and more. these lessons are applicable in both personal and professional life. ",
+    "info": "in-depth exploration of resilience, spirituality, and the link between them. specific applications of resilience and health realization principles applied to students’ personal and professional lives. relevant literature, theory and research will be explored. this class examines natural resilience and our inner landscape. discussions are reflective, instructive, and thought provoking. we explore life experiences, examine relevant resilience and spiritual literature, and discover how we operate from the inside out in ordinary life. we learn, live, and share basic principles behind resilience. the study is applicable in a wide variety of disciplines from helping professions, scientific endeavors, education, to business and more. these lessons are applicable in both personal and professional life.",
     "prereqInfo": "jr or sr or grad, or instructor consent",
     "prereq": []
   },
@@ -248,7 +266,7 @@
     "subject": "CSPH",
     "id": "5212",
     "title": "Peacebuilding/Mindfulness",
-    "info": "this course is designed to provide a basic understanding of the core principles and practices of peacebuilding through restorative dialogue, using a mindfulness-based approach, in the context of multiple interpersonal, community, national, and international settings. ",
+    "info": "this course is designed to provide a basic understanding of the core principles and practices of peacebuilding through restorative dialogue, using a mindfulness-based approach, in the context of multiple interpersonal, community, national, and international settings.",
     "prereqInfo": "jr or sr or grad, or instructor consent.",
     "prereq": []
   },
@@ -284,7 +302,7 @@
     "subject": "CSPH",
     "id": "5226",
     "title": "Advanced Meditation",
-    "info": "students will work to integrate meditation practice into daily life, cultivating awareness of the fundamental oneness of body, brain, mind, and universe. attention will be given to mind-body synergy in health, the “hard problem” of consciousness in neuroscience, and the emergence of compassion, wisdom, and healing in non-discursive awareness. ",
+    "info": "students will work to integrate meditation practice into daily life, cultivating awareness of the fundamental oneness of body, brain, mind, and universe. attention will be given to mind-body synergy in health, the “hard problem” of consciousness in neuroscience, and the emergence of compassion, wisdom, and healing in non-discursive awareness.",
     "prereqInfo": "csph 5225, jr or sr or grad student, or instr consent",
     "prereq": {
       "code": "CSPH 5225",
@@ -306,8 +324,8 @@
     "subject": "CSPH",
     "id": "5303",
     "title": "Pain Mgmt/Complementary Health",
-    "info": "this course will cover the evidence regarding effectiveness and safety of cih practices, and the relationship of cih to contemporary views of pain, health, and healing. there is a growing evidence base to support some complementary and integrative healing (cih) approaches for pain management including yoga, mindfulness meditation, chiropractic, and others. in the us, chronic pain impacts over one third of the population and affects more individuals than heart disease, diabetes, and cancer combined. while there is a wide range of conventional medical treatments available to manage pain, many are only marginally effective and are associated with troublesome side effects. of growing concerns is the endemic problem of opioids associated with misuse, addiction, and fatal overdose. pain sufferers and health providers need effective and safe options for pain management. some complementary and integrative healing (cih) approaches have a growing evidence base to support their use, particularly for pain management. this course will introduce students to the theories, mechanisms, use, effectiveness, and safety of commonly used complementary and integrative healing practices. the relationship of cih approaches to contemporary views and research regarding pain, health and healing, and placebo effects will also be explored. through reading, reflection, discussion, and critical appraisal, students will develop the necessary skills to synthesize different forms of information, including research, to reach evidence-informed and balanced conclusions regarding cih for managing pain, restoring function, and enhancing overall health and wellbeing. cih approaches covered will include: whole systems (traditional chinese medicine, osteopathy, chiropractic, ayurvedic medicine, etc.); mind-body practices (contemplative and meditative practices; yoga, tai chi, qigong, etc.); manipulative and body-based approaches (massage therapy, acupuncture, manipulation); and energy-based approaches (energy medicine, reiki, therapeutic touch, healing touch). upon completion of the course, students will have a foundational knowledge of cih for pain management and the skills to critically appraise and determine the trustworthiness of different information sources. ",
-    "prereqInfo": "graduate or professional program student. ",
+    "info": "this course will cover the evidence regarding effectiveness and safety of cih practices, and the relationship of cih to contemporary views of pain, health, and healing. there is a growing evidence base to support some complementary and integrative healing (cih) approaches for pain management including yoga, mindfulness meditation, chiropractic, and others. in the us, chronic pain impacts over one third of the population and affects more individuals than heart disease, diabetes, and cancer combined. while there is a wide range of conventional medical treatments available to manage pain, many are only marginally effective and are associated with troublesome side effects. of growing concerns is the endemic problem of opioids associated with misuse, addiction, and fatal overdose. pain sufferers and health providers need effective and safe options for pain management. some complementary and integrative healing (cih) approaches have a growing evidence base to support their use, particularly for pain management. this course will introduce students to the theories, mechanisms, use, effectiveness, and safety of commonly used complementary and integrative healing practices. the relationship of cih approaches to contemporary views and research regarding pain, health and healing, and placebo effects will also be explored. through reading, reflection, discussion, and critical appraisal, students will develop the necessary skills to synthesize different forms of information, including research, to reach evidence-informed and balanced conclusions regarding cih for managing pain, restoring function, and enhancing overall health and wellbeing. cih approaches covered will include: whole systems (traditional chinese medicine, osteopathy, chiropractic, ayurvedic medicine, etc.); mind-body practices (contemplative and meditative practices; yoga, tai chi, qigong, etc.); manipulative and body-based approaches (massage therapy, acupuncture, manipulation); and energy-based approaches (energy medicine, reiki, therapeutic touch, healing touch). upon completion of the course, students will have a foundational knowledge of cih for pain management and the skills to critically appraise and determine the trustworthiness of different information sources.",
+    "prereqInfo": "graduate or professional program student.",
     "prereq": []
   },
   {
@@ -315,8 +333,8 @@
     "subject": "CSPH",
     "id": "5305",
     "title": "Integrative Mental Health",
-    "info": "prerequisite: graduate or professional student. this course focuses on introducing students to the concept of integrative mental health (imh). definitions of imh, the history and background of the concept, and how it relates to psychiatric care and health care in general will be explored. students will explore and practice risk-benefit profiles of different modalities in the context of evidence-based mental health care. an emphasis will be placed on the connection between physical and mental health and how that can be approached from an integrative perspective. topics such as mindfulness and mental health, nutrition and mental health, herbs and supplements in psychiatric care, and the role of functional medicine in imh will be covered, as well as how psychotherapy and psychotropic medications fit in the imh framework. students will review the current diagnostic system for mental health disorders and that can both help and hinder an integrative approach to mental health care. integrative approaches for assessing mental health concerns will be reviewed, and how to use these approaches alongside a traditional medical approach for maximum benefit will be explored. students will further review specific modalities for mental health and wellbeing that are less focused on specific systems and more focused on holism and the interplay of systems.  students will also identity and explore different ways of viewing mental health and wellbeing based on cultural and geographical issues, and how these may impact the approaches. \n",
-    "prereqInfo": null,
+    "info": "",
+    "prereqInfo": "graduate or professional student. this course focuses on introducing students to the concept of integrative mental health (imh). definitions of imh, the history and background of the concept, and how it relates to psychiatric care and health care in general will be explored. students will explore and practice risk-benefit profiles of different modalities in the context of evidence-based mental health care. an emphasis will be placed on the connection between physical and mental health and how that can be approached from an integrative perspective. topics such as mindfulness and mental health, nutrition and mental health, herbs and supplements in psychiatric care, and the role of functional medicine in imh will be covered, as well as how psychotherapy and psychotropic medications fit in the imh framework. students will review the current diagnostic system for mental health disorders and that can both help and hinder an integrative approach to mental health care. integrative approaches for assessing mental health concerns will be reviewed, and how to use these approaches alongside a traditional medical approach for maximum benefit will be explored. students will further review specific modalities for mental health and wellbeing that are less focused on specific systems and more focused on holism and the interplay of systems.  students will also identity and explore different ways of viewing mental health and wellbeing based on cultural and geographical issues, and how these may impact the approaches.",
     "prereq": []
   },
   {
@@ -324,8 +342,8 @@
     "subject": "CSPH",
     "id": "5307",
     "title": "Integrative Nursing",
-    "info": "prerequisites: registered nurse, graduate level registration only. principles and application of integrative nursing will provide learners with skills that can be immediately applied to nursing practice, advanced nursing practice, and nurse leadership. clinical case studies and interactive discussion will be used for students to learn how to practice integratively in their current healthcare role or to develop into a new role or paradigm. case studies will be individualized to fit the needs of all learners for applicable skill building. ",
-    "prereqInfo": null,
+    "info": "",
+    "prereqInfo": "registered nurse, graduate level registration only. principles and application of integrative nursing will provide learners with skills that can be immediately applied to nursing practice, advanced nursing practice, and nurse leadership. clinical case studies and interactive discussion will be used for students to learn how to practice integratively in their current healthcare role or to develop into a new role or paradigm. case studies will be individualized to fit the needs of all learners for applicable skill building.",
     "prereq": []
   },
   {
@@ -351,7 +369,7 @@
     "subject": "CSPH",
     "id": "5315",
     "title": "Traditional Tibetan Medicine",
-    "info": "this course will introduce students to ethics, spirituality, and healing from the perspective of traditional tibetan medicine. traditional tibetan doctors believe that illness results from imbalance and that treating illness requires correcting the underlying imbalance. students will learn how to apply these principles personally, integrate them into clinical practice, and consult with a traditional tibetan doctor. ",
+    "info": "this course will introduce students to ethics, spirituality, and healing from the perspective of traditional tibetan medicine. traditional tibetan doctors believe that illness results from imbalance and that treating illness requires correcting the underlying imbalance. students will learn how to apply these principles personally, integrate them into clinical practice, and consult with a traditional tibetan doctor.",
     "prereqInfo": "jr or sr or grad student or instr consent",
     "prereq": []
   },
@@ -361,7 +379,7 @@
     "id": "5317",
     "title": "Yoga: Ethics, Spirit, Healing",
     "info": "this course will introduce students to ethics, spirituality, and healing from the perspective of yoga, an ancient indian discipline. students will examine the claim that systematic yoga practice leads to optimal health. using critical thinking, students will evaluate philosophical knowledge, scientific evidence, and practical application, and propose research-based programs for integrating yoga into personal and professional life.",
-    "prereqInfo": "prereq jr or sr or grad; or instructor consent",
+    "prereqInfo": "jr or sr or grad; or instructor consent",
     "prereq": []
   },
   {
@@ -369,7 +387,7 @@
     "subject": "CSPH",
     "id": "5318",
     "title": "Tibet Med/Ayurveda/Yoga--India",
-    "info": "tibetan medicine, ayurveda, and yoga are interrelated, ancient, holistic, tibetan and indian traditions that integrate ethics, spirituality, and healing. while studying with expert practitioners in india, students will examine the claim that systematic practice of these traditions promotes optimal health. using critical thinking, students will evaluate philosophical knowledge, cultural practices, and scientific evidence, and propose research-based programs for integrating these traditions into personal and professional life.   ",
+    "info": "tibetan medicine, ayurveda, and yoga are interrelated, ancient, holistic, tibetan and indian traditions that integrate ethics, spirituality, and healing. while studying with expert practitioners in india, students will examine the claim that systematic practice of these traditions promotes optimal health. using critical thinking, students will evaluate philosophical knowledge, cultural practices, and scientific evidence, and propose research-based programs for integrating these traditions into personal and professional life.",
     "prereqInfo": "csph 5315, jr or sr or grad, or instr consent",
     "prereq": {
       "code": "CSPH 5315",
@@ -467,7 +485,7 @@
     "subject": "CSPH",
     "id": "5401",
     "title": "People, Plants & Drugs",
-    "info": "ethnopharmacology is the interdisciplinary science of medicinal plants or natural products utilized by humans. these people-plant (typically) relationships have historically and imminently have produced important medicines integral to modern medicine. ethnopharmacology integrates aspects of botany, natural products chemistry, pharmacology, pharmacognosy, anthropology, medicine, psychology, and comparative religious study. the discipline researches human interactions with biologically active plants (and other living things) as medicines, poisons, and intoxicants with a primary focus on indigenous and non-­western cultures. ethnopharmacology seeks to document plants and animals used by various cultures, and describe their use and preparation. these plants and their preparations are then studied to identify, isolate, and characterize the active compounds responsible for the plants actions on people. this introductory ethnopharmacology course will cover both the ethnographic and scientific aspects critical to the process of drug discovery and the evolution of modern medicine. students will compare cross-cultural perspectives on human interactions with drugs and examine the variety of human interaction with biologically active organisms in their environment. ",
+    "info": "ethnopharmacology is the interdisciplinary science of medicinal plants or natural products utilized by humans. these people-plant (typically) relationships have historically and imminently have produced important medicines integral to modern medicine. ethnopharmacology integrates aspects of botany, natural products chemistry, pharmacology, pharmacognosy, anthropology, medicine, psychology, and comparative religious study. the discipline researches human interactions with biologically active plants (and other living things) as medicines, poisons, and intoxicants with a primary focus on indigenous and non-­western cultures. ethnopharmacology seeks to document plants and animals used by various cultures, and describe their use and preparation. these plants and their preparations are then studied to identify, isolate, and characterize the active compounds responsible for the plants actions on people. this introductory ethnopharmacology course will cover both the ethnographic and scientific aspects critical to the process of drug discovery and the evolution of modern medicine. students will compare cross-cultural perspectives on human interactions with drugs and examine the variety of human interaction with biologically active organisms in their environment.",
     "prereqInfo": "jr or sr or grad, or instructor consent. courses in botany, chemistry and pharmacology are useful but not required.",
     "prereq": []
   },
@@ -494,7 +512,7 @@
     "subject": "CSPH",
     "id": "5421",
     "title": "Botanical Medicines",
-    "info": "botanical medicines have been used since ancient times in many cultures yet it is still not a significant part of what is considered “traditional” medicine in our current healthcare model in the united states. yet there is a growing interest among people in the u.s. looking for alternative treatments for a variety of common illnesses due to concerns of safety, efficacy, and a desire for more “natural” products than more conventional pharmaceuticals. however, despite this growing interest, healthcare providers may have little to no knowledge regarding botanical medicines in regards to their therapeutic properties, efficacy (or lack thereof), and/or adverse effects. this is further compounded by a wealth of information on botanical medicines in the media and internet, much of which may be misleading and can lead to confusion regarding botanical medicines. the goal of this course is to learn basic properties and preparations of the most common botanical medicines in addition to their therapeutic effects for common disease states. students will also learn about regulations, quality control, and safety concerns regarding use of botanical medicines. included in this course is a discussion on the frequently overlooked botanical medicine we use everyday: our food! relevant plant-based foods will be discussed periodically throughout the course to provide a practical application of the material learned in this course. ",
+    "info": "botanical medicines have been used since ancient times in many cultures yet it is still not a significant part of what is considered “traditional” medicine in our current healthcare model in the united states. yet there is a growing interest among people in the u.s. looking for alternative treatments for a variety of common illnesses due to concerns of safety, efficacy, and a desire for more “natural” products than more conventional pharmaceuticals. however, despite this growing interest, healthcare providers may have little to no knowledge regarding botanical medicines in regards to their therapeutic properties, efficacy (or lack thereof), and/or adverse effects. this is further compounded by a wealth of information on botanical medicines in the media and internet, much of which may be misleading and can lead to confusion regarding botanical medicines. the goal of this course is to learn basic properties and preparations of the most common botanical medicines in addition to their therapeutic effects for common disease states. students will also learn about regulations, quality control, and safety concerns regarding use of botanical medicines. included in this course is a discussion on the frequently overlooked botanical medicine we use everyday: our food! relevant plant-based foods will be discussed periodically throughout the course to provide a practical application of the material learned in this course.",
     "prereqInfo": "jr or sr or grad student, or instructor consent",
     "prereq": []
   },
@@ -503,7 +521,7 @@
     "subject": "CSPH",
     "id": "5423",
     "title": "Botanicals: Practical Apps",
-    "info": "there is an accumulating body of scientific evidence supporting the use of some botanicals for preventive or therapeutic purposes. this experiential course offers health professional students and others an integrative and practical approach to medicinal plants that includes theoretical underpinnings and obtaining the skills to gather, process, and apply selected local plants and herbs. methods are multi-sensory, following an eclectic tradition practiced by many modern herbalists. review of empirical scientific evidence is included for key plants.  ",
+    "info": "there is an accumulating body of scientific evidence supporting the use of some botanicals for preventive or therapeutic purposes. this experiential course offers health professional students and others an integrative and practical approach to medicinal plants that includes theoretical underpinnings and obtaining the skills to gather, process, and apply selected local plants and herbs. methods are multi-sensory, following an eclectic tradition practiced by many modern herbalists. review of empirical scientific evidence is included for key plants.",
     "prereqInfo": "jr or sr or grad in the health professions or instructor permission.",
     "prereq": []
   },
@@ -539,7 +557,7 @@
     "subject": "CSPH",
     "id": "5503",
     "title": "Aromatherapy Fundamentals",
-    "info": "this course will provide an overview of essential oil therapy and current aromatherapy practices in clinical settings. students will examine key safety and toxicity issues with the use of essential oils, and they will critique the scientific and historical evidence about the therapeutic qualities of six essential oils in common use by the public and in clinical settings. ",
+    "info": "this course will provide an overview of essential oil therapy and current aromatherapy practices in clinical settings. students will examine key safety and toxicity issues with the use of essential oils, and they will critique the scientific and historical evidence about the therapeutic qualities of six essential oils in common use by the public and in clinical settings.",
     "prereqInfo": "jr or sr or grad, or inst consent",
     "prereq": []
   },
@@ -584,8 +602,8 @@
     "subject": "CSPH",
     "id": "5521",
     "title": "Therapeutic Landscapes",
-    "info": "this course will introduce students to the theoretical foundations of healing environments and their application based on the six dimensions of wellbeing. it is a unique course offered only through the bakken center for spirituality & healing– but carries a wide interdisciplinary application – such as with the department of horticulture, landscape architecture, therapeutic recreation, botany, public health and other health science. during the past six decades, the field of therapeutic landscapes has grown extensively in multiple settings throughout north american, europe, asia, and africa. the theory and practice focus upon the application of environments and landscapes to benefit the individual or group. therapeutic landscapes are a plant-dominated environment (indoor or outdoor) designed to provide numerous and varied therapeutic interactions and purposeful outcomes. it fosters wellbeing through designed and prescribed encounters with plants that stimulate the senses and engage the understanding of the people who visit it. this course is designed to provide a basic understanding of the central elements of therapeutic landscapes in the context of the latest scientific evidence using the bakken center for spirituality & healing model of wellbeing as a guide. ",
-    "prereqInfo": "prereq jr or sr or grad student or instr consent",
+    "info": "this course will introduce students to the theoretical foundations of healing environments and their application based on the six dimensions of wellbeing. it is a unique course offered only through the bakken center for spirituality & healing– but carries a wide interdisciplinary application – such as with the department of horticulture, landscape architecture, therapeutic recreation, botany, public health and other health science. during the past six decades, the field of therapeutic landscapes has grown extensively in multiple settings throughout north american, europe, asia, and africa. the theory and practice focus upon the application of environments and landscapes to benefit the individual or group. therapeutic landscapes are a plant-dominated environment (indoor or outdoor) designed to provide numerous and varied therapeutic interactions and purposeful outcomes. it fosters wellbeing through designed and prescribed encounters with plants that stimulate the senses and engage the understanding of the people who visit it. this course is designed to provide a basic understanding of the central elements of therapeutic landscapes in the context of the latest scientific evidence using the bakken center for spirituality & healing model of wellbeing as a guide.",
+    "prereqInfo": "jr or sr or grad student or instr consent",
     "prereq": []
   },
   {
@@ -594,7 +612,7 @@
     "id": "5522",
     "title": "Therapeutic Horticulture",
     "info": "an introduction into the purposeful delivery of plants and plant related activities for therapeutic benefits. this course is designed to provide a basic understanding of the central elements of therapeutic horticulture in the context of multiple health care settings.  students will learn the evidence-based history, principles, precepts, and practical application of therapeutic horticulture.  a variety of plant and plant related modalities from current research findings will be discussed related to various populations using therapeutic horticulture as a treatment intervention.",
-    "prereqInfo": "prereq junior, senior, or graduate student or instructor consent",
+    "prereqInfo": "junior, senior, or graduate student or instructor consent",
     "prereq": []
   },
   {
@@ -603,7 +621,7 @@
     "id": "5523",
     "title": "Appl Therapeutic Horticulture",
     "info": "this course introduces students to a variety of therapeutic horticulture applications found in community-based healthcare settings. students will gain foundational knowledge in comprehensive therapeutic horticulture program plans for people with varying abilities. students will learn evidence-based principles and facilitation techniques in therapeutic horticulture. they will also demonstrate application of therapeutic horticulture processes in weekly assignments.",
-    "prereqInfo": "prereq jr or sr or grad or inst consent",
+    "prereqInfo": "jr or sr or grad or inst consent",
     "prereq": []
   },
   {
@@ -620,7 +638,7 @@
     "subject": "CSPH",
     "id": "5535",
     "title": "Reiki Healing",
-    "info": "students will learn the history, principles, education, and practical application of reiki energy healing. alternative energy healing modalities and current research findings will be discussed. following activation of the reiki energy, participants will learn the hand positions used to perform a self, seated, and full session. a portion of each class meeting will be used to perform reiki sessions and to discuss experiences. ",
+    "info": "students will learn the history, principles, education, and practical application of reiki energy healing. alternative energy healing modalities and current research findings will be discussed. following activation of the reiki energy, participants will learn the hand positions used to perform a self, seated, and full session. a portion of each class meeting will be used to perform reiki sessions and to discuss experiences.",
     "prereqInfo": "jr or sr or grad student or instr consent",
     "prereq": []
   },
@@ -630,7 +648,7 @@
     "id": "5536",
     "title": "Advanced Reiki Healing",
     "info": "students will learn advanced principles and application of reiki energy healing. the four levels of healing will be further explored, with emphasis on healing at the spiritual level. following activation of the reiki energy, participants will learn the energy symbols that allow for energy transfer through space and time. students will learn to use second level reiki energy for both distance healing and the standard reiki session. a portion of each class meeting will be used to provide reiki sessions and to discuss findings. current literature and research findings will also be discussed.",
-    "prereqInfo": "csph 5535 or instr consent. students must wait 4-6 months after taking csph 5535 before taking csph 5536. ",
+    "prereqInfo": "csph 5535 or instr consent. students must wait 4-6 months after taking csph 5535 before taking csph 5536.",
     "prereq": {
       "or": [
         {
@@ -639,9 +657,9 @@
           "id": "5535"
         },
         {
-          "code": "CSPH 5536",
+          "code": "CSPH 5535",
           "subject": "CSPH",
-          "id": "5536"
+          "id": "5535"
         }
       ]
     }
@@ -678,7 +696,7 @@
     "subject": "CSPH",
     "id": "5561",
     "title": "Arts in Health and Healing",
-    "info": "in this course we will explore how professionals in music therapy, art therapy, dance and movement therapy, and poetry/spoken word therapy work in healthcare and community settings to promote healing and well-being. artist-therapists representing each of these fields, and/or related fields in creative arts in healing, will present their work in synchronous sessions, and guide you in experiential exercises to give you firsthand experience of each modality. you will also read in depth about each of the healing arts modalities in our textbook and research articles, participate in online discussions, and document your experiences with the modalities through journaling and a final paper. \n",
+    "info": "in this course we will explore how professionals in music therapy, art therapy, dance and movement therapy, and poetry/spoken word therapy work in healthcare and community settings to promote healing and well-being. artist-therapists representing each of these fields, and/or related fields in creative arts in healing, will present their work in synchronous sessions, and guide you in experiential exercises to give you firsthand experience of each modality. you will also read in depth about each of the healing arts modalities in our textbook and research articles, participate in online discussions, and document your experiences with the modalities through journaling and a final paper.",
     "prereqInfo": "jr or sr or grad student",
     "prereq": []
   },
@@ -732,7 +750,7 @@
     "subject": "CSPH",
     "id": "5641",
     "title": "Animals in Healthcare",
-    "info": "this online course is designed to introduce students to the core principles of animal-assisted interventions (aai) in the context of multiple healthcare and social service related settings. students will learn the history, identify safety guidelines, apply best practices to a variety of species, and evaluate peer-reviewed literature. ",
+    "info": "this online course is designed to introduce students to the core principles of animal-assisted interventions (aai) in the context of multiple healthcare and social service related settings. students will learn the history, identify safety guidelines, apply best practices to a variety of species, and evaluate peer-reviewed literature.",
     "prereqInfo": "jr or sr or grad student, or instructor consent",
     "prereq": []
   },
@@ -750,7 +768,7 @@
     "subject": "CSPH",
     "id": "5643",
     "title": "Horse as Teacher",
-    "info": "this course is designed to introduce students to the field of equine-assisted services (eas) and to the range of therapeutic and learning opportunities found within equine interactions. the course presents historical and theoretical concepts which helped develop various types of eas, and how the growth of eas nationally and internationally has continued to mold the profession. students will learn to describe safety guidelines, best practices as they are currently known, and precautions and contraindications in eas sessions. during a one-day face-to-face class, students will observe demonstrations with horses and apply course concepts and topics during this intensive. students will evaluate peer-reviewed literature in eas research to identify the strengths and weaknesses of such published material. students will synthesize reading, lecture and experiential learning to develop an eas plan for an assigned target group population. ",
+    "info": "this course is designed to introduce students to the field of equine-assisted services (eas) and to the range of therapeutic and learning opportunities found within equine interactions. the course presents historical and theoretical concepts which helped develop various types of eas, and how the growth of eas nationally and internationally has continued to mold the profession. students will learn to describe safety guidelines, best practices as they are currently known, and precautions and contraindications in eas sessions. during a one-day face-to-face class, students will observe demonstrations with horses and apply course concepts and topics during this intensive. students will evaluate peer-reviewed literature in eas research to identify the strengths and weaknesses of such published material. students will synthesize reading, lecture and experiential learning to develop an eas plan for an assigned target group population.",
     "prereqInfo": "jr or sr or grad or instr consent",
     "prereq": []
   },
@@ -760,7 +778,7 @@
     "id": "5701",
     "title": "Health Coaching I",
     "info": "this course provides a foundation of health coaching through skill development in motivational interviewing and coaching structure. we will explore basic tenets of health coaching including deep listening, effective and empathic communication, mindfulness, unconditional positive regard, and nonjudgement.  in addition, this course will include tools for self-development which is key in a health coaches’ professional journey and development of emotional intelligence.  we will learn how each person is intrinsically healthy, whole, and wise and how they are the expert in their journey not the health coach.  there are onsite requirements for this course.",
-    "prereqInfo": "prereq admitted to master of arts in integrative health and wellbeing coaching; or, integrative therapies and healing practices certificate-health coaching track; or, doctor of nursing practice; or, non-degree seeking graduate students or students from other graduate degree programs may enroll with permission of the course instructor.",
+    "prereqInfo": "admitted to master of arts in integrative health and wellbeing coaching; or, integrative therapies and healing practices certificate-health coaching track; or, doctor of nursing practice; or, non-degree seeking graduate students or students from other graduate degree programs may enroll with permission of the course instructor.",
     "prereq": []
   },
   {
@@ -769,7 +787,7 @@
     "id": "5702",
     "title": "Health Coaching II",
     "info": "this course expands upon students’ skills in motivational interviewing to include health coaching theories, coaching psychology, goal setting, and theories in behavior change and motivation. in the course students will have the opportunity to remove their “expert hat” and deepen their understanding of coaching skills and style, empathy, deep listening, effective and empathic communication, and tools for self-development. it is the role of the health coach to provide a safe, non judgmental environment to allow for exploration and the practice of skill building to increase the client’s self-efficacy.  in this course you will learn how to facilitate the change process by incorporating the client’s strengths and values. there are onsite and synchronous requirements for this course.  this course must be taken concurrently with csph 5716 health coaching practicum 2.",
-    "prereqInfo": "prereq csph 5701 and csph 5703. this course is required for students who have been admitted to the integrative therapies and healing practice certificate - health coaching track; and integrative health and wellbeing coaching master of arts programs. students from other graduate degree programs may enroll with permission of the course instructor.",
+    "prereqInfo": "csph 5701 and csph 5703. this course is required for students who have been admitted to the integrative therapies and healing practice certificate - health coaching track; and integrative health and wellbeing coaching master of arts programs. students from other graduate degree programs may enroll with permission of the course instructor.",
     "prereq": {
       "and": [
         {
@@ -792,16 +810,33 @@
     "title": "Adv Health Coaching Practicum",
     "info": "in this course, students participate in a peer-coaching model with their fellow students in dyads or triads, to create opportunities for applying the tools and skills they are learning.  the key to this course is practice not perfection in a safe, supportive environment where mistakes are welcomed and learning and growth is at the center.  this course must be taken concurrently with csph 5701 health coaching fundamentals i for health coaching master of arts and certificate students, and is a required prerequisite for csph 5702 health coaching fundamentals ii.",
     "prereqInfo": "this course is required for students who have been admitted to the integrative therapies and healing practice certificate - health coaching track; and integrative health and wellbeing coaching master of arts program.  this course is a required prerequisite for fundamentals of health coaching ii (csh 5702) and must be taken concurrently with csph 5701 fundamentals of health coaching i for health coaching m.a. and certificate students.  students from other graduate degree programs may enroll with permission of the course instructor.",
-    "prereq": []
+    "prereq": {
+      "and": [
+        {
+          "code": "CSPH 5702",
+          "subject": "CSPH",
+          "id": "5702"
+        },
+        {
+          "code": "CSPH 5701",
+          "subject": "CSPH",
+          "id": "5701"
+        }
+      ]
+    }
   },
   {
     "code": "CSPH 5704",
     "subject": "CSPH",
     "id": "5704",
     "title": "DEI in Health & Wellbeing",
-    "info": "this course encourages students to reflect on their responsibility to provide culturally competent care as an expression of their professional values and doing the difficult internal work required to increase health equity.  in the framework of social determinants of health, this course explores the intersection of health care and marginalized individuals and groups of all cultures, races, ethnicities, disabilities, sexual orientation, size, and gender identities. students will explore how societal factors, power dynamics, attitudes, biases, historical and institutionalized bias, colonialism, and discrimination have produced health disparities and how these can change with just policies, decision-making, and health equity initiatives.  this course has an onsite requirement. this course is a prerequiste for csph 8701 internship for those in the master of arts program. ",
-    "prereqInfo": "there are no prerequisite courses. this course is required for students who have been admitted to the integrative therapies and healing practice certificate - health coaching track; and integrative health and wellbeing coaching master of arts program.  doctorate of nursing practice students, non-degree seeking students, or students from other degree programs, may enroll with special permission from the course instructor. ",
-    "prereq": []
+    "info": "this course encourages students to reflect on their responsibility to provide culturally competent care as an expression of their professional values and doing the difficult internal work required to increase health equity.  in the framework of social determinants of health, this course explores the intersection of health care and marginalized individuals and groups of all cultures, races, ethnicities, disabilities, sexual orientation, size, and gender identities. students will explore how societal factors, power dynamics, attitudes, biases, historical and institutionalized bias, colonialism, and discrimination have produced health disparities and how these can change with just policies, decision-making, and health equity initiatives.  this course has an onsite requirement. this course is a",
+    "prereqInfo": "uiste for csph 8701 internship for those in the master of arts program. \n\nthere are no",
+    "prereq": {
+      "code": "CSPH 8701",
+      "subject": "CSPH",
+      "id": "8701"
+    }
   },
   {
     "code": "CSPH 5705",
@@ -850,7 +885,7 @@
     "subject": "CSPH",
     "id": "5706",
     "title": "Lifestyle Medicine",
-    "info": "this course provides a foundation in the theory and clinical application of lifestyle medicine. lifestyle medicine aims to address the behavioral and lifestyle bases of common illnesses through health promoting activities and reducing harmful behaviors. in this course, we will explore optimal nutrition, lifestyle, physical activity, and attitude. we will examine the emerging evidence base of lifestyle medicine and how it relates to health promotion and disease prevention. participants will be introduced to common laboratory and imaging findings, and how they relate to optimal health. ",
+    "info": "this course provides a foundation in the theory and clinical application of lifestyle medicine. lifestyle medicine aims to address the behavioral and lifestyle bases of common illnesses through health promoting activities and reducing harmful behaviors. in this course, we will explore optimal nutrition, lifestyle, physical activity, and attitude. we will examine the emerging evidence base of lifestyle medicine and how it relates to health promotion and disease prevention. participants will be introduced to common laboratory and imaging findings, and how they relate to optimal health.",
     "prereqInfo": "jr or sr or grad, or inst consent",
     "prereq": []
   },
@@ -860,7 +895,7 @@
     "id": "5707",
     "title": "Coaching/Clinical Conditions",
     "info": "this course provides students with a basic awareness and expanded perception of prevalent clinical conditions, and supports the development of empathy related to these conditions. it continues to build coaching skills specific to coaching clients with clinical conditions. also supports the development of professional oral and written communication skills.",
-    "prereqInfo": "prereq csph 5701, 5702, 5716. this course is required for students who have been admitted to the integrative health and wellbeing coaching master of arts program.  doctor of nursing practice students, non-degree students, or students from other degree programs, may only enroll with special permission of the course director.  ",
+    "prereqInfo": "csph 5701, 5702, 5716. this course is required for students who have been admitted to the integrative health and wellbeing coaching master of arts program.  doctor of nursing practice students, non-degree students, or students from other degree programs, may only enroll with special permission of the course director.",
     "prereq": {
       "and": [
         {
@@ -886,8 +921,8 @@
     "subject": "CSPH",
     "id": "5708",
     "title": "Mind-Body Sci/Trauma-Informed",
-    "info": "health coaches, mental health providers, and other health care providers all work to facilitate change for their clients, and in that process mental health concerns and the effects of trauma may show up. in this course, students will gain a clear understanding of the scope of practice of non-mental health providers as it relates to mental health, trauma, and the processes of referring clients to other health professionals when appropriate. students will be able to recognize the signs and symptoms of common mental health concerns and of trauma and will learn tools and techniques to navigate these concerns within their profession’s scope of practice. students will also learn the foundations of mind-body science and trauma-informed practices to support their client's journey toward health and wellness. ",
-    "prereqInfo": "there are no prerequisite courses. this course is required for students who have been admitted to the integrative health and wellbeing coaching master of arts program.  doctor of nursing practice students, non-degree students, or students from other degree programs, may only enroll with special permission of the course director.  \n",
+    "info": "health coaches, mental health providers, and other health care providers all work to facilitate change for their clients, and in that process mental health concerns and the effects of trauma may show up. in this course, students will gain a clear understanding of the scope of practice of non-mental health providers as it relates to mental health, trauma, and the processes of referring clients to other health professionals when appropriate. students will be able to recognize the signs and symptoms of common mental health concerns and of trauma and will learn tools and techniques to navigate these concerns within their profession’s scope of practice. students will also learn the foundations of mind-body science and trauma-informed practices to support their client's journey toward health and wellness. \n\nthere are no",
+    "prereqInfo": "uisite courses. this course is required for students who have been admitted to the integrative health and wellbeing coaching master of arts program.  doctor of nursing practice students, non-degree students, or students from other degree programs, may only enroll with special permission of the course director.",
     "prereq": []
   },
   {
@@ -896,7 +931,7 @@
     "id": "5709",
     "title": "Hlth/Wellbeing Group Coaching",
     "info": "the health and wellbeing group coaching practicum enables the student to learn and apply the theory and practice of group health and wellbeing coaching in a community site-based practicum setting, and to communicate their learning in a professional manner.\n\nupon successful completion of this course, students will be able to:\n•\texplore and demonstrate how to apply the four pillars into the structure of group coaching.\n•\tidentify and practice skills and tools of group facilitation and coaching.\n•\tdemonstrate the art of managing group dynamics successfully.",
-    "prereqInfo": "csph 5701, 5702, 5703, 5716. this course is required for students who have been admitted to the integrative health and wellbeing coaching master of arts program.  doctor of nursing practice students, non-degree students, or students from other degree programs, may only enroll with special permission of the course director.  \n\nbasic computer skills, the ability to be on camera, and internet access are required. \n",
+    "prereqInfo": "csph 5701, 5702, 5703, 5716. this course is required for students who have been admitted to the integrative health and wellbeing coaching master of arts program.  doctor of nursing practice students, non-degree students, or students from other degree programs, may only enroll with special permission of the course director.  \n\nbasic computer skills, the ability to be on camera, and internet access are required.",
     "prereq": {
       "and": [
         {
@@ -937,7 +972,7 @@
     "id": "5712",
     "title": "Health Coaching Skills Adv",
     "info": "this course will provide a health-coaching student the opportunity to advance coaching skills/strategies through individual client practice with the supervision of an experienced health-coaching instructor.  the student health coach will engage in recorded in-person and/or telephonic coaching sessions, and receive live feedback from the instructor.  the student will assess their own integration of coaching skills through completion of self-skills assessment (level appropriate) that includes self-reflection.  a final skills assessment (level appropriate) will be completed utilizing the standardized tool developed for the umn health coaching program (developed in alignment with guidelines the international consortium for health and wellness coaching).",
-    "prereqInfo": "prereq csph 5701, csph 5702; admitted to integrative health and wellbeing coaching master of arts, integrative therapies and healing practices certificate-health coaching track;  or instructor consent.",
+    "prereqInfo": "csph 5701, csph 5702; admitted to integrative health and wellbeing coaching master of arts, integrative therapies and healing practices certificate-health coaching track;  or instructor consent.",
     "prereq": {
       "and": [
         {
@@ -958,8 +993,8 @@
     "subject": "CSPH",
     "id": "5713",
     "title": "Health Coaching for Hlth Prof",
-    "info": "this course will explore the basic tenets of 4 pillars of health coaching model--self-awareness, mindful presence, authentic communication, and safe/sacred space.  students will learn to identify/benchmark stages/patterns of change, respectfully collaborate with interdisciplinary health care providers and facilitate clients’ ability to achieve sustainable lifestyle changes.  consistent, nonjudgmental application of a holistic perspective of optimal health and wellbeing in patient encounters will be discussed and demonstrated.  students will have the opportunity to see demonstrated and to practice applying tools and practices from motivational interviewing, appreciative inquiry, non-violent communication, and other authentic communication tools.  interprofessional dialogues and exercises will be guaranteed through targeted participation of second year health coaching students, who are not taking this course for credit but are volunteering to increase the interprofessional understanding of coaching and team work.\n\nthis course is not considered preparatory for becoming a professional health coach and does not meet educational hour requirements toward eligibility for the national board of health and wellness coaching exam, or for continuing education hours for nbhwc recertification. ",
-    "prereqInfo": "admitted to the doctor of nursing practice-integrative health and healing specialty; admitted to other doctor of nursing practice specialties; graduate or professional students in health sciences programs; practicing health professionals; or instructor consent.\n",
+    "info": "this course will explore the basic tenets of 4 pillars of health coaching model--self-awareness, mindful presence, authentic communication, and safe/sacred space.  students will learn to identify/benchmark stages/patterns of change, respectfully collaborate with interdisciplinary health care providers and facilitate clients’ ability to achieve sustainable lifestyle changes.  consistent, nonjudgmental application of a holistic perspective of optimal health and wellbeing in patient encounters will be discussed and demonstrated.  students will have the opportunity to see demonstrated and to practice applying tools and practices from motivational interviewing, appreciative inquiry, non-violent communication, and other authentic communication tools.  interprofessional dialogues and exercises will be guaranteed through targeted participation of second year health coaching students, who are not taking this course for credit but are volunteering to increase the interprofessional understanding of coaching and team work.\n\nthis course is not considered preparatory for becoming a professional health coach and does not meet educational hour requirements toward eligibility for the national board of health and wellness coaching exam, or for continuing education hours for nbhwc recertification.",
+    "prereqInfo": "admitted to the doctor of nursing practice-integrative health and healing specialty; admitted to other doctor of nursing practice specialties; graduate or professional students in health sciences programs; practicing health professionals; or instructor consent.",
     "prereq": []
   },
   {
@@ -967,17 +1002,21 @@
     "subject": "CSPH",
     "id": "5714",
     "title": "Hlth Behavior Change/Lifestyle",
-    "info": "the purpose of this course is to provide the student with the opportunity to explore the theoretical issues and current methodologies related to understanding and influencing health behavior change. in this course, students will examine health-related motivation and behavior change through the study of relevant psychological, sociological, behavioral economics, and educational theory and research. emphasis is on critique and application of behavioral and behavior-change theories and constructs not only in one-on-one coaching but understanding the systems and environments that impact health behaviors, especially within lifestyle medicine.  health coaches need to understand that health behavior change is not a sole responsibility of the individual but a collective effort.  while coaching, understanding the systems at play in regard to health behavior change is key for empathy, perspective, and rapport building especially under the domain of lifestyle medicine. this course is a required prerequisite for health coaching fundamentals ii (csh 5702).  ",
-    "prereqInfo": "there are no course prerequisites. this course is required for students who have been admitted to the integrative health and wellbeing coaching master of arts program.  doctorate of nursing practice students, non-degree students, or students from other degree programs, may only enroll with special permission of the course director.  ",
-    "prereq": []
+    "info": "the purpose of this course is to provide the student with the opportunity to explore the theoretical issues and current methodologies related to understanding and influencing health behavior change. in this course, students will examine health-related motivation and behavior change through the study of relevant psychological, sociological, behavioral economics, and educational theory and research. emphasis is on critique and application of behavioral and behavior-change theories and constructs not only in one-on-one coaching but understanding the systems and environments that impact health behaviors, especially within lifestyle medicine.  health coaches need to understand that health behavior change is not a sole responsibility of the individual but a collective effort.  while coaching, understanding the systems at play in regard to health behavior change is key for empathy, perspective, and rapport building especially under the domain of lifestyle medicine. this course is a required",
+    "prereqInfo": "uisite for health coaching fundamentals ii (csh 5702).  \n\nthere are no course",
+    "prereq": {
+      "code": "CSPH 5702",
+      "subject": "CSPH",
+      "id": "5702"
+    }
   },
   {
     "code": "CSPH 5715",
     "subject": "CSPH",
     "id": "5715",
     "title": "Leadership/Decision-making",
-    "info": "this course will examine how evidence-based decision making provides a framework for addressing health coaching quality assessment, best practices, and improvement in patient/client care. students will learn to assess and evaluate the quality of differing information and evidence and assess how leaders’ decisions are, or are not, supported by reliable evidence. students will be able to articulate and apply decision making frameworks to the discipline of health coaching to inform their personal practice and organizations. ",
-    "prereqInfo": "there are no prerequisite courses. this course is required for students who have been admitted to the integrative health and wellbeing coaching master of arts program.  doctor of nursing practice students, non-degree students, or students from other degree programs, may only enroll with special permission of the course director.  ",
+    "info": "this course will examine how evidence-based decision making provides a framework for addressing health coaching quality assessment, best practices, and improvement in patient/client care. students will learn to assess and evaluate the quality of differing information and evidence and assess how leaders’ decisions are, or are not, supported by reliable evidence. students will be able to articulate and apply decision making frameworks to the discipline of health coaching to inform their personal practice and organizations. \n\nthere are no",
+    "prereqInfo": "uisite courses. this course is required for students who have been admitted to the integrative health and wellbeing coaching master of arts program.  doctor of nursing practice students, non-degree students, or students from other degree programs, may only enroll with special permission of the course director.",
     "prereq": []
   },
   {
@@ -1007,7 +1046,7 @@
     "subject": "CSPH",
     "id": "5805",
     "title": "Wellbeing in the Workplace",
-    "info": "work and experiences in the workplace have a profound impact on many dimensions of individual and collective wellbeing, including a sense of purpose and meaning, financial and emotional security, quality of relationships and community, physical and emotional health, and the local and global environments. \n\nin this course, students will learn multi-disciplinary perspectives on key challenges in creating workplaces that contribute to greater wellbeing. students will also reflect on their own personal experiences with wellbeing in their current and past work environments and examine strategies for enhancing wellbeing based on interdisciplinary theory and research. specific topics include the importance of purpose and meaning at work, challenges in achieving work-life integration, the impact of technology on work expectations, and organizational change. this course is based on a whole-life, integrative model of wellbeing and draws from research and theory across the social, behavior, and health sciences. ",
+    "info": "work and experiences in the workplace have a profound impact on many dimensions of individual and collective wellbeing, including a sense of purpose and meaning, financial and emotional security, quality of relationships and community, physical and emotional health, and the local and global environments. \n\nin this course, students will learn multi-disciplinary perspectives on key challenges in creating workplaces that contribute to greater wellbeing. students will also reflect on their own personal experiences with wellbeing in their current and past work environments and examine strategies for enhancing wellbeing based on interdisciplinary theory and research. specific topics include the importance of purpose and meaning at work, challenges in achieving work-life integration, the impact of technology on work expectations, and organizational change. this course is based on a whole-life, integrative model of wellbeing and draws from research and theory across the social, behavior, and health sciences.",
     "prereqInfo": "jr or sr or grad, or instructor consent",
     "prereq": []
   },
@@ -1016,7 +1055,7 @@
     "subject": "CSPH",
     "id": "5806",
     "title": "Wellbeing/Resiliency Hlth Prof",
-    "info": "this course will teach health professional students and health professionals self-care strategies that will improve their individual wellbeing and reduce the stress and burnout often experienced in these professions. improving individual wellbeing will also contribute to greater wellbeing in the teams and systems in which these professionals work ",
+    "info": "this course will teach health professional students and health professionals self-care strategies that will improve their individual wellbeing and reduce the stress and burnout often experienced in these professions. improving individual wellbeing will also contribute to greater wellbeing in the teams and systems in which these professionals work",
     "prereqInfo": "jr or sr or grad, or instructor consent",
     "prereq": []
   },
@@ -1025,8 +1064,8 @@
     "subject": "CSPH",
     "id": "5807",
     "title": "Mindfulness in the Workplace",
-    "info": "mindfulness in the workplace is an experiential course designed to teach core mindfulness skills while also exploring specific applications to the workplace setting. the course explores key mindfulness traits and how they relate to essential workplace skills, such as resilience, task execution, critical analysis, intra/interpersonal growth, leadership, and other related topics. in addition, the course explores how corporate culture can be a barrier or a catalyst for adoption of mindfulness principles. by exploring the above topics from the perspective of the workplace and academic literature, students will gain an understanding of how to apply evidence-informed techniques to help them on the job. ",
-    "prereqInfo": "prereq jr or sr or grad, or instructor consent",
+    "info": "mindfulness in the workplace is an experiential course designed to teach core mindfulness skills while also exploring specific applications to the workplace setting. the course explores key mindfulness traits and how they relate to essential workplace skills, such as resilience, task execution, critical analysis, intra/interpersonal growth, leadership, and other related topics. in addition, the course explores how corporate culture can be a barrier or a catalyst for adoption of mindfulness principles. by exploring the above topics from the perspective of the workplace and academic literature, students will gain an understanding of how to apply evidence-informed techniques to help them on the job.",
+    "prereqInfo": "jr or sr or grad, or instructor consent",
     "prereq": []
   },
   {
@@ -1034,7 +1073,7 @@
     "subject": "CSPH",
     "id": "5905",
     "title": "Food Matters",
-    "info": "food matters is an experiential-learning, applied nutrition & culinary skills course for health professional students. the course addresses the role of food in specific health conditions and its function in health promotion and disease prevention. the course guides future health professionals in the procurement, preparation, and consumption of sustainably raised whole foods for self care and how this translates to patient care. ",
+    "info": "food matters is an experiential-learning, applied nutrition & culinary skills course for health professional students. the course addresses the role of food in specific health conditions and its function in health promotion and disease prevention. the course guides future health professionals in the procurement, preparation, and consumption of sustainably raised whole foods for self care and how this translates to patient care.",
     "prereqInfo": "graduate student in a health professions field, or instructor consent",
     "prereq": []
   },
@@ -1079,7 +1118,7 @@
     "subject": "CSPH",
     "id": "8191",
     "title": "Integrative Therapies/Healing",
-    "info": "individual independent study with faculty guidance. students write proposal, including outcome objectives/work plan. faculty member directs work, evaluates project. ",
+    "info": "individual independent study with faculty guidance. students write proposal, including outcome objectives/work plan. faculty member directs work, evaluates project.",
     "prereqInfo": "instr consent",
     "prereq": []
   },

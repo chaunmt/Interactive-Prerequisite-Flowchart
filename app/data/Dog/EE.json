@@ -31,22 +31,9 @@
     "subject": "EE",
     "id": "1701",
     "title": "Climate Crisis: Solutions",
-    "info": "energy from renewables such as solar and wind to combat potentially catastrophic climate change resulting from our use of fossil fuels; electrifying our transportation; ways to increase energy efficiency and energy conservation; need for energy storage to increase the penetration of renewables;  role of technology, societal benefits and the ethics.",
-    "prereqInfo": "note: ee 1701 and ee 1703 (the lab) need to both be taken to fulfill the physical science core requirement.  ee 1701 alone fulfills the technology and society theme requirement.",
-    "prereq": {
-      "and": [
-        {
-          "code": "EE 1701",
-          "subject": "EE",
-          "id": "1701"
-        },
-        {
-          "code": "EE 1703",
-          "subject": "EE",
-          "id": "1703"
-        }
-      ]
-    }
+    "info": "energy from renewables such as solar and wind to combat potentially catastrophic climate change resulting from our use of fossil fuels; electrifying our transportation; ways to increase energy efficiency and energy conservation; need for energy storage to increase the penetration of renewables;  role of technology, societal benefits and the ethics.\n\nnote: ee 1701 and ee 1703 (the lab) need to both be taken to fulfill the physical science core requirement.  ee 1701 alone fulfills the technology and society theme requirement.",
+    "prereqInfo": null,
+    "prereq": []
   },
   {
     "code": "EE 1703",
@@ -57,6 +44,11 @@
     "prereqInfo": "ee 1701 or concurrent registration is required (or allowed) in ee 1701",
     "prereq": {
       "or": [
+        {
+          "code": "EE 1701",
+          "subject": "EE",
+          "id": "1701"
+        },
         {
           "code": "EE 1701",
           "subject": "EE",
@@ -88,11 +80,6 @@
           "code": "MATH 2373",
           "subject": "MATH",
           "id": "2373"
-        },
-        {
-          "code": "MATH 2573H",
-          "subject": "MATH",
-          "id": "2573H"
         }
       ]
     }
@@ -106,6 +93,11 @@
     "prereqInfo": "2001 or concurrent registration is required (or allowed) in  2001",
     "prereq": {
       "or": [
+        {
+          "code": "EE 2001",
+          "subject": "EE",
+          "id": "2001"
+        },
         {
           "code": "EE 2001",
           "subject": "EE",
@@ -159,11 +151,6 @@
           "code": "MATH 2373",
           "subject": "MATH",
           "id": "2373"
-        },
-        {
-          "code": "MATH 2573H",
-          "subject": "MATH",
-          "id": "2573H"
         }
       ]
     }
@@ -280,7 +267,7 @@
     "subject": "EE",
     "id": "2701",
     "title": "Sustainable Electricity Supply",
-    "info": "this course is on the very timely topic of combating climate change by looking closely at electricity generation, delivery, and its use for a sustainable future. generating electricity from renewables and conservation in all forms, including improving energy efficiency, are the most important tools we have for combating climate change. this course will help you understand the historical development of energy production, the economic impacts of energy sources, the political implications, and primarily the technical understanding of solar power, wind power, electric vehicles, battery storage, fuel cells, energy distribution, and conservation. it will help you consider the potential societal benefits such as reduced energy bills, cleaner air and water, increased economic opportunities, and prepare you for exciting and meaningful careers in renewable energy and sustainability. ",
+    "info": "this course is on the very timely topic of combating climate change by looking closely at electricity generation, delivery, and its use for a sustainable future. generating electricity from renewables and conservation in all forms, including improving energy efficiency, are the most important tools we have for combating climate change. this course will help you understand the historical development of energy production, the economic impacts of energy sources, the political implications, and primarily the technical understanding of solar power, wind power, electric vehicles, battery storage, fuel cells, energy distribution, and conservation. it will help you consider the potential societal benefits such as reduced energy bills, cleaner air and water, increased economic opportunities, and prepare you for exciting and meaningful careers in renewable energy and sustainability.",
     "prereqInfo": "physics 1302w (or equivalent)",
     "prereq": {
       "code": "EE 1302",
@@ -346,7 +333,7 @@
     "subject": "EE",
     "id": "3015",
     "title": "Signals and Systems",
-    "info": "basic techniques for analysis/design of signal processing, communications, and control systems. time/frequency models, fourier-domain representations, modulation. discrete-time/digital signal/system analysis. z transform. state models, stability, feedback. suggest taking ee 3101 concurrently. ",
+    "info": "basic techniques for analysis/design of signal processing, communications, and control systems. time/frequency models, fourier-domain representations, modulation. discrete-time/digital signal/system analysis. z transform. state models, stability, feedback. suggest taking ee 3101 concurrently.",
     "prereqInfo": "[2115, cse upper division] or dept consent",
     "prereq": {
       "code": "EE 2115",
@@ -439,7 +426,7 @@
     "subject": "EE",
     "id": "3115",
     "title": "Analog Electronics",
-    "info": "basic differential amplifiers using fets and bjts. current sources for differential amplifiers. op- amp-based differential amplifiers. ic op amps as multi-stage amplifiers. ideal (dc) feedback. stability and compensation of negative feedback amplifiers. sinusoidal oscillators. waveshaping circuits. power amplifiers. use of circuit simulators. ee 3015 and ee 3101 should be taken before or concurrently with ee 3115. ",
+    "info": "basic differential amplifiers using fets and bjts. current sources for differential amplifiers. op- amp-based differential amplifiers. ic op amps as multi-stage amplifiers. ideal (dc) feedback. stability and compensation of negative feedback amplifiers. sinusoidal oscillators. waveshaping circuits. power amplifiers. use of circuit simulators. ee 3015 and ee 3101 should be taken before or concurrently with ee 3115.",
     "prereqInfo": "[ee 2115, &ee 3015, cse upper division] or dept consent",
     "prereq": {
       "and": [
@@ -461,7 +448,7 @@
     "subject": "EE",
     "id": "3161",
     "title": "Semiconductor Dev",
-    "info": "elementary semiconductor physics; physical description of pn junction diodes, bipolar junction transistors, field-effect transistors. ",
+    "info": "elementary semiconductor physics; physical description of pn junction diodes, bipolar junction transistors, field-effect transistors.",
     "prereqInfo": "upper div cse, 2115, phys 1302, phys 2303 or chem 1022",
     "prereq": {
       "and": [
@@ -502,7 +489,7 @@
     "subject": "EE",
     "id": "3601",
     "title": "T Lines, Fields & Waves",
-    "info": "properties of transmission lines, electrostatics, magnetostatics, and electromagnetic waves in unbounded space. guides, cavities, radiation theory, antennas. ",
+    "info": "properties of transmission lines, electrostatics, magnetostatics, and electromagnetic waves in unbounded space. guides, cavities, radiation theory, antennas.",
     "prereqInfo": "[2015, [math 2374 or math 2263 or math 2574h or math 3584h], [phys 1302 or phys 1402], cse] or dept consen",
     "prereq": {
       "and": [
@@ -522,16 +509,6 @@
               "code": "MATH 2263",
               "subject": "MATH",
               "id": "2263"
-            },
-            {
-              "code": "MATH 2574H",
-              "subject": "MATH",
-              "id": "2574H"
-            },
-            {
-              "code": "MATH 3584H",
-              "subject": "MATH",
-              "id": "3584H"
             }
           ]
         },
@@ -575,9 +552,13 @@
     "subject": "EE",
     "id": "3951W",
     "title": "Junior Design Project",
-    "info": "prereq - ee 3101.team participation in formulating/solving a structured common design problem emphasizing instrumentation systems. oral/written presentations.",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "",
+    "prereqInfo": "- ee 3101.team participation in formulating/solving a structured common design problem emphasizing instrumentation systems. oral/written presentations.",
+    "prereq": {
+      "code": "EE 3101",
+      "subject": "EE",
+      "id": "3101"
+    }
   },
   {
     "code": "EE 3961",
@@ -710,6 +691,11 @@
           "code": "EE 4231",
           "subject": "EE",
           "id": "4231"
+        },
+        {
+          "code": "EE 4231",
+          "subject": "EE",
+          "id": "4231"
         }
       ]
     }
@@ -723,6 +709,11 @@
     "prereqInfo": "4233 or concurrent registration is required (or allowed) in  4233; no cr for [ee or compe] grad students",
     "prereq": {
       "or": [
+        {
+          "code": "EE 4233",
+          "subject": "EE",
+          "id": "4233"
+        },
         {
           "code": "EE 4233",
           "subject": "EE",
@@ -785,6 +776,11 @@
           "code": "EE 2361",
           "subject": "EE",
           "id": "2361"
+        },
+        {
+          "code": "EE 4301",
+          "subject": "EE",
+          "id": "4301"
         }
       ]
     }
@@ -872,6 +868,11 @@
           "code": "EE 4501",
           "subject": "EE",
           "id": "4501"
+        },
+        {
+          "code": "EE 4501",
+          "subject": "EE",
+          "id": "4501"
         }
       ]
     }
@@ -881,12 +882,46 @@
     "subject": "EE",
     "id": "4521",
     "title": "Mach Learn & Data Sci for ECE",
-    "info": "computational techniques for analysis and inference from data. python language programming. elementary numerical optimization and statistical data analysis. computational methods for clustering, dimensionality reduction, classification, regression, and time series analysis. construction, training, and utilization of deep neural networks. application case studies using datasets arising in electrical and computer engineering. ",
+    "info": "computational techniques for analysis and inference from data. python language programming. elementary numerical optimization and statistical data analysis. computational methods for clustering, dimensionality reduction, classification, regression, and time series analysis. construction, training, and utilization of deep neural networks. application case studies using datasets arising in electrical and computer engineering.",
     "prereqInfo": "ee 3025; math 2263 or 2374; math 2142, 2243, 2373 or csci 2033",
     "prereq": {
-      "code": "EE 3025",
-      "subject": "EE",
-      "id": "3025"
+      "and": [
+        {
+          "code": "EE 3025",
+          "subject": "EE",
+          "id": "3025"
+        },
+        {
+          "code": "MATH 2263",
+          "subject": "MATH",
+          "id": "2263"
+        },
+        {
+          "code": "EE 2374",
+          "subject": "EE",
+          "id": "2374"
+        },
+        {
+          "code": "MATH 2142",
+          "subject": "MATH",
+          "id": "2142"
+        },
+        {
+          "code": "EE 2243",
+          "subject": "EE",
+          "id": "2243"
+        },
+        {
+          "code": "EE 2373",
+          "subject": "EE",
+          "id": "2373"
+        },
+        {
+          "code": "CSCI 2033",
+          "subject": "CSCI",
+          "id": "2033"
+        }
+      ]
     }
   },
   {
@@ -997,7 +1032,7 @@
     "subject": "EE",
     "id": "4623",
     "title": "Introduction to Modern Optics",
-    "info": "modern optics broadly defined as geometrical, physical, and quantum optics, including interference and diffraction, optical polarization, fourier optics, cavity optics, optical propagation, optical coherence, lasers, optical detection, and optical instruments. ",
+    "info": "modern optics broadly defined as geometrical, physical, and quantum optics, including interference and diffraction, optical polarization, fourier optics, cavity optics, optical propagation, optical coherence, lasers, optical detection, and optical instruments.",
     "prereqInfo": "[phys 2503 or phys 2303] and [math 2374 or math 2263 or math 2573h]; instr consent.",
     "prereq": {
       "and": [
@@ -1026,11 +1061,6 @@
               "code": "MATH 2263",
               "subject": "MATH",
               "id": "2263"
-            },
-            {
-              "code": "MATH 2573H",
-              "subject": "MATH",
-              "id": "2573H"
             }
           ]
         }
@@ -1063,6 +1093,11 @@
           "code": "EE 4701",
           "subject": "EE",
           "id": "4701"
+        },
+        {
+          "code": "EE 4701",
+          "subject": "EE",
+          "id": "4701"
         }
       ]
     }
@@ -1089,6 +1124,11 @@
     "prereqInfo": "4721 or concurrent registration is required (or allowed) in 4721",
     "prereq": {
       "or": [
+        {
+          "code": "EE 4721",
+          "subject": "EE",
+          "id": "4721"
+        },
         {
           "code": "EE 4721",
           "subject": "EE",
@@ -1137,6 +1177,11 @@
     "prereqInfo": "4741 or concurrent registration is required (or allowed) in  4741",
     "prereq": {
       "or": [
+        {
+          "code": "EE 4741",
+          "subject": "EE",
+          "id": "4741"
+        },
         {
           "code": "EE 4741",
           "subject": "EE",
@@ -1225,28 +1270,6 @@
     "info": "industrial work assignment in ece co-op program. formal written report covering semester's work.",
     "prereqInfo": null,
     "prereq": []
-  },
-  {
-    "code": "EE 4981H",
-    "subject": "EE",
-    "id": "4981H",
-    "title": "Sr Honors Proj I",
-    "info": "experience in research/design for electrical/computer engineering. oral/written reports.",
-    "prereqInfo": "ece honors, sr, instr consent",
-    "prereq": []
-  },
-  {
-    "code": "EE 4982V",
-    "subject": "EE",
-    "id": "4982V",
-    "title": "Sr Honors Proj II",
-    "info": "experience in research/design for electrical/computer engineering. oral/written reports.",
-    "prereqInfo": "4981",
-    "prereq": {
-      "code": "EE 4981H",
-      "subject": "EE",
-      "id": "4981H"
-    }
   },
   {
     "code": "EE 4994",
@@ -1376,6 +1399,11 @@
           "code": "EE 5171",
           "subject": "EE",
           "id": "5171"
+        },
+        {
+          "code": "EE 5171",
+          "subject": "EE",
+          "id": "5171"
         }
       ]
     }
@@ -1469,8 +1497,8 @@
     "subject": "EE",
     "id": "5241",
     "title": "Opt Contr & Reinfrcmnt Lrning",
-    "info": "(prereq-cse grad student or instructor consent) a wide variety of control problems such as \\\"walk from home to school via the shortest path\\\" or \\\"maintain a constant temperature\\\" can be modeled using optimization. this course will survey a variety of methods for modeling and solving optimal control problems. in particular, we will cover numerical optimal control, model predictive control, system identification, dynamic programming, and reinforcement learning. examples from robotics and aerospace systems will be given.",
-    "prereqInfo": null,
+    "info": "(",
+    "prereqInfo": "-cse grad student or instructor consent) a wide variety of control problems such as \\\"walk from home to school via the shortest path\\\" or \\\"maintain a constant temperature\\\" can be modeled using optimization. this course will survey a variety of methods for modeling and solving optimal control problems. in particular, we will cover numerical optimal control, model predictive control, system identification, dynamic programming, and reinforcement learning. examples from robotics and aerospace systems will be given.",
     "prereq": []
   },
   {
@@ -1483,14 +1511,28 @@
     "prereq": {
       "and": [
         {
-          "code": "MATH 2243",
-          "subject": "MATH",
-          "id": "2243"
+          "and": [
+            {
+              "code": "MATH 2243",
+              "subject": "MATH",
+              "id": "2243"
+            },
+            {
+              "code": "STAT 3021",
+              "subject": "STAT",
+              "id": "3021"
+            }
+          ]
         },
         {
-          "code": "STAT 3021",
-          "subject": "STAT",
-          "id": "3021"
+          "code": "EE 3025",
+          "subject": "EE",
+          "id": "3025"
+        },
+        {
+          "code": "EE 4231",
+          "subject": "EE",
+          "id": "4231"
         }
       ]
     }
@@ -1585,6 +1627,11 @@
               "code": "EE 5323",
               "subject": "EE",
               "id": "5323"
+            },
+            {
+              "code": "EE 5323",
+              "subject": "EE",
+              "id": "5323"
             }
           ]
         }
@@ -1600,6 +1647,11 @@
     "prereqInfo": "[[5323 or concurrent registration is required (or allowed) in 5323], cse grad student] or dept consent",
     "prereq": {
       "and": [
+        {
+          "code": "EE 5323",
+          "subject": "EE",
+          "id": "5323"
+        },
         {
           "code": "EE 5323",
           "subject": "EE",
@@ -1635,8 +1687,8 @@
     "subject": "EE",
     "id": "5340",
     "title": "Introduction Quantum Computing",
-    "info": "physics of computation will explore how physical principles and limits have been shaping paradigms of computing. a key goal of this course is to understand how (and to what extent) a paradigm shift in computing can help with emerging energy problems. topics include physical limits of computing, coding and information theoretical foundations, computing with beyond-cmos devices, reversible computing, quantum computing, stochastic computing. ",
-    "prereqInfo": "a previous course in computer architecture is suggested but not required.",
+    "info": "physics of computation will explore how physical principles and limits have been shaping paradigms of computing. a key goal of this course is to understand how (and to what extent) a paradigm shift in computing can help with emerging energy problems. topics include physical limits of computing, coding and information theoretical foundations, computing with beyond-cmos devices, reversible computing, quantum computing, stochastic computing. \n\na previous course in computer architecture is suggested but not required.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -1657,7 +1709,7 @@
     "subject": "EE",
     "id": "5355",
     "title": "Scalable Algorithm Techniques",
-    "info": "algorithm techniques for enhancing the scalability of parallel software: scatter-to-gather, problem decomposition, binning, privatization, tiling, regularization, compaction, double-buffering, and data layout. these techniques address the most challenging problems in building scalable parallel software: limited parallelism, data contention, insufficient memory bandwidth, load balance, and communication latency. programming assignments will be given to reinforce the understanding of the techniques. ",
+    "info": "algorithm techniques for enhancing the scalability of parallel software: scatter-to-gather, problem decomposition, binning, privatization, tiling, regularization, compaction, double-buffering, and data layout. these techniques address the most challenging problems in building scalable parallel software: limited parallelism, data contention, insufficient memory bandwidth, load balance, and communication latency. programming assignments will be given to reinforce the understanding of the techniques.",
     "prereqInfo": "basic knowledge of cuda, experience working in a unix environment, and experience developing and running scientific codes written in c or c++. completion of ee 5351 is not required but highly recommended.",
     "prereq": {
       "code": "EE 5351",
@@ -1733,8 +1785,8 @@
     "subject": "EE",
     "id": "5373",
     "title": "Data Modeling Using R",
-    "info": "introduction to data modeling and the r language programming. multi-factor linear regression modeling.\nresidual analysis and model quality evaluation. response prediction. training and testing. integral lab.",
-    "prereqInfo": "an introductory course in probability and statistics is suggested but not required; basic programming skills in some high-level programming language, such as c/c++, java, fortran, etc also suggested.",
+    "info": "introduction to data modeling and the r language programming. multi-factor linear regression modeling.\nresidual analysis and model quality evaluation. response prediction. training and testing. integral lab.\n\nan introductory course in probability and statistics is suggested but not required; basic programming skills in some high-level programming language, such as c/c++, java, fortran, etc also suggested.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -1842,9 +1894,18 @@
     "info": "introduction to wireless communication systems. propagation modeling, digital communication over fading channels, diversity and spread spectrum techniques, radio mobile cellular systems design, performance evaluation. current european, north american, and japanese wireless networks.",
     "prereqInfo": "[4501, cse grad student] or dept consent; 5501 recommended",
     "prereq": {
-      "code": "EE 4501",
-      "subject": "EE",
-      "id": "4501"
+      "or": [
+        {
+          "code": "EE 4501",
+          "subject": "EE",
+          "id": "4501"
+        },
+        {
+          "code": "EE 5501",
+          "subject": "EE",
+          "id": "5501"
+        }
+      ]
     }
   },
   {
@@ -1852,9 +1913,47 @@
     "subject": "EE",
     "id": "5521",
     "title": "ML\\DataSci for ECE\\Roboticists",
-    "info": "computational techniques for analysis and inference from data. python language programming. elementary numerical optimization and statistical data analysis. computational methods for clustering, dimensionality reduction, classification, regression, and time series analysis. construction, training, and utilization of deep neural networks. application case studies using datasets arising in electrical and computer engineering and robotics. ",
+    "info": "computational techniques for analysis and inference from data. python language programming. elementary numerical optimization and statistical data analysis. computational methods for clustering, dimensionality reduction, classification, regression, and time series analysis. construction, training, and utilization of deep neural networks. application case studies using datasets arising in electrical and computer engineering and robotics.",
     "prereqInfo": "[ee3025; math 2263 or 2374; math 2142, 2243, 2373 or csci 2033] or instructor consent.",
-    "prereq": []
+    "prereq": {
+      "and": [
+        {
+          "code": "EE 3025",
+          "subject": "EE",
+          "id": "3025"
+        },
+        {
+          "code": "MATH 2263",
+          "subject": "MATH",
+          "id": "2263"
+        },
+        {
+          "code": "EE 2374",
+          "subject": "EE",
+          "id": "2374"
+        },
+        {
+          "code": "MATH 2142",
+          "subject": "MATH",
+          "id": "2142"
+        },
+        {
+          "code": "EE 2243",
+          "subject": "EE",
+          "id": "2243"
+        },
+        {
+          "code": "EE 2373",
+          "subject": "EE",
+          "id": "2373"
+        },
+        {
+          "code": "CSCI 2033",
+          "subject": "CSCI",
+          "id": "2033"
+        }
+      ]
+    }
   },
   {
     "code": "EE 5531",
@@ -2084,6 +2183,11 @@
           "code": "EE 5601",
           "subject": "EE",
           "id": "5601"
+        },
+        {
+          "code": "EE 5601",
+          "subject": "EE",
+          "id": "5601"
         }
       ]
     }
@@ -2093,7 +2197,7 @@
     "subject": "EE",
     "id": "5616",
     "title": "Antennas",
-    "info": "with the widespread use of cell phones autonomous vehicles, and the coming of the internet of things, there is an increasing need to understand wireless communications and radar sensors. a key component of these systems is the antenna. the purpose of this course is to help the student develop knowledge in the area of antennas. this involves understanding the parameters that are used to characterize antennas and how these effect system performance. an important aspect of the course is to provide the student with an understanding of the operating principles behind the most commonly used antennas. this is followed with exposure to basic design principles. these can be used to perform antenna design or can be used as starting points for design using an electromagnetic simulator. as part of the course, students will be exposed to simulator use through homework assignments, and possibly, course project work. ",
+    "info": "with the widespread use of cell phones autonomous vehicles, and the coming of the internet of things, there is an increasing need to understand wireless communications and radar sensors. a key component of these systems is the antenna. the purpose of this course is to help the student develop knowledge in the area of antennas. this involves understanding the parameters that are used to characterize antennas and how these effect system performance. an important aspect of the course is to provide the student with an understanding of the operating principles behind the most commonly used antennas. this is followed with exposure to basic design principles. these can be used to perform antenna design or can be used as starting points for design using an electromagnetic simulator. as part of the course, students will be exposed to simulator use through homework assignments, and possibly, course project work.",
     "prereqInfo": "ee 3601 or equivalent",
     "prereq": {
       "code": "EE 3601",
@@ -2123,6 +2227,11 @@
     "prereqInfo": "[[5621 or concurrent registration is required (or allowed) in 5621], cse grad student] or dept consent",
     "prereq": {
       "and": [
+        {
+          "code": "EE 5621",
+          "subject": "EE",
+          "id": "5621"
+        },
         {
           "code": "EE 5621",
           "subject": "EE",
@@ -2188,6 +2297,11 @@
           "code": "EE 5627",
           "subject": "EE",
           "id": "5627"
+        },
+        {
+          "code": "EE 5627",
+          "subject": "EE",
+          "id": "5627"
         }
       ]
     }
@@ -2215,8 +2329,8 @@
     "subject": "EE",
     "id": "5640",
     "title": "Introduction to Nano-Optics",
-    "info": "this course will cover the physics and technology of nano-optics and plasmonics and their potential applications in biochemical sensing, super-resolution imaging, optical trapping, light emission, and spectroscopy. the following topics will be covered:",
-    "prereqInfo": "- maxwell's equations, e&m of metals\n- fresnel's equations, light propagation in periodic media\n- physics of surface plasmon waves\n- metallic waveguides: metal-insulator-metal vs. insulator-metal-insulator\n- optical antennas\n- noble metal nanoparticles: synthesis, optical properties, and applications\n- optical biosensors based on surface plasmon resonance (spr)\n- surface enhanced raman scattering (sers)\n- surface enhanced infrared absorption (seira)\n- super-resolution imaging and near-field optical microscopy\n- light transmission through nano-apertures (extraordinary optical transmission)\n- plasmonics at long wavelengths (infrared and terahertz)\n- plasmonics in atomically thick materials",
+    "info": "this course will cover the physics and technology of nano-optics and plasmonics and their potential applications in biochemical sensing, super-resolution imaging, optical trapping, light emission, and spectroscopy. the following topics will be covered:\n\n- maxwell's equations, e&m of metals\n- fresnel's equations, light propagation in periodic media\n- physics of surface plasmon waves\n- metallic waveguides: metal-insulator-metal vs. insulator-metal-insulator\n- optical antennas\n- noble metal nanoparticles: synthesis, optical properties, and applications\n- optical biosensors based on surface plasmon resonance (spr)\n- surface enhanced raman scattering (sers)\n- surface enhanced infrared absorption (seira)\n- super-resolution imaging and near-field optical microscopy\n- light transmission through nano-apertures (extraordinary optical transmission)\n- plasmonics at long wavelengths (infrared and terahertz)\n- plasmonics in atomically thick materials\n\nknowledge of maxwell's equations, matlab, or mathematica coding is suggested but not required.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -2286,6 +2400,11 @@
     "prereqInfo": "5705 or concurrent registration is required (or allowed) in 5705",
     "prereq": {
       "or": [
+        {
+          "code": "EE 5705",
+          "subject": "EE",
+          "id": "5705"
+        },
         {
           "code": "EE 5705",
           "subject": "EE",
@@ -2714,8 +2833,8 @@
     "subject": "EE",
     "id": "8551",
     "title": "Multirate SP and Applications",
-    "info": "multirate discrete-time systems with applications in modern signal and data processing problems. hilbert spaces and linear operators; reisz bases and frames; vector space representation of sampling, interpolation, time-frequency analysis and wavelets; filterbanks and polyphase structures; sparsity and redundancy with applications in linear and nonlinear approximation, super-resolution, blind-source separation.\nprereq: [cse grad student] or dept consent",
-    "prereqInfo": null,
+    "info": "multirate discrete-time systems with applications in modern signal and data processing problems. hilbert spaces and linear operators; reisz bases and frames; vector space representation of sampling, interpolation, time-frequency analysis and wavelets; filterbanks and polyphase structures; sparsity and redundancy with applications in linear and nonlinear approximation, super-resolution, blind-source separation.",
+    "prereqInfo": "[cse grad student] or dept consent",
     "prereq": []
   },
   {
@@ -2796,7 +2915,11 @@
     "title": "Doct Pre-Thesis Cr*",
     "info": "tbd",
     "prereqInfo": "doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": []
+    "prereq": {
+      "code": "EE 60",
+      "subject": "EE",
+      "id": "60"
+    }
   },
   {
     "code": "EE 8725",
@@ -2840,7 +2963,11 @@
     "title": "Thesis Credit:Mast*",
     "info": "(no description)",
     "prereqInfo": "max 18 cr per semester or summer; 10 cr total required [plan a only]",
-    "prereq": []
+    "prereq": {
+      "code": "EE 10",
+      "subject": "EE",
+      "id": "10"
+    }
   },
   {
     "code": "EE 8888",

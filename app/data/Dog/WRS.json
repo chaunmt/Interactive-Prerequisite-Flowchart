@@ -67,7 +67,7 @@
     "subject": "WRS",
     "id": "8095",
     "title": "Plan B Project",
-    "info": "optional course for m.s. plan b students. can be taken once for up to 3 credits, and may count towards credit minimum. ",
+    "info": "optional course for m.s. plan b students. can be taken once for up to 3 credits, and may count towards credit minimum.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -114,7 +114,11 @@
     "title": "Doct Pre-Thesis Cr",
     "info": "tbd",
     "prereqInfo": "doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": []
+    "prereq": {
+      "code": "WRS 60",
+      "subject": "WRS",
+      "id": "60"
+    }
   },
   {
     "code": "WRS 8777",
@@ -123,15 +127,19 @@
     "title": "Thesis Credit:Mast*",
     "info": "(no description)",
     "prereqInfo": "max 18 cr per semester or summer; 10 cr total required [plan a only]",
-    "prereq": []
+    "prereq": {
+      "code": "WRS 10",
+      "subject": "WRS",
+      "id": "10"
+    }
   },
   {
     "code": "WRS 8888",
     "subject": "WRS",
     "id": "8888",
     "title": "Thesis Credit: Doctoral",
-    "info": "thesis credit: doctoral.",
-    "prereqInfo": "24 cr required",
+    "info": "thesis credit: doctoral.\n\n24 cr required",
+    "prereqInfo": null,
     "prereq": []
   }
 ]

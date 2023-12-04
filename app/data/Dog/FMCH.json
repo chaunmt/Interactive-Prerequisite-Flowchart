@@ -111,7 +111,7 @@
     "subject": "FMCH",
     "id": "7200",
     "title": "Intro Residency in Family Med",
-    "info": "this 2-week elective is offered at all of the university of minnesota-affiliated twin cities residency programs in family medicine, and select other local programs. this elective provides students the opportunity to experience the full spectrum of family medicine and community health at that program. all efforts will be made to place the student at the program of their choice. the student will work with family medicine faculty physicians and residents in all the facets of family medicine care including: office, inpatient hospital service, labor and delivery, overnight call, procedures and, where applicable, nursing home rounds or home visits. \n",
+    "info": "this 2-week elective is offered at all of the university of minnesota-affiliated twin cities residency programs in family medicine, and select other local programs. this elective provides students the opportunity to experience the full spectrum of family medicine and community health at that program. all efforts will be made to place the student at the program of their choice. the student will work with family medicine faculty physicians and residents in all the facets of family medicine care including: office, inpatient hospital service, labor and delivery, overnight call, procedures and, where applicable, nursing home rounds or home visits.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -323,7 +323,7 @@
     "subject": "FMCH",
     "id": "7515",
     "title": "RPAP-Emergency Medicine",
-    "info": "tbd ",
+    "info": "tbd",
     "prereqInfo": null,
     "prereq": []
   },
@@ -368,8 +368,8 @@
     "subject": "FMCH",
     "id": "7521",
     "title": "Topics in Immigrant Health",
-    "info": "course is designed to offer an intensive multidimensional exploration of immigrant health using clinical, multimedia, academic and on-line learning. the course will include an individualized in-depth project and an individualized learning plan will be developed between each student and the course director after assessing the student's experience, background and interest.",
-    "prereqInfo": "this course will combine clinical experiences at a variety of sites which serve immigrant patients with text-based and web-based reading, on-line research, group and individual community visits and on-line and class discussions to provide students with an opportunity to study in-depth the issues that communities and methods by which those barriers are being overcome.",
+    "info": "course is designed to offer an intensive multidimensional exploration of immigrant health using clinical, multimedia, academic and on-line learning. the course will include an individualized in-depth project and an individualized learning plan will be developed between each student and the course director after assessing the student's experience, background and interest.\n\nthis course will combine clinical experiences at a variety of sites which serve immigrant patients with text-based and web-based reading, on-line research, group and individual community visits and on-line and class discussions to provide students with an opportunity to study in-depth the issues that communities and methods by which those barriers are being overcome.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -377,20 +377,16 @@
     "subject": "FMCH",
     "id": "7522",
     "title": "Exploration Immigrant Health",
-    "info": "this is a 2-week family medicine elective based on the 4 week \\\"topics in immigrant health\\\" elective and incorporates much of the independent study portion of that elective.  this online elective will include significant reading (electronically available textbook, the spirit catches you and you fall down, and a book about the immigrant experience), writing, research and videos that address topics relevant to providing primary care to immigrant patients.  ",
-    "prereqInfo": "the course objectives are:\n(1) students will end the elective with a much deeper understanding of the immigrant experience and how that experience impacts their healthcare needs \n(2) students will learn research tools which will allow them to better learn about unfamiliar immigrant groups that they encounter in their future practice.  ",
-    "prereq": {
-      "and": [
-        null
-      ]
-    }
+    "info": "this is a 2-week family medicine elective based on the 4 week \\\"topics in immigrant health\\\" elective and incorporates much of the independent study portion of that elective.  this online elective will include significant reading (electronically available textbook, the spirit catches you and you fall down, and a book about the immigrant experience), writing, research and videos that address topics relevant to providing primary care to immigrant patients.  \n\nthe course objectives are:\n(1) students will end the elective with a much deeper understanding of the immigrant experience and how that experience impacts their healthcare needs \n(2) students will learn research tools which will allow them to better learn about unfamiliar immigrant groups that they encounter in their future practice.  \n\nstudents will be expected to spend 4 hours/day on weekdays working on class assignments.  because it is based on the topics in immigrant health elective (fmch 7521), it is not appropriate for students who have taken or plan to take that full course.",
+    "prereqInfo": null,
+    "prereq": []
   },
   {
     "code": "FMCH 7523",
     "subject": "FMCH",
     "id": "7523",
     "title": "Fam Med Clerkship in Duluth",
-    "info": "principles of family medicine. students engage in preceptorship with community family physicians in clinic, hospital, patient's home, and other facilities. weekly patient care discussions/presentations, observation. procedures such as suturing, casting.\n",
+    "info": "principles of family medicine. students engage in preceptorship with community family physicians in clinic, hospital, patient's home, and other facilities. weekly patient care discussions/presentations, observation. procedures such as suturing, casting.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -408,7 +404,7 @@
     "subject": "FMCH",
     "id": "7525",
     "title": "Cardiovascular Medicine",
-    "info": "students will participate in daily cardiology inpatient rounds. they will work 1:1 with the rounding cardiologist for the week. responsibilities include the initial cardiology consultation and daily rounds on patients in the hospital. ",
+    "info": "students will participate in daily cardiology inpatient rounds. they will work 1:1 with the rounding cardiologist for the week. responsibilities include the initial cardiology consultation and daily rounds on patients in the hospital.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -536,7 +532,11 @@
     "title": "Intro Comp/Alt Therapies",
     "info": "complementary therapies and their integration with allopathic treatments. observation of complementary care providers in community. examines culturally-based approaches to health care. weekly seminars, special project, use of internet.",
     "prereqInfo": "internet access, basic e-mail skills; nurs 5609 recommended",
-    "prereq": []
+    "prereq": {
+      "code": "NURS 5609",
+      "subject": "NURS",
+      "id": "5609"
+    }
   },
   {
     "code": "FMCH 7580",
@@ -570,7 +570,7 @@
     "subject": "FMCH",
     "id": "7598",
     "title": "Remote Independent Study in FM",
-    "info": "this two-week elective is designed to allow students to independently select and review various family medicine topics in the form of cases, journals, modules, and presentations. students will document their time, resources, and take home points throughout the course. each week students will engage with the course director and their colleagues through the posted discussion points and through a weekly online group discussion. ",
+    "info": "this two-week elective is designed to allow students to independently select and review various family medicine topics in the form of cases, journals, modules, and presentations. students will document their time, resources, and take home points throughout the course. each week students will engage with the course director and their colleagues through the posted discussion points and through a weekly online group discussion.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -597,8 +597,8 @@
     "subject": "FMCH",
     "id": "7601",
     "title": "Family Medicine Clerkship A",
-    "info": "course created specifically to accommodate clinical setting restrictions due to covid-19 from spring 2020 to spring 2021. part a of this course covers the virtual coursework while part b covers the clinical component. both parts a and b must be completed for the clerkship requirement to be considered fulfilled. ",
-    "prereqInfo": "catalog description:  this is a 4 week outpatient clinic-based experience in family medicine working with practicing family physicians, colleagues from other disciplines who are working in family medicine clinics and, at some sites, fm residents. the core of the rotation is the 14 days spent in the clinic (except the first monday, final friday, and every wednesday). this is a very hands-on, active patient contact clerkship. students will spend their four weeks either at a residency clinic or at a community or private practice clinic. we strive to actively involve students in direct patient care with the expectation that a student is directly involved in over 50% of patient encounters in a given day. students should write up 2-3 notes per half-day. during the 4 weeks, students also attend weekly seminars and didactic skills workshops on wednesday mornings. in addition there is a comprehensive online curriculum.",
+    "info": "course created specifically to accommodate clinical setting restrictions due to covid-19 from spring 2020 to spring 2021. part a of this course covers the virtual coursework while part b covers the clinical component. both parts a and b must be completed for the clerkship requirement to be considered fulfilled. \n\ncatalog description:  this is a 4 week outpatient clinic-based experience in family medicine working with practicing family physicians, colleagues from other disciplines who are working in family medicine clinics and, at some sites, fm residents. the core of the rotation is the 14 days spent in the clinic (except the first monday, final friday, and every wednesday). this is a very hands-on, active patient contact clerkship. students will spend their four weeks either at a residency clinic or at a community or private practice clinic. we strive to actively involve students in direct patient care with the expectation that a student is directly involved in over 50% of patient encounters in a given day. students should write up 2-3 notes per half-day. during the 4 weeks, students also attend weekly seminars and didactic skills workshops on wednesday mornings. in addition there is a comprehensive online curriculum.",
+    "prereqInfo": null,
     "prereq": []
   },
   {

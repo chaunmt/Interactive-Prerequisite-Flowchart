@@ -37,43 +37,6 @@
           "id": "2051"
         },
         {
-          "code": "SCO 2550H",
-          "subject": "SCO",
-          "id": "2550H"
-        },
-        {
-          "code": "BA 2551",
-          "subject": "BA",
-          "id": "2551"
-        }
-      ]
-    }
-  },
-  {
-    "code": "FINA 3001H",
-    "subject": "FINA",
-    "id": "3001H",
-    "title": "Honors: Finance Fundamentals",
-    "info": "financial management principles. money/capital markets, risk/return/valuation triad, capital budgeting. capital structure, financial leverage. cost of capital, financial performance measures, dividend policy, working capital management, international financial management/derivatives.",
-    "prereqInfo": "acct 2050 or acct 2051, sco 2550 or ba 2551 or equivalent statistics course",
-    "prereq": {
-      "and": [
-        {
-          "code": "ACCT 2050",
-          "subject": "ACCT",
-          "id": "2050"
-        },
-        {
-          "code": "ACCT 2051",
-          "subject": "ACCT",
-          "id": "2051"
-        },
-        {
-          "code": "SCO 2550H",
-          "subject": "SCO",
-          "id": "2550H"
-        },
-        {
           "code": "BA 2551",
           "subject": "BA",
           "id": "2551"
@@ -95,21 +58,21 @@
     "subject": "FINA",
     "id": "4121",
     "title": "Financial Markets",
-    "info": "this course provides a framework to understand how financial markets operate and how they establish the cost of capital demanded by investors through market interest rates. course presents valuation models for bonds, the impact of the federal reserve on the level and term structure of interest rates, measures of interest rate risk, financing markets for securities and how these define the pricing of futures and forward contracts.  prereq: 3001 or 3001h, csom major or math/actuarial science major or management minor. ",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "FINA 4121H",
-    "subject": "FINA",
-    "id": "4121H",
-    "title": "Financial Markets",
-    "info": "valuing fixed income securities. term structure on interest rates. forward rates. fixed income valuation. treasury, corporate, municipal, securitization markets.",
-    "prereqInfo": "3001, csom major, honors",
+    "info": "this course provides a framework to understand how financial markets operate and how they establish the cost of capital demanded by investors through market interest rates. course presents valuation models for bonds, the impact of the federal reserve on the level and term structure of interest rates, measures of interest rate risk, financing markets for securities and how these define the pricing of futures and forward contracts.",
+    "prereqInfo": "3001 or 3001h, csom major or math/actuarial science major or management minor.",
     "prereq": {
-      "code": "FINA 3001",
-      "subject": "FINA",
-      "id": "3001"
+      "or": [
+        {
+          "code": "FINA 3001",
+          "subject": "FINA",
+          "id": "3001"
+        },
+        {
+          "code": "FINA 3001",
+          "subject": "FINA",
+          "id": "3001"
+        }
+      ]
     }
   },
   {
@@ -117,13 +80,9 @@
     "subject": "FINA",
     "id": "4122",
     "title": "Banks, Banking Srvs & Fintech",
-    "info": "this course examines the traditional economic functions of commercial banks, especially lending, savings and liquidity provision, and payment services. for each function, we will address key business risks, policy concerns, and the impact of competition both from traditional nonbank financial institutions and from “fintechs” seeking to leverage new information technology. ",
-    "prereqInfo": "preq fina 3001",
-    "prereq": {
-      "code": "FINA 3001",
-      "subject": "FINA",
-      "id": "3001"
-    }
+    "info": "this course examines the traditional economic functions of commercial banks, especially lending, savings and liquidity provision, and payment services. for each function, we will address key business risks, policy concerns, and the impact of competition both from traditional nonbank financial institutions and from “fintechs” seeking to leverage new information technology. \n\npreq fina 3001",
+    "prereqInfo": null,
+    "prereq": []
   },
   {
     "code": "FINA 4125",
@@ -139,9 +98,22 @@
     "subject": "FINA",
     "id": "4221",
     "title": "Prin of Corporate Finance",
-    "info": "this course evaluates how the financing choices the firm makes influence the creation of firm value and allocation of firm risks among investors.  course presents the debt vs. equity trade-off, tax effects of financing, dividend vs. share repurchases, and the impact on managerial incentives and agency problems. \nprereq: 3001 or 3001h, csom major or math/actuarial science major or management minor",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "this course evaluates how the financing choices the firm makes influence the creation of firm value and allocation of firm risks among investors.  course presents the debt vs. equity trade-off, tax effects of financing, dividend vs. share repurchases, and the impact on managerial incentives and agency problems.",
+    "prereqInfo": "3001 or 3001h, csom major or math/actuarial science major or management minor",
+    "prereq": {
+      "or": [
+        {
+          "code": "FINA 3001",
+          "subject": "FINA",
+          "id": "3001"
+        },
+        {
+          "code": "FINA 3001",
+          "subject": "FINA",
+          "id": "3001"
+        }
+      ]
+    }
   },
   {
     "code": "FINA 4224",
@@ -179,9 +151,13 @@
     "subject": "FINA",
     "id": "4234",
     "title": "Mergers and Acq - In Action",
-    "info": "this action based course will explore in an experiential way the methodology corporate managers employ and invest capital to achieve growth and a return to its shareholders through mergers and acquisitions. starting with the strategic rationale and ending with the challenges of integration, this course will focus on the process used for identifying m&a targets and the methods used in practice to value these transactions.  the objectives of the course will be to leverage skills mastered in the core curriculum: finance, marketing, accounting, and operations – and other related courses that will help you in this class.  \nprerequisite: fina 4422",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "this action based course will explore in an experiential way the methodology corporate managers employ and invest capital to achieve growth and a return to its shareholders through mergers and acquisitions. starting with the strategic rationale and ending with the challenges of integration, this course will focus on the process used for identifying m&a targets and the methods used in practice to value these transactions.  the objectives of the course will be to leverage skills mastered in the core curriculum: finance, marketing, accounting, and operations – and other related courses that will help you in this class.",
+    "prereqInfo": "fina 4422",
+    "prereq": {
+      "code": "FINA 4422",
+      "subject": "FINA",
+      "id": "4422"
+    }
   },
   {
     "code": "FINA 4241",
@@ -197,7 +173,7 @@
     "subject": "FINA",
     "id": "4242W",
     "title": "Corporate Investment Decisions",
-    "info": "his case based course provides the student with an opportunity to apply the concepts from previous finance coursework to a variety of decisions a firm would face when allocating capital to investment decisions. the focus is weighted toward combining the theory with the practice of valuation of investment opportunities through the use of group cases to give the student a sense of the strengths and weaknesses of such analysis. the course presents firm performance measurement metrics, apv & wacc based valuation, working capital management, making capital budgeting decisions, financial distress and capital structure, real options and mergers& acquisitions. ",
+    "info": "his case based course provides the student with an opportunity to apply the concepts from previous finance coursework to a variety of decisions a firm would face when allocating capital to investment decisions. the focus is weighted toward combining the theory with the practice of valuation of investment opportunities through the use of group cases to give the student a sense of the strengths and weaknesses of such analysis. the course presents firm performance measurement metrics, apv & wacc based valuation, working capital management, making capital budgeting decisions, financial distress and capital structure, real options and mergers& acquisitions.",
     "prereqInfo": "4121, 4321, 4422, 4522, and csom major",
     "prereq": {
       "and": [
@@ -229,21 +205,21 @@
     "subject": "FINA",
     "id": "4321",
     "title": "Portfolio Mgmt",
-    "info": "this course uses statistics to demonstrate how the construction of portfolios of individual securities impacts the risk return trade-off for investors through diversification.  course presents models of pricing investor risk, impact of asset allocation on returns, active versus indexed portfolio management, and approaches to measure value added performance of investment portfolios.\nprereq: 3001 or 3001h, csom major or math/actuarial science major or management minor",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "FINA 4321H",
-    "subject": "FINA",
-    "id": "4321H",
-    "title": "Portfolio Mgmt",
-    "info": "investment environment. concepts used to manage security portfolios. risk/return tradeoffs, diversification. asset allocation, active portfolio management versus indexed portfolios. portfolio performance evaluation.",
-    "prereqInfo": "3001, csom major, honors",
+    "info": "this course uses statistics to demonstrate how the construction of portfolios of individual securities impacts the risk return trade-off for investors through diversification.  course presents models of pricing investor risk, impact of asset allocation on returns, active versus indexed portfolio management, and approaches to measure value added performance of investment portfolios.",
+    "prereqInfo": "3001 or 3001h, csom major or math/actuarial science major or management minor",
     "prereq": {
-      "code": "FINA 3001",
-      "subject": "FINA",
-      "id": "3001"
+      "or": [
+        {
+          "code": "FINA 3001",
+          "subject": "FINA",
+          "id": "3001"
+        },
+        {
+          "code": "FINA 3001",
+          "subject": "FINA",
+          "id": "3001"
+        }
+      ]
     }
   },
   {
@@ -268,6 +244,11 @@
           "code": "FINA 4321",
           "subject": "FINA",
           "id": "4321"
+        },
+        {
+          "code": "FINA 4321",
+          "subject": "FINA",
+          "id": "4321"
         }
       ]
     }
@@ -287,19 +268,9 @@
           "id": "4121"
         },
         {
-          "code": "FINA 4121H",
-          "subject": "FINA",
-          "id": "4121H"
-        },
-        {
           "code": "FINA 4321",
           "subject": "FINA",
           "id": "4321"
-        },
-        {
-          "code": "FINA 4321H",
-          "subject": "FINA",
-          "id": "4321H"
         },
         {
           "code": "FINA 4422",
@@ -329,9 +300,22 @@
     "subject": "FINA",
     "id": "4422",
     "title": "Financial Modeling",
-    "info": "this applied course builds on principles from the prerequisite courses and provides students with significant practice building financial models to identify the free cash flow from and required investment in projects or firms for discounted cash flow and sensitivity analysis. course presents net operating working capital requirements, valuation with free cash flow based methods, and the construction of three statement pro-forma cash flow projections.  \nprereq: fina 4221, acct 5101, csom major",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "this applied course builds on principles from the prerequisite courses and provides students with significant practice building financial models to identify the free cash flow from and required investment in projects or firms for discounted cash flow and sensitivity analysis. course presents net operating working capital requirements, valuation with free cash flow based methods, and the construction of three statement pro-forma cash flow projections.",
+    "prereqInfo": "fina 4221, acct 5101, csom major",
+    "prereq": {
+      "and": [
+        {
+          "code": "FINA 4221",
+          "subject": "FINA",
+          "id": "4221"
+        },
+        {
+          "code": "ACCT 5101",
+          "subject": "ACCT",
+          "id": "5101"
+        }
+      ]
+    }
   },
   {
     "code": "FINA 4522",
@@ -348,11 +332,6 @@
           "id": "3001"
         },
         {
-          "code": "FINA 3001H",
-          "subject": "FINA",
-          "id": "3001H"
-        },
-        {
           "code": "APEC 3501",
           "subject": "APEC",
           "id": "3501"
@@ -363,9 +342,9 @@
           "id": "4121"
         },
         {
-          "code": "FINA 4121H",
+          "code": "FINA 4321",
           "subject": "FINA",
-          "id": "4121H"
+          "id": "4321"
         },
         {
           "code": "FINA 4321",
@@ -428,6 +407,11 @@
           "code": "FINA 3001",
           "subject": "FINA",
           "id": "3001"
+        },
+        {
+          "code": "FINA 3001",
+          "subject": "FINA",
+          "id": "3001"
         }
       ]
     }
@@ -447,19 +431,9 @@
           "id": "3001"
         },
         {
-          "code": "FINA 3001H",
-          "subject": "FINA",
-          "id": "3001H"
-        },
-        {
           "code": "FINA 4121",
           "subject": "FINA",
           "id": "4121"
-        },
-        {
-          "code": "FINA 4121H",
-          "subject": "FINA",
-          "id": "4121H"
         },
         {
           "code": "FINA 4221",
@@ -492,7 +466,7 @@
     "subject": "FINA",
     "id": "5125",
     "title": "Cryptocurrency, Blockchain",
-    "info": "this course discusses cryptocurrencies (including bitcoin, ethereum, and others), blockchain, also referred to as distributed ledger technology (dlt), and their applications in various business sectors. the course first explains the history of cryptocurrency and the fundamentals of blockchain including cryptography and consensus mechanism. although technical, this part is essential to establish a foundation to understand cryptocurrencies and blockchain. the rest of the course is on the applications of blockchain. we will discuss enterprise blockchain, smart contracts, and token offerings, e.g., initial coin offerings (icos) and securities token offering (stos). we will have industry experts to give guest lectures on the realworld blockchain applications and interact with students. finally, we will cover the valuation models for cryptoassets, the practical details of how to use cryptocurrency, and various investments related to blockchain. the goal of the course is to provide students with a basic set of skills to understand cryptocurrencies and blockchain and how businesses can use them. ",
+    "info": "this course discusses cryptocurrencies (including bitcoin, ethereum, and others), blockchain, also referred to as distributed ledger technology (dlt), and their applications in various business sectors. the course first explains the history of cryptocurrency and the fundamentals of blockchain including cryptography and consensus mechanism. although technical, this part is essential to establish a foundation to understand cryptocurrencies and blockchain. the rest of the course is on the applications of blockchain. we will discuss enterprise blockchain, smart contracts, and token offerings, e.g., initial coin offerings (icos) and securities token offering (stos). we will have industry experts to give guest lectures on the realworld blockchain applications and interact with students. finally, we will cover the valuation models for cryptoassets, the practical details of how to use cryptocurrency, and various investments related to blockchain. the goal of the course is to provide students with a basic set of skills to understand cryptocurrencies and blockchain and how businesses can use them.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -532,7 +506,7 @@
     "subject": "FINA",
     "id": "5529",
     "title": "Derivatives II",
-    "info": "this course begins with a discussion of advanced derivative hedging techniques and proceeds to the economics and mechanics of advanced derivative securities, including interest rate derivatives, swaps, asian options, and barrier options. the second phase of the course investigates mathematical techniques for stochastic and dynamic modeling of asset prices and derivative security values. students must use these statistical modeling techniques and advanced programming software (matlab, python, r, etc) in a group project to price path dependent securities such as american style options.\n ",
+    "info": "this course begins with a discussion of advanced derivative hedging techniques and proceeds to the economics and mechanics of advanced derivative securities, including interest rate derivatives, swaps, asian options, and barrier options. the second phase of the course investigates mathematical techniques for stochastic and dynamic modeling of asset prices and derivative security values. students must use these statistical modeling techniques and advanced programming software (matlab, python, r, etc) in a group project to price path dependent securities such as american style options.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -541,7 +515,7 @@
     "subject": "FINA",
     "id": "5920",
     "title": "Finance Topic",
-    "info": "discussion and analysis of current topics and developments in finance.\n ",
+    "info": "discussion and analysis of current topics and developments in finance.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -550,7 +524,7 @@
     "subject": "FINA",
     "id": "6111",
     "title": "Financing;  Firm’s Lifecycle",
-    "info": " all companies—from small startups to large public companies—require funding in order to operate. this course provides an overview of the various sources of financing that a company can access throughout the different stages of its life, including debt and equity financing, venture capital, private equity, initial public offerings, and others.",
+    "info": "all companies—from small startups to large public companies—require funding in order to operate. this course provides an overview of the various sources of financing that a company can access throughout the different stages of its life, including debt and equity financing, venture capital, private equity, initial public offerings, and others.",
     "prereqInfo": "mba 6231 (previously mba 6230)",
     "prereq": [
       {
@@ -570,7 +544,7 @@
     "subject": "FINA",
     "id": "6112",
     "title": "Private Equity",
-    "info": "private equity has emerged as an important force in our financial markets.  this course will explore current issues and best practices ranging from early-stage financing with angel investors and venture capital to late stage “take-private” transactions such as leveraged buyouts.  ",
+    "info": "private equity has emerged as an important force in our financial markets.  this course will explore current issues and best practices ranging from early-stage financing with angel investors and venture capital to late stage “take-private” transactions such as leveraged buyouts.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -588,7 +562,7 @@
     "subject": "FINA",
     "id": "6121",
     "title": "Debt Markets",
-    "info": "this class introduces the tools and concepts needed to analyze fixed income securities. topics include the pricing and hedging of fixed-rate treasuries, floating rate bonds, bonds with embedded options, defaultable bonds, mortgage-backed securities and their derivatives, inflation-indexed bonds, duration analysis, and the federal reserve’s impact on interest rates. this course is extremely computationally intensive. most of the assignments entail statistical modeling via regression analysis on historical data such as the term structure of interest rates, credit spreads, and other fixed income instruments. we also investigate how well future interest rates can be forecasted using forward rates and other observables. advanced mathematical techniques such as principal component analysis and attribution analysis are investigated. stochastic modeling of interest rate dynamics via brownian motion and monte carlo analysis is also introduced. every class begins by discussing current headline news regarding fixed income markets, and how they relate to the concepts being taught.\n",
+    "info": "this class introduces the tools and concepts needed to analyze fixed income securities. topics include the pricing and hedging of fixed-rate treasuries, floating rate bonds, bonds with embedded options, defaultable bonds, mortgage-backed securities and their derivatives, inflation-indexed bonds, duration analysis, and the federal reserve’s impact on interest rates. this course is extremely computationally intensive. most of the assignments entail statistical modeling via regression analysis on historical data such as the term structure of interest rates, credit spreads, and other fixed income instruments. we also investigate how well future interest rates can be forecasted using forward rates and other observables. advanced mathematical techniques such as principal component analysis and attribution analysis are investigated. stochastic modeling of interest rate dynamics via brownian motion and monte carlo analysis is also introduced. every class begins by discussing current headline news regarding fixed income markets, and how they relate to the concepts being taught.",
     "prereqInfo": "mba student, mba 6231 (previously mba 6230)",
     "prereq": {
       "and": [
@@ -648,7 +622,7 @@
     "subject": "FINA",
     "id": "6211",
     "title": "Cash Flows and Project Select",
-    "info": "managers are judged on their ability to select value-added projects; this is also one of the drivers of business value.  this course will explore the idea of ranking and selecting the best projects.  this will be accomplished through a study of cash flows and ranking metrics, including payback, internal rate of return, and net present value.   ",
+    "info": "managers are judged on their ability to select value-added projects; this is also one of the drivers of business value.  this course will explore the idea of ranking and selecting the best projects.  this will be accomplished through a study of cash flows and ranking metrics, including payback, internal rate of return, and net present value.",
     "prereqInfo": "mba 6231 (previously mba 6230)",
     "prereq": [
       {
@@ -668,7 +642,7 @@
     "subject": "FINA",
     "id": "6212",
     "title": "Working Capital Management",
-    "info": "cash management is a major factor in the success or failure of a business.  companies often find themselves short on cash even in a time of profitability.  being able to manage a business through the cash cycle is a key factor in business success.  this course will explore current issues and best practices for working capital management.  ",
+    "info": "cash management is a major factor in the success or failure of a business.  companies often find themselves short on cash even in a time of profitability.  being able to manage a business through the cash cycle is a key factor in business success.  this course will explore current issues and best practices for working capital management.",
     "prereqInfo": "mba 6231 (previously mba 6230)",
     "prereq": [
       {
@@ -688,7 +662,7 @@
     "subject": "FINA",
     "id": "6213",
     "title": "Financial Capital Structure",
-    "info": " this course focuses on one of the most fundamental corporate finance decisions, the determination of a firm’s financial capital structure, and its impact on firm risk, cost of capital, and firm value. the course also studies corporate bankruptcy and reorganization. fina 6213 and fina 6214 can have concurrent enrollment.",
+    "info": "this course focuses on one of the most fundamental corporate finance decisions, the determination of a firm’s financial capital structure, and its impact on firm risk, cost of capital, and firm value. the course also studies corporate bankruptcy and reorganization. fina 6213 and fina 6214 can have concurrent enrollment.",
     "prereqInfo": "mba 6231 (previously mba 6230)",
     "prereq": [
       {
@@ -710,30 +684,32 @@
     "title": "Business Valuation",
     "info": "description: valuation is at the very core of finance. valuation is about figuring out what we think an asset is worth to us, while pricing determines how much we pay for the asset. the two are not necessarily the same. this course introduces various methods for the valuation of a business or the equity of the business. fina 6213 and fina 6214 can have concurrent enrollment.",
     "prereqInfo": "mba 6231 (previously mba 6230) & fina 6213",
-    "prereq": [
-      {
-        "code": "MBA 6231",
-        "subject": "MBA",
-        "id": "6231"
-      },
-      {
-        "code": "MBA 6230",
-        "subject": "MBA",
-        "id": "6230"
-      },
-      {
-        "code": "FINA 6213",
-        "subject": "FINA",
-        "id": "6213"
-      }
-    ]
+    "prereq": {
+      "and": [
+        {
+          "code": "MBA 6231",
+          "subject": "MBA",
+          "id": "6231"
+        },
+        {
+          "code": "MBA 6230",
+          "subject": "MBA",
+          "id": "6230"
+        },
+        {
+          "code": "FINA 6213",
+          "subject": "FINA",
+          "id": "6213"
+        }
+      ]
+    }
   },
   {
     "code": "FINA 6215",
     "subject": "FINA",
     "id": "6215",
     "title": "The CFO Mindset:",
-    "info": "corporate governance is about the art and sciences of managing the interests of and the relationships among various corporate stakeholders: equity investors, debt investors, top management, and other employees.   ",
+    "info": "corporate governance is about the art and sciences of managing the interests of and the relationships among various corporate stakeholders: equity investors, debt investors, top management, and other employees.",
     "prereqInfo": "mba 6231 (previously mba 6230)",
     "prereq": [
       {
@@ -755,7 +731,39 @@
     "title": "Mergers and Acquisitions",
     "info": "how corporate managers achieve growth through mergers/acquisitions. examine buyer/seller motivations in context of m&a transactions/strategic alliances. private equity, especially in context of corporate m&a transaction.",
     "prereqInfo": "mba or mgmt sci mba student; mba 6231 (previously mba 6230), fina 6241   or   (fina 6213 & fina 6214)",
-    "prereq": []
+    "prereq": {
+      "and": [
+        {
+          "code": "MBA 6231",
+          "subject": "MBA",
+          "id": "6231"
+        },
+        {
+          "code": "MBA 6230",
+          "subject": "MBA",
+          "id": "6230"
+        },
+        {
+          "code": "FINA 6241",
+          "subject": "FINA",
+          "id": "6241"
+        },
+        {
+          "and": [
+            {
+              "code": "FINA 6213",
+              "subject": "FINA",
+              "id": "6213"
+            },
+            {
+              "code": "FINA 6214",
+              "subject": "FINA",
+              "id": "6214"
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "code": "FINA 6241",
@@ -930,9 +938,55 @@
     "subject": "FINA",
     "id": "6500",
     "title": "Active Fund Management",
-    "info": "lectures, assignments, modules, hands-on real-money experience through golden gopher growth fund or golden gopher fixed income fund.\nprereq-[6121 or 6321], 6322, 6323, acct 6100, mba student, approved application; [acct 6160 or &acct 6160] recommended; must be taken [fall, spring] or have written approval to enroll for only one sem.",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "lectures, assignments, modules, hands-on real-money experience through golden gopher growth fund or golden gopher fixed income fund.",
+    "prereqInfo": "-[6121 or 6321], 6322, 6323, acct 6100, mba student, approved application; [acct 6160 or &acct 6160] recommended; must be taken [fall, spring] or have written approval to enroll for only one sem.",
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            {
+              "code": "FINA 6121",
+              "subject": "FINA",
+              "id": "6121"
+            },
+            {
+              "code": "FINA 6321",
+              "subject": "FINA",
+              "id": "6321"
+            }
+          ]
+        },
+        {
+          "code": "FINA 6322",
+          "subject": "FINA",
+          "id": "6322"
+        },
+        {
+          "code": "FINA 6323",
+          "subject": "FINA",
+          "id": "6323"
+        },
+        {
+          "code": "ACCT 6100",
+          "subject": "ACCT",
+          "id": "6100"
+        },
+        {
+          "and": [
+            {
+              "code": "ACCT 6160",
+              "subject": "ACCT",
+              "id": "6160"
+            },
+            {
+              "code": "ACCT 6160",
+              "subject": "ACCT",
+              "id": "6160"
+            }
+          ]
+        }
+      ]
+    }
   },
   {
     "code": "FINA 6511",
@@ -985,8 +1039,8 @@
     "subject": "FINA",
     "id": "6611",
     "title": "Finance for Multinationals",
-    "info": "virtually all companies—from small privately held companies to large public companies—are involved in international trade, even if only sourcing raw materials and components internationally.  the advent of robust e-commerce websites has further enabled companies of all sizes to actively participate in international trade.   \n\nthis course explores the nature, purposes, and risks of international trade by multinational companies, and the relevant capital budgeting processes and international financing tools needed to facilitate international trade. students will gain skills in international investment analysis, capital financing techniques, capital budgeting for international projects, and international trade risk management. students will examine barriers to international capital flows, and study the financial instruments used to overcome these barriers, focusing on the decisions made by multinational enterprises. ",
-    "prereqInfo": "mba 6231 (previously mba 6230)\n",
+    "info": "virtually all companies—from small privately held companies to large public companies—are involved in international trade, even if only sourcing raw materials and components internationally.  the advent of robust e-commerce websites has further enabled companies of all sizes to actively participate in international trade.   \n\nthis course explores the nature, purposes, and risks of international trade by multinational companies, and the relevant capital budgeting processes and international financing tools needed to facilitate international trade. students will gain skills in international investment analysis, capital financing techniques, capital budgeting for international projects, and international trade risk management. students will examine barriers to international capital flows, and study the financial instruments used to overcome these barriers, focusing on the decisions made by multinational enterprises.",
+    "prereqInfo": "mba 6231 (previously mba 6230)",
     "prereq": [
       {
         "code": "MBA 6231",

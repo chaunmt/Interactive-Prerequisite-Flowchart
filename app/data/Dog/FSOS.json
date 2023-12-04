@@ -9,15 +9,6 @@
     "prereq": []
   },
   {
-    "code": "FSOS 1101H",
-    "subject": "FSOS",
-    "id": "1101H",
-    "title": "Intimate Relation Honors",
-    "info": "couple dynamics. overview of how to develop, maintain, and terminate an intimate relationship. communication, conflict resolution, power, roles. programs for marriage preparation, marriage enrichment, and marital therapy.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
     "code": "FSOS 1201",
     "subject": "FSOS",
     "id": "1201",
@@ -85,9 +76,47 @@
     "subject": "FSOS",
     "id": "2105",
     "title": "Methods in Family Research",
-    "info": "scientific method. major questions/objectives of family research. data collection/analysis/reporting. social context of family research. prereq: stat 3011 or pstl 1004 or stat 1001 or espy 3264 or espy 1261 or soc 3811 or soc 2550 or psy 3801 or instr consent",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "scientific method. major questions/objectives of family research. data collection/analysis/reporting. social context of family research.",
+    "prereqInfo": "stat 3011 or pstl 1004 or stat 1001 or espy 3264 or espy 1261 or soc 3811 or soc 2550 or psy 3801 or instr consent",
+    "prereq": {
+      "or": [
+        {
+          "code": "STAT 3011",
+          "subject": "STAT",
+          "id": "3011"
+        },
+        {
+          "code": "PSTL 1004",
+          "subject": "PSTL",
+          "id": "1004"
+        },
+        {
+          "code": "STAT 1001",
+          "subject": "STAT",
+          "id": "1001"
+        },
+        {
+          "code": "FSOS 3264",
+          "subject": "FSOS",
+          "id": "3264"
+        },
+        {
+          "code": "FSOS 1261",
+          "subject": "FSOS",
+          "id": "1261"
+        },
+        {
+          "code": "SOC 3811",
+          "subject": "SOC",
+          "id": "3811"
+        },
+        {
+          "code": "PSY 3801",
+          "subject": "PSY",
+          "id": "3801"
+        }
+      ]
+    }
   },
   {
     "code": "FSOS 2106",
@@ -112,7 +141,7 @@
     "subject": "FSOS",
     "id": "2108",
     "title": "Money Matters in Families",
-    "info": "the goal of this course is to help students understand the role that money plays in the health and well-being of individuals, couples and families across differing social contexts over the life course. the course will teach student how values about money develop within families and society; how these values influence the choices made by families; and the impact of these choices on the quality of couple and family relationships. the course will introduce students to a variety of career paths related to families and money including financial coach, counselor and educator. ",
+    "info": "the goal of this course is to help students understand the role that money plays in the health and well-being of individuals, couples and families across differing social contexts over the life course. the course will teach student how values about money develop within families and society; how these values influence the choices made by families; and the impact of these choices on the quality of couple and family relationships. the course will introduce students to a variety of career paths related to families and money including financial coach, counselor and educator.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -166,7 +195,7 @@
     "subject": "FSOS",
     "id": "3105",
     "title": "Tech in Parenting and Family",
-    "info": "the role of information and communications technologies in contemporary family life is explored through examination of theory, and research on technology use and family and family member outcomes. applications of technology in family practice and issues regarding professional preparation will identify avenues for support and development. ",
+    "info": "the role of information and communications technologies in contemporary family life is explored through examination of theory, and research on technology use and family and family member outcomes. applications of technology in family practice and issues regarding professional preparation will identify avenues for support and development.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -355,8 +384,8 @@
     "subject": "FSOS",
     "id": "4107",
     "title": "Trauma and Resilience in Fam",
-    "info": "this course will focus on stress contexts that place families at risk across the life span such as poverty, war/civil conflict, disability, social disparities/discrimination, and family dissolution. an examination of family strengths, cultural diversity, and approaches for working with families across the life course in community based settings including classrooms, programs, and agencies will be emphasized. this course focuses on vulnerable families and those affected by historical and traumatic stress. it covers family members of all ages who face particular challenges, such as intergenerational exposure to traumatic events, persistent and structural inequality, and health disparities. ",
-    "prereqInfo": "this course is designed to increase awareness of the conditions that place families and children at risk, the theories and frameworks available to understand these risks, and both individual and family resiliency to these conditions. the course will primarily focus on  a) individual, family, community, and developmental contexts of risk and resiliency, and b) family-level preventive and intervention frameworks and approaches to support individuals and families.",
+    "info": "this course will focus on stress contexts that place families at risk across the life span such as poverty, war/civil conflict, disability, social disparities/discrimination, and family dissolution. an examination of family strengths, cultural diversity, and approaches for working with families across the life course in community based settings including classrooms, programs, and agencies will be emphasized. this course focuses on vulnerable families and those affected by historical and traumatic stress. it covers family members of all ages who face particular challenges, such as intergenerational exposure to traumatic events, persistent and structural inequality, and health disparities. \n\nthis course is designed to increase awareness of the conditions that place families and children at risk, the theories and frameworks available to understand these risks, and both individual and family resiliency to these conditions. the course will primarily focus on  a) individual, family, community, and developmental contexts of risk and resiliency, and b) family-level preventive and intervention frameworks and approaches to support individuals and families.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -364,7 +393,7 @@
     "subject": "FSOS",
     "id": "4108",
     "title": "Immigrant & Refugee Families",
-    "info": "this course focuses on the impact of immigration (i.e., refugee vs. various types of immigration statuses) on family relationships, specifically how culture of origin and acculturation processes influence individuals and families over time; explores issues faced by various immigrant family systems, including a consideration of generational status, gender identities, social classes, and ethnic/racial group identities; develops intercultural interaction skills that prepare students to effectively engage with diverse immigrant families in multiple contexts; and builds practical skills that enhance students abilities to work in and collaborate with community-and faith-based organizations to strengthen cultural resources while overcoming barriers to increase service utilization. ",
+    "info": "this course focuses on the impact of immigration (i.e., refugee vs. various types of immigration statuses) on family relationships, specifically how culture of origin and acculturation processes influence individuals and families over time; explores issues faced by various immigrant family systems, including a consideration of generational status, gender identities, social classes, and ethnic/racial group identities; develops intercultural interaction skills that prepare students to effectively engage with diverse immigrant families in multiple contexts; and builds practical skills that enhance students abilities to work in and collaborate with community-and faith-based organizations to strengthen cultural resources while overcoming barriers to increase service utilization.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -400,7 +429,7 @@
     "subject": "FSOS",
     "id": "4152",
     "title": "Queer Families",
-    "info": "this course is designed to examine queer people in families and their unique contribution to the understanding of diversity among families.  current research, theory, personal narratives, and opportunities for self-reflection will be pathways to learn more about the diverse experiences of those who participate in families with lgbtq members. course topics include: family strengths and resilience; intersectionality and identity; racism, homophobia, biphobia, transphobia, and heterosexism; family of origin; chosen families; marriage and divorce; sexuality and intimacy; children and parenting; aging; unique health concerns; and culture. methodological issues in research and clinical issues for serving lgbtq families will also be addressed.  ",
+    "info": "this course is designed to examine queer people in families and their unique contribution to the understanding of diversity among families.  current research, theory, personal narratives, and opportunities for self-reflection will be pathways to learn more about the diverse experiences of those who participate in families with lgbtq members. course topics include: family strengths and resilience; intersectionality and identity; racism, homophobia, biphobia, transphobia, and heterosexism; family of origin; chosen families; marriage and divorce; sexuality and intimacy; children and parenting; aging; unique health concerns; and culture. methodological issues in research and clinical issues for serving lgbtq families will also be addressed.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -409,7 +438,7 @@
     "subject": "FSOS",
     "id": "4153",
     "title": "Family Financial Counseling",
-    "info": "family financial issues are studied with an emphasis on the role of the financial counselor. this course emphasizes the development of professional skills for assisting individuals and families to cope with financial concerns in their day-to-day lives. this course includes an optional service-learning component where students will work throughout the semester with local non-profit organizations focused on financial literacy, financial counseling, financial curriculum development, and/or researching financial resources. this course will require students to produce video recordings. at minimum students will need recording equipment that captures both video and audio. the resulting file will need to be uploaded to the internet. laptops with webcams and smart phones with video capabilities should be sufficient for this purpose. equipment and training are available from the library's smart learning commons. ",
+    "info": "family financial issues are studied with an emphasis on the role of the financial counselor. this course emphasizes the development of professional skills for assisting individuals and families to cope with financial concerns in their day-to-day lives. this course includes an optional service-learning component where students will work throughout the semester with local non-profit organizations focused on financial literacy, financial counseling, financial curriculum development, and/or researching financial resources. this course will require students to produce video recordings. at minimum students will need recording equipment that captures both video and audio. the resulting file will need to be uploaded to the internet. laptops with webcams and smart phones with video capabilities should be sufficient for this purpose. equipment and training are available from the library's smart learning commons.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -548,7 +577,7 @@
     "subject": "FSOS",
     "id": "5111",
     "title": "Introduction to Family Therapy",
-    "info": "this course is designed as an introduction to the field of marriage/couple and family therapy. students who successfully complete the course should be well versed in the basics of both the foundational and contemporary theories of the discipline. further, students will be exposed to a number of clinical vignettes and case scenarios that demonstrate the application of the theories in pre-recorded family therapy sessions. through class assignments and discussions, students will be able to make a more informed decision as to whether or not family therapy is a field that holds potential for them in their own professional pursuits. other mental health disciplines attend to family variables but having a background in family systems theory and family therapy theories will provide a solid knowledge base for someone embarking on a career in relationship-oriented clinical work. family systems theory guides the majority of what will be discussed in class.  ",
+    "info": "this course is designed as an introduction to the field of marriage/couple and family therapy. students who successfully complete the course should be well versed in the basics of both the foundational and contemporary theories of the discipline. further, students will be exposed to a number of clinical vignettes and case scenarios that demonstrate the application of the theories in pre-recorded family therapy sessions. through class assignments and discussions, students will be able to make a more informed decision as to whether or not family therapy is a field that holds potential for them in their own professional pursuits. other mental health disciplines attend to family variables but having a background in family systems theory and family therapy theories will provide a solid knowledge base for someone embarking on a career in relationship-oriented clinical work. family systems theory guides the majority of what will be discussed in class.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -620,7 +649,7 @@
     "subject": "FSOS",
     "id": "5432",
     "title": "Chem Abuse & Fam",
-    "info": "relationships, family systems with particular application to families in which alcohol or drug use is a problem. family types, family of origin, models of family therapy, family systems theory, alcoholism. review of literature. ",
+    "info": "relationships, family systems with particular application to families in which alcohol or drug use is a problem. family types, family of origin, models of family therapy, family systems theory, alcoholism. review of literature.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -791,7 +820,7 @@
     "subject": "FSOS",
     "id": "5937",
     "title": "Parent-Child Interaction",
-    "info": "in parent-child interaction, we will examine the dynamic, reciprocal nature of parent-child interactions across the lifespan through multidisciplinary and diverse research, theories and practices. emphasis will be given to the bidirectional impact of parent-child interactions on the parent-child relationship and on parents' and children's development within complex family, community, cultural and other socio-ecological contexts. students will continue to reflect and grow in their understanding of the professional role and competencies of a parent educator and learning activities will focus on practical application to both personal lives and professional work with families.  \n ",
+    "info": "in parent-child interaction, we will examine the dynamic, reciprocal nature of parent-child interactions across the lifespan through multidisciplinary and diverse research, theories and practices. emphasis will be given to the bidirectional impact of parent-child interactions on the parent-child relationship and on parents' and children's development within complex family, community, cultural and other socio-ecological contexts. students will continue to reflect and grow in their understanding of the professional role and competencies of a parent educator and learning activities will focus on practical application to both personal lives and professional work with families.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -827,36 +856,89 @@
     "subject": "FSOS",
     "id": "5944",
     "title": "Curricular Design-Parent Ed",
-    "info": "students will develop the skills to adapt and design curricular resources and teaching strategies for effective parent education with diverse families across multiple contexts. students will develop competence in conducting needs assessment, identifying content, discerning teaching methods, and designing lesson plans. as they develop their own philosophy of practice, students will study the history and evolution of parent education in minnesota and across the u.s. prereq: fsos 5937 & fsos 5942 or instr consent",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "students will develop the skills to adapt and design curricular resources and teaching strategies for effective parent education with diverse families across multiple contexts. students will develop competence in conducting needs assessment, identifying content, discerning teaching methods, and designing lesson plans. as they develop their own philosophy of practice, students will study the history and evolution of parent education in minnesota and across the u.s.",
+    "prereqInfo": "fsos 5937 & fsos 5942 or instr consent",
+    "prereq": {
+      "and": [
+        {
+          "code": "FSOS 5937",
+          "subject": "FSOS",
+          "id": "5937"
+        },
+        {
+          "code": "FSOS 5942",
+          "subject": "FSOS",
+          "id": "5942"
+        }
+      ]
+    }
   },
   {
     "code": "FSOS 5945",
     "subject": "FSOS",
     "id": "5945",
     "title": "Teaching/Learning in Parent Ed",
-    "info": "\t\nstudents will examine adult, adolescent, and parent learning and development from the perspective of their relevance for parent education. students will select, use, and reflect on group and individual parent education teaching strategies and facilitation processes designed to meet the needs of diverse populations of adult learners. critical reflection, ethical practices, and other parent educator competencies related to teaching methods and processes will be addressed. personal professional development will be facilitated through challenging assumptions and examining the knowledge and competencies required for parent educators. prereq: fsos 5937 & fsos 5942 or instr consent",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "students will examine adult, adolescent, and parent learning and development from the perspective of their relevance for parent education. students will select, use, and reflect on group and individual parent education teaching strategies and facilitation processes designed to meet the needs of diverse populations of adult learners. critical reflection, ethical practices, and other parent educator competencies related to teaching methods and processes will be addressed. personal professional development will be facilitated through challenging assumptions and examining the knowledge and competencies required for parent educators.",
+    "prereqInfo": "fsos 5937 & fsos 5942 or instr consent",
+    "prereq": {
+      "and": [
+        {
+          "code": "FSOS 5937",
+          "subject": "FSOS",
+          "id": "5937"
+        },
+        {
+          "code": "FSOS 5942",
+          "subject": "FSOS",
+          "id": "5942"
+        }
+      ]
+    }
   },
   {
     "code": "FSOS 5946",
     "subject": "FSOS",
     "id": "5946",
     "title": "Assessment in Parent Education",
-    "info": "\t\nstudents will be introduced to theory, terminology, issues, and approaches in assessment and evaluation. students will apply this new material to the tasks of monitoring program performance, assessing program quality, and measuring parent learning and development. prereq: 5944 or instr consent",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "students will be introduced to theory, terminology, issues, and approaches in assessment and evaluation. students will apply this new material to the tasks of monitoring program performance, assessing program quality, and measuring parent learning and development.",
+    "prereqInfo": "5944 or instr consent",
+    "prereq": {
+      "code": "FSOS 5944",
+      "subject": "FSOS",
+      "id": "5944"
+    }
   },
   {
     "code": "FSOS 5949",
     "subject": "FSOS",
     "id": "5949",
     "title": "Student Teaching in Parent Ed",
-    "info": "\t\nstudents will participate in mentored and supervised parent education practice designed to meet individual student needs and interests in parent education. the student teaching assignment is supplemented with online discussions and chats intended to provide students an opportunity to engage in discussion, reflection, and cooperative learning with regard to the practice of parent education. prereq: application for student teaching; fsos 5937, 5942, 5944 and 5945 or instr consent",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "students will participate in mentored and supervised parent education practice designed to meet individual student needs and interests in parent education. the student teaching assignment is supplemented with online discussions and chats intended to provide students an opportunity to engage in discussion, reflection, and cooperative learning with regard to the practice of parent education.",
+    "prereqInfo": "application for student teaching; fsos 5937, 5942, 5944 and 5945 or instr consent",
+    "prereq": {
+      "and": [
+        {
+          "code": "FSOS 5937",
+          "subject": "FSOS",
+          "id": "5937"
+        },
+        {
+          "code": "FSOS 5942",
+          "subject": "FSOS",
+          "id": "5942"
+        },
+        {
+          "code": "FSOS 5944",
+          "subject": "FSOS",
+          "id": "5944"
+        },
+        {
+          "code": "FSOS 5945",
+          "subject": "FSOS",
+          "id": "5945"
+        }
+      ]
+    }
   },
   {
     "code": "FSOS 8001",
@@ -894,7 +976,7 @@
     "subject": "FSOS",
     "id": "8005",
     "title": "Diverse Families",
-    "info": "this course hopes to support graduate students in exploring the empirical literature focused on the experiences of diverse families, broadly defined, in the united states. further, this course aims to improve students’ ability to interpret research findings and the methodological considerations in light of research on diverse families and application of a broader set of theories. course content may include, but is not limited to: pathways to parenthood, identity-based socialization practices, culturally informed family dynamics and relationships, demographic characteristics of diverse families, or identity development among diverse youth. ",
+    "info": "this course hopes to support graduate students in exploring the empirical literature focused on the experiences of diverse families, broadly defined, in the united states. further, this course aims to improve students’ ability to interpret research findings and the methodological considerations in light of research on diverse families and application of a broader set of theories. course content may include, but is not limited to: pathways to parenthood, identity-based socialization practices, culturally informed family dynamics and relationships, demographic characteristics of diverse families, or identity development among diverse youth.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -1023,7 +1105,7 @@
     "id": "8039",
     "title": "Clin Interv Couples",
     "info": "interventions into problems faced by couples at various ages and stages of their relationship. developing and implementing effective strategies for problem solving, relationship maintenance, and partner growth, including integration of sex therapy into ongoing couple therapy.",
-    "prereqInfo": " instr consent",
+    "prereqInfo": "instr consent",
     "prereq": []
   },
   {
@@ -1146,6 +1228,11 @@
           "code": "FSOS 8014",
           "subject": "FSOS",
           "id": "8014"
+        },
+        {
+          "code": "WCFE 8920",
+          "subject": "WCFE",
+          "id": "8920"
         }
       ]
     }
@@ -1296,7 +1383,11 @@
     "title": "Doct Pre-Thesis Cr*",
     "info": "tbd",
     "prereqInfo": "doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": []
+    "prereq": {
+      "code": "FSOS 60",
+      "subject": "FSOS",
+      "id": "60"
+    }
   },
   {
     "code": "FSOS 8755",
@@ -1314,7 +1405,11 @@
     "title": "Thesis Credit:Mast*",
     "info": "(no description)",
     "prereqInfo": "max 18 cr per semester or summer; 10 cr total required [plan a only]",
-    "prereq": []
+    "prereq": {
+      "code": "FSOS 10",
+      "subject": "FSOS",
+      "id": "10"
+    }
   },
   {
     "code": "FSOS 8794",

@@ -76,16 +76,20 @@
     "subject": "AIR",
     "id": "3302",
     "title": "Lead People & Commo II",
-    "info": "this course is designed to build on the leadership fundamentals taught in as200. the theme of this year is “leading people and effective communication.” you will have the opportunity to utilize your skills as you transition to more of a leadership role in the detachment. the goal is for each of you to have a more in-depth understanding of how to effectively lead people, and this semester will emphasize leadership theories, personal leadership skills and ethics, and fostering innovation. prereq: 3301 recommended",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "this course is designed to build on the leadership fundamentals taught in as200. the theme of this year is “leading people and effective communication.” you will have the opportunity to utilize your skills as you transition to more of a leadership role in the detachment. the goal is for each of you to have a more in-depth understanding of how to effectively lead people, and this semester will emphasize leadership theories, personal leadership skills and ethics, and fostering innovation.",
+    "prereqInfo": "3301 recommended",
+    "prereq": {
+      "code": "AIR 3301",
+      "subject": "AIR",
+      "id": "3301"
+    }
   },
   {
     "code": "AIR 3401",
     "subject": "AIR",
     "id": "3401",
     "title": "Nat Sec Policy & Ldrship I",
-    "info": "the as400 cadet should comprehend the basic elements of national security policy and process.  the student should know basic department of the air and space force operations as well as understand selected roles of the military in society and current domestic and international issues affecting the military profession. cadets should understand the responsibility, authority, and functions of a department of the air and space force commanders and selected provisions of the military justice system.  ",
+    "info": "the as400 cadet should comprehend the basic elements of national security policy and process.  the student should know basic department of the air and space force operations as well as understand selected roles of the military in society and current domestic and international issues affecting the military profession. cadets should understand the responsibility, authority, and functions of a department of the air and space force commanders and selected provisions of the military justice system.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -94,8 +98,12 @@
     "subject": "AIR",
     "id": "3402",
     "title": "Nat Sec Policy & Ldrshp II",
-    "info": "the as400 cadet should comprehend the variety of base agencies and programs that support air and space force members. the student should know basic information on officer/enlisted evaluations, financial benefits, the military justice system, and leadership authorities. cadets should understand what life as a second lieutenant entails and what their initial months in the air and or space force will look like. prereq: 3401 recommended",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "the as400 cadet should comprehend the variety of base agencies and programs that support air and space force members. the student should know basic information on officer/enlisted evaluations, financial benefits, the military justice system, and leadership authorities. cadets should understand what life as a second lieutenant entails and what their initial months in the air and or space force will look like.",
+    "prereqInfo": "3401 recommended",
+    "prereq": {
+      "code": "AIR 3401",
+      "subject": "AIR",
+      "id": "3401"
+    }
   }
 ]

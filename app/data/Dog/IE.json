@@ -4,8 +4,8 @@
     "subject": "IE",
     "id": "1101",
     "title": "Found of Ind and Sys Engr",
-    "info": "this course will provide you with an introduction to industrial and systems engineering with an emphasis on models and solution methods used in system design, planning, and operation. the course will also provide you with an introduction to important problems industrial and systems engineers solve in systems arising in supply chains, transportation, manufacturing, retail, and healthcare delivery, among others. additional emphasis will be given to various relevant emerging technologies, business practices, and government regulations.",
-    "prereqInfo": "cse student",
+    "info": "this course will provide you with an introduction to industrial and systems engineering with an emphasis on models and solution methods used in system design, planning, and operation. the course will also provide you with an introduction to important problems industrial and systems engineers solve in systems arising in supply chains, transportation, manufacturing, retail, and healthcare delivery, among others. additional emphasis will be given to various relevant emerging technologies, business practices, and government regulations.\n\ncse student",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -48,7 +48,7 @@
     "subject": "IE",
     "id": "3013",
     "title": "Opt for Machine Learning",
-    "info": "machine learning has been widely used in areas such as computer vision, search engines, speech recognition, robotics, recommendation systems, bioinformatics, social networks, and finance. it has become an important tool in prediction and data analysis. this course introduces some fundamental solution methods for solving various optimization models arising in the context of machine learning.\n",
+    "info": "machine learning has been widely used in areas such as computer vision, search engines, speech recognition, robotics, recommendation systems, bioinformatics, social networks, and finance. it has become an important tool in prediction and data analysis. this course introduces some fundamental solution methods for solving various optimization models arising in the context of machine learning.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -79,7 +79,7 @@
     "subject": "IE",
     "id": "3522",
     "title": "Quality Engr & Six Sigma",
-    "info": "methods for quality engineering and six sigma, including statistical process control, dmaic improvement framework, control charts, process capability, measurement system capability, designed experiments, and fmea.  ",
+    "info": "methods for quality engineering and six sigma, including statistical process control, dmaic improvement framework, control charts, process capability, measurement system capability, designed experiments, and fmea.",
     "prereqInfo": "math 2374, math 2142 or math 2373 or equivalent , 3521 or stat 3021, cse upper division",
     "prereq": {
       "and": [
@@ -116,7 +116,7 @@
     "subject": "IE",
     "id": "3553",
     "title": "Simulation",
-    "info": "this course is an introduction to monte carlo and discrete event simulation. student will learn fundamentals of simulation modeling, including generation of psuedo-random numbers, generation of random variables, input probability distributions, variance reduction techniques, analysis of simulation output, and comparison of system configurations using experimental design.  students will implement simulation models using a software package such as simio. applications to problems in manufacturing, service operations, healthcare, finance, and transportation. ",
+    "info": "this course is an introduction to monte carlo and discrete event simulation. student will learn fundamentals of simulation modeling, including generation of psuedo-random numbers, generation of random variables, input probability distributions, variance reduction techniques, analysis of simulation output, and comparison of system configurations using experimental design.  students will implement simulation models using a software package such as simio. applications to problems in manufacturing, service operations, healthcare, finance, and transportation.",
     "prereqInfo": "csci 1133, ie 3521 or equivalent, cse upper division",
     "prereq": {
       "and": [
@@ -444,8 +444,8 @@
     "subject": "IE",
     "id": "5285",
     "title": "Eng the Allocation of Pbl Res",
-    "info": "this course takes an in-depth look at policies governing the allocation of public resources. we\nwill take an engineering perspective, first defining desirable properties (such as efficiency,\nincentive compatibility, and fairness) and then studying how to design systems with these\nproperties. we will cover static matching algorithms (deferred acceptance, top trading cycles,\nand quota and reserve systems) as well as dynamic waiting lists and lotteries.\napplications covered will include the allocation of public school seats, immigrant and non-\nimmigrant visas, civil service positions, organs from living and deceased donors, affordable\nhousing, and permits for hiking, hunting and fishing.\nprerequisites: cse upper div or instructor consent",
-    "prereqInfo": null,
+    "info": "this course takes an in-depth look at policies governing the allocation of public resources. we\nwill take an engineering perspective, first defining desirable properties (such as efficiency,\nincentive compatibility, and fairness) and then studying how to design systems with these\nproperties. we will cover static matching algorithms (deferred acceptance, top trading cycles,\nand quota and reserve systems) as well as dynamic waiting lists and lotteries.\napplications covered will include the allocation of public school seats, immigrant and non-\nimmigrant visas, civil service positions, organs from living and deceased donors, affordable\nhousing, and permits for hiking, hunting and fishing.",
+    "prereqInfo": "cse upper div or instructor consent",
     "prereq": []
   },
   {
@@ -471,7 +471,7 @@
     "subject": "IE",
     "id": "5512",
     "title": "Appl Ergonomics",
-    "info": "small groups of students work on practical ergonomic problems in local industrial firms.  projects cover a variety of ergonomic issues: workstation design, equipment and tool design, back injuries and material handling, cumulative trauma disorders, illumination and noise, and safety.  ",
+    "info": "small groups of students work on practical ergonomic problems in local industrial firms.  projects cover a variety of ergonomic issues: workstation design, equipment and tool design, back injuries and material handling, cumulative trauma disorders, illumination and noise, and safety.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -529,7 +529,7 @@
     "subject": "IE",
     "id": "5533",
     "title": "Operations Rsrch for Data Sci",
-    "info": "this course combines data, modeling, and decision-making to provide students with experience solving practical problems in a variety of application areas, including healthcare and medical decision-making, supply chains and e-commerce, and finance and revenue management.  to this end, case studies will be used to illustrate the sequence of problem definition, data analysis, model building, and decision support. the example problems are realistic in terms of size and complexity and the data sets are realistic in that the quality of the data is less-than-perfect.  the first part of the course focuses on deterministic models while the second part of the course covers stochastic models. a high-level programming language such as r is used for data manipulation and for predictive analytics. an algebraic modeling language such as ampl is used for models that require linear/integer programming. the solutions and their sensitivity to changes in parameters are interpreted to aid decision-makers. throughout the course, the methodologies are kept in perspective with the overall goal of making better decisions. ",
+    "info": "this course combines data, modeling, and decision-making to provide students with experience solving practical problems in a variety of application areas, including healthcare and medical decision-making, supply chains and e-commerce, and finance and revenue management.  to this end, case studies will be used to illustrate the sequence of problem definition, data analysis, model building, and decision support. the example problems are realistic in terms of size and complexity and the data sets are realistic in that the quality of the data is less-than-perfect.  the first part of the course focuses on deterministic models while the second part of the course covers stochastic models. a high-level programming language such as r is used for data manipulation and for predictive analytics. an algebraic modeling language such as ampl is used for models that require linear/integer programming. the solutions and their sensitivity to changes in parameters are interpreted to aid decision-makers. throughout the course, the methodologies are kept in perspective with the overall goal of making better decisions.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -569,7 +569,7 @@
     "subject": "IE",
     "id": "5552",
     "title": "Des & Ana Man Sys",
-    "info": "flow lines, assembly systems, cellular manufacturing systems, and flexible manufacturing systems. emphasis is on methodologies for modeling, analysis and optimization.  lead time analysis, capacity and workload allocation, scheduling and shop floor control, work-in-process management, facilities planning and layout, and information management.  ",
+    "info": "flow lines, assembly systems, cellular manufacturing systems, and flexible manufacturing systems. emphasis is on methodologies for modeling, analysis and optimization.  lead time analysis, capacity and workload allocation, scheduling and shop floor control, work-in-process management, facilities planning and layout, and information management.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -597,11 +597,25 @@
     "id": "5561",
     "title": "Analytics/Data-Driven Decision",
     "info": "hands-on experience with modern methods for analytics and data-driven decision making. methodologies such as linear and integer optimization and supervised and unsupervised learning will be brought together to address problems in a variety of areas such as healthcare, agriculture, sports, energy, and finance.  students will learn how to manipulate data, build and solve models, and interpret and visualize results using a high-level, dynamic programming language.",
-    "prereqInfo": "ie 3521 or equivalent; ie 3011 or ie 5531 or equivalent; proficiency with a programming language such as r, python, or c.\n",
+    "prereqInfo": "ie 3521 or equivalent; ie 3011 or ie 5531 or equivalent; proficiency with a programming language such as r, python, or c.",
     "prereq": {
-      "code": "IE 3521",
-      "subject": "IE",
-      "id": "3521"
+      "or": [
+        {
+          "code": "IE 3521",
+          "subject": "IE",
+          "id": "3521"
+        },
+        {
+          "code": "IE 3011",
+          "subject": "IE",
+          "id": "3011"
+        },
+        {
+          "code": "IE 5531",
+          "subject": "IE",
+          "id": "5531"
+        }
+      ]
     }
   },
   {
@@ -610,7 +624,7 @@
     "id": "5571",
     "title": "Reinforcement Lrng Dynamic Pro",
     "info": "topics are methods for solving problems in sequential decision making. we will introduce the modeling framework of markov decision processes (mdp), and the classic solution approach of dynamic programming. we will discuss the traditional solution approaches to dynamic programming of value and policy iteration. we will then move onto model free methods of finding optimal policies for mdps such as monte carlo and temporal difference methods. we will discuss the extension of these methods to problems with large state spaces where it is necessary to introduce parametric approximations such as deep neural networks. examples will be drawn from problems in navigation, medicine, game play, and others.",
-    "prereqInfo": "knowledge of probability, optimization, and linear algebra at the undergraduate level. \n",
+    "prereqInfo": "knowledge of probability, optimization, and linear algebra at the undergraduate level.",
     "prereq": []
   },
   {
@@ -627,9 +641,37 @@
     "subject": "IE",
     "id": "5801",
     "title": "Capstone Project",
-    "info": "students work on isye analytics track capstone project in small teams of two or three. projects are supervised by industry mentor and faculty adviser. projects involve application of techniques from analytics track curriculum.  ",
+    "info": "students work on isye analytics track capstone project in small teams of two or three. projects are supervised by industry mentor and faculty adviser. projects involve application of techniques from analytics track curriculum.",
     "prereqInfo": "isye analytics track ms student; ie 5531; ie 5561; stat 5302; csci 5521 or 5523.",
-    "prereq": []
+    "prereq": {
+      "or": [
+        {
+          "code": "IE 5531",
+          "subject": "IE",
+          "id": "5531"
+        },
+        {
+          "code": "IE 5561",
+          "subject": "IE",
+          "id": "5561"
+        },
+        {
+          "code": "STAT 5302",
+          "subject": "STAT",
+          "id": "5302"
+        },
+        {
+          "code": "CSCI 5521",
+          "subject": "CSCI",
+          "id": "5521"
+        },
+        {
+          "code": "IE 5523",
+          "subject": "IE",
+          "id": "5523"
+        }
+      ]
+    }
   },
   {
     "code": "IE 8333",
@@ -707,8 +749,8 @@
     "subject": "IE",
     "id": "8535",
     "title": "Intro to Network Science",
-    "info": "topics include deterministic and random networks, network flows, matching, game theory, distributed decision making in networks, cooperation in networks, cascades in networks, wisdom of crowds, applications in voting, prediction markets, consumer behavior modeling, revenue management, inventory control and finance. ",
-    "prereqInfo": "this course is offered to graduate students. undergraduate students must get permission from the instructor for registering. prerequisites include probability and optimization (5531 and 8532) but students who have taken similar courses or have the mathematical background can register by instructor permission.",
+    "info": "topics include deterministic and random networks, network flows, matching, game theory, distributed decision making in networks, cooperation in networks, cascades in networks, wisdom of crowds, applications in voting, prediction markets, consumer behavior modeling, revenue management, inventory control and finance. \n\nthis course is offered to graduate students. undergraduate students must get permission from the instructor for registering.",
+    "prereqInfo": "uisites include probability and optimization (5531 and 8532) but students who have taken similar courses or have the mathematical background can register by instructor permission.",
     "prereq": {
       "and": [
         {
@@ -751,7 +793,7 @@
     "subject": "IE",
     "id": "8541",
     "title": "Dec Support Systems",
-    "info": "decision support systems (dsss) to assist people in making better decisions, interpreting complex information, and managing complex situations safely/effectively. principles of human-centered design, cognitive engineering, and evaluation. applications in projects of students' own choosing.  ",
+    "info": "decision support systems (dsss) to assist people in making better decisions, interpreting complex information, and managing complex situations safely/effectively. principles of human-centered design, cognitive engineering, and evaluation. applications in projects of students' own choosing.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -801,7 +843,7 @@
     "id": "8571",
     "title": "Adv Reinforcement Lrng Dyn Pro",
     "info": "topics are methods for solving problems in sequential decision making. we will introduce the modeling framework of markov decision processes (mdp), and the classic solution approach of dynamic programming. we will discuss the traditional solution approaches to dynamic programming of value and policy iteration. we will then move onto model free methods of finding optimal policies for mdps such as monte carlo and temporal difference methods. we will discuss the extension of these methods to problems with large state spaces where it is necessary to introduce parametric approximations such as deep neural networks. examples will be drawn from problems in navigation, medicine, game play, and others. we will discuss the convergence proofs for a variety of the algorithms in the so-called 'tabular setting', e.g., policy iteration, value iteration, q-learning, and sarsa.",
-    "prereqInfo": "knowledge of probability, optimization, and linear algebra at the undergraduate level. knowledge of markov chains at level of ie 8532 or equivalent. ability to read and write mathematical proofs.\n",
+    "prereqInfo": "knowledge of probability, optimization, and linear algebra at the undergraduate level. knowledge of markov chains at level of ie 8532 or equivalent. ability to read and write mathematical proofs.",
     "prereq": {
       "code": "IE 8532",
       "subject": "IE",
@@ -815,7 +857,11 @@
     "title": "Doct Pre-Thesis Cr*",
     "info": "tbd",
     "prereqInfo": "doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": []
+    "prereq": {
+      "code": "IE 60",
+      "subject": "IE",
+      "id": "60"
+    }
   },
   {
     "code": "IE 8773",
@@ -846,7 +892,11 @@
     "title": "Thesis Credit:Mast*",
     "info": "(no description)",
     "prereqInfo": "max 18 cr per semester or summer; 10 cr total required (plan a only)",
-    "prereq": []
+    "prereq": {
+      "code": "IE 10",
+      "subject": "IE",
+      "id": "10"
+    }
   },
   {
     "code": "IE 8794",

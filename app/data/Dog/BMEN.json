@@ -23,7 +23,7 @@
     "id": "1602",
     "title": "BME Undergrad Seminar II",
     "info": "continuation of 1601. emphasizes biomedical engineering design and numerical analysis.",
-    "prereqInfo": "cse student or instructor approval. ",
+    "prereqInfo": "cse student or instructor approval.",
     "prereq": []
   },
   {
@@ -31,8 +31,8 @@
     "subject": "BMEN",
     "id": "2101",
     "title": "Biomed Thermodynamics/Kinetics",
-    "info": "introduction to thermodynamics and kinetics, framed in the context of biomedical technologies and applications. topics include principles of probability, extremum principles and equilibria, entropy & the boltzmann distribution law, thermodynamic driving forces, solutions & mixtures, solvation & transfer of molecules between phases, phase transitions, biological rate processes, noncovalent binding interactions, binding equilibria and kinetics, enzyme kinetics, gene expression, protein trafficking, and network dynamics. ",
-    "prereqInfo": "bmen 2501, chem 1022, math 2373, concurrent registration is required (or allowed) in math 2374",
+    "info": "introduction to thermodynamics and kinetics, framed in the context of biomedical technologies and applications. topics include principles of probability, extremum principles and equilibria, entropy & the boltzmann distribution law, thermodynamic driving forces, solutions & mixtures, solvation & transfer of molecules between phases, phase transitions, biological rate processes, noncovalent binding interactions, binding equilibria and kinetics, enzyme kinetics, gene expression, protein trafficking, and network dynamics.",
+    "prereqInfo": "uisites bmen 2501, chem 1022, math 2373, concurrent registration is required (or allowed) in math 2374",
     "prereq": {
       "and": [
         {
@@ -316,6 +316,11 @@
           "code": "PHYS 1302",
           "subject": "PHYS",
           "id": "1302"
+        },
+        {
+          "code": "BMEN 3201",
+          "subject": "BMEN",
+          "id": "3201"
         }
       ]
     }
@@ -583,7 +588,7 @@
     "subject": "BMEN",
     "id": "4015",
     "title": "CAE of Biomech/Transport Devic",
-    "info": "computational modeling and simulation of biomechanical and biotransport devices using comsol multiphysics software. ",
+    "info": "computational modeling and simulation of biomechanical and biotransport devices using comsol multiphysics software.",
     "prereqInfo": "3011, 3015, 3111, 3115",
     "prereq": {
       "and": [
@@ -629,20 +634,11 @@
     "prereq": []
   },
   {
-    "code": "BMEN 4794H",
-    "subject": "BMEN",
-    "id": "4794H",
-    "title": "Directed Research Honors",
-    "info": "independent laboratory research under faculty supervision.",
-    "prereqInfo": "bme ud, uhp student, instr consent, dept consent",
-    "prereq": []
-  },
-  {
     "code": "BMEN 4896",
     "subject": "BMEN",
     "id": "4896",
     "title": "Industrial Assignment I",
-    "info": "industrial assignment in co-op program. industrial work assignment in engineering intern program. evaluation based on student's formal written report covering semester's work assignment. please visit the engineering co-op program's website for the full syllabus and course information: http://co-op.umn.edu prereq: bmen upper div, completion of required courses in bmen prog through spring sem of 3rd yr, registered in co-op prog",
+    "info": "industrial assignment in co-op program. industrial work assignment in engineering intern program. evaluation based on student's formal written report covering semester's work assignment. please visit the engineering co-op program's website for the full syllabus and course information: http://co-op.umn.edu",
     "prereqInfo": "bmen upper div, completion of required courses in bmen prog through spring sem of 3rd yr, registered in co-op prog",
     "prereq": []
   },
@@ -695,8 +691,8 @@
     "subject": "BMEN",
     "id": "5031",
     "title": "Eng Extracellular Matrices",
-    "info": "this class explores the complex set of fibrous and linking proteins of tissues, namely the extracellular matrix (ecm).  the ecm is crucial not only for maintaining the structure of tissues but also for guiding and maintaining cellular functions and fate processes. the purpose of the course is to become acquainted with ecm proteins and to investigate how control or manipulation of ecm proteins impacts on cell and tissue function with an emphasis on impacts for regenerative medicine.  in the course of this study, we will apply fundamentals of physics, chemistry, and mathematics to make predictions, solve problems and optimize outcomes related to ecm engineering. required prerequisites: upper division undergraduate or graduate level student standing in cse. \nrecommended prerequisites: bmen 2501, 3011/3015, 3111/3115, 3311/3315, or equivalents (introductory cell/molecular biology, biomaterials, biotransport, biomechanics). \n",
-    "prereqInfo": null,
+    "info": "this class explores the complex set of fibrous and linking proteins of tissues, namely the extracellular matrix (ecm).  the ecm is crucial not only for maintaining the structure of tissues but also for guiding and maintaining cellular functions and fate processes. the purpose of the course is to become acquainted with ecm proteins and to investigate how control or manipulation of ecm proteins impacts on cell and tissue function with an emphasis on impacts for regenerative medicine.  in the course of this study, we will apply fundamentals of physics, chemistry, and mathematics to make predictions, solve problems and optimize outcomes related to ecm engineering. required",
+    "prereqInfo": "upper division undergraduate or graduate level student standing in cse. \nrecommended",
     "prereq": []
   },
   {
@@ -713,7 +709,7 @@
     "subject": "BMEN",
     "id": "5101",
     "title": "Adv Bioelectric/Instruments",
-    "info": "instrumentation, computer systems, and processing requirements for clinical physiological signals. electrode characteristics, signal processing, and interpretation of physiological events by ecg, eeg, and emg. measurement of respiration and blood volume/flow. ",
+    "info": "instrumentation, computer systems, and processing requirements for clinical physiological signals. electrode characteristics, signal processing, and interpretation of physiological events by ecg, eeg, and emg. measurement of respiration and blood volume/flow.",
     "prereqInfo": "[cse upper div, grad student] or instructor consent",
     "prereq": []
   },
@@ -1022,7 +1018,7 @@
     "subject": "BMEN",
     "id": "5910",
     "title": "Spec Top BME",
-    "info": "special topics in biomedical engineering. ",
+    "info": "special topics in biomedical engineering.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -1120,16 +1116,20 @@
     "subject": "BMEN",
     "id": "8151",
     "title": "Biomed Elec/Implant Microsys",
-    "info": "this class is about bioelectronics and the synergy between electronics and biomedical applications. it discusses how to architect robust ultra-low-power electronics with applications in implantable, noninvasive, wireless, sensing, and stimulating biomedical systems. half of the classes span feedback systems, transistor device physics, noise, and circuit-analysis techniques to provide a circuit-foundation. the other half are research papers that describe the utilization of these circuits in implantable and wearable systems. some of these systems include cochlear implants for the deaf, brain implants for the blind and paralyzed, cardiac devices for noninvasive medical monitoring, and biomolecular sensing systems. prerequisites: bmen 5101 or equivalent background in bioinstrumentation and electric circuits.",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "this class is about bioelectronics and the synergy between electronics and biomedical applications. it discusses how to architect robust ultra-low-power electronics with applications in implantable, noninvasive, wireless, sensing, and stimulating biomedical systems. half of the classes span feedback systems, transistor device physics, noise, and circuit-analysis techniques to provide a circuit-foundation. the other half are research papers that describe the utilization of these circuits in implantable and wearable systems. some of these systems include cochlear implants for the deaf, brain implants for the blind and paralyzed, cardiac devices for noninvasive medical monitoring, and biomolecular sensing systems.",
+    "prereqInfo": "bmen 5101 or equivalent background in bioinstrumentation and electric circuits.",
+    "prereq": {
+      "code": "BMEN 5101",
+      "subject": "BMEN",
+      "id": "5101"
+    }
   },
   {
     "code": "BMEN 8201",
     "subject": "BMEN",
     "id": "8201",
     "title": "Advanced Tissue Mechanics",
-    "info": "tissues exist in dynamic mechanical environments where they must maintain a fine balance between applied loads and internal tension. active adaptability of biological materials can significantly complicate measurement of their mechanical behavior. this course will cover fundamental continuum approaches for determining the complex stress states of actively responsive tissues as well as the force-feedback relationships that drive early development and allow mature tissues to maintain mechanical equilibrium.\n \ntopics will include theoretical approaches for active force generation, soft tissue finite growth, extracellular matrix remodeling, and constrained mixtures.\n\nthese methods are applicable to a wide range of biomechanical systems. in this course, they will be applied to mechanics of two model systems: arterial growth and remodeling in hypertension and sheet folding in early organogenesis and morphogenesis.\n",
+    "info": "tissues exist in dynamic mechanical environments where they must maintain a fine balance between applied loads and internal tension. active adaptability of biological materials can significantly complicate measurement of their mechanical behavior. this course will cover fundamental continuum approaches for determining the complex stress states of actively responsive tissues as well as the force-feedback relationships that drive early development and allow mature tissues to maintain mechanical equilibrium.\n \ntopics will include theoretical approaches for active force generation, soft tissue finite growth, extracellular matrix remodeling, and constrained mixtures.\n\nthese methods are applicable to a wide range of biomechanical systems. in this course, they will be applied to mechanics of two model systems: arterial growth and remodeling in hypertension and sheet folding in early organogenesis and morphogenesis.",
     "prereqInfo": "3011 or aem 2021 or equiv",
     "prereq": {
       "or": [
@@ -1198,7 +1198,11 @@
     "title": "New Product Design",
     "info": "student teams work with cse and csom faculty and company representatives to develop a product concept for sponsoring company. assignments include concept/detail design, manufacturing, marketing, introduction strategy, profit forecasting, production of product prototype.",
     "prereqInfo": "bme graduate student, some design experience; 8401, 8402 must be taken same yr",
-    "prereq": []
+    "prereq": {
+      "code": "BMEN 8402",
+      "subject": "BMEN",
+      "id": "8402"
+    }
   },
   {
     "code": "BMEN 8402",
@@ -1327,7 +1331,11 @@
     "title": "Doct Pre-Thesis Cr*",
     "info": "tbd",
     "prereqInfo": "doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": []
+    "prereq": {
+      "code": "BMEN 60",
+      "subject": "BMEN",
+      "id": "60"
+    }
   },
   {
     "code": "BMEN 8710",
@@ -1354,7 +1362,11 @@
     "title": "Thesis Credit:Mast*",
     "info": "(no description)",
     "prereqInfo": "max 18 cr per semester or summer; 10 cr total required [plan a only]",
-    "prereq": []
+    "prereq": {
+      "code": "BMEN 10",
+      "subject": "BMEN",
+      "id": "10"
+    }
   },
   {
     "code": "BMEN 8820",

@@ -4,7 +4,7 @@
     "subject": "SPAN",
     "id": "1001",
     "title": "Beginning Spanish",
-    "info": "listening, speaking, reading, writing. emphasizes development of communicative competence. cultural readings. ",
+    "info": "listening, speaking, reading, writing. emphasizes development of communicative competence. cultural readings.",
     "prereqInfo": "less than 2 yrs of high school spanish and/or three or more years away from spanish language study; and dept consent",
     "prereq": []
   },
@@ -26,7 +26,7 @@
     "subject": "SPAN",
     "id": "1003",
     "title": "Intermediate Spanish",
-    "info": "speaking/comprehension. developing reading/writing skills based on materials from spain/spanish america. grammar review. compositions, oral presentations. ",
+    "info": "speaking/comprehension. developing reading/writing skills based on materials from spain/spanish america. grammar review. compositions, oral presentations.",
     "prereqInfo": "a grade of c- or better in span 1002 or span 1022 or ept placement of span 1003",
     "prereq": {
       "or": [
@@ -39,11 +39,6 @@
           "code": "SPAN 1022",
           "subject": "SPAN",
           "id": "1022"
-        },
-        {
-          "code": "SPAN 1003",
-          "subject": "SPAN",
-          "id": "1003"
         }
       ]
     }
@@ -56,18 +51,9 @@
     "info": "speaking/comprehension. developing reading/writing skills based on materials from spain/spanish america. grammar review. compositions, oral presentations.",
     "prereqInfo": "a grade of c- or better in span 1003 or ept placement of span 1004",
     "prereq": {
-      "or": [
-        {
-          "code": "SPAN 1003",
-          "subject": "SPAN",
-          "id": "1003"
-        },
-        {
-          "code": "SPAN 1004",
-          "subject": "SPAN",
-          "id": "1004"
-        }
-      ]
+      "code": "SPAN 1003",
+      "subject": "SPAN",
+      "id": "1003"
     }
   },
   {
@@ -75,20 +61,13 @@
     "subject": "SPAN",
     "id": "1022",
     "title": "Alt Second-Sem Spanish",
-    "info": "for students who have studied spanish in high school or at community college, or who are transfer students. begins with accelerated review of 1001 followed by material covered in 1002. ",
+    "info": "for students who have studied spanish in high school or at community college, or who are transfer students. begins with accelerated review of 1001 followed by material covered in 1002.",
     "prereqInfo": "placement above 1001 (span 1022 is designed for students who have had two or more years of high school spanish, or one semester of college spanish).",
-    "prereq": [
-      {
-        "code": "SPAN 1001",
-        "subject": "SPAN",
-        "id": "1001"
-      },
-      {
-        "code": "SPAN 1022",
-        "subject": "SPAN",
-        "id": "1022"
-      }
-    ]
+    "prereq": {
+      "code": "SPAN 1001",
+      "subject": "SPAN",
+      "id": "1001"
+    }
   },
   {
     "code": "SPAN 1034",
@@ -186,7 +165,11 @@
     "title": "Topics: Freshman Seminar",
     "info": "topics specified in class schedule.",
     "prereqInfo": "fr with no more than 30 cr",
-    "prereq": []
+    "prereq": {
+      "code": "SPAN 30",
+      "subject": "SPAN",
+      "id": "30"
+    }
   },
   {
     "code": "SPAN 1904",
@@ -238,8 +221,8 @@
     "subject": "SPAN",
     "id": "1912",
     "title": "Plague/Pestil./Pandem in Ib an",
-    "info": "\\\"over the course of the 20th and 21st centuries, contagious illness, both fictional and real, has served as a literary vehicle for authors in spain, portugal, and latin america to engage with the ways the human body intersects with political power, technology, the environment, and webs of social contact and exclusion. for the catalan author blai bonet, a tuberculosis ward becomes a place to explore the origins of community; for gabriel garcía márquez, the melancholy of inaccessible love drains the body of vitality like cholera; for the portuguese writer josé saramago, an outbreak of an invented disease causing blindness allows for an exploration of human nature and the 20th-century’s worst excesses of violence, to name three examples studied in the course.",
-    "prereqInfo": "this freshman seminar will explore the literary treatment of infectious disease across a broad spectrum of geographical and temporal signposts. given the topicality of the course to the present moment, i plan to incorporate the rate tool to give students an occasional opportunity to reflect on the utility of the humanities and literary criticism for analytically reflecting on their own pandemic experiences.\n\\\"",
+    "info": "\\\"over the course of the 20th and 21st centuries, contagious illness, both fictional and real, has served as a literary vehicle for authors in spain, portugal, and latin america to engage with the ways the human body intersects with political power, technology, the environment, and webs of social contact and exclusion. for the catalan author blai bonet, a tuberculosis ward becomes a place to explore the origins of community; for gabriel garcía márquez, the melancholy of inaccessible love drains the body of vitality like cholera; for the portuguese writer josé saramago, an outbreak of an invented disease causing blindness allows for an exploration of human nature and the 20th-century’s worst excesses of violence, to name three examples studied in the course.\n\nthis freshman seminar will explore the literary treatment of infectious disease across a broad spectrum of geographical and temporal signposts. given the topicality of the course to the present moment, i plan to incorporate the rate tool to give students an occasional opportunity to reflect on the utility of the humanities and literary criticism for analytically reflecting on their own pandemic experiences.\n\\\"",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -247,7 +230,7 @@
     "subject": "SPAN",
     "id": "221",
     "title": "Reading Spanish",
-    "info": "intensive reading of a variety of texts to provide a basic reading knowledge of spanish.  at the end of the semester students may take the equivalent of the spanish graduate reading examination. ",
+    "info": "intensive reading of a variety of texts to provide a basic reading knowledge of spanish.  at the end of the semester students may take the equivalent of the spanish graduate reading examination.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -279,20 +262,11 @@
     }
   },
   {
-    "code": "SPAN 3015V",
-    "subject": "SPAN",
-    "id": "3015V",
-    "title": "Hon: Span Comp & Communication",
-    "info": "in 3015v, we will be using basically the same weekly plan and canvas site that is used in regular sections (span 3015w) in our department. the main difference between a regular and an honors 3015 section will not be the quantity of work expected of the students, but rather the quality expected, not only of them but also of the instructor and the instruction provided.\n\nthe course integrates reading, writing, listening, and speaking skills. classes are conducted in spanish. when working with a truly committed group of students, as it is assumed honors students will be, the instructor can go more in depth when dealing with difficult spanish texts or unfamiliar cultural and historical issues. instead of aiming just for reading comprehension, we will analyze cultural issues and identify literary strategies while working at the same time with highly advanced grammatical structures. exposing students to different approaches on latin-american history and cultures, the instructor will promote discussion and will ask challenging but realistic questions to help students make connections between literary works/essays presented in the textbook or short videos used in class. by understanding, analyzing, and connecting, students will develop not only their linguistic abilities but also their critical thinking and a better understanding of the hispanic world, and, therefore, they will be able to reconsider their own ideas and form new ones. all that work and growth will fully prepare them for the literature, culture or linguistic classes (31xx courses) they will take once they finish spanish 3015v if they choose to continue with their spanish studies.\n\nthe same criteria apply to the writing component of the course. in an honors class we will not simply try to avoid mistakes when writing a composition. instead, students will be working on stretching their level farther by incorporating the grammatical structures learned through the readings and grammar lessons taught in class, and they will be required to explain their ideas better and in a more advanced way. again, the number of compositions required will be the same as in a regular section, but the quality expected will be higher, and they will receive high quality feedback from their instructor: more advanced, higher quality writing is acquired only when the efforts of committed students are paired with the careful guidance and expertise of an also committed and experienced instructor.\n\nwhen during the last weeks of the semester honors students read and work on the spanish novel all the 3015 students in our department are required to read, they will be ready to fully understand it, look for literary strategies, relate to some cultural and moral issues, and discuss difficult topics with confidence: throughout the semester they will have practiced a solid work ethic and acquired a wider understanding of themselves and the world around them, and, now, with the help of their instructor, they will be able to fully appreciate the lessons and proposals the novel mosén millán by ramón sender has to offer. by the end of the course, students will have developed their critical thinking and improved their language abilities, and they will be more compassionate. they will also be fully ready to take more advanced spanish classes if they decide to do so.",
-    "prereqInfo": "span lpe pass, honors student",
-    "prereq": []
-  },
-  {
     "code": "SPAN 3015W",
     "subject": "SPAN",
     "id": "3015W",
     "title": "Spanish Comp and Communication",
-    "info": "via a wide variety of fascinating contemporary texts, span 3015w provides a lens into hispanic civilizations and cultures, their past and present, and the global flows of ideologies, technology, media, and peoples that shape society and function as constant drivers of change. throughout the course we may explore topics such as social and cultural legacies, racial capitalism, power/knowledge, and democracy in crisis. in span 3015w, students will use their spanish skills to analyze an assortment of authentic texts (literature, films, essays, podcasts, etc.), to talk with each other and native speakers, and to share their own experiences and ideas in writing. students use their spanish to delve into the history, cultures, and diversity of the spanish-speaking world. as they do this, they revisit and refine specific structures known to pose a challenge to learners of spanish. \n\nthe first in a series of writing-intensive courses in the major and minor programs, spanish 3015w focuses upon the acquisition of composition skills with an emphasis on the thesis-fronted, expository writing strategies (i.e. statistical report, literary interpretation, academic essay, etc.) essential for success in more advanced coursework in spanish studies. 3015w moves in the direction of a more advanced-level discourse by providing crucial critical and analytical writing experiences to students through the careful scrutiny of authentic hispanic texts, the composition of three original essays, and the production of a writing portfolio prefaced by a self-evaluative essay (autorreflexión). regular engagement with reading primary sources and writing about these materials is fundamental to the development of the writer's critical “voice” and the attainment of a style and vocabulary usage appropriate to writing analytically about literary and other key sociocultural issues of the hispanic world. through the span 3015w process writing program, students work together on a series of peer edits to help each other elegantly formulate ideas and draft coherent arguments, resolving perplexity through collaborative critical thinking. ",
+    "info": "via a wide variety of fascinating contemporary texts, span 3015w provides a lens into hispanic civilizations and cultures, their past and present, and the global flows of ideologies, technology, media, and peoples that shape society and function as constant drivers of change. throughout the course we may explore topics such as social and cultural legacies, racial capitalism, power/knowledge, and democracy in crisis. in span 3015w, students will use their spanish skills to analyze an assortment of authentic texts (literature, films, essays, podcasts, etc.), to talk with each other and native speakers, and to share their own experiences and ideas in writing. students use their spanish to delve into the history, cultures, and diversity of the spanish-speaking world. as they do this, they revisit and refine specific structures known to pose a challenge to learners of spanish. \n\nthe first in a series of writing-intensive courses in the major and minor programs, spanish 3015w focuses upon the acquisition of composition skills with an emphasis on the thesis-fronted, expository writing strategies (i.e. statistical report, literary interpretation, academic essay, etc.) essential for success in more advanced coursework in spanish studies. 3015w moves in the direction of a more advanced-level discourse by providing crucial critical and analytical writing experiences to students through the careful scrutiny of authentic hispanic texts, the composition of three original essays, and the production of a writing portfolio prefaced by a self-evaluative essay (autorreflexión). regular engagement with reading primary sources and writing about these materials is fundamental to the development of the writer's critical “voice” and the attainment of a style and vocabulary usage appropriate to writing analytically about literary and other key sociocultural issues of the hispanic world. through the span 3015w process writing program, students work together on a series of peer edits to help each other elegantly formulate ideas and draft coherent arguments, resolving perplexity through collaborative critical thinking.",
     "prereqInfo": "span lpe pass",
     "prereq": []
   },
@@ -314,19 +288,14 @@
     "subject": "SPAN",
     "id": "3034",
     "title": "Advanced Business Spanish",
-    "info": "spanish 3034 is an advanced course intended for both business majors and those interested in the business world. this course is intended to advance your knowledge of the spanish-speaking world and the spanish language in general through the specific context of business and culture. this class examines specific fields of business(marketing, finance, imports/exports, etc), current events in the spanish-speaking world, and cultural issues pertinent to doing business in the spanish-speaking world or with spanish speakers. business practices and texts will be examined from both cultural and linguistic perspectives. in spanish 3034 you will learn about business forms of communication and practice the formal style necessary for business specific writing. via a semester-long project, you will have a chance to develop a final project related to your own professional interests.  ",
-    "prereqInfo": "a c- or better in span 3015w or span 3015v or span 3019w or tldo 3231 or ecdr 3015w or argn 3015w ",
+    "info": "spanish 3034 is an advanced course intended for both business majors and those interested in the business world. this course is intended to advance your knowledge of the spanish-speaking world and the spanish language in general through the specific context of business and culture. this class examines specific fields of business(marketing, finance, imports/exports, etc), current events in the spanish-speaking world, and cultural issues pertinent to doing business in the spanish-speaking world or with spanish speakers. business practices and texts will be examined from both cultural and linguistic perspectives. in spanish 3034 you will learn about business forms of communication and practice the formal style necessary for business specific writing. via a semester-long project, you will have a chance to develop a final project related to your own professional interests.",
+    "prereqInfo": "a c- or better in span 3015w or span 3015v or span 3019w or tldo 3231 or ecdr 3015w or argn 3015w",
     "prereq": {
       "or": [
         {
           "code": "SPAN 3015W",
           "subject": "SPAN",
           "id": "3015W"
-        },
-        {
-          "code": "SPAN 3015V",
-          "subject": "SPAN",
-          "id": "3015V"
         },
         {
           "code": "SPAN 3019W",
@@ -357,7 +326,7 @@
     "id": "3044",
     "title": "Advanced Medical Spanish",
     "info": "span 3044 is designed to further develop and strengthen the language skills and cultural awareness students have learned and acquired in intermediate medical spanish. students will explore more advanced and specific medical vocabulary to further strengthen their spanish language skills; understand the latin american views of health; and examine aspects of health in latin american countries. class activities also focus on vocabulary and exploring cultural issues pertaining to future healthcare providers who work with the spanish-speaking community and the unique opportunity to get perspectives on health-related issues from the hispanic/latinx community in the twin cities.",
-    "prereqInfo": "a grade of c- or better in span 3015w or 3015v or 3019w\n",
+    "prereqInfo": "a grade of c- or better in span 3015w or 3015v or 3019w",
     "prereq": {
       "or": [
         {
@@ -366,29 +335,11 @@
           "id": "3015W"
         },
         {
-          "code": "SPAN 3015V",
-          "subject": "SPAN",
-          "id": "3015V"
-        },
-        {
           "code": "SPAN 3019",
           "subject": "SPAN",
           "id": "3019"
         }
       ]
-    }
-  },
-  {
-    "code": "SPAN 3104V",
-    "subject": "SPAN",
-    "id": "3104V",
-    "title": "Honors: Intro Study/Hisp Lit",
-    "info": "structures, meaning, and social/historical function of diverse literary texts.",
-    "prereqInfo": "3015, spanish [major or minor]or span-port major",
-    "prereq": {
-      "code": "SPAN 3015",
-      "subject": "SPAN",
-      "id": "3015"
     }
   },
   {
@@ -406,11 +357,6 @@
           "id": "3015W"
         },
         {
-          "code": "SPAN 3015V",
-          "subject": "SPAN",
-          "id": "3015V"
-        },
-        {
           "code": "SPAN 3019",
           "subject": "SPAN",
           "id": "3019"
@@ -419,20 +365,11 @@
     }
   },
   {
-    "code": "SPAN 3105V",
-    "subject": "SPAN",
-    "id": "3105V",
-    "title": "Honors: Hispanic Cultures",
-    "info": "span 3105v is a writing-intensive course centered on major issues of culture in the context of the spanish-speaking world. it is not a history of civilization, nor is it a survey of either latin american or peninsular literature. rather, our objective here is to familiarize ourselves with the different issues central to the development of the hispanic world as a cultural entity, and to practice analyzing and questioning received notions of culture in this context. we will examine all sorts of texts--literary, visual, musical, and filmic--from all periods of both latin american (including brazil) and peninsular history, reading them through the lens of a series of topics. these topics are as follows: mapas del mundo hispánico/maps of the hispanic world, política y legado del encuentro cultural/politics and legacies of cultural encounter, discursos de identidad social/discourses of social identity, coerción y subversión/coercion and subversion, las naciones modernas/modern nations, and cultura élite-cultura popular-cultura de masas/high culture-popular culture-mass culture. the course includes an individual and collaborative research aspect introducing the students to the methods of cultural studies. ",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
     "code": "SPAN 3105W",
     "subject": "SPAN",
     "id": "3105W",
     "title": "Intro: Hispanic Cultures",
-    "info": "\nspan 3105w is a writing-intensive course centered on major issues of culture in the context of the spanish-speaking world. it is not a history of civilization, nor is it a survey of either latin american or peninsular literature. rather, our objective here is to familiarize ourselves with the different issues central to the development of the hispanic world as a cultural entity, and to practice analyzing and questioning received notions of culture in this context. we will examine all sorts of texts--literary, visual, musical, and filmic--from all periods of both latin american (including brazil) and peninsular history, reading them through the lens of a series of topics. these topics are as follows: mapas del mundo hispánico/maps of the hispanic world, política y legado del encuentro cultural/politics and legacies of cultural encounter, discursos de identidad social/discourses of social identity, coerción y subversión/coercion and subversion, las naciones modernas/modern nations, and cultura élite-cultura popular-cultura de masas/high culture-popular culture-mass culture.",
+    "info": "span 3105w is a writing-intensive course centered on major issues of culture in the context of the spanish-speaking world. it is not a history of civilization, nor is it a survey of either latin american or peninsular literature. rather, our objective here is to familiarize ourselves with the different issues central to the development of the hispanic world as a cultural entity, and to practice analyzing and questioning received notions of culture in this context. we will examine all sorts of texts--literary, visual, musical, and filmic--from all periods of both latin american (including brazil) and peninsular history, reading them through the lens of a series of topics. these topics are as follows: mapas del mundo hispánico/maps of the hispanic world, política y legado del encuentro cultural/politics and legacies of cultural encounter, discursos de identidad social/discourses of social identity, coerción y subversión/coercion and subversion, las naciones modernas/modern nations, and cultura élite-cultura popular-cultura de masas/high culture-popular culture-mass culture.",
     "prereqInfo": "a grade of c- or better in span 3015w or 3015v  or 3019w",
     "prereq": {
       "or": [
@@ -440,11 +377,6 @@
           "code": "SPAN 3015W",
           "subject": "SPAN",
           "id": "3015W"
-        },
-        {
-          "code": "SPAN 3015V",
-          "subject": "SPAN",
-          "id": "3015V"
         },
         {
           "code": "SPAN 3019",
@@ -460,7 +392,7 @@
     "id": "3107W",
     "title": "Intro: Hispanic Linguistics",
     "info": "language is the foundation of human society, but it’s much more than just a code used for communication. language helps us shape our thoughts. it’s also the material we manipulate to create poetry and that we play with to produce humor. even more, it is considered to be what truly makes us human. in this class we’ll learn the basics of the scientific study of language, also known as linguistics and answer some of these questions: how is meaning-making achieved through language? how does language work in the human brain? what does it mean to be bilingual where did spanish come from? how did it expand across the globe? why are some aspects of spanish hard for english speakers to learn? how do we use language to express our identities, and how can language influence how those identities are received and perceived? while we explore these questions, we will also learn the writing style and conventions that linguists use to express themselves. you will use these conventions to write a paper in which you explore a spanish language related topic in depth.",
-    "prereqInfo": "a grade of c- or better in span 3015w or 3015v ",
+    "prereqInfo": "a grade of c- or better in span 3015w or 3015v",
     "prereq": {
       "or": [
         {
@@ -491,11 +423,6 @@
           "id": "3104W"
         },
         {
-          "code": "SPAN 3104V",
-          "subject": "SPAN",
-          "id": "3104V"
-        },
-        {
           "code": "TLDO 3104W",
           "subject": "TLDO",
           "id": "3104W"
@@ -511,11 +438,6 @@
           "id": "3105W"
         },
         {
-          "code": "SPAN 3105V",
-          "subject": "SPAN",
-          "id": "3105V"
-        },
-        {
           "code": "TLDO 3105W",
           "subject": "TLDO",
           "id": "3105W"
@@ -526,26 +448,12 @@
           "id": "3107W"
         },
         {
-          "code": "SPAN 3107V",
-          "subject": "SPAN",
-          "id": "3107V"
-        },
-        {
           "code": "TLDO 3107",
           "subject": "TLDO",
           "id": "3107"
         }
       ]
     }
-  },
-  {
-    "code": "SPAN 3211H",
-    "subject": "SPAN",
-    "id": "3211H",
-    "title": "Honors: Lit Discourses",
-    "info": "major spanish literary genres (epic, lyric, narrative prose, drama, novel, essay) from middle ages and golden age to the enlightenment. representative works (ballads, picaresque \\\"vidas\\\", tragedies, mystical verse, novellas) within historical/cultural contexts.",
-    "prereqInfo": null,
-    "prereq": []
   },
   {
     "code": "SPAN 3212",
@@ -584,82 +492,11 @@
     }
   },
   {
-    "code": "SPAN 3212H",
-    "subject": "SPAN",
-    "id": "3212H",
-    "title": "Hon: Lit Dis (1800-present)",
-    "info": "representative works of fiction, drama, poetry, essay, and film of past two centuries. intellectual/literary movements from romanticism to postmodernism.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
     "code": "SPAN 3221",
     "subject": "SPAN",
     "id": "3221",
     "title": "Interpret Colonial Lat America",
-    "info": "the conquest and colonization of latin america is a complex issue, which demands an interdisciplinary approach to achieve a better understanding of this multidimensional social conflict. the course examines the role of colonial discourse as producer of the epistemic colonial difference and explores the legacies of colonialism. students will be expected to focus on and to think about the organizational mechanisms through which aural and visual practices mediate reality in colonial latin america. furthermore, students will learn to be critical readers by considering how cultural texts may be historically determined and by exploring how individuals may shape a particular cultural theme in a variety of manners. the course will focus on critical readings and discussion of cultural artifacts, literary texts, and documents of colonial latin america. studies will include material pertaining to the aural and visual production of the period, including european and indigenous accounts of the conquest, as well as indigenous, african, criollo, mestizo and women writings during the colony from an interdisciplinary perspective. concentration will center on the textual strategies, topics, world views, motivations, projects, and expectations explicit or implicit in the texts, their significance at the time, and their importance for understanding the formation of what we know as latin america today. the course also is devoted to the conquest of latin america by analyzing the role of colonial discourse and the legacies of colonialism in the region. with cultural artifacts, texts and documents, students will deal with different theoretical approaches deriving from the humanities and the social sciences. such interdisciplinary method will provide the tools, concepts, and strategic visions to carry on analytical tasks in class. all the work for the course, except for certain supplementary readings, will be in spanish. requirements will include preparation of assigned readings, presentation of analytical and comprehensive tasks, class discussions, and a research project. the course provides training in analytical thinking and cultural critique of colonial society in latin america, bringing a global perspective to our curriculum.",
-    "prereqInfo": "pre-req: a grade of c- or better in span 3104w or span 3104v or tldo 3104w or argn 3104w or span 3105w or span 3105v or tldo 3105w or span 3107w or span 3107v or tldo 3107w",
-    "prereq": {
-      "or": [
-        {
-          "code": "SPAN 3104W",
-          "subject": "SPAN",
-          "id": "3104W"
-        },
-        {
-          "code": "SPAN 3104V",
-          "subject": "SPAN",
-          "id": "3104V"
-        },
-        {
-          "code": "TLDO 3104W",
-          "subject": "TLDO",
-          "id": "3104W"
-        },
-        {
-          "code": "ARGN 3104W",
-          "subject": "ARGN",
-          "id": "3104W"
-        },
-        {
-          "code": "SPAN 3105W",
-          "subject": "SPAN",
-          "id": "3105W"
-        },
-        {
-          "code": "SPAN 3105V",
-          "subject": "SPAN",
-          "id": "3105V"
-        },
-        {
-          "code": "TLDO 3105W",
-          "subject": "TLDO",
-          "id": "3105W"
-        },
-        {
-          "code": "SPAN 3107W",
-          "subject": "SPAN",
-          "id": "3107W"
-        },
-        {
-          "code": "SPAN 3107V",
-          "subject": "SPAN",
-          "id": "3107V"
-        },
-        {
-          "code": "TLDO 3107",
-          "subject": "TLDO",
-          "id": "3107"
-        }
-      ]
-    }
-  },
-  {
-    "code": "SPAN 3221H",
-    "subject": "SPAN",
-    "id": "3221H",
-    "title": "Hnrs: LAmer Colonial Dis",
-    "info": "honors: critical account of conquest, colonization, and resistance in spanish america.",
+    "info": "the conquest and colonization of latin america is a complex issue, which demands an interdisciplinary approach to achieve a better understanding of this multidimensional social conflict. the course examines the role of colonial discourse as producer of the epistemic colonial difference and explores the legacies of colonialism. students will be expected to focus on and to think about the organizational mechanisms through which aural and visual practices mediate reality in colonial latin america. furthermore, students will learn to be critical readers by considering how cultural texts may be historically determined and by exploring how individuals may shape a particular cultural theme in a variety of manners. the course will focus on critical readings and discussion of cultural artifacts, literary texts, and documents of colonial latin america. studies will include material pertaining to the aural and visual production of the period, including european and indigenous accounts of the conquest, as well as indigenous, african, criollo, mestizo and women writings during the colony from an interdisciplinary perspective. concentration will center on the textual strategies, topics, world views, motivations, projects, and expectations explicit or implicit in the texts, their significance at the time, and their importance for understanding the formation of what we know as latin america today. the course also is devoted to the conquest of latin america by analyzing the role of colonial discourse and the legacies of colonialism in the region. with cultural artifacts, texts and documents, students will deal with different theoretical approaches deriving from the humanities and the social sciences. such interdisciplinary method will provide the tools, concepts, and strategic visions to carry on analytical tasks in class. all the work for the course, except for certain supplementary readings, will be in spanish. requirements will include preparation of assigned readings, presentation of analytical and comprehensive tasks, class discussions, and a research project. the course provides training in analytical thinking and cultural critique of colonial society in latin america, bringing a global perspective to our curriculum.\n\npre-req: a grade of c- or better in span 3104w or span 3104v or tldo 3104w or argn 3104w or span 3105w or span 3105v or tldo 3105w or span 3107w or span 3107v or tldo 3107w",
     "prereqInfo": null,
     "prereq": []
   },
@@ -678,11 +515,6 @@
           "id": "3104W"
         },
         {
-          "code": "SPAN 3104V",
-          "subject": "SPAN",
-          "id": "3104V"
-        },
-        {
           "code": "TLDO 3104W",
           "subject": "TLDO",
           "id": "3104W"
@@ -698,11 +530,6 @@
           "id": "3105W"
         },
         {
-          "code": "SPAN 3105V",
-          "subject": "SPAN",
-          "id": "3105V"
-        },
-        {
           "code": "TLDO 3105W",
           "subject": "TLDO",
           "id": "3105W"
@@ -713,74 +540,9 @@
           "id": "3107W"
         },
         {
-          "code": "SPAN 3107V",
-          "subject": "SPAN",
-          "id": "3107V"
-        },
-        {
           "code": "TLDO 3107",
           "subject": "TLDO",
           "id": "3107"
-        }
-      ]
-    }
-  },
-  {
-    "code": "SPAN 3222H",
-    "subject": "SPAN",
-    "id": "3222H",
-    "title": "Hon:DisNationBldgandModLatAmer",
-    "info": "development of modernity in spanish america, its literary expression since independence from colonial rule. case studies (e.g., cuba).",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "SPAN 3300H",
-    "subject": "SPAN",
-    "id": "3300H",
-    "title": "Honors Seminar",
-    "info": "topics related to cultural studies, literature, linguistics in iberian/latin american milieus. taught in spanish. may be cross-listed with another department.",
-    "prereqInfo": "honors student, 3015, [3104w or 3105w or tldo 3104 or tldo 3105 or venz 3104 or venz 3512 or instr consent]",
-    "prereq": {
-      "and": [
-        {
-          "code": "SPAN 3015",
-          "subject": "SPAN",
-          "id": "3015"
-        },
-        {
-          "or": [
-            {
-              "code": "SPAN 3104W",
-              "subject": "SPAN",
-              "id": "3104W"
-            },
-            {
-              "code": "SPAN 3105W",
-              "subject": "SPAN",
-              "id": "3105W"
-            },
-            {
-              "code": "TLDO 3104",
-              "subject": "TLDO",
-              "id": "3104"
-            },
-            {
-              "code": "TLDO 3105",
-              "subject": "TLDO",
-              "id": "3105"
-            },
-            {
-              "code": "VENZ 3104",
-              "subject": "VENZ",
-              "id": "3104"
-            },
-            {
-              "code": "VENZ 3512",
-              "subject": "VENZ",
-              "id": "3512"
-            }
-          ]
         }
       ]
     }
@@ -791,7 +553,7 @@
     "id": "3301",
     "title": "Advanced Oral Profic Workshop",
     "info": "the main goal of this course is to advance students' oral proficiency in spanish in a variety of genres of spoken discourse, including description, narration, argumentation, explanation, and hypothesizing. in addition, instruction will focus on developing the range of topics about which students can speak and the internal organization of discourse produced by students. these functions are characteristic of speakers at the advanced level of proficiency on the actfl scale. students will engage in a variety of activities, among which are discussions, debates, oral presentations, and analysis of oral speech samples.",
-    "prereqInfo": "prereqs:  span 3104w, or 3105w, or 3107w and span 3211, or 3212, or 3221, or 3222, or 3502, or 3503, or 3510, or 3512, or 3701, or 3702, or 3703, or 3704, or 3706, or 3707, or 3730, or 3800, or 3910, or 3920, and oral interview required.",
+    "prereqInfo": "s:  span 3104w, or 3105w, or 3107w and span 3211, or 3212, or 3221, or 3222, or 3502, or 3503, or 3510, or 3512, or 3701, or 3702, or 3703, or 3704, or 3706, or 3707, or 3730, or 3800, or 3910, or 3920, and oral interview required.",
     "prereq": {
       "and": [
         {
@@ -907,35 +669,17 @@
     "subject": "SPAN",
     "id": "3401",
     "title": "Latino Immigration/Comm Engage",
-    "info": "service-learning course. u.s. power structures associated with emigration from latin america. rapid demographic change. global economic system/emigration. human rights. federal immigration reform. language issues. inclusive political, economic, educational systems. dialogue with latino immigrants, community visits, civic engagement. instructor approval required for january or summer offering.",
-    "prereqInfo": "pre-req: a c- or better in span 3015w or span 3015v or span 3019w",
-    "prereq": {
-      "or": [
-        {
-          "code": "SPAN 3015W",
-          "subject": "SPAN",
-          "id": "3015W"
-        },
-        {
-          "code": "SPAN 3015V",
-          "subject": "SPAN",
-          "id": "3015V"
-        },
-        {
-          "code": "SPAN 3019",
-          "subject": "SPAN",
-          "id": "3019"
-        }
-      ]
-    }
+    "info": "service-learning course. u.s. power structures associated with emigration from latin america. rapid demographic change. global economic system/emigration. human rights. federal immigration reform. language issues. inclusive political, economic, educational systems. dialogue with latino immigrants, community visits, civic engagement. instructor approval required for january or summer offering.\n\npre-req: a c- or better in span 3015w or span 3015v or span 3019w",
+    "prereqInfo": null,
+    "prereq": []
   },
   {
     "code": "SPAN 3403",
     "subject": "SPAN",
     "id": "3403",
     "title": "Latino Immigration on Border",
-    "info": "this course takes place off campus, through an organization called \\\"border links\\\" that is located in tucson and works with migrants. students will experience firsthand many issues that directly affect the migrant journey and meet with many immigrants to hear their personal stories. in addition to learning the history of the situation on the border, students will take a tour of the border wall, visit neighboring communities that work with immigrants, do a legal immigration simulation, walk the migrant trails in the sonoran desert and leave water there with humane borders, go to a operation streamline deportation court hearing, visit migrants seeking political asylum in florence detention center, talk with a leader in southside workers center, meet with an author focusing on border patrol, and more.",
-    "prereqInfo": "themes explored in this course include the connection between the roots of emigration and the global economy of violence in central america; human rights on the border; and issues immigrants face in the us such as immigrants living in the us with or without legal documents, detention and deportation and the work they are doing to make a more just immigration system. students will gather information during their stay and create a presentation to be shown to people in minnesota upon returning from the border.",
+    "info": "this course takes place off campus, through an organization called \\\"border links\\\" that is located in tucson and works with migrants. students will experience firsthand many issues that directly affect the migrant journey and meet with many immigrants to hear their personal stories. in addition to learning the history of the situation on the border, students will take a tour of the border wall, visit neighboring communities that work with immigrants, do a legal immigration simulation, walk the migrant trails in the sonoran desert and leave water there with humane borders, go to a operation streamline deportation court hearing, visit migrants seeking political asylum in florence detention center, talk with a leader in southside workers center, meet with an author focusing on border patrol, and more.\n\nthemes explored in this course include the connection between the roots of emigration and the global economy of violence in central america; human rights on the border; and issues immigrants face in the us such as immigrants living in the us with or without legal documents, detention and deportation and the work they are doing to make a more just immigration system. students will gather information during their stay and create a presentation to be shown to people in minnesota upon returning from the border.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -958,11 +702,7 @@
     "title": "Advanced Medical Spanish",
     "info": "0 cr. course designed to further develop and strengthen the language skills and cultural awareness students have been exposed to and acquired in interm med span 0144, a course designed to help care professionals communicate with patients who speak spanish.",
     "prereqInfo": "span 0144, 2 yrs. spanish college level or equiv, dept consent.",
-    "prereq": {
-      "code": "SPAN 0144",
-      "subject": "SPAN",
-      "id": "0144"
-    }
+    "prereq": []
   },
   {
     "code": "SPAN 3501",
@@ -1001,20 +741,11 @@
     }
   },
   {
-    "code": "SPAN 3501H",
-    "subject": "SPAN",
-    "id": "3501H",
-    "title": "Honors: Span Civ--Roots",
-    "info": "customs, lifestyles, art, and culture from coexistence of christians, moors, and arabs during reconquest to national unification. discoveries/conquests up to \\\"modern state\\\" and political crises of early 19th century.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
     "code": "SPAN 3502",
     "subject": "SPAN",
     "id": "3502",
     "title": "Modern Spain",
-    "info": "this course is an introduction to spain’s history, culture, and present-day society through a survey of literature, art, film, and political writings. students will learn about the key moments that have marked spain’s history from the 19th century to the present, including the end of spanish empire; the civil war; francoist dictatorship and experience of exile; the transition to democracy; nationalist movements in the basque country and catalonia; the financial crisis of 2008 and the anti-austerity 15-m movement; twenty-first-century immigration and spain’s place in a global context; among others. through a focus on spain’s challenging negotiation of its linguistic diversity and social complexity, students will develop a better understanding of the concepts of cultural understanding and difference. students will also build on their linguistic competence in spanish while improving their critical thinking and writing skills. the course would appeal especially to students returning from study abroad who wish to deepen their understanding of spanish cultural history or those preparing to travel who would like to establish a linguistic, historical, and cultural foundation for studying in spain.  \n",
+    "info": "this course is an introduction to spain’s history, culture, and present-day society through a survey of literature, art, film, and political writings. students will learn about the key moments that have marked spain’s history from the 19th century to the present, including the end of spanish empire; the civil war; francoist dictatorship and experience of exile; the transition to democracy; nationalist movements in the basque country and catalonia; the financial crisis of 2008 and the anti-austerity 15-m movement; twenty-first-century immigration and spain’s place in a global context; among others. through a focus on spain’s challenging negotiation of its linguistic diversity and social complexity, students will develop a better understanding of the concepts of cultural understanding and difference. students will also build on their linguistic competence in spanish while improving their critical thinking and writing skills. the course would appeal especially to students returning from study abroad who wish to deepen their understanding of spanish cultural history or those preparing to travel who would like to establish a linguistic, historical, and cultural foundation for studying in spain.",
     "prereqInfo": "a grade of c- or better in span 3104w or span 3104v or tldo 3104w or argn 3104w or span 3105w or span 3105v or tldo 3105w or span 3107w or span 3107v or tldo 3107w",
     "prereq": {
       "or": [
@@ -1022,11 +753,6 @@
           "code": "SPAN 3104W",
           "subject": "SPAN",
           "id": "3104W"
-        },
-        {
-          "code": "SPAN 3104V",
-          "subject": "SPAN",
-          "id": "3104V"
         },
         {
           "code": "TLDO 3104W",
@@ -1044,11 +770,6 @@
           "id": "3105W"
         },
         {
-          "code": "SPAN 3105V",
-          "subject": "SPAN",
-          "id": "3105V"
-        },
-        {
           "code": "TLDO 3105W",
           "subject": "TLDO",
           "id": "3105W"
@@ -1057,11 +778,6 @@
           "code": "SPAN 3107W",
           "subject": "SPAN",
           "id": "3107W"
-        },
-        {
-          "code": "SPAN 3107V",
-          "subject": "SPAN",
-          "id": "3107V"
         },
         {
           "code": "TLDO 3107",
@@ -1072,32 +788,18 @@
     }
   },
   {
-    "code": "SPAN 3502H",
-    "subject": "SPAN",
-    "id": "3502H",
-    "title": "Hon: Mod Spanish Culture",
-    "info": "spanish culture from beginning of 19th century to present. focus on cultural change and its conflicts as represented in spanish art, literature, and film.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
     "code": "SPAN 3503",
     "subject": "SPAN",
     "id": "3503",
     "title": "Pre-mod Span Culture & Thought",
-    "info": "notions of nation, empire, and race precipitated by presence of muslims, jews, and christians in iberia in 12th and 13th centuries. toledo as center of translation, technology, innovation, design, and philosophical inquiry for all of europe. how iberian literary works differed from those produced in the rest of western europe. readings from saint isidore, ibn hazm, averroes (ibn rushd), and maimonides. ",
-    "prereqInfo": "a grade of c- or better in span 3104w or span 3104v or tldo 3104w or argn 3104w or span 3105w or span 3105v or tldo 3105w or span 3107w or span 3107v or tldo 3107w\n",
+    "info": "notions of nation, empire, and race precipitated by presence of muslims, jews, and christians in iberia in 12th and 13th centuries. toledo as center of translation, technology, innovation, design, and philosophical inquiry for all of europe. how iberian literary works differed from those produced in the rest of western europe. readings from saint isidore, ibn hazm, averroes (ibn rushd), and maimonides.",
+    "prereqInfo": "a grade of c- or better in span 3104w or span 3104v or tldo 3104w or argn 3104w or span 3105w or span 3105v or tldo 3105w or span 3107w or span 3107v or tldo 3107w",
     "prereq": {
       "or": [
         {
           "code": "SPAN 3104W",
           "subject": "SPAN",
           "id": "3104W"
-        },
-        {
-          "code": "SPAN 3104V",
-          "subject": "SPAN",
-          "id": "3104V"
         },
         {
           "code": "TLDO 3104W",
@@ -1115,11 +817,6 @@
           "id": "3105W"
         },
         {
-          "code": "SPAN 3105V",
-          "subject": "SPAN",
-          "id": "3105V"
-        },
-        {
           "code": "TLDO 3105W",
           "subject": "TLDO",
           "id": "3105W"
@@ -1128,11 +825,6 @@
           "code": "SPAN 3107W",
           "subject": "SPAN",
           "id": "3107W"
-        },
-        {
-          "code": "SPAN 3107V",
-          "subject": "SPAN",
-          "id": "3107V"
         },
         {
           "code": "TLDO 3107",
@@ -1147,7 +839,7 @@
     "subject": "SPAN",
     "id": "3510",
     "title": "Issues in Hispanic Cultures",
-    "info": "in this course, we will explore specific cultural issues or practices from different time periods and areas of the spanish or portuguese-speaking world. the focused study of the class topic will be framed within a broader exploration of the historical, cultural, political, economic, and ideological contexts within which it has arisen. through the study of the diverse topics explored in different classes, students will gain an appreciation for the diversity of histories and cultures in the spanish and portuguese-speaking world and develop the skills to engage in a critical practice of cultural analysis. a wide variety of cultural texts and social practices may be studied, including, but not limited to, literary, philosophical, critical and essayistic texts, films and documentaries, visual art, social movements and various forms of political activism, political treaties, historical documents, etc. \n\ntopics vary and are specified in the class schedule. ",
+    "info": "in this course, we will explore specific cultural issues or practices from different time periods and areas of the spanish or portuguese-speaking world. the focused study of the class topic will be framed within a broader exploration of the historical, cultural, political, economic, and ideological contexts within which it has arisen. through the study of the diverse topics explored in different classes, students will gain an appreciation for the diversity of histories and cultures in the spanish and portuguese-speaking world and develop the skills to engage in a critical practice of cultural analysis. a wide variety of cultural texts and social practices may be studied, including, but not limited to, literary, philosophical, critical and essayistic texts, films and documentaries, visual art, social movements and various forms of political activism, political treaties, historical documents, etc. \n\ntopics vary and are specified in the class schedule.",
     "prereqInfo": "a grade of c- or better in span 3104w or span 3104v or tldo 3104w or argn 3104w or span 3105w or span 3105v or tldo 3105w or span 3107w or span 3107v or tldo 3107w",
     "prereq": {
       "or": [
@@ -1155,11 +847,6 @@
           "code": "SPAN 3104W",
           "subject": "SPAN",
           "id": "3104W"
-        },
-        {
-          "code": "SPAN 3104V",
-          "subject": "SPAN",
-          "id": "3104V"
         },
         {
           "code": "TLDO 3104W",
@@ -1177,11 +864,6 @@
           "id": "3105W"
         },
         {
-          "code": "SPAN 3105V",
-          "subject": "SPAN",
-          "id": "3105V"
-        },
-        {
           "code": "TLDO 3105W",
           "subject": "TLDO",
           "id": "3105W"
@@ -1192,33 +874,19 @@
           "id": "3107W"
         },
         {
-          "code": "SPAN 3107V",
-          "subject": "SPAN",
-          "id": "3107V"
-        },
-        {
           "code": "TLDO 3107",
           "subject": "TLDO",
           "id": "3107"
         }
       ]
     }
-  },
-  {
-    "code": "SPAN 3510H",
-    "subject": "SPAN",
-    "id": "3510H",
-    "title": "Hon: Hispanic Issues",
-    "info": "practices that have shaped cultural identity of spanish-/portuguese-speaking areas. folklore, religion, armed conflict, drug traffic, language/citizenship, political movements, commodification of national myths/icons. topics vary.",
-    "prereqInfo": null,
-    "prereq": []
   },
   {
     "code": "SPAN 3512",
     "subject": "SPAN",
     "id": "3512",
     "title": "Modern Latin America",
-    "info": "span 3512, conducted entirely in spanish, will consider some of the relations between daily life and symbolic production in modern latin america. we will begin by exploring the emergence of ways of naming and mapping the hemisphere: where/what is latin america? what is the history of cultures and the movement of peoples that have given rise to what we imagine as latin america today? what do we mean by such names as america, hispanic, latino, etc.? what is the relation between latin america and latino? what are different ways to explore cultural manifestations and products? using film, documentaries, production of soap operas, the web, and other resources, we will go on to examine a series of topics from a historical perspective, including education, modernity, modernization, and identity formation. ",
+    "info": "span 3512, conducted entirely in spanish, will consider some of the relations between daily life and symbolic production in modern latin america. we will begin by exploring the emergence of ways of naming and mapping the hemisphere: where/what is latin america? what is the history of cultures and the movement of peoples that have given rise to what we imagine as latin america today? what do we mean by such names as america, hispanic, latino, etc.? what is the relation between latin america and latino? what are different ways to explore cultural manifestations and products? using film, documentaries, production of soap operas, the web, and other resources, we will go on to examine a series of topics from a historical perspective, including education, modernity, modernization, and identity formation.",
     "prereqInfo": "a grade of c- or better in span 3104w or span 3104v or tldo 3104w or argn 3104w or span 3105w or span 3105v or tldo 3105w or span 3107w or span 3107v or tldo 3107w",
     "prereq": {
       "or": [
@@ -1226,11 +894,6 @@
           "code": "SPAN 3104W",
           "subject": "SPAN",
           "id": "3104W"
-        },
-        {
-          "code": "SPAN 3104V",
-          "subject": "SPAN",
-          "id": "3104V"
         },
         {
           "code": "TLDO 3104W",
@@ -1248,11 +911,6 @@
           "id": "3105W"
         },
         {
-          "code": "SPAN 3105V",
-          "subject": "SPAN",
-          "id": "3105V"
-        },
-        {
           "code": "TLDO 3105W",
           "subject": "TLDO",
           "id": "3105W"
@@ -1263,26 +921,12 @@
           "id": "3107W"
         },
         {
-          "code": "SPAN 3107V",
-          "subject": "SPAN",
-          "id": "3107V"
-        },
-        {
           "code": "TLDO 3107",
           "subject": "TLDO",
           "id": "3107"
         }
       ]
     }
-  },
-  {
-    "code": "SPAN 3512H",
-    "subject": "SPAN",
-    "id": "3512H",
-    "title": "Honors: Modern Latin Amer",
-    "info": "effect of various forms of modernization on symbolic production in latin american racial, ethnic, class relations, institutional, and ideological structure.",
-    "prereqInfo": null,
-    "prereq": []
   },
   {
     "code": "SPAN 3601",
@@ -1334,8 +978,8 @@
     "subject": "SPAN",
     "id": "3653",
     "title": "Latinx Cultural Narr in US",
-    "info": "a wide variety of latino groups have used the stage to explore identity issues in a public forum and have developed nontraditional approaches which have altered the nature, quality and substance of recent theater in the u.s. off-broadway, regional troupes, and groups and have attempted to break the mainstream theater's hegemony by addressing the audience's desire to see their problems enacted in understandable and creative terms. through an interdisciplinary approach which will include lectures, discussions, performance and visual materials, the course will introduce established and work-in-progress plays of the most active latin (0) playwrights in the country, along with the historical, political and cultural development framework which made it possible.",
-    "prereqInfo": "this class is taught in english\n",
+    "info": "a wide variety of latino groups have used the stage to explore identity issues in a public forum and have developed nontraditional approaches which have altered the nature, quality and substance of recent theater in the u.s. off-broadway, regional troupes, and groups and have attempted to break the mainstream theater's hegemony by addressing the audience's desire to see their problems enacted in understandable and creative terms. through an interdisciplinary approach which will include lectures, discussions, performance and visual materials, the course will introduce established and work-in-progress plays of the most active latin (0) playwrights in the country, along with the historical, political and cultural development framework which made it possible.\n\nthis class is taught in english",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -1352,7 +996,7 @@
     "subject": "SPAN",
     "id": "3701",
     "title": "Span Phonology & Phonetics",
-    "info": "this course aims to provide you with an understanding of the basic concepts of phonetics and phonology and to teach you to apply these concepts to spanish. the course will be both conceptual and practical. the practical component will involve using the concepts learned in class to improve your own pronunciation of spanish. you will acquire skills in recognizing, producing, transcribing and describing in linguistic terms the sounds of spanish and in understanding and analyzing the spanish sound system. consideration will also be given to the spanish orthographical system as it relates to the sound system, variation in spanish pronunciation among native speakers, and the challenges of a second language learner in acquiring the phonology of their second language. ",
+    "info": "this course aims to provide you with an understanding of the basic concepts of phonetics and phonology and to teach you to apply these concepts to spanish. the course will be both conceptual and practical. the practical component will involve using the concepts learned in class to improve your own pronunciation of spanish. you will acquire skills in recognizing, producing, transcribing and describing in linguistic terms the sounds of spanish and in understanding and analyzing the spanish sound system. consideration will also be given to the spanish orthographical system as it relates to the sound system, variation in spanish pronunciation among native speakers, and the challenges of a second language learner in acquiring the phonology of their second language.",
     "prereqInfo": "a grade of c- or better in span 3104w or span 3104v or tldo 3104w or argn 3104w or span 3105w or span 3105v or tldo 3105w or span 3107w or span 3107v or tldo 3107w.",
     "prereq": {
       "or": [
@@ -1360,11 +1004,6 @@
           "code": "SPAN 3104W",
           "subject": "SPAN",
           "id": "3104W"
-        },
-        {
-          "code": "SPAN 3104V",
-          "subject": "SPAN",
-          "id": "3104V"
         },
         {
           "code": "TLDO 3104W",
@@ -1382,11 +1021,6 @@
           "id": "3105W"
         },
         {
-          "code": "SPAN 3105V",
-          "subject": "SPAN",
-          "id": "3105V"
-        },
-        {
           "code": "TLDO 3105W",
           "subject": "TLDO",
           "id": "3105W"
@@ -1397,26 +1031,12 @@
           "id": "3107W"
         },
         {
-          "code": "SPAN 3107V",
-          "subject": "SPAN",
-          "id": "3107V"
-        },
-        {
           "code": "TLDO 3107",
           "subject": "TLDO",
           "id": "3107"
         }
       ]
     }
-  },
-  {
-    "code": "SPAN 3701H",
-    "subject": "SPAN",
-    "id": "3701H",
-    "title": "Honors: Spanish Phonology",
-    "info": "phonetics/phonology of modern spanish.  regional/social variants of the language in spain and spanish america.",
-    "prereqInfo": null,
-    "prereq": []
   },
   {
     "code": "SPAN 3702",
@@ -1433,11 +1053,6 @@
           "id": "3104W"
         },
         {
-          "code": "SPAN 3104V",
-          "subject": "SPAN",
-          "id": "3104V"
-        },
-        {
           "code": "TLDO 3104W",
           "subject": "TLDO",
           "id": "3104W"
@@ -1453,11 +1068,6 @@
           "id": "3105W"
         },
         {
-          "code": "SPAN 3105V",
-          "subject": "SPAN",
-          "id": "3105V"
-        },
-        {
           "code": "TLDO 3105W",
           "subject": "TLDO",
           "id": "3105W"
@@ -1468,26 +1078,12 @@
           "id": "3107W"
         },
         {
-          "code": "SPAN 3107V",
-          "subject": "SPAN",
-          "id": "3107V"
-        },
-        {
           "code": "TLDO 3107",
           "subject": "TLDO",
           "id": "3107"
         }
       ]
     }
-  },
-  {
-    "code": "SPAN 3702H",
-    "subject": "SPAN",
-    "id": "3702H",
-    "title": "Honors: Morphology and Syntax",
-    "info": "derivational/inflectional morphology. using morpheme, flexional affix, noun phrase, subject, subordination, and coordination to identify different morphological/syntactic components of spanish.",
-    "prereqInfo": null,
-    "prereq": []
   },
   {
     "code": "SPAN 3703",
@@ -1504,11 +1100,6 @@
           "id": "3104W"
         },
         {
-          "code": "SPAN 3104V",
-          "subject": "SPAN",
-          "id": "3104V"
-        },
-        {
           "code": "TLDO 3104W",
           "subject": "TLDO",
           "id": "3104W"
@@ -1524,11 +1115,6 @@
           "id": "3105W"
         },
         {
-          "code": "SPAN 3105V",
-          "subject": "SPAN",
-          "id": "3105V"
-        },
-        {
           "code": "TLDO 3105W",
           "subject": "TLDO",
           "id": "3105W"
@@ -1539,11 +1125,6 @@
           "id": "3107W"
         },
         {
-          "code": "SPAN 3107V",
-          "subject": "SPAN",
-          "id": "3107V"
-        },
-        {
           "code": "TLDO 3107",
           "subject": "TLDO",
           "id": "3107"
@@ -1552,20 +1133,11 @@
     }
   },
   {
-    "code": "SPAN 3703H",
-    "subject": "SPAN",
-    "id": "3703H",
-    "title": "Honors: History of Span and Pt",
-    "info": "relationships with latin. phonetic, morphological, syntactic, and sociolinguistic aspects of diachronic variation.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
     "code": "SPAN 3704",
     "subject": "SPAN",
     "id": "3704",
     "title": "Span Sociolinguistics",
-    "info": "this course focuses on the study of the spanish language in a variety of geographical and social contexts. we’ll examine the historical, social, and linguistic factors that have shaped the development of different varieties of the spanish language in spain, latin america, africa, and asia, including contact with other languages and cultures. in addition, we will explore how social factors such as occupation, education, gender, age, and ethnicity influence the ways that spanish is spoken. we’ll also examine language ideologies and linguistic attitudes toward different varieties of spanish and explore the reasons that some varieties of spanish seem to be valued more highly than others. ",
+    "info": "this course focuses on the study of the spanish language in a variety of geographical and social contexts. we’ll examine the historical, social, and linguistic factors that have shaped the development of different varieties of the spanish language in spain, latin america, africa, and asia, including contact with other languages and cultures. in addition, we will explore how social factors such as occupation, education, gender, age, and ethnicity influence the ways that spanish is spoken. we’ll also examine language ideologies and linguistic attitudes toward different varieties of spanish and explore the reasons that some varieties of spanish seem to be valued more highly than others.",
     "prereqInfo": "a grade of c- or better in span 3104w or span 3104v or tldo 3104w or argn 3104w or span 3105w or span 3105v or tldo 3105w or span 3107w or span 3107v or tldo 3107w.",
     "prereq": {
       "or": [
@@ -1575,11 +1147,6 @@
           "id": "3104W"
         },
         {
-          "code": "SPAN 3104V",
-          "subject": "SPAN",
-          "id": "3104V"
-        },
-        {
           "code": "TLDO 3104W",
           "subject": "TLDO",
           "id": "3104W"
@@ -1595,11 +1162,6 @@
           "id": "3105W"
         },
         {
-          "code": "SPAN 3105V",
-          "subject": "SPAN",
-          "id": "3105V"
-        },
-        {
           "code": "TLDO 3105W",
           "subject": "TLDO",
           "id": "3105W"
@@ -1610,11 +1172,6 @@
           "id": "3107W"
         },
         {
-          "code": "SPAN 3107V",
-          "subject": "SPAN",
-          "id": "3107V"
-        },
-        {
           "code": "TLDO 3107",
           "subject": "TLDO",
           "id": "3107"
@@ -1623,21 +1180,12 @@
     }
   },
   {
-    "code": "SPAN 3704H",
-    "subject": "SPAN",
-    "id": "3704H",
-    "title": "Honors: Span Socioling",
-    "info": "social variants of spanish dialects. spanish in contact with other languages. bilingualism. language attitudes. pragmatic analysis of spanish. effect of recent cultural, political, and socioeconomic transformations on language.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
     "code": "SPAN 3705",
     "subject": "SPAN",
     "id": "3705",
     "title": "Span Semantics & Pragmatics",
     "info": "this pragmatics course deals with the social aspects of sense-making. here you will learn how members of spanish culture create meaning in oral and written exchanges. meaning is not simply transmitted from speaker to audience but negotiated by the participants of the communicative interaction. you will learn how spanish speakers deal with requests, refusals, compliments, advice, and apologies, and how they accommodate their discourse to their interlocutors. you will also explore how courtesy and discourtesy are expressed and inferred by spanish speakers and how spanish is utilized to persuade the audience, thus bringing up issues of language and power. finally, you will study how members of hispanic culture express themselves by non-verbal means (gestures, body movements, etc.). in sum, you will be exposed to the sociocultural resources native speakers utilize to infer and convey meaning. in class, after learning the theory, you will work in groups analyzing real cases of oral and written communicative exchanges in spanish. you will also be asked to work in groups to envision how a native spanish speaker would linguistically act in a hypothetical communicative situation.",
-    "prereqInfo": " grade of c- or better in span 3104w or span 3104v or tldo 3104w or argn 3104w or span 3105w or span 3105v or tldo 3105w or span 3107w or span 3107v or tldo 3107w",
+    "prereqInfo": "grade of c- or better in span 3104w or span 3104v or tldo 3104w or argn 3104w or span 3105w or span 3105v or tldo 3105w or span 3107w or span 3107v or tldo 3107w",
     "prereq": {
       "or": [
         {
@@ -1646,11 +1194,6 @@
           "id": "3104W"
         },
         {
-          "code": "SPAN 3104V",
-          "subject": "SPAN",
-          "id": "3104V"
-        },
-        {
           "code": "TLDO 3104W",
           "subject": "TLDO",
           "id": "3104W"
@@ -1666,11 +1209,6 @@
           "id": "3105W"
         },
         {
-          "code": "SPAN 3105V",
-          "subject": "SPAN",
-          "id": "3105V"
-        },
-        {
           "code": "TLDO 3105W",
           "subject": "TLDO",
           "id": "3105W"
@@ -1681,26 +1219,12 @@
           "id": "3107W"
         },
         {
-          "code": "SPAN 3107V",
-          "subject": "SPAN",
-          "id": "3107V"
-        },
-        {
           "code": "TLDO 3107",
           "subject": "TLDO",
           "id": "3107"
         }
       ]
     }
-  },
-  {
-    "code": "SPAN 3705H",
-    "subject": "SPAN",
-    "id": "3705H",
-    "title": "Honors: Spanish Semantics",
-    "info": "sense relations. spanish semantics/grammar. theme, rhyme, focus. spanish lexicon. context, style, culture. communicative competence. speech acts in spanish.",
-    "prereqInfo": null,
-    "prereq": []
   },
   {
     "code": "SPAN 3706",
@@ -1717,11 +1241,6 @@
           "id": "3104W"
         },
         {
-          "code": "SPAN 3104V",
-          "subject": "SPAN",
-          "id": "3104V"
-        },
-        {
           "code": "TLDO 3104W",
           "subject": "TLDO",
           "id": "3104W"
@@ -1737,11 +1256,6 @@
           "id": "3105W"
         },
         {
-          "code": "SPAN 3105V",
-          "subject": "SPAN",
-          "id": "3105V"
-        },
-        {
           "code": "TLDO 3105W",
           "subject": "TLDO",
           "id": "3105W"
@@ -1750,11 +1264,6 @@
           "code": "SPAN 3107W",
           "subject": "SPAN",
           "id": "3107W"
-        },
-        {
-          "code": "SPAN 3107V",
-          "subject": "SPAN",
-          "id": "3107V"
         },
         {
           "code": "TLDO 3107",
@@ -1769,7 +1278,7 @@
     "subject": "SPAN",
     "id": "3707",
     "title": "Lngstc Accrcy via Translation",
-    "info": "in this class, we will use translation as a tool to improve the accuracy with which we communicate in spanish. translations will be both from spanish into english and english into spanish, as each of these forces you to make use of different aspects of your knowledge of the spanish language. while we will be learning about translation to some extent, the goal of the course is not to turn you into a translator (though it can be a starting point if you have an interest in pursuing additional coursework in translation). rather, translation will provide an opportunity to think about the factors we need to take into consideration when making the large number of decisions we need to make when using the spanish language. throughout the course a variety of types of texts will be examined that vary in terms of style, audience and lexicon, and these will serve as a framework for learning to make decisions that accurately communicate our intended meaning in spanish. in doing so, we will review many points of spanish grammar and learn to think about them in new ways – from the most basic grammar points that students think they understand well but perhaps haven’t realized that there are subtle differences from english to those grammar points that always pose challenges for even the most advanced students. if you come with an open mind to think about the spanish language in a new way you will put yourself in the best position to be successful. ",
+    "info": "in this class, we will use translation as a tool to improve the accuracy with which we communicate in spanish. translations will be both from spanish into english and english into spanish, as each of these forces you to make use of different aspects of your knowledge of the spanish language. while we will be learning about translation to some extent, the goal of the course is not to turn you into a translator (though it can be a starting point if you have an interest in pursuing additional coursework in translation). rather, translation will provide an opportunity to think about the factors we need to take into consideration when making the large number of decisions we need to make when using the spanish language. throughout the course a variety of types of texts will be examined that vary in terms of style, audience and lexicon, and these will serve as a framework for learning to make decisions that accurately communicate our intended meaning in spanish. in doing so, we will review many points of spanish grammar and learn to think about them in new ways – from the most basic grammar points that students think they understand well but perhaps haven’t realized that there are subtle differences from english to those grammar points that always pose challenges for even the most advanced students. if you come with an open mind to think about the spanish language in a new way you will put yourself in the best position to be successful.",
     "prereqInfo": "a grade of c- or better in span 3104w or span 3104v or tldo 3104w or argn 3104w or span 3105w or span 3105v or tldo 3105w or span 3107w or span 3107v or tldo 3107w.",
     "prereq": {
       "or": [
@@ -1777,11 +1286,6 @@
           "code": "SPAN 3104W",
           "subject": "SPAN",
           "id": "3104W"
-        },
-        {
-          "code": "SPAN 3104V",
-          "subject": "SPAN",
-          "id": "3104V"
         },
         {
           "code": "TLDO 3104W",
@@ -1799,11 +1303,6 @@
           "id": "3105W"
         },
         {
-          "code": "SPAN 3105V",
-          "subject": "SPAN",
-          "id": "3105V"
-        },
-        {
           "code": "TLDO 3105W",
           "subject": "TLDO",
           "id": "3105W"
@@ -1812,11 +1311,6 @@
           "code": "SPAN 3107W",
           "subject": "SPAN",
           "id": "3107W"
-        },
-        {
-          "code": "SPAN 3107V",
-          "subject": "SPAN",
-          "id": "3107V"
         },
         {
           "code": "TLDO 3107",
@@ -1831,7 +1325,7 @@
     "subject": "SPAN",
     "id": "3708",
     "title": "Spanish in the United States",
-    "info": "in this course, students will learn about the various spanish-speaking communities in the us, including a brief history of their migration and settlement patterns, as well as their current demographic and socioeconomic characteristics, and how these characteristics relate to spanish language maintenance and shift. they will also explore the linguistic features of spanish as it is spoken in the us, including dialectal variation across speakers from different countries of origin, the acquisition of spanish by heritage speakers, codeswitching, and other language contact phenomena. the course will also examine socio-cultural issues related to the presence and vitality of spanish in the united states, such as the use of spanish in politics, in educational and medical settings, in courtrooms, as well as on social media, tv, and in movies and music. students will also gain an understanding of language ideologies and the ways in which they shape understandings of u.s. spanish. ",
+    "info": "in this course, students will learn about the various spanish-speaking communities in the us, including a brief history of their migration and settlement patterns, as well as their current demographic and socioeconomic characteristics, and how these characteristics relate to spanish language maintenance and shift. they will also explore the linguistic features of spanish as it is spoken in the us, including dialectal variation across speakers from different countries of origin, the acquisition of spanish by heritage speakers, codeswitching, and other language contact phenomena. the course will also examine socio-cultural issues related to the presence and vitality of spanish in the united states, such as the use of spanish in politics, in educational and medical settings, in courtrooms, as well as on social media, tv, and in movies and music. students will also gain an understanding of language ideologies and the ways in which they shape understandings of u.s. spanish.",
     "prereqInfo": "a grade of c- or better in span 3104w or span 3104v or tldo 3104w or argn 3104w or span 3105w or span 3105v or tldo 3105w or span 3107w or span 3107v or tldo 3107w.",
     "prereq": {
       "or": [
@@ -1839,11 +1333,6 @@
           "code": "SPAN 3104W",
           "subject": "SPAN",
           "id": "3104W"
-        },
-        {
-          "code": "SPAN 3104V",
-          "subject": "SPAN",
-          "id": "3104V"
         },
         {
           "code": "TLDO 3104W",
@@ -1861,11 +1350,6 @@
           "id": "3105W"
         },
         {
-          "code": "SPAN 3105V",
-          "subject": "SPAN",
-          "id": "3105V"
-        },
-        {
           "code": "TLDO 3105W",
           "subject": "TLDO",
           "id": "3105W"
@@ -1874,11 +1358,6 @@
           "code": "SPAN 3107W",
           "subject": "SPAN",
           "id": "3107W"
-        },
-        {
-          "code": "SPAN 3107V",
-          "subject": "SPAN",
-          "id": "3107V"
         },
         {
           "code": "TLDO 3107",
@@ -1893,7 +1372,7 @@
     "subject": "SPAN",
     "id": "3709",
     "title": "Context of Learning Spanish",
-    "info": "what is the best way to learn a second language? many believe that living in a community in what that language is spoken as a native language is the best option, so many language learners choose to spend weeks, months, and even years studying and living abroad with the goal of improving their proficiency. but is it always better? are there any aspects of the linguistic system that are learned better in a classroom? and do the results vary according to the status of the first and second languages of the speaker?\n \napproximately 18 million people study or speak spanish as a second language around the world. the contexts in which they learn spanish vary from the classroom to natural environments. in this course, you will explore the various contexts and synthesize the results of empirical studies with the goal of identifying the influence of contextual variables on the acquisition of spanish as a second language. by the end of the course, you will be able to answer the following questions: what does it mean to know a language? in what contexts is spanish learned as a second language? what are the advantages and disadvantages of each context? how do other variables interact with context to influence language development?\n",
+    "info": "what is the best way to learn a second language? many believe that living in a community in what that language is spoken as a native language is the best option, so many language learners choose to spend weeks, months, and even years studying and living abroad with the goal of improving their proficiency. but is it always better? are there any aspects of the linguistic system that are learned better in a classroom? and do the results vary according to the status of the first and second languages of the speaker?\n \napproximately 18 million people study or speak spanish as a second language around the world. the contexts in which they learn spanish vary from the classroom to natural environments. in this course, you will explore the various contexts and synthesize the results of empirical studies with the goal of identifying the influence of contextual variables on the acquisition of spanish as a second language. by the end of the course, you will be able to answer the following questions: what does it mean to know a language? in what contexts is spanish learned as a second language? what are the advantages and disadvantages of each context? how do other variables interact with context to influence language development?",
     "prereqInfo": null,
     "prereq": []
   },
@@ -1912,11 +1391,6 @@
           "id": "3104W"
         },
         {
-          "code": "SPAN 3104V",
-          "subject": "SPAN",
-          "id": "3104V"
-        },
-        {
           "code": "TLDO 3104W",
           "subject": "TLDO",
           "id": "3104W"
@@ -1932,11 +1406,6 @@
           "id": "3105W"
         },
         {
-          "code": "SPAN 3105V",
-          "subject": "SPAN",
-          "id": "3105V"
-        },
-        {
           "code": "TLDO 3105W",
           "subject": "TLDO",
           "id": "3105W"
@@ -1947,26 +1416,12 @@
           "id": "3107W"
         },
         {
-          "code": "SPAN 3107V",
-          "subject": "SPAN",
-          "id": "3107V"
-        },
-        {
           "code": "TLDO 3107",
           "subject": "TLDO",
           "id": "3107"
         }
       ]
     }
-  },
-  {
-    "code": "SPAN 3730H",
-    "subject": "SPAN",
-    "id": "3730H",
-    "title": "Honors: Topics in Hisp Ling",
-    "info": "topics specified in class schedule.",
-    "prereqInfo": null,
-    "prereq": []
   },
   {
     "code": "SPAN 3800",
@@ -1983,11 +1438,6 @@
           "id": "3104W"
         },
         {
-          "code": "SPAN 3104V",
-          "subject": "SPAN",
-          "id": "3104V"
-        },
-        {
           "code": "TLDO 3104W",
           "subject": "TLDO",
           "id": "3104W"
@@ -2003,11 +1453,6 @@
           "id": "3105W"
         },
         {
-          "code": "SPAN 3105V",
-          "subject": "SPAN",
-          "id": "3105V"
-        },
-        {
           "code": "TLDO 3105W",
           "subject": "TLDO",
           "id": "3105W"
@@ -2016,11 +1461,6 @@
           "code": "SPAN 3107W",
           "subject": "SPAN",
           "id": "3107W"
-        },
-        {
-          "code": "SPAN 3107V",
-          "subject": "SPAN",
-          "id": "3107V"
         },
         {
           "code": "TLDO 3107",
@@ -2031,32 +1471,18 @@
     }
   },
   {
-    "code": "SPAN 3800H",
-    "subject": "SPAN",
-    "id": "3800H",
-    "title": "Hon: Film Studies in Spanish",
-    "info": "films from spanish-speaking worlds in their historical, (geo)political, and socio-economic contexts. production/consumption, popular/high cultures, and national/trans-national identities considered within various theoretical backgrounds. films from various countries analyzed under interdisciplinary framework noting cinematographical rethorics.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
     "code": "SPAN 3807",
     "subject": "SPAN",
     "id": "3807",
     "title": "Mdcl Humanities/Latin Am. Film",
     "info": "in this course, we will study the representations of health, illness, and trauma in latin american films. we will focus on the different ways in which the moving image account for different stories and perspectives. we will pay particular attention to the use of the camera in relation to the stories told by the different characters of the film, in particular, doctors and health workers, patients and their families. we will focus on the process of storytelling of illness and trauma, and on the essential role that the study of cultural and socio-political frameworks have in the study of narratives. \n\nour objective will be to explore the visual, acoustic and narrative strategies through which pain, illness, trauma, and death are represented, as well as the role of those who listen to these narratives (friends, family, health professionals and, of course, ourselves as spectators) in the process of interpretation (and the cultural aspects of interpretation). in this course, students will reflect on the human condition, and in the use of storytelling to understand and communicate one’s life story, focusing on the moments in which that the experience of illness or trauma interrupts and transforms a life story. students will work in groups to create narratives based on the films studied in class and to analyze films (and their own narratives) with critical approaches coming from, visual and acoustic studies, philosophy, literary studies, and narrative medicine.",
-    "prereqInfo": "a grade of c- or better in span 3104w or span 3104v or tldo 3104w or argn 3104w or span 3105w or span 3105v or tldo 3105w or span 3107w or span 3107v or tldo 3107w\n",
+    "prereqInfo": "a grade of c- or better in span 3104w or span 3104v or tldo 3104w or argn 3104w or span 3105w or span 3105v or tldo 3105w or span 3107w or span 3107v or tldo 3107w",
     "prereq": {
       "or": [
         {
           "code": "SPAN 3104W",
           "subject": "SPAN",
           "id": "3104W"
-        },
-        {
-          "code": "SPAN 3104V",
-          "subject": "SPAN",
-          "id": "3104V"
         },
         {
           "code": "TLDO 3104W",
@@ -2074,11 +1500,6 @@
           "id": "3105W"
         },
         {
-          "code": "SPAN 3105V",
-          "subject": "SPAN",
-          "id": "3105V"
-        },
-        {
           "code": "TLDO 3105W",
           "subject": "TLDO",
           "id": "3105W"
@@ -2087,11 +1508,6 @@
           "code": "SPAN 3107W",
           "subject": "SPAN",
           "id": "3107W"
-        },
-        {
-          "code": "SPAN 3107V",
-          "subject": "SPAN",
-          "id": "3107V"
         },
         {
           "code": "TLDO 3107",
@@ -2106,19 +1522,14 @@
     "subject": "SPAN",
     "id": "3910",
     "title": "Topics: Spanish Peninsular Lit",
-    "info": "in this course, we will explore specific themes or issues, from different time periods, as they are reflected in spanish peninsular literature. the focused study of the class topic will be framed within a broader exploration of larger historical, political and cultural movements and trends. through the study of the diverse topics explored in different classes, students will gain an appreciation for the diversity of cultures in spain and the plurality of possible critical approaches to literary texts. students will develop the skills and vocabulary to engage in a critical practice of textual analysis. \n\ntopics vary and are specified in the class schedule. ",
-    "prereqInfo": "a grade of c- or better in span 3104w or span 3104v or tldo 3104w or argn 3104w or span 3105w or span 3105v or tldo 3105w or span 3107w or span 3107v or tldo 3107w\n",
+    "info": "in this course, we will explore specific themes or issues, from different time periods, as they are reflected in spanish peninsular literature. the focused study of the class topic will be framed within a broader exploration of larger historical, political and cultural movements and trends. through the study of the diverse topics explored in different classes, students will gain an appreciation for the diversity of cultures in spain and the plurality of possible critical approaches to literary texts. students will develop the skills and vocabulary to engage in a critical practice of textual analysis. \n\ntopics vary and are specified in the class schedule.",
+    "prereqInfo": "a grade of c- or better in span 3104w or span 3104v or tldo 3104w or argn 3104w or span 3105w or span 3105v or tldo 3105w or span 3107w or span 3107v or tldo 3107w",
     "prereq": {
       "or": [
         {
           "code": "SPAN 3104W",
           "subject": "SPAN",
           "id": "3104W"
-        },
-        {
-          "code": "SPAN 3104V",
-          "subject": "SPAN",
-          "id": "3104V"
         },
         {
           "code": "TLDO 3104W",
@@ -2136,11 +1547,6 @@
           "id": "3105W"
         },
         {
-          "code": "SPAN 3105V",
-          "subject": "SPAN",
-          "id": "3105V"
-        },
-        {
           "code": "TLDO 3105W",
           "subject": "TLDO",
           "id": "3105W"
@@ -2151,45 +1557,26 @@
           "id": "3107W"
         },
         {
-          "code": "SPAN 3107V",
-          "subject": "SPAN",
-          "id": "3107V"
-        },
-        {
           "code": "TLDO 3107",
           "subject": "TLDO",
           "id": "3107"
         }
       ]
     }
-  },
-  {
-    "code": "SPAN 3910H",
-    "subject": "SPAN",
-    "id": "3910H",
-    "title": "Honors: Topics Span Pen Lit",
-    "info": "focus on theme related to important groups of writers, literary movements, trends, critical approaches, and methods. topics specified in class schedule.",
-    "prereqInfo": null,
-    "prereq": []
   },
   {
     "code": "SPAN 3920",
     "subject": "SPAN",
     "id": "3920",
     "title": "Topics in Spanish-American Lit",
-    "info": "this course focuses on a wide gamut of  intellectual, literary, and artistic movements in spanish and portuguese-speaking countries across eras. engaging with the most up-to-date trends of critical and methodological tools in cultural, literary, and philosophical analysis, students will examine a variety of issues in conversation with the political and social conditions that have influenced shifts in art, cultural, and intellectual praxis among different groups of peoples, writers, and artists across disciplines and continents. \n\ntopics vary and are specified in the class schedule. ",
-    "prereqInfo": "a grade of c- or better in span 3104w or span 3104v or tldo 3104w or argn 3104w or span 3105w or span 3105v or tldo 3105w or span 3107w or span 3107v or tldo 3107w\n",
+    "info": "this course focuses on a wide gamut of  intellectual, literary, and artistic movements in spanish and portuguese-speaking countries across eras. engaging with the most up-to-date trends of critical and methodological tools in cultural, literary, and philosophical analysis, students will examine a variety of issues in conversation with the political and social conditions that have influenced shifts in art, cultural, and intellectual praxis among different groups of peoples, writers, and artists across disciplines and continents. \n\ntopics vary and are specified in the class schedule.",
+    "prereqInfo": "a grade of c- or better in span 3104w or span 3104v or tldo 3104w or argn 3104w or span 3105w or span 3105v or tldo 3105w or span 3107w or span 3107v or tldo 3107w",
     "prereq": {
       "or": [
         {
           "code": "SPAN 3104W",
           "subject": "SPAN",
           "id": "3104W"
-        },
-        {
-          "code": "SPAN 3104V",
-          "subject": "SPAN",
-          "id": "3104V"
         },
         {
           "code": "TLDO 3104W",
@@ -2207,11 +1594,6 @@
           "id": "3105W"
         },
         {
-          "code": "SPAN 3105V",
-          "subject": "SPAN",
-          "id": "3105V"
-        },
-        {
           "code": "TLDO 3105W",
           "subject": "TLDO",
           "id": "3105W"
@@ -2222,26 +1604,12 @@
           "id": "3107W"
         },
         {
-          "code": "SPAN 3107V",
-          "subject": "SPAN",
-          "id": "3107V"
-        },
-        {
           "code": "TLDO 3107",
           "subject": "TLDO",
           "id": "3107"
         }
       ]
     }
-  },
-  {
-    "code": "SPAN 3920H",
-    "subject": "SPAN",
-    "id": "3920H",
-    "title": "Honors: Topics SpAmer Lit",
-    "info": "central theme related to important groups of writers, literary movements, trends, critical approaches, and methods. topics specified in class schedule.",
-    "prereqInfo": null,
-    "prereq": []
   },
   {
     "code": "SPAN 3940",
@@ -2249,15 +1617,6 @@
     "id": "3940",
     "title": "Figures in Span Lit",
     "info": "major writer or group of writers whose work has had an impact on spanish thought or literature or analysis of social patterns. figures specified in class schedule.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "SPAN 3940H",
-    "subject": "SPAN",
-    "id": "3940H",
-    "title": "Honors: Figures in Span Lit",
-    "info": "major writer or group of writers whose work has had an effect on spanish thought, literature, or analysis of social patterns.  figures specified in class schedule.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -2271,30 +1630,12 @@
     "prereq": []
   },
   {
-    "code": "SPAN 3950H",
-    "subject": "SPAN",
-    "id": "3950H",
-    "title": "Honors: Figures in SpAm Lit",
-    "info": "one major writer or group of writers whose work as affected thought, literature, or social problems. figures specified in class schedule.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
     "code": "SPAN 3970",
     "subject": "SPAN",
     "id": "3970",
     "title": "Directed Studies",
-    "info": "guided individual reading/study in hispanic linguistics, cultural studies, or peninsular, latin american, or u.s. latino theater or literatures.\nprereq instr consent, dept consent, college consent.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "SPAN 3972V",
-    "subject": "SPAN",
-    "id": "3972V",
-    "title": "Honors: Graduation Seminar",
-    "info": "completion of a research paper on analytical, cultural, literary, or artistic issue in spanish or portuguese speaking worlds or on hispanic linguistics topic. in-depth research/consultation with instructor. theoretical component.",
-    "prereqInfo": null,
+    "info": "guided individual reading/study in hispanic linguistics, cultural studies, or peninsular, latin american, or u.s. latino theater or literatures.",
+    "prereqInfo": "instr consent, dept consent, college consent.",
     "prereq": []
   },
   {
@@ -2303,14 +1644,9 @@
     "id": "3972W",
     "title": "Capstone Seminar",
     "info": "completion of a research paper on cultural, literary, or artistic issue in spanish or portuguese speaking worlds or on a topic related to hispanic linguistics. in-depth research/consultation with instructor.\n\nspan 3972w needs to be taken during the semester in which student completes major course work.",
-    "prereqInfo": "spanish studies major (for those who declared before fall 2018): c- or better in span 3015w, 3104w, 3105w, 3107w and 3 span electives with a critical analysis prerequisite. \n\nspanish studies major (for those who declare fall 2018 and after): c- or better in span 3015w, 2 span 31xx courses, and 4 electives with a critical analysis prerequisite. \n\nspanish/portuguese studies majors (for those who declared before spring 2022): c- or better in span 3015w, port 3003, span 3104w, 3107w, 1 port 35xx class, 2 upper level span or port electives.\n\nspanish/portuguese studies majors (for those who declared spring 2022 and after): c- or better in span 3015w, port 3003, span 3104w or 3105w & 3107w, 1 port elective, 2 additional upper level spanish or portuguese electives\n",
+    "prereqInfo": "spanish studies major (for those who declared before fall 2018): c- or better in span 3015w, 3104w, 3105w, 3107w and 3 span electives with a critical analysis prerequisite. \n\nspanish studies major (for those who declare fall 2018 and after): c- or better in span 3015w, 2 span 31xx courses, and 4 electives with a critical analysis prerequisite. \n\nspanish/portuguese studies majors (for those who declared before spring 2022): c- or better in span 3015w, port 3003, span 3104w, 3107w, 1 port 35xx class, 2 upper level span or port electives.\n\nspanish/portuguese studies majors (for those who declared spring 2022 and after): c- or better in span 3015w, port 3003, span 3104w or 3105w & 3107w, 1 port elective, 2 additional upper level spanish or portuguese electives",
     "prereq": {
       "and": [
-        {
-          "code": "SPAN 2018H",
-          "subject": "SPAN",
-          "id": "2018H"
-        },
         {
           "code": "SPAN 3015W",
           "subject": "SPAN",
@@ -2331,21 +1667,56 @@
           "subject": "SPAN",
           "id": "3107W"
         },
-        null,
         {
-          "code": "SPAN 2022",
+          "code": "SPAN 3015W",
           "subject": "SPAN",
-          "id": "2022"
+          "id": "3015W"
+        },
+        {
+          "code": "SPAN 3015W",
+          "subject": "SPAN",
+          "id": "3015W"
         },
         {
           "code": "PORT 3003",
           "subject": "PORT",
           "id": "3003"
         },
-        null,
-        null,
-        null,
-        null
+        {
+          "code": "SPAN 3104W",
+          "subject": "SPAN",
+          "id": "3104W"
+        },
+        {
+          "code": "SPAN 3107W",
+          "subject": "SPAN",
+          "id": "3107W"
+        },
+        {
+          "code": "SPAN 3015W",
+          "subject": "SPAN",
+          "id": "3015W"
+        },
+        {
+          "code": "PORT 3003",
+          "subject": "PORT",
+          "id": "3003"
+        },
+        {
+          "code": "SPAN 3104W",
+          "subject": "SPAN",
+          "id": "3104W"
+        },
+        {
+          "code": "SPAN 3105W",
+          "subject": "SPAN",
+          "id": "3105W"
+        },
+        {
+          "code": "SPAN 3107W",
+          "subject": "SPAN",
+          "id": "3107W"
+        }
       ]
     }
   },
@@ -2372,7 +1743,7 @@
     "subject": "SPAN",
     "id": "4001",
     "title": "Beg Spanish Graduate Research",
-    "info": "listening, speaking, reading, writing. emphasizes development of communicative competence. cultural readings. ",
+    "info": "listening, speaking, reading, writing. emphasizes development of communicative competence. cultural readings.",
     "prereqInfo": "less than 2 yrs of high school spanish, and dept consent",
     "prereq": []
   },
@@ -2382,9 +1753,9 @@
     "id": "4002",
     "title": "Beg Spanish Graduate Research",
     "info": "listening, speaking, reading, writing. emphasizes development of communicative competence. cultural readings. meets concurrently with 1002.",
-    "prereqInfo": "prereqs: a grade of c- or better in span 1001/4001 completed at umntc and department consent ",
+    "prereqInfo": "s: a grade of c- or better in span 1001/4001 completed at umntc and department consent",
     "prereq": {
-      "or": [
+      "and": [
         {
           "code": "SPAN 1001",
           "subject": "SPAN",
@@ -2800,8 +2171,8 @@
     "subject": "SPAN",
     "id": "5993",
     "title": "Directed Studies",
-    "info": "students must submit reading plans for particular topics, figures, periods, or issues. readings in spanish and/or spanish-american subjects. students enrolling in this directed study/research course will complete the university's common directed study/research contract with the faculty mentor/evaluator. ",
-    "prereqInfo": "the faculty member will ensure academic standards are upheld, including: \n- the work proposed is at the appropriate level for the course, academic in nature, and the student will be involved intellectually in the project. \n- the project scope is reasonable for one semester and the number of credits specified (42 hours of work per credit) - the faculty mentor is qualified to serve in this role \n- assessment of student learning and grading criteria are clear and appropriate \n- the student will be working in a respectful, inclusive environment",
+    "info": "students must submit reading plans for particular topics, figures, periods, or issues. readings in spanish and/or spanish-american subjects. students enrolling in this directed study/research course will complete the university's common directed study/research contract with the faculty mentor/evaluator. \n\nthe faculty member will ensure academic standards are upheld, including: \n- the work proposed is at the appropriate level for the course, academic in nature, and the student will be involved intellectually in the project. \n- the project scope is reasonable for one semester and the number of credits specified (42 hours of work per credit) - the faculty mentor is qualified to serve in this role \n- assessment of student learning and grading criteria are clear and appropriate \n- the student will be working in a respectful, inclusive environment",
+    "prereqInfo": "grad student or instr consent.",
     "prereq": []
   },
   {
@@ -2923,7 +2294,11 @@
     "title": "Doct Pre-Thesis Cr",
     "info": "tbd",
     "prereqInfo": "doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": []
+    "prereq": {
+      "code": "SPAN 60",
+      "subject": "SPAN",
+      "id": "60"
+    }
   },
   {
     "code": "SPAN 8710",
@@ -2972,7 +2347,11 @@
     "title": "Thesis Credit:Mast*",
     "info": "(no description)",
     "prereqInfo": "max 18 cr per semester or summer; 10 cr total required [plan a only]",
-    "prereq": []
+    "prereq": {
+      "code": "SPAN 10",
+      "subject": "SPAN",
+      "id": "10"
+    }
   },
   {
     "code": "SPAN 8780",

@@ -35,9 +35,13 @@
     "subject": "MEDC",
     "id": "5485",
     "title": "DMPK",
-    "info": "drug metabolism and pharmacokinetics is a stand-alone elective that is intended for medicinal chemistry graduate students or other students interested in the drug development process. absorption and pharmacokinetic principles will be supplemented with problem sets. the primary method of instruction is lecture-based with the use of textbook readings and review articles as support for class notes and discussions. a total of 2 non-cumulative exams will be given during the semester. prerequisites: organic chemistry, med chem 8001 (may be waived for students from other programs). this course adheres to the items listed in the college of pharmacy central syllabus: \nhttps://docs.google.com/a/umn.edu/document/d/1artq5e1rbzxe8letwo7be8k8snzaegmmz_qcw8yj-ii/edit?pli=1",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "drug metabolism and pharmacokinetics is a stand-alone elective that is intended for medicinal chemistry graduate students or other students interested in the drug development process. absorption and pharmacokinetic principles will be supplemented with problem sets. the primary method of instruction is lecture-based with the use of textbook readings and review articles as support for class notes and discussions. a total of 2 non-cumulative exams will be given during the semester.",
+    "prereqInfo": "organic chemistry, med chem 8001 (may be waived for students from other programs). this course adheres to the items listed in the college of pharmacy central syllabus: \nhttps://docs.google.com/a/umn.edu/document/d/1artq5e1rbzxe8letwo7be8k8snzaegmmz_qcw8yj-ii/edit?pli=1",
+    "prereq": {
+      "code": "CHEM 8001",
+      "subject": "CHEM",
+      "id": "8001"
+    }
   },
   {
     "code": "MEDC 5494",
@@ -62,7 +66,7 @@
     "subject": "MEDC",
     "id": "5700",
     "title": "Gen Prin Med Chem",
-    "info": "fundamental principles of molecular recognition, physicohemical properties of drugs, drug metabolism and disposition, interaction of molecules with dna/rna. ",
+    "info": "fundamental principles of molecular recognition, physicohemical properties of drugs, drug metabolism and disposition, interaction of molecules with dna/rna.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -134,7 +138,7 @@
     "subject": "MEDC",
     "id": "8396",
     "title": "Prac Training Med Chem",
-    "info": "industrial or other external work experience involving medicinal chemistry and/or related disciplines. reviewed/approved by faculty advisor and director of graduate studies. grade based on report prepared by the student summarizing the completed work experience. ",
+    "info": "industrial or other external work experience involving medicinal chemistry and/or related disciplines. reviewed/approved by faculty advisor and director of graduate studies. grade based on report prepared by the student summarizing the completed work experience.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -143,8 +147,8 @@
     "subject": "MEDC",
     "id": "8401",
     "title": "Chemistry of Counterterrorism",
-    "info": "students will acquire fundamental knowledge of the mechanisms of action, risks, and potential effects of the major cbrne (chemical, biological, radiological, nuclear, and high explosive) agents that pose a threat in terrorist attacks. students will also develop familiarity with current countermeasures (pre- and post-exposure) and relevant medical treatments, focusing on effectiveness, limitations, unmet needs, challenges, and roadblocks to countermeasure development.  detection, protection, and decontamination techniques will also be discussed.",
-    "prereqInfo": "this course is designed for scientists and engineers: graduate students in medicinal chemistry, chemistry, biochemistry, chemical engineering, biomedical engineering, or physics.  advanced undergraduates in the above programs, and professional students in pharmd, md, md/phd, dvm, or mph programs, who meet all required prerequisites, may enroll with the course director?s permission. note that the emphasis of this course is on the chemistry, biology, and physics of cbrne agents and their countermeasures, not policy, policymaking, or sociocultural issues (although these may come up for discussion).",
+    "info": "students will acquire fundamental knowledge of the mechanisms of action, risks, and potential effects of the major cbrne (chemical, biological, radiological, nuclear, and high explosive) agents that pose a threat in terrorist attacks. students will also develop familiarity with current countermeasures (pre- and post-exposure) and relevant medical treatments, focusing on effectiveness, limitations, unmet needs, challenges, and roadblocks to countermeasure development.  detection, protection, and decontamination techniques will also be discussed.\n\nthis course is designed for scientists and engineers: graduate students in medicinal chemistry, chemistry, biochemistry, chemical engineering, biomedical engineering, or physics.  advanced undergraduates in the above programs, and professional students in pharmd, md, md/phd, dvm, or mph programs, who meet all required",
+    "prereqInfo": "uisites, may enroll with the course director?s permission. note that the emphasis of this course is on the chemistry, biology, and physics of cbrne agents and their countermeasures, not policy, policymaking, or sociocultural issues (although these may come up for discussion).",
     "prereq": []
   },
   {
@@ -242,7 +246,11 @@
     "title": "Doct Pre-Thesis Cr",
     "info": "tbd",
     "prereqInfo": "doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": []
+    "prereq": {
+      "code": "MEDC 60",
+      "subject": "MEDC",
+      "id": "60"
+    }
   },
   {
     "code": "MEDC 8700",
@@ -304,7 +312,11 @@
     "title": "Thesis Credit:Mast*",
     "info": "(no description)",
     "prereqInfo": "max 18 cr per semester or summer; 10 cr total required [plan a only]",
-    "prereq": []
+    "prereq": {
+      "code": "MEDC 10",
+      "subject": "MEDC",
+      "id": "10"
+    }
   },
   {
     "code": "MEDC 8800",

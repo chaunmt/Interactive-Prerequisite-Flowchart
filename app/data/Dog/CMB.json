@@ -76,7 +76,7 @@
     "subject": "CMB",
     "id": "5571",
     "title": "Pathogenomics & Molecular Epi",
-    "info": "this course is designed provide an introduction to the use of molecular methods in our understanding of the pathogenesis, etiology, and transmission of infectious diseases that are important to both animals and public health. this is intended as a hands-on course for the student to learn techniques related to genome sequencing, pangenome analysis, phylogenetic analysis, and metagenomic analysis, and then apply these techniques towards their own research. ",
+    "info": "this course is designed provide an introduction to the use of molecular methods in our understanding of the pathogenesis, etiology, and transmission of infectious diseases that are important to both animals and public health. this is intended as a hands-on course for the student to learn techniques related to genome sequencing, pangenome analysis, phylogenetic analysis, and metagenomic analysis, and then apply these techniques towards their own research.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -112,7 +112,7 @@
     "subject": "CMB",
     "id": "5915",
     "title": "Essential Stats for Life Sci",
-    "info": "this course is a broad overview of the principles and methods of statistical analysis used in life sciences research, including biological, veterinary, and translational research, and provides the background a new researcher needs to understand and apply commonly used statistical methods and the preparation needed for more advanced coursework.\nclasses will include general instruction and background information, detailed examples of how to perform the analyses, with actual data sets, and discussion on how the topic has been applied in biological research, including reading and assessing papers in the field. computing will be performed using the r software environment, though students may use alternate software with permission.\ntopics will include:\n\tdescriptive statistics and exploratory graphics\n\tunderstanding statistical inference and interpreting p-values and confidence intervals.\n\tone and two sample inference, including t-tests, proportion tests, and non-parametric alternatives\n\tlinear regression, including the effects of confounders\n\tanova methods, including pairwise comparisons and multiple comparisons\n",
+    "info": "this course is a broad overview of the principles and methods of statistical analysis used in life sciences research, including biological, veterinary, and translational research, and provides the background a new researcher needs to understand and apply commonly used statistical methods and the preparation needed for more advanced coursework.\nclasses will include general instruction and background information, detailed examples of how to perform the analyses, with actual data sets, and discussion on how the topic has been applied in biological research, including reading and assessing papers in the field. computing will be performed using the r software environment, though students may use alternate software with permission.\ntopics will include:\n\tdescriptive statistics and exploratory graphics\n\tunderstanding statistical inference and interpreting p-values and confidence intervals.\n\tone and two sample inference, including t-tests, proportion tests, and non-parametric alternatives\n\tlinear regression, including the effects of confounders\n\tanova methods, including pairwise comparisons and multiple comparisons",
     "prereqInfo": null,
     "prereq": []
   },
@@ -318,7 +318,7 @@
     "subject": "CMB",
     "id": "8571",
     "title": "Pathogenomics & Molecular Epi",
-    "info": "this course is designed provide an introduction to the use of molecular methods in our understanding of the pathogenesis, etiology, and transmission of infectious diseases that are important to both animals and public health. this is intended as a hands-on course for the student to learn techniques related to genome sequencing, pangenome analysis, phylogenetic analysis, and metagenomic analysis, and then apply these techniques towards their own research. ",
+    "info": "this course is designed provide an introduction to the use of molecular methods in our understanding of the pathogenesis, etiology, and transmission of infectious diseases that are important to both animals and public health. this is intended as a hands-on course for the student to learn techniques related to genome sequencing, pangenome analysis, phylogenetic analysis, and metagenomic analysis, and then apply these techniques towards their own research.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -329,7 +329,11 @@
     "title": "Doct Pre-Thesis Cr",
     "info": "tbd",
     "prereqInfo": "doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": []
+    "prereq": {
+      "code": "CMB 60",
+      "subject": "CMB",
+      "id": "60"
+    }
   },
   {
     "code": "CMB 8777",
@@ -338,7 +342,11 @@
     "title": "Thesis Credit:Mast*",
     "info": "(no description)",
     "prereqInfo": "max 18 cr per semester or summer; 10 cr total required [plan a only]",
-    "prereq": []
+    "prereq": {
+      "code": "CMB 10",
+      "subject": "CMB",
+      "id": "10"
+    }
   },
   {
     "code": "CMB 8888",

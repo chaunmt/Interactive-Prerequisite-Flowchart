@@ -42,18 +42,9 @@
     "info": "listening, reading, speaking, writing. contextualized grammar/vocabulary. authentic readings. essay assignments.",
     "prereqInfo": "1003 or completion of entrance proficiency test at 1004 level",
     "prereq": {
-      "or": [
-        {
-          "code": "GER 1003",
-          "subject": "GER",
-          "id": "1003"
-        },
-        {
-          "code": "GER 1004",
-          "subject": "GER",
-          "id": "1004"
-        }
-      ]
+      "code": "GER 1003",
+      "subject": "GER",
+      "id": "1003"
     }
   },
   {
@@ -101,9 +92,22 @@
     "subject": "GER",
     "id": "1551",
     "title": "Sustainability in Germany",
-    "info": "how has germany responded to the grand challenge of climate-change? in what ways are perspectives on climate change & sustainability reflected in everyday culture? this course is designed for students to seek answers to these questions by experiencing life in germany first-hand. during the first part of the course, you will review concepts & vocabulary related to climate change & sustainability, learn about the stages of intercultural development, reflect on your own cultural identity, practice conversational speaking in german, & prepare to immerse yourself in a foreign country. in may, you will apply what you learned as you travel to freiburg & munich. there you will see innovative technologies developed to lower co2 emissions & talk with students, teachers, & business owners to learn about green communities that promote sustainable living.  finally, you will reflect on your own intercultural development as well as how approaches in germany to climate change differ or are similar to those in your own country.\nprereq: ger 1003 or equivalent; may be concurrently enrolled in 1003\n",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "how has germany responded to the grand challenge of climate-change? in what ways are perspectives on climate change & sustainability reflected in everyday culture? this course is designed for students to seek answers to these questions by experiencing life in germany first-hand. during the first part of the course, you will review concepts & vocabulary related to climate change & sustainability, learn about the stages of intercultural development, reflect on your own cultural identity, practice conversational speaking in german, & prepare to immerse yourself in a foreign country. in may, you will apply what you learned as you travel to freiburg & munich. there you will see innovative technologies developed to lower co2 emissions & talk with students, teachers, & business owners to learn about green communities that promote sustainable living.  finally, you will reflect on your own intercultural development as well as how approaches in germany to climate change differ or are similar to those in your own country.",
+    "prereqInfo": "ger 1003 or equivalent; may be concurrently enrolled in 1003",
+    "prereq": {
+      "or": [
+        {
+          "code": "GER 1003",
+          "subject": "GER",
+          "id": "1003"
+        },
+        {
+          "code": "GER 1003",
+          "subject": "GER",
+          "id": "1003"
+        }
+      ]
+    }
   },
   {
     "code": "GER 1601",
@@ -111,15 +115,6 @@
     "id": "1601",
     "title": "Fleeing Hitler: Ger Filmmakers",
     "info": "german/american films by famous directors who left europe in nazi period.  analysis of films by fritz lang, max ophuls, robert siodmak, otto preminger, billy wilder, douglas sirk, and others. films as art works and as cultural products of particular social, political, and historical moments.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "GER 1601H",
-    "subject": "GER",
-    "id": "1601H",
-    "title": "Fleeing Hitler: Ger Filmmakers",
-    "info": "german/american films by famous directors who left europe in nazi period. analysis of films by fritz lang, max ophuls, robert siodmak, otto preminger, billy wilder, douglas sirk, and others. films as art works and as cultural products of particular social, political, and historical moments.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -139,15 +134,6 @@
     "title": "Freshman Seminar",
     "info": "topics specified in class schedule.",
     "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "GER 1905H",
-    "subject": "GER",
-    "id": "1905H",
-    "title": "Honors Freshman Seminar",
-    "info": "topics specified in class schedule.",
-    "prereqInfo": "fr or fewer than 30 cr",
     "prereq": []
   },
   {
@@ -423,9 +409,22 @@
     "subject": "GER",
     "id": "3551",
     "title": "Sustainability in Germany",
-    "info": "how has germany responded to the grand challenge of climate-change? in what ways are perspectives on climate change & sustainability reflected in everyday culture? this course is designed for students to seek answers to these questions by experiencing life in germany first-hand. during the first part of the course, you will review concepts & vocabulary related to climate change & sustainability, learn about the stages of intercultural development, reflect on your own cultural identity, practice conversational speaking in german, & prepare to immerse yourself in a foreign country. in may, you will apply what you learned as you travel to freiburg & munich. there you will see innovative technologies developed to lower co2 emissions & talk with students, teachers, & business owners to learn about green communities that promote sustainable living. finally, you will reflect on your own intercultural development as well as how approaches in germany to climate change differ or are similar to those in your own country. \nprereq: ger 3011 or equivalent; may be concurrently enrolled in 3011",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "how has germany responded to the grand challenge of climate-change? in what ways are perspectives on climate change & sustainability reflected in everyday culture? this course is designed for students to seek answers to these questions by experiencing life in germany first-hand. during the first part of the course, you will review concepts & vocabulary related to climate change & sustainability, learn about the stages of intercultural development, reflect on your own cultural identity, practice conversational speaking in german, & prepare to immerse yourself in a foreign country. in may, you will apply what you learned as you travel to freiburg & munich. there you will see innovative technologies developed to lower co2 emissions & talk with students, teachers, & business owners to learn about green communities that promote sustainable living. finally, you will reflect on your own intercultural development as well as how approaches in germany to climate change differ or are similar to those in your own country.",
+    "prereqInfo": "ger 3011 or equivalent; may be concurrently enrolled in 3011",
+    "prereq": {
+      "or": [
+        {
+          "code": "GER 3011",
+          "subject": "GER",
+          "id": "3011"
+        },
+        {
+          "code": "GER 3011",
+          "subject": "GER",
+          "id": "3011"
+        }
+      ]
+    }
   },
   {
     "code": "GER 3593",
@@ -481,8 +480,8 @@
     "subject": "GER",
     "id": "3633",
     "title": "The Holocaust",
-    "info": "decades after the end of the second world war, the holocaust continues to play a formative role in public discourse about the past in germany and austria. as the event itself recedes into the past, our knowledge about the holocaust has become increasingly shaped by literary and filmic representations of it. this course has several objectives: first, to deepen students' historical knowledge of the events and experiences of the holocaust, and at the same time to introduce critical models for examining the relationship between personal experience, historical events, and forms of representation. this class will introduce students to the debates about the politics of memory and the artistic representation of the holocaust, with special focus on public debates about the complex ways in which holocaust memory surfaces in contemporary germany and austria, and by the accrual of layers of text and discourse about the holocaust. we will explore the controversies and debates about public holocaust memorialization in germany, austria, and the u.s. we will also explore the complex interplay between documentary and fictional accounts of the holocaust, with attention paid to literary and film texts that challenge and \\\"remediate\\\" the limits of holocaust representation. additional topics will include holocaust testimony; holocaust memoirs, and 2nd and 3rd generation holocaust literature, the historians' debate of the 1980s.",
-    "prereqInfo": "no knowledge of german required.",
+    "info": "decades after the end of the second world war, the holocaust continues to play a formative role in public discourse about the past in germany and austria. as the event itself recedes into the past, our knowledge about the holocaust has become increasingly shaped by literary and filmic representations of it. this course has several objectives: first, to deepen students' historical knowledge of the events and experiences of the holocaust, and at the same time to introduce critical models for examining the relationship between personal experience, historical events, and forms of representation. this class will introduce students to the debates about the politics of memory and the artistic representation of the holocaust, with special focus on public debates about the complex ways in which holocaust memory surfaces in contemporary germany and austria, and by the accrual of layers of text and discourse about the holocaust. we will explore the controversies and debates about public holocaust memorialization in germany, austria, and the u.s. we will also explore the complex interplay between documentary and fictional accounts of the holocaust, with attention paid to literary and film texts that challenge and \\\"remediate\\\" the limits of holocaust representation. additional topics will include holocaust testimony; holocaust memoirs, and 2nd and 3rd generation holocaust literature, the historians' debate of the 1980s.\n\nno knowledge of german required.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -601,8 +600,8 @@
     "subject": "GER",
     "id": "3993",
     "title": "Directed Studies",
-    "info": "guided individual reading or study.\nprereq instr consent, dept consent, college consent.",
-    "prereqInfo": null,
+    "info": "guided individual reading or study.",
+    "prereqInfo": "instr consent, dept consent, college consent.",
     "prereq": []
   },
   {
@@ -610,7 +609,7 @@
     "subject": "GER",
     "id": "4001",
     "title": "Beginning German Grad Research",
-    "info": "emphasis on working toward novice-intermediate low proficiency in all four language modalities (listening, reading, speaking, writing). topics include everyday subjects (shopping, directions, family, food, housing, etc.). meets concurrently with 1001. ",
+    "info": "emphasis on working toward novice-intermediate low proficiency in all four language modalities (listening, reading, speaking, writing). topics include everyday subjects (shopping, directions, family, food, housing, etc.). meets concurrently with 1001.",
     "prereqInfo": "grad student",
     "prereq": []
   },
@@ -628,7 +627,7 @@
     "subject": "GER",
     "id": "4003",
     "title": "Intermed German Grad Research",
-    "info": "listening, reading, speaking, writing. contextualized grammar/vocabulary. authentic readings. essay assignments. meets concurrently with 1003. ",
+    "info": "listening, reading, speaking, writing. contextualized grammar/vocabulary. authentic readings. essay assignments. meets concurrently with 1003.",
     "prereqInfo": "grad student",
     "prereq": []
   },
@@ -637,7 +636,7 @@
     "subject": "GER",
     "id": "4004",
     "title": "Intermed German Grad Research",
-    "info": "listening, reading, speaking, writing. contextualized grammar/vocabulary. authentic readings. essay assignments. meets concurrently with 1004. ",
+    "info": "listening, reading, speaking, writing. contextualized grammar/vocabulary. authentic readings. essay assignments. meets concurrently with 1004.",
     "prereqInfo": "grad student",
     "prereq": []
   },
@@ -646,7 +645,7 @@
     "subject": "GER",
     "id": "4040",
     "title": "German Play",
-    "info": "dramatic reading of german play for pronunciation; preparation and rehearsal for production and performance of german play. ",
+    "info": "dramatic reading of german play for pronunciation; preparation and rehearsal for production and performance of german play.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -664,7 +663,7 @@
     "subject": "GER",
     "id": "4621",
     "title": "German Cinema to 1945",
-    "info": "beginnings of german cinema late 19th/early 20th century. \\\"golden age\\\" during weimar republic (1918-1933). expressionism and \\\"new objectivity.\\\" its subordination to ideological/entertainment needs of nazis' \\\"third reich\\\" (1933-45).\n",
+    "info": "beginnings of german cinema late 19th/early 20th century. \\\"golden age\\\" during weimar republic (1918-1933). expressionism and \\\"new objectivity.\\\" its subordination to ideological/entertainment needs of nazis' \\\"third reich\\\" (1933-45).",
     "prereqInfo": null,
     "prereq": []
   },
@@ -673,7 +672,7 @@
     "subject": "GER",
     "id": "4622",
     "title": "Ger Film Since 1945",
-    "info": "german cinema during the first years of postwar occupation and then in each of the two postwar german states, east and west germany, from 1949-1990, and finally in the unified germany from 1990 on. includes films of defa, \\\"new german cinema,\\\" feminist cinema, german comedies of the 1980s and 1990s, etc.  ",
+    "info": "german cinema during the first years of postwar occupation and then in each of the two postwar german states, east and west germany, from 1949-1990, and finally in the unified germany from 1990 on. includes films of defa, \\\"new german cinema,\\\" feminist cinema, german comedies of the 1980s and 1990s, etc.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -873,8 +872,8 @@
     "subject": "GER",
     "id": "5993",
     "title": "Directed Studies",
-    "info": "guided individual reading or study.\nprereq instr consent, dept consent, college consent.",
-    "prereqInfo": null,
+    "info": "guided individual reading or study.",
+    "prereqInfo": "instr consent, dept consent, college consent.",
     "prereq": []
   },
   {
@@ -949,7 +948,7 @@
     "subject": "GER",
     "id": "8300",
     "title": "Tpcs:Lit, Cult Thry",
-    "info": "authors, themes, movements, and social issues from 1700 to present. focus varies each semester. ",
+    "info": "authors, themes, movements, and social issues from 1700 to present. focus varies each semester.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -1052,7 +1051,7 @@
     "subject": "GER",
     "id": "8810",
     "title": "Fem Lit Thry, Hist",
-    "info": "cultural, historical, and literary examination of writings of german women, 18th-20th centuries, and feminist theoretical tools used to analyze their work.  ",
+    "info": "cultural, historical, and literary examination of writings of german women, 18th-20th centuries, and feminist theoretical tools used to analyze their work.",
     "prereqInfo": null,
     "prereq": []
   },

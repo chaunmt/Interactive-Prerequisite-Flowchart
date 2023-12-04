@@ -13,27 +13,9 @@
     "subject": "PHAR",
     "id": "1001",
     "title": "Orientation to Pharmacy",
-    "info": "you may know that pharmacists are responsible for the dispensation of medications, but did you know that pharmacists play a critical role in the healthcare process by ensuring that their patients receive the best overall care? designed to help you better understand the world of pharmacy, this online pharmacy course will introduce you to this exciting profession and help you gain an understanding of the impact pharmacists have in the patient care process. this course examines what training is necessary for success in the pharmacy field, demonstrates the roles a pharmacist can have in patient care, research and academia, and provides virtual tours of various settings in which pharmacists work.",
-    "prereqInfo": "this is not a self-study course. while it is completely online, there are deadlines for assignments throughout the semester. no late registrations will be accepted. course information is sent to the u of m email addresses of registered students shortly before, and/or on, the first day of classes each fall, spring, and summer term. for more information, contact phar1001@umn.edu or 612-624-7976.",
-    "prereq": {
-      "and": [
-        {
-          "code": "PHAR 612",
-          "subject": "PHAR",
-          "id": "612"
-        },
-        {
-          "code": "PHAR 624",
-          "subject": "PHAR",
-          "id": "624"
-        },
-        {
-          "code": "PHAR 7976",
-          "subject": "PHAR",
-          "id": "7976"
-        }
-      ]
-    }
+    "info": "you may know that pharmacists are responsible for the dispensation of medications, but did you know that pharmacists play a critical role in the healthcare process by ensuring that their patients receive the best overall care? designed to help you better understand the world of pharmacy, this online pharmacy course will introduce you to this exciting profession and help you gain an understanding of the impact pharmacists have in the patient care process. this course examines what training is necessary for success in the pharmacy field, demonstrates the roles a pharmacist can have in patient care, research and academia, and provides virtual tours of various settings in which pharmacists work.\n\nthis is not a self-study course. while it is completely online, there are deadlines for assignments throughout the semester. no late registrations will be accepted. course information is sent to the u of m email addresses of registered students shortly before, and/or on, the first day of classes each fall, spring, and summer term. for more information, contact phar1001@umn.edu or 612-624-7976.",
+    "prereqInfo": null,
+    "prereq": []
   },
   {
     "code": "PHAR 1002",
@@ -58,27 +40,9 @@
     "subject": "PHAR",
     "id": "1004",
     "title": "Common Prescrip Drugs & Dis",
-    "info": "are you interested in understanding how some of the most common prescription medications work, why they are used, and how they should be used when treating common ailments? perhaps you would like to recognize the most common causes of specific diseases, identify their symptoms, and recognize the diagnostic criteria associated with them. throughout this course, you will learn why some medications cant be used by certain people, understand how prescription drugs are regulated, and examine the correlation between common prescription drugs and diseases. additionally, you will explore various drug information resources and learn how to find reliable sources of drug information.",
-    "prereqInfo": "this online class is primarily self-paced with due dates for certain aspects at times throughout the semester. students may choose to work ahead in the course. course information is sent to the university of minnesota email addresses of registered students shortly before, and/or on, the first day of classes each fall, spring, and summer term. for more information, contact phar1004@umn.edu or 612-624-7976.",
-    "prereq": {
-      "and": [
-        {
-          "code": "PHAR 612",
-          "subject": "PHAR",
-          "id": "612"
-        },
-        {
-          "code": "PHAR 624",
-          "subject": "PHAR",
-          "id": "624"
-        },
-        {
-          "code": "PHAR 7976",
-          "subject": "PHAR",
-          "id": "7976"
-        }
-      ]
-    }
+    "info": "are you interested in understanding how some of the most common prescription medications work, why they are used, and how they should be used when treating common ailments? perhaps you would like to recognize the most common causes of specific diseases, identify their symptoms, and recognize the diagnostic criteria associated with them. throughout this course, you will learn why some medications cant be used by certain people, understand how prescription drugs are regulated, and examine the correlation between common prescription drugs and diseases. additionally, you will explore various drug information resources and learn how to find reliable sources of drug information.\n\nthis online class is primarily self-paced with due dates for certain aspects at times throughout the semester. students may choose to work ahead in the course. course information is sent to the university of minnesota email addresses of registered students shortly before, and/or on, the first day of classes each fall, spring, and summer term. for more information, contact phar1004@umn.edu or 612-624-7976.",
+    "prereqInfo": null,
+    "prereq": []
   },
   {
     "code": "PHAR 1005",
@@ -114,7 +78,11 @@
     "title": "Precision Medicine and Health",
     "info": "this course is intended for students who want to understand the basic concepts of precision medicine. it will help students understand how individuality impacts disease predisposition, diagnosis, treatment, and health. we will begin with the creation of an individualized full genome sequence and show how this information can be used to predict, diagnose, and treat disease. we will also discuss the ethical use of this information.\n\nthis course is intended for undergraduate non-science majors who are interested in the impact of genetics on different aspects of medicine, however science majors may also take the course. the course will provide a brief introduction to molecular biology and then introduce different areas of precision medicine, with an emphasis on the contribution of genetics for understanding predisposition, disease diagnosis, and drug treatment. an important part of the class will be exercises which help the student better understand concepts presented in the lectures.",
     "prereqInfo": "none. the course is directed towards undergraduate non-science majors, however science majors may take the course.\nclass time: 2 x 75 minute in person lectures (50 minute lecture and 25 minute class exercise)\nsupplemental textbook (not required)\n\nclasses will begin with a traditional lecture/discussion or seminar format, followed by in class discussion of assigned materials, and hands on activities using databases and case studies where the discussion in based around a situation (problem) that a clinician may encounter that requires application of precision medicine knowledge.",
-    "prereq": []
+    "prereq": {
+      "code": "PHAR 25",
+      "subject": "PHAR",
+      "id": "25"
+    }
   },
   {
     "code": "PHAR 3101",
@@ -184,8 +152,8 @@
     "subject": "PHAR",
     "id": "4204W",
     "title": "Drugs & the US Healthcare Sys",
-    "info": "being an empowered patient is important when discussing ethics-driven issues within the u.s. healthcare system. this course will expose students to current controversial issues surrounding medications and national healthcare and help students examine their own role as a participant in this system. students will learn to draw comparisons between medication use systems around the world and analyze other controversies related to access, choice, and quality of healthcare. during this course, students will explore how their choices, ethics, and behavior affect societal decisions surrounding the availability of medications in the u.s. and what their rights are as a citizen-participant during the healthcare debate.",
-    "prereqInfo": "students are expected to have completed the first-year writing requirement (https://cla.umn.edu/writing-studies/first-year-writing), or equivalent, prior to registering for this class.  ",
+    "info": "being an empowered patient is important when discussing ethics-driven issues within the u.s. healthcare system. this course will expose students to current controversial issues surrounding medications and national healthcare and help students examine their own role as a participant in this system. students will learn to draw comparisons between medication use systems around the world and analyze other controversies related to access, choice, and quality of healthcare. during this course, students will explore how their choices, ethics, and behavior affect societal decisions surrounding the availability of medications in the u.s. and what their rights are as a citizen-participant during the healthcare debate.\n\nstudents are expected to have completed the first-year writing requirement (https://cla.umn.edu/writing-studies/first-year-writing), or equivalent, prior to registering for this class.  \n\nthis is a completely online course with weekly due dates and is offered each fall and spring term. for more information, contact phar4204@umn.edu or 612-624-7976.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -220,7 +188,7 @@
     "subject": "PHAR",
     "id": "5201",
     "title": "Applied Medical Terminology",
-    "info": "interested in learning the difference between an antigen and an antibiotic? during this course, you will not only increase your medical vocabulary by more than 2500 words at your own pace, you will also learn to identify and articulately describe a wide variety of medical conditions and processes. communication related to disease states, procedures, and diagnostics in health care can sometimes seem like another language. this course will help you recognize medical abbreviations, relate terms to procedures and diagnostics, and comprehend the meaning of medical terminology by using word elements. if you are interested in the health care field or would like to understand more about your own medical care, this course is a great place to start. ",
+    "info": "interested in learning the difference between an antigen and an antibiotic? during this course, you will not only increase your medical vocabulary by more than 2500 words at your own pace, you will also learn to identify and articulately describe a wide variety of medical conditions and processes. communication related to disease states, procedures, and diagnostics in health care can sometimes seem like another language. this course will help you recognize medical abbreviations, relate terms to procedures and diagnostics, and comprehend the meaning of medical terminology by using word elements. if you are interested in the health care field or would like to understand more about your own medical care, this course is a great place to start.",
     "prereqInfo": "basic knowledge of human anatomy/physiology",
     "prereq": []
   },
@@ -229,8 +197,8 @@
     "subject": "PHAR",
     "id": "5204",
     "title": "Drugs & US Healthcare System",
-    "info": "being an empowered patient is important when discussing ethics-driven issues within the u.s. healthcare system. this course will expose students to current controversial issues surrounding medications and national healthcare and help students examine their own role as a participant in this system. students will learn to draw comparisons between medication use systems around the world and analyze other controversies related to access, choice, and quality of healthcare. during this course, students will explore how their choices, ethics, and behavior affect societal decisions surrounding the availability of medications in the u.s. and what their rights are as a citizen-participant during the healthcare debate.",
-    "prereqInfo": "students are expected to have completed the first-year writing requirement (https://cla.umn.edu/writing-studies/first-year-writing), or equivalent, prior to registering for this class.  ",
+    "info": "being an empowered patient is important when discussing ethics-driven issues within the u.s. healthcare system. this course will expose students to current controversial issues surrounding medications and national healthcare and help students examine their own role as a participant in this system. students will learn to draw comparisons between medication use systems around the world and analyze other controversies related to access, choice, and quality of healthcare. during this course, students will explore how their choices, ethics, and behavior affect societal decisions surrounding the availability of medications in the u.s. and what their rights are as a citizen-participant during the healthcare debate.\n\nstudents are expected to have completed the first-year writing requirement (https://cla.umn.edu/writing-studies/first-year-writing), or equivalent, prior to registering for this class.  \n\nthis is a completely online course with weekly due dates and is offered each fall and spring term. for more information, contact phar4204@umn.edu or 612-624-7976.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -256,7 +224,7 @@
     "subject": "PHAR",
     "id": "5207",
     "title": "App Ldrshp in Health Care",
-    "info": "leadership skills/theories to create positive change in health care settings. ",
+    "info": "leadership skills/theories to create positive change in health care settings.",
     "prereqInfo": "advanced undergraduates or professional health care students or grad students",
     "prereq": []
   },
@@ -842,7 +810,7 @@
     "subject": "PHAR",
     "id": "6162",
     "title": "Drug Delivery II",
-    "info": "phenomenological and theoretical basis of kinetic and dynamic processes controlling drugs and dosage forms. ",
+    "info": "phenomenological and theoretical basis of kinetic and dynamic processes controlling drugs and dosage forms.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -1263,8 +1231,8 @@
     "subject": "PHAR",
     "id": "6233",
     "title": "Drug Use Review & Mgmt",
-    "info": "principles of drug use review in various health care settings. optimizing quality, minimizing cost. prereq: second or third year pharmd student",
-    "prereqInfo": null,
+    "info": "principles of drug use review in various health care settings. optimizing quality, minimizing cost.",
+    "prereqInfo": "second or third year pharmd student",
     "prereq": []
   },
   {
@@ -1367,24 +1335,6 @@
     "prereq": []
   },
   {
-    "code": "PHAR 6246H",
-    "subject": "PHAR",
-    "id": "6246H",
-    "title": "Chem Aspect Drug Metab & Bioac",
-    "info": "chemical/enzymatic mechanisms of biotransformation/bioactivation of drugs and other xenobiotics. reactivity/fate of bioactivated metabolites.\ntaught every other year.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "PHAR 6247H",
-    "subject": "PHAR",
-    "id": "6247H",
-    "title": "Honors: Adv Concepts Drug Des",
-    "info": "current approaches to rational design of drugs.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
     "code": "PHAR 6249",
     "subject": "PHAR",
     "id": "6249",
@@ -1412,15 +1362,6 @@
     "prereq": []
   },
   {
-    "code": "PHAR 6260H",
-    "subject": "PHAR",
-    "id": "6260H",
-    "title": "Honors: Pharmaceutics Seminar",
-    "info": "contemporary topics in pharmaceutics research.",
-    "prereqInfo": "instr consent",
-    "prereq": []
-  },
-  {
     "code": "PHAR 6261",
     "subject": "PHAR",
     "id": "6261",
@@ -1443,7 +1384,7 @@
     "subject": "PHAR",
     "id": "6272",
     "title": "Antiracist Future Healthcare",
-    "info": "the goal of this course is to provide a safe space for study and raising self-awareness of racism and antiracism in the us, sharing and discussion of personal development, how racism plays out in healthcare, and how to combat it through evidence-based allyship. ",
+    "info": "the goal of this course is to provide a safe space for study and raising self-awareness of racism and antiracism in the us, sharing and discussion of personal development, how racism plays out in healthcare, and how to combat it through evidence-based allyship.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -1533,8 +1474,8 @@
     "subject": "PHAR",
     "id": "6511",
     "title": "WTL 1",
-    "info": "this course will combine use of multimodal approaches to empower collaborative learning. instructors will guide students through learning experiences rooted in the daily work of a pharmacist in order to build knowledge, skills, and attitudes needed for patient-centered, team-based care. each area of science is represented with emphasis on developing and integrating knowledge to evaluate the scientific literature, explain drug action, solve therapeutic problems and advance population health and systems of care. the whole task learning approach is used, and “emphasize[s] the importance of real-life tasks as the basis for the design of learning tasks, and thus, for fruitful learning.” within this approach, the instructional design provides learning activities and task practice that will foster students’ use of efficient problem-solving strategies in variable and complex settings. prerequisite: admission into first year of pharmd program.",
-    "prereqInfo": null,
+    "info": "this course will combine use of multimodal approaches to empower collaborative learning. instructors will guide students through learning experiences rooted in the daily work of a pharmacist in order to build knowledge, skills, and attitudes needed for patient-centered, team-based care. each area of science is represented with emphasis on developing and integrating knowledge to evaluate the scientific literature, explain drug action, solve therapeutic problems and advance population health and systems of care. the whole task learning approach is used, and “emphasize[s] the importance of real-life tasks as the basis for the design of learning tasks, and thus, for fruitful learning.” within this approach, the instructional design provides learning activities and task practice that will foster students’ use of efficient problem-solving strategies in variable and complex settings.",
+    "prereqInfo": "admission into first year of pharmd program.",
     "prereq": []
   },
   {
@@ -1542,7 +1483,7 @@
     "subject": "PHAR",
     "id": "6512",
     "title": "WTL 2",
-    "info": "this course will combine use of multimodal approaches to empower collaborative learning. instructors will guide students through learning experiences rooted in the daily work of a pharmacist in order to build knowledge, skills, and attitudes needed for patient-centered, team-based care. each area of science is represented with emphasis on developing and integrating knowledge to evaluate the scientific literature, explain drug action, solve therapeutic problems and advance population health and systems of care. the whole task learning approach is used, and “emphasize[s] the importance of real-life tasks as the basis for the design of learning tasks, and thus, for fruitful learning.” within this approach, the instructional design provides learning activities and task practice that will foster students’ use of efficient problem-solving strategies in variable and complex settings. ",
+    "info": "this course will combine use of multimodal approaches to empower collaborative learning. instructors will guide students through learning experiences rooted in the daily work of a pharmacist in order to build knowledge, skills, and attitudes needed for patient-centered, team-based care. each area of science is represented with emphasis on developing and integrating knowledge to evaluate the scientific literature, explain drug action, solve therapeutic problems and advance population health and systems of care. the whole task learning approach is used, and “emphasize[s] the importance of real-life tasks as the basis for the design of learning tasks, and thus, for fruitful learning.” within this approach, the instructional design provides learning activities and task practice that will foster students’ use of efficient problem-solving strategies in variable and complex settings.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -1551,7 +1492,7 @@
     "subject": "PHAR",
     "id": "6513",
     "title": "PSD 1",
-    "info": "this course provides procedural information (i.e. how to) and repetition/practice related to the professional skills of the pharmacist, including interprofessional communication, evidence-based medicine, compounding, and dispensing. students will participate in exercises and simulated situations, using a patient-centered approach and a unique process of care. students will work to build the skills necessary to establish relationships with patients, understand the patient’s medication experience and take responsibility for drug-related outcomes. repeated practice and feedback supports the development of automaticity and an ingrained approach to care, which is then adapted to each patient. \n",
+    "info": "this course provides procedural information (i.e. how to) and repetition/practice related to the professional skills of the pharmacist, including interprofessional communication, evidence-based medicine, compounding, and dispensing. students will participate in exercises and simulated situations, using a patient-centered approach and a unique process of care. students will work to build the skills necessary to establish relationships with patients, understand the patient’s medication experience and take responsibility for drug-related outcomes. repeated practice and feedback supports the development of automaticity and an ingrained approach to care, which is then adapted to each patient.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -1578,7 +1519,7 @@
     "subject": "PHAR",
     "id": "6611",
     "title": "Obesity: More than a Prescript",
-    "info": "prevention, treatment, and management of obesity from the individual adipose cell to the entire public health community. etiology, contributing mechanisms, nutrition assessment, medical nutrition therapy. ",
+    "info": "prevention, treatment, and management of obesity from the individual adipose cell to the entire public health community. etiology, contributing mechanisms, nutrition assessment, medical nutrition therapy.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -1816,7 +1757,7 @@
     "subject": "PHAR",
     "id": "6750",
     "title": "Pharm Care Skills Lab IV",
-    "info": "this course is designed for second-year pharmacy students to continue to build the skills necessary to become a competent, caring pharmaceutical care practitioner. ",
+    "info": "this course is designed for second-year pharmacy students to continue to build the skills necessary to become a competent, caring pharmaceutical care practitioner.",
     "prereqInfo": "students must have successfully completed pharm care skills 1, 2, and 3, and applied pharmaceutical care. students must be concomitantly registered in all required pd2 courses in order to have the content required to complete integrated activities, e.g., students must be enrolled in diabetes in order to successfully complete the patient care sequence utilizing diabetes content in this course. exceptions may be made on a case by case basis.",
     "prereq": []
   },
@@ -1957,7 +1898,7 @@
     "subject": "PHAR",
     "id": "6768",
     "title": "Infectious Diseases",
-    "info": "course will focus on the pharmacology, pharmacokinetics, and pharmacodynamics of antibiotics and the pharmacotherapy of infectious diseases. ",
+    "info": "course will focus on the pharmacology, pharmacokinetics, and pharmacodynamics of antibiotics and the pharmacotherapy of infectious diseases.",
     "prereqInfo": "phar 6702, 6706, 6718, 6724, 6736, 6738, 6748, 6756, 6758",
     "prereq": {
       "and": [
@@ -2050,7 +1991,7 @@
     "subject": "PHAR",
     "id": "6780",
     "title": "Pharmacy Outcomes",
-    "info": "course facilitates integration of knowledge of basic sciences, pharmacotherapy, pharmacy practice management, pharmaceutical care, written communication, literature evaluation, drug information retrieval, law and ethics, and pharmacoeconomics to manage patients with multiple medical conditions. this course is where students are required to perform and demonstrate knowledge during curricular assessments. ",
+    "info": "course facilitates integration of knowledge of basic sciences, pharmacotherapy, pharmacy practice management, pharmaceutical care, written communication, literature evaluation, drug information retrieval, law and ethics, and pharmacoeconomics to manage patients with multiple medical conditions. this course is where students are required to perform and demonstrate knowledge during curricular assessments.",
     "prereqInfo": "phar 6700, 6702, 6704, 6706, 6708, 6710, 7310, 6716, 6718, 6720, 6722, 6724, 6726, 7325, 6732, 6734, 6736, 6738, 6740, 6742, 7330, 6748, 6750, 6752, 6754, 6756, 6758, 7340, 7345, 6770, 6774, 6768, 6762",
     "prereq": {
       "and": [
@@ -2227,7 +2168,7 @@
     "subject": "PHAR",
     "id": "6782",
     "title": "Evidence Based Practice",
-    "info": "the evidence based practice has been designed to facilitate acquisition and application of evidence based practice knowledge and skills. evidence based practice involves the use fo the best available evidence, clinical expertise and patients' values to make complex pharmacy related decisions. ",
+    "info": "the evidence based practice has been designed to facilitate acquisition and application of evidence based practice knowledge and skills. evidence based practice involves the use fo the best available evidence, clinical expertise and patients' values to make complex pharmacy related decisions.",
     "prereqInfo": "phar 6700, 6704, 6706, 6742",
     "prereq": {
       "and": [
@@ -2259,8 +2200,8 @@
     "subject": "PHAR",
     "id": "6784",
     "title": "Integrated Oncology",
-    "info": "this course focuses on the etiology and molecular biology of tumorigenesis, medicinal agents, and pharmacology of anticancer agents, treatment of the most common cancers, supportive care of the patient with cancer, and social and ethical considerations of the treatment of the patient with cancer including end of life directives. prereq: pd3 in good academic standing, students will find it helpful to review the following topic areas: principles of biochemistry (lipids [structure/function], proteins [folding/conformation]), cellular physiology molecular biology, genetics (cell biology [signal transduction, dna replication, transcription, protein translation, cell cycle, apoptosis], immunology, tumorigenesis, angiogenesis, genetics principles, anatomy/physiology [gi tract, pulmonary, hormone and feedback regulation])",
-    "prereqInfo": null,
+    "info": "this course focuses on the etiology and molecular biology of tumorigenesis, medicinal agents, and pharmacology of anticancer agents, treatment of the most common cancers, supportive care of the patient with cancer, and social and ethical considerations of the treatment of the patient with cancer including end of life directives.",
+    "prereqInfo": "pd3 in good academic standing, students will find it helpful to review the following topic areas: principles of biochemistry (lipids [structure/function], proteins [folding/conformation]), cellular physiology molecular biology, genetics (cell biology [signal transduction, dna replication, transcription, protein translation, cell cycle, apoptosis], immunology, tumorigenesis, angiogenesis, genetics principles, anatomy/physiology [gi tract, pulmonary, hormone and feedback regulation])",
     "prereq": []
   },
   {
@@ -2277,8 +2218,8 @@
     "subject": "PHAR",
     "id": "6797",
     "title": "APPLE 1",
-    "info": "this course is the first in a series of 3 courses (summer, fall, and spring) designed to align with and augment learning occurring on advanced pharmacy practice experiences (appes). in the first course (summer semester), students will complete the top 200 drug modules and drug administration core readiness modules to solidify learning from year 1-3 of the curriculum. ",
-    "prereqInfo": "in addition to these requirements, students will complete additional activities specific to their current rotation placement. for example, students completing their ambulatory care rotation will participate in topic discussions specific to ambulatory care practice with faculty. ",
+    "info": "this course is the first in a series of 3 courses (summer, fall, and spring) designed to align with and augment learning occurring on advanced pharmacy practice experiences (appes). in the first course (summer semester), students will complete the top 200 drug modules and drug administration core readiness modules to solidify learning from year 1-3 of the curriculum. \n\nin addition to these requirements, students will complete additional activities specific to their current rotation placement. for example, students completing their ambulatory care rotation will participate in topic discussions specific to ambulatory care practice with faculty. \n\nadditionally, various optional learning activities will be made available to students to complement their rotations based on students’ personal interests or based on direction from their preceptor.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -2286,8 +2227,8 @@
     "subject": "PHAR",
     "id": "6798",
     "title": "Adv Phar Pract Learning Exp 2",
-    "info": "this course is the second in a series of 3 courses (summer, fall, and spring) designed to align with and augment learning occurring on advanced pharmacy practice experiences (appes). in the first course (summer semester), students will complete the top 200 drug modules and drug administration core readiness modules to solidify learning from year 1-3 of the curriculum.  in this second course (fall semester), students will focus on preparing for residency/job searching and health inequities.",
-    "prereqInfo": "in addition to these requirements, students will complete additional activities specific to their current rotation placement. for example, students completing their ambulatory care rotation will participate in a journal club specific to ambulatory care practice. ",
+    "info": "this course is the second in a series of 3 courses (summer, fall, and spring) designed to align with and augment learning occurring on advanced pharmacy practice experiences (appes). in the first course (summer semester), students will complete the top 200 drug modules and drug administration core readiness modules to solidify learning from year 1-3 of the curriculum.  in this second course (fall semester), students will focus on preparing for residency/job searching and health inequities.\n\nin addition to these requirements, students will complete additional activities specific to their current rotation placement. for example, students completing their ambulatory care rotation will participate in a journal club specific to ambulatory care practice. \n\nadditionally, various optional learning activities will be made available to students to complement their rotations based on students’ personal interests or based on direction from their preceptors.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -2295,8 +2236,8 @@
     "subject": "PHAR",
     "id": "6799",
     "title": "APPLE",
-    "info": "this course is designed to align with and augment learning occurring on advanced pharmacy practice experiences (appes). this course focuses on preparing students for the beginning of their career as a pharmacist. students will design a study plan for licensure, review law content, and reflect on their journey in pharmacy education. in addition to these requirements, students will complete additional activities specific to their current rotation placement. for example, students completing their ambulatory care rotation will participate in a journal club specific to ambulatory care practice.",
-    "prereqInfo": "additionally, various optional learning activities will be made available to students to complement their rotations based on students' personal interests or based on direction from their preceptors.",
+    "info": "this course is designed to align with and augment learning occurring on advanced pharmacy practice experiences (appes). this course focuses on preparing students for the beginning of their career as a pharmacist. students will design a study plan for licensure, review law content, and reflect on their journey in pharmacy education. in addition to these requirements, students will complete additional activities specific to their current rotation placement. for example, students completing their ambulatory care rotation will participate in a journal club specific to ambulatory care practice.\n\nadditionally, various optional learning activities will be made available to students to complement their rotations based on students' personal interests or based on direction from their preceptors.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -2304,34 +2245,16 @@
     "subject": "PHAR",
     "id": "6800",
     "title": "Rehabilitation Pharmacotherapy",
-    "info": "the goal of this course is to equip physical therapy students with a general understanding of the impact of medications on rehabilitation and how rehabilitation affects medication use. students will practice applying content through patient cases and writing a patient care plan.",
-    "prereqInfo": "this is a completely online course with weekly due dates offered each summer term. for more information, contact phar6800@umn.edu or 612-624-7976.",
-    "prereq": {
-      "and": [
-        {
-          "code": "PHAR 612",
-          "subject": "PHAR",
-          "id": "612"
-        },
-        {
-          "code": "PHAR 624",
-          "subject": "PHAR",
-          "id": "624"
-        },
-        {
-          "code": "PHAR 7976",
-          "subject": "PHAR",
-          "id": "7976"
-        }
-      ]
-    }
+    "info": "the goal of this course is to equip physical therapy students with a general understanding of the impact of medications on rehabilitation and how rehabilitation affects medication use. students will practice applying content through patient cases and writing a patient care plan.\n\nthis is a completely online course with weekly due dates offered each summer term. for more information, contact phar6800@umn.edu or 612-624-7976.",
+    "prereqInfo": null,
+    "prereq": []
   },
   {
     "code": "PHAR 6900",
     "subject": "PHAR",
     "id": "6900",
     "title": "Intern for Pharmacy Employment",
-    "info": "this course is designed for students pursuing an internship or pharmacy-related employment to receive course credit (typically for visa requirements). the course does not count toward elective credit requirements. if applicable, students must remain visa compliant and are solely responsible for doing so. the vast majority of the course is the hours a student spends at their internship/employment site. a written assignment is required at the end of the course. students will meet once during the semester, which is arranged with instructors. ",
+    "info": "this course is designed for students pursuing an internship or pharmacy-related employment to receive course credit (typically for visa requirements). the course does not count toward elective credit requirements. if applicable, students must remain visa compliant and are solely responsible for doing so. the vast majority of the course is the hours a student spends at their internship/employment site. a written assignment is required at the end of the course. students will meet once during the semester, which is arranged with instructors.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -2349,8 +2272,8 @@
     "subject": "PHAR",
     "id": "6902",
     "title": "Integrative Mental Hlth Psych",
-    "info": "this course is design to allow students to examine concepts, theories, and paradigms foundational to psychiatric/mental health practice and interprofessional integrative mental health care. students develop clinical interviewing methods that elicit a clients health narrative and facilitate the therapeutic relationship. students also practice techniques that promote beginning skills important in reflective clinical practice. ",
-    "prereqInfo": "the course is primarily online, with 3 required 3-hr patient care simulations. there will be content posted on the course website for student learning. activities and assessments include quizzes, patient scenario cases, reflective papers (upon re-watching the video of their interactions with the interprofessional teams and standardized patients during the simulation sessions), and individual and interprofessional group.",
+    "info": "this course is design to allow students to examine concepts, theories, and paradigms foundational to psychiatric/mental health practice and interprofessional integrative mental health care. students develop clinical interviewing methods that elicit a clients health narrative and facilitate the therapeutic relationship. students also practice techniques that promote beginning skills important in reflective clinical practice. \n\nthe course is primarily online, with 3 required 3-hr patient care simulations. there will be content posted on the course website for student learning. activities and assessments include quizzes, patient scenario cases, reflective papers (upon re-watching the video of their interactions with the interprofessional teams and standardized patients during the simulation sessions), and individual and interprofessional group.\n\npharmacy students need to be pd3 students committed to earning the interprofessional integrative mental health focus area designation. we ask pharmacy students to commit to the entire series (fall and spring electives, and mental health appe)",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -2376,7 +2299,7 @@
     "subject": "PHAR",
     "id": "6905",
     "title": "Applied Psych Pharmacotherapy",
-    "info": "this course provides a semester-long application of the pd3 fall semester psych pharmacotherapy content through complex scenarios and exploration of advances psychiatric pharmacy topics. students developed case presentations will be worked-up using a standardized format, and shared with a designated visiting expert prior to class session. class session each week will begin with a discussion of the case and work-up that is primarily student-led, with a visiting psych/behavioral health clinician providing expert feedback and guidance for the second half of the class session. the course will be structured to make visiting clinician involvement as simple and non-disruptive as possible, including participating from office at work with online video conference option cisco meeting server (formerly acano). pharmacy students need to be pd3 students who have passed the core psychiatric and neurology pharmacotherapy with a grade of b or better. student must be in good academic standing within the pharmacy program. ",
+    "info": "this course provides a semester-long application of the pd3 fall semester psych pharmacotherapy content through complex scenarios and exploration of advances psychiatric pharmacy topics. students developed case presentations will be worked-up using a standardized format, and shared with a designated visiting expert prior to class session. class session each week will begin with a discussion of the case and work-up that is primarily student-led, with a visiting psych/behavioral health clinician providing expert feedback and guidance for the second half of the class session. the course will be structured to make visiting clinician involvement as simple and non-disruptive as possible, including participating from office at work with online video conference option cisco meeting server (formerly acano). pharmacy students need to be pd3 students who have passed the core psychiatric and neurology pharmacotherapy with a grade of b or better. student must be in good academic standing within the pharmacy program.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -2394,7 +2317,7 @@
     "subject": "PHAR",
     "id": "6907",
     "title": "Collab Practice in HIV Care",
-    "info": "interprofessional collaborative practice has the potential to positively affect the lives of persons living with hiv/aids. this short-semester course is designed to provide learners with foundational knowledge of hiv prevention and care and to develop the ability to work as a member of an interprofessional collaborative health care team. learners will explore options for involvement in hiv care as part of their health care career and will be inspired to lifelong learning related to hiv care and interprofessional collaborative practice. the methods of instruction include lectures with small group discussion incorporated throughout. the course exercises are designed to provide hands on experience with some of the tools and concepts covered in the course. ",
+    "info": "interprofessional collaborative practice has the potential to positively affect the lives of persons living with hiv/aids. this short-semester course is designed to provide learners with foundational knowledge of hiv prevention and care and to develop the ability to work as a member of an interprofessional collaborative health care team. learners will explore options for involvement in hiv care as part of their health care career and will be inspired to lifelong learning related to hiv care and interprofessional collaborative practice. the methods of instruction include lectures with small group discussion incorporated throughout. the course exercises are designed to provide hands on experience with some of the tools and concepts covered in the course.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -2403,7 +2326,7 @@
     "subject": "PHAR",
     "id": "6908",
     "title": "Drugs of Abuse",
-    "info": "basic medicinal chemistry of substances of abuse, associated paraphernalia. ",
+    "info": "basic medicinal chemistry of substances of abuse, associated paraphernalia.",
     "prereqInfo": "organic chemistry i and phar 6702",
     "prereq": {
       "code": "PHAR 6702",
@@ -2416,7 +2339,7 @@
     "subject": "PHAR",
     "id": "6909",
     "title": "Applied Cultural Competence",
-    "info": "this course builds on content learned in pharmd program - to provide students with fundamental knowledge, skills and attitudes required of culturally competent, caring general pharmacist practitioners. content is integrated with didactic courses and prepares students for ippe and appe experiences, as well as for their future careers. \nsteady changes in the demographics of the u.s. and the state of minnesota highlight the demand for cultural awareness and sensitivity in the clinical environment as the percentage of racial, ethnic and cultural minorities in america is projected to continue to outpace the number of minority health care professionals. \nracial and ethnic disparities in health and health care access have been recognized in the united states for over 30 years. despite an improved life expectancy for all races and ethnicities, inequities in morbidity and mortality rates and utilization of preventative and necessary health care services persist for various segments of the population. as the united states’ population becomes increasingly diverse, pharmacists are becoming progressively more responsible for the health care management of people from various races, ethnicities, languages and cultures. providing culturally and linguistically competent health care to these patients has the potential to reduce ever important disparities in health and health care services and to improve the nation’s overall health outcomes. \n",
+    "info": "this course builds on content learned in pharmd program - to provide students with fundamental knowledge, skills and attitudes required of culturally competent, caring general pharmacist practitioners. content is integrated with didactic courses and prepares students for ippe and appe experiences, as well as for their future careers. \nsteady changes in the demographics of the u.s. and the state of minnesota highlight the demand for cultural awareness and sensitivity in the clinical environment as the percentage of racial, ethnic and cultural minorities in america is projected to continue to outpace the number of minority health care professionals. \nracial and ethnic disparities in health and health care access have been recognized in the united states for over 30 years. despite an improved life expectancy for all races and ethnicities, inequities in morbidity and mortality rates and utilization of preventative and necessary health care services persist for various segments of the population. as the united states’ population becomes increasingly diverse, pharmacists are becoming progressively more responsible for the health care management of people from various races, ethnicities, languages and cultures. providing culturally and linguistically competent health care to these patients has the potential to reduce ever important disparities in health and health care services and to improve the nation’s overall health outcomes.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -2452,7 +2375,7 @@
     "subject": "PHAR",
     "id": "6937",
     "title": "Foundations of Leadership",
-    "info": "leadership development/its relation to advancing the profession of pharmacy. ",
+    "info": "leadership development/its relation to advancing the profession of pharmacy.",
     "prereqInfo": "pdii pharmacy student",
     "prereq": []
   },
@@ -2492,7 +2415,7 @@
     "subject": "PHAR",
     "id": "6940",
     "title": "Leading Change Experience II",
-    "info": "continues leading change and development work initiated in leading change experience i. during this term, students continue with their networking partners, present their leading change work, facilitate transition of the work to new leaders, conduct a critical appraisal of their leadership development, and support second year students as they initiate their projects.\n \nstudents will also evolve their roles into shifting from personal development to the development of others. assisting in a mentoring role in several capacities 1) transitioning new leaders into the leading change experience and 2) providing guidance, ideas and encouragement to those students interested in change initiatives. ",
+    "info": "continues leading change and development work initiated in leading change experience i. during this term, students continue with their networking partners, present their leading change work, facilitate transition of the work to new leaders, conduct a critical appraisal of their leadership development, and support second year students as they initiate their projects.\n \nstudents will also evolve their roles into shifting from personal development to the development of others. assisting in a mentoring role in several capacities 1) transitioning new leaders into the leading change experience and 2) providing guidance, ideas and encouragement to those students interested in change initiatives.",
     "prereqInfo": "phar 6937 and 6938",
     "prereq": {
       "and": [
@@ -2524,7 +2447,7 @@
     "id": "6942",
     "title": "Leadership Capstone",
     "info": "supports completion of leadership emphasis designation. documentation/self-reflection of leadership learning experiences pursued inside/outside of classroom.",
-    "prereqInfo": "prerequisites:\nthis course is for students who are in the fourth year of the leadership emphasis area. successful completion of phar 6937, 6938, 6939 and 6940. completion or concurrent enrollment in 6941 (leadership best sellers).",
+    "prereqInfo": "this course is for students who are in the fourth year of the leadership emphasis area. successful completion of phar 6937, 6938, 6939 and 6940. completion or concurrent enrollment in 6941 (leadership best sellers).",
     "prereq": {
       "and": [
         {
@@ -2561,7 +2484,7 @@
     "id": "6961",
     "title": "Women's Health",
     "info": "during this course, students will have the opportunity to actively learn and discuss women's health issues taught in the core curriculum to a greater extent. the core curriculum focuses on the pharmacotherapy around women's health, we will focus on the patient's perspective, pathophysiology, and other quality care considerations specific to women including cultural, religious, psychosocial, and socioeconomic factors effecting health. health topics will range from social issues to menstrual health, breast cancer to eating disorders, with a specific focus on preparing students for professional practice and the pharmacist's role.",
-    "prereqInfo": "prereq courses: endocrinology pharmacotherapy sequence in the pd2 year; \nprereq topics: contraceptive agents, emergency contraception, hormonal contraception.",
+    "prereqInfo": "courses: endocrinology pharmacotherapy sequence in the pd2 year;",
     "prereq": []
   },
   {
@@ -2569,8 +2492,8 @@
     "subject": "PHAR",
     "id": "6962",
     "title": "Ethics in Pharmacy Practice",
-    "info": "ethical principles, selected schools of ethical thought. students discuss/debate ethical dilemmas in pharmacy practice/health care. prereq: pharm.d. 3rd year student",
-    "prereqInfo": null,
+    "info": "ethical principles, selected schools of ethical thought. students discuss/debate ethical dilemmas in pharmacy practice/health care.",
+    "prereqInfo": "pharm.d. 3rd year student",
     "prereq": []
   },
   {
@@ -2579,7 +2502,7 @@
     "id": "6964",
     "title": "Clinical Toxicology",
     "info": "this course will cover the clinical signs/ symptoms, general management and treatment of poisonings and toxicologic emergencies that are not covered in the main curriculum. it will also cover decontamination and laboratory principles associated with poisonings and toxicologics emergencies. this class will be comprised of lecture format presentations. students will be given 1 hour to complete the final exam and midterm.",
-    "prereqInfo": "prereqs: all students will have successfully completed the first year professional pharmacy program, as well as successfully completed fall semester of the second year. all students will have also successfully completed or be in the process of completing anatomy, physiology, pathophysiology, and pharmacology. the student is responsible for this material to the extent necessary as a framework for toxicologic therapeutics. thus, students are encouraged to review basic anatomy and physiology and specifically encouraged to review the section of the pharmacology textbook relevant to the classes of drugs covered.",
+    "prereqInfo": "s: all students will have successfully completed the first year professional pharmacy program, as well as successfully completed fall semester of the second year. all students will have also successfully completed or be in the process of completing anatomy, physiology, pathophysiology, and pharmacology. the student is responsible for this material to the extent necessary as a framework for toxicologic therapeutics. thus, students are encouraged to review basic anatomy and physiology and specifically encouraged to review the section of the pharmacology textbook relevant to the classes of drugs covered.",
     "prereq": []
   },
   {
@@ -2587,8 +2510,8 @@
     "subject": "PHAR",
     "id": "6966",
     "title": "Food Medicine Contemp Issues",
-    "info": "food contributes to the prevention, and conversely, the development of disease processes. i n order to better understand the interrelatedness of food and health, this course offers a critical perspective on how the ubiquity of food; race, class, gender; and indigeneity; colonization and corporatization affect peoples food experiences; and subsequently, individual and population health.",
-    "prereqInfo": "students will examine modern food systems and describe implications for social determinants of health, health promotion, chronic disease management and ip collaborative practice. we will address questions such as: how do food systems impact our health? what makes food a political and environmental issue? are we what we eat? why do we categorize things that are not food as food? what is food sovereignty?",
+    "info": "food contributes to the prevention, and conversely, the development of disease processes. i n order to better understand the interrelatedness of food and health, this course offers a critical perspective on how the ubiquity of food; race, class, gender; and indigeneity; colonization and corporatization affect peoples food experiences; and subsequently, individual and population health.\n\nstudents will examine modern food systems and describe implications for social determinants of health, health promotion, chronic disease management and ip collaborative practice. we will address questions such as: how do food systems impact our health? what makes food a political and environmental issue? are we what we eat? why do we categorize things that are not food as food? what is food sovereignty?",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -2596,7 +2519,7 @@
     "subject": "PHAR",
     "id": "6968",
     "title": "Critical Care",
-    "info": "critical care is an elective that consists of two main components: a faculty/clinician presentation on an important topic to contemporary critical care practice, followed by a student evaluation and presentation on a selected primary literature topic that applies and integrates the presentation with current practice challenges. key topics that are covered include discussion of the surviving sepsis guidelines with discussion on the role of corticosteroids, identification and management of the anxious or delirious icu patient, and application of the updated pad guidelines, systems of the second 50-minutes a student (or pair of students) present the faculty-selected study using powerpoint slides, and encourage group discussion of the paper?s merits and application to current critical care practice or future research. challenges of critical care research are incorporated into the weekly discussions. ",
+    "info": "critical care is an elective that consists of two main components: a faculty/clinician presentation on an important topic to contemporary critical care practice, followed by a student evaluation and presentation on a selected primary literature topic that applies and integrates the presentation with current practice challenges. key topics that are covered include discussion of the surviving sepsis guidelines with discussion on the role of corticosteroids, identification and management of the anxious or delirious icu patient, and application of the updated pad guidelines, systems of the second 50-minutes a student (or pair of students) present the faculty-selected study using powerpoint slides, and encourage group discussion of the paper?s merits and application to current critical care practice or future research. challenges of critical care research are incorporated into the weekly discussions.",
     "prereqInfo": "successful completion of p1, p2, and fall of p3 professional pharmacy program. interest in critical care pharmacy practice and/or clinical research.",
     "prereq": []
   },
@@ -2844,7 +2767,7 @@
     "subject": "PHAR",
     "id": "7216",
     "title": "Elective Practice Exper IV",
-    "info": "experience in an inpatient setting. students responsible for all drug-related needs of individual patients full-time for five weeks. ",
+    "info": "experience in an inpatient setting. students responsible for all drug-related needs of individual patients full-time for five weeks.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -2934,7 +2857,7 @@
     "subject": "PHAR",
     "id": "7234",
     "title": "Research Practice Exper IV",
-    "info": "experience using research techniques in basic or clinical sciences or pharmacy practice full-time for 5 weeks. ",
+    "info": "experience using research techniques in basic or clinical sciences or pharmacy practice full-time for 5 weeks.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -3184,8 +3107,8 @@
     "subject": "PHAR",
     "id": "7355",
     "title": "IPPE 5 – AS/IMUS",
-    "info": "improving medication use systems introductory pharmacy practice experience (imus-ippe) is an 80-hour early experiential offering that exposes and advances student understanding of quality improvement in patient care in one of many possible pharmacy practice settings.  all students will complete an imus-ippe during one of the semesters during their p3 year.",
-    "prereqInfo": "the purpose of the imus-ippe is to give students the opportunity to develop continuous quality improvement (cqi) knowledge and skills via self-directed learning and participation in cqi initiatives projects in practice under the preceptorship of a pharmacist.  students will contribute to cqi initiatives improving patient care by participating on a project while learning about the organizations collective efforts related to quality improvement.\nadvanced selective introductory pharmacy practice experience (as-ippe) is an 80-hour early experiential offering that exposes and advances student understanding of direct patient care in one of many possible pharmacy practice settings.  all students will complete an as-ippe during one of the semesters during their p3 year.",
+    "info": "improving medication use systems introductory pharmacy practice experience (imus-ippe) is an 80-hour early experiential offering that exposes and advances student understanding of quality improvement in patient care in one of many possible pharmacy practice settings.  all students will complete an imus-ippe during one of the semesters during their p3 year.\n\nthe purpose of the imus-ippe is to give students the opportunity to develop continuous quality improvement (cqi) knowledge and skills via self-directed learning and participation in cqi initiatives projects in practice under the preceptorship of a pharmacist.  students will contribute to cqi initiatives improving patient care by participating on a project while learning about the organizations collective efforts related to quality improvement.\nadvanced selective introductory pharmacy practice experience (as-ippe) is an 80-hour early experiential offering that exposes and advances student understanding of direct patient care in one of many possible pharmacy practice settings.  all students will complete an as-ippe during one of the semesters during their p3 year.\n\nthe purpose of the as-ippe is to introduce pharmacy students to direct patient care unique from dispensing functions in any pharmacy setting providing direct patient care.  to complement their didactic curriculum, experiential rotations allow students to see pharmacy in action.  students completing an as-ippe will have the opportunity to focus their learning on a specific pharmacy interest area and related patient care clinical skills under the guidance of a preceptor.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -3193,8 +3116,8 @@
     "subject": "PHAR",
     "id": "7356",
     "title": "IPPE 6 – AS/IMUS",
-    "info": "improving medication use systems introductory pharmacy practice experience (imus-ippe) is an 80-hour early experiential offering that exposes and advances student understanding of quality improvement in patient care in one of many possible pharmacy practice settings.  all students will complete an imus-ippe during one of the semesters during their p3 year.",
-    "prereqInfo": "the purpose of the imus-ippe is to give students the opportunity to develop continuous quality improvement (cqi) knowledge and skills via self-directed learning and participation in cqi initiatives projects in practice under the preceptorship of a pharmacist.  students will contribute to cqi initiatives improving patient care by participating on a project while learning about the organizations collective efforts related to quality improvement.\nadvanced selective introductory pharmacy practice experience (as-ippe) is an 80-hour early experiential offering that exposes and advances student understanding of direct patient care in one of many possible pharmacy practice settings.  all students will complete an as-ippe during one of the semesters during their p3 year.",
+    "info": "improving medication use systems introductory pharmacy practice experience (imus-ippe) is an 80-hour early experiential offering that exposes and advances student understanding of quality improvement in patient care in one of many possible pharmacy practice settings.  all students will complete an imus-ippe during one of the semesters during their p3 year.\n\nthe purpose of the imus-ippe is to give students the opportunity to develop continuous quality improvement (cqi) knowledge and skills via self-directed learning and participation in cqi initiatives projects in practice under the preceptorship of a pharmacist.  students will contribute to cqi initiatives improving patient care by participating on a project while learning about the organizations collective efforts related to quality improvement.\nadvanced selective introductory pharmacy practice experience (as-ippe) is an 80-hour early experiential offering that exposes and advances student understanding of direct patient care in one of many possible pharmacy practice settings.  all students will complete an as-ippe during one of the semesters during their p3 year.\n\nthe purpose of the as-ippe is to introduce pharmacy students to direct patient care unique from dispensing functions in any pharmacy setting providing direct patient care.  to complement their didactic curriculum, experiential rotations allow students to see pharmacy in action.  students completing an as-ippe will have the opportunity to focus their learning on a specific pharmacy interest area and related patient care clinical skills under the guidance of a preceptor.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -3283,8 +3206,8 @@
     "subject": "PHAR",
     "id": "7501",
     "title": "Advanced Practice Experience 1",
-    "info": "this course is an experiential rotation in any setting (acute care, institutional practice, community practice, ambulatory care, and electives). students are responsible for drug-related needs of individuals (patients, etc.). full-time for four weeks. prereq: pharmd i-iii; mn board of pharmacy intern; criminal background check; bls cpr certification; negative mantoux test (or explanation of positive test); chicken pox immunity",
-    "prereqInfo": null,
+    "info": "this course is an experiential rotation in any setting (acute care, institutional practice, community practice, ambulatory care, and electives). students are responsible for drug-related needs of individuals (patients, etc.). full-time for four weeks.",
+    "prereqInfo": "pharmd i-iii; mn board of pharmacy intern; criminal background check; bls cpr certification; negative mantoux test (or explanation of positive test); chicken pox immunity",
     "prereq": []
   },
   {
@@ -3292,8 +3215,8 @@
     "subject": "PHAR",
     "id": "7502",
     "title": "Advanced Practice Experience 2",
-    "info": "this course is an experiential rotation in any setting (acute care, institutional practice, community practice, ambulatory care, and electives). students are responsible for drug-related needs of individuals (patients, etc.). full-time for four weeks. prereq: pharmd i-iii; mn board of pharmacy intern; criminal background check; bls cpr certification; negative mantoux test (or explanation of positive test); chicken pox immunity",
-    "prereqInfo": null,
+    "info": "this course is an experiential rotation in any setting (acute care, institutional practice, community practice, ambulatory care, and electives). students are responsible for drug-related needs of individuals (patients, etc.). full-time for four weeks.",
+    "prereqInfo": "pharmd i-iii; mn board of pharmacy intern; criminal background check; bls cpr certification; negative mantoux test (or explanation of positive test); chicken pox immunity",
     "prereq": []
   },
   {
@@ -3301,8 +3224,8 @@
     "subject": "PHAR",
     "id": "7503",
     "title": "Advanced Practice Experience 3",
-    "info": "this course is an experiential rotation in any setting (acute care, institutional practice, community practice, ambulatory care, and electives). students are responsible for drug-related needs of individuals (patients, etc.). full-time for four weeks. prereq: pharmd i-iii; mn board of pharmacy intern; criminal background check; bls cpr certification; negative mantoux test (or explanation of positive test); chicken pox immunity",
-    "prereqInfo": null,
+    "info": "this course is an experiential rotation in any setting (acute care, institutional practice, community practice, ambulatory care, and electives). students are responsible for drug-related needs of individuals (patients, etc.). full-time for four weeks.",
+    "prereqInfo": "pharmd i-iii; mn board of pharmacy intern; criminal background check; bls cpr certification; negative mantoux test (or explanation of positive test); chicken pox immunity",
     "prereq": []
   },
   {
@@ -3310,8 +3233,8 @@
     "subject": "PHAR",
     "id": "7504",
     "title": "Advanced Practice Experience 4",
-    "info": "this course is an experiential rotation in any setting (acute care, institutional practice, community practice, ambulatory care, and electives). students are responsible for drug-related needs of individuals (patients, etc.). full-time for four weeks. prereq: pharmd i-iii; mn board of pharmacy intern; criminal background check; bls cpr certification; negative mantoux test (or explanation of positive test); chicken pox immunity\n",
-    "prereqInfo": null,
+    "info": "this course is an experiential rotation in any setting (acute care, institutional practice, community practice, ambulatory care, and electives). students are responsible for drug-related needs of individuals (patients, etc.). full-time for four weeks.",
+    "prereqInfo": "pharmd i-iii; mn board of pharmacy intern; criminal background check; bls cpr certification; negative mantoux test (or explanation of positive test); chicken pox immunity",
     "prereq": []
   },
   {
@@ -3319,8 +3242,8 @@
     "subject": "PHAR",
     "id": "7505",
     "title": "Advanced Practice Experience 5",
-    "info": "this course is an experiential rotation in any setting (acute care, institutional practice, community practice, ambulatory care, and electives). students are responsible for drug-related needs of individuals (patients, etc.). full-time for four weeks. prereq: pharmd i-iii; mn board of pharmacy intern; criminal background check; bls cpr certification; negative mantoux test (or explanation of positive test); chicken pox immunity",
-    "prereqInfo": null,
+    "info": "this course is an experiential rotation in any setting (acute care, institutional practice, community practice, ambulatory care, and electives). students are responsible for drug-related needs of individuals (patients, etc.). full-time for four weeks.",
+    "prereqInfo": "pharmd i-iii; mn board of pharmacy intern; criminal background check; bls cpr certification; negative mantoux test (or explanation of positive test); chicken pox immunity",
     "prereq": []
   },
   {
@@ -3328,8 +3251,8 @@
     "subject": "PHAR",
     "id": "7506",
     "title": "Advanced Practice Experience 6",
-    "info": "this course is an experiential rotation in any setting (acute care, institutional practice, community practice, ambulatory care, and electives). students are responsible for drug-related needs of individuals (patients, etc.). full-time for four weeks. prereq: pharmd i-iii; mn board of pharmacy intern; criminal background check; bls cpr certification; negative mantoux test (or explanation of positive test); chicken pox immunity",
-    "prereqInfo": null,
+    "info": "this course is an experiential rotation in any setting (acute care, institutional practice, community practice, ambulatory care, and electives). students are responsible for drug-related needs of individuals (patients, etc.). full-time for four weeks.",
+    "prereqInfo": "pharmd i-iii; mn board of pharmacy intern; criminal background check; bls cpr certification; negative mantoux test (or explanation of positive test); chicken pox immunity",
     "prereq": []
   },
   {
@@ -3337,8 +3260,8 @@
     "subject": "PHAR",
     "id": "7507",
     "title": "Advanced Practice Experience 7",
-    "info": "this course is an experiential rotation in any setting (acute care, institutional practice, community practice, ambulatory care, and electives). students are responsible for drug-related needs of individuals (patients, etc.). full-time for four weeks. prereq: pharmd i-iii; mn board of pharmacy intern; criminal background check; bls cpr certification; negative mantoux test (or explanation of positive test); chicken pox immunity",
-    "prereqInfo": null,
+    "info": "this course is an experiential rotation in any setting (acute care, institutional practice, community practice, ambulatory care, and electives). students are responsible for drug-related needs of individuals (patients, etc.). full-time for four weeks.",
+    "prereqInfo": "pharmd i-iii; mn board of pharmacy intern; criminal background check; bls cpr certification; negative mantoux test (or explanation of positive test); chicken pox immunity",
     "prereq": []
   },
   {
@@ -3346,8 +3269,8 @@
     "subject": "PHAR",
     "id": "7508",
     "title": "Advanced Practice Experience 8",
-    "info": "this course is an experiential rotation in any setting (acute care, institutional practice, community practice, ambulatory care, and electives). students are responsible for drug-related needs of individuals (patients, etc.). full-time for four weeks. prereq: pharmd i-iii; mn board of pharmacy intern; criminal background check; bls cpr certification; negative mantoux test (or explanation of positive test); chicken pox immunity",
-    "prereqInfo": null,
+    "info": "this course is an experiential rotation in any setting (acute care, institutional practice, community practice, ambulatory care, and electives). students are responsible for drug-related needs of individuals (patients, etc.). full-time for four weeks.",
+    "prereqInfo": "pharmd i-iii; mn board of pharmacy intern; criminal background check; bls cpr certification; negative mantoux test (or explanation of positive test); chicken pox immunity",
     "prereq": []
   },
   {
@@ -3355,8 +3278,8 @@
     "subject": "PHAR",
     "id": "7509",
     "title": "Advanced Practice Experience 9",
-    "info": "this course is an experiential rotation in any setting (acute care, institutional practice, community practice, ambulatory care, and electives). students are responsible for drug-related needs of individuals (patients, etc.). full-time for four weeks. prereq: pharmd i-iii; mn board of pharmacy intern; criminal background check; bls cpr certification; negative mantoux test (or explanation of positive test); chicken pox immunity",
-    "prereqInfo": null,
+    "info": "this course is an experiential rotation in any setting (acute care, institutional practice, community practice, ambulatory care, and electives). students are responsible for drug-related needs of individuals (patients, etc.). full-time for four weeks.",
+    "prereqInfo": "pharmd i-iii; mn board of pharmacy intern; criminal background check; bls cpr certification; negative mantoux test (or explanation of positive test); chicken pox immunity",
     "prereq": []
   },
   {
@@ -3364,8 +3287,8 @@
     "subject": "PHAR",
     "id": "7510",
     "title": "Advanced Practice Experience10",
-    "info": "this course is an experiential rotation in any setting (acute care, institutional practice, community practice, ambulatory care, and electives). students are responsible for drug-related needs of individuals (patients, etc.). full-time for four weeks. prereq: pharmd i-iii; mn board of pharmacy intern; criminal background check; bls cpr certification; negative mantoux test (or explanation of positive test); chicken pox immunity\n",
-    "prereqInfo": null,
+    "info": "this course is an experiential rotation in any setting (acute care, institutional practice, community practice, ambulatory care, and electives). students are responsible for drug-related needs of individuals (patients, etc.). full-time for four weeks.",
+    "prereqInfo": "pharmd i-iii; mn board of pharmacy intern; criminal background check; bls cpr certification; negative mantoux test (or explanation of positive test); chicken pox immunity",
     "prereq": []
   },
   {
@@ -3778,7 +3701,7 @@
     "subject": "PHAR",
     "id": "7769",
     "title": "Elective Clerkship II",
-    "info": "pharm.d. clerkship experience in pharmacy-related areas. ",
+    "info": "pharm.d. clerkship experience in pharmacy-related areas.",
     "prereqInfo": null,
     "prereq": []
   },

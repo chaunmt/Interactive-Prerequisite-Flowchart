@@ -36,15 +36,6 @@
     "prereq": []
   },
   {
-    "code": "CNES 1082H",
-    "subject": "CNES",
-    "id": "1082H",
-    "title": "Honors: Jesus in History",
-    "info": "who was jesus? how can we recover what he said and did? why was he killed and who did it? was there agreement about the life and words of jesus in the earliest stages of christianity, or were there major disagreements even then? how were the early writers about jesus influenced by their social, political, and religious contexts? and why was it reported in the news recently that jesus was married? in this course we examine the earliest attempts to describe jesus and his significance in the gospel literature of the first and second centuries and beyond. we ask how historians may claim to \\\"know\\\" the \\\"facts\\\" of jesus's life and meaning in light of these various portraits. we seek to understand how the different literary presentations of jesus reflect their authors' social, religious, and political situations. we aim to understand in more detail the diversity of perspectives about jesus from the earliest stage of the development of christianity. intended as a course of interest to all undergraduates on the twin cities campus. students of any, all, or no religious background are welcome. cnes/rels 1082/1082h are combined sections.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
     "code": "CNES 1202",
     "subject": "CNES",
     "id": "1202",
@@ -87,15 +78,19 @@
     "title": "Freshman Seminar",
     "info": "topics specified in class schedule.",
     "prereqInfo": "fr or up to 30 cr",
-    "prereq": []
+    "prereq": {
+      "code": "CNES 30",
+      "subject": "CNES",
+      "id": "30"
+    }
   },
   {
     "code": "CNES 1912",
     "subject": "CNES",
     "id": "1912",
     "title": "Reading Bible as Literature",
-    "info": "\\\"there have been great societies that did not use the wheel, but there have been no societies that did not tell stories.\\\" (ursula k. le guin) ",
-    "prereqInfo": "the hebrew bible (old testament) is full of stories, a story of the first humans in a garden accompanied by a snake; of a boat filled with animals and a devastating flood; and of a father who almost sacrifices his son. there are stories of wanderings in wilderness, of prophets, kings and queens, of villains and heroes; some stories of love and friendship, and endless stories of war, violence and death. these stories do not end with the hebrew bible. they have been told and retold through millennia and are still part of our own cultures. in this course we will read stories from the hebrew bible with the help of narrative analysis (through analyzing the stories' plots, characters, and other literary strategies). we will also look at examples of how these stories have been used and reused through history until today.",
+    "info": "\\\"there have been great societies that did not use the wheel, but there have been no societies that did not tell stories.\\\" (ursula k. le guin) \n\nthe hebrew bible (old testament) is full of stories, a story of the first humans in a garden accompanied by a snake; of a boat filled with animals and a devastating flood; and of a father who almost sacrifices his son. there are stories of wanderings in wilderness, of prophets, kings and queens, of villains and heroes; some stories of love and friendship, and endless stories of war, violence and death. these stories do not end with the hebrew bible. they have been told and retold through millennia and are still part of our own cultures. in this course we will read stories from the hebrew bible with the help of narrative analysis (through analyzing the stories' plots, characters, and other literary strategies). we will also look at examples of how these stories have been used and reused through history until today.",
+    "prereqInfo": null,
     "prereq": []
   },
   {
@@ -103,7 +98,7 @@
     "subject": "CNES",
     "id": "1914",
     "title": "Never Ending Story: Genesis",
-    "info": "“there have been great societies that did not use the wheel, but there have been no societies that did not tell stories.” (ursula k. le guin.). the hebrew bible (old testament) is full of stories, a story of the first humans in a garden accompanied by a snake; of a boat filled with animals and a devastating flood; of a tower that was supposed to reach the heavens, of women who strive to have children, and of a father who almost sacrifices his son. does it sound familiar? all these stories are to be found in the first book of the bible, the book of genesis. some of the stories are about villains, some about heroes; some stories of love and friendship, and there are endless stories of war, violence and death. the stories from genesis do not end with the hebrew bible. they have been told and retold through millennia and are still part of our own cultures. in this course we will read stories from genesis with the help of narrative analysis (through analyzing the stories’ plot, characters, and other literary strategies), we will learn some basics about how scholars today think the book of genesis came into being, and we study examples of how stories from genesis  have been used and reused through history all the way up to the  handmaid's tale and modern  disaster movies.  ",
+    "info": "“there have been great societies that did not use the wheel, but there have been no societies that did not tell stories.” (ursula k. le guin.). the hebrew bible (old testament) is full of stories, a story of the first humans in a garden accompanied by a snake; of a boat filled with animals and a devastating flood; of a tower that was supposed to reach the heavens, of women who strive to have children, and of a father who almost sacrifices his son. does it sound familiar? all these stories are to be found in the first book of the bible, the book of genesis. some of the stories are about villains, some about heroes; some stories of love and friendship, and there are endless stories of war, violence and death. the stories from genesis do not end with the hebrew bible. they have been told and retold through millennia and are still part of our own cultures. in this course we will read stories from genesis with the help of narrative analysis (through analyzing the stories’ plot, characters, and other literary strategies), we will learn some basics about how scholars today think the book of genesis came into being, and we study examples of how stories from genesis  have been used and reused through history all the way up to the  handmaid's tale and modern  disaster movies.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -202,7 +197,7 @@
     "subject": "CNES",
     "id": "3108",
     "title": "Age of St. Augustine of Hippo",
-    "info": "cultural diversity a.d. 363 to circa 500 a.d. replacement of roman empire in western europe by barbarian kingdoms, consolidation of constantinople as capital in east. literature, art, thought resulting from new dominance of christianity, particularly augustine of hippo. ",
+    "info": "cultural diversity a.d. 363 to circa 500 a.d. replacement of roman empire in western europe by barbarian kingdoms, consolidation of constantinople as capital in east. literature, art, thought resulting from new dominance of christianity, particularly augustine of hippo.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -247,7 +242,7 @@
     "subject": "CNES",
     "id": "3203",
     "title": "The Bible: Wisdom, Poetry",
-    "info": "survey of books of psalms, proverbs, job, song of songs, lamentations, ecclesiastes (qoheleth). characteristics of biblical poetry. conceptions of israelite wisdom writing. traits of early jewish apocalyptic writing. ",
+    "info": "survey of books of psalms, proverbs, job, song of songs, lamentations, ecclesiastes (qoheleth). characteristics of biblical poetry. conceptions of israelite wisdom writing. traits of early jewish apocalyptic writing.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -512,7 +507,7 @@
     "subject": "CNES",
     "id": "5252",
     "title": "Early Christian Art",
-    "info": "role played by art in formation of early christian/byzantine communities and in establishing their relationships with pagan world and early islam.\n",
+    "info": "role played by art in formation of early christian/byzantine communities and in establishing their relationships with pagan world and early islam.",
     "prereqInfo": null,
     "prereq": []
   },
@@ -593,7 +588,7 @@
     "subject": "CNES",
     "id": "5940",
     "title": "Class. Lit: Topics",
-    "info": "additional work for graduate credit. topics specified in class schedule. meets with 3940. ",
+    "info": "additional work for graduate credit. topics specified in class schedule. meets with 3940.",
     "prereqInfo": null,
     "prereq": []
   },

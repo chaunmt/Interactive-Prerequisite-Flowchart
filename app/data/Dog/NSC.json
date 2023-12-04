@@ -4,8 +4,8 @@
     "subject": "NSC",
     "id": "4185",
     "title": "Itasca Neurobiology Laboratory",
-    "info": "concepts in cellular neurosciences. basis of membrane properties, including ionic/molecular mechanisms of resting, action, and synaptic potentials. state-of-the-art equipment and contemporary techniques used to examine experimental evidence.\nprereq instr consent, college consent.",
-    "prereqInfo": null,
+    "info": "concepts in cellular neurosciences. basis of membrane properties, including ionic/molecular mechanisms of resting, action, and synaptic potentials. state-of-the-art equipment and contemporary techniques used to examine experimental evidence.",
+    "prereqInfo": "instr consent, college consent.",
     "prereq": []
   },
   {
@@ -440,7 +440,11 @@
     "title": "Doct Pre-Thesis Cr",
     "info": "doctoral pre-thesis credits",
     "prereqInfo": "doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": []
+    "prereq": {
+      "code": "NSC 60",
+      "subject": "NSC",
+      "id": "60"
+    }
   },
   {
     "code": "NSC 8777",

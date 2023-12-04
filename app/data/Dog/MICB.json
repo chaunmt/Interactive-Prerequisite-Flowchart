@@ -44,9 +44,13 @@
     "subject": "MICB",
     "id": "3302",
     "title": "Biology of Micro Laboratory",
-    "info": "this is a hands-on laboratory that together with micb 3303 will provide an extensive overview of the microbial world highlighting the structure, function, and diversity of microorganisms including bacteria, fungi, protists, and viruses. in laboratory, students will get hands-on experience with the techniques, methods, protocols, and instrumentation for the study of microorganisms that will coincide with what is taught in the lecture component.  the combination of micb 3303 (lecture only) and micb 3302 (lab only) is equivalent to micb 3301. no credit if credit already received for micb 3301. micb 3303 (lecture) is a prerequisite for micb 3302 (lab only). students who desire both should register for micb 3301.",
-    "prereqInfo": "\n \n",
-    "prereq": []
+    "info": "this is a hands-on laboratory that together with micb 3303 will provide an extensive overview of the microbial world highlighting the structure, function, and diversity of microorganisms including bacteria, fungi, protists, and viruses. in laboratory, students will get hands-on experience with the techniques, methods, protocols, and instrumentation for the study of microorganisms that will coincide with what is taught in the lecture component.  the combination of micb 3303 (lecture only) and micb 3302 (lab only) is equivalent to micb 3301. no credit if credit already received for micb 3301. micb 3303 (lecture) is a",
+    "prereqInfo": "uisite for micb 3302 (lab only). students who desire both should register for micb 3301.",
+    "prereq": {
+      "code": "MICB 3301",
+      "subject": "MICB",
+      "id": "3301"
+    }
   },
   {
     "code": "MICB 3303",
@@ -142,7 +146,7 @@
     "subject": "MICB",
     "id": "4151",
     "title": "Mol & Gen Bases for Micro Dis",
-    "info": "genetic basis of microbial pathogenesis. effect of gene transfer and regulation on evolution of microbial pathogens and capacity to colonize, induce disease. biochemical and cellular interactions between bacteria and human hosts. ",
+    "info": "genetic basis of microbial pathogenesis. effect of gene transfer and regulation on evolution of microbial pathogens and capacity to colonize, induce disease. biochemical and cellular interactions between bacteria and human hosts.",
     "prereqInfo": "micb 3301 and [biol4003 or pmb4131 or molecular biology (biol 3020 or biol 3025 or biol 3015)]",
     "prereq": {
       "and": [
@@ -154,19 +158,33 @@
         {
           "or": [
             {
-              "code": "BIOL 3020",
+              "code": "BIOL 4003",
               "subject": "BIOL",
-              "id": "3020"
+              "id": "4003"
             },
             {
-              "code": "BIOL 3025",
-              "subject": "BIOL",
-              "id": "3025"
+              "code": "PMB 4131",
+              "subject": "PMB",
+              "id": "4131"
             },
             {
-              "code": "BIOL 3015",
-              "subject": "BIOL",
-              "id": "3015"
+              "or": [
+                {
+                  "code": "BIOL 3020",
+                  "subject": "BIOL",
+                  "id": "3020"
+                },
+                {
+                  "code": "BIOL 3025",
+                  "subject": "BIOL",
+                  "id": "3025"
+                },
+                {
+                  "code": "BIOL 3015",
+                  "subject": "BIOL",
+                  "id": "3015"
+                }
+              ]
             }
           ]
         }
@@ -178,7 +196,7 @@
     "subject": "MICB",
     "id": "4161W",
     "title": "Eukaryotic Microbiology",
-    "info": "cell biology of higher eukaryotes, animal/plant pathogenesis, evolution, industrial microbiology. tetrahymena/chlamydomons/paramecium/toxoplasma/aspergillus/ neurospora. ",
+    "info": "cell biology of higher eukaryotes, animal/plant pathogenesis, evolution, industrial microbiology. tetrahymena/chlamydomons/paramecium/toxoplasma/aspergillus/ neurospora.",
     "prereqInfo": "biol 4003",
     "prereq": {
       "code": "BIOL 4003",
@@ -231,7 +249,7 @@
     "subject": "MICB",
     "id": "4225W",
     "title": "Microbial Genetics Laboratory",
-    "info": "yeast is used as a model organism for microbial molecular genetic principles and methods such as ultraviolet mutagenesis, isolation and creation of mutant strains, plasmid design and construction, pcr, sanger sequencing, gene replacement, and bioinformatics. students will design and execute their own independent research project using hands-on experimentation with advanced molecular methods ",
+    "info": "yeast is used as a model organism for microbial molecular genetic principles and methods such as ultraviolet mutagenesis, isolation and creation of mutant strains, plasmid design and construction, pcr, sanger sequencing, gene replacement, and bioinformatics. students will design and execute their own independent research project using hands-on experimentation with advanced molecular methods",
     "prereqInfo": "micb 3301 and [biol 4003 or permission]; priority for seats from waitlist to graduating microbiology majors",
     "prereq": {
       "and": [
@@ -253,7 +271,7 @@
     "subject": "MICB",
     "id": "4235",
     "title": "Adv Lab: Viro/Immuno/Micro Gen",
-    "info": "techniques, experimental methods in microbial genetics, immunology. virology used to study microbes/interactions with host. ",
+    "info": "techniques, experimental methods in microbial genetics, immunology. virology used to study microbes/interactions with host.",
     "prereqInfo": "micb 3301 and [bioc 3022 or bioc 4331] and [micb 4171 prereq or concurrent registration or permission]",
     "prereq": {
       "and": [
@@ -289,8 +307,8 @@
     "subject": "MICB",
     "id": "4793W",
     "title": "Directed Studies:  WI",
-    "info": "writing intensive directed studies is an individual-study, literature-based investigation in which the student is mentored directly by a faculty member. one main feature of this course is that the student will receive writing instruction and the written output of the course will be revised during the semester. the project needs to be explained in a research/directed studies contract and agreed on by both the student and faculty mentor. the contract must be approved by the director of undergraduate studies (dugs) for the major before the student is allowed to register. the contract includes a description of learning objectives for the course, how writing instruction will take place, a timeline for when student writing will be handed in and how it will be assessed, methodology to be used by the student, and how assessment of learning will be conducted by the mentor. additional oversight is established for this course near the end of the semester the written output is submitted to the dugs for the major. the dugs is responsible to determine that the writing meets standards set by the cbs education policy committee for quality of writing, appropriate citation of literature, well-constructed figures, tables, and legends (if present), appropriate use and interpretation of statistics (if present), conclusions that are supported by evidence, and well-formatted references. this course is graded s/n and approval of the dugs is required before a grade of s can be given by the faculty mentor. ",
-    "prereqInfo": "department consent, instructor consent, no more than 7 credits of 4793, 4794, 4993w, 4994w counts towards cbs major requirements.\n",
+    "info": "writing intensive directed studies is an individual-study, literature-based investigation in which the student is mentored directly by a faculty member. one main feature of this course is that the student will receive writing instruction and the written output of the course will be revised during the semester. the project needs to be explained in a research/directed studies contract and agreed on by both the student and faculty mentor. the contract must be approved by the director of undergraduate studies (dugs) for the major before the student is allowed to register. the contract includes a description of learning objectives for the course, how writing instruction will take place, a timeline for when student writing will be handed in and how it will be assessed, methodology to be used by the student, and how assessment of learning will be conducted by the mentor. additional oversight is established for this course near the end of the semester the written output is submitted to the dugs for the major. the dugs is responsible to determine that the writing meets standards set by the cbs education policy committee for quality of writing, appropriate citation of literature, well-constructed figures, tables, and legends (if present), appropriate use and interpretation of statistics (if present), conclusions that are supported by evidence, and well-formatted references. this course is graded s/n and approval of the dugs is required before a grade of s can be given by the faculty mentor.",
+    "prereqInfo": "department consent, instructor consent, no more than 7 credits of 4793, 4794, 4993w, 4994w counts towards cbs major requirements.",
     "prereq": {
       "and": [
         {
@@ -331,11 +349,6 @@
           "id": "4793W"
         },
         {
-          "code": "MICB 4794W",
-          "subject": "MICB",
-          "id": "4794W"
-        },
-        {
           "code": "MICB 4993",
           "subject": "MICB",
           "id": "4993"
@@ -353,18 +366,59 @@
     "subject": "MICB",
     "id": "4993",
     "title": "Directed Studies",
-    "info": "directed studies is an individual-study, literature-based investigation in which the student is mentored directly by a faculty member. the topic for the course needs to be explained in a research/directed studies contract and agreed on by both the student and faculty mentor. the contract must be approved by the director of undergraduate studies (dugs) for the major before the student is allowed to register. the contract includes a description of learning objectives for the course, methodology to be used, and how the assessment of learning will be conducted. prereq: department consent, instructor consent, no more than 7 credits of 4793, 4794, 4993w, 4994w counts towards cbs major requirements.",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "directed studies is an individual-study, literature-based investigation in which the student is mentored directly by a faculty member. the topic for the course needs to be explained in a research/directed studies contract and agreed on by both the student and faculty mentor. the contract must be approved by the director of undergraduate studies (dugs) for the major before the student is allowed to register. the contract includes a description of learning objectives for the course, methodology to be used, and how the assessment of learning will be conducted.",
+    "prereqInfo": "department consent, instructor consent, no more than 7 credits of 4793, 4794, 4993w, 4994w counts towards cbs major requirements.",
+    "prereq": {
+      "and": [
+        {
+          "code": "MICB 4793",
+          "subject": "MICB",
+          "id": "4793"
+        },
+        {
+          "code": "MICB 4794",
+          "subject": "MICB",
+          "id": "4794"
+        },
+        {
+          "code": "MICB 4993W",
+          "subject": "MICB",
+          "id": "4993W"
+        },
+        {
+          "code": "MICB 4994",
+          "subject": "MICB",
+          "id": "4994"
+        }
+      ]
+    }
   },
   {
     "code": "MICB 4994",
     "subject": "MICB",
     "id": "4994",
     "title": "Directed Research",
-    "info": "directed research is an individual-study, laboratory or field investigation course. the research topic needs to be agreed on by both the student and the faculty mentor and explained in a research/directed studies contract. the contract must be approved by the director of undergraduate studies (dugs) for the major before the student is allowed to register. the contract includes a description of learning objectives for the course, methodology to be used, and how the assessment of learning will be conducted. \nprereq: department consent, instructor consent, no more than 7 credits of 4793, 4794, 4993w, 4994w counts towards cbs major requirements.\n",
-    "prereqInfo": null,
-    "prereq": []
+    "info": "directed research is an individual-study, laboratory or field investigation course. the research topic needs to be agreed on by both the student and the faculty mentor and explained in a research/directed studies contract. the contract must be approved by the director of undergraduate studies (dugs) for the major before the student is allowed to register. the contract includes a description of learning objectives for the course, methodology to be used, and how the assessment of learning will be conducted.",
+    "prereqInfo": "department consent, instructor consent, no more than 7 credits of 4793, 4794, 4993w, 4994w counts towards cbs major requirements.",
+    "prereq": {
+      "and": [
+        {
+          "code": "MICB 4793",
+          "subject": "MICB",
+          "id": "4793"
+        },
+        {
+          "code": "MICB 4794",
+          "subject": "MICB",
+          "id": "4794"
+        },
+        {
+          "code": "MICB 4993W",
+          "subject": "MICB",
+          "id": "4993W"
+        }
+      ]
+    }
   },
   {
     "code": "MICB 5205",

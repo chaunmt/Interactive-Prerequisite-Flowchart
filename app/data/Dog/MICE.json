@@ -4,27 +4,9 @@
     "subject": "MICE",
     "id": "5035",
     "title": "Personal Microbiome Analysis",
-    "info": "personal microbiome analysis, an introduction to the computational exploration and analysis of your inner microbial community, also known as your microbiome. in this course, you will have the opportunity to explore your own microbiome using visualization and analysis tools. sequencing your own microbiome is encouraged but not required for the course.",
-    "prereqInfo": "introductory biology or genetics is recommended: biol 1009, gcd 3022 or biol 4003.",
-    "prereq": {
-      "and": [
-        {
-          "code": "BIOL 1009",
-          "subject": "BIOL",
-          "id": "1009"
-        },
-        {
-          "code": "GCD 3022",
-          "subject": "GCD",
-          "id": "3022"
-        },
-        {
-          "code": "BIOL 4003",
-          "subject": "BIOL",
-          "id": "4003"
-        }
-      ]
-    }
+    "info": "personal microbiome analysis, an introduction to the computational exploration and analysis of your inner microbial community, also known as your microbiome. in this course, you will have the opportunity to explore your own microbiome using visualization and analysis tools. sequencing your own microbiome is encouraged but not required for the course.\n\nintroductory biology or genetics is recommended: biol 1009, gcd 3022 or biol 4003.",
+    "prereqInfo": null,
+    "prereq": []
   },
   {
     "code": "MICE 5309",
@@ -73,7 +55,11 @@
     "title": "Thesis Credit:Mast*",
     "info": "(no description)",
     "prereqInfo": "max 18 cr per semester or summer; 10 cr total required [plan a only]",
-    "prereq": []
+    "prereq": {
+      "code": "MICE 10",
+      "subject": "MICE",
+      "id": "10"
+    }
   },
   {
     "code": "MICE 8920",
