@@ -1,1 +1,134 @@
-[{"code":"PLSH 1101","subject":"PLSH","id":"1101","title":"Beginning Polish","info":"develop basic proficiency in listening, speaking, reading, and writing and become acquainted with polish culture. first of four courses designed to satisfy cla language graduation requirement.","prereqInfo":null,"prereq":[]},{"code":"PLSH 1102","subject":"PLSH","id":"1102","title":"Beginning Polish","info":"develop basic proficiency in listening, speaking, reading and writing and to acquaint students with polish culture. second of four courses designed to satisfy cla language graduation requirement.","prereqInfo":"1101 or equiv","prereq":{"code":"PLSH 1101","subject":"PLSH","id":"1101"}},{"code":"PLSH 3001","subject":"PLSH","id":"3001","title":"Intermediate Polish","info":"conversation, composition, advanced grammar, translation, and readings in appropriate literature. third of four courses designed to satisfy cla language graduation requirement.","prereqInfo":"1102 or equiv","prereq":{"code":"PLSH 1102","subject":"PLSH","id":"1102"}},{"code":"PLSH 3002","subject":"PLSH","id":"3002","title":"Intermediate Polish","info":"conversation, composition, advanced grammar, translation, and readings in appropriate literature. fourth in a sequence of courses designed to satisfy cla language graduation requirement.","prereqInfo":"3001 or equiv","prereq":{"code":"PLSH 3001","subject":"PLSH","id":"3001"}},{"code":"PLSH 3601","subject":"PLSH","id":"3601","title":"Surv of Plsh Lit","info":"reading and analysis of major works of polish literature from baroque through romanticism.","prereqInfo":null,"prereq":[]},{"code":"PLSH 3602","subject":"PLSH","id":"3602","title":"Surv of Polish Lit","info":"reading and analysis of major works of polish literature from 1863 to the present.","prereqInfo":null,"prereq":[]},{"code":"PLSH 4101","subject":"PLSH","id":"4101","title":"Beginning Polish Grad Research","info":"develop basic proficiency in listening, speaking, reading, and writing and become acquainted with polish culture.","prereqInfo":"fourth sem course in another language or grad student","prereq":[]},{"code":"PLSH 4102","subject":"PLSH","id":"4102","title":"Beginning Polish Grad Research","info":"develop basic proficiency in listening, speaking, reading and writing and to acquaint students with polish culture.","prereqInfo":"4101, [fourth sem course in another language or grad student]","prereq":{"code":"PLSH 4101","subject":"PLSH","id":"4101"}},{"code":"PLSH 4103","subject":"PLSH","id":"4103","title":"Int Polish Grad Research","info":"conversation, composition, advanced grammar, translation, and readings in appropriate literature.","prereqInfo":"4102","prereq":{"code":"PLSH 4102","subject":"PLSH","id":"4102"}},{"code":"PLSH 4104","subject":"PLSH","id":"4104","title":"Int Polish Grad Research","info":"conversation, composition, advanced grammar, translation, and readings in appropriate literature.","prereqInfo":"4103","prereq":{"code":"PLSH 4103","subject":"PLSH","id":"4103"}},{"code":"PLSH 5900","subject":"PLSH","id":"5900","title":"Polish: Topics","info":"topics specified in class schedule.","prereqInfo":null,"prereq":[]},{"code":"PLSH 5993","subject":"PLSH","id":"5993","title":"Directed Studies","info":"guided individual reading or study in polish language, literature, and culture.","prereqInfo":null,"prereq":[]}]
+[
+  {
+    "code": "PLSH 1101",
+    "subject": "PLSH",
+    "id": "1101",
+    "title": "Beginning Polish",
+    "info": "develop basic proficiency in listening, speaking, reading, and writing and become acquainted with polish culture. first of four courses designed to satisfy cla language graduation requirement.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "PLSH 1102",
+    "subject": "PLSH",
+    "id": "1102",
+    "title": "Beginning Polish",
+    "info": "develop basic proficiency in listening, speaking, reading and writing and to acquaint students with polish culture. second of four courses designed to satisfy cla language graduation requirement.",
+    "prereqInfo": "1101 or equiv",
+    "prereq": {
+      "code": "PLSH 1101",
+      "subject": "PLSH",
+      "id": "1101"
+    }
+  },
+  {
+    "code": "PLSH 3001",
+    "subject": "PLSH",
+    "id": "3001",
+    "title": "Intermediate Polish",
+    "info": "conversation, composition, advanced grammar, translation, and readings in appropriate literature. third of four courses designed to satisfy cla language graduation requirement.",
+    "prereqInfo": "1102 or equiv",
+    "prereq": {
+      "code": "PLSH 1102",
+      "subject": "PLSH",
+      "id": "1102"
+    }
+  },
+  {
+    "code": "PLSH 3002",
+    "subject": "PLSH",
+    "id": "3002",
+    "title": "Intermediate Polish",
+    "info": "conversation, composition, advanced grammar, translation, and readings in appropriate literature. fourth in a sequence of courses designed to satisfy cla language graduation requirement.",
+    "prereqInfo": "3001 or equiv",
+    "prereq": {
+      "code": "PLSH 3001",
+      "subject": "PLSH",
+      "id": "3001"
+    }
+  },
+  {
+    "code": "PLSH 3601",
+    "subject": "PLSH",
+    "id": "3601",
+    "title": "Surv of Plsh Lit",
+    "info": "reading and analysis of major works of polish literature from baroque through romanticism.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "PLSH 3602",
+    "subject": "PLSH",
+    "id": "3602",
+    "title": "Surv of Polish Lit",
+    "info": "reading and analysis of major works of polish literature from 1863 to the present.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "PLSH 4101",
+    "subject": "PLSH",
+    "id": "4101",
+    "title": "Beginning Polish Grad Research",
+    "info": "develop basic proficiency in listening, speaking, reading, and writing and become acquainted with polish culture.",
+    "prereqInfo": "fourth sem course in another language or grad student",
+    "prereq": []
+  },
+  {
+    "code": "PLSH 4102",
+    "subject": "PLSH",
+    "id": "4102",
+    "title": "Beginning Polish Grad Research",
+    "info": "develop basic proficiency in listening, speaking, reading and writing and to acquaint students with polish culture.",
+    "prereqInfo": "4101, [fourth sem course in another language or grad student]",
+    "prereq": {
+      "code": "PLSH 4101",
+      "subject": "PLSH",
+      "id": "4101"
+    }
+  },
+  {
+    "code": "PLSH 4103",
+    "subject": "PLSH",
+    "id": "4103",
+    "title": "Int Polish Grad Research",
+    "info": "conversation, composition, advanced grammar, translation, and readings in appropriate literature.",
+    "prereqInfo": "4102",
+    "prereq": {
+      "code": "PLSH 4102",
+      "subject": "PLSH",
+      "id": "4102"
+    }
+  },
+  {
+    "code": "PLSH 4104",
+    "subject": "PLSH",
+    "id": "4104",
+    "title": "Int Polish Grad Research",
+    "info": "conversation, composition, advanced grammar, translation, and readings in appropriate literature.",
+    "prereqInfo": "4103",
+    "prereq": {
+      "code": "PLSH 4103",
+      "subject": "PLSH",
+      "id": "4103"
+    }
+  },
+  {
+    "code": "PLSH 5900",
+    "subject": "PLSH",
+    "id": "5900",
+    "title": "Polish: Topics",
+    "info": "topics specified in class schedule.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "PLSH 5993",
+    "subject": "PLSH",
+    "id": "5993",
+    "title": "Directed Studies",
+    "info": "guided individual reading or study in polish language, literature, and culture.",
+    "prereqInfo": null,
+    "prereq": []
+  }
+]

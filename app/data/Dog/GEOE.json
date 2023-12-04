@@ -1,1 +1,320 @@
-[{"code":"GEOE 3111","subject":"GEOE","id":"3111","title":"How to Model It","info":"problem formulation design and construction of models, and drawing conclusions from modeling results.  students learn how to use computer-based modeling tools working in small groups on a number of problems from various engineering contexts.","prereqInfo":null,"prereq":[]},{"code":"GEOE 3301","subject":"GEOE","id":"3301","title":"Soil Mechanics I","info":"index properties and soil classification. effective stress. permeability and seepage. elasticity theory.  one-dimensional compression/consolidation, settlements.  compaction, cut/fill problems.","prereqInfo":"aem 3031, cse student","prereq":{"code":"AEM 3031","subject":"AEM","id":"3031"}},{"code":"GEOE 3311","subject":"GEOE","id":"3311","title":"Rock Mechanics I","info":"classifications and index properties.  behavior of intact rock and rock masses.  failure criteria.  stereographic projections; kinematic analysis of rock slopes.  reinforcement.  foundations on rock.","prereqInfo":null,"prereq":[]},{},{"code":"GEOE 4011","subject":"GEOE","id":"4011","title":"Special Topics","info":"topics, credits vary.","prereqInfo":null,"prereq":[]},{},{},{"code":"GEOE 4111","subject":"GEOE","id":"4111","title":"Systems Analysis","info":"systems analysis focuses on a broader \\\"systems\\\" approach of viewing problems.  the techniques of operations research--decision engineering, network analysis, simulation, linear programming, and expert systems--are used to represent systems, and especially to assess trade-offs.","prereqInfo":null,"prereq":[]},{"code":"GEOE 4121","subject":"GEOE","id":"4121","title":"Computer Appl II","info":"application of computer tools/methods in solving ordinary and partial differential equations from civil engineering problems. spreadsheet, matlab programming. methods may include finite differences, boundary element, finite element, and control volume finite element.","prereqInfo":null,"prereq":[]},{},{"code":"GEOE 4301","subject":"GEOE","id":"4301","title":"Soil Mechanics II","info":"traction/stress. mohr-coulomb failure criterion. experiments on soil strength. earth pressure theories, rigid/flexible retaining walls. stability of slopes. bearing capacity of foundations.","prereqInfo":"[[3301 or ce 3301], upper div cse] or instr consent","prereq":{"or":[{"code":"GEOE 3301","subject":"GEOE","id":"3301"},{"code":"CE 3301","subject":"CE","id":"3301"}]}},{"code":"GEOE 4311","subject":"GEOE","id":"4311","title":"Rock Mechanics","info":"lab testing of rock. index properties/classification schemes. in-situ stresses. mechanical behavior of rock masses. mohr-coulomb failure criterion. stereographic projections. kinematic analysis of rock slopes. block size, three-dimensional slope stability. stress analysis of tunnels: lame/kirsch solutions. elasto-plastic response. rock-support interaction. numerical modeling of slopes/tunnels.","prereqInfo":null,"prereq":[]},{"code":"GEOE 4341","subject":"GEOE","id":"4341","title":"Eng Geostatistics","info":"problem solving and decision making in civil and geological engineering using applied statistics. emphasis on spatially correlated data, e.g. geologic site characterization, and spatial sampling design.","prereqInfo":null,"prereq":[]},{"code":"GEOE 4351","subject":"GEOE","id":"4351","title":"Groundwater Mech","info":"shallow confined, unconfined, and sem-confined flows. flow in two coupled aquifers separated by leaky layers. transient flow. flow toward wells. streamlines/pathlines in two/three dimensions. contaminant transport. elementary computer modeling.","prereqInfo":null,"prereq":[]},{"code":"GEOE 4352","subject":"GEOE","id":"4352","title":"Groundwater Modeling","info":"analytic element method. mathematical/computer modeling of single/multiple aquifer systems. groundwater recovery. field problems. theory/application of simple contaminant transport models, including capture zone analysis.","prereqInfo":null,"prereq":[]},{"code":"GEOE 5311","subject":"GEOE","id":"5311","title":"Experimental Geomechanics","info":"machine stiffness; closed-loop testing.  small-strain theory.  measurement of deformation; strain gages, lvdts, accelerometers, and associated circuits.  direct and indirect testing.  material behavior: experiments on anisotropic, damaged, and fluid-filled solids.","prereqInfo":null,"prereq":[]},{"code":"GEOE 5321","subject":"GEOE","id":"5321","title":"Geomechanics","info":"review of elasticity theory and solution of some elastic boundary value problems relevant to geomechanics.  wave propagation in unbounded elastic media.  elements of fracture mechanics and applications.  elements of poroelasticity and applications.","prereqInfo":null,"prereq":[]},{"code":"GEOE 5331","subject":"GEOE","id":"5331","title":"Geomech Modeling","info":"soil and rock response in triaxial testing; drained and undrained behavior; elastic and plastic properties.  modeling stresses, strains, and failure in geomechanics problems.","prereqInfo":null,"prereq":[]},{"code":"GEOE 5341","subject":"GEOE","id":"5341","title":"Wave Methods for NDT","info":"introduction to contemporary methods for nondestructive characterization of objects of civil infrastructure (e.g., highways, bridges, geotechnical sites). imaging technologies based on propagation of elastic waves: ultrasonic and resonant frequency methods, seismic surveys, acoustic emission monitoring. lecture, lab.","prereqInfo":null,"prereq":[]},{"code":"GEOE 8300","subject":"GEOE","id":"8300","title":"Geomech Seminar","info":"presentations on various topics.","prereqInfo":null,"prereq":[]},{"code":"GEOE 8301","subject":"GEOE","id":"8301","title":"Fracture Geomatls","info":"crack tip stress and displacement fields; stress intensity factors. energy \nprinciples of fracture; compliance method. process zone models. j integral. mixed-mode fracture. behavior of cracked solids. numerical and experimental approaches.","prereqInfo":null,"prereq":[]},{"code":"GEOE 8302","subject":"GEOE","id":"8302","title":"Soil Plasticity","info":"plasticity of soils and rocks. yield conditions, flow rules. theorems of limit analysis. static solutions, method of characteristics. kinematic solutions, hodograph. energy balance. applications to soil/rock engineering problems.","prereqInfo":null,"prereq":[]},{"code":"GEOE 8311","subject":"GEOE","id":"8311","title":"Adv Rock Mechanics","info":"stress transformations; principal stresses and directions. friction and behavior of rock joints; stability of frictional sliding. elastic waves; acoustic emission and seismic measurements. fragmentation and rock breakage.","prereqInfo":null,"prereq":[]},{"code":"GEOE 8321","subject":"GEOE","id":"8321","title":"Thermoporoelasticit","info":"micro-mechanical description of porous media. thermodynamics foundations. linear theory of thermoporoelasticity: constitutive, transport, and balance laws; field equations. determination of material constants. singular solutions. methods of solution: integral transform, method of singularities, finite and boundary element method.","prereqInfo":null,"prereq":[]},{"code":"GEOE 8322","subject":"GEOE","id":"8322","title":"Granular Materials","info":"plasticity of soils and rocks.  yield conditions, flow rules.  theorems of limit analysis.  static solutions, method of characteristics.  kinematic solutions, hodograph.  energy balance.  applications to soil/rock engineering problems.","prereqInfo":null,"prereq":[]},{"code":"GEOE 8331","subject":"GEOE","id":"8331","title":"Model Geomech Proc","info":"data-limited nature of problems in geomechanics. dimensional analysis.  regimes of solution. similarity solutions. elements of fracture mechanics, elastoplasticity, poroelasticity. geomechanical applications to stability of underground excavations, fluid flow in fracture, tool-rock interaction, hydraulic fracturing.","prereqInfo":null,"prereq":[]},{"code":"GEOE 8333","subject":"GEOE","id":"8333","title":"FTE: Master's","info":"(no description)","prereqInfo":null,"prereq":[]},{"code":"GEOE 8336","subject":"GEOE","id":"8336","title":"Boundary Elements I","info":"introduction to boundary element methods for elastostatics; stress discontinuity method; displacement discontinuity method; direct boundary integral method.  derivation of basic mathematical solutions from the theory of elasticity.  applications of boundary element methods in geomechanics.","prereqInfo":null,"prereq":[]},{"code":"GEOE 8337","subject":"GEOE","id":"8337","title":"Boundary Element II","info":"transient and nonlinear problems.","prereqInfo":null,"prereq":[]},{"code":"GEOE 8341","subject":"GEOE","id":"8341","title":"Dynamics of Soils","info":"vibration of single- and multi-degree-of-freedom systems. dynamic soil properties. wave propagation in continuous media. foundation dynamics.  liquefaction. introduction to seismology/earthquakes.","prereqInfo":null,"prereq":[]},{"code":"GEOE 8351","subject":"GEOE","id":"8351","title":"Analytical modeling in Civil","info":"two-dimensional problems. boundary integrals. theorems of gauss, stokes, green. superposition of solutions. boundary integral equation method. analytic element method. laplace's equation. biharmonic equation. linear elasticity. modified helmholtz equation. diffusion equation.","prereqInfo":null,"prereq":[]},{"code":"GEOE 8352","subject":"GEOE","id":"8352","title":"Adv Grndwtr Mech II","info":"applying complex methods, including conformal mapping, in groundwater mechanics; solving problems with free boundaries using the hodograph method; drains in aquifers with free boundaries; superposition of solutions with drains; singular cauchy integrals; boundary elements.","prereqInfo":null,"prereq":[]},{"code":"GEOE 8361","subject":"GEOE","id":"8361","title":"Eng Model Fitting","info":"parameter estimation and inverse modeling for civil and geological engineering. formulating engineering model fitting problems; comparing and selecting various fit criteria; implementing numerical algorithms; analyzing and interpreting results using both statistical and qualitative tools; designing future measurement plans.","prereqInfo":null,"prereq":[]},{"code":"GEOE 8444","subject":"GEOE","id":"8444","title":"FTE: Doctoral","info":"(no description)","prereqInfo":null,"prereq":[]},{"code":"GEOE 8666","subject":"GEOE","id":"8666","title":"Doct Pre-Thesis Cr*","info":"tbd","prereqInfo":null,"prereq":[]},{"code":"GEOE 8777","subject":"GEOE","id":"8777","title":"Thesis Credit:Mast*","info":"(no description)","prereqInfo":null,"prereq":[]},{"code":"GEOE 8888","subject":"GEOE","id":"8888","title":"Thesis Credit:Doct*","info":"(no description)","prereqInfo":null,"prereq":[]}]
+[
+  {
+    "code": "GEOE 3111",
+    "subject": "GEOE",
+    "id": "3111",
+    "title": "How to Model It",
+    "info": "problem formulation design and construction of models, and drawing conclusions from modeling results.  students learn how to use computer-based modeling tools working in small groups on a number of problems from various engineering contexts.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "GEOE 3301",
+    "subject": "GEOE",
+    "id": "3301",
+    "title": "Soil Mechanics I",
+    "info": "index properties and soil classification. effective stress. permeability and seepage. elasticity theory.  one-dimensional compression/consolidation, settlements.  compaction, cut/fill problems.",
+    "prereqInfo": "aem 3031, cse student",
+    "prereq": {
+      "code": "AEM 3031",
+      "subject": "AEM",
+      "id": "3031"
+    }
+  },
+  {
+    "code": "GEOE 3311",
+    "subject": "GEOE",
+    "id": "3311",
+    "title": "Rock Mechanics I",
+    "info": "classifications and index properties.  behavior of intact rock and rock masses.  failure criteria.  stereographic projections; kinematic analysis of rock slopes.  reinforcement.  foundations on rock.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {},
+  {
+    "code": "GEOE 4011",
+    "subject": "GEOE",
+    "id": "4011",
+    "title": "Special Topics",
+    "info": "topics, credits vary.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {},
+  {},
+  {
+    "code": "GEOE 4111",
+    "subject": "GEOE",
+    "id": "4111",
+    "title": "Systems Analysis",
+    "info": "systems analysis focuses on a broader \\\"systems\\\" approach of viewing problems.  the techniques of operations research--decision engineering, network analysis, simulation, linear programming, and expert systems--are used to represent systems, and especially to assess trade-offs.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "GEOE 4121",
+    "subject": "GEOE",
+    "id": "4121",
+    "title": "Computer Appl II",
+    "info": "application of computer tools/methods in solving ordinary and partial differential equations from civil engineering problems. spreadsheet, matlab programming. methods may include finite differences, boundary element, finite element, and control volume finite element.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {},
+  {
+    "code": "GEOE 4301",
+    "subject": "GEOE",
+    "id": "4301",
+    "title": "Soil Mechanics II",
+    "info": "traction/stress. mohr-coulomb failure criterion. experiments on soil strength. earth pressure theories, rigid/flexible retaining walls. stability of slopes. bearing capacity of foundations.",
+    "prereqInfo": "[[3301 or ce 3301], upper div cse] or instr consent",
+    "prereq": {
+      "or": [
+        {
+          "code": "GEOE 3301",
+          "subject": "GEOE",
+          "id": "3301"
+        },
+        {
+          "code": "CE 3301",
+          "subject": "CE",
+          "id": "3301"
+        }
+      ]
+    }
+  },
+  {
+    "code": "GEOE 4311",
+    "subject": "GEOE",
+    "id": "4311",
+    "title": "Rock Mechanics",
+    "info": "lab testing of rock. index properties/classification schemes. in-situ stresses. mechanical behavior of rock masses. mohr-coulomb failure criterion. stereographic projections. kinematic analysis of rock slopes. block size, three-dimensional slope stability. stress analysis of tunnels: lame/kirsch solutions. elasto-plastic response. rock-support interaction. numerical modeling of slopes/tunnels.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "GEOE 4341",
+    "subject": "GEOE",
+    "id": "4341",
+    "title": "Eng Geostatistics",
+    "info": "problem solving and decision making in civil and geological engineering using applied statistics. emphasis on spatially correlated data, e.g. geologic site characterization, and spatial sampling design.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "GEOE 4351",
+    "subject": "GEOE",
+    "id": "4351",
+    "title": "Groundwater Mech",
+    "info": "shallow confined, unconfined, and sem-confined flows. flow in two coupled aquifers separated by leaky layers. transient flow. flow toward wells. streamlines/pathlines in two/three dimensions. contaminant transport. elementary computer modeling.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "GEOE 4352",
+    "subject": "GEOE",
+    "id": "4352",
+    "title": "Groundwater Modeling",
+    "info": "analytic element method. mathematical/computer modeling of single/multiple aquifer systems. groundwater recovery. field problems. theory/application of simple contaminant transport models, including capture zone analysis.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "GEOE 5311",
+    "subject": "GEOE",
+    "id": "5311",
+    "title": "Experimental Geomechanics",
+    "info": "machine stiffness; closed-loop testing.  small-strain theory.  measurement of deformation; strain gages, lvdts, accelerometers, and associated circuits.  direct and indirect testing.  material behavior: experiments on anisotropic, damaged, and fluid-filled solids.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "GEOE 5321",
+    "subject": "GEOE",
+    "id": "5321",
+    "title": "Geomechanics",
+    "info": "review of elasticity theory and solution of some elastic boundary value problems relevant to geomechanics.  wave propagation in unbounded elastic media.  elements of fracture mechanics and applications.  elements of poroelasticity and applications.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "GEOE 5331",
+    "subject": "GEOE",
+    "id": "5331",
+    "title": "Geomech Modeling",
+    "info": "soil and rock response in triaxial testing; drained and undrained behavior; elastic and plastic properties.  modeling stresses, strains, and failure in geomechanics problems.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "GEOE 5341",
+    "subject": "GEOE",
+    "id": "5341",
+    "title": "Wave Methods for NDT",
+    "info": "introduction to contemporary methods for nondestructive characterization of objects of civil infrastructure (e.g., highways, bridges, geotechnical sites). imaging technologies based on propagation of elastic waves: ultrasonic and resonant frequency methods, seismic surveys, acoustic emission monitoring. lecture, lab.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "GEOE 8300",
+    "subject": "GEOE",
+    "id": "8300",
+    "title": "Geomech Seminar",
+    "info": "presentations on various topics.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "GEOE 8301",
+    "subject": "GEOE",
+    "id": "8301",
+    "title": "Fracture Geomatls",
+    "info": "crack tip stress and displacement fields; stress intensity factors. energy \nprinciples of fracture; compliance method. process zone models. j integral. mixed-mode fracture. behavior of cracked solids. numerical and experimental approaches.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "GEOE 8302",
+    "subject": "GEOE",
+    "id": "8302",
+    "title": "Soil Plasticity",
+    "info": "plasticity of soils and rocks. yield conditions, flow rules. theorems of limit analysis. static solutions, method of characteristics. kinematic solutions, hodograph. energy balance. applications to soil/rock engineering problems.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "GEOE 8311",
+    "subject": "GEOE",
+    "id": "8311",
+    "title": "Adv Rock Mechanics",
+    "info": "stress transformations; principal stresses and directions. friction and behavior of rock joints; stability of frictional sliding. elastic waves; acoustic emission and seismic measurements. fragmentation and rock breakage.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "GEOE 8321",
+    "subject": "GEOE",
+    "id": "8321",
+    "title": "Thermoporoelasticit",
+    "info": "micro-mechanical description of porous media. thermodynamics foundations. linear theory of thermoporoelasticity: constitutive, transport, and balance laws; field equations. determination of material constants. singular solutions. methods of solution: integral transform, method of singularities, finite and boundary element method.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "GEOE 8322",
+    "subject": "GEOE",
+    "id": "8322",
+    "title": "Granular Materials",
+    "info": "plasticity of soils and rocks.  yield conditions, flow rules.  theorems of limit analysis.  static solutions, method of characteristics.  kinematic solutions, hodograph.  energy balance.  applications to soil/rock engineering problems.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "GEOE 8331",
+    "subject": "GEOE",
+    "id": "8331",
+    "title": "Model Geomech Proc",
+    "info": "data-limited nature of problems in geomechanics. dimensional analysis.  regimes of solution. similarity solutions. elements of fracture mechanics, elastoplasticity, poroelasticity. geomechanical applications to stability of underground excavations, fluid flow in fracture, tool-rock interaction, hydraulic fracturing.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "GEOE 8333",
+    "subject": "GEOE",
+    "id": "8333",
+    "title": "FTE: Master's",
+    "info": "(no description)",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "GEOE 8336",
+    "subject": "GEOE",
+    "id": "8336",
+    "title": "Boundary Elements I",
+    "info": "introduction to boundary element methods for elastostatics; stress discontinuity method; displacement discontinuity method; direct boundary integral method.  derivation of basic mathematical solutions from the theory of elasticity.  applications of boundary element methods in geomechanics.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "GEOE 8337",
+    "subject": "GEOE",
+    "id": "8337",
+    "title": "Boundary Element II",
+    "info": "transient and nonlinear problems.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "GEOE 8341",
+    "subject": "GEOE",
+    "id": "8341",
+    "title": "Dynamics of Soils",
+    "info": "vibration of single- and multi-degree-of-freedom systems. dynamic soil properties. wave propagation in continuous media. foundation dynamics.  liquefaction. introduction to seismology/earthquakes.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "GEOE 8351",
+    "subject": "GEOE",
+    "id": "8351",
+    "title": "Analytical modeling in Civil",
+    "info": "two-dimensional problems. boundary integrals. theorems of gauss, stokes, green. superposition of solutions. boundary integral equation method. analytic element method. laplace's equation. biharmonic equation. linear elasticity. modified helmholtz equation. diffusion equation.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "GEOE 8352",
+    "subject": "GEOE",
+    "id": "8352",
+    "title": "Adv Grndwtr Mech II",
+    "info": "applying complex methods, including conformal mapping, in groundwater mechanics; solving problems with free boundaries using the hodograph method; drains in aquifers with free boundaries; superposition of solutions with drains; singular cauchy integrals; boundary elements.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "GEOE 8361",
+    "subject": "GEOE",
+    "id": "8361",
+    "title": "Eng Model Fitting",
+    "info": "parameter estimation and inverse modeling for civil and geological engineering. formulating engineering model fitting problems; comparing and selecting various fit criteria; implementing numerical algorithms; analyzing and interpreting results using both statistical and qualitative tools; designing future measurement plans.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "GEOE 8444",
+    "subject": "GEOE",
+    "id": "8444",
+    "title": "FTE: Doctoral",
+    "info": "(no description)",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "GEOE 8666",
+    "subject": "GEOE",
+    "id": "8666",
+    "title": "Doct Pre-Thesis Cr*",
+    "info": "tbd",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "GEOE 8777",
+    "subject": "GEOE",
+    "id": "8777",
+    "title": "Thesis Credit:Mast*",
+    "info": "(no description)",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "GEOE 8888",
+    "subject": "GEOE",
+    "id": "8888",
+    "title": "Thesis Credit:Doct*",
+    "info": "(no description)",
+    "prereqInfo": null,
+    "prereq": []
+  }
+]

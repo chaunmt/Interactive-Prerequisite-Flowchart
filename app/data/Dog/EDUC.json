@@ -1,1 +1,55 @@
-[{"code":"EDUC 8333","subject":"EDUC","id":"8333","title":"FTE: Master's","info":"(no description)","prereqInfo":"master's student, adviser and dgs consent","prereq":[]},{"code":"EDUC 8444","subject":"EDUC","id":"8444","title":"FTE: Doctoral","info":"(no description)","prereqInfo":"doctoral student, adviser and dgs consent","prereq":[]},{"code":"EDUC 8666","subject":"EDUC","id":"8666","title":"Doct Pre-Thesis Cr*","info":"tbd","prereqInfo":"doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr","prereq":{"code":"EDUC 60","subject":"EDUC","id":"60"}},{"code":"EDUC 8777","subject":"EDUC","id":"8777","title":"Thesis Credit:Mast*","info":"(no description)","prereqInfo":"max 18 cr per semester or summer; 10 cr total required [plan a only]","prereq":{"code":"EDUC 10","subject":"EDUC","id":"10"}},{"code":"EDUC 8888","subject":"EDUC","id":"8888","title":"Thesis Credit:Doct*","info":"(no description)","prereqInfo":"max 18 cr per semester or summer; 24 cr required","prereq":{}}]
+[
+  {
+    "code": "EDUC 8333",
+    "subject": "EDUC",
+    "id": "8333",
+    "title": "FTE: Master's",
+    "info": "(no description)",
+    "prereqInfo": "master's student, adviser and dgs consent",
+    "prereq": []
+  },
+  {
+    "code": "EDUC 8444",
+    "subject": "EDUC",
+    "id": "8444",
+    "title": "FTE: Doctoral",
+    "info": "(no description)",
+    "prereqInfo": "doctoral student, adviser and dgs consent",
+    "prereq": []
+  },
+  {
+    "code": "EDUC 8666",
+    "subject": "EDUC",
+    "id": "8666",
+    "title": "Doct Pre-Thesis Cr*",
+    "info": "tbd",
+    "prereqInfo": "doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
+    "prereq": {
+      "code": "EDUC 60",
+      "subject": "EDUC",
+      "id": "60"
+    }
+  },
+  {
+    "code": "EDUC 8777",
+    "subject": "EDUC",
+    "id": "8777",
+    "title": "Thesis Credit:Mast*",
+    "info": "(no description)",
+    "prereqInfo": "max 18 cr per semester or summer; 10 cr total required [plan a only]",
+    "prereq": {
+      "code": "EDUC 10",
+      "subject": "EDUC",
+      "id": "10"
+    }
+  },
+  {
+    "code": "EDUC 8888",
+    "subject": "EDUC",
+    "id": "8888",
+    "title": "Thesis Credit:Doct*",
+    "info": "(no description)",
+    "prereqInfo": "max 18 cr per semester or summer; 24 cr required",
+    "prereq": {}
+  }
+]

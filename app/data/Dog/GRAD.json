@@ -1,1 +1,91 @@
-[{"code":"GRAD 5102","subject":"GRAD","id":"5102","title":"Prep Univ Tchg NN Eng Spkrs","info":"theory/practice of teaching in higher education in the united states. emphasizes clear oral classroom communication and development of presentation skills. students practice in a simulated instructional setting.","prereqInfo":"english language proficiency rating of 4; contact cei@umn.edu for permission number.","prereq":[]},{"code":"GRAD 5105","subject":"GRAD","id":"5105","title":"Prac Univ Tchg NN Spkrs","info":"theory, advanced practice in teaching in higher education for nonnative speakers of english. emphasizes interactive teaching strategies, awareness of cross-cultural classroom issues,oral classroom presentation skills, and legal/policy issues.","prereqInfo":"5102 or english language proficiency rating of 2; contact cei@umn.edu for permission number.","prereq":{"code":"GRAD 5102","subject":"GRAD","id":"5102"}},{"code":"GRAD 8101","subject":"GRAD","id":"8101","title":"Teaching in Higher Education","info":"teaching methods/techniques. active learning, critical thinking, practice teaching, and preparing a portfolio to document/reflect upon teaching. readings, discussion, peer teaching, e-mail dialog, reflective writing, co-facilitation of course.","prereqInfo":"non-degree students: contact pffcollege consentumn.edu with questions about registration. if adding a section after first class meeting, contact your instructor as soon as you enroll.","prereq":[]},{"code":"GRAD 8102","subject":"GRAD","id":"8102","title":"Practicum for Future Faculty","info":"collegial support for teaching, faculty mentorship at regional college or university. faculty role at various institutions. classroom observation/feedback, preparation for academic job search.","prereqInfo":"[8101 or equiv], [native english speaker or [ibtoefl score of 27-30] or [elp score of 1 from ctl]]","prereq":{"and":[{"code":"GRAD 8101","subject":"GRAD","id":"8101"},{"code":"GRAD 30","subject":"GRAD","id":"30"}]}},{"code":"GRAD 8200","subject":"GRAD","id":"8200","title":"Teaching/Learning in Higher Ed","info":"create course materials for context/discipline. assess student learning. write action plan. topics may include active learning in sciences, teaching with technology, multicultural education, teaching in clinical settings, learning-community course design.","prereqInfo":null,"prereq":[]},{"code":"GRAD 8400","subject":"GRAD","id":"8400","title":"Interdiscipl Diss Writing Sem","info":"led by graduate faculty. for course description, see sponsoring program(s).","prereqInfo":"phd student, instr consent","prereq":[]},{"code":"GRAD 8401","subject":"GRAD","id":"8401","title":"DPD Seminar","info":"this seminar is the culminating component of intensive work on dissertation proposal development. the program involves a five-day spring workshop, independent summer research, a five-day fall workshop, and opportunities for on-going interactions with the cohort and with faculty instructors. the work is designed to help participants develop cogent and fundable dissertation research proposals.\n\nthe main goal of the spring workshop is to help clarify students research questions and scope as well as to better prepare them for a productive predissertation summer research experience.\n\nthe fall workshop is intended to help students build on their spring workshop efforts and summer research experiences to prepare full dissertation research proposals. these proposals are intended to serve as the foundation for department prospectus requirements and for internal and external dissertation research and completion grants.\n\nall components of the program are required though registration is only for the fall seminar. admission will be based on application in the prior year and requires a commitment to participate in all components of the program. \n\na grade of satisfactory will be based on attendance at and satisfactory performance in all of the spring and fall workshops, demonstrated completion of independent research over the summer, and the submission of a dissertation research proposal as part of the fall workshop.\n\nstudents must be enrolled in a doctoral degree program, must be pre-abd (may not have passed the prelim oral exam), and have advisor approval.","prereqInfo":"phd student who has not passed prelim oral exams","prereq":[]},{"code":"GRAD 999","subject":"GRAD","id":"999","title":"Graduate Active Status","info":"graduate active status.","prereqInfo":"grad student","prereq":[]}]
+[
+  {
+    "code": "GRAD 5102",
+    "subject": "GRAD",
+    "id": "5102",
+    "title": "Prep Univ Tchg NN Eng Spkrs",
+    "info": "theory/practice of teaching in higher education in the united states. emphasizes clear oral classroom communication and development of presentation skills. students practice in a simulated instructional setting.",
+    "prereqInfo": "english language proficiency rating of 4; contact cei@umn.edu for permission number.",
+    "prereq": []
+  },
+  {
+    "code": "GRAD 5105",
+    "subject": "GRAD",
+    "id": "5105",
+    "title": "Prac Univ Tchg NN Spkrs",
+    "info": "theory, advanced practice in teaching in higher education for nonnative speakers of english. emphasizes interactive teaching strategies, awareness of cross-cultural classroom issues,oral classroom presentation skills, and legal/policy issues.",
+    "prereqInfo": "5102 or english language proficiency rating of 2; contact cei@umn.edu for permission number.",
+    "prereq": {
+      "code": "GRAD 5102",
+      "subject": "GRAD",
+      "id": "5102"
+    }
+  },
+  {
+    "code": "GRAD 8101",
+    "subject": "GRAD",
+    "id": "8101",
+    "title": "Teaching in Higher Education",
+    "info": "teaching methods/techniques. active learning, critical thinking, practice teaching, and preparing a portfolio to document/reflect upon teaching. readings, discussion, peer teaching, e-mail dialog, reflective writing, co-facilitation of course.",
+    "prereqInfo": "non-degree students: contact pffcollege consentumn.edu with questions about registration. if adding a section after first class meeting, contact your instructor as soon as you enroll.",
+    "prereq": []
+  },
+  {
+    "code": "GRAD 8102",
+    "subject": "GRAD",
+    "id": "8102",
+    "title": "Practicum for Future Faculty",
+    "info": "collegial support for teaching, faculty mentorship at regional college or university. faculty role at various institutions. classroom observation/feedback, preparation for academic job search.",
+    "prereqInfo": "[8101 or equiv], [native english speaker or [ibtoefl score of 27-30] or [elp score of 1 from ctl]]",
+    "prereq": {
+      "and": [
+        {
+          "code": "GRAD 8101",
+          "subject": "GRAD",
+          "id": "8101"
+        },
+        {
+          "code": "GRAD 30",
+          "subject": "GRAD",
+          "id": "30"
+        }
+      ]
+    }
+  },
+  {
+    "code": "GRAD 8200",
+    "subject": "GRAD",
+    "id": "8200",
+    "title": "Teaching/Learning in Higher Ed",
+    "info": "create course materials for context/discipline. assess student learning. write action plan. topics may include active learning in sciences, teaching with technology, multicultural education, teaching in clinical settings, learning-community course design.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "GRAD 8400",
+    "subject": "GRAD",
+    "id": "8400",
+    "title": "Interdiscipl Diss Writing Sem",
+    "info": "led by graduate faculty. for course description, see sponsoring program(s).",
+    "prereqInfo": "phd student, instr consent",
+    "prereq": []
+  },
+  {
+    "code": "GRAD 8401",
+    "subject": "GRAD",
+    "id": "8401",
+    "title": "DPD Seminar",
+    "info": "this seminar is the culminating component of intensive work on dissertation proposal development. the program involves a five-day spring workshop, independent summer research, a five-day fall workshop, and opportunities for on-going interactions with the cohort and with faculty instructors. the work is designed to help participants develop cogent and fundable dissertation research proposals.\n\nthe main goal of the spring workshop is to help clarify students research questions and scope as well as to better prepare them for a productive predissertation summer research experience.\n\nthe fall workshop is intended to help students build on their spring workshop efforts and summer research experiences to prepare full dissertation research proposals. these proposals are intended to serve as the foundation for department prospectus requirements and for internal and external dissertation research and completion grants.\n\nall components of the program are required though registration is only for the fall seminar. admission will be based on application in the prior year and requires a commitment to participate in all components of the program. \n\na grade of satisfactory will be based on attendance at and satisfactory performance in all of the spring and fall workshops, demonstrated completion of independent research over the summer, and the submission of a dissertation research proposal as part of the fall workshop.\n\nstudents must be enrolled in a doctoral degree program, must be pre-abd (may not have passed the prelim oral exam), and have advisor approval.",
+    "prereqInfo": "phd student who has not passed prelim oral exams",
+    "prereq": []
+  },
+  {
+    "code": "GRAD 999",
+    "subject": "GRAD",
+    "id": "999",
+    "title": "Graduate Active Status",
+    "info": "graduate active status.",
+    "prereqInfo": "grad student",
+    "prereq": []
+  }
+]

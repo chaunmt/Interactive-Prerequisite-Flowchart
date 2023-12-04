@@ -1,1 +1,33 @@
-[{"code":"NPSE 8001","subject":"NPSE","id":"8001","title":"Intro. to Nano. Sci. and Eng.","info":"a broad, interdisciplinary overview of the emerging field of nanoparticle science and engineering. this introductory course, designed for students with diverse backgrounds in science and engineering, covers a wide spectrum of topics--from the synthesis of nanoparticles, to nanoparticle growth and transport, to characterization methods for nanoparticles, to novel nanoparticle-based materials and devices.","prereqInfo":null,"prereq":[]},{"code":"NPSE 8002","subject":"NPSE","id":"8002","title":"Nanoparticle Sci and Eng. Lab.","info":"practical exposure to computational and experimental techniques in nanoparticle research. required for ph.d. students minoring in nanoparticle science and engineering.","prereqInfo":"8001, [cse grad student or instr consent","prereq":{"code":"NPSE 8001","subject":"NPSE","id":"8001"}},{"code":"NPSE 8101","subject":"NPSE","id":"8101","title":"Nanoparticle Sci.and Eng. Sem.","info":"broad overview of current research in nanoparticle science and engineering. topics include areas of nanoparticle synthesis, nanoparticles characterization, nanoparticle-based materials and devices, environmental impact of nanoparticles, and instrumentation for nanoparticle research. speakers from the university of minnesota as well as external experts.","prereqInfo":"cse grad student or","prereq":[]}]
+[
+  {
+    "code": "NPSE 8001",
+    "subject": "NPSE",
+    "id": "8001",
+    "title": "Intro. to Nano. Sci. and Eng.",
+    "info": "a broad, interdisciplinary overview of the emerging field of nanoparticle science and engineering. this introductory course, designed for students with diverse backgrounds in science and engineering, covers a wide spectrum of topics--from the synthesis of nanoparticles, to nanoparticle growth and transport, to characterization methods for nanoparticles, to novel nanoparticle-based materials and devices.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "NPSE 8002",
+    "subject": "NPSE",
+    "id": "8002",
+    "title": "Nanoparticle Sci and Eng. Lab.",
+    "info": "practical exposure to computational and experimental techniques in nanoparticle research. required for ph.d. students minoring in nanoparticle science and engineering.",
+    "prereqInfo": "8001, [cse grad student or instr consent",
+    "prereq": {
+      "code": "NPSE 8001",
+      "subject": "NPSE",
+      "id": "8001"
+    }
+  },
+  {
+    "code": "NPSE 8101",
+    "subject": "NPSE",
+    "id": "8101",
+    "title": "Nanoparticle Sci.and Eng. Sem.",
+    "info": "broad overview of current research in nanoparticle science and engineering. topics include areas of nanoparticle synthesis, nanoparticles characterization, nanoparticle-based materials and devices, environmental impact of nanoparticles, and instrumentation for nanoparticle research. speakers from the university of minnesota as well as external experts.",
+    "prereqInfo": "cse grad student or",
+    "prereq": []
+  }
+]

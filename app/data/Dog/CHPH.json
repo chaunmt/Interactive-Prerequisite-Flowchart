@@ -1,1 +1,82 @@
-[{"code":"CHPH 8081","subject":"CHPH","id":"8081","title":"M.S. Plan B Proj. I","info":"topic arranged by student adviser. written report required.","prereqInfo":"grad chem phys major","prereq":[]},{"code":"CHPH 8082","subject":"CHPH","id":"8082","title":"M.S. Plan B Proj. II","info":"topic arranged by student adviser. written report required.","prereqInfo":"grad chem phys major","prereq":[]},{"code":"CHPH 8333","subject":"CHPH","id":"8333","title":"FTE: Master's","info":"(no description)","prereqInfo":"master's student, adviser and dgs consent","prereq":[]},{"code":"CHPH 8444","subject":"CHPH","id":"8444","title":"FTE: Doctoral","info":"(no description)","prereqInfo":"doctoral student, adviser and dgs consent","prereq":[]},{"code":"CHPH 8601","subject":"CHPH","id":"8601","title":"Seminar - Chemical Physics","info":"topics in chemical physics.","prereqInfo":"grad chem physics major or instr consent","prereq":[]},{"code":"CHPH 8666","subject":"CHPH","id":"8666","title":"Doct Pre-Thesis Cr*","info":"tbd","prereqInfo":"doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr","prereq":{"code":"CHPH 60","subject":"CHPH","id":"60"}},{"code":"CHPH 8777","subject":"CHPH","id":"8777","title":"Thesis Credit:Mast*","info":"(no description)","prereqInfo":"max 18 cr per semester or summer; 10 cr total required [plan a only]","prereq":{"code":"CHPH 10","subject":"CHPH","id":"10"}},{"code":"CHPH 8888","subject":"CHPH","id":"8888","title":"Thesis Credit:Doct*","info":"(no description)","prereqInfo":"max 18 cr per semester or summer; 24 cr required","prereq":{}}]
+[
+  {
+    "code": "CHPH 8081",
+    "subject": "CHPH",
+    "id": "8081",
+    "title": "M.S. Plan B Proj. I",
+    "info": "topic arranged by student adviser. written report required.",
+    "prereqInfo": "grad chem phys major",
+    "prereq": []
+  },
+  {
+    "code": "CHPH 8082",
+    "subject": "CHPH",
+    "id": "8082",
+    "title": "M.S. Plan B Proj. II",
+    "info": "topic arranged by student adviser. written report required.",
+    "prereqInfo": "grad chem phys major",
+    "prereq": []
+  },
+  {
+    "code": "CHPH 8333",
+    "subject": "CHPH",
+    "id": "8333",
+    "title": "FTE: Master's",
+    "info": "(no description)",
+    "prereqInfo": "master's student, adviser and dgs consent",
+    "prereq": []
+  },
+  {
+    "code": "CHPH 8444",
+    "subject": "CHPH",
+    "id": "8444",
+    "title": "FTE: Doctoral",
+    "info": "(no description)",
+    "prereqInfo": "doctoral student, adviser and dgs consent",
+    "prereq": []
+  },
+  {
+    "code": "CHPH 8601",
+    "subject": "CHPH",
+    "id": "8601",
+    "title": "Seminar - Chemical Physics",
+    "info": "topics in chemical physics.",
+    "prereqInfo": "grad chem physics major or instr consent",
+    "prereq": []
+  },
+  {
+    "code": "CHPH 8666",
+    "subject": "CHPH",
+    "id": "8666",
+    "title": "Doct Pre-Thesis Cr*",
+    "info": "tbd",
+    "prereqInfo": "doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
+    "prereq": {
+      "code": "CHPH 60",
+      "subject": "CHPH",
+      "id": "60"
+    }
+  },
+  {
+    "code": "CHPH 8777",
+    "subject": "CHPH",
+    "id": "8777",
+    "title": "Thesis Credit:Mast*",
+    "info": "(no description)",
+    "prereqInfo": "max 18 cr per semester or summer; 10 cr total required [plan a only]",
+    "prereq": {
+      "code": "CHPH 10",
+      "subject": "CHPH",
+      "id": "10"
+    }
+  },
+  {
+    "code": "CHPH 8888",
+    "subject": "CHPH",
+    "id": "8888",
+    "title": "Thesis Credit:Doct*",
+    "info": "(no description)",
+    "prereqInfo": "max 18 cr per semester or summer; 24 cr required",
+    "prereq": {}
+  }
+]

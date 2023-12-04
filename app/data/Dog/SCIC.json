@@ -1,1 +1,145 @@
-[{"code":"SCIC 8001","subject":"SCIC","id":"8001","title":"Parall Hi Perf Comp","info":"interdisciplinary overview of computer science aspects of scientific computation, both hardware and techniques. parallel computing, architectures, programming, and algorithms; restructuring compilers and data structures.","prereqInfo":"undergrad degree in field using sci comp or instr consent","prereq":[]},{"code":"SCIC 8011","subject":"SCIC","id":"8011","title":"Sci Visualization","info":"basic issues in scientific visualization, visualization software, graphics, representation of scientific data, modeling, hardware for visualization, user interface techniques, output, commonly used algorithms and techniques for visualization, animation, information visualization, higher dimensional data, case studies, and examples of successful visualizations.","prereqInfo":"undergrad degree in field using sci comp or instr consent","prereq":[]},{"code":"SCIC 8021","subject":"SCIC","id":"8021","title":"Adv Numeric Methods","info":"interdisciplinary overview of advanced numerical methods of scientific computation, emphasizing computational aspects. approximation methods for partial differential equations, numerical linear algebra, sparse matrix techniques, iterative methods, solution of eigenvalue problems, and case studies.","prereqInfo":"undergrad degree in field using sci comp or instr consent","prereq":[]},{"code":"SCIC 8031","subject":"SCIC","id":"8031","title":"Modeling Optim Stat","info":"interdisciplinary overview of mathematical modeling, optimization, and statistics techniques for scientific computation. nonlinear equations and nonlinear optimization, statistics, control theory, modeling, and simulation.","prereqInfo":"undergrad degree in field using sci comp or instr consent","prereq":[]},{"code":"SCIC 8041","subject":"SCIC","id":"8041","title":"Comp Finite Methods","info":"fundamental concepts and techniques of finite element analysis. variational equations and galerkin's method; weak formulations for problems with nonsymmetric differential operators; petrov-galerkin methods; examples from solid and fluid mechanics; properties of standard finite element families, implementation.","prereqInfo":"undergrad degree in field using sci comp or it grad student or instr consent","prereq":[]},{"code":"SCIC 8095","subject":"SCIC","id":"8095","title":"Problems in SciC","info":"selected topics in interdisciplinary aspects of scientific computing.","prereqInfo":"undergrad degree in field using sci comp or instr consent","prereq":[]},{"code":"SCIC 8190","subject":"SCIC","id":"8190","title":"Supercomp Res Sem","info":"series of seminars by distinguished lecturers.","prereqInfo":"undergrad degree in field using sci comp or instr consent","prereq":[]},{"code":"SCIC 8253","subject":"SCIC","id":"8253","title":"Comp. Nanomechanics","info":"fundamentals of mechanical properties in nanometer scale. role of discrete structure and underlying atomic, molecular, and interfacial forces are illustrated with modern examples. overview of computational atomistic methods. lectures, hands-on computing using publicly available or personally developed scientific software packages.","prereqInfo":"cse graduate student","prereq":[]},{"code":"SCIC 8333","subject":"SCIC","id":"8333","title":"FTE: Master's","info":"(no description)","prereqInfo":"master's student, adviser and dgs consent","prereq":[]},{"code":"SCIC 8444","subject":"SCIC","id":"8444","title":"FTE: Doctoral","info":"(no description)","prereqInfo":"doctoral student, adviser and dgs consent","prereq":[]},{"code":"SCIC 8551","subject":"SCIC","id":"8551","title":"Multiscale Methods","info":"classical/emerging techniques for bridging length/time scales. nonlinear thermoelasticity, viscous fluids, and micromagnetics from macro/atomic viewpoints. statistical mechanics, kinetic theory of gases, weak convergence methods, quasicontinuum, effective hamiltonians, md, new methods for bridging time scales.","prereqInfo":"basic knowledge of [continuum mechanics, atomic forces], familiarity with partial differential equations, grad student in [engineering or mathematics or physics or scientific computation]","prereq":[]},{"code":"SCIC 8594","subject":"SCIC","id":"8594","title":"Directed Research","info":"tbd","prereqInfo":"undergrad degree in field using sci comp or instr consent","prereq":[]},{"code":"SCIC 8666","subject":"SCIC","id":"8666","title":"Doct Pre-Thesis Cr","info":"tbd","prereqInfo":"doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr","prereq":{"code":"SCIC 60","subject":"SCIC","id":"60"}},{"code":"SCIC 8777","subject":"SCIC","id":"8777","title":"Thesis Credit:Mast*","info":"(no description)","prereqInfo":"max 18 cr per semester or summer; 10 cr total required [plan a only]","prereq":{"code":"SCIC 10","subject":"SCIC","id":"10"}},{"code":"SCIC 8888","subject":"SCIC","id":"8888","title":"Thesis Credit:Doct*","info":"(no description)","prereqInfo":"max 18 cr per semester or summer; 24 cr required","prereq":{}}]
+[
+  {
+    "code": "SCIC 8001",
+    "subject": "SCIC",
+    "id": "8001",
+    "title": "Parall Hi Perf Comp",
+    "info": "interdisciplinary overview of computer science aspects of scientific computation, both hardware and techniques. parallel computing, architectures, programming, and algorithms; restructuring compilers and data structures.",
+    "prereqInfo": "undergrad degree in field using sci comp or instr consent",
+    "prereq": []
+  },
+  {
+    "code": "SCIC 8011",
+    "subject": "SCIC",
+    "id": "8011",
+    "title": "Sci Visualization",
+    "info": "basic issues in scientific visualization, visualization software, graphics, representation of scientific data, modeling, hardware for visualization, user interface techniques, output, commonly used algorithms and techniques for visualization, animation, information visualization, higher dimensional data, case studies, and examples of successful visualizations.",
+    "prereqInfo": "undergrad degree in field using sci comp or instr consent",
+    "prereq": []
+  },
+  {
+    "code": "SCIC 8021",
+    "subject": "SCIC",
+    "id": "8021",
+    "title": "Adv Numeric Methods",
+    "info": "interdisciplinary overview of advanced numerical methods of scientific computation, emphasizing computational aspects. approximation methods for partial differential equations, numerical linear algebra, sparse matrix techniques, iterative methods, solution of eigenvalue problems, and case studies.",
+    "prereqInfo": "undergrad degree in field using sci comp or instr consent",
+    "prereq": []
+  },
+  {
+    "code": "SCIC 8031",
+    "subject": "SCIC",
+    "id": "8031",
+    "title": "Modeling Optim Stat",
+    "info": "interdisciplinary overview of mathematical modeling, optimization, and statistics techniques for scientific computation. nonlinear equations and nonlinear optimization, statistics, control theory, modeling, and simulation.",
+    "prereqInfo": "undergrad degree in field using sci comp or instr consent",
+    "prereq": []
+  },
+  {
+    "code": "SCIC 8041",
+    "subject": "SCIC",
+    "id": "8041",
+    "title": "Comp Finite Methods",
+    "info": "fundamental concepts and techniques of finite element analysis. variational equations and galerkin's method; weak formulations for problems with nonsymmetric differential operators; petrov-galerkin methods; examples from solid and fluid mechanics; properties of standard finite element families, implementation.",
+    "prereqInfo": "undergrad degree in field using sci comp or it grad student or instr consent",
+    "prereq": []
+  },
+  {
+    "code": "SCIC 8095",
+    "subject": "SCIC",
+    "id": "8095",
+    "title": "Problems in SciC",
+    "info": "selected topics in interdisciplinary aspects of scientific computing.",
+    "prereqInfo": "undergrad degree in field using sci comp or instr consent",
+    "prereq": []
+  },
+  {
+    "code": "SCIC 8190",
+    "subject": "SCIC",
+    "id": "8190",
+    "title": "Supercomp Res Sem",
+    "info": "series of seminars by distinguished lecturers.",
+    "prereqInfo": "undergrad degree in field using sci comp or instr consent",
+    "prereq": []
+  },
+  {
+    "code": "SCIC 8253",
+    "subject": "SCIC",
+    "id": "8253",
+    "title": "Comp. Nanomechanics",
+    "info": "fundamentals of mechanical properties in nanometer scale. role of discrete structure and underlying atomic, molecular, and interfacial forces are illustrated with modern examples. overview of computational atomistic methods. lectures, hands-on computing using publicly available or personally developed scientific software packages.",
+    "prereqInfo": "cse graduate student",
+    "prereq": []
+  },
+  {
+    "code": "SCIC 8333",
+    "subject": "SCIC",
+    "id": "8333",
+    "title": "FTE: Master's",
+    "info": "(no description)",
+    "prereqInfo": "master's student, adviser and dgs consent",
+    "prereq": []
+  },
+  {
+    "code": "SCIC 8444",
+    "subject": "SCIC",
+    "id": "8444",
+    "title": "FTE: Doctoral",
+    "info": "(no description)",
+    "prereqInfo": "doctoral student, adviser and dgs consent",
+    "prereq": []
+  },
+  {
+    "code": "SCIC 8551",
+    "subject": "SCIC",
+    "id": "8551",
+    "title": "Multiscale Methods",
+    "info": "classical/emerging techniques for bridging length/time scales. nonlinear thermoelasticity, viscous fluids, and micromagnetics from macro/atomic viewpoints. statistical mechanics, kinetic theory of gases, weak convergence methods, quasicontinuum, effective hamiltonians, md, new methods for bridging time scales.",
+    "prereqInfo": "basic knowledge of [continuum mechanics, atomic forces], familiarity with partial differential equations, grad student in [engineering or mathematics or physics or scientific computation]",
+    "prereq": []
+  },
+  {
+    "code": "SCIC 8594",
+    "subject": "SCIC",
+    "id": "8594",
+    "title": "Directed Research",
+    "info": "tbd",
+    "prereqInfo": "undergrad degree in field using sci comp or instr consent",
+    "prereq": []
+  },
+  {
+    "code": "SCIC 8666",
+    "subject": "SCIC",
+    "id": "8666",
+    "title": "Doct Pre-Thesis Cr",
+    "info": "tbd",
+    "prereqInfo": "doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
+    "prereq": {
+      "code": "SCIC 60",
+      "subject": "SCIC",
+      "id": "60"
+    }
+  },
+  {
+    "code": "SCIC 8777",
+    "subject": "SCIC",
+    "id": "8777",
+    "title": "Thesis Credit:Mast*",
+    "info": "(no description)",
+    "prereqInfo": "max 18 cr per semester or summer; 10 cr total required [plan a only]",
+    "prereq": {
+      "code": "SCIC 10",
+      "subject": "SCIC",
+      "id": "10"
+    }
+  },
+  {
+    "code": "SCIC 8888",
+    "subject": "SCIC",
+    "id": "8888",
+    "title": "Thesis Credit:Doct*",
+    "info": "(no description)",
+    "prereqInfo": "max 18 cr per semester or summer; 24 cr required",
+    "prereq": {}
+  }
+]
