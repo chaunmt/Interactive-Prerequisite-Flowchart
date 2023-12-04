@@ -131,12 +131,12 @@ function filterDuplicate(item) {
   // Traverse through 'and' array, 'or' array
   if (item.and) {
     let filteredItem = filterDuplicate(item.and)
-    if (!filteredItem) return {}
+    if (!filteredItem) return null
     return { and: filterDuplicate(item.and) }
   }
   if (item.or) {
     let filteredItem = filterDuplicate(item.or)
-    if (!filteredItem) return {}
+    if (!filteredItem) return null
     return { or: filterDuplicate(item.or) }
   }
 
@@ -204,7 +204,7 @@ function filterNull(item) {
   if (item.or) return { or: filterNull(item.or) }
 
   // If item is not an array, it is null
-  if (!item.length) return {}
+  if (!item.length) return null
 
   // Recursively handle nested arrays
   let i = 0
@@ -351,7 +351,7 @@ function exportDogs(SUBJECT) {
     .then(res => res.json())
     .then(data => {
 
-      let courses = data.data.map(
+      let courses = filterNull(data.data.map(
         (course) => {
 
           let descrip = course.description.toLowerCase()
@@ -367,7 +367,7 @@ function exportDogs(SUBJECT) {
           info = descrip.split(splitPattern)
 
           const prereq = info[1] ? filterPrereq(info[1], course.subjectCode, course.courseNumber) : []
-          if (course.courseNumber.includes('H') || course.courseNumber.includes('V')) return {}
+          if (course.courseNumber.includes('H') || course.courseNumber.includes('V')) return null
 
           return {
             code: course.subjectCode + ' ' + course.courseNumber,
@@ -379,7 +379,7 @@ function exportDogs(SUBJECT) {
             prereq: prereq || []
           }
         }
-      )
+      ))
 
       fs.writeFile(filePath + fileName, JSON.stringify(courses),
         (error) => {
@@ -394,7 +394,7 @@ function exportDogs(SUBJECT) {
 
 let allSubjects = require('./General/allSubjects.json')
 let allCourseNumbers = require('./General/id/allCourses.json')
-// exportDogs('allCourses')
+exportDogs('allCourses')
 
 for (pup of allSubjects) {
   exportDogs(pup)

@@ -452,8 +452,6 @@
       "id": "1473"
     }
   },
-  {},
-  {},
   {
     "code": "MATH 2001",
     "subject": "MATH",
@@ -709,7 +707,6 @@
       "id": "2473"
     }
   },
-  {},
   {
     "code": "MATH 2574",
     "subject": "MATH",
@@ -719,9 +716,6 @@
     "prereqInfo": null,
     "prereq": []
   },
-  {},
-  {},
-  {},
   {
     "code": "MATH 2999",
     "subject": "MATH",
@@ -817,10 +811,6 @@
     "prereqInfo": null,
     "prereq": []
   },
-  {},
-  {},
-  {},
-  {},
   {
     "code": "MATH 4005",
     "subject": "MATH",
@@ -1297,14 +1287,9 @@
     "info": "future lifetime random variable, survival function. insurance, life annuity, future loss random variables. net single premium, actuarial present value, net premium, net reserves.",
     "prereqInfo": "4065, [one sem [4xxx or 5xxx] [probability or statistics] course]",
     "prereq": {
-      "and": [
-        {
-          "code": "MATH 4065",
-          "subject": "MATH",
-          "id": "4065"
-        },
-        {}
-      ]
+      "code": "MATH 4065",
+      "subject": "MATH",
+      "id": "4065"
     }
   },
   {
@@ -1400,8 +1385,6 @@
     "prereqInfo": "2 sems soph math",
     "prereq": []
   },
-  {},
-  {},
   {
     "code": "MATH 5335",
     "subject": "MATH",
@@ -1456,7 +1439,6 @@
       "id": "5335"
     }
   },
-  {},
   {
     "code": "MATH 5378",
     "subject": "MATH",
@@ -2065,9 +2047,6 @@
       ]
     }
   },
-  {},
-  {},
-  {},
   {
     "code": "MATH 5651",
     "subject": "MATH",
@@ -2815,7 +2794,7 @@
     "title": "Math Model Ind Prob",
     "info": "mathematical models from physical, biological, social systems. emphasizes industrial applications. modeling of deterministic/probabilistic, discrete/continuous processes; methods for analysis/computation.",
     "prereqInfo": "[5xxx numerical analysis, some computer experience] or instr consent",
-    "prereq": {}
+    "prereq": []
   },
   {
     "code": "MATH 8388",
@@ -2935,7 +2914,7 @@
     "title": "Num Anal Diff Eq",
     "info": "finite element and finite difference methods for elliptic boundary value problems (e.g., laplace's equation) and solution of resulting linear systems by direct and iterative methods.",
     "prereqInfo": "4xxx numerical analysis, 4xxx partial differential equations or instr consent",
-    "prereq": {}
+    "prereq": []
   },
   {
     "code": "MATH 8446",
@@ -3439,7 +3418,7 @@
     "title": "Thesis Credit:Doct*",
     "info": "(no description)",
     "prereqInfo": "max 18 cr per semester or summer; 24 cr required",
-    "prereq": {}
+    "prereq": []
   },
   {
     "code": "MATH 8990",

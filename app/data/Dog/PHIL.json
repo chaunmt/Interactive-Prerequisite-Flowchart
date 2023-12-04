@@ -8,8 +8,6 @@
     "prereqInfo": null,
     "prereq": []
   },
-  {},
-  {},
   {
     "code": "PHIL 1002W",
     "subject": "PHIL",
@@ -19,7 +17,6 @@
     "prereqInfo": null,
     "prereq": []
   },
-  {},
   {
     "code": "PHIL 1003W",
     "subject": "PHIL",
@@ -29,7 +26,6 @@
     "prereqInfo": null,
     "prereq": []
   },
-  {},
   {
     "code": "PHIL 1004W",
     "subject": "PHIL",
@@ -46,9 +42,8 @@
     "title": "Scientific Reasoning",
     "info": "how does science work? what is scientific method? how to evaluate scientific information in popular media or specialized publications, especially when it relates to technology used in everyday life? general reasoning skills.",
     "prereqInfo": "[1st or 2nd] yr student or instr consent",
-    "prereq": {}
+    "prereq": []
   },
-  {},
   {
     "code": "PHIL 1006W",
     "subject": "PHIL",
@@ -134,7 +129,6 @@
     "prereqInfo": null,
     "prereq": []
   },
-  {},
   {
     "code": "PHIL 1910W",
     "subject": "PHIL",
@@ -234,7 +228,6 @@
     "prereqInfo": null,
     "prereq": []
   },
-  {},
   {
     "code": "PHIL 3001W",
     "subject": "PHIL",
@@ -253,7 +246,6 @@
     "prereqInfo": null,
     "prereq": []
   },
-  {},
   {
     "code": "PHIL 3005W",
     "subject": "PHIL",
@@ -534,7 +526,6 @@
     "prereqInfo": null,
     "prereq": []
   },
-  {},
   {
     "code": "PHIL 3910W",
     "subject": "PHIL",
@@ -958,7 +949,6 @@
     "prereqInfo": null,
     "prereq": []
   },
-  {},
   {
     "code": "PHIL 4893",
     "subject": "PHIL",
@@ -977,7 +967,6 @@
     "prereqInfo": "instr consent, dept consent, college consent.",
     "prereq": []
   },
-  {},
   {
     "code": "PHIL 5009",
     "subject": "PHIL",
@@ -1477,7 +1466,7 @@
     "title": "Wksh:Epistem & Meta",
     "info": "topics vary by offering.",
     "prereqInfo": "concurrent registration is required (or allowed) in  4xxx [epistemology or metaphysics] course, instr consent",
-    "prereq": {}
+    "prereq": []
   },
   {
     "code": "PHIL 8110",
@@ -1556,7 +1545,7 @@
     "title": "Wksh:Log&Phil Math",
     "info": "topics vary by offering.",
     "prereqInfo": "[concurrent registration is required (or allowed) in  4xxx logic or 4xxx phil of math], instr consent",
-    "prereq": {}
+    "prereq": []
   },
   {
     "code": "PHIL 8210",
@@ -1588,14 +1577,9 @@
     "info": "topics such as significance of limitative metatheorems (goedel, et al), assessment of major foundational programs (set theoretic, modern hilbertian, constructivist), modal/structuralist alternatives to standard platonism.",
     "prereqInfo": "5202 or [4xxx or 5xxx] math course or instr consent",
     "prereq": {
-      "or": [
-        {
-          "code": "PHIL 5202",
-          "subject": "PHIL",
-          "id": "5202"
-        },
-        {}
-      ]
+      "code": "PHIL 5202",
+      "subject": "PHIL",
+      "id": "5202"
     }
   },
   {
@@ -1605,7 +1589,7 @@
     "title": "Wksh:Moral & Pol",
     "info": "topics vary by offering.",
     "prereqInfo": "[concurrent registration is required (or allowed) in  4xxx moral phil or 4xxx pol phil] instr consent",
-    "prereq": {}
+    "prereq": []
   },
   {
     "code": "PHIL 8310",
@@ -1641,7 +1625,7 @@
     "title": "Sem: Medical Ethics",
     "info": "patients' rights/duties, informed consent, confidentiality, ethical issues in medical research, initiation/termination of medical treatment, euthanasia, abortion, maternal/fetal conflicts, allocation of medical resources.",
     "prereqInfo": "[4xxx or 5xxx] ethics course or instr consent",
-    "prereq": {}
+    "prereq": []
   },
   {
     "code": "PHIL 8333",
@@ -1882,7 +1866,7 @@
     "title": "Thesis Credit:Doct*",
     "info": "(no description)",
     "prereqInfo": "max 18 cr per semester or summer; 24 cr required",
-    "prereq": {}
+    "prereq": []
   },
   {
     "code": "PHIL 8980",
