@@ -1,3 +1,5 @@
+// Home page - "google.com" w/ global search
+
 import Link from "next/link";
 import GraphSearch from "../components/GraphSearch";
 import mermaid from "mermaid";

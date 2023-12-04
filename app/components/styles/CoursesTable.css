@@ -48,7 +48,8 @@
 .info {
   /* TODO: make pop up info float ouside card or a separate pop up menu instead of inside card */
   display: none;
-  position: absolute; 
+  position: absolute;
+  padding-left: 50px;
   top: 1%;
   left: 55rem;
   border-radius: 10px; 
