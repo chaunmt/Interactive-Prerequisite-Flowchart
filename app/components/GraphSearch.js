@@ -23,7 +23,7 @@ export default function GraphSearch() {
     }
 
     return <div>
-        <Mermaid graph={graph} />
+        {/* <Mermaid graph={graph} /> */}
         <Search sendResults={updateGraph}/>
     </div>
     
