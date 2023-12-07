@@ -1,3 +1,4 @@
+"use client"
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 
@@ -49,10 +50,18 @@ function Search({ sendResults }) {
       />
       {search && (
         <ul className='list'>
+          {filteredData.length > 0 ? 
+            (<li>
+              <Link href={`/${filteredData[0].subject}`}>
+                {filteredData[0].subject}
+              </Link>
+            </li>)
+            : ""
+          }
           {filteredData.length > 0 ? (
             filteredData.map((course, index) => (
               <li key={index}>
-                <Link href={`/course/${course.code}`}>
+                <Link href={`/${course.subject}/${course.id}`}>
                   {course.code} - {course.title}
                 </Link>
               </li>
