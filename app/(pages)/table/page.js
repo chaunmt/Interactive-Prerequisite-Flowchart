@@ -25,7 +25,6 @@
 
 import CoursesTable from "../../components/CoursesTable";
 import '../../components/styles/Layout.css';
-import '../../components/styles/Mainpage.css';
 import Footer from '../../components/Footer.js';
 import Header from '../../components/Header.js';
 
@@ -33,7 +32,6 @@ import Header from '../../components/Header.js';
 export default function CSCI() {
   return (
     <div id="page">
-       
       <Header/>
       <div id="backBoard">
       <h1 id="title">CSCI COURSES</h1>

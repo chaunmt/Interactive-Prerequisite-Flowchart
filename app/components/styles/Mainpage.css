@@ -1,10 +1,10 @@
-:root{
-    background: linear-gradient(180deg,#ffffff,rgb(218, 178, 178));
+/* :root{
+    background: linear-gradient(180deg,#ffffff,rgb(222, 207, 121));
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
     background-attachment: fixed;
-}
+}  */
 
 h1{
     text-align: center;
@@ -15,6 +15,39 @@ h1{
 .Search{
     text-align: center; 
 
+}
+
+.header nav logo img{
+    display:block;
+    width:25%;
+    height:25%;
+    border-left: 30;
+    align-items: left;
+    margin-left: 30px;
+
+}
+
+.header mainlogo a{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+  
+}
+.header p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+    color:maroon;
+    font-size:18px;
+    font-weight: bold;
+    
+}
+
+.header img{
+    width:50%;
+    height:20%;
 }
 
 .Search input{
@@ -45,6 +78,8 @@ h1{
     flex:1;
     color: maroon;
 }
+
+
 
 .mermaid {
     text-align: center;
