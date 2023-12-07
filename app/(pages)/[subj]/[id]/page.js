@@ -6,11 +6,13 @@ import '../../../components/styles/Layout.css'
 import '../../../components/styles/GraphPage.css'
 
 import Header from '../../../components/Header'
+import Footer from "../../../components/Footer";
 
 
 
 export default function Page({ params }) {
   var id = params.id;
+  //todo: display 404 when data is unavailable
   var subj = params.subj.toUpperCase();
   var test = buildGraph(`${subj} ${id}`);
   
