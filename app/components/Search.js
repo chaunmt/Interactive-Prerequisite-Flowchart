@@ -50,6 +50,14 @@ function Search({ sendResults }) {
       />
       {search && (
         <ul className='list'>
+          {filteredData.length > 0 ? 
+            (<li>
+              <Link href={`/${filteredData[0].subject}`}>
+                {filteredData[0].subject}
+              </Link>
+            </li>)
+            : ""
+          }
           {filteredData.length > 0 ? (
             filteredData.map((course, index) => (
               <li key={index}>
