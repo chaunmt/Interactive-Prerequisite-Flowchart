@@ -7,7 +7,7 @@ const config = {
   // theme: 'dark',  // this should be dynamically updated
   securityLevel: 'loose', // allows click interaction
   startOnLoad: false, // do not render until react is ready
-  logLevel: 'debug',
+  // logLevel: 'debug',
   flowchart: {
     defaultRenderer: 'elk',
     nodeSpacing: 50,
