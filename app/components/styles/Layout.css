@@ -1,6 +1,8 @@
+@import url('../styles/Global.css');
+
 :root{
     /* background: linear-gradient(180deg,#ffffff,rgb(218, 178, 178)); */
-    background: linear-gradient(180deg,#ffffff,rgb(222, 207, 121));
+    background: linear-gradient(180deg,var(--bg-color),var(--bg-color));
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
