@@ -8,10 +8,10 @@ function Header(){
                 <nav> 
                 <logo><a href='#'><img src="https://i.ibb.co/KsKrn80/Black-White-Minimalist-Business-Logo-1.png" alt="Black-White-Minimalist-Business-Logo-1" border="0"/></a></logo> 
                 <ul>
-                    <li><a href='#'>About</a></li>
+                    {/* <li><a href='#'>About</a></li>
                     <li><a href='#'>Q&A</a></li>
                     <li><a href='#'>Info</a></li>
-                    <li><a href='./table'>Course Table</a></li>
+                    <li><a href='./table'>Course Table</a></li> */}
                     <li><a href='https://github.com/chaunmt/Interactive-Prerequisite-Flowchart' target="_blank">Contribute to Github</a></li>
 
                 </ul>
