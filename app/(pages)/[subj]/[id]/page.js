@@ -23,12 +23,20 @@ export default function Page({ params }) {
   
   return (
     <div>
-      <Header/>
+      <div className="header">
+                <nav> 
+                <a href='../'><img src="https://i.ibb.co/ZBLJYqL/Gophers-1-2.png" alt="umn_prerequisite_logo"/></a>
+                <ul>
+                <li><Link href={`/${params.subj}`}>{subj} Page</Link></li>
+                <li><Link href="./table">{subj} Table</Link></li>
+                <li><a href='https://github.com/chaunmt/Interactive-Prerequisite-Flowchart' target="_blank">Contribute to Github</a></li>
+                </ul>
+                </nav>
+            </div>
+  
       <h1>{subj} {id} </h1>
       <div style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gridGap: 20 }}>
         <div>
-          <Link href={`/${params.subj}`}><button>{subj} Page</button></Link>
-          <Link href="./table"><button>{subj} Table</button></Link>
           <Mermaid graph={test}/>
         </div>
         <div>
