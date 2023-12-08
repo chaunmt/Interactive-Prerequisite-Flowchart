@@ -23,7 +23,7 @@ export default function Page({ params }) {
   
   return (
     <div>
-      <Header/>
+      {/* <Header/> */}
       <h1>{subj} {id} </h1>
       {/* <Link href="/"><button>Homepage</butt on></Link> */}
       <GraphSearch sourceData={subjectCourses}/>

@@ -10,11 +10,11 @@ export default function CSCI() {
   return (
     <div id="page">
        
-      <Header/>
+      {/* <Header/> */}
       <div id="backBoard">
       <h1 id="title">CSCI COURSES</h1>
       <CoursesTable />
-      <Footer/>
+      {/* <Footer/> */}
       </div>
       {/* <div id="infoBackBoard"></div> */}
       

@@ -9,10 +9,10 @@ import Search from "../components/Search";
 export default function Page() {
   return (
     <div>
-      <Header/>
+      {/* <Header/> */}
       {/* <GraphSearch /> */}
       <Search />
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   );
 }

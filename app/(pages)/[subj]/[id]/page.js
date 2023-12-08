@@ -23,7 +23,7 @@ export default function Page({ params }) {
   
   return (
     <div>
-      <div className="header">
+      {/* <div className="header">
                 <nav> 
                 <a href='../'><img src="https://i.ibb.co/ZBLJYqL/Gophers-1-2.png" alt="umn_prerequisite_logo"/></a>
                 <ul>
@@ -33,7 +33,7 @@ export default function Page({ params }) {
                 </ul>
                 </nav>
             </div>
-  
+   */}
       <h1>{subj} {id} </h1>
       <div style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gridGap: 20 }}>
         <div>

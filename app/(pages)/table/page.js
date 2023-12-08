@@ -32,12 +32,12 @@ import Header from '../../components/Header.js';
 export default function CSCI() {
   return (
     <div id="page">
-      <Header/>
+      {/* <Header/> */}
       <div id="backBoard">
       <h1 id="title">CSCI COURSES</h1>
       <CoursesTable />
       </div>
-      <Footer/>
+      {/* <Footer/> */}
       </div>
   );
 }
