@@ -41,7 +41,7 @@ h1{
     align-items: center;
     justify-content: center;
     font-family:Arial, Helvetica, sans-serif;
-    color:maroon;
+    color:var(--title-p);
     font-size:18px;
     font-weight: bold;
     
@@ -64,7 +64,7 @@ h1{
     flex:1;
     margin-right:16px;
     font-size: large;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, .4);
+    box-shadow: 2px 2px 4px var(--shadow);
     
 }
 
@@ -78,7 +78,7 @@ h1{
     margin-right:16px;
     padding:10px 25px;
     flex:1;
-    color: maroon;
+    color: var(--header-p-color);
 }
 
 

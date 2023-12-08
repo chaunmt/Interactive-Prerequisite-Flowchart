@@ -18,7 +18,7 @@
     padding-top: 10px;
     padding-bottom: 50px;
     font-size: 30px;
-    color: rgb(224, 137, 120);
+    color: var(--header-nav-highlight);
     padding-left: 20px;
 }
 
@@ -47,11 +47,11 @@
 }
 
 .header nav ul li a{
-    color:rgb(224, 137, 120);
+    color:var(--header-nav-highlight);
 }
 
 .header nav ul li:hover{
-    background-color: maroon;
+    background-color: var(--header-p-color);
     transition:.5s;
 }
 .layout-footer{
@@ -59,7 +59,7 @@
     /* border-top-style: solid; */
     border-top-width: slim;
     bottom:0;
-    color:rgb(224, 137, 120);
+    color:var(--header-nav-highlight);
     text-align: center;
     padding:25px;
     margin-bottom: 20px;
@@ -68,7 +68,7 @@
 }
 
 .title{
-    color:#ffffff;
+    color:var(--title);
     font-size: 20px;
 }
 
