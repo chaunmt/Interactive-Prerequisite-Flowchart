@@ -1,0 +1,1588 @@
+FORMAT: 1A
+HOST: /api/v1
+
+# Coursedog Curriculum API
+
+The following document outlines the Coursedog Curriculum Management RESTful API.
+
+## Allowed HTTPs Requests
+
+- PUT     : Update resource
+- POST    : Create resource
+- GET     : Get a resource or list of resources
+- DELETE  : To delete resource
+
+## Endpoints
+
+- https://app.coursedog.com/api/v1/     : Production Environment
+- https://dev.coursedog.com/api/v1/    : Development Environment
+- https://staging.coursedog.com/api/v1/     : Staging Environment
+
+## Authentication
+
+Coursedog APIs use the OAuth 2.0 protocol for authentication and authorization. Coursedog supports common OAuth 2.0 scenarios such as those for web server, and client-side applications. All protected endpoints must be accessed by requests that contain an OAuth 2.0 access tokens using the Bearer authentication scheme.
+
+Bearer authentication (also called token authentication) is an HTTP authentication scheme that involves security tokens called bearer tokens. The name “Bearer authentication” can be understood as “give access to the bearer of this token.” The bearer token is a cryptic string. The client must send this token in the `Authorization` header when making requests to protected resources:
+`Authorization: Bearer <token>`
+
+### Authentication Steps
+
+- Obtain OAuth 2.0 credentials (username and password) corresponding to a user in the Coursedog instance you wish to access. Please reach out to your institution's designated Coursedog contact to create or repurpose and account. Additional assistance may be provided by Coursedog Support. Note that SSO-enabled institutions will have to set the login mechanism for the API user to "Password". These credentials can then be used to request an OAuth2.0 access token.
+
+- Obtain an access token from the Coursedog Authorization Server. Before your application can access private data using a Coursedog API, it must obtain an access token that grants access to that API. A single access token can grant varying degrees of access to multiple APIs.
+
+    - To get the token, make a request to the following public endpoint  - POST (<<endpoint>>/sessions). The body should be a JSON object containing your client email and password. Here is an example:
+
+        - { “email”: “john@example.com”, “password”: "123"}
+
+    - If the email and password are correct, and you are allowed to receive an access token, the token will come in the response of the request.
+
+- Send the access token to the API. After an application obtains an access token, it sends the token to a Coursedog API in an HTTP authorization header, using the bearer authentication scheme. It is possible to send tokens as URI query-string parameters, but we don't recommend it, because URI parameters can end up in log files that are not completely secure. Also, it is good REST practice to avoid creating unnecessary URI parameter names.
+
+- Refresh the Access token if necessary. The default lifetime of a token is 24 hours.
+
+
+## Description Of Usual Server Responses:
+
+- 200 `OK` - the request was successful (some API calls may return 201 instead).
+
+- 201 `Created` - the request was successful and a resource was created.
+
+- 204 `No Content` - the request was successful but there is no representation to return (i.e. the response is empty).
+
+- 400 `Bad Request` - the request could not be understood or was missing required parameters.
+
+- 401 `Unauthorized` - authentication failed or user doesn't have permissions for requested operation.
+
+- 403 `Forbidden` - access denied.
+
+- 404 `Not Found` - resource was not found.
+
+- 405 `Method Not Allowed` - requested method is not supported for resource.
+
+---
+
+# Data Structures
+
+## FilterGroup (enum)
+
++ `course` - if filtering courses
++ `program` - if filtering programs
+
+## FilterInputType (enum)
+
++ `text`
++ `number`
++ `date`
++ `time`
++ `select`
++ `boolean`
++ `days`
++ `effectiveStartDate` - `date` alias
++ `effectiveEndDate` - `date` alias
++ `room`
++ `attributeSelect`
++ `campusSelect`
++ `gradeModeSelect`
++ `gradeModesMultiSelect`
++ `locationSelect`
++ `careerSelect`
++ `requirementDesignationSelect`
++ `milestoneSelect`
++ `subjectCodeSelect`
++ `cipCodeSelect`
++ `programLevelSelect`
++ `degreeSelect`
++ `collegeSelect`
++ `courseSelect`
++ `programSelect`
++ `termSelect`
++ `tuitionGroupSelect`
++ `componentSelect`
++ `requirementGroupSelect`
++ `sectionSelect`
++ `money`
++ `courseAliases`
+
+## FilterType (enum)
+
++ `is` - Meets the condition if the field is exactly the same as given value. Available for all types
++ `isNot` - Meets the condition if the field is different than given value. Available for all types
++ `contains` - Meets the condition if the field value contains given value. Available for types: `text`, `select`, `days`, `attributeSelect`, `campusSelect`, `gradeModeSelect`, `gradeModesMultiSelect`, `locationSelect`, `careerSelect`, `requirementDesignationSelect`, `milestoneSelect`, `subjectCodeSelect`, `cipCodeSelect`, `programLevelSelect`, `degreeSelect`, `collegeSelect`, `courseSelect`, `programSelect`, `termSelect`, `tuitionGroupSelect`, `componentSelect`
++ `doesNotContain` - Meets the condition if the field value does not contains given value. Available for types: `text`, `select`, `days`, `attributeSelect`, `campusSelect`, `gradeModeSelect`, `gradeModesMultiSelect`, `locationSelect`, `careerSelect`, `requirementDesignationSelect`, `milestoneSelect`, `subjectCodeSelect`, `cipCodeSelect`, `programLevelSelect`, `degreeSelect`, `collegeSelect`, `courseSelect`, `programSelect`, `termSelect`, `tuitionGroupSelect`, `componentSelect`
++ `isEmpty` - Meets the condition if the field is empty. Available for types: `text`, `number`, `effectiveStartDate`, `effectiveEndDate`, `select`, `boolean`, `room`, `attributeSelect`, `campusSelect`, `gradeModeSelect`, `gradeModesMultiSelect`, `locationSelect`, `careerSelect`, `requirementDesignationSelect`, `milestoneSelect`, `subjectCodeSelect`, `cipCodeSelect`, `programLevelSelect`, `degreeSelect`, `collegeSelect`, `courseSelect`, `programSelect`, `termSelect`, `tuitionGroupSelect`, `componentSelect`, `requirementGroupSelect`, `sectionSelect`, `money`, `courseAliases`
++ `isNotEmpty` - Meets the condition if the field is not empty. Available for types: `text`, `number`, `select`, `boolean`, `room`, `attributeSelect`, `campusSelect`, `gradeModeSelect`, `gradeModesMultiSelect`, `locationSelect`, `careerSelect`, `requirementDesignationSelect`, `milestoneSelect`, `subjectCodeSelect`, `cipCodeSelect`, `programLevelSelect`, `degreeSelect`, `collegeSelect`, `courseSelect`, `programSelect`, `termSelect`, `tuitionGroupSelect`, `componentSelect`, `requirementGroupSelect`, `sectionSelect`, `money`, `courseAliases`
++ `startsWith` - Meets the condition if the field text starts with given value. Available for types: `text`
++ `endsWith` - Meets the condition if the field text ends with given value. Available for types: `text`
++ `longerThan` - Meets the condition if the field text is longer than given value. Available for types: `text`
++ `shorterThan` - Meets the condition if the field text is shorter than given value. Available for types: `text`
++ `greaterThan` - Meets the condition if the field number is greater than given value. Field value will be parsed to float if it is in number-like format. Available for types: `text`, `number`, `money`, `courseAliases`
++ `lessThan` - Meets the condition if the field number is lesser than given value. Field value will be parsed to float if it is in number-like format. Available for types: `text`, `number`, `money`, `courseAliases`
++ `isAfter` - Meets the condition if the field date/time is after given value. Available for types: `effectiveStartDate`, `effectiveEndDate`, `date`, `time`
++ `isBefore` - Meets the condition if the field date/time is before given value. Available for types: `effectiveStartDate`, `effectiveEndDate`, `date`, `time`
+
+## Filter (object)
+
++ id (string) - Unique (in filters array) id (anything)
++ name (string) - property name that should be checked, i.e. questionId
++ inputType (FilterInputType) - data type or question type in more complex cases
++ group (FilterGroup) - resource name, e.g. `course` or `program` - depends on the context
++ type (FilterType) - filter condition
++ value (string) - value that should be used to check if given field meets the condition
++ customField: false (optional, boolean) - true if the field is a custom field in Coursedog
+
+## Filters (object)
+
++ condition (enum, optional)
+
+    Required only if using filters
+
+    + Members
+        + `and`
+        + `or`
+
++ filters (array[Filter]) - Optional filter conditions
+
+## RequisiteSimpleType (string)
+All types available in form/template question definition (`questions.requisites.config.fields.requisitesSimple.config.fields.requirementType.config.options`)
+and `Narrative Text` when Requisite is just narrative text.
+
+    + Values available by default
+        + Prerequisite
+        + Corequisite
+        + Antirequisite
+        + Completion Requirement
+        + Narrative Text
+
+## RequisiteSimpleCondition (enum)
++ `anyOf` - Dependecy field: `subRules`
++ `allOf` - Dependecy field: `subRules`
++ `numberOf` - Dependecy fields: `subRules`, `number`
++ `completedAllOf` -  Dependency field: `value`
++ `completedAtLeastXOf` - Dependency fields: `value`, `restriction`
++ `completedAnyOf` -  Dependency field: `value`
++ `enrolledIn` - Dependency field: `value`
++ `minimumCredits` - Dependency fields: `value` , `credits`
++ `minimumResidencyCredits` - Dependency fields: `value` , `credits`
++ `minimumGrade` - Dependency fields: `grade`, `gradeType`
++ `averageGrade` - Dependency fields: `grade`, `gradeType`
++ `freeformText` - Dependency field: `value`
++ `completeVariableCoursesAndVariableCredits` - Dependency fields: `minCourses`, `maxCourses`, `minCredits`, `maxCredits`
+
+## RequisiteSimpleRuleValueCondition (enum)
++ `courses`
++ `programs`
++ `courseSets`
++ `none` - available when `condition` = `averageGrade`, `minimumGrade`, `minimumCredits` or `minimumResidencyCredits`
++ `requirementSets` - available when requisite is part of program
+
+## RequisiteSimpleRuleValueItemObject (object)
++ logic (enum)
+    + Members
+        + `and`
+        + `or`
++ value (array[string]) - list of references (`course.courseGroupId`, `program.programGroupId`, `courseSet.id`, `requisiteSet.id`)
+
+## RequisiteSimpleRuleValueItemString (string)
+list of references (`course.courseGroupId`, `program.programGroupId`, `courseSet.id`, `requisiteSet.id`)
+
+## RequisiteSimpleRuleValue (object)
++ id (string, required) - Unique id
++ condition (RequisiteSimpleRuleValueCondition)
++ values (array[RequisiteSimpleRuleValueItemObject, RequisiteSimpleRuleValueItemString]) - empty if `item.condition`=`none`. Array of strings if `item.condition`=`programs`. Array of objects otherwise.
+
+## RequisiteSimpleRule (object)
++ id (string, required) - Unique id
++ name (string) - Rule name
++ description (string) - HTML, WYSIWYG output
++ notes (string) - HTML, WYSIWYG output
++ condition (RequisiteSimpleCondition)
++ minCourses (number) - available when `condition` = `completeVariableCoursesAndVariableCredits`. Defines minimum number of courses that must be satisfied to satisfy this requisite.
++ maxCourses (number) - available when `condition` = `completeVariableCoursesAndVariableCredits`. Defines maximum number of courses that can be satisfied to satisfy this requisite.
++ minCredits (number) - available when `condition` = `completeVariableCoursesAndVariableCredits`. Defines minimum number of credits that must be satisfied to satisfy this requisite.
++ maxCredits (number) - available when `condition` = `completeVariableCoursesAndVariableCredits`. Defines maximum number of credits that can be satisfied to satisfy this requisite.
++ credits (number) - available when `condition` = `minimumCredits` or `minimumResidencyCredits`
++ number (number) - available when `condition` = `numberOf`
++ restriction (number) - available when `condition` = `completedAtLeastXOf`
++ grade (string) - available when `condition` = `minimumGrade` or `averageGrade`
++ gradeType  (string) - available when `condition` = `minimumGrade` or `averageGrade`
++ subRules (array[RequisiteSimpleRule]) - Available when `condition` = `anyOf`, `allOf` or `numberOf` (at least). Collection of Requisite Simple Rules. Defines subrules that must be satisfied (all of them, just one, or at least {rule.number}) to satisfy this requisite
++ value (RequisiteSimpleRuleValue) - Available when `condition` = `completedAllOf`, `completedAtLeastXOf`, `completedAnyOf`, `enrolledIn`, `minimumCredits`, `minimumResidencyCredits`, `minimumGrade`, `averageGrade` or `freeformText`. String or object:
+
+## RequisiteSimple (object)
++ id (string, required) - Unique id
++ type (RequisiteSimpleType)
++ name (string) - requisite name
++ showInCatalog (boolean, optional) - true if visible in catalog
++ notes (string) - HTML, WYSIWYG output
++ sisId (string, optional) - sisId for integration purposes
++ position (number) - UI sort order
++ rules (array[RequisiteSimpleRule]) - collection of Requisite Simple Rules
+
+## RequisiteAdvancedCondition (enum)
++ `course` - Available fields: `notes`, `tag`, `courses`, `type`, `min`, `max`, `priority`, `subRules`
++ `noncourse` - Available fields: `notes`, `tag`, `min`, `text`, `subRules`
++ `transfer` - Available fields: `notes`, `tag`, `courses`, `type`, `min`, `max`
++ `passFail` - Available fields: `notes`, `tag`, `courses`, `type`, `min`, `max`
++ `residential` - Available fields: `notes`, `tag`, `courses`, `type`, `min`, `max`
++ `lastResidential` - Available fields: `notes`, `tag`, `courses`, `type`, `min`, `max`
++ `spread` - Available fields: `notes`, `tag`, `courses`, `min`, `max`
++ `perTerm` - Available fields: `notes`, `tag`, `courses`, `type`, `min`, `max`
++ `perDiscipline` - Available fields: `notes`, `tag`, `courses`, `type`, `min`, `max`
++ `gpa` - Available fields: `notes`, `tag`, `courses`, `min`
++ `grade` - Available fields: `notes`, `tag`, `courses`, `min`
++ `share` - Available fields: `notes`, `tag`, `type`, `blocks`, `max`, `text`
++ `credential` - Available fields: `notes`, `tag`, `blocks`, `min`, `subRules`
++ `scribe` - Available fields: `notes`, `tag`, `text`
++ `freeformText` - Available fields: `notes`, `tag`, `text`
++ `complete` - Available fields: `notes`, `tag`, `text`, `subRules`
++ `incomplete` - Available fields: `notes`, `tag`, `text`, `subRules`
++ `subRules` - Available fields: `notes`, `tag`, `min`, `max`, `subRules`
++ `if` - Available fields: `notes`, `tag`, `text`, `subRules`
++ `elseIf` - Available fields: `notes`, `tag`, `text`, `subRules`
++ `else` - Available fields: `notes`, `tag`, `subRules`
+
+## RequisiteAdvancedCourseDynamicCondition
++ condition (enum)
+    + Members
+        + `Age`
+        + `Attribute`
+        + `Category`
+        + `CourseNumber`
+        + `CreditType`
+        + `Credits`
+        + `Discipline`
+        + `GradeLetter`
+        + `GradeNumber`
+        + `GradeType`
+        + `Inprogress`
+        + `Location`
+        + `PassFail`
+        + `Passed`
+        + `Preregistered`
+        + `Resident`
+        + `School`
+        + `Section`
+        + `Ter`
+        + `Term`
+        + `TermType`
+        + `Title`
+        + `Transfer`
+        + `TransferCourse`
+        + `TransferSchool`
++ comparator
++ value
+
+## RequisiteAdvancedCourseSimple (object)
++ courseId (string) - Course reference (courseGroupId)
+
+## RequisiteAdvancedCourseDynamic (object)
++ type (enum)
+    + Members
+        + `range`
+        + `simple`
+        + `wildcard`
++ min (number) - Available when `type` = `range`
++ max (number) - Available when `type` = `range`
++ subjectCode
++ courseNumber -  - Available when `type` = `simple`, `wildcard`
++ withConditions (array[RequisiteAdvancedCourseDynamicCondition])
+
+
+## RequisiteAdvancedRule (object)
++ condition (RequisiteAdvancedCondition)
++ subRules (array[RequisiteAdvancedRule]) - Collection of Requisite Advanced Rules. Available when `condition` = `subRules`, `complete`, `incomplete`, `if`, `elseIf`, `else`, `course`, `noncourse`, `credential`
++ priority (number) - priority of the current rule. 0 is neutral priority, positive numbers are high priority, negative numbers are low priority. Available when `condition` = `course`
++ tag - custom unique identifier
++ notes - notes
++ min (number) - minimum value for the current rule. Available when `condition` = `course`, `transfer`, `passFail`, `residential`, `perTerm`, `perDiscipline`, `lastResidential`, `spread`, `gpa`, `grade`, `subRules`, `credential`, `noncourse`
++ max (number) - maximum value for the current rule. Available when `condition` = `course`, `transfer`, `passFail`, `residential`, `perTerm`, `perDiscipline`, `lastResidential`, `spread`, `subRules`, `share`
++ text - text. Available when `condition` = `complete`, `incomplete`, `if`, `elseIf`, `share`, `noncourse`, `scribe`, `freeformText`
++ type (enum) - `classes` if specifing number of classes that must be taken. `credis` if specifing number of credits. Available when `condition` = `course`, `transfer`, `passFail`, `residential`, `perTerm`, `perDiscipline`, `lastResidential`, `share`
+    + Members
+        + `classes`
+        + `creddits`
++ blocks (enum) - type of block credentials that can be used to satisfy the rule. Available when `condition` = `share`, `credential`
+    + Members
+        + `ALLBLOCKS`
+        + `COLLEGE`
+        + `CONC`
+        + `DEGREE`
+        + `LIBL`
+        + `MAJOR`
+        + `MINOR`
+        + `OTHER`
+        + `PROGRAM`
+        + `SCHOOL`
+        + `SPEC`
+        + `THISBLOCK`
++ courses (array[RequisiteAdvancedCourseSimple,RequisiteAdvancedCourseDynamic]) - available when `condition` = `course`, `transfer`, `passFail`, `residential`, `spread`, `perTerm`, `perDiscipline`, `gpa`, `grade`, `lastResidential`. There are 2 types of entities that can be in this array. Simple (with courseId) only and Dynamic.
+
+## RequisiteAdvanced (object)
++ name (string) - requisite name
++ showInCatalog (boolean, optional) - true if visible in catalog
++ freeFormText (string, optional) - description, HTML, WYSIWYG output
++ rules (array[RequisiteAdvancedRule]) - collection of Requisite Advanced Rules
+
+## RequisitesFreeform (object)
++ value (string, optional) - HTML, WYSIWYG output
++ showInCatalog (boolean, optional) - true if visible in catalog
+
+## RequisitesModel (object)
++ requisitesSimple (array[RequisiteSimple])
++ requisitesAdvanced (array[RequisiteAdvanced])
++ requisitesFreeform (RequisitesFreeform)
+
+# Group Courses
+
+Represents course information.
+
+---
+
+**Course Attributes:**
+<!--Meta Info-->
+- id `(String)` : Unique ID, **Required**
+- version `(Number)` : Course's version number
+- lastEditedAt `(Integer)` : Last time the course was edited, as a unix timestamp
+- lastEditedBy `(String)` : Last person to edit this course
+- institutionId `(String)` : This is used when institutions have a seperate unique identifier for each course
+- requestId `(String)` : Id of active request involving this course, if there is one
+
+- subjectCode `(String)` : Course's subject code, e.g. "BIO" **Required**
+- courseNumber `(Integer)` : Course's number, e.g. 101
+- code `(String)` : Course's complete code, e.g. "BIO101"
+- name `(String)` : Course's name, **Required**
+- longName `(String)` : Course's extended name
+- status `(String)` : Course's status, **Required**
+- description `(String)` : Course's description, **Required**
+- career `(String)` : Course's career
+- designation `(String)` : Course's designation
+- requirementDesignation `(String)` : Course's requirement designation
+- requirementGroup `(String)` : Course's requirement group
+- type `(String)` : Course's type
+- registrationMode `(String)` : Course's registration mode
+- instructionMode `(String)` : Course's instruction mode
+- gradeMode `(String)` : Course's grade mode
+- attributes `(Array<String>)` : Course's attributes
+- milestones `(Array<String>)` : Course's milestones
+- categories `(Array<String>)` : Course's categories
+- files `(Array<File>)` : Course's files
+- consent `(String)` : Course's consent
+- dropConsent `(String)` : Course's drop consent
+- notes `(String)` : Course's notes
+- college `(String)` : Course's college
+- departments `(Array<String>)` : List of course's departments, **Department Object Reference**
+- departmentOwnership `(Array<Ownership>)` : The distribution of ownsership between departments of this course
+    - deptId `(String)` : The department id, **Department Object Reference**
+    - percentOwnership `(Integer)` : The percent this department owns of this course, out of 100
+    - primaryDepartment `(Boolean)` : Whether this is the primary owner of the course
+- division `(String)` : Course's division
+- campus `(String)` : Course's campus
+- location `(String)` : Course's location
+- owners `(Array<String>)` : Course's owners, **User Reference**
+- cipCode `(String)` : Course's cip code
+- hegisCode `(String)` : Course's hegis code
+
+- rolloverSetting `(String)` : Course's rollover setting
+
+- components `(Array<Section>)` : Groups of section fields used to populate a the default values for a section type
+
+- topics `(Object)` : Course's topics
+    - id `(String)` : Topic id
+    - code `(String)` : Topic code
+    - name `(String)` : Topic name
+    - longName `(String)` : Topic long name
+    - description `(String)` : Topic description
+    - repeatable `(Boolean)` : Whether this topic repeats
+    - numberOfRepeats `(Integer)` : How many times this topic repeats
+    - numberOfCredits `(Float)` : Topic credits
+
+- credits `(Object)` : Course's credit information
+    - creditHours `(Credit)` : The number of credit hours this course has
+    - contactHours `(Credit)` : The number of contact hours this course has
+    - billingHours `(Credit)` : The number of billing hours this course has
+    - lectureHours `(Credit)` : The number of lecture hours this course has
+    - labHours `(Credit)` : The number of lab hours this course has
+    - otherHours `(Credit)` : The number of other hours this course has
+    - academicProgressHours `(Credit)` : The number of progress hours this course has
+    - financialAidHours `(Credit)` : The number of financial aid hours this course has
+    - courseCount `(Integer)` : The course count
+    - repeatable `(Boolean)` : Whether this credit repeats
+    - numberOfRepeats `(Integer)` : How many times this credit repeats
+    - numberOfCredits `(Float)` : Credit number of credits
+
+- learningOutcomes `(Array<Object>)` : List of the course's associated learning outcomes
+    - name `(String)` : The name of the outcome, **Required**
+    - objective `(String)` : States the actual objective of the outcome
+    - tags `(Array<String>)` : List of tags associated with this outcome
+    - activity `(String)` : States how this this outcome is achieved
+    - assessment `(String)` : States how this outcome is assessed
+
+- crossListedCourses `(Array<Object>)` : List of the courses cross listings
+    - id `(String)` : Cross list id
+    - courseId `(String)` : Cross list course id, **Required**, **course Reference**
+    - child `(Boolean)` : If this cross list is a child
+
+
+- effectiveStartDate `(Date String)` : Course's start date, **Required**
+- effectiveEndDate `(Date String)` : Course's start date, **Required**
+- startTerm `(Object)` : Course's start term
+    - year `(String)` : The term's year, e.g. "2019-20", **Required**
+    - semester `(Integer)` : The term's semester number, e.g. 1 for fall semester, **Required**
+- endTerm `(Object)` : Course's end term
+    - year `(String)` : The term's year, e.g. "2019-20", **Required**
+    - semester `(Integer)` : The term's semester number, e.g. 1 for fall semester, **Required**
+
+- aliases `(Array<Object>)` : List of the course's alias names
+    - subjectCode `(String)` : The alias subject code, **Required**
+    - courseNumber `(String)` : The alias course number, **Required**
+
+- requisites `(Array<Object>)` : Course's requisite information
+    - type `(String)` : Type of the requisite, e.g. prerequisite, corequisite, **Required**
+    - name `(String)` : Name of this requisite
+    - condition `(String)` : Condition that must be satisfied to satisfy this requisite, **Required**
+    - gradeType `(String)` : Grade type for the minimumGrade / averageGrade conditions
+    - grade `(String)` : Grade value for the minimumGrade / averageGrade conditions
+    - credits `(Integer)` : Credits for the minimumCredits condition
+    - value `(String|Object)` : The text value for the minimumGPA / freeformText conditions, or an object for the completed / enrolledIn / minimumGrade / averageGrade / minimumCredits conditions
+        - condition `(String)` : Either a type of data such as courses or programs, or a logical combinator like anyOf or allOf, **Required**
+        - number `(Integer)` : The number of sub-rules that must be satisfied for the numberOf condition
+        - values `(Array<String>)` : List of ids corresponding to the data type selected in the condition
+        - subSelections `(Array<Object>)` : Selections that are logically combined for the anyOf / allOf / numberOf conditions (with the same structure as this object)
+    - number `(Integer)` : The number of sub-rules that must be satisfied for the numberOf condition
+    - subRules `(Array<Object>)` : Rules that are logically combined for the anyOf / allOf / numberOf conditions (with the same structure as this object)
+
+- customFields `(Mapping<String, String>)` : Map of institution-specific fields
+
+## Courses [/cm/{schoolId}/courses]
+
+### Get all courses [GET /cm/{schoolId}/courses{?list,includeDependents,formatDependents,courseGroupIds,effectiveDatesRange,includeCourseEquivalencies,includePending,ignoreEffectiveDating,includeCrosslisted,returnLatestRevision,limit,skip,orderBy,orderDirection}]
+
++ Parameters
+
+    + schoolId (required) - school id
+
+    + list (optional) - a comma-separated list of ids to filter by
+
+    + includeDependents (optional, boolean) - if true, attach a list of dependent courses/programs to each returned course
+
+    + formatDependents (optional, boolean) - if true, attach a formatted list of dependent courses/programs to each returned course
+
+    + courseGroupIds (optional) - a comma-separated list of courseGroupIds to filter by
+
+    + includePending (optional, boolean) - if true, includes pending courses in the response (not approved proposals)
+        + Default: false
+
+    + ignoreEffectiveDating (optional, boolean) - if true, it completely ignores effective dating and returns all revisions
+        + Default: false
+
+    + returnLatestRevision (optional, boolean) - if true, it always returns the latest revision of the course. It does not work when `ignoreEffectiveDating`=`true`
+        + Default: false
+
+    + effectiveDatesRange (optional) - date (e.g. `2020-10-10`) or dates(e.g. `2020-10-10,2021-11-11`). Ability to use 2 dates depends on the school's settings. It defaults to today's date. If only one date is present, it'll be used as UPPER DATE LIMIT for effectiveStartDate. It does not work when `ignoreEffectiveDating`=`true` or `returnLatestRevision`=`true`.
+
+    + includeCrosslisted (optional, boolean) - if true, includes crosslisted courses in the response
+        + Default: false
+
+    + includeCourseEquivalencies (optional, boolean) - if true, includes course equivalencies in the response
+
+    + limit (optional, number) - number indicating the maximum number of courses to return (0 means no limit)
+        + Default: 0
+
+    + skip (optional, number) - number indicating how many courses to skip from the beginning
+        + Default: 0
+
+    + orderBy (optional) - for use with limit and skip, indicates which property courses should be sorted by (default is to sort by code)
+        + Default: `code`
+
+
+    + orderDirection (enum, optional)
+
+        Order direction
+
+        + Default: ascending
+
+        + Members
+            + `ascending`
+            + `descending`
+
+
++ Request (application/json)
+
+    + Headers
+
+            Accept: application/json
+
+    + Body
+
++ Response 200 (application/json)
+
+    Successfully returned all course information for term
+
+    + Attributes
+
+    + Body
+
+            {
+                "(courseId)": {
+                    ...course object
+                }
+            }
+
++ Response 400 (application/json)
+
+    Bad Request
+
+    + Body
+
++ Response 403 (application/json)
+
+    Forbidden
+
+    + Body
+
+### Search courses [POST /cm/{schoolId}/courses/search/{searchQuery}{?list,courseGroupIds,returnFields,canSchedule,limit,isActive,effectiveDatesRange,includePending,includeCrosslisted,skip,orderBy}]
+
++ Parameters
+
+    + searchQuery: $filters (required) - text to search or `$filters` if using filtering only
+
+    + schoolId (required) - school id
+
+    + list (optional) - a comma-separated list of ids to filter by
+
+    + courseGroupIds (optional) - a comma-separated list of courseGroupIds to filter by
+
+    + returnFields (optional) - a comma-separated list of fields to return in the
+
+    + canSchedule (optional, boolean) - if true, returns courses which can be scheduled
+        + Default: false
+
+    + isActive (optional, boolean) - if true, returns only active courses
+        + Default: false
+
+    + includePending (optional, boolean) - if true, includes pending courses in the response (not approved proposals)
+        + Default: false
+
+    + effectiveDatesRange (optional) - date (e.g. `2020-10-10`) or dates(e.g. `2020-10-10,2021-11-11`). Ability to use 2 dates depends on the school's settings. It defaults to today's date. If only one date is present, it'll be used as UPPER DATE LIMIT for effectiveStartDate.
+
+    + includeCrosslisted (optional, boolean) - if true, includes crosslisted courses in the response
+        + Default: false
+
+    + limit (optional, number) - number indicating the maximum number of courses to return
+        + Default: 50
+
+    + skip (optional, number) - number indicating how many courses to skip from the beginning
+        + Default: 0
+
+    + orderBy (optional) - for use with limit and skip, indicates which property courses should be sorted by (default is to sort by code)
+        + Default: `code`
+
++ Attributes (optional, Filters)
+
++ Request without filtering (application/json)
+
+    + Body
+
+            {}
+
++ Request with filtering (application/json)
+
+    + Body
+
+            {
+                "condition": "and",
+                "filters": [
+                    {
+                        "id": "longName-course",
+                        "name": "longName",
+                        "inputType": "text",
+                        "group": "course",
+                        "type": "doesNotContain",
+                        "value": "WIP",
+                        "customField": false
+                    },
+                    {
+                        "id": "anything-unique",
+                        "name": "lastEditedAt",
+                        "inputType": "date",
+                        "group": "course",
+                        "type": "isBefore",
+                        "value": 1691058371950
+                    }
+                ]
+            }
+
+
++ Response 200 (application/json)
+
+    Successfully returned all courses matching given criteria.
+
+    + Body
+
+            {
+                data: Course[],
+                listLength: Number,
+                limit: Number,
+                skip: Number,
+
+            }
+
+
+
+### Put multiple courses [PUT /cm/{schoolId}/courses{?doDeletes,putWithVersion}]
+
++ Parameters
+
+    + schoolId (required) - school id
+
+    + doDeletes (optional) - if true, all data currently in the collection will be deleted
+
+    + putWithVersion (optional) - if true, increment this course's version number and store a snapshot of the current version
+
++ Request (application/json)
+
+    + Headers
+
+            Accept: application/json
+
+    + Attributes
+
+    + Body
+
+            {
+                "(courseId)": {
+                    ...course object
+                }
+            }
+
++ Response 200 (application/json)
+
+    Successfully put courses
+
+    + Body
+
++ Response 400 (application/json)
+
+    Bad Request
+
+    + Body
+
++ Response 403 (application/json)
+
+    Forbidden
+
+    + Body
+
+### Get a course [GET /cm/{schoolId}/courses/{courseId,includeDependents,formatDependents}]
+
++ Parameters
+
+    + schoolId (required) - school id
+
+    + courseId (required) - unique course id
+
+    + includeDependents (optional) - if true, attach a list of courses/programs that are dependent on this course
+
+    + formatDependents (optional) - if true, attach a formatted list of courses/programs that are dependent on this course
+
+
++ Request (application/json)
+
+    + Headers
+
+            Accept: application/json
+
+    + Body
+
++ Response 200 (application/json)
+
+    Successfully returned given course
+
+    + Attributes
+
+    + Body
+
+            {
+                "_id": "BzjVjqV5n5Kuf9BijdX1",
+                "code": "BIO234",
+                "courseNumber": 234,
+                "credits": {
+                    "creditHours": 4,
+                    "repeatable": "no",
+                    "minCreditHours": null,
+                    "maxCreditHours": null
+                },
+                "departments": [
+                    "bio"
+                ],
+                "description": "This course covers the fundamentals of molecular and cellular biology. Topics include protein structure and function; DNA replication, repair, and recombination; transcription, translation, control of gene expression; cytoskeletal dynamics; protein modification and stability; cellular signaling; cell cycle control; mitosis; and meiosis.",
+                "id": "BzjVjqV5n5Kuf9BijdX1",
+                "learningOutcomes": [
+                    {
+                        "name": "BIO14",
+                        "tags": [],
+                        "activity": "Lab",
+                        "assessment": "Lab Exercise, Assignment, Exam",
+                        "objective": "Learn about protein structure and function"
+                    },
+                    {
+                        "name": "BIO15",
+                        "tags": [],
+                        "activity": "Lab",
+                        "assessment": "Lab Exercise, Assignment, Exam",
+                        "objective": "Learn about the cell lifecycle"
+                    },
+                    {
+                        "name": "BIO16",
+                        "tags": [],
+                        "activity": "Lab",
+                        "assessment": "Lab Exercise, Assignment, Exam",
+                        "objective": "Learn about the structure and function of DNA, including DNA replication and repair, transcription, and translation"
+                    }
+                ],
+                "name": "Molecular Biology of the Cell",
+                "requisites": [
+                    {
+                        "type": "prerequisites",
+                        "name": "Prerequisites",
+                        "condition": "freeformText",
+                        "value": "Score of 4 or 5 on the AP biology test"
+                    }
+                ],
+                "subjectCode": "BIO",
+                "version": 1
+            }
+
++ Response 400 (application/json)
+
+    Bad Request
+
+    + Body
+
++ Response 403 (application/json)
+
+    Forbidden
+
+    + Body
+
++ Response 404 (application/json)
+
+    No course found with the specified id
+
+    + Body
+
+### Put a course [PUT /cm/{schoolId}/courses/{courseId}]
+
++ Parameters
+
+    + schoolId (required) - school id
+
+    + courseId (required) - unique course id
+
++ Request (application/json)
+
+    + Headers
+
+            Accept: application/json
+
+    + Attributes
+
+    + Body
+
+            {
+               ...course object
+            }
+
++ Response 200 (application/json)
+
+    Successfully set course
+
+    + Body
+
++ Response 400 (application/json)
+
+    Bad Request
+
+    + Body
+
++ Response 403 (application/json)
+
+    Forbidden
+
+    + Body
+
+### Post a course [POST /cm/{schoolId}/courses]
+
++ Parameters
+
+    + schoolId (required) - school id
+
++ Request (application/json)
+
+    + Headers
+
+            Accept: application/json
+
+    + Body
+
++ Response 201 (application/json)
+
+    Successfully created course
+
+    + Body
+
+            {
+               ...course object
+            }
+
++ Response 400 (application/json)
+
+    Bad Request
+
+    + Body
+
++ Response 403 (application/json)
+
+    Forbidden
+
+    + Body
+
+### Delete a course [DELETE /cm/{schoolId}/courses/{courseId}]
+
++ Parameters
+
+    + schoolId (required) - school id
+
+    + courseId (required) - unique course id
+
++ Request (application/json)
+
+    + Headers
+
+            Accept: application/json
+
+    + Body
+
++ Response 200 (application/json)
+
+    Successfully deleted course
+
+    + Body
+
++ Response 400 (application/json)
+
+    Bad Request
+
+    + Body
+
++ Response 403 (application/json)
+
+    Forbidden
+
+    + Body
+
+
+
+# Group Programs
+
+Represents program information.
+
+---
+
+**Program Attributes:**
+<!--Meta Info-->
+- id `(String)` : Unique ID, **Required**
+- version `(Number)` : Program's version number
+- lastEditedAt `(Integer)` : Last time the program was edited, as a unix timestamp
+- lastEditedBy `(String)` : Last person to edit this program
+- institutionId `(String)` : This is used when institutions have a seperate unique identifier for each program
+- requestId `(String)` : Id of active request involving this program, if there is one
+
+- code `(String)` : Program's code, e.g. "BIO BS", **Required**
+- name `(String)` : Program's name, **Required**
+- longName `(String)` : Program's long name
+- description `(String)` : Program's description, **Required**
+- departments `(Array<String>)` : List of program's associated departments, **Department Object Reference**
+
+- departmentOwnership `(Array<Ownership>)` : The distribution of ownsership between departments of this course
+    - deptId `(String)` : The department id, **Department Object Reference**
+    - percentOwnership `(Integer)` : The percent this department owns of this course, out of 100
+    - primaryDepartment `(Boolean)` : Whether this is the primary owner of the course
+
+
+- level `(String)` : Program level, e.g. "Undergraduate", **Required**
+- type `(String)` : Program's type
+- college `(String)` : Program's college
+- campus `(String)` : Program's campus
+- career `(String)` : Program's career
+- categories `(String)` : Program's categories
+- designation `(String)` : Program's designation
+- delivery `(String)` : Program's delivery
+- fieldOfStudy `(String)` : Program's field of study
+- cipCode `(String)` : Program's cip code
+- hegisCode `(String)` : Program's hegis code
+- registrationMode `(String)` : Program's registration mode
+- assessments `(String)` : Program's assessments
+- attributes `(Array<String>)` : Program's attributes
+- status `(String)` : Program's status
+- files `(Array<File>)` : Program's files
+
+- degreeDesignation `(String)` : Degree designation, e.g. "Baccalaureate"
+- owners `(Array<String>)` : Program's owners, **User Reference**
+
+- contacts `(Array<Object>)` : List of the program's contacts
+    - type `(String)` : The type of the contact, e.g. "director"
+    - name `(String)` : The name of the contact
+    - email `(String)` : The contact's email
+    - title `(String)` : The contact's title
+    - phone `(String)` : The contact's phone number
+
+- allowIntegration `(Boolean)` : Whether to allow integration for this program
+
+- effectiveStartDate `(Date String)` : Programs's start date, **Required**
+- effectiveEndDate `(Date String)` : Programs's start date, **Required**
+- startTerm `(Object)` : Program's start term
+    - year `(String)` : The term's year, e.g. "2019-20", **Required**
+    - semester `(Integer)` : The term's semester number, e.g. 1 for fall semester, **Required**
+- endTerm `(Object)` : Program's end term
+    - year `(String)` : The term's year, e.g. "2019-20", **Required**
+    - semester `(Integer)` : The term's semester number, e.g. 1 for fall semester, **Required**
+
+- learningOutcomes `(Array<Object>)` : List of the program's associated learning outcomes
+    - name `(String)` : The name of the outcome, **Required**
+    - objective `(String)` : States the actual objective of the outcome
+    - tags `(Array<String>)` : List of tags associated with this outcome
+    - activity `(String)` : States how this this outcome is achieved
+    - assessment `(String)` : States how this outcome is assessed
+
+- progressRequirements `(Array<Object>)` : List of the program's associated progress requirements
+
+- specializations `(Array<Object>)` : List of the program's specializations
+    - id `(String)` : Specialization id
+    - code `(String)` : Specialization code
+    - name `(String)` : Specialization name
+    - longName `(String)` : Specialization long name
+    - type `(String)` : Specialization type
+    - tags `(Array<String>)` : Specialization tags
+    - status `(String)` : Specialization's status
+    - effectiveStartDate `(Date String)` : Specialization's start date
+    - effectiveEndDate `(Date String)` : Specialization's start date
+    - cipCode `(String)` : Specialization's cip code
+    - hegisCode `(String)` : Specialization's hegis code
+
+    - firstTermValid `(String)` : Specialization's first time valid, **Term Reference**
+    - lastAdmitTerm `(String)` : Specialization's last term admitted, **Term Reference**
+    - defaultOfRequirementTerm `(String)` : Specialization's default of requirement term, **Term Reference**
+    - lastProspectDate `(Date String)` : Specialization's last prospect date
+    - transcriptLevel `(String)` : Specialization's transcript level
+    - evaluateSubplan `(Boolean)` : Whether to evaluate subplan
+    - printOnDiploma `(Boolean)` : Whether to print this specialization on diplomas
+    - printOnTranscript `(Boolean)` : Whether to print this specialization on transcripts
+
+- learningOutcomes `(Array<Object>)` : List of the program's concentrations
+    - id `(String)` : Concentration id
+    - name `(String)` : Concentration name
+    - type `(String)` : Concentration type
+    - tags `(Array<String>)` : Concentration tags
+
+- notes `(String)` : Program's notes
+
+- requisites `(Array<Object>)` : Program's requisite information
+    - type `(String)` : Type of the requisite, e.g. admissionRequirement, completionRequirement, **Required**
+    - name `(String)` : Name of this requisite
+    - condition `(String)` : Condition that must be satisfied to satisfy this requisite, **Required**
+    - gradeType `(String)` : Grade type for the minimumGrade / averageGrade conditions
+    - grade `(String)` : Grade value for the minimumGrade / averageGrade conditions
+    - credits `(Integer)` : Credits for the minimumCredits condition
+    - value `(String|Object)` : The text value for the minimumGPA / freeformText conditions, or an object for the completed / enrolledIn / minimumGrade / averageGrade / minimumCredits conditions
+        - condition `(String)` : Either a type of data such as courses or programs, or a logical combinator like anyOf or allOf, **Required**
+        - number `(Integer)` : The number of sub-rules that must be satisfied for the numberOf condition
+        - values `(Array<String>)` : List of ids corresponding to the data type selected in the condition
+        - subSelections `(Array<Object>)` : Selections that are logically combined for the anyOf / allOf / numberOf conditions (with the same structure as this object)
+    - number `(Integer)` : The number of sub-rules that must be satisfied for the numberOf condition
+    - subRules `(Array<Object>)` : Rules that are logically combined for the anyOf / allOf / numberOf conditions (with the same structure as this object)
+
+
+## Programs [/cm/{schoolId}/programs]
+
+### Get all programs [GET /cm/{schoolId}/programs{?list,includeDependents,formatDependents,includePending,ignoreEffectiveDating,limit,skip,orderBy,orderDirection,effectiveDatesRange}]
+
++ Parameters
+
+    + schoolId (required) - school id
+
+    + list (optional) - a comma-separated list of ids to filter by
+
+    + includeDependents (optional) - if true, attach a list of dependent courses/programs to each returned program
+
+    + formatDependents (optional) - if true, attach a formatted list of dependent courses/programs to each returned program
+
+    + includePending (optional, boolean) - if true, includes pending programs in the response (not approved proposals)
+        + Default: false
+
+    + ignoreEffectiveDating (optional, boolean) - if true, it completely ignores effective dating and returns all revisions
+        + Default: false
+
+    + effectiveDatesRange (optional) - date (e.g. `2020-10-10`) or dates(e.g. `2020-10-10,2021-11-11`). Ability to use 2 dates depends on the school's settings. It defaults to today's date. If only one date is present, it'll be used as UPPER DATE LIMIT for effectiveStartDate. It does not work when `ignoreEffectiveDating`=`true`.
+
+    + limit (optional) - number indicating the maximum number of programs to return
+
+    + skip (optional) - number indicating how many programs to skip from the beginning
+
+    + orderBy (optional) - for use with limit and skip, indicates which property programs should be sorted by (default is to sort by code)
+
+    + orderDirection (enum, optional)
+
+        Order direction
+
+        + Default: ascending
+
+        + Members
+            + `ascending`
+            + `descending`
+
+
++ Request (application/json)
+
+    + Headers
+
+            Accept: application/json
+
+    + Body
+
++ Response 200 (application/json)
+
+    Successfully returned program data
+
+    + Attributes
+
+    + Body
+
+            {
+                "(programId)": {
+                    ...program object
+                }
+            }
+
++ Response 400 (application/json)
+
+    Bad Request
+
+    + Body
+
++ Response 403 (application/json)
+
+    Forbidden
+
+    + Body
+
+
+### Search programs [POST /cm/{schoolId}/programs/search/{searchQuery}{?programGroupIds,limit,isActive,effectiveDatesRange,includePending,skip,sortBy}]
+
++ Parameters
+
+    + searchQuery: $filters (required) - text to search or '$filters' if using filtering only
+
+    + schoolId (required) - school id
+
+    + programGroupIds (optional) - a comma-separated list of programGroupIds to filter by
+
+    + isActive (optional, boolean) - if true, returns only active programs
+        + Default: false
+
+    + includePending (optional, boolean) - if true, includes pending programs in the response (not approved proposals)
+        + Default: false
+
+    + effectiveDatesRange (optional) -  date (e.g. `2020-10-10`) or dates(e.g. `2020-10-10,2021-11-11`). Ability to use 2 dates depends on the school's settings. It defaults to today's date. If only one date is present, it'll be used as UPPER DATE LIMIT for effectiveStartDate.
+
+    + limit (optional, number) - number indicating the maximum number of programs to return
+        + Default: 50
+
+    + skip (optional, number) - number indicating how many programs to skip from the beginning
+        + Default: 0
+
+    + sortBy (optional) - for use with limit and skip, indicates which property programs should be sorted by (default is to sort by code)
+        + Default: `code`
+
++ Attributes (optional, Filters)
+
++ Request without filtering (application/json)
+
+    + Body
+
+            {}
+
++ Request with filtering (application/json)
+
+    + Body
+
+            {
+                "condition": "and",
+                "filters": [
+                    {
+                        "id": "longName-program",
+                        "name": "longName",
+                        "inputType": "text",
+                        "group": "program",
+                        "type": "doesNotContain",
+                        "value": "WIP",
+                        "customField": false
+                    },
+                    {
+                        "id": "anything-unique",
+                        "name": "lastEditedAt",
+                        "inputType": "date",
+                        "group": "program",
+                        "type": "isBefore",
+                        "value": 1691058371950
+                    }
+                ]
+            }
+
+
++ Response 200 (application/json)
+
+    Successfully returned all programs matching given criteria.
+
+    + Attributes
+
+    + Body
+
+            {
+                data: Program[],
+                listLength: Number,
+                limit: Number,
+                skip: Number,
+
+            }
+
+### Put multiple programs [PUT /cm/{schoolId}/programs{?doDeletes,putWithVersion}]
+
+Note: PUT program will update the object and NOT create a new object.
+However, <b>if the effective_date is changed</b> in the PUT, this <b>will create</b> a brand new program object
+as the effective_date is used in the _id.
+
++ Parameters
+
+    + schoolId (required) - school id
+
+    + doDeletes (optional) - if true, all data currently in the collection will be deleted
+
+    + putWithVersion (optional) - if true, increment this program's version number and store a snapshot of the current version
+
++ Request (application/json)
+
+    + Headers
+
+            Accept: application/json
+
+    + Attributes
+
+    + Body
+
+            {
+                "(programId)": {
+                    ...program object
+                }
+            }
+
++ Response 200 (application/json)
+
+    Successfully put programs
+
+    + Body
+
++ Response 400 (application/json)
+
+    Bad Request
+
+    + Body
+
++ Response 403 (application/json)
+
+    Forbidden
+
+    + Body
+
+### Get a program [GET /cm/{schoolId}/programs/{programId,includeDependents,formatDependents}]
+
++ Parameters
+
+    + schoolId (required) - school id
+
+    + programId (required) - unique program id
+
+    + includeDependents (optional) - if true, attach a list of courses/programs that are dependent on this program
+
+    + formatDependents (optional) - if true, attach a formatted list of courses/programs that are dependent on this program
+
+
++ Request (application/json)
+
+    + Headers
+
+            Accept: application/json
+
+    + Body
+
++ Response 200 (application/json)
+
+    Successfully returned program
+
+    + Attributes
+
+    + Body
+
+            {
+                "_id": "kAzZP2u2xZZrWtEJg1gd",
+                "code": "LING BA",
+                "contacts": [
+                    {
+                        "type": "director",
+                        "email": "fbaker@example.edu",
+                        "name": "Francis Baker"
+                    }
+                ],
+                "degreeDesignation": "Baccalaureate",
+                "departments": [
+                    "ling"
+                ],
+                "description": "The purpose of the BA program in linguistics is to provide a solid, integrated introduction to the scientific study of language through course work in the core subdisciplines of linguistics, as well as to ensure that the student has a language background sufficient to provide a complement to the theoretical parts of the program and for an understanding of the complexities of human language. This program provides students with a general expertise in the field and prepares them for productive advanced study in linguistics.",
+                "id": "kAzZP2u2xZZrWtEJg1gd",
+                "learningOutcomes": [
+                    {
+                        "name": "LING01",
+                        "tags": [],
+                        "objective": "Learn the theory and history of languages"
+                    },
+                    {
+                        "name": "LING02",
+                        "tags": [],
+                        "objective": "Ensure that students have strong language backgrounds"
+                    }
+                ],
+                "level": "Undergraduate",
+                "name": "Linguistics",
+                "requisites": [
+                    {
+                        "type": "completionRequirements",
+                        "name": "Completion Requirements",
+                        "condition": "allOf",
+                        "subRules": [
+                            {
+                                "condition": "minimumGrade",
+                                "grade": "B",
+                                "gradeType": "letter",
+                                "value": {
+                                    "condition": "numberOf",
+                                    "number": 3,
+                                    "subSelections": [
+                                        {
+                                            "condition": "courseTypes",
+                                            "values": [
+                                                "Linguistics Introductory Courses"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "condition": "minimumCredits",
+                                "credits": 25,
+                                "value": {
+                                    "condition": "anyOf",
+                                    "subSelections": [
+                                        {
+                                            "condition": "courseTypes",
+                                            "values": [
+                                                "Linguistics Elective Courses"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "startTerm": {
+                    "year": "2010-11",
+                    "semester": 1
+                },
+                "version": 1
+            }
+
++ Response 400 (application/json)
+
+    Bad Request
+
+    + Body
+
++ Response 403 (application/json)
+
+    Forbidden
+
+    + Body
+
++ Response 404 (application/json)
+
+    No program found with specified id
+
+    + Body
+
+### Put a program [PUT /cm/{schoolId}/programs/{programId}]
+
+Note: PUT program will update the object and NOT create a new object.
+However, <b>if the effective_date is changed</b> in the PUT, this <b>will create</b> a brand new program object
+as the effective_date is used in the _id.
+
++ Parameters
+
+    + schoolId (required) - school id
+
+    + programId (required) - unique program id
+
++ Request (application/json)
+
+    + Headers
+
+            Accept: application/json
+
+    + Attributes
+
+    + Body
+
+            {
+                ...program object
+            }
+
++ Response 200 (application/json)
+
+    Successfully put program
+
+    + Body
+
++ Response 400 (application/json)
+
+    Bad Request
+
+    + Body
+
++ Response 403 (application/json)
+
+    Forbidden
+
+    + Body
+
+### Post a program [POST /cm/{schoolId}/programs]
+
++ Parameters
+
+    + schoolId (required) - school id
+
++ Request (application/json)
+
+    + Headers
+
+            Accept: application/json
+
+    + Body
+
+            {
+                ...program object
+            }
+
++ Response 201 (application/json)
+
+    Successfully created program
+
+    + Body
+
++ Response 400 (application/json)
+
+    Bad Request
+
+    + Body
+
++ Response 403 (application/json)
+
+    Forbidden
+
+    + Body
+
+### Delete a program [DELETE /cm/{schoolId}/programs/{programId}]
+
++ Parameters
+
+    + schoolId (required) - school id
+
+    + programId (required) - unique program id
+
++ Request (application/json)
+
+    + Headers
+
+            Accept: application/json
+
+    + Body
+
++ Response 200 (application/json)
+
+    Successfully deleted program
+
+    + Body
+
++ Response 400 (application/json)
+
+    Bad Request
+
+    + Body
+
++ Response 403 (application/json)
+
+    Forbidden
+
+    + Body
+
+# Group Requisites
+
+## Requisites [/]
+
++ Attributes (RequisitesModel)
+
+### NO ENDPOINT [GET /]
++ Response 404
+
+
+# Group Roles
+
+Represents user roles information.
+
+---
+
+**Role Attributes:**
+<!--Meta Info-->
+- id `(String)` : Unique ID, **Required**
+- displayName `(String)` : Role Display Name
+- description `(String)` : Role's description, **Required**
+    - buildings: `(Array)`
+    - caNavigation: `(Array)`
+    - caPages: `(Array)`
+    - caRequests: `(Array)`
+    - caSettings: `(Array)`
+    - campusDocuments: `(Array)`
+    - cmAgendas: `(Array)`
+    - cmCourseSets: `(Array)`
+    - cmCourses: `(Array)`
+    - cmFormRoute: `(Array)`
+    - cmForms: `(Array)`
+    - cmPrograms: `(Array)`
+    - cmRequests: `(Array)`
+    - cmSettings: `(Array)`
+    - courseEditor: `(Array)`
+    - documentTypes: `(Array)`
+    - emBuildings: `(Array)`
+    - emEvents: `(Array)`
+    - emForms: `(Array)`
+    - emOrgs: `(Array)`
+    - emReports: `(Array)`
+    - emRequests: `(Array)`
+    - emResources: `(Array)`
+    - emRooms: `(Array)`
+    - emSettings: `(Array)`
+    - institutionSettings: `(Array)`
+    - instructorDashboard: `(Array)`
+    - optimizers: `(Array)`
+    - preferenceForms: `(Array)`
+    - relationships: `(Array)`
+    - requests: `(Array)`
+    - rollovers: `(Array)`
+    - rooms: `(Array)`
+    - smReports: `(Array)`
+
+
+
+## Roles [/cm/{schoolId}/general/roles]
+
+### Get all roles [GET /cm/{schoolId}/general/roles]
+
++ Parameters
+
+    + schoolId (required) - school id
+
++ Request (application/json)
+
+    + Headers
+
+            Accept: application/json
+
+    + Body
+
++ Response 200 (application/json)
+
+    Successfully returned all role information
+
+    + Attributes
+
+    + Body
+
+            {
+                "_id": "roles",
+                "attribute": "roles",
+                "lastEditedAt": 1634914136333,
+                "lastEditedBy": "",
+                    "roles": { ... }
+            }
+
++ Response 400 (application/json)
+
+    Bad Request
+
+    + Body
+
++ Response 403 (application/json)
+
+    Forbidden
+
+    + Body
+
+
+### Put a role [PUT /cm/{schoolId}/role/{courseId}]
+
++ Parameters
+
+    + schoolId (required) - school id
+
+    + courseId (required) - unique course id
+
++ Request (application/json)
+
+    + Headers
+
+            Accept: application/json
+
+    + Attributes
+
+    + Body
+
+            {
+               {attribute: "roles", roles: { role objects } }
+            }
+
++ Response 200 (application/json)
+
+    Successfully set role
+
+    + Body
+
++ Response 400 (application/json)
+
+    Bad Request
+
+    + Body
+
++ Response 403 (application/json)
+
+    Forbidden
+
+    + Body

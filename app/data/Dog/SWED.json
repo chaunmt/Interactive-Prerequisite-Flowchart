@@ -1,0 +1,104 @@
+[
+  {
+    "code": "SWED 1001",
+    "subject": "SWED",
+    "id": "1001",
+    "title": "Beginning Swedish",
+    "info": "emphasis on working toward novice-intermediate low proficiency in all four language modalities (listening, reading, speaking, writing).  topics include everyday subjects (shopping, directions, family, food, housing, etc.).",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "SWED 1002",
+    "subject": "SWED",
+    "id": "1002",
+    "title": "Beginning Swedish",
+    "info": "continues the presentation of all four language modalities (listening, reading, speaking, writing), with a proficiency emphasis. topics include free-time activities, careers, and swedish culture.",
+    "prereqInfo": "1001",
+    "prereq": {
+      "code": "SWED 1001",
+      "subject": "SWED",
+      "id": "1001"
+    }
+  },
+  {
+    "code": "SWED 1003",
+    "subject": "SWED",
+    "id": "1003",
+    "title": "Intermediate Swedish",
+    "info": "emphasis on intermediate proficiency in listening, reading, speaking, and writing. contextualized work on grammar and vocabulary is combined with authentic readings and essay assignments.",
+    "prereqInfo": "1002",
+    "prereq": {
+      "code": "SWED 1002",
+      "subject": "SWED",
+      "id": "1002"
+    }
+  },
+  {
+    "code": "SWED 1004",
+    "subject": "SWED",
+    "id": "1004",
+    "title": "Intermediate Swedish",
+    "info": "emphasis on developing intermediate mid-high proficiency in listening, reading, speaking, and writing. contextualized work on grammar and vocabulary is supported by work with authentic readings and essay assignments.",
+    "prereqInfo": "1003",
+    "prereq": {
+      "code": "SWED 1003",
+      "subject": "SWED",
+      "id": "1003"
+    }
+  },
+  {
+    "code": "SWED 3011",
+    "subject": "SWED",
+    "id": "3011",
+    "title": "Advanced Swedish",
+    "info": "achieving advanced proficiency in swedish. fiction, film, journalistic, and professional prose. grammar, vocabulary building exercises, review of oral/written modes of communication.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "SWED 3012",
+    "subject": "SWED",
+    "id": "3012",
+    "title": "Advanced Swedish",
+    "info": "novels, short stories, plays, articles. structural, stylistic, vocabulary-building exercises.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "SWED 4001",
+    "subject": "SWED",
+    "id": "4001",
+    "title": "Beg Swedish Grad Research",
+    "info": "emphasis on working toward novice-intermediate low proficiency in all four language modalities (listening, reading, speaking, writing). topics include everyday subjects (shopping, directions, family, food, housing, etc.). meets concurrently with 1001.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "SWED 4002",
+    "subject": "SWED",
+    "id": "4002",
+    "title": "Beg Swedish Grad Research",
+    "info": "continues the presentation of all four language modalities (listening, reading, speaking, writing), with a proficiency emphasis. topics include free-time activities, careers, and swedish culture. meets concurrently with 1002.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "SWED 4003",
+    "subject": "SWED",
+    "id": "4003",
+    "title": "Int Swedish Grad Research",
+    "info": "emphasis on intermediate proficiency in listening, reading, speaking, and writing. contextualized work on grammar and vocabulary is combined with authentic readings and essay assignments. meets concurrently with 1003.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "SWED 4004",
+    "subject": "SWED",
+    "id": "4004",
+    "title": "Int Swedish Grad Research",
+    "info": "emphasis on developing intermediate mid-high proficiency in listening, reading, speaking, and writing. contextualized work on grammar and vocabulary is supported by work with authentic readings and essay assignments. meets concurrently with 1004.",
+    "prereqInfo": null,
+    "prereq": []
+  }
+]

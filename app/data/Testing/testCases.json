@@ -1,0 +1,101 @@
+[
+  {
+    "code": "CSCI 5541",
+    "subject": "CSCI",
+    "id": "5541",
+    "title": "Natural Language Processing",
+    "info": "Computers are poor conversationalists, despite decades of attempts to change that fact. This course will provide an overview of the computational techniques developed in the attempt to enable computers to interpret and respond appropriately to ideas expressed using natural languages (such as English or French) as opposed to formal languages (such as C++ or Python). Topics in this course will include parsing, semantic analysis, machine translation, dialogue systems, and statistical methods in speech recognition.",
+    "prereqInfo": "Suggested prerequisite: CSCI 2041",
+    "prereq": {}
+  },
+  {
+    "code": "CSCI 5552",
+    "subject": "CSCI",
+    "id": "5552",
+    "title": "Sensing/Estimation in Robotics",
+    "info": "Bayesian estimation, maximum likelihood estimation, Kalman filtering, particle filtering. Sensor modeling and fusion. Mobile robot motion estimation (odometry, inertial,laser scan matching, vision-based) and path planning. Map representations, landmark-based localization, Markov localization, simultaneous localization/mapping (SLAM), multi-robot localization/mapping.",
+    "prereqInfo": "prereq: [5551, Stat 3021] or instr consent",
+    "prereq": {}
+  },
+  {
+    "code": "CSCI 5607",
+    "subject": "CSCI",
+    "id": "5607",
+    "title": "Computer Graphics 1",
+    "info": "Fundamental algorithms in computer graphics. Emphasizes programming projects in C/C++. Scan conversion, hidden surface removal, geometrical transformations, projection, illumination/shading, parametric cubic curves, texture mapping, antialising, ray tracing. Developing graphics software, graphics research.",
+    "prereqInfo": "prereq: concurrent registration is required (or allowed) in 2033, concurrent registration is required (or allowed) in 3081",
+    "prereq": {}
+  },
+  {
+    "code": "CSCI 5609",
+    "subject": "CSCI",
+    "id": "5609",
+    "title": "Visualization",
+    "info": "Fundamental theory/practice in data visualization. Programming applications. Perceptual issues in effective data representation, multivariate visualization, information visualization, vector field/volume visualization.",
+    "prereqInfo": "prereq: [1913, 4041] or equiv or instr consent",
+    "prereq": {}
+  },
+  {
+    "code": "CSCI 5707",
+    "subject": "CSCI",
+    "id": "5707",
+    "title": "Principles of DB Systems",
+    "info": "Concepts, database architecture, alternative conceptual data models, foundations of data manipulation/analysis, logical data models, database designs, models of database security/integrity, current trends.",
+    "prereqInfo": "prereq: [4041 or instr consent], grad student",
+    "prereq": {}
+  },
+  {
+    "code": "CSCI 8271",
+    "subject": "CSCI",
+    "id": "8271",
+    "title": "Security/Privacy in Computing",
+    "info": "Recent security/privacy issues in computer systems/networks. Threats, attacks, countermeasures. Security research, authentication, network security, wireless security, computer system security, anonymous system, pseudonym, access control, intrusion detection system, cryptographic protocols. How to pursue research in security and design secure systems.",
+    "prereqInfo": "prereq: [5211, 5103] or instr consent; 5471 or EE 5248 or Math 5248 or equiv recommended",
+    "prereq": {}
+  },
+  {
+    "code": "CSCL 1201V",
+    "subject": "CSCL",
+    "id": "1201V",
+    "title": "Honors Course: Cinema",
+    "info": "Introduction to the critical study of the visual in modernity, presented through sustained analysis of the cinema and cinematic codes. Emphases on formal film analysis and major film movements and conventions in the international history of cinema. Students develop a vocabulary for formal visual analysis and explore major theories of the cinema. ",
+    "prereqInfo": "*Students will not receive credit for CSCL 1201V if they have already taken CSCLW, SCMC 1201W, ARTH 1921W, CSCL 1921W, CSCL 1201 or SCMC 1201",
+    "prereq": {}
+  },
+  {
+    "code": "CSCI 1913",
+    "subject": "CSCI",
+    "id": "1913",
+    "title": "Intro to Algs. & Program Dev.",
+    "info": "Advanced object oriented programming to implement abstract data types(stacks, queues, linked lists, hash tables, binary trees) using Java language. Searching/sorting algorithms.  Basic algorithmic analysis. Scripting languages using Python language. Substantial programming projects. Weekly lab.",
+    "prereqInfo": "prereq: (EE major and EE 1301) or (CmpE major and EE 1301) or 1103 or 1113 or instr consent",
+    "prereq": {}
+  },
+  {
+    "code": "ECON 4109H",
+    "subject": "ECON",
+    "id": "4109H",
+    "title": "Hon Game Theory & Applications",
+    "info": "For ECON B.S. students only. Games. Normal form, extensive form. Wars of attrition. Games of timing. Bargaining applications in industrial organization, macroeconomics, and international economics.",
+    "prereqInfo": "prereq: [[3101, 3102]] or equiv], [[MATH 1271, MATH 1272] or equiv]",
+    "prereq": {}
+  },
+  {
+    "code": "CSCI 4041",
+    "subject": "CSCI",
+    "id": "4041",
+    "title": "Algs. & Data Str.",
+    "info": "Rigorous analysis of algorithms/implementation. Algorithm analysis, sorting algorithms, binary trees, heaps, priority queues, heapsort, balanced binary search trees, AVL trees, hash tables and hashing, graphs, graph traversal, single source shortest path, minimum cost spanning trees.",
+    "prereqInfo": "prereq: [(1913 or 1933) and 2011] or instr consent; cannot be taken for grad CSci cr",
+    "prereq": {}
+  },
+  {
+    "code": "CSCI 4271W",
+    "subject": "CSCI",
+    "id": "4271W",
+    "title": "Dev. Secure Software Sys.",
+    "info": "Overview of threat modeling and security assessment in the design and development of software systems. Techniques to identify, exploit, detect, mitigate and prevent software vulnerabilities at the design, coding, application, compiler, operating system, and networking layers. Methods for effectively communicating system designs and vulnerabilities. ",
+    "prereqInfo": "Prerequisites: 3081W",
+    "prereq": {}
+  }
+]

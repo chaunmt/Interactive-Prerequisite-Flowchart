@@ -1,0 +1,365 @@
+[
+  {
+    "code": "ANAT 3001",
+    "subject": "ANAT",
+    "id": "3001",
+    "title": "Human Anatomy",
+    "info": "anatomical relationships. function based upon form. clinical applications. gross (macroscopic) anatomy, histology (microscopic anatomy). neuroanatomy (nervous system), embryology (developmental anatomy).",
+    "prereqInfo": "[biol 1002w or biol 1009 or biol 2002 or equiv], at least soph",
+    "prereq": {
+      "or": [
+        {
+          "code": "BIOL 1002W",
+          "subject": "BIOL",
+          "id": "1002W"
+        },
+        {
+          "code": "BIOL 1009",
+          "subject": "BIOL",
+          "id": "1009"
+        },
+        {
+          "code": "BIOL 2002",
+          "subject": "BIOL",
+          "id": "2002"
+        }
+      ]
+    }
+  },
+  {
+    "code": "ANAT 3171",
+    "subject": "ANAT",
+    "id": "3171",
+    "title": "Human Anatomy Lab",
+    "info": "human anatomy laboratory for mortuary science students who have had a previous human anatomy lecture course.",
+    "prereqInfo": "mortuary science student",
+    "prereq": []
+  },
+  {
+    "code": "ANAT 3601",
+    "subject": "ANAT",
+    "id": "3601",
+    "title": "Principles of Human Anatomy",
+    "info": "anatomical relationships. function based upon form. clinical applications. gross (macroscopic) anatomy, histology (microscopic anatomy). neuroanatomy (nervous system), embryology (developmental anatomy).",
+    "prereqInfo": "[biol 1002 or biol 1009 or biol 2002 or equiv], [concurrent registration is required (or allowed) in 3602 or concurrent registration is required (or allowed) in 3612], at least soph",
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            {
+              "code": "BIOL 1002",
+              "subject": "BIOL",
+              "id": "1002"
+            },
+            {
+              "code": "BIOL 1009",
+              "subject": "BIOL",
+              "id": "1009"
+            },
+            {
+              "code": "BIOL 2002",
+              "subject": "BIOL",
+              "id": "2002"
+            }
+          ]
+        },
+        {
+          "code": "ANAT 3602",
+          "subject": "ANAT",
+          "id": "3602"
+        },
+        {
+          "code": "ANAT 3612",
+          "subject": "ANAT",
+          "id": "3612"
+        }
+      ]
+    }
+  },
+  {
+    "code": "ANAT 3602",
+    "subject": "ANAT",
+    "id": "3602",
+    "title": "Principles of Human Anat Lab",
+    "info": "complements 3601 or 3611.",
+    "prereqInfo": "3001 or 3301 or inmd 3001 or 3301 or concurrent registration is required (or allowed) in 3601 or concurrent registration is required (or allowed) in 3611",
+    "prereq": {
+      "or": [
+        {
+          "code": "ANAT 3001",
+          "subject": "ANAT",
+          "id": "3001"
+        },
+        {
+          "code": "ANAT 3301",
+          "subject": "ANAT",
+          "id": "3301"
+        },
+        {
+          "code": "INMD 3001",
+          "subject": "INMD",
+          "id": "3001"
+        },
+        {
+          "code": "ANAT 3301",
+          "subject": "ANAT",
+          "id": "3301"
+        },
+        {
+          "code": "ANAT 3601",
+          "subject": "ANAT",
+          "id": "3601"
+        },
+        {
+          "code": "ANAT 3611",
+          "subject": "ANAT",
+          "id": "3611"
+        }
+      ]
+    }
+  },
+  {
+    "code": "ANAT 3611",
+    "subject": "ANAT",
+    "id": "3611",
+    "title": "Principles of Human Anatomy",
+    "info": "anatomical relationships. function based upon form. clinical applications. gross (macroscopic) anatomy, histology (microscopic anatomy). neuroanatomy (nervous system), embryology (developmental anatomy).",
+    "prereqInfo": "[biol 1002 or biol 1009 or biol 2002 or equiv], at least soph; [concurrent registration is required (or allowed) in 3602 or concurrent registration is required (or allowed) in 3612] recommended",
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            {
+              "code": "BIOL 1002",
+              "subject": "BIOL",
+              "id": "1002"
+            },
+            {
+              "code": "BIOL 1009",
+              "subject": "BIOL",
+              "id": "1009"
+            },
+            {
+              "code": "BIOL 2002",
+              "subject": "BIOL",
+              "id": "2002"
+            }
+          ]
+        },
+        {
+          "code": "ANAT 3602",
+          "subject": "ANAT",
+          "id": "3602"
+        },
+        {
+          "code": "ANAT 3612",
+          "subject": "ANAT",
+          "id": "3612"
+        }
+      ]
+    }
+  },
+  {
+    "code": "ANAT 3612",
+    "subject": "ANAT",
+    "id": "3612",
+    "title": "Principles of Human Anat Lab",
+    "info": "complements 3601 or 3611.",
+    "prereqInfo": "3001 or 3301 or inmd 3001 or 3301 or concurrent registration is required (or allowed) in 3601 or concurrent registration is required (or allowed) in 3611",
+    "prereq": {
+      "or": [
+        {
+          "code": "ANAT 3001",
+          "subject": "ANAT",
+          "id": "3001"
+        },
+        {
+          "code": "ANAT 3301",
+          "subject": "ANAT",
+          "id": "3301"
+        },
+        {
+          "code": "INMD 3001",
+          "subject": "INMD",
+          "id": "3001"
+        },
+        {
+          "code": "ANAT 3301",
+          "subject": "ANAT",
+          "id": "3301"
+        },
+        {
+          "code": "ANAT 3601",
+          "subject": "ANAT",
+          "id": "3601"
+        },
+        {
+          "code": "ANAT 3611",
+          "subject": "ANAT",
+          "id": "3611"
+        }
+      ]
+    }
+  },
+  {
+    "code": "ANAT 3651",
+    "subject": "ANAT",
+    "id": "3651",
+    "title": "Human Anatomy w/ lab",
+    "info": "anatomical relationships. function based upon form. clinical applications. gross (macroscopic) anatomy, histology (microscopic anatomy). neuroanatomy (nervous system), embryology (developmental anatomy). \n150 minutes of lecture and 2 hrs or lab per week. lecture sections are (i) three 50-minute sessions per week; or (ii) two 75-minute session per week. all lab sections are 2hrs.\n\nthe course director will not allow students to register after the class has started. this course has mandatory orientation sessions that cannot be missed.  principles of human anatomy (anat 3651, lecture and lab components) is offered in the spring.  human anatomy (anat 3001, has only a lecture component) is offered in fall. anat 3651 and anat 3001 are not equivalent. a student in-need of a lab component must register for anat 3651.\n\nthis course would be equivalent to someone taking (3601or 3611) and (3602 or3612).",
+    "prereqInfo": "[biol 1002 or biol 1009 or biol 2002 or equiv], at least soph",
+    "prereq": {
+      "or": [
+        {
+          "code": "BIOL 1002",
+          "subject": "BIOL",
+          "id": "1002"
+        },
+        {
+          "code": "BIOL 1009",
+          "subject": "BIOL",
+          "id": "1009"
+        },
+        {
+          "code": "BIOL 2002",
+          "subject": "BIOL",
+          "id": "2002"
+        }
+      ]
+    }
+  },
+  {
+    "code": "ANAT 4900",
+    "subject": "ANAT",
+    "id": "4900",
+    "title": "Directed Studies in Anatomy",
+    "info": "x",
+    "prereqInfo": "instr consent",
+    "prereq": []
+  },
+  {
+    "code": "ANAT 5095",
+    "subject": "ANAT",
+    "id": "5095",
+    "title": "Advanced Problems in Anatomy",
+    "info": "exceptional projects that do not easily fit within confines of other anat offerings. examples include but not limited to individual teaching or research projects.",
+    "prereqInfo": "one or more anat classes, instr consent",
+    "prereq": []
+  },
+  {
+    "code": "ANAT 5150",
+    "subject": "ANAT",
+    "id": "5150",
+    "title": "Gross Anatomy",
+    "info": "human cadaveric dissection based on traditional preparation, lab dissection, review sections, radiographic analysis, clinical correlations. taught by regions. extremities, torso, head/neck. assessment by mid-semester/final written/practical examinations.",
+    "prereqInfo": "instr consent, for medical students, or graduate students enrolled in an appropriate graduate program as determined by instructor.",
+    "prereq": []
+  },
+  {
+    "code": "ANAT 5525",
+    "subject": "ANAT",
+    "id": "5525",
+    "title": "Pelvis and Urinary System",
+    "info": "two-day intensive course. pelvis, perineum, and urinary system with cadaveric dissection. structure/function of pelvic and urinary organs, including common dysfunction and pathophysiology. laboratory dissections, including kidneys, ureters, urinary bladder, pelvic viscera and perineum (male or female), pelvic floor, vascular and nervous structures. grand rounds section.",
+    "prereqInfo": "one undergrad anatomy course, one undergrad physiology course, instr consent",
+    "prereq": []
+  },
+  {
+    "code": "ANAT 5999",
+    "subject": "ANAT",
+    "id": "5999",
+    "title": "Head and Neck",
+    "info": "n/a",
+    "prereqInfo": "instr consent",
+    "prereq": []
+  },
+  {
+    "code": "ANAT 6034",
+    "subject": "ANAT",
+    "id": "6034",
+    "title": "Head and Neck",
+    "info": "head/neck anatomy.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "ANAT 6050",
+    "subject": "ANAT",
+    "id": "6050",
+    "title": "Gross Anatomy",
+    "info": "lab dissection-based course. peer teaching, team-based learning. extremities/torso. head/neck.",
+    "prereqInfo": "dental student or instr consent",
+    "prereq": []
+  },
+  {
+    "code": "ANAT 6150",
+    "subject": "ANAT",
+    "id": "6150",
+    "title": "Gross Anatomy",
+    "info": "extremities/back, torso, head/neck. lectures provide pre-lab presentation (dissection reviewed), review (at end of a unit), and clinical correlations.",
+    "prereqInfo": "grad student or instr consent",
+    "prereq": []
+  },
+  {
+    "code": "ANAT 6160",
+    "subject": "ANAT",
+    "id": "6160",
+    "title": "Embryology",
+    "info": "online course. embryonic development/defects through most systems. online lectures/forums. two classroom review sessions, two assessments.",
+    "prereqInfo": "grad student, instr consent",
+    "prereq": []
+  },
+  {
+    "code": "ANAT 7600",
+    "subject": "ANAT",
+    "id": "7600",
+    "title": "Adv Anat",
+    "info": "complete/detailed review of normal anatomy.",
+    "prereqInfo": "instr consent",
+    "prereq": []
+  },
+  {
+    "code": "ANAT 7601",
+    "subject": "ANAT",
+    "id": "7601",
+    "title": "Adv Clinical Gross Anatomy I",
+    "info": "reviews gross anatomy of entire human body. students perform regional dissections under guidance of anatomy faculty. emphasizes clinical applications of gross anatomical structure/function. teaching techniques in clinical anatomy.",
+    "prereqInfo": "6150 or instr consent",
+    "prereq": {
+      "code": "ANAT 6150",
+      "subject": "ANAT",
+      "id": "6150"
+    }
+  },
+  {
+    "code": "ANAT 7602",
+    "subject": "ANAT",
+    "id": "7602",
+    "title": "Adv Clin Gross Anat II",
+    "info": "techniques of didactic teaching to large groups and interactive teaching to small groups. practical teaching experience may include both large group relab lectures and laboratory instruction in gross anatomy to medical students.",
+    "prereqInfo": "7601 or instr consent",
+    "prereq": {
+      "code": "ANAT 7601",
+      "subject": "ANAT",
+      "id": "7601"
+    }
+  },
+  {
+    "code": "ANAT 7800",
+    "subject": "ANAT",
+    "id": "7800",
+    "title": "Preparation for Internship",
+    "info": "surgical anatomy through common surgical procedures. simulated operating room environment. operating room procedures, resource management, teamwork.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "ANAT 7999",
+    "subject": "ANAT",
+    "id": "7999",
+    "title": "Head & Neck",
+    "info": "head/neck anatomy.",
+    "prereqInfo": "[medical or dental] resident",
+    "prereq": []
+  }
+]

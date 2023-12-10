@@ -1,0 +1,166 @@
+[
+  {
+    "code": "FIN 1001",
+    "subject": "FIN",
+    "id": "1001",
+    "title": "Beginning Finnish I",
+    "info": "emphasis on working toward novice-intermediate low proficiency in all four language modalities (listening, reading, speaking, writing). topics include every day subjects (shopping, directions, family, food, housing, etc.).",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "FIN 1002",
+    "subject": "FIN",
+    "id": "1002",
+    "title": "Beginning Finnish II",
+    "info": "continues the presentation of all four language modalities (listening, reading, speaking, writing) with a proficiency emphasis. topics include free-time activities, careers, and  the finnish culture.",
+    "prereqInfo": "1001",
+    "prereq": {
+      "code": "FIN 1001",
+      "subject": "FIN",
+      "id": "1001"
+    }
+  },
+  {
+    "code": "FIN 1003",
+    "subject": "FIN",
+    "id": "1003",
+    "title": "Intermediate Finnish I",
+    "info": "emphasis on intermediate proficiency in listening, reading, speaking, and writing. contextualized work on grammar and vocabulary is combined with authentic readings and essay assignments.",
+    "prereqInfo": "1002",
+    "prereq": {
+      "code": "FIN 1002",
+      "subject": "FIN",
+      "id": "1002"
+    }
+  },
+  {
+    "code": "FIN 1004",
+    "subject": "FIN",
+    "id": "1004",
+    "title": "Intermediate Finnish II",
+    "info": "emphasis on developing intermediate mid-high proficiency in listening, reading, speaking, and writing. contextualized work on grammar and vocabulary is supported by work with authentic readings and essay assignments.",
+    "prereqInfo": "1003",
+    "prereq": {
+      "code": "FIN 1003",
+      "subject": "FIN",
+      "id": "1003"
+    }
+  },
+  {
+    "code": "FIN 3011",
+    "subject": "FIN",
+    "id": "3011",
+    "title": "Advanced Finnish",
+    "info": "designed to help students achieve advanced proficiency in finnish. discussion of fiction, film, journalistic, and professional prose is complemented by grammar, vocabulary building exercises, and review of oral/written modes of communication.",
+    "prereqInfo": "1004 or 4004",
+    "prereq": {
+      "or": [
+        {
+          "code": "FIN 1004",
+          "subject": "FIN",
+          "id": "1004"
+        },
+        {
+          "code": "FIN 4004",
+          "subject": "FIN",
+          "id": "4004"
+        }
+      ]
+    }
+  },
+  {
+    "code": "FIN 3012",
+    "subject": "FIN",
+    "id": "3012",
+    "title": "Advanced Finnish",
+    "info": "discussion of novels, short stories, plays, articles. structural, stylistic, vocabulary-building exercises.",
+    "prereqInfo": "3011 or 4011",
+    "prereq": {
+      "or": [
+        {
+          "code": "FIN 3011",
+          "subject": "FIN",
+          "id": "3011"
+        },
+        {
+          "code": "FIN 4011",
+          "subject": "FIN",
+          "id": "4011"
+        }
+      ]
+    }
+  },
+  {
+    "code": "FIN 3670",
+    "subject": "FIN",
+    "id": "3670",
+    "title": "Topics in Finnish Studies",
+    "info": "interdisciplinary social science topics on finnish people, culture, and society. in english.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "FIN 4001",
+    "subject": "FIN",
+    "id": "4001",
+    "title": "Beg Finnish Grad Research I",
+    "info": "emphasis on working toward novice-intermediate low proficiency in all four language modalities (listening, reading, speaking, writing). topics include every day subjects (shopping, directions, family, food, housing, etc.). meets concurrently with 1001.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "FIN 4002",
+    "subject": "FIN",
+    "id": "4002",
+    "title": "Beg Finnish Grad Research II",
+    "info": "continues the presentation of all four language modalities (listening, reading, speaking, writing) with a proficiency emphasis. topics include free-time activities, careers, and the finnish culture. meets concurrently with 1002.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "FIN 4003",
+    "subject": "FIN",
+    "id": "4003",
+    "title": "Int Finnish Grad Research I",
+    "info": "emphasis on intermediate proficiency in listening, reading, speaking, and writing. contextualized work on grammar and vocabulary is combined with authentic readings and essay assignments. meets concurrently with 1003.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "FIN 4004",
+    "subject": "FIN",
+    "id": "4004",
+    "title": "Int Finnish Grad Research II",
+    "info": "emphasis on developing intermediate mid-high proficiency in listening, reading, speaking, and writing. contextualized work on grammar and vocabulary is supported by work with authentic readings and essay assignments. meets with 1004.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "FIN 4011",
+    "subject": "FIN",
+    "id": "4011",
+    "title": "Advanced Finnish Grad Research",
+    "info": "designed to help students achieve advanced proficiency in finnish. discussion of fiction, film, journalistic, and professional prose is complemented by grammar, vocabulary building exercises, and review of oral/written modes of communication. meets with 3011.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "FIN 4012",
+    "subject": "FIN",
+    "id": "4012",
+    "title": "Advanced Finnish Grad Research",
+    "info": "discussion of novels, short stories, plays, articles. structural, stylistic, vocabulary-building exercises. meets with 3012.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "FIN 5670",
+    "subject": "FIN",
+    "id": "5670",
+    "title": "Topics in Finnish Studies",
+    "info": "interdisciplinary social science topics on finnish people, culture, and society. taught in english.",
+    "prereqInfo": null,
+    "prereq": []
+  }
+]

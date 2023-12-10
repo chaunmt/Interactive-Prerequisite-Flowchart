@@ -1,0 +1,732 @@
+[
+  {
+    "code": "PMB 1212",
+    "subject": "PMB",
+    "id": "1212",
+    "title": "Plant Biotechnology & Society",
+    "info": "importance of plants to humans. how human interaction with plants has profoundly affected human societies, how human technology has changed our interaction with plants and affected the environment. development of transgenic plants. biofuels.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "PMB 2022",
+    "subject": "PMB",
+    "id": "2022",
+    "title": "General Botany",
+    "info": "introduction to the biology of plants, algae, and fungi. structure, growth, development, reproduction, diversity, and aspects of their ecology. includes laboratory that focuses on structures in photosynthetic organisms and fungi as well as an introduction to physiology.",
+    "prereqInfo": "one semester of college biology",
+    "prereq": []
+  },
+  {
+    "code": "PMB 3002",
+    "subject": "PMB",
+    "id": "3002",
+    "title": "Plant Function",
+    "info": "this course explores a range of plant physiological processes, including how plants make and use food; acquire and use minerals; transport water and nutrients; and regulate growth and development in response to hormones and environmental cues, such as light quality.\n\nwhile this course is paired with the pmb 3005w plant function laboratory, the courses do not need to be taken together or in a specific order.",
+    "prereqInfo": "[1002 or 1009 or 2003 or equiv], [chem 1011 or one semester chemistry with some organic content]",
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            {
+              "code": "PMB 1002",
+              "subject": "PMB",
+              "id": "1002"
+            },
+            {
+              "code": "PMB 1009",
+              "subject": "PMB",
+              "id": "1009"
+            },
+            {
+              "code": "PMB 2003",
+              "subject": "PMB",
+              "id": "2003"
+            }
+          ]
+        },
+        {
+          "code": "CHEM 1011",
+          "subject": "CHEM",
+          "id": "1011"
+        }
+      ]
+    }
+  },
+  {
+    "code": "PMB 3005W",
+    "subject": "PMB",
+    "id": "3005W",
+    "title": "Plant Function Laboratory",
+    "info": "in this lab course, students will use a variety of biological techniques to study plant structure and anatomy, plant physiology, cell biology, and plant growth. this includes topics related to climate change, plant adaptation, crop domestication, and genetic engineering. includes hands-on laboratory activities and writing focus. while this course is paired with the pmb3002 lecture course, the courses do not need to be taken together or in a specific order.",
+    "prereqInfo": "biol 1009, biol 2003, or equiv.",
+    "prereq": {
+      "and": [
+        {
+          "code": "BIOL 1009",
+          "subject": "BIOL",
+          "id": "1009"
+        },
+        {
+          "code": "BIOL 2003",
+          "subject": "BIOL",
+          "id": "2003"
+        }
+      ]
+    }
+  },
+  {
+    "code": "PMB 3007W",
+    "subject": "PMB",
+    "id": "3007W",
+    "title": "Plant, Algal, Fungal Diversity",
+    "info": "evolution/ecology/diversity of plants, fungi, and algae. lectures highlight phylogenetic diversity among and within multiple eukaryotic groups as well as adaptations and strategies for survival in varied environments. includes both hands-on laboratory activities and writing focus.",
+    "prereqInfo": "one semester college biology",
+    "prereq": []
+  },
+  {
+    "code": "PMB 3212",
+    "subject": "PMB",
+    "id": "3212",
+    "title": "Fungi - A Kingdom of Their Own",
+    "info": "no matter how you classify life on earth, the fungi are in a kingdom of their own. latest estimates of the number of fungal species on our planet are between 2.2 and 3.8 million species. the diversity of single-celled and multi-cellular fungi is staggering, the result of divergence within a group of aquatic eukaryotes one billion years ago (± 500 million years). that divergence ultimately gave rise to animals and fungi, but the diversification within the fungal lineages is unrivaled. they can be found in aerobic and anaerobic environments. they are found on every continent, recycling and reallocating vast amounts of nutrients in every biome. they cause problems in crops but are also used to make food, with ancient processes such as fermentation and mushroom cultivation. for these reasons, mycology (study of fungi) is increasingly popular among students with interests as diverse as their fungal subjects. with the advent of high-throughput dna sequencing to sample entire communities, we are seeing fungi in all of these places where they were previously invisible. the fungal role in earth's most critical processes is, right now, coming into light. it is an exciting time to study kingdom fungi.\n\nthis course uses a format of lecture, discussion, and field trips to provide undergraduate and graduate students with a solid foundation in the fungi, primarily through an environmental lens. undergraduate and graduate students will learn the basics of fungi in three core sections: 1) phylogeny, taxonomy, and diagnostics (who are the fungi?); 2) morphology and physiology (how do fungi work?); 3) ecology and biotechnology (what are fungal implications and applications?). within each core section, there will be one class period devoted to a discussion of the environment, the role of fungi, and the human dimensions of conservation and management. this discussion will be used by the class to vote for an environmental theme used to frame writing assignments, one per unit. using this theme, all students will create a \\\"fungus in focus\\\" one-page \\\"brief\\\" focused on this environmental issue. this is a creative way to connect \\\"dots\\\" for students linking microbial processes to environment, in our case harnessing connections to fungi that often have visible characters (e.g. mushrooms) that make those connections easier for students. we will also go on two field trips, one to a mushroom cultivation facility, and one into the field in april, all depending on class size and weather.",
+    "prereqInfo": "introductory biology course",
+    "prereq": []
+  },
+  {
+    "code": "PMB 3500",
+    "subject": "PMB",
+    "id": "3500",
+    "title": "Topics in Plant Biology",
+    "info": "special topics in plant biology - this is a topics shell",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "PMB 3701",
+    "subject": "PMB",
+    "id": "3701",
+    "title": "PMB Seminar",
+    "info": "develop professional oral communication skills through the attendance and evaluation of biological science public seminars, the construction and presentation of a professional public seminar, and the introduction of a student seminar speaker.",
+    "prereqInfo": "biol 3004/3004h.",
+    "prereq": {
+      "and": [
+        {
+          "code": "BIOL 3004",
+          "subject": "BIOL",
+          "id": "3004"
+        },
+        {
+          "code": "PMB 3004",
+          "subject": "PMB",
+          "id": "3004"
+        }
+      ]
+    }
+  },
+  {
+    "code": "PMB 3802",
+    "subject": "PMB",
+    "id": "3802",
+    "title": "Field Microbiology",
+    "info": "the microbial world is incredibly diverse: there are estimated to be more microbial cells on earth than stars in the entire universe. much of our understanding in microbiology derives from studies of pure cultures; organisms that can easily be grown in the lab. however, it is now clear that the vast majority of microorganisms in nearly every environment are not\nreadily grown under laboratory conditions. we must therefore go to them. field microbiology will be a three-week intensive course where students will be taught methods of environmental microbiology in both lecture and laboratory format. the goal is to not only quantify who is in a given sample, but also to understand something about the conditions\nthey live in (temperature, nutrient availability, etc.). ecological data and microbial community structure will be generated using oxford nanopore sequencing technology – a cutting edge method to generate large sequencing datasets in real-time. analyses will be integrated with an in situ set of field instrumentation that includes an eddy covariance system for quantifying fluxes of methane and carbon dioxide from lake itasca and elk lake, as well as in-lake measurements of solar radiation, dissolved organic matter, ph, conductivity, temperature, dissolved oxygen and chlorophyll. a series of field trips will be scheduled to locations in and around itasca state park including elk lake, arco lake, iron springs bog and lake alice spring. students will also develop an independent research project that will apply methods learned during the first 1.5 weeks of the course.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "PMB 3812",
+    "subject": "PMB",
+    "id": "3812",
+    "title": "Field Mycology",
+    "info": "this class focuses on learning about how to study fungi. students will gain experience identifying mushrooms and other samples collected during course field trips using macromorphological, microscopic, and molecular techniques. in addition, students will isolate fungi from environmental samples and maintain cultures as well as assess fungal community abundance and composition using both traditional (e.g., root tip colonization) and dna-based methods (e.g., next-generation sequencing, bioinformatics, and ecological statistics). course lectures highlight different aspects of fungal diversity (taxonomic, physiological, and ecological) and lab exercises provide hands-on practice. course writing assignments and presentations emphasize exploring the natural history of fungi as well as critically assessing primary research literature. permission is required for undergraduates to enroll in the graduate level of this course (pmb 5812); inquire with the instructor.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "PMB 4111",
+    "subject": "PMB",
+    "id": "4111",
+    "title": "Microbial Physiology/Diversity",
+    "info": "structural/functional organization of bacteria/archaea. energy metabolism utilizing light, inorganic/organic chemicals. cell morphologies, roles/assembly of surface structures. growth/survival mechanisms in various extreme environments. adaptation to changing conditions by development of specialized cells/structures, altering metabolic patterns.",
+    "prereqInfo": "micb 3301 required; bioc 3021 or bioc 4331 recommended",
+    "prereq": {
+      "or": [
+        {
+          "code": "MICB 3301",
+          "subject": "MICB",
+          "id": "3301"
+        },
+        {
+          "code": "BIOC 3021",
+          "subject": "BIOC",
+          "id": "3021"
+        },
+        {
+          "code": "BIOC 4331",
+          "subject": "BIOC",
+          "id": "4331"
+        }
+      ]
+    }
+  },
+  {
+    "code": "PMB 4121",
+    "subject": "PMB",
+    "id": "4121",
+    "title": "Microbial Ecology & Appl Micro",
+    "info": "evolution/structure of microbial communities. population interaction within ecosystems. quantitative/habitat ecology. biogeochemical cycling. molecular microbial ecology, gene transfer in the environment. molecular phylogeny of microorganisms. application of microbes in agriculture. production of commodity chemicals, drugs, and other high-value products.",
+    "prereqInfo": "3301",
+    "prereq": {
+      "code": "PMB 3301",
+      "subject": "PMB",
+      "id": "3301"
+    }
+  },
+  {
+    "code": "PMB 4131",
+    "subject": "PMB",
+    "id": "4131",
+    "title": "Prokaryotic Genetics",
+    "info": "genetics is the application of abstractions to understand biological function. much of our understanding at the molecular level of the natural world is derived from genetic work in model microbial systems like escherichia coli, salmonella, and saccharomyces. prokaryotic genetics will focus on a molecular understanding of bacteria, with a smattering of archaea and phage genetics, covering both classic (transposons, mutant/suppressors) and modern (sequencing, metagenomics, synthetic biology) genetic approaches.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "PMB 4321",
+    "subject": "PMB",
+    "id": "4321",
+    "title": "Minnesota Flora",
+    "info": "practical skills for identifying plant species/surveying minnesota vegetation to students of biology, environmental sciences, resource management, horticulture. integrates botany, ecology, evolution, earth history, climate, global change in context of local plant communities. labs/saturday field trips explore minnesota plants/plant communities.",
+    "prereqInfo": "one semester college biology",
+    "prereq": []
+  },
+  {
+    "code": "PMB 4404",
+    "subject": "PMB",
+    "id": "4404",
+    "title": "Plant Anatomy",
+    "info": "introduction to the microscopic structure and development of plants at the cell, tissue, and organ level. emphasis on relationships between anatomy and the ontogeny, phylogeny, and ecology of seed plants with some reference to lower vascular plants.",
+    "prereqInfo": "biol 2022 or biol 3007",
+    "prereq": {
+      "or": [
+        {
+          "code": "BIOL 2022",
+          "subject": "BIOL",
+          "id": "2022"
+        },
+        {
+          "code": "BIOL 3007",
+          "subject": "BIOL",
+          "id": "3007"
+        }
+      ]
+    }
+  },
+  {
+    "code": "PMB 4412",
+    "subject": "PMB",
+    "id": "4412",
+    "title": "Plant Physiology & Development",
+    "info": "plant physiology and development is the study of how plant cells, tissues, and whole organisms grow and function in response to internal and external cues. pmb 4412/5412 covers the classic plant physiology and development processes including plant water relations, mineral nutrition, membrane transport, photosynthesis, respiration, vascular function, metabolism, growth and development, and hormone responses. the physics underlying our understanding of these physiological systems will also be addressed. other areas of plant science such as plant genetics and biochemistry are covered in other courses and will not be emphasized this course. \n\nthere are no enforced",
+    "prereqInfo": "uisites for this course. \n\nthe following preparation is recommended: pmb 2022 general botany or pmb 3007w plant algal and fungal diversity; general chemistry and introductory physics.",
+    "prereq": {
+      "or": [
+        {
+          "code": "PMB 2022",
+          "subject": "PMB",
+          "id": "2022"
+        },
+        {
+          "code": "PMB 3007",
+          "subject": "PMB",
+          "id": "3007"
+        }
+      ]
+    }
+  },
+  {
+    "code": "PMB 4511",
+    "subject": "PMB",
+    "id": "4511",
+    "title": "Flowering Plant Diversity",
+    "info": "systematics of flowering plants of the world. ecology, geography, origins, and evolution. family characteristics. floral structure, function, evolution. pollination biology. methods of phylogenetic reconstruction. molecular evolution. taxonomic terms. methods of collection/identification. lab.",
+    "prereqInfo": "biol 1001 or 1009 or 1009h or 2002",
+    "prereq": {
+      "or": [
+        {
+          "code": "BIOL 1001",
+          "subject": "BIOL",
+          "id": "1001"
+        },
+        {
+          "code": "PMB 1009",
+          "subject": "PMB",
+          "id": "1009"
+        },
+        {
+          "code": "PMB 2002",
+          "subject": "PMB",
+          "id": "2002"
+        }
+      ]
+    }
+  },
+  {
+    "code": "PMB 4516W",
+    "subject": "PMB",
+    "id": "4516W",
+    "title": "Plant Cell Biology",
+    "info": "in this course, we will cover current important research topics in plant cell biology. we will cover many plant-specific topics such as gravitropism, plant cell wall biosynthesis, structure and function, plasmodesmatal connections, signal transduction, tip growth, plant cytokinesis, cell energetics. we will also cover some topics that are important for both plant, fungal, and animal cell biology such as cell polarity, the cytoskeleton, protein sorting, and the secretory system. since we will be using recent literature as the course text, some important and classic cell biology topics will not be covered. in the field of cell biology, new discoveries are often the result of improvements in technology especially in imaging, so we will cover some recent advances in methodology. this is also a writing class with the goal of helping students become familiar and comfortable with writing in a scientific style. there will be writing instruction and there will be some reading assignments on scientific writing. \n\nthere are no enforced",
+    "prereqInfo": "uisites. introductory courses on plants, genetics, and biochemistry are helpful.",
+    "prereq": []
+  },
+  {
+    "code": "PMB 4601",
+    "subject": "PMB",
+    "id": "4601",
+    "title": "Topics in Plant Biochemistry",
+    "info": "biochemical analysis of processes unique to photosynthetic organisms. photosynthesis and carbon dioxide fixation.  synthesis of carbohydrates, lipids, and derivatives. aromatic compounds such as lignin, other natural products.  functions of natural products.",
+    "prereqInfo": "[biol 1002 or biol 1009 or biol 2003], chem 2301",
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            {
+              "code": "BIOL 1002",
+              "subject": "BIOL",
+              "id": "1002"
+            },
+            {
+              "code": "BIOL 1009",
+              "subject": "BIOL",
+              "id": "1009"
+            },
+            {
+              "code": "BIOL 2003",
+              "subject": "BIOL",
+              "id": "2003"
+            }
+          ]
+        },
+        {
+          "code": "CHEM 2301",
+          "subject": "CHEM",
+          "id": "2301"
+        }
+      ]
+    }
+  },
+  {
+    "code": "PMB 4793W",
+    "subject": "PMB",
+    "id": "4793W",
+    "title": "Directed Studies: WI",
+    "info": "writing intensive directed studies is an individual-study, literature-based investigation in which the student is mentored directly by a faculty member. one main feature of this course is that the student will receive writing instruction and the written output of the course will be revised during the semester. the project needs to be explained in a research/directed studies contract and agreed on by both the student and faculty mentor. the contract must be approved by the director of undergraduate studies (dugs) for the major before the student is allowed to register. the contract includes a description of learning objectives for the course, how writing instruction will take place, a timeline for when student writing will be handed in and how it will be assessed, methodology to be used by the student, and how assessment of learning will be conducted by the mentor. additional oversight is established for this course near the end of the semester the written output is submitted to the dugs for the major. the dugs is responsible to determine that the writing meets standards set by the cbs education policy committee for quality of writing, appropriate citation of literature, well-constructed figures, tables, and legends (if present), appropriate use and interpretation of statistics (if present), conclusions that are supported by evidence, and well-formatted references. this course is graded s/n and approval of the dugs is required before a grade of s can be given by the faculty mentor.",
+    "prereqInfo": "department consent, instructor consent, no more than 7 credits of 4793w, 4794w, 4993, 4994 counts towards cbs major requirements.",
+    "prereq": {
+      "and": [
+        {
+          "code": "PMB 4794W",
+          "subject": "PMB",
+          "id": "4794W"
+        },
+        {
+          "code": "PMB 4993",
+          "subject": "PMB",
+          "id": "4993"
+        },
+        {
+          "code": "PMB 4994",
+          "subject": "PMB",
+          "id": "4994"
+        }
+      ]
+    }
+  },
+  {
+    "code": "PMB 4794W",
+    "subject": "PMB",
+    "id": "4794W",
+    "title": "Directed Research: WI",
+    "info": "writing intensive directed research is an individual-study, laboratory or field research experience in which the student is mentored directly by a faculty member. this course is not for students starting out in research. it is intended for students who already have been working in the research group of the mentor and have developed an independent research project. in this course the student will receive writing instruction through a writing support course (corresponding to 1 credit in addition to the credits of directed research time) that will meet weekly throughout the semester. the written output usually is in the form of a scientific paper describing the results of the student's project. written output of the course must be revised during the semester and a schedule for writing, assessment, and revision needs to be in place at the beginning of the semester. the project needs to be explained in the campus directed research contract and the project and participation in the writing support course agreed on by both the student and faculty mentor. the contract must be approved by the director of undergraduate studies (dugs) for the major before the student is allowed to register. the contract includes a description of learning objectives for the course, agreement about how writing instruction will take place, confirmation of understanding of the timeline for when student writing will be handed in and how it will be assessed, methodology to be used by the student, and how assessment of learning will be conducted by the mentor. additional oversight is established for this course - near the end of the semester the written output is submitted to the dugs for the major. the dugs is responsible to determine that the writing meets standards set by the cbs education policy committee for quality of writing, appropriate citation of literature, well-constructed figures, tables, and legends (if present), appropriate use and interpretation of statistics (if present), conclusions that are supported by evidence, and well-formatted references. the dugs can call for a final revision before a grade is given. this course is graded s/n by the writing support course instructor, and approval of both the dugs and the research mentor is required before a grade of s can be given by the writing support course instructor.\n\nthis course is for non-honors students. students should register for the number of research credits they intend to pursue plus 1 cr for the writing support component (for example: 2-4 cr of research + 1 cr writing support = 3-5 cr).",
+    "prereqInfo": "department consent, instructor consent, no more than a total of 7 credits of 4793w, 4794w, 4993, 4994 combined can count towards cbs major requirements.",
+    "prereq": {
+      "and": [
+        {
+          "code": "PMB 4793W",
+          "subject": "PMB",
+          "id": "4793W"
+        },
+        {
+          "code": "PMB 4993",
+          "subject": "PMB",
+          "id": "4993"
+        },
+        {
+          "code": "PMB 4994",
+          "subject": "PMB",
+          "id": "4994"
+        }
+      ]
+    }
+  },
+  {
+    "code": "PMB 4993",
+    "subject": "PMB",
+    "id": "4993",
+    "title": "Directed Studies",
+    "info": "directed studies is an individual-study, literature-based investigation in which the student is mentored directly by a faculty member. the topic for the course needs to be explained in a research/directed studies contract and agreed on by both the student and faculty mentor. the contract must be approved by the director of undergraduate studies (dugs) for the major before the student is allowed to register. the contract includes a description of learning objectives for the course, methodology to be used, and how the assessment of learning will be conducted.",
+    "prereqInfo": "department consent, instructor consent, no more than 7 credits of 4793w, 4794w, 4993, 4994 counts towards cbs major requirements.",
+    "prereq": {
+      "and": [
+        {
+          "code": "PMB 4793W",
+          "subject": "PMB",
+          "id": "4793W"
+        },
+        {
+          "code": "PMB 4794W",
+          "subject": "PMB",
+          "id": "4794W"
+        },
+        {
+          "code": "PMB 4994",
+          "subject": "PMB",
+          "id": "4994"
+        }
+      ]
+    }
+  },
+  {
+    "code": "PMB 4994",
+    "subject": "PMB",
+    "id": "4994",
+    "title": "Directed Research",
+    "info": "directed research is an individual-study, laboratory, or field investigation course. the research topic needs to be agreed on by both the student and the faculty mentor and explained in a research/directed studies contract. the contract must be approved by the director of undergraduate studies (dugs) for the major before the student is allowed to register. the contract includes a description of learning objectives for the course, methodology to be used, and how the assessment of learning will be conducted.",
+    "prereqInfo": "department consent, instructor consent, no more than 7 credits of 4793, 4794, 4993w, 4994w counts towards cbs major requirements.",
+    "prereq": {
+      "and": [
+        {
+          "code": "PMB 4793",
+          "subject": "PMB",
+          "id": "4793"
+        },
+        {
+          "code": "PMB 4794",
+          "subject": "PMB",
+          "id": "4794"
+        },
+        {
+          "code": "PMB 4993W",
+          "subject": "PMB",
+          "id": "4993W"
+        }
+      ]
+    }
+  },
+  {
+    "code": "PMB 5109",
+    "subject": "PMB",
+    "id": "5109",
+    "title": "Fungal Biology",
+    "info": "diversity of fungi and their interactions with other organisms. pathogenic/mutualistic interactions with animals/plants. use of fungal systems for drug discovery and understanding pathogenicity, signal transduction, morphogenesis, and evolution.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "PMB 5111",
+    "subject": "PMB",
+    "id": "5111",
+    "title": "Microbial Physiology/Diversity",
+    "info": "structural/functional organization of bacteria/archaea. energy metabolism utilizing light, inorganic/organic chemicals. cell morphologies, roles/assembly of surface structures. growth/survival mechanisms in various extreme environments. adaptation to changing conditions by development of specialized cells/structures, altering metabolic patterns.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "PMB 5131",
+    "subject": "PMB",
+    "id": "5131",
+    "title": "Prokaryotic Genetics",
+    "info": "genetics is the application of abstractions to understand biological function. much of our understanding at the molecular level of the natural world is derived from genetic work in model microbial systems like escherichia coli, salmonella, and saccharomyces. prokaryotic genetics will focus on a molecular understanding of bacteria, with a smattering of archaea and phage genetics, covering both classic (transposons, mutant/suppressors) and modern (sequencing, metagenomics, synthetic biology) genetic approaches.",
+    "prereqInfo": ".: introductory microbiology course.",
+    "prereq": []
+  },
+  {
+    "code": "PMB 5212",
+    "subject": "PMB",
+    "id": "5212",
+    "title": "Fungi - A Kingdom of Their Own",
+    "info": "no matter how you classify life on earth, the fungi are in a kingdom of their own. latest estimates of the number of fungal species on our planet are between 2.2 and 3.8 million species. the diversity of single-celled and multi-cellular fungi is staggering, the result of divergence within a group of aquatic eukaryotes one billion years ago (± 500 million years). that divergence ultimately gave rise to animals and fungi, but the diversification within the fungal lineages is unrivaled. they can be found in aerobic and anaerobic environments. they are found on every continent, recycling and reallocating vast amounts of nutrients in every biome. they cause problems in crops but are also used to make food, with ancient processes such as fermentation and mushroom cultivation. for these reasons, mycology (study of fungi) is increasingly popular among students with interests as diverse as their fungal subjects. with the advent of high-throughput dna sequencing to sample entire communities, we are seeing fungi in all of these places where they were previously invisible. the fungal role in earth's most critical processes is, right now, coming into light. it is an exciting time to study kingdom fungi.\n\nthis course uses a format of lecture, discussion, and field trips to provide undergraduate and graduate students with a solid foundation in the fungi, primarily through an environmental lens. undergraduate and graduate students will learn the basics of fungi in three core sections: 1) phylogeny, taxonomy, and diagnostics (who are the fungi?); 2) morphology and physiology (how do fungi work?); 3) ecology and biotechnology (what are fungal implications and applications?). within each core section, there will be one class period devoted to a discussion of the environment, the role of fungi, and the human dimensions of conservation and management. this discussion will be used by the class to vote for an environmental theme used to frame writing assignments, one per unit. using this theme, all students will create a fungus in focus one-page brief focused on this environmental issue. this is a creative way to connect dots for students linking microbial processes to the environment, in our case harnessing connections to fungi that often have visible characters (e.g. mushrooms) that make those connections easier for students. we will also go on two field trips, one to a mushroom cultivation facility, and one into the field in april, all depending on class size and weather.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "PMB 5301",
+    "subject": "PMB",
+    "id": "5301",
+    "title": "Plant Genomics",
+    "info": "introduction to genomics. emphasizes plants and relevant model organisms. dna marker/sequencing technology, comparative genomics, whole genome sequencing, dna chips/microarrays, est libraries and sage analysis, gene-knockout systems, genome databases, sequence comparison/clustering algorithms, visualization tools.",
+    "prereqInfo": "[intro course in genetics, intro course in biochemistry] or instr consent",
+    "prereq": []
+  },
+  {
+    "code": "PMB 5412",
+    "subject": "PMB",
+    "id": "5412",
+    "title": "Plant Physiology & Development",
+    "info": "plant physiology and development is the study of how plant cells, tissues and whole organisms grow and function in response to internal and external cues. pmb 4412/5412 covers the classic plant physiology and development processes including plant water relations, mineral nutrition, membrane transport, photosynthesis, respiration, vascular function, metabolism, growth and development, and hormone responses. the physics underlying our understanding of these physiological systems will also be addressed. other areas of plant science such as plant genetics and biochemistry are covered in other courses and will not be emphasized this course. there are no enforced",
+    "prereqInfo": "uisites for this course. the following preparation is recommended: pmb 2022 general botany or pmb 3007w plant algal and fungal diversity; general chemistry and introductory physics.",
+    "prereq": {
+      "or": [
+        {
+          "code": "PMB 2022",
+          "subject": "PMB",
+          "id": "2022"
+        },
+        {
+          "code": "PMB 3007",
+          "subject": "PMB",
+          "id": "3007"
+        }
+      ]
+    }
+  },
+  {
+    "code": "PMB 5500",
+    "subject": "PMB",
+    "id": "5500",
+    "title": "Special Topics Plant Biology",
+    "info": "topics shell",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "PMB 5514",
+    "subject": "PMB",
+    "id": "5514",
+    "title": "Plant Molecular Genetics & Dev",
+    "info": "survey topics in plant molecular biology. how advances in molecular/genomic biology are used to understand plant physiology and developmental biology. uses of transgenic plants in research/biotechnology.",
+    "prereqInfo": "bioc 3021 or biol 3021 or biol 4003 or bioc 4332 or equiv",
+    "prereq": {
+      "or": [
+        {
+          "code": "BIOC 3021",
+          "subject": "BIOC",
+          "id": "3021"
+        },
+        {
+          "code": "BIOL 3021",
+          "subject": "BIOL",
+          "id": "3021"
+        },
+        {
+          "code": "BIOL 4003",
+          "subject": "BIOL",
+          "id": "4003"
+        },
+        {
+          "code": "BIOC 4332",
+          "subject": "BIOC",
+          "id": "4332"
+        }
+      ]
+    }
+  },
+  {
+    "code": "PMB 5516",
+    "subject": "PMB",
+    "id": "5516",
+    "title": "Plant Cell Biology",
+    "info": "in this course, we will cover current important research topics in plant cell biology. we will cover many plant-specific topics such as gravitropism, plant cell wall biosynthesis, structure and function, plasmodesmatal connections, signal transduction, tip growth, plant cytokinesis, cell energetics. we will also cover some topics that are important for both plant, fungal, and animal cell biology such as cell polarity, the cytoskeleton, protein sorting, and the secretory system. since we will be using recent literature as the course text, some important and classic cell biology topics will not be covered. in the field of cell biology, new discoveries are often the result of improvements in technology especially in imaging, so we will cover some recent advances in methodology. this is also a writing class with the goal of helping students become familiar and comfortable with writing in a scientific style. there will be writing instruction and there will be some reading assignments on scientific writing. \n\nthere are no enforced",
+    "prereqInfo": "uisites. introductory courses on plants, genetics, and biochemistry are helpful.",
+    "prereq": []
+  },
+  {
+    "code": "PMB 5601",
+    "subject": "PMB",
+    "id": "5601",
+    "title": "Topics in Plant Biochemistry",
+    "info": "biochemical analysis of processes unique to photosynthetic organisms. photosynthesis and carbon dioxide fixation. synthesis of carbohydrates, lipids, and derivatives. aromatic compounds such as lignin, other natural products. functions of natural products.",
+    "prereqInfo": "[biol 1002 or biol 1009 or biol 2003], chem 2301",
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            {
+              "code": "BIOL 1002",
+              "subject": "BIOL",
+              "id": "1002"
+            },
+            {
+              "code": "BIOL 1009",
+              "subject": "BIOL",
+              "id": "1009"
+            },
+            {
+              "code": "BIOL 2003",
+              "subject": "BIOL",
+              "id": "2003"
+            }
+          ]
+        },
+        {
+          "code": "CHEM 2301",
+          "subject": "CHEM",
+          "id": "2301"
+        }
+      ]
+    }
+  },
+  {
+    "code": "PMB 5802",
+    "subject": "PMB",
+    "id": "5802",
+    "title": "Field Microbiology",
+    "info": "the microbial world is incredibly diverse: there are estimated to be more microbial cells on earth than stars in the entire universe. much of our understanding in microbiology derives from studies of pure cultures; organisms that can easily be grown in the lab. however, it is now clear that the vast majority of microorganisms in nearly every environment are not readily grown under laboratory conditions. we must, therefore, go to them. field microbiology will be a three-week intensive course where students will be taught methods of environmental microbiology in both lecture and laboratory format. the goal is to not only quantify who is in a given sample but also to understand something about the conditions they live in (temperature, nutrient availability, etc.). ecological data and microbial community structure will be generated using oxford nanopore sequencing technology - a cutting edge method to generate large sequencing datasets in real-time. analyses will be integrated with an in situ set of field instrumentation that includes an eddy covariance system for quantifying fluxes of methane and carbon dioxide from lake itasca and elk lake, as well as in-lake measurements of solar radiation, dissolved organic matter, ph, conductivity, temperature, dissolved oxygen and chlorophyll. a series of field trips will be scheduled to locations in and around itasca state park including elk lake, arco lake, iron springs bog and lake alice spring. students will also develop an independent research project that will apply methods learned during the first 1.5 weeks of the course.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "PMB 5812",
+    "subject": "PMB",
+    "id": "5812",
+    "title": "Field Mycology",
+    "info": "this class focuses on learning about how to study fungi. students will gain experience identifying mushrooms and other samples collected during course field trips using macromorphological, microscopic, and molecular techniques. in addition, students will isolate fungi from environmental samples and maintain cultures as well as assess fungal community abundance and composition using both traditional (e.g., root tip colonization) and dna-based methods (e.g., next-generation sequencing, bioinformatics, and ecological statistics). course lectures highlight different aspects of fungal diversity (taxonomic, physiological, and ecological) and lab exercises provide hands-on practice. course writing assignments and presentations emphasize exploring the natural history of fungi as well as critically assessing primary research literature.\n\npermission is required for undergraduates to enroll in the graduate-level of this course (pmb 5812); inquire with the instructor.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "PMB 5960",
+    "subject": "PMB",
+    "id": "5960",
+    "title": "Special Topics",
+    "info": "topics vary, see class schedule.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "PMB 8081",
+    "subject": "PMB",
+    "id": "8081",
+    "title": "Grad School Skills, Ethics",
+    "info": "what to expect and developing skills for succeeding in graduate school. research ethics training. reading/evaluating primary literature. oral presentations. exploring career options.",
+    "prereqInfo": "plant and microbial biology grad student or instr consent",
+    "prereq": []
+  },
+  {
+    "code": "PMB 8082",
+    "subject": "PMB",
+    "id": "8082",
+    "title": "Struct-Evol-Ecol",
+    "info": "background information and review of selected current literature. for first-year students in plant biological sciences and other biological science graduate programs.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "PMB 8123",
+    "subject": "PMB",
+    "id": "8123",
+    "title": "Research Ethics",
+    "info": "history/values relating to research/scholarship. social responsibility/reporting misconduct. authorship plagiarism. peer review.\ncopyright/intellectual property. conflicts of interest. research data management. fiscal responsibility/management. environmental health/safety.\nresearch involving humans/animals. mentorship presentations by faculty and invited speakers. meets first seven weeks of spring semester.",
+    "prereqInfo": "grad student in [applied plant sciences or plant pathology or plant biological sciences or soil science]",
+    "prereq": []
+  },
+  {
+    "code": "PMB 8333",
+    "subject": "PMB",
+    "id": "8333",
+    "title": "FTE: Master's",
+    "info": "fte: master's",
+    "prereqInfo": "master's student, adviser and dgs consent",
+    "prereq": []
+  },
+  {
+    "code": "PMB 8444",
+    "subject": "PMB",
+    "id": "8444",
+    "title": "FTE: Doctoral",
+    "info": "(no description)",
+    "prereqInfo": "doctoral student, adviser and dgs consent",
+    "prereq": []
+  },
+  {
+    "code": "PMB 8666",
+    "subject": "PMB",
+    "id": "8666",
+    "title": "Doct Pre-Thesis Cr",
+    "info": "doctoral pre-thesis credits",
+    "prereqInfo": "doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
+    "prereq": {
+      "code": "PMB 60",
+      "subject": "PMB",
+      "id": "60"
+    }
+  },
+  {
+    "code": "PMB 8777",
+    "subject": "PMB",
+    "id": "8777",
+    "title": "Thesis Credit:Mast*",
+    "info": "thesis credits: master's",
+    "prereqInfo": "max 18 cr per semester or summer; 10 cr total required [plan a only]",
+    "prereq": {
+      "code": "PMB 10",
+      "subject": "PMB",
+      "id": "10"
+    }
+  },
+  {
+    "code": "PMB 8888",
+    "subject": "PMB",
+    "id": "8888",
+    "title": "Thesis Credit: Doctoral",
+    "info": "thesis credit: doctoral.",
+    "prereqInfo": "max 18 cr per semester or summer; 24 cr required",
+    "prereq": []
+  },
+  {
+    "code": "PMB 8900",
+    "subject": "PMB",
+    "id": "8900",
+    "title": "Seminar",
+    "info": "current scientific research.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "PMB 8901",
+    "subject": "PMB",
+    "id": "8901",
+    "title": "Prep. of Research Proposals",
+    "info": "grant writing process. strategies and ethical standards for research proposal preparation/review. students prepare an original proposal and critique work of others.",
+    "prereqInfo": "plant biological sciences phd student",
+    "prereq": []
+  },
+  {
+    "code": "PMB 8910",
+    "subject": "PMB",
+    "id": "8910",
+    "title": "Journal Club",
+    "info": "critical evaluation of selected current literature.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "PMB 8993",
+    "subject": "PMB",
+    "id": "8993",
+    "title": "Directed Studies",
+    "info": "directed studies",
+    "prereqInfo": "pbio grad student, instr consent",
+    "prereq": []
+  },
+  {
+    "code": "PMB 8994",
+    "subject": "PMB",
+    "id": "8994",
+    "title": "Research",
+    "info": "independent research determined by student's interests, in consultation with faculty mentor.",
+    "prereqInfo": "pbio grad student, instr consent",
+    "prereq": []
+  }
+]

@@ -1,0 +1,117 @@
+[
+  {
+    "code": "NOR 1001",
+    "subject": "NOR",
+    "id": "1001",
+    "title": "Beginning Norwegian",
+    "info": "emphasis on working toward novice-intermediate low proficiency in all four language modalities (listening, reading, speaking, writing).  topics include everyday subjects (shopping, directions, family, food, housing, etc.).",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "NOR 1002",
+    "subject": "NOR",
+    "id": "1002",
+    "title": "Beginning Norwegian",
+    "info": "continues the presentation of all four language modalities (listening, reading, speaking, writing) with a proficiency emphasis. topics include free-time activities, careers, and norwegian culture.",
+    "prereqInfo": "1001",
+    "prereq": {
+      "code": "NOR 1001",
+      "subject": "NOR",
+      "id": "1001"
+    }
+  },
+  {
+    "code": "NOR 1003",
+    "subject": "NOR",
+    "id": "1003",
+    "title": "Intermediate Norwegian",
+    "info": "emphasis on intermediate proficiency in listening, reading, speaking, and writing. contextualized work on grammar and vocabulary is combined with authentic readings and essay assignments.",
+    "prereqInfo": "1002",
+    "prereq": {
+      "code": "NOR 1002",
+      "subject": "NOR",
+      "id": "1002"
+    }
+  },
+  {
+    "code": "NOR 1004",
+    "subject": "NOR",
+    "id": "1004",
+    "title": "Intermediate Norwegian",
+    "info": "emphasis on developing intermediate mid-high proficiency in listening, reading, speaking, and writing. contextualized work on grammar and vocabulary is supported by work with authentic readings and essay assignments.",
+    "prereqInfo": "1103",
+    "prereq": {
+      "code": "NOR 1103",
+      "subject": "NOR",
+      "id": "1103"
+    }
+  },
+  {
+    "code": "NOR 1010",
+    "subject": "NOR",
+    "id": "1010",
+    "title": "Online Basic Norwegian",
+    "info": "norwegian language/culture. travel, weather, family, work, school, daily life. students meet for orientation and midterm, then work at own pace using multi-media web curriculum. instructor-student interactions through e-mail, threaded discussions, and audio messages.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "NOR 3011",
+    "subject": "NOR",
+    "id": "3011",
+    "title": "Advanced Norwegian",
+    "info": "fiction, film, journalistic, and professional prose. grammar, vocabulary building exercises, systematic review of oral/written modes of communication.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "NOR 3012",
+    "subject": "NOR",
+    "id": "3012",
+    "title": "Advanced Norwegian",
+    "info": "novels, short stories, plays, articles. structural, stylistic, and vocabulary-building exercises.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "NOR 4001",
+    "subject": "NOR",
+    "id": "4001",
+    "title": "Beg Norwegian Grad Research",
+    "info": "emphasis on working toward novice-intermediate low proficiency in all four language modalities (listening, reading, speaking, writing). topics include everyday subjects (shopping, directions, family, food, housing, etc.). meets concurrently with 1001.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "NOR 4002",
+    "subject": "NOR",
+    "id": "4002",
+    "title": "Beg Norwegian Grad Research",
+    "info": "continues the presentation of all four language modalities (listening, reading, speaking, writing) with a proficiency emphasis. topics include free-time activities, careers, and norwegian culture. meets concurrently with 1002.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "NOR 4003",
+    "subject": "NOR",
+    "id": "4003",
+    "title": "Int Norwegian Grad Research",
+    "info": "emphasis on intermediate proficiency in listening, reading, speaking, and writing. contextualized work on grammar and vocabulary is combined with authentic readings and essay assignments. meets concurrently with 1003.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "NOR 4004",
+    "subject": "NOR",
+    "id": "4004",
+    "title": "Int Norwegian Grad Research",
+    "info": "emphasis on developing intermediate mid-high proficiency in listening, reading, speaking, and writing. contextualized work on grammar and vocabulary is supported by work with authentic readings and essay assignments. meets concurrently with 1004.",
+    "prereqInfo": "1004 in another language or passing score on lpe or grad student",
+    "prereq": {
+      "code": "NOR 1004",
+      "subject": "NOR",
+      "id": "1004"
+    }
+  }
+]

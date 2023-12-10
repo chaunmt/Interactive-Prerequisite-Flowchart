@@ -1,0 +1,467 @@
+[
+  {
+    "code": "NSC 4185",
+    "subject": "NSC",
+    "id": "4185",
+    "title": "Itasca Neurobiology Laboratory",
+    "info": "concepts in cellular neurosciences. basis of membrane properties, including ionic/molecular mechanisms of resting, action, and synaptic potentials. state-of-the-art equipment and contemporary techniques used to examine experimental evidence.",
+    "prereqInfo": "instr consent, college consent.",
+    "prereq": []
+  },
+  {
+    "code": "NSC 5031W",
+    "subject": "NSC",
+    "id": "5031W",
+    "title": "Perception",
+    "info": "cognitive, computational, and neuroscience perspectives on visual perception. color vision, pattern vision, image formation in eye, object recognition, reading, impaired vision. course is biennial: offered fall of odd years.",
+    "prereqInfo": "psy 3031 or psy 3051 or instr consent",
+    "prereq": {
+      "or": [
+        {
+          "code": "PSY 3031",
+          "subject": "PSY",
+          "id": "3031"
+        },
+        {
+          "code": "PSY 3051",
+          "subject": "PSY",
+          "id": "3051"
+        }
+      ]
+    }
+  },
+  {
+    "code": "NSC 5034",
+    "subject": "NSC",
+    "id": "5034",
+    "title": "Psychobiol Vision",
+    "info": "analysis of the properties and biological bases of visual perception in humans and animals. emphasis on color vision, visual sensitivity and adaptation, nerve cells and circuits in the eye, structure and function of the visual brain.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "NSC 5037",
+    "subject": "NSC",
+    "id": "5037",
+    "title": "Psy of Hearing",
+    "info": "biological and physical aspects of hearing, auditory psychophysics, theories and models of hearing, perception of complex sounds including music and speech, clinical and other applications.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "NSC 5040",
+    "subject": "NSC",
+    "id": "5040",
+    "title": "Brain Networks",
+    "info": "brain networks. application of emerging science of complex networks to studies of the brain. network approaches that provide fundamental insights into the integrative nature of brain function and its relation to the brain structure. organization of brain networks and dynamics at multiple spatial scales, ranging from the microscale of single neurons and synapses, to mesoscale of anatomical cell groupings and their projections, and to the macroscale of brain regions and pathways. experimental studies, including electrophysiology, voltage-sensitive dye imaging, electroencephalography, magnetoencephalography, and functional magnetic resonance imaging, that allow mapping network elements and structural/functional connectivity between them at different temporal and spatial scales will be considered. experimental/theoretical perspectives.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "NSC 5201",
+    "subject": "NSC",
+    "id": "5201",
+    "title": "Comp Neurosci I",
+    "info": "comprehensive examination of membrane and ion channels using unix workstations to simulate their properties. hodgkin-huxley model, nonlinear dynamic systems, voltage- and ligand-gated ion channels, impulse propagation.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "NSC 5202",
+    "subject": "NSC",
+    "id": "5202",
+    "title": "Theoretical Neuroscience",
+    "info": "concepts of computational/theoretical neuroscience. distributed representations and information theory. methods for single-cell modeling, including compartmental/integrate-and-fire models. learning rules, including supervised, unsupervised, and reinforcement learning models. specific systems models from current theoretical neuroscience literature.  lecture/discussion. readings from current scientific literature.",
+    "prereqInfo": "[3101, 3102w] recommended",
+    "prereq": {
+      "and": [
+        {
+          "code": "NSC 3101",
+          "subject": "NSC",
+          "id": "3101"
+        },
+        {
+          "code": "NSC 3102W",
+          "subject": "NSC",
+          "id": "3102W"
+        }
+      ]
+    }
+  },
+  {
+    "code": "NSC 5203",
+    "subject": "NSC",
+    "id": "5203",
+    "title": "Basic&Clinical Vision Science",
+    "info": "basic and clinical vision science.",
+    "prereqInfo": "instr consent",
+    "prereq": []
+  },
+  {
+    "code": "NSC 5461",
+    "subject": "NSC",
+    "id": "5461",
+    "title": "Cell Molec Nsci",
+    "info": "lectures by team of faculty, problem sets in important physiological concepts, discussion of original research papers.",
+    "prereqInfo": "nsc grad student or instr consent",
+    "prereq": []
+  },
+  {
+    "code": "NSC 5462",
+    "subject": "NSC",
+    "id": "5462",
+    "title": "Neurosci Drug Abuse",
+    "info": "current research on drugs of abuse, their mechanisms of action, characteristics shared by various agents, and neural systems affected by them. offered biennially, spring semester of even-numbered years.",
+    "prereqInfo": "instr consent",
+    "prereq": []
+  },
+  {
+    "code": "NSC 5481",
+    "subject": "NSC",
+    "id": "5481",
+    "title": "Invertebrate Neurobiology",
+    "info": "fundamental principles/concepts underlying cellular bases of behavior and \\\"systems\\\" neuroscience. particular invertebrate preparations. offered annually the last 10 weeks of spring semester.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "NSC 5540",
+    "subject": "NSC",
+    "id": "5540",
+    "title": "Survey of Biomedical Neuro",
+    "info": "current topics in biomedical neuroscience, accompanied by supporting, fundamental concepts. intensive, one week course.",
+    "prereqInfo": "instr consent, intended for members of biomedical community or students with advanced scientific backgrounds",
+    "prereq": []
+  },
+  {
+    "code": "NSC 5551",
+    "subject": "NSC",
+    "id": "5551",
+    "title": "Itasca Neurobio Lab",
+    "info": "intensive lab introduction to cellular and molecular aspects of research techniques in contemporary neurobiology; held at itasca biological station. electrophysiological investigations of neuronal properties, neuropharmacological assays of transmitter action, and immunohistochemical studies in experimental preparations.",
+    "prereqInfo": "neuroscience grad or instr consent",
+    "prereq": []
+  },
+  {
+    "code": "NSC 5561",
+    "subject": "NSC",
+    "id": "5561",
+    "title": "Systems Neuroscience",
+    "info": "principles of organization of neural systems forming the basis for sensation/movement. sensory-motor/neural-endocrine integration. relationships between structure and function in nervous system. team taught. lecture, laboratory.",
+    "prereqInfo": "nsc grad student or instr consent",
+    "prereq": []
+  },
+  {
+    "code": "NSC 5661",
+    "subject": "NSC",
+    "id": "5661",
+    "title": "Behavioral Neuroscience",
+    "info": "neural coding/representation of movement parameters. neural mechanisms underlying higher order processes such as memorization, memory scanning, and mental rotation. emphasizes experimental psychological studies in human subjects, single cell recording experiments in subhuman primates, and artificial neural network modeling.",
+    "prereqInfo": "grad nsc major or grad nsc minor or instr consent",
+    "prereq": []
+  },
+  {
+    "code": "NSC 5667",
+    "subject": "NSC",
+    "id": "5667",
+    "title": "Neurobiology of Disease",
+    "info": "basic clinical/pathological features, pathogenic mechanisms. weekly seminar course.",
+    "prereqInfo": "instr consent",
+    "prereq": []
+  },
+  {
+    "code": "NSC 5668",
+    "subject": "NSC",
+    "id": "5668",
+    "title": "Neurodegeneration and Repair",
+    "info": "pathogenic mechanisms of neuronal death, neurodegenerative disease, neuronal repair. weekly seminar course.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "NSC 8014",
+    "subject": "NSC",
+    "id": "8014",
+    "title": "Small RNA Biology",
+    "info": "small rnas as major regulators of gene/protein expression. micrornas and their potential use in diagnosis/prognosis of various disease conditions, including cancers. small rnas and their role in health and disease.",
+    "prereqInfo": "bioc 8002 or mica 8004 or equiv or instr consent",
+    "prereq": {
+      "or": [
+        {
+          "code": "BIOC 8002",
+          "subject": "BIOC",
+          "id": "8002"
+        },
+        {
+          "code": "MICA 8004",
+          "subject": "MICA",
+          "id": "8004"
+        }
+      ]
+    }
+  },
+  {
+    "code": "NSC 8026",
+    "subject": "NSC",
+    "id": "8026",
+    "title": "Neuro-immune inter",
+    "info": "regulatory systems (neuroendocrine, cytokine, and autonomic nervous systems) linking brain and immune systems in brain-immune axis. functional effects of bidirectional brain-immune regulation. course is offered fall of even-numbered years.",
+    "prereqInfo": "5561, micb 4131",
+    "prereq": {
+      "and": [
+        {
+          "code": "NSC 5561",
+          "subject": "NSC",
+          "id": "5561"
+        },
+        {
+          "code": "MICB 4131",
+          "subject": "MICB",
+          "id": "4131"
+        }
+      ]
+    }
+  },
+  {
+    "code": "NSC 8041",
+    "subject": "NSC",
+    "id": "8041",
+    "title": "Cognitive Neuroscience",
+    "info": "relations between brain activity and cognitive function in mammals. working memory, attention, decision processing, executive function, categorization, planning, sequence processing. behavioral/physiological perspectives. disruption of cognitive function following brain damage. extracellular recording of single neuron activity in nonhuman primates. functional neuroimaging/magnetoencephalography in humans.",
+    "prereqInfo": "instr consent",
+    "prereq": []
+  },
+  {
+    "code": "NSC 8111",
+    "subject": "NSC",
+    "id": "8111",
+    "title": "Quantitative Neuroscience",
+    "info": "principles of experimental design and statistical analysis in neuroscience research. includes an introduction to computer programming for data analysis using both classic and modern quantitative methods.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "NSC 8124",
+    "subject": "NSC",
+    "id": "8124",
+    "title": "Chemoreception Science",
+    "info": "current issues addressed comparatively through directed reading/discussion of current literature. primarily for advanced students studying neural basis of taste, smell, and the common chemical sense. all aspects of chemoreception from molecular biology to behavior.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "NSC 8207",
+    "subject": "NSC",
+    "id": "8207",
+    "title": "Psychopharm",
+    "info": "faculty and postdoctoral fellows interested in psychotropic drugs and chemicals participate. some seminars devoted to biomedical ethics. neurochemistry, pharmacology, and behavior as antecedent or consequential variables.",
+    "prereqInfo": "instr consent",
+    "prereq": []
+  },
+  {
+    "code": "NSC 8208",
+    "subject": "NSC",
+    "id": "8208",
+    "title": "Neuropsychopharmacology",
+    "info": "methodologies to study relationships between drugs and biochemical, behavioral, and neurophysiological consequences. functional biogenic amine, peptidergic, other pathways. how manipulations alter neuronal function or behavior. feedback mechanisms, induction, inhibition. reinforcement of, tolerance to, or dependence on drugs of abuse: stimulants, hallucinogens, depressants, opiates. student presentations.",
+    "prereqInfo": "[5212, 6112, psy 5021, psy 5061] or instr consent",
+    "prereq": {
+      "and": [
+        {
+          "code": "NSC 5212",
+          "subject": "NSC",
+          "id": "5212"
+        },
+        {
+          "code": "NSC 6112",
+          "subject": "NSC",
+          "id": "6112"
+        },
+        {
+          "code": "PSY 5021",
+          "subject": "PSY",
+          "id": "5021"
+        },
+        {
+          "code": "PSY 5061",
+          "subject": "PSY",
+          "id": "5061"
+        }
+      ]
+    }
+  },
+  {
+    "code": "NSC 8211",
+    "subject": "NSC",
+    "id": "8211",
+    "title": "Developmental Neurobiology",
+    "info": "how neuronal types develop. emphasizes general mechanisms. experimental data demonstrating mechanisms.",
+    "prereqInfo": "neuroscience grad student or instr consent",
+    "prereq": []
+  },
+  {
+    "code": "NSC 8216",
+    "subject": "NSC",
+    "id": "8216",
+    "title": "Ans/Endo NSc",
+    "info": "advanced seminar. course is offered fall and spring semesters.",
+    "prereqInfo": "instr consent",
+    "prereq": []
+  },
+  {
+    "code": "NSC 8217",
+    "subject": "NSC",
+    "id": "8217",
+    "title": "Syst comp neurosci",
+    "info": "advanced seminar.",
+    "prereqInfo": "5561 or instr consent",
+    "prereq": {
+      "code": "NSC 5561",
+      "subject": "NSC",
+      "id": "5561"
+    }
+  },
+  {
+    "code": "NSC 8221",
+    "subject": "NSC",
+    "id": "8221",
+    "title": "Neurobiol pain",
+    "info": "pain and analgesia. course is triennial.",
+    "prereqInfo": "instr consent",
+    "prereq": []
+  },
+  {
+    "code": "NSC 8222",
+    "subject": "NSC",
+    "id": "8222",
+    "title": "Cent Reg Auto Funct",
+    "info": "neural/hormonal sensory pathways affecting central autonomic nuclei involved in maintenance of homeostasis. current research on physiological control systems at cellular, organ, and integrative levels. course is offered fall of odd-numbered years.",
+    "prereqInfo": "5561",
+    "prereq": {
+      "code": "NSC 5561",
+      "subject": "NSC",
+      "id": "5561"
+    }
+  },
+  {
+    "code": "NSC 8247",
+    "subject": "NSC",
+    "id": "8247",
+    "title": "Anat/Phys Hrg Bal",
+    "info": "structure/function of auditory/vestibular systems. network analysis of middle/inner ear mechanics, hair cell biophysics, auditory nerve/cns electrophysiology, information processing, neural mechanisms subserving balance/gaze, cellular morphology, and computer models.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "NSC 8248",
+    "subject": "NSC",
+    "id": "8248",
+    "title": "Auditory Physiology",
+    "info": "current research on biophysics and physiology of auditory system; topics selected for each student. written reviews prepared and discussed.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "NSC 8320",
+    "subject": "NSC",
+    "id": "8320",
+    "title": "Read Neurobiol",
+    "info": "topics in neurobiology and neurophysiology.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "NSC 8321",
+    "subject": "NSC",
+    "id": "8321",
+    "title": "Career Skills",
+    "info": "information that falls outside of core neuroscience academic curriculum. areas of practical value for graduate school and career development. career skills, writing skills, responsible conduct in research.",
+    "prereqInfo": "neurscience grad major or instr consent",
+    "prereq": []
+  },
+  {
+    "code": "NSC 8333",
+    "subject": "NSC",
+    "id": "8333",
+    "title": "FTE: Master's",
+    "info": "fte: master's",
+    "prereqInfo": "master's student, adviser approval",
+    "prereq": []
+  },
+  {
+    "code": "NSC 8334",
+    "subject": "NSC",
+    "id": "8334",
+    "title": "Lab Neurosci",
+    "info": "guided research.",
+    "prereqInfo": "grad nsc major",
+    "prereq": []
+  },
+  {
+    "code": "NSC 8401",
+    "subject": "NSC",
+    "id": "8401",
+    "title": "Neurobiology of Disease",
+    "info": "major neurological diseases, pathogenic mechanisms, potential applications of basic neuroscience to human disease.",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "NSC 8411",
+    "subject": "NSC",
+    "id": "8411",
+    "title": "Teaching in Neuroscience",
+    "info": "grad students serve as primary instructors in 4151 and work with fellow students and faculty mentors to design curriculum, classroom sessions, exams, and course evaluations.",
+    "prereqInfo": "instr approval",
+    "prereq": []
+  },
+  {
+    "code": "NSC 8444",
+    "subject": "NSC",
+    "id": "8444",
+    "title": "FTE: Doctoral",
+    "info": "(no description)",
+    "prereqInfo": "doctoral student, adviser and dgs consent",
+    "prereq": []
+  },
+  {
+    "code": "NSC 8481",
+    "subject": "NSC",
+    "id": "8481",
+    "title": "Adv Neuropharm",
+    "info": "delivery of compounds to central nervous system (cns) to activate proteins in specific brain regions for therapeutic benefit. pharmaceutical/pharmacological issues specific to direct drug delivery to cns.",
+    "prereqInfo": "instr consent",
+    "prereq": []
+  },
+  {
+    "code": "NSC 8666",
+    "subject": "NSC",
+    "id": "8666",
+    "title": "Doct Pre-Thesis Cr",
+    "info": "doctoral pre-thesis credits",
+    "prereqInfo": "doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
+    "prereq": {
+      "code": "NSC 60",
+      "subject": "NSC",
+      "id": "60"
+    }
+  },
+  {
+    "code": "NSC 8777",
+    "subject": "NSC",
+    "id": "8777",
+    "title": "Thesis Credits: Master's",
+    "info": "thesis credits: master's",
+    "prereqInfo": null,
+    "prereq": []
+  },
+  {
+    "code": "NSC 8888",
+    "subject": "NSC",
+    "id": "8888",
+    "title": "Thesis Credit:Doct*",
+    "info": "(no description)",
+    "prereqInfo": "max 18 cr per semester or summer; 24 cr required",
+    "prereq": []
+  }
+]

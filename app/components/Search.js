@@ -1,38 +1,76 @@
+"use client"
 import React, { useState, useEffect } from 'react';
+import Link from 'next/link';
 
-function Search() {
-  const [data, setData] = useState([]); //list of items from JSON
-  const [search, setSearch] = useState(''); //Current search term
+function Search({ sendResults }) {
+  const [search, setSearch] = useState('');
+  const [courses, setCourses] = useState([]);
+  const [filteredData, setFilteredData] = useState([]);
 
-  useEffect(() => { //Fetching data
-    fetch('CSCI.json')
-      .then(response => response.json())
-      .then(data => {
-        setData(data.class);
+  useEffect(() => {
+    const subject = search.match(/[a-zA-Z]+/g)?.[0].toUpperCase();
+    if (subject) {
+      import(`../data/Dog/${subject}.json`)
+        .then((module) => {
+          setCourses(module.default); //array of courses
+        })
+        .catch((e) => {
+          console.error("Failed to load subject data", e);
+          setCourses([]);
+        });
+    }
+  }, [search]);
+
+  // Filter courses, search term
+  useEffect(() => {
+    if (courses.length) {
+      const processedSearch = search.replace(/\s+/g, '').toLowerCase();
+      const results = courses.filter(course => {
+        return course.title.toLowerCase().includes(processedSearch) ||
+               course.code.toLowerCase().replace(/\s+/g, '').includes(processedSearch);
       });
-  }, []);
+      setFilteredData(results);
+    }
+  }, [search, courses]);
 
-  const handleSearch = (event) => { //Filtering data
+  // Handle the search input change
+  const handleSearch = (event) => {
     setSearch(event.target.value);
   };
 
-  const filteredData = data.filter(item => {
-    return item.name.toLowerCase().includes(search.toLowerCase()) || 
-           item.end.some(code => (`CSCI ${code}`).toLowerCase().includes(search.toLowerCase()));
-  });
-
-  return ( //Display 
+  // Render the search input and results
+  return (
     <div className="Search">
-      <input type="text" placeholder="Search" onChange={handleSearch} />
-      <ul>
-        {filteredData.length > 0 ? 
-          filteredData.map((item, index) => (
-            <li key={index}> {item.end[0]} - {item.name}</li>
-          ))
-          :
-          <li>No search results</li>
-        }
-      </ul>
+      <input
+        type="text"
+        placeholder="Search By Class"
+        value={search}
+        onChange={handleSearch}
+        className="searchBar"
+      />
+      {search && (
+        <ul className='list'>
+          {filteredData.length > 0 ? 
+            (<li>
+              <Link href={`/${filteredData[0].subject}`}>
+                {filteredData[0].subject}
+              </Link>
+            </li>)
+            : ""
+          }
+          {filteredData.length > 0 ? (
+            filteredData.map((course, index) => (
+              <li key={index}>
+                <Link href={`/${course.subject}/${course.id}`}>
+                  {course.code} - {course.title}
+                </Link>
+              </li>
+            ))
+          ) : (
+            <li>No search results</li>
+          )}
+        </ul>
+      )}
     </div>
   );
 }

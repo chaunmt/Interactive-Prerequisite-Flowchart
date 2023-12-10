@@ -1,0 +1,106 @@
+[
+  {
+    "code": "PLSC 3002",
+    "subject": "PLSC",
+    "id": "3002",
+    "title": "Seed Sci, Technology, Society",
+    "info": "cultivate an understanding of seed and appreciation for seed with respect to agriculture. focus of this course will be on agronomic crop seeds produced in the upper midwest.",
+    "prereqInfo": "hort 1001 or biol 1009 or biol 2002 or consent of the instructor",
+    "prereq": {
+      "or": [
+        {
+          "code": "HORT 1001",
+          "subject": "HORT",
+          "id": "1001"
+        },
+        {
+          "code": "BIOL 1009",
+          "subject": "BIOL",
+          "id": "1009"
+        },
+        {
+          "code": "BIOL 2002",
+          "subject": "BIOL",
+          "id": "2002"
+        }
+      ]
+    }
+  },
+  {
+    "code": "PLSC 3005W",
+    "subject": "PLSC",
+    "id": "3005W",
+    "title": "Intro to Plant Physiology",
+    "info": "introduction to physiological basis for effects of environment on plant growth/development. how to produce optimal plant growth. experimental technique, data analysis, scientific writing. lecture, readings, lab.",
+    "prereqInfo": "biol 1009 or hort 1001 and bioc 3021 or hort 2100 or bioc 2011",
+    "prereq": {
+      "and": [
+        {
+          "code": "BIOL 1009",
+          "subject": "BIOL",
+          "id": "1009"
+        },
+        {
+          "code": "HORT 1001",
+          "subject": "HORT",
+          "id": "1001"
+        },
+        {
+          "code": "BIOC 3021",
+          "subject": "BIOC",
+          "id": "3021"
+        },
+        {
+          "code": "HORT 2100",
+          "subject": "HORT",
+          "id": "2100"
+        },
+        {
+          "code": "BIOC 2011",
+          "subject": "BIOC",
+          "id": "2011"
+        }
+      ]
+    }
+  },
+  {
+    "code": "PLSC 3093",
+    "subject": "PLSC",
+    "id": "3093",
+    "title": "Directed Study",
+    "info": "a course in which a student designs and carries out a directed study on selected topics or problems under the direction of a faculty member; eg, literature review. directed study courses may be taken for variable credit and special permission is needed for enrollment.  students enrolling in a directed study will be required to use the university-wide on-line directed study contract process in order to enroll.",
+    "prereqInfo": "department consent, instructor consent, no more than 6 credits of directed study counts towards cfans major requirements.",
+    "prereq": []
+  },
+  {
+    "code": "PLSC 3094",
+    "subject": "PLSC",
+    "id": "3094",
+    "title": "Directed Research",
+    "info": "an opportunity in which a student designs and carries\nout a directed research project under the direction of a faculty member. directed research may be taken for variable credit and special permission is needed for enrollment.students enrolling in a directed research will be required to use the\nuniversity-wide on-line directed research contract process in order to enroll.",
+    "prereqInfo": "department consent, instructor consent, no more than 6 credits of directed research counts towards cfans major requirements.",
+    "prereq": []
+  },
+  {
+    "code": "PLSC 3401",
+    "subject": "PLSC",
+    "id": "3401",
+    "title": "Plant Genetics and Breeding",
+    "info": "principles of plant genetics and environmental variation. applications of genetics to crop evolution and breeding of self-pollinated, cross-pollinated, and asexually propagated crops. investigation of hybridization, variation, and selection. course is offered with two alternating instructors: spring odd its with eric watkins. spring even is with aaron lorenz.",
+    "prereqInfo": "biol 1009 or 1009h",
+    "prereq": {
+      "or": [
+        {
+          "code": "BIOL 1009",
+          "subject": "BIOL",
+          "id": "1009"
+        },
+        {
+          "code": "PLSC 1009",
+          "subject": "PLSC",
+          "id": "1009"
+        }
+      ]
+    }
+  }
+]
