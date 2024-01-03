@@ -4,10 +4,15 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+patchedDependencies:
+  mermaid@10.5.1:
+    hash: kkqhgrh6maihk6pfjclpjzzivu
+    path: patches/mermaid@10.5.1.patch
+
 dependencies:
   mermaid:
     specifier: ^10.5.1
-    version: 10.5.1
+    version: 10.5.1(patch_hash=kkqhgrh6maihk6pfjclpjzzivu)
   next:
     specifier: ^13.5.4
     version: 13.5.4(react-dom@18.2.0)(react@18.2.0)
@@ -984,7 +989,7 @@ packages:
     resolution: {integrity: sha512-abv/qOcuPfk3URPfDzmZU1LKmuw8kT+0nIHvKrKgFrwifol/doWcdA4ZqsWQ8ENrFKkd67Mfpo/LovbIUsbt3w==}
     dev: false
 
-  /mermaid@10.5.1:
+  /mermaid@10.5.1(patch_hash=kkqhgrh6maihk6pfjclpjzzivu):
     resolution: {integrity: sha512-+4mkGW5PptHDSae4YZ/Jw1pEOf0irrB/aCL6BwZcJPhr5+84UJBrQnHTvyPqCUz67tXkrDvSzWv4B+J2hLO78g==}
     dependencies:
       '@braintree/sanitize-url': 6.0.4
@@ -1010,6 +1015,7 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: false
+    patched: true
 
   /micromark-core-commonmark@1.1.0:
     resolution: {integrity: sha512-BgHO1aRbolh2hcrzL2d1La37V0Aoz73ymF8rAcKnohLy93titmv62E0gP8Hrx9PKcKrqCZ1BbLGbP3bEhoXYlw==}
