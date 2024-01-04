@@ -1,13 +1,12 @@
 import Access from "./access"
 
 const use_elk = true;
-// currently redundant, everything except theme is already set as default in Mermaid component
-const graph_config = (use_elk
+const graph_config = (use_elk  // unused
     ? '---\nconfig:\n flowchart:\n  defaultRenderer: elk\n theme: dark\n---\n'
     : '---\nconfig:\n theme: dark\n---\n'
 );
 
-// DOES NOT RECURSIVELY BUILD YET (only traverses one level back)
+/** DOES NOT RECURSIVELY BUILD YET (only traverses one level back) */
 export function buildCombinedGraph(courses) {
     function helper (subj, idnum) {
         function process (preqs, target) {
@@ -56,7 +55,7 @@ export function buildCombinedGraph(courses) {
     )
 }
 
-// DOES NOT RECURSIVELY BUILD YET (only traverses one level back)
+/** DOES NOT RECURSIVELY BUILD YET (only traverses one level back) */
 export function buildGraph(course) {
     return buildCombinedGraph([course])
 }

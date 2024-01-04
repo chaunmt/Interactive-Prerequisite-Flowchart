@@ -1,7 +1,8 @@
 // gonna use this for streamlined testing of graphbuilder algorithm (i'll remove this when i'm done with it)
 
-import Mermaid from "../../../components/Mermaid";
-import {buildGraph, buildCombinedGraph} from "../../../data/graphBuilder";
+import Link from "next/link";
+import Mermaid from "../../components/Mermaid";
+import {buildGraph, buildCombinedGraph} from "../../data/graphBuilder";
 
 export default function Page() {
   var test = buildCombinedGraph([
