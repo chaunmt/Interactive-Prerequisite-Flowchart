@@ -1,4 +1,5 @@
-import Access from "../data/Access"
+import Access from "../data/access";
+import {CourseShell, Course, PrereqFormat} from "../data/access";
 
 const Buttons = {
   findCourseInfo,
@@ -24,12 +25,9 @@ const Buttons = {
         `}/>
       <Search /> */}
 
-function findCourseInfo(course) {
+function findCourseInfo(course: Course) {
   // choose a course in search --> return an array of course info
-  // Notice the difference between Access.info and Access.findCourseInfo
-  // One of them is an array name course that is equal to sample.class[index] array
-  // The other is just a string of id 
-  return Access.info(course);
+  return course.info;
 }
 
 function addCourse(prereq, course) {
