@@ -2,7 +2,7 @@
 "use client"
 
 import Link from "next/link";
-import { buildCombinedGraph } from "../../data/graphBuilder";
+import { buildGraph } from "../../data/graphBuilder";
 import Access from "../data/access";
 import {CourseShell, Course, PrereqFormat} from "../data/access";
 // import logo from 'public/logo.png';
@@ -20,7 +20,7 @@ export default function Page({ params }) {
   var subj = params.subj.toUpperCase();
   const subjectCourses = Access(subj).courses;
   const courses = subjectCourses.map(course => `${subj} ${course.id}`);
-  var test = buildCombinedGraph(courses);
+  var test = buildGraph(courses);
   
   return (
     <div>

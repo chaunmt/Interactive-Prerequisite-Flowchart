@@ -1,7 +1,7 @@
 "use client"
 import Link from "next/link";
 import Mermaid from "../../../components/Mermaid";
-import {buildGraph} from "../../../data/graphBuilder";
+import { buildGraph } from "../../../data/graphBuilder";
 import '../../../components/styles/Layout.css'
 import '../../../components/styles/GraphPage.css';
 import Access from "../data/access";

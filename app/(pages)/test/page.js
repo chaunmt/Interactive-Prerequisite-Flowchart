@@ -2,10 +2,10 @@
 
 import Link from "next/link";
 import Mermaid from "../../components/Mermaid";
-import {buildGraph, buildCombinedGraph} from "../../data/graphBuilder";
+import {buildGraph} from "../../data/graphBuilder";
 
 export default function Page() {
-  var test = buildCombinedGraph([
+  var test = buildGraph([
     "CSCI 5521", 
     // "EE 5364",
     // "GEOG 5839",
@@ -16,7 +16,6 @@ export default function Page() {
   
   return (
     <div>
-      <Link href="/"><button><img src="https://i.ibb.co/ZBLJYqL/Gophers-1-2.png" alt="umn_prerequisit_logo"/></button></Link>
       <h1>shhh... testing page</h1>
       <Mermaid graph={test}/>
     </div>
