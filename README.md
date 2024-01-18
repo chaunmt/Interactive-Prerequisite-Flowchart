@@ -1,7 +1,7 @@
 ## Initialize:
   Make sure to download:
   - Node.js
-  - pnpm is recommended but can be substituted by npm.
+  - ~~pnpm is recommended but can be substituted by npm.~~ pnpm is currently required for patching a dependency (mermaid).
 
 ## Run: 
   - pnpm install
