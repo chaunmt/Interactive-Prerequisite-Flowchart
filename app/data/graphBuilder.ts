@@ -1,20 +1,12 @@
-import Access from "./access";
-
-// these two interfaces belong in Access.js but i dont want to edit that yet
-export interface CourseShell {
-    code: string;
-    subject: string;
-    id: string;
-}
-export type PrerequisiteFormat = {
-    and?: PrerequisiteFormat[]; or?: PrerequisiteFormat[]
-} | PrerequisiteFormat[] | CourseShell;  // either intersection or union type
+import Access from "../data/access";
+import {CourseShell, Course, PrereqFormat} from "../data/access";
 
 /** DOES NOT RECURSIVELY BUILD YET (only traverses one level back) */
 export function buildGraph(input: CourseShell | CourseShell[]) {
     return Array.isArray(input) ? buildCombinedGraph(input) : buildCombinedGraph([input]);
 }
 
+// lots of garbage
 function buildCombinedGraph(courses: CourseShell[]) {
     console.log("buildgraph:", courses);
     if (courses.length == 0) { console.log("WARNING: no courses passed in, built empty graph."); }
@@ -29,7 +21,7 @@ function buildCombinedGraph(courses: CourseShell[]) {
         let { subject, id } = courses[k];  // extract the identifying info
         if (!accs.has(subject)) { accs.set(subject, Access(subject)); }  // get the appropriate accessor if not already had
         let prereq: any; let junk: any;
-        ({ id: id, prereq: prereq, ...junk } = accs.get(subject).getCourse("id", id));  // data retrieval + discrepancy safety for id
+        ({ id, prereq, ...junk } = accs.get(subject).getCourse("id", id));  // data retrieval + discrepancy safety for id
         
         // do stuff with this info
     }
