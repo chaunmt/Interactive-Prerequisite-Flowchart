@@ -3,8 +3,8 @@
 
 import Link from "next/link";
 import { buildCombinedGraph } from "../../data/graphBuilder";
-import Access from "../data/access";
-import {CourseShell, Course, PrereqFormat} from "../data/access";
+import Access from "../../data/access";
+// import { CourseShell, Course, PrereqFormat } from "../../data/types";
 // import logo from 'public/logo.png';
 import '../../components/styles/Layout.css';
 import '../../components/styles/GraphPage.css';
@@ -14,20 +14,20 @@ import Header from '../../components/Header';
 import GraphSearch from '../../components/GraphSearch';
 
 
-export default function Page({ params }) {
+export default async function Page({ params }) {
   var id = params.id;
   //todo: display 404 when data is unavailable
   var subj = params.subj.toUpperCase();
-  const subjectCourses = Access(subj).courses;
-  const courses = subjectCourses.map(course => `${subj} ${course.id}`);
-  var test = buildCombinedGraph(courses);
+  // const subjectCourses = (await Access(subj)).courses;
+  // const courses = subjectCourses.map(course => `${subj} ${course.id}`);
+  // var test = buildCombinedGraph(courses);
   
   return (
     <div>
       {/* <Header/> */}
       <h1>{subj} {id} </h1>
       {/* <Link href="/"><button>Homepage</butt on></Link> */}
-      <GraphSearch sourceData={subjectCourses}/>
+      {/* <GraphSearch sourceData={subjectCourses}/> */}
     </div>
   );
 }
