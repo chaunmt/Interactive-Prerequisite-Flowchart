@@ -374,8 +374,9 @@ function exportDogs(SUBJECT) {
             subject: course.subjectCode,
             id: course.courseNumber,
             title: course.name,
-            info: info[0].trim(),
-            prereqInfo: info[1]?.trim() || null,
+            // info: course.description,
+            // info: info[0].trim(),
+            // prereqInfo: info[1]?.trim() || null,
             prereq: prereq || []
           }
         }
@@ -396,6 +397,6 @@ let allSubjects = require('./General/allSubjects.json')
 let allCourseNumbers = require('./General/id/allCourses.json')
 exportDogs('allCourses')
 
-for (pup of allSubjects) {
-  exportDogs(pup)
-}
+// for (pup of allSubjects) {
+//   exportDogs(pup)
+// }
