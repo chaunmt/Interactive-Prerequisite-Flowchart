@@ -1,303 +1,270 @@
 [
-  {
-    "code": "PDES 2702",
-    "subject": "PDES",
-    "id": "2702",
-    "title": "Concept Sketching",
-    "info": "this class is an introduction to manual sketching techniques, specifically for the communication of conceptual product ideas. the focus of this class is on free-hand perspective drawing. students begin with basic principles, simple shapes, light and shadow, and later learn how to combine forms to create conceptual objects with realistic perspective. in this class, there are weekly drawing assignments and presentations.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "PDES 2703",
-    "subject": "PDES",
-    "id": "2703",
-    "title": "Concept Visualization 1",
-    "info": "this class builds upon the fundamentals taught in pdes 2702 concept sketching. students learn to draw complex geometries and organic forms and how to add shading, shadow, text and backgrounds to enhance their drawings. markers and other physical tools are introduced in this class as a means of further refining a sketch. in the second half of the semester, students learn to digitally improve their sketches and are introduced to the fundamentals of digital sketching with a drawing tablet and digital sketching software. as this class is taught in smaller sections, there are many opportunities for students to present and critique work. the basics of design portfolios are covered at the end of this class.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "PDES 2704",
-    "subject": "PDES",
-    "id": "2704",
-    "title": "Visualization & Presentation 2",
-    "info": "building upon the principles taught in pdes 2703 concept visualization and presentation 1, this course covers advanced digital sketching and 2d rendering techniques for product designers. the emphasis of this class is placed on refining sketches for professional presentation. as this class is a co-requisite with pdes 2771 product design studio 1, some assignments will compliment projects assigned in studio.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "PDES 2771",
-    "subject": "PDES",
-    "id": "2771",
-    "title": "Product Design Studio 1",
-    "info": "this is the first design studio for product design majors. it is an introduction to user-centered design using industry-standard practices. students will apply skills learned in their prior core classes towards several individual product design challenges. the deliverables focus on user research, market research, concept development, lo-fidelity prototyping, and concept presentation.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "PDES 2772",
-    "subject": "PDES",
-    "id": "2772",
-    "title": "Product Design Studio 2",
-    "info": "this is the second studio course for product design majors. this studio explores physical prototype development using industry-standard practices. students will apply skills learned in their prior core classes towards several individual product design challenges. the deliverables cover human factors & ergonomics, prototype crafsmanship, aesthetics, form giving, functionality, design for manufacture, and presentation skills.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "PDES 2777",
-    "subject": "PDES",
-    "id": "2777",
-    "title": "Product Form & Model Making",
-    "info": "this class is a hands-on introduction to prototyping tools, materials, and techniques for product design. students learn the basics of working with foam-board, foam, and wood to create physical models and will be introduced to different surface treatments and finishes. assignments are designed to build a sense of craftsmanship and attention to detail. there are multiple individual projects focusing on different materials and techniques. each project involves practicing oral presentation and group critique.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "PDES 3170",
-    "subject": "PDES",
-    "id": "3170",
-    "title": "Topics in Product Design",
-    "info": "in-depth investigation of single specific topic announced in advance.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "PDES 3196",
-    "subject": "PDES",
-    "id": "3196",
-    "title": "Product Design Internship",
-    "info": "supervised work experience relating activity in business, industry, or government to the student's area of study. integrative paper or project may be required.",
-    "prereqInfo": "pdes major",
-    "prereq": []
-  },
-  {
-    "code": "PDES 3704",
-    "subject": "PDES",
-    "id": "3704",
-    "title": "CAD 1: Solid Model & Render",
-    "info": "this class provides an overview of computer-aided design (cad) methods for product designers. the primary software covered in this course include solidworks and keyshot. these programs are used to make three-dimensional computer generated models of product concepts and render the models to appear photo-realistic. this class may also cover additional 2d and interaction design software.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "PDES 3705",
-    "subject": "PDES",
-    "id": "3705",
-    "title": "History/Future of Product Dsgn",
-    "info": "this class covers critical milestones in the history, evolution, and trajectory of modern product design as well as the human relationships to consumer goods, including production and consumption. in some assignments, students have the opportunity to apply the topics discussed towards imagining the future of the product design industry.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "PDES 3706",
-    "subject": "PDES",
-    "id": "3706",
-    "title": "Designing for Manufacture",
-    "info": "this class is a hands-on overview of common manufacturing methods, tools, and considerations for product designers. the focus is placed on plastic and metal related processes specifically machining, forming, casting, and molding. throughout the course students apply the theory of design for manufacturing (dfm) and design for assembly (dfa) to a series of design projects. this course also covers related topics such as material identification, bill of material, cost estimation, part drawings, tolerances, fasteners, part finishing, and sourcing parts.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "PDES 3711",
-    "subject": "PDES",
-    "id": "3711",
-    "title": "Product Innovation Lab",
-    "info": "a hands-on experience in integrated product design and development processes. elements of industrial design, engineering, business, and humanities are applied to a semester-long product design project. cross-functional teams of students in different majors work together to design and develop new consumer product concepts with guidance from a community of industry mentors.",
-    "prereqInfo": "pdes 2772 or junior/senior (any major) or permission from instructor",
-    "prereq": {
-      "code": "PDES 2772",
-      "subject": "PDES",
-      "id": "2772"
+    {
+        "code": "PDES 2702",
+        "subject": "PDES",
+        "id": "2702",
+        "title": "Concept Sketching",
+        "info": "This class is an introduction to manual sketching techniques, specifically for the communication of conceptual product ideas. The focus of this class is on free-hand perspective drawing. Students begin with basic principles, simple shapes, light and shadow, and later learn how to combine forms to create conceptual objects with realistic perspective. In this class, there are weekly drawing assignments and presentations. ",
+        "prereq": []
+    },
+    {
+        "code": "PDES 2703",
+        "subject": "PDES",
+        "id": "2703",
+        "title": "Concept Visualization 1",
+        "info": "This class builds upon the fundamentals taught in PDES 2702 Concept Sketching. Students learn to draw complex geometries and organic forms and how to add shading, shadow, text and backgrounds to enhance their drawings. Markers and other physical tools are introduced in this class as a means of further refining a sketch. In the second half of the semester, students learn to digitally improve their sketches and are introduced to the fundamentals of digital sketching with a drawing tablet and digital sketching software. As this class is taught in smaller sections, there are many opportunities for students to present and critique work. The basics of design portfolios are covered at the end of this class.",
+        "prereq": []
+    },
+    {
+        "code": "PDES 2704",
+        "subject": "PDES",
+        "id": "2704",
+        "title": "Visualization & Presentation 2",
+        "info": "Building upon the principles taught in PDES 2703 Concept Visualization and Presentation 1, this course covers advanced digital sketching and 2D rendering techniques for product designers. The emphasis of this class is placed on refining sketches for professional presentation. As this class is a co-requisite with PDES 2771 Product Design Studio 1, some assignments will compliment projects assigned in studio. ",
+        "prereq": []
+    },
+    {
+        "code": "PDES 2771",
+        "subject": "PDES",
+        "id": "2771",
+        "title": "Product Design Studio 1",
+        "info": "This is the first design studio for product design majors. It is an introduction to user-centered design using industry-standard practices. Students will apply skills learned in their prior core classes towards several individual product design challenges. The deliverables focus on user research, market research, concept development, lo-fidelity prototyping, and concept presentation.",
+        "prereq": []
+    },
+    {
+        "code": "PDES 2772",
+        "subject": "PDES",
+        "id": "2772",
+        "title": "Product Design Studio 2",
+        "info": "This is the second studio course for product design majors. This studio explores physical prototype development using industry-standard practices. Students will apply skills learned in their prior core classes towards several individual product design challenges. The deliverables cover human factors & ergonomics, prototype crafsmanship, aesthetics, form giving, functionality, design for manufacture, and presentation skills.  ",
+        "prereq": []
+    },
+    {
+        "code": "PDES 2777",
+        "subject": "PDES",
+        "id": "2777",
+        "title": "Product Form & Model Making",
+        "info": "This class is a hands-on introduction to prototyping tools, materials, and techniques for product design. Students learn the basics of working with foam-board, foam, and wood to create physical models and will be introduced to different surface treatments and finishes. Assignments are designed to build a sense of craftsmanship and attention to detail. There are multiple individual projects focusing on different materials and techniques. Each project involves practicing oral presentation and group critique.",
+        "prereq": []
+    },
+    {
+        "code": "PDES 3170",
+        "subject": "PDES",
+        "id": "3170",
+        "title": "Topics in Product Design",
+        "info": "In-depth investigation of single specific topic announced in advance.",
+        "prereq": []
+    },
+    {
+        "code": "PDES 3196",
+        "subject": "PDES",
+        "id": "3196",
+        "title": "Product Design Internship",
+        "info": "Supervised work experience relating activity in business, industry, or government to the student's area of study. Integrative paper or project may be required.\n\nprereq: PDes major",
+        "prereq": []
+    },
+    {
+        "code": "PDES 3704",
+        "subject": "PDES",
+        "id": "3704",
+        "title": "CAD 1: Solid Model & Render",
+        "info": "This class provides an overview of computer-aided design (CAD) methods for product designers. The primary software covered in this course include Solidworks and Keyshot. These programs are used to make three-dimensional computer generated models of product concepts and render the models to appear photo-realistic. This class may also cover additional 2D and interaction design software.",
+        "prereq": []
+    },
+    {
+        "code": "PDES 3705",
+        "subject": "PDES",
+        "id": "3705",
+        "title": "History/Future of Product Dsgn",
+        "info": "This class covers critical milestones in the history, evolution, and trajectory of modern product design as well as the human relationships to consumer goods, including production and consumption. In some assignments, students have the opportunity to apply the topics discussed towards imagining the future of the product design industry.",
+        "prereq": []
+    },
+    {
+        "code": "PDES 3706",
+        "subject": "PDES",
+        "id": "3706",
+        "title": "Designing for Manufacture",
+        "info": "This class is a hands-on overview of common manufacturing methods, tools, and considerations for product designers. The focus is placed on plastic and metal related processes specifically machining, forming, casting, and molding. Throughout the course students apply the theory of design for manufacturing (DFM) and design for assembly (DFA) to a series of design projects. This course also covers related topics such as material identification, bill of material, cost estimation, part drawings, tolerances, fasteners, part finishing, and sourcing parts.",
+        "prereq": []
+    },
+    {
+        "code": "PDES 3711",
+        "subject": "PDES",
+        "id": "3711",
+        "title": "Product Innovation Lab",
+        "info": "A hands-on experience in integrated product design and development processes. Elements of industrial design, engineering, business, and humanities are applied to a semester-long product design project. Cross-functional teams of students in different majors work together to design and develop new consumer product concepts with guidance from a community of industry mentors.\n\nprereq: PDes 2772 OR Junior/Senior (any major) or permission from instructor",
+        "prereq": {
+            "code": "PDES 2772",
+            "subject": "PDES",
+            "id": "2772"
+        }
+    },
+    {
+        "code": "PDES 3714",
+        "subject": "PDES",
+        "id": "3714",
+        "title": "CAD Methods 2",
+        "info": "This class provides an overview of the digital surface modeling of existing products and conceptual objects with complex curves. Students will learn how to use the 3D surfacing software (e.g., Alias or Rhino) and apply material and texture with the rendering software (e.g., KeyShot). They will also gain a basic understanding of the science and logic behind the software. In addition, students will gain hands-on experience with topics closely related to this field including lighting, background, and render post-processing.",
+        "prereq": []
+    },
+    {
+        "code": "PDES 3715",
+        "subject": "PDES",
+        "id": "3715",
+        "title": "Design and Food",
+        "info": "This class is a hands-on introduction to principles of design applied to the food industry. Students develop new food concepts working in a kitchen classroom with regular advising from local chefs and food industry experts. The class is structured into four modules: creative design process, flavor and texture, visual aesthetics, and user experience. In each module students learn different design and food preparation methods and apply them to a design challenge. Several restaurant outings are incorporated into the curriculum. ",
+        "prereq": []
+    },
+    {
+        "code": "PDES 3737",
+        "subject": "PDES",
+        "id": "3737",
+        "title": "Product Design Portfolio",
+        "info": "Portfolio skills specific to the field of product/industrial design. Development and critique of verbal and visual presentation skills.  Overview of the breadth and expectations of the profession.",
+        "prereq": []
+    },
+    {
+        "code": "PDES 3771",
+        "subject": "PDES",
+        "id": "3771",
+        "title": "Product Design Studio 3",
+        "info": "This is the third studio course for product design majors in which students will further develop skills specific to their selected track/sub-plan. Students will apply skills learned in their prior core classes towards several individual product design challenges. Students in the user experience section may explore topics in service design, immersive environments, IoT, digital/physical integration, or smart products. Students in the integrated product development section may explore topics in furniture, medical devices, electromechanical products, consumer electronics, digital/physical integration, or smart products. Both sections will further develop presentation skills. ",
+        "prereq": []
+    },
+    {
+        "code": "PDES 3790",
+        "subject": "PDES",
+        "id": "3790",
+        "title": "Prodct Desgn Experience Abroad",
+        "info": "Faculty-led study abroad course. Destinations vary by semester offered.",
+        "prereq": []
+    },
+    {
+        "code": "PDES 4193",
+        "subject": "PDES",
+        "id": "4193",
+        "title": "Dir Study in Product Design",
+        "info": "Independent study in product design under tutorial guidance.\n\nprereq: Undergrad, instr consent",
+        "prereq": []
+    },
+    {
+        "code": "PDES 4701W",
+        "subject": "PDES",
+        "id": "4701W",
+        "title": "Product Design Studio 4",
+        "info": "Students will explore several design research methods, understand the basis of these methods, and directly apply methods within a design project. Students will have the opportunity to demonstrate their facility with a wide range of exploratory, generative, and evaluative research methods. This course will cover field study, contextual inquiries, archival research, participatory codesign, research synthesis techniques, insights identification, early-stage prototyping, usability testing, and ways to communicate research in a visually compelling manner.",
+        "prereq": []
+    },
+    {
+        "code": "PDES 4702W",
+        "subject": "PDES",
+        "id": "4702W",
+        "title": "Capstone Design Studio",
+        "info": "Students synthesize and apply design and research techniques to a senior capstone project. Projects can be student-directed or client-sponsored and are intended to demonstrate competency in fundamental design skills, communicating and documenting design processes, and the ability to apply design processes to develop new products and services while addressing real-world constraints. \n\n",
+        "prereq": []
+    },
+    {
+        "code": "PDES 5170",
+        "subject": "PDES",
+        "id": "5170",
+        "title": "Topics in Product Design",
+        "info": "In-depth investigation of specific topic, announced in advance.\n\nprereq: Jr or sr or grad student",
+        "prereq": []
+    },
+    {
+        "code": "PDES 5193",
+        "subject": "PDES",
+        "id": "5193",
+        "title": "Dir Study in Product Design",
+        "info": "Independent study in product design under tutorial guidance.\n\nprereq: Grad, instr consent",
+        "prereq": []
+    },
+    {
+        "code": "PDES 5701",
+        "subject": "PDES",
+        "id": "5701",
+        "title": "User-Centered Design Studio",
+        "info": "This class provides a studio-based overview of user-centered product design and development processes. Students will practice both user and market research, creativity and idea generation tools, concept evaluation/selection techniques, prototyping methods for concept development and communication, and user testing. This class will also cover fundamentals of intellectual property and manufacturing. In this studio,  students will apply these skills towards the development of a product concept. ",
+        "prereq": []
+    },
+    {
+        "code": "PDES 5702",
+        "subject": "PDES",
+        "id": "5702",
+        "title": "Visual Communication",
+        "info": "This class provides an overview of sketching, manual rendering and Adobe Photoshop, Illustrator, and InDesign for communication of conceptual product design. Topics covered will include free-hand perspective drawing of simple/complex geometries, line weight/quality, shading/shadow, design details and annotations, as well as image editing, vector graphics, and multi-page layout design. There will be weekly drawing assignments and critique of work.",
+        "prereq": []
+    },
+    {
+        "code": "PDES 5703",
+        "subject": "PDES",
+        "id": "5703",
+        "title": "Prototyping Methods",
+        "info": "This class is a hands-on introduction to traditional and digitally interactive prototyping tools and techniques. Through a series of projects students will gain experience with building product models using different materials and tools related to foam core, foam, wood, Arduino, and digital fabrication. In the process, the course covers design topics related to form and function, ergonomics, visual aesthetics, and design critique.",
+        "prereq": []
+    },
+    {
+        "code": "PDES 5704",
+        "subject": "PDES",
+        "id": "5704",
+        "title": "Computer-Aided Design Methods",
+        "info": "This class provides an overview of how to make high-quality digital computer-based models of existing and conceptual products and interactions. Students will learn Adobe Photoshop, Adobe Illustrator, and Axure for two-dimensional design and digital prototyping. Students will also learn SolidWorks and KeyShot for three-dimensional solid modeling and rendering. prereq: Senior or grad student",
+        "prereq": []
+    },
+    {
+        "code": "PDES 5705",
+        "subject": "PDES",
+        "id": "5705",
+        "title": "History/Future of Product Dsgn",
+        "info": "This class covers critical milestones in the history, evolution, and trajectory of modern product design as well as the human relationships to consumer goods, including production and consumption. In some assignments, students have the opportunity to apply the topics discussed towards imagining the future of the product design industry. ",
+        "prereq": []
+    },
+    {
+        "code": "PDES 5706",
+        "subject": "PDES",
+        "id": "5706",
+        "title": "Designing for Manufacture",
+        "info": "Hands-on exposure to a number of common manufacturing methods and the considerations in product design. Students will be able to apply the theory of design for manufacturing (DFM) and design for assembly (DFA) to other methods that may not be taught in this course.",
+        "prereq": []
+    },
+    {
+        "code": "PDES 5711",
+        "subject": "PDES",
+        "id": "5711",
+        "title": "Product Innovation Lab",
+        "info": "A hands-on experience in integrated product design and development processes. Elements of industrial design, engineering, business, and humanities are applied to a semester-long product design project. Cross-functional teams of students in different majors work together to design and develop new consumer product concepts with guidance from a community of industry mentors",
+        "prereq": []
+    },
+    {
+        "code": "PDES 8192",
+        "subject": "PDES",
+        "id": "8192",
+        "title": "Readings",
+        "info": "Independent study; review of books and periodicals under tutorial guidance.\n\nprereq: Grad, instr consent",
+        "prereq": []
+    },
+    {
+        "code": "PDES 8193",
+        "subject": "PDES",
+        "id": "8193",
+        "title": "Dir Study in Product Design",
+        "info": "Independent study in product design under tutorial guidance.\n\nprereq: Grad, instr consent",
+        "prereq": []
+    },
+    {
+        "code": "PDES 8721",
+        "subject": "PDES",
+        "id": "8721",
+        "title": "Product Des & Business Devel I",
+        "info": "This is a 2-semester course. PDES 8722 must be taken in sequence in the Spring of the same year. Students and faculty work with company representatives to develop a product concept, a working physical prototype, and an extensive business plan. Concept design, detail design, manufacturing, marketing, introduction strategy, and profit forecasting. Sponsoring company intends to bring product to market. Engineering and design students must enroll for both semesters. Business students may enroll for one, the other or both semesters.",
+        "prereq": []
+    },
+    {
+        "code": "PDES 8722",
+        "subject": "PDES",
+        "id": "8722",
+        "title": "Prod Des & Business Devel II",
+        "info": "This is a 2-semester course sequence. PDES 8721 must be taken prior to this class in the Fall of the same year. Students and faculty work with company representatives to develop a product concept, a working physical prototype, and an extensive business plan. Concept design, detail design, manufacturing, marketing, introduction strategy, and profit forecasting. Sponsoring company intends to bring product to market. Engineering and design students must enroll for both semesters. Business students may enroll for one, the other or both semesters.",
+        "prereq": []
     }
-  },
-  {
-    "code": "PDES 3714",
-    "subject": "PDES",
-    "id": "3714",
-    "title": "CAD Methods 2",
-    "info": "this class provides an overview of the digital surface modeling of existing products and conceptual objects with complex curves. students will learn how to use the 3d surfacing software (e.g., alias or rhino) and apply material and texture with the rendering software (e.g., keyshot). they will also gain a basic understanding of the science and logic behind the software. in addition, students will gain hands-on experience with topics closely related to this field including lighting, background, and render post-processing.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "PDES 3715",
-    "subject": "PDES",
-    "id": "3715",
-    "title": "Design and Food",
-    "info": "this class is a hands-on introduction to principles of design applied to the food industry. students develop new food concepts working in a kitchen classroom with regular advising from local chefs and food industry experts. the class is structured into four modules: creative design process, flavor and texture, visual aesthetics, and user experience. in each module students learn different design and food preparation methods and apply them to a design challenge. several restaurant outings are incorporated into the curriculum.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "PDES 3737",
-    "subject": "PDES",
-    "id": "3737",
-    "title": "Product Design Portfolio",
-    "info": "portfolio skills specific to the field of product/industrial design. development and critique of verbal and visual presentation skills.  overview of the breadth and expectations of the profession.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "PDES 3771",
-    "subject": "PDES",
-    "id": "3771",
-    "title": "Product Design Studio 3",
-    "info": "this is the third studio course for product design majors in which students will further develop skills specific to their selected track/sub-plan. students will apply skills learned in their prior core classes towards several individual product design challenges. students in the user experience section may explore topics in service design, immersive environments, iot, digital/physical integration, or smart products. students in the integrated product development section may explore topics in furniture, medical devices, electromechanical products, consumer electronics, digital/physical integration, or smart products. both sections will further develop presentation skills.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "PDES 3790",
-    "subject": "PDES",
-    "id": "3790",
-    "title": "Prodct Desgn Experience Abroad",
-    "info": "faculty-led study abroad course. destinations vary by semester offered.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "PDES 4193",
-    "subject": "PDES",
-    "id": "4193",
-    "title": "Dir Study in Product Design",
-    "info": "independent study in product design under tutorial guidance.",
-    "prereqInfo": "undergrad, instr consent",
-    "prereq": []
-  },
-  {
-    "code": "PDES 4701W",
-    "subject": "PDES",
-    "id": "4701W",
-    "title": "Product Design Studio 4",
-    "info": "students will explore several design research methods, understand the basis of these methods, and directly apply methods within a design project. students will have the opportunity to demonstrate their facility with a wide range of exploratory, generative, and evaluative research methods. this course will cover field study, contextual inquiries, archival research, participatory codesign, research synthesis techniques, insights identification, early-stage prototyping, usability testing, and ways to communicate research in a visually compelling manner.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "PDES 4702W",
-    "subject": "PDES",
-    "id": "4702W",
-    "title": "Capstone Design Studio",
-    "info": "students synthesize and apply design and research techniques to a senior capstone project. projects can be student-directed or client-sponsored and are intended to demonstrate competency in fundamental design skills, communicating and documenting design processes, and the ability to apply design processes to develop new products and services while addressing real-world constraints.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "PDES 5170",
-    "subject": "PDES",
-    "id": "5170",
-    "title": "Topics in Product Design",
-    "info": "in-depth investigation of specific topic, announced in advance.",
-    "prereqInfo": "jr or sr or grad student",
-    "prereq": []
-  },
-  {
-    "code": "PDES 5193",
-    "subject": "PDES",
-    "id": "5193",
-    "title": "Dir Study in Product Design",
-    "info": "independent study in product design under tutorial guidance.",
-    "prereqInfo": "grad, instr consent",
-    "prereq": []
-  },
-  {
-    "code": "PDES 5701",
-    "subject": "PDES",
-    "id": "5701",
-    "title": "User-Centered Design Studio",
-    "info": "this class provides a studio-based overview of user-centered product design and development processes. students will practice both user and market research, creativity and idea generation tools, concept evaluation/selection techniques, prototyping methods for concept development and communication, and user testing. this class will also cover fundamentals of intellectual property and manufacturing. in this studio,  students will apply these skills towards the development of a product concept.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "PDES 5702",
-    "subject": "PDES",
-    "id": "5702",
-    "title": "Visual Communication",
-    "info": "this class provides an overview of sketching, manual rendering and adobe photoshop, illustrator, and indesign for communication of conceptual product design. topics covered will include free-hand perspective drawing of simple/complex geometries, line weight/quality, shading/shadow, design details and annotations, as well as image editing, vector graphics, and multi-page layout design. there will be weekly drawing assignments and critique of work.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "PDES 5703",
-    "subject": "PDES",
-    "id": "5703",
-    "title": "Prototyping Methods",
-    "info": "this class is a hands-on introduction to traditional and digitally interactive prototyping tools and techniques. through a series of projects students will gain experience with building product models using different materials and tools related to foam core, foam, wood, arduino, and digital fabrication. in the process, the course covers design topics related to form and function, ergonomics, visual aesthetics, and design critique.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "PDES 5704",
-    "subject": "PDES",
-    "id": "5704",
-    "title": "Computer-Aided Design Methods",
-    "info": "this class provides an overview of how to make high-quality digital computer-based models of existing and conceptual products and interactions. students will learn adobe photoshop, adobe illustrator, and axure for two-dimensional design and digital prototyping. students will also learn solidworks and keyshot for three-dimensional solid modeling and rendering.",
-    "prereqInfo": "senior or grad student",
-    "prereq": []
-  },
-  {
-    "code": "PDES 5705",
-    "subject": "PDES",
-    "id": "5705",
-    "title": "History/Future of Product Dsgn",
-    "info": "this class covers critical milestones in the history, evolution, and trajectory of modern product design as well as the human relationships to consumer goods, including production and consumption. in some assignments, students have the opportunity to apply the topics discussed towards imagining the future of the product design industry.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "PDES 5706",
-    "subject": "PDES",
-    "id": "5706",
-    "title": "Designing for Manufacture",
-    "info": "hands-on exposure to a number of common manufacturing methods and the considerations in product design. students will be able to apply the theory of design for manufacturing (dfm) and design for assembly (dfa) to other methods that may not be taught in this course.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "PDES 5711",
-    "subject": "PDES",
-    "id": "5711",
-    "title": "Product Innovation Lab",
-    "info": "a hands-on experience in integrated product design and development processes. elements of industrial design, engineering, business, and humanities are applied to a semester-long product design project. cross-functional teams of students in different majors work together to design and develop new consumer product concepts with guidance from a community of industry mentors",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "PDES 8192",
-    "subject": "PDES",
-    "id": "8192",
-    "title": "Readings",
-    "info": "independent study; review of books and periodicals under tutorial guidance.",
-    "prereqInfo": "grad, instr consent",
-    "prereq": []
-  },
-  {
-    "code": "PDES 8193",
-    "subject": "PDES",
-    "id": "8193",
-    "title": "Dir Study in Product Design",
-    "info": "independent study in product design under tutorial guidance.",
-    "prereqInfo": "grad, instr consent",
-    "prereq": []
-  },
-  {
-    "code": "PDES 8721",
-    "subject": "PDES",
-    "id": "8721",
-    "title": "Product Des & Business Devel I",
-    "info": "this is a 2-semester course. pdes 8722 must be taken in sequence in the spring of the same year. students and faculty work with company representatives to develop a product concept, a working physical prototype, and an extensive business plan. concept design, detail design, manufacturing, marketing, introduction strategy, and profit forecasting. sponsoring company intends to bring product to market. engineering and design students must enroll for both semesters. business students may enroll for one, the other or both semesters.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "PDES 8722",
-    "subject": "PDES",
-    "id": "8722",
-    "title": "Prod Des & Business Devel II",
-    "info": "this is a 2-semester course sequence. pdes 8721 must be taken prior to this class in the fall of the same year. students and faculty work with company representatives to develop a product concept, a working physical prototype, and an extensive business plan. concept design, detail design, manufacturing, marketing, introduction strategy, and profit forecasting. sponsoring company intends to bring product to market. engineering and design students must enroll for both semesters. business students may enroll for one, the other or both semesters.",
-    "prereqInfo": null,
-    "prereq": []
-  }
 ]

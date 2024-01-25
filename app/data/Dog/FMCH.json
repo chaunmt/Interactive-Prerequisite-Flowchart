@@ -1,658 +1,595 @@
 [
-  {
-    "code": "FMCH 5201",
-    "subject": "FMCH",
-    "id": "5201",
-    "title": "Cl Fam Med",
-    "info": "supervised care for patients of all ages on a continuous, primary, preventive, and general diagnostic basis. diagnosis, methods of treatment, and problem-solving devices for benefit of patient and family, emphasizing health hazard appraisal. new and refined methods of recording, documentation, and retrieval of clinical data.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "FMCH 5345",
-    "subject": "FMCH",
-    "id": "5345",
-    "title": "Curr/Tchg Med Ed",
-    "info": "identifying/developing course goals. developing course, teacher, learner evaluations. students must also take 5346, which follows immediately after 5345.",
-    "prereqInfo": "concurrent entollment in 5346, instr consent",
-    "prereq": {
-      "code": "FMCH 5346",
-      "subject": "FMCH",
-      "id": "5346"
-    }
-  },
-  {
-    "code": "FMCH 5346",
-    "subject": "FMCH",
-    "id": "5346",
-    "title": "Curr/Tchg Med Ed II",
-    "info": "taken with 5345. practicum of lecture, demonstration, small-group discussion, clinical teaching, and computer-assisted instruction. academic ethics, policies, copyright issues, tenure, academic freedom, problem-based learning.",
-    "prereqInfo": "concurrent registration is required (or allowed) in 5345, instr consent",
-    "prereq": {
-      "code": "FMCH 5345",
-      "subject": "FMCH",
-      "id": "5345"
-    }
-  },
-  {
-    "code": "FMCH 5564",
-    "subject": "FMCH",
-    "id": "5564",
-    "title": "Fam Prac Sem",
-    "info": "knowledge, skills, and attitudes in biomedical and behavioral sciences that form foundation for academic discipline of family medicine; medical decision making, common problems and procedures, family theory and assessment, clinical pharmacy, human sexuality.",
-    "prereqInfo": "md or do degree",
-    "prereq": []
-  },
-  {
-    "code": "FMCH 5650",
-    "subject": "FMCH",
-    "id": "5650",
-    "title": "Prin Geriatr I",
-    "info": "first in two-course sequence. survey of major topics in geriatric medicine. epidemiology, etiology, diagnosis, and treatment of major geriatric syndromes and illnesses.",
-    "prereqInfo": "medical school or dental school or gnp school graduate",
-    "prereq": []
-  },
-  {
-    "code": "FMCH 5651",
-    "subject": "FMCH",
-    "id": "5651",
-    "title": "Prin Geriatr II",
-    "info": "second in two-course sequence.  survey of major topics in geriatric medicine.  epidemiology, etiology, diagnosis, and treatment of major geriatric syndromes and illnesses.",
-    "prereqInfo": "medical school or dental school or gnp school graduate",
-    "prereq": []
-  },
-  {
-    "code": "FMCH 5950",
-    "subject": "FMCH",
-    "id": "5950",
-    "title": "Cl Iss Human Sex",
-    "info": "assessment and treatment techniques pertaining to common sexual problems.",
-    "prereqInfo": "enrollment in health sci grad programs in cspp, psy, pubh, sw or fsos or instr consent",
-    "prereq": []
-  },
-  {
-    "code": "FMCH 5955",
-    "subject": "FMCH",
-    "id": "5955",
-    "title": "Dir Study",
-    "info": "studies on special topics as arranged between student and faculty.",
-    "prereqInfo": "instr consent; qualified students may arrange for work on a tutorial basis",
-    "prereq": []
-  },
-  {
-    "code": "FMCH 5960",
-    "subject": "FMCH",
-    "id": "5960",
-    "title": "Bas Res Meth",
-    "info": "history and current status of research in family medicine, research resources available in the department. how to ask/define a research question, conduct a literature search, select a research methodology, meet federal requirements for protection of human subjects in research, critically read the medical literature and facilitate its discussion, and prepare a grant proposal.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "FMCH 5961",
-    "subject": "FMCH",
-    "id": "5961",
-    "title": "Integration Seminar",
-    "info": "preparation for roles in academia. achieving success as a clinical investigator. funding opportunities, authorship, collaboration, publishing, grant preparation.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "FMCH 6233",
-    "subject": "FMCH",
-    "id": "6233",
-    "title": "Human Sexuality",
-    "info": "how to render effective primary care for patients with sexual concerns. mandatory two day sexual attitude reassessment seminar. four symposia that involve case presentations. panel discussions, media.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "FMCH 7200",
-    "subject": "FMCH",
-    "id": "7200",
-    "title": "Intro Residency in Family Med",
-    "info": "this 2-week elective is offered at all of the university of minnesota-affiliated twin cities residency programs in family medicine, and select other local programs. this elective provides students the opportunity to experience the full spectrum of family medicine and community health at that program. all efforts will be made to place the student at the program of their choice. the student will work with family medicine faculty physicians and residents in all the facets of family medicine care including: office, inpatient hospital service, labor and delivery, overnight call, procedures and, where applicable, nursing home rounds or home visits.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "FMCH 7500",
-    "subject": "FMCH",
-    "id": "7500",
-    "title": "Acting Intern Family Medicine",
-    "info": "this elective is offered at all the university of minnesota-affiliated twin cities residency programs in family medicine and selected other local programs. this elective provides students the opportunity to experience the full spectrum of family medicine. all efforts will be made to place the student at the program of their choice. the student will work with family medicine faculty physicians and family medicine residents in all the facets of family medicine care including: office, inpatient hospital service, labor and delivery, overnight call, procedures and, where applicable, nursing home rounds or home visits.  students are expected to take both inpatient medicine and obstetrical call at a frequency of approximately one night per week, work may include evenings and weekends.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "FMCH 7501",
-    "subject": "FMCH",
-    "id": "7501",
-    "title": "Rural Physician Assoc Program",
-    "info": "community-based elective with extensive primary care experience in a rural setting. intended for the student with an interest in rural minnesota primary care. each student works with family physicians and local and/or visiting specialists. problem-based learning, hands-on clinical experience and one-to-one teaching.  scholarships are available.",
-    "prereqInfo": "med 7500, obst 7500, usmle step 1 passing score",
-    "prereq": {
-      "and": [
-        {
-          "code": "MED 7500",
-          "subject": "MED",
-          "id": "7500"
-        },
-        {
-          "code": "OBST 7500",
-          "subject": "OBST",
-          "id": "7500"
+    {
+        "code": "FMCH 5201",
+        "subject": "FMCH",
+        "id": "5201",
+        "title": "Cl Fam Med",
+        "info": "Supervised care for patients of all ages on a continuous, primary, preventive, and general diagnostic basis. Diagnosis, methods of treatment, and problem-solving devices for benefit of patient and family, emphasizing health hazard appraisal. New and refined methods of recording, documentation, and retrieval of clinical data.",
+        "prereq": []
+    },
+    {
+        "code": "FMCH 5345",
+        "subject": "FMCH",
+        "id": "5345",
+        "title": "Curr/Tchg Med Ed",
+        "info": "Identifying/developing course goals. Developing course, teacher, learner evaluations. Students must also take 5346, which follows immediately after 5345.\n\nprereq: concurrent entollment in 5346, instr consent",
+        "prereq": {
+            "code": "FMCH 5346",
+            "subject": "FMCH",
+            "id": "5346"
         }
-      ]
-    }
-  },
-  {
-    "code": "FMCH 7502",
-    "subject": "FMCH",
-    "id": "7502",
-    "title": "RPAP - OrthoSurg",
-    "info": "community-based elective with extensive orthopaedic surgery experience in a rural setting.",
-    "prereqInfo": "7501, rpap student",
-    "prereq": {
-      "code": "FMCH 7501",
-      "subject": "FMCH",
-      "id": "7501"
-    }
-  },
-  {
-    "code": "FMCH 7503",
-    "subject": "FMCH",
-    "id": "7503",
-    "title": "Preceptorship in FM Obstetrics",
-    "info": "this course provides an overview of family medicine obstetrics, or maternity care. the student is given the opportunity to participate in the care of the pregnant woman both in the clinic and in the hospital. the student is assigned to call one time per week. additionally, the student will be given time to research one topic of interest and complete a one-page summary.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "FMCH 7504",
-    "subject": "FMCH",
-    "id": "7504",
-    "title": "RPAP - Surgery",
-    "info": "community-based elective with extensive primary care (surgery) experience in a rural setting. each student works with family physicians and local or visiting specialists. problem-based learning, hands-on clinical experience, one-to-one teaching.",
-    "prereqInfo": "med 7500, obst 7500, usmle step 1 passing score",
-    "prereq": {
-      "and": [
-        {
-          "code": "MED 7500",
-          "subject": "MED",
-          "id": "7500"
-        },
-        {
-          "code": "OBST 7500",
-          "subject": "OBST",
-          "id": "7500"
+    },
+    {
+        "code": "FMCH 5346",
+        "subject": "FMCH",
+        "id": "5346",
+        "title": "Curr/Tchg Med Ed II",
+        "info": "Taken with 5345. Practicum of lecture, demonstration, small-group discussion, clinical teaching, and computer-assisted instruction. Academic ethics, policies, copyright issues, tenure, academic freedom, problem-based learning.\n\nprereq: concurrent registration is required (or allowed) in 5345, instr consent",
+        "prereq": {
+            "code": "FMCH 5345",
+            "subject": "FMCH",
+            "id": "5345"
         }
-      ]
-    }
-  },
-  {
-    "code": "FMCH 7505",
-    "subject": "FMCH",
-    "id": "7505",
-    "title": "RPAP - OB/GYN",
-    "info": "community-based elective with extensive obstetrics/gynecology experience in a rural setting. each student works with family physicians and local or visiting specialists. problem-based learning, hands-on clinical experience, one-to-one teaching.",
-    "prereqInfo": "7501",
-    "prereq": {
-      "code": "FMCH 7501",
-      "subject": "FMCH",
-      "id": "7501"
-    }
-  },
-  {
-    "code": "FMCH 7506",
-    "subject": "FMCH",
-    "id": "7506",
-    "title": "RPAP - Peds",
-    "info": "community-based elective with extensive pediatrics experience in a rural setting.",
-    "prereqInfo": "7501",
-    "prereq": {
-      "code": "FMCH 7501",
-      "subject": "FMCH",
-      "id": "7501"
-    }
-  },
-  {
-    "code": "FMCH 7507",
-    "subject": "FMCH",
-    "id": "7507",
-    "title": "RPAP - ENT",
-    "info": "community-based elective with extensive otolaryngology experience in a rural setting.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "FMCH 7508",
-    "subject": "FMCH",
-    "id": "7508",
-    "title": "RPAP - UROL",
-    "info": "community-based elective with extensive urology experience in a rural setting.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "FMCH 7509",
-    "subject": "FMCH",
-    "id": "7509",
-    "title": "RPAP - PC I",
-    "info": "community-based elective with extensive primary care experience in a rural setting.",
-    "prereqInfo": "7501",
-    "prereq": {
-      "code": "FMCH 7501",
-      "subject": "FMCH",
-      "id": "7501"
-    }
-  },
-  {
-    "code": "FMCH 7510",
-    "subject": "FMCH",
-    "id": "7510",
-    "title": "RPAP - PC II",
-    "info": "community-based elective with extensive primary care experience in a rural setting.",
-    "prereqInfo": "7509",
-    "prereq": {
-      "code": "FMCH 7509",
-      "subject": "FMCH",
-      "id": "7509"
-    }
-  },
-  {
-    "code": "FMCH 7511",
-    "subject": "FMCH",
-    "id": "7511",
-    "title": "Urban Community Ambulatory Med",
-    "info": "ucam provides 12 weeks of ambulatory continuity experience in an underserved urban community family medicine clinic. ucam expands the family medicine clerkship exposure to patient diversity, low income, multicultural urban medicine, and community health. students are required to attend the family medicine clerkship/primary care selective seminars as well as 4 ucam seminars. from a scheduling point of view, ucam combines the 8 weeks of family medicine clerkship/primary care selective with 4 extra weeks of elective credit. the principles of urban medicine will be blended throughout the 12 weeks, as will the project. each student will participate in a community health project and complete a journal about his/her experience. the community health project ideally combines the ebm focus of the family medicine clerkship project with a longitudinal project.",
-    "prereqInfo": "fmch 7600 and fmch 7700",
-    "prereq": {
-      "and": [
-        {
-          "code": "FMCH 7600",
-          "subject": "FMCH",
-          "id": "7600"
-        },
-        {
-          "code": "FMCH 7700",
-          "subject": "FMCH",
-          "id": "7700"
+    },
+    {
+        "code": "FMCH 5564",
+        "subject": "FMCH",
+        "id": "5564",
+        "title": "Fam Prac Sem",
+        "info": "Knowledge, skills, and attitudes in biomedical and behavioral sciences that form foundation for academic discipline of family medicine; medical decision making, common problems and procedures, family theory and assessment, clinical pharmacy, human sexuality.\n\nprereq: MD or DO degree",
+        "prereq": []
+    },
+    {
+        "code": "FMCH 5650",
+        "subject": "FMCH",
+        "id": "5650",
+        "title": "Prin Geriatr I",
+        "info": "First in two-course sequence. Survey of major topics in geriatric medicine. Epidemiology, etiology, diagnosis, and treatment of major geriatric syndromes and illnesses.\n\nprereq: Medical School or dental school or GNP School graduate",
+        "prereq": []
+    },
+    {
+        "code": "FMCH 5651",
+        "subject": "FMCH",
+        "id": "5651",
+        "title": "Prin Geriatr II",
+        "info": "Second in two-course sequence.  Survey of major topics in geriatric medicine.  Epidemiology, etiology, diagnosis, and treatment of major geriatric syndromes and illnesses.\n\nprereq: Medical School or dental school or GNP school graduate",
+        "prereq": []
+    },
+    {
+        "code": "FMCH 5950",
+        "subject": "FMCH",
+        "id": "5950",
+        "title": "Cl Iss Human Sex",
+        "info": "Assessment and treatment techniques pertaining to common sexual problems.\n\nprereq: Enrollment in health sci grad programs in CSPP, Psy, PubH, SW or FSoS or instr consent",
+        "prereq": []
+    },
+    {
+        "code": "FMCH 5955",
+        "subject": "FMCH",
+        "id": "5955",
+        "title": "Dir Study",
+        "info": "Studies on special topics as arranged between student and faculty.\n\nprereq: instr consent; qualified students may arrange for work on a tutorial basis",
+        "prereq": []
+    },
+    {
+        "code": "FMCH 5960",
+        "subject": "FMCH",
+        "id": "5960",
+        "title": "Bas Res Meth",
+        "info": "History and current status of research in family medicine, research resources available in the department. How to ask/define a research question, conduct a literature search, select a research methodology, meet federal requirements for protection of human subjects in research, critically read the medical literature and facilitate its discussion, and prepare a grant proposal.",
+        "prereq": []
+    },
+    {
+        "code": "FMCH 5961",
+        "subject": "FMCH",
+        "id": "5961",
+        "title": "Integration Seminar",
+        "info": "Preparation for roles in academia. Achieving success as a clinical investigator. Funding opportunities, authorship, collaboration, publishing, grant preparation.",
+        "prereq": []
+    },
+    {
+        "code": "FMCH 6233",
+        "subject": "FMCH",
+        "id": "6233",
+        "title": "Human Sexuality",
+        "info": "How to render effective primary care for patients with sexual concerns. Mandatory two day sexual attitude reassessment seminar. Four symposia that involve case presentations. Panel discussions, media.",
+        "prereq": []
+    },
+    {
+        "code": "FMCH 7200",
+        "subject": "FMCH",
+        "id": "7200",
+        "title": "Intro Residency in Family Med",
+        "info": "This 2-week elective is offered at all of the University of Minnesota-affiliated Twin Cities residency programs in Family Medicine, and select other local programs. This elective provides students the opportunity to experience the full spectrum of Family Medicine and Community Health at that program. All efforts will be made to place the student at the program of their choice. The student will work with Family Medicine faculty physicians and residents in all the facets of Family Medicine care including: office, inpatient hospital service, labor and delivery, overnight call, procedures and, where applicable, nursing home rounds or home visits. \n",
+        "prereq": []
+    },
+    {
+        "code": "FMCH 7500",
+        "subject": "FMCH",
+        "id": "7500",
+        "title": "Acting Intern Family Medicine",
+        "info": "This elective is offered at all the University of Minnesota-affiliated Twin Cities Residency Programs in Family Medicine and selected other local programs. This elective provides students the opportunity to experience the full spectrum of Family Medicine. All efforts will be made to place the student at the program of their choice. The student will work with Family Medicine faculty physicians and Family Medicine residents in all the facets of Family Medicine care including: office, inpatient hospital service, labor and delivery, overnight call, procedures and, where applicable, nursing home rounds or home visits.  Students are expected to take both inpatient medicine and obstetrical call at a frequency of approximately one night per week, work may include evenings and weekends.",
+        "prereq": []
+    },
+    {
+        "code": "FMCH 7501",
+        "subject": "FMCH",
+        "id": "7501",
+        "title": "Rural Physician Assoc Program",
+        "info": "Community-based elective with extensive primary care experience in a rural setting. Intended for the student with an interest in rural Minnesota primary care. Each student works with family physicians and local and/or visiting specialists. Problem-based learning, hands-on clinical experience and one-to-one teaching.  Scholarships are available.\n\nprereq: Med 7500, Obst 7500, USMLE Step 1 Passing Score",
+        "prereq": {
+            "and": [
+                {
+                    "code": "MED 7500",
+                    "subject": "MED",
+                    "id": "7500"
+                },
+                {
+                    "code": "OBST 7500",
+                    "subject": "OBST",
+                    "id": "7500"
+                }
+            ]
         }
-      ]
-    }
-  },
-  {
-    "code": "FMCH 7512",
-    "subject": "FMCH",
-    "id": "7512",
-    "title": "Urban Community Ambulatory Med",
-    "info": "expands primary-care clerkship (pcc) into 16 weeks of primary care experience in one underserved urban clinic. students attend pcc seminars during first eight weeks, followed by weekly seminars covering patient diversity, indigenous medicine, and community health.",
-    "prereqInfo": "7511, inmd 5508, inmd 7509",
-    "prereq": {
-      "and": [
-        {
-          "code": "FMCH 7511",
-          "subject": "FMCH",
-          "id": "7511"
-        },
-        {
-          "code": "INMD 5508",
-          "subject": "INMD",
-          "id": "5508"
-        },
-        {
-          "code": "INMD 7509",
-          "subject": "INMD",
-          "id": "7509"
+    },
+    {
+        "code": "FMCH 7502",
+        "subject": "FMCH",
+        "id": "7502",
+        "title": "RPAP - OrthoSurg",
+        "info": "Community-based elective with extensive orthopaedic surgery experience in a rural setting.\n\nprereq: 7501, RPAP student",
+        "prereq": {
+            "code": "FMCH 7501",
+            "subject": "FMCH",
+            "id": "7501"
         }
-      ]
+    },
+    {
+        "code": "FMCH 7503",
+        "subject": "FMCH",
+        "id": "7503",
+        "title": "Preceptorship in FM Obstetrics",
+        "info": "This course provides an overview of family medicine obstetrics, or maternity care. The student is given the opportunity to participate in the care of the pregnant woman both in the clinic and in the hospital. The student is assigned to call one time per week. Additionally, the student will be given time to research one topic of interest and complete a one-page summary.",
+        "prereq": []
+    },
+    {
+        "code": "FMCH 7504",
+        "subject": "FMCH",
+        "id": "7504",
+        "title": "RPAP - Surgery",
+        "info": "Community-based elective with extensive primary care (surgery) experience in a rural setting. Each student works with family physicians and local or visiting specialists. Problem-based learning, hands-on clinical experience, one-to-one teaching.\n\nprereq: Med 7500, Obst 7500, USMLE Step 1 Passing Score",
+        "prereq": {
+            "and": [
+                {
+                    "code": "MED 7500",
+                    "subject": "MED",
+                    "id": "7500"
+                },
+                {
+                    "code": "OBST 7500",
+                    "subject": "OBST",
+                    "id": "7500"
+                }
+            ]
+        }
+    },
+    {
+        "code": "FMCH 7505",
+        "subject": "FMCH",
+        "id": "7505",
+        "title": "RPAP - OB/GYN",
+        "info": "Community-based elective with extensive obstetrics/gynecology experience in a rural setting. Each student works with family physicians and local or visiting specialists. Problem-based learning, hands-on clinical experience, one-to-one teaching.\n\nprereq: 7501",
+        "prereq": {
+            "code": "FMCH 7501",
+            "subject": "FMCH",
+            "id": "7501"
+        }
+    },
+    {
+        "code": "FMCH 7506",
+        "subject": "FMCH",
+        "id": "7506",
+        "title": "RPAP - Peds",
+        "info": "Community-based elective with extensive pediatrics experience in a rural setting.\n\nprereq: 7501",
+        "prereq": {
+            "code": "FMCH 7501",
+            "subject": "FMCH",
+            "id": "7501"
+        }
+    },
+    {
+        "code": "FMCH 7507",
+        "subject": "FMCH",
+        "id": "7507",
+        "title": "RPAP - ENT",
+        "info": "Community-based elective with extensive otolaryngology experience in a rural setting.",
+        "prereq": []
+    },
+    {
+        "code": "FMCH 7508",
+        "subject": "FMCH",
+        "id": "7508",
+        "title": "RPAP - UROL",
+        "info": "Community-based elective with extensive urology experience in a rural setting.",
+        "prereq": []
+    },
+    {
+        "code": "FMCH 7509",
+        "subject": "FMCH",
+        "id": "7509",
+        "title": "RPAP - PC I",
+        "info": "Community-based elective with extensive primary care experience in a rural setting.\n\nprereq: 7501",
+        "prereq": {
+            "code": "FMCH 7501",
+            "subject": "FMCH",
+            "id": "7501"
+        }
+    },
+    {
+        "code": "FMCH 7510",
+        "subject": "FMCH",
+        "id": "7510",
+        "title": "RPAP - PC II",
+        "info": "Community-based elective with extensive primary care experience in a rural setting.\n\nprereq: 7509",
+        "prereq": {
+            "code": "FMCH 7509",
+            "subject": "FMCH",
+            "id": "7509"
+        }
+    },
+    {
+        "code": "FMCH 7511",
+        "subject": "FMCH",
+        "id": "7511",
+        "title": "Urban Community Ambulatory Med",
+        "info": "UCAM provides 12 weeks of ambulatory continuity experience in an underserved urban community Family Medicine Clinic. UCAM expands the Family Medicine Clerkship exposure to patient diversity, low income, multicultural urban medicine, and community health. Students are required to attend the Family Medicine Clerkship/Primary Care Selective seminars as well as 4 UCAM seminars. From a scheduling point of view, UCAM combines the 8 weeks of Family Medicine Clerkship/Primary Care Selective with 4 extra weeks of elective credit. The principles of urban medicine will be blended throughout the 12 weeks, as will the project. Each student will participate in a community health project and complete a journal about his/her experience. The community health project ideally combines the EBM focus of the Family Medicine clerkship project with a longitudinal project.\n\nPrereq: FMCH 7600 and FMCH 7700",
+        "prereq": {
+            "and": [
+                {
+                    "code": "FMCH 7600",
+                    "subject": "FMCH",
+                    "id": "7600"
+                },
+                {
+                    "code": "FMCH 7700",
+                    "subject": "FMCH",
+                    "id": "7700"
+                }
+            ]
+        }
+    },
+    {
+        "code": "FMCH 7512",
+        "subject": "FMCH",
+        "id": "7512",
+        "title": "Urban Community Ambulatory Med",
+        "info": "Expands primary-care clerkship (PCC) into 16 weeks of primary care experience in one underserved urban clinic. Students attend PCC seminars during first eight weeks, followed by weekly seminars covering patient diversity, indigenous medicine, and community health.\n\nprereq: 7511, InMd 5508, InMd 7509",
+        "prereq": {
+            "and": [
+                {
+                    "code": "FMCH 7511",
+                    "subject": "FMCH",
+                    "id": "7511"
+                },
+                {
+                    "code": "INMD 5508",
+                    "subject": "INMD",
+                    "id": "5508"
+                },
+                {
+                    "code": "INMD 7509",
+                    "subject": "INMD",
+                    "id": "7509"
+                }
+            ]
+        }
+    },
+    {
+        "code": "FMCH 7513",
+        "subject": "FMCH",
+        "id": "7513",
+        "title": "RPAP - ORSU",
+        "info": "Community-based elective with extensive orthopaedic surgery experience in a rural setting.\n\nprereq: Accepted into RPAP",
+        "prereq": []
+    },
+    {
+        "code": "FMCH 7515",
+        "subject": "FMCH",
+        "id": "7515",
+        "title": "RPAP-Emergency Medicine",
+        "info": "tbd ",
+        "prereq": []
+    },
+    {
+        "code": "FMCH 7516",
+        "subject": "FMCH",
+        "id": "7516",
+        "title": "Research in Human Sexuality",
+        "info": "This elective consists of clinical and/or laboratory research related to human sexuality in areas such as incest, rape, gender dysphoria, compulsive sexual behavior, sex offenses, and sexual dysfunction. It is adaptable to the specific interests of the student and faculty.",
+        "prereq": []
+    },
+    {
+        "code": "FMCH 7518",
+        "subject": "FMCH",
+        "id": "7518",
+        "title": "Inpatient Family Medicine",
+        "info": "Students will participate in the family medicine residency inpatient teaching service. This service consists of a variety of patients including pediatric, obstetric, geriatric, and other adult patients. Supervision and teaching are provided by a family medicine faculty who participates daily in didactic teaching, x-ray rounds, and hospital rounds. Members of the team include a medical student, first and second year resident, and the chief resident. These individuals share responsibility for patients on the service and perform initial histories and physicals, write daily orders and progress notes, complete discharge summaries, and communicate with consultants and family members. Students will also attend daily noon conferences. Call is required at some sites.",
+        "prereq": []
+    },
+    {
+        "code": "FMCH 7519",
+        "subject": "FMCH",
+        "id": "7519",
+        "title": "Clin Prac of Occupational Med",
+        "info": "Students perform complete occupational health history, set up basic problem-solving approahces to occupational health problems.",
+        "prereq": []
+    },
+    {
+        "code": "FMCH 7520",
+        "subject": "FMCH",
+        "id": "7520",
+        "title": "Rural Rotation in Family Med",
+        "info": "This course is intended for students interested in observing and participating in Family Medicine in the rural setting. Students participate in patient care in the patient's home, in long-term facilities, in the doctor's office and in the hospital. Students observe close interrelationships between practicing physicians and the community.",
+        "prereq": []
+    },
+    {
+        "code": "FMCH 7521",
+        "subject": "FMCH",
+        "id": "7521",
+        "title": "Topics in Immigrant Health",
+        "info": "Course is designed to offer an intensive multidimensional exploration of immigrant health using clinical, multimedia, academic and on-line learning. The course will include an individualized in-depth project and an individualized learning plan will be developed between each student and the course director after assessing the student's experience, background and interest.\n\nThis course will combine clinical experiences at a variety of sites which serve immigrant patients with text-based and web-based reading, on-line research, group and individual community visits and on-line and class discussions to provide students with an opportunity to study in-depth the issues that communities and methods by which those barriers are being overcome.",
+        "prereq": []
+    },
+    {
+        "code": "FMCH 7522",
+        "subject": "FMCH",
+        "id": "7522",
+        "title": "Exploration Immigrant Health",
+        "info": "This is a 2-week Family Medicine elective based on the 4 week \\\"Topics in Immigrant Health\\\" elective and incorporates much of the independent study portion of that elective.  This online elective will include significant reading (electronically available textbook, The Spirit Catches You and You Fall Down, and a book about the immigrant experience), writing, research and videos that address topics relevant to providing primary care to immigrant patients.  \n\nThe course objectives are:\n(1) Students will end the elective with a much deeper understanding of the immigrant experience and how that experience impacts their healthcare needs \n(2) Students will learn research tools which will allow them to better learn about unfamiliar immigrant groups that they encounter in their future practice.  \n\nStudents will be expected to spend 4 hours/day on weekdays working on class assignments.  Because it is based on the Topics in Immigrant Health elective (FMCH 7521), it is not appropriate for students who have taken or plan to take that full course.\n",
+        "prereq": []
+    },
+    {
+        "code": "FMCH 7523",
+        "subject": "FMCH",
+        "id": "7523",
+        "title": "Fam Med Clerkship in Duluth",
+        "info": "Principles of family medicine. Students engage in preceptorship with community family physicians in clinic, hospital, patient's home, and other facilities. Weekly patient care discussions/presentations, observation. Procedures such as suturing, casting.\n",
+        "prereq": []
+    },
+    {
+        "code": "FMCH 7524",
+        "subject": "FMCH",
+        "id": "7524",
+        "title": "Palliative Medicine & Hospice",
+        "info": "Introduces students to the field of palliative care and hospice medicine. Students will participate in patient care with hospice staff and palliative care physicians and other practitioners in the hospital, nursing home, clinic, and patient's homes. Students will directly work with interdisciplinary teams in their daily work, and spend time with practitioners in social work, nursing, spiritual health, music therapy, and physicians.",
+        "prereq": []
+    },
+    {
+        "code": "FMCH 7525",
+        "subject": "FMCH",
+        "id": "7525",
+        "title": "Cardiovascular Medicine",
+        "info": "Students will participate in daily cardiology inpatient rounds. They will work 1:1 with the rounding cardiologist for the week. Responsibilities include the initial cardiology consultation and daily rounds on patients in the hospital. ",
+        "prereq": []
+    },
+    {
+        "code": "FMCH 7527",
+        "subject": "FMCH",
+        "id": "7527",
+        "title": "LGBT Health",
+        "info": "In this course, students will gain an understanding of health risks experienced by LGBT individuals and will practice assessing sexual orientation, gender identity, sexual health, and discussing specific health concerns and treatment options in order to become comfortable working with this population. Students will also hear from LGBT individuals themselves about their healthcare experiences and how they wish to be treated. In addition, physicians who are LGB or transgender will talk about managing their professional and personal identities, as well as being out in the community and identifying as an LGBT-friendly healthcare provider.",
+        "prereq": []
+    },
+    {
+        "code": "FMCH 7530",
+        "subject": "FMCH",
+        "id": "7530",
+        "title": "Preceptorship Cmnty Family Med",
+        "info": "This course is intended for students interested in pursuing family medicine as a career, or for students wishing to acquire a broadly-based medical background before training in another specialty. The student will usually participate in inpatient and outpatient care in the family medicine clinic and in the hospital.",
+        "prereq": []
+    },
+    {
+        "code": "FMCH 7531",
+        "subject": "FMCH",
+        "id": "7531",
+        "title": "Intro to Healthcare",
+        "info": "Introduces students to the health care needs and challenges faced by special population groups served by Family Medicine. These include immigrant and refugee populations, minority populations, and various other underserved groups. During this rotation based in a clinic serving one or more of these population groups, the student will become familiar with the unique health needs of a population and the resources and methods used to address those needs. Issues such as communication, education, and traditional healing beliefs and systems will be addressed. Typically, 2.5 days per week will be spent in direct patient care, 1 day is reserved for students to perform independent learning around the population to be studied while the remaining 1.5 days may be spent in a variety of non-direct patient care or community-based activities, depending on the clinic site.",
+        "prereq": []
+    },
+    {
+        "code": "FMCH 7533",
+        "subject": "FMCH",
+        "id": "7533",
+        "title": "Adv Clkshp Trad Indian Med",
+        "info": "Training/experience in clinical/traditional health care settings in an American Indian community. Rotation is arranged, at site, with a community health representative and a traditional healer.",
+        "prereq": []
+    },
+    {
+        "code": "FMCH 7534",
+        "subject": "FMCH",
+        "id": "7534",
+        "title": "Pal Med & Hospice -Virtual",
+        "info": "The course is intended to introduce students to the field of palliative care and hospice medicine. The rotation will be based out of University Medical Center. Primarily students will spend the rotation working on the University Medical Center inpatient palliative care consult team, seeing inpatient consults with physicians and other practitioners on the multidisciplinary team, including nurse practitioners, social workers, and spiritual health providers. Students also will spend one day with a hospice provider doing hospice visits in the community (at nursing homes and patient's homes). Depending on availability, students may also rotate in the outpatient clinic and the Fairview Southdale inpatient consult service.",
+        "prereq": []
+    },
+    {
+        "code": "FMCH 7535",
+        "subject": "FMCH",
+        "id": "7535",
+        "title": "Community Health in FP",
+        "info": "Individually designed outpatient rotation. Combines clinical work in urban setting with a series of experiences in the community.\n\nprereq: At least two six-week rotations in medicine or pediatrics or obstetrics or surgery",
+        "prereq": []
+    },
+    {
+        "code": "FMCH 7537",
+        "subject": "FMCH",
+        "id": "7537",
+        "title": "Sports Medicine",
+        "info": "Students will gain experience in the field of sports medicine including exposure to the disciplines of primary care sports medicine, orthopedic sports medicine, sports physical therapy, and athletic training.",
+        "prereq": []
+    },
+    {
+        "code": "FMCH 7538",
+        "subject": "FMCH",
+        "id": "7538",
+        "title": "Sports Medicine in Duluth",
+        "info": "This course is an opportunity for students interested in primary care or a musculo-skeletal specialty to develop an appreciation for the role of sports medicine in his/her practice. The student will work closely with full-time sports medicine physicians and allied health providers, including physical therapists and athletic trainers.",
+        "prereq": []
+    },
+    {
+        "code": "FMCH 7539",
+        "subject": "FMCH",
+        "id": "7539",
+        "title": "Sports Medicine (Virtual)",
+        "info": "This is a 2 week, independent study in topics relating to Sports Medicine. This online elective will\ninclude directed musculoskeletal exam review using EBM, case study review, and power point\npresentations on a variety of topics.\nThis elective should be considered a supplement to, and not a replacement of FMCH 7537.",
+        "prereq": []
+    },
+    {
+        "code": "FMCH 7540",
+        "subject": "FMCH",
+        "id": "7540",
+        "title": "Sports Medicine: USA Soccer",
+        "info": "Course held immediately prior to the start of the USA Soccer Cup Tournaments every July. This course consists of didactic lectures and hands on workshops focusing on sports medicine topics with an emphasis on soccer.",
+        "prereq": []
+    },
+    {
+        "code": "FMCH 7544",
+        "subject": "FMCH",
+        "id": "7544",
+        "title": "Outpatient-HIV Mgmt Family Med",
+        "info": "The overall goal of this course is to familiarize the student with the many illnesses and complications of HIV disease, current Hepatitis C treatment, and some travel medicine. This includes the medical, psychological, social and economic problems which the HIV patient faces. The student will become familiar with the many antiviral medications used in HIV disease.",
+        "prereq": []
+    },
+    {
+        "code": "FMCH 7551",
+        "subject": "FMCH",
+        "id": "7551",
+        "title": "RCAM",
+        "info": "Twelve-week course. Four weeks in a Twin Cities Family Residency clinic, eight weeks in a selected Rural Community. Exposure to patients from diverse backgrounds in an outpatient setting to rural medicine, delivery systems, and community health. Small-group seminars, one-day Hospice experience, project, final exam.",
+        "prereq": []
+    },
+    {
+        "code": "FMCH 7560",
+        "subject": "FMCH",
+        "id": "7560",
+        "title": "Addic & Subst Abuse Disorder",
+        "info": "Intensive exposure to current approaches to therapy and rehabilitation of chemically dependent patients. For most of these patients, alcohol is the most abused drug. The course includes participant observation in group therapy sessions and lectures.",
+        "prereq": []
+    },
+    {
+        "code": "FMCH 7577",
+        "subject": "FMCH",
+        "id": "7577",
+        "title": "Intro Comp/Alt Therapies",
+        "info": "Complementary therapies and their integration with allopathic treatments. Observation of complementary care providers in community. Examines culturally-based approaches to health care. Weekly seminars, special project, use of Internet.\n\nprereq: Internet access, basic e-mail skills; Nurs 5609 recommended",
+        "prereq": {
+            "code": "NURS 5609",
+            "subject": "NURS",
+            "id": "5609"
+        }
+    },
+    {
+        "code": "FMCH 7580",
+        "subject": "FMCH",
+        "id": "7580",
+        "title": "Community Emergency Medicine",
+        "info": "The student participates in the clinical care of patients with common emergencies. Supervision and teaching is provided by attending staff physicians and/or family practice residents. The student performs initial evaluations and formulates diagnosis and treatment plans.",
+        "prereq": []
+    },
+    {
+        "code": "FMCH 7585",
+        "subject": "FMCH",
+        "id": "7585",
+        "title": "Sexual Health Concerns in Clin",
+        "info": "This course requires a minimum commitment of 40 hours per week (some evening time possible) over a 2-4 week period. Students will have the opportunity for observation and practice of sex-related education and counseling through participation in intake and assessment sequences, individual and conjoint sessions, and group sex therapy. Each student will be supervised by a member of the Program in Human Sexuality staff. The student is expected to participate in several hours of staff conferences and seminars each week. Readings will be assigned.",
+        "prereq": []
+    },
+    {
+        "code": "FMCH 7595",
+        "subject": "FMCH",
+        "id": "7595",
+        "title": "Family Medicine Research",
+        "info": "Academic research in collaboration with member of academic or clinical faculty. Identification of parameters/methodological components of family medicine research. Develops knowledge/skills essential for academic careers in family medicine.",
+        "prereq": []
+    },
+    {
+        "code": "FMCH 7598",
+        "subject": "FMCH",
+        "id": "7598",
+        "title": "Remote Independent Study in FM",
+        "info": "This two-week elective is designed to allow students to independently select and review various Family Medicine topics in the form of cases, journals, modules, and presentations. Students will document their time, resources, and take home points throughout the course. Each week students will engage with the course director and their colleagues through the posted discussion points and through a weekly online group discussion. ",
+        "prereq": []
+    },
+    {
+        "code": "FMCH 7599",
+        "subject": "FMCH",
+        "id": "7599",
+        "title": "Family Med Independent Study",
+        "info": "This course is intended for a student intererested in pursuing a Family Medicine project that does not fit well in one of the other Family Medicine elective descriptions. For any directed study project, there will be a written agreement between the student and Course Director.",
+        "prereq": []
+    },
+    {
+        "code": "FMCH 7600",
+        "subject": "FMCH",
+        "id": "7600",
+        "title": "Family Medicine Clerkship",
+        "info": "Ambulatory four-week clerkship.",
+        "prereq": []
+    },
+    {
+        "code": "FMCH 7601",
+        "subject": "FMCH",
+        "id": "7601",
+        "title": "Family Medicine Clerkship A",
+        "info": "Course created specifically to accommodate clinical setting restrictions due to COVID-19 from spring 2020 to spring 2021. Part A of this course covers the virtual coursework while Part B covers the clinical component. Both parts A and B must be completed for the clerkship requirement to be considered fulfilled. \n\nCatalog Description:  This is a 4 week outpatient clinic-based experience in Family Medicine working with practicing family physicians, colleagues from other disciplines who are working in family medicine clinics and, at some sites, FM residents. The core of the rotation is the 14 days spent in the clinic (except the first Monday, final Friday, and every Wednesday). This is a very hands-on, active patient contact clerkship. Students will spend their four weeks either at a residency clinic or at a community or private practice clinic. We strive to actively involve students in direct patient care with the expectation that a student is directly involved in over 50% of patient encounters in a given day. Students should write up 2-3 notes per half-day. During the 4 weeks, students also attend weekly seminars and didactic skills workshops on Wednesday mornings. In addition there is a comprehensive online curriculum.",
+        "prereq": []
+    },
+    {
+        "code": "FMCH 7602",
+        "subject": "FMCH",
+        "id": "7602",
+        "title": "Family Medicine Clerkship B",
+        "info": "Course created specifically to accommodate clinical setting restrictions due to COVID-19 from spring 2020 to spring 2021. Part A of this course covers the virtual coursework while Part B covers the clinical component. Both parts A and B must be completed for the clerkship requirement to be considered fulfilled. \nCatalog Description:  This is a 4 week outpatient clinic-based experience in Family Medicine working with practicing family physicians, colleagues from other disciplines who are working in family medicine clinics and, at some sites, FM residents. The core of the rotation is the 14 days spent in the clinic (except the first Monday, final Friday, and every Wednesday). This is a very hands-on, active patient contact clerkship. Students will spend their four weeks either at a residency clinic or at a community or private practice clinic. We strive to actively involve students in direct patient care with the expectation that a student is directly involved in over 50% of patient encounters in a given day. Students should write up 2-3 notes per half-day. During the 4 weeks, students also attend weekly seminars and didactic skills workshops on Wednesday mornings. In addition there is a comprehensive online curriculum.",
+        "prereq": []
+    },
+    {
+        "code": "FMCH 7700",
+        "subject": "FMCH",
+        "id": "7700",
+        "title": "UCAM Acting Intern Family Med",
+        "info": "Four-week ambulatory experience in family medicine clinic.",
+        "prereq": []
+    },
+    {
+        "code": "FMCH 7701",
+        "subject": "FMCH",
+        "id": "7701",
+        "title": "RPAP - Family Medicine Clerksh",
+        "info": "Community-based elective. Extensive primary care experience in rural setting.",
+        "prereq": []
+    },
+    {
+        "code": "FMCH 7702",
+        "subject": "FMCH",
+        "id": "7702",
+        "title": "RPAP - Primary Care Selective",
+        "info": "Community-based elective. Extensive primary care experience in rural setting.",
+        "prereq": []
+    },
+    {
+        "code": "FMCH 7910",
+        "subject": "FMCH",
+        "id": "7910",
+        "title": "Family Medicine Med Residency",
+        "info": "Family Medicine medical residency.",
+        "prereq": []
+    },
+    {
+        "code": "FMCH 7930",
+        "subject": "FMCH",
+        "id": "7930",
+        "title": "Family Medicine Med Fellowship",
+        "info": "Family medicine medical fellowship.",
+        "prereq": []
     }
-  },
-  {
-    "code": "FMCH 7513",
-    "subject": "FMCH",
-    "id": "7513",
-    "title": "RPAP - ORSU",
-    "info": "community-based elective with extensive orthopaedic surgery experience in a rural setting.",
-    "prereqInfo": "accepted into rpap",
-    "prereq": []
-  },
-  {
-    "code": "FMCH 7515",
-    "subject": "FMCH",
-    "id": "7515",
-    "title": "RPAP-Emergency Medicine",
-    "info": "tbd",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "FMCH 7516",
-    "subject": "FMCH",
-    "id": "7516",
-    "title": "Research in Human Sexuality",
-    "info": "this elective consists of clinical and/or laboratory research related to human sexuality in areas such as incest, rape, gender dysphoria, compulsive sexual behavior, sex offenses, and sexual dysfunction. it is adaptable to the specific interests of the student and faculty.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "FMCH 7518",
-    "subject": "FMCH",
-    "id": "7518",
-    "title": "Inpatient Family Medicine",
-    "info": "students will participate in the family medicine residency inpatient teaching service. this service consists of a variety of patients including pediatric, obstetric, geriatric, and other adult patients. supervision and teaching are provided by a family medicine faculty who participates daily in didactic teaching, x-ray rounds, and hospital rounds. members of the team include a medical student, first and second year resident, and the chief resident. these individuals share responsibility for patients on the service and perform initial histories and physicals, write daily orders and progress notes, complete discharge summaries, and communicate with consultants and family members. students will also attend daily noon conferences. call is required at some sites.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "FMCH 7519",
-    "subject": "FMCH",
-    "id": "7519",
-    "title": "Clin Prac of Occupational Med",
-    "info": "students perform complete occupational health history, set up basic problem-solving approahces to occupational health problems.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "FMCH 7520",
-    "subject": "FMCH",
-    "id": "7520",
-    "title": "Rural Rotation in Family Med",
-    "info": "this course is intended for students interested in observing and participating in family medicine in the rural setting. students participate in patient care in the patient's home, in long-term facilities, in the doctor's office and in the hospital. students observe close interrelationships between practicing physicians and the community.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "FMCH 7521",
-    "subject": "FMCH",
-    "id": "7521",
-    "title": "Topics in Immigrant Health",
-    "info": "course is designed to offer an intensive multidimensional exploration of immigrant health using clinical, multimedia, academic and on-line learning. the course will include an individualized in-depth project and an individualized learning plan will be developed between each student and the course director after assessing the student's experience, background and interest.\n\nthis course will combine clinical experiences at a variety of sites which serve immigrant patients with text-based and web-based reading, on-line research, group and individual community visits and on-line and class discussions to provide students with an opportunity to study in-depth the issues that communities and methods by which those barriers are being overcome.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "FMCH 7522",
-    "subject": "FMCH",
-    "id": "7522",
-    "title": "Exploration Immigrant Health",
-    "info": "this is a 2-week family medicine elective based on the 4 week \\\"topics in immigrant health\\\" elective and incorporates much of the independent study portion of that elective.  this online elective will include significant reading (electronically available textbook, the spirit catches you and you fall down, and a book about the immigrant experience), writing, research and videos that address topics relevant to providing primary care to immigrant patients.  \n\nthe course objectives are:\n(1) students will end the elective with a much deeper understanding of the immigrant experience and how that experience impacts their healthcare needs \n(2) students will learn research tools which will allow them to better learn about unfamiliar immigrant groups that they encounter in their future practice.  \n\nstudents will be expected to spend 4 hours/day on weekdays working on class assignments.  because it is based on the topics in immigrant health elective (fmch 7521), it is not appropriate for students who have taken or plan to take that full course.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "FMCH 7523",
-    "subject": "FMCH",
-    "id": "7523",
-    "title": "Fam Med Clerkship in Duluth",
-    "info": "principles of family medicine. students engage in preceptorship with community family physicians in clinic, hospital, patient's home, and other facilities. weekly patient care discussions/presentations, observation. procedures such as suturing, casting.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "FMCH 7524",
-    "subject": "FMCH",
-    "id": "7524",
-    "title": "Palliative Medicine & Hospice",
-    "info": "introduces students to the field of palliative care and hospice medicine. students will participate in patient care with hospice staff and palliative care physicians and other practitioners in the hospital, nursing home, clinic, and patient's homes. students will directly work with interdisciplinary teams in their daily work, and spend time with practitioners in social work, nursing, spiritual health, music therapy, and physicians.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "FMCH 7525",
-    "subject": "FMCH",
-    "id": "7525",
-    "title": "Cardiovascular Medicine",
-    "info": "students will participate in daily cardiology inpatient rounds. they will work 1:1 with the rounding cardiologist for the week. responsibilities include the initial cardiology consultation and daily rounds on patients in the hospital.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "FMCH 7527",
-    "subject": "FMCH",
-    "id": "7527",
-    "title": "LGBT Health",
-    "info": "in this course, students will gain an understanding of health risks experienced by lgbt individuals and will practice assessing sexual orientation, gender identity, sexual health, and discussing specific health concerns and treatment options in order to become comfortable working with this population. students will also hear from lgbt individuals themselves about their healthcare experiences and how they wish to be treated. in addition, physicians who are lgb or transgender will talk about managing their professional and personal identities, as well as being out in the community and identifying as an lgbt-friendly healthcare provider.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "FMCH 7530",
-    "subject": "FMCH",
-    "id": "7530",
-    "title": "Preceptorship Cmnty Family Med",
-    "info": "this course is intended for students interested in pursuing family medicine as a career, or for students wishing to acquire a broadly-based medical background before training in another specialty. the student will usually participate in inpatient and outpatient care in the family medicine clinic and in the hospital.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "FMCH 7531",
-    "subject": "FMCH",
-    "id": "7531",
-    "title": "Intro to Healthcare",
-    "info": "introduces students to the health care needs and challenges faced by special population groups served by family medicine. these include immigrant and refugee populations, minority populations, and various other underserved groups. during this rotation based in a clinic serving one or more of these population groups, the student will become familiar with the unique health needs of a population and the resources and methods used to address those needs. issues such as communication, education, and traditional healing beliefs and systems will be addressed. typically, 2.5 days per week will be spent in direct patient care, 1 day is reserved for students to perform independent learning around the population to be studied while the remaining 1.5 days may be spent in a variety of non-direct patient care or community-based activities, depending on the clinic site.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "FMCH 7533",
-    "subject": "FMCH",
-    "id": "7533",
-    "title": "Adv Clkshp Trad Indian Med",
-    "info": "training/experience in clinical/traditional health care settings in an american indian community. rotation is arranged, at site, with a community health representative and a traditional healer.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "FMCH 7534",
-    "subject": "FMCH",
-    "id": "7534",
-    "title": "Pal Med & Hospice -Virtual",
-    "info": "the course is intended to introduce students to the field of palliative care and hospice medicine. the rotation will be based out of university medical center. primarily students will spend the rotation working on the university medical center inpatient palliative care consult team, seeing inpatient consults with physicians and other practitioners on the multidisciplinary team, including nurse practitioners, social workers, and spiritual health providers. students also will spend one day with a hospice provider doing hospice visits in the community (at nursing homes and patient's homes). depending on availability, students may also rotate in the outpatient clinic and the fairview southdale inpatient consult service.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "FMCH 7535",
-    "subject": "FMCH",
-    "id": "7535",
-    "title": "Community Health in FP",
-    "info": "individually designed outpatient rotation. combines clinical work in urban setting with a series of experiences in the community.",
-    "prereqInfo": "at least two six-week rotations in medicine or pediatrics or obstetrics or surgery",
-    "prereq": []
-  },
-  {
-    "code": "FMCH 7537",
-    "subject": "FMCH",
-    "id": "7537",
-    "title": "Sports Medicine",
-    "info": "students will gain experience in the field of sports medicine including exposure to the disciplines of primary care sports medicine, orthopedic sports medicine, sports physical therapy, and athletic training.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "FMCH 7538",
-    "subject": "FMCH",
-    "id": "7538",
-    "title": "Sports Medicine in Duluth",
-    "info": "this course is an opportunity for students interested in primary care or a musculo-skeletal specialty to develop an appreciation for the role of sports medicine in his/her practice. the student will work closely with full-time sports medicine physicians and allied health providers, including physical therapists and athletic trainers.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "FMCH 7539",
-    "subject": "FMCH",
-    "id": "7539",
-    "title": "Sports Medicine (Virtual)",
-    "info": "this is a 2 week, independent study in topics relating to sports medicine. this online elective will\ninclude directed musculoskeletal exam review using ebm, case study review, and power point\npresentations on a variety of topics.\nthis elective should be considered a supplement to, and not a replacement of fmch 7537.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "FMCH 7540",
-    "subject": "FMCH",
-    "id": "7540",
-    "title": "Sports Medicine: USA Soccer",
-    "info": "course held immediately prior to the start of the usa soccer cup tournaments every july. this course consists of didactic lectures and hands on workshops focusing on sports medicine topics with an emphasis on soccer.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "FMCH 7544",
-    "subject": "FMCH",
-    "id": "7544",
-    "title": "Outpatient-HIV Mgmt Family Med",
-    "info": "the overall goal of this course is to familiarize the student with the many illnesses and complications of hiv disease, current hepatitis c treatment, and some travel medicine. this includes the medical, psychological, social and economic problems which the hiv patient faces. the student will become familiar with the many antiviral medications used in hiv disease.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "FMCH 7551",
-    "subject": "FMCH",
-    "id": "7551",
-    "title": "RCAM",
-    "info": "twelve-week course. four weeks in a twin cities family residency clinic, eight weeks in a selected rural community. exposure to patients from diverse backgrounds in an outpatient setting to rural medicine, delivery systems, and community health. small-group seminars, one-day hospice experience, project, final exam.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "FMCH 7560",
-    "subject": "FMCH",
-    "id": "7560",
-    "title": "Addic & Subst Abuse Disorder",
-    "info": "intensive exposure to current approaches to therapy and rehabilitation of chemically dependent patients. for most of these patients, alcohol is the most abused drug. the course includes participant observation in group therapy sessions and lectures.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "FMCH 7577",
-    "subject": "FMCH",
-    "id": "7577",
-    "title": "Intro Comp/Alt Therapies",
-    "info": "complementary therapies and their integration with allopathic treatments. observation of complementary care providers in community. examines culturally-based approaches to health care. weekly seminars, special project, use of internet.",
-    "prereqInfo": "internet access, basic e-mail skills; nurs 5609 recommended",
-    "prereq": {
-      "code": "NURS 5609",
-      "subject": "NURS",
-      "id": "5609"
-    }
-  },
-  {
-    "code": "FMCH 7580",
-    "subject": "FMCH",
-    "id": "7580",
-    "title": "Community Emergency Medicine",
-    "info": "the student participates in the clinical care of patients with common emergencies. supervision and teaching is provided by attending staff physicians and/or family practice residents. the student performs initial evaluations and formulates diagnosis and treatment plans.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "FMCH 7585",
-    "subject": "FMCH",
-    "id": "7585",
-    "title": "Sexual Health Concerns in Clin",
-    "info": "this course requires a minimum commitment of 40 hours per week (some evening time possible) over a 2-4 week period. students will have the opportunity for observation and practice of sex-related education and counseling through participation in intake and assessment sequences, individual and conjoint sessions, and group sex therapy. each student will be supervised by a member of the program in human sexuality staff. the student is expected to participate in several hours of staff conferences and seminars each week. readings will be assigned.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "FMCH 7595",
-    "subject": "FMCH",
-    "id": "7595",
-    "title": "Family Medicine Research",
-    "info": "academic research in collaboration with member of academic or clinical faculty. identification of parameters/methodological components of family medicine research. develops knowledge/skills essential for academic careers in family medicine.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "FMCH 7598",
-    "subject": "FMCH",
-    "id": "7598",
-    "title": "Remote Independent Study in FM",
-    "info": "this two-week elective is designed to allow students to independently select and review various family medicine topics in the form of cases, journals, modules, and presentations. students will document their time, resources, and take home points throughout the course. each week students will engage with the course director and their colleagues through the posted discussion points and through a weekly online group discussion.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "FMCH 7599",
-    "subject": "FMCH",
-    "id": "7599",
-    "title": "Family Med Independent Study",
-    "info": "this course is intended for a student intererested in pursuing a family medicine project that does not fit well in one of the other family medicine elective descriptions. for any directed study project, there will be a written agreement between the student and course director.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "FMCH 7600",
-    "subject": "FMCH",
-    "id": "7600",
-    "title": "Family Medicine Clerkship",
-    "info": "ambulatory four-week clerkship.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "FMCH 7601",
-    "subject": "FMCH",
-    "id": "7601",
-    "title": "Family Medicine Clerkship A",
-    "info": "course created specifically to accommodate clinical setting restrictions due to covid-19 from spring 2020 to spring 2021. part a of this course covers the virtual coursework while part b covers the clinical component. both parts a and b must be completed for the clerkship requirement to be considered fulfilled. \n\ncatalog description:  this is a 4 week outpatient clinic-based experience in family medicine working with practicing family physicians, colleagues from other disciplines who are working in family medicine clinics and, at some sites, fm residents. the core of the rotation is the 14 days spent in the clinic (except the first monday, final friday, and every wednesday). this is a very hands-on, active patient contact clerkship. students will spend their four weeks either at a residency clinic or at a community or private practice clinic. we strive to actively involve students in direct patient care with the expectation that a student is directly involved in over 50% of patient encounters in a given day. students should write up 2-3 notes per half-day. during the 4 weeks, students also attend weekly seminars and didactic skills workshops on wednesday mornings. in addition there is a comprehensive online curriculum.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "FMCH 7602",
-    "subject": "FMCH",
-    "id": "7602",
-    "title": "Family Medicine Clerkship B",
-    "info": "course created specifically to accommodate clinical setting restrictions due to covid-19 from spring 2020 to spring 2021. part a of this course covers the virtual coursework while part b covers the clinical component. both parts a and b must be completed for the clerkship requirement to be considered fulfilled. \ncatalog description:  this is a 4 week outpatient clinic-based experience in family medicine working with practicing family physicians, colleagues from other disciplines who are working in family medicine clinics and, at some sites, fm residents. the core of the rotation is the 14 days spent in the clinic (except the first monday, final friday, and every wednesday). this is a very hands-on, active patient contact clerkship. students will spend their four weeks either at a residency clinic or at a community or private practice clinic. we strive to actively involve students in direct patient care with the expectation that a student is directly involved in over 50% of patient encounters in a given day. students should write up 2-3 notes per half-day. during the 4 weeks, students also attend weekly seminars and didactic skills workshops on wednesday mornings. in addition there is a comprehensive online curriculum.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "FMCH 7700",
-    "subject": "FMCH",
-    "id": "7700",
-    "title": "UCAM Acting Intern Family Med",
-    "info": "four-week ambulatory experience in family medicine clinic.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "FMCH 7701",
-    "subject": "FMCH",
-    "id": "7701",
-    "title": "RPAP - Family Medicine Clerksh",
-    "info": "community-based elective. extensive primary care experience in rural setting.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "FMCH 7702",
-    "subject": "FMCH",
-    "id": "7702",
-    "title": "RPAP - Primary Care Selective",
-    "info": "community-based elective. extensive primary care experience in rural setting.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "FMCH 7910",
-    "subject": "FMCH",
-    "id": "7910",
-    "title": "Family Medicine Med Residency",
-    "info": "family medicine medical residency.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "FMCH 7930",
-    "subject": "FMCH",
-    "id": "7930",
-    "title": "Family Medicine Med Fellowship",
-    "info": "family medicine medical fellowship.",
-    "prereqInfo": null,
-    "prereq": []
-  }
 ]

@@ -1,554 +1,494 @@
 [
-  {
-    "code": "VENZ 1001",
-    "subject": "VENZ",
-    "id": "1001",
-    "title": "Beginning Spanish",
-    "info": "essential spanish for real-life, everyday situations. stresses communicative competency. simultaneous work on reading, speaking, listening, and writing.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "VENZ 1002",
-    "subject": "VENZ",
-    "id": "1002",
-    "title": "Beginning Spanish",
-    "info": "reading, speaking, listening, writing.",
-    "prereqInfo": "span 1001",
-    "prereq": {
-      "code": "SPAN 1001",
-      "subject": "SPAN",
-      "id": "1001"
+    {
+        "code": "VENZ 1001",
+        "subject": "VENZ",
+        "id": "1001",
+        "title": "Beginning Spanish",
+        "info": "Essential Spanish for real-life, everyday situations. Stresses communicative competency. Simultaneous work on reading, speaking, listening, and writing.",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 1002",
+        "subject": "VENZ",
+        "id": "1002",
+        "title": "Beginning Spanish",
+        "info": "Reading, speaking, listening, writing.\n\nprereq: Span 1001",
+        "prereq": {
+            "code": "SPAN 1001",
+            "subject": "SPAN",
+            "id": "1001"
+        }
+    },
+    {
+        "code": "VENZ 1003",
+        "subject": "VENZ",
+        "id": "1003",
+        "title": "Intermediate Spanish",
+        "info": "Spanish grammar, conversation.\n\nprereq: Span 1002",
+        "prereq": {
+            "code": "SPAN 1002",
+            "subject": "SPAN",
+            "id": "1002"
+        }
+    },
+    {
+        "code": "VENZ 1004",
+        "subject": "VENZ",
+        "id": "1004",
+        "title": "Intermediate Spanish",
+        "info": "Spanish grammar, conversation.\n\nprereq: Span 1003",
+        "prereq": {
+            "code": "SPAN 1003",
+            "subject": "SPAN",
+            "id": "1003"
+        }
+    },
+    {
+        "code": "VENZ 3015",
+        "subject": "VENZ",
+        "id": "3015",
+        "title": "Spanish Comp & Communication",
+        "info": "Development of communication skills. Comprehending written/spoken texts. Speaking, reading, and writing in Spanish, beyond intermediate level.",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3016",
+        "subject": "VENZ",
+        "id": "3016",
+        "title": "Span: Adv Conver and Comp",
+        "info": "Reading, listening, writing.",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3021",
+        "subject": "VENZ",
+        "id": "3021",
+        "title": "Span: Adv Communication Skills",
+        "info": "Challenging points of grammar. Written communication of various styles and in various fields.",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3022",
+        "subject": "VENZ",
+        "id": "3022",
+        "title": "Advanced Business Spanish",
+        "info": "Challenging points of grammar. Written communication of various styles and in various fields of business.",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3030",
+        "subject": "VENZ",
+        "id": "3030",
+        "title": "Cross-Cultural Comm: Eng",
+        "info": "Helps students understand cultural differences and develop sensitivity/curiosity about issues related to cultural diversity and cross-cultural understanding. Taught in English.",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3031",
+        "subject": "VENZ",
+        "id": "3031",
+        "title": "Geography of Venezuela: Eng",
+        "info": "Geographical placement of Venezuela in its international context. Outstanding physical features. Relationship between territory of Venezuela and its significant socioeconomic features.",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3032",
+        "subject": "VENZ",
+        "id": "3032",
+        "title": "Latin American Folklore: Eng",
+        "info": "Folklore of countries of Spanish America. Relation between original elements and later influences. Development of folklore as historical process. Music/oral tradition. Taught in English.",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3033",
+        "subject": "VENZ",
+        "id": "3033",
+        "title": "International Business: Eng",
+        "info": "Problems faced by firms engaging in international activities. Patterns in contemporary international business. History, culture, commerce, exchange, markets, corporate strategies. Taught in English.",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3034",
+        "subject": "VENZ",
+        "id": "3034",
+        "title": "International Economics: Eng",
+        "info": "Theory of international trade, commercial policy, balance of payments, international monetary issues. Comparative advantage, exchange rates, protectionism, open-economy, fiscal/monetary policies, common markets, free-trade areas.",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3035",
+        "subject": "VENZ",
+        "id": "3035",
+        "title": "International Finance: English",
+        "info": "International financial environment. Tools/techniques for international monetary issues. Functioning of foreign exchange, capital and money markets. Portfolio diversification, multinational capital budgeting, import-export financing, direct investment, banking.",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3036",
+        "subject": "VENZ",
+        "id": "3036",
+        "title": "Tropical Ecology: English",
+        "info": "Function of tropical ecosystems. Different biological/environmental dynamics of area between Tropic of Capricorn and Tropic of Cancer. American/Venezuelan tropical ecosystems. Field assignments.",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3037",
+        "subject": "VENZ",
+        "id": "3037",
+        "title": "Field Botany in Andes: English",
+        "info": "Flora of Venezuelan Andes, its diversity, ecology, and geographical distribution. Morphology, identification of plant characteristics, ethno-botany, natural history of Andean vegetation. Fieldwork assignments.",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3038",
+        "subject": "VENZ",
+        "id": "3038",
+        "title": "Nutrition in Lat Amer: ENG",
+        "info": "Study abroad course",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3039",
+        "subject": "VENZ",
+        "id": "3039",
+        "title": "Nutrition in Lat Amer: SPAN",
+        "info": "Study abroad course",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3040",
+        "subject": "VENZ",
+        "id": "3040",
+        "title": "Cross-Cultural Comm: Span",
+        "info": "Cultural differences when dealing with people from different cultures. Issues related to cultural diversity and cross-cultural understanding.\n\nprereq: Two yrs college-level Spanish",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3041",
+        "subject": "VENZ",
+        "id": "3041",
+        "title": "International Economics: Span",
+        "info": "Theories of international trade, commercial policy, balance of payments, and international monetary issues. Comparative advantage, exchange rates, protectionism, open-economy, fiscal/monetary policies, common markets, free-trade areas.",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3104W",
+        "subject": "VENZ",
+        "id": "3104W",
+        "title": "Span: Art of Reading Lit Texts",
+        "info": "Major current theoretical approaches to literary texts. Contemporary categories of analysis/methodology. Literary sociology, psychological critique, semiology, comparative literature.",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3106",
+        "subject": "VENZ",
+        "id": "3106",
+        "title": "Latin American Art",
+        "info": "Panoramic view of Latin American art from pre-historic times to the present day. Emphasizes Venezuelan art production in its historical, political, and social context and relating it to other Latin American countries.",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3107W",
+        "subject": "VENZ",
+        "id": "3107W",
+        "title": "Intro: Hispanic Linguistics",
+        "info": "Concepts and operative terms of linguistics, nature/organization of language. Emphasizes phonological/grammatical analysis. Origin/nature of linguistic transformation.\n\nprereq: Two yrs college-level Spanish",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3108",
+        "subject": "VENZ",
+        "id": "3108",
+        "title": "Span: Cervantes' Don Quixote",
+        "info": "Analysis of Don Quixote as crossroad of literary eras/genres, visions of the world, and attitudes towards life, and as synthesis of styles and an encounter of two centuries.\n\nprereq: Adv-lev written/spoken Span",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3200",
+        "subject": "VENZ",
+        "id": "3200",
+        "title": "Field Botany in Andes: Spanish",
+        "info": "Introduction to flora of Venezuelan Andes, its diversity, ecology, and geographical distribution. Morphology, identification of plant characteristics, ethno-botany. Natural history of Andean vegetation. Fieldwork assignments.",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3251",
+        "subject": "VENZ",
+        "id": "3251",
+        "title": "Span: Span-American Literature",
+        "info": "Several writers whose work has become essential for contemporary Spanish American literature. Critical reading of various works. Background knowledge of authors, and of their work and historical context.\n\nprereq: Two yrs col-lev Span",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3260",
+        "subject": "VENZ",
+        "id": "3260",
+        "title": "Natural Resource Econ: ENG",
+        "info": "Study abroad course",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3261",
+        "subject": "VENZ",
+        "id": "3261",
+        "title": "Natural Resource Econ: SPAN",
+        "info": "Basic economic concepts most relevant to natural resources, factors affecting them. Property rights, conservation, regulations, government policy, and evaluation of resources.",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3262",
+        "subject": "VENZ",
+        "id": "3262",
+        "title": "NRES:Natural Resource Devlpmnt",
+        "info": "Organization/development of agriculture/mining in Latin America, from colonial era to present. Socio-political/economic ramifications of natural resources, their exploitation covering several countries.",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3263",
+        "subject": "VENZ",
+        "id": "3263",
+        "title": "Sustainable Tropical Ag: SPAN",
+        "info": "Economics of tropical agriculture development. Potential for developing world trade and for improving standards of living in areas dependent on production of tropical agricultural products.",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3264",
+        "subject": "VENZ",
+        "id": "3264",
+        "title": "Sustainable Tropical Ag: ENG",
+        "info": "Study abroad course",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3401",
+        "subject": "VENZ",
+        "id": "3401",
+        "title": "Hist: History of Venezuela",
+        "info": "Survey of Venezuela's historical processes, fundamental historical problems.  Conquest, colonization, independence, 19th/20th centuries.\n\nprereq: Two yrs col-lev Span",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3402",
+        "subject": "VENZ",
+        "id": "3402",
+        "title": "TESL:Curriculum & Material Dev",
+        "info": "Applications of theories, principles, and current research related to second language acquisition, instructional techniques, and materials relevant to development of TESOL curriculum. Emphasizes teaching students whose English proficiency is limited.",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3403",
+        "subject": "VENZ",
+        "id": "3403",
+        "title": "TESL: Applied Linguistics",
+        "info": "Applications of theories, principles, and current research related to second language acquisition. Instructional techniques/materials relevant to development of TESOL curriculum. Emphasizes teaching students whose English proficiency is limited.",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3404",
+        "subject": "VENZ",
+        "id": "3404",
+        "title": "TESL: Testing & Evaluation",
+        "info": "Discussion, review, and critique of instruments of evaluation for English language acquisition. Selection/development of assessment instruments valid for (a) placing students at appropriate levels, (b) evaluating progress toward goals, and (c) grading promoting students.\n\n",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3405",
+        "subject": "VENZ",
+        "id": "3405",
+        "title": "TESL:Meth Teach Eng Proficient",
+        "info": "Identifying/applying major TESL methodologies to needs of students with various cultural/language backgrounds, ages, and learning styles. Emphasizes differentiating teaching English to native speakers and to speakers of other languages.",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3407",
+        "subject": "VENZ",
+        "id": "3407",
+        "title": "Tropical Ecology: Spanish",
+        "info": "Function of tropical ecosystems as related to natural vegetation. Different biological/environmental dynamics of area between Tropic of Capricorn and Tropic of Cancer. Emphasizes American/Venezuelan tropical ecosystems.",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3409",
+        "subject": "VENZ",
+        "id": "3409",
+        "title": "Cultural Anthropology: Eng",
+        "info": "Study abroad course.",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3410",
+        "subject": "VENZ",
+        "id": "3410",
+        "title": "Cultural Anthropology",
+        "info": "Diversity/universality of culture from anthropological point of view. Concepts of culture. Representative cases that demonstrate human adaptation in its diverse variations. Diversity of values/lifestyles. Aspects of pre-Hispanic and contemporary Venezuelan Andean culture.",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3480",
+        "subject": "VENZ",
+        "id": "3480",
+        "title": "Span: Caribbean Literature",
+        "info": "Aspects of Caribbean culture related to development of literature of the region. Caribbean literature within context of Latin American literature.  Analytical strategies for studying texts.\n\nprereq: Two yrs col-lev Span",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3500",
+        "subject": "VENZ",
+        "id": "3500",
+        "title": "History of Spanish Language",
+        "info": "Evolution of the Spanish language starting from vulagate Latin and viewing its major synchronic states. Languages that influenced the formation of Spanish. Popular vocabulary items, educated/semi-educated language features.",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3509",
+        "subject": "VENZ",
+        "id": "3509",
+        "title": "Latin American Politics: Eng",
+        "info": "Study abroad course.",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3510",
+        "subject": "VENZ",
+        "id": "3510",
+        "title": "Pol:Politics & Society: Lat Am",
+        "info": "Panoramic study of Latin American culture. Elements of global politics. Latin America from cultural point of view. Development of Latin American civilization beginning with conquest/colonization. Formation of Latin American political systems.\n\nprereq: Two yrs col-lev Span",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3511",
+        "subject": "VENZ",
+        "id": "3511",
+        "title": "Span:Lat Am Film Critcsm, Appr",
+        "info": "Latin American culture through eyes of outstanding Latin American filmmakers. Aesthetics/language of cinema. Emphasizes four most important Latin American film industries: Mexico, Cuba, Argentina and Venezuela. Overview of other productions.\n\nprereq: Two yrs col-lev Span",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3512W",
+        "subject": "VENZ",
+        "id": "3512W",
+        "title": "Span:Span-Am Civ: Mod Lat Am",
+        "info": "Summary of history of countries of Latin America. Pre-Hispanic indigenous cultures, principal features of colonial society. Analysis of socio-cultural situation of Latin American countries in 20th century. Emphasizes artistic developments.\n\nprereq: Two yrs college-level Spanish",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3513",
+        "subject": "VENZ",
+        "id": "3513",
+        "title": "Span:Lat Am Cultural Discourse",
+        "info": "Essential Latin American texts on culture with relation to important works on universal culture. How to distinguish between various historic/cultural currents. Contributions of major Latin American thinkers, diverse sources of principal/cultural systems of Latin America.\n\nprereq: Two yrs col-lev Span",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3520",
+        "subject": "VENZ",
+        "id": "3520",
+        "title": "Geography of Venezuela: Span",
+        "info": "Venezuelan geography in its international context. Outstanding physical features. Socioeconomic patterns.\n\nprereq: Two yrs college-level Spanish",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3521",
+        "subject": "VENZ",
+        "id": "3521",
+        "title": "Span: Education in Venezuela",
+        "info": "Nature/problems of education in Venezuela. Historical precedents, evolution of the system. Philosophical, cultural, and pedagogical assumptions of national education in Venezuela. The system in its current form.\n\nprereq: Two yrs col-lev Span",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3530",
+        "subject": "VENZ",
+        "id": "3530",
+        "title": "Critical Writing",
+        "info": "Critical Writing course offered in Merida, Venezuela.",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3540",
+        "subject": "VENZ",
+        "id": "3540",
+        "title": "Latin American Folklore: Span",
+        "info": "Principal manifestations of folklore of various countries of Spanish America. Emphasizes process of syncretism. Original elements related to later influences. Development of folklore as historical process. Music, oral tradition.\n\nprereq: Two yrs college-level Spanish",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3590",
+        "subject": "VENZ",
+        "id": "3590",
+        "title": "Span:Children's Literature",
+        "info": "Critical analysis of children's literature. Theoretical aspects from different points of view. Set of criteria for evaluating a variety of authors and their work.\n\nprereq: Two yrs col-lev Span",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3600",
+        "subject": "VENZ",
+        "id": "3600",
+        "title": "Spanish Linguistics",
+        "info": "Present state of theory, research, and application of linguistics to Spanish speaking world. Variation and linguistical changes. Analysis of Spanish speech/writing modes.",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3604",
+        "subject": "VENZ",
+        "id": "3604",
+        "title": "International Finance: Spanish",
+        "info": "International financial environment. Tools/techniques for international monetary issues. Functioning of foreign exchange. Capital/money markets, portfolio diversification, multinational capital budgeting, import-export financing, direct investment, banking.",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3650",
+        "subject": "VENZ",
+        "id": "3650",
+        "title": "Mgmt:Cross-Cultural Management",
+        "info": "Strategies for overcoming cultural differences in business environment, from perspective of management. Issues of cultural diversity.",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3661",
+        "subject": "VENZ",
+        "id": "3661",
+        "title": "International Business: Span",
+        "info": "Problems faced by firms engaging in international activities. Major currents/patterns in contemporary international business. History, culture, commerce, exchange, markets, corporate strategies.",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3662",
+        "subject": "VENZ",
+        "id": "3662",
+        "title": "Comparative Constitutional Law",
+        "info": "Course offered in Merida, Venezuela.",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3703",
+        "subject": "VENZ",
+        "id": "3703",
+        "title": "Span: Psycholinguistics",
+        "info": "Psycholinguistics as a science. Contemporary theoretical models explaining development/acquisition of language. Concepts of language pathology.\n\nprereq: Two yrs col-lev Span",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3704",
+        "subject": "VENZ",
+        "id": "3704",
+        "title": "Span: Sociolinguistics",
+        "info": "Introduction to study of linguistic phenomena that are related to social factors. Language-society relationship in the Venezuelan environment. Builds on studies by linguists of Venezuela.\n\nprereq: Two yrs col-lev Span",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3705",
+        "subject": "VENZ",
+        "id": "3705",
+        "title": "Span Phonology & Phonetics",
+        "info": "Theoretical background in phonetics. Practice in oral articulation. Differences between Spanish spoken in Spain and in Hispanic America. Emphasizes Spanish spoken in Venezuela.\n\nprereq: Two yrs col-lev Span",
+        "prereq": []
+    },
+    {
+        "code": "VENZ 3920",
+        "subject": "VENZ",
+        "id": "3920",
+        "title": "Span: Venezuelan Literature",
+        "info": "Venezuelan literature, from 1950 to present. Different styles of literary expression. Principal authors, works, and literary groups.",
+        "prereq": []
     }
-  },
-  {
-    "code": "VENZ 1003",
-    "subject": "VENZ",
-    "id": "1003",
-    "title": "Intermediate Spanish",
-    "info": "spanish grammar, conversation.",
-    "prereqInfo": "span 1002",
-    "prereq": {
-      "code": "SPAN 1002",
-      "subject": "SPAN",
-      "id": "1002"
-    }
-  },
-  {
-    "code": "VENZ 1004",
-    "subject": "VENZ",
-    "id": "1004",
-    "title": "Intermediate Spanish",
-    "info": "spanish grammar, conversation.",
-    "prereqInfo": "span 1003",
-    "prereq": {
-      "code": "SPAN 1003",
-      "subject": "SPAN",
-      "id": "1003"
-    }
-  },
-  {
-    "code": "VENZ 3015",
-    "subject": "VENZ",
-    "id": "3015",
-    "title": "Spanish Comp & Communication",
-    "info": "development of communication skills. comprehending written/spoken texts. speaking, reading, and writing in spanish, beyond intermediate level.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3016",
-    "subject": "VENZ",
-    "id": "3016",
-    "title": "Span: Adv Conver and Comp",
-    "info": "reading, listening, writing.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3021",
-    "subject": "VENZ",
-    "id": "3021",
-    "title": "Span: Adv Communication Skills",
-    "info": "challenging points of grammar. written communication of various styles and in various fields.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3022",
-    "subject": "VENZ",
-    "id": "3022",
-    "title": "Advanced Business Spanish",
-    "info": "challenging points of grammar. written communication of various styles and in various fields of business.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3030",
-    "subject": "VENZ",
-    "id": "3030",
-    "title": "Cross-Cultural Comm: Eng",
-    "info": "helps students understand cultural differences and develop sensitivity/curiosity about issues related to cultural diversity and cross-cultural understanding. taught in english.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3031",
-    "subject": "VENZ",
-    "id": "3031",
-    "title": "Geography of Venezuela: Eng",
-    "info": "geographical placement of venezuela in its international context. outstanding physical features. relationship between territory of venezuela and its significant socioeconomic features.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3032",
-    "subject": "VENZ",
-    "id": "3032",
-    "title": "Latin American Folklore: Eng",
-    "info": "folklore of countries of spanish america. relation between original elements and later influences. development of folklore as historical process. music/oral tradition. taught in english.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3033",
-    "subject": "VENZ",
-    "id": "3033",
-    "title": "International Business: Eng",
-    "info": "problems faced by firms engaging in international activities. patterns in contemporary international business. history, culture, commerce, exchange, markets, corporate strategies. taught in english.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3034",
-    "subject": "VENZ",
-    "id": "3034",
-    "title": "International Economics: Eng",
-    "info": "theory of international trade, commercial policy, balance of payments, international monetary issues. comparative advantage, exchange rates, protectionism, open-economy, fiscal/monetary policies, common markets, free-trade areas.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3035",
-    "subject": "VENZ",
-    "id": "3035",
-    "title": "International Finance: English",
-    "info": "international financial environment. tools/techniques for international monetary issues. functioning of foreign exchange, capital and money markets. portfolio diversification, multinational capital budgeting, import-export financing, direct investment, banking.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3036",
-    "subject": "VENZ",
-    "id": "3036",
-    "title": "Tropical Ecology: English",
-    "info": "function of tropical ecosystems. different biological/environmental dynamics of area between tropic of capricorn and tropic of cancer. american/venezuelan tropical ecosystems. field assignments.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3037",
-    "subject": "VENZ",
-    "id": "3037",
-    "title": "Field Botany in Andes: English",
-    "info": "flora of venezuelan andes, its diversity, ecology, and geographical distribution. morphology, identification of plant characteristics, ethno-botany, natural history of andean vegetation. fieldwork assignments.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3038",
-    "subject": "VENZ",
-    "id": "3038",
-    "title": "Nutrition in Lat Amer: ENG",
-    "info": "study abroad course",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3039",
-    "subject": "VENZ",
-    "id": "3039",
-    "title": "Nutrition in Lat Amer: SPAN",
-    "info": "study abroad course",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3040",
-    "subject": "VENZ",
-    "id": "3040",
-    "title": "Cross-Cultural Comm: Span",
-    "info": "cultural differences when dealing with people from different cultures. issues related to cultural diversity and cross-cultural understanding.",
-    "prereqInfo": "two yrs college-level spanish",
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3041",
-    "subject": "VENZ",
-    "id": "3041",
-    "title": "International Economics: Span",
-    "info": "theories of international trade, commercial policy, balance of payments, and international monetary issues. comparative advantage, exchange rates, protectionism, open-economy, fiscal/monetary policies, common markets, free-trade areas.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3104W",
-    "subject": "VENZ",
-    "id": "3104W",
-    "title": "Span: Art of Reading Lit Texts",
-    "info": "major current theoretical approaches to literary texts. contemporary categories of analysis/methodology. literary sociology, psychological critique, semiology, comparative literature.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3106",
-    "subject": "VENZ",
-    "id": "3106",
-    "title": "Latin American Art",
-    "info": "panoramic view of latin american art from pre-historic times to the present day. emphasizes venezuelan art production in its historical, political, and social context and relating it to other latin american countries.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3107W",
-    "subject": "VENZ",
-    "id": "3107W",
-    "title": "Intro: Hispanic Linguistics",
-    "info": "concepts and operative terms of linguistics, nature/organization of language. emphasizes phonological/grammatical analysis. origin/nature of linguistic transformation.",
-    "prereqInfo": "two yrs college-level spanish",
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3108",
-    "subject": "VENZ",
-    "id": "3108",
-    "title": "Span: Cervantes' Don Quixote",
-    "info": "analysis of don quixote as crossroad of literary eras/genres, visions of the world, and attitudes towards life, and as synthesis of styles and an encounter of two centuries.",
-    "prereqInfo": "adv-lev written/spoken span",
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3200",
-    "subject": "VENZ",
-    "id": "3200",
-    "title": "Field Botany in Andes: Spanish",
-    "info": "introduction to flora of venezuelan andes, its diversity, ecology, and geographical distribution. morphology, identification of plant characteristics, ethno-botany. natural history of andean vegetation. fieldwork assignments.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3251",
-    "subject": "VENZ",
-    "id": "3251",
-    "title": "Span: Span-American Literature",
-    "info": "several writers whose work has become essential for contemporary spanish american literature. critical reading of various works. background knowledge of authors, and of their work and historical context.",
-    "prereqInfo": "two yrs col-lev span",
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3260",
-    "subject": "VENZ",
-    "id": "3260",
-    "title": "Natural Resource Econ: ENG",
-    "info": "study abroad course",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3261",
-    "subject": "VENZ",
-    "id": "3261",
-    "title": "Natural Resource Econ: SPAN",
-    "info": "basic economic concepts most relevant to natural resources, factors affecting them. property rights, conservation, regulations, government policy, and evaluation of resources.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3262",
-    "subject": "VENZ",
-    "id": "3262",
-    "title": "NRES:Natural Resource Devlpmnt",
-    "info": "organization/development of agriculture/mining in latin america, from colonial era to present. socio-political/economic ramifications of natural resources, their exploitation covering several countries.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3263",
-    "subject": "VENZ",
-    "id": "3263",
-    "title": "Sustainable Tropical Ag: SPAN",
-    "info": "economics of tropical agriculture development. potential for developing world trade and for improving standards of living in areas dependent on production of tropical agricultural products.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3264",
-    "subject": "VENZ",
-    "id": "3264",
-    "title": "Sustainable Tropical Ag: ENG",
-    "info": "study abroad course",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3401",
-    "subject": "VENZ",
-    "id": "3401",
-    "title": "Hist: History of Venezuela",
-    "info": "survey of venezuela's historical processes, fundamental historical problems.  conquest, colonization, independence, 19th/20th centuries.",
-    "prereqInfo": "two yrs col-lev span",
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3402",
-    "subject": "VENZ",
-    "id": "3402",
-    "title": "TESL:Curriculum & Material Dev",
-    "info": "applications of theories, principles, and current research related to second language acquisition, instructional techniques, and materials relevant to development of tesol curriculum. emphasizes teaching students whose english proficiency is limited.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3403",
-    "subject": "VENZ",
-    "id": "3403",
-    "title": "TESL: Applied Linguistics",
-    "info": "applications of theories, principles, and current research related to second language acquisition. instructional techniques/materials relevant to development of tesol curriculum. emphasizes teaching students whose english proficiency is limited.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3404",
-    "subject": "VENZ",
-    "id": "3404",
-    "title": "TESL: Testing & Evaluation",
-    "info": "discussion, review, and critique of instruments of evaluation for english language acquisition. selection/development of assessment instruments valid for (a) placing students at appropriate levels, (b) evaluating progress toward goals, and (c) grading promoting students.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3405",
-    "subject": "VENZ",
-    "id": "3405",
-    "title": "TESL:Meth Teach Eng Proficient",
-    "info": "identifying/applying major tesl methodologies to needs of students with various cultural/language backgrounds, ages, and learning styles. emphasizes differentiating teaching english to native speakers and to speakers of other languages.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3407",
-    "subject": "VENZ",
-    "id": "3407",
-    "title": "Tropical Ecology: Spanish",
-    "info": "function of tropical ecosystems as related to natural vegetation. different biological/environmental dynamics of area between tropic of capricorn and tropic of cancer. emphasizes american/venezuelan tropical ecosystems.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3409",
-    "subject": "VENZ",
-    "id": "3409",
-    "title": "Cultural Anthropology: Eng",
-    "info": "study abroad course.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3410",
-    "subject": "VENZ",
-    "id": "3410",
-    "title": "Cultural Anthropology",
-    "info": "diversity/universality of culture from anthropological point of view. concepts of culture. representative cases that demonstrate human adaptation in its diverse variations. diversity of values/lifestyles. aspects of pre-hispanic and contemporary venezuelan andean culture.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3480",
-    "subject": "VENZ",
-    "id": "3480",
-    "title": "Span: Caribbean Literature",
-    "info": "aspects of caribbean culture related to development of literature of the region. caribbean literature within context of latin american literature.  analytical strategies for studying texts.",
-    "prereqInfo": "two yrs col-lev span",
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3500",
-    "subject": "VENZ",
-    "id": "3500",
-    "title": "History of Spanish Language",
-    "info": "evolution of the spanish language starting from vulagate latin and viewing its major synchronic states. languages that influenced the formation of spanish. popular vocabulary items, educated/semi-educated language features.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3509",
-    "subject": "VENZ",
-    "id": "3509",
-    "title": "Latin American Politics: Eng",
-    "info": "study abroad course.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3510",
-    "subject": "VENZ",
-    "id": "3510",
-    "title": "Pol:Politics & Society: Lat Am",
-    "info": "panoramic study of latin american culture. elements of global politics. latin america from cultural point of view. development of latin american civilization beginning with conquest/colonization. formation of latin american political systems.",
-    "prereqInfo": "two yrs col-lev span",
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3511",
-    "subject": "VENZ",
-    "id": "3511",
-    "title": "Span:Lat Am Film Critcsm, Appr",
-    "info": "latin american culture through eyes of outstanding latin american filmmakers. aesthetics/language of cinema. emphasizes four most important latin american film industries: mexico, cuba, argentina and venezuela. overview of other productions.",
-    "prereqInfo": "two yrs col-lev span",
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3512W",
-    "subject": "VENZ",
-    "id": "3512W",
-    "title": "Span:Span-Am Civ: Mod Lat Am",
-    "info": "summary of history of countries of latin america. pre-hispanic indigenous cultures, principal features of colonial society. analysis of socio-cultural situation of latin american countries in 20th century. emphasizes artistic developments.",
-    "prereqInfo": "two yrs college-level spanish",
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3513",
-    "subject": "VENZ",
-    "id": "3513",
-    "title": "Span:Lat Am Cultural Discourse",
-    "info": "essential latin american texts on culture with relation to important works on universal culture. how to distinguish between various historic/cultural currents. contributions of major latin american thinkers, diverse sources of principal/cultural systems of latin america.",
-    "prereqInfo": "two yrs col-lev span",
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3520",
-    "subject": "VENZ",
-    "id": "3520",
-    "title": "Geography of Venezuela: Span",
-    "info": "venezuelan geography in its international context. outstanding physical features. socioeconomic patterns.",
-    "prereqInfo": "two yrs college-level spanish",
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3521",
-    "subject": "VENZ",
-    "id": "3521",
-    "title": "Span: Education in Venezuela",
-    "info": "nature/problems of education in venezuela. historical precedents, evolution of the system. philosophical, cultural, and pedagogical assumptions of national education in venezuela. the system in its current form.",
-    "prereqInfo": "two yrs col-lev span",
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3530",
-    "subject": "VENZ",
-    "id": "3530",
-    "title": "Critical Writing",
-    "info": "critical writing course offered in merida, venezuela.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3540",
-    "subject": "VENZ",
-    "id": "3540",
-    "title": "Latin American Folklore: Span",
-    "info": "principal manifestations of folklore of various countries of spanish america. emphasizes process of syncretism. original elements related to later influences. development of folklore as historical process. music, oral tradition.",
-    "prereqInfo": "two yrs college-level spanish",
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3590",
-    "subject": "VENZ",
-    "id": "3590",
-    "title": "Span:Children's Literature",
-    "info": "critical analysis of children's literature. theoretical aspects from different points of view. set of criteria for evaluating a variety of authors and their work.",
-    "prereqInfo": "two yrs col-lev span",
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3600",
-    "subject": "VENZ",
-    "id": "3600",
-    "title": "Spanish Linguistics",
-    "info": "present state of theory, research, and application of linguistics to spanish speaking world. variation and linguistical changes. analysis of spanish speech/writing modes.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3604",
-    "subject": "VENZ",
-    "id": "3604",
-    "title": "International Finance: Spanish",
-    "info": "international financial environment. tools/techniques for international monetary issues. functioning of foreign exchange. capital/money markets, portfolio diversification, multinational capital budgeting, import-export financing, direct investment, banking.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3650",
-    "subject": "VENZ",
-    "id": "3650",
-    "title": "Mgmt:Cross-Cultural Management",
-    "info": "strategies for overcoming cultural differences in business environment, from perspective of management. issues of cultural diversity.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3661",
-    "subject": "VENZ",
-    "id": "3661",
-    "title": "International Business: Span",
-    "info": "problems faced by firms engaging in international activities. major currents/patterns in contemporary international business. history, culture, commerce, exchange, markets, corporate strategies.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3662",
-    "subject": "VENZ",
-    "id": "3662",
-    "title": "Comparative Constitutional Law",
-    "info": "course offered in merida, venezuela.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3703",
-    "subject": "VENZ",
-    "id": "3703",
-    "title": "Span: Psycholinguistics",
-    "info": "psycholinguistics as a science. contemporary theoretical models explaining development/acquisition of language. concepts of language pathology.",
-    "prereqInfo": "two yrs col-lev span",
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3704",
-    "subject": "VENZ",
-    "id": "3704",
-    "title": "Span: Sociolinguistics",
-    "info": "introduction to study of linguistic phenomena that are related to social factors. language-society relationship in the venezuelan environment. builds on studies by linguists of venezuela.",
-    "prereqInfo": "two yrs col-lev span",
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3705",
-    "subject": "VENZ",
-    "id": "3705",
-    "title": "Span Phonology & Phonetics",
-    "info": "theoretical background in phonetics. practice in oral articulation. differences between spanish spoken in spain and in hispanic america. emphasizes spanish spoken in venezuela.",
-    "prereqInfo": "two yrs col-lev span",
-    "prereq": []
-  },
-  {
-    "code": "VENZ 3920",
-    "subject": "VENZ",
-    "id": "3920",
-    "title": "Span: Venezuelan Literature",
-    "info": "venezuelan literature, from 1950 to present. different styles of literary expression. principal authors, works, and literary groups.",
-    "prereqInfo": null,
-    "prereq": []
-  }
 ]

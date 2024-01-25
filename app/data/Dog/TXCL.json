@@ -1,194 +1,179 @@
 [
-  {
-    "code": "TXCL 5000",
-    "subject": "TXCL",
-    "id": "5000",
-    "title": "Directed Rsch in Tox",
-    "info": "special project that addresses specific issue in toxicology. under guidance of faculty member.",
-    "prereqInfo": "instr consent",
-    "prereq": []
-  },
-  {
-    "code": "TXCL 5011",
-    "subject": "TXCL",
-    "id": "5011",
-    "title": "Principles of Tox",
-    "info": "introduction to fundamentals of poisoning in individuals and the environment, assessment of potential health hazards, and application of toxicology in various professional careers.",
-    "prereqInfo": "grad txcl major or instr consent",
-    "prereq": []
-  },
-  {
-    "code": "TXCL 5012",
-    "subject": "TXCL",
-    "id": "5012",
-    "title": "Priciples of Toxicology",
-    "info": "science of toxicology. biomedical principles. regulatory practices governing protection of human health and environmental quality.",
-    "prereqInfo": "at least one semester [biochemistry, calculus, cell biology]; at least one semester of [human or animal] physiology recommended",
-    "prereq": []
-  },
-  {
-    "code": "TXCL 5013",
-    "subject": "TXCL",
-    "id": "5013",
-    "title": "Chemical Toxicology",
-    "info": "signs, symptoms, and mechanism of toxicity of different classes of chemicals spanning several organ systems, including chemical carcinogenesis.",
-    "prereqInfo": "5012, instr consent",
-    "prereq": {
-      "code": "TXCL 5012",
-      "subject": "TXCL",
-      "id": "5012"
-    }
-  },
-  {
-    "code": "TXCL 5101",
-    "subject": "TXCL",
-    "id": "5101",
-    "title": "NanoToxicology",
-    "info": "introduction to science of nanotoxicology. nanotechnology in scientific research. assessment of impact on biological systems.",
-    "prereqInfo": "introductory toxicology course",
-    "prereq": []
-  },
-  {
-    "code": "TXCL 5195",
-    "subject": "TXCL",
-    "id": "5195",
-    "title": "Vet Tox",
-    "info": "toxicology of minerals, pesticides, venoms, and various toxins. identification of poisonous plants. recognition, diagnosis, and treatment of animal poisons.",
-    "prereqInfo": "grad student or instr consent",
-    "prereq": []
-  },
-  {
-    "code": "TXCL 5545",
-    "subject": "TXCL",
-    "id": "5545",
-    "title": "Intro to Regulatory Medicine",
-    "info": "explanation of products requiring pre-market approval and those that may be marketed without approval. post-market surveillance. adverse reactions, removal of product from market.",
-    "prereqInfo": "grad student or instr consent",
-    "prereq": []
-  },
-  {
-    "code": "TXCL 8012",
-    "subject": "TXCL",
-    "id": "8012",
-    "title": "Advanced Tox I",
-    "info": "absorption, distribution, metabolism, and excretion of xenobiotics; toxicokinetics; mechanisms of toxicity or specific classes of chemical agents.",
-    "prereqInfo": "5011 or bioc 4331, pubh 5104 or instr consent",
-    "prereq": {
-      "and": [
-        {
-          "code": "TXCL 5011",
-          "subject": "TXCL",
-          "id": "5011"
-        },
-        {
-          "code": "BIOC 4331",
-          "subject": "BIOC",
-          "id": "4331"
-        },
-        {
-          "code": "PUBH 5104",
-          "subject": "PUBH",
-          "id": "5104"
+    {
+        "code": "TXCL 5000",
+        "subject": "TXCL",
+        "id": "5000",
+        "title": "Directed Rsch in Tox",
+        "info": "Special project that addresses specific issue in toxicology. Under guidance of faculty member.\n\nprereq: instr consent",
+        "prereq": []
+    },
+    {
+        "code": "TXCL 5011",
+        "subject": "TXCL",
+        "id": "5011",
+        "title": "Principles of Tox",
+        "info": "Introduction to fundamentals of poisoning in individuals and the environment, assessment of potential health hazards, and application of toxicology in various professional careers.\n\nprereq: Grad txcl major or instr consent",
+        "prereq": []
+    },
+    {
+        "code": "TXCL 5012",
+        "subject": "TXCL",
+        "id": "5012",
+        "title": "Priciples of Toxicology",
+        "info": "Science of toxicology. Biomedical principles. Regulatory practices governing protection of human health and environmental quality.\n\nprereq: At least one semester [biochemistry, calculus, cell biology]; at least one semester of [human or animal] physiology recommended",
+        "prereq": []
+    },
+    {
+        "code": "TXCL 5013",
+        "subject": "TXCL",
+        "id": "5013",
+        "title": "Chemical Toxicology",
+        "info": "Signs, symptoms, and mechanism of toxicity of different classes of chemicals spanning several organ systems, including chemical carcinogenesis.\n\nprereq: 5012, instr consent",
+        "prereq": {
+            "code": "TXCL 5012",
+            "subject": "TXCL",
+            "id": "5012"
         }
-      ]
-    }
-  },
-  {
-    "code": "TXCL 8013",
-    "subject": "TXCL",
-    "id": "8013",
-    "title": "Advanced Tox II",
-    "info": "kinetic and dynamic determinants of target organ toxicity; pathological alterations in structure/function relationships for major target organ systems; mechanisms of mutagenesis, carcinogenesis, and teratogenesis.",
-    "prereqInfo": "8012, bioc 4332, phsl 5062 or phsl 6101 or instr consent",
-    "prereq": {
-      "and": [
-        {
-          "code": "TXCL 8012",
-          "subject": "TXCL",
-          "id": "8012"
-        },
-        {
-          "code": "BIOC 4332",
-          "subject": "BIOC",
-          "id": "4332"
-        },
-        {
-          "code": "PHSL 5062",
-          "subject": "PHSL",
-          "id": "5062"
-        },
-        {
-          "code": "PHSL 6101",
-          "subject": "PHSL",
-          "id": "6101"
+    },
+    {
+        "code": "TXCL 5101",
+        "subject": "TXCL",
+        "id": "5101",
+        "title": "NanoToxicology",
+        "info": "Introduction to science of nanotoxicology. Nanotechnology in scientific research. Assessment of impact on biological systems.\n\nprereq: Introductory toxicology course",
+        "prereq": []
+    },
+    {
+        "code": "TXCL 5195",
+        "subject": "TXCL",
+        "id": "5195",
+        "title": "Vet Tox",
+        "info": "Toxicology of minerals, pesticides, venoms, and various toxins. Identification of poisonous plants. Recognition, diagnosis, and treatment of animal poisons.\n\nprereq: Grad student or instr consent",
+        "prereq": []
+    },
+    {
+        "code": "TXCL 5545",
+        "subject": "TXCL",
+        "id": "5545",
+        "title": "Intro to Regulatory Medicine",
+        "info": "Explanation of products requiring pre-market approval and those that may be marketed without approval. Post-market surveillance. Adverse reactions, removal of product from market.\n\nprereq: Grad student or instr consent",
+        "prereq": []
+    },
+    {
+        "code": "TXCL 8012",
+        "subject": "TXCL",
+        "id": "8012",
+        "title": "Advanced Tox I",
+        "info": "Absorption, distribution, metabolism, and excretion of xenobiotics; toxicokinetics; mechanisms of toxicity or specific classes of chemical agents.\n\nprereq: 5011 or BioC 4331, PubH 5104 or instr consent",
+        "prereq": {
+            "and": [
+                {
+                    "code": "TXCL 5011",
+                    "subject": "TXCL",
+                    "id": "5011"
+                },
+                {
+                    "code": "BIOC 4331",
+                    "subject": "BIOC",
+                    "id": "4331"
+                },
+                {
+                    "code": "PUBH 5104",
+                    "subject": "PUBH",
+                    "id": "5104"
+                }
+            ]
         }
-      ]
+    },
+    {
+        "code": "TXCL 8013",
+        "subject": "TXCL",
+        "id": "8013",
+        "title": "Advanced Tox II",
+        "info": "Kinetic and dynamic determinants of target organ toxicity; pathological alterations in structure/function relationships for major target organ systems; mechanisms of mutagenesis, carcinogenesis, and teratogenesis.\n\nprereq: 8012, BioC 4332, Phsl 5062 or Phsl 6101 or instr consent",
+        "prereq": {
+            "and": [
+                {
+                    "code": "TXCL 8012",
+                    "subject": "TXCL",
+                    "id": "8012"
+                },
+                {
+                    "code": "BIOC 4332",
+                    "subject": "BIOC",
+                    "id": "4332"
+                },
+                {
+                    "code": "PHSL 5062",
+                    "subject": "PHSL",
+                    "id": "5062"
+                },
+                {
+                    "code": "PHSL 6101",
+                    "subject": "PHSL",
+                    "id": "6101"
+                }
+            ]
+        }
+    },
+    {
+        "code": "TXCL 8100",
+        "subject": "TXCL",
+        "id": "8100",
+        "title": "Investigative Tox",
+        "info": "Evaluating toxicology research issues and literature.\n\nprereq: 8013 or instr consent",
+        "prereq": {
+            "code": "TXCL 8013",
+            "subject": "TXCL",
+            "id": "8013"
+        }
+    },
+    {
+        "code": "TXCL 8333",
+        "subject": "TXCL",
+        "id": "8333",
+        "title": "FTE: Master's",
+        "info": "(No description)\n\nprereq: Master's student, adviser and DGS consent",
+        "prereq": []
+    },
+    {
+        "code": "TXCL 8444",
+        "subject": "TXCL",
+        "id": "8444",
+        "title": "FTE: Doctoral",
+        "info": "(No description)\n\nprereq: Doctoral student, adviser and DGS consent",
+        "prereq": []
+    },
+    {
+        "code": "TXCL 8666",
+        "subject": "TXCL",
+        "id": "8666",
+        "title": "Doct Pre-Thesis Cr",
+        "info": "tbd\n\nprereq: Doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
+        "prereq": {
+            "code": "TXCL 60",
+            "subject": "TXCL",
+            "id": "60"
+        }
+    },
+    {
+        "code": "TXCL 8777",
+        "subject": "TXCL",
+        "id": "8777",
+        "title": "Thesis Credit:Mast*",
+        "info": "(No description)\n\nprereq: Max 18 cr per semester or summer; 10 cr total required [Plan A only]",
+        "prereq": {
+            "code": "TXCL 10",
+            "subject": "TXCL",
+            "id": "10"
+        }
+    },
+    {
+        "code": "TXCL 8888",
+        "subject": "TXCL",
+        "id": "8888",
+        "title": "Thesis Credit:Doct*",
+        "info": "(No description)\n\nprereq: Max 18 cr per semester or summer; 24 cr required",
+        "prereq": []
     }
-  },
-  {
-    "code": "TXCL 8100",
-    "subject": "TXCL",
-    "id": "8100",
-    "title": "Investigative Tox",
-    "info": "evaluating toxicology research issues and literature.",
-    "prereqInfo": "8013 or instr consent",
-    "prereq": {
-      "code": "TXCL 8013",
-      "subject": "TXCL",
-      "id": "8013"
-    }
-  },
-  {
-    "code": "TXCL 8333",
-    "subject": "TXCL",
-    "id": "8333",
-    "title": "FTE: Master's",
-    "info": "(no description)",
-    "prereqInfo": "master's student, adviser and dgs consent",
-    "prereq": []
-  },
-  {
-    "code": "TXCL 8444",
-    "subject": "TXCL",
-    "id": "8444",
-    "title": "FTE: Doctoral",
-    "info": "(no description)",
-    "prereqInfo": "doctoral student, adviser and dgs consent",
-    "prereq": []
-  },
-  {
-    "code": "TXCL 8666",
-    "subject": "TXCL",
-    "id": "8666",
-    "title": "Doct Pre-Thesis Cr",
-    "info": "tbd",
-    "prereqInfo": "doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": {
-      "code": "TXCL 60",
-      "subject": "TXCL",
-      "id": "60"
-    }
-  },
-  {
-    "code": "TXCL 8777",
-    "subject": "TXCL",
-    "id": "8777",
-    "title": "Thesis Credit:Mast*",
-    "info": "(no description)",
-    "prereqInfo": "max 18 cr per semester or summer; 10 cr total required [plan a only]",
-    "prereq": {
-      "code": "TXCL 10",
-      "subject": "TXCL",
-      "id": "10"
-    }
-  },
-  {
-    "code": "TXCL 8888",
-    "subject": "TXCL",
-    "id": "8888",
-    "title": "Thesis Credit:Doct*",
-    "info": "(no description)",
-    "prereqInfo": "max 18 cr per semester or summer; 24 cr required",
-    "prereq": []
-  }
 ]
