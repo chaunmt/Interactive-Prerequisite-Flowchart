@@ -1,4 +1,3 @@
-"use client"
 import Link from "next/link";
 import Mermaid from "../../../components/Mermaid";
 import {buildGraph} from "../../../data/graphBuilder";
@@ -46,4 +45,12 @@ export default function Page({ params }) {
       </div>          
     </div>
   );
+}
+
+
+export async function generateMetadata({ params, searchParams }, parent) {
+  return {
+    title: `${params.subj.toUpperCase()} ${params.id}`,
+    description: '...',  // ??
+  }
 }
