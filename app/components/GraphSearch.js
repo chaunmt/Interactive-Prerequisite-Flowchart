@@ -1,10 +1,9 @@
 "use client"
-
 import { useState } from "react"
 
 import Mermaid from "./Mermaid";
 import FilterSearch from "./FilterSearch"
-import { buildCombinedGraph } from "../data/graphBuilder";
+// import { buildCombinedGraph } from "../data/graphBuilder";
 
 export default function GraphSearch({ sourceData }) {
     const [graph, setGraph] = useState('');
@@ -13,7 +12,13 @@ export default function GraphSearch({ sourceData }) {
         const courses = filteredData
             .map(course => `${course.subject} ${course.id}`)
             .filter(course => course.prereq !== null);
-        var test = buildCombinedGraph(courses);
+            // var test = buildCombinedGraph(courses);
+            var test = `graph TD
+        A --> B
+        B --> C
+        A --> C    
+            `
+
 
         setGraph(test)
     }

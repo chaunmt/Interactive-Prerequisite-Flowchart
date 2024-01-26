@@ -1,6 +1,6 @@
 import { Course, CourseShell, PrereqFormat } from "./types";
 
-const subjects: string[] = await import(`./General/allSubjects.json`);
+const subjects: string[] = require(`./General/allSubjects.json`);
 
 // function foo() {}
 /* note: function declarations and definitions of this form
@@ -19,8 +19,8 @@ export function allSubj() {
  */
 export default async function Access(SUBJECT: string) {
     if (!subjects.includes(SUBJECT)) { throw new Error("Invalid subject passed to Access Factory!"); }
-    const ids: readonly string[] = await import(`./General/id/${SUBJECT}.json`);
-    const courses: readonly Course[] = await import(`./Dog/${SUBJECT}.json`);
+    const ids: readonly string[] = require(`./General/id/${SUBJECT}.json`);
+    const courses: readonly Course[] = require(`./Dog/${SUBJECT}.json`);
 
     return {
         /** all Courses in subject or campus */
