@@ -48,6 +48,16 @@ export default function Page({ params }) {
 }
 
 
+export async function generateStaticParams() {
+  // TODO should use the new access stuff when that's merged in
+  const subjects = require(`../../../data/General/allSubjects.json`);
+  return subjects.flatMap(s => {
+    let ids = require(`../../../data/General/id/${s}.json`);
+    return ids.map(i => ({ subj: s, id: i }));
+  });
+}
+
+
 export async function generateMetadata({ params, searchParams }, parent) {
   return {
     title: `${params.subj.toUpperCase()} ${params.id}`,
