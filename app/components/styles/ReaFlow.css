@@ -1,0 +1,23 @@
+:root {
+  position: 'absolute';
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.node {
+  fill: white !important;
+}
+
+.node-selected {
+  fill: aqua !important;
+}
+
+.edge {
+  fill: black !important;
+}
+
+.edge-selected {
+  fill: red !important;
+}
