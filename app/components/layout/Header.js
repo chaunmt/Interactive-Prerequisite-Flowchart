@@ -1,26 +1,14 @@
-import Link from "next/link";
-// import Image from "next/image"
-import logo from 'public/logo.png';
+import "../styles/Layout.css"
 
-
-function Header(){
-    return (
-      
-    );
+export default function Header() {
+  return (
     <div className="header">
-    <nav> 
-    <a href='../'><img src="https://i.ibb.co/ZBLJYqL/Gophers-1-2.png" alt="umn_prerequisite_logo"/></a>
-    <ul>
-        {/* <li><a href='#'>About</a></li>
-        <li><a href='#'>Q&A</a></li>
-        <li><a href='#'>Info</a></li> */}
-        {/* <li><a href='./table'>Course Table</a></li> */}
-        <li><a href='https://github.com/chaunmt/Interactive-Prerequisite-Flowchart' target="_blank">Contribute to Github</a></li>
-    </ul>
-    </nav>
-</div>
+      <nav> 
+        <a href="../"><img src="./logo.png" alt="umn_prerequisite_logo"></img></a>
+        <ul>
+          <li><a href='https://github.com/chaunmt/Interactive-Prerequisite-Flowchart' target="_blank">Contribute to Github</a></li>
+        </ul>
+      </nav>
+    </div>
+  );
 }
-
-
-
-export default Header
