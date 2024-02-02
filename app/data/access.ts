@@ -12,8 +12,7 @@ export function allSubj() {
     return subjects;
 }
 
-/** Accessor Factory - returns a subject-specific accessor
- * to get relevant course info
+/** Accessor Factory - returns a subject-specific accessor to get relevant course info
  * 
  * note: SUBJECT should be an uppercase string */
 export default function Access(SUBJECT: string) {
@@ -37,7 +36,9 @@ export default function Access(SUBJECT: string) {
         /** Checks for discrepancies like xxxxW == xxxx <s>or xxxxV == xxxxH</s> */
         isEqualCourses,
         /** Checks for discrepancies like xxxxW == xxxx <s>or xxxxV == xxxxH</s> */
-        isEqualId
+        isEqualId,
+        /** Small utility function to get the full Course data from a CourseShell */
+        get
     };
 
     // definitions which still need to happen in this scope
@@ -98,6 +99,10 @@ export default function Access(SUBJECT: string) {
         if (normal.includes(lvA) && normal.includes(lvB)) { return true; }
 
         return false;
+    }
+
+    function get(shell: CourseShell): Course {
+        return getCourse("code", shell.code);
     }
 }
 
