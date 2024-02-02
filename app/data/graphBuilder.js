@@ -30,7 +30,7 @@ export function buildCombinedGraph(courses) {
 
         if (idnum < "1000") { return build }  // early exit for 0xxx-level courses
 
-        let prereqs = accs.get(subj).getPrereq("code", `${subj} ${idnum}`)
+        let prereqs = accs.get(subj).getCourse("code", `${subj} ${idnum}`).prereq
         return build + process(prereqs, `${subj}_${idnum}`)
     }  // end of build_helper
 
@@ -45,7 +45,7 @@ export function buildCombinedGraph(courses) {
         console.log('>', courses[k])
         let [subjcode, coursenum] = courses[k].split(' ', 2)
         if (!accs.has(subjcode)) { accs.set(subjcode, Access(subjcode)) }
-        coursenum = accs.get(subjcode).getId("id", coursenum)  // reassigned just in case there's a slight discrepancy between input and data
+        coursenum = accs.get(subjcode).getCourse("id", coursenum).id  // reassigned just in case there's a slight discrepancy between input and data
         graph = graph.concat( helper(subjcode, coursenum) )
     }
 

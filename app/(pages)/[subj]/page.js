@@ -17,7 +17,7 @@ export default function Page({ params }) {
   var id = params.id;
   //todo: display 404 when data is unavailable
   var subj = params.subj.toUpperCase();
-  const subjectCourses = Access(subj).courses();
+  const subjectCourses = Access(subj).courses;
   const courses = subjectCourses.map(course => `${subj} ${course.id}`);
   var test = buildCombinedGraph(courses);
   
