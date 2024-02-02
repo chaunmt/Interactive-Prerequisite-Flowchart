@@ -1,4 +1,4 @@
-import CoursesTable from "../../../components/CoursesTable.js";
+import CoursesTable from "../../../components/depricate/CoursesTable.js";
 
 import '../../../components/styles/Layout.css';
 import '../../../components/styles/Mainpage.css';
