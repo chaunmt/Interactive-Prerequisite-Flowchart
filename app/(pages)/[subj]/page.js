@@ -7,7 +7,6 @@ import Access from "../../data/access";
 import '../../components/styles/Layout.css'
 import '../../components/styles/GraphPage.css'
 
-import Header from '../../components/Header'
 // import Mermaid from "../../components/Mermaid";
 import GraphSearch from '../../components/GraphSearch'
 
@@ -21,7 +20,6 @@ export default function Page({ params }) {
   
   return (
     <div>
-      {/* <Header/> */}
       <h1>{subj} Courses </h1>
       {/* <Link href="/"><button>Homepage</butt on></Link> */}
       <GraphSearch sourceData={subjectCourses}/>

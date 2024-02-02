@@ -5,10 +5,6 @@ import '../../../components/styles/Layout.css'
 import '../../../components/styles/GraphPage.css'
 import Access from "../../../data/access";
 
-import Header from '../../../components/Header'
-//it doesn't fit on the page but i think the footer should be global
-import Footer from "../../../components/Footer";
-
 
 
 
