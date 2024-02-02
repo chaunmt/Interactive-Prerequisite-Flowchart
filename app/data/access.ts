@@ -1,171 +1,119 @@
-function extractWords(code) { 
-  if (!code) return ''
-  let match = code.match(/[a-zA-Z]+/g)
-  if (!match) return ''
-  return match[0] 
+import { Course, CourseShell, PrereqFormat } from "./types";
+
+const subjects: string[] = require(`./General/allSubjects.json`);
+
+// function foo() {}
+/* note: function declarations and definitions of this form
+ * are hoisted - they can be referenced prior to the actual
+ * declaration, and as such I have placed the documentation
+ * closer to the top of this file than the implementations */
+
+export function allSubj() {
+    return subjects;
 }
 
-function extractNumbers(code) { 
-  if (!code) return ''
-  let match = code.match(/\d+/g)
-  if (!match) return ''
-  return match[0]
-} 
+/** Accessor Factory - returns a subject-specific accessor
+ * to get relevant course info
+ * 
+ * note: SUBJECT should be an uppercase string */
+export default function Access(SUBJECT: string) {
+    if (!subjects.includes(SUBJECT)) { throw new Error("Invalid subject passed to Access Factory!"); }
+    const ids: readonly string[] = require(`./General/id/${SUBJECT}.json`);
+    const courses: readonly Course[] = require(`./Dog/${SUBJECT}.json`);
 
-// Access all courses by 'allCourses'
-export default function Access(SUBJECT) {
+    return {
+        /** all Courses in subject */
+        courses,
+        /** all course ID numbers in this subject */
+        ids,
+        /** Get course item that has a matching code or id
+         * @see Course for valid properties (invalidity just returns a null)
+         */
+        getCourse,
+        /** Returns an array of Courses that have prereq as its prerequisites */
+        target,
+        /** Checks whether course is a prerequisite of target */
+        isPrereq,
+        /** Checks for discrepancies like xxxxW == xxxx <s>or xxxxV == xxxxH</s> */
+        isEqualCourses,
+        /** Checks for discrepancies like xxxxW == xxxx <s>or xxxxV == xxxxH</s> */
+        isEqualId
+    };
 
-  const allCourses = require(`./Dog/${SUBJECT}.json`);
+    // definitions which still need to happen in this scope
 
-  function allSbj() {
-    const sbjArr = require(`./General/allSubjects.json`)
-    return sbjArr
-  }
-
-  function allId() { 
-    const idArr = require(`./General/id/${SUBJECT}.json`)
-    return idArr
-  }
-
-  function courses() { return allCourses }
-
-  function code(course) { return course.code }
-
-  function subject(course) { return course.subject }
-
-  function id(course) { return course?.id }
-
-  function title(course) { return course.title }
-
-  function info(course) { return course.info }
-
-  function prereqInfo(course) { return course.prereqInfo }
-
-  function prereq(course) { return course?.prereq }
-
-  function isEqualId(A, B) {
-    if (extractNumbers(A) != extractNumbers(B)) return false
-
-    // let honors = ['H', 'V']
-    let normal = ['W', '']
-
-    let lvA = extractWords(A[A.length - 1])
-    let lvB = extractWords(B[B.length - 1])
-
-    if (lvA == lvB) return true
-    // if (honors.includes(lvA) && honors.includes(lvB)) return true
-    if (normal.includes(lvA) && normal.includes(lvB)) return true
-
-    return false
-  }
-
-  // xxxxW == xxxx and xxxxH == xxxxV
-  function isEqualCourses(A, B) {
-    if (!A || !B) return false
-    if (!A.code || !B.code) return false
-
-    if (A.subject == B.subject) {
-      return isEqualId(id(A), id(B))
+    function getCourse(property: "code" | "id", value: string): Course | null {
+        let cmp = (property == "code") ? value.split(' ')[1] : value;
+        // binary search
+        let l = 0; let r = courses.length - 1;
+        for (let m = Math.floor(r/2); l <= r; m = Math.floor((l+r)/2)) {
+            // this first because they can be the same course with unequal code
+            if (isEqualId(courses[m].id, cmp)) { return courses[m]; }
+            if (courses[m].code < `${SUBJECT} ${cmp}`) { l = m + 1; }
+            if (courses[m].code > `${SUBJECT} ${cmp}`) { r = m - 1; }
+        }
+        return null;
     }
 
-    return false
-  }
-
-  // return the array of course that have prereq as its prerequisites
-  function target(prereq) {
-    allCourses.map(
-      (target) => {
-        if (isPrereq(prereq, target)) return target
-      }
-    )
-    return null
-  }
-
-  // Check whether prereq is in target's prereq 
-  function isPrereq(prereq, target) {
-
-    function traverse(prereq, arr) {
-      if (!arr) return false
-
-      // Found course --> Check course.code
-      if (arr.code && isEqualCourses(prereq, arr)) return true
-
-      // Traverse 'and' array, 'or' array
-      if (arr.and) return traverse(prereq, arr.and)
-      if (arr.or) return traverse(prereq, arr.or)
-
-      // Traverse through normal array
-      for (let i = 0; i < arr.length; i++) {
-        if (traverse(prereq, arr[i]) == true) return true
-      }
-
-      return false
+    function target(prereq: CourseShell) {
+        return courses.filter(target => isPrereq(prereq, target));
     }
 
-    return traverse(prereq, prereq(target))
-  }
-
-  function isTarget(prereq, target) {
-    return isPrereq(prereq, target)
-  }
-
-  // Return the first code with matched itemType and item
-  function getCourse(itemType, item) {
-    if (!item || !itemType) return null
-
-    for (let i = 0; i < allCourses.length; i++) {
-      if (itemType == 'id') {
-        if (isEqualId(id(allCourses[i]), item)) return allCourses[i]
-      }
-      if (itemType == 'code') {
-        let arr = item.split(' ')
-        if (isEqualId(id(allCourses[i]), arr[1])) return allCourses[i]
-      }
-      if (allCourses[i][itemType] === item) return allCourses[i]
+    function isPrereq(course: CourseShell, target: Course): boolean {
+        /** like Array.isArray(), this does type verification */
+        function isCourseShell(arg: PrereqFormat): arg is CourseShell {
+            return (arg as CourseShell).code !== undefined;
+        }
+        function traverse(c: CourseShell, input: PrereqFormat) {
+            if (Array.isArray(input)) { // input is an Array
+                for (let i = 0; i < input.length; i++) {
+                    if (traverse(c, input[i])) { return true; }
+                }
+            } else if (isCourseShell(input)) { // input is a CourseShell
+                return isEqualCourses(c, input);
+            } else { // either .and or .or
+                if (input.and) { return traverse(c, input.and); }
+                if (input.or) { return traverse(c, input.or); }
+            }
+            return false;
+        }
+        return traverse(course, target.prereq);
     }
-    return null
-    // return allCourses.find(each => each[itemType] === item) || null;
-  }
 
-  function getTitle(itemType, item) { return title(getCourse(itemType, item)) }
+    function isEqualCourses(A: CourseShell, B: CourseShell) {
+        return (A.subject == B.subject && isEqualId(A.id, B.id));
+    }
 
-  function getSubject(itemType, item) { return subject(getCourse(itemType, item)) }
+    function isEqualId(idA: string, idB: string) {
+        if (extractNumbers(idA) != extractNumbers(idB)) { return false; }
 
-  function getId(itemType, item) { return id(getCourse(itemType, item)) }
+        // let honors = ['H', 'V'];
+        let normal = ['W', ''];
 
-  function getInfo(itemType, item) { return info(getCourse(itemType, item)) }
+        let lvA = extractWords(idA[idA.length - 1]);
+        let lvB = extractWords(idB[idB.length - 1]);
 
-  function getPrereqInfo(itemType, item) { return prereqInfo(getCourse(itemType, item)) }
+        if (lvA == lvB) { return true; }
+        // if (honors.includes(lvA) && honors.includes(lvB)) { return true; }
+        if (normal.includes(lvA) && normal.includes(lvB)) { return true; }
 
-  function getPrereq(itemType, item) { return prereq(getCourse(itemType, item)) }
-
-  return {
-    // We only have API code for Twin Cities Campus
-    // Get all courses in subject or campus
-    courses,
-    // Get information for non 'course' item base on item's type and item's value
-    getCourse,
-    getTitle,
-    getSubject,
-    getId,
-    getInfo,
-    getPrereqInfo,
-    getPrereq,
-    // Get information for item with type 'course'
-    code,
-    subject,
-    id,
-    title,
-    info,
-    prereqInfo,
-    prereq,
-    target,
-    // Check whether a 'course' is something
-    isPrereq,
-    isTarget,
-    isEqualCourses,
-    isEqualId,
-    // isCoreq,
-  }
+        return false;
+    }
 }
 
+
+// helpers used above
+
+function extractWords(code: string) {
+    if (!code) { return ''; }
+    let match = code.match(/[a-zA-Z]+/g);
+    if (!match) { return ''; }
+    return match[0];
+}
+
+function extractNumbers(code: string) {
+    if (!code) { return ''; }
+    let match = code.match(/\d+/g);
+    if (!match) { return ''; }
+    return match[0];
+}
