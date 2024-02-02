@@ -1,19 +1,48 @@
-## Initialize:
-  Make sure to download:
-  - Node.js
-  - ~~pnpm is recommended but can be substituted by npm.~~ pnpm is currently required for patching a dependency (mermaid).
+# Interactive Prerequisite Flowchart
+Welcome to the Interactive Prerequisite Flowchart!
+- [Interactive Prerequisite Flowchart](#interactive-prerequisite-flowchart)
+  - [Documentation](#documentation)
+  - [Initialize](#initialize)
+  - [Run](#run)
+  - [Start](#start)
 
-## Run: 
-  - pnpm install
-  - pnpm run dev
+## Documentation
+1. [Mermaid](https://mermaid.js.org/intro/)
+2. [Reaflow](https://reaflow.dev/?path=/docs/docs-introduction--docs)
+3. [Reagraph](https://reagraph.dev/?path=/docs/docs-intro--docs)
+4. [Coursedog Curriculum API](https://coursedogcurriculum.docs.apiary.io/#introduction/authentication/authentication-steps)
+    + This project is made by and for UoMN students.
+    + The university is moving its data into Coursedog, making this API a solid choice for our data.
+5. Generate json data files
+    + `app/data/sources.js` is responsible to generate all json data files. 
+    + Modify `sources.js` to fit your needs.
+    + Use node `sources.js` when in the same path as this file to run.
+6. Access json data files
+    + Import `Access` from `app/data/access.js` or open the json files in folder `Dog` and `General` directly.
 
-## Start: 
-  - pnpm build
-  - pnpm start
+## Initialize
+Make sure to download and install the following:
+- [Node.js](https://nodejs.org/)
+- [pnpm](https://pnpm.io/) (required for patching a dependency - mermaid)
 
-## What we plan
-![image](https://github.com/chaunmt/Interactive-Prerequisite-Flowchart/assets/37993386/1d5657a3-0235-44bb-9672-93f383c5a9a0)
-![IMG_0043](https://github.com/chaunmt/Interactive-Prerequisite-Flowchart/assets/37993386/6b9ef3f6-acbe-4a73-ad99-6a195b50adc9)
-![IMG_0044](https://github.com/chaunmt/Interactive-Prerequisite-Flowchart/assets/37993386/278d2c7e-72f7-424d-9dfe-2a98fb8b7c49)
-![IMG_0045](https://github.com/chaunmt/Interactive-Prerequisite-Flowchart/assets/37993386/fbdb73d4-5ba5-49f5-a348-97606e79f772)
-![IMG_0046](https://github.com/chaunmt/Interactive-Prerequisite-Flowchart/assets/37993386/7d1c4636-e882-4297-91cc-8eae3076d1fe)
+## Run
+To run the project locally, follow these steps:
+1. Install dependencies:
+   ```
+   pnpm install
+   ```
+2. Run the development server:
+   ```
+   pnpm run dev
+   ```
+
+## Start
+To start the project, follow these steps:
+1. Build the project:
+   ```
+   pnpm build
+   ```
+2. Start the server:
+   ```
+   pnpm start
+   ```
