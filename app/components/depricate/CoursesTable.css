@@ -1,8 +1,10 @@
 @import url('../styles/Global.css');
+
 #title {
   text-align: center;
   font-size: 2.5vw
 }
+
 #card_table {
   position: absolute;
   top: 20rem;
@@ -16,6 +18,7 @@
   overflow-x: auto;  */
   max-height: 30vw;
 }
+
 .card {
   text-align: center;
   background-color: FloralWhite;
@@ -24,6 +27,7 @@
   width: 20vw;
   height: 3px;
 }
+
 #backBoard {
   border: 1px solid #000; 
   border-radius: 10px; 
@@ -45,6 +49,7 @@
   font-family: Arial, sans-serif;
   margin: -5px;
 }
+
 .info {
   /* TODO: make pop up info float ouside card or a separate pop up menu instead of inside card */
   display: none;
