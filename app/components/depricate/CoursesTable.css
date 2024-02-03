@@ -1,0 +1,79 @@
+@import url('../styles/Global.css');
+
+#title {
+  text-align: center;
+  font-size: 2.5vw
+}
+
+#card_table {
+  position: absolute;
+  top: 20rem;
+  left: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row: 0;
+  gap: 3px;
+  padding: 1rem;
+  /* overflow-y: auto; 
+  overflow-x: auto;  */
+  max-height: 30vw;
+}
+
+.card {
+  text-align: center;
+  background-color: FloralWhite;
+  border-radius: 0.2rem;
+  padding: 0.5rem;  
+  width: 20vw;
+  height: 3px;
+}
+
+#backBoard {
+  border: 1px solid #000; 
+  border-radius: 10px; 
+  box-shadow: 3px 3px 5px #888; 
+  padding: 20px; 
+  width: 90vw;
+  height: 38vw;
+  margin: 0; 
+}
+
+#cardTitle{
+  font-size: 0.5vw; 
+  font-family: Arial, sans-serif;
+  margin: -5px;
+}
+
+#classNumb{
+  font-size: 0.5vw; 
+  font-family: Arial, sans-serif;
+  margin: -5px;
+}
+
+.info {
+  /* TODO: make pop up info float ouside card or a separate pop up menu instead of inside card */
+  display: none;
+  position: absolute;
+  padding-left: 50px;
+  top: 1%;
+  left: 55rem;
+  border-radius: 10px; 
+  box-shadow: 3px 3px 5px #888; 
+  font-size: 14px;
+  border-radius: 0.5rem;
+  border: 1px solid #5e1818; 
+  height: 21rem;
+  width: 15rem;
+  background-color: FloralWhite;
+}
+
+.card:hover .info {
+  display: block;
+}
+
+.target {
+  background-color: var(--target-course-bg-color);
+}
+.prereq {
+  background-color: var(--prereq-course-bg-color);
+}

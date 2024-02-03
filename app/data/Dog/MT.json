@@ -1,177 +1,158 @@
 [
-  {
-    "code": "MT 2999",
-    "subject": "MT",
-    "id": "2999",
-    "title": "ManufacturingTechnologyCredit",
-    "info": "evaluation for manufacturing technology credit.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "MT 3111",
-    "subject": "MT",
-    "id": "3111",
-    "title": "ElemtsMicroelctrnicManufactrng",
-    "info": "common micro fabrication processes, how they are applied to cmos manufacturing.",
-    "prereqInfo": "completion of physics, chemistry, [college algebra or precalculus] with grade of at least c-, 45 sem cr",
-    "prereq": []
-  },
-  {
-    "code": "MT 3112",
-    "subject": "MT",
-    "id": "3112",
-    "title": "Micro & Nano Fabrication Lab",
-    "info": "basic process steps to make top-down micro-/nano-scaled structures. oxidation, photolithography, electron beam lithography, chemical vapor deposition, etching, rapid thermal annealing, wet chemical/plasma etching. students build test chip containing various micro-mechanical structures.",
-    "prereqInfo": "concurrent registration is required (or allowed) in 3111",
-    "prereq": {
-      "code": "MT 3111",
-      "subject": "MT",
-      "id": "3111"
+    {
+        "code": "MT 2999",
+        "subject": "MT",
+        "id": "2999",
+        "title": "ManufacturingTechnologyCredit",
+        "info": "Evaluation for Manufacturing Technology credit.",
+        "prereq": []
+    },
+    {
+        "code": "MT 3111",
+        "subject": "MT",
+        "id": "3111",
+        "title": "ElemtsMicroelctrnicManufactrng",
+        "info": "Common micro fabrication processes, how they are applied to CMOS manufacturing.\n\nprereq: Completion of physics, chemistry, [college algebra or precalculus] with grade of at least C-, 45 sem cr",
+        "prereq": []
+    },
+    {
+        "code": "MT 3112",
+        "subject": "MT",
+        "id": "3112",
+        "title": "Micro & Nano Fabrication Lab",
+        "info": "Basic process steps to make top-down micro-/nano-scaled structures. Oxidation, photolithography, electron beam lithography, chemical vapor deposition, etching, rapid thermal annealing, wet chemical/plasma etching. Students build test chip containing various micro-mechanical structures.\n\nprereq: concurrent registration is required (or allowed) in 3111",
+        "prereq": {
+            "code": "MT 3111",
+            "subject": "MT",
+            "id": "3111"
+        }
+    },
+    {
+        "code": "MT 3121",
+        "subject": "MT",
+        "id": "3121",
+        "title": "Thin Films Deposition",
+        "info": "Thin film materials such as metals/oxides. Photolithography, methods of deposition. HV/UHV range. Vacuum evaporation, sputtering, chemical vapor deposition.\n\nprereq: Physics, chemistry, [college algebra or precalculus], 45 cr",
+        "prereq": []
+    },
+    {
+        "code": "MT 3131",
+        "subject": "MT",
+        "id": "3131",
+        "title": "IntroMaterialsCharacterization",
+        "info": "Four methods: electron beam microscopy, optical microscopy/FTIR, proximal probe techniques, x-ray/ion beam scattering. Principles for, and information from, each method.\nprereq: Completion of physics, chemistry, [college algebra or precalculus] with grade of at least C-, 45 sem cr",
+        "prereq": []
+    },
+    {
+        "code": "MT 3132",
+        "subject": "MT",
+        "id": "3132",
+        "title": "Materials Characterization Lab",
+        "info": "Hands-on characterization of engineering materials by electron/optical microscopy, atomic force microscopy, x-ray diffraction. Spectroscopic methods, specimen preparation, data collection/analysis, maintaining lab notebook.",
+        "prereq": []
+    },
+    {
+        "code": "MT 3141",
+        "subject": "MT",
+        "id": "3141",
+        "title": "Princpls&Applctns Bionanotech",
+        "info": "Introduction to protein, lipid, and nucleic biochemistry. Biomolecule design, production using recombinant DNA technology. Use in nanodevices and nano-materials. Applications of biological molecules in bionanotechnology. Effects of Brownian motion. Biomolecular surfaces forces. Biomolecule structure alterations due to molecular interaction. Self-assembly.\nprereq: Completion of physics, chemistry, [college algebra or precalculus] with grade of at least C-, 45 sem cr",
+        "prereq": []
+    },
+    {
+        "code": "MT 3142",
+        "subject": "MT",
+        "id": "3142",
+        "title": "Nanopart Tech & Engineerng Lab",
+        "info": "Overview of challenges and tools for measuring properties of nanoaerosols. Optical particle counters, condensation particle counters, differential mobility analysis, electrosprays, atomizers, single-particle mass spectrometers.\n\nprereq: Completion of physics, chemistry, [college algebra or precalculus] with grade of at least C-, 45 sem cr",
+        "prereq": []
+    },
+    {
+        "code": "MT 4015",
+        "subject": "MT",
+        "id": "4015",
+        "title": "Quality Engineering",
+        "info": "Statistical, engineering, and management approaches to quality improvement. Economics. Teams and information systems. Problem-solving. Function deployment. Value analysis. Reliability engineering. Design for manufacturability analysis. Experiment design. Statistical control. Process validation/capability. Standards, audits, certification.",
+        "prereq": []
+    },
+    {
+        "code": "MT 4021",
+        "subject": "MT",
+        "id": "4021",
+        "title": "Properties of Materials",
+        "info": "Classification of materials. Atomic bonding, crystal structures, diffusion, structure/properties of materials. Ceramics, polymers, wood, concrete. Corrosion of materials. Elasticity, plasticity, strengthening mechanisms, failure modes, phase diagrams. Transformations and thermal processing.",
+        "prereq": []
+    },
+    {
+        "code": "MT 4025",
+        "subject": "MT",
+        "id": "4025",
+        "title": "Computr Integratd Manufacturng",
+        "info": "Manufacturing systems as open systems. Manufacturing system design. Information flow and computer networks. Network classification/services, hardware components. Network protocols/architecture applied to product design/manufacturing. Computer software used to simulate system/environment interaction.",
+        "prereq": []
+    },
+    {
+        "code": "MT 4031",
+        "subject": "MT",
+        "id": "4031",
+        "title": "Engineering Materials Procssng",
+        "info": "Manufacture of products. Manufacturing process. Casting, forming, cutting, sheet-metal working. Theories, practice. Lab.",
+        "prereq": []
+    },
+    {
+        "code": "MT 4032",
+        "subject": "MT",
+        "id": "4032",
+        "title": "Engineerng Mtrls Processing II",
+        "info": "Computer-Aided-Manufacturing (CAM), joining processes. Processing of non-traditional machining. Surface-finishing processes. Lab.",
+        "prereq": []
+    },
+    {
+        "code": "MT 4041",
+        "subject": "MT",
+        "id": "4041",
+        "title": "Fluid Mechanics",
+        "info": "Pressure/flow measurements, hydrostatic force, continuity/momentum equations, flow in conduits, velocity distribution, drag force, pump calculations, flow through porous media.",
+        "prereq": []
+    },
+    {
+        "code": "MT 4042",
+        "subject": "MT",
+        "id": "4042",
+        "title": "Manufacturing Automation",
+        "info": "CNC programming, computer-aided manufacturing (CAM), flexible automations, machining centers, robotics, programmable logic controllers, tooling systems, work holding devices.",
+        "prereq": []
+    },
+    {
+        "code": "MT 4102",
+        "subject": "MT",
+        "id": "4102",
+        "title": "Machine Control",
+        "info": "Discrete control, digital control logic, sequential and feedback control, programmable logic controllers, stepper motors, other devices. Motion control methods, performance. Control languages/techniques, systems hierarchy.",
+        "prereq": []
+    },
+    {
+        "code": "MT 4105",
+        "subject": "MT",
+        "id": "4105",
+        "title": "Machine Tool Design",
+        "info": "Precision, drives, economy. Cutting/forming tool materials, geometries, selections, sharpening, and standards. Designin Jigs, fixtures, and pressworking tools.",
+        "prereq": []
+    },
+    {
+        "code": "MT 4301",
+        "subject": "MT",
+        "id": "4301",
+        "title": "Design&Analysis of Experiments",
+        "info": "Introduction to applications of statistical methods used by industrial researchers to aid in solving industrial problems. Analysis of means, analysis of variance, factorial designs, fractional factorial (screening) designs. Industrial case studies. Experience at local industries when available.",
+        "prereq": []
+    },
+    {
+        "code": "MT 4511",
+        "subject": "MT",
+        "id": "4511",
+        "title": "Mfg Product/System Design II",
+        "info": "Continuation of Manufacturing Product/System Design I. Broader experience in manufacturing product and system design. Focuses on involving other stakeholders in design/production of a product. Products from student.s workplace, teamwork. Final report. Capstone project.",
+        "prereq": []
     }
-  },
-  {
-    "code": "MT 3121",
-    "subject": "MT",
-    "id": "3121",
-    "title": "Thin Films Deposition",
-    "info": "thin film materials such as metals/oxides. photolithography, methods of deposition. hv/uhv range. vacuum evaporation, sputtering, chemical vapor deposition.",
-    "prereqInfo": "physics, chemistry, [college algebra or precalculus], 45 cr",
-    "prereq": []
-  },
-  {
-    "code": "MT 3131",
-    "subject": "MT",
-    "id": "3131",
-    "title": "IntroMaterialsCharacterization",
-    "info": "four methods: electron beam microscopy, optical microscopy/ftir, proximal probe techniques, x-ray/ion beam scattering. principles for, and information from, each method.",
-    "prereqInfo": "completion of physics, chemistry, [college algebra or precalculus] with grade of at least c-, 45 sem cr",
-    "prereq": []
-  },
-  {
-    "code": "MT 3132",
-    "subject": "MT",
-    "id": "3132",
-    "title": "Materials Characterization Lab",
-    "info": "hands-on characterization of engineering materials by electron/optical microscopy, atomic force microscopy, x-ray diffraction. spectroscopic methods, specimen preparation, data collection/analysis, maintaining lab notebook.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "MT 3141",
-    "subject": "MT",
-    "id": "3141",
-    "title": "Princpls&Applctns Bionanotech",
-    "info": "introduction to protein, lipid, and nucleic biochemistry. biomolecule design, production using recombinant dna technology. use in nanodevices and nano-materials. applications of biological molecules in bionanotechnology. effects of brownian motion. biomolecular surfaces forces. biomolecule structure alterations due to molecular interaction. self-assembly.",
-    "prereqInfo": "completion of physics, chemistry, [college algebra or precalculus] with grade of at least c-, 45 sem cr",
-    "prereq": []
-  },
-  {
-    "code": "MT 3142",
-    "subject": "MT",
-    "id": "3142",
-    "title": "Nanopart Tech & Engineerng Lab",
-    "info": "overview of challenges and tools for measuring properties of nanoaerosols. optical particle counters, condensation particle counters, differential mobility analysis, electrosprays, atomizers, single-particle mass spectrometers.",
-    "prereqInfo": "completion of physics, chemistry, [college algebra or precalculus] with grade of at least c-, 45 sem cr",
-    "prereq": []
-  },
-  {
-    "code": "MT 4015",
-    "subject": "MT",
-    "id": "4015",
-    "title": "Quality Engineering",
-    "info": "statistical, engineering, and management approaches to quality improvement. economics. teams and information systems. problem-solving. function deployment. value analysis. reliability engineering. design for manufacturability analysis. experiment design. statistical control. process validation/capability. standards, audits, certification.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "MT 4021",
-    "subject": "MT",
-    "id": "4021",
-    "title": "Properties of Materials",
-    "info": "classification of materials. atomic bonding, crystal structures, diffusion, structure/properties of materials. ceramics, polymers, wood, concrete. corrosion of materials. elasticity, plasticity, strengthening mechanisms, failure modes, phase diagrams. transformations and thermal processing.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "MT 4025",
-    "subject": "MT",
-    "id": "4025",
-    "title": "Computr Integratd Manufacturng",
-    "info": "manufacturing systems as open systems. manufacturing system design. information flow and computer networks. network classification/services, hardware components. network protocols/architecture applied to product design/manufacturing. computer software used to simulate system/environment interaction.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "MT 4031",
-    "subject": "MT",
-    "id": "4031",
-    "title": "Engineering Materials Procssng",
-    "info": "manufacture of products. manufacturing process. casting, forming, cutting, sheet-metal working. theories, practice. lab.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "MT 4032",
-    "subject": "MT",
-    "id": "4032",
-    "title": "Engineerng Mtrls Processing II",
-    "info": "computer-aided-manufacturing (cam), joining processes. processing of non-traditional machining. surface-finishing processes. lab.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "MT 4041",
-    "subject": "MT",
-    "id": "4041",
-    "title": "Fluid Mechanics",
-    "info": "pressure/flow measurements, hydrostatic force, continuity/momentum equations, flow in conduits, velocity distribution, drag force, pump calculations, flow through porous media.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "MT 4042",
-    "subject": "MT",
-    "id": "4042",
-    "title": "Manufacturing Automation",
-    "info": "cnc programming, computer-aided manufacturing (cam), flexible automations, machining centers, robotics, programmable logic controllers, tooling systems, work holding devices.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "MT 4102",
-    "subject": "MT",
-    "id": "4102",
-    "title": "Machine Control",
-    "info": "discrete control, digital control logic, sequential and feedback control, programmable logic controllers, stepper motors, other devices. motion control methods, performance. control languages/techniques, systems hierarchy.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "MT 4105",
-    "subject": "MT",
-    "id": "4105",
-    "title": "Machine Tool Design",
-    "info": "precision, drives, economy. cutting/forming tool materials, geometries, selections, sharpening, and standards. designin jigs, fixtures, and pressworking tools.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "MT 4301",
-    "subject": "MT",
-    "id": "4301",
-    "title": "Design&Analysis of Experiments",
-    "info": "introduction to applications of statistical methods used by industrial researchers to aid in solving industrial problems. analysis of means, analysis of variance, factorial designs, fractional factorial (screening) designs. industrial case studies. experience at local industries when available.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "MT 4511",
-    "subject": "MT",
-    "id": "4511",
-    "title": "Mfg Product/System Design II",
-    "info": "continuation of manufacturing product/system design i. broader experience in manufacturing product and system design. focuses on involving other stakeholders in design/production of a product. products from student.s workplace, teamwork. final report. capstone project.",
-    "prereqInfo": null,
-    "prereq": []
-  }
 ]

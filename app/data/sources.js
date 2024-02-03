@@ -1,11 +1,15 @@
+// Using file system
 let fs = require('fs')
 
+/** Check whether a string contains any number */
 function hasNumber(str) { return /\d/.test(str); }
 
+/** Delete all spaces */
 function deleteSpaces(str) { return str.replace(/\s/g, ''); }
 
-// Replace all ',' with ' and '
-// Replace all '/' with ' and '
+/** Replace all ',' with ' and '
+ * Replace all '/' with ' and ' */
+
 function replaceSigns(str) {
   str = str.replaceAll(', ', ' and ')
   str = str.replaceAll('/', ' and ')
@@ -13,8 +17,8 @@ function replaceSigns(str) {
   return str
 }
 
-// WARNING: Omit this case because of data's inconsistency ???
-
+/** Delete info about recommended courses from info string
+ * WARNING: Omit this case because of data's inconsistency ??? */ 
 function spliceRecommendAt(str, splitPattern) {
   arr = str.split(splitPattern)
   let i = 0;
@@ -27,6 +31,7 @@ function spliceRecommendAt(str, splitPattern) {
   return arr.join(' or ')
 }
 
+/** ASSUMPTION: Filter out extra information from info string */
 function filterExtraInfo(str) {
   // if (str.toUpperCase().includes('NO PREREQUISITE')) return ""
   str = spliceRecommendAt(str, ';')
@@ -34,6 +39,7 @@ function filterExtraInfo(str) {
   return str
 }
 
+/** Split string at first occurence of a certain type (number or word) */
 function splitStringAt(str, type) {
   str = deleteSpaces(str)
 
@@ -50,10 +56,7 @@ function splitStringAt(str, type) {
   return [null, null]
 }
 
-// function filterHonorCourses() {
-  
-// }
-
+/** Extract prerequisites courses from string, given target course information */
 function extractCourses(str, targetSubject, targetId) {
   // match full words for 3 cases: 
   //    3-4 digits + optional letters
@@ -108,6 +111,7 @@ function extractCourses(str, targetSubject, targetId) {
   )
 }
 
+/** Check whether 2 courses are the same */
 function isEqualCourse(A, B) {
   // If A or B is not course, return false
   if (!A || !B) return false
@@ -122,7 +126,7 @@ function isEqualCourse(A, B) {
   return true
 }
 
-// Use breadth first search to filter duplicate
+/** Use breadth first search to filter duplicate courses */ 
 function filterDuplicate(item) {
   // Return null and single course
   if (item == null) return null
@@ -154,6 +158,7 @@ function filterDuplicate(item) {
   return item
 }
 
+/** Turning extra array into NULL */
 function filterExtraArray(item) {
   // Return null and single course
   if (!item) return null
@@ -194,6 +199,7 @@ function filterExtraArray(item) {
   return item
 }
 
+/** Filter out all NULL value into empty */
 function filterNull(item) {
   // Return null and single course
   if (!item || item.length == 0) return null
@@ -226,7 +232,9 @@ function cutStringAtLastNumber(inputString) {
 
   return "";
 }
-// WARNING: Problem with ambiguous level
+
+/** Assume logic level for each occurence 'and', 'or' 
+ * WARNING: Problem with ambiguous level */
 function convertLogic(str, targetSubject, targetId) {
  
   // convert 'A and B' into { and: ['A', 'B'] }
@@ -238,7 +246,7 @@ function convertLogic(str, targetSubject, targetId) {
   return extractCourses(str, targetSubject, targetId)
 }
 
-// Replace decoded substring with encoded data
+/** Replace encoded substring with decoded data */
 function decodeBracket(data, encodedData) {
   if (!data) return null
 
@@ -262,11 +270,12 @@ function decodeBracket(data, encodedData) {
   if (data.subject == "INSIDE") { // Data is encoded
     data = encodedData[data.id]
     if (data != null) 
-      data = decodeBracket(data, encodedData)
+      data = decodeBracket(data, encodedData) // Decode data
   }
   return data
 }
 
+/** Encode the info string into a string with layers of bracket and code {'inside' + a number} */
 function encodeBracket(info, targetSubject, targetId) {
   let open = []
   let inside = []
@@ -309,6 +318,7 @@ function encodeBracket(info, targetSubject, targetId) {
   return encodedArr
 }
 
+/** Filter Prerequisite Courses of a Target Course out of info */
 function filterPrereq(info, targetSubject, targetId) {
   // No number == No prerequisite
   if (!hasNumber(info)) return []
@@ -335,6 +345,7 @@ function filterPrereq(info, targetSubject, targetId) {
   return data
 }
 
+/** Export JSON file from Course Dogs API */
 function exportDogs(SUBJECT) {
   const schoolId = 'umn_umntc_peoplesoft'
   let subject = SUBJECT
@@ -350,10 +361,10 @@ function exportDogs(SUBJECT) {
   fetch(url)
     .then(res => res.json())
     .then(data => {
-
       let courses = filterNull(data.data.map(
         (course) => {
 
+          // Filter out prerequisites 
           let descrip = course.description.toLowerCase()
           let splitPattern = '\n\n\n\n\n'
           if (descrip.includes('prereq:')) splitPattern = 'prereq:'
@@ -374,8 +385,9 @@ function exportDogs(SUBJECT) {
             subject: course.subjectCode,
             id: course.courseNumber,
             title: course.name,
-            info: info[0].trim(),
-            prereqInfo: info[1]?.trim() || null,
+            info: course.description,
+            // info: info[0].trim(),
+            // prereqInfo: info[1]?.trim() || null,
             prereq: prereq || []
           }
         }
@@ -392,9 +404,11 @@ function exportDogs(SUBJECT) {
     })
 }
 
+/** Generate allCourses.json and each subject json */
+
 let allSubjects = require('./General/allSubjects.json')
 let allCourseNumbers = require('./General/id/allCourses.json')
-exportDogs('allCourses')
+// exportDogs('allCourses')
 
 for (pup of allSubjects) {
   exportDogs(pup)
