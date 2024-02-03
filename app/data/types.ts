@@ -14,3 +14,8 @@ export type PrereqFormat = {
     and?: PrereqFormat[];
     or?: PrereqFormat[];
 } | PrereqFormat[] | CourseShell;
+
+/** like Array.isArray(), this does type verification */
+export function isCourseShell(arg: PrereqFormat): arg is CourseShell {
+    return (arg as CourseShell).code !== undefined;
+}

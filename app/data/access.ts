@@ -1,4 +1,4 @@
-import { Course, CourseShell, PrereqFormat } from "./types";
+import { Course, CourseShell, PrereqFormat, isCourseShell } from "./types";
 
 const subjects: string[] = require(`./General/allSubjects.json`);
 
@@ -61,10 +61,6 @@ export default function Access(SUBJECT: string) {
     }
 
     function isPrereq(course: CourseShell, target: Course): boolean {
-        /** like Array.isArray(), this does type verification */
-        function isCourseShell(arg: PrereqFormat): arg is CourseShell {
-            return (arg as CourseShell).code !== undefined;
-        }
         function traverse(c: CourseShell, input: PrereqFormat) {
             if (Array.isArray(input)) { // input is an Array
                 for (let i = 0; i < input.length; i++) {
