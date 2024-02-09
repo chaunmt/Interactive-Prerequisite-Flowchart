@@ -20,22 +20,22 @@ function isCourseShell(arg: PrereqFormat): arg is CourseShell {
     return (arg as CourseShell).code !== undefined;
 }
 
-type output = any; // only used here to label the meta-args
-
 /** "a little bit of metaprogramming never hurt anybody" - jahndan, 2024
  * 
  * if you're using this, you probably wrote this monstrosity */
-export function PrereqTraversal(arrl: (cl_outs: output[]) => output,
-                                crsl: (preq: CourseShell, carry: any) => output,
-                                orl: (al_out: output) => output,
-                                andl: (al_out: output) => output): output {
+export function PrereqTraversal<out>(
+                    arrl: (cl_outs: out[]) => out,
+                    crsl: (preq: CourseShell, carry: any) => out,
+                    orl: (al_out: out) => out,
+                    andl: (al_out: out) => out
+                ) : (i: PrereqFormat, x: any) => out {
 
     /* on a serious note, this takes four lambdas for each branch of the
      * traversal pattern used for PrereqFormat - it's abstracted away so
      * this pattern only has to be updated here to match the data format */
 
     /* extra variable in case data needs to be passed along for anything */
-    let fn = (input: PrereqFormat, ex: any) => {
+    let fn = (input: PrereqFormat, ex: any): out => {
         if (Array.isArray(input)) {
             /* in the array pattern, each entry is mapped to the corresponding
              * output, and this array is fed into the array lambda */

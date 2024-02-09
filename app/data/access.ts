@@ -6,12 +6,12 @@ export function allSubj() {
     return subjects;
 }
 
-/** Accessor Factory - returns a subject-specific accessor to get relevant course info
+/** Accessor Module - returns the subject-specific accessor to get relevant course info
  * 
- * note: SUBJECT should be an uppercase string */
+ * note: SUBJECT should be an uppercase string matching those in /data/General/allSubjects.json */
 export default function Access(SUBJECT: string) {
     if (!subjects.includes(SUBJECT)) {
-        throw new Error(`Invalid subject "${SUBJECT}" passed to Access Factory!`);
+        throw new Error(`Invalid subject "${SUBJECT}" passed to Access module!`);
     }
 
     const courses: readonly Course[] = require(`./Dog/${SUBJECT}.json`);
