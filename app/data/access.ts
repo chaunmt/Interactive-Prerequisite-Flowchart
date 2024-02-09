@@ -1,4 +1,4 @@
-import { Course, CourseShell, PrereqFormat, PrereqTraversal } from "./types";
+import { Course, CourseShell, PrereqFormat, isCourseShell } from "./types";
 
 const subjects: string[] = require(`./General/allSubjects.json`);
 
@@ -63,14 +63,21 @@ export default function Access(SUBJECT: string) {
         return courses.filter(target => isPrereq(prereq, target));
     }
 
-    function big_or(couts: boolean[]) { return couts.some(t => t == true); }
-    function nothing(arg: any) { return arg; }
-    function traverse(input: PrereqFormat, c: CourseShell): boolean {
-        return PrereqTraversal(big_or, isEqualCourses, nothing, nothing)(input, c);
-    }
-
     function isPrereq(course: CourseShell, target: Course): boolean {
-        return traverse(target.prereq, course);
+        function traverse(c: CourseShell, input: PrereqFormat) {
+            if (Array.isArray(input)) { // input is an Array
+                for (let i = 0; i < input.length; i++) {
+                    if (traverse(c, input[i])) { return true; }
+                }
+            } else if (isCourseShell(input)) { // input is a CourseShell
+                return isEqualCourses(c, input);
+            } else { // either .and or .or
+                if (input.and) { return traverse(c, input.and); }
+                if (input.or) { return traverse(c, input.or); }
+            }
+            return false;
+        }
+        return traverse(course, target.prereq);
     }
 
     function isEqualCourses(A: CourseShell, B: CourseShell) {
