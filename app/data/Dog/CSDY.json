@@ -1,42 +1,38 @@
 [
-  {
-    "code": "CSDY 8444",
-    "subject": "CSDY",
-    "id": "8444",
-    "title": "FTE: Doctoral",
-    "info": "(no description)",
-    "prereqInfo": "doctoral student, adviser and dgs consent",
-    "prereq": []
-  },
-  {
-    "code": "CSDY 8666",
-    "subject": "CSDY",
-    "id": "8666",
-    "title": "Doctoral Pre-Thesis Credits",
-    "info": "doctoral pre-thesis credits",
-    "prereqInfo": "doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": {
-      "code": "CSDY 60",
-      "subject": "CSDY",
-      "id": "60"
+    {
+        "code": "CSDY 8444",
+        "subject": "CSDY",
+        "id": "8444",
+        "title": "FTE: Doctoral",
+        "info": "(No description)\n\nprereq: Doctoral student, adviser and DGS consent",
+        "prereq": []
+    },
+    {
+        "code": "CSDY 8666",
+        "subject": "CSDY",
+        "id": "8666",
+        "title": "Doctoral Pre-Thesis Credits",
+        "info": "Doctoral Pre-Thesis Credits\n\nprereq: Doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
+        "prereq": {
+            "code": "CSDY 60",
+            "subject": "CSDY",
+            "id": "60"
+        }
+    },
+    {
+        "code": "CSDY 8888",
+        "subject": "CSDY",
+        "id": "8888",
+        "title": "Thesis Credit:Doct*",
+        "info": "(No description)\n\nprereq: Max 18 cr per semester or summer; 24 cr required",
+        "prereq": []
+    },
+    {
+        "code": "CSDY 8899",
+        "subject": "CSDY",
+        "id": "8899",
+        "title": "ContSci Seminar",
+        "info": "Current research and advanced topics.\n\nprereq: CSDy or IT grad",
+        "prereq": []
     }
-  },
-  {
-    "code": "CSDY 8888",
-    "subject": "CSDY",
-    "id": "8888",
-    "title": "Thesis Credit:Doct*",
-    "info": "(no description)",
-    "prereqInfo": "max 18 cr per semester or summer; 24 cr required",
-    "prereq": []
-  },
-  {
-    "code": "CSDY 8899",
-    "subject": "CSDY",
-    "id": "8899",
-    "title": "ContSci Seminar",
-    "info": "current research and advanced topics.",
-    "prereqInfo": "csdy or it grad",
-    "prereq": []
-  }
 ]

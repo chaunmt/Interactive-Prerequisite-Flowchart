@@ -1,90 +1,70 @@
 @import url('../styles/Global.css');
 
-/* :root{
-    background: linear-gradient(180deg,#ffffff,rgb(222, 207, 121));
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: center;
-    background-attachment: fixed;
-}  */
-
-h1{
-    text-align: center;
-    padding:40px;
+h1 {
+  text-align: center;
+  padding:40px;
 }
 
-
-.Search{
-    text-align: center; 
-
+.Search {
+  text-align: center; 
 }
 
-.header nav logo img{
-    display:block;
-    width:25%;
-    height:25%;
-    border-left: 30;
-    align-items: left;
-    margin-left: 30px;
-
+.header nav logo img {
+  display:block;
+  width:25%;
+  height:25%;
+  border-left: 30;
+  align-items: left;
+  margin-left: 30px;
 }
 
-.header mainlogo a{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-
-  
+.header mainlogo a {
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }
-.header p{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family:Arial, Helvetica, sans-serif;
-    color:var(--title-p);
-    font-size:18px;
-    font-weight: bold;
-    
+.header p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family:Arial, Helvetica, sans-serif;
+  color:var(--title-p);
+  font-size:18px;
+  font-weight: bold;
 }
 
-.header img{
-    width:50%;
-    height:20%;
+.header img {
+  width:50%;
+  height:20%;
 }
 
-.Search input{
-    margin-top: 50px;
-    width:60%;
-    border:0;
-    outline: 0;
-    background: var(--search-bg-color);
-    padding:10px 25px;
-    height:40px;
-    border-radius: 30px;
-    flex:1;
-    margin-right:16px;
-    font-size: large;
-    box-shadow: 2px 2px 4px var(--shadow);
-    
+.Search input {
+  margin-top: 50px;
+  width:60%;
+  border:0;
+  outline: 0;
+  background: var(--search-bg-color);
+  padding:10px 25px;
+  height:40px;
+  border-radius: 30px;
+  flex:1;
+  margin-right:16px;
+  font-size: large;
+  box-shadow: 2px 2px 4px var(--shadow);
 }
 
-.Search ul li{
-    border:0;
-    outline:0;
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight: 300;
-    list-style-type: none;  
-    margin-bottom: 16px;
-    margin-right:16px;
-    padding:10px 25px;
-    flex:1;
-    color: var(--header-p-color);
+.Search ul li {
+  border:0;
+  outline:0;
+  font-weight: 300;
+  list-style-type: none;  
+  margin-bottom: 16px;
+  margin-right:16px;
+  padding:10px 25px;
+  flex:1;
+  color: var(--header-p-color);
 }
-
-
 
 .mermaid {
-    text-align: center;
+  text-align: center;
 }
-  
-

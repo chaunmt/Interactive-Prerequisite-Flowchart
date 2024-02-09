@@ -1,56 +1,50 @@
 [
-  {
-    "code": "ROB 5994",
-    "subject": "ROB",
-    "id": "5994",
-    "title": "Directed Research",
-    "info": "directed research arranged with faculty member.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "ROB 5996",
-    "subject": "ROB",
-    "id": "5996",
-    "title": "Curr Practical Training",
-    "info": "industrial work assignment involving advanced computer technology.  reviewed by a faculty member. grade based on a final report covering work assignment.",
-    "prereqInfo": "robotics major, instr consent",
-    "prereq": []
-  },
-  {
-    "code": "ROB 8333",
-    "subject": "ROB",
-    "id": "8333",
-    "title": "FTE: Master's",
-    "info": "",
-    "prereqInfo": "master's student, adviser and dgs consent",
-    "prereq": []
-  },
-  {
-    "code": "ROB 8760",
-    "subject": "ROB",
-    "id": "8760",
-    "title": "Capstone Project",
-    "info": "project arranged between student and faculty.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "ROB 8777",
-    "subject": "ROB",
-    "id": "8777",
-    "title": "Thesis Credits Master's",
-    "info": "master's thesis credits.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "ROB 8970",
-    "subject": "ROB",
-    "id": "8970",
-    "title": "Robotics Colloquium",
-    "info": "recent developments in robotics and related disciplines.",
-    "prereqInfo": null,
-    "prereq": []
-  }
+    {
+        "code": "ROB 5994",
+        "subject": "ROB",
+        "id": "5994",
+        "title": "Directed Research",
+        "info": "Directed research arranged with faculty member.",
+        "prereq": []
+    },
+    {
+        "code": "ROB 5996",
+        "subject": "ROB",
+        "id": "5996",
+        "title": "Curr Practical Training",
+        "info": "Industrial work assignment involving advanced computer technology.  Reviewed by a faculty member. Grade based on a final report covering work assignment.\n\nprereq: robotics major, instr consent\n",
+        "prereq": []
+    },
+    {
+        "code": "ROB 8333",
+        "subject": "ROB",
+        "id": "8333",
+        "title": "FTE: Master's",
+        "info": "prereq: Master's student, adviser and DGS consent",
+        "prereq": []
+    },
+    {
+        "code": "ROB 8760",
+        "subject": "ROB",
+        "id": "8760",
+        "title": "Capstone Project",
+        "info": "Project arranged between student and faculty.",
+        "prereq": []
+    },
+    {
+        "code": "ROB 8777",
+        "subject": "ROB",
+        "id": "8777",
+        "title": "Thesis Credits Master's",
+        "info": "Master's thesis credits.",
+        "prereq": []
+    },
+    {
+        "code": "ROB 8970",
+        "subject": "ROB",
+        "id": "8970",
+        "title": "Robotics Colloquium",
+        "info": "Recent developments in robotics and related disciplines.",
+        "prereq": []
+    }
 ]

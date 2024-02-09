@@ -1,552 +1,497 @@
 [
-  {
-    "code": "ARAB 1001",
-    "subject": "ARAB",
-    "id": "1001",
-    "title": "Survival Arabic",
-    "info": "in this two-credit course, you will learn fundamental arabic skills that allow you to interact successfully in arabic with native speakers of the language, and navigate environments where arabic is written and spoken. topics we cover include greeting and inquiring about people; using appropriate politeness phrases; giving and following directions; ordering meals; making transactions and reservations; and getting medical care. you will also learn about arab communities and societies and explore examples of popular culture from the arabic-speaking world. this practice-oriented course is a great introduction to arabic for college and high-school students, researchers, professionals, and travelers. it can be taken on its own or as a prequel to arabic study during the academic year. this course is taught in person and has no",
-    "prereqInfo": "uisites.",
-    "prereq": []
-  },
-  {
-    "code": "ARAB 1101",
-    "subject": "ARAB",
-    "id": "1101",
-    "title": "Beginning Arabic I",
-    "info": "after learning the arabic script, you will develop your ability to communicate in arabic about yourself, your community, and your environment. you will learn to speak, write, read, and listen to meet the demands of daily life. you will learn to inquire about others and negotiate meaning with them, and to interpret concise print, oral, and digital texts. you will also begin to explore the rich cultural diversity of the arab world. this class is taught following a communicative and interactive approach and is focused on practice.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "ARAB 1102",
-    "subject": "ARAB",
-    "id": "1102",
-    "title": "Beginning Arabic II",
-    "info": "as the continuation of arab-1101, arab-1102 focuses on the equal development of the fundamental skills of speaking, writing, reading, and listening in modern standard arabic. content is tailored to meet the communicative demands of daily life. class time is mostly devoted to practice. in addition to daily homework assignments, students give oral presentations, compose basic essays, and work on an oral or written project. attendance of this class is required for all five weekly contact hours. \n\npre-req: pass in arab-1101/4101, or equivalent experience as assessed through a placement test.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "ARAB 1201",
-    "subject": "ARAB",
-    "id": "1201",
-    "title": "Reading in Arabic  I",
-    "info": "reading authentic texts/articles in arabic. translation, interpretation.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "ARAB 1202",
-    "subject": "ARAB",
-    "id": "1202",
-    "title": "Reading in Arabic II",
-    "info": "reading authentic texts/articles in arabic. translation, interpretation.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "ARAB 1900",
-    "subject": "ARAB",
-    "id": "1900",
-    "title": "Topics in Arabic",
-    "info": "topics specified in course guide.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "ARAB 3030",
-    "subject": "ARAB",
-    "id": "3030",
-    "title": "Arabic Content-Based Instructi",
-    "info": "topics in arabic culture held in conjunction with colloquial language courses.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "ARAB 3036",
-    "subject": "ARAB",
-    "id": "3036",
-    "title": "Islam",
-    "info": "religion of islam, faith, practices, sectarian splintering, expansion outside original home to status of world religion, institutions, status in world societies--asia, europe, the americas.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "ARAB 3101",
-    "subject": "ARAB",
-    "id": "3101",
-    "title": "Intermediate Arabic I",
-    "info": "this course is designed for students who have successfully completed two semesters of intensive beginner modern standard arabic. like its prequels, intermediate arabic i focuses on the equal development of the fundamental skills of speaking, writing, reading, and listening in modern standard arabic. this course is designed as a communicative and interactive learning environment, with a strong emphasis on practice. presentations, oral interaction and writing samples are expected to become lengthier and more intricate. students study increasingly complex grammar through engagement with authentic oral, print and digital texts.",
-    "prereqInfo": "pass in arab 1102/4102 or equivalent experience as assessed through a placement test.",
-    "prereq": {
-      "and": [
-        {
-          "code": "ARAB 1102",
-          "subject": "ARAB",
-          "id": "1102"
-        },
-        {
-          "code": "ARAB 4102",
-          "subject": "ARAB",
-          "id": "4102"
+    {
+        "code": "ARAB 1001",
+        "subject": "ARAB",
+        "id": "1001",
+        "title": "Survival Arabic",
+        "info": "In this two-credit course, you will learn fundamental Arabic skills that allow you to interact successfully in Arabic with native speakers of the language, and navigate environments where Arabic is written and spoken. Topics we cover include greeting and inquiring about people; using appropriate politeness phrases; giving and following directions; ordering meals; making transactions and reservations; and getting medical care. You will also learn about Arab communities and societies and explore examples of popular culture from the Arabic-speaking world. This practice-oriented course is a great introduction to Arabic for college and high-school students, researchers, professionals, and travelers. It can be taken on its own or as a prequel to Arabic study during the academic year. This course is taught in person and has no prerequisites.",
+        "prereq": []
+    },
+    {
+        "code": "ARAB 1101",
+        "subject": "ARAB",
+        "id": "1101",
+        "title": "Beginning Arabic I",
+        "info": "After learning the Arabic script, you will develop your ability to communicate in Arabic about yourself, your community, and your environment. You will learn to speak, write, read, and listen to meet the demands of daily life. You will learn to inquire about others and negotiate meaning with them, and to interpret concise print, oral, and digital texts. You will also begin to explore the rich cultural diversity of the Arab world. This class is taught following a communicative and interactive approach and is focused on practice.",
+        "prereq": []
+    },
+    {
+        "code": "ARAB 1102",
+        "subject": "ARAB",
+        "id": "1102",
+        "title": "Beginning Arabic II",
+        "info": "As the continuation of ARAB-1101, ARAB-1102 focuses on the equal development of the fundamental skills of speaking, writing, reading, and listening in Modern Standard Arabic. Content is tailored to meet the communicative demands of daily life. Class time is mostly devoted to practice. In addition to daily homework assignments, students give oral presentations, compose basic essays, and work on an oral or written project. Attendance of this class is required for all five weekly contact hours. \n\nPre-req: pass in ARAB-1101/4101, or equivalent experience as assessed through a placement test.",
+        "prereq": []
+    },
+    {
+        "code": "ARAB 1201",
+        "subject": "ARAB",
+        "id": "1201",
+        "title": "Reading in Arabic  I",
+        "info": "Reading authentic texts/articles in Arabic. Translation, interpretation.",
+        "prereq": []
+    },
+    {
+        "code": "ARAB 1202",
+        "subject": "ARAB",
+        "id": "1202",
+        "title": "Reading in Arabic II",
+        "info": "Reading authentic texts/articles in Arabic. Translation, interpretation.",
+        "prereq": []
+    },
+    {
+        "code": "ARAB 1900",
+        "subject": "ARAB",
+        "id": "1900",
+        "title": "Topics in Arabic",
+        "info": "Topics specified in course guide.",
+        "prereq": []
+    },
+    {
+        "code": "ARAB 3030",
+        "subject": "ARAB",
+        "id": "3030",
+        "title": "Arabic Content-Based Instructi",
+        "info": "Topics in Arabic culture held in conjunction with colloquial language courses.",
+        "prereq": []
+    },
+    {
+        "code": "ARAB 3036",
+        "subject": "ARAB",
+        "id": "3036",
+        "title": "Islam",
+        "info": "Religion of Islam, faith, practices, sectarian splintering, expansion outside original home to status of world religion, institutions, status in world societies--Asia, Europe, the Americas.",
+        "prereq": []
+    },
+    {
+        "code": "ARAB 3101",
+        "subject": "ARAB",
+        "id": "3101",
+        "title": "Intermediate Arabic I",
+        "info": "This course is designed for students who have successfully completed two semesters of intensive Beginner Modern Standard Arabic. Like its prequels, Intermediate Arabic I focuses on the equal development of the fundamental skills of speaking, writing, reading, and listening in Modern Standard Arabic. This course is designed as a communicative and interactive learning environment, with a strong emphasis on practice. Presentations, oral interaction and writing samples are expected to become lengthier and more intricate. Students study increasingly complex grammar through engagement with authentic oral, print and digital texts. \n\nprereq: pass in Arab 1102/4102 or equivalent experience as assessed through a placement test.",
+        "prereq": {
+            "and": [
+                {
+                    "code": "ARAB 1102",
+                    "subject": "ARAB",
+                    "id": "1102"
+                },
+                {
+                    "code": "ARAB 4102",
+                    "subject": "ARAB",
+                    "id": "4102"
+                }
+            ]
         }
-      ]
-    }
-  },
-  {
-    "code": "ARAB 3102",
-    "subject": "ARAB",
-    "id": "3102",
-    "title": "Intermediate Arabic II",
-    "info": "this course is designed for students who have successfully completed three semesters of intensive modern standard arabic. like its prequels, intermediate arabic ii focuses on the equal development of the fundamental skills of speaking, writing, reading, and listening in modern standard arabic. thematic units, however, transcend the communicative needs of daily life to include communication about subjects of a broader cultural, historical and sociological relevance. this course is designed as a communicative and interactive learning environment, with a strong emphasis on practice. presentations, oral interaction, and writing samples are expected to become lengthier and more intricate. students study increasingly complex grammar through engagement with authentic oral, print, and digital texts. \n\npre-req: pass in arab-3101/4122 or equivalent experience as assessed through a placement test.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "ARAB 3201",
-    "subject": "ARAB",
-    "id": "3201",
-    "title": "Arabic Calligraphy",
-    "info": "in this course, you will study the history of arabic calligraphy and explore various calligraphic styles. you will learn about the work of well-known arab calligraphers, and about the ways in which visual artists from the arab world have incorporated calligraphy into their work. additionally, you will practice creating your own calligraphic work under the guidance of your instructor.",
-    "prereqInfo": "minimal knowledge of the arabic alphabet required; can be developed by means of concurrent registration in an arabic language course.",
-    "prereq": []
-  },
-  {
-    "code": "ARAB 3290",
-    "subject": "ARAB",
-    "id": "3290",
-    "title": "Arabic Teaching Tutorial",
-    "info": "students tutor beginning students of arabic and are part of department's arabic language team.",
-    "prereqInfo": "grade of a in 3102/4122",
-    "prereq": {
-      "and": [
-        {
-          "code": "ARAB 3102",
-          "subject": "ARAB",
-          "id": "3102"
-        },
-        {
-          "code": "ARAB 4122",
-          "subject": "ARAB",
-          "id": "4122"
+    },
+    {
+        "code": "ARAB 3102",
+        "subject": "ARAB",
+        "id": "3102",
+        "title": "Intermediate Arabic II",
+        "info": "This course is designed for students who have successfully completed three semesters of intensive Modern Standard Arabic. Like its prequels, Intermediate Arabic II focuses on the equal development of the fundamental skills of speaking, writing, reading, and listening in Modern Standard Arabic. Thematic units, however, transcend the communicative needs of daily life to include communication about subjects of a broader cultural, historical and sociological relevance. This course is designed as a communicative and interactive learning environment, with a strong emphasis on practice. Presentations, oral interaction, and writing samples are expected to become lengthier and more intricate. Students study increasingly complex grammar through engagement with authentic oral, print, and digital texts. \n\nPre-req: pass in ARAB-3101/4122 or equivalent experience as assessed through a placement test.",
+        "prereq": []
+    },
+    {
+        "code": "ARAB 3201",
+        "subject": "ARAB",
+        "id": "3201",
+        "title": "Arabic Calligraphy",
+        "info": "In this course, you will study the history of Arabic calligraphy and explore various calligraphic styles. You will learn about the work of well-known Arab calligraphers, and about the ways in which visual artists from the Arab world have incorporated calligraphy into their work. Additionally, you will practice creating your own calligraphic work under the guidance of your instructor.\nPrerequisite: Minimal knowledge of the Arabic alphabet required; can be developed by means of concurrent registration in an Arabic language course.",
+        "prereq": []
+    },
+    {
+        "code": "ARAB 3290",
+        "subject": "ARAB",
+        "id": "3290",
+        "title": "Arabic Teaching Tutorial",
+        "info": "Students tutor beginning students of Arabic and are part of department's Arabic language team.\n\nprereq: Grade of A in 3102/4122",
+        "prereq": {
+            "and": [
+                {
+                    "code": "ARAB 3102",
+                    "subject": "ARAB",
+                    "id": "3102"
+                },
+                {
+                    "code": "ARAB 4122",
+                    "subject": "ARAB",
+                    "id": "4122"
+                }
+            ]
         }
-      ]
-    }
-  },
-  {
-    "code": "ARAB 3491",
-    "subject": "ARAB",
-    "id": "3491",
-    "title": "Islam Civilization",
-    "info": "islamic legacy in the classical age (800-1400), including medical and natural sciences, mathematics, philosophy, literature, and their transmission to europe.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "ARAB 3505",
-    "subject": "ARAB",
-    "id": "3505",
-    "title": "Modern Middle East",
-    "info": "peoples, lands, and cultures of the middle east.  historical survey from earliest civilizations to the present.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "ARAB 3514",
-    "subject": "ARAB",
-    "id": "3514",
-    "title": "African-Arabic Lit",
-    "info": "literature from continental africa in arabic. novels, short stories, poetry, and drama by such writers as abd-al-hayy, abd-al-sabur, mahfouz, el-saadawi, and wattar. no knowledge of arabic required.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "ARAB 3524",
-    "subject": "ARAB",
-    "id": "3524",
-    "title": "The Qur'an",
-    "info": "textual, thematic, interpretive, and narrative aspects of the qur'an and its influence on modern arabic literature. all readings in english.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "ARAB 3541",
-    "subject": "ARAB",
-    "id": "3541",
-    "title": "Islam: Catholic Age",
-    "info": "the rise of islam in its arabian setting. roles of the prophet, the orthodox and umayyad caliphs. development of the islamic state and empire. status of muslims and non-muslims.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "ARAB 3542",
-    "subject": "ARAB",
-    "id": "3542",
-    "title": "Medieval Islam",
-    "info": "islamic dynasties, mamluks and mongols, crusaders and assassins. abbasid caliphate's disintegration and rise of seljuk turks.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "ARAB 3543",
-    "subject": "ARAB",
-    "id": "3543",
-    "title": "Arabs under Ottoman",
-    "info": "struggle against crusaders and mongols.  disintegration and reemergence under muhammad ali of egypt; dynastic struggles in syria; rise of young turks; arab revolt.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "ARAB 3544",
-    "subject": "ARAB",
-    "id": "3544",
-    "title": "Recent Arab World",
-    "info": "struggle in the arab world for independence and its course since independence. emphasis on development, political stability and unity; political structures; the arab-israeli conflict.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "ARAB 3547",
-    "subject": "ARAB",
-    "id": "3547",
-    "title": "Ottoman History",
-    "info": "founding of ottoman society and state to empire, 1300 to end of the empire in 1920.  lands, institutions, peoples, legacy, impact on europe.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "ARAB 3811",
-    "subject": "ARAB",
-    "id": "3811",
-    "title": "Egyptian Colloquial Arabic I",
-    "info": "this course is designed for students of arabic who have taken a minimum of two semesters of modern standard arabic (arab 1101 and 1102), or the equivalent thereof as determined by a placement test. the course provides training in the fundamentals of egyptian colloquial arabic, one of the most widely-spoken and widely-understood arabic vernaculars. students practice the expression and comprehension of communicative needs in a variety of daily-life, informal situations. in addition, they are acquainted with a range of authentic cultural materials (film, tv broadcasts, songs) in egyptian arabic. the course relies heavily on oral practice and class periods are designed to be interactive.\n\ncredit will not be granted if student has already taken arab 3900 fall 2015, summer 2016",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "ARAB 3812",
-    "subject": "ARAB",
-    "id": "3812",
-    "title": "Egyptian Colloquial Arabic II",
-    "info": "as the continuation of arab 3811 egyptian colloquial arabic i, this course focuses on further developing oral expression and comprehension skills in egyptian arabic. by practicing the target language, students explore important elements of egyptian culture and history and engage with a dynamic cross-section of authentic media and cultural material including film, television, news, and music. the course relies heavily on oral practice and class periods are designed to be interactive. textbooks used are samia louis' kallimni 'arabi and kallimni 'arabi aktar. the course is designed for students of arabic who have completed egyptian colloquial arabic i, or the equivalent thereof, as determined by a placement test. this course is open to non-native speakers and non-heritage learners of arabic only. as a 3-credit course, it cannot be taken in lieu of arab 3101 or arab 3102 to fulfill the cla second language requirement. it can, however, be taken concurrently with these classes.\n\ncredit will not be granted if student has already taken arab 3900 spring 2016, summer 2016",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "ARAB 3813",
-    "subject": "ARAB",
-    "id": "3813",
-    "title": "Jordanian Colloquial Arabic",
-    "info": "this course is designed for students of arabic who have taken minimum two semesters of modern standard arabic (arab 1101 & 1102), or the equivalent thereof as determined by a placement test. the course provides training in the fundamentals of jordanian and palestinian spoken arabic, which is widely understood all over the arab world, and is also very similar to the arabic spoken in syria and lebanon. this course specifically revolves around the development of your speaking, listening and transcultural skills. it will provide you with many opportunities to speak, watch, and listen to jordanian arabic and to learn about the cultures and societies of the levant. the course aims to increase your ability to successfully navigate the variety of arabic language registers, and to substantially improve your cultural competence. \nthis course is open to non-native speakers and non-heritage learners of arabic only. as a 3-credit course, it cannot be taken in lieu of arab 3101 or arab 3102 to fulfill the cla second language requirement. it can, however, be taken concurrently with these classes.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "ARAB 3814",
-    "subject": "ARAB",
-    "id": "3814",
-    "title": "Gulf Colloquial Arabic",
-    "info": "this course is designed for students of arabic who have taken minimum two semesters of modern standard arabic (arab 1101 & 1102), or the equivalent thereof as determined by a placement test. the course provides training in the fundamentals of the spoken arabic of the arabian peninsula region. you will learn how to participate with ease and confidence in informal conversations in gulf colloquial arabic around topics in the domestic and informal sphere, as well as some general interest topics of communal/regional relevance. you will engage with a wide variety of authentic popular culture materials from the region, and will explore a variety of cultural practices prevalent in the arabian peninsula region, thereby substantially improving your intercultural competence.\nthis course is open to non-native speakers and non-heritage learners of arabic only. as a 3-credit course, it cannot be taken in lieu of arab 3101 or arab 3102 to fulfill the cla second language requirement. it can, however, be taken concurrently with these classes.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "ARAB 3900",
-    "subject": "ARAB",
-    "id": "3900",
-    "title": "Topics in Arabic",
-    "info": "topics specified in course guide.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "ARAB 3920",
-    "subject": "ARAB",
-    "id": "3920",
-    "title": "Topics: Arabic Culture",
-    "info": "selected topics in arabic culture. topics specified in the class schedule.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "ARAB 3993",
-    "subject": "ARAB",
-    "id": "3993",
-    "title": "Directed Study",
-    "info": "for advanced students with individual faculty members.",
-    "prereqInfo": "-instr consent, dept consent, college consent.",
-    "prereq": []
-  },
-  {
-    "code": "ARAB 4101",
-    "subject": "ARAB",
-    "id": "4101",
-    "title": "Beg Arabic I Grad Research",
-    "info": "after learning the arabic script, you will develop your ability to communicate in arabic about yourself, your community and your environment. you will learn to speak, write, read, and listen to meet the demands of daily life. you will learn to inquire about others and negotiate meaning with them, and to interpret concise print, oral, and digital texts. you will also begin to explore the rich cultural diversity of the arab world. this class is taught following a communicative and interactive approach and is focused on practice.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "ARAB 4102",
-    "subject": "ARAB",
-    "id": "4102",
-    "title": "Beg Arabic II Grad Research",
-    "info": "comprehension, oral practice, reading of standard arabic. meets with 1102.",
-    "prereqInfo": "4101 or equiv",
-    "prereq": {
-      "code": "ARAB 4101",
-      "subject": "ARAB",
-      "id": "4101"
-    }
-  },
-  {
-    "code": "ARAB 4121",
-    "subject": "ARAB",
-    "id": "4121",
-    "title": "Int Arabic I Grad Research",
-    "info": "this course is designed for students who have successfully completed two semesters of intensive beginner modern standard arabic. like its prequels, intermediate arabic i focuses on the equal development of the fundamental skills of speaking, writing, reading, and listening in modern standard arabic. this course is designed as a communicative and interactive learning environment, with a strong emphasis on practice. presentations, oral interaction, and writing samples are expected to become lengthier and more intricate. students study increasingly complex grammar through engagement with authentic oral, print, and digital texts.",
-    "prereqInfo": "pass in arab 1102/4102 or equivalent experience as assessed through a placement test.",
-    "prereq": {
-      "and": [
-        {
-          "code": "ARAB 1102",
-          "subject": "ARAB",
-          "id": "1102"
-        },
-        {
-          "code": "ARAB 4102",
-          "subject": "ARAB",
-          "id": "4102"
+    },
+    {
+        "code": "ARAB 3491",
+        "subject": "ARAB",
+        "id": "3491",
+        "title": "Islam Civilization",
+        "info": "Islamic legacy in the classical age (800-1400), including medical and natural sciences, mathematics, philosophy, literature, and their transmission to Europe.",
+        "prereq": []
+    },
+    {
+        "code": "ARAB 3505",
+        "subject": "ARAB",
+        "id": "3505",
+        "title": "Modern Middle East",
+        "info": "Peoples, lands, and cultures of the Middle East.  Historical survey from earliest civilizations to the present.",
+        "prereq": []
+    },
+    {
+        "code": "ARAB 3514",
+        "subject": "ARAB",
+        "id": "3514",
+        "title": "African-Arabic Lit",
+        "info": "Literature from continental Africa in Arabic. Novels, short stories, poetry, and drama by such writers as Abd-al-Hayy, Abd-al-Sabur, Mahfouz, El-Saadawi, and Wattar. No knowledge of Arabic required.",
+        "prereq": []
+    },
+    {
+        "code": "ARAB 3524",
+        "subject": "ARAB",
+        "id": "3524",
+        "title": "The Qur'an",
+        "info": "Textual, thematic, interpretive, and narrative aspects of the Qur'an and its influence on modern Arabic literature. All readings in English.",
+        "prereq": []
+    },
+    {
+        "code": "ARAB 3541",
+        "subject": "ARAB",
+        "id": "3541",
+        "title": "Islam: Catholic Age",
+        "info": "The rise of Islam in its Arabian setting. Roles of the prophet, the Orthodox and Umayyad Caliphs. Development of the Islamic state and empire. Status of Muslims and non-Muslims.",
+        "prereq": []
+    },
+    {
+        "code": "ARAB 3542",
+        "subject": "ARAB",
+        "id": "3542",
+        "title": "Medieval Islam",
+        "info": "Islamic dynasties, Mamluks and Mongols, Crusaders and Assassins. Abbasid Caliphate's disintegration and rise of Seljuk Turks.",
+        "prereq": []
+    },
+    {
+        "code": "ARAB 3543",
+        "subject": "ARAB",
+        "id": "3543",
+        "title": "Arabs under Ottoman",
+        "info": "Struggle against Crusaders and Mongols.  Disintegration and reemergence under Muhammad Ali of Egypt; dynastic struggles in Syria; rise of Young Turks; Arab revolt.",
+        "prereq": []
+    },
+    {
+        "code": "ARAB 3544",
+        "subject": "ARAB",
+        "id": "3544",
+        "title": "Recent Arab World",
+        "info": "Struggle in the Arab world for independence and its course since independence. Emphasis on development, political stability and unity; political structures; the Arab-Israeli conflict.",
+        "prereq": []
+    },
+    {
+        "code": "ARAB 3547",
+        "subject": "ARAB",
+        "id": "3547",
+        "title": "Ottoman History",
+        "info": "Founding of Ottoman society and state to empire, 1300 to end of the empire in 1920.  Lands, institutions, peoples, legacy, impact on Europe.",
+        "prereq": []
+    },
+    {
+        "code": "ARAB 3811",
+        "subject": "ARAB",
+        "id": "3811",
+        "title": "Egyptian Colloquial Arabic I",
+        "info": "This course is designed for students of Arabic who have taken a minimum of two semesters of Modern Standard Arabic (ARAB 1101 and 1102), or the equivalent thereof as determined by a placement test. The course provides training in the fundamentals of Egyptian Colloquial Arabic, one of the most widely-spoken and widely-understood Arabic vernaculars. Students practice the expression and comprehension of communicative needs in a variety of daily-life, informal situations. In addition, they are acquainted with a range of authentic cultural materials (film, TV broadcasts, songs) in Egyptian Arabic. The course relies heavily on oral practice and class periods are designed to be interactive.\n\nCredit will not be granted if student has already taken ARAB 3900 Fall 2015, Summer 2016",
+        "prereq": []
+    },
+    {
+        "code": "ARAB 3812",
+        "subject": "ARAB",
+        "id": "3812",
+        "title": "Egyptian Colloquial Arabic II",
+        "info": "As the continuation of ARAB 3811 Egyptian Colloquial Arabic I, this course focuses on further developing oral expression and comprehension skills in Egyptian Arabic. By practicing the target language, students explore important elements of Egyptian culture and history and engage with a dynamic cross-section of authentic media and cultural material including film, television, news, and music. The course relies heavily on oral practice and class periods are designed to be interactive. Textbooks used are Samia Louis' Kallimni 'Arabi and Kallimni 'Arabi Aktar. The course is designed for students of Arabic who have completed Egyptian Colloquial Arabic I, or the equivalent thereof, as determined by a placement test. This course is open to non-native speakers and non-heritage learners of Arabic only. As a 3-credit course, it cannot be taken in lieu of ARAB 3101 or ARAB 3102 to fulfill the CLA second language requirement. It can, however, be taken concurrently with these classes.\n\nCredit will not be granted if student has already taken ARAB 3900 Spring 2016, Summer 2016",
+        "prereq": []
+    },
+    {
+        "code": "ARAB 3813",
+        "subject": "ARAB",
+        "id": "3813",
+        "title": "Jordanian Colloquial Arabic",
+        "info": "This course is designed for students of Arabic who have taken minimum two semesters of Modern Standard Arabic (ARAB 1101 & 1102), or the equivalent thereof as determined by a placement test. The course provides training in the fundamentals of Jordanian and Palestinian spoken Arabic, which is widely understood all over the Arab world, and is also very similar to the Arabic spoken in Syria and Lebanon. This course specifically revolves around the development of your speaking, listening and transcultural skills. It will provide you with many opportunities to speak, watch, and listen to Jordanian Arabic and to learn about the cultures and societies of the Levant. The course aims to increase your ability to successfully navigate the variety of Arabic language registers, and to substantially improve your cultural competence. \nThis course is open to non-native speakers and non-heritage learners of Arabic only. As a 3-credit course, it cannot be taken in lieu of ARAB 3101 or ARAB 3102 to fulfill the CLA second language requirement. It can, however, be taken concurrently with these classes. ",
+        "prereq": []
+    },
+    {
+        "code": "ARAB 3814",
+        "subject": "ARAB",
+        "id": "3814",
+        "title": "Gulf Colloquial Arabic",
+        "info": "This course is designed for students of Arabic who have taken minimum two semesters of Modern Standard Arabic (ARAB 1101 & 1102), or the equivalent thereof as determined by a placement test. The course provides training in the fundamentals of the spoken Arabic of the Arabian Peninsula region. You will learn how to participate with ease and confidence in informal conversations in Gulf Colloquial Arabic around topics in the domestic and informal sphere, as well as some general interest topics of communal/regional relevance. You will engage with a wide variety of authentic popular culture materials from the region, and will explore a variety of cultural practices prevalent in the Arabian Peninsula region, thereby substantially improving your intercultural competence.\nThis course is open to non-native speakers and non-heritage learners of Arabic only. As a 3-credit course, it cannot be taken in lieu of ARAB 3101 or ARAB 3102 to fulfill the CLA second language requirement. It can, however, be taken concurrently with these classes. ",
+        "prereq": []
+    },
+    {
+        "code": "ARAB 3900",
+        "subject": "ARAB",
+        "id": "3900",
+        "title": "Topics in Arabic",
+        "info": "Topics specified in course guide.",
+        "prereq": []
+    },
+    {
+        "code": "ARAB 3920",
+        "subject": "ARAB",
+        "id": "3920",
+        "title": "Topics: Arabic Culture",
+        "info": "Selected topics in Arabic culture. Topics specified in the Class Schedule.",
+        "prereq": []
+    },
+    {
+        "code": "ARAB 3993",
+        "subject": "ARAB",
+        "id": "3993",
+        "title": "Directed Study",
+        "info": "For advanced students with individual faculty members.\nPrereq-instr consent, dept consent, college consent.",
+        "prereq": []
+    },
+    {
+        "code": "ARAB 4101",
+        "subject": "ARAB",
+        "id": "4101",
+        "title": "Beg Arabic I Grad Research",
+        "info": "After learning the Arabic script, you will develop your ability to communicate in Arabic about yourself, your community and your environment. You will learn to speak, write, read, and listen to meet the demands of daily life. You will learn to inquire about others and negotiate meaning with them, and to interpret concise print, oral, and digital texts. You will also begin to explore the rich cultural diversity of the Arab world. This class is taught following a communicative and interactive approach and is focused on practice.",
+        "prereq": []
+    },
+    {
+        "code": "ARAB 4102",
+        "subject": "ARAB",
+        "id": "4102",
+        "title": "Beg Arabic II Grad Research",
+        "info": "Comprehension, oral practice, reading of standard Arabic. Meets with 1102.\n\nprereq: 4101 or equiv",
+        "prereq": {
+            "code": "ARAB 4101",
+            "subject": "ARAB",
+            "id": "4101"
         }
-      ]
+    },
+    {
+        "code": "ARAB 4121",
+        "subject": "ARAB",
+        "id": "4121",
+        "title": "Int Arabic I Grad Research",
+        "info": "This course is designed for students who have successfully completed two semesters of intensive Beginner Modern Standard Arabic. Like its prequels, Intermediate Arabic I focuses on the equal development of the fundamental skills of speaking, writing, reading, and listening in Modern Standard Arabic. This course is designed as a communicative and interactive learning environment, with a strong emphasis on practice. Presentations, oral interaction, and writing samples are expected to become lengthier and more intricate. Students study increasingly complex grammar through engagement with authentic oral, print, and digital texts. \n\nprereq: pass in Arab 1102/4102 or equivalent experience as assessed through a placement test.",
+        "prereq": {
+            "and": [
+                {
+                    "code": "ARAB 1102",
+                    "subject": "ARAB",
+                    "id": "1102"
+                },
+                {
+                    "code": "ARAB 4102",
+                    "subject": "ARAB",
+                    "id": "4102"
+                }
+            ]
+        }
+    },
+    {
+        "code": "ARAB 4122",
+        "subject": "ARAB",
+        "id": "4122",
+        "title": "Int Arabic II Grad Research",
+        "info": "Advanced grammar, analyses of readings, oral comprehension. Meets with 3102.\n\nprereq: 4121 or equiv",
+        "prereq": {
+            "code": "ARAB 4121",
+            "subject": "ARAB",
+            "id": "4121"
+        }
+    },
+    {
+        "code": "ARAB 4811",
+        "subject": "ARAB",
+        "id": "4811",
+        "title": "Egyptian Arabic I Grad Resrch",
+        "info": " This course is designed for students of Arabic who have taken a minimum of two semesters of Modern Standard Arabic (ARAB 1101 and 1102), or the equivalent thereof as determined by a placement test. The course provides training in the fundamentals of Egyptian Colloquial Arabic, one of the most widely-spoken and widely-understood Arabic vernaculars. Students practice the expression and comprehension of communicative needs in a variety of daily-life, informal situations. In addition, they are acquainted with a range of authentic cultural materials (film, TV broadcasts, songs) in Egyptian Arabic. The course relies heavily on oral practice and class periods are designed to be interactive.\nMeets with ARAB 3811.",
+        "prereq": []
+    },
+    {
+        "code": "ARAB 4813",
+        "subject": "ARAB",
+        "id": "4813",
+        "title": "Jordanian Arabic Grad Research",
+        "info": "This course is designed for students of Arabic who have taken minimum two semesters of Modern Standard Arabic (ARAB 1101 & 1102), or the equivalent thereof as determined by a placement test. The course provides training in the fundamentals of Jordanian and Palestinian spoken Arabic, which is widely understood all over the Arab world, and is also very similar to the Arabic spoken in Syria and Lebanon. This course specifically revolves around the development of your speaking, listening and transcultural skills. It will provide you with many opportunities to speak, watch, and listen to Jordanian Arabic and to learn about the cultures and societies of the Levant. The course aims to increase your ability to successfully navigate the variety of Arabic language registers, and to substantially improve your cultural competence. \nThis course is open to non-native speakers and non-heritage learners of Arabic only. ",
+        "prereq": []
+    },
+    {
+        "code": "ARAB 4814",
+        "subject": "ARAB",
+        "id": "4814",
+        "title": "Gulf Arabic Grad Research",
+        "info": "This course is designed for students of Arabic who have taken minimum two semesters of Modern Standard Arabic (ARAB 1101 & 1102), or the equivalent thereof as determined by a placement test. The course provides training in the fundamentals of the spoken Arabic of the Arabian Peninsula region. You will learn how to participate with ease and confidence in informal conversations in Gulf Colloquial Arabic around topics in the domestic and informal sphere, as well as some general interest topics of communal/regional relevance. You will engage with a wide variety of authentic popular culture materials from the region, and will explore a variety of cultural practices prevalent in the Arabian Peninsula region, thereby substantially improving your intercultural competence.\nThis course is open to non-native speakers and non-heritage learners of Arabic only. ",
+        "prereq": []
+    },
+    {
+        "code": "ARAB 5001",
+        "subject": "ARAB",
+        "id": "5001",
+        "title": "Research Methods",
+        "info": "Skills and techniques required to deal with medieval and modern works in Arabic literature and Islam.  A survey of the most important research bibliographies in Arabic and Islamic studies. Bibliographic references in English and, when appropriate, Arabic.",
+        "prereq": []
+    },
+    {
+        "code": "ARAB 5011",
+        "subject": "ARAB",
+        "id": "5011",
+        "title": "Islam in Africa",
+        "info": "Ideological, doctrinal, and ritual aspects of continental African Islam. Emphasis on various religious brotherhoods and Sufi orders from different African countries in the 20th century.  No knowledge of Arabic required.",
+        "prereq": []
+    },
+    {
+        "code": "ARAB 5036",
+        "subject": "ARAB",
+        "id": "5036",
+        "title": "Islam",
+        "info": "Religion of Islam, faith, practices, sectarian splintering, expansion outside original home to status of world religion, institutions, status in world societies - Asia, Europe, Americas.",
+        "prereq": []
+    },
+    {
+        "code": "ARAB 5040",
+        "subject": "ARAB",
+        "id": "5040",
+        "title": "Readings in Arabic Texts",
+        "info": "Post-advanced study of extensive, complex original Arabic texts and development of students' Arabic discussion and writing skills in the realms of literature, academia, media and/or business. All primary and secondary readings, assignments, in-class analysis and discussion are done fully in Arabic.  Topics specified in Class Schedule.",
+        "prereq": []
+    },
+    {
+        "code": "ARAB 5041",
+        "subject": "ARAB",
+        "id": "5041",
+        "title": "Classical/Modern Arabic Prose",
+        "info": "In this class, students read extensive, complex, original Arabic texts and develop their academic discussion and writing skills in Arabic. The course covers a substantial number of Arabic literary texts of different genres and time periods: excerpts of the Prophet's biography, classical treatises and travel writing, stories from the \\\"1001 Nights,\\\" 20th-century short stories, and short novels. To contextualize the literary texts, students read secondary texts also composed in Arabic and engage with Arabic audiovisual materials (video clips, TV interviews, songs) in class and at home. In-class analysis and discussion of the texts is conducted exclusively in Arabic. prereq: ARAB 5102 or the equivalent thereof as established by a placement test",
+        "prereq": {
+            "code": "ARAB 5102",
+            "subject": "ARAB",
+            "id": "5102"
+        }
+    },
+    {
+        "code": "ARAB 5101",
+        "subject": "ARAB",
+        "id": "5101",
+        "title": "Advanced Arabic I",
+        "info": "Advanced readings in classical/modern Arabic. Compositions based on texts.\n\nprereq: Grade B- or higher in 3102 or instr consent",
+        "prereq": {
+            "code": "ARAB 3102",
+            "subject": "ARAB",
+            "id": "3102"
+        }
+    },
+    {
+        "code": "ARAB 5102",
+        "subject": "ARAB",
+        "id": "5102",
+        "title": "Advanced Arabic II",
+        "info": "Readings of Arabic texts. Writing compositions based on texts. Continuation of 5101.",
+        "prereq": []
+    },
+    {
+        "code": "ARAB 5491",
+        "subject": "ARAB",
+        "id": "5491",
+        "title": "Islam Civilization",
+        "info": "Islamic legacy in the classical age (800-1400), including medical/natural sciences, mathematics, philosophy, literature, and their transmission to Europe.",
+        "prereq": []
+    },
+    {
+        "code": "ARAB 5501",
+        "subject": "ARAB",
+        "id": "5501",
+        "title": "Arabic Poetry",
+        "info": "Free verse movement and its major trends: post-romantic, social realist, symbolist, resistance, prose poem. Emphasizes leading poets such as al-Mala'ika, al-Sayyab, al-Bayati, and Adunis. Theoretical/critical essays. All readings in English.",
+        "prereq": []
+    },
+    {
+        "code": "ARAB 5502",
+        "subject": "ARAB",
+        "id": "5502",
+        "title": "Arabic Novel",
+        "info": "The novel as a new genre in Arabic literature. Trends: realist, psychological, existentialist, feminist, post-modernist, fantastic, experimentalist. Emphasizes major writers such as Mahfouz, Ghanem, Salih, Jabra, El Sa'dawi, Munif, and Khouri. Theoretical/critical essays. Cultural /historical context.",
+        "prereq": []
+    },
+    {
+        "code": "ARAB 5503",
+        "subject": "ARAB",
+        "id": "5503",
+        "title": "Arabic Drama",
+        "info": "Emergence and development of drama as a European-inspired genre in Arabic literature. Emphasizes major trends and playwrights. All readings in English.",
+        "prereq": []
+    },
+    {
+        "code": "ARAB 5505",
+        "subject": "ARAB",
+        "id": "5505",
+        "title": "Modern Middle East",
+        "info": "Peoples, lands, and cultures of the Middle East.  Historical survey from earliest civilizations to the present.",
+        "prereq": []
+    },
+    {
+        "code": "ARAB 5541",
+        "subject": "ARAB",
+        "id": "5541",
+        "title": "Islam: Catholic Age",
+        "info": "The rise of Islam in its Arabian setting. Roles of the prophet, the Orthodox and Umayyad Caliphs. Development of the Islamic state and empire. Status of Muslims and non-Muslims.",
+        "prereq": []
+    },
+    {
+        "code": "ARAB 5542",
+        "subject": "ARAB",
+        "id": "5542",
+        "title": "Medieval Islam",
+        "info": "Islamic dynasties, Mamluks and Mongols, and Crusaders and Assassins.  Abbasid Caliphate's disintegration and rise of Seljuk Turks.",
+        "prereq": []
+    },
+    {
+        "code": "ARAB 5543",
+        "subject": "ARAB",
+        "id": "5543",
+        "title": "Arabs under Ottoman",
+        "info": "Struggle against Crusaders and Mongols.  Disintegration and reemergence under Muhammad Ali of Egypt; dynastic struggles in Syria; rise of Young Turks; Arab revolt.",
+        "prereq": []
+    },
+    {
+        "code": "ARAB 5544",
+        "subject": "ARAB",
+        "id": "5544",
+        "title": "Recent Arab World",
+        "info": "Struggle in the Arab world for independence and its course since independence. Emphasis on development, political stability and unity; political structures; the Arab-Israeli conflict.",
+        "prereq": []
+    },
+    {
+        "code": "ARAB 5678",
+        "subject": "ARAB",
+        "id": "5678",
+        "title": "Afri-Arabic Fiction",
+        "info": "African fiction in Arabic, including works of Barrada, Idris, Mahrouz, al-Matwi, El-Saadawi, and el-Zayat. Emphasizes twentieth century. Tests discussed in historical/cultural context. Theoretical/critical essays. All readings in English.",
+        "prereq": []
+    },
+    {
+        "code": "ARAB 5900",
+        "subject": "ARAB",
+        "id": "5900",
+        "title": "Topics in Arabic",
+        "info": "Readings and discussion of selected works in Arabic. Topics specified in Class Schedule.",
+        "prereq": []
+    },
+    {
+        "code": "ARAB 5993",
+        "subject": "ARAB",
+        "id": "5993",
+        "title": "Directed Studies",
+        "info": "Students enrolling in this directed study/research course will complete the University's common Directed Study/Research contract with the faculty mentor/evaluator. The Faculty member will ensure academic standards are upheld, including: \n\n-The work proposed is at the appropriate level for the course, academic in nature, and the student will be involved intellectually in the project. \n-The project scope is reasonable for one semester and the number of credits specified (42 hours of work per credit).\n-The faculty mentor is qualified to serve in this role.\n-Assessment of student learning and grading criteria are clear and appropriate.\n-The student will be working in a respectful, inclusive environment.\n",
+        "prereq": []
+    },
+    {
+        "code": "ARAB 8333",
+        "subject": "ARAB",
+        "id": "8333",
+        "title": "FTE: Master's",
+        "info": "(No description)",
+        "prereq": []
     }
-  },
-  {
-    "code": "ARAB 4122",
-    "subject": "ARAB",
-    "id": "4122",
-    "title": "Int Arabic II Grad Research",
-    "info": "advanced grammar, analyses of readings, oral comprehension. meets with 3102.",
-    "prereqInfo": "4121 or equiv",
-    "prereq": {
-      "code": "ARAB 4121",
-      "subject": "ARAB",
-      "id": "4121"
-    }
-  },
-  {
-    "code": "ARAB 4811",
-    "subject": "ARAB",
-    "id": "4811",
-    "title": "Egyptian Arabic I Grad Resrch",
-    "info": "this course is designed for students of arabic who have taken a minimum of two semesters of modern standard arabic (arab 1101 and 1102), or the equivalent thereof as determined by a placement test. the course provides training in the fundamentals of egyptian colloquial arabic, one of the most widely-spoken and widely-understood arabic vernaculars. students practice the expression and comprehension of communicative needs in a variety of daily-life, informal situations. in addition, they are acquainted with a range of authentic cultural materials (film, tv broadcasts, songs) in egyptian arabic. the course relies heavily on oral practice and class periods are designed to be interactive.\nmeets with arab 3811.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "ARAB 4813",
-    "subject": "ARAB",
-    "id": "4813",
-    "title": "Jordanian Arabic Grad Research",
-    "info": "this course is designed for students of arabic who have taken minimum two semesters of modern standard arabic (arab 1101 & 1102), or the equivalent thereof as determined by a placement test. the course provides training in the fundamentals of jordanian and palestinian spoken arabic, which is widely understood all over the arab world, and is also very similar to the arabic spoken in syria and lebanon. this course specifically revolves around the development of your speaking, listening and transcultural skills. it will provide you with many opportunities to speak, watch, and listen to jordanian arabic and to learn about the cultures and societies of the levant. the course aims to increase your ability to successfully navigate the variety of arabic language registers, and to substantially improve your cultural competence. \nthis course is open to non-native speakers and non-heritage learners of arabic only.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "ARAB 4814",
-    "subject": "ARAB",
-    "id": "4814",
-    "title": "Gulf Arabic Grad Research",
-    "info": "this course is designed for students of arabic who have taken minimum two semesters of modern standard arabic (arab 1101 & 1102), or the equivalent thereof as determined by a placement test. the course provides training in the fundamentals of the spoken arabic of the arabian peninsula region. you will learn how to participate with ease and confidence in informal conversations in gulf colloquial arabic around topics in the domestic and informal sphere, as well as some general interest topics of communal/regional relevance. you will engage with a wide variety of authentic popular culture materials from the region, and will explore a variety of cultural practices prevalent in the arabian peninsula region, thereby substantially improving your intercultural competence.\nthis course is open to non-native speakers and non-heritage learners of arabic only.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "ARAB 5001",
-    "subject": "ARAB",
-    "id": "5001",
-    "title": "Research Methods",
-    "info": "skills and techniques required to deal with medieval and modern works in arabic literature and islam.  a survey of the most important research bibliographies in arabic and islamic studies. bibliographic references in english and, when appropriate, arabic.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "ARAB 5011",
-    "subject": "ARAB",
-    "id": "5011",
-    "title": "Islam in Africa",
-    "info": "ideological, doctrinal, and ritual aspects of continental african islam. emphasis on various religious brotherhoods and sufi orders from different african countries in the 20th century.  no knowledge of arabic required.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "ARAB 5036",
-    "subject": "ARAB",
-    "id": "5036",
-    "title": "Islam",
-    "info": "religion of islam, faith, practices, sectarian splintering, expansion outside original home to status of world religion, institutions, status in world societies - asia, europe, americas.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "ARAB 5040",
-    "subject": "ARAB",
-    "id": "5040",
-    "title": "Readings in Arabic Texts",
-    "info": "post-advanced study of extensive, complex original arabic texts and development of students' arabic discussion and writing skills in the realms of literature, academia, media and/or business. all primary and secondary readings, assignments, in-class analysis and discussion are done fully in arabic.  topics specified in class schedule.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "ARAB 5041",
-    "subject": "ARAB",
-    "id": "5041",
-    "title": "Classical/Modern Arabic Prose",
-    "info": "in this class, students read extensive, complex, original arabic texts and develop their academic discussion and writing skills in arabic. the course covers a substantial number of arabic literary texts of different genres and time periods: excerpts of the prophet's biography, classical treatises and travel writing, stories from the \\\"1001 nights,\\\" 20th-century short stories, and short novels. to contextualize the literary texts, students read secondary texts also composed in arabic and engage with arabic audiovisual materials (video clips, tv interviews, songs) in class and at home. in-class analysis and discussion of the texts is conducted exclusively in arabic.",
-    "prereqInfo": "arab 5102 or the equivalent thereof as established by a placement test",
-    "prereq": {
-      "code": "ARAB 5102",
-      "subject": "ARAB",
-      "id": "5102"
-    }
-  },
-  {
-    "code": "ARAB 5101",
-    "subject": "ARAB",
-    "id": "5101",
-    "title": "Advanced Arabic I",
-    "info": "advanced readings in classical/modern arabic. compositions based on texts.",
-    "prereqInfo": "grade b- or higher in 3102 or instr consent",
-    "prereq": {
-      "code": "ARAB 3102",
-      "subject": "ARAB",
-      "id": "3102"
-    }
-  },
-  {
-    "code": "ARAB 5102",
-    "subject": "ARAB",
-    "id": "5102",
-    "title": "Advanced Arabic II",
-    "info": "readings of arabic texts. writing compositions based on texts. continuation of 5101.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "ARAB 5491",
-    "subject": "ARAB",
-    "id": "5491",
-    "title": "Islam Civilization",
-    "info": "islamic legacy in the classical age (800-1400), including medical/natural sciences, mathematics, philosophy, literature, and their transmission to europe.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "ARAB 5501",
-    "subject": "ARAB",
-    "id": "5501",
-    "title": "Arabic Poetry",
-    "info": "free verse movement and its major trends: post-romantic, social realist, symbolist, resistance, prose poem. emphasizes leading poets such as al-mala'ika, al-sayyab, al-bayati, and adunis. theoretical/critical essays. all readings in english.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "ARAB 5502",
-    "subject": "ARAB",
-    "id": "5502",
-    "title": "Arabic Novel",
-    "info": "the novel as a new genre in arabic literature. trends: realist, psychological, existentialist, feminist, post-modernist, fantastic, experimentalist. emphasizes major writers such as mahfouz, ghanem, salih, jabra, el sa'dawi, munif, and khouri. theoretical/critical essays. cultural /historical context.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "ARAB 5503",
-    "subject": "ARAB",
-    "id": "5503",
-    "title": "Arabic Drama",
-    "info": "emergence and development of drama as a european-inspired genre in arabic literature. emphasizes major trends and playwrights. all readings in english.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "ARAB 5505",
-    "subject": "ARAB",
-    "id": "5505",
-    "title": "Modern Middle East",
-    "info": "peoples, lands, and cultures of the middle east.  historical survey from earliest civilizations to the present.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "ARAB 5541",
-    "subject": "ARAB",
-    "id": "5541",
-    "title": "Islam: Catholic Age",
-    "info": "the rise of islam in its arabian setting. roles of the prophet, the orthodox and umayyad caliphs. development of the islamic state and empire. status of muslims and non-muslims.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "ARAB 5542",
-    "subject": "ARAB",
-    "id": "5542",
-    "title": "Medieval Islam",
-    "info": "islamic dynasties, mamluks and mongols, and crusaders and assassins.  abbasid caliphate's disintegration and rise of seljuk turks.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "ARAB 5543",
-    "subject": "ARAB",
-    "id": "5543",
-    "title": "Arabs under Ottoman",
-    "info": "struggle against crusaders and mongols.  disintegration and reemergence under muhammad ali of egypt; dynastic struggles in syria; rise of young turks; arab revolt.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "ARAB 5544",
-    "subject": "ARAB",
-    "id": "5544",
-    "title": "Recent Arab World",
-    "info": "struggle in the arab world for independence and its course since independence. emphasis on development, political stability and unity; political structures; the arab-israeli conflict.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "ARAB 5678",
-    "subject": "ARAB",
-    "id": "5678",
-    "title": "Afri-Arabic Fiction",
-    "info": "african fiction in arabic, including works of barrada, idris, mahrouz, al-matwi, el-saadawi, and el-zayat. emphasizes twentieth century. tests discussed in historical/cultural context. theoretical/critical essays. all readings in english.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "ARAB 5900",
-    "subject": "ARAB",
-    "id": "5900",
-    "title": "Topics in Arabic",
-    "info": "readings and discussion of selected works in arabic. topics specified in class schedule.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "ARAB 5993",
-    "subject": "ARAB",
-    "id": "5993",
-    "title": "Directed Studies",
-    "info": "students enrolling in this directed study/research course will complete the university's common directed study/research contract with the faculty mentor/evaluator. the faculty member will ensure academic standards are upheld, including: \n\n-the work proposed is at the appropriate level for the course, academic in nature, and the student will be involved intellectually in the project. \n-the project scope is reasonable for one semester and the number of credits specified (42 hours of work per credit).\n-the faculty mentor is qualified to serve in this role.\n-assessment of student learning and grading criteria are clear and appropriate.\n-the student will be working in a respectful, inclusive environment.",
-    "prereqInfo": null,
-    "prereq": []
-  },
-  {
-    "code": "ARAB 8333",
-    "subject": "ARAB",
-    "id": "8333",
-    "title": "FTE: Master's",
-    "info": "(no description)",
-    "prereqInfo": null,
-    "prereq": []
-  }
 ]

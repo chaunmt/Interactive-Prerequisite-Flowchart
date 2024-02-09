@@ -1,14 +1,9 @@
-"use client"
 import Link from "next/link";
 import Mermaid from "../../../components/Mermaid";
 import {buildGraph} from "../../../data/graphBuilder";
 import '../../../components/styles/Layout.css'
 import '../../../components/styles/GraphPage.css'
 import Access from "../../../data/access";
-
-import Header from '../../../components/Header'
-//it doesn't fit on the page but i think the footer should be global
-import Footer from "../../../components/Footer";
 
 
 
@@ -46,4 +41,22 @@ export default function Page({ params }) {
       </div>          
     </div>
   );
+}
+
+
+export async function generateStaticParams() {
+  // TODO should use the new access stuff when that's merged in
+  const subjects = require(`../../../data/General/allSubjects.json`);
+  return subjects.flatMap(s => {
+    let ids = require(`../../../data/General/id/${s}.json`);
+    return ids.map(i => ({ subj: s, id: i }));
+  });
+}
+
+
+export async function generateMetadata({ params, searchParams }, parent) {
+  return {
+    title: `${params.subj.toUpperCase()} ${params.id}`,
+    description: '...',  // ??
+  }
 }
