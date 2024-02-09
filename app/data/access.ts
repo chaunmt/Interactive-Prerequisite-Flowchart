@@ -1,4 +1,4 @@
-import { Course, CourseShell, PrereqFormat, isCourseShell } from "./types";
+import { Course, CourseShell, PrereqFormat, PrereqTraversal } from "./types";
 
 const subjects: string[] = require(`./General/allSubjects.json`);
 
@@ -20,16 +20,16 @@ export default function Access(SUBJECT: string) {
         throw new Error("Invalid subject passed to Access Factory!");
     }
 
-    const ids: readonly string[] = require(`./General/id/${SUBJECT}.json`);
     const courses: readonly Course[] = require(`./Dog/${SUBJECT}.json`);
+    const ids: readonly string[] = require(`./General/id/${SUBJECT}.json`);
 
     return {
         /** all Courses in subject */
         courses,
         /** all course ID numbers in this subject */
         ids,
-        /** Get course item that has a matching code or id
-         * @see Course for valid properties (invalidity just returns a null)
+        /** Get course item that has a matching code (or id if specified)
+         * Returns a null if none found
          */
         getCourse,
         /** Returns an array of Courses that have prereq as its prerequisites */
@@ -46,8 +46,11 @@ export default function Access(SUBJECT: string) {
 
     // definitions which still need to happen in this scope
 
-    function getCourse(property: "code" | "id", value: string): Course | null {
-        let cmp = (property == "code") ? value.split(' ')[1] : value;
+    function getCourse(value: string): Course | null;
+    function getCourse(value: string, property: "code" | "id"): Course | null;
+    function getCourse(value: string, property?: "code" | "id"): Course | null {
+        var prop = (property == undefined) ? property : "code" as "code" | "id";
+        let cmp = (prop == "code") ? value.split(' ')[1] : value;
         // binary search
         let l = 0; let r = courses.length - 1;
         for (let m = Math.floor(r/2); l <= r; m = Math.floor((l+r)/2)) {
@@ -63,21 +66,14 @@ export default function Access(SUBJECT: string) {
         return courses.filter(target => isPrereq(prereq, target));
     }
 
+    function big_or(couts: boolean[]) { return couts.some(t => t == true); }
+    function nothing(arg: any) { return arg; }
+    function traverse(input: PrereqFormat, c: CourseShell): boolean {
+        return (PrereqTraversal(big_or, isEqualCourses, nothing, nothing))(input, c);
+    }
+
     function isPrereq(course: CourseShell, target: Course): boolean {
-        function traverse(c: CourseShell, input: PrereqFormat) {
-            if (Array.isArray(input)) { // input is an Array
-                for (let i = 0; i < input.length; i++) {
-                    if (traverse(c, input[i])) { return true; }
-                }
-            } else if (isCourseShell(input)) { // input is a CourseShell
-                return isEqualCourses(c, input);
-            } else { // either .and or .or
-                if (input.and) { return traverse(c, input.and); }
-                if (input.or) { return traverse(c, input.or); }
-            }
-            return false;
-        }
-        return traverse(course, target.prereq);
+        return traverse(target.prereq, course);
     }
 
     function isEqualCourses(A: CourseShell, B: CourseShell) {
@@ -101,9 +97,11 @@ export default function Access(SUBJECT: string) {
     }
 
     function get(shell: CourseShell): Course {
-        return getCourse("code", shell.code);
+        return getCourse(shell.code, "code");
     }
 }
+
+
 
 
 // helpers used above
