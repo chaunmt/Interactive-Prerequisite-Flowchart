@@ -1,3 +1,8 @@
+import Access from "./access";
+
+// this only exists for when you need Map<string, Accessor>
+export type Accessor = ReturnType<typeof Access>;
+
 export interface CourseShell {
     readonly code: string;
     readonly subject: string;
