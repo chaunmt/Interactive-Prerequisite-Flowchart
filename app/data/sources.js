@@ -76,6 +76,11 @@ function extractCourses(str, targetSubject, targetId) {
       function getId(id) {
         let [num, suffix] = splitStringAt(id, "word")
         let allowedSuffix = ['W', 'H', 'V', '']
+
+        // We don't keep any remedial courses
+        if (parseInt(num, 10) < 1000) return null;
+
+        // Check what is this course's type based on its suffix
         if (suffix && (suffix.length != 1 || !allowedSuffix.includes(suffix))) id = num
         if (!allCourseNumbers.includes(id)) {
           if (allCourseNumbers.includes(id + 'W')) id = id + 'W'
@@ -86,6 +91,8 @@ function extractCourses(str, targetSubject, targetId) {
             else
           if (allCourseNumbers.includes(num)) id = num
         }
+        
+        // We don't keep any honor course in prereq
         if (id.includes('V') || id.includes('H')) return null
         return id
       }
@@ -103,7 +110,7 @@ function extractCourses(str, targetSubject, targetId) {
       // If this course = target, it is not prereq
       if (subject == targetSubject && id == targetId) return null
 
-      // We don't have any honor
+      
       
 
       return { code: subject + ' ' + id, subject: subject, id: id }
@@ -351,8 +358,8 @@ function exportDogs(SUBJECT) {
   let subject = SUBJECT
   let subjectCode = (subject == 'allCourses') ? '' : 'subjectCode=' + subject
   let fileName = subject + '.json'
-  let filePath = './Dog/'
-  // let filePath = './'
+  // let filePath = './Dog/' // For offical data folder
+  let filePath = './'  // For testing purpose
   let returnFields = '&returnFields=subjectCode,courseNumber,name,description' // preq is at the end of description
   let limit = '&limit=infinity'
 
@@ -408,8 +415,14 @@ function exportDogs(SUBJECT) {
 
 let allSubjects = require('./General/allSubjects.json')
 let allCourseNumbers = require('./General/id/allCourses.json')
+
+// Export a test json file to current folder
+exportDogs('CSCI')
+
+// Export allCourses json data files
 // exportDogs('allCourses')
 
-for (pup of allSubjects) {
-  exportDogs(pup)
-}
+// Export each course json data files
+// for (pup of allSubjects) {
+//   exportDogs(pup)
+// }
