@@ -1,46 +1,46 @@
 [
-    {
-        "code": "SACP 8333",
-        "subject": "SACP",
-        "id": "8333",
-        "title": "FTE: Master's",
-        "info": "tbd\n\nprereq: Master's student, [adviser, DGS] consent",
-        "prereq": []
-    },
-    {
-        "code": "SACP 8444",
-        "subject": "SACP",
-        "id": "8444",
-        "title": "FTE: Doctoral",
-        "info": "tbd\n\nprereq: Doctoral student, [adviser, DGS] consent",
-        "prereq": []
-    },
-    {
-        "code": "SACP 8666",
-        "subject": "SACP",
-        "id": "8666",
-        "title": "Doct Pre-Thesis Cr*",
-        "info": "tbd\n\nprereq: Doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-        "prereq": {
-            "code": "SACP 60",
-            "subject": "SACP",
-            "id": "60"
-        }
-    },
-    {
-        "code": "SACP 8777",
-        "subject": "SACP",
-        "id": "8777",
-        "title": "Thesis Credit: Master's*",
-        "info": "tbd\n\nprereq: Plan A",
-        "prereq": []
-    },
-    {
-        "code": "SACP 8888",
-        "subject": "SACP",
-        "id": "8888",
-        "title": "Thesis Credits:Doct*",
-        "info": "tbd ",
-        "prereq": []
+  {
+    "code": "SACP 8333",
+    "subject": "SACP",
+    "id": "8333",
+    "title": "FTE: Master's",
+    "info": "tbd\n\nprereq: Master's student, [adviser, DGS] consent",
+    "prereq": []
+  },
+  {
+    "code": "SACP 8444",
+    "subject": "SACP",
+    "id": "8444",
+    "title": "FTE: Doctoral",
+    "info": "tbd\n\nprereq: Doctoral student, [adviser, DGS] consent",
+    "prereq": []
+  },
+  {
+    "code": "SACP 8666",
+    "subject": "SACP",
+    "id": "8666",
+    "title": "Doct Pre-Thesis Cr*",
+    "info": "tbd\n\nprereq: Doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
+    "prereq": {
+      "code": "SACP 60",
+      "subject": "SACP",
+      "id": "60"
     }
+  },
+  {
+    "code": "SACP 8777",
+    "subject": "SACP",
+    "id": "8777",
+    "title": "Thesis Credit: Master's*",
+    "info": "tbd\n\nprereq: Plan A",
+    "prereq": []
+  },
+  {
+    "code": "SACP 8888",
+    "subject": "SACP",
+    "id": "8888",
+    "title": "Thesis Credits:Doct*",
+    "info": "tbd ",
+    "prereq": []
+  }
 ]

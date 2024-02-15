@@ -355,8 +355,8 @@ function exportDogs(SUBJECT) {
   let subject = SUBJECT
   let subjectCode = (subject == 'allCourses') ? '' : 'subjectCode=' + subject
   let fileName = subject + '.json'
-  // let filePath = './Dog/' // For offical data folder
-  let filePath = './'  // For testing purpose
+  let filePath = './Dog/' // For offical data folder
+  // let filePath = './'  // For testing purpose
   let returnFields = '&returnFields=subjectCode,courseNumber,name,description' // preq is at the end of description
   let limit = '&limit=infinity'
 
@@ -414,12 +414,12 @@ let allSubjects = require('./General/allSubjects.json')
 let allCourseNumbers = require('./General/id/allCourses.json')
 
 // Export a test json file to current folder
-exportDogs('PHYS')
+// exportDogs('PHYS')
 
 // Export allCourses json data files
-// exportDogs('allCourses')
+exportDogs('allCourses')
 
 // Export each course json data files
-// for (pup of allSubjects) {
-//   exportDogs(pup)
-// }
+for (pup of allSubjects) {
+  exportDogs(pup)
+}
