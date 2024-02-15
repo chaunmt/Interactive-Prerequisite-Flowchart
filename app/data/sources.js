@@ -12,7 +12,7 @@ function deleteSpaces(str) { return str.replace(/\s/g, ''); }
 
 function replaceSigns(str) {
   str = str.replaceAll(', ', ' and ')
-  str = str.replaceAll('/', ' and ')
+  str = str.replaceAll('/', ' or ')
   str = str.replaceAll('&', ' and ')
   return str
 }
@@ -109,9 +109,6 @@ function extractCourses(str, targetSubject, targetId) {
 
       // If this course = target, it is not prereq
       if (subject == targetSubject && id == targetId) return null
-
-      
-      
 
       return { code: subject + ' ' + id, subject: subject, id: id }
     }
@@ -417,7 +414,7 @@ let allSubjects = require('./General/allSubjects.json')
 let allCourseNumbers = require('./General/id/allCourses.json')
 
 // Export a test json file to current folder
-exportDogs('CSCI')
+exportDogs('PHYS')
 
 // Export allCourses json data files
 // exportDogs('allCourses')
