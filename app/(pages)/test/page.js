@@ -3,7 +3,7 @@
 // import Mermaid from "../../components/Mermaid";
 // import {buildGraph, buildCombinedGraph} from "../../data/graphBuilder";
 
-import Access from "../../data/access";
+import Access, { AccessAll } from "../../data/access";
 import { Course, CourseShell, PrereqFormat, PrereqTraversal } from "../../data/types"
 
 export default function Page() {
@@ -20,15 +20,40 @@ export default function Page() {
    * Error: Invalid subject "FAVICON.ICO" passed to Access module!
    */
 
-  let course1 = {
-    code: "CSCI 4061",
+  let test = [
+    // "MATH 1271",
+    // "CSCI 1133",
+    // "CSCI 2033",
+    "CSCI 5521",
+    "EE 5364",
+    "GEOG 5839",
+    "CHEM 1066",
+    // "MATS 3141",
+    // "PHAR 6155",
+    // "EE 4161W",
+  ];
+  let testCourses = test.map(code => Access(code.split(' ')[0]).getCourse(code)).filter(e => e !== null);
+  let shell1 = {
+    code: "MATH 5466",
+    subject: "MATH",
+    id: "5466"
+  }
+  let shell2 = {
+    code: "MATH 5465",
+    subject: "MATH",
+    id: "5465"
+  }
+  let shell3 = {
+    code: "CSCI 1133",
     subject: "CSCI",
-    id: "4061"
+    id: "1133"
   }
 
   let test1 = Access("CSCI").courses[0].title;
   let test2 = Access("CHEM").ids[0];
-  // let test3 = Access("CSCI").get(course1);
+  let test3 = AccessAll.courses[0].code;
+  let test4 = Access("MATH").isPrereq(shell2, Access("MATH").get(shell1));
+  console.log (Access("CSCI").target(shell3));
 
   return (
     <div>
@@ -39,7 +64,11 @@ export default function Page() {
       <br></br>
       test2 = Access("CSCI").ids[0] = {test2}
       <br></br>
-      {/* test3 = Access("CSCI").get(course1) = {test3} */}
+      test3 = AccessAll.courses[0].code = {test3}
+      <br></br>
+      test4 = Access("MATH").isPrereq(shell2, Access("MATH").get(shell1)) = { test4 ? "true" : "false" }
+      <br></br>
+      {/* test5 = Access("MATH").target(shell1)[0].title = {test5} */}
     </div>
   );
 }
