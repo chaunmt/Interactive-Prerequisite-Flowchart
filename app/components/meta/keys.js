@@ -1,1 +1,0 @@
-export const Keywords = "University of Minnesota, University of Minnesota - Twin Cities, University of Minnesota - TC, UoMN, Twin Cities, TC, course prerequisites, academic planning, curriculum guide, Gopher Prerequisite, Course Flowchart, Gopher Flow"

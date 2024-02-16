@@ -54,9 +54,9 @@ export async function generateStaticParams() {
 }
 
 
-export async function generateMetadata({ params, searchParams }, parent) {
-  return {
-    title: `${params.subj.toUpperCase()} ${params.id}`,
-    description: '...',  // ??
-  }
-}
+// export async function generateMetadata({ params, searchParams }, parent) {
+//   return {
+//     title: `${params.subj.toUpperCase()} ${params.id}`,
+//     description: '...',  // ??
+//   }
+// }
