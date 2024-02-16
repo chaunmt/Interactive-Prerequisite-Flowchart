@@ -1,15 +1,28 @@
-import { Course, CourseShell, PrereqFormat, PrereqTraversal } from "./types";
+import { Accessor, Course, CourseShell, PrereqFormat, PrereqTraversal } from "./types";
 
-const subjects: string[] = require(`./General/allSubjects.json`);
+export default {
+    /** Accessor Factory - returns the subject-specific accessor to get relevant course info
+     * 
+     * note: SUBJECT should be an uppercase string matching those in subjects */
+    Access
+};
 
-export function allSubj() {
-    return subjects;
-}
+export {
+    /** One Accessor for all - not a factory, just directly access the methods on this one */
+    AccessAll,
+    /** a list of all subject codes */
+    subjects,
+    /** potentially useful utility function that helps with issues like
+     * `"CSCI 3081" != "CSCI 3081W"`—takes courses as input*/
+    isEqualCourses,
+    /** potentially useful utility function that helps with issues like
+     * `"CSCI 3081" != "CSCI 3081W"`—takes id strings as input*/
+    isEqualId,
+};
 
-/** Accessor Module - returns the subject-specific accessor to get relevant course info
- * 
- * note: SUBJECT should be an uppercase string matching those in /data/General/allSubjects.json */
-export default function Access(SUBJECT: string) {
+const subjects: readonly string[] = require(`./General/allSubjects.json`);
+
+function Access(SUBJECT: string): Accessor {
     if (!subjects.includes(SUBJECT)) {
         throw new Error(`Invalid subject "${SUBJECT}" passed to Access module!`);
     }
@@ -56,7 +69,7 @@ export default function Access(SUBJECT: string) {
     }
 
     function target(prereq: CourseShell) {
-        return courses.filter(target => isPrereq(prereq, target));
+        return courses.filter(target => isPrereq(prereq, get(target)));
     }
 
     function isPrereq(course: CourseShell, target: Course): boolean {
@@ -68,14 +81,13 @@ export default function Access(SUBJECT: string) {
     }
 }
 
-/** not a factory, just directly access the methods on this one */
-export const AccessAll = (() => {
+const AccessAll: Omit<Accessor, 'ids'> = (() => {
     const courses: readonly Course[] = require(`./Dog/allCourses.json`);
     
     return {
         /** all Courses in campus */
         courses,
-        /** Get course item that has a matching code or id
+        /** Get course item that has a matching code (the second parameter will be ignored here)
          * @see Course for valid properties (invalidity just returns a null)
          */
         getCourse,
@@ -94,8 +106,8 @@ export const AccessAll = (() => {
     // definitions which still need to happen in this scope (closure)
 
     function getCourse(value: string): Course | null;
-    function getCourse(value: string, property: "code"): Course | null;    
-    function getCourse(value: string, property?: "code"): Course | null {
+    function getCourse(value: string, property: any): Course | null;    
+    function getCourse(value: string, property?: any): Course | null {
         let cmp = value.split(' ')[1];
         // binary search
         let l = 0; let r = courses.length - 1;
@@ -121,14 +133,18 @@ export const AccessAll = (() => {
     }
 })(); // IIFE
 
+function allSubj() {
+    return subjects;
+}
+
 
 // utility functions that can either be imported separately or used as members of the accessor objects
 
-export function isEqualCourses(A: CourseShell, B: CourseShell) {
+function isEqualCourses(A: CourseShell, B: CourseShell) {
     return (A.subject == B.subject && isEqualId(A.id, B.id));
 }
 
-export function isEqualId(idA: string, idB: string) {
+function isEqualId(idA: string, idB: string) {
     if (extractNumbers(idA) != extractNumbers(idB)) { return false; }
 
     // let honors = ['H', 'V'];
@@ -160,6 +176,7 @@ function extractNumbers(code: string) {
     if (!match) { return ''; }
     return match[0];
 }
+
 
 // trivial lambdas for isPrereq traversal
 

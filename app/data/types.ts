@@ -1,21 +1,44 @@
-import Access from "./access";
+export type {
+    Accessor,
+    CourseShell,
+    Course,
+    PrereqFormat
+};
+
+export {
+    isCourseShell,
+    isCourse,
+    PrereqTraversal,
+};
 
 // this only exists for when you need Map<string, Accessor>
-export type Accessor = ReturnType<typeof Access>;
+type Accessor = {
+    courses: readonly Course[];
+    ids: readonly string[];
+    getCourse: {
+        (value: string): Course | null;
+        (value: string, property: "code" | "id"): Course | null;
+    };
+    target: (prereq: CourseShell) => Course[];
+    isPrereq: (course: CourseShell, target: Course) => boolean;
+    isEqualCourses: (A: CourseShell, B: CourseShell) => boolean;
+    isEqualId: (idA: string, idB: string) => boolean;
+    get: (shell: CourseShell) => Course;
+}
 
-export interface CourseShell {
+interface CourseShell {
     readonly code: string;
     readonly subject: string;
     readonly id: string;
 }
 
-export interface Course extends CourseShell {
+interface Course extends CourseShell {
     readonly title: string;
     readonly info: string;
     readonly prereq: PrereqFormat;
 }
 
-export type PrereqFormat = {
+type PrereqFormat = {
     and?: PrereqFormat[];
     or?: PrereqFormat[];
 } | PrereqFormat[] | CourseShell;
@@ -25,10 +48,15 @@ function isCourseShell(arg: PrereqFormat): arg is CourseShell {
     return (arg as CourseShell).code !== undefined;
 }
 
+/** like Array.isArray(), this does type verification */
+function isCourse(arg: PrereqFormat): arg is CourseShell {
+    return isCourseShell(arg) && (arg as Course).title !== undefined;
+}
+
 /** "a little bit of metaprogramming never hurt anybody" - jahndan, 2024
  * 
  * if you're using this, you probably wrote this monstrosity */
-export function PrereqTraversal<out, state>(
+function PrereqTraversal<out, state>(
                     arrl: (cl_outs: out[]) => out,
                     crsl: (crs: CourseShell, state_var: state) => out,
                     orl: (al_out: out) => out,
