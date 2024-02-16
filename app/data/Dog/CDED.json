@@ -1,98 +1,98 @@
 [
-    {
-        "code": "CDED 6101",
-        "subject": "CDED",
-        "id": "6101",
-        "title": "PGE I: Lecture/Lab",
-        "info": "Dental materials, occlusion, dental photography, smile design, anterior ceramic restorations, posterior ceramic restorations. Color, bleaching, and endoesthetics. Anterior composite restorations. Posterior composite restorations, fiber-reinforced composite bridges, in-office indirect restorations, partial/full denture esthetics, implant esthetics, perio esthetics, practice management for contemporary esthetic dentistry. Lectures, discussion, lab applications.",
-        "prereq": []
-    },
-    {
-        "code": "CDED 6202",
-        "subject": "CDED",
-        "id": "6202",
-        "title": "PGE II: Patient Series",
-        "info": "Dental photography, anterior/posterior composite restorations, indirect anterior restorations, indirect posterior restorations. Lectures, case presentations. Clinical experience with multi-unit, complex restorative problems.\n\nprereq: 6101",
-        "prereq": {
-            "code": "CDED 6101",
-            "subject": "CDED",
-            "id": "6101"
-        }
-    },
-    {
-        "code": "CDED 7301",
-        "subject": "CDED",
-        "id": "7301",
-        "title": "PGE III Occlusion/Function",
-        "info": "How to provide occlusal stability through functional/anatomical harmony. Centric relation, vertical dimension, neutral zone, occlusal plane, anterior guidance. Occlusal records, articulators, occlusal equilibration, anterior previews, custom incisal guide tables. Lectures, lab, clinical experience.",
-        "prereq": []
-    },
-    {
-        "code": "CDED 7302",
-        "subject": "CDED",
-        "id": "7302",
-        "title": "PGE III Ortho & Perio",
-        "info": "How periodontal/orthodontic therapies may be used to enhance esthetic outcome of restorative cases. How to use cephalometric analysis for evaluating facial esthetics. When to use limited orthodontic treatment before restorative treatment. How to eliminate uneven gingival contours, lengthen crowns, recontour interdental papilla, and optimize periodontal esthetics around dental implants. Lectures, workshop with removable appliances. Surgical demonstrations, discussions of cases from practice.",
-        "prereq": []
-    },
-    {
-        "code": "CDED 7303",
-        "subject": "CDED",
-        "id": "7303",
-        "title": "PGE III: Implants",
-        "info": "How to use dental implants as part of restorative treatment plan. Patient selection/treatment planning, surgical phases of implant placement, restorative phases of implant placement, perioesthetics related to dental implants. Lectures, lab, clinical demonstrations, discussion of cases from practice.",
-        "prereq": []
-    },
-    {
-        "code": "CDED 7304",
-        "subject": "CDED",
-        "id": "7304",
-        "title": "PGE III: Partial Dentures",
-        "info": "Esthetic clasping, flexible partial denture designs, contemporary materials/techniques for removable partial dentures. Survey, design, and blockout for rotational paths of insertion. Swinglock saddlelock, and flexible partial denture designs. In-office reline techniques. Simplified remount casts for occlusal refinement. Lectures, lab, discussion of cases from practice.",
-        "prereq": []
-    },
-    {
-        "code": "CDED 7305",
-        "subject": "CDED",
-        "id": "7305",
-        "title": "PGE III: Endoesthetics",
-        "info": "Restoring endodontically treated teeth. Concepts/techniques in endodontic therapy, reasons for endodontic failure, internal bleaching techniques, how to restore endodontically treated teeth. Internal bleaching techniques, tooth preparation, placement of fiber posts. Lectures, lab, patient demonstration, elective patient application, discussion of cases from practice.",
-        "prereq": []
-    },
-    {
-        "code": "CDED 7306",
-        "subject": "CDED",
-        "id": "7306",
-        "title": "PGE III: Diagnostic Box",
-        "info": "Advanced techniques for photographic, cosmetic, and occlusal analysis. How to customize gender, age, and personality into case design. Emphasizes effective case presentation and staff involvement. Lecture, lab/clinical experience with diagnostic records, cosmetic previews.",
-        "prereq": []
-    },
-    {
-        "code": "CDED 7307",
-        "subject": "CDED",
-        "id": "7307",
-        "title": "PGE III: Technology",
-        "info": "How to incorporate new technologies into practice. Composite curing technology, digital radiography, high tech software programs CAD/CAM technology digital cameras, diagnodent, intraoral cameras, other new high tech equipment. CEREC, digital radiography, digital cameras, diagnodent, high tech software systems. Small group interaction with faculty.",
-        "prereq": []
-    },
-    {
-        "code": "CDED 7401",
-        "subject": "CDED",
-        "id": "7401",
-        "title": "PGE III: Research Design",
-        "info": "Analyzing research findings, writing a research proposal. How to critique dental literature, evaluate claims made by dental manufacturers. Methods of research design, data collection/interpretation. Methods to pose a research question, prepare a research plan, and apply analytical skills to everyday practice.",
-        "prereq": []
-    },
-    {
-        "code": "CDED 7402",
-        "subject": "CDED",
-        "id": "7402",
-        "title": "PGE III: Research Paper",
-        "info": "Independent research paper under supervision of faculty mentor. Selected topic must pose a research question, follow established research protocol, and advance knowledge in the field of contemporary restorative/esthetic dentistry.\n\nprereq: 7401",
-        "prereq": {
-            "code": "CDED 7401",
-            "subject": "CDED",
-            "id": "7401"
-        }
+  {
+    "code": "CDED 6101",
+    "subject": "CDED",
+    "id": "6101",
+    "title": "PGE I: Lecture/Lab",
+    "info": "Dental materials, occlusion, dental photography, smile design, anterior ceramic restorations, posterior ceramic restorations. Color, bleaching, and endoesthetics. Anterior composite restorations. Posterior composite restorations, fiber-reinforced composite bridges, in-office indirect restorations, partial/full denture esthetics, implant esthetics, perio esthetics, practice management for contemporary esthetic dentistry. Lectures, discussion, lab applications.",
+    "prereq": []
+  },
+  {
+    "code": "CDED 6202",
+    "subject": "CDED",
+    "id": "6202",
+    "title": "PGE II: Patient Series",
+    "info": "Dental photography, anterior/posterior composite restorations, indirect anterior restorations, indirect posterior restorations. Lectures, case presentations. Clinical experience with multi-unit, complex restorative problems.\n\nprereq: 6101",
+    "prereq": {
+      "code": "CDED 6101",
+      "subject": "CDED",
+      "id": "6101"
     }
+  },
+  {
+    "code": "CDED 7301",
+    "subject": "CDED",
+    "id": "7301",
+    "title": "PGE III Occlusion/Function",
+    "info": "How to provide occlusal stability through functional/anatomical harmony. Centric relation, vertical dimension, neutral zone, occlusal plane, anterior guidance. Occlusal records, articulators, occlusal equilibration, anterior previews, custom incisal guide tables. Lectures, lab, clinical experience.",
+    "prereq": []
+  },
+  {
+    "code": "CDED 7302",
+    "subject": "CDED",
+    "id": "7302",
+    "title": "PGE III Ortho & Perio",
+    "info": "How periodontal/orthodontic therapies may be used to enhance esthetic outcome of restorative cases. How to use cephalometric analysis for evaluating facial esthetics. When to use limited orthodontic treatment before restorative treatment. How to eliminate uneven gingival contours, lengthen crowns, recontour interdental papilla, and optimize periodontal esthetics around dental implants. Lectures, workshop with removable appliances. Surgical demonstrations, discussions of cases from practice.",
+    "prereq": []
+  },
+  {
+    "code": "CDED 7303",
+    "subject": "CDED",
+    "id": "7303",
+    "title": "PGE III: Implants",
+    "info": "How to use dental implants as part of restorative treatment plan. Patient selection/treatment planning, surgical phases of implant placement, restorative phases of implant placement, perioesthetics related to dental implants. Lectures, lab, clinical demonstrations, discussion of cases from practice.",
+    "prereq": []
+  },
+  {
+    "code": "CDED 7304",
+    "subject": "CDED",
+    "id": "7304",
+    "title": "PGE III: Partial Dentures",
+    "info": "Esthetic clasping, flexible partial denture designs, contemporary materials/techniques for removable partial dentures. Survey, design, and blockout for rotational paths of insertion. Swinglock saddlelock, and flexible partial denture designs. In-office reline techniques. Simplified remount casts for occlusal refinement. Lectures, lab, discussion of cases from practice.",
+    "prereq": []
+  },
+  {
+    "code": "CDED 7305",
+    "subject": "CDED",
+    "id": "7305",
+    "title": "PGE III: Endoesthetics",
+    "info": "Restoring endodontically treated teeth. Concepts/techniques in endodontic therapy, reasons for endodontic failure, internal bleaching techniques, how to restore endodontically treated teeth. Internal bleaching techniques, tooth preparation, placement of fiber posts. Lectures, lab, patient demonstration, elective patient application, discussion of cases from practice.",
+    "prereq": []
+  },
+  {
+    "code": "CDED 7306",
+    "subject": "CDED",
+    "id": "7306",
+    "title": "PGE III: Diagnostic Box",
+    "info": "Advanced techniques for photographic, cosmetic, and occlusal analysis. How to customize gender, age, and personality into case design. Emphasizes effective case presentation and staff involvement. Lecture, lab/clinical experience with diagnostic records, cosmetic previews.",
+    "prereq": []
+  },
+  {
+    "code": "CDED 7307",
+    "subject": "CDED",
+    "id": "7307",
+    "title": "PGE III: Technology",
+    "info": "How to incorporate new technologies into practice. Composite curing technology, digital radiography, high tech software programs CAD/CAM technology digital cameras, diagnodent, intraoral cameras, other new high tech equipment. CEREC, digital radiography, digital cameras, diagnodent, high tech software systems. Small group interaction with faculty.",
+    "prereq": []
+  },
+  {
+    "code": "CDED 7401",
+    "subject": "CDED",
+    "id": "7401",
+    "title": "PGE III: Research Design",
+    "info": "Analyzing research findings, writing a research proposal. How to critique dental literature, evaluate claims made by dental manufacturers. Methods of research design, data collection/interpretation. Methods to pose a research question, prepare a research plan, and apply analytical skills to everyday practice.",
+    "prereq": []
+  },
+  {
+    "code": "CDED 7402",
+    "subject": "CDED",
+    "id": "7402",
+    "title": "PGE III: Research Paper",
+    "info": "Independent research paper under supervision of faculty mentor. Selected topic must pose a research question, follow established research protocol, and advance knowledge in the field of contemporary restorative/esthetic dentistry.\n\nprereq: 7401",
+    "prereq": {
+      "code": "CDED 7401",
+      "subject": "CDED",
+      "id": "7401"
+    }
+  }
 ]

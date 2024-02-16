@@ -1,516 +1,516 @@
 [
-    {
-        "code": "LAT 1001",
-        "subject": "LAT",
-        "id": "1001",
-        "title": "Beg. Latin I",
-        "info": "Latin is the genesis of modern Romance languages and is foundational to science, law, religion, education, and philosophy. The study of Latin sharpens the mind and fuels the development of critical thinking and problem-solving skills. The Latin introductory sequence (1001/1002) will prepare you to read authentic, historical texts and will ground you in solid grammar and vocabulary. Developing your acumen in this essential ancient language will open the door to a wide range of classical, medieval, and Renaissance authors, playwrights, and poets.",
-        "prereq": []
-    },
-    {
-        "code": "LAT 1002",
-        "subject": "LAT",
-        "id": "1002",
-        "title": "Beg. Latin II",
-        "info": "Continuation of Latin 1001. More complex constructions, including participles, clauses, indirect discourse. Some reading of adapted passages from ancient texts.\n\nprereq: Grade of at least C- or S in 1001 or instr consent",
-        "prereq": {
-            "code": "LAT 1001",
-            "subject": "LAT",
-            "id": "1001"
-        }
-    },
-    {
-        "code": "LAT 1102",
-        "subject": "LAT",
-        "id": "1102",
-        "title": "Beg Lat II, Trans",
-        "info": "Continuation of basic grammar/vocabulary, practice reading/writing. Latin readings, Roman legends.",
-        "prereq": []
-    },
-    {
-        "code": "LAT 1103",
-        "subject": "LAT",
-        "id": "1103",
-        "title": "Sel Lat Lit, Trans",
-        "info": "Prose/poetry. Historical/literary background.",
-        "prereq": []
-    },
-    {
-        "code": "LAT 3003",
-        "subject": "LAT",
-        "id": "3003",
-        "title": "Intermediate Latin Prose",
-        "info": "Introduction to Latin prose authors of 1st centuries BCE/CE. Readings of continuous passages of unadapted Latin texts (history, speeches, letters). Review of grammar/vocabulary as needed. Some discussion of major themes/issues in Roman culture as illustrated by texts.\n\nprereq: Grade of at least C- or S in 1002 or 5001 or instr consent",
-        "prereq": {
-            "or": [
-                {
-                    "code": "LAT 1002",
-                    "subject": "LAT",
-                    "id": "1002"
-                },
-                {
-                    "code": "LAT 5001",
-                    "subject": "LAT",
-                    "id": "5001"
-                }
-            ]
-        }
-    },
-    {
-        "code": "LAT 3004",
-        "subject": "LAT",
-        "id": "3004",
-        "title": "Intermediate Latin Poetry",
-        "info": "Introduction to Roman epic poetry. Readings of selections from Vergil's Aeneid. Quantitative meter and poetic devices. Discussion of major themes and issues as developed in Vergil's poetry.",
-        "prereq": []
-    },
-    {
-        "code": "LAT 3100",
-        "subject": "LAT",
-        "id": "3100",
-        "title": "Reading Latin Prose",
-        "info": "Introduction to reading Latin prose. Selections from Roman authors. Review of grammar/syntax. Follow-up course to intensive Latin or review for students returning to reading Latin after time lapse.",
-        "prereq": []
-    },
-    {
-        "code": "LAT 3112",
-        "subject": "LAT",
-        "id": "3112",
-        "title": "Intens. Lat. Rec.",
-        "info": "Drills and composition exercises. Students must also register for 3111 when taking this course.",
-        "prereq": []
-    },
-    {
-        "code": "LAT 3199",
-        "subject": "LAT",
-        "id": "3199",
-        "title": "Latin AP Credit",
-        "info": "Prereq score of [3 or 4 or 5] on [AP Vergil or AP Latin Literature] exam.",
-        "prereq": []
-    },
-    {
-        "code": "LAT 3300",
-        "subject": "LAT",
-        "id": "3300",
-        "title": "Intermediate Latin Poetry",
-        "info": "Readings in Latin poetry. Introduction to Latin Meter. Vergil and Catullus/Ovid offered in alternate years.",
-        "prereq": []
-    },
-    {
-        "code": "LAT 3310",
-        "subject": "LAT",
-        "id": "3310",
-        "title": "Adv Und Lat: Hist",
-        "info": "Roman history as the Romans wrote it;  selections from Livy, Sallust, Tacitus, or Ammianus.",
-        "prereq": []
-    },
-    {
-        "code": "LAT 3320",
-        "subject": "LAT",
-        "id": "3320",
-        "title": "Adv Und Lat: Lit",
-        "info": "Selections from expository Latin literature (essays, epistles, monographs).",
-        "prereq": []
-    },
-    {
-        "code": "LAT 3330",
-        "subject": "LAT",
-        "id": "3330",
-        "title": "Adv Und Lat Oratory",
-        "info": "One or more appropriate authors studied each semester.",
-        "prereq": []
-    },
-    {
-        "code": "LAT 3340",
-        "subject": "LAT",
-        "id": "3340",
-        "title": "Adv Und Lat: Epic",
-        "info": "One or more appropriate authors studied each semester.",
-        "prereq": []
-    },
-    {
-        "code": "LAT 3350",
-        "subject": "LAT",
-        "id": "3350",
-        "title": "Adv Und Lat: Lyric",
-        "info": "One or more appropriate authors studied each semester.",
-        "prereq": []
-    },
-    {
-        "code": "LAT 3360",
-        "subject": "LAT",
-        "id": "3360",
-        "title": "Adv Und Lat: Drama",
-        "info": "One or more appropriate authors studied each semester.",
-        "prereq": []
-    },
-    {
-        "code": "LAT 3370",
-        "subject": "LAT",
-        "id": "3370",
-        "title": "Adv Und Lat:Satire & the Novel",
-        "info": "One or more authors.",
-        "prereq": []
-    },
-    {
-        "code": "LAT 3993",
-        "subject": "LAT",
-        "id": "3993",
-        "title": "Directed Studies",
-        "info": "Guided individual reading or study.\n\nprereq: instr consent and dept consent",
-        "prereq": []
-    },
-    {
-        "code": "LAT 3994",
-        "subject": "LAT",
-        "id": "3994",
-        "title": "Directed Research",
-        "info": "Research project using documents and other sources from the ancient world. Students select project in consultation with a faculty member who directs the research and writing.\nStudents enrolling in this Directed Research course will complete the University's common Directed Study/Research contract with the faculty mentor/evaluator. \n\nPrereq: [Greek-Latin or Latin major], three 3xxx Latin courses\n\nStudents enrolling in this directed research course will complete the University's common Directed Research contract with the faculty mentor/evaluator. The Faculty member will ensure academic standards are upheld, including:\n- the work proposed is at the appropriate level for the course, academic in nature, and the student will be involved intellectually in the project.\n- the project scope is reasonable for one semester and the number of credits specified (42 hours of work per credit)\n- the faculty mentor is qualified to serve in this role - assessment of student learning and grading criteria are clear and appropriate\n- the student will be working in a respectful, inclusive environment.\nThe contract will include the learning objectives for the course, the methods that will be employed, and how assessment will be conducted by the faculty mentor. The contract must be approved by the DUGS/academic approver of the major before the student can register.",
-        "prereq": []
-    },
-    {
-        "code": "LAT 4001",
-        "subject": "LAT",
-        "id": "4001",
-        "title": "Beginning Latin I",
-        "info": "Graduate students will work in tandem with LAT 1001 and complete additional exercises from original readings in their chosen field of study (e.g., English, Music, History) to improve their abilities to read archival materials related to their discipline.",
-        "prereq": []
-    },
-    {
-        "code": "LAT 5001",
-        "subject": "LAT",
-        "id": "5001",
-        "title": "Intensive Latin",
-        "info": "Covers material usually taught over two semesters.\n\nprereq: Prev experience in another foreign language is desirable",
-        "prereq": []
-    },
-    {
-        "code": "LAT 5003",
-        "subject": "LAT",
-        "id": "5003",
-        "title": "Int Latin Prose: Grad Research",
-        "info": "Introduction to Latin prose authors of 1st centuries BCE/CE. Readings of continuous passages of unadapted Latin texts (history, speeches, letters). Review of grammar/vocabulary as needed. Some discussion of major themes/issues in Roman culture as illustrated by texts.\n\nprereq: [Grade of at least [C- or S] in [1002 or 5001] or instr consent]",
-        "prereq": {
-            "or": [
-                {
-                    "code": "LAT 1002",
-                    "subject": "LAT",
-                    "id": "1002"
-                },
-                {
-                    "code": "LAT 5001",
-                    "subject": "LAT",
-                    "id": "5001"
-                }
-            ]
-        }
-    },
-    {
-        "code": "LAT 5004",
-        "subject": "LAT",
-        "id": "5004",
-        "title": "Int Latin Poetry Grad Research",
-        "info": "Introduction to Roman epic poetry. Readings of selections from Vergil's Aeneid. Quantitative meter and poetic devices. Discussion of major themes and issues as developed in Vergil's poetry. Meets with 3004.",
-        "prereq": []
-    },
-    {
-        "code": "LAT 5100",
-        "subject": "LAT",
-        "id": "5100",
-        "title": "Advanced Latin Poetry",
-        "info": "The primary material for this course will be a selection of readings from three or more different\nLatin poets connected by genre (e.g. epic, dramatic, lyric), theme (e.g. heroism and the hero,\nthe body, the good life), period (e.g. Augustan, late Antique), or the like. Primary readings and\ncritical approach will vary from year to year, making the course repeatable. Some modern\nsecondary reading will be assigned to provide a basis for discussion and a model for student\nwritten work.\n\nprereq: [3004 or equiv], at least two yrs of college level Latin. Contact the Classical & Near Eastern Religions & Cultures Department with any questions.",
-        "prereq": {
-            "code": "LAT 3004",
-            "subject": "LAT",
-            "id": "3004"
-        }
-    },
-    {
-        "code": "LAT 5200",
-        "subject": "LAT",
-        "id": "5200",
-        "title": "Advanced Latin Prose",
-        "info": "The primary material for this course will be a selection of readings from three or more different\nLatin prose authors connected by genre (e.g. historical writing, philosophy, religious texts),\ntheme (e.g. Epicureanism and Stoicism, Christian apologetics, grammarians), period (e.g.\nRepublican, Late Imperial), or the like. Primary readings and critical approach will vary from\nyear to year, making the course repeatable. Some modern secondary reading will be assigned\nto provide a basis for discussion and a model for student written work.\n\nprereq: [LAT 3004 or equiv], at least two yrs of college level Latin. Contact the Classical & Near Eastern Religions & Cultures department (CNRC) with any questions.",
-        "prereq": {
-            "code": "LAT 3004",
-            "subject": "LAT",
-            "id": "3004"
-        }
-    },
-    {
-        "code": "LAT 5310",
-        "subject": "LAT",
-        "id": "5310",
-        "title": "Lat Lit: History",
-        "info": "One or more authors.",
-        "prereq": []
-    },
-    {
-        "code": "LAT 5320",
-        "subject": "LAT",
-        "id": "5320",
-        "title": "Lat Lit: Epistles",
-        "info": "One or more authors.",
-        "prereq": []
-    },
-    {
-        "code": "LAT 5330",
-        "subject": "LAT",
-        "id": "5330",
-        "title": "Lat Lit: Oratory",
-        "info": "One or more authors.",
-        "prereq": []
-    },
-    {
-        "code": "LAT 5340",
-        "subject": "LAT",
-        "id": "5340",
-        "title": "Lat Lit: Epic",
-        "info": "One or more authors.",
-        "prereq": []
-    },
-    {
-        "code": "LAT 5350",
-        "subject": "LAT",
-        "id": "5350",
-        "title": "Lat Lit: Poetry",
-        "info": "One or more authors.",
-        "prereq": []
-    },
-    {
-        "code": "LAT 5360",
-        "subject": "LAT",
-        "id": "5360",
-        "title": "Lat Lit: Dramatists",
-        "info": "One or more authors.",
-        "prereq": []
-    },
-    {
-        "code": "LAT 5370",
-        "subject": "LAT",
-        "id": "5370",
-        "title": "Lat Lit: Satire and the Novel",
-        "info": "One or more authors.",
-        "prereq": []
-    },
-    {
-        "code": "LAT 5380",
-        "subject": "LAT",
-        "id": "5380",
-        "title": "Lat Legal Texts",
-        "info": "One or more authors.",
-        "prereq": []
-    },
-    {
-        "code": "LAT 5390",
-        "subject": "LAT",
-        "id": "5390",
-        "title": "Lit: Religious Text",
-        "info": "Reading/discussion of religious texts from Latin antiquity, such as Varro's Antiquitates Divinae, Cicero's De natura deorum, Apuleius's Metamorphoses, or Christian writers (Tertullian, Cyprian, Lactantius, Jerome, Augustine).",
-        "prereq": []
-    },
-    {
-        "code": "LAT 5410",
-        "subject": "LAT",
-        "id": "5410",
-        "title": "Lat of Late Antiq",
-        "info": "Pagan/Christian Latin literature selected from authors of 3rd to 6th centuries AD. Topics specified in Class Schedule.",
-        "prereq": []
-    },
-    {
-        "code": "LAT 5420",
-        "subject": "LAT",
-        "id": "5420",
-        "title": "Medieval Latin",
-        "info": "Literature from 6th to 15th centuries. Authors/genres vary. Topics specified in Class Schedule.",
-        "prereq": []
-    },
-    {
-        "code": "LAT 5701",
-        "subject": "LAT",
-        "id": "5701",
-        "title": "Lat Prose Comp",
-        "info": "Latin grammar, syntax, diction, and prose style. Graduated exercises in prose composition.\n\nprereq: Grad student or instr consent",
-        "prereq": []
-    },
-    {
-        "code": "LAT 5702",
-        "subject": "LAT",
-        "id": "5702",
-        "title": "Text Criticism",
-        "info": "Theory/practice. Elements of paleography and manuscript study. Tools for analyzing a textual apparatus. Constructing a critical edition of a literary text.\n\nprereq: Grad student or instr consent",
-        "prereq": []
-    },
-    {
-        "code": "LAT 5703",
-        "subject": "LAT",
-        "id": "5703",
-        "title": "Epigraphy",
-        "info": "Practical/theoretical introduction to Latin epigraphy (study/interpretation of inscriptions). Readings/discussion of epigraphic texts. Their value as historical documents, as evidence for development of Latin language, and as literary texts.\n\nprereq: Grad student or instr consent",
-        "prereq": []
-    },
-    {
-        "code": "LAT 5704",
-        "subject": "LAT",
-        "id": "5704",
-        "title": "Latin Paleography",
-        "info": "Analysis of various hands used in manuscripts of Latin authors, with attention to date/provenance. Transmission of ancient Latin literature.",
-        "prereq": []
-    },
-    {
-        "code": "LAT 5705",
-        "subject": "LAT",
-        "id": "5705",
-        "title": "Intro: Hist-Comp Greek & Latin",
-        "info": "Historical/comparative grammar of Greek and Latin from proto-Indo-European origins to classical norms.\n\nprereq: Two yrs college [Greek or Latin] or instr consent",
-        "prereq": []
-    },
-    {
-        "code": "LAT 5706",
-        "subject": "LAT",
-        "id": "5706",
-        "title": "History of Latin",
-        "info": "Reading/analysis of documents illustrating stylistic registers/evolution of Latin language, from its earliest attestations through Middle Ages.",
-        "prereq": []
-    },
-    {
-        "code": "LAT 5800",
-        "subject": "LAT",
-        "id": "5800",
-        "title": "Sight Reading",
-        "info": "Practice in reading Latin texts at sight.\n\nprereq: Enrolled in a grad program in Department of Classical/Near Eastern Studies",
-        "prereq": []
-    },
-    {
-        "code": "LAT 5993",
-        "subject": "LAT",
-        "id": "5993",
-        "title": "Directed Studies",
-        "info": "Guided individual reading or study.\n\nprereq: instr consent, dept consent",
-        "prereq": []
-    },
-    {
-        "code": "LAT 5994",
-        "subject": "LAT",
-        "id": "5994",
-        "title": "Directed Research",
-        "info": "Guided research on original topic chosen by student.\n\nprereq: Grad student or instr consent",
-        "prereq": []
-    },
-    {
-        "code": "LAT 5996",
-        "subject": "LAT",
-        "id": "5996",
-        "title": "Directed Instr",
-        "info": "Supervised teaching internship.\n\nprereq: Grad student or instr consent",
-        "prereq": []
-    },
-    {
-        "code": "LAT 8100",
-        "subject": "LAT",
-        "id": "8100",
-        "title": "Readings in Latin Prose",
-        "info": "Reading/discussion of Latin prose texts.",
-        "prereq": []
-    },
-    {
-        "code": "LAT 8120",
-        "subject": "LAT",
-        "id": "8120",
-        "title": "Latin Texts",
-        "info": "Students attend 3xxx Latin courses.  Supplementary work at discretion of instructor.\n\nprereq: 3111 or dept consent; not for students in dept of Classical and Nr East Studies",
-        "prereq": {
-            "code": "LAT 3111",
-            "subject": "LAT",
-            "id": "3111"
-        }
-    },
-    {
-        "code": "LAT 8200",
-        "subject": "LAT",
-        "id": "8200",
-        "title": "Readings in Latin Verse",
-        "info": "Reading/discussion of Latin poetic texts.\n\nprereq: Advanced grad student",
-        "prereq": []
-    },
-    {
-        "code": "LAT 8262",
-        "subject": "LAT",
-        "id": "8262",
-        "title": "Latin Lit. I",
-        "info": "Extensive readings in variety of works from republican and early Augustan period.",
-        "prereq": []
-    },
-    {
-        "code": "LAT 8263",
-        "subject": "LAT",
-        "id": "8263",
-        "title": "Latin Lit. II",
-        "info": "Variety of works from Augustan and imperial periods.",
-        "prereq": []
-    },
-    {
-        "code": "LAT 8267",
-        "subject": "LAT",
-        "id": "8267",
-        "title": "Late Antique Latin",
-        "info": "Latin literature of 3rd to 6th centuries A.D., including Ammianus and Augustine.\n\nprereq: instr consent, dept consent",
-        "prereq": []
-    },
-    {
-        "code": "LAT 8300",
-        "subject": "LAT",
-        "id": "8300",
-        "title": "Readings in Latin Texts",
-        "info": "Reading/discussion of literary or documentary texts from Roman antiquity. Topics may include subjects that draw on various sources, genres, or methods.\n\nprereq: Advanced grad student",
-        "prereq": []
-    },
-    {
-        "code": "LAT 8333",
-        "subject": "LAT",
-        "id": "8333",
-        "title": "FTE: Master's",
-        "info": "",
-        "prereq": []
-    },
-    {
-        "code": "LAT 8444",
-        "subject": "LAT",
-        "id": "8444",
-        "title": "FTE: Doctoral",
-        "info": "",
-        "prereq": []
-    },
-    {
-        "code": "LAT 8666",
-        "subject": "LAT",
-        "id": "8666",
-        "title": "Doct Pre-Thesis Cr",
-        "info": "",
-        "prereq": []
-    },
-    {
-        "code": "LAT 8777",
-        "subject": "LAT",
-        "id": "8777",
-        "title": "Thesis Credit:Mast*",
-        "info": "",
-        "prereq": []
-    },
-    {
-        "code": "LAT 8888",
-        "subject": "LAT",
-        "id": "8888",
-        "title": "Thesis Credit:Doct*",
-        "info": "",
-        "prereq": []
-    },
-    {
-        "code": "LAT 8910",
-        "subject": "LAT",
-        "id": "8910",
-        "title": "Seminar",
-        "info": "Topics in Latin literature examined in depth. Emphasizes current scholarship, original student research.",
-        "prereq": []
+  {
+    "code": "LAT 1001",
+    "subject": "LAT",
+    "id": "1001",
+    "title": "Beg. Latin I",
+    "info": "Latin is the genesis of modern Romance languages and is foundational to science, law, religion, education, and philosophy. The study of Latin sharpens the mind and fuels the development of critical thinking and problem-solving skills. The Latin introductory sequence (1001/1002) will prepare you to read authentic, historical texts and will ground you in solid grammar and vocabulary. Developing your acumen in this essential ancient language will open the door to a wide range of classical, medieval, and Renaissance authors, playwrights, and poets.",
+    "prereq": []
+  },
+  {
+    "code": "LAT 1002",
+    "subject": "LAT",
+    "id": "1002",
+    "title": "Beg. Latin II",
+    "info": "Continuation of Latin 1001. More complex constructions, including participles, clauses, indirect discourse. Some reading of adapted passages from ancient texts.\n\nprereq: Grade of at least C- or S in 1001 or instr consent",
+    "prereq": {
+      "code": "LAT 1001",
+      "subject": "LAT",
+      "id": "1001"
     }
+  },
+  {
+    "code": "LAT 1102",
+    "subject": "LAT",
+    "id": "1102",
+    "title": "Beg Lat II, Trans",
+    "info": "Continuation of basic grammar/vocabulary, practice reading/writing. Latin readings, Roman legends.",
+    "prereq": []
+  },
+  {
+    "code": "LAT 1103",
+    "subject": "LAT",
+    "id": "1103",
+    "title": "Sel Lat Lit, Trans",
+    "info": "Prose/poetry. Historical/literary background.",
+    "prereq": []
+  },
+  {
+    "code": "LAT 3003",
+    "subject": "LAT",
+    "id": "3003",
+    "title": "Intermediate Latin Prose",
+    "info": "Introduction to Latin prose authors of 1st centuries BCE/CE. Readings of continuous passages of unadapted Latin texts (history, speeches, letters). Review of grammar/vocabulary as needed. Some discussion of major themes/issues in Roman culture as illustrated by texts.\n\nprereq: Grade of at least C- or S in 1002 or 5001 or instr consent",
+    "prereq": {
+      "or": [
+        {
+          "code": "LAT 1002",
+          "subject": "LAT",
+          "id": "1002"
+        },
+        {
+          "code": "LAT 5001",
+          "subject": "LAT",
+          "id": "5001"
+        }
+      ]
+    }
+  },
+  {
+    "code": "LAT 3004",
+    "subject": "LAT",
+    "id": "3004",
+    "title": "Intermediate Latin Poetry",
+    "info": "Introduction to Roman epic poetry. Readings of selections from Vergil's Aeneid. Quantitative meter and poetic devices. Discussion of major themes and issues as developed in Vergil's poetry.",
+    "prereq": []
+  },
+  {
+    "code": "LAT 3100",
+    "subject": "LAT",
+    "id": "3100",
+    "title": "Reading Latin Prose",
+    "info": "Introduction to reading Latin prose. Selections from Roman authors. Review of grammar/syntax. Follow-up course to intensive Latin or review for students returning to reading Latin after time lapse.",
+    "prereq": []
+  },
+  {
+    "code": "LAT 3112",
+    "subject": "LAT",
+    "id": "3112",
+    "title": "Intens. Lat. Rec.",
+    "info": "Drills and composition exercises. Students must also register for 3111 when taking this course.",
+    "prereq": []
+  },
+  {
+    "code": "LAT 3199",
+    "subject": "LAT",
+    "id": "3199",
+    "title": "Latin AP Credit",
+    "info": "Prereq score of [3 or 4 or 5] on [AP Vergil or AP Latin Literature] exam.",
+    "prereq": []
+  },
+  {
+    "code": "LAT 3300",
+    "subject": "LAT",
+    "id": "3300",
+    "title": "Intermediate Latin Poetry",
+    "info": "Readings in Latin poetry. Introduction to Latin Meter. Vergil and Catullus/Ovid offered in alternate years.",
+    "prereq": []
+  },
+  {
+    "code": "LAT 3310",
+    "subject": "LAT",
+    "id": "3310",
+    "title": "Adv Und Lat: Hist",
+    "info": "Roman history as the Romans wrote it;  selections from Livy, Sallust, Tacitus, or Ammianus.",
+    "prereq": []
+  },
+  {
+    "code": "LAT 3320",
+    "subject": "LAT",
+    "id": "3320",
+    "title": "Adv Und Lat: Lit",
+    "info": "Selections from expository Latin literature (essays, epistles, monographs).",
+    "prereq": []
+  },
+  {
+    "code": "LAT 3330",
+    "subject": "LAT",
+    "id": "3330",
+    "title": "Adv Und Lat Oratory",
+    "info": "One or more appropriate authors studied each semester.",
+    "prereq": []
+  },
+  {
+    "code": "LAT 3340",
+    "subject": "LAT",
+    "id": "3340",
+    "title": "Adv Und Lat: Epic",
+    "info": "One or more appropriate authors studied each semester.",
+    "prereq": []
+  },
+  {
+    "code": "LAT 3350",
+    "subject": "LAT",
+    "id": "3350",
+    "title": "Adv Und Lat: Lyric",
+    "info": "One or more appropriate authors studied each semester.",
+    "prereq": []
+  },
+  {
+    "code": "LAT 3360",
+    "subject": "LAT",
+    "id": "3360",
+    "title": "Adv Und Lat: Drama",
+    "info": "One or more appropriate authors studied each semester.",
+    "prereq": []
+  },
+  {
+    "code": "LAT 3370",
+    "subject": "LAT",
+    "id": "3370",
+    "title": "Adv Und Lat:Satire & the Novel",
+    "info": "One or more authors.",
+    "prereq": []
+  },
+  {
+    "code": "LAT 3993",
+    "subject": "LAT",
+    "id": "3993",
+    "title": "Directed Studies",
+    "info": "Guided individual reading or study.\n\nprereq: instr consent and dept consent",
+    "prereq": []
+  },
+  {
+    "code": "LAT 3994",
+    "subject": "LAT",
+    "id": "3994",
+    "title": "Directed Research",
+    "info": "Research project using documents and other sources from the ancient world. Students select project in consultation with a faculty member who directs the research and writing.\nStudents enrolling in this Directed Research course will complete the University's common Directed Study/Research contract with the faculty mentor/evaluator. \n\nPrereq: [Greek-Latin or Latin major], three 3xxx Latin courses\n\nStudents enrolling in this directed research course will complete the University's common Directed Research contract with the faculty mentor/evaluator. The Faculty member will ensure academic standards are upheld, including:\n- the work proposed is at the appropriate level for the course, academic in nature, and the student will be involved intellectually in the project.\n- the project scope is reasonable for one semester and the number of credits specified (42 hours of work per credit)\n- the faculty mentor is qualified to serve in this role - assessment of student learning and grading criteria are clear and appropriate\n- the student will be working in a respectful, inclusive environment.\nThe contract will include the learning objectives for the course, the methods that will be employed, and how assessment will be conducted by the faculty mentor. The contract must be approved by the DUGS/academic approver of the major before the student can register.",
+    "prereq": []
+  },
+  {
+    "code": "LAT 4001",
+    "subject": "LAT",
+    "id": "4001",
+    "title": "Beginning Latin I",
+    "info": "Graduate students will work in tandem with LAT 1001 and complete additional exercises from original readings in their chosen field of study (e.g., English, Music, History) to improve their abilities to read archival materials related to their discipline.",
+    "prereq": []
+  },
+  {
+    "code": "LAT 5001",
+    "subject": "LAT",
+    "id": "5001",
+    "title": "Intensive Latin",
+    "info": "Covers material usually taught over two semesters.\n\nprereq: Prev experience in another foreign language is desirable",
+    "prereq": []
+  },
+  {
+    "code": "LAT 5003",
+    "subject": "LAT",
+    "id": "5003",
+    "title": "Int Latin Prose: Grad Research",
+    "info": "Introduction to Latin prose authors of 1st centuries BCE/CE. Readings of continuous passages of unadapted Latin texts (history, speeches, letters). Review of grammar/vocabulary as needed. Some discussion of major themes/issues in Roman culture as illustrated by texts.\n\nprereq: [Grade of at least [C- or S] in [1002 or 5001] or instr consent]",
+    "prereq": {
+      "or": [
+        {
+          "code": "LAT 1002",
+          "subject": "LAT",
+          "id": "1002"
+        },
+        {
+          "code": "LAT 5001",
+          "subject": "LAT",
+          "id": "5001"
+        }
+      ]
+    }
+  },
+  {
+    "code": "LAT 5004",
+    "subject": "LAT",
+    "id": "5004",
+    "title": "Int Latin Poetry Grad Research",
+    "info": "Introduction to Roman epic poetry. Readings of selections from Vergil's Aeneid. Quantitative meter and poetic devices. Discussion of major themes and issues as developed in Vergil's poetry. Meets with 3004.",
+    "prereq": []
+  },
+  {
+    "code": "LAT 5100",
+    "subject": "LAT",
+    "id": "5100",
+    "title": "Advanced Latin Poetry",
+    "info": "The primary material for this course will be a selection of readings from three or more different\nLatin poets connected by genre (e.g. epic, dramatic, lyric), theme (e.g. heroism and the hero,\nthe body, the good life), period (e.g. Augustan, late Antique), or the like. Primary readings and\ncritical approach will vary from year to year, making the course repeatable. Some modern\nsecondary reading will be assigned to provide a basis for discussion and a model for student\nwritten work.\n\nprereq: [3004 or equiv], at least two yrs of college level Latin. Contact the Classical & Near Eastern Religions & Cultures Department with any questions.",
+    "prereq": {
+      "code": "LAT 3004",
+      "subject": "LAT",
+      "id": "3004"
+    }
+  },
+  {
+    "code": "LAT 5200",
+    "subject": "LAT",
+    "id": "5200",
+    "title": "Advanced Latin Prose",
+    "info": "The primary material for this course will be a selection of readings from three or more different\nLatin prose authors connected by genre (e.g. historical writing, philosophy, religious texts),\ntheme (e.g. Epicureanism and Stoicism, Christian apologetics, grammarians), period (e.g.\nRepublican, Late Imperial), or the like. Primary readings and critical approach will vary from\nyear to year, making the course repeatable. Some modern secondary reading will be assigned\nto provide a basis for discussion and a model for student written work.\n\nprereq: [LAT 3004 or equiv], at least two yrs of college level Latin. Contact the Classical & Near Eastern Religions & Cultures department (CNRC) with any questions.",
+    "prereq": {
+      "code": "LAT 3004",
+      "subject": "LAT",
+      "id": "3004"
+    }
+  },
+  {
+    "code": "LAT 5310",
+    "subject": "LAT",
+    "id": "5310",
+    "title": "Lat Lit: History",
+    "info": "One or more authors.",
+    "prereq": []
+  },
+  {
+    "code": "LAT 5320",
+    "subject": "LAT",
+    "id": "5320",
+    "title": "Lat Lit: Epistles",
+    "info": "One or more authors.",
+    "prereq": []
+  },
+  {
+    "code": "LAT 5330",
+    "subject": "LAT",
+    "id": "5330",
+    "title": "Lat Lit: Oratory",
+    "info": "One or more authors.",
+    "prereq": []
+  },
+  {
+    "code": "LAT 5340",
+    "subject": "LAT",
+    "id": "5340",
+    "title": "Lat Lit: Epic",
+    "info": "One or more authors.",
+    "prereq": []
+  },
+  {
+    "code": "LAT 5350",
+    "subject": "LAT",
+    "id": "5350",
+    "title": "Lat Lit: Poetry",
+    "info": "One or more authors.",
+    "prereq": []
+  },
+  {
+    "code": "LAT 5360",
+    "subject": "LAT",
+    "id": "5360",
+    "title": "Lat Lit: Dramatists",
+    "info": "One or more authors.",
+    "prereq": []
+  },
+  {
+    "code": "LAT 5370",
+    "subject": "LAT",
+    "id": "5370",
+    "title": "Lat Lit: Satire and the Novel",
+    "info": "One or more authors.",
+    "prereq": []
+  },
+  {
+    "code": "LAT 5380",
+    "subject": "LAT",
+    "id": "5380",
+    "title": "Lat Legal Texts",
+    "info": "One or more authors.",
+    "prereq": []
+  },
+  {
+    "code": "LAT 5390",
+    "subject": "LAT",
+    "id": "5390",
+    "title": "Lit: Religious Text",
+    "info": "Reading/discussion of religious texts from Latin antiquity, such as Varro's Antiquitates Divinae, Cicero's De natura deorum, Apuleius's Metamorphoses, or Christian writers (Tertullian, Cyprian, Lactantius, Jerome, Augustine).",
+    "prereq": []
+  },
+  {
+    "code": "LAT 5410",
+    "subject": "LAT",
+    "id": "5410",
+    "title": "Lat of Late Antiq",
+    "info": "Pagan/Christian Latin literature selected from authors of 3rd to 6th centuries AD. Topics specified in Class Schedule.",
+    "prereq": []
+  },
+  {
+    "code": "LAT 5420",
+    "subject": "LAT",
+    "id": "5420",
+    "title": "Medieval Latin",
+    "info": "Literature from 6th to 15th centuries. Authors/genres vary. Topics specified in Class Schedule.",
+    "prereq": []
+  },
+  {
+    "code": "LAT 5701",
+    "subject": "LAT",
+    "id": "5701",
+    "title": "Lat Prose Comp",
+    "info": "Latin grammar, syntax, diction, and prose style. Graduated exercises in prose composition.\n\nprereq: Grad student or instr consent",
+    "prereq": []
+  },
+  {
+    "code": "LAT 5702",
+    "subject": "LAT",
+    "id": "5702",
+    "title": "Text Criticism",
+    "info": "Theory/practice. Elements of paleography and manuscript study. Tools for analyzing a textual apparatus. Constructing a critical edition of a literary text.\n\nprereq: Grad student or instr consent",
+    "prereq": []
+  },
+  {
+    "code": "LAT 5703",
+    "subject": "LAT",
+    "id": "5703",
+    "title": "Epigraphy",
+    "info": "Practical/theoretical introduction to Latin epigraphy (study/interpretation of inscriptions). Readings/discussion of epigraphic texts. Their value as historical documents, as evidence for development of Latin language, and as literary texts.\n\nprereq: Grad student or instr consent",
+    "prereq": []
+  },
+  {
+    "code": "LAT 5704",
+    "subject": "LAT",
+    "id": "5704",
+    "title": "Latin Paleography",
+    "info": "Analysis of various hands used in manuscripts of Latin authors, with attention to date/provenance. Transmission of ancient Latin literature.",
+    "prereq": []
+  },
+  {
+    "code": "LAT 5705",
+    "subject": "LAT",
+    "id": "5705",
+    "title": "Intro: Hist-Comp Greek & Latin",
+    "info": "Historical/comparative grammar of Greek and Latin from proto-Indo-European origins to classical norms.\n\nprereq: Two yrs college [Greek or Latin] or instr consent",
+    "prereq": []
+  },
+  {
+    "code": "LAT 5706",
+    "subject": "LAT",
+    "id": "5706",
+    "title": "History of Latin",
+    "info": "Reading/analysis of documents illustrating stylistic registers/evolution of Latin language, from its earliest attestations through Middle Ages.",
+    "prereq": []
+  },
+  {
+    "code": "LAT 5800",
+    "subject": "LAT",
+    "id": "5800",
+    "title": "Sight Reading",
+    "info": "Practice in reading Latin texts at sight.\n\nprereq: Enrolled in a grad program in Department of Classical/Near Eastern Studies",
+    "prereq": []
+  },
+  {
+    "code": "LAT 5993",
+    "subject": "LAT",
+    "id": "5993",
+    "title": "Directed Studies",
+    "info": "Guided individual reading or study.\n\nprereq: instr consent, dept consent",
+    "prereq": []
+  },
+  {
+    "code": "LAT 5994",
+    "subject": "LAT",
+    "id": "5994",
+    "title": "Directed Research",
+    "info": "Guided research on original topic chosen by student.\n\nprereq: Grad student or instr consent",
+    "prereq": []
+  },
+  {
+    "code": "LAT 5996",
+    "subject": "LAT",
+    "id": "5996",
+    "title": "Directed Instr",
+    "info": "Supervised teaching internship.\n\nprereq: Grad student or instr consent",
+    "prereq": []
+  },
+  {
+    "code": "LAT 8100",
+    "subject": "LAT",
+    "id": "8100",
+    "title": "Readings in Latin Prose",
+    "info": "Reading/discussion of Latin prose texts.",
+    "prereq": []
+  },
+  {
+    "code": "LAT 8120",
+    "subject": "LAT",
+    "id": "8120",
+    "title": "Latin Texts",
+    "info": "Students attend 3xxx Latin courses.  Supplementary work at discretion of instructor.\n\nprereq: 3111 or dept consent; not for students in dept of Classical and Nr East Studies",
+    "prereq": {
+      "code": "LAT 3111",
+      "subject": "LAT",
+      "id": "3111"
+    }
+  },
+  {
+    "code": "LAT 8200",
+    "subject": "LAT",
+    "id": "8200",
+    "title": "Readings in Latin Verse",
+    "info": "Reading/discussion of Latin poetic texts.\n\nprereq: Advanced grad student",
+    "prereq": []
+  },
+  {
+    "code": "LAT 8262",
+    "subject": "LAT",
+    "id": "8262",
+    "title": "Latin Lit. I",
+    "info": "Extensive readings in variety of works from republican and early Augustan period.",
+    "prereq": []
+  },
+  {
+    "code": "LAT 8263",
+    "subject": "LAT",
+    "id": "8263",
+    "title": "Latin Lit. II",
+    "info": "Variety of works from Augustan and imperial periods.",
+    "prereq": []
+  },
+  {
+    "code": "LAT 8267",
+    "subject": "LAT",
+    "id": "8267",
+    "title": "Late Antique Latin",
+    "info": "Latin literature of 3rd to 6th centuries A.D., including Ammianus and Augustine.\n\nprereq: instr consent, dept consent",
+    "prereq": []
+  },
+  {
+    "code": "LAT 8300",
+    "subject": "LAT",
+    "id": "8300",
+    "title": "Readings in Latin Texts",
+    "info": "Reading/discussion of literary or documentary texts from Roman antiquity. Topics may include subjects that draw on various sources, genres, or methods.\n\nprereq: Advanced grad student",
+    "prereq": []
+  },
+  {
+    "code": "LAT 8333",
+    "subject": "LAT",
+    "id": "8333",
+    "title": "FTE: Master's",
+    "info": "",
+    "prereq": []
+  },
+  {
+    "code": "LAT 8444",
+    "subject": "LAT",
+    "id": "8444",
+    "title": "FTE: Doctoral",
+    "info": "",
+    "prereq": []
+  },
+  {
+    "code": "LAT 8666",
+    "subject": "LAT",
+    "id": "8666",
+    "title": "Doct Pre-Thesis Cr",
+    "info": "",
+    "prereq": []
+  },
+  {
+    "code": "LAT 8777",
+    "subject": "LAT",
+    "id": "8777",
+    "title": "Thesis Credit:Mast*",
+    "info": "",
+    "prereq": []
+  },
+  {
+    "code": "LAT 8888",
+    "subject": "LAT",
+    "id": "8888",
+    "title": "Thesis Credit:Doct*",
+    "info": "",
+    "prereq": []
+  },
+  {
+    "code": "LAT 8910",
+    "subject": "LAT",
+    "id": "8910",
+    "title": "Seminar",
+    "info": "Topics in Latin literature examined in depth. Emphasizes current scholarship, original student research.",
+    "prereq": []
+  }
 ]

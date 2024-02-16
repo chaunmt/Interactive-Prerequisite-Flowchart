@@ -15,6 +15,5 @@ export default function Page() {
 
 
 export const metadata = {
-  title: `Home | Gopher Prerequisite`,
-  description: '...',  // ??
+  title: `Home | Gopher Prerequisite`
 }

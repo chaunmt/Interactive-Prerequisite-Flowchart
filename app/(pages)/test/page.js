@@ -1,7 +1,7 @@
 // gonna use this for streamlined testing of graphbuilder algorithm (i'll remove this when i'm done with it)
 
-// import Mermaid from "../../components/Mermaid";
-// import {buildGraph, buildCombinedGraph} from "../../data/graphBuilder";
+import Mermaid from "../../components/Mermaid";
+import {buildGraph, buildCombinedGraph} from "../../data/graphBuilder";
 
 import Access, { AccessAll } from "../../data/access";
 import { Course, CourseShell, PrereqFormat, PrereqTraversal } from "../../data/types"
@@ -71,4 +71,8 @@ export default function Page() {
       {/* test5 = Access("MATH").target(shell1)[0].title = {test5} */}
     </div>
   );
+}
+
+export const metadata = {
+  title: `Test | Gopher Prerequisite`,
 }

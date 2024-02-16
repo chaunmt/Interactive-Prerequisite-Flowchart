@@ -1,70 +1,70 @@
 [
-    {
-        "code": "PERS 1011",
-        "subject": "PERS",
-        "id": "1011",
-        "title": "Beginning Persian I",
-        "info": "Listening, speaking, reading, and writing in modern standard Persian (Farsi).",
-        "prereq": []
-    },
-    {
-        "code": "PERS 1012",
-        "subject": "PERS",
-        "id": "1012",
-        "title": "Beginning Persian II",
-        "info": "Listening, speaking, reading, writing in modern standard Persian (Farsi).\n\nprereq: 1011 or instr consent",
-        "prereq": {
-            "code": "PERS 1011",
-            "subject": "PERS",
-            "id": "1011"
-        }
-    },
-    {
-        "code": "PERS 3101",
-        "subject": "PERS",
-        "id": "3101",
-        "title": "Intermediate Persian I",
-        "info": "Listening, speaking, reading, and writing in modern standard Persian (Farsi).",
-        "prereq": []
-    },
-    {
-        "code": "PERS 3102",
-        "subject": "PERS",
-        "id": "3102",
-        "title": "Intermediate Persian II",
-        "info": "Listening, speaking, reading, and writing in modern standard Persian (Farsi).",
-        "prereq": []
-    },
-    {
-        "code": "PERS 4101",
-        "subject": "PERS",
-        "id": "4101",
-        "title": "Beg Persian I Grad Research",
-        "info": "Listening, speaking, reading, and writing in modern standard Persian (Farsi).",
-        "prereq": []
-    },
-    {
-        "code": "PERS 4102",
-        "subject": "PERS",
-        "id": "4102",
-        "title": "Beg Persian II Grad Research",
-        "info": "Listening, speaking, reading, and writing in modern standard Persian (Farsi).",
-        "prereq": []
-    },
-    {
-        "code": "PERS 4103",
-        "subject": "PERS",
-        "id": "4103",
-        "title": "Intermed Persian I Grad Rsrch",
-        "info": "Listening, speaking, reading, and writing in modern standard Persian (Farsi).",
-        "prereq": []
-    },
-    {
-        "code": "PERS 4104",
-        "subject": "PERS",
-        "id": "4104",
-        "title": "Intermed Persian II Grad Rsrch",
-        "info": "Listening, speaking, reading, and writing in modern standard Persian (Farsi).",
-        "prereq": []
+  {
+    "code": "PERS 1011",
+    "subject": "PERS",
+    "id": "1011",
+    "title": "Beginning Persian I",
+    "info": "Listening, speaking, reading, and writing in modern standard Persian (Farsi).",
+    "prereq": []
+  },
+  {
+    "code": "PERS 1012",
+    "subject": "PERS",
+    "id": "1012",
+    "title": "Beginning Persian II",
+    "info": "Listening, speaking, reading, writing in modern standard Persian (Farsi).\n\nprereq: 1011 or instr consent",
+    "prereq": {
+      "code": "PERS 1011",
+      "subject": "PERS",
+      "id": "1011"
     }
+  },
+  {
+    "code": "PERS 3101",
+    "subject": "PERS",
+    "id": "3101",
+    "title": "Intermediate Persian I",
+    "info": "Listening, speaking, reading, and writing in modern standard Persian (Farsi).",
+    "prereq": []
+  },
+  {
+    "code": "PERS 3102",
+    "subject": "PERS",
+    "id": "3102",
+    "title": "Intermediate Persian II",
+    "info": "Listening, speaking, reading, and writing in modern standard Persian (Farsi).",
+    "prereq": []
+  },
+  {
+    "code": "PERS 4101",
+    "subject": "PERS",
+    "id": "4101",
+    "title": "Beg Persian I Grad Research",
+    "info": "Listening, speaking, reading, and writing in modern standard Persian (Farsi).",
+    "prereq": []
+  },
+  {
+    "code": "PERS 4102",
+    "subject": "PERS",
+    "id": "4102",
+    "title": "Beg Persian II Grad Research",
+    "info": "Listening, speaking, reading, and writing in modern standard Persian (Farsi).",
+    "prereq": []
+  },
+  {
+    "code": "PERS 4103",
+    "subject": "PERS",
+    "id": "4103",
+    "title": "Intermed Persian I Grad Rsrch",
+    "info": "Listening, speaking, reading, and writing in modern standard Persian (Farsi).",
+    "prereq": []
+  },
+  {
+    "code": "PERS 4104",
+    "subject": "PERS",
+    "id": "4104",
+    "title": "Intermed Persian II Grad Rsrch",
+    "info": "Listening, speaking, reading, and writing in modern standard Persian (Farsi).",
+    "prereq": []
+  }
 ]
