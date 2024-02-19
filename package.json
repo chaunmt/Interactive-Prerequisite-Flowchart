@@ -1,5 +1,6 @@
 {
 	"dependencies": {
+		"eslint": "^8.56.0",
 		"mermaid": "^10.5.1",
 		"next": "^13.5.4",
 		"node": "^20.7.0",
@@ -16,6 +17,7 @@
 	"devDependencies": {
 		"@types/node": "20.8.7",
 		"@types/react": "18.2.31",
+		"eslint-config-next": "14.1.0",
 		"typescript": "5.2.2"
 	},
 	"pnpm": {
