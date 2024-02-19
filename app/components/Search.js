@@ -1,9 +1,9 @@
-"use client"
-import React, { useState, useEffect } from 'react';
-import Link from 'next/link';
+"use client";
+import React, { useState, useEffect } from "react";
+import Link from "next/link";
 
 function Search({ sendResults }) {
-  const [search, setSearch] = useState('');
+  const [search, setSearch] = useState("");
   const [courses, setCourses] = useState([]);
   const [filteredData, setFilteredData] = useState([]);
 
@@ -24,10 +24,15 @@ function Search({ sendResults }) {
   // Filter courses, search term
   useEffect(() => {
     if (courses.length) {
-      const processedSearch = search.replace(/\s+/g, '').toLowerCase();
-      const results = courses.filter(course => {
-        return course.title.toLowerCase().includes(processedSearch) ||
-               course.code.toLowerCase().replace(/\s+/g, '').includes(processedSearch);
+      const processedSearch = search.replace(/\s+/g, "").toLowerCase();
+      const results = courses.filter((course) => {
+        return (
+          course.title.toLowerCase().includes(processedSearch) ||
+          course.code
+            .toLowerCase()
+            .replace(/\s+/g, "")
+            .includes(processedSearch)
+        );
       });
       setFilteredData(results);
     }
@@ -49,15 +54,16 @@ function Search({ sendResults }) {
         className="searchBar"
       />
       {search && (
-        <ul className='list'>
-          {filteredData.length > 0 ? 
-            (<li>
+        <ul className="list">
+          {filteredData.length > 0 ? (
+            <li>
               <Link href={`/${filteredData[0].subject}`}>
                 {filteredData[0].subject}
               </Link>
-            </li>)
-            : ""
-          }
+            </li>
+          ) : (
+            ""
+          )}
           {filteredData.length > 0 ? (
             filteredData.map((course, index) => (
               <li key={index}>

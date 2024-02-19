@@ -1,4 +1,4 @@
-@import url('../styles/Global.css');
+@import url("../styles/Global.css");
 
 .header nav {
   width: 100%;
@@ -27,7 +27,7 @@
 .header nav ul li {
   display: inline-block;
   margin: 20px 20px;
-  font-size:19px;
+  font-size: 19px;
   align-items: center;
   justify-content: center;
   font-family: Arial, Helvetica, sans-serif;
@@ -39,22 +39,20 @@
   color: var(--header-nav-highlight);
 }
 
-
 .header nav ul li:hover {
   background-color: var(--header-p-color);
-  transition:.5s;
+  transition: 0.5s;
 }
 
 .layout-footer {
-  margin-top:600px;
+  margin-top: 600px;
   /* border-top-style: solid; */
   border-top-width: slim;
-  bottom:0;
+  bottom: 0;
   color: var(--header-nav-highlight);
   text-align: center;
-  padding:25px;
+  padding: 25px;
   margin-bottom: 20px;
-
 }
 
 .title {
@@ -64,9 +62,8 @@
 
 .layout-footer button {
   margin-bottom: 15px;
-
 }
 
 .hyperlink {
-  margin-top:15px;
+  margin-top: 15px;
 }

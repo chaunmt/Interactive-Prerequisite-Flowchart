@@ -1,6 +1,6 @@
-import { usePathname, useSearchParams } from 'next/navigation';
+import { usePathname, useSearchParams } from "next/navigation";
 
-import { headers } from 'next/headers';
+import { headers } from "next/headers";
 
 let Meta = {
   keywords: [
@@ -31,8 +31,8 @@ let Meta = {
     "Gopher Academic Planning",
     "Online Education Resources UMN",
     "UMN Class Schedule",
-    "University of Minnesota Course Catalog"
-  ]
-}
+    "University of Minnesota Course Catalog",
+  ],
+};
 
 export const Keywords = Meta.keywords.join(", ");

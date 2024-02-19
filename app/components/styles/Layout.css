@@ -1,9 +1,9 @@
-@import url('../styles/Global.css');
+@import url("../styles/Global.css");
 
 :root {
-  background: linear-gradient(180deg,var(--bg-color),var(--bg-color));
+  background: linear-gradient(180deg, var(--bg-color), var(--bg-color));
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
@@ -44,22 +44,22 @@
 
 .header nav ul li:hover {
   background-color: var(--header-p-color);
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .footer {
-  margin-top:300px;
+  margin-top: 300px;
   /* border-top-style: solid; */
   border-top-width: slim;
   bottom: 0;
   color: var(--header-nav-highlight);
   text-align: center;
-  padding:25px;
+  padding: 25px;
   margin-bottom: 20px;
 }
 
 .h2 {
-  color:var(--title);
+  color: var(--title);
   font-size: 20px;
 }
 
