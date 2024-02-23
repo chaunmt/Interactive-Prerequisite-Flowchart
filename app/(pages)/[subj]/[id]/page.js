@@ -18,10 +18,13 @@ export default function Page({ params }) {
   if (!allSubjects.includes(SUBJ)) return <Custom404 />;  // Display 404 page when subject is not available
   if (!Access(SUBJ).ids.includes(ID)) return <Custom404 />; // Display 404 page when id is not available
 
+  const graphString = buildGraph(Access(SUBJ).getCourse(ID, "id").code);
+
   return (
     <div>
       <h1>
         {SUBJ} {ID}{" "}
+        <Mermaid graph={graphString} />
       </h1>
     </div>
   );

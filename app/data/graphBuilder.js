@@ -36,7 +36,7 @@ export function buildCombinedGraph(courses) {
       return build;
     } // early exit for 0xxx-level courses
 
-    let prereqs = accs.get(subj).getCourse("code", `${subj} ${idnum}`).prereq;
+    let prereqs = accs.get(subj).getCourse(`${subj} ${idnum}`, "code").prereq;
     return build + process(prereqs, `${subj}_${idnum}`);
   } // end of build_helper
 
@@ -55,7 +55,7 @@ export function buildCombinedGraph(courses) {
     if (!accs.has(subjcode)) {
       accs.set(subjcode, Access(subjcode));
     }
-    coursenum = accs.get(subjcode).getCourse("id", coursenum).id; // reassigned just in case there's a slight discrepancy between input and data
+    coursenum = accs.get(subjcode).getCourse(coursenum, "id").id; // reassigned just in case there's a slight discrepancy between input and data
     graph = graph.concat(helper(subjcode, coursenum));
   }
 
