@@ -1,147 +1,147 @@
 [
-    {
-        "code": "GIS 5530",
-        "subject": "GIS",
-        "id": "5530",
-        "title": "GIS Internship",
-        "info": "Practical hands-on experience using GIS to solve problems in a real-world work environment.\n\nprereq: instr consent, strong GIS/mapping skills",
-        "prereq": []
-    },
-    {
-        "code": "GIS 5555",
-        "subject": "GIS",
-        "id": "5555",
-        "title": "Basic Spatial Analysis",
-        "info": "How to use spatial data to answer questions on a wide array of social, natural, and information science issues. Exploratory data analysis/visualization. Spatial autocorrelation analysis/regression.\n\nprereq: [STAT 3001 or equiv, MGIS student] or instr consent",
-        "prereq": {
-            "code": "STAT 3001",
-            "subject": "STAT",
-            "id": "3001"
-        }
-    },
-    {
-        "code": "GIS 5571",
-        "subject": "GIS",
-        "id": "5571",
-        "title": "ArcGIS I",
-        "info": "First of a two-course series focusing on ArcGIS Desktop. Overview of ArcGIS system and its use for spatial data processing. Data capture, editing, geometric transformations, map projections, topology, Python scripting, and map production.\n\nprereq: [GEOG 5561 or equiv, status in MGIS program, familiarity with computer operating systems] or instr consent",
-        "prereq": {
-            "code": "GEOG 5561",
-            "subject": "GEOG",
-            "id": "5561"
-        }
-    },
-    {
-        "code": "GIS 5572",
-        "subject": "GIS",
-        "id": "5572",
-        "title": "Advanced Spatial Data Science",
-        "info": "This is the second of a two-course series focused on teaching advanced skills in spatial data science with emphasis on the Esri ecosystem of geospatial technologies. Students will further develop the skills required to build end-to-end data integration pipelines in the cloud, build automated quality assurance and quality control procedures for data, and run and validate stochastic simulation models. By the end of the course, students will be able to build geospatial workflows and data systems, basic stochastic simulation models, store results and model validation steps in a database, and create professional-level communication maps and graphs.prereq: [5571, [GEOG 5561 or equiv], in MGIS program] or instr consent",
-        "prereq": {
-            "and": [
-                {
-                    "code": "GIS 5571",
-                    "subject": "GIS",
-                    "id": "5571"
-                },
-                {
-                    "code": "GEOG 5561",
-                    "subject": "GEOG",
-                    "id": "5561"
-                }
-            ]
-        }
-    },
-    {
-        "code": "GIS 5573",
-        "subject": "GIS",
-        "id": "5573",
-        "title": "Intro to Digital Mapping",
-        "info": "Desktop mapping functions using ArcGIS software. Application of systems to display/analysis of geographical data.\n\nprereq: [GEOG 5561 or equiv, in MGIS program] or instr consent",
-        "prereq": {
-            "code": "GEOG 5561",
-            "subject": "GEOG",
-            "id": "5561"
-        }
-    },
-    {
-        "code": "GIS 5574",
-        "subject": "GIS",
-        "id": "5574",
-        "title": "Web GIS and Services",
-        "info": "Plan, design, develop, publish web-based GIS solution. Build websites, prepare data for web. Commercial software, Open Source software, volunteer geographic information, open GIS standards/developing web GIS application. Hands-on experience with variety of web GIS technologies/software.\n\nprereq: [GEOG 5561 or equiv, in MGIS program] or instr consent",
-        "prereq": {
-            "code": "GEOG 5561",
-            "subject": "GEOG",
-            "id": "5561"
-        }
-    },
-    {
-        "code": "GIS 5575",
-        "subject": "GIS",
-        "id": "5575",
-        "title": "Practical Surveying for GIS",
-        "info": "Surveying techniques/relationship of GPS to GIS professionals. Geodesy, data adjustment, datums, ellipsoids, coordinate systems, transformations.\n\nprereq: GEOG 5561 or equiv in MGIS program or instr consent",
-        "prereq": {
-            "code": "GEOG 5561",
-            "subject": "GEOG",
-            "id": "5561"
-        }
-    },
-    {
-        "code": "GIS 5576",
-        "subject": "GIS",
-        "id": "5576",
-        "title": "Spatial Digital Humanities",
-        "info": "Introduction to Spatial Digital Humanities GIS 5576 is a basic overview of desktop GIS (both Esri and open source), as well as an introduction to a number of other mapping techniques (such as Esri Maps for Office, ArcGIS Online, web mapping basics, georeferencing historical maps, etc) in addition to digital scholarship techniques. Course objectives include: understanding the basics of mapping and geospatial information using GIS;  documenting and managing spatial data using coherent/standardized methods;  understanding several spatial analysis methods that are relevant to student research area; and applying spatial research methods into student research. ",
-        "prereq": []
-    },
-    {
-        "code": "GIS 5577",
-        "subject": "GIS",
-        "id": "5577",
-        "title": "Spatial Database Design",
-        "info": "This semi-synchronous online graduate level course is aimed at students who have a foundation in GIS and spatial analysis methods and applications, and are interested in expanding their knowledge into the area spatial database design and spatial analysis. The course covers the following topics: 1) SQL and spatial-SQL queries, database design, and ArcServer Administration. This is an applied course and the objective is to introduce the fundamentals of databases, learn about how spatial data is treated into databases and apply spatial analysis methods. Students taking the class will have moderate to advanced understanding of GIS classes, but do not have much exposure to databases.",
-        "prereq": []
-    },
-    {
-        "code": "GIS 5578",
-        "subject": "GIS",
-        "id": "5578",
-        "title": "GIS Programming",
-        "info": "This Python-focused GIS course is intended for students who have some Python programming experience, or have experience with other programming language(s) and knowledge transferable to Python. Following a review of Python basics, students will use Python modules for spatial data management, mapping, and analysis, including ArcGIS's ArcPy package; work with classes in Python; develop custom modules; and create development environments. A semester-long programming project applying Python skills to a GIS challenge is a significant component of the course.\n\nprereq: instr consent",
-        "prereq": []
-    },
-    {
-        "code": "GIS 5590",
-        "subject": "GIS",
-        "id": "5590",
-        "title": "Special Topics",
-        "info": "Topics vary according to curricular needs, technological developments in field.",
-        "prereq": []
-    },
-    {
-        "code": "GIS 8333",
-        "subject": "GIS",
-        "id": "8333",
-        "title": "FTE: Master's",
-        "info": "(No description)\n\nprereq: Master's student, adviser and DGS consent",
-        "prereq": []
-    },
-    {
-        "code": "GIS 8501",
-        "subject": "GIS",
-        "id": "8501",
-        "title": "GIS Project Management",
-        "info": "Project management/professional development. Portfolio creation, career exploration, degree program planning. GIS project management through lectures, class exercises, guest speakers.\n\nprereq: MGIS student or instr consent",
-        "prereq": []
-    },
-    {
-        "code": "GIS 8990",
-        "subject": "GIS",
-        "id": "8990",
-        "title": "Research Problems in GIS",
-        "info": "Project of sufficient scope/complexity to document student's ability to apply spatial analysis and visualization techniques to real-world problems. Supervised by faculty member.\n\nprereq: MGIS student, instr consent",
-        "prereq": []
+  {
+    "code": "GIS 5530",
+    "subject": "GIS",
+    "id": "5530",
+    "title": "GIS Internship",
+    "info": "Practical hands-on experience using GIS to solve problems in a real-world work environment.\n\nprereq: instr consent, strong GIS/mapping skills",
+    "prereq": []
+  },
+  {
+    "code": "GIS 5555",
+    "subject": "GIS",
+    "id": "5555",
+    "title": "Basic Spatial Analysis",
+    "info": "How to use spatial data to answer questions on a wide array of social, natural, and information science issues. Exploratory data analysis/visualization. Spatial autocorrelation analysis/regression.\n\nprereq: [STAT 3001 or equiv, MGIS student] or instr consent",
+    "prereq": {
+      "code": "STAT 3001",
+      "subject": "STAT",
+      "id": "3001"
     }
+  },
+  {
+    "code": "GIS 5571",
+    "subject": "GIS",
+    "id": "5571",
+    "title": "ArcGIS I",
+    "info": "First of a two-course series focusing on ArcGIS Desktop. Overview of ArcGIS system and its use for spatial data processing. Data capture, editing, geometric transformations, map projections, topology, Python scripting, and map production.\n\nprereq: [GEOG 5561 or equiv, status in MGIS program, familiarity with computer operating systems] or instr consent",
+    "prereq": {
+      "code": "GEOG 5561",
+      "subject": "GEOG",
+      "id": "5561"
+    }
+  },
+  {
+    "code": "GIS 5572",
+    "subject": "GIS",
+    "id": "5572",
+    "title": "Advanced Spatial Data Science",
+    "info": "This is the second of a two-course series focused on teaching advanced skills in spatial data science with emphasis on the Esri ecosystem of geospatial technologies. Students will further develop the skills required to build end-to-end data integration pipelines in the cloud, build automated quality assurance and quality control procedures for data, and run and validate stochastic simulation models. By the end of the course, students will be able to build geospatial workflows and data systems, basic stochastic simulation models, store results and model validation steps in a database, and create professional-level communication maps and graphs.prereq: [5571, [GEOG 5561 or equiv], in MGIS program] or instr consent",
+    "prereq": {
+      "and": [
+        {
+          "code": "GIS 5571",
+          "subject": "GIS",
+          "id": "5571"
+        },
+        {
+          "code": "GEOG 5561",
+          "subject": "GEOG",
+          "id": "5561"
+        }
+      ]
+    }
+  },
+  {
+    "code": "GIS 5573",
+    "subject": "GIS",
+    "id": "5573",
+    "title": "Intro to Digital Mapping",
+    "info": "Desktop mapping functions using ArcGIS software. Application of systems to display/analysis of geographical data.\n\nprereq: [GEOG 5561 or equiv, in MGIS program] or instr consent",
+    "prereq": {
+      "code": "GEOG 5561",
+      "subject": "GEOG",
+      "id": "5561"
+    }
+  },
+  {
+    "code": "GIS 5574",
+    "subject": "GIS",
+    "id": "5574",
+    "title": "Web GIS and Services",
+    "info": "Plan, design, develop, publish web-based GIS solution. Build websites, prepare data for web. Commercial software, Open Source software, volunteer geographic information, open GIS standards/developing web GIS application. Hands-on experience with variety of web GIS technologies/software.\n\nprereq: [GEOG 5561 or equiv, in MGIS program] or instr consent",
+    "prereq": {
+      "code": "GEOG 5561",
+      "subject": "GEOG",
+      "id": "5561"
+    }
+  },
+  {
+    "code": "GIS 5575",
+    "subject": "GIS",
+    "id": "5575",
+    "title": "Practical Surveying for GIS",
+    "info": "Surveying techniques/relationship of GPS to GIS professionals. Geodesy, data adjustment, datums, ellipsoids, coordinate systems, transformations.\n\nprereq: GEOG 5561 or equiv in MGIS program or instr consent",
+    "prereq": {
+      "code": "GEOG 5561",
+      "subject": "GEOG",
+      "id": "5561"
+    }
+  },
+  {
+    "code": "GIS 5576",
+    "subject": "GIS",
+    "id": "5576",
+    "title": "Spatial Digital Humanities",
+    "info": "Introduction to Spatial Digital Humanities GIS 5576 is a basic overview of desktop GIS (both Esri and open source), as well as an introduction to a number of other mapping techniques (such as Esri Maps for Office, ArcGIS Online, web mapping basics, georeferencing historical maps, etc) in addition to digital scholarship techniques. Course objectives include: understanding the basics of mapping and geospatial information using GIS;  documenting and managing spatial data using coherent/standardized methods;  understanding several spatial analysis methods that are relevant to student research area; and applying spatial research methods into student research. ",
+    "prereq": []
+  },
+  {
+    "code": "GIS 5577",
+    "subject": "GIS",
+    "id": "5577",
+    "title": "Spatial Database Design",
+    "info": "This semi-synchronous online graduate level course is aimed at students who have a foundation in GIS and spatial analysis methods and applications, and are interested in expanding their knowledge into the area spatial database design and spatial analysis. The course covers the following topics: 1) SQL and spatial-SQL queries, database design, and ArcServer Administration. This is an applied course and the objective is to introduce the fundamentals of databases, learn about how spatial data is treated into databases and apply spatial analysis methods. Students taking the class will have moderate to advanced understanding of GIS classes, but do not have much exposure to databases.",
+    "prereq": []
+  },
+  {
+    "code": "GIS 5578",
+    "subject": "GIS",
+    "id": "5578",
+    "title": "GIS Programming",
+    "info": "This Python-focused GIS course is intended for students who have some Python programming experience, or have experience with other programming language(s) and knowledge transferable to Python. Following a review of Python basics, students will use Python modules for spatial data management, mapping, and analysis, including ArcGIS's ArcPy package; work with classes in Python; develop custom modules; and create development environments. A semester-long programming project applying Python skills to a GIS challenge is a significant component of the course.\n\nprereq: instr consent",
+    "prereq": []
+  },
+  {
+    "code": "GIS 5590",
+    "subject": "GIS",
+    "id": "5590",
+    "title": "Special Topics",
+    "info": "Topics vary according to curricular needs, technological developments in field.",
+    "prereq": []
+  },
+  {
+    "code": "GIS 8333",
+    "subject": "GIS",
+    "id": "8333",
+    "title": "FTE: Master's",
+    "info": "(No description)\n\nprereq: Master's student, adviser and DGS consent",
+    "prereq": []
+  },
+  {
+    "code": "GIS 8501",
+    "subject": "GIS",
+    "id": "8501",
+    "title": "GIS Project Management",
+    "info": "Project management/professional development. Portfolio creation, career exploration, degree program planning. GIS project management through lectures, class exercises, guest speakers.\n\nprereq: MGIS student or instr consent",
+    "prereq": []
+  },
+  {
+    "code": "GIS 8990",
+    "subject": "GIS",
+    "id": "8990",
+    "title": "Research Problems in GIS",
+    "info": "Project of sufficient scope/complexity to document student's ability to apply spatial analysis and visualization techniques to real-world problems. Supervised by faculty member.\n\nprereq: MGIS student, instr consent",
+    "prereq": []
+  }
 ]

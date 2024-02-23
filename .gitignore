@@ -1,3 +1,6 @@
 node_modules
 .next
 **.DS_Store
+
+# ignore generated Next.js types file
+next-env.d.ts
