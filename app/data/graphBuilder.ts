@@ -77,7 +77,15 @@ function build(courses: CourseShell[]): {
       accessors.set(course.subject, Access(course.subject));
     }
 
-    const full_course = accessors.get(course.subject).get(course);
+    let sublevel = Number(course.id.match(/\d+/g)[0]) < 1000;
+    const full_course = sublevel
+      ? {
+          code: course.code,
+          subject: course.subject,
+          id: course.id,
+          prereq: [],
+        }
+      : accessors.get(course.subject).get(course);
     // if the course is not found in Access, simply do nothing
     if (full_course == null) {
       console.log(

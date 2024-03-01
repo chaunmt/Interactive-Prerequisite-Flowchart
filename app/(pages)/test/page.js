@@ -67,7 +67,7 @@ export default function Page() {
       Access(&quot;MATH&quot;).get(shell1)) = {test4 ? "true" : "false"}
       <br></br>
       {/* test5 = Access("MATH").target(shell1)[0].title = {test5} */}
-      <Mermaid graph={test} />
+      <Mermaid graph={builtgraph} />
     </div>
   );
 }
