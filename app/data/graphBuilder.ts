@@ -77,9 +77,9 @@ function build(courses: CourseShell[]): {
       accessors.set(course.subject, Access(course.subject));
     }
 
-    const fullCourse = accessors.get(course.subject).get(course);
+    const full_course = accessors.get(course.subject).get(course);
     // if the course is not found in Access, simply do nothing
-    if (fullCourse == null) {
+    if (full_course == null) {
       console.log(
         "ERROR: Invalid course found while building graph:",
         course.code,
@@ -87,18 +87,24 @@ function build(courses: CourseShell[]): {
       return;
     }
 
-    const { code, subject, id, prereq } = fullCourse;
+    const { code, subject, id, prereq } = full_course;
     let node_id = `${subject}_${id}`;
-
     // skip if already processed
-    if (node_list.some((node) => node.id === node_id)) {
+    if (node_list.every((node) => node.id !== node_id)) {
       node_list.push({ id: node_id, text: code });
       process(prereq, { nid: node_id, i: 0 });
     }
     return node_id;
   }
 
-  function course_lambda(preq: CourseShell, state: { nid: string; i: 0 }) {}
+  function course_lambda(preq: CourseShell, state: build_state) {
+    let node_id = single(preq);
+    let edge_id = `${node_id}___${state.nid}`;
+    if (edge_list.every((edge) => edge.id !== edge_id)) {
+      edge_list.push({ id: edge_id, from: node_id, to: state.nid });
+    }
+    return;
+  }
   function arrx(state: build_state, index: number): build_state {}
   function orx(state: build_state): build_state {}
   function andx(state: build_state): build_state {}
