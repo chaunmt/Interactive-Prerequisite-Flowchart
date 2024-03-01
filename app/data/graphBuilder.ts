@@ -1,71 +1,84 @@
 import Access from "./access";
+import {
+  Accessor,
+  CourseShell,
+  Course,
+  PrereqFormat,
+  PrereqTraversal,
+} from "./types";
+// import { NodeData, EdgeData } from "reagraph"; // "reaflow"
 
-const use_elk = true;
-// currently redundant, everything except theme is already set as default in Mermaid component
-const graph_config = use_elk
-  ? "---\nconfig:\n flowchart:\n  defaultRenderer: elk\n theme: dark\n---\n"
-  : "---\nconfig:\n theme: dark\n---\n";
+/** pass in either a courseshell or an array of courseshells, and get back the appropriate graph */
+export default function buildGraph(input: CourseShell | CourseShell[]) {
+  return convertJSONGraph(
+    (Array.isArray(input) ? build(input) : build([input])) as {
+      nodes: { id: string; text: string }[];
+      edges: { from: string; to: string }[];
+    },
+  );
+}
 
-// DOES NOT RECURSIVELY BUILD YET (only traverses one level back)
-export function buildCombinedGraph(courses) {
-  function helper(subj, idnum) {
-    function process(preqs, target) {
-      if (!preqs) return "";
-
-      if (preqs.and) return process(preqs.and, target);
-      if (preqs.or) return process(preqs.or, target);
-      if (preqs.code)
-        return `${preqs.subject}_${preqs.id}[${preqs.code}]\n${preqs.subject}_${preqs.id} --> ${target}\n`;
-
-      let proc = "";
-      for (let i = 0; i < preqs.length; i++) {
-        proc += process(preqs[i], target);
-      }
-      return proc;
-    } // end of process
-
-    if (course_dupes.includes(`${subj} ${idnum}`)) {
-      return "";
-    } // early exit for duplicates
-
-    console.log(":", subj, idnum);
-    course_dupes.push(`${subj} ${idnum}`);
-    let build = `${subj}_${idnum}[${subj} ${idnum}]\n`;
-
-    if (idnum < "1000") {
-      return build;
-    } // early exit for 0xxx-level courses
-
-    let prereqs = accs.get(subj).getCourse(`${subj} ${idnum}`, "code").prereq;
-    return build + process(prereqs, `${subj}_${idnum}`);
-  } // end of build_helper
-
-  console.log("buildgraph:", courses);
+function build(courses: CourseShell[]): {
+  nodes: NodeData[];
+  edges: EdgeData[];
+} {
   if (courses.length == 0) {
     console.log("WARNING: no courses passed in, built empty graph.");
   }
 
-  const accs = new Map(); // add Access(subject) as they are made, reuse them when possible
-  let course_dupes = [];
-  let graph = "";
+  let node_list: NodeData[] = [];
+  let edge_list: EdgeData[] = [];
+  /** store and reuse Accessors instead of creating a new one every time it's needed */
+  let accessors = new Map<string, Accessor>();
 
-  for (let k = 0; k < courses.length; k++) {
-    console.log(">", courses[k]);
-    let [subjcode, coursenum] = courses[k].split(" ", 2);
-    if (!accs.has(subjcode)) {
-      accs.set(subjcode, Access(subjcode));
-    }
-    coursenum = accs.get(subjcode).getCourse(coursenum, "id").id; // reassigned just in case there's a slight discrepancy between input and data
-    graph = graph.concat(helper(subjcode, coursenum));
-  }
+  return {
+    nodes: node_list,
+    edges: edge_list,
+  };
+}
 
+/// MERMAID/REAGRAPH COMPATIBILITY
+
+/** naively converts a JSON representation of a graph to Mermaid's markdown representation */
+function convertJSONGraph(input: {
+  nodes: { id: string; text: string }[];
+  edges: { from: string; to: string }[];
+}) {
+  // TODO sophisticated conversion if still using Mermaid -- 2024/01/13
   return (
-    // graph_config +
-    "graph TB\n" + graph
+    "graph TB\n" +
+    [
+      input.nodes.map((n) => `${n.id}[${n.text}]`).join("\n"), // node declarations
+      input.edges.map((e) => `${e.from} --> ${e.to}`).join("\n"), // edge declarations
+    ].join("\n")
   );
 }
 
-// DOES NOT RECURSIVELY BUILD YET (only traverses one level back)
-export function buildGraph(course) {
-  return buildCombinedGraph([course]);
+/** should be removed if migrating to reaflow/graph
+ * reduced version of the corresponding reaflow/graph
+ * interface, only keeping what I expect to use */
+interface NodeData<T = any> {
+  id: string;
+  disabled?: boolean;
+  text?: any;
+  parent?: string;
+  data?: T;
+  className?: string;
+  selectionDisabled?: boolean;
+}
+
+/** should be removed if migrating to reaflow/graph
+ * reduced version of the corresponding reaflow/graph
+ * interface, only keeping what I expect to use */
+interface EdgeData<T = any> {
+  id: string;
+  disabled?: boolean;
+  text?: any;
+  from?: string;
+  to?: string;
+  data?: T;
+  className?: string;
+  arrowHeadType?: any;
+  parent?: string;
+  selectionDisabled?: boolean;
 }
