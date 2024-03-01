@@ -8,6 +8,8 @@ import {
 } from "./types";
 // import { NodeData, EdgeData } from "reagraph"; // "reaflow"
 
+let debug: boolean = true;
+
 /** pass in either a courseshell or an array of courseshells, and get back the appropriate graph */
 export default function buildGraph(input: CourseShell | CourseShell[]) {
   return convertJSONGraph(
@@ -18,6 +20,10 @@ export default function buildGraph(input: CourseShell | CourseShell[]) {
   );
 }
 
+/** type definition used only for the state variable in PrereqTraversal's lambdas */
+type build_state = { nid: string; i: number };
+
+/** the function that actually does all the work */
 function build(courses: CourseShell[]): {
   nodes: NodeData[];
   edges: EdgeData[];
@@ -25,16 +31,40 @@ function build(courses: CourseShell[]): {
   if (courses.length == 0) {
     console.log("WARNING: no courses passed in, built empty graph.");
   }
+  if (debug) {
+    console.log(
+      "buildgraph:",
+      courses.map((x) => x.code),
+    );
+  }
 
   let node_list: NodeData[] = [];
   let edge_list: EdgeData[] = [];
   /** store and reuse Accessors instead of creating a new one every time it's needed */
   let accessors = new Map<string, Accessor>();
+  let process = PrereqTraversal<void, build_state>(
+    () => {},
+    course_lambda,
+    () => {},
+    () => {},
+    arrx,
+    orx,
+    andx,
+  ); // no return value needed, so most of the lambdas can be void
 
+  if (debug) {
+    console.log("end buildgraph:", node_list, edge_list);
+  }
   return {
     nodes: node_list,
     edges: edge_list,
   };
+
+  function single(course: CourseShell) {}
+  function course_lambda(preq: CourseShell, state: { nid: string; i: 0 }) {}
+  function arrx(state: build_state, index: number): build_state {}
+  function orx(state: build_state): build_state {}
+  function andx(state: build_state): build_state {}
 }
 
 /// MERMAID/REAGRAPH COMPATIBILITY
