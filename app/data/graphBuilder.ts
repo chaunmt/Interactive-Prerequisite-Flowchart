@@ -8,6 +8,7 @@ import {
 } from "./types";
 // import { NodeData, EdgeData } from "reagraph"; // "reaflow"
 
+/** turns on/off debug messages from buildGraph */
 let debug: boolean = true;
 
 /** pass in either a courseshell or an array of courseshells, and get back the appropriate graph */
@@ -52,6 +53,13 @@ function build(courses: CourseShell[]): {
     andx,
   ); // no return value needed, so most of the lambdas can be void
 
+  courses.forEach((course) => {
+    if (debug) {
+      console.log(">", course.code);
+    }
+    single(course);
+  });
+
   if (debug) {
     console.log("end buildgraph:", node_list, edge_list);
   }
@@ -60,7 +68,36 @@ function build(courses: CourseShell[]): {
     edges: edge_list,
   };
 
-  function single(course: CourseShell) {}
+  function single(course: CourseShell) {
+    if (debug) {
+      console.log("single:", course.code);
+    }
+    // request new accessor only when necessary
+    if (!accessors.has(course.subject)) {
+      accessors.set(course.subject, Access(course.subject));
+    }
+
+    const fullCourse = accessors.get(course.subject).get(course);
+    // if the course is not found in Access, simply do nothing
+    if (fullCourse == null) {
+      console.log(
+        "ERROR: Invalid course found while building graph:",
+        course.code,
+      );
+      return;
+    }
+
+    const { code, subject, id, prereq } = fullCourse;
+    let node_id = `${subject}_${id}`;
+
+    // skip if already processed
+    if (node_list.some((node) => node.id === node_id)) {
+      node_list.push({ id: node_id, text: code });
+      process(prereq, { nid: node_id, i: 0 });
+    }
+    return node_id;
+  }
+
   function course_lambda(preq: CourseShell, state: { nid: string; i: 0 }) {}
   function arrx(state: build_state, index: number): build_state {}
   function orx(state: build_state): build_state {}
