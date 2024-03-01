@@ -1,7 +1,7 @@
 // gonna use this for streamlined testing of graphbuilder algorithm (i'll remove this when i'm done with it)
 
 import Mermaid from "../../components/Mermaid";
-import { buildGraph, buildCombinedGraph } from "../../data/graphBuilder";
+import buildGraph from "../../data/graphBuilder";
 
 import Access, { AccessAll } from "../../data/access";
 import {
@@ -12,15 +12,6 @@ import {
 } from "../../data/types";
 
 export default function Page() {
-  // var test = buildCombinedGraph([
-  //   "CSCI 5521",
-  //   // "EE 5364",
-  //   // "GEOG 5839",
-  //   // "MATS 3141",
-  //   // "PHAR 6155",
-  //   // "EE 4161W",
-  // ]);
-
   /**BUGS REPORT:
    * Error: Invalid subject "FAVICON.ICO" passed to Access module!
    */
@@ -37,9 +28,10 @@ export default function Page() {
     // "PHAR 6155",
     // "EE 4161W",
   ];
-  let testCourses = test
+  let buildTests = test
     .map((code) => Access(code.split(" ")[0]).getCourse(code))
     .filter((e) => e !== null);
+  let builtgraph = buildGraph(buildTests);
   let shell1 = {
     code: "MATH 5466",
     subject: "MATH",
@@ -64,18 +56,18 @@ export default function Page() {
 
   return (
     <div>
-      {/* <Link href="/"><button><img src="https://i.ibb.co/ZBLJYqL/Gophers-1-2.png" alt="umn_prerequisit_logo"/></button></Link>
       <h1>shhh... testing page</h1>
-      <Mermaid graph={test}/> */}
       test1 = Access(&quot;CSCI&quot;).courses[0].title = {test1}
       <br></br>
       test2 = Access(&quot;CSCI&quot;).ids[0] = {test2}
       <br></br>
       test3 = AccessAll.courses[0].code = {test3}
       <br></br>
-      test4 = Access(&quot;MATH&quot;).isPrereq(shell2, Access(&quot;MATH&quot;).get(shell1)) = {test4 ? "true" : "false"}
+      test4 = Access(&quot;MATH&quot;).isPrereq(shell2,
+      Access(&quot;MATH&quot;).get(shell1)) = {test4 ? "true" : "false"}
       <br></br>
       {/* test5 = Access("MATH").target(shell1)[0].title = {test5} */}
+      <Mermaid graph={test} />
     </div>
   );
 }
