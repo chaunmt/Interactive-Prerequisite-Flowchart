@@ -106,9 +106,35 @@ function build(courses: CourseShell[]): {
     return;
   }
 
-  function arrx(state: build_state, index: number): build_state {}
-  function orx(state: build_state): build_state {}
-  function andx(state: build_state): build_state {}
+  function arrx(state: build_state, index: number): build_state {
+    return { nid: state.nid, i: index };
+  }
+
+  function orx(state: build_state): build_state {
+    let node_id = `${state.nid}_${state.i}_or`;
+    // if (node_list.every(node => node.id !== node_id)) {
+    node_list.push({ id: node_id, text: "OR" });
+    edge_list.push({
+      id: `${node_id}___${state}`,
+      from: node_id,
+      to: state.nid,
+    });
+    // }
+    return { nid: node_id, i: state.i };
+  }
+
+  function andx(state: build_state): build_state {
+    let node_id = `${state.nid}_${state.i}_and`;
+    // if (node_list.every(node => node.id !== node_id)) {
+    node_list.push({ id: node_id, text: "AND" });
+    edge_list.push({
+      id: `${node_id}___${state}`,
+      from: node_id,
+      to: state.nid,
+    });
+    // }
+    return { nid: node_id, i: state.i };
+  }
 }
 
 /// MERMAID/REAGRAPH COMPATIBILITY
