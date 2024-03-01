@@ -10,10 +10,20 @@ export default function GraphSearch({ sourceData }) {
   const [graph, setGraph] = useState("");
 
   function updateGraph(filteredData) {
+    /* 2024-03-01 @jahndan -- I copied this over from doggu's
+     * changes on the other branch but cannot verify functionality
+     * of this as it is not currently used on any pages */
     const courses = filteredData
       .map((course) => `${course.subject} ${course.id}`)
-      .filter((course) => course.prereq !== null);
-    var test = buildCombinedGraph(courses);
+      .map((code) => Access(code.split(" ")[0]).getCourse(code))
+      .filter((e) => e !== null);
+
+    /* also correct me if I'm wrong but I believe this should
+     * accomplish the same thing:
+     *   buildGraph(filteredData)
+     * since the filtered data is already a list of courses (why
+     * run it through the accessor again?) */
+    var test = buildGraph(courses);
 
     setGraph(test);
   }
