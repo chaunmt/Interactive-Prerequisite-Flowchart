@@ -105,6 +105,7 @@ function build(courses: CourseShell[]): {
     }
     return;
   }
+
   function arrx(state: build_state, index: number): build_state {}
   function orx(state: build_state): build_state {}
   function andx(state: build_state): build_state {}
