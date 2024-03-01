@@ -67,14 +67,13 @@ export default function Page() {
       {/* <Link href="/"><button><img src="https://i.ibb.co/ZBLJYqL/Gophers-1-2.png" alt="umn_prerequisit_logo"/></button></Link>
       <h1>shhh... testing page</h1>
       <Mermaid graph={test}/> */}
-      test1 = Access("CSCI").courses[0].title = {test1}
+      test1 = Access(&quot;CSCI&quot;).courses[0].title = {test1}
       <br></br>
-      test2 = Access("CSCI").ids[0] = {test2}
+      test2 = Access(&quot;CSCI&quot;).ids[0] = {test2}
       <br></br>
       test3 = AccessAll.courses[0].code = {test3}
       <br></br>
-      test4 = Access("MATH").isPrereq(shell2, Access("MATH").get(shell1)) ={" "}
-      {test4 ? "true" : "false"}
+      test4 = Access(&quot;MATH&quot;).isPrereq(shell2, Access(&quot;MATH&quot;).get(shell1)) = {test4 ? "true" : "false"}
       <br></br>
       {/* test5 = Access("MATH").target(shell1)[0].title = {test5} */}
     </div>
