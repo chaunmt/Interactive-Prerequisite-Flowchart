@@ -11,8 +11,8 @@ function deleteSpaces(str) {
   return str.replace(/\s/g, "");
 }
 
-/** Replace all ',' with ' and '
- * Replace all '/' with ' and ' */
+/** Replace all "," with " and "
+ * Replace all "/" with " and " */
 
 function replaceSigns(str) {
   str = str.replaceAll(", ", " and ");
@@ -22,12 +22,12 @@ function replaceSigns(str) {
 }
 
 /** Delete info about recommended courses from info string
- * WARNING: Omit this case because of data's inconsistency ??? */
+ * WARNING: Omit this case because of data"s inconsistency ??? */
 function spliceRecommendAt(str, splitPattern) {
   arr = str.split(splitPattern);
   let i = 0;
   while (i < arr.length) {
-    // if (!arr[i] || arr[i].toLowerCase().includes('recommend')) arr.splice(i, 1)
+    // if (!arr[i] || arr[i].toLowerCase().includes("recommend")) arr.splice(i, 1)
     // else i ++
     if (!arr[i] || arr[i].toLowerCase().includes("special instruction"))
       arr.splice(i, 1);
@@ -38,7 +38,7 @@ function spliceRecommendAt(str, splitPattern) {
 
 /** ASSUMPTION: Filter out extra information from info string */
 function filterExtraInfo(str) {
-  // if (str.toUpperCase().includes('NO PREREQUISITE')) return ""
+  // if (str.toUpperCase().includes("NO PREREQUISITE")) return ""
   str = spliceRecommendAt(str, ";");
   str = spliceRecommendAt(str, ".");
   return str;
@@ -48,17 +48,16 @@ function filterExtraInfo(str) {
 function splitStringAt(str, type) {
   str = deleteSpaces(str);
 
-  let num = "";
-  if (type == "word") num = str.match(/[A-Za-z]/);
-  else num = str.match(/\d/);
+  let index; // Find the first index of a character of type "word" or "number"
+  if (type == "word") index = str.search(/[A-Za-z]/);
+  else index = str.search(/\d/);
 
-  if (num) {
-    const index = num.index;
+  if (index !== -1) { // Check if a letter or digit was found
     return [str.slice(0, index), str.slice(index)];
   }
 
   // Course should always have number inside
-  return [null, null];
+  return [str, null];
 }
 
 /** Extract prerequisites courses from string, given target course information */
@@ -66,7 +65,7 @@ function extractCourses(str, targetSubject, targetId) {
   // match full words for 3 cases:
   //    3-4 digits + optional letters
   //    some letters + optional white space + 3-4 digits + optional letters
-  //    'inside' + number
+  //    "inside" + number
   const pattern =
     /\b\d{2,4}[A-Za-z]*\b|\b[A-Za-z]+\s?\d{2,4}[A-Za-z]*\b|\binside\d+\b/g;
   const courses = str.match(pattern) || [];
@@ -82,12 +81,11 @@ function extractCourses(str, targetSubject, targetId) {
       let [num, suffix] = splitStringAt(id, "word");
       let allowedSuffix = ["W", "H", "V", ""];
 
-      // We don't keep any remedial courses
+      // We don"t keep any remedial courses
       if (parseInt(num, 10) < 1000) return null;
 
-      // Check what is this course's type based on its suffix
-      if (suffix && (suffix.length != 1 || !allowedSuffix.includes(suffix)))
-        id = num;
+      // Check what is this course"s type based on its suffix
+      if (suffix && (suffix.length != 1 || !allowedSuffix.includes(suffix))) id = num;
       if (!allCourseNumbers.includes(id)) {
         if (allCourseNumbers.includes(id + "W")) id = id + "W";
         else if (allCourseNumbers.includes(id + "H")) id = id + "H";
@@ -95,7 +93,7 @@ function extractCourses(str, targetSubject, targetId) {
         else if (allCourseNumbers.includes(num)) id = num;
       }
 
-      // We don't keep any honor course in prereq
+      // We don"t keep any honor course in prereq
       if (id.includes("V") || id.includes("H")) return null;
       return id;
     }
@@ -104,7 +102,7 @@ function extractCourses(str, targetSubject, targetId) {
     if (!id) return null;
 
     // Remove semester and year (not a course)
-    // ASSUME: NO PREREQ'S SUBJECT --> USE TARGET'S SUBJECT
+    // ASSUME: NO PREREQ"S SUBJECT --> USE TARGET"S SUBJECT
     if (!(subject == "INSIDE") && !allSubjects.includes(subject)) {
       if (!allSems.includes(subject)) subject = targetSubject;
       else return null;
@@ -124,7 +122,7 @@ function isEqualCourse(A, B) {
   if (!A.code || !A.subject || !A.id) return false;
   if (!B.code || !B.subject || !B.id) return false;
 
-  // If A's differs from B's, return false
+  // If A"s differs from B"s, return false
   if (A.code != B.code) return false;
   if (A.subject != B.subject) return false;
   if (A.id != B.id) return false;
@@ -138,7 +136,7 @@ function filterDuplicate(item) {
   if (item == null) return null;
   if (!item.length) return item;
 
-  // Traverse through 'and' array, 'or' array
+  // Traverse through "and" array, "or" array
   if (item.and) {
     let filteredItem = filterDuplicate(item.and);
     if (!filteredItem) return null;
@@ -173,14 +171,14 @@ function filterExtraArray(item) {
   // Empty array becomes null
   if (item.length == 0) return null;
 
-  // Handle 'and' array
+  // Handle "and" array
   if (item.and) {
     if (item.and.length == 1)
       return filterExtraArray(item.and[0]); // Single item array becomes single item
     else return { and: filterExtraArray(item.and) };
   }
 
-  // Handle 'or' array
+  // Handle "or" array
   if (item.or) {
     if (item.or.length == 1)
       return filterExtraArray(item.or[0]); // Single item array becomes single item
@@ -209,7 +207,7 @@ function filterNull(item) {
   if (!item || item.length == 0) return null;
   if (item.id) return item;
 
-  // Traverse through 'and' array, 'or' array
+  // Traverse through "and" array, "or" array
   if (item.and) return { and: filterNull(item.and) };
   if (item.or) return { or: filterNull(item.or) };
 
@@ -238,14 +236,14 @@ function cutStringAtLastNumber(inputString) {
   return "";
 }
 
-/** Assume logic level for each occurence 'and', 'or'
+/** Assume logic level for each occurence "and", "or"
  * WARNING: Problem with ambiguous level */
 function convertLogic(str, targetSubject, targetId) {
-  // convert 'A and B' into { and: ['A', 'B'] }
+  // convert "A and B" into { and: ["A", "B"] }
   if (str.includes(" and "))
     return { and: extractCourses(str, targetSubject, targetId) };
 
-  // convert 'A or B' into { or: ['A', 'B'] }
+  // convert "A or B" into { or: ["A", "B"] }
   if (str.includes(" or "))
     return { or: extractCourses(str, targetSubject, targetId) };
 
@@ -256,7 +254,7 @@ function convertLogic(str, targetSubject, targetId) {
 function decodeBracket(data, encodedData) {
   if (!data) return null;
 
-  // Handle 'and' array, 'or' array
+  // Handle "and" array, "or" array
   if (data.and) {
     if (data.and.length == 1) return decodeBracket(data.and, encodedData);
     return { and: decodeBracket(data.and, encodedData) };
@@ -280,7 +278,7 @@ function decodeBracket(data, encodedData) {
   return data;
 }
 
-/** Encode the info string into a string with layers of bracket and code {'inside' + a number} */
+/** Encode the info string into a string with layers of bracket and code {"inside" + a number} */
 function encodeBracket(info, targetSubject, targetId) {
   let open = [];
   let inside = [];
@@ -288,10 +286,10 @@ function encodeBracket(info, targetSubject, targetId) {
   let i = 0;
 
   while (i < info.length) {
-    // Store all indexes of open square brackets '['
+    // Store all indexes of open square brackets "["
     if (info[i] == "[") open.push(i);
 
-    // Get string inside square brackets '[' + string inside + ']'
+    // Get string inside square brackets "[" + string inside + "]"
     if (info[i] == "]") {
       inside[++inNum] = info.substring(open[open.length - 1], i + 1);
       open.pop();
@@ -301,7 +299,7 @@ function encodeBracket(info, targetSubject, targetId) {
         info = info.replace(inside[inNum], "");
         inNum--;
       }
-      // Replace '[' + string inside + ']' with 'inside' + its index in the saved array
+      // Replace "[" + string inside + "]" with "inside" + its index in the saved array
       else {
         info = info.replace(inside[inNum], "inside" + inNum.toString());
         i = i - inside[inNum].length + 7;
@@ -357,7 +355,7 @@ function exportDogs(SUBJECT) {
   let subjectCode = subject == "allCourses" ? "" : "subjectCode=" + subject;
   let fileName = subject + ".json";
   let filePath = "./Dog/"; // For offical data folder
-  // let filePath = './'  // For testing purpose
+  // let filePath = "./"  // For testing purpose
   let returnFields = "&returnFields=subjectCode,courseNumber,name,description"; // preq is at the end of description
   let limit = "&limit=infinity";
 
@@ -387,7 +385,7 @@ function exportDogs(SUBJECT) {
             splitPattern = "prerequisite";
           else if (descrip.includes("prerequisites"))
             splitPattern = "prerequisites";
-          // else if (descrip.includes('\n')) splitPattern = '\n'
+          // else if (descrip.includes("\n")) splitPattern = "\n"
 
           info = descrip.split(splitPattern);
 
@@ -432,12 +430,12 @@ let allSubjects = require("./General/allSubjects.json");
 let allCourseNumbers = require("./General/id/allCourses.json");
 
 // Export a test json file to current folder
-// exportDogs('PHYS')
+// exportDogs("MATH")
 
-// Export allCourses json data files
+// // Export allCourses json data files
 exportDogs("allCourses");
 
-// Export each course json data files
+// // Export each course json data files
 for (pup of allSubjects) {
   exportDogs(pup);
 }
