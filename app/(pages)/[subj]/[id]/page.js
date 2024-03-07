@@ -24,8 +24,9 @@ export default function Page({ params }) {
   return (
     <div>
       <h1>
-        {SUBJ} {ID} <Mermaid graph={graphString} />
+        {SUBJ} {ID}
       </h1>
+      <Mermaid graph={graphString} />
     </div>
   );
 }
