@@ -52,12 +52,15 @@ function splitStringAt(str, type) {
   if (type == "word") index = str.search(/[A-Za-z]/);
   else index = str.search(/\d/);
 
-  if (index !== -1) { // Check if a letter or digit was found
+  if (index != -1) { // Check if a letter or digit was found
     return [str.slice(0, index), str.slice(index)];
   }
 
+  // If id does not contain suffix
+  if (type == "word") return [str, null];
+
   // Course should always have number inside
-  return [str, null];
+  return [null, null];
 }
 
 /** Extract prerequisites courses from string, given target course information */
@@ -73,6 +76,7 @@ function extractCourses(str, targetSubject, targetId) {
 
   return courses.map((each) => {
     let [subject, id] = splitStringAt(each, "number");
+    if (!subject) id = each;
 
     subject = subject.toUpperCase();
     id = id.toUpperCase();
@@ -82,7 +86,8 @@ function extractCourses(str, targetSubject, targetId) {
       let allowedSuffix = ["W", "H", "V", ""];
 
       // We don"t keep any remedial courses
-      if (parseInt(num, 10) < 1000) return null;
+      if (!num) num = id;
+      if (parseInt(num, 10) < 1000 && (subject != "INSIDE")) return null;
 
       // Check what is this course"s type based on its suffix
       if (suffix && (suffix.length != 1 || !allowedSuffix.includes(suffix))) id = num;
