@@ -16,16 +16,16 @@ Welcome to the Interactive Prerequisite Flowchart!
 2. [Reaflow](https://reaflow.dev/?path=/docs/docs-introduction--docs) and/or [Reagraph](https://reagraph.dev/?path=/docs/docs-intro--docs)
    - Not yet in use, but will be migrated to soon.
 3. [Coursedog Curriculum API](https://coursedogcurriculum.docs.apiary.io/#introduction/authentication/authentication-steps)
-   - This project is made by and for UoMN students.
+   - This project is made by and for UMN students.
    - The university is moving its data into Coursedog, making this API a solid choice for our data.
 4. Graph generation from above data
-    - `app/data/graphBuilder.ts` is responsible for building prerequisite graphs that show the prerequisite relationships encoded in the data, nesting all the way back to introductory level courses.
+   - `app/data/graphBuilder.ts` is responsible for building prerequisite graphs that show the prerequisite relationships encoded in the data, nesting all the way back to introductory level courses.
 5. Generate json data files
    - `app/data/sources.js` is script for generating all json data files.
    - Modify `sources.js` to fit your needs.
-   - Use `node sources.js` when in the same directory as this file to run the script.
+   - Use `pnpm run sources` from the top-level directory to run the script.
 6. Access json data files
-   - Import `Access` from `app/data/access.js` or open the json files in folder `Dog` and `General` directly.
+   - Import `Access` from `app/data/access.js` or open the json files in folder `app/data/Dog` and `app/data/General` directly.
 
 ## Contribute
 
