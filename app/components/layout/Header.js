@@ -1,24 +1,26 @@
+import Link from "next/link";
+import Image from "next/image";
 import "../styles/Layout.css";
-// import Image from "next/image";
 
 export default function Header() {
   return (
-    <div className="header">
+    <div id="header">
       <nav>
-        <a href="../">
-          <img src="./logo.png" alt="umn_prerequisite_logo"></img>
-        </a>
-        <ul>
-          <li>
-            <a
-              href="https://github.com/chaunmt/Interactive-Prerequisite-Flowchart"
-              target="_blank"
-            >
-              Contribute to Github
-            </a>
-          </li>
-        </ul>
+        <Link href={"/"}> 
+          <Image 
+            id="logo" 
+            src={"/logos/GopherMRed.jpg"} 
+            alt="interactive-prereq-logo" 
+            width={1000} height={1000} // Pixel rendered
+          />
+        </Link>
       </nav>
+      <ul>
+        <li id="home">Home</li>
+        <li id="about">About</li>
+        <li id="subject">Subject</li>
+        <li id="setting">Setting</li>
+      </ul>
     </div>
   );
 }
