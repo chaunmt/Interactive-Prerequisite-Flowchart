@@ -5,9 +5,9 @@ import "../../components/styles/GraphPage.css";
 import Search from "../../components/Search";
 
 import Mermaid from "../../components/Mermaid";
-import { buildCombinedGraph } from "../../data/graphBuilder";
+import buildGraph from "../../data/graphBuilder";
 
-import Custom404 from "../[errors]/404"
+import Custom404 from "../[errors]/404";
 
 export async function generateMetadata({ params, searchParams }, parent) {
   return {
@@ -17,10 +17,10 @@ export async function generateMetadata({ params, searchParams }, parent) {
 
 export default function Page({ params }) {
   const SUBJ = params.subj.toUpperCase();
-  if (!allSubjects.includes(SUBJ)) return <Custom404 />;  // Display 404 page when subject is not available
-  const SUBJ_COURSES = Access(SUBJ).courses.map(course => course.code);
+  if (!allSubjects.includes(SUBJ)) return <Custom404 />; // Display 404 page when subject is not available
+  const SUBJ_COURSES = Access(SUBJ).courses;
 
-  const graphString = buildCombinedGraph(SUBJ_COURSES);
+  const graphString = buildGraph(SUBJ_COURSES);
 
   return (
     <div>
@@ -30,4 +30,3 @@ export default function Page({ params }) {
     </div>
   );
 }
-
