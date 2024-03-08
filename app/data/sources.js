@@ -22,7 +22,7 @@ function replaceSigns(str) {
 }
 
 /** Delete info about recommended courses from info string
- * WARNING: Omit this case because of data"s inconsistency ??? */
+ * WARNING: Omit this case because of data"s inconsistency */
 function spliceRecommendAt(str, splitPattern) {
   arr = str.split(splitPattern);
   let i = 0;
@@ -36,7 +36,9 @@ function spliceRecommendAt(str, splitPattern) {
   return arr.join(" or ");
 }
 
-/** ASSUMPTION: Filter out extra information from info string */
+/** ASSUMPTION: Filter out extra information from info string 
+ * WARNING: Omit this case because of data"s inconsistency
+*/
 function filterExtraInfo(str) {
   // if (str.toUpperCase().includes("NO PREREQUISITE")) return ""
   str = spliceRecommendAt(str, ";");
@@ -336,7 +338,7 @@ function filterPrereq(info, targetSubject, targetId) {
   // No number == No prerequisite
   if (!hasNumber(info)) return [];
 
-  info = filterExtraInfo(info); // WARNING: Too inconsistent
+  // info = filterExtraInfo(info); // WARNING: Too inconsistent
   info = info.replaceAll("(", "[");
   info = info.replaceAll(")", "]");
   info = replaceSigns(info);
