@@ -136,99 +136,104 @@ function isEqualCourse(A, B) {
 }
 
 /** Use breadth first search to filter duplicate courses */
-function filterDuplicate(item) {
+function filterDuplicate(items) {
   // Return null and single course
-  if (item == null) return null;
-  if (!item.length) return item;
+  if (!items) return null;
+  if (items.code) return items;
 
   // Traverse through "and" array, "or" array
-  if (item.and) {
-    let filteredItem = filterDuplicate(item.and);
-    if (!filteredItem) return null;
-    return { and: filterDuplicate(item.and) };
+  if (items.and) {
+    return { and: filterDuplicate(items.and) };
   }
-  if (item.or) {
-    let filteredItem = filterDuplicate(item.or);
-    if (!filteredItem) return null;
-    return { or: filterDuplicate(item.or) };
+
+  if (items.or) {
+    return { or: filterDuplicate(items.or) };
   }
 
   // Replace duplicate course with null
-  for (let i = 0; i < item.length - 1; i++) {
-    for (let j = i + 1; j < item.length; j++)
-      if (isEqualCourse(item[i], item[j])) {
-        item.splice(j, 1);
+  let i = 0;
+  while (i < items.length - 1) {
+    let j = i + 1;
+    while (j < items.length) {
+      if (isEqualCourse(items[i], items[j])) {
+        items.splice(j, 1);
+      } else {
+        j++;
       }
-
-    // Filter each item
-    filterDuplicate(item[i]);
+    }
+    i++;
   }
 
-  return item;
+  // Filter each item
+  for (i = 0; i < items.length; i++) {
+    if (items[i] && !items[i].code) item[i] = filterDuplicate(items[i]);
+  }
+
+  return items;
 }
 
 /** Turning extra array into NULL */
-function filterExtraArray(item) {
+function filterExtraArray(items) {
   // Return null and single course
-  if (!item) return null;
-  if (item.id) return item;
+  if (!items) return null;
+  if (items.id) return items;
 
   // Empty array becomes null
-  if (item.length == 0) return null;
+  if (items.length == 0) return null;
 
   // Handle "and" array
-  if (item.and) {
-    if (item.and.length == 1)
-      return filterExtraArray(item.and[0]); // Single item array becomes single item
-    else return { and: filterExtraArray(item.and) };
+  if (items.and) {
+    if (items.and.length == 1)
+      return filterExtraArray(items.and[0]); // Single item array becomes single item
+    else return { and: filterExtraArray(items.and) };
   }
 
   // Handle "or" array
-  if (item.or) {
-    if (item.or.length == 1)
-      return filterExtraArray(item.or[0]); // Single item array becomes single item
-    else return { or: filterExtraArray(item.or) };
+  if (items.or) {
+    if (items.or.length == 1)
+      return filterExtraArray(items.or[0]); // Single item array becomes single item
+    else return { or: filterExtraArray(items.or) };
   }
 
   // Single item array becomes single item
-  if (item.length == 1) return filterExtraArray(item[0]);
+  if (items.length == 1) return filterExtraArray(items[0]);
 
   // Recursively handle nested arrays
   let i = 0;
-  while (i < item.length) {
-    if (item[i] && !item[i].id) {
-      item[i] = filterExtraArray(item[i]);
+  while (i < items.length) {
+    if (items[i] && !items[i].id) {
+      items[i] = filterExtraArray(items[i]);
     }
-    if (!item[i]) item.splice(i, 1);
+    if (!items[i]) items.splice(i, 1);
     else i++;
   }
 
-  return item;
+  return items;
 }
 
 /** Filter out all NULL value into empty */
-function filterNull(item) {
+function filterNull(items) {
   // Return null and single course
-  if (!item || item.length == 0) return null;
-  if (item.id) return item;
+  if (!items || items.length == 0) return null;
+  if (items.id) return items;
 
   // Traverse through "and" array, "or" array
-  if (item.and) return { and: filterNull(item.and) };
-  if (item.or) return { or: filterNull(item.or) };
+  if (items.and) return { and: filterNull(items.and) };
+  if (items.or) return { or: filterNull(items.or) };
 
   // If item is not an array, it is null
-  if (!item.length) return null;
+  if (!items.length) return null;
 
   // Recursively handle nested arrays
   let i = 0;
-  while (i < item.length) {
-    if (item[i] && !item[i]?.id) item[i] = filterNull(item[i]);
-    if (!item[i])
-      item.splice(i, 1); // Delete null
+  while (i < items.length) {
+    if (items[i] && !items[i]?.id) items[i] = filterNull(items[i]);
+    if (!items[i])
+    items.splice(i, 1); // Delete null
     else i++;
   }
 
-  return item;
+  return items;
 }
 
 function cutStringAtLastNumber(inputString) {
@@ -435,12 +440,12 @@ let allSubjects = require("./General/allSubjects.json");
 let allCourseNumbers = require("./General/id/allCourses.json");
 
 // Export a test json file to current folder
-// exportDogs("MATH")
+// exportDogs("CHEM")
 
-// // Export allCourses json data files
+// Export allCourses json data files
 exportDogs("allCourses");
 
-// // Export each course json data files
+// Export each course json data files
 for (pup of allSubjects) {
   exportDogs(pup);
 }
