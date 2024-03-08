@@ -1,1 +1,880 @@
-[{"code":"IE 1101","subject":"IE","id":"1101","title":"Found of Ind and Sys Engr","info":"This course will provide you with an introduction to Industrial and Systems Engineering with an emphasis on models and solution methods used in system design, planning, and operation. The course will also provide you with an introduction to important problems Industrial and Systems Engineers solve in systems arising in supply chains, transportation, manufacturing, retail, and healthcare delivery, among others. Additional emphasis will be given to various relevant emerging technologies, business practices, and government regulations.\n\nCSE student","prereq":[]},{"code":"IE 2021","subject":"IE","id":"2021","title":"Engineering Economics","info":"Cost/design process, cost estimation models, cash flow analysis, interest rate models, time value of money, evaluation of projects, internal rate of return, depreciation/income taxes, price changes/inflation, capital budgeting, decision making under uncertainty.\n\nprereq: [MATH 1372 or equiv], CSE student","prereq":[]},{"code":"IE 3011","subject":"IE","id":"3011","title":"Optimization Mdls & Mthds","info":"Linear, nonlinear, integer, and network optimization models and their tractability; Sensitivity analysis; Solution with software; Introduction to solution methods; Simplex method and Dijkstra’s algorithm.\n\nprereq: MATH 2374, MATH 2142, or equivalent, Upper Division CSE","prereq":{"and":[{"code":"MATH 2374","subject":"MATH","id":"2374"},{"code":"MATH 2142","subject":"MATH","id":"2142"}]}},{"code":"IE 3013","subject":"IE","id":"3013","title":"Opt for Machine Learning","info":"Machine learning has been widely used in areas such as computer vision, search engines, speech recognition, robotics, recommendation systems, bioinformatics, social networks, and finance. It has become an important tool in prediction and data analysis. This course introduces some fundamental solution methods for solving various optimization models arising in the context of machine learning.\n","prereq":[]},{"code":"IE 3041","subject":"IE","id":"3041","title":"Industrial Assignment I","info":"Industrial work assignment in engineering intern program. Evaluation based on student's formal written report covering semester's work assignment.\n\nprereq: ISyE upper division, registration in ME co-op program","prereq":[]},{"code":"IE 3521","subject":"IE","id":"3521","title":"Stats, Quality, & Reliability","info":"Random variables/probability distributions, statistical sampling/measurement, statistical inference, confidence intervals, hypothesis testing, single/multivariate regression, design of experiments. Applications to statistical quality control and reliability.\n\nprereq: MATH 1372 or equiv","prereq":{"code":"MATH 1372","subject":"MATH","id":"1372"}},{"code":"IE 3522","subject":"IE","id":"3522","title":"Quality Engr & Six Sigma","info":"Methods for Quality Engineering and Six Sigma, including Statistical Process Control, DMAIC improvement framework, Control Charts, Process Capability, Measurement System Capability, Designed Experiments, and FMEA.  \n\nprereq: MATH 2374, MATH 2142 or MATH 2373 or equivalent , 3521 or Stat 3021, CSE Upper Division","prereq":{"and":[{"code":"MATH 2374","subject":"MATH","id":"2374"},{"code":"MATH 2142","subject":"MATH","id":"2142"},{"code":"MATH 2373","subject":"MATH","id":"2373"},{"code":"IE 3521","subject":"IE","id":"3521"},{"code":"STAT 3021","subject":"STAT","id":"3021"}]}},{"code":"IE 3553","subject":"IE","id":"3553","title":"Simulation","info":"This course is an introduction to Monte Carlo and Discrete Event Simulation. Student will learn fundamentals of simulation modeling, including generation of psuedo-random numbers, generation of random variables, input probability distributions, variance reduction techniques, analysis of simulation output, and comparison of system configurations using experimental design.  Students will implement simulation models using a software package such as Simio. Applications to problems in manufacturing, service operations, healthcare, finance, and transportation. \n\nprereq: CSCI 1133, IE 3521 or equivalent, CSE Upper Division","prereq":{"and":[{"code":"CSCI 1133","subject":"CSCI","id":"1133"},{"code":"IE 3521","subject":"IE","id":"3521"}]}},{"code":"IE 4011","subject":"IE","id":"4011","title":"Stochastic Models","info":"Models for describing/evaluating random systems. Formulating/analyzing stochastic models for business. Discrete-time/continuous-time Markov chains. Poisson processes. Markovian/non-Markovian queueing theory. Inventory management, manufacturing, reliability.\n\nprereq: MATH 2374, MATH 2142 or MATH 2373 or equivalent, 3521 or Stat 3021, CSE Upper Division","prereq":{"and":[{"code":"MATH 2374","subject":"MATH","id":"2374"},{"code":"MATH 2142","subject":"MATH","id":"2142"},{"code":"MATH 2373","subject":"MATH","id":"2373"},{"code":"IE 3521","subject":"IE","id":"3521"},{"code":"STAT 3021","subject":"STAT","id":"3021"}]}},{"code":"IE 4041W","subject":"IE","id":"4041W","title":"Senior Design","info":"Students work in small teams to address open-ended problems in Industrial and Systems Engineering.  Each team works with a faculty advisory and industry mentor.\n\nprereq: IE 1101, 2021, 3011, 3521, 3522, 3553, 4011, 4511, 4541W, 4551, ISyE senior","prereq":{"and":[{"code":"IE 1101","subject":"IE","id":"1101"},{"code":"IE 2021","subject":"IE","id":"2021"},{"code":"IE 3011","subject":"IE","id":"3011"},{"code":"IE 3521","subject":"IE","id":"3521"},{"code":"IE 3522","subject":"IE","id":"3522"},{"code":"IE 3553","subject":"IE","id":"3553"},{"code":"IE 4011","subject":"IE","id":"4011"},{"code":"IE 4511","subject":"IE","id":"4511"},{"code":"IE 4541W","subject":"IE","id":"4541W"},{"code":"IE 4551","subject":"IE","id":"4551"}]}},{"code":"IE 4042","subject":"IE","id":"4042","title":"Industrial Assignment II","info":"Industrial work assignment in engineering intern program. Evaluation based on student's formal written report.\n\nprereq: ME upper div, registration in ME co-op program","prereq":[]},{"code":"IE 4043W","subject":"IE","id":"4043W","title":"Industrial Assignment II","info":"Solution of system design problems that require developing criteria, evaluating alternatives, and generating a preliminary design. Final report emphasizes design communication and describes design decision process, analysis, and final recommendations.\n\nprereq: 3041","prereq":{"code":"IE 3041","subject":"IE","id":"3041"}},{"code":"IE 4044","subject":"IE","id":"4044","title":"Industrial Assignment III","info":"Industrial work assignment in engineering co-op program. Evaluation based on student's formal written report covering semester work assignment.\n\nprereq: IE 4043, registration in ME co-op program","prereq":{"code":"IE 4043","subject":"IE","id":"4043"}},{"code":"IE 4091","subject":"IE","id":"4091","title":"Independent Study","info":"Independent study of topic(s) involving industrial and systems engineering and operations research.","prereq":[]},{"code":"IE 4094","subject":"IE","id":"4094","title":"Directed Research","info":"Research with faculty adviser on a topic in industrial and systems engineering or operations research. Student contacts adviser to develop project description prior to registering for course.","prereq":[]},{"code":"IE 4096","subject":"IE","id":"4096","title":"Curricular Practical Training","info":"Industrial work assignment in engineering intern program. Evaluation based on student's formal written report covering semester's work assignment.","prereq":[]},{"code":"IE 4511","subject":"IE","id":"4511","title":"Human Factors","info":"Human factors engineering (ergonomics), methods engineering, work measurement. Human-machine interface: displays, controls, instrument layout, supervisory control. Anthropometry, work physiology/biomechanics. Work environmental factors. Methods engineering.\n\nprereq: CSE Upper Division","prereq":[]},{"code":"IE 4541W","subject":"IE","id":"4541W","title":"Project Management","info":"Introduction to engineering project management. Analytical methods of selecting, organizing, budgeting, scheduling, and controlling projects. Risk management, team leadership, program management.\n\nprereq: ISyE senior","prereq":[]},{"code":"IE 4551","subject":"IE","id":"4551","title":"Production, Inv, and Svs Ops","info":"Methods for managing production, inventory, supply chain, and service operations. Demand forecasting, inventory control, production planning/scheduling, supply chain coordination, manufacturing flow analysis, and service waiting line management. Implications of emerging technologies, business practices, and government regulations.\n\nprereq: MATH 2374, MATH 2142, or MATH 2373 or equivalent, 3521 or STAT 3021, CSE Upper Division","prereq":{"and":[{"code":"MATH 2374","subject":"MATH","id":"2374"},{"code":"MATH 2142","subject":"MATH","id":"2142"},{"code":"MATH 2373","subject":"MATH","id":"2373"},{"code":"IE 3521","subject":"IE","id":"3521"},{"code":"STAT 3021","subject":"STAT","id":"3021"}]}},{"code":"IE 4894","subject":"IE","id":"4894","title":"Directed Senior Honors Thesis","info":"Writing thesis under direction of ISyE faculty member.","prereq":[]},{"code":"IE 5012","subject":"IE","id":"5012","title":"Discrete Opt Mthds & Apps","info":"Discrete and combinatorial optimization techniques; heuristics; dynamic programming; handling uncertainty in optimization models. Applications in logistics, healthcare, data analysis. (Previously offered as IE 3012.)\n\nprereq: (i) MATH 2374, MATH 2142 or MATH 2373 or equivalent, (ii) Upper Division CSE, (iii) CSCI 1133 or equivalent","prereq":{"and":[{"code":"MATH 2374","subject":"MATH","id":"2374"},{"code":"MATH 2142","subject":"MATH","id":"2142"},{"code":"MATH 2373","subject":"MATH","id":"2373"},{"code":"CSCI 1133","subject":"CSCI","id":"1133"}]}},{"code":"IE 5080","subject":"IE","id":"5080","title":"Topics, Industrial Engineering","info":"Topics vary each semester.","prereq":[]},{"code":"IE 5111","subject":"IE","id":"5111","title":"Systems Engineering I","info":"Overview of systems-level thinking/techniques in context of an integrated, design-oriented framework. Elements of systems engineering process, including lifecycle, concurrent, and global engineering. Framework for engineering large-scale, complex systems. How specific techniques fit into framework.\n\nprereq: CSE upper div or grad student","prereq":[]},{"code":"IE 5112","subject":"IE","id":"5112","title":"Intro to Operations Research","info":"Survey of Operations Research models/methods in deterministic/stochastic settings. Linear programming, integer programming, networks, forecasting, Markov chains, and queuing systems. Examples from various application areas, such as systems engineering, logistics, design, and project management.\n\nprereq: [Math 2243 or Math 2373 or equiv], [one semester of probability or statistics], [CSE upper div or grad student]","prereq":[]},{"code":"IE 5113","subject":"IE","id":"5113","title":"Systems Engineering II","info":"Systems engineering thinking/techniques presented in 5111. Hands-on techniques applied to specific problems. Topics pertinent to effectiveness of design process. Practices and organizational/reward structure to support collaborative, globally distributed design team.","prereq":[]},{"code":"IE 5285","subject":"IE","id":"5285","title":"Eng the Allocation of Pbl Res","info":"This course takes an in-depth look at policies governing the allocation of public resources. We\nwill take an engineering perspective, first defining desirable properties (such as efficiency,\nincentive compatibility, and fairness) and then studying how to design systems with these\nproperties. We will cover static matching algorithms (deferred acceptance, top trading cycles,\nand quota and reserve systems) as well as dynamic waiting lists and lotteries.\nApplications covered will include the allocation of public school seats, immigrant and non-\nimmigrant visas, civil service positions, organs from living and deceased donors, affordable\nhousing, and permits for hiking, hunting and fishing.\nprerequisites: CSE upper div or instructor consent","prereq":[]},{"code":"IE 5441","subject":"IE","id":"5441","title":"Financial Decision Making","info":"Cash flow streams, interest rates, fixed income securities. Evaluating investment alternatives, capital budgeting, dynamic cash flow process.  Mean-variance portfolio selection, Capital Asset Pricing Model, utility maximization, risk aversion. Derivative securities, asset dynamics, basic option pricing theory.prereq: CSE upper div or grad student","prereq":[]},{"code":"IE 5511","subject":"IE","id":"5511","title":"Human Fact Work Ana","info":"Human factors engineering (ergonomics), methods engineering, and work measurement.  Human-machine interface:  displays, controls, instrument layout, and supervisory control.  Anthropometry, work physiology and biomechanics.  Work environmental factors:  noise, illumination, toxicology.  Methods engineering, including operations analysis, motion study, and time standards.\n\nprereq: Upper div CSE or grad student","prereq":[]},{"code":"IE 5512","subject":"IE","id":"5512","title":"Appl Ergonomics","info":"Small groups of students work on practical ergonomic problems in local industrial firms.  Projects cover a variety of ergonomic issues: workstation design, equipment and tool design, back injuries and material handling, cumulative trauma disorders, illumination and noise, and safety.  ","prereq":[]},{"code":"IE 5513","subject":"IE","id":"5513","title":"Engr Safety","info":"Occupational, health, and product safety.  Standards, laws, and regulations.  Hazards and their engineering control, including general principles, tools and machines, mechanics and structures, electrical safety, materials handling, fire safety, and chemicals.  Human behavior and safety, procedures and training, warnings and instructions.prereq: Upper div CSE or grad student","prereq":[]},{"code":"IE 5522","subject":"IE","id":"5522","title":"Quality Engineering","info":"Quality engineering/management, economics of quality, statistical process control design of experiments, reliability, maintainability, availability.prereq: [4521 or equiv], [upper div or grad student or CNR]","prereq":[]},{"code":"IE 5524","subject":"IE","id":"5524","title":"Lean Tools","info":"Lean is a systematic methodology that improves processes by identifying and removing sources of waste in an organization.  Lean tools, such as value stream mapping, Kaizen, kanban systems, visual systems, and 5S, improve processes by identifying and removing sources of waste.  In this course, you will learn and utilize key Industrial Engineering methodologies to identify opportunities, prioritize these opportunities, develop solutions and create cost models of the solutions effectiveness.  Applications of lean process improvement in areas such as manufacturing, healthcare, service operations, and business processes will be considered.","prereq":[]},{"code":"IE 5531","subject":"IE","id":"5531","title":"Eng Optimization I","info":"Linear programming, simplex method, duality theory, sensitivity analysis, interior point methods, integer programming, branch/bound/dynamic programming. Emphasizes applications in production/logistics, including resource allocation, transportation, facility location, networks/flows, scheduling, production planning.\n\nprereq: Upper div or grad student or CNR","prereq":[]},{"code":"IE 5532","subject":"IE","id":"5532","title":"Stochastic Models","info":"Introduction to stochastic modeling and stochastic processes. Probability review, random variables, discrete- and continuous-time Markov chains, queueing systems, simulation. Applications to industrial and systems engineering including production and inventory control.\n\nprereq: Undergraduate probability and statistics. Familiarity with computer programming in a high level language.","prereq":[]},{"code":"IE 5533","subject":"IE","id":"5533","title":"Operations Rsrch for Data Sci","info":"This course combines data, modeling, and decision-making to provide students with experience solving practical problems in a variety of application areas, including healthcare and medical decision-making, supply chains and e-commerce, and finance and revenue management. To this end, case studies will be used to illustrate the sequence of problem definition, data analysis, model building, and decision support. The example problems are realistic in terms of size and complexity and the data sets are realistic in that the quality of the data is less-than-perfect.  The first part of the course focuses on deterministic models while the second part of the course covers stochastic models. A high-level programming language such as R is used for data manipulation and for predictive analytics. An algebraic modeling language such as AMPL is used for models that require linear/integer programming. The solutions and their sensitivity to changes in parameters are interpreted to aid decision-makers. Throughout the course, the methodologies are kept in perspective with the overall goal of making better decisions. ","prereq":[]},{"code":"IE 5541","subject":"IE","id":"5541","title":"Project Management","info":"Introduction to engineering project management. Analytical methods of selecting, organizing, budgeting, scheduling, and controlling projects, including risk management, team leadership, and program management.\n\nprereq: Upper div or grad student","prereq":[]},{"code":"IE 5545","subject":"IE","id":"5545","title":"Decision Analysis","info":"Single-person and group decision problems. Structuring of decision problems arising in personal, business, and public policy contexts. Decision-making under uncertainty, value of information, games of complete information and Nash equilibrium, Bayesian games, group decision-making and distributed consensus, basics of mechanism design.prereq: 3521 or equiv","prereq":{"code":"IE 3521","subject":"IE","id":"3521"}},{"code":"IE 5551","subject":"IE","id":"5551","title":"Prod & Inv Systems","info":"Inventory control, supply chain management, demand forecasting, capacity planning, aggregate production and material requirement planning, operations scheduling, and shop floor control. Quantitative models used to support decisions. Implications of emerging information technologies and of electronic commerce for supply chain management and factory operation.\n\nprereq: CNR or upper div or grad student","prereq":[]},{"code":"IE 5552","subject":"IE","id":"5552","title":"Des & Ana Man Sys","info":"Flow lines, assembly systems, cellular manufacturing systems, and flexible manufacturing systems. Emphasis is on methodologies for modeling, analysis and optimization.  Lead time analysis, capacity and workload allocation, scheduling and shop floor control, work-in-process management, facilities planning and layout, and information management.  ","prereq":[]},{"code":"IE 5553","subject":"IE","id":"5553","title":"Simulation","info":"Discrete event simulation. Using integrated simulation/animation environment to create, analyze, and evaluate realistic models for various industry settings, including manufacturing/service operations and systems engineering. Experimental design for simulation. Selecting input distributions, evaluating simulation output.prereq: Upper div or grad student; familiarity with probability/statistics recommended","prereq":[]},{"code":"IE 5554","subject":"IE","id":"5554","title":"Facility Planning","info":"Design/planning of manufacturing/service facilities. Warehousing/storage, facility layout/location, material handling, material transportation distribution.","prereq":[]},{"code":"IE 5561","subject":"IE","id":"5561","title":"Analytics/Data-Driven Decision","info":"Hands-on experience with modern methods for analytics and data-driven decision making. Methodologies such as linear and integer optimization and supervised and unsupervised learning will be brought together to address problems in a variety of areas such as healthcare, agriculture, sports, energy, and finance.  Students will learn how to manipulate data, build and solve models, and interpret and visualize results using a high-level, dynamic programming language.\n\nPrerequisites: IE 3521 or equivalent; IE 3011 or IE 5531 or equivalent; proficiency with a programming language such as R, Python, or C.\n","prereq":{"or":[{"code":"IE 3521","subject":"IE","id":"3521"},{"code":"IE 3011","subject":"IE","id":"3011"},{"code":"IE 5531","subject":"IE","id":"5531"}]}},{"code":"IE 5571","subject":"IE","id":"5571","title":"Reinforcement Lrng Dynamic Pro","info":"Topics are methods for solving problems in sequential decision making. We will introduce the modeling framework of Markov Decision Processes (MDP), and the classic solution approach of dynamic programming. We will discuss the traditional solution approaches to dynamic programming of value and policy iteration. We will then move onto model free methods of finding optimal policies for MDPs such as Monte Carlo and Temporal Difference methods. We will discuss the extension of these methods to problems with large state spaces where it is necessary to introduce parametric approximations such as deep neural networks. Examples will be drawn from problems in navigation, medicine, game play, and others.\n\nPrerequisites: Knowledge of probability, optimization, and linear algebra at the undergraduate level. \n","prereq":[]},{"code":"IE 5773","subject":"IE","id":"5773","title":"Practice-focused Seminar","info":"Industry and academic speakers, topics relevant to analytics practice.","prereq":[]},{"code":"IE 5801","subject":"IE","id":"5801","title":"Capstone Project","info":"Students work on ISyE Analytics Track capstone project in small teams of two or three. Projects are supervised by industry mentor and faculty adviser. Projects involve application of techniques from Analytics Track curriculum.  \n\nPrerequisites: ISyE Analytics Track MS Student; IE 5531; IE 5561; Stat 5302; CSci 5521 or 5523.","prereq":{"or":[{"code":"IE 5531","subject":"IE","id":"5531"},{"code":"IE 5561","subject":"IE","id":"5561"},{"code":"STAT 5302","subject":"STAT","id":"5302"},{"code":"CSCI 5521","subject":"CSCI","id":"5521"},{"code":"IE 5523","subject":"IE","id":"5523"}]}},{"code":"IE 8333","subject":"IE","id":"8333","title":"FTE: Master's","info":"(No description)\n\nprereq: Master's student, adviser and DGS consent","prereq":[]},{"code":"IE 8444","subject":"IE","id":"8444","title":"FTE: Doctoral","info":"(No description)\n\nprereq: Doctoral student, adviser and DGS consent","prereq":[]},{"code":"IE 8521","subject":"IE","id":"8521","title":"Optimization","info":"Theory and applications of linear and nonlinear optimization. Linear optimization: simplex method, convex analysis, interior point method, duality theory. Nonlinear optimization: interior point methods and first-order methods, convergence and complexity analysis. Applications in engineering, economics, and business problems.\n\nprereq: Familiarity with linear algebra and calculus.","prereq":[]},{"code":"IE 8531","subject":"IE","id":"8531","title":"Discrete Optimization","info":"Topics in integer programming and combinatorial optimization. Formulation of models, branch-and-bound. Cutting plane and branch-and-cut algorithms. Polyhedral combinatorics. Heuristic approaches. Introduction to computational complexity.","prereq":[]},{"code":"IE 8532","subject":"IE","id":"8532","title":"Stoc Proc & Queue","info":"Introduction to stochastic modeling and processes. Random variables, discrete and continuous Markov chains, renewal processes, queuing systems, Brownian motion, and elements of reliability and stochastic simulation. Applications to design, planning, and control of manufacturing and production systems.\n\nprereq: 4521 or equiv","prereq":{"code":"IE 4521","subject":"IE","id":"4521"}},{"code":"IE 8533","subject":"IE","id":"8533","title":"Adv Stoc Proc & Queuing Sys","info":"Renewal and generative processes, Markov and semi-Markov processes, martingales, queuing theory, queuing networks, computational methods, fluid models, Brownian motion.\n\nprereq: 8532 or instr consent","prereq":{"code":"IE 8532","subject":"IE","id":"8532"}},{"code":"IE 8534","subject":"IE","id":"8534","title":"Topics: Operations Research","info":"Special topics determined by instructor. Examples include Markov decision processes, stochastic programming, integer/combinatorial optimization, and queueing networks.\n\n","prereq":[]},{"code":"IE 8535","subject":"IE","id":"8535","title":"Intro to Network Science","info":"Topics include deterministic and random networks, network flows, matching, game theory, distributed decision making in networks, cooperation in networks, cascades in networks, wisdom of crowds, applications in voting, prediction markets, consumer behavior modeling, revenue management, inventory control and finance. \n\nThis course is offered to graduate students. Undergraduate students must get permission from the instructor for registering. Prerequisites include probability and optimization (5531 and 8532) but students who have taken similar courses or have the mathematical background can register by instructor permission.","prereq":[]},{"code":"IE 8536","subject":"IE","id":"8536","title":"Topics: Engineering Management","info":"Areas such as financial engineering, revenue management, management of health systems, service operations, management of technology, and public policy.","prereq":[]},{"code":"IE 8538","subject":"IE","id":"8538","title":"Adv.Topics: Info. Systems","info":"Decision support methods. Case studies of specific systems. Methods for testing usability/performance. Trust/over-reliance, their impact on system performance. System-level issues, general planning, design, information analysis, problem paradigms. How to frame problems. Techniques to combine engineering and information technology.\n\nprereq: 8541, college-level computer programming course","prereq":{"code":"IE 8541","subject":"IE","id":"8541"}},{"code":"IE 8541","subject":"IE","id":"8541","title":"Dec Support Systems","info":"Decision Support Systems (DSSs) to assist people in making better decisions, interpreting complex information, and managing complex situations safely/effectively. Principles of human-centered design, cognitive engineering, and evaluation. Applications in projects of students' own choosing.  ","prereq":[]},{"code":"IE 8551","subject":"IE","id":"8551","title":"CIM","info":"Introduction to communication networks and databases, computer-aided process planning, computer-aided manufacturing, real time shop floor control, automated material handling and robotics, and computer-aided quality and inspection.","prereq":[]},{"code":"IE 8552","subject":"IE","id":"8552","title":"Adv Top Prod Systems","info":"Cutting edge research issues in production, inventory, distribution systems. Stochastic models of manufacturing systems, stochastic inventory theory, multi-echelon inventory systems/supply chains, supplier-retailer/supplier-manufacturer coordination, supplier/warehouse networks, business logistics, transportation.\n\nprereq: 5551","prereq":{"code":"IE 5551","subject":"IE","id":"5551"}},{"code":"IE 8554","subject":"IE","id":"8554","title":"Adv Prod Inv Systems","info":"Introduction to quantitative methods for managing production, inventory, and distribution systems. Topics covered include demand modeling and forecasting, inventory management, supply chain coordination, revenue management, production planning and scheduling, and management of manufacturing operations.","prereq":[]},{"code":"IE 8564","subject":"IE","id":"8564","title":"Opt for Machine Learning","info":"Machine learning has been widely used in many areas such as computer vision, search engines, speech recognition, robotics, recommender systems, bioinformatics, social networks, and finance. It has become an important tool in prediction and data analysis. This course provides a comprehensive overview of important optimization models for machine learning. It also systematically provides a theoretical and computational study on various optimization methods for solving these models and more general problems.","prereq":[]},{"code":"IE 8571","subject":"IE","id":"8571","title":"Adv Reinforcement Lrng Dyn Pro","info":"Topics are methods for solving problems in sequential decision making. We will introduce the modeling framework of Markov Decision Processes (MDP), and the classic solution approach of dynamic programming. We will discuss the traditional solution approaches to dynamic programming of value and policy iteration. We will then move onto model free methods of finding optimal policies for MDPs such as Monte Carlo and Temporal Difference methods. We will discuss the extension of these methods to problems with large state spaces where it is necessary to introduce parametric approximations such as deep neural networks. Examples will be drawn from problems in navigation, medicine, game play, and others. We will discuss the convergence proofs for a variety of the algorithms in the so-called 'tabular setting', e.g., policy iteration, value iteration, Q-learning, and Sarsa.\n\nPrerequisites: Knowledge of probability, optimization, and linear algebra at the undergraduate level. Knowledge of Markov chains at level of IE 8532 or equivalent. Ability to read and write mathematical proofs.\n","prereq":{"code":"IE 8532","subject":"IE","id":"8532"}},{"code":"IE 8666","subject":"IE","id":"8666","title":"Doct Pre-Thesis Cr*","info":"tbd\n\nprereq: Doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr","prereq":[]},{"code":"IE 8773","subject":"IE","id":"8773","title":"Grad Sem","info":"Recent developments.","prereq":[]},{"code":"IE 8774","subject":"IE","id":"8774","title":"Grad Sem","info":"Recent developments.\n\nprereq: 8773","prereq":{"code":"IE 8773","subject":"IE","id":"8773"}},{"code":"IE 8777","subject":"IE","id":"8777","title":"Thesis Credit:Mast*","info":"(No description)\n\nprereq: Max 18 cr per semester or summer; 10 cr total required (Plan A only)","prereq":[]},{"code":"IE 8794","subject":"IE","id":"8794","title":"Ind Eng Research","info":"Directed research.\n\nprereq: instr consent","prereq":[]},{"code":"IE 8888","subject":"IE","id":"8888","title":"Thesis Credit:Doct*","info":"(No description)\n\nprereq: Max 18 cr per semester or summer; 24 cr required","prereq":[]},{"code":"IE 8951","subject":"IE","id":"8951","title":"Plan B","info":"Structured environment in which students can complete M.S. Plan B project.","prereq":[]},{"code":"IE 8953","subject":"IE","id":"8953","title":"Plan B","info":"Structured environment in which students can complete M.S. Plan B project.\n\nprereq: 8951","prereq":{"code":"IE 8951","subject":"IE","id":"8951"}},{"code":"IE 8990","subject":"IE","id":"8990","title":"Topics in IE","info":"Key issues in computer integration, such as communication networks and databases, computer-aided process planning, computer-aided manufacturing, and real time shop floor control.","prereq":[]},{"code":"IE 8991","subject":"IE","id":"8991","title":"Curricular Practical Training","info":"Industrial work assignment involving advanced mechanical engineering. Review/approval by faculty member/director of graduate studies. Final report covering work assignment.","prereq":[]}]
+[
+  {
+    "code": "IE 1101",
+    "subject": "IE",
+    "id": "1101",
+    "title": "Found of Ind and Sys Engr",
+    "info": "This course will provide you with an introduction to Industrial and Systems Engineering with an emphasis on models and solution methods used in system design, planning, and operation. The course will also provide you with an introduction to important problems Industrial and Systems Engineers solve in systems arising in supply chains, transportation, manufacturing, retail, and healthcare delivery, among others. Additional emphasis will be given to various relevant emerging technologies, business practices, and government regulations.\n\nCSE student",
+    "prereq": []
+  },
+  {
+    "code": "IE 2021",
+    "subject": "IE",
+    "id": "2021",
+    "title": "Engineering Economics",
+    "info": "Cost/design process, cost estimation models, cash flow analysis, interest rate models, time value of money, evaluation of projects, internal rate of return, depreciation/income taxes, price changes/inflation, capital budgeting, decision making under uncertainty.\n\nprereq: [MATH 1372 or equiv], CSE student",
+    "prereq": {
+      "code": "MATH 1372",
+      "subject": "MATH",
+      "id": "1372"
+    }
+  },
+  {
+    "code": "IE 3011",
+    "subject": "IE",
+    "id": "3011",
+    "title": "Optimization Mdls & Mthds",
+    "info": "Linear, nonlinear, integer, and network optimization models and their tractability; Sensitivity analysis; Solution with software; Introduction to solution methods; Simplex method and Dijkstra’s algorithm.\n\nprereq: MATH 2374, MATH 2142, or equivalent, Upper Division CSE",
+    "prereq": {
+      "and": [
+        {
+          "code": "MATH 2374",
+          "subject": "MATH",
+          "id": "2374"
+        },
+        {
+          "code": "MATH 2142",
+          "subject": "MATH",
+          "id": "2142"
+        }
+      ]
+    }
+  },
+  {
+    "code": "IE 3013",
+    "subject": "IE",
+    "id": "3013",
+    "title": "Opt for Machine Learning",
+    "info": "Machine learning has been widely used in areas such as computer vision, search engines, speech recognition, robotics, recommendation systems, bioinformatics, social networks, and finance. It has become an important tool in prediction and data analysis. This course introduces some fundamental solution methods for solving various optimization models arising in the context of machine learning.\n",
+    "prereq": []
+  },
+  {
+    "code": "IE 3041",
+    "subject": "IE",
+    "id": "3041",
+    "title": "Industrial Assignment I",
+    "info": "Industrial work assignment in engineering intern program. Evaluation based on student's formal written report covering semester's work assignment.\n\nprereq: ISyE upper division, registration in ME co-op program",
+    "prereq": []
+  },
+  {
+    "code": "IE 3521",
+    "subject": "IE",
+    "id": "3521",
+    "title": "Stats, Quality, & Reliability",
+    "info": "Random variables/probability distributions, statistical sampling/measurement, statistical inference, confidence intervals, hypothesis testing, single/multivariate regression, design of experiments. Applications to statistical quality control and reliability.\n\nprereq: MATH 1372 or equiv",
+    "prereq": {
+      "code": "MATH 1372",
+      "subject": "MATH",
+      "id": "1372"
+    }
+  },
+  {
+    "code": "IE 3522",
+    "subject": "IE",
+    "id": "3522",
+    "title": "Quality Engr & Six Sigma",
+    "info": "Methods for Quality Engineering and Six Sigma, including Statistical Process Control, DMAIC improvement framework, Control Charts, Process Capability, Measurement System Capability, Designed Experiments, and FMEA.  \n\nprereq: MATH 2374, MATH 2142 or MATH 2373 or equivalent , 3521 or Stat 3021, CSE Upper Division",
+    "prereq": {
+      "and": [
+        {
+          "code": "MATH 2374",
+          "subject": "MATH",
+          "id": "2374"
+        },
+        {
+          "code": "MATH 2142",
+          "subject": "MATH",
+          "id": "2142"
+        },
+        {
+          "code": "MATH 2373",
+          "subject": "MATH",
+          "id": "2373"
+        },
+        {
+          "code": "IE 3521",
+          "subject": "IE",
+          "id": "3521"
+        },
+        {
+          "code": "STAT 3021",
+          "subject": "STAT",
+          "id": "3021"
+        }
+      ]
+    }
+  },
+  {
+    "code": "IE 3553",
+    "subject": "IE",
+    "id": "3553",
+    "title": "Simulation",
+    "info": "This course is an introduction to Monte Carlo and Discrete Event Simulation. Student will learn fundamentals of simulation modeling, including generation of psuedo-random numbers, generation of random variables, input probability distributions, variance reduction techniques, analysis of simulation output, and comparison of system configurations using experimental design.  Students will implement simulation models using a software package such as Simio. Applications to problems in manufacturing, service operations, healthcare, finance, and transportation. \n\nprereq: CSCI 1133, IE 3521 or equivalent, CSE Upper Division",
+    "prereq": {
+      "and": [
+        {
+          "code": "CSCI 1133",
+          "subject": "CSCI",
+          "id": "1133"
+        },
+        {
+          "code": "IE 3521",
+          "subject": "IE",
+          "id": "3521"
+        }
+      ]
+    }
+  },
+  {
+    "code": "IE 4011",
+    "subject": "IE",
+    "id": "4011",
+    "title": "Stochastic Models",
+    "info": "Models for describing/evaluating random systems. Formulating/analyzing stochastic models for business. Discrete-time/continuous-time Markov chains. Poisson processes. Markovian/non-Markovian queueing theory. Inventory management, manufacturing, reliability.\n\nprereq: MATH 2374, MATH 2142 or MATH 2373 or equivalent, 3521 or Stat 3021, CSE Upper Division",
+    "prereq": {
+      "and": [
+        {
+          "code": "MATH 2374",
+          "subject": "MATH",
+          "id": "2374"
+        },
+        {
+          "code": "MATH 2142",
+          "subject": "MATH",
+          "id": "2142"
+        },
+        {
+          "code": "MATH 2373",
+          "subject": "MATH",
+          "id": "2373"
+        },
+        {
+          "code": "IE 3521",
+          "subject": "IE",
+          "id": "3521"
+        },
+        {
+          "code": "STAT 3021",
+          "subject": "STAT",
+          "id": "3021"
+        }
+      ]
+    }
+  },
+  {
+    "code": "IE 4041W",
+    "subject": "IE",
+    "id": "4041W",
+    "title": "Senior Design",
+    "info": "Students work in small teams to address open-ended problems in Industrial and Systems Engineering.  Each team works with a faculty advisory and industry mentor.\n\nprereq: IE 1101, 2021, 3011, 3521, 3522, 3553, 4011, 4511, 4541W, 4551, ISyE senior",
+    "prereq": {
+      "and": [
+        {
+          "code": "IE 1101",
+          "subject": "IE",
+          "id": "1101"
+        },
+        {
+          "code": "IE 2021",
+          "subject": "IE",
+          "id": "2021"
+        },
+        {
+          "code": "IE 3011",
+          "subject": "IE",
+          "id": "3011"
+        },
+        {
+          "code": "IE 3521",
+          "subject": "IE",
+          "id": "3521"
+        },
+        {
+          "code": "IE 3522",
+          "subject": "IE",
+          "id": "3522"
+        },
+        {
+          "code": "IE 3553",
+          "subject": "IE",
+          "id": "3553"
+        },
+        {
+          "code": "IE 4011",
+          "subject": "IE",
+          "id": "4011"
+        },
+        {
+          "code": "IE 4511",
+          "subject": "IE",
+          "id": "4511"
+        },
+        {
+          "code": "IE 4541W",
+          "subject": "IE",
+          "id": "4541W"
+        },
+        {
+          "code": "IE 4551",
+          "subject": "IE",
+          "id": "4551"
+        }
+      ]
+    }
+  },
+  {
+    "code": "IE 4042",
+    "subject": "IE",
+    "id": "4042",
+    "title": "Industrial Assignment II",
+    "info": "Industrial work assignment in engineering intern program. Evaluation based on student's formal written report.\n\nprereq: ME upper div, registration in ME co-op program",
+    "prereq": []
+  },
+  {
+    "code": "IE 4043W",
+    "subject": "IE",
+    "id": "4043W",
+    "title": "Industrial Assignment II",
+    "info": "Solution of system design problems that require developing criteria, evaluating alternatives, and generating a preliminary design. Final report emphasizes design communication and describes design decision process, analysis, and final recommendations.\n\nprereq: 3041",
+    "prereq": {
+      "code": "IE 3041",
+      "subject": "IE",
+      "id": "3041"
+    }
+  },
+  {
+    "code": "IE 4044",
+    "subject": "IE",
+    "id": "4044",
+    "title": "Industrial Assignment III",
+    "info": "Industrial work assignment in engineering co-op program. Evaluation based on student's formal written report covering semester work assignment.\n\nprereq: IE 4043, registration in ME co-op program",
+    "prereq": {
+      "code": "IE 4043",
+      "subject": "IE",
+      "id": "4043"
+    }
+  },
+  {
+    "code": "IE 4091",
+    "subject": "IE",
+    "id": "4091",
+    "title": "Independent Study",
+    "info": "Independent study of topic(s) involving industrial and systems engineering and operations research.",
+    "prereq": []
+  },
+  {
+    "code": "IE 4094",
+    "subject": "IE",
+    "id": "4094",
+    "title": "Directed Research",
+    "info": "Research with faculty adviser on a topic in industrial and systems engineering or operations research. Student contacts adviser to develop project description prior to registering for course.",
+    "prereq": []
+  },
+  {
+    "code": "IE 4096",
+    "subject": "IE",
+    "id": "4096",
+    "title": "Curricular Practical Training",
+    "info": "Industrial work assignment in engineering intern program. Evaluation based on student's formal written report covering semester's work assignment.",
+    "prereq": []
+  },
+  {
+    "code": "IE 4511",
+    "subject": "IE",
+    "id": "4511",
+    "title": "Human Factors",
+    "info": "Human factors engineering (ergonomics), methods engineering, work measurement. Human-machine interface: displays, controls, instrument layout, supervisory control. Anthropometry, work physiology/biomechanics. Work environmental factors. Methods engineering.\n\nprereq: CSE Upper Division",
+    "prereq": []
+  },
+  {
+    "code": "IE 4541W",
+    "subject": "IE",
+    "id": "4541W",
+    "title": "Project Management",
+    "info": "Introduction to engineering project management. Analytical methods of selecting, organizing, budgeting, scheduling, and controlling projects. Risk management, team leadership, program management.\n\nprereq: ISyE senior",
+    "prereq": []
+  },
+  {
+    "code": "IE 4551",
+    "subject": "IE",
+    "id": "4551",
+    "title": "Production, Inv, and Svs Ops",
+    "info": "Methods for managing production, inventory, supply chain, and service operations. Demand forecasting, inventory control, production planning/scheduling, supply chain coordination, manufacturing flow analysis, and service waiting line management. Implications of emerging technologies, business practices, and government regulations.\n\nprereq: MATH 2374, MATH 2142, or MATH 2373 or equivalent, 3521 or STAT 3021, CSE Upper Division",
+    "prereq": {
+      "and": [
+        {
+          "code": "MATH 2374",
+          "subject": "MATH",
+          "id": "2374"
+        },
+        {
+          "code": "MATH 2142",
+          "subject": "MATH",
+          "id": "2142"
+        },
+        {
+          "code": "MATH 2373",
+          "subject": "MATH",
+          "id": "2373"
+        },
+        {
+          "code": "IE 3521",
+          "subject": "IE",
+          "id": "3521"
+        },
+        {
+          "code": "STAT 3021",
+          "subject": "STAT",
+          "id": "3021"
+        }
+      ]
+    }
+  },
+  {
+    "code": "IE 4894",
+    "subject": "IE",
+    "id": "4894",
+    "title": "Directed Senior Honors Thesis",
+    "info": "Writing thesis under direction of ISyE faculty member.",
+    "prereq": []
+  },
+  {
+    "code": "IE 5012",
+    "subject": "IE",
+    "id": "5012",
+    "title": "Discrete Opt Mthds & Apps",
+    "info": "Discrete and combinatorial optimization techniques; heuristics; dynamic programming; handling uncertainty in optimization models. Applications in logistics, healthcare, data analysis. (Previously offered as IE 3012.)\n\nprereq: (i) MATH 2374, MATH 2142 or MATH 2373 or equivalent, (ii) Upper Division CSE, (iii) CSCI 1133 or equivalent",
+    "prereq": {
+      "and": [
+        {
+          "code": "MATH 2374",
+          "subject": "MATH",
+          "id": "2374"
+        },
+        {
+          "code": "MATH 2142",
+          "subject": "MATH",
+          "id": "2142"
+        },
+        {
+          "code": "MATH 2373",
+          "subject": "MATH",
+          "id": "2373"
+        },
+        {
+          "code": "CSCI 1133",
+          "subject": "CSCI",
+          "id": "1133"
+        }
+      ]
+    }
+  },
+  {
+    "code": "IE 5080",
+    "subject": "IE",
+    "id": "5080",
+    "title": "Topics, Industrial Engineering",
+    "info": "Topics vary each semester.",
+    "prereq": []
+  },
+  {
+    "code": "IE 5111",
+    "subject": "IE",
+    "id": "5111",
+    "title": "Systems Engineering I",
+    "info": "Overview of systems-level thinking/techniques in context of an integrated, design-oriented framework. Elements of systems engineering process, including lifecycle, concurrent, and global engineering. Framework for engineering large-scale, complex systems. How specific techniques fit into framework.\n\nprereq: CSE upper div or grad student",
+    "prereq": []
+  },
+  {
+    "code": "IE 5112",
+    "subject": "IE",
+    "id": "5112",
+    "title": "Intro to Operations Research",
+    "info": "Survey of Operations Research models/methods in deterministic/stochastic settings. Linear programming, integer programming, networks, forecasting, Markov chains, and queuing systems. Examples from various application areas, such as systems engineering, logistics, design, and project management.\n\nprereq: [Math 2243 or Math 2373 or equiv], [one semester of probability or statistics], [CSE upper div or grad student]",
+    "prereq": {
+      "or": [
+        {
+          "code": "MATH 2243",
+          "subject": "MATH",
+          "id": "2243"
+        },
+        {
+          "code": "MATH 2373",
+          "subject": "MATH",
+          "id": "2373"
+        }
+      ]
+    }
+  },
+  {
+    "code": "IE 5113",
+    "subject": "IE",
+    "id": "5113",
+    "title": "Systems Engineering II",
+    "info": "Systems engineering thinking/techniques presented in 5111. Hands-on techniques applied to specific problems. Topics pertinent to effectiveness of design process. Practices and organizational/reward structure to support collaborative, globally distributed design team.",
+    "prereq": []
+  },
+  {
+    "code": "IE 5285",
+    "subject": "IE",
+    "id": "5285",
+    "title": "Eng the Allocation of Pbl Res",
+    "info": "This course takes an in-depth look at policies governing the allocation of public resources. We\nwill take an engineering perspective, first defining desirable properties (such as efficiency,\nincentive compatibility, and fairness) and then studying how to design systems with these\nproperties. We will cover static matching algorithms (deferred acceptance, top trading cycles,\nand quota and reserve systems) as well as dynamic waiting lists and lotteries.\nApplications covered will include the allocation of public school seats, immigrant and non-\nimmigrant visas, civil service positions, organs from living and deceased donors, affordable\nhousing, and permits for hiking, hunting and fishing.\nprerequisites: CSE upper div or instructor consent",
+    "prereq": []
+  },
+  {
+    "code": "IE 5441",
+    "subject": "IE",
+    "id": "5441",
+    "title": "Financial Decision Making",
+    "info": "Cash flow streams, interest rates, fixed income securities. Evaluating investment alternatives, capital budgeting, dynamic cash flow process.  Mean-variance portfolio selection, Capital Asset Pricing Model, utility maximization, risk aversion. Derivative securities, asset dynamics, basic option pricing theory.prereq: CSE upper div or grad student",
+    "prereq": []
+  },
+  {
+    "code": "IE 5511",
+    "subject": "IE",
+    "id": "5511",
+    "title": "Human Fact Work Ana",
+    "info": "Human factors engineering (ergonomics), methods engineering, and work measurement.  Human-machine interface:  displays, controls, instrument layout, and supervisory control.  Anthropometry, work physiology and biomechanics.  Work environmental factors:  noise, illumination, toxicology.  Methods engineering, including operations analysis, motion study, and time standards.\n\nprereq: Upper div CSE or grad student",
+    "prereq": []
+  },
+  {
+    "code": "IE 5512",
+    "subject": "IE",
+    "id": "5512",
+    "title": "Appl Ergonomics",
+    "info": "Small groups of students work on practical ergonomic problems in local industrial firms.  Projects cover a variety of ergonomic issues: workstation design, equipment and tool design, back injuries and material handling, cumulative trauma disorders, illumination and noise, and safety.  ",
+    "prereq": []
+  },
+  {
+    "code": "IE 5513",
+    "subject": "IE",
+    "id": "5513",
+    "title": "Engr Safety",
+    "info": "Occupational, health, and product safety.  Standards, laws, and regulations.  Hazards and their engineering control, including general principles, tools and machines, mechanics and structures, electrical safety, materials handling, fire safety, and chemicals.  Human behavior and safety, procedures and training, warnings and instructions.prereq: Upper div CSE or grad student",
+    "prereq": []
+  },
+  {
+    "code": "IE 5522",
+    "subject": "IE",
+    "id": "5522",
+    "title": "Quality Engineering",
+    "info": "Quality engineering/management, economics of quality, statistical process control design of experiments, reliability, maintainability, availability.prereq: [4521 or equiv], [upper div or grad student or CNR]",
+    "prereq": {
+      "code": "IE 4521",
+      "subject": "IE",
+      "id": "4521"
+    }
+  },
+  {
+    "code": "IE 5524",
+    "subject": "IE",
+    "id": "5524",
+    "title": "Lean Tools",
+    "info": "Lean is a systematic methodology that improves processes by identifying and removing sources of waste in an organization.  Lean tools, such as value stream mapping, Kaizen, kanban systems, visual systems, and 5S, improve processes by identifying and removing sources of waste.  In this course, you will learn and utilize key Industrial Engineering methodologies to identify opportunities, prioritize these opportunities, develop solutions and create cost models of the solutions effectiveness.  Applications of lean process improvement in areas such as manufacturing, healthcare, service operations, and business processes will be considered.",
+    "prereq": []
+  },
+  {
+    "code": "IE 5531",
+    "subject": "IE",
+    "id": "5531",
+    "title": "Eng Optimization I",
+    "info": "Linear programming, simplex method, duality theory, sensitivity analysis, interior point methods, integer programming, branch/bound/dynamic programming. Emphasizes applications in production/logistics, including resource allocation, transportation, facility location, networks/flows, scheduling, production planning.\n\nprereq: Upper div or grad student or CNR",
+    "prereq": []
+  },
+  {
+    "code": "IE 5532",
+    "subject": "IE",
+    "id": "5532",
+    "title": "Stochastic Models",
+    "info": "Introduction to stochastic modeling and stochastic processes. Probability review, random variables, discrete- and continuous-time Markov chains, queueing systems, simulation. Applications to industrial and systems engineering including production and inventory control.\n\nprereq: Undergraduate probability and statistics. Familiarity with computer programming in a high level language.",
+    "prereq": []
+  },
+  {
+    "code": "IE 5533",
+    "subject": "IE",
+    "id": "5533",
+    "title": "Operations Rsrch for Data Sci",
+    "info": "This course combines data, modeling, and decision-making to provide students with experience solving practical problems in a variety of application areas, including healthcare and medical decision-making, supply chains and e-commerce, and finance and revenue management. To this end, case studies will be used to illustrate the sequence of problem definition, data analysis, model building, and decision support. The example problems are realistic in terms of size and complexity and the data sets are realistic in that the quality of the data is less-than-perfect.  The first part of the course focuses on deterministic models while the second part of the course covers stochastic models. A high-level programming language such as R is used for data manipulation and for predictive analytics. An algebraic modeling language such as AMPL is used for models that require linear/integer programming. The solutions and their sensitivity to changes in parameters are interpreted to aid decision-makers. Throughout the course, the methodologies are kept in perspective with the overall goal of making better decisions. ",
+    "prereq": []
+  },
+  {
+    "code": "IE 5541",
+    "subject": "IE",
+    "id": "5541",
+    "title": "Project Management",
+    "info": "Introduction to engineering project management. Analytical methods of selecting, organizing, budgeting, scheduling, and controlling projects, including risk management, team leadership, and program management.\n\nprereq: Upper div or grad student",
+    "prereq": []
+  },
+  {
+    "code": "IE 5545",
+    "subject": "IE",
+    "id": "5545",
+    "title": "Decision Analysis",
+    "info": "Single-person and group decision problems. Structuring of decision problems arising in personal, business, and public policy contexts. Decision-making under uncertainty, value of information, games of complete information and Nash equilibrium, Bayesian games, group decision-making and distributed consensus, basics of mechanism design.prereq: 3521 or equiv",
+    "prereq": {
+      "code": "IE 3521",
+      "subject": "IE",
+      "id": "3521"
+    }
+  },
+  {
+    "code": "IE 5551",
+    "subject": "IE",
+    "id": "5551",
+    "title": "Prod & Inv Systems",
+    "info": "Inventory control, supply chain management, demand forecasting, capacity planning, aggregate production and material requirement planning, operations scheduling, and shop floor control. Quantitative models used to support decisions. Implications of emerging information technologies and of electronic commerce for supply chain management and factory operation.\n\nprereq: CNR or upper div or grad student",
+    "prereq": []
+  },
+  {
+    "code": "IE 5552",
+    "subject": "IE",
+    "id": "5552",
+    "title": "Des & Ana Man Sys",
+    "info": "Flow lines, assembly systems, cellular manufacturing systems, and flexible manufacturing systems. Emphasis is on methodologies for modeling, analysis and optimization.  Lead time analysis, capacity and workload allocation, scheduling and shop floor control, work-in-process management, facilities planning and layout, and information management.  ",
+    "prereq": []
+  },
+  {
+    "code": "IE 5553",
+    "subject": "IE",
+    "id": "5553",
+    "title": "Simulation",
+    "info": "Discrete event simulation. Using integrated simulation/animation environment to create, analyze, and evaluate realistic models for various industry settings, including manufacturing/service operations and systems engineering. Experimental design for simulation. Selecting input distributions, evaluating simulation output.prereq: Upper div or grad student; familiarity with probability/statistics recommended",
+    "prereq": []
+  },
+  {
+    "code": "IE 5554",
+    "subject": "IE",
+    "id": "5554",
+    "title": "Facility Planning",
+    "info": "Design/planning of manufacturing/service facilities. Warehousing/storage, facility layout/location, material handling, material transportation distribution.",
+    "prereq": []
+  },
+  {
+    "code": "IE 5561",
+    "subject": "IE",
+    "id": "5561",
+    "title": "Analytics/Data-Driven Decision",
+    "info": "Hands-on experience with modern methods for analytics and data-driven decision making. Methodologies such as linear and integer optimization and supervised and unsupervised learning will be brought together to address problems in a variety of areas such as healthcare, agriculture, sports, energy, and finance.  Students will learn how to manipulate data, build and solve models, and interpret and visualize results using a high-level, dynamic programming language.\n\nPrerequisites: IE 3521 or equivalent; IE 3011 or IE 5531 or equivalent; proficiency with a programming language such as R, Python, or C.\n",
+    "prereq": {
+      "or": [
+        {
+          "code": "IE 3521",
+          "subject": "IE",
+          "id": "3521"
+        },
+        {
+          "code": "IE 3011",
+          "subject": "IE",
+          "id": "3011"
+        },
+        {
+          "code": "IE 5531",
+          "subject": "IE",
+          "id": "5531"
+        }
+      ]
+    }
+  },
+  {
+    "code": "IE 5571",
+    "subject": "IE",
+    "id": "5571",
+    "title": "Reinforcement Lrng Dynamic Pro",
+    "info": "Topics are methods for solving problems in sequential decision making. We will introduce the modeling framework of Markov Decision Processes (MDP), and the classic solution approach of dynamic programming. We will discuss the traditional solution approaches to dynamic programming of value and policy iteration. We will then move onto model free methods of finding optimal policies for MDPs such as Monte Carlo and Temporal Difference methods. We will discuss the extension of these methods to problems with large state spaces where it is necessary to introduce parametric approximations such as deep neural networks. Examples will be drawn from problems in navigation, medicine, game play, and others.\n\nPrerequisites: Knowledge of probability, optimization, and linear algebra at the undergraduate level. \n",
+    "prereq": []
+  },
+  {
+    "code": "IE 5773",
+    "subject": "IE",
+    "id": "5773",
+    "title": "Practice-focused Seminar",
+    "info": "Industry and academic speakers, topics relevant to analytics practice.",
+    "prereq": []
+  },
+  {
+    "code": "IE 5801",
+    "subject": "IE",
+    "id": "5801",
+    "title": "Capstone Project",
+    "info": "Students work on ISyE Analytics Track capstone project in small teams of two or three. Projects are supervised by industry mentor and faculty adviser. Projects involve application of techniques from Analytics Track curriculum.  \n\nPrerequisites: ISyE Analytics Track MS Student; IE 5531; IE 5561; Stat 5302; CSci 5521 or 5523.",
+    "prereq": {
+      "or": [
+        {
+          "code": "IE 5531",
+          "subject": "IE",
+          "id": "5531"
+        },
+        {
+          "code": "IE 5561",
+          "subject": "IE",
+          "id": "5561"
+        },
+        {
+          "code": "STAT 5302",
+          "subject": "STAT",
+          "id": "5302"
+        },
+        {
+          "code": "CSCI 5521",
+          "subject": "CSCI",
+          "id": "5521"
+        },
+        {
+          "code": "IE 5523",
+          "subject": "IE",
+          "id": "5523"
+        }
+      ]
+    }
+  },
+  {
+    "code": "IE 8333",
+    "subject": "IE",
+    "id": "8333",
+    "title": "FTE: Master's",
+    "info": "(No description)\n\nprereq: Master's student, adviser and DGS consent",
+    "prereq": []
+  },
+  {
+    "code": "IE 8444",
+    "subject": "IE",
+    "id": "8444",
+    "title": "FTE: Doctoral",
+    "info": "(No description)\n\nprereq: Doctoral student, adviser and DGS consent",
+    "prereq": []
+  },
+  {
+    "code": "IE 8521",
+    "subject": "IE",
+    "id": "8521",
+    "title": "Optimization",
+    "info": "Theory and applications of linear and nonlinear optimization. Linear optimization: simplex method, convex analysis, interior point method, duality theory. Nonlinear optimization: interior point methods and first-order methods, convergence and complexity analysis. Applications in engineering, economics, and business problems.\n\nprereq: Familiarity with linear algebra and calculus.",
+    "prereq": []
+  },
+  {
+    "code": "IE 8531",
+    "subject": "IE",
+    "id": "8531",
+    "title": "Discrete Optimization",
+    "info": "Topics in integer programming and combinatorial optimization. Formulation of models, branch-and-bound. Cutting plane and branch-and-cut algorithms. Polyhedral combinatorics. Heuristic approaches. Introduction to computational complexity.",
+    "prereq": []
+  },
+  {
+    "code": "IE 8532",
+    "subject": "IE",
+    "id": "8532",
+    "title": "Stoc Proc & Queue",
+    "info": "Introduction to stochastic modeling and processes. Random variables, discrete and continuous Markov chains, renewal processes, queuing systems, Brownian motion, and elements of reliability and stochastic simulation. Applications to design, planning, and control of manufacturing and production systems.\n\nprereq: 4521 or equiv",
+    "prereq": {
+      "code": "IE 4521",
+      "subject": "IE",
+      "id": "4521"
+    }
+  },
+  {
+    "code": "IE 8533",
+    "subject": "IE",
+    "id": "8533",
+    "title": "Adv Stoc Proc & Queuing Sys",
+    "info": "Renewal and generative processes, Markov and semi-Markov processes, martingales, queuing theory, queuing networks, computational methods, fluid models, Brownian motion.\n\nprereq: 8532 or instr consent",
+    "prereq": {
+      "code": "IE 8532",
+      "subject": "IE",
+      "id": "8532"
+    }
+  },
+  {
+    "code": "IE 8534",
+    "subject": "IE",
+    "id": "8534",
+    "title": "Topics: Operations Research",
+    "info": "Special topics determined by instructor. Examples include Markov decision processes, stochastic programming, integer/combinatorial optimization, and queueing networks.\n\n",
+    "prereq": []
+  },
+  {
+    "code": "IE 8535",
+    "subject": "IE",
+    "id": "8535",
+    "title": "Intro to Network Science",
+    "info": "Topics include deterministic and random networks, network flows, matching, game theory, distributed decision making in networks, cooperation in networks, cascades in networks, wisdom of crowds, applications in voting, prediction markets, consumer behavior modeling, revenue management, inventory control and finance. \n\nThis course is offered to graduate students. Undergraduate students must get permission from the instructor for registering. Prerequisites include probability and optimization (5531 and 8532) but students who have taken similar courses or have the mathematical background can register by instructor permission.",
+    "prereq": {
+      "and": [
+        {
+          "code": "IE 5531",
+          "subject": "IE",
+          "id": "5531"
+        },
+        {
+          "code": "IE 8532",
+          "subject": "IE",
+          "id": "8532"
+        }
+      ]
+    }
+  },
+  {
+    "code": "IE 8536",
+    "subject": "IE",
+    "id": "8536",
+    "title": "Topics: Engineering Management",
+    "info": "Areas such as financial engineering, revenue management, management of health systems, service operations, management of technology, and public policy.",
+    "prereq": []
+  },
+  {
+    "code": "IE 8538",
+    "subject": "IE",
+    "id": "8538",
+    "title": "Adv.Topics: Info. Systems",
+    "info": "Decision support methods. Case studies of specific systems. Methods for testing usability/performance. Trust/over-reliance, their impact on system performance. System-level issues, general planning, design, information analysis, problem paradigms. How to frame problems. Techniques to combine engineering and information technology.\n\nprereq: 8541, college-level computer programming course",
+    "prereq": {
+      "code": "IE 8541",
+      "subject": "IE",
+      "id": "8541"
+    }
+  },
+  {
+    "code": "IE 8541",
+    "subject": "IE",
+    "id": "8541",
+    "title": "Dec Support Systems",
+    "info": "Decision Support Systems (DSSs) to assist people in making better decisions, interpreting complex information, and managing complex situations safely/effectively. Principles of human-centered design, cognitive engineering, and evaluation. Applications in projects of students' own choosing.  ",
+    "prereq": []
+  },
+  {
+    "code": "IE 8551",
+    "subject": "IE",
+    "id": "8551",
+    "title": "CIM",
+    "info": "Introduction to communication networks and databases, computer-aided process planning, computer-aided manufacturing, real time shop floor control, automated material handling and robotics, and computer-aided quality and inspection.",
+    "prereq": []
+  },
+  {
+    "code": "IE 8552",
+    "subject": "IE",
+    "id": "8552",
+    "title": "Adv Top Prod Systems",
+    "info": "Cutting edge research issues in production, inventory, distribution systems. Stochastic models of manufacturing systems, stochastic inventory theory, multi-echelon inventory systems/supply chains, supplier-retailer/supplier-manufacturer coordination, supplier/warehouse networks, business logistics, transportation.\n\nprereq: 5551",
+    "prereq": {
+      "code": "IE 5551",
+      "subject": "IE",
+      "id": "5551"
+    }
+  },
+  {
+    "code": "IE 8554",
+    "subject": "IE",
+    "id": "8554",
+    "title": "Adv Prod Inv Systems",
+    "info": "Introduction to quantitative methods for managing production, inventory, and distribution systems. Topics covered include demand modeling and forecasting, inventory management, supply chain coordination, revenue management, production planning and scheduling, and management of manufacturing operations.",
+    "prereq": []
+  },
+  {
+    "code": "IE 8564",
+    "subject": "IE",
+    "id": "8564",
+    "title": "Opt for Machine Learning",
+    "info": "Machine learning has been widely used in many areas such as computer vision, search engines, speech recognition, robotics, recommender systems, bioinformatics, social networks, and finance. It has become an important tool in prediction and data analysis. This course provides a comprehensive overview of important optimization models for machine learning. It also systematically provides a theoretical and computational study on various optimization methods for solving these models and more general problems.",
+    "prereq": []
+  },
+  {
+    "code": "IE 8571",
+    "subject": "IE",
+    "id": "8571",
+    "title": "Adv Reinforcement Lrng Dyn Pro",
+    "info": "Topics are methods for solving problems in sequential decision making. We will introduce the modeling framework of Markov Decision Processes (MDP), and the classic solution approach of dynamic programming. We will discuss the traditional solution approaches to dynamic programming of value and policy iteration. We will then move onto model free methods of finding optimal policies for MDPs such as Monte Carlo and Temporal Difference methods. We will discuss the extension of these methods to problems with large state spaces where it is necessary to introduce parametric approximations such as deep neural networks. Examples will be drawn from problems in navigation, medicine, game play, and others. We will discuss the convergence proofs for a variety of the algorithms in the so-called 'tabular setting', e.g., policy iteration, value iteration, Q-learning, and Sarsa.\n\nPrerequisites: Knowledge of probability, optimization, and linear algebra at the undergraduate level. Knowledge of Markov chains at level of IE 8532 or equivalent. Ability to read and write mathematical proofs.\n",
+    "prereq": {
+      "code": "IE 8532",
+      "subject": "IE",
+      "id": "8532"
+    }
+  },
+  {
+    "code": "IE 8666",
+    "subject": "IE",
+    "id": "8666",
+    "title": "Doct Pre-Thesis Cr*",
+    "info": "tbd\n\nprereq: Doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
+    "prereq": []
+  },
+  {
+    "code": "IE 8773",
+    "subject": "IE",
+    "id": "8773",
+    "title": "Grad Sem",
+    "info": "Recent developments.",
+    "prereq": []
+  },
+  {
+    "code": "IE 8774",
+    "subject": "IE",
+    "id": "8774",
+    "title": "Grad Sem",
+    "info": "Recent developments.\n\nprereq: 8773",
+    "prereq": {
+      "code": "IE 8773",
+      "subject": "IE",
+      "id": "8773"
+    }
+  },
+  {
+    "code": "IE 8777",
+    "subject": "IE",
+    "id": "8777",
+    "title": "Thesis Credit:Mast*",
+    "info": "(No description)\n\nprereq: Max 18 cr per semester or summer; 10 cr total required (Plan A only)",
+    "prereq": []
+  },
+  {
+    "code": "IE 8794",
+    "subject": "IE",
+    "id": "8794",
+    "title": "Ind Eng Research",
+    "info": "Directed research.\n\nprereq: instr consent",
+    "prereq": []
+  },
+  {
+    "code": "IE 8888",
+    "subject": "IE",
+    "id": "8888",
+    "title": "Thesis Credit:Doct*",
+    "info": "(No description)\n\nprereq: Max 18 cr per semester or summer; 24 cr required",
+    "prereq": []
+  },
+  {
+    "code": "IE 8951",
+    "subject": "IE",
+    "id": "8951",
+    "title": "Plan B",
+    "info": "Structured environment in which students can complete M.S. Plan B project.",
+    "prereq": []
+  },
+  {
+    "code": "IE 8953",
+    "subject": "IE",
+    "id": "8953",
+    "title": "Plan B",
+    "info": "Structured environment in which students can complete M.S. Plan B project.\n\nprereq: 8951",
+    "prereq": {
+      "code": "IE 8951",
+      "subject": "IE",
+      "id": "8951"
+    }
+  },
+  {
+    "code": "IE 8990",
+    "subject": "IE",
+    "id": "8990",
+    "title": "Topics in IE",
+    "info": "Key issues in computer integration, such as communication networks and databases, computer-aided process planning, computer-aided manufacturing, and real time shop floor control.",
+    "prereq": []
+  },
+  {
+    "code": "IE 8991",
+    "subject": "IE",
+    "id": "8991",
+    "title": "Curricular Practical Training",
+    "info": "Industrial work assignment involving advanced mechanical engineering. Review/approval by faculty member/director of graduate studies. Final report covering work assignment.",
+    "prereq": []
+  }
+]
