@@ -403,7 +403,7 @@ function exportDogs(SUBJECT) {
 
           const prereq = info[1]
             ? filterPrereq(info[1], course.subjectCode, course.courseNumber)
-            : [];
+            : []; // Assume there is no prereq
           if (
             course.courseNumber.includes("H") ||
             course.courseNumber.includes("V")
