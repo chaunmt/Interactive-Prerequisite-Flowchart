@@ -21,22 +21,24 @@ Welcome to the Interactive Prerequisite Flowchart!
 4. Graph generation from above data
    - `app/data/graphBuilder.ts` is responsible for building prerequisite graphs that show the prerequisite relationships encoded in the data, nesting all the way back to introductory level courses.
 5. Generate json data files
-   - `app/data/sources.js` is script for generating all json data files.
+   - `app/data/sources.js` is a script for generating all json data files.
    - Modify `sources.js` to fit your needs.
-   - Use `pnpm run sources` from the top-level directory to run the script.
+   - Use `pnpm sources` from the top-level directory to run the script.
 6. Access json data files
    - Import `Access` from `app/data/access.js` or open the json files in folder `app/data/Dog` and `app/data/General` directly.
 
 ## Contribute
 
-TODO add information here
+If you are not part of the main team, first fork and then clone the repository. Then setup and install dependencies as specified in [Initialize](#initialize) and [Run](#run).
+All development should be based on the `development` branch, so base any changes off the latest version of development. This project uses [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/). Use `pnpm lint` to check for linting errors or setup your editor to display them.
+Once ready to be merged in, submit a pull request (specify what issue will be resolved by this PR).
 
 ## Initialize
 
 Make sure to download and install the following:
 
 - [Node.js](https://nodejs.org/)
-- [pnpm](https://pnpm.io/) (specifically pnpm required for patching the mermaid dependency)
+- [pnpm](https://pnpm.io/)
 
 ## Run
 
@@ -48,7 +50,7 @@ To run the project locally, follow these steps:
    ```
 2. Run the development server:
    ```
-   pnpm run dev
+   pnpm dev
    ```
 
 ## Start
