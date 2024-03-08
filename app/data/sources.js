@@ -166,7 +166,7 @@ function filterDuplicate(items) {
 
   // Filter each item
   for (i = 0; i < items.length; i++) {
-    if (items[i] && !items[i].code) item[i] = filterDuplicate(items[i]);
+    if (items[i] && !items[i].code) items[i] = filterDuplicate(items[i]);
   }
 
   return items;
