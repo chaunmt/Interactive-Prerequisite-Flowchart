@@ -30,7 +30,9 @@ Welcome to the Interactive Prerequisite Flowchart!
 ## Contribute
 
 If you are not part of the main team, first fork and then clone the repository. Then setup and install dependencies as specified in [Initialize](#initialize) and [Run](#run).
+
 All development should be based on the `development` branch, so base any changes off the latest version of development. This project uses [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/). Use `pnpm lint` to check for linting errors or setup your editor to display them.
+
 Once ready to be merged in, submit a pull request (specify what issue will be resolved by this PR).
 
 ## Initialize
