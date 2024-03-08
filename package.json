@@ -6,6 +6,12 @@
 		"lint": "next lint",
 		"sources": "node app/data/sources.ts"
 	},
+	"packageManager": "pnpm@8.10.0",
+	"pnpm": {
+		"patchedDependencies": {
+			"mermaid@10.5.1": "patches/mermaid@10.5.1.patch"
+		}
+	},
 	"dependencies": {
 		"eslint": "^8.56.0",
 		"mermaid": "^10.5.1",
@@ -21,10 +27,5 @@
 		"eslint-config-next": "14.1.0",
 		"prettier": "3.2.5",
 		"typescript": "5.2.2"
-	},
-	"pnpm": {
-		"patchedDependencies": {
-			"mermaid@10.5.1": "patches/mermaid@10.5.1.patch"
-		}
 	}
 }
