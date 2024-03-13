@@ -3,6 +3,7 @@ import Footer from "../components/layout/Footer";
 import { Keywords } from "../components/layout/Meta";
 
 import { Metadata } from "next";
+import "../components/styles/Layout.css";
 
 export const metadata: Metadata = {
   title: {
