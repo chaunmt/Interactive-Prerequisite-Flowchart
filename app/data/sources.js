@@ -22,7 +22,7 @@ function replaceSigns(str) {
 }
 
 /** Delete info about recommended courses from info string
- * WARNING: Omit this case because of data"s inconsistency */
+ * WARNING: Omit this case because of data's inconsistency */
 function spliceRecommendAt(str, splitPattern) {
   arr = str.split(splitPattern);
   let i = 0;
@@ -37,7 +37,7 @@ function spliceRecommendAt(str, splitPattern) {
 }
 
 /** ASSUMPTION: Filter out extra information from info string 
- * WARNING: Omit this case because of data"s inconsistency
+ * WARNING: Omit this case because of data's inconsistency
 */
 function filterExtraInfo(str) {
   // if (str.toUpperCase().includes("NO PREREQUISITE")) return ""
@@ -59,7 +59,9 @@ function splitStringAt(str, type) {
   }
 
   // If id does not contain suffix
-  if (type == "word") return [str, null];
+  if (type == "word") {
+    return [str, null];
+  }
 
   // Course should always have number inside
   return [null, null];
@@ -78,7 +80,9 @@ function extractCourses(str, targetSubject, targetId) {
 
   return courses.map((each) => {
     let [subject, id] = splitStringAt(each, "number");
-    if (!subject) id = each;
+    if (!subject) {
+      id = each;
+    }
 
     subject = subject.toUpperCase();
     id = id.toUpperCase();
@@ -88,35 +92,54 @@ function extractCourses(str, targetSubject, targetId) {
       let allowedSuffix = ["W", "H", "V", ""];
 
       // We don"t keep any remedial courses
-      if (!num) num = id;
-      if (parseInt(num, 10) < 1000 && (subject != "INSIDE")) return null;
+      if (!num) {
+        num = id;
+      }
+      if (parseInt(num, 10) < 1000 && (subject != "INSIDE")) {
+        return null;
+      }
 
       // Check what is this course"s type based on its suffix
-      if (suffix && (suffix.length != 1 || !allowedSuffix.includes(suffix))) id = num;
+      if (suffix && (suffix.length != 1 || !allowedSuffix.includes(suffix))) {
+        id = num;
+      }
       if (!allCourseNumbers.includes(id)) {
-        if (allCourseNumbers.includes(id + "W")) id = id + "W";
-        else if (allCourseNumbers.includes(id + "H")) id = id + "H";
-        else if (!(subject == "INSIDE")) return null;
-        else if (allCourseNumbers.includes(num)) id = num;
+        if (allCourseNumbers.includes(id + "W")) {
+          id = id + "W";
+        } else if (allCourseNumbers.includes(id + "H")) {
+          id = id + "H";
+        } else if (!(subject == "INSIDE")) {
+          return null;
+        } else if (allCourseNumbers.includes(num)) {
+          id = num;
+        }
       }
 
       // We don"t keep any honor course in prereq
-      if (id.includes("V") || id.includes("H")) return null;
+      if (id.includes("V") || id.includes("H")) {
+        return null;
+      }
       return id;
     }
 
     id = getId(id);
-    if (!id) return null;
+    if (!id) {
+      return null;
+    }
 
     // Remove semester and year (not a course)
     // ASSUME: NO PREREQ"S SUBJECT --> USE TARGET"S SUBJECT
     if (!(subject == "INSIDE") && !allSubjects.includes(subject)) {
-      if (!allSems.includes(subject)) subject = targetSubject;
-      else return null;
+      if (!allSems.includes(subject)) {
+        subject = targetSubject;
+      }
+      return null;
     }
 
     // If this course = target, it is not prereq
-    if (subject == targetSubject && id == targetId) return null;
+    if (subject == targetSubject && id == targetId) {
+      return null;
+    }
 
     return { code: subject + " " + id, subject: subject, id: id };
   });
@@ -125,14 +148,26 @@ function extractCourses(str, targetSubject, targetId) {
 /** Check whether 2 courses are the same */
 function isEqualCourse(A, B) {
   // If A or B is not course, return false
-  if (!A || !B) return false;
-  if (!A.code || !A.subject || !A.id) return false;
-  if (!B.code || !B.subject || !B.id) return false;
+  if (!A || !B) {
+    return false;
+  }
+  if (!A.code || !A.subject || !A.id) {
+    return false;
+  }
+  if (!B.code || !B.subject || !B.id) {
+    return false;
+  }
 
   // If A"s differs from B"s, return false
-  if (A.code != B.code) return false;
-  if (A.subject != B.subject) return false;
-  if (A.id != B.id) return false;
+  if (A.code != B.code) {
+    return false;
+  }
+  if (A.subject != B.subject) {
+    return false;
+  }
+  if (A.id != B.id) {
+    return false;
+  }
 
   return true;
 }
@@ -140,8 +175,12 @@ function isEqualCourse(A, B) {
 /** Use breadth first search to filter duplicate courses */
 function filterDuplicate(items) {
   // Return null and single course
-  if (!items) return null;
-  if (items.code) return items;
+  if (!items) {
+    return null;
+  }
+  if (items.code) {
+    return items;
+  }
 
   // Traverse through "and" array, "or" array
   if (items.and) {
@@ -168,7 +207,9 @@ function filterDuplicate(items) {
 
   // Filter each item
   for (i = 0; i < items.length; i++) {
-    if (items[i] && !items[i].code) items[i] = filterDuplicate(items[i]);
+    if (items[i] && !items[i].code) {
+      items[i] = filterDuplicate(items[i]);
+    }
   }
 
   return items;
@@ -177,28 +218,38 @@ function filterDuplicate(items) {
 /** Turning extra array into NULL */
 function filterExtraArray(items) {
   // Return null and single course
-  if (!items) return null;
-  if (items.id) return items;
+  if (!items) {
+    return null;
+  }
+  if (items.id) {
+    return items;
+  }
 
   // Empty array becomes null
-  if (items.length == 0) return null;
+  if (items.length == 0) {
+    return null;
+  }
 
   // Handle "and" array
   if (items.and) {
-    if (items.and.length == 1)
+    if (items.and.length == 1) {
       return filterExtraArray(items.and[0]); // Single item array becomes single item
-    else return { and: filterExtraArray(items.and) };
+    }
+    return { and: filterExtraArray(items.and) };
   }
 
   // Handle "or" array
   if (items.or) {
-    if (items.or.length == 1)
+    if (items.or.length == 1) {
       return filterExtraArray(items.or[0]); // Single item array becomes single item
-    else return { or: filterExtraArray(items.or) };
+    }
+    return { or: filterExtraArray(items.or) };
   }
 
   // Single item array becomes single item
-  if (items.length == 1) return filterExtraArray(items[0]);
+  if (items.length == 1) {
+    return filterExtraArray(items[0]);
+  }
 
   // Recursively handle nested arrays
   let i = 0;
@@ -206,8 +257,11 @@ function filterExtraArray(items) {
     if (items[i] && !items[i].id) {
       items[i] = filterExtraArray(items[i]);
     }
-    if (!items[i]) items.splice(i, 1);
-    else i++;
+    if (!items[i]) {
+      items.splice(i, 1);
+    } else {
+      i++;
+    }
   }
 
   return items;
@@ -216,23 +270,37 @@ function filterExtraArray(items) {
 /** Filter out all NULL value into empty */
 function filterNull(items) {
   // Return null and single course
-  if (!items || items.length == 0) return null;
-  if (items.id) return items;
+  if (!items || items.length == 0) {
+    return null;
+  }
+  if (items.id) {
+    return items;
+  }
 
   // Traverse through "and" array, "or" array
-  if (items.and) return { and: filterNull(items.and) };
-  if (items.or) return { or: filterNull(items.or) };
+  if (items.and) {
+    return { and: filterNull(items.and) };
+  }
+  if (items.or) {
+    return { or: filterNull(items.or) };
+  }
 
   // If item is not an array, it is null
-  if (!items.length) return null;
+  if (!items.length) {
+    return null;
+  }
 
   // Recursively handle nested arrays
   let i = 0;
   while (i < items.length) {
-    if (items[i] && !items[i]?.id) items[i] = filterNull(items[i]);
-    if (!items[i])
-    items.splice(i, 1); // Delete null
-    else i++;
+    if (items[i] && !items[i]?.id) {
+      items[i] = filterNull(items[i]);
+    }
+    if (!items[i]) {
+      items.splice(i, 1); // Delete null
+    } else {
+      i++;
+    }
   }
 
   return items;
@@ -252,40 +320,51 @@ function cutStringAtLastNumber(inputString) {
  * WARNING: Problem with ambiguous level */
 function convertLogic(str, targetSubject, targetId) {
   // convert "A and B" into { and: ["A", "B"] }
-  if (str.includes(" and "))
+  if (str.includes(" and ")) {
     return { and: extractCourses(str, targetSubject, targetId) };
+  }
 
   // convert "A or B" into { or: ["A", "B"] }
-  if (str.includes(" or "))
+  if (str.includes(" or ")) {
     return { or: extractCourses(str, targetSubject, targetId) };
+  }
 
   return extractCourses(str, targetSubject, targetId);
 }
 
 /** Replace encoded substring with decoded data */
 function decodeBracket(data, encodedData) {
-  if (!data) return null;
+  if (!data) {
+    return null;
+  }
 
   // Handle "and" array, "or" array
   if (data.and) {
-    if (data.and.length == 1) return decodeBracket(data.and, encodedData);
+    if (data.and.length == 1) {
+      return decodeBracket(data.and, encodedData);
+    }
     return { and: decodeBracket(data.and, encodedData) };
   }
   if (data.or) {
-    if (data.or.length == 1) return decodeBracket(data.or, encodedData);
+    if (data.or.length == 1) {
+      return decodeBracket(data.or, encodedData);
+    }
     return { or: decodeBracket(data.or, encodedData) };
   }
 
   // Data is array
   if (data.length) {
-    for (let i = 0; i < data.length; i++)
+    for (let i = 0; i < data.length; i++) {
       data[i] = decodeBracket(data[i], encodedData);
+    }
   }
   // Data is course
   else if (data.subject == "INSIDE") {
     // Data is encoded
     data = encodedData[data.id];
-    if (data != null) data = decodeBracket(data, encodedData); // Decode data
+    if (data != null) {
+      data = decodeBracket(data, encodedData); // Decode data
+    }
   }
   return data;
 }
@@ -299,7 +378,9 @@ function encodeBracket(info, targetSubject, targetId) {
 
   while (i < info.length) {
     // Store all indexes of open square brackets "["
-    if (info[i] == "[") open.push(i);
+    if (info[i] == "[") {
+      open.push(i);
+    }
 
     // Get string inside square brackets "[" + string inside + "]"
     if (info[i] == "]") {
@@ -336,7 +417,9 @@ function encodeBracket(info, targetSubject, targetId) {
 /** Filter Prerequisite Courses of a Target Course out of info */
 function filterPrereq(info, targetSubject, targetId) {
   // No number == No prerequisite
-  if (!hasNumber(info)) return [];
+  if (!hasNumber(info)) {
+    return [];
+  }
 
   // info = filterExtraInfo(info); // WARNING: Too inconsistent
   info = info.replaceAll("(", "[");
@@ -347,7 +430,9 @@ function filterPrereq(info, targetSubject, targetId) {
   let encoded = encodeBracket(info, targetSubject, targetId);
 
   // Only one encoded data in encoded array == No bracket
-  if (!encoded.length || encoded.length == 0) return encoded;
+  if (!encoded.length || encoded.length == 0) {
+    return encoded;
+  }
 
   let data = encoded[encoded.length - 1];
   data = decodeBracket(data, encoded);
@@ -387,28 +472,31 @@ function exportDogs(SUBJECT) {
           // Filter out prerequisites
           let descrip = course.description.toLowerCase();
           let splitPattern = "\n\n\n\n\n";
-          if (descrip.includes("prereq:")) splitPattern = "prereq:";
-          else if (descrip.includes("prerequisite:"))
+          if (descrip.includes("prereq:")) {
+            splitPattern = "prereq:";
+          } else if (descrip.includes("prerequisite:")) {
             splitPattern = "prerequisite:";
-          else if (descrip.includes("prerequisites:"))
+          } else if (descrip.includes("prerequisites:")) {
             splitPattern = "prerequisites:";
-          else if (descrip.includes("prereq")) splitPattern = "prereq";
-          else if (descrip.includes("prerequisite"))
+          } else if (descrip.includes("prereq")) {
+            splitPattern = "prereq";
+          } else if (descrip.includes("prerequisite")) {
             splitPattern = "prerequisite";
-          else if (descrip.includes("prerequisites"))
+          } else if (descrip.includes("prerequisites")) {
             splitPattern = "prerequisites";
-          // else if (descrip.includes("\n")) splitPattern = "\n"
+          } // else if (descrip.includes("\n")) { splitPattern = "\n"; }
 
           info = descrip.split(splitPattern);
-
           const prereq = info[1]
             ? filterPrereq(info[1], course.subjectCode, course.courseNumber)
             : []; // Assume there is no prereq
+
           if (
             course.courseNumber.includes("H") ||
             course.courseNumber.includes("V")
-          )
+          ) {
             return null;
+          }
 
           return {
             code: course.subjectCode + " " + course.courseNumber,
