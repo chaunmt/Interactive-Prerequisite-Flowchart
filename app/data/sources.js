@@ -1,3 +1,9 @@
+/*** DO NOT RUN FROM INSIDE THE REPO ***/
+/* Use `pnpm run sources` now, as this is a
+ * script to be executed from the top-level
+ * directory instead
+ */
+
 // Using file system
 let fs = require("fs");
 
@@ -24,7 +30,7 @@ function replaceSigns(str) {
 /** Delete info about recommended courses from info string
  * WARNING: Omit this case because of data's inconsistency */
 function spliceRecommendAt(str, splitPattern) {
-  arr = str.split(splitPattern);
+  let arr = str.split(splitPattern);
   let i = 0;
   while (i < arr.length) {
     // if (!arr[i] || arr[i].toLowerCase().includes("recommend")) arr.splice(i, 1)
@@ -451,8 +457,9 @@ function exportDogs(SUBJECT) {
   let subject = SUBJECT;
   let subjectCode = subject == "allCourses" ? "" : "subjectCode=" + subject;
   let fileName = subject + ".json";
-  let filePath = "./Dog/"; // For offical data folder
-  // let filePath = "./"  // For testing purpose
+  // write path is relative to location of execution and *not* this file
+  let filePath = "./app/data/Dog/"; // For offical data folder
+  // let filePath = './app/data/'  // For testing purpose
   let returnFields = "&returnFields=subjectCode,courseNumber,name,description"; // preq is at the end of description
   let limit = "&limit=infinity";
 
@@ -486,7 +493,7 @@ function exportDogs(SUBJECT) {
             splitPattern = "prerequisites";
           } // else if (descrip.includes("\n")) { splitPattern = "\n"; }
 
-          info = descrip.split(splitPattern);
+          let info = descrip.split(splitPattern);
           const prereq = info[1]
             ? filterPrereq(info[1], course.subjectCode, course.courseNumber)
             : []; // Assume there is no prereq
@@ -536,6 +543,6 @@ let allCourseNumbers = require("./General/id/allCourses.json");
 exportDogs("allCourses");
 
 // Export each course json data files
-for (pup of allSubjects) {
+allSubjects.forEach((pup) => {
   exportDogs(pup);
-}
+});
