@@ -1234,18 +1234,9 @@
     "title": "Research Problems-Applied Kin",
     "info": "Selected topics in physical activity and human performance.\n\nprereq: [Kin upper div undergrad or MEd or grad student], 15 cr of major coursework [including 4981 or 5981], instr consent",
     "prereq": {
-      "and": [
-        {
-          "code": "KIN 15",
-          "subject": "KIN",
-          "id": "15"
-        },
-        {
-          "code": "KIN 5981",
-          "subject": "KIN",
-          "id": "5981"
-        }
-      ]
+      "code": "KIN 5981",
+      "subject": "KIN",
+      "id": "5981"
     }
   },
   {
@@ -1512,11 +1503,7 @@
     "id": "8777",
     "title": "Thesis Credit:Mast*",
     "info": "(No description)\n\nprereq: Max 18 cr per semester or summer; 10 cr total required (Plan A only)",
-    "prereq": {
-      "code": "KIN 10",
-      "subject": "KIN",
-      "id": "10"
-    }
+    "prereq": []
   },
   {
     "code": "KIN 8888",

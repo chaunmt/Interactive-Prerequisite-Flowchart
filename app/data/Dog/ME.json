@@ -100,11 +100,6 @@
           "id": "3221"
         },
         {
-          "code": "ME 3221",
-          "subject": "ME",
-          "id": "3221"
-        },
-        {
           "code": "CSCI 1113",
           "subject": "CSCI",
           "id": "1113"
@@ -988,11 +983,6 @@
           "code": "ME 3333",
           "subject": "ME",
           "id": "3333"
-        },
-        {
-          "code": "ME 3333",
-          "subject": "ME",
-          "id": "3333"
         }
       ]
     }
@@ -1438,18 +1428,9 @@
     "title": "Reacting Flow",
     "info": "This is an advanced graduate level course that covers the basics of reactive flow systems pertinent to mechanical engineering. After the introduction/review of the fundamentals of collisions, chemical kinetics, reactions and relevant aspects of basic physical chemistry, the course focuses on reaction kinetics and transport phenomena in reactive flow systems. It will introduce modeling approaches of zero and one dimensional reaction kinetics systems and diagnostics to measure the chemical and transport properties of reactive flow systems. The fundamentals and approaches introduced in this course will be applied to examples of reactive flow systems from mechanical engineering practice including both gas phase and multiphase systems (solid-gas and liquid-gas). \n\nprereq: ME 8361 is a co-prerequisite and can be taken in parallel with ME 8361",
     "prereq": {
-      "and": [
-        {
-          "code": "ME 8361",
-          "subject": "ME",
-          "id": "8361"
-        },
-        {
-          "code": "ME 8361",
-          "subject": "ME",
-          "id": "8361"
-        }
-      ]
+      "code": "ME 8361",
+      "subject": "ME",
+      "id": "8361"
     }
   },
   {
@@ -1548,11 +1529,7 @@
     "id": "8666",
     "title": "Doct Pre-Thesis Cr",
     "info": "TBD\n\nprereq: Doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": {
-      "code": "ME 60",
-      "subject": "ME",
-      "id": "60"
-    }
+    "prereq": []
   },
   {
     "code": "ME 8772",
@@ -1596,11 +1573,7 @@
     "id": "8777",
     "title": "Thesis Credit:Mast*",
     "info": "(No description)\n\nprereq: Max 18 cr per semester or summer; 10 cr total required [Plan A only]",
-    "prereq": {
-      "code": "ME 10",
-      "subject": "ME",
-      "id": "10"
-    }
+    "prereq": []
   },
   {
     "code": "ME 8794",

@@ -101,20 +101,18 @@
     "id": "5518",
     "title": "Equity and Long-Term Care Qlty",
     "info": "The objective of this course is to help students gain a deeper understanding of long-term care quality with a focus on equity. We will\npay particular attention to post-acute care settings, care integration across settings, the role of the workforce, and equity considerations\nacross all these topics. Post-acute care settings reviewed will include home care, assisted living, alternative care arrangements, nursing\nhomes, and hospice. There are no required prerequisites but students are encouraged to take a course on U.S. health care (e.g., PubH 6556, Health and Health Systems) prior to taking the course. Cross-listed with: PubH 6518",
-    "prereq": {
-      "or": [
-        {
-          "code": "PUBH 6556",
-          "subject": "PUBH",
-          "id": "6556"
-        },
-        {
-          "code": "PUBH 6518",
-          "subject": "PUBH",
-          "id": "6518"
-        }
-      ]
-    }
+    "prereq": [
+      {
+        "code": "PUBH 6556",
+        "subject": "PUBH",
+        "id": "6556"
+      },
+      {
+        "code": "PUBH 6518",
+        "subject": "PUBH",
+        "id": "6518"
+      }
+    ]
   },
   {
     "code": "GERO 8020",

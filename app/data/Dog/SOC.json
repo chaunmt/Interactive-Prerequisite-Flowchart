@@ -45,11 +45,7 @@
     "id": "1904",
     "title": "Freshman Seminar",
     "info": "Freshman seminar that meets CLE designation.\n\nprereq: Fr or less than 30 cr",
-    "prereq": {
-      "code": "SOC 30",
-      "subject": "SOC",
-      "id": "30"
-    }
+    "prereq": []
   },
   {
     "code": "SOC 1905",
@@ -1526,18 +1522,9 @@
     "title": "Social Stats Grad Students",
     "info": "In this course, students will learn core statistical and computations principles that will allow them to perform quantitative analyses using social data. The course is designed for social science students at the beginning of their graduate school careers. However, advanced undergraduates can take the course, which will involve a few modifications to the assignment schedule. Sociology 5811 will review basic probability, and then move on to univariate inference, the linear regression model, and introductory lessons of causal inference. In doing so, students will explore statistical concepts and methods that provide the foundation sociologists use to most commonly collect and analyze numerical evidence. Sociology 5811 will also provide the foundation for data management and statistical inference using Stata, a statistical computing environment that is popular in the social sciences. prereq: Undergraduate students are expected to have familiarity with the materials taught in the equivalent of 3811. Students who are unsure of the course requirements should contact the instructor. Undergraduates with a strong math background are encouraged to register for 5811 in lieu of 3811. Soc majors must register A-F. 5811 is a good social statistics foundation course for MA students from other programs. 5811 will not count for credits towards the Soc PhD program requirements.",
     "prereq": {
-      "or": [
-        {
-          "code": "SOC 3811",
-          "subject": "SOC",
-          "id": "3811"
-        },
-        {
-          "code": "SOC 3811",
-          "subject": "SOC",
-          "id": "3811"
-        }
-      ]
+      "code": "SOC 3811",
+      "subject": "SOC",
+      "id": "3811"
     }
   },
   {
@@ -1778,11 +1765,7 @@
     "id": "8666",
     "title": "Doct Pre-Thesis Cr",
     "info": "TBD\n\nprereq: Doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": {
-      "code": "SOC 60",
-      "subject": "SOC",
-      "id": "60"
-    }
+    "prereq": []
   },
   {
     "code": "SOC 8701",
@@ -1838,11 +1821,7 @@
     "id": "8777",
     "title": "Thesis Credit:Mast*",
     "info": "(No description)\n\nprereq: Max 18 cr per semester or summer; 10 cr total required [Plan A only]",
-    "prereq": {
-      "code": "SOC 10",
-      "subject": "SOC",
-      "id": "10"
-    }
+    "prereq": []
   },
   {
     "code": "SOC 8790",

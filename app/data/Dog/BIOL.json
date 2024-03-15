@@ -94,18 +94,9 @@
     "title": "Biol Colloq Dir Std",
     "info": "Individual study or research undertaken by a student concurrently enrolled in Biol 1020 with oversight by a faculty sponsor.\n\nprereq: 1020 and concurrent registration is required (or allowed) in  1020",
     "prereq": {
-      "and": [
-        {
-          "code": "BIOL 1020",
-          "subject": "BIOL",
-          "id": "1020"
-        },
-        {
-          "code": "BIOL 1020",
-          "subject": "BIOL",
-          "id": "1020"
-        }
-      ]
+      "code": "BIOL 1020",
+      "subject": "BIOL",
+      "id": "1020"
     }
   },
   {
@@ -740,11 +731,6 @@
           "code": "BIOL 1951",
           "subject": "BIOL",
           "id": "1951"
-        },
-        {
-          "code": "BIOL 1951",
-          "subject": "BIOL",
-          "id": "1951"
         }
       ]
     }
@@ -1238,11 +1224,6 @@
           "code": "BIOL 2003",
           "subject": "BIOL",
           "id": "2003"
-        },
-        {
-          "code": "BIOL 4003",
-          "subject": "BIOL",
-          "id": "4003"
         }
       ]
     }

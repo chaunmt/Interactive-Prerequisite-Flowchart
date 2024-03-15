@@ -456,20 +456,18 @@
     "id": "6383",
     "title": "Transfer Pricing",
     "info": "This course provides an introduction to transfer pricing issues facing multinational businesses. The discussion will focus on the application of the arm’s length standard as described in US Treasury Regulations 1.482, and application of transfer pricing legislation and regulations in other countries, largely through the transfer pricing guidelines published by the Organization for Economic Cooperation and Development (OECD). The course examines economic models, pricing policies, global intangible property, and controversy involving transfer pricing.  Prereq: ACCT 5135.    NOTE: Previous course number was MBT 5382.\n",
-    "prereq": {
-      "or": [
-        {
-          "code": "ACCT 5135",
-          "subject": "ACCT",
-          "id": "5135"
-        },
-        {
-          "code": "MBT 5382",
-          "subject": "MBT",
-          "id": "5382"
-        }
-      ]
-    }
+    "prereq": [
+      {
+        "code": "ACCT 5135",
+        "subject": "ACCT",
+        "id": "5135"
+      },
+      {
+        "code": "MBT 5382",
+        "subject": "MBT",
+        "id": "5382"
+      }
+    ]
   },
   {
     "code": "MBT 6420",

@@ -53,11 +53,7 @@
     "id": "3001",
     "title": "Intro to Integrative Healing",
     "info": "This course provides an overview of the current US healthcare system and US cultural views of health and wellness. Within this context it also provides students with an introduction to various complementary and alternative medical systems (also known as complementary and integrative approaches) that might be integrated into the current way of thinking about health and wellness and treatment of illness/disease. Examples include: whole systems of thinking about health such as traditional Chinese medicine or Native American healing; manual therapies like spinal manipulation and massage therapy; energy therapies like reiki and qigong; mind body therapies like yoga and meditation; and biologically based therapies like botanicals and aromatherapy. \n\nprereq: Junior or senior undergraduates (60+ credits), or instructor consent.",
-    "prereq": {
-      "code": "CSPH 60",
-      "subject": "CSPH",
-      "id": "60"
-    }
+    "prereq": []
   },
   {
     "code": "CSPH 3101",
@@ -65,11 +61,7 @@
     "id": "3101",
     "title": "Ecosystems of Well-Being",
     "info": "This course focuses on information, practices, and tools that enable individuals and communities to build capacity for wellbeing. Students will examine factors and ecosystems that contribute to health, happiness, and wellbeing and will develop a personal plan for health and wellbeing, a critique of an existing ecosystem and ideas for a community yet to be developed. \n\nprereq: sophomore, junior or senior undergraduates (30+ credits) or instructor consent",
-    "prereq": {
-      "code": "CSPH 30",
-      "subject": "CSPH",
-      "id": "30"
-    }
+    "prereq": []
   },
   {
     "code": "CSPH 3201",
@@ -85,11 +77,7 @@
     "id": "3211",
     "title": "Living on Purpose",
     "info": "Exploring our purpose in life means asking and answering the essential question, “What makes me want to get out of bed in the morning?” Purpose is that deepest belief within us where we have a strong sense of who we are, where we came from, and where we’re going. It is the ability to know yourself, know what you know, to reflect on it, and base your judgments, choices and actions on it. Living on Purpose is a course designed to help students explore questions of meaning and purpose in college and in their lives. In this class, students will examine the context and meaning of their own lives, explore other people’s ways of living on purpose, and consider the big questions that shape their present and future. Through three retreats, readings, reflections, experiential exercises, and assignments, the course will offer students time to define their own purpose at this time in their lives and to help build a framework to lead a purposeful life now and into the future. \n\nprereq sophomore, junior or senior undergraduates (30+ credits) or instructor consent",
-    "prereq": {
-      "code": "CSPH 30",
-      "subject": "CSPH",
-      "id": "30"
-    }
+    "prereq": []
   },
   {
     "code": "CSPH 3301",
@@ -97,11 +85,7 @@
     "id": "3301",
     "title": "Food Choices",
     "info": "Food production in our current industrial system feeds the world, but at a cost to the environment. In nutrition, we often talk about a healthy diet, but only occasionally do we link our food and diet choices to agricultural practices and the health of the planet. This class will link the concepts of human health and planetary health in terms of food. Starting with the framework of complexity theory and gentle action, we will cover human food/nutrition needs and food security, how food is produced from farm to fork, labor, equity and race issues within agriculture and the food system, food choices and the earth’s bio-diversity, land and water use, climate change, organic and sustainable agriculture, marketing, processing and distribution, fair trade, and economic policies. \n\nprereq: junior or senior undergraduates (60+ credits) or instructor consent",
-    "prereq": {
-      "code": "CSPH 60",
-      "subject": "CSPH",
-      "id": "60"
-    }
+    "prereq": []
   },
   {
     "code": "CSPH 4311",
@@ -109,20 +93,18 @@
     "id": "4311",
     "title": "Foundations of Hatha Yoga",
     "info": "This course is the first course in a sequence of three (3) courses in the University of Minnesota Yoga Teachers’ Education & Training Sequence. Students who complete the three courses A-F or S/N may be qualified to register with Yoga Alliance (YA) as a 200 hour Registered Yoga Teacher (RYT). Students who audit the course cannot use the course to be registered with Yoga Alliance. \n\nThis course will introduce students to the anatomical considerations and understanding critical to executing safe and effective Hatha Yoga instruction. This course includes, as essential to Hatha Yoga, an overview of human gross anatomy and bodily systems (specifically neuro-musculoskeletal and respiratory systems). Students will learn and practice foundational concepts of Hatha Yoga and movement, as related to Yoga Asana. Additionally, students will be introduced to methods of effectively communicating these principles as a Hatha Yoga instructor. \n\nprereq: KIN 3027 Human Anatomy for Kinesiology Students (or equivalent, with instructor permission). Recommended: DNCE 1331 for students with no prior yoga experience. These courses can be taken concurrently.",
-    "prereq": {
-      "or": [
-        {
-          "code": "KIN 3027",
-          "subject": "KIN",
-          "id": "3027"
-        },
-        {
-          "code": "DNCE 1331",
-          "subject": "DNCE",
-          "id": "1331"
-        }
-      ]
-    }
+    "prereq": [
+      {
+        "code": "KIN 3027",
+        "subject": "KIN",
+        "id": "3027"
+      },
+      {
+        "code": "DNCE 1331",
+        "subject": "DNCE",
+        "id": "1331"
+      }
+    ]
   },
   {
     "code": "CSPH 4312",
@@ -595,18 +577,9 @@
     "title": "Advanced Reiki Healing",
     "info": "Students will learn advanced principles and application of Reiki energy healing. The four levels of healing will be further explored, with emphasis on healing at the spiritual level. Following activation of the Reiki energy, participants will learn the energy symbols that allow for energy transfer through space and time. Students will learn to use second level Reiki energy for both distance healing and the standard Reiki session. A portion of each class meeting will be used to provide Reiki sessions and to discuss findings. Current literature and research findings will also be discussed.\n\nprereq: CSPH 5535 or instr consent. Students must wait 4-6 months after taking CSPH 5535 before taking CSPH 5536. ",
     "prereq": {
-      "or": [
-        {
-          "code": "CSPH 5535",
-          "subject": "CSPH",
-          "id": "5535"
-        },
-        {
-          "code": "CSPH 5535",
-          "subject": "CSPH",
-          "id": "5535"
-        }
-      ]
+      "code": "CSPH 5535",
+      "subject": "CSPH",
+      "id": "5535"
     }
   },
   {

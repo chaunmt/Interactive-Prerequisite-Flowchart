@@ -2477,20 +2477,18 @@
     "id": "6518",
     "title": "Equity and Long-Term Care Qlty",
     "info": "The objective of this course is to help students gain a deeper understanding of long-term care quality with a focus on equity. We will\npay particular attention to post-acute care settings, care integration across settings, the role of the workforce, and equity considerations\nacross all these topics. Post-acute care settings reviewed will include home care, assisted living, alternative care arrangements, nursing\nhomes, and hospice. There are no required prerequisites but students are encouraged to take a course on U.S. health care (e.g., PubH 6556, Health and Health Systems) prior to taking the course. Cross-listed with: GERO 5518\n\npreq: Public Health [MPH or MHA or certificate] student or instr consent",
-    "prereq": {
-      "or": [
-        {
-          "code": "PUBH 6556",
-          "subject": "PUBH",
-          "id": "6556"
-        },
-        {
-          "code": "GERO 5518",
-          "subject": "GERO",
-          "id": "5518"
-        }
-      ]
-    }
+    "prereq": [
+      {
+        "code": "PUBH 6556",
+        "subject": "PUBH",
+        "id": "6556"
+      },
+      {
+        "code": "GERO 5518",
+        "subject": "GERO",
+        "id": "5518"
+      }
+    ]
   },
   {
     "code": "PUBH 6524",
@@ -2587,18 +2585,9 @@
     "title": "Problem Solving in Healthcare",
     "info": "Problem-solving theory/technique. Solving a management problem within a health services organization. Presenting a report. Lectures, seminars, demonstrations.\n\nprereq: 6541, completed 30 hours of MHA coursework, health care administration student",
     "prereq": {
-      "and": [
-        {
-          "code": "PUBH 6541",
-          "subject": "PUBH",
-          "id": "6541"
-        },
-        {
-          "code": "PUBH 30",
-          "subject": "PUBH",
-          "id": "30"
-        }
-      ]
+      "code": "PUBH 6541",
+      "subject": "PUBH",
+      "id": "6541"
     }
   },
   {
@@ -2608,18 +2597,9 @@
     "title": "Advanced Problem Solving",
     "info": "Defining, analyzing, and solving significant senior management-level operational or health public policy problems.\n\nprereq: 6544 or concurrent registration is required (or allowed) in 6544, Healthcare Administration student",
     "prereq": {
-      "or": [
-        {
-          "code": "PUBH 6544",
-          "subject": "PUBH",
-          "id": "6544"
-        },
-        {
-          "code": "PUBH 6544",
-          "subject": "PUBH",
-          "id": "6544"
-        }
-      ]
+      "code": "PUBH 6544",
+      "subject": "PUBH",
+      "id": "6544"
     }
   },
   {
@@ -3369,18 +3349,9 @@
     "title": "Managing Public Health Systems",
     "info": "Problem solving, process management, quality improvement, collaboration/partnership management. Organizing public health core functions and essential services.\n\nprereq: [6751 or concurrent registration is required (or allowed) in 6751], [public health [MPH or certificate] student or environmental health [MS or PhD] major or HSRPA [MS or PhD] major]",
     "prereq": {
-      "or": [
-        {
-          "code": "PUBH 6751",
-          "subject": "PUBH",
-          "id": "6751"
-        },
-        {
-          "code": "PUBH 6751",
-          "subject": "PUBH",
-          "id": "6751"
-        }
-      ]
+      "code": "PUBH 6751",
+      "subject": "PUBH",
+      "id": "6751"
     }
   },
   {
@@ -4479,18 +4450,9 @@
     "title": "Biostatistical Inference I",
     "info": "T-tests, confidence intervals, power, type I/II errors. Exploratory data analysis. Simple linear regression, regression in matrix notation, multiple regression, diagnostics. Ordinary least squares, violations, generalized least squares, nonlinear least squares regression.  Introduction to General linear Model. SAS and S-Plus used. \n\nprereq: [[Stat 5101 or concurrent registration is required (or allowed) in Stat 5101], biostatistics major] or instr consent",
     "prereq": {
-      "or": [
-        {
-          "code": "STAT 5101",
-          "subject": "STAT",
-          "id": "5101"
-        },
-        {
-          "code": "STAT 5101",
-          "subject": "STAT",
-          "id": "5101"
-        }
-      ]
+      "code": "STAT 5101",
+      "subject": "STAT",
+      "id": "5101"
     }
   },
   {
@@ -4507,18 +4469,9 @@
           "id": "7405"
         },
         {
-          "or": [
-            {
-              "code": "STAT 5102",
-              "subject": "STAT",
-              "id": "5102"
-            },
-            {
-              "code": "STAT 5102",
-              "subject": "STAT",
-              "id": "5102"
-            }
-          ]
+          "code": "STAT 5102",
+          "subject": "STAT",
+          "id": "5102"
         }
       ]
     }
@@ -4542,16 +4495,6 @@
               "code": "STAT 5102",
               "subject": "STAT",
               "id": "5102"
-            },
-            {
-              "code": "STAT 5102",
-              "subject": "STAT",
-              "id": "5102"
-            },
-            {
-              "code": "STAT 8102",
-              "subject": "STAT",
-              "id": "8102"
             },
             {
               "code": "STAT 8102",
@@ -4592,11 +4535,6 @@
     "info": "Introduction to and methodology of randomized clinical trials. Design issues, sample size, operational details, interim monitoring, data analysis issues, overviews.\n\nprereq: 6451 or concurrent registration is required (or allowed) in 6451 or 7406 or instr consent",
     "prereq": {
       "or": [
-        {
-          "code": "PUBH 6451",
-          "subject": "PUBH",
-          "id": "6451"
-        },
         {
           "code": "PUBH 6451",
           "subject": "PUBH",
@@ -6120,11 +6058,7 @@
     "id": "8666",
     "title": "Doct Pre-Thesis Cr",
     "info": "tbd\n\nprereq: Doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": {
-      "code": "PUBH 60",
-      "subject": "PUBH",
-      "id": "60"
-    }
+    "prereq": []
   },
   {
     "code": "PUBH 8777",
@@ -6132,11 +6066,7 @@
     "id": "8777",
     "title": "Thesis Credit:Mast*",
     "info": "(No description)\n\nprereq: Max 18 cr per semester or summer; 10 cr total required [Plan A only]",
-    "prereq": {
-      "code": "PUBH 10",
-      "subject": "PUBH",
-      "id": "10"
-    }
+    "prereq": []
   },
   {
     "code": "PUBH 8800",

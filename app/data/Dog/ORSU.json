@@ -4,8 +4,21 @@
     "subject": "ORSU",
     "id": "7100",
     "title": "Orthopedic Boot Camp",
-    "info": "The orthopedic surgery bootcamp is focused on students who are planning for residency and careers in orthopedic surgery. The course will provide foundational medical knowledge in orthopedic musculoskeletal concepts, simulations of surgical/procedural techniques, key points for the optimal functioning of the surgical team and interprofessional education, and management of patients across the continuum of orthopedic care. \n\n\n\n",
-    "prereq": []
+    "info": "The orthopedic surgery bootcamp is focused on students who are planning for residency and careers in orthopedic surgery. The course will provide foundational medical knowledge in orthopedic musculoskeletal concepts, simulations of surgical/procedural techniques, key points for the optimal functioning of the surgical team and interprofessional education, and management of patients across the continuum of orthopedic care. prereq: SURG 7500 or OBST 7500",
+    "prereq": {
+      "or": [
+        {
+          "code": "SURG 7500",
+          "subject": "SURG",
+          "id": "7500"
+        },
+        {
+          "code": "OBST 7500",
+          "subject": "OBST",
+          "id": "7500"
+        }
+      ]
+    }
   },
   {
     "code": "ORSU 7180",

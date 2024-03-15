@@ -288,20 +288,18 @@
     "id": "4444",
     "title": "Descrip & Predict Analytics",
     "info": "Descriptive and Predictive Analytics exposes students to a number of data mining and machine learning methods, including: exploratory methods (such as association rules and cluster analysis), predictive methods (such as K-NN and decision trees), and text mining methods. The course combines theoretical lectures with lab lectures, where the methods are practically implemented using the software R. \n\nprereqs: IDSC 3001; non-MIS majors also need IDSC 4110",
-    "prereq": {
-      "or": [
-        {
-          "code": "IDSC 3001",
-          "subject": "IDSC",
-          "id": "3001"
-        },
-        {
-          "code": "IDSC 4110",
-          "subject": "IDSC",
-          "id": "4110"
-        }
-      ]
-    }
+    "prereq": [
+      {
+        "code": "IDSC 3001",
+        "subject": "IDSC",
+        "id": "3001"
+      },
+      {
+        "code": "IDSC 4110",
+        "subject": "IDSC",
+        "id": "4110"
+      }
+    ]
   },
   {
     "code": "IDSC 4451",

@@ -322,11 +322,6 @@
           "code": "ECON 1101",
           "subject": "ECON",
           "id": "1101"
-        },
-        {
-          "code": "APEC 1102",
-          "subject": "APEC",
-          "id": "1102"
         }
       ]
     }
@@ -420,25 +415,16 @@
     "title": "Agribusiness Finance",
     "info": "Analysis of financing and investment strategies for agribusiness firms and their effects on liquidity, solvency, and profitability. Analysis of financial institutions, markets, and instruments. Management problems, issues facing financial intermediaries serving agriculture.\n\nprereq: [[1251 or Acct 2051], 60 cr] or instr consent",
     "prereq": {
-      "and": [
+      "or": [
         {
-          "or": [
-            {
-              "code": "APEC 1251",
-              "subject": "APEC",
-              "id": "1251"
-            },
-            {
-              "code": "ACCT 2051",
-              "subject": "ACCT",
-              "id": "2051"
-            }
-          ]
+          "code": "APEC 1251",
+          "subject": "APEC",
+          "id": "1251"
         },
         {
-          "code": "APEC 60",
-          "subject": "APEC",
-          "id": "60"
+          "code": "ACCT 2051",
+          "subject": "ACCT",
+          "id": "2051"
         }
       ]
     }
@@ -459,11 +445,6 @@
         {
           "code": "ECON 1101",
           "subject": "ECON",
-          "id": "1101"
-        },
-        {
-          "code": "APEC 1101",
-          "subject": "APEC",
           "id": "1101"
         }
       ]
@@ -525,11 +506,6 @@
         {
           "code": "APEC 1101",
           "subject": "APEC",
-          "id": "1101"
-        },
-        {
-          "code": "ECON 1101",
-          "subject": "ECON",
           "id": "1101"
         },
         {
@@ -686,11 +662,6 @@
           "code": "ECON 1101",
           "subject": "ECON",
           "id": "1101"
-        },
-        {
-          "code": "APEC 1102",
-          "subject": "APEC",
-          "id": "1102"
         }
       ]
     }
@@ -721,11 +692,6 @@
           "code": "STAT 3011",
           "subject": "STAT",
           "id": "3011"
-        },
-        {
-          "code": "APEC 60",
-          "subject": "APEC",
-          "id": "60"
         }
       ]
     }
@@ -1734,11 +1700,6 @@
           "id": "8001"
         },
         {
-          "code": "APEC 8004",
-          "subject": "APEC",
-          "id": "8004"
-        },
-        {
           "code": "ECON 8101",
           "subject": "ECON",
           "id": "8101"
@@ -1852,11 +1813,6 @@
           "id": "8001"
         },
         {
-          "code": "APEC 8004",
-          "subject": "APEC",
-          "id": "8004"
-        },
-        {
           "code": "ECON 8101",
           "subject": "ECON",
           "id": "8101"
@@ -1916,11 +1872,6 @@
     "info": "Theoretical and empirical studies of compensating differentials, discrimination, personnel economics, and gross flows. prereq: 8003 or equiv or concurrent registration is required (or allowed) in 8003, 8211, 5032 or equiv",
     "prereq": {
       "and": [
-        {
-          "code": "APEC 8003",
-          "subject": "APEC",
-          "id": "8003"
-        },
         {
           "code": "APEC 8003",
           "subject": "APEC",
@@ -2010,11 +1961,7 @@
     "id": "8666",
     "title": "Doct Pre-Thesis Cr*",
     "info": "Doctoral Pre-Thesis Credits\n\nprereq: Doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": {
-      "code": "APEC 60",
-      "subject": "APEC",
-      "id": "60"
-    }
+    "prereq": []
   },
   {
     "code": "APEC 8701",
@@ -2054,11 +2001,7 @@
     "id": "8777",
     "title": "Thesis Credit:Mast*",
     "info": "(No description)\n\nprereq: Max 18 cr per semester or summer; 10 cr total required [Plan A only]",
-    "prereq": {
-      "code": "APEC 10",
-      "subject": "APEC",
-      "id": "10"
-    }
+    "prereq": []
   },
   {
     "code": "APEC 8793",
@@ -2251,11 +2194,6 @@
           "code": "ECON 8001",
           "subject": "ECON",
           "id": "8001"
-        },
-        {
-          "code": "APEC 8004",
-          "subject": "APEC",
-          "id": "8004"
         },
         {
           "code": "ECON 8101",

@@ -402,18 +402,9 @@
     "title": "Multivariate Techniques",
     "info": "Use of bivariate and multivariate statistical approaches for analyzing and evaluating public affairs issues and the assumptions behind the analytical approaches. Designed to help students read, understand, interpret, use, and evaluate empirical work used in social sciences by policy analysts and policy makers.\n\nprereq: Students who register for PA 5033 must take PA 5044 and PA 5033 in the same semester. The same grade will be issued for PA 5044 and PA 5033 after PA 5033 is completed.",
     "prereq": {
-      "and": [
-        {
-          "code": "PA 5044",
-          "subject": "PA",
-          "id": "5044"
-        },
-        {
-          "code": "PA 5044",
-          "subject": "PA",
-          "id": "5044"
-        }
-      ]
+      "code": "PA 5044",
+      "subject": "PA",
+      "id": "5044"
     }
   },
   {
@@ -499,23 +490,9 @@
     "title": "Applied Regression, Accel.",
     "info": "Bivariate/multivariate models used in regression analysis, including assumptions behind them/problems that arise when assumptions are not met. Course covers similar topics as PA 5032 but delves deeper into theory/application of methods.\n\nprereq: Students who register for PA 5044 must take PA 5044 and PA 5033 in the same semester. The same grade will be issued for PA 5044 and PA 5033 after PA 5033 is completed.",
     "prereq": {
-      "and": [
-        {
-          "code": "PA 5033",
-          "subject": "PA",
-          "id": "5033"
-        },
-        {
-          "code": "PA 5033",
-          "subject": "PA",
-          "id": "5033"
-        },
-        {
-          "code": "PA 5033",
-          "subject": "PA",
-          "id": "5033"
-        }
-      ]
+      "code": "PA 5033",
+      "subject": "PA",
+      "id": "5033"
     }
   },
   {
@@ -756,20 +733,18 @@
     "id": "5116",
     "title": "Financing Public/NP Orgs",
     "info": "Financial resource management for public and nonprofit organizations. Short-term and long-term debt management, retirement financing, and endowment investing. Conceptual frameworks and analytical techniques applied to real-world problems. Financial management in context of national and regional economies.\n\nprereq: PA 5003; credit will not be granted if credit already received for: PA 5111",
-    "prereq": {
-      "or": [
-        {
-          "code": "PA 5003",
-          "subject": "PA",
-          "id": "5003"
-        },
-        {
-          "code": "PA 5111",
-          "subject": "PA",
-          "id": "5111"
-        }
-      ]
-    }
+    "prereq": [
+      {
+        "code": "PA 5003",
+        "subject": "PA",
+        "id": "5003"
+      },
+      {
+        "code": "PA 5111",
+        "subject": "PA",
+        "id": "5111"
+      }
+    ]
   },
   {
     "code": "PA 5121",
@@ -1430,18 +1405,9 @@
     "title": "Economics of Development",
     "info": "Economic growth, inequality, poverty, rural/urban labor markets, risk/insurance. Investments in human capital, credit markets, gender/household economics, governance/institutional issues. Microfinance, conditional cash transfers, labor/education policies.\n\nprereq: PA 5501 or concurrent registration is required (or allowed) in PA 5501",
     "prereq": {
-      "or": [
-        {
-          "code": "PA 5501",
-          "subject": "PA",
-          "id": "5501"
-        },
-        {
-          "code": "PA 5501",
-          "subject": "PA",
-          "id": "5501"
-        }
-      ]
+      "code": "PA 5501",
+      "subject": "PA",
+      "id": "5501"
     }
   },
   {
@@ -2703,11 +2669,7 @@
     "id": "8777",
     "title": "Thesis Credit:Mast*",
     "info": "(No description)\n\nprereq: Max 18 cr per semester or summer; 10 cr total required [Plan A only]",
-    "prereq": {
-      "code": "PA 10",
-      "subject": "PA",
-      "id": "10"
-    }
+    "prereq": []
   },
   {
     "code": "PA 8781",

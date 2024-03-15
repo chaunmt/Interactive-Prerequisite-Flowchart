@@ -301,18 +301,9 @@
     "title": "Squamous Cell Carcinogenesis",
     "info": "Current topics in molecular carcinogenesis of head and neck squamous cell carcinoma.\n\nprereq: MICA 8009 or concurrent registration is required (or allowed) in MICA 8009 or instr consent",
     "prereq": {
-      "or": [
-        {
-          "code": "MICA 8009",
-          "subject": "MICA",
-          "id": "8009"
-        },
-        {
-          "code": "MICA 8009",
-          "subject": "MICA",
-          "id": "8009"
-        }
-      ]
+      "code": "MICA 8009",
+      "subject": "MICA",
+      "id": "8009"
     }
   },
   {
@@ -349,11 +340,7 @@
     "id": "8666",
     "title": "Doct Pre-Thesis Cr",
     "info": "Doctoral Pre-Thesis Credits\n\nprereq: Doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": {
-      "code": "OTOL 60",
-      "subject": "OTOL",
-      "id": "60"
-    }
+    "prereq": []
   },
   {
     "code": "OTOL 8777",
@@ -361,11 +348,7 @@
     "id": "8777",
     "title": "Thesis Credit:Mast*",
     "info": "(No description)\n\nprereq: Max 18 cr per semester or summer; 10 cr total required [Plan A only]",
-    "prereq": {
-      "code": "OTOL 10",
-      "subject": "OTOL",
-      "id": "10"
-    }
+    "prereq": []
   },
   {
     "code": "OTOL 8888",
