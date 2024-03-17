@@ -1,4 +1,4 @@
-/*** DO NOT RUN FROM INSIDE THE REPO ***/
+/// DO NOT RUN FROM INSIDE THE REPO ///
 /* Use `pnpm run sources` now, as this is a
  * script to be executed from the top-level
  * directory instead
@@ -42,9 +42,9 @@ function spliceRecommendAt(str, splitPattern) {
   return arr.join(" or ");
 }
 
-/** ASSUMPTION: Filter out extra information from info string 
+/** ASSUMPTION: Filter out extra information from info string
  * WARNING: Omit this case because of data's inconsistency
-*/
+ */
 function filterExtraInfo(str) {
   // if (str.toUpperCase().includes("NO PREREQUISITE")) return ""
   str = spliceRecommendAt(str, ";");
@@ -60,7 +60,8 @@ function splitStringAt(str, type) {
   if (type == "word") index = str.search(/[A-Za-z]/);
   else index = str.search(/\d/);
 
-  if (index != -1) { // Check if a letter or digit was found
+  if (index != -1) {
+    // Check if a letter or digit was found
     return [str.slice(0, index), str.slice(index)];
   }
 
@@ -101,7 +102,7 @@ function extractCourses(str, targetSubject, targetId) {
       if (!num) {
         num = id;
       }
-      if (parseInt(num, 10) < 1000 && (subject != "INSIDE")) {
+      if (parseInt(num, 10) < 1000 && subject != "INSIDE") {
         return null;
       }
 
