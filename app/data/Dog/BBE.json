@@ -323,11 +323,6 @@
           "code": "BBE 3012",
           "subject": "BBE",
           "id": "3012"
-        },
-        {
-          "code": "BBE 3012",
-          "subject": "BBE",
-          "id": "3012"
         }
       ]
     }
@@ -704,11 +699,6 @@
               "code": "CEGE 3502",
               "subject": "CEGE",
               "id": "3502"
-            },
-            {
-              "code": "CEGE 3502",
-              "subject": "CEGE",
-              "id": "3502"
             }
           ]
         }
@@ -759,11 +749,6 @@
           "id": "3002"
         },
         {
-          "code": "BBE 3002",
-          "subject": "BBE",
-          "id": "3002"
-        },
-        {
           "code": "BBE 3012",
           "subject": "BBE",
           "id": "3012"
@@ -777,11 +762,6 @@
           "code": "BBE 3043",
           "subject": "BBE",
           "id": "3043"
-        },
-        {
-          "code": "BBE 4013",
-          "subject": "BBE",
-          "id": "4013"
         }
       ]
     }
@@ -914,11 +894,6 @@
           "code": "BBE 4013",
           "subject": "BBE",
           "id": "4013"
-        },
-        {
-          "code": "BBE 4013",
-          "subject": "BBE",
-          "id": "4013"
         }
       ]
     }
@@ -1035,18 +1010,9 @@
           "id": "3033"
         },
         {
-          "and": [
-            {
-              "code": "BBE 4013",
-              "subject": "BBE",
-              "id": "4013"
-            },
-            {
-              "code": "BBE 4013",
-              "subject": "BBE",
-              "id": "4013"
-            }
-          ]
+          "code": "BBE 4013",
+          "subject": "BBE",
+          "id": "4013"
         }
       ]
     }
@@ -1058,18 +1024,9 @@
     "title": "Food Process Engineering",
     "info": "Material/energy balance, fluid dynamics, heat/mass transfer in refrigeration, freezing, psychometrics, dehydration, evaporation, non-thermal processing, and separation. Development control for production of food products.\n\nprereq: [[4013 or concurrent registration is required (or allowed) in 4013], upper div CSE] or instr consent",
     "prereq": {
-      "and": [
-        {
-          "code": "BBE 4013",
-          "subject": "BBE",
-          "id": "4013"
-        },
-        {
-          "code": "BBE 4013",
-          "subject": "BBE",
-          "id": "4013"
-        }
-      ]
+      "code": "BBE 4013",
+      "subject": "BBE",
+      "id": "4013"
     }
   },
   {
@@ -1328,16 +1285,6 @@
               "id": "3012"
             },
             {
-              "code": "BBE 3012",
-              "subject": "BBE",
-              "id": "3012"
-            },
-            {
-              "code": "CEGE 3502",
-              "subject": "CEGE",
-              "id": "3502"
-            },
-            {
               "code": "CEGE 3502",
               "subject": "CEGE",
               "id": "3502"
@@ -1485,11 +1432,6 @@
           "code": "BBE 4013",
           "subject": "BBE",
           "id": "4013"
-        },
-        {
-          "code": "BBE 4013",
-          "subject": "BBE",
-          "id": "4013"
         }
       ]
     }
@@ -1501,18 +1443,9 @@
     "title": "Food Process Engineering",
     "info": "Food processing engineering. Applications of material balance, energy balance, fluid dynamics, and heat/mass transfer to refrigeration, freezing, psychometrics, dehydration, evaporation, non-thermal processing, and separation. Development/control for food products.\n\nprereq: [[4013 or concurrent registration is required (or allowed) in 4013], or instr consent",
     "prereq": {
-      "or": [
-        {
-          "code": "BBE 4013",
-          "subject": "BBE",
-          "id": "4013"
-        },
-        {
-          "code": "BBE 4013",
-          "subject": "BBE",
-          "id": "4013"
-        }
-      ]
+      "code": "BBE 4013",
+      "subject": "BBE",
+      "id": "4013"
     }
   },
   {
@@ -1558,18 +1491,9 @@
     "title": "Seminar II",
     "info": "Organization/critique of seminars on new developments in biosystems and agricultural engineering.\n\nprereq: 8001 or concurrent registration is required (or allowed) in 8001 or equiv",
     "prereq": {
-      "or": [
-        {
-          "code": "BBE 8001",
-          "subject": "BBE",
-          "id": "8001"
-        },
-        {
-          "code": "BBE 8001",
-          "subject": "BBE",
-          "id": "8001"
-        }
-      ]
+      "code": "BBE 8001",
+      "subject": "BBE",
+      "id": "8001"
     }
   },
   {
@@ -1772,11 +1696,7 @@
     "id": "8666",
     "title": "Doct Pre-Thesis Cr*",
     "info": "TBD\n\nprereq: Doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": {
-      "code": "BBE 60",
-      "subject": "BBE",
-      "id": "60"
-    }
+    "prereq": []
   },
   {
     "code": "BBE 8703",
@@ -1810,11 +1730,7 @@
     "id": "8777",
     "title": "Thesis Credit:Mast*",
     "info": "(No description)\n\nprereq: Max 18 cr per semester or summer; 10 cr total required [Plan A only]",
-    "prereq": {
-      "code": "BBE 10",
-      "subject": "BBE",
-      "id": "10"
-    }
+    "prereq": []
   },
   {
     "code": "BBE 8888",

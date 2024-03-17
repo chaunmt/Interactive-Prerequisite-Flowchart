@@ -960,18 +960,9 @@
     "title": "Consumer Health Informati Prac",
     "info": "Students apply consumer health informatics principles, theories, and research to consumer health informatics topics and how technology is used to engage patients, clinicians, and family members in their health care. Specific topics include electronic health literacy, digital/mobile health technologies (health apps), and sensor/remote monitoring.\n\nprereq: Graduate student, [Nurs 5116 or &Nurs 5116] or instructor consent",
     "prereq": {
-      "and": [
-        {
-          "code": "NURS 5116",
-          "subject": "NURS",
-          "id": "5116"
-        },
-        {
-          "code": "NURS 5116",
-          "subject": "NURS",
-          "id": "5116"
-        }
-      ]
+      "code": "NURS 5116",
+      "subject": "NURS",
+      "id": "5116"
     }
   },
   {
@@ -1750,44 +1741,9 @@
           "id": "6211"
         },
         {
-          "code": "NURS 5222",
-          "subject": "NURS",
-          "id": "5222"
-        },
-        {
-          "code": "NURS 5228",
-          "subject": "NURS",
-          "id": "5228"
-        },
-        {
-          "code": "NURS 5229",
-          "subject": "NURS",
-          "id": "5229"
-        },
-        {
-          "code": "NURS 5200",
-          "subject": "NURS",
-          "id": "5200"
-        },
-        {
-          "code": "NURS 6305",
-          "subject": "NURS",
-          "id": "6305"
-        },
-        {
-          "code": "NURS 6306",
-          "subject": "NURS",
-          "id": "6306"
-        },
-        {
           "code": "NURS 6926",
           "subject": "NURS",
           "id": "6926"
-        },
-        {
-          "code": "NURS 6925",
-          "subject": "NURS",
-          "id": "6925"
         },
         {
           "code": "NURS 6927",
@@ -2641,20 +2597,18 @@
     "id": "6911",
     "title": "Basic Nurs Anes Princ Prac I",
     "info": "Develop progressive proficiency in nurse anesthesia practice including basic equipment safety checks, room set up, pre-operative assessment, basic/advanced airway skills, intravenous fluid replacement, positioning of the patient, apply interventions, charting, management of emergence, handoff report, and setting personal daily clinical goals to achieve. \n\nprereq: N6910; concurrent registration is required (or allowed) in N6901, Grad student in Doctorate of Nursing Practice Program",
-    "prereq": {
-      "or": [
-        {
-          "code": "NURS 6910",
-          "subject": "NURS",
-          "id": "6910"
-        },
-        {
-          "code": "NURS 6901",
-          "subject": "NURS",
-          "id": "6901"
-        }
-      ]
-    }
+    "prereq": [
+      {
+        "code": "NURS 6910",
+        "subject": "NURS",
+        "id": "6910"
+      },
+      {
+        "code": "NURS 6901",
+        "subject": "NURS",
+        "id": "6901"
+      }
+    ]
   },
   {
     "code": "NURS 6912",
@@ -3299,18 +3253,9 @@
           "id": "5115"
         },
         {
-          "or": [
-            {
-              "code": "NURS 7105",
-              "subject": "NURS",
-              "id": "7105"
-            },
-            {
-              "code": "NURS 7105",
-              "subject": "NURS",
-              "id": "7105"
-            }
-          ]
+          "code": "NURS 7105",
+          "subject": "NURS",
+          "id": "7105"
         }
       ]
     }
@@ -3360,11 +3305,6 @@
         },
         {
           "or": [
-            {
-              "code": "NURS 7108",
-              "subject": "NURS",
-              "id": "7108"
-            },
             {
               "code": "NURS 7108",
               "subject": "NURS",
@@ -3454,11 +3394,6 @@
         },
         {
           "or": [
-            {
-              "code": "NURS 7113",
-              "subject": "NURS",
-              "id": "7113"
-            },
             {
               "code": "NURS 7113",
               "subject": "NURS",
@@ -3944,49 +3879,14 @@
           "id": "7505"
         },
         {
-          "code": "NURS 5222",
-          "subject": "NURS",
-          "id": "5222"
-        },
-        {
-          "code": "NURS 5228",
-          "subject": "NURS",
-          "id": "5228"
-        },
-        {
-          "code": "NURS 5224",
-          "subject": "NURS",
-          "id": "5224"
-        },
-        {
-          "code": "NURS 5200",
-          "subject": "NURS",
-          "id": "5200"
-        },
-        {
-          "code": "NURS 6407",
-          "subject": "NURS",
-          "id": "6407"
-        },
-        {
           "code": "NURS 6500",
           "subject": "NURS",
           "id": "6500"
         },
         {
-          "code": "NURS 6501",
-          "subject": "NURS",
-          "id": "6501"
-        },
-        {
           "code": "NURS 7504",
           "subject": "NURS",
           "id": "7504"
-        },
-        {
-          "code": "NURS 7505",
-          "subject": "NURS",
-          "id": "7505"
         }
       ]
     }
@@ -4208,16 +4108,6 @@
           "id": "6501"
         },
         {
-          "code": "NURS 6501",
-          "subject": "NURS",
-          "id": "6501"
-        },
-        {
-          "code": "NURS 6502",
-          "subject": "NURS",
-          "id": "6502"
-        },
-        {
           "code": "NURS 6502",
           "subject": "NURS",
           "id": "6502"
@@ -4279,11 +4169,6 @@
     "info": "Integration of the essentials of doctoral education into the FNP clinical role. Students analyze individual level and community/systems factors and public policies to demonstrate leadership capabilities in creating holistic, multi-system, interprofessional collaborative approaches to address health concerns and health disparities. \n\nprereq: 7400 or concurrent registration is required (or allowed) in 7400, 7506",
     "prereq": {
       "and": [
-        {
-          "code": "NURS 7400",
-          "subject": "NURS",
-          "id": "7400"
-        },
         {
           "code": "NURS 7400",
           "subject": "NURS",
@@ -5207,16 +5092,6 @@
           "code": "NURS 8100",
           "subject": "NURS",
           "id": "8100"
-        },
-        {
-          "code": "NURS 8100",
-          "subject": "NURS",
-          "id": "8100"
-        },
-        {
-          "code": "NURS 8170",
-          "subject": "NURS",
-          "id": "8170"
         },
         {
           "code": "NURS 8170",
@@ -6263,11 +6138,7 @@
     "id": "8666",
     "title": "Doct Pre-Thesis Cr",
     "info": "tbd\n\nprereq: Doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": {
-      "code": "NURS 60",
-      "subject": "NURS",
-      "id": "60"
-    }
+    "prereq": []
   },
   {
     "code": "NURS 8701",
@@ -6311,11 +6182,7 @@
     "id": "8777",
     "title": "Thesis Credit:Mast*",
     "info": "(No description)\n\nprereq: Max 18 cr per semester or summer; 10 cr total required [Plan A only]",
-    "prereq": {
-      "code": "NURS 10",
-      "subject": "NURS",
-      "id": "10"
-    }
+    "prereq": []
   },
   {
     "code": "NURS 8800",

@@ -157,20 +157,18 @@
     "id": "5630",
     "title": "Clinical Data Mining",
     "info": "This is a hands-on introductory data mining course specifically focusing on health care applications. Analogously to the relationship between biostatistics and statistics, the data and computational challenges, the experiment design and the model performance requirements towards data mining in the clinical domain differ from those in general applications. This course aims to teach the students the most common data mining techniques and elaborate on the differences between general and clinical data mining. Specifically, the course will focus on (i) clinical data challenges and preprocessing; (ii) survey of the most common techniques in the clinical domain; (iii) clinical application touching up on experimental design and collaborations with physicians. The class will meet twice a week, one day dedicated to lectures and one day to a hands-on lab component, where students are expected to apply the techniques to health-related data. Some of the models will be evaluated with the involvement of a physician collaborator.\n\nPrerequisites:\nBasic linear algebra (matrix notation), basic optimization (gradient descent)\nGraduate level introductory statistics (e.g. STAT 5101-5102) or equivalent or instructor consent",
-    "prereq": {
-      "or": [
-        {
-          "code": "STAT 5101",
-          "subject": "STAT",
-          "id": "5101"
-        },
-        {
-          "code": "HINF 5102",
-          "subject": "HINF",
-          "id": "5102"
-        }
-      ]
-    }
+    "prereq": [
+      {
+        "code": "STAT 5101",
+        "subject": "STAT",
+        "id": "5101"
+      },
+      {
+        "code": "HINF 5102",
+        "subject": "HINF",
+        "id": "5102"
+      }
+    ]
   },
   {
     "code": "HINF 5640",
@@ -339,11 +337,7 @@
     "id": "8666",
     "title": "Doct Pre-Thesis Cr*",
     "info": "TBD\n\nprereq: Doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": {
-      "code": "HINF 60",
-      "subject": "HINF",
-      "id": "60"
-    }
+    "prereq": []
   },
   {
     "code": "HINF 8770",
@@ -359,11 +353,7 @@
     "id": "8777",
     "title": "Thesis Credit:Mast*",
     "info": "(No description)\n\nprereq: Max 18 cr per semester or summer; 10 cr total required [Plan A only]",
-    "prereq": {
-      "code": "HINF 10",
-      "subject": "HINF",
-      "id": "10"
-    }
+    "prereq": []
   },
   {
     "code": "HINF 8888",

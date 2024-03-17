@@ -249,11 +249,6 @@
           "code": "PHYS 1371",
           "subject": "PHYS",
           "id": "1371"
-        },
-        {
-          "code": "PHYS 1371",
-          "subject": "PHYS",
-          "id": "1371"
         }
       ]
     }
@@ -559,11 +554,6 @@
           "id": "1301"
         },
         {
-          "code": "PHYS 1301",
-          "subject": "PHYS",
-          "id": "1301"
-        },
-        {
           "code": "PHYS 1401",
           "subject": "PHYS",
           "id": "1401"
@@ -601,18 +591,9 @@
     "title": "Modern Physics Laboratory",
     "info": "Laboratory experiments in atomic, solid state, and nuclear physics.  Introduction to data analysis techniques as well as the communication of scientific results through maintaining a logbook and writing papers.\n\nPrerequisites:  completion (or concurrent registration) in PHYS 2503 or 2503H.",
     "prereq": {
-      "or": [
-        {
-          "code": "PHYS 2503",
-          "subject": "PHYS",
-          "id": "2503"
-        },
-        {
-          "code": "PHYS 2503",
-          "subject": "PHYS",
-          "id": "2503"
-        }
-      ]
+      "code": "PHYS 2503",
+      "subject": "PHYS",
+      "id": "2503"
     }
   },
   {
@@ -638,18 +619,9 @@
     "title": "Analytical Mechanics",
     "info": "Analytic Newtonian mechanics. Mathematics beyond prerequisites developed as required. \n\nprereq: PHYS 2503/2503H or equivalent, PHYS 304",
     "prereq": {
-      "and": [
-        {
-          "code": "PHYS 2503",
-          "subject": "PHYS",
-          "id": "2503"
-        },
-        {
-          "code": "PHYS 304",
-          "subject": "PHYS",
-          "id": "304"
-        }
-      ]
+      "code": "PHYS 2503",
+      "subject": "PHYS",
+      "id": "2503"
     }
   },
   {
@@ -664,11 +636,6 @@
           "code": "PHYS 3041",
           "subject": "PHYS",
           "id": "3041"
-        },
-        {
-          "code": "PHYS 2503",
-          "subject": "PHYS",
-          "id": "2503"
         },
         {
           "code": "PHYS 2503",
@@ -1599,11 +1566,7 @@
     "id": "8666",
     "title": "Doct Pre-Thesis Cr",
     "info": "TBD\n\nprereq: Doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": {
-      "code": "PHYS 60",
-      "subject": "PHYS",
-      "id": "60"
-    }
+    "prereq": []
   },
   {
     "code": "PHYS 8700",
@@ -1684,11 +1647,7 @@
     "id": "8777",
     "title": "Thesis Credit:Mast*",
     "info": "(No description)\n\nprereq: Max 18 cr per semester or summer; 10 cr total required [Plan A only]",
-    "prereq": {
-      "code": "PHYS 10",
-      "subject": "PHYS",
-      "id": "10"
-    }
+    "prereq": []
   },
   {
     "code": "PHYS 8800",

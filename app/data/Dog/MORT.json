@@ -177,20 +177,18 @@
     "id": "3051",
     "title": "Restorative Art",
     "info": "In Restorative Art 3051, we will consider the importance of, and techniques for, creating an acceptable physical appearance upon deceased persons for the benefit of the survivors.\nOver the semester, we will study a variety of topics for the purpose of building skills in the area of restorative art, including anatomical terminology; skeletal structures of the face and cranium; musculature of the face and neck; photographic interpretations; classical proportions of the face and cranium; physiognomy of the face and cranium; essential components of the nose, mouth, eyes, and ears; various modeling techniques; proper placement guides for the restoration of damaged structures and/or missing features; treatments and techniques for both general and specific injuries; color theory, and cosmetology related to the funeral profession.\n\nPre / Co-requisite: MORT 3061 Embalming Theory\nPrerequisites: MORT 2171 Introductory Human Anatomy; MORT 3171 Human Anatomy Laboratory\n",
-    "prereq": {
-      "or": [
-        {
-          "code": "MORT 2171",
-          "subject": "MORT",
-          "id": "2171"
-        },
-        {
-          "code": "MORT 3171",
-          "subject": "MORT",
-          "id": "3171"
-        }
-      ]
-    }
+    "prereq": [
+      {
+        "code": "MORT 2171",
+        "subject": "MORT",
+        "id": "2171"
+      },
+      {
+        "code": "MORT 3171",
+        "subject": "MORT",
+        "id": "3171"
+      }
+    ]
   },
   {
     "code": "MORT 3055W",
@@ -206,20 +204,18 @@
     "id": "3061",
     "title": "Embalming Theory",
     "info": "This is an introductory course which covers the phenomenon of death of the human body, and the fundamental procedures associated with the practice of the art and science of embalming. Embalming is the process of chemically treating the dead human body in order to: (1) reduce the presence and growth of microorganisms; (2) retard organic decomposition; and (3) restore an acceptable physical appearance to the decedent.1 The semester begins with such topics as personal and public health considerations, and government regulations that are applicable to the embalming process and the fundamentals of embalming. Next are the topics of terminology and identification of embalming instruments, the importance of embalming analysis, and the completion of embalming reports. We advance to vessel location and selection, and procedures for preparing the body before the embalming process begins. We move on to the subject of embalming chemicals, with our lectures and discussions focusing on the reasons why we use various quantities and types of chemicals for each individual case.\nThe course continues with presentations focusing on treatments for embalming difficult cases, including discussion of traumatic and pathological conditions, infections, communicable diseases, autopsied bodies, organ and tissue donors, and other various conditions.\n\nPrerequisites: MORT 2171 Introductory Human Anatomy; MORT 3171 Human Anatomy Laboratory",
-    "prereq": {
-      "or": [
-        {
-          "code": "MORT 2171",
-          "subject": "MORT",
-          "id": "2171"
-        },
-        {
-          "code": "MORT 3171",
-          "subject": "MORT",
-          "id": "3171"
-        }
-      ]
-    }
+    "prereq": [
+      {
+        "code": "MORT 2171",
+        "subject": "MORT",
+        "id": "2171"
+      },
+      {
+        "code": "MORT 3171",
+        "subject": "MORT",
+        "id": "3171"
+      }
+    ]
   },
   {
     "code": "MORT 3062W",
@@ -299,30 +295,28 @@
     "id": "3379",
     "title": "Clinical Funeral Srvc Rotation",
     "info": "Practical experience working in clinical settings related to funeral service. What it means to be a funeral director in contemporary American society.\n\nMortuary Science Major\nPre / Co-requisite: 3021W\nPrerequisites: MORT 3051; 3061; 3151; 3161",
-    "prereq": {
-      "or": [
-        {
-          "code": "MORT 3051",
-          "subject": "MORT",
-          "id": "3051"
-        },
-        {
-          "code": "MORT 3061",
-          "subject": "MORT",
-          "id": "3061"
-        },
-        {
-          "code": "MORT 3151",
-          "subject": "MORT",
-          "id": "3151"
-        },
-        {
-          "code": "MORT 3161",
-          "subject": "MORT",
-          "id": "3161"
-        }
-      ]
-    }
+    "prereq": [
+      {
+        "code": "MORT 3051",
+        "subject": "MORT",
+        "id": "3051"
+      },
+      {
+        "code": "MORT 3061",
+        "subject": "MORT",
+        "id": "3061"
+      },
+      {
+        "code": "MORT 3151",
+        "subject": "MORT",
+        "id": "3151"
+      },
+      {
+        "code": "MORT 3161",
+        "subject": "MORT",
+        "id": "3161"
+      }
+    ]
   },
   {
     "code": "MORT 3380",

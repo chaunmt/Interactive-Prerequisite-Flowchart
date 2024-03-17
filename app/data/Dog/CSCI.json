@@ -327,18 +327,9 @@
     "title": "Intro. Software Development",
     "info": "echniques for design and development of software using Java. Introduction to object-oriented programming and design, integrated development environments, inheritance, and polymorphism. Software design principles, testing and debugging, and use of project management tools. Implementation of a software project using data structures, files, and I/O. This course is intended for non-CS Majors. \n\nprereq: CSCI 1133 or CSCI 1133H",
     "prereq": {
-      "or": [
-        {
-          "code": "CSCI 1133",
-          "subject": "CSCI",
-          "id": "1133"
-        },
-        {
-          "code": "CSCI 1133",
-          "subject": "CSCI",
-          "id": "1133"
-        }
-      ]
+      "code": "CSCI 1133",
+      "subject": "CSCI",
+      "id": "1133"
     }
   },
   {
@@ -396,18 +387,9 @@
     "title": "Intro Disc. Struct/Algorithms",
     "info": "Overview of strategies and techniques for the design and analysis of algorithms. Logic and proof techniques, asymptotic notation, recurrences, graphs and relations. Algorithm design strategies and examples from graph algorithms, greedy, divide-and-conquer, and dynamic programming. This course is intended for non-CS Majors. \n\nprerequisite: CSci 2081, concurrent registration with CSci 2081 and upper class standing, or instructor permission.",
     "prereq": {
-      "and": [
-        {
-          "code": "CSCI 2081",
-          "subject": "CSCI",
-          "id": "2081"
-        },
-        {
-          "code": "CSCI 2081",
-          "subject": "CSCI",
-          "id": "2081"
-        }
-      ]
+      "code": "CSCI 2081",
+      "subject": "CSCI",
+      "id": "2081"
     }
   },
   {
@@ -1934,11 +1916,7 @@
     "id": "8666",
     "title": "Doct Pre-Thesis Cr*",
     "info": "tbd\n\nprereq: Doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": {
-      "code": "CSCI 60",
-      "subject": "CSCI",
-      "id": "60"
-    }
+    "prereq": []
   },
   {
     "code": "CSCI 8701",
@@ -2065,11 +2043,7 @@
     "id": "8777",
     "title": "Thesis Credit:Mast*",
     "info": "(No description)\n\nprereq: Max 18 cr per semester or summer; 10 cr total required [Plan A only]",
-    "prereq": {
-      "code": "CSCI 10",
-      "subject": "CSCI",
-      "id": "10"
-    }
+    "prereq": []
   },
   {
     "code": "CSCI 8801",

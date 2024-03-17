@@ -6,18 +6,11 @@ import {
   PrereqTraversal,
 } from "./types";
 
-export default {
-  /** Accessor Factory - returns the subject-specific accessor to get relevant course info
-   *
-   * note: SUBJECT should be an uppercase string matching those in subjects */
-  Access,
-};
-
 export {
   /** One Accessor for all - not a factory, just directly access the methods on this one */
   AccessAll,
   /** a list of all subject codes */
-  subjects,
+  subjects as allSubjects,
   /** potentially useful utility function that helps with issues like
    * `"CSCI 3081" != "CSCI 3081W"`—takes courses as input*/
   isEqualCourses,
@@ -28,7 +21,10 @@ export {
 
 const subjects: readonly string[] = require(`./General/allSubjects.json`);
 
-function Access(SUBJECT: string): Accessor {
+/** Accessor Factory - returns the subject-specific accessor to get relevant course info
+ *
+ * note: SUBJECT should be an uppercase string matching those in subjects */
+export default function Access(SUBJECT: string): Accessor {
   if (!subjects.includes(SUBJECT)) {
     throw new Error(`Invalid subject "${SUBJECT}" passed to Access module!`);
   }

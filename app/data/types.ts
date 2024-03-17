@@ -47,7 +47,7 @@ function isCourse(arg: PrereqFormat): arg is CourseShell {
   return isCourseShell(arg) && (arg as Course).title !== undefined;
 }
 
-/** "a little bit of metaprogramming never hurt anybody" - jahndan, 2024
+/** "a little bit of functional programming never hurt anybody" - jahndan, 2024
  *
  * if you're using this, you probably wrote this monstrosity */
 function PrereqTraversal<out, state>(
