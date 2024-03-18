@@ -165,7 +165,7 @@ function convertJSONGraph(input: {
 }) {
   // TODO sophisticated conversion if still using Mermaid -- 2024/01/13
   return (
-    "graph TB\n" +
+    "graph BT\n" +
     [
       input.nodes.map((n) => `${n.id}[${n.text}]`).join("\n"), // node declarations
       input.edges.map((e) => `${e.from} --> ${e.to}`).join("\n"), // edge declarations
