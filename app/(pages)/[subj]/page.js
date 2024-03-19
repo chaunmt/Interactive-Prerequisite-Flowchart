@@ -3,7 +3,7 @@ import Access, { allSubjects } from "../../data/access";
 import "../../components/styles/GraphPage.css";
 import Search from "../../components/Search";
 
-import Mermaid from "../../components/Mermaid";
+import Mermaid from "../../components/graph/Mermaid";
 import buildGraph from "../../data/graphBuilder";
 
 import Custom404 from "../[errors]/404";

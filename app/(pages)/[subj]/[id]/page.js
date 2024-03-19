@@ -1,4 +1,4 @@
-import Mermaid from "../../../components/Mermaid";
+import Mermaid from "../../../components/graph/Mermaid";
 import buildGraph from "../../../data/graphBuilder";
 import Access, { allSubjects } from "../../../data/access";
 import Search from "../../../components/Search"
