@@ -3,7 +3,7 @@
 import { useState } from "react";
 
 import Mermaid from "./Mermaid";
-import FilterSearch from "../FilterSearch";
+import FilterSearch from "../search/FilterSearch";
 import { buildCombinedGraph } from "../../data/graphBuilder";
 
 export default function GraphSearch({ sourceData }) {

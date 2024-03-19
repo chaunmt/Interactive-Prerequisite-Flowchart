@@ -1,7 +1,7 @@
 import Mermaid from "../../../components/graph/Mermaid";
 import buildGraph from "../../../data/graphBuilder";
 import Access, { allSubjects } from "../../../data/access";
-import Search from "../../../components/Search"
+import Search from "../../../components/search/Search"
 import Link from "next/link";
 
 import Custom404 from "../../[errors]/404";

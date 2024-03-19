@@ -2,7 +2,7 @@
 
 import "../components/styles/Layout.css";
 import "../components/styles/Mainpage.css";
-import Search from "../components/Search";
+import Search from "../components/search/Search";
 
 export default function Page() {
   return (

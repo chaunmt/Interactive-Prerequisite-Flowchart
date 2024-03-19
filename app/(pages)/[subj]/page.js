@@ -1,7 +1,7 @@
 // page with dynamic graph generation and search bar for courses in [subj]
 import Access, { allSubjects } from "../../data/access";
 import "../../components/styles/GraphPage.css";
-import Search from "../../components/Search";
+import Search from "../../components/search/Search";
 
 import Mermaid from "../../components/graph/Mermaid";
 import buildGraph from "../../data/graphBuilder";

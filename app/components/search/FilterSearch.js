@@ -9,7 +9,7 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 
-import Access from "../data/access";
+// import Access from "../../data/access";
 
 function FilterSearch({ sourceData, sendResults }) {
   //   const [data, setData] = useState([]); //list of items from JSON

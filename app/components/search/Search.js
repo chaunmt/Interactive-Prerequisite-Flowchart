@@ -10,7 +10,7 @@ function Search({ sendResults }) {
   useEffect(() => {
     const subject = search.match(/[a-zA-Z]+/g)?.[0].toUpperCase();
     if (subject) {
-      import(`../data/Dog/${subject}.json`)
+      import(`../../data/Dog/${subject}.json`)
         .then((module) => {
           setCourses(module.default); //array of courses
         })
