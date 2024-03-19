@@ -12,26 +12,8 @@ import {
 } from "../../data/types";
 
 export default function Page() {
-  /**BUGS REPORT:
-   * Error: Invalid subject "FAVICON.ICO" passed to Access module!
-   */
+  /* access.ts tests */
 
-  let test = [
-    // "MATH 1271",
-    // "CSCI 1133",
-    // "CSCI 2033",
-    "CSCI 5521",
-    "EE 5364",
-    "GEOG 5839",
-    "CHEM 1066",
-    // "MATS 3141",
-    // "PHAR 6155",
-    // "EE 4161W",
-  ];
-  let buildTests = test
-    .map((code) => Access(code.split(" ")[0]).getCourse(code))
-    .filter((e) => e !== null);
-  let builtgraph = buildGraph(buildTests);
   let shell1 = {
     code: "MATH 5466",
     subject: "MATH",
@@ -52,7 +34,27 @@ export default function Page() {
   let test2 = Access("CHEM").ids[0];
   let test3 = AccessAll.courses[0].code;
   let test4 = Access("MATH").isPrereq(shell2, Access("MATH").get(shell1));
+  console.log(`=== targets of ${shell3.code}===`);
   console.log(Access("CSCI").target(shell3));
+
+  /* graphBuilder.ts tests */
+
+  let test = [
+    // "MATH 1271",
+    // "CSCI 1133",
+    // "CSCI 2033",
+    // "CSCI 5521",
+    // "EE 5364",
+    // "GEOG 5839",
+    // "CHEM 1066",
+    "MATS 3141",
+    // "PHAR 6155",
+    // "EE 4161W",
+  ];
+  let buildTests = test
+    .map((code) => Access(code.split(" ")[0]).getCourse(code))
+    .filter((e) => e !== null);
+  let builtgraph = buildGraph(buildTests);
 
   return (
     <div>
