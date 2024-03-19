@@ -519,7 +519,7 @@ function exportDogs(SUBJECT) {
         }),
       );
 
-      fs.writeFile(filePath + fileName, JSON.stringify(courses), (error) => {
+      fs.writeFile(filePath + fileName, JSON.stringify(courses, null, 2), (error) => {
         if (error) {
           console.error(
             "Error exporting data to JSON file" + fileName + ":",
