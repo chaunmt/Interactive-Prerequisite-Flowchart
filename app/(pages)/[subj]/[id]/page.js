@@ -1,13 +1,14 @@
 import Mermaid from "../../../components/Mermaid";
 import buildGraph from "../../../data/graphBuilder";
-import "../../../components/styles/Layout.css";
-import "../../../components/styles/GraphPage.css";
 import Access, { allSubjects } from "../../../data/access";
 import Search from "../../../components/Search"
 import Link from "next/link";
 
 import Custom404 from "../../[errors]/404";
+
 import "../../../components/styles/Idpage.css"
+import "../../../components/styles/Layout.css";
+import "../../../components/styles/GraphPage.css";
 
 export async function generateMetadata({ params, searchParams }, parent) {
   return {
@@ -27,7 +28,6 @@ export default function Page({ params }) {
   return (
     <div id="content">
       <div id="nav">
-        {/* TODO: use Link */}
         <Link href={"/"+SUBJ}>
           <button id="back">Back</button>
         </Link>
