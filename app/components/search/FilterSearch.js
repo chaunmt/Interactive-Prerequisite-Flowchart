@@ -32,7 +32,7 @@ function FilterSearch({ sourceData, sendResults }) {
   useEffect(() => {
     //Filtering data
     sendResults(filteredData);
-  }, [search]);
+  }, [filteredData, sendResults, search]);
 
   return (
     //Display
