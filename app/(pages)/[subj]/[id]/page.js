@@ -4,6 +4,7 @@ import "../../../components/styles/Layout.css";
 import "../../../components/styles/GraphPage.css";
 import Access, { allSubjects } from "../../../data/access";
 import Search from "../../../components/Search"
+import Link from "next/link";
 
 import Custom404 from "../../[errors]/404";
 import "../../../components/styles/Idpage.css"
@@ -24,19 +25,25 @@ export default function Page({ params }) {
   const graphString = buildGraph(course);
   
   return (
-    <div>
+    <div id="content">
       <div id="nav">
-        <button id="back">back</button>
-        <div id="small"><Search></Search></div>
+        {/* TODO: use Link */}
+        <Link href={"/"+SUBJ}>
+          <button id="back">Back</button>
+        </Link>
+        <Search id="search"></Search>
       </div>
       <div id="container">
         <div id="graph">
-          <h4 id="warning">*Possible Prerequisites</h4>
+          <div id="graph-header">
+            <div id="warning" title="Prerequisite information is unreliable and subject to change during and between terms."><b>*Possible Prerequisites</b></div>
+            <button id="graph-download">Download</button>
+          </div>
           <Mermaid graph={graphString} />
         </div>
         <div id="infoBox">
-          <h2 id="code">{course.code}</h2>
-          <h3 id="title">{course.title}</h3>
+          <div id="code">{course.code}</div>
+          <div id="title">{course.title}</div>
           <p id="info">{course.info}</p>
         </div>
       </div>
