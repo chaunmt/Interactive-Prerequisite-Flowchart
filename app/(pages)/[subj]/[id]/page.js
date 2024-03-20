@@ -1,7 +1,7 @@
 import Mermaid from "../../../components/graph/Mermaid";
 import buildGraph from "../../../data/graphBuilder";
 import Access, { allSubjects } from "../../../data/access";
-import Search from "../../../components/search/Search"
+import { NavigationSearch } from "../../../components/search/NavigationSearch";
 import Link from "next/link";
 
 import Custom404 from "../../[errors]/404";
@@ -31,7 +31,7 @@ export default function Page({ params }) {
         <Link href={"/"+SUBJ}>
           <button id="back">Back</button>
         </Link>
-        <Search id="search"></Search>
+        <NavigationSearch id="search" />
       </div>
       <div id="container">
         <div id="graph">

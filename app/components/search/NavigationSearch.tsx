@@ -1,20 +1,34 @@
+/**
+ * NavigationSearch.tsx - Search UI whose results provide links to other pages
+ */
 "use client";
-import React, { useState, useEffect } from "react";
+import SearchBar from "./SearchBar";
+
+import React, { useState, useEffect, Component } from "react";
 import Link from "next/link";
+
+/**
+ * 
+ */
+interface SearchResult {
+  display_name: string;
+  //support both links to other pages and callback functions
+  representation: Component;
+}
 
 /**
  * // TODO: make SearchResult[] object or something with onClick that can do a
  * // react Link or handler function somehow 
  * // (prolly another component now that i think about it)
  * 
- * @param {String[]} displayResults results to be displayed in a list
+ * @param {SearchResult[]} searchResults results to be displayed in a list
  * @returns 
  */
-function SearchResults({ displayResults }: { displayResults: string[] }) {
+function SearchResultsList({ searchResults }: { searchResults: SearchResult[] }) {
   // TODO: inline vs hoverable list options, many options, this is meant to be customizable
 }
 
-function Search({ sendResults }: { sendResults: (a: string) => void}) {
+function NavigationSearch({ sendResults }: { sendResults: (a: string) => void}) {
   const [search, setSearch] = useState("");
   const [courses, setCourses] = useState([]);
   const [filteredData, setFilteredData] = useState([]);
@@ -58,7 +72,7 @@ function Search({ sendResults }: { sendResults: (a: string) => void}) {
   // Render the search input and results
   return (
     <div className="Search">
-      <Search.SearchBar sendQuery={handleSearch} />
+      <SearchBar value={search} sendQuery={handleSearch} />
       {search && (
         <ul className="list">
           {filteredData.length > 0 ? (
@@ -87,20 +101,6 @@ function Search({ sendResults }: { sendResults: (a: string) => void}) {
   );
 }
 
-{
-  // TODO: extract to own file with own css imports
-  function SearchBar({ sendQuery }) {
-    return (
-      <input
-        type="text"
-        placeholder="Search By Class"
-        // value={search}
-        onChange={sendQuery}
-        className="searchBar"
-      />);
-  }
-
-  Search.SearchBar = SearchBar;
-}
-
-export default Search;
+export {
+  NavigationSearch
+};

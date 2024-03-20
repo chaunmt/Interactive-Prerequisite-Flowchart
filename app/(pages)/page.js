@@ -2,13 +2,13 @@
 
 import "../components/styles/Layout.css";
 import "../components/styles/Mainpage.css";
-import Search from "../components/search/Search";
+import { NavigationSearch } from "../components/search/NavigationSearch";
 
 export default function Page() {
   return (
     <div>
       {/* <GraphSearch /> */}
-      <Search />
+      <NavigationSearch />
     </div>
   );
 }
