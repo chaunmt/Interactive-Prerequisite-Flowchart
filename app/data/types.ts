@@ -4,7 +4,7 @@ export { isCourseShell, isCourse, PrereqTraversal };
 
 // this only exists for when you need Map<string, Accessor>
 type Accessor = {
-  courses: readonly Course[];
+  courses: readonly Course[] | CourseShell[];
   ids: readonly string[];
   getCourse: {
     (value: string): Course | null;
@@ -12,19 +12,19 @@ type Accessor = {
   };
   target: (prereq: CourseShell) => Course[];
   isPrereq: (course: CourseShell, target: Course) => boolean;
-  isEqualCourses: (A: CourseShell, B: CourseShell) => boolean;
-  isEqualId: (idA: string, idB: string) => boolean;
   get: (shell: CourseShell) => Course;
 };
 
 interface CourseShell {
+  readonly uid: string;
   readonly code: string;
   readonly subject: string;
-  readonly id: string;
+  readonly number: string;
 }
 
 interface Course extends CourseShell {
-  readonly title: string;
+  readonly name: string;
+  readonly fullname: string;
   readonly info: string;
   readonly prereq: PrereqFormat;
 }
@@ -44,7 +44,7 @@ function isCourseShell(arg: PrereqFormat): arg is CourseShell {
 
 /** like Array.isArray(), this does type verification */
 function isCourse(arg: PrereqFormat): arg is CourseShell {
-  return isCourseShell(arg) && (arg as Course).title !== undefined;
+  return isCourseShell(arg) && (arg as Course).name !== undefined;
 }
 
 /** "a little bit of functional programming never hurt anybody" - jahndan, 2024
