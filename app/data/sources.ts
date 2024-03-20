@@ -372,8 +372,9 @@ function decodeBracket(data, encodedData) {
 
   // Data is array
   if (data.length) {
-    for (let i = 0; i < data.length; i++)
+    for (let i = 0; i < data.length; i++) {
       data[i] = decodeBracket(data[i], encodedData);
+    }
   }
   // Data is course
   else if (data.subject == "INSIDE") {
