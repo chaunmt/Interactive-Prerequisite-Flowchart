@@ -88,12 +88,12 @@ function build(courses: CourseShell[]): {
     if (!accessors.has(course.subject)) {
       accessors.set(course.subject, Access(course.subject));
     }
-    let sublevel = Number(course.id.match(/\d+/g)[0]) < 1000;
+    let sublevel = Number(course.number.match(/\d+/g)[0]) < 1000;
     const full_course = sublevel
       ? {
           code: course.code,
           subject: course.subject,
-          id: course.id,
+          number: course.number,
           prereq: [],
         }
       : accessors.get(course.subject).get(course);
@@ -106,8 +106,8 @@ function build(courses: CourseShell[]): {
       // throw Error(`Invalid course found: ${course.code}`);
       return;
     }
-    const { code, subject, id, prereq } = full_course;
-    let node_id = `${subject}_${id}`;
+    const { code, subject, number, prereq } = full_course;
+    let node_id = `${subject}_${number}`;
     // skip if already processed
     if (node_list.every((node) => node.id !== node_id)) {
       node_list.push({ id: node_id, text: code });

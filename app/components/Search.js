@@ -27,7 +27,7 @@ function Search({ sendResults }) {
       const processedSearch = search.replace(/\s+/g, "").toLowerCase();
       const results = courses.filter((course) => {
         return (
-          course.title.toLowerCase().includes(processedSearch) ||
+          course.name.toLowerCase().includes(processedSearch) ||
           course.code
             .toLowerCase()
             .replace(/\s+/g, "")
@@ -67,8 +67,8 @@ function Search({ sendResults }) {
           {filteredData.length > 0 ? (
             filteredData.map((course, index) => (
               <li key={index}>
-                <Link href={`/${course.subject}/${course.id}`}>
-                  {course.code} - {course.title}
+                <Link href={`/${course.subject}/${course.number}`}>
+                  {course.code} - {course.fullname}
                 </Link>
               </li>
             ))
