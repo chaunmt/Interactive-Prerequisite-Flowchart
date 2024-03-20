@@ -2425,6 +2425,32 @@
     "subject": "ECON",
     "id": "4960",
     "title": "Topics in Economics",
+    "info": "Topics specified in class schedule. \n\nprereq: ECON 3101, 3102, MATH 1271 [or equivalent courses]",
+    "prereq": {
+      "and": [
+        {
+          "code": "ECON 3101",
+          "subject": "ECON",
+          "id": "3101"
+        },
+        {
+          "code": "ECON 3102",
+          "subject": "ECON",
+          "id": "3102"
+        },
+        {
+          "code": "MATH 1271",
+          "subject": "MATH",
+          "id": "1271"
+        }
+      ]
+    }
+  },
+  {
+    "code": "ECON 4960",
+    "subject": "ECON",
+    "id": "4960",
+    "title": "Topics in Economics",
     "info": "Topics specified in Class Schedule.\n\nprereq: [3101 or 3102 or equiv], MATH 1271",
     "prereq": {
       "and": [
@@ -2441,32 +2467,6 @@
               "id": "3102"
             }
           ]
-        },
-        {
-          "code": "MATH 1271",
-          "subject": "MATH",
-          "id": "1271"
-        }
-      ]
-    }
-  },
-  {
-    "code": "ECON 4960",
-    "subject": "ECON",
-    "id": "4960",
-    "title": "Topics in Economics",
-    "info": "Topics specified in class schedule. \n\nprereq: ECON 3101, 3102, MATH 1271 [or equivalent courses]",
-    "prereq": {
-      "and": [
-        {
-          "code": "ECON 3101",
-          "subject": "ECON",
-          "id": "3101"
-        },
-        {
-          "code": "ECON 3102",
-          "subject": "ECON",
-          "id": "3102"
         },
         {
           "code": "MATH 1271",
