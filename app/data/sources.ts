@@ -1,8 +1,14 @@
-/*** DO NOT RUN FROM INSIDE THE REPO ***/
-/* Use `pnpm run sources` now, as this is a
- * script to be executed from the top-level
- * directory instead
- */
+//// DO NOT RUN FROM INSIDE THE REPO ////
+/* Use `pnpm run sources` now, as this is a script to
+ * be executed from the top-level directory instead */
+
+// import type { CourseShell, Course, PrereqFormat } from "./types";
+
+const schoolId = "umn_umntc_peoplesoft";
+
+// NOTE: Write path is relative to location of execution and *not* this file
+const filePath = "./app/data/Dog/"; // For offical data folder
+// const filePath = "./app/data/"  // For testing purpose
 
 // Using file system
 let fs = require("fs");
@@ -27,7 +33,7 @@ function replaceSigns(str) {
 }
 
 /** Delete info about recommended courses from info string
- * WARNING: Omit this case because of data"s inconsistency */
+ * WARNING: Omit this case because of data's inconsistency */
 function spliceRecommendAt(str, splitPattern) {
   let arr = str.split(splitPattern);
   let i = 0;
@@ -41,9 +47,8 @@ function spliceRecommendAt(str, splitPattern) {
   return arr.join(" or ");
 }
 
-/** ASSUMPTION: Filter out extra information from info string 
- * WARNING: Omit this case because of data"s inconsistency
-*/
+/** ASSUMPTION: Filter out extra information from info string
+ * WARNING: Omit this case because of data's inconsistency */
 function filterExtraInfo(str) {
   // if (str.toUpperCase().includes("NO PREREQUISITE")) return ""
   str = spliceRecommendAt(str, ";");
@@ -55,14 +60,17 @@ function filterExtraInfo(str) {
 function splitStringAt(str, type) {
   str = deleteSpaces(str);
 
-  let index = -1; 
-  if (type == "word") { // Find the first index of a character of type "word"
+  let index = -1;
+  if (type == "word") {
+    // Find the first index of a character of type "word"
     index = str.search(/[A-Za-z]/);
-  } else { // Find the first index of a character of type "number"
+  } else {
+    // Find the first index of a character of type "number"
     index = str.search(/\d/);
   }
 
-  if (index != -1) { // Check if a letter or digit was found
+  if (index != -1) {
+    // Check if a letter or digit was found
     return [str.slice(0, index), str.slice(index)];
   }
 
@@ -76,7 +84,7 @@ function splitStringAt(str, type) {
 }
 
 /** Extract prerequisites courses from string, given target course information */
-function extractCourses(str, targetSubject, targetId) {
+function extractCourses(str, targetSubject, targetNumber) {
   // match full words for 3 cases:
   //    3-4 digits + optional letters
   //    some letters + optional white space + 3-4 digits + optional letters
@@ -87,59 +95,59 @@ function extractCourses(str, targetSubject, targetId) {
   const allSems = require("./General/allSemesters.json");
 
   return courses.map((each) => {
-    let [subject, id] = splitStringAt(each, "number");
+    let [subject, number] = splitStringAt(each, "number");
     if (!subject) {
-      id = each;
+      number = each;
     }
 
     subject = subject.toUpperCase();
-    id = id.toUpperCase();
+    number = number.toUpperCase();
 
-    function getId(id) {
-      let [num, suffix] = splitStringAt(id, "word");
+    function getNumber(number) {
+      let [num, suffix] = splitStringAt(number, "word");
       let allowedSuffix = ["W", "H", "V", ""];
 
-      // We don"t keep any remedial courses
       if (!num) {
-        num = id;
+        num = number;
       }
 
-      if (parseInt(num, 10) < 1000 && (subject != "INSIDE")) {
+      // We don't keep any remedial courses
+      if (parseInt(num, 10) < 1000 && subject != "INSIDE") {
         return null;
       }
 
-      // Check what is this course"s type based on its suffix
+      // Check what this course's type is based on its suffix
       if (suffix && (suffix.length != 1 || !allowedSuffix.includes(suffix))) {
-        id = num;
+        number = num;
       }
-      
-      if (!allCourseNumbers.includes(id)) {
-        if (allCourseNumbers.includes(id + "W")) {
-          id = id + "W";
-        } else if (allCourseNumbers.includes(id + "H")) {
-          id = id + "H";
+
+      if (!allCourseNumbers.includes(number)) {
+        if (allCourseNumbers.includes(number + "W")) {
+          number = number + "W";
+        } else if (allCourseNumbers.includes(number + "H")) {
+          number = number + "H";
         } else if (!(subject == "INSIDE")) {
           return null;
         } else if (allCourseNumbers.includes(num)) {
-          id = num;
+          number = num;
         }
       }
 
-      // We don"t keep any honor course in prereq
-      if (id.includes("V") || id.includes("H")) {
+      // We don't keep any honor course in prereq
+      if (number.includes("V") || number.includes("H")) {
         return null;
       }
 
-      return id;
+      return number;
     }
 
-    id = getId(id);
-    if (!id) {
+    number = getNumber(number);
+    if (!number) {
       return null;
     }
 
     // Remove semester and year (not a course)
-    // ASSUME: NO PREREQ"S SUBJECT --> USE TARGET"S SUBJECT
+    // ASSUME: NO PREREQ'S SUBJECT --> USE TARGET'S SUBJECT
     if (!(subject == "INSIDE") && !allSubjects.includes(subject)) {
       if (allSems.includes(subject)) {
         return null;
@@ -148,11 +156,12 @@ function extractCourses(str, targetSubject, targetId) {
     }
 
     // If this course = target, it is not prereq
-    if (subject == targetSubject && id == targetId) {
+    if (subject == targetSubject && number == targetNumber) {
       return null;
     }
 
-    return { code: subject + " " + id, subject: subject, id: id };
+    // TODO fix
+    return { code: `${subject} ${number}`, subject: subject, number: number };
   });
 }
 
@@ -162,24 +171,24 @@ function isEqualCourse(A, B) {
   if (!A || !B) {
     return false;
   }
-  
+
   if (!A.code || !A.subject || !A.id) {
     return false;
   }
-  
+
   if (!B.code || !B.subject || !B.id) {
     return false;
   }
 
-  // If A"s differs from B"s, return false
+  // If A's differs from B's, return false
   if (A.code != B.code) {
     return false;
   }
-  
+
   if (A.subject != B.subject) {
     return false;
   }
-  
+
   if (A.id != B.id) {
     return false;
   }
@@ -193,7 +202,7 @@ function filterDuplicate(items) {
   if (!items) {
     return null;
   }
-  
+
   if (items.code) {
     return items;
   }
@@ -237,7 +246,7 @@ function filterExtraArray(items) {
   if (!items) {
     return null;
   }
-  
+
   if (items.id) {
     return items;
   }
@@ -292,8 +301,8 @@ function filterNull(items) {
   if (!items || items.length == 0) {
     return null;
   }
-  
-  if (items.id) {
+
+  if (items.number) {
     return items;
   }
 
@@ -301,7 +310,7 @@ function filterNull(items) {
   if (items.and) {
     return { and: filterNull(items.and) };
   }
-  
+
   if (items.or) {
     return { or: filterNull(items.or) };
   }
@@ -314,10 +323,10 @@ function filterNull(items) {
   // Recursively handle nested arrays
   let i = 0;
   while (i < items.length) {
-    if (items[i] && !items[i]?.id) {
+    if (items[i] && !items[i]?.number) {
       items[i] = filterNull(items[i]);
     }
-    
+
     if (!items[i]) {
       items.splice(i, 1); // Delete null
     } else {
@@ -359,7 +368,7 @@ function decodeBracket(data, encodedData) {
   if (!data) {
     return null;
   }
-  
+
   // Handle "and" array, "or" array
   if (data.and) {
     if (data.and.length == 1) {
@@ -413,7 +422,8 @@ function encodeBracket(info, targetSubject, targetId) {
       if (!hasNumber(inside[inNum])) {
         info = info.replace(inside[inNum], "");
         inNum--;
-      } else { // Replace "[" + string inside + "]" with "inside" + its index in the saved array
+      } else {
+        // Replace "[" + string inside + "]" with "inside" + its index in the saved array
         info = info.replace(inside[inNum], "inside" + inNum.toString());
         i = i - inside[inNum].length + 7;
       }
@@ -453,7 +463,7 @@ function filterPrereq(info, targetSubject, targetId) {
   if (!encoded.length || encoded.length == 0) {
     return encoded;
   }
-  
+
   let data = encoded[encoded.length - 1];
   data = decodeBracket(data, encoded);
   data = filterDuplicate(data);
@@ -467,23 +477,21 @@ function filterPrereq(info, targetSubject, targetId) {
 
 /** Export JSON file from Course Dogs API */
 function exportDogs(SUBJECT) {
-  const schoolId = "umn_umntc_peoplesoft";
-  let subject = SUBJECT;
-  let subjectCode = subject == "allCourses" ? "" : "subjectCode=" + subject;
-  let fileName = subject + ".json";
-  // NOTE: Write path is relative to location of execution and *not* this file
-  let filePath = "./app/data/Dog/"; // For offical data folder
-  // let filePath = "./app/data/"  // For testing purpose
-  let returnFields = "&returnFields=subjectCode,courseNumber,name,description"; // preq is at the end of description
-  let limit = "&limit=infinity";
-
-  let url =
-    "https://app.coursedog.com/api/v1/cm/" +
-    schoolId +
-    "/courses/search/$filters?" +
-    subjectCode +
-    returnFields +
-    limit;
+  const fileName = `${SUBJECT}.json`;
+  const returnFields = [
+    "courseGroupId",
+    "subjectCode",
+    "courseNumber",
+    "name",
+    "longName",
+    "description",
+  ];
+  const filters = [
+    `subjectCode=${SUBJECT}`,
+    `returnFields=${returnFields.join(",")}`,
+    `limit=infinity`,
+  ].join("&");
+  const url = `https://app.coursedog.com/api/v1/cm/${schoolId}/courses/search/$filters?${filters}`;
 
   fetch(url)
     .then((res) => res.json())
@@ -506,12 +514,11 @@ function exportDogs(SUBJECT) {
           } else if (descrip.includes("prerequisites")) {
             splitPattern = "prerequisites";
           }
-
           let info = descrip.split(splitPattern);
-
           const prereq = info[1]
             ? filterPrereq(info[1], course.subjectCode, course.courseNumber)
             : []; // Assume there is no prereq
+
           if (
             course.courseNumber.includes("H") ||
             course.courseNumber.includes("V")
@@ -520,39 +527,93 @@ function exportDogs(SUBJECT) {
           }
 
           return {
-            code: course.subjectCode + " " + course.courseNumber,
+            uid: course.courseGroupId,
+            code: `${course.subjectCode} ${course.courseNumber}`,
             subject: course.subjectCode,
-            id: course.courseNumber,
-            title: course.name,
+            number: course.courseNumber,
+            name: course.name,
+            fullname: course.longName,
             info: course.description,
             prereq: prereq || [],
           };
         }),
       );
 
-      fs.writeFile(filePath + fileName, JSON.stringify(courses, null, 2), (error) => {
-        if (error) {
-          console.error(
-            "Error exporting data to JSON file" + fileName + ":",
-            error,
-          );
-        } else {
-          console.log("Data exported to", fileName);
-        }
-      });
+      fs.writeFile(
+        filePath + fileName,
+        JSON.stringify(courses, null, 2),
+        (error) => {
+          if (error) {
+            console.error(
+              "Error exporting data to JSON file" + fileName + ":",
+              error,
+            );
+          } else {
+            console.log("Data exported to", fileName);
+          }
+        },
+      );
     });
 }
 
-/** Generate allCourses.json and each subject json */
+/** Export JSON file from Course Dogs API */
+function exportAll() {
+  const fileName = "allCourses.json";
+  const returnFields = ["courseGroupId", "subjectCode", "courseNumber"];
+  const filters = [
+    `returnFields=${returnFields.join(",")}`,
+    `limit=infinity`,
+  ].join("&");
+  const url = `https://app.coursedog.com/api/v1/cm/${schoolId}/courses/search/$filters?${filters}`;
+
+  fetch(url)
+    .then((res) => res.json())
+    .then((data) => {
+      let courses = filterNull(
+        data.data.map((course) => {
+          if (
+            course.courseNumber.includes("H") ||
+            course.courseNumber.includes("V")
+          ) {
+            return null;
+          }
+
+          return {
+            uid: course.courseGroupId,
+            code: `${course.subjectCode} ${course.courseNumber}`,
+            subject: course.subjectCode,
+            number: course.courseNumber,
+          };
+        }),
+      );
+
+      fs.writeFile(
+        filePath + fileName,
+        JSON.stringify(courses, null, 2),
+        (error) => {
+          if (error) {
+            console.error(
+              "Error exporting data to JSON file" + fileName + ":",
+              error,
+            );
+          } else {
+            console.log("Data exported to", fileName);
+          }
+        },
+      );
+    });
+}
+
+// Generate allCourses.json and each subject json
 
 let allSubjects = require("./General/allSubjects.json");
 let allCourseNumbers = require("./General/id/allCourses.json");
 
-// Export a test json file to current folder
-// exportDogs("CHEM")
-
 // Export allCourses json data files
-exportDogs("allCourses");
+exportAll();
+
+// Export a test json file to current folder
+// exportDogs("AAS");
 
 // Export each course json data files
 for (let pup of allSubjects) {
