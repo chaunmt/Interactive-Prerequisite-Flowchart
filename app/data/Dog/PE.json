@@ -374,18 +374,9 @@
     "title": "Int. Swimming",
     "info": "Intermediate swimming skills. Fundamentals of swimming and hydrodynamics.\n\nprereq: 1007 or equiv, proficient ability to swim 100 meters or instr consent",
     "prereq": {
-      "and": [
-        {
-          "code": "PE 1007",
-          "subject": "PE",
-          "id": "1007"
-        },
-        {
-          "code": "PE 100",
-          "subject": "PE",
-          "id": "100"
-        }
-      ]
+      "code": "PE 1007",
+      "subject": "PE",
+      "id": "1007"
     }
   },
   {
@@ -518,11 +509,7 @@
     "id": "1205",
     "title": "Scuba",
     "info": "Diving equipment, physics, physiology, decompression, emergencies, recreational dive planning, oceans, currents and aquatic life, snorkeling/SCUBA equipment usage, buoyancy control, entries, emergencies.\n\nprereq: Ability to swim 400 yds comfortably or instr consent",
-    "prereq": {
-      "code": "PE 400",
-      "subject": "PE",
-      "id": "400"
-    }
+    "prereq": []
   },
   {
     "code": "PE 1207",

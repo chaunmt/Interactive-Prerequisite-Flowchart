@@ -2,6 +2,7 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import mermaid from "mermaid";
+import "./styles/GraphPage.css";  
 
 const config = {
   // theme: 'dark',  // this should be dynamically updated

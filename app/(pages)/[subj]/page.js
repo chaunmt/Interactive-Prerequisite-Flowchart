@@ -1,41 +1,32 @@
 // page with dynamic graph generation and search bar for courses in [subj]
-
-import Link from "next/link";
-import { buildCombinedGraph } from "../../data/graphBuilder";
-import Access from "../../data/access";
-// import logo from 'public/logo.png';
+import Access, { allSubjects } from "../../data/access";
 import "../../components/styles/Layout.css";
 import "../../components/styles/GraphPage.css";
+import Search from "../../components/Search";
 
-// import Mermaid from "../../components/Mermaid";
-import GraphSearch from "../../components/GraphSearch";
+import Mermaid from "../../components/Mermaid";
+import buildGraph from "../../data/graphBuilder";
 
-export default function Page({ params }) {
-  //todo: display 404 when data is unavailable
-  var subj = params.subj.toUpperCase();
-  const subjectCourses = Access(subj).courses();
-  // const courses = subjectCourses.map(course => `${subj} ${course.id}`);
-  // var test = buildCombinedGraph(courses);
-
-  return (
-    <div>
-      <h1>{subj} Courses </h1>
-      {/* <Link href="/"><button>Homepage</butt on></Link> */}
-      <GraphSearch sourceData={subjectCourses} />
-    </div>
-  );
-}
-
-export async function generateStaticParams() {
-  // TODO should use the new access stuff when that's merged in
-  const subjects = require(`../../data/General/allSubjects.json`);
-  return subjects.map((s) => ({
-    subj: s,
-  }));
-}
+import Custom404 from "../[errors]/404";
 
 export async function generateMetadata({ params, searchParams }, parent) {
   return {
     title: `${params.subj.toUpperCase()} Courses`,
   };
+}
+
+export default function Page({ params }) {
+  const SUBJ = params.subj.toUpperCase();
+  if (!allSubjects.includes(SUBJ)) return <Custom404 />; // Display 404 page when subject is not available
+  const SUBJ_COURSES = Access(SUBJ).courses;
+
+  const graphString = buildGraph(SUBJ_COURSES);
+
+  return (
+    <div>
+      <h1>{SUBJ} Courses </h1>
+      <Search />
+      <Mermaid graph={graphString} />
+    </div>
+  );
 }

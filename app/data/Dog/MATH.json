@@ -5,20 +5,7 @@
     "id": "1001",
     "title": "Excursions in Math",
     "info": "Introduction to the breadth and nature of mathematics and the power of abstract reasoning, with applications to topics that are relevant to the modern world, such as voting, fair division of assets, patterns of growth, and opinion polls.\n\nprereq: 3 yrs high school math or placement exam or [grade of at least C- in PSTL 731 or 732]",
-    "prereq": {
-      "or": [
-        {
-          "code": "PSTL 731",
-          "subject": "PSTL",
-          "id": "731"
-        },
-        {
-          "code": "MATH 732",
-          "subject": "MATH",
-          "id": "732"
-        }
-      ]
-    }
+    "prereq": []
   },
   {
     "code": "MATH 1008",
@@ -34,20 +21,7 @@
     "id": "1031",
     "title": "College Algebra & Probability",
     "info": "Graphs of equations and functions, transformations of graphs; linear, quadratic, polynomial, and rational functions, with applications; inverses and compositions of functions; exponential and logarithmic functions with applications; basic probability rules, conditional probabilities, binomial probabilities.\n\nprereq: 3 yrs high school math or satisfactory score on placement exam or grade of at least C- in [PSTL 731 or PSTL 732 or CI 0832]",
-    "prereq": {
-      "or": [
-        {
-          "code": "PSTL 731",
-          "subject": "PSTL",
-          "id": "731"
-        },
-        {
-          "code": "PSTL 732",
-          "subject": "PSTL",
-          "id": "732"
-        }
-      ]
-    }
+    "prereq": []
   },
   {
     "code": "MATH 1038",
@@ -118,20 +92,7 @@
     "id": "1051",
     "title": "Precalculus I",
     "info": "Graphs of equations and functions, transformations of graphs; linear, quadratic, polynomial, and rational functions with applications; zeroes of polynomials; inverses and compositions of functions; exponential and logarithmic functions with applications; coverage beyond that found in the usual 3 years of high school math.\n\nprereq: 3 yrs of high school math or satisfactory score on placement test or grade of at least C- in [PSTL 731 or PSTL 732 or CI 0832]",
-    "prereq": {
-      "or": [
-        {
-          "code": "PSTL 731",
-          "subject": "PSTL",
-          "id": "731"
-        },
-        {
-          "code": "PSTL 732",
-          "subject": "PSTL",
-          "id": "732"
-        }
-      ]
-    }
+    "prereq": []
   },
   {
     "code": "MATH 1058",
@@ -221,20 +182,7 @@
     "id": "1155",
     "title": "Intensive Precalculus",
     "info": "Graphs of equations and functions; polynomial and rational functions; inverses and composition of functions; exponentials and logarithms; trig functions, graphs, identities; polar coordinates; complex numbers; systems of linear equations; arithmetic, geometric sequences, series; applications.\n\nprereq: 3 yrs high school math or satisfactory score on placement exam or grade of at least C- in [PSTL 731 or PSTL 732]",
-    "prereq": {
-      "or": [
-        {
-          "code": "PSTL 731",
-          "subject": "PSTL",
-          "id": "731"
-        },
-        {
-          "code": "PSTL 732",
-          "subject": "PSTL",
-          "id": "732"
-        }
-      ]
-    }
+    "prereq": []
   },
   {
     "code": "MATH 1241",
@@ -1077,43 +1025,41 @@
     "id": "4653",
     "title": "Elementary Probability",
     "info": "Probability spaces, distributions of discrete/continuous random variables, conditioning. Basic theorems, calculational methodology. Examples of random sequences. Emphasizes problem-solving.\n\nprereq: [2263 or 2374 or 2573]; [2283 or 2574 or 3283] recommended",
-    "prereq": {
-      "or": [
-        {
-          "or": [
-            {
-              "code": "MATH 2263",
-              "subject": "MATH",
-              "id": "2263"
-            },
-            {
-              "code": "MATH 2374",
-              "subject": "MATH",
-              "id": "2374"
-            }
-          ]
-        },
-        {
-          "or": [
-            {
-              "code": "MATH 2283",
-              "subject": "MATH",
-              "id": "2283"
-            },
-            {
-              "code": "MATH 2574",
-              "subject": "MATH",
-              "id": "2574"
-            },
-            {
-              "code": "MATH 3283",
-              "subject": "MATH",
-              "id": "3283"
-            }
-          ]
-        }
-      ]
-    }
+    "prereq": [
+      {
+        "or": [
+          {
+            "code": "MATH 2263",
+            "subject": "MATH",
+            "id": "2263"
+          },
+          {
+            "code": "MATH 2374",
+            "subject": "MATH",
+            "id": "2374"
+          }
+        ]
+      },
+      {
+        "or": [
+          {
+            "code": "MATH 2283",
+            "subject": "MATH",
+            "id": "2283"
+          },
+          {
+            "code": "MATH 2574",
+            "subject": "MATH",
+            "id": "2574"
+          },
+          {
+            "code": "MATH 3283",
+            "subject": "MATH",
+            "id": "3283"
+          }
+        ]
+      }
+    ]
   },
   {
     "code": "MATH 4707",
@@ -1529,48 +1475,46 @@
     "id": "5466",
     "title": "Math of Data Analysis II",
     "info": "This course gives an overview of the mathematical foundations for some commonly used techniques in machine learning and data science. The course will cover unsupervised learning techniques (Johnson-Lindenstrauss randomized embeddings, spectral embeddings and diffusion maps, the t-distributed stochastic neighbor embedding, low-rank approximations), neural networks and deep learning (auto-differentiation, universal approximation, graph-neural networks), advanced techniques in graph-based learning (graph-cuts and graph total variation, active learning, semi-supervised learning at low label rates), and optimization for machine learning (iteratively reweighted least squares (IRLS), momentum descent, stochastic optimization, proximal gradient descent, Newton's method, matrix optimization and matrix calculus, matrix completion, and the continuum perspective on optimization). \nPrerequisites: Math 5465. Linear algebra (for example MATH 2142, 2243 or 2373) and\nmultivariable calculus (for example MATH 2263 or 2374), or consent of the instructor.",
-    "prereq": {
-      "or": [
-        {
-          "code": "MATH 5465",
-          "subject": "MATH",
-          "id": "5465"
-        },
-        {
-          "and": [
-            {
-              "code": "MATH 2142",
-              "subject": "MATH",
-              "id": "2142"
-            },
-            {
-              "code": "MATH 2243",
-              "subject": "MATH",
-              "id": "2243"
-            },
-            {
-              "code": "MATH 2373",
-              "subject": "MATH",
-              "id": "2373"
-            }
-          ]
-        },
-        {
-          "or": [
-            {
-              "code": "MATH 2263",
-              "subject": "MATH",
-              "id": "2263"
-            },
-            {
-              "code": "MATH 2374",
-              "subject": "MATH",
-              "id": "2374"
-            }
-          ]
-        }
-      ]
-    }
+    "prereq": [
+      {
+        "code": "MATH 5465",
+        "subject": "MATH",
+        "id": "5465"
+      },
+      {
+        "and": [
+          {
+            "code": "MATH 2142",
+            "subject": "MATH",
+            "id": "2142"
+          },
+          {
+            "code": "MATH 2243",
+            "subject": "MATH",
+            "id": "2243"
+          },
+          {
+            "code": "MATH 2373",
+            "subject": "MATH",
+            "id": "2373"
+          }
+        ]
+      },
+      {
+        "or": [
+          {
+            "code": "MATH 2263",
+            "subject": "MATH",
+            "id": "2263"
+          },
+          {
+            "code": "MATH 2374",
+            "subject": "MATH",
+            "id": "2374"
+          }
+        ]
+      }
+    ]
   },
   {
     "code": "MATH 5467",
@@ -3104,11 +3048,7 @@
     "id": "8666",
     "title": "Doct Pre-Thesis Cr",
     "info": "TBD\n\nprereq: Doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": {
-      "code": "MATH 60",
-      "subject": "MATH",
-      "id": "60"
-    }
+    "prereq": []
   },
   {
     "code": "MATH 8668",
@@ -3164,11 +3104,7 @@
     "id": "8777",
     "title": "Thesis Credit:Mast*",
     "info": "(No description)\n\nprereq: Max 18 cr per semester or summer; 10 cr total required [Plan A only]",
-    "prereq": {
-      "code": "MATH 10",
-      "subject": "MATH",
-      "id": "10"
-    }
+    "prereq": []
   },
   {
     "code": "MATH 8790",

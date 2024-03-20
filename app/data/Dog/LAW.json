@@ -3335,25 +3335,7 @@
     "id": "6898",
     "title": "International Bankruptcy",
     "info": "Todays bankruptcy practice seldom centers around one debtor filing one case in a United States bankruptcy court. Most corporations of any size have operations and assets in more than one country. In addition, many troubled corporations are part of a corporate group that includes affiliated entities operating in numerous countries, many of which will file their own insolvency proceedings in their countries of incorporation. The most obvious example of this trend is the Lehman Brothers group of companies: approximately 80 Lehman affiliates commenced insolvency proceedings in 16 countries. International Bankruptcy is a course designed to deal with this world of multi-jurisdictional insolvency.\n\nThe course consists of two modules, Comparative Insolvency Law and Managing Cross-Border Cases. The first module covers six class sessions. After an introductory session explaining the role of insolvency law in national economies and setting out the framework for comparative insolvency law, we will survey the insolvency laws of Canada, Brazil and Mexico, Japan and China, England and Western Europe. Common topics include prerequisites that must be satisfied before an insolvency case can be filed, whether an automatic stay of collection and other proceedings exists, how the case is administered (judicial, administrative or other), and whether the system is focused on liquidation or permits reorganization. We will then turn to Managing Cross-Border Cases. We will devote two sessions to the European Unions insolvency regulation that co-ordinates insolvency proceedings pending in EU nations. Four sessions will analyze chapter 15 of the U.S. Bankruptcy Code. Chapter 15 facilitates cooperation among courts in countries in which related insolvency proceedings are pending. Our final session will focus on the use of chapter 11 by foreign entities.",
-    "prereq": {
-      "and": [
-        {
-          "code": "LAW 15",
-          "subject": "LAW",
-          "id": "15"
-        },
-        {
-          "code": "LAW 15",
-          "subject": "LAW",
-          "id": "15"
-        },
-        {
-          "code": "LAW 11",
-          "subject": "LAW",
-          "id": "11"
-        }
-      ]
-    }
+    "prereq": []
   },
   {
     "code": "LAW 6899",
@@ -4976,20 +4958,18 @@
     "id": "7950",
     "title": "CL: Tax",
     "info": "This clinic is grounded in the development of practical skills necessary to effectively represent low- income taxpayers who have a tax controversy. Tax cases generally include audits of tax returns, filing and trying cases in Tax Court and Federal District Court, and bringing taxpayers into collection compliance. Since the Earned Income Credit and refundable Child Tax credits are now the major form of public welfare benefits for low-income workers and, thus, often an important component of tax controversies, the Clinic offers opportunities to work on these issues with clients. Clinic students do not generally prepare tax returns unless it is required to resolve the controversy.\n\nClinic students participate in a clinic seminar during the fall semester, which provides training in clinic office procedures, lawyering skills and professional responsibility with an emphasis on those relevant to tax practice, and tax procedure and law relevant to representing low-income taxpayers. Guest speakers from the IRS, MN Department of Revenue and practicing bar provide useful information about the practice of tax law.\n\nStudents who would benefit from enrollment include those that have an interest in tax, business or bankruptcy practice who will find it helpful to understand the workings of the tax administration authority (i.e. IRS/MNDOR); who are interested in pursuing a career in public interest law; who have an interest in administrative and statutory law practice; have an interest in assisting immigrants meet the tax requirements for citizenship; or students who just want to make a difference in the lives of poor, immigrant or disabled individuals.\n\nPrereq or coreq Law 6106; Recommend Law 6100",
-    "prereq": {
-      "or": [
-        {
-          "code": "LAW 6106",
-          "subject": "LAW",
-          "id": "6106"
-        },
-        {
-          "code": "LAW 6100",
-          "subject": "LAW",
-          "id": "6100"
-        }
-      ]
-    }
+    "prereq": [
+      {
+        "code": "LAW 6106",
+        "subject": "LAW",
+        "id": "6106"
+      },
+      {
+        "code": "LAW 6100",
+        "subject": "LAW",
+        "id": "6100"
+      }
+    ]
   },
   {
     "code": "LAW 7951",

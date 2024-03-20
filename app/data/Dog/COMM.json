@@ -45,11 +45,7 @@
     "id": "1904",
     "title": "Freshman Seminar",
     "info": "Toopics specified in Class Schedule.\n\nprereq: Fr or fewer than 30 cr",
-    "prereq": {
-      "code": "COMM 30",
-      "subject": "COMM",
-      "id": "30"
-    }
+    "prereq": []
   },
   {
     "code": "COMM 1905",
@@ -933,20 +929,18 @@
     "id": "5615W",
     "title": "Intro:Rhet Criticis",
     "info": "Analysis of public discourse using various theoretical perspectives.\n\nprereq: 1101; 3601 recommended",
-    "prereq": {
-      "or": [
-        {
-          "code": "COMM 1101",
-          "subject": "COMM",
-          "id": "1101"
-        },
-        {
-          "code": "COMM 3601",
-          "subject": "COMM",
-          "id": "3601"
-        }
-      ]
-    }
+    "prereq": [
+      {
+        "code": "COMM 1101",
+        "subject": "COMM",
+        "id": "1101"
+      },
+      {
+        "code": "COMM 3601",
+        "subject": "COMM",
+        "id": "3601"
+      }
+    ]
   },
   {
     "code": "COMM 5617",
@@ -1191,11 +1185,7 @@
     "id": "8666",
     "title": "Doct Pre-Thesis Cr",
     "info": "tbd\n\nprereq: Doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": {
-      "code": "COMM 60",
-      "subject": "COMM",
-      "id": "60"
-    }
+    "prereq": []
   },
   {
     "code": "COMM 8777",
@@ -1203,11 +1193,7 @@
     "id": "8777",
     "title": "Thesis Credit:Mast*",
     "info": "(No description)\n\nprereq: Max 18 cr per semester or summer; 10 cr total required [Plan A only]",
-    "prereq": {
-      "code": "COMM 10",
-      "subject": "COMM",
-      "id": "10"
-    }
+    "prereq": []
   },
   {
     "code": "COMM 8888",

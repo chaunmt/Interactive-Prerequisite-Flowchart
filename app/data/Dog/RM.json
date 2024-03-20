@@ -85,58 +85,56 @@
     "id": "3242",
     "title": "Retail Buying",
     "info": "Principles/mathematics of merchandise inventory control, merchandise selection.\n\nprereq: [2215 or DHA 2215]; [MATH 1031 or MATH 1051 or MATH 1142 or MATH 1151 or MATH 1155 or MATH 1271 or CALG student group]; [jr or sr]; retail merchandising [major or minor] or instr consent",
-    "prereq": {
-      "or": [
-        {
-          "or": [
-            {
-              "code": "RM 2215",
-              "subject": "RM",
-              "id": "2215"
-            },
-            {
-              "code": "DHA 2215",
-              "subject": "DHA",
-              "id": "2215"
-            }
-          ]
-        },
-        {
-          "or": [
-            {
-              "code": "MATH 1031",
-              "subject": "MATH",
-              "id": "1031"
-            },
-            {
-              "code": "MATH 1051",
-              "subject": "MATH",
-              "id": "1051"
-            },
-            {
-              "code": "MATH 1142",
-              "subject": "MATH",
-              "id": "1142"
-            },
-            {
-              "code": "MATH 1151",
-              "subject": "MATH",
-              "id": "1151"
-            },
-            {
-              "code": "MATH 1155",
-              "subject": "MATH",
-              "id": "1155"
-            },
-            {
-              "code": "MATH 1271",
-              "subject": "MATH",
-              "id": "1271"
-            }
-          ]
-        }
-      ]
-    }
+    "prereq": [
+      {
+        "or": [
+          {
+            "code": "RM 2215",
+            "subject": "RM",
+            "id": "2215"
+          },
+          {
+            "code": "DHA 2215",
+            "subject": "DHA",
+            "id": "2215"
+          }
+        ]
+      },
+      {
+        "or": [
+          {
+            "code": "MATH 1031",
+            "subject": "MATH",
+            "id": "1031"
+          },
+          {
+            "code": "MATH 1051",
+            "subject": "MATH",
+            "id": "1051"
+          },
+          {
+            "code": "MATH 1142",
+            "subject": "MATH",
+            "id": "1142"
+          },
+          {
+            "code": "MATH 1151",
+            "subject": "MATH",
+            "id": "1151"
+          },
+          {
+            "code": "MATH 1155",
+            "subject": "MATH",
+            "id": "1155"
+          },
+          {
+            "code": "MATH 1271",
+            "subject": "MATH",
+            "id": "1271"
+          }
+        ]
+      }
+    ]
   },
   {
     "code": "RM 3243",

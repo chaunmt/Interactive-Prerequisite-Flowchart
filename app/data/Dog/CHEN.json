@@ -129,11 +129,7 @@
     "id": "3041",
     "title": "Ind Assign I",
     "info": "Industrial work assignment in engineering co-op program. Formal report on technical project related to industrial work.\n\nprereq: ChEn upper Div, completion of required courses in ChEn prog through fall sem of 3rd yr, GPA of at least 2.80, registered in co-op prog",
-    "prereq": {
-      "code": "CHEN 80",
-      "subject": "CHEN",
-      "id": "80"
-    }
+    "prereq": []
   },
   {
     "code": "CHEN 3045",
@@ -295,18 +291,9 @@
     "title": "Indust Assign II",
     "info": "Industrial assignment in engineering co-op program. Application of chemical engineering principles to engineering design problems related to industrial work. Formal written report and presentation.\n\nprereq: 3041, GPA of at least 2.80, registration in co-op prog",
     "prereq": {
-      "and": [
-        {
-          "code": "CHEN 3041",
-          "subject": "CHEN",
-          "id": "3041"
-        },
-        {
-          "code": "CHEN 80",
-          "subject": "CHEN",
-          "id": "80"
-        }
-      ]
+      "code": "CHEN 3041",
+      "subject": "CHEN",
+      "id": "3041"
     }
   },
   {
@@ -980,16 +967,6 @@
           "id": "4702"
         },
         {
-          "code": "CHEN 4702",
-          "subject": "CHEN",
-          "id": "4702"
-        },
-        {
-          "code": "CHEN 8102",
-          "subject": "CHEN",
-          "id": "8102"
-        },
-        {
           "code": "CHEN 8102",
           "subject": "CHEN",
           "id": "8102"
@@ -1139,11 +1116,7 @@
     "id": "8666",
     "title": "Doct Pre-Thesis Cr*",
     "info": "tbd\n\nprereq: Doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": {
-      "code": "CHEN 60",
-      "subject": "CHEN",
-      "id": "60"
-    }
+    "prereq": []
   },
   {
     "code": "CHEN 8752",
@@ -1175,11 +1148,7 @@
     "id": "8777",
     "title": "Thesis Credit:Mast*",
     "info": "(No description)\n\nprereq: Max 18 cr per semester or summer; 10 cr total required [Plan A only]",
-    "prereq": {
-      "code": "CHEN 10",
-      "subject": "CHEN",
-      "id": "10"
-    }
+    "prereq": []
   },
   {
     "code": "CHEN 8888",

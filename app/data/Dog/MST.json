@@ -51,18 +51,9 @@
     "title": "Directed Study",
     "info": "Study by a student, largely self directed with consultation of a faculty member, on a topic not covered (or not covered in depth) by another course. Program of study is determined jointly by student and advising faculty member.\n\nprereq: [5012 or concurrent registration is required (or allowed) in  5012], instr consent, dept consent",
     "prereq": {
-      "or": [
-        {
-          "code": "MST 5012",
-          "subject": "MST",
-          "id": "5012"
-        },
-        {
-          "code": "MST 5012",
-          "subject": "MST",
-          "id": "5012"
-        }
-      ]
+      "code": "MST 5012",
+      "subject": "MST",
+      "id": "5012"
     }
   }
 ]

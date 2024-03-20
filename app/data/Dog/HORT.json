@@ -518,45 +518,36 @@
     "title": "Pollinator Protection Mgm Land",
     "info": "Importance of pollinators in agricultural/other natural landscapes. Risks to pollinators. Ways risks can be reduced, minimized, or overcome. Ways public policy has impacted pollinators/how future policy decisions will affect pollinator protection efforts.\n\nprereq: [1001 or AGRO 1101 or BIOL 1009 or BIOL 1001 or ENT 1001 or PLPA 1005], 30 credits completed (non-freshman status)",
     "prereq": {
-      "and": [
+      "or": [
         {
-          "or": [
-            {
-              "code": "HORT 1001",
-              "subject": "HORT",
-              "id": "1001"
-            },
-            {
-              "code": "AGRO 1101",
-              "subject": "AGRO",
-              "id": "1101"
-            },
-            {
-              "code": "BIOL 1009",
-              "subject": "BIOL",
-              "id": "1009"
-            },
-            {
-              "code": "BIOL 1001",
-              "subject": "BIOL",
-              "id": "1001"
-            },
-            {
-              "code": "ENT 1001",
-              "subject": "ENT",
-              "id": "1001"
-            },
-            {
-              "code": "PLPA 1005",
-              "subject": "PLPA",
-              "id": "1005"
-            }
-          ]
+          "code": "HORT 1001",
+          "subject": "HORT",
+          "id": "1001"
         },
         {
-          "code": "HORT 30",
-          "subject": "HORT",
-          "id": "30"
+          "code": "AGRO 1101",
+          "subject": "AGRO",
+          "id": "1101"
+        },
+        {
+          "code": "BIOL 1009",
+          "subject": "BIOL",
+          "id": "1009"
+        },
+        {
+          "code": "BIOL 1001",
+          "subject": "BIOL",
+          "id": "1001"
+        },
+        {
+          "code": "ENT 1001",
+          "subject": "ENT",
+          "id": "1001"
+        },
+        {
+          "code": "PLPA 1005",
+          "subject": "PLPA",
+          "id": "1005"
         }
       ]
     }

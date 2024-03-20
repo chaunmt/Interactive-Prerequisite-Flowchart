@@ -759,18 +759,9 @@
     "title": "Hist Bldg Consrvtn",
     "info": "Historic building materials, systems, methods of conservation. Structural systems, building repair/pathology. Introducing new environmental systems. Conserving interiors. Research on materials/techniques, using primary/secondary resources. Documenting with photography/measured drawings.\n\nprereq: 4671 or concurrent enrollment in 4671 or instr consent",
     "prereq": {
-      "or": [
-        {
-          "code": "ARCH 4671",
-          "subject": "ARCH",
-          "id": "4671"
-        },
-        {
-          "code": "ARCH 4671",
-          "subject": "ARCH",
-          "id": "4671"
-        }
-      ]
+      "code": "ARCH 4671",
+      "subject": "ARCH",
+      "id": "4671"
     }
   },
   {
@@ -1539,18 +1530,9 @@
     "title": "Topics Architectural Practice",
     "info": "Topics in architectural practice, methods of design production, marketing, operation, and relationships among clients, architecture, and society.\n\nprereq: 5621, Arch major or 5621, M Arch major or instr consent",
     "prereq": {
-      "and": [
-        {
-          "code": "ARCH 5621",
-          "subject": "ARCH",
-          "id": "5621"
-        },
-        {
-          "code": "ARCH 5621",
-          "subject": "ARCH",
-          "id": "5621"
-        }
-      ]
+      "code": "ARCH 5621",
+      "subject": "ARCH",
+      "id": "5621"
     }
   },
   {
@@ -1985,10 +1967,6 @@
     "id": "8777",
     "title": "Thesis Credit:Mast*",
     "info": "(No description)\n\nprereq: Max 18 cr per semester or summer; 10 cr total required [Plan A only",
-    "prereq": {
-      "code": "ARCH 10",
-      "subject": "ARCH",
-      "id": "10"
-    }
+    "prereq": []
   }
 ]

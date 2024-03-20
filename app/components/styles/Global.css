@@ -1,14 +1,46 @@
-:root {
-  /* Global fonts */
-  font-family: Arial, monospace, "Courier New", Courier;
+@import url("./Fonts.css");
 
-  /* Global color variables */
+:root {
+  /* ---------------------------- New set of global color and variables ---------------------------- */
+  /* Colors */
+  --uomn-red: #8C001F;
+  --maroon-red: #800000;
+  --uomn-dark-red: #610014;
+  --uomn-yellow: #FFDE7A;
+  
+  --hightlight-yellow: #FFCC33;
+  --hightlight-purple: #8B80F9;
+
+  --bright-yellow: #FFDE7A;
+  --bright-purple: #B8BAFF;
+  --bright-pink: #FF7AC2;
+  --bright-blue: #7FEDFC;
+  --bright-green: #A6FF97;
+
+  --light-gray: #F5F5F5;
+  --uom-gray: #F9F7F6;
+  --mild-gray-1: #D4D2D3; 
+  --mild-gray-2: #D9D9D9;
+  --dark-gray: #3B413C;
+
+  /* Color variables */
+  --header-bar: var(--mild-gray-2);
+  --header-text: black;
+  --header-block-hover: white;
+
+  --footer-club-text: var(--mild-gray-1);
+  --footer-github-text: var(--hightlight-purple);
+
+  --border: var(--dark-gray);
+
+
+  /* ---------------------------- OLD Global color variables ---------------------------- */
   --bg-color: #eeeeee;
   --search-bg-color: #d2d0d0;
   --shadow: #00000066;
 
   --title: #464646;
-  --title-p: maroon;
+  --title-p: hsl(0, 100%, 25%);
 
   --header-p-color: #ef6464;
   --header-nav-highlight: #000000;
@@ -21,4 +53,9 @@
   --menu-bg-color: #b86e6e;
   --target-course-bg-color: #58fff9;
   --prereq-course-bg-color: #ff7a7a;
+}
+
+body {
+  /* Global fonts */
+  font-family: "Inter", "Inria Sans", sans-serif;
 }

@@ -231,16 +231,6 @@
           "id": "3102"
         },
         {
-          "code": "FSCN 3102",
-          "subject": "FSCN",
-          "id": "3102"
-        },
-        {
-          "code": "FSCN 3732",
-          "subject": "FSCN",
-          "id": "3732"
-        },
-        {
           "code": "FSCN 3732",
           "subject": "FSCN",
           "id": "3732"
@@ -758,18 +748,9 @@
     "title": "Senior Capstone",
     "info": "Preparation for advancement in career as registered dietitian, including completion of dietetic internship application. Current issues in dietetics.\n\nprereq: [4665 or concurrent registration is required (or allowed) in 4665], Nutrition/dietetics subplan of nutrition major or instr consent",
     "prereq": {
-      "or": [
-        {
-          "code": "FSCN 4665",
-          "subject": "FSCN",
-          "id": "4665"
-        },
-        {
-          "code": "FSCN 4665",
-          "subject": "FSCN",
-          "id": "4665"
-        }
-      ]
+      "code": "FSCN 4665",
+      "subject": "FSCN",
+      "id": "4665"
     }
   },
   {
@@ -1446,11 +1427,7 @@
     "id": "8666",
     "title": "Doct Pre-Thesis Cr*",
     "info": "tbd\n\nprereq: Doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": {
-      "code": "FSCN 60",
-      "subject": "FSCN",
-      "id": "60"
-    }
+    "prereq": []
   },
   {
     "code": "FSCN 8777",
@@ -1458,11 +1435,7 @@
     "id": "8777",
     "title": "Thesis Credit:Mast*",
     "info": "(No description)\n\nprereq: Max 18 cr per semester or summer; 10 cr total required [Plan A only]",
-    "prereq": {
-      "code": "FSCN 10",
-      "subject": "FSCN",
-      "id": "10"
-    }
+    "prereq": []
   },
   {
     "code": "FSCN 8888",

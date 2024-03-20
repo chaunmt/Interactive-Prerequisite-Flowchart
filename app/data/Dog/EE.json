@@ -38,18 +38,9 @@
     "title": "Climate Crisis: Solutions Lab",
     "info": "Laboratory to complement and accompany EE 1701. Experiments to include among:\n1) Demonstration of Global Warming by CO2, \n2) characteristics of Light for Power Generation through PVs, Lighting through LEDs, and Growing Plants in Greenhouses, \n3) Energy Generation Using PV Panels and the Maximum Power Point, \n4) PV Panels in Series and Parallel combinations, \n5) Wind Turbine Characteristics and the Maximum Coefficient of Performance, \n6) Wind Turbine Characteristics for varying wind speeds and Pitch Control of Blades, \n7) Battery Characteristics, \n8) AC Electric Systems: Real and Reactive Power, 1-Phase, \n9) Three-Phase Systems, Motors and Generators, \n10) LEDs compared to Incandescent Lamps and CFLs, \n11) Growing Plants using LEDs and batteries in Greenhouses, \n12) Air Conditioning and Heat Pumps, \n13) Simulation of various energy resources to meet the load demand on the electric grid, \n14) Economic Calculations of using an Electric Vehicle and Participating in Community SolarGardens. EE 1701 and EE 1703 (the lab) need to both be taken to fulfill the Physical Science Core requirement.  EE 1701 alone fulfills the Technology and Society theme requirement.\n\nprereq: EE 1701 or concurrent registration is required (or allowed) in EE 1701",
     "prereq": {
-      "or": [
-        {
-          "code": "EE 1701",
-          "subject": "EE",
-          "id": "1701"
-        },
-        {
-          "code": "EE 1701",
-          "subject": "EE",
-          "id": "1701"
-        }
-      ]
+      "code": "EE 1701",
+      "subject": "EE",
+      "id": "1701"
     }
   },
   {
@@ -85,18 +76,9 @@
     "title": "Cir & Elec Lab",
     "info": "Introductory lab in electronics to accompany 2001. Experiments with simple circuits. Familiarization with basic measurement tools and equipment.\n\nprereq: 2001 or concurrent registration is required (or allowed) in  2001",
     "prereq": {
-      "or": [
-        {
-          "code": "EE 2001",
-          "subject": "EE",
-          "id": "2001"
-        },
-        {
-          "code": "EE 2001",
-          "subject": "EE",
-          "id": "2001"
-        }
-      ]
+      "code": "EE 2001",
+      "subject": "EE",
+      "id": "2001"
     }
   },
   {
@@ -545,7 +527,7 @@
     "subject": "EE",
     "id": "4043W",
     "title": "Industrial Assignment II",
-    "info": "Solution of system design problems that require developing criteria, evaluating alternatives, and generating a preliminary design. Final report emphasizes design communication and describes design decision process, analysis, and final recommendations.\n\nprereq: 3041",
+    "info": "Solution of system design problems that require developing criteria, evaluating alternatives, and generating a preliminary design. Final report emphasizes design communication and describes design decision process, analysis, and final recommendations.prereq: 3041",
     "prereq": {
       "code": "EE 3041",
       "subject": "EE",
@@ -557,7 +539,7 @@
     "subject": "EE",
     "id": "4044",
     "title": "Industrial Assignment III",
-    "info": "Industrial work assignment in engineering co-op program.  Evaluation based on student's formal written report covering semester work assignment.\n\nprereq: 4043W",
+    "info": "Industrial work assignment in engineering co-op program.  Evaluation based on student's formal written report covering semester work assignment.prereq: 4043W",
     "prereq": {
       "code": "EE 4043",
       "subject": "EE",
@@ -640,18 +622,9 @@
     "title": "Linear Cntrl Lab",
     "info": "Lab to accompany 4231.\n\nprereq: 4231 or concurrent registration is required (or allowed) in 4231",
     "prereq": {
-      "or": [
-        {
-          "code": "EE 4231",
-          "subject": "EE",
-          "id": "4231"
-        },
-        {
-          "code": "EE 4231",
-          "subject": "EE",
-          "id": "4231"
-        }
-      ]
+      "code": "EE 4231",
+      "subject": "EE",
+      "id": "4231"
     }
   },
   {
@@ -661,18 +634,9 @@
     "title": "State Space Lab",
     "info": "Lab to accompany 4233.\n\nprereq: 4233 or concurrent registration is required (or allowed) in  4233; no cr for [EE or CompE] grad students",
     "prereq": {
-      "or": [
-        {
-          "code": "EE 4233",
-          "subject": "EE",
-          "id": "4233"
-        },
-        {
-          "code": "EE 4233",
-          "subject": "EE",
-          "id": "4233"
-        }
-      ]
+      "code": "EE 4233",
+      "subject": "EE",
+      "id": "4233"
     }
   },
   {
@@ -809,18 +773,9 @@
     "title": "Comm Sys Lab",
     "info": "Experiments in analysis/design of wired/wireless communication systems. Lab to accompany 4501.\n\nprereq: 4501 or  concurrent registration is required (or allowed) in 4501",
     "prereq": {
-      "or": [
-        {
-          "code": "EE 4501",
-          "subject": "EE",
-          "id": "4501"
-        },
-        {
-          "code": "EE 4501",
-          "subject": "EE",
-          "id": "4501"
-        }
-      ]
+      "code": "EE 4501",
+      "subject": "EE",
+      "id": "4501"
     }
   },
   {
@@ -1024,18 +979,9 @@
     "title": "Electric Drives Lab",
     "info": "Laboratory to accompany 4701. Simulink-based simulations of electric machines/drives in applications such as energy conservation and motion control in robotics.\n\nprereq: 4701 or concurrent registration is required (or allowed) in  4701",
     "prereq": {
-      "or": [
-        {
-          "code": "EE 4701",
-          "subject": "EE",
-          "id": "4701"
-        },
-        {
-          "code": "EE 4701",
-          "subject": "EE",
-          "id": "4701"
-        }
-      ]
+      "code": "EE 4701",
+      "subject": "EE",
+      "id": "4701"
     }
   },
   {
@@ -1057,18 +1003,9 @@
     "title": "Power Sys Anal Lab",
     "info": "Lab analysis of AC power systems, power system networks, power flow, short circuit, transient stability.\n\nprereq: 4721 or concurrent registration is required (or allowed) in 4721",
     "prereq": {
-      "or": [
-        {
-          "code": "EE 4721",
-          "subject": "EE",
-          "id": "4721"
-        },
-        {
-          "code": "EE 4721",
-          "subject": "EE",
-          "id": "4721"
-        }
-      ]
+      "code": "EE 4721",
+      "subject": "EE",
+      "id": "4721"
     }
   },
   {
@@ -1107,18 +1044,9 @@
     "title": "Switch-Mode Pwr Elec Lab",
     "info": "Laboratory to accompany 4741. PSpice-/Simulink-based simulations of converters, topologies, and control in switch-mode dc power supplies, motor drives for motion control, and inverters for interfacing renewable energy sources to utility grid.\n\nprereq: 4741 or concurrent registration is required (or allowed) in  4741",
     "prereq": {
-      "or": [
-        {
-          "code": "EE 4741",
-          "subject": "EE",
-          "id": "4741"
-        },
-        {
-          "code": "EE 4741",
-          "subject": "EE",
-          "id": "4741"
-        }
-      ]
+      "code": "EE 4741",
+      "subject": "EE",
+      "id": "4741"
     }
   },
   {
@@ -1309,18 +1237,9 @@
     "title": "Basic Microelec Lab",
     "info": "Students fabricate a polysilicon gate, single-layer metal, NMOS chip, performing 80 percent of processing, including photolithography, diffusion, oxidation, and etching. In-process measurement results are compared with final electrical test results. Simple circuits are used to estimate technology performance.\n\nprereq: [[5171 or concurrent registration is required (or allowed) in 5171], CSE grad student] or dept consent",
     "prereq": {
-      "and": [
-        {
-          "code": "EE 5171",
-          "subject": "EE",
-          "id": "5171"
-        },
-        {
-          "code": "EE 5171",
-          "subject": "EE",
-          "id": "5171"
-        }
-      ]
+      "code": "EE 5171",
+      "subject": "EE",
+      "id": "5171"
     }
   },
   {
@@ -1525,18 +1444,9 @@
           "id": "4301"
         },
         {
-          "and": [
-            {
-              "code": "EE 5323",
-              "subject": "EE",
-              "id": "5323"
-            },
-            {
-              "code": "EE 5323",
-              "subject": "EE",
-              "id": "5323"
-            }
-          ]
+          "code": "EE 5323",
+          "subject": "EE",
+          "id": "5323"
         }
       ]
     }
@@ -1548,18 +1458,9 @@
     "title": "VLSI DSP Systems",
     "info": "Programmable architectures for signal/media processing. Data-flow representation. Architecture transformations. Low-power design. Architectures for two's complement/redundant representation, carry-save, and canonic signed digit. Scheduling/allocation for high-level synthesis.\n\nprereq: [[5323 or concurrent registration is required (or allowed) in 5323], CSE grad student] or dept consent",
     "prereq": {
-      "and": [
-        {
-          "code": "EE 5323",
-          "subject": "EE",
-          "id": "5323"
-        },
-        {
-          "code": "EE 5323",
-          "subject": "EE",
-          "id": "5323"
-        }
-      ]
+      "code": "EE 5323",
+      "subject": "EE",
+      "id": "5323"
     }
   },
   {
@@ -2049,18 +1950,9 @@
     "title": "RF/Microwave Circuit Lab",
     "info": "Scattering parameters, planar lumped circuits, transmission lines, RF/microwave substrate materials, matching networks/tuning elements, resonators, filters, combiners/dividers, couplers. Integral lab.\n\nprereq: [[5601 or concurrent registration is required (or allowed) in 5601], CSE grad student] or dept consent",
     "prereq": {
-      "and": [
-        {
-          "code": "EE 5601",
-          "subject": "EE",
-          "id": "5601"
-        },
-        {
-          "code": "EE 5601",
-          "subject": "EE",
-          "id": "5601"
-        }
-      ]
+      "code": "EE 5601",
+      "subject": "EE",
+      "id": "5601"
     }
   },
   {
@@ -2094,18 +1986,9 @@
     "title": "Physical Optics Lab",
     "info": "Fundamental optical techniques. Diffraction and optical pattern recognition. Spatial/temporal coherence.  Interferometry. Speckle. Coherent/incoherent imaging.  Coherent image processing. Fiber Optics.\n\nprereq: [[5621 or concurrent registration is required (or allowed) in 5621], CSE grad student] or dept consent",
     "prereq": {
-      "and": [
-        {
-          "code": "EE 5621",
-          "subject": "EE",
-          "id": "5621"
-        },
-        {
-          "code": "EE 5621",
-          "subject": "EE",
-          "id": "5621"
-        }
-      ]
+      "code": "EE 5621",
+      "subject": "EE",
+      "id": "5621"
     }
   },
   {
@@ -2157,18 +2040,9 @@
     "title": "Fiber Optics Lab",
     "info": "Experiments in fiber optics. Dielectric waveguides, modes in optical fibers, fiber dispersion/attenuation, properties of light sources/detectors, optical communication systems.\n\nprereq: [[5627 or concurrent registration is required (or allowed) in 5627], CSE grad student] or instr consent",
     "prereq": {
-      "and": [
-        {
-          "code": "EE 5627",
-          "subject": "EE",
-          "id": "5627"
-        },
-        {
-          "code": "EE 5627",
-          "subject": "EE",
-          "id": "5627"
-        }
-      ]
+      "code": "EE 5627",
+      "subject": "EE",
+      "id": "5627"
     }
   },
   {
@@ -2254,18 +2128,9 @@
     "title": "Elec Drives in Sust En Sys Lab",
     "info": "Lab to accompany 5705.\n\nprereq: 5705 or concurrent registration is required (or allowed) in 5705",
     "prereq": {
-      "or": [
-        {
-          "code": "EE 5705",
-          "subject": "EE",
-          "id": "5705"
-        },
-        {
-          "code": "EE 5705",
-          "subject": "EE",
-          "id": "5705"
-        }
-      ]
+      "code": "EE 5705",
+      "subject": "EE",
+      "id": "5705"
     }
   },
   {
@@ -2719,11 +2584,7 @@
     "id": "8666",
     "title": "Doct Pre-Thesis Cr*",
     "info": "TBD\n\nprereq: Doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": {
-      "code": "EE 60",
-      "subject": "EE",
-      "id": "60"
-    }
+    "prereq": []
   },
   {
     "code": "EE 8725",
@@ -2763,11 +2624,7 @@
     "id": "8777",
     "title": "Thesis Credit:Mast*",
     "info": "(No description)\n\nprereq: Max 18 cr per semester or summer; 10 cr total required [Plan A only]",
-    "prereq": {
-      "code": "EE 10",
-      "subject": "EE",
-      "id": "10"
-    }
+    "prereq": []
   },
   {
     "code": "EE 8888",

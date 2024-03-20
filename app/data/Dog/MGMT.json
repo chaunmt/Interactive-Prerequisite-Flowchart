@@ -266,18 +266,9 @@
     "title": "Bus Policy:Strategy",
     "info": "Integrative perspective on overall direction of the enterprise involving both choice of products and markets and selection of organization structures and management styles; case analysis involving the identification of key issues, evaluation of options, and making recommendations under conditions of uncertainty and incomplete information.\n\nprereq: 3040, 90 cr, completion of business core courses",
     "prereq": {
-      "and": [
-        {
-          "code": "MGMT 3040",
-          "subject": "MGMT",
-          "id": "3040"
-        },
-        {
-          "code": "MGMT 90",
-          "subject": "MGMT",
-          "id": "90"
-        }
-      ]
+      "code": "MGMT 3040",
+      "subject": "MGMT",
+      "id": "3040"
     }
   },
   {
@@ -483,11 +474,6 @@
           "code": "MGMT 3010",
           "subject": "MGMT",
           "id": "3010"
-        },
-        {
-          "code": "MGMT 4008",
-          "subject": "MGMT",
-          "id": "4008"
         },
         {
           "code": "MGMT 4008",
@@ -728,20 +714,18 @@
     "id": "6051",
     "title": "Managing Org Innovation",
     "info": "How innovation typically unfolds in wide variety of new technologies, products, programs, and services. What paths are likely to lead to success/failure. Diagnostic skills/principles.\n\nprereq: Credit will not be granted if credit has been received for: : 5051; 6050",
-    "prereq": {
-      "or": [
-        {
-          "code": "MGMT 5051",
-          "subject": "MGMT",
-          "id": "5051"
-        },
-        {
-          "code": "MGMT 6050",
-          "subject": "MGMT",
-          "id": "6050"
-        }
-      ]
-    }
+    "prereq": [
+      {
+        "code": "MGMT 5051",
+        "subject": "MGMT",
+        "id": "5051"
+      },
+      {
+        "code": "MGMT 6050",
+        "subject": "MGMT",
+        "id": "6050"
+      }
+    ]
   },
   {
     "code": "MGMT 6055",
@@ -1067,7 +1051,7 @@
     "subject": "MGMT",
     "id": "8406",
     "title": "Organizational Theory I",
-    "info": "Major theories and current research on organizational and interorganizational topics from a macro perspective. This is course one of two. \nPrereq: Business admin PhD student or instructor consent",
+    "info": "Major theories and current research on organizational and inter-organizational topics from a macro perspective. This is course one of two. Previously offered as Mgmt 8302.prereq: Business admin PhD student or instructor consent",
     "prereq": []
   },
   {
@@ -1075,8 +1059,12 @@
     "subject": "MGMT",
     "id": "8407",
     "title": "Organizational Theory II",
-    "info": "Major theories and current research on organizational and interorganizational topics from a macro perspective. This course is two of two. \nPrereq: Business admin PhD student or instructor consent",
-    "prereq": []
+    "info": "Major theories and current research on organizational and inter-organizational topics from a macro perspective. This course is two of two. Previously offered as Mgmt 8302.prereq: Mgmt 8406, Business admin PhD student or instructor consent",
+    "prereq": {
+      "code": "MGMT 8406",
+      "subject": "MGMT",
+      "id": "8406"
+    }
   },
   {
     "code": "MGMT 8408",

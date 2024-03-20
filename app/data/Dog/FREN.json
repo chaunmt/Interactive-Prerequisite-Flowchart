@@ -195,18 +195,9 @@
     "title": "Adv Grammar & Communication",
     "info": "Taught entirely in French. Prerequisite: French 1004 or LPE.\n\nVoilà, c'est fait: You have completed French 1004 or passed the LPE. You are certified as an intermediate speaker of French.\n\nDon't lose your momentum! French 3015 allows you to start working toward a new goal: advanced proficiency in speaking, listening, reading, and writing French. Along with this higher proficiency comes a deeper understanding of French and Francophone culture around the world.\n\nIn this class, you will focus on grammar in context, reading longer, more complex texts in the original language. You will write short compositions that include various genres such as the first-person narrative, the business letter, and the essay. You will learn how to use the correction software Antidote as a means of perfecting your writing skills. In class, you will participate in group work to boost your oral comprehension skills and in writing workshops to boost your writing skills. Listening activities include a film, an audiobook, a song, and videos related to readings. Written exercises include translation, grammar, and vocabulary building.\n\nLiterary readings include excerpts from a medieval text (La légende de Tristan et Iseut), as well as four 20th-century texts (by Danielle Cadorette, Annie Ernaux, Albert Camus, and Pierre-Jakez Hélias). Journalists include Kamel Daoud (published in the Le Monde) and Fatym Layachi (published in the Moroccan newspaper Tel Quel). Based on these readings and discussions of the themes of friendship, family, education, work, technology, and bilingualism, you will explore notions of identity in the French and Francophone world.",
     "prereq": {
-      "and": [
-        {
-          "code": "FREN 1004",
-          "subject": "FREN",
-          "id": "1004"
-        },
-        {
-          "code": "FREN 1004",
-          "subject": "FREN",
-          "id": "1004"
-        }
-      ]
+      "code": "FREN 1004",
+      "subject": "FREN",
+      "id": "1004"
     }
   },
   {
@@ -268,20 +259,18 @@
     "id": "3022",
     "title": "Business French",
     "info": "Examines French business language as well as business practices and culture in France.  Includes cross-cultural analysis.\n\nprereq: 3015; completion of 3016 recommended",
-    "prereq": {
-      "or": [
-        {
-          "code": "FREN 3015",
-          "subject": "FREN",
-          "id": "3015"
-        },
-        {
-          "code": "FREN 3016",
-          "subject": "FREN",
-          "id": "3016"
-        }
-      ]
-    }
+    "prereq": [
+      {
+        "code": "FREN 3015",
+        "subject": "FREN",
+        "id": "3015"
+      },
+      {
+        "code": "FREN 3016",
+        "subject": "FREN",
+        "id": "3016"
+      }
+    ]
   },
   {
     "code": "FREN 3101W",
@@ -820,20 +809,18 @@
     "id": "3632",
     "title": "French Revolutn & Human Rights",
     "info": "What role did the French Revolution play in shaping how we think about the possibility of massive social change, justice, and rights today? How especially did 18th-century philosophy, culture, politics, and economics influence the development of what we call universal individual \\\"human rights.\\\" We also ask: could we have done better?  To do so, we will play \\\"Rousseau, Burke, and Revolution in France, 1791,\\\" a Reacting to the Past flipped-classroom role-playing game. Working individually and in teams, students will prepare speeches, produce pamphlets and newspapers, not only to learn about the stakes of this historical turning point and the philosophical debates surrounding it, but also to imagine changing it. We will also seek out and document the legacy of this Revolution in our lives and around the world today.  This class offers students the knowledge and skills to participate in substantive debate aimed at solving problems collectively, to effect change aligning with their beliefs and philosophies, and to reflect critically on historical legacy.\n\nprereq Fren 3015; Fren 3016 recommended",
-    "prereq": {
-      "or": [
-        {
-          "code": "FREN 3015",
-          "subject": "FREN",
-          "id": "3015"
-        },
-        {
-          "code": "FREN 3016",
-          "subject": "FREN",
-          "id": "3016"
-        }
-      ]
-    }
+    "prereq": [
+      {
+        "code": "FREN 3015",
+        "subject": "FREN",
+        "id": "3015"
+      },
+      {
+        "code": "FREN 3016",
+        "subject": "FREN",
+        "id": "3016"
+      }
+    ]
   },
   {
     "code": "FREN 3636",
@@ -1634,11 +1621,7 @@
     "id": "8666",
     "title": "Doct Pre-Thesis Cr*",
     "info": "tbd\n\nprereq: Doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": {
-      "code": "FREN 60",
-      "subject": "FREN",
-      "id": "60"
-    }
+    "prereq": []
   },
   {
     "code": "FREN 8777",
@@ -1646,11 +1629,7 @@
     "id": "8777",
     "title": "Thesis Credit:Mast*",
     "info": "(No description)\n\nprereq: Max 18 cr per semester or summer; 10 cr total required [Plan A only]",
-    "prereq": {
-      "code": "FREN 10",
-      "subject": "FREN",
-      "id": "10"
-    }
+    "prereq": []
   },
   {
     "code": "FREN 8812",

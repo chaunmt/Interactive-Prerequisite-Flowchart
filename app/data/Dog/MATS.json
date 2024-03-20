@@ -62,18 +62,9 @@
     "title": "Mech. Prop. Lab",
     "info": "Lab experiments dealing with mechanical properties of engineering materials. Elastic modulus, tensile strength, creep, impact strength, fracture.\n\nprereq: [2001 or concurrent registration is required (or allowed) in 2001], IT student",
     "prereq": {
-      "or": [
-        {
-          "code": "MATS 2001",
-          "subject": "MATS",
-          "id": "2001"
-        },
-        {
-          "code": "MATS 2001",
-          "subject": "MATS",
-          "id": "2001"
-        }
-      ]
+      "code": "MATS 2001",
+      "subject": "MATS",
+      "id": "2001"
     }
   },
   {
@@ -206,11 +197,7 @@
     "id": "3041",
     "title": "Indust Assign I",
     "info": "Industrial work assignment in engineering co-op program. Formal report on technical project related to industrial work.\n\nprereq: MatS upper div, completion of required courses in MatS program through fall sem of 3rd yr, GPA of at least 2.80, regis in co-op program",
-    "prereq": {
-      "code": "MATS 80",
-      "subject": "MATS",
-      "id": "80"
-    }
+    "prereq": []
   },
   {
     "code": "MATS 3045",
@@ -296,18 +283,9 @@
     "title": "Indust Assign II",
     "info": "Industrial assignment in engineering co-op program. Application of materials science principles to engineering design problems in an industrial work environment.  Formal written report and presentation.\n\nprereq: 3041, GPA of at least 2.80, registration in co-op program",
     "prereq": {
-      "and": [
-        {
-          "code": "MATS 3041",
-          "subject": "MATS",
-          "id": "3041"
-        },
-        {
-          "code": "MATS 80",
-          "subject": "MATS",
-          "id": "80"
-        }
-      ]
+      "code": "MATS 3041",
+      "subject": "MATS",
+      "id": "3041"
     }
   },
   {
@@ -411,11 +389,6 @@
           "code": "MATS 4212",
           "subject": "MATS",
           "id": "4212"
-        },
-        {
-          "code": "MATS 4214",
-          "subject": "MATS",
-          "id": "4214"
         },
         {
           "code": "MATS 4214",
@@ -835,11 +808,7 @@
     "id": "8666",
     "title": "Doct Pre-Thesis Cr",
     "info": "TBD\n\nprereq: Doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": {
-      "code": "MATS 60",
-      "subject": "MATS",
-      "id": "60"
-    }
+    "prereq": []
   },
   {
     "code": "MATS 8777",
@@ -847,11 +816,7 @@
     "id": "8777",
     "title": "Thesis Credit:Mast*",
     "info": "(No description)\n\nprereq: Max 18 cr per semester or summer; 10 cr total required [Plan A only]",
-    "prereq": {
-      "code": "MATS 10",
-      "subject": "MATS",
-      "id": "10"
-    }
+    "prereq": []
   },
   {
     "code": "MATS 8888",

@@ -114,16 +114,6 @@
           "id": "3131"
         },
         {
-          "code": "FR 3131",
-          "subject": "FR",
-          "id": "3131"
-        },
-        {
-          "code": "GEOG 3561",
-          "subject": "GEOG",
-          "id": "3561"
-        },
-        {
           "code": "GEOG 3561",
           "subject": "GEOG",
           "id": "3561"
@@ -853,18 +843,9 @@
     "title": "Research Iss & Meth",
     "info": "Alternative methodological approaches to landscape architectural research and consideration of their appropriateness for contemporary research topics.\n\nprereq: 8201 or concurrent registration is required (or allowed) in  8201, grad LA major or instr consent",
     "prereq": {
-      "or": [
-        {
-          "code": "LA 8201",
-          "subject": "LA",
-          "id": "8201"
-        },
-        {
-          "code": "LA 8201",
-          "subject": "LA",
-          "id": "8201"
-        }
-      ]
+      "code": "LA 8201",
+      "subject": "LA",
+      "id": "8201"
     }
   },
   {
@@ -1070,10 +1051,6 @@
     "id": "8777",
     "title": "Thesis Credit:Mast*",
     "info": "(No description)\n\nprereq: Max 18 cr per semester or summer; 10 cr total required (Plan A only)",
-    "prereq": {
-      "code": "LA 10",
-      "subject": "LA",
-      "id": "10"
-    }
+    "prereq": []
   }
 ]

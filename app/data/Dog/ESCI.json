@@ -240,7 +240,7 @@
     "subject": "ESCI",
     "id": "2202",
     "title": "Earth History",
-    "info": "Big Bang cosmology, plate tectonics, evolution. Formation of Earth. Chemical evolution of Earth, atmosphere, and ocean. Origin/tectonic evolution of continents. Origin of life, its patterns/processes. Long-term interactions between geosphere, atmosphere, and biosphere.\n\nprereq: [2201, 2301] or instr consent",
+    "info": "Big Bang cosmology, plate tectonics, evolution. Formation of Earth. Chemical evolution of Earth, atmosphere, and ocean. Origin/tectonic evolution of continents. Origin of life, its patterns/processes. Long-term interactions between geosphere, atmosphere, and biosphere.prereq: [2201, 2301] or instr consent",
     "prereq": {
       "and": [
         {
@@ -1596,11 +1596,7 @@
     "id": "8666",
     "title": "Doct Pre-Thesis Cr*",
     "info": "Doctoral pre-thesis credits.\n\nprereq: Doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": {
-      "code": "ESCI 60",
-      "subject": "ESCI",
-      "id": "60"
-    }
+    "prereq": []
   },
   {
     "code": "ESCI 8701",
@@ -1671,11 +1667,7 @@
     "id": "8777",
     "title": "Thesis Credit:Mast*",
     "info": "(no description)\n\nprereq: Max 18 cr per semester or summer; 10 cr total required [Plan A only]",
-    "prereq": {
-      "code": "ESCI 10",
-      "subject": "ESCI",
-      "id": "10"
-    }
+    "prereq": []
   },
   {
     "code": "ESCI 8801",

@@ -275,20 +275,18 @@
     "id": "4225",
     "title": "Laboratory In NMR Techniques",
     "info": "Practical aspects of nuclear magnetic resonance (NMR) spectrometry. Hands-on experience with 500/600 MHz instruments. Sample preparation/handling, contamination sources, tube/probe options, experiment selection, experimental procedures, software, data processing.\n\nprereq: 4331; 4521 recommended; intended for biochemistry majors",
-    "prereq": {
-      "or": [
-        {
-          "code": "BIOC 4331",
-          "subject": "BIOC",
-          "id": "4331"
-        },
-        {
-          "code": "BIOC 4521",
-          "subject": "BIOC",
-          "id": "4521"
-        }
-      ]
-    }
+    "prereq": [
+      {
+        "code": "BIOC 4331",
+        "subject": "BIOC",
+        "id": "4331"
+      },
+      {
+        "code": "BIOC 4521",
+        "subject": "BIOC",
+        "id": "4521"
+      }
+    ]
   },
   {
     "code": "BIOC 4325",
@@ -1120,11 +1118,7 @@
     "id": "8666",
     "title": "Doct Pre-Thesis Cr*",
     "info": "TBD\n\nprereq: Doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
-    "prereq": {
-      "code": "BIOC 60",
-      "subject": "BIOC",
-      "id": "60"
-    }
+    "prereq": []
   },
   {
     "code": "BIOC 8777",
@@ -1132,11 +1126,7 @@
     "id": "8777",
     "title": "Thesis Credit:Mast*",
     "info": "(No description)\n\nprereq: Max 18 cr per semester or summer; 10 cr total required [Plan A only]",
-    "prereq": {
-      "code": "BIOC 10",
-      "subject": "BIOC",
-      "id": "10"
-    }
+    "prereq": []
   },
   {
     "code": "BIOC 8888",
