@@ -1,507 +1,602 @@
 [
   {
+    "uid": "0087981",
     "code": "GRK 1001",
     "subject": "GRK",
-    "id": "1001",
-    "title": "Beg. Class. Grk. I",
+    "number": "1001",
+    "name": "Beg. Class. Grk. I",
+    "fullname": "Beginning Classical Greek I",
     "info": "Introduction to grammar/vocabulary of classical Greek as written in Athens in 5th/4th centuries BCE. Forms/simple constructions. Some reading of simple, heavily adapted passages from ancient texts.",
     "prereq": []
   },
   {
+    "uid": "0087991",
     "code": "GRK 1002",
     "subject": "GRK",
-    "id": "1002",
-    "title": "Beg. Class. Grk. II",
+    "number": "1002",
+    "name": "Beg. Class. Grk. II",
+    "fullname": "Beginning Classical Greek II",
     "info": "Continuation of Greek 1001. More complex constructions, including participles, clauses, indirect discourse. Some reading of adapted passages from ancient texts.\n\nprereq: Grade of at least C- or S in 1001 or dept consent",
     "prereq": {
       "code": "GRK 1001",
       "subject": "GRK",
-      "id": "1001"
+      "number": "1001"
     }
   },
   {
+    "uid": "0088021",
     "code": "GRK 3003",
     "subject": "GRK",
-    "id": "3003",
-    "title": "Intermediate Greek Prose",
+    "number": "3003",
+    "name": "Intermediate Greek Prose",
+    "fullname": "Intermediate Greek Prose",
     "info": "Introduction to Athenian prose authors of 5th/4th centuries BCE. Readings of continuous passages of unadapted Greek texts (history, speeches). Review of grammar/vocabulary. Some discussion of major themes/issues in Greek culture as illustrated by texts.\n\nprereq: Grade of at least C- or S in 1002 or 5001 or instr consent",
     "prereq": {
       "or": [
         {
           "code": "GRK 1002",
           "subject": "GRK",
-          "id": "1002"
+          "number": "1002"
         },
         {
           "code": "GRK 5001",
           "subject": "GRK",
-          "id": "5001"
+          "number": "5001"
         }
       ]
     }
   },
   {
+    "uid": "0088041",
     "code": "GRK 3004",
     "subject": "GRK",
-    "id": "3004",
-    "title": "Intermediate Greek Poetry",
+    "number": "3004",
+    "name": "Intermediate Greek Poetry",
+    "fullname": "Intermediate Greek Poetry",
     "info": "Introduction to Greek epic poetry. Readings of selections from Homer's Iliad and Odyssey. Quantitative meter and poetic devices. Discussion of major themes and issues as developed in Homer's poetry.\n\nprereq:  dept consent",
     "prereq": []
   },
   {
+    "uid": "0141171",
     "code": "GRK 3112",
     "subject": "GRK",
-    "id": "3112",
-    "title": "Intens. Grk. Rec.",
+    "number": "3112",
+    "name": "Intens. Grk. Rec.",
+    "fullname": "Intensive Classical Greek, Recitation",
     "info": "Drills and composition exercises to help students learn classical Greek.  Students must also register for 3111 when taking this course.",
     "prereq": []
   },
   {
+    "uid": "7923781",
     "code": "GRK 3300",
     "subject": "GRK",
-    "id": "3300",
-    "title": "Intermediate Greek Poetry",
+    "number": "3300",
+    "name": "Intermediate Greek Poetry",
+    "fullname": "Intermediate Greek Poetry",
     "info": "Readings in ancient Greek poetry. Introduction to Greek meter. Homer and tragedy offered in alternate years.",
     "prereq": []
   },
   {
+    "uid": "0141881",
     "code": "GRK 3310",
     "subject": "GRK",
-    "id": "3310",
-    "title": "Adv Grk Oratory",
+    "number": "3310",
+    "name": "Adv Grk Oratory",
+    "fullname": "Advanced Undergraduate Greek: Oratory",
     "info": "One or more appropriate authors studied during each course offering.",
     "prereq": []
   },
   {
+    "uid": "0102581",
     "code": "GRK 3320",
     "subject": "GRK",
-    "id": "3320",
-    "title": "Adv Grk Tragedy",
+    "number": "3320",
+    "name": "Adv Grk Tragedy",
+    "fullname": "Advanced Undergraduate Greek: Tragedy",
     "info": "Course is replaced by 5100.",
     "prereq": []
   },
   {
+    "uid": "0102591",
     "code": "GRK 3330",
     "subject": "GRK",
-    "id": "3330",
-    "title": "Adv Grk Comedy",
+    "number": "3330",
+    "name": "Adv Grk Comedy",
+    "fullname": "Advanced Undergraduate Greek: Comedy",
     "info": "Advanced readings in Greek comedy.",
     "prereq": []
   },
   {
+    "uid": "0102601",
     "code": "GRK 3340",
     "subject": "GRK",
-    "id": "3340",
-    "title": "Adv Grk History",
+    "number": "3340",
+    "name": "Adv Grk History",
+    "fullname": "Advanced Undergraduate Greek: History",
     "info": "Advanced readings from the Greek historians; traditions of Greek historiography.",
     "prereq": []
   },
   {
+    "uid": "0096731",
     "code": "GRK 3350",
     "subject": "GRK",
-    "id": "3350",
-    "title": "Adv Grk: Phil",
+    "number": "3350",
+    "name": "Adv Grk: Phil",
+    "fullname": "Advanced Undergraduate Greek:  Philosophy",
     "info": "Course replaced by 5100.",
     "prereq": []
   },
   {
+    "uid": "0102611",
     "code": "GRK 3360",
     "subject": "GRK",
-    "id": "3360",
-    "title": "Adv Grk: Relig.",
+    "number": "3360",
+    "name": "Adv Grk: Relig.",
+    "fullname": "Advanced Undergraduate Greek: Religious Texts",
     "info": "Course replaced by 5100.",
     "prereq": []
   },
   {
+    "uid": "0102621",
     "code": "GRK 3370",
     "subject": "GRK",
-    "id": "3370",
-    "title": "Adv Grk Epic",
+    "number": "3370",
+    "name": "Adv Grk Epic",
+    "fullname": "Advanced Undergraduate Greek: Epic",
     "info": "Course replaced by 5100. ",
     "prereq": []
   },
   {
+    "uid": "0102641",
     "code": "GRK 3380",
     "subject": "GRK",
-    "id": "3380",
-    "title": "Adv Grk Lyric",
+    "number": "3380",
+    "name": "Adv Grk Lyric",
+    "fullname": "Advanced Undergraduate Greek: Lyric",
     "info": "Course replaced by 5100.",
     "prereq": []
   },
   {
+    "uid": "0102651",
     "code": "GRK 3390",
     "subject": "GRK",
-    "id": "3390",
-    "title": "Adv Grk Romance",
+    "number": "3390",
+    "name": "Adv Grk Romance",
+    "fullname": "Advanced Undergraduate Greek: Romance",
     "info": "Course replaced by 5100.",
     "prereq": []
   },
   {
+    "uid": "0103251",
     "code": "GRK 3440",
     "subject": "GRK",
-    "id": "3440",
-    "title": "Adv Grk: Late Grk",
+    "number": "3440",
+    "name": "Adv Grk: Late Grk",
+    "fullname": "Advanced Undergraduate Greek: Later Greek Authors",
     "info": "Course replaced by 5100.",
     "prereq": []
   },
   {
+    "uid": "0085901",
     "code": "GRK 3993",
     "subject": "GRK",
-    "id": "3993",
-    "title": "Directed Studies",
+    "number": "3993",
+    "name": "Directed Studies",
+    "fullname": "Directed Studies",
     "info": "Guided individual reading or study.\n\nprereq: instr consent",
     "prereq": []
   },
   {
+    "uid": "0107121",
     "code": "GRK 3994",
     "subject": "GRK",
-    "id": "3994",
-    "title": "Directed Research",
+    "number": "3994",
+    "name": "Directed Research",
+    "fullname": "Directed Research",
     "info": "Research project pertaining to ancient world, using documents or primary sources along with secondary sources. Students select project in consultation with faculty member.\n\nprereq: Course is open to second semester juniors and seniors, major in CNRC, or RelS \n\nStudents enrolling in this directed research course will complete the University's common Directed Research contract with the faculty mentor/evaluator. The Faculty member will ensure academic standards are upheld, including:\n- the work proposed is at the appropriate level for the course, academic in nature, and the student will be involved intellectually in the project.\n- the project scope is reasonable for one semester and the number of credits specified (42 hours of work per credit)\n- the faculty mentor is qualified to serve in this role - assessment of student learning and grading criteria are clear and appropriate\n- the student will be working in a respectful, inclusive environment\nThe contract will include the learning objectives for the course, the methods that will be employed, and how assessment will be conducted by the faculty mentor. The contract must be approved by the DUGS/academic approver of the major before the student can register.",
     "prereq": []
   },
   {
+    "uid": "0088011",
     "code": "GRK 5001",
     "subject": "GRK",
-    "id": "5001",
-    "title": "Intens. Class. Grk.",
+    "number": "5001",
+    "name": "Intens. Class. Grk.",
+    "fullname": "Intensive Classical Greek",
     "info": "Introduction to classical Greek. Covers two semesters of material in one semester.",
     "prereq": []
   },
   {
+    "uid": "8015471",
     "code": "GRK 5003",
     "subject": "GRK",
-    "id": "5003",
-    "title": "Int Greek Prose: Grad Research",
+    "number": "5003",
+    "name": "Int Greek Prose: Grad Research",
+    "fullname": "Intermediate Greek Prose for Graduate Student Research",
     "info": "Introduction to Athenian prose authors of 5th/4th centuries BCE. Readings of continuous passages of unadapted Greek texts (history, speeches). Review of grammar/vocabulary. Some discussion of major themes/issues in Greek culture as illustrated by texts.\n\nprereq: Grade of at least [C- or S] in [1002 or 5001] or [instr consent, grad student]",
-    "prereq": {
-      "or": [
-        {
-          "code": "GRK 1002",
-          "subject": "GRK",
-          "id": "1002"
-        },
-        {
-          "code": "GRK 5001",
-          "subject": "GRK",
-          "id": "5001"
-        }
-      ]
-    }
+    "prereq": []
   },
   {
+    "uid": "8015481",
     "code": "GRK 5004",
     "subject": "GRK",
-    "id": "5004",
-    "title": "Int Greek Poetry Grad Research",
+    "number": "5004",
+    "name": "Int Greek Poetry Grad Research",
+    "fullname": "Intermediate Greek Poetry for Graduate Student Research",
     "info": "Introduction to Greek epic poetry. Readings of selections from Homer's Iliad and Odyssey. Quantitative meter and poetic devices. Discussion of major themes and issues as developed in Homer's poetry.\n\nprereq: dept consent",
     "prereq": []
   },
   {
+    "uid": "0088101",
     "code": "GRK 5013",
     "subject": "GRK",
-    "id": "5013",
-    "title": "Adv.Comp.",
+    "number": "5013",
+    "name": "Adv.Comp.",
+    "fullname": "Advanced Composition",
     "info": "English-to-Greek verse composition or writing styles of individual Greek authors.",
     "prereq": []
   },
   {
+    "uid": "0102671",
     "code": "GRK 5100",
     "subject": "GRK",
-    "id": "5100",
-    "title": "Advanced Reading",
+    "number": "5100",
+    "name": "Advanced Reading",
+    "fullname": "Advanced Reading",
     "info": "Reading in Greek texts/authors. Texts/authors vary.\n\nprereq: [GRK 3004 or equiv], at least two yrs of college level Greek. Must contact Classical and Near Eastern Studies department for permission to register.",
-    "prereq": {
-      "code": "GRK 3004",
-      "subject": "GRK",
-      "id": "3004"
-    }
+    "prereq": []
   },
   {
+    "uid": "0105851",
     "code": "GRK 5121",
     "subject": "GRK",
-    "id": "5121",
-    "title": "Biblical/Patristic",
+    "number": "5121",
+    "name": "Biblical/Patristic",
+    "fullname": "Biblical and Patristic Greek",
     "info": "Septuagint, Philo, Josephus, New Testament, Apostolic Fathers, and other patristic literature to 5th century CE. Reading/discussion of selected texts in major genres.",
     "prereq": []
   },
   {
+    "uid": "0107141",
     "code": "GRK 5200",
     "subject": "GRK",
-    "id": "5200",
-    "title": "Advanced Greek Prose",
+    "number": "5200",
+    "name": "Advanced Greek Prose",
+    "fullname": "Advanced Readings in Greek Prose",
     "info": "The primary material for this course will be a selection of readings from three or more different\nGreek prose authors connected by genre (e.g. historical writing, philosophy, oratory, novel),\ntheme (e.g. medicine, Athenian politics of the 5 th /4 th centuries, religious innovation), period (e.g.\nclassical period, Second Sophistic), or the like. Primary readings and critical approach will vary\nfrom year to year, making the course repeatable. Some modern secondary reading will be\nassigned to provide a basis for discussion and a model for student written work.\n\nprereq: [GRK 3004 or equiv], at least two yrs of college level Greek. Contact the Classical & Near Eastern Religions & Cultures Department (CNRC) with any questions.",
-    "prereq": {
-      "code": "GRK 3004",
-      "subject": "GRK",
-      "id": "3004"
-    }
+    "prereq": []
   },
   {
+    "uid": "0104881",
     "code": "GRK 5310",
     "subject": "GRK",
-    "id": "5310",
-    "title": "Grk Lit: Oratory",
+    "number": "5310",
+    "name": "Grk Lit: Oratory",
+    "fullname": "Greek Literature: Oratory",
     "info": "One or more authors.",
     "prereq": []
   },
   {
+    "uid": "0088121",
     "code": "GRK 5320",
     "subject": "GRK",
-    "id": "5320",
-    "title": "Grk Lit:  Tragedy",
+    "number": "5320",
+    "name": "Grk Lit:  Tragedy",
+    "fullname": "Greek Literature: Tragedy",
     "info": "Reading of Greek tragedy.",
     "prereq": []
   },
   {
+    "uid": "0097321",
     "code": "GRK 5330",
     "subject": "GRK",
-    "id": "5330",
-    "title": "Comedy",
+    "number": "5330",
+    "name": "Comedy",
+    "fullname": "Greek Literature: Comedy",
     "info": "Readings in Greek comedy.",
     "prereq": []
   },
   {
+    "uid": "0102941",
     "code": "GRK 5340",
     "subject": "GRK",
-    "id": "5340",
-    "title": "History",
+    "number": "5340",
+    "name": "History",
+    "fullname": "Greek Literature: History",
     "info": "Readings from Greek historians. Traditions of Greek historiography.",
     "prereq": []
   },
   {
+    "uid": "0096741",
     "code": "GRK 5350",
     "subject": "GRK",
-    "id": "5350",
-    "title": "Philosophy",
+    "number": "5350",
+    "name": "Philosophy",
+    "fullname": "Greek Literature: Philosophy",
     "info": "Readings from one or more works of Plato or Aristotle in original Greek. Selections vary.",
     "prereq": []
   },
   {
+    "uid": "0103421",
     "code": "GRK 5360",
     "subject": "GRK",
-    "id": "5360",
-    "title": "Lit: Relig. Texts",
+    "number": "5360",
+    "name": "Lit: Relig. Texts",
+    "fullname": "Literature: Religious Texts",
     "info": "Readings in Greek literature.",
     "prereq": []
   },
   {
+    "uid": "0088141",
     "code": "GRK 5370",
     "subject": "GRK",
-    "id": "5370",
-    "title": "Grk Lit:  Epic",
+    "number": "5370",
+    "name": "Grk Lit:  Epic",
+    "fullname": "Greek Literature: Epic",
     "info": "Readings in Greek literature.",
     "prereq": []
   },
   {
+    "uid": "0088061",
     "code": "GRK 5380",
     "subject": "GRK",
-    "id": "5380",
-    "title": "Grk Lit: Lyric",
+    "number": "5380",
+    "name": "Grk Lit: Lyric",
+    "fullname": "Greek Literature: Lyric",
     "info": "Selections from Greek lyric poets.",
     "prereq": []
   },
   {
+    "uid": "0088071",
     "code": "GRK 5390",
     "subject": "GRK",
-    "id": "5390",
-    "title": "Grk Lit: Romance",
+    "number": "5390",
+    "name": "Grk Lit: Romance",
+    "fullname": "Greek Literature: Romance",
     "info": "Readings in Greek literature.",
     "prereq": []
   },
   {
+    "uid": "0103261",
     "code": "GRK 5440",
     "subject": "GRK",
-    "id": "5440",
-    "title": "Later Authors",
+    "number": "5440",
+    "name": "Later Authors",
+    "fullname": "Greek Literature: Later Authors",
     "info": "Readings in Greek literature.",
     "prereq": []
   },
   {
+    "uid": "0103201",
     "code": "GRK 5450",
     "subject": "GRK",
-    "id": "5450",
-    "title": "Class Authors",
+    "number": "5450",
+    "name": "Class Authors",
+    "fullname": "Greek Literature: Classical Authors",
     "info": "Selected topics in classical Greek literature. Topics specified in Class Schedule.",
     "prereq": []
   },
   {
+    "uid": "0088081",
     "code": "GRK 5701",
     "subject": "GRK",
-    "id": "5701",
-    "title": "Prose Comp.",
+    "number": "5701",
+    "name": "Prose Comp.",
+    "fullname": "Prose Composition",
     "info": "Moving step by step through Ancient Greek grammar, starting with simple sentences and progressing to complex ones. Course ends with students translating short passages of modern English prose into Greek.\n\nprereq: Grad student or instr consent",
     "prereq": []
   },
   {
+    "uid": "0105831",
     "code": "GRK 5702",
     "subject": "GRK",
-    "id": "5702",
-    "title": "Text Criticism",
+    "number": "5702",
+    "name": "Text Criticism",
+    "fullname": "Text Criticism",
     "info": "Theory/practice. Elements of paleography and manuscript study. Tools for analyzing textual apparatus; constructing a critical edition of a literary text.\n\nprereq: Grad student or instr consent",
     "prereq": []
   },
   {
+    "uid": "0088091",
     "code": "GRK 5704",
     "subject": "GRK",
-    "id": "5704",
-    "title": "Grk Paleography",
+    "number": "5704",
+    "name": "Grk Paleography",
+    "fullname": "Greek Paleography",
     "info": "Analysis of various hands used in Greek manuscripts with attention to date/provenance. History of transmission of Greek literature.\n\nprereq: Grad student or instr consent",
     "prereq": []
   },
   {
+    "uid": "0095341",
     "code": "GRK 5705",
     "subject": "GRK",
-    "id": "5705",
-    "title": "Intro: Hist-Comp Greek & Latin",
+    "number": "5705",
+    "name": "Intro: Hist-Comp Greek & Latin",
+    "fullname": "Introduction to the Historical-Comparative Grammar of Greek and Latin",
     "info": "Historical/comparative grammar of Greek and Latin from their Proto-Indo-European origins to classical norms.",
     "prereq": []
   },
   {
+    "uid": "0095321",
     "code": "GRK 5706",
     "subject": "GRK",
-    "id": "5706",
-    "title": "History of Greek",
+    "number": "5706",
+    "name": "History of Greek",
+    "fullname": "History of Greek",
     "info": "Reading and formal analysis of documents illustrating evolution of Greek language from Mycenaean to modern times.",
     "prereq": []
   },
   {
+    "uid": "8013401",
     "code": "GRK 5800",
     "subject": "GRK",
-    "id": "5800",
-    "title": "Sight Reading",
+    "number": "5800",
+    "name": "Sight Reading",
+    "fullname": "Sight Reading for Graduate Students",
     "info": "Practice in reading Greek texts at sight.\n\nprereq: Enrollment in a grad program in Department of Classical/Near Eastern Studies",
     "prereq": []
   },
   {
+    "uid": "0085911",
     "code": "GRK 5993",
     "subject": "GRK",
-    "id": "5993",
-    "title": "Directed Studies",
+    "number": "5993",
+    "name": "Directed Studies",
+    "fullname": "Directed Studies",
     "info": "Guided individual reading or study.\nPrereq Grad student or instr consent.",
     "prereq": []
   },
   {
+    "uid": "0085941",
     "code": "GRK 5994",
     "subject": "GRK",
-    "id": "5994",
-    "title": "Dir Research",
+    "number": "5994",
+    "name": "Dir Research",
+    "fullname": "Directed Research",
     "info": "Supervised original research on topic chosen by student.\nPrereq Grad student or instr consent.",
     "prereq": []
   },
   {
+    "uid": "0085931",
     "code": "GRK 5996",
     "subject": "GRK",
-    "id": "5996",
-    "title": "Directed Instruct.",
+    "number": "5996",
+    "name": "Directed Instruct.",
+    "fullname": "Directed Instruction",
     "info": "Supervised teaching internship.\nPrereq Grad student or instr consent.",
     "prereq": []
   },
   {
+    "uid": "8015211",
     "code": "GRK 8100",
     "subject": "GRK",
-    "id": "8100",
-    "title": "Readings in Greek Prose",
+    "number": "8100",
+    "name": "Readings in Greek Prose",
+    "fullname": "Readings in Greek Prose",
     "info": "Reading and discussion of ancient Greek prose texts.\n\nprereq: Advanced grad student",
     "prereq": []
   },
   {
+    "uid": "0088151",
     "code": "GRK 8120",
     "subject": "GRK",
-    "id": "8120",
-    "title": "Greek Texts",
+    "number": "8120",
+    "name": "Greek Texts",
+    "fullname": "Greek Text Course",
     "info": "Students attend 3xxx Greek courses. Supplementary work at discretion of instructor.\n\nprereq: 3111 or dept consent; not for students in dept of Classical and Near East Studies",
     "prereq": {
       "code": "GRK 3111",
       "subject": "GRK",
-      "id": "3111"
+      "number": "3111"
     }
   },
   {
+    "uid": "8015221",
     "code": "GRK 8200",
     "subject": "GRK",
-    "id": "8200",
-    "title": "Readings in Greek Verse",
+    "number": "8200",
+    "name": "Readings in Greek Verse",
+    "fullname": "Readings in Greek Verse",
     "info": "Reading/discussion of ancient Greek poetic texts.\n\nprereq: Advanced grad student",
     "prereq": []
   },
   {
+    "uid": "0089971",
     "code": "GRK 8262",
     "subject": "GRK",
-    "id": "8262",
-    "title": "Greek Lit. I",
+    "number": "8262",
+    "name": "Greek Lit. I",
+    "fullname": "Survey of Greek Literature I",
     "info": "Extensive selections from all genres of Greek literature of archaic and early classical periods.",
     "prereq": []
   },
   {
+    "uid": "0090041",
     "code": "GRK 8263",
     "subject": "GRK",
-    "id": "8263",
-    "title": "Greek Lit. II",
+    "number": "8263",
+    "name": "Greek Lit. II",
+    "fullname": "Survey of Greek Literature II",
     "info": "Extensive selections from Greek authors of the classical and Hellenistic eras.",
     "prereq": []
   },
   {
+    "uid": "8015231",
     "code": "GRK 8300",
     "subject": "GRK",
-    "id": "8300",
-    "title": "Readings in Greek Texts",
+    "number": "8300",
+    "name": "Readings in Greek Texts",
+    "fullname": "Readings in Greek Texts",
     "info": "Reading/discussion of literary or documentary texts from Greek antiquity. Topics may include subjects that draw on various of sources, genres, or methods.\n\nprereq: Advanced grad student",
     "prereq": []
   },
   {
+    "uid": "7881231",
     "code": "GRK 8333",
     "subject": "GRK",
-    "id": "8333",
-    "title": "FTE: Master's",
+    "number": "8333",
+    "name": "FTE: Master's",
+    "fullname": "FTE: Master's",
     "info": "",
     "prereq": []
   },
   {
+    "uid": "8015241",
     "code": "GRK 8400",
     "subject": "GRK",
-    "id": "8400",
-    "title": "Readings in Patristic Greek",
+    "number": "8400",
+    "name": "Readings in Patristic Greek",
+    "fullname": "Readings in Patristic Greek",
     "info": "Reading/discussion of early Christian texts in Greek.\n\nprereq: Advanced grad student",
     "prereq": []
   },
   {
+    "uid": "7883581",
     "code": "GRK 8444",
     "subject": "GRK",
-    "id": "8444",
-    "title": "FTE: Doctoral",
+    "number": "8444",
+    "name": "FTE: Doctoral",
+    "fullname": "FTE: Doctoral",
     "info": "",
     "prereq": []
   },
   {
+    "uid": "7884821",
     "code": "GRK 8666",
     "subject": "GRK",
-    "id": "8666",
-    "title": "Doct Pre-Thesis Cr*",
+    "number": "8666",
+    "name": "Doct Pre-Thesis Cr*",
+    "fullname": "Doctoral Pre-Thesis Credits",
     "info": "",
     "prereq": []
   },
   {
+    "uid": "7886081",
     "code": "GRK 8777",
     "subject": "GRK",
-    "id": "8777",
-    "title": "Thesis Credit:Mast*",
+    "number": "8777",
+    "name": "Thesis Credit:Mast*",
+    "fullname": "Thesis Credits: Master's",
     "info": "",
     "prereq": []
   },
   {
+    "uid": "7878771",
     "code": "GRK 8888",
     "subject": "GRK",
-    "id": "8888",
-    "title": "Thesis Credit:Doct*",
+    "number": "8888",
+    "name": "Thesis Credit:Doct*",
+    "fullname": "Thesis Credit: Doctoral",
     "info": "",
     "prereq": []
   },
   {
+    "uid": "0090081",
     "code": "GRK 8910",
     "subject": "GRK",
-    "id": "8910",
-    "title": "Seminar",
+    "number": "8910",
+    "name": "Seminar",
+    "fullname": "Seminar",
     "info": "Various topics in Greek literature examined in depth with emphasis on current scholarship and original student research.",
     "prereq": []
   }

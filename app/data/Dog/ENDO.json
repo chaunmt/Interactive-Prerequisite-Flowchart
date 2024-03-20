@@ -1,365 +1,437 @@
 [
   {
+    "uid": "7880151",
     "code": "ENDO 5300",
     "subject": "ENDO",
-    "id": "5300",
-    "title": "Endo Orientation",
+    "number": "5300",
+    "name": "Endo Orientation",
+    "fullname": "Endodontics Orientation",
     "info": "Clinic policies/procedures. Anatomy, access, evaluation, diagnosis. Pulp biology/microbiology. Etiology/cracks. Instrumentation. Obturation. Management of pain. Lab.",
     "prereq": []
   },
   {
+    "uid": "0125961",
     "code": "ENDO 5304",
     "subject": "ENDO",
-    "id": "5304",
-    "title": "Adv Clin Endo",
+    "number": "5304",
+    "name": "Adv Clin Endo",
+    "fullname": "Advanced Clinical Endodontics",
     "info": "Diagnosis/treatment of clinical cases. Complex cases, new/unique techniques.",
     "prereq": []
   },
   {
+    "uid": "0125981",
     "code": "ENDO 5305",
     "subject": "ENDO",
-    "id": "5305",
-    "title": "Adv Clin Endo",
+    "number": "5305",
+    "name": "Adv Clin Endo",
+    "fullname": "Advanced Clinical Endodontics",
     "info": "Diagnosis/treatment of clinical cases. Complex cases, new techniques.\n\nprereq: 5304",
     "prereq": {
       "code": "ENDO 5304",
       "subject": "ENDO",
-      "id": "5304"
+      "number": "5304"
     }
   },
   {
+    "uid": "7876461",
     "code": "ENDO 5306",
     "subject": "ENDO",
-    "id": "5306",
-    "title": "Adv Clin Endo",
+    "number": "5306",
+    "name": "Adv Clin Endo",
+    "fullname": "Advanced Clinical Endodontics",
     "info": "Diagnosis/treatment of clinical cases. Complex cases, new techniques.",
     "prereq": []
   },
   {
+    "uid": "7876471",
     "code": "ENDO 5307",
     "subject": "ENDO",
-    "id": "5307",
-    "title": "Adv Clin Endo",
+    "number": "5307",
+    "name": "Adv Clin Endo",
+    "fullname": "Advanced Clinical Endodontics",
     "info": "Diagnosis/treatment of clinical cases. Complex cases, new techniques.\n\nprereq: 5306",
     "prereq": {
       "code": "ENDO 5306",
       "subject": "ENDO",
-      "id": "5306"
+      "number": "5306"
     }
   },
   {
+    "uid": "0169831",
     "code": "ENDO 5308",
     "subject": "ENDO",
-    "id": "5308",
-    "title": "Adv Clin Endo",
+    "number": "5308",
+    "name": "Adv Clin Endo",
+    "fullname": "Advanced Clinical Endodontics",
     "info": "Diagnosis/treatment of clinical cases. Complex cases, new techniques.\n\nprereq: 5307, dept consent",
     "prereq": {
       "code": "ENDO 5307",
       "subject": "ENDO",
-      "id": "5307"
+      "number": "5307"
     }
   },
   {
+    "uid": "0125991",
     "code": "ENDO 5309",
     "subject": "ENDO",
-    "id": "5309",
-    "title": "Adv Clin Endo",
+    "number": "5309",
+    "name": "Adv Clin Endo",
+    "fullname": "Advanced Clinical Endodontics",
     "info": "Diagnosis/treatment of clinical cases. Complex cases, new techniques.\n\nprereq: 5308",
     "prereq": {
       "code": "ENDO 5308",
       "subject": "ENDO",
-      "id": "5308"
+      "number": "5308"
     }
   },
   {
+    "uid": "0126051",
     "code": "ENDO 5310",
     "subject": "ENDO",
-    "id": "5310",
-    "title": "Adv Clin Endo",
+    "number": "5310",
+    "name": "Adv Clin Endo",
+    "fullname": "Advanced Clinical Endodontics",
     "info": "Diagnosis/treatment of clinical cases. Complex cases, new techniques.\n\nprereq: 5309",
     "prereq": {
       "code": "ENDO 5309",
       "subject": "ENDO",
-      "id": "5309"
+      "number": "5309"
     }
   },
   {
+    "uid": "0126061",
     "code": "ENDO 5311",
     "subject": "ENDO",
-    "id": "5311",
-    "title": "Adv Endo Emg",
+    "number": "5311",
+    "name": "Adv Endo Emg",
+    "fullname": "Advanced Endodontic Emergency",
     "info": "Each student is assigned weekly periods (8 hours/week) and is responsible for all emergencies in the endodontic clinic during this time.\n\nprereq: dept consent",
     "prereq": []
   },
   {
+    "uid": "0126121",
     "code": "ENDO 5312",
     "subject": "ENDO",
-    "id": "5312",
-    "title": "Adv Endo Emg",
+    "number": "5312",
+    "name": "Adv Endo Emg",
+    "fullname": "Advanced Endodontic Emergency",
     "info": "Students assigned 8 hrs/wk), are responsible for emergencies in clinic.\n\nprereq: 5311",
     "prereq": {
       "code": "ENDO 5311",
       "subject": "ENDO",
-      "id": "5311"
+      "number": "5311"
     }
   },
   {
+    "uid": "0126131",
     "code": "ENDO 5313",
     "subject": "ENDO",
-    "id": "5313",
-    "title": "Adv Endo Emg",
+    "number": "5313",
+    "name": "Adv Endo Emg",
+    "fullname": "Advanced Endodontic Emergency",
     "info": "Students assigned 8 hrs/wk), are responsible for emergencies in clinic.\n\nprereq: 5312",
     "prereq": {
       "code": "ENDO 5312",
       "subject": "ENDO",
-      "id": "5312"
+      "number": "5312"
     }
   },
   {
+    "uid": "0126141",
     "code": "ENDO 5314",
     "subject": "ENDO",
-    "id": "5314",
-    "title": "Adv Endo Emg",
+    "number": "5314",
+    "name": "Adv Endo Emg",
+    "fullname": "Advanced Endodontic Emergency",
     "info": "Students assigned 8 hrs/wk), are responsible for emergencies in clinic.\n\nprereq: 5313",
     "prereq": {
       "code": "ENDO 5313",
       "subject": "ENDO",
-      "id": "5313"
+      "number": "5313"
     }
   },
   {
+    "uid": "0169821",
     "code": "ENDO 5315",
     "subject": "ENDO",
-    "id": "5315",
-    "title": "Adv Endo Emg",
+    "number": "5315",
+    "name": "Adv Endo Emg",
+    "fullname": "Advanced Endodontic Emergency",
     "info": "Students assigned 8 hrs/wk, are responsible for emergencies in clinic.\n\nprereq: 5314, dept consent",
     "prereq": {
       "code": "ENDO 5314",
       "subject": "ENDO",
-      "id": "5314"
+      "number": "5314"
     }
   },
   {
+    "uid": "7876481",
     "code": "ENDO 5316",
     "subject": "ENDO",
-    "id": "5316",
-    "title": "Adv Endo Emerg",
+    "number": "5316",
+    "name": "Adv Endo Emerg",
+    "fullname": "Advanced Endodontic Emergency",
     "info": "Students assigned 8 hrs/wk, are responsible for emergencies in clinic.\n\nprereq: 5315",
     "prereq": {
       "code": "ENDO 5315",
       "subject": "ENDO",
-      "id": "5315"
+      "number": "5315"
     }
   },
   {
+    "uid": "7876491",
     "code": "ENDO 5317",
     "subject": "ENDO",
-    "id": "5317",
-    "title": "Adv Endo Emerg",
+    "number": "5317",
+    "name": "Adv Endo Emerg",
+    "fullname": "Advanced Endodontic Emergency",
     "info": "Students assigned 8 hrs/wk, are responsible for emergencies in clinic.\n\nprereq: 5316",
     "prereq": {
       "code": "ENDO 5316",
       "subject": "ENDO",
-      "id": "5316"
+      "number": "5316"
     }
   },
   {
+    "uid": "0126521",
     "code": "ENDO 5329",
     "subject": "ENDO",
-    "id": "5329",
-    "title": "Rev of Cases",
+    "number": "5329",
+    "name": "Rev of Cases",
+    "fullname": "Review of Cases",
     "info": "Oral/visual presentation of endodontic cases with follow up. Presentation of surgery cases before surgery.\n\nprereq: dept consent",
     "prereq": []
   },
   {
+    "uid": "0126531",
     "code": "ENDO 5330",
     "subject": "ENDO",
-    "id": "5330",
-    "title": "Clinical Seminar II",
+    "number": "5330",
+    "name": "Clinical Seminar II",
+    "fullname": "Clinical Seminar II",
     "info": "Oral/visual presentation of endodontic cases with follow up. Presentation of cases before surgery.\n\nprereq: 5329",
     "prereq": {
       "code": "ENDO 5329",
       "subject": "ENDO",
-      "id": "5329"
+      "number": "5329"
     }
   },
   {
+    "uid": "0126551",
     "code": "ENDO 5331",
     "subject": "ENDO",
-    "id": "5331",
-    "title": "Clinical Seminar III",
+    "number": "5331",
+    "name": "Clinical Seminar III",
+    "fullname": "Clinical Seminar III",
     "info": "Oral/visual presentation of endodontic cases with follow up. Presentation of cases before surgery.\n\nprereq: 5330",
     "prereq": {
       "code": "ENDO 5330",
       "subject": "ENDO",
-      "id": "5330"
+      "number": "5330"
     }
   },
   {
+    "uid": "0126561",
     "code": "ENDO 5332",
     "subject": "ENDO",
-    "id": "5332",
-    "title": "Clinical Seminar IV",
+    "number": "5332",
+    "name": "Clinical Seminar IV",
+    "fullname": "Clinical Seminar IV",
     "info": "Oral and visual presentation of endodontic cases with follow up.  Presentations of surgery cases before surgeries.\n\nprereq: dept consent",
     "prereq": []
   },
   {
+    "uid": "0126511",
     "code": "ENDO 5400",
     "subject": "ENDO",
-    "id": "5400",
-    "title": "Adv Endo",
+    "number": "5400",
+    "name": "Adv Endo",
+    "fullname": "Advanced Endodontics for the General Dentist",
     "info": "Advanced diagnosis/treatment of endodontics in clinic/office setting. Internship.\n\nprereq: dept consent",
     "prereq": []
   },
   {
+    "uid": "0125871",
     "code": "ENDO 5500",
     "subject": "ENDO",
-    "id": "5500",
-    "title": "Eval in Endo",
+    "number": "5500",
+    "name": "Eval in Endo",
+    "fullname": "Evaluation in Endodontics",
     "info": "Course designed to evaluate and improve practitioners knowledge in endodontics and to help prepare the student for endodontic board certification.",
     "prereq": []
   },
   {
+    "uid": "7875931",
     "code": "ENDO 5600",
     "subject": "ENDO",
-    "id": "5600",
-    "title": "Endo Histopathology",
+    "number": "5600",
+    "name": "Endo Histopathology",
+    "fullname": "Endodontic Histopathology",
     "info": "Physiology of pulpal/periapical diseases. Normal histology of pulpal/periapical tissues. Histopathology of abnormal pulpal/periapical tissues. Differential diagnosis of periapical radiolucencies.",
     "prereq": []
   },
   {
+    "uid": "0169811",
     "code": "ENDO 5638",
     "subject": "ENDO",
-    "id": "5638",
-    "title": "Adv Clin Endo",
+    "number": "5638",
+    "name": "Adv Clin Endo",
+    "fullname": "Advanced Clinical Endodontics",
     "info": "Diagnosis/treatment of clinical cases. Complex cases, new/unique techniques.",
     "prereq": []
   },
   {
+    "uid": "0125751",
     "code": "ENDO 8001",
     "subject": "ENDO",
-    "id": "8001",
-    "title": "Research in Endo",
+    "number": "8001",
+    "name": "Research in Endo",
+    "fullname": "Research in Endodontics",
     "info": "Organized literature review in area of student's interest, selection of thesis project, and completion of research and thesis.\n\nprereq: dept consent",
     "prereq": []
   },
   {
+    "uid": "0125801",
     "code": "ENDO 8002",
     "subject": "ENDO",
-    "id": "8002",
-    "title": "Research in Endo",
+    "number": "8002",
+    "name": "Research in Endo",
+    "fullname": "Research in Endodontics",
     "info": "Organized literature review in area of student's interest, selection of thesis project, and completion of research and thesis.\n\nprereq: dept consent",
     "prereq": []
   },
   {
+    "uid": "0125921",
     "code": "ENDO 8004",
     "subject": "ENDO",
-    "id": "8004",
-    "title": "Research in Endo",
+    "number": "8004",
+    "name": "Research in Endo",
+    "fullname": "Research in Endodontics",
     "info": "Organized literature review in area of student's interest, selection of thesis project, and completion of research and thesis.\n\nprereq: dept consent",
     "prereq": []
   },
   {
+    "uid": "0125931",
     "code": "ENDO 8005",
     "subject": "ENDO",
-    "id": "8005",
-    "title": "Research in Endo",
+    "number": "8005",
+    "name": "Research in Endo",
+    "fullname": "Research in Endodontics",
     "info": "Organized literature review in area of student's interest, selection of thesis project, and completion of research and thesis.\n\nprereq: dept consent",
     "prereq": []
   },
   {
+    "uid": "0126161",
     "code": "ENDO 8310",
     "subject": "ENDO",
-    "id": "8310",
-    "title": "Lit Rev",
+    "number": "8310",
+    "name": "Lit Rev",
+    "fullname": "Literature Review",
     "info": "Critical review of classic and current endodontic literature.\n\nprereq: dept consent",
     "prereq": []
   },
   {
+    "uid": "0126291",
     "code": "ENDO 8311",
     "subject": "ENDO",
-    "id": "8311",
-    "title": "Lit Rev",
+    "number": "8311",
+    "name": "Lit Rev",
+    "fullname": "Literature Review",
     "info": "Critical review of classic/current endodontic literature.\n\nprereq: 8310",
     "prereq": {
       "code": "ENDO 8310",
       "subject": "ENDO",
-      "id": "8310"
+      "number": "8310"
     }
   },
   {
+    "uid": "0126371",
     "code": "ENDO 8312",
     "subject": "ENDO",
-    "id": "8312",
-    "title": "Lit Rev",
+    "number": "8312",
+    "name": "Lit Rev",
+    "fullname": "Literature Review",
     "info": "Critical review of classic/current endodontic literature.\n\nprereq: 8311",
     "prereq": {
       "code": "ENDO 8311",
       "subject": "ENDO",
-      "id": "8311"
+      "number": "8311"
     }
   },
   {
+    "uid": "0126481",
     "code": "ENDO 8313",
     "subject": "ENDO",
-    "id": "8313",
-    "title": "Lit Rev",
+    "number": "8313",
+    "name": "Lit Rev",
+    "fullname": "Literature Review",
     "info": "Critical review of classic/current endodontic literature.\n\nprereq: 8312",
     "prereq": {
       "code": "ENDO 8312",
       "subject": "ENDO",
-      "id": "8312"
+      "number": "8312"
     }
   },
   {
+    "uid": "0125941",
     "code": "ENDO 8320",
     "subject": "ENDO",
-    "id": "8320",
-    "title": "Adv Endo Lecture",
+    "number": "8320",
+    "name": "Adv Endo Lecture",
+    "fullname": "Advanced Endodontic Lecture",
     "info": "Pulpal and periapical pathology, diagnosis, and treatment planning.\n\nprereq: dept consent",
     "prereq": []
   },
   {
+    "uid": "0125951",
     "code": "ENDO 8321",
     "subject": "ENDO",
-    "id": "8321",
-    "title": "Adv Endo Lecture",
+    "number": "8321",
+    "name": "Adv Endo Lecture",
+    "fullname": "Advanced Endodontic Lecture",
     "info": "Pulpal/periapical pathology, diagnosis, treatment planning.\n\nprereq: 8320",
     "prereq": {
       "code": "ENDO 8320",
       "subject": "ENDO",
-      "id": "8320"
+      "number": "8320"
     }
   },
   {
+    "uid": "0126601",
     "code": "ENDO 8322",
     "subject": "ENDO",
-    "id": "8322",
-    "title": "Adv Endo Lecture",
+    "number": "8322",
+    "name": "Adv Endo Lecture",
+    "fullname": "Advanced Endodontic Lecture",
     "info": "Pulpal/periapical pathology, diagnosis, treatment planning.\n\nprereq: 8321",
     "prereq": {
       "code": "ENDO 8321",
       "subject": "ENDO",
-      "id": "8321"
+      "number": "8321"
     }
   },
   {
+    "uid": "0126611",
     "code": "ENDO 8323",
     "subject": "ENDO",
-    "id": "8323",
-    "title": "Adv Endo Lecture",
+    "number": "8323",
+    "name": "Adv Endo Lecture",
+    "fullname": "Advanced Endodontic Lecture",
     "info": "Pulpal/periapical pathology, diagnosis, treatment planning.\n\nprereq: 8322",
     "prereq": {
       "code": "ENDO 8322",
       "subject": "ENDO",
-      "id": "8322"
+      "number": "8322"
     }
   },
   {
+    "uid": "0125811",
     "code": "ENDO 8335",
     "subject": "ENDO",
-    "id": "8335",
-    "title": "Endo/Perio Seminar",
+    "number": "8335",
+    "name": "Endo/Perio Seminar",
+    "fullname": "Endodontics/Periodontics Seminar",
     "info": "Discussions of endo-perio problems.\n\nprereq: dept consent",
     "prereq": []
   }

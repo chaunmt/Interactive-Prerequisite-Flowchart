@@ -1,102 +1,124 @@
 [
   {
+    "uid": "7880291",
     "code": "CONS 8001",
     "subject": "CONS",
-    "id": "8001",
-    "title": "Conservation Biology Seminar",
+    "number": "8001",
+    "name": "Conservation Biology Seminar",
+    "fullname": "Conservation Biology Seminar",
     "info": "Topics vary.\n\nprereq: instr consent",
     "prereq": []
   },
   {
+    "uid": "7880311",
     "code": "CONS 8004",
     "subject": "CONS",
-    "id": "8004",
-    "title": "Econ & Social Aspects of CBio",
+    "number": "8004",
+    "name": "Econ & Social Aspects of CBio",
+    "fullname": "Economic and Social Aspects of Conservation Biology",
     "info": "Economic/social aspects of conservation biology. Ecological economics, human dimension of conservation biology, values of conserving species/ecosystems.\n\nprereq: CBio student or instr consent",
     "prereq": []
   },
   {
+    "uid": "7880391",
     "code": "CONS 8093",
     "subject": "CONS",
-    "id": "8093",
-    "title": "Directed Study Experience",
+    "number": "8093",
+    "name": "Directed Study Experience",
+    "fullname": "Directed Study Experience",
     "info": "Directed Study Experience\n\nprereq: instr consent",
     "prereq": []
   },
   {
+    "uid": "0132351",
     "code": "CONS 8095",
     "subject": "CONS",
-    "id": "8095",
-    "title": "Contemp.Prob. Conservation.Bio",
+    "number": "8095",
+    "name": "Contemp.Prob. Conservation.Bio",
+    "fullname": "Contemporary Problems in Conservation Biology",
     "info": "Comprehensive review of conservation biology issue. Written exam.\n\nprereq: 8004, FW 8452, instr consent",
     "prereq": {
       "and": [
         {
           "code": "CONS 8004",
           "subject": "CONS",
-          "id": "8004"
+          "number": "8004"
         },
         {
           "code": "FW 8452",
           "subject": "FW",
-          "id": "8452"
+          "number": "8452"
         }
       ]
     }
   },
   {
+    "uid": "7991061",
     "code": "CONS 8103",
     "subject": "CONS",
-    "id": "8103",
-    "title": "Research in Support of ResMgmt",
+    "number": "8103",
+    "name": "Research in Support of ResMgmt",
+    "fullname": "Research in Support of Resource Management: a Dialog With Land Managers",
     "info": "Effective communication between researchers and natural resource managers. Organized around research needs of land managers. Students select topics of interest from these needs and, as small teams, prepare short research proposals to address each topic.",
     "prereq": []
   },
   {
+    "uid": "7995621",
     "code": "CONS 8201",
     "subject": "CONS",
-    "id": "8201",
-    "title": "How to Excel in Grad School",
+    "number": "8201",
+    "name": "How to Excel in Grad School",
+    "fullname": "How to Excel in Graduate School",
     "info": "Overview of history/philosophy of science as framework for writing thesis or dissertation. How to conduct research. Time management.",
     "prereq": []
   },
   {
+    "uid": "7880851",
     "code": "CONS 8333",
     "subject": "CONS",
-    "id": "8333",
-    "title": "FTE: Master's",
+    "number": "8333",
+    "name": "FTE: Master's",
+    "fullname": "FTE: Master's",
     "info": "(No description)\n\nprereq: Master's student, adviser and DGS consent",
     "prereq": []
   },
   {
+    "uid": "7883241",
     "code": "CONS 8444",
     "subject": "CONS",
-    "id": "8444",
-    "title": "FTE: Doctoral",
+    "number": "8444",
+    "name": "FTE: Doctoral",
+    "fullname": "FTE: Doctoral",
     "info": "(No description)\n\nprereq: Doctoral student, adviser and DGS consent",
     "prereq": []
   },
   {
+    "uid": "7884491",
     "code": "CONS 8666",
     "subject": "CONS",
-    "id": "8666",
-    "title": "Doct Pre-Thesis Cr*",
+    "number": "8666",
+    "name": "Doct Pre-Thesis Cr*",
+    "fullname": "Doctoral Pre-Thesis Credits",
     "info": "TBD\n\nprereq: Doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
     "prereq": []
   },
   {
+    "uid": "7885761",
     "code": "CONS 8777",
     "subject": "CONS",
-    "id": "8777",
-    "title": "Thesis Credit:Mast*",
+    "number": "8777",
+    "name": "Thesis Credit:Mast*",
+    "fullname": "Thesis Credits: Master's",
     "info": "(No description)\n\nprereq: Max 18 cr per semester or summer; 10 cr total required [Plan A only]",
     "prereq": []
   },
   {
+    "uid": "7878351",
     "code": "CONS 8888",
     "subject": "CONS",
-    "id": "8888",
-    "title": "Thesis Credit:Doct*",
+    "number": "8888",
+    "name": "Thesis Credit:Doct*",
+    "fullname": "Thesis Credit: Doctoral",
     "info": "Doctoral thesis credit.\n\nprereq: Max 18 cr per semester or summer; 24 cr required; prior to passing written and oral prelims, must have: 1 yr coursework in program; approval on a degree program; 1-2 pg research proposal (approved by adviser) to DGS asst",
     "prereq": []
   }

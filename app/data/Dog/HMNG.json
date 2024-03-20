@@ -1,345 +1,363 @@
 [
   {
+    "uid": "8068151",
     "code": "HMNG 1001",
     "subject": "HMNG",
-    "id": "1001",
-    "title": "Intro to Hmong Language I",
+    "number": "1001",
+    "name": "Intro to Hmong Language I",
+    "fullname": "Introduction to Hmong Language I",
     "info": "Foundations of learning Hmong. Speaking, reading, writing, listening. Communication/interaction, supplemented with grammatical details. Hmong community/culture.",
     "prereq": []
   },
   {
+    "uid": "8068161",
     "code": "HMNG 1002",
     "subject": "HMNG",
-    "id": "1002",
-    "title": "Intro to Hmong Language II",
+    "number": "1002",
+    "name": "Intro to Hmong Language II",
+    "fullname": "Introduction to Hmong Language II",
     "info": "Continuation of 1001. Foundations of learning Hmong. Speaking, reading, writing, listening. Communication/interaction, supplemented with grammatical details. Hmong community/culture.\n\nprereq: 1001 or 1011",
     "prereq": {
       "or": [
         {
           "code": "HMNG 1001",
           "subject": "HMNG",
-          "id": "1001"
+          "number": "1001"
         },
         {
           "code": "HMNG 1011",
           "subject": "HMNG",
-          "id": "1011"
+          "number": "1011"
         }
       ]
     }
   },
   {
+    "uid": "7916011",
     "code": "HMNG 1011",
     "subject": "HMNG",
-    "id": "1011",
-    "title": "Beginning Hmong I",
+    "number": "1011",
+    "name": "Beginning Hmong I",
+    "fullname": "Beginning Hmong I",
     "info": "Listening, speaking, reading, writing skills. Emphasizes development of communicative competence.",
     "prereq": []
   },
   {
+    "uid": "7919221",
     "code": "HMNG 1012",
     "subject": "HMNG",
-    "id": "1012",
-    "title": "Beginning Hmong II",
+    "number": "1012",
+    "name": "Beginning Hmong II",
+    "fullname": "Beginning Hmong II",
     "info": "Continuation of 1011. Listening, speaking, reading, writing skills. Development of communicative competence.\n\nprereq: HMNG 1001 or 1011",
     "prereq": {
       "or": [
         {
           "code": "HMNG 1001",
           "subject": "HMNG",
-          "id": "1001"
+          "number": "1001"
         },
         {
           "code": "HMNG 1011",
           "subject": "HMNG",
-          "id": "1011"
+          "number": "1011"
         }
       ]
     }
   },
   {
+    "uid": "8196881",
     "code": "HMNG 1013",
     "subject": "HMNG",
-    "id": "1013",
-    "title": "Medical Hmong",
+    "number": "1013",
+    "name": "Medical Hmong",
+    "fullname": "Medical Hmong",
     "info": "This online course is designed for students and working professionals interested in learning the Hmong language in relation to the medical field, including but not limited to:\n1. General phrases of greetings and introductions used in interpersonal settings.\n2. Conversational Hmong, geared towards medical topics.\n3. Medical terminology and cultural expressions relating to health and culture.\nNo prior Hmong language background is required and there are no course prerequisites.\nWhile effective communication is essential in all fields of work, it is especially vital in the medical field. This online medical Hmong language course provides opportunities for students to learn and understand Hmong. Emphasis will be on key phrases, vocabulary, and cultural nuances related to the medical field. The course will provide a foundation for speaking, reading, writing, and listening comprehension for individuals interested in working with Hmong-speaking patients, clients, and others in the medical field. Students will have opportunities to learn and apply materials to real-world case scenarios and situations in the medical field.",
     "prereq": []
   },
   {
+    "uid": "7905961",
     "code": "HMNG 1015",
     "subject": "HMNG",
-    "id": "1015",
-    "title": "Accelerated Beginning Hmong",
+    "number": "1015",
+    "name": "Accelerated Beginning Hmong",
+    "fullname": "Accelerated Beginning Hmong",
     "info": "Review of grammar/usage, practice in reading/writing. Introduction to Hmong literature and formal writing. Topics in Hmong culture.\n\nprereq: Ability in basic spoken Hmong",
     "prereq": []
   },
   {
+    "uid": "7906101",
     "code": "HMNG 3016",
     "subject": "HMNG",
-    "id": "3016",
-    "title": "Accelerated Intermediate Hmong",
+    "number": "3016",
+    "name": "Accelerated Intermediate Hmong",
+    "fullname": "Accelerated Intermediate Hmong",
     "info": "Review of grammar/usage, continued practice in reading/writing. Expanded introduction to Hmong literature/formal writing. Selected topics in Hmong culture.\n\nprereq: [1011 and 1012] or 1015 or instr consent",
     "prereq": {
-      "or": [
-        {
-          "and": [
-            {
-              "code": "HMNG 1011",
-              "subject": "HMNG",
-              "id": "1011"
-            },
-            {
-              "code": "HMNG 1012",
-              "subject": "HMNG",
-              "id": "1012"
-            }
-          ]
-        },
-        {
-          "code": "HMNG 1015",
-          "subject": "HMNG",
-          "id": "1015"
-        }
-      ]
+      "code": "HMNG 1015",
+      "subject": "HMNG",
+      "number": "1015"
     }
   },
   {
+    "uid": "7919231",
     "code": "HMNG 3021",
     "subject": "HMNG",
-    "id": "3021",
-    "title": "Intermediate Hmong I",
+    "number": "3021",
+    "name": "Intermediate Hmong I",
+    "fullname": "Intermediate Hmong I",
     "info": "Listening, speaking, reading, writing. Grammar review/elaboration. Authentic texts, cultural readings, basic compositions, oral presentations.\n\nprereq: Hmng 1002 or Hmng 1012 or Hmng 1015",
     "prereq": {
       "or": [
         {
           "code": "HMNG 1002",
           "subject": "HMNG",
-          "id": "1002"
+          "number": "1002"
         },
         {
           "code": "HMNG 1012",
           "subject": "HMNG",
-          "id": "1012"
+          "number": "1012"
         },
         {
           "code": "HMNG 1015",
           "subject": "HMNG",
-          "id": "1015"
+          "number": "1015"
         }
       ]
     }
   },
   {
+    "uid": "7919241",
     "code": "HMNG 3022",
     "subject": "HMNG",
-    "id": "3022",
-    "title": "Intermediate Hmong II",
+    "number": "3022",
+    "name": "Intermediate Hmong II",
+    "fullname": "Intermediate Hmong II",
     "info": "Continuation of 3021. Listening, speaking, reading, writing. Grammar review/elaboration. Authentic texts, cultural readings, basic compositions, oral presentations.\n\nprereq: Hmng 3021",
     "prereq": {
       "code": "HMNG 3021",
       "subject": "HMNG",
-      "id": "3021"
+      "number": "3021"
     }
   },
   {
+    "uid": "8039031",
     "code": "HMNG 3031",
     "subject": "HMNG",
-    "id": "3031",
-    "title": "Advanced Hmong I",
+    "number": "3031",
+    "name": "Advanced Hmong I",
+    "fullname": "Advanced Hmong I",
     "info": "Speaking, listening, reading, writing. Complex vocabularies, sentence structures from Hmong newspapers, magazine, folktales, folk songs, novels, poetry, proverbs, riddles. Concepts/terms from social/ritual settings. Idioms, slang, classifiers.\n\nprereq: 3022 or equiv or instr consent",
     "prereq": {
       "code": "HMNG 3022",
       "subject": "HMNG",
-      "id": "3022"
+      "number": "3022"
     }
   },
   {
+    "uid": "8039051",
     "code": "HMNG 3032",
     "subject": "HMNG",
-    "id": "3032",
-    "title": "Advanced Hmong II",
+    "number": "3032",
+    "name": "Advanced Hmong II",
+    "fullname": "Advanced Hmong II",
     "info": "Speaking, listening, reading, writing. Complex vocabularies, sentence structures from Hmong newspapers, magazine, folktales, folk songs, novels, poetry, proverbs, riddles. Concepts /terms from social/ritual settings. Idioms, slang, classifiers.\n\nprereq: 3031 or equiv or instr consent",
     "prereq": {
       "code": "HMNG 3031",
       "subject": "HMNG",
-      "id": "3031"
+      "number": "3031"
     }
   },
   {
+    "uid": "7987951",
     "code": "HMNG 3290",
     "subject": "HMNG",
-    "id": "3290",
-    "title": "Hmong Teaching Tutorial",
+    "number": "3290",
+    "name": "Hmong Teaching Tutorial",
+    "fullname": "Hmong Language Teaching Tutorial",
     "info": "Students tutor beginning students of Hmong and are part of department's Hmong language team.\n\nprereq: Grade of A in 3022",
     "prereq": {
       "code": "HMNG 3022",
       "subject": "HMNG",
-      "id": "3022"
+      "number": "3022"
     }
   },
   {
+    "uid": "8266971",
     "code": "HMNG 3900",
     "subject": "HMNG",
-    "id": "3900",
-    "title": "Topics in Hmong Literature",
+    "number": "3900",
+    "name": "Topics in Hmong Literature",
+    "fullname": "Topics in Hmong Literature",
     "info": "Topics specified in Course Schedule.",
     "prereq": []
   },
   {
+    "uid": "8105851",
     "code": "HMNG 3993",
     "subject": "HMNG",
-    "id": "3993",
-    "title": "Directed Studies",
+    "number": "3993",
+    "name": "Directed Studies",
+    "fullname": "Directed Studies",
     "info": "Guided individual study of Hmong language or linguistics.\n\nprereq: instr consent, dept consent, college consent",
     "prereq": []
   },
   {
+    "uid": "7940931",
     "code": "HMNG 4001",
     "subject": "HMNG",
-    "id": "4001",
-    "title": "Beg Hmong I for Grad Research",
+    "number": "4001",
+    "name": "Beg Hmong I for Grad Research",
+    "fullname": "Beginning Hmong I for Graduate Student Research",
     "info": "Listening, speaking, reading, writing skills. Emphasizes development of communicative competence. Meets with 1011.",
     "prereq": []
   },
   {
+    "uid": "7940941",
     "code": "HMNG 4002",
     "subject": "HMNG",
-    "id": "4002",
-    "title": "Beg Hmong II for Grad Research",
+    "number": "4002",
+    "name": "Beg Hmong II for Grad Research",
+    "fullname": "Beginning Hmong II for Graduate Student Research",
     "info": "Continuation of 4001. Listening, speaking, reading, writing skills. Development of communicative competence. Meets with 1012.\n\nprereq: 4001",
     "prereq": {
       "code": "HMNG 4001",
       "subject": "HMNG",
-      "id": "4001"
+      "number": "4001"
     }
   },
   {
+    "uid": "7940951",
     "code": "HMNG 4003",
     "subject": "HMNG",
-    "id": "4003",
-    "title": "Intermed Hmong I Grad Research",
+    "number": "4003",
+    "name": "Intermed Hmong I Grad Research",
+    "fullname": "Intermediate Hmong I for Graduate Student Research",
     "info": "Listening, speaking, reading, writing. Grammar review/elaboration. Authentic texts, cultural readings, basic compositions, oral presentations. Meets with 3021.\n\nprereq: 4002",
     "prereq": {
       "code": "HMNG 4002",
       "subject": "HMNG",
-      "id": "4002"
+      "number": "4002"
     }
   },
   {
+    "uid": "7940961",
     "code": "HMNG 4004",
     "subject": "HMNG",
-    "id": "4004",
-    "title": "Intermed Hmong II Grad Resrch",
+    "number": "4004",
+    "name": "Intermed Hmong II Grad Resrch",
+    "fullname": "Intermediate Hmong II for Graduate Student Research",
     "info": "Continuation of 4003. Listening, speaking, reading, writing. Grammar review/elaboration. Authentic texts, cultural readings, basic compositions, oral presentations. Meets with 3022.\n\nprereq: 4003",
     "prereq": {
       "code": "HMNG 4003",
       "subject": "HMNG",
-      "id": "4003"
+      "number": "4003"
     }
   },
   {
+    "uid": "7958141",
     "code": "HMNG 4005",
     "subject": "HMNG",
-    "id": "4005",
-    "title": "Accel Beg Hmong Grad Research",
+    "number": "4005",
+    "name": "Accel Beg Hmong Grad Research",
+    "fullname": "Accelerated Beginning Hmong for Graduate Research",
     "info": "Review of grammar/usage, practice in reading/writing. Introduction to Hmong literature and formal writing. Topics in Hmong culture.\n\nprereq: Ability in basic spoken Hmong",
     "prereq": []
   },
   {
+    "uid": "7958151",
     "code": "HMNG 4006",
     "subject": "HMNG",
-    "id": "4006",
-    "title": "Accel Int Hmong Grad Research",
+    "number": "4006",
+    "name": "Accel Int Hmong Grad Research",
+    "fullname": "Accelerated Intermediate Hmong for Graduate Student Research",
     "info": "Review of proper grammar/usage, practice in reading/writing. Expanded introduction to Hmong literature/formal writing. Topics on Hmong culture.\n\nprereq: [4001 and 4002] or 4005",
     "prereq": {
-      "or": [
-        {
-          "and": [
-            {
-              "code": "HMNG 4001",
-              "subject": "HMNG",
-              "id": "4001"
-            },
-            {
-              "code": "HMNG 4002",
-              "subject": "HMNG",
-              "id": "4002"
-            }
-          ]
-        },
-        {
-          "code": "HMNG 4005",
-          "subject": "HMNG",
-          "id": "4005"
-        }
-      ]
+      "code": "HMNG 4005",
+      "subject": "HMNG",
+      "number": "4005"
     }
   },
   {
+    "uid": "8039041",
     "code": "HMNG 4007",
     "subject": "HMNG",
-    "id": "4007",
-    "title": "Adv Hmong I for Grad Research",
+    "number": "4007",
+    "name": "Adv Hmong I for Grad Research",
+    "fullname": "Advanced Hmong I for Graduate Student Research",
     "info": "Speaking, listening, reading, writing. Complex vocabularies, sentence structures from Hmong newspapers, magazine, folktales, folk songs, novels, poetry, proverbs, riddles. Concepts/terms from social/ritual settings. Idioms, slang, classifiers.\n\nprereq: 4004 or equiv or instr consent",
     "prereq": {
       "code": "HMNG 4004",
       "subject": "HMNG",
-      "id": "4004"
+      "number": "4004"
     }
   },
   {
+    "uid": "8039061",
     "code": "HMNG 4008",
     "subject": "HMNG",
-    "id": "4008",
-    "title": "Adv Hmong II for Grad Research",
+    "number": "4008",
+    "name": "Adv Hmong II for Grad Research",
+    "fullname": "Advanced Hmong II for Graduate Student Research",
     "info": "Speaking, listening, reading, writing. Complex vocabularies, sentence structures from Hmong newspapers, magazine, folktales, folk songs, novels, poetry, proverbs, riddles. Concepts/terms from social/ritual settings. Idioms, slang, classifiers.\n\nprereq: 4007 or equiv or instr consent",
     "prereq": {
       "code": "HMNG 4007",
       "subject": "HMNG",
-      "id": "4007"
+      "number": "4007"
     }
   },
   {
+    "uid": "8104621",
     "code": "HMNG 4101",
     "subject": "HMNG",
-    "id": "4101",
-    "title": "Intro Hmong Lang I Grad Resrch",
+    "number": "4101",
+    "name": "Intro Hmong Lang I Grad Resrch",
+    "fullname": "Introduction to Hmong Language I for Graduate Student Research",
     "info": "Foundations of learning Hmong. Speaking, reading, writing, listening. Communication/interaction, supplemented with grammatical details. Hmong community/culture. Meets with 1001.",
     "prereq": []
   },
   {
+    "uid": "8104631",
     "code": "HMNG 4102",
     "subject": "HMNG",
-    "id": "4102",
-    "title": "Intro Hmong Lang II Grad Rsrch",
+    "number": "4102",
+    "name": "Intro Hmong Lang II Grad Rsrch",
+    "fullname": "Introduction to Hmong Language II for Graduate Student Research",
     "info": "Continuation of HMNG 4101. Foundations of learning Hmong. Speaking, reading, writing, listening. Communication/interaction, supplemented with grammatical details. Hmong community/culture. Meets with 1002.",
     "prereq": []
   },
   {
+    "uid": "7954071",
     "code": "HMNG 5040",
     "subject": "HMNG",
-    "id": "5040",
-    "title": "Readings in Hmong Texts",
+    "number": "5040",
+    "name": "Readings in Hmong Texts",
+    "fullname": "Readings in Hmong Texts",
     "info": "Comprehensive, multidimensional overview of Hmong oral forms/traditions. Hmong legends, mythology, folksongs, birth, marriage/funeral rites. History, social/cultural anthropology. Values, life ways of traditional village society. Societal changes resulting from emigration to U.S.",
     "prereq": []
   },
   {
+    "uid": "8187821",
     "code": "HMNG 5041",
     "subject": "HMNG",
-    "id": "5041",
-    "title": "Hmong Social & Cultural Exprnc",
+    "number": "5041",
+    "name": "Hmong Social & Cultural Exprnc",
+    "fullname": "Readings in Hmong Social and Cultural Experience",
     "info": "Students read a variety of authentic texts in Hmong, ranging from traditional folklore, folksongs, stories, research, news articles, and more. Utilizing these authentic texts, students will have in-depth discussions on Hmong literature, vocabulary, language applications and social/cultural structures. In-class discussions focus on language use, social interpretations of texts, and social applications. Class is conducted 80% Hmong, and 20% English.\n\nprereq: HMNG 3031 or instructor consent",
     "prereq": {
       "code": "HMNG 3031",
       "subject": "HMNG",
-      "id": "3031"
+      "number": "3031"
     }
   },
   {
+    "uid": "8254451",
     "code": "HMNG 5993",
     "subject": "HMNG",
-    "id": "5993",
-    "title": "Directed Studies",
+    "number": "5993",
+    "name": "Directed Studies",
+    "fullname": "Directed Studies",
     "info": "Guided individual study of Hmong language or linguistics.\n\nprereq: instr consent, dept consent, college consent",
     "prereq": []
   }

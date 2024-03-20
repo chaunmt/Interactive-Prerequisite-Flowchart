@@ -1,969 +1,1199 @@
 [
   {
+    "uid": "0081601",
     "code": "GER 1001",
     "subject": "GER",
-    "id": "1001",
-    "title": "Beginning German",
+    "number": "1001",
+    "name": "Beginning German",
+    "fullname": "Beginning German",
     "info": "Emphasis on working toward novice-intermediate low proficiency in all four language modalities (listening, reading, speaking, writing).  Topics include everyday subjects (shopping, directions, family, food, housing, etc.).",
     "prereq": []
   },
   {
+    "uid": "0083541",
     "code": "GER 1002",
     "subject": "GER",
-    "id": "1002",
-    "title": "Beginning German",
+    "number": "1002",
+    "name": "Beginning German",
+    "fullname": "Beginning German",
     "info": "Listening, reading, speaking, writing. Emphasizes proficiency. Topics include free-time activities, careers, and culture of German-speaking areas.prereq: 1001",
     "prereq": {
       "code": "GER 1001",
       "subject": "GER",
-      "id": "1001"
+      "number": "1001"
     }
   },
   {
+    "uid": "0083611",
     "code": "GER 1003",
     "subject": "GER",
-    "id": "1003",
-    "title": "Intermediate German",
+    "number": "1003",
+    "name": "Intermediate German",
+    "fullname": "Intermediate German",
     "info": "Listening, reading, speaking, writing. Contextualized grammar/vocabulary. Authentic readings. Essay assignments.prereq: 1002 or Entrance Proficiency Test",
     "prereq": {
       "code": "GER 1002",
       "subject": "GER",
-      "id": "1002"
+      "number": "1002"
     }
   },
   {
+    "uid": "0083621",
     "code": "GER 1004",
     "subject": "GER",
-    "id": "1004",
-    "title": "Intermediate German",
+    "number": "1004",
+    "name": "Intermediate German",
+    "fullname": "Intermediate German",
     "info": "Listening, reading, speaking, writing. Contextualized grammar/vocabulary. Authentic readings. Essay assignments.prereq: 1003 or completion of Entrance Proficiency Test at 1004 level",
     "prereq": {
       "code": "GER 1003",
       "subject": "GER",
-      "id": "1003"
+      "number": "1003"
     }
   },
   {
+    "uid": "7879091",
     "code": "GER 1020",
     "subject": "GER",
-    "id": "1020",
-    "title": "Beginning German Conversation",
+    "number": "1020",
+    "name": "Beginning German Conversation",
+    "fullname": "Beginning German Conversation",
     "info": "Maintaining language skills through conversational practice. Emphasizes speaking skills, but also includes listening, reading, writing. Reviews essential grammatical structures.",
     "prereq": []
   },
   {
+    "uid": "0085391",
     "code": "GER 1022",
     "subject": "GER",
-    "id": "1022",
-    "title": "Beg German Review",
+    "number": "1022",
+    "name": "Beg German Review",
+    "fullname": "Beginning German Review",
     "info": "Intended for students with previous experience in German, primarily those who have studied German in high school or at community colleges, or who are transfer students.  Intensive review of all four language modalities (listening, reading, speaking, writing), with a proficiency emphasis to prepare for German 1003.\n\nprereq: Placement above 1001",
     "prereq": {
       "code": "GER 1001",
       "subject": "GER",
-      "id": "1001"
+      "number": "1001"
     }
   },
   {
+    "uid": "0083841",
     "code": "GER 1024",
     "subject": "GER",
-    "id": "1024",
-    "title": "Adv Intermed German",
+    "number": "1024",
+    "name": "Adv Intermed German",
+    "fullname": "Advanced Intermediate German",
     "info": "Intended for students who have not taken the Graduation Proficiency Test and need a review before taking it. Emphasis on developing intermediate mid-high proficiency in listening, reading, speaking, and writing. Contextualized work on grammar and vocabulary is supported by authentic readings and essay assignments.",
     "prereq": []
   },
   {
+    "uid": "7879101",
     "code": "GER 1030",
     "subject": "GER",
-    "id": "1030",
-    "title": "Intermed Ger Reading/Writing",
+    "number": "1030",
+    "name": "Intermed Ger Reading/Writing",
+    "fullname": "Intermediate German: Reading and Writing",
     "info": "Consolidating/developing reading/writing skills.",
     "prereq": []
   },
   {
+    "uid": "8191001",
     "code": "GER 1551",
     "subject": "GER",
-    "id": "1551",
-    "title": "Sustainability in Germany",
+    "number": "1551",
+    "name": "Sustainability in Germany",
+    "fullname": "Sustainability in Germany: Recreation, Education, Innovation",
     "info": "How has Germany responded to the grand challenge of climate-change? In what ways are perspectives on climate change & sustainability reflected in everyday culture? This course is designed for students to seek answers to these questions by experiencing life in Germany first-hand. During the first part of the course, you will review concepts & vocabulary related to climate change & sustainability, learn about the stages of intercultural development, reflect on your own cultural identity, practice conversational speaking in German, & prepare to immerse yourself in a foreign country. In May, you will apply what you learned as you travel to Freiburg & Munich. There you will see innovative technologies developed to lower CO2 emissions & talk with students, teachers, & business owners to learn about green communities that promote sustainable living.  Finally, you will reflect on your own intercultural development as well as how approaches in Germany to climate change differ or are similar to those in your own country.\nprereq: Ger 1003 or equivalent; may be concurrently enrolled in 1003\n",
     "prereq": {
-      "code": "GER 1003",
-      "subject": "GER",
-      "id": "1003"
+      "or": [
+        {
+          "code": "GER 1003",
+          "subject": "GER",
+          "number": "1003"
+        },
+        {
+          "code": "GER 1003",
+          "subject": "GER",
+          "number": "1003"
+        }
+      ]
     }
   },
   {
+    "uid": "7929261",
     "code": "GER 1601",
     "subject": "GER",
-    "id": "1601",
-    "title": "Fleeing Hitler: Ger Filmmakers",
+    "number": "1601",
+    "name": "Fleeing Hitler: Ger Filmmakers",
+    "fullname": "Fleeing Hitler: German and Austrian Filmmakers Between Europe and Hollywood",
     "info": "German/American films by famous directors who left Europe in Nazi period.  Analysis of films by Fritz Lang, Max Ophuls, Robert Siodmak, Otto Preminger, Billy Wilder, Douglas Sirk, and others. Films as art works and as cultural products of particular social, political, and historical moments.",
     "prereq": []
   },
   {
+    "uid": "8081221",
     "code": "GER 1904",
     "subject": "GER",
-    "id": "1904",
-    "title": "Freshman Seminar",
+    "number": "1904",
+    "name": "Freshman Seminar",
+    "fullname": "Freshman Seminar",
     "info": "Topics specified in Class Schedule.",
     "prereq": []
   },
   {
+    "uid": "7975681",
     "code": "GER 1905",
     "subject": "GER",
-    "id": "1905",
-    "title": "Freshman Seminar",
+    "number": "1905",
+    "name": "Freshman Seminar",
+    "fullname": "Freshman Seminar",
     "info": "Topics specified in Class Schedule.",
     "prereq": []
   },
   {
+    "uid": "7901561",
     "code": "GER 1909W",
     "subject": "GER",
-    "id": "1909W",
-    "title": "Freshman Seminar",
+    "number": "1909W",
+    "name": "Freshman Seminar",
+    "fullname": "Freshman Seminar",
     "info": "Topics specified in Class Schedule.",
     "prereq": []
   },
   {
+    "uid": "7911321",
     "code": "GER 1910W",
     "subject": "GER",
-    "id": "1910W",
-    "title": "Freshman Seminar",
+    "number": "1910W",
+    "name": "Freshman Seminar",
+    "fullname": "Freshman Seminar",
     "info": "Topics specified in Class Schedule.\n\nprereq: freshman",
     "prereq": []
   },
   {
+    "uid": "8170881",
     "code": "GER 1911W",
     "subject": "GER",
-    "id": "1911W",
-    "title": "Post-Holocaust Berlin",
+    "number": "1911W",
+    "name": "Post-Holocaust Berlin",
+    "fullname": "Film, Art, & Memory: Post-Holocaust Berlin",
     "info": "This freshman seminar abroad will explore Berlin and its history while studying how post-Holocaust Berlin has engaged in a complex inquiry into its past. We will focus on how memory of the Holocaust is still present in Germany. During spring break in Berlin, the vibrant cultural, political, and film capital of Germany, we will learn about the complex layers of historical and cultural memory in Berlin through exploring a number of important film and visual art projects. Among other sites we will visit are the Olympic Stadium, the Jewish Museum, the Monument to the Murdered Jews of Europe, remnants of the Berlin Wall, and public art projects that reflect on histories of trauma. There are few cities so scarred by a traumatic history and so often reborn—and so well documented by films from the entire span of the 20th century and into the new one. This course will look at some of those films and the city in which they were made. At home and abroad, we will discuss how German visual culture has been intertwined with German history and politics, and how that role has evolved over time.",
     "prereq": []
   },
   {
+    "uid": "8198481",
     "code": "GER 1912",
     "subject": "GER",
-    "id": "1912",
-    "title": "Oktoberfest: Fact and Fiction",
+    "number": "1912",
+    "name": "Oktoberfest: Fact and Fiction",
+    "fullname": "Oktoberfest: Fact and Fiction",
     "info": "This freshmen seminar examines the Bavarian Volksfest Oktoberfest from its origins to present day. Beyond the images of the American imagination, Oktoberfest is a complicated festival. Students will explore different facets each week including: gender and rape culture, race and \\\"Italian weekend,\\\" money, and the impact the festival has on the city itself.",
     "prereq": []
   },
   {
+    "uid": "0081521",
     "code": "GER 222",
     "subject": "GER",
-    "id": "222",
-    "title": "Reading German",
+    "number": "222",
+    "name": "Reading German",
+    "fullname": "Reading German",
     "info": "Teaches only a reading knowledge of German. Enables graduate students to satisfy departmental requirements for an advanced degree. Intensive reading of German scholarly texts. Emphasizes reading, grammar, some listening, discipline-specific vocabulary.",
     "prereq": []
   },
   {
+    "uid": "0086391",
     "code": "GER 3011W",
     "subject": "GER",
-    "id": "3011W",
-    "title": "Conversation & Comp",
+    "number": "3011W",
+    "name": "Conversation & Comp",
+    "fullname": "Conversation and Composition",
     "info": "Achieving proficiency in professional or academic German. Refinement of oral/written expression. Review of important communicative modes of language. Wide range of topics to develop advanced level of proficiency.\n\nprereq: 1004",
     "prereq": {
       "code": "GER 1004",
       "subject": "GER",
-      "id": "1004"
+      "number": "1004"
     }
   },
   {
+    "uid": "0088651",
     "code": "GER 3012W",
     "subject": "GER",
-    "id": "3012W",
-    "title": "Conversation & Comp",
+    "number": "3012W",
+    "name": "Conversation & Comp",
+    "fullname": "Conversation and Composition",
     "info": "Prepares students for upper-level language and content courses in German. Continues the same focus and approach as 3011 with the addition of a larger reading component.\n\nprereq: 3011W",
     "prereq": {
       "code": "GER 3011",
       "subject": "GER",
-      "id": "3011"
+      "number": "3011"
     }
   },
   {
+    "uid": "0090031",
     "code": "GER 3014",
     "subject": "GER",
-    "id": "3014",
-    "title": "German Media",
+    "number": "3014",
+    "name": "German Media",
+    "fullname": "German Media",
     "info": "Introduction to German language media. German language newspaper/magazine articles. The Internet. Radio/TV broadcasts. Structure/style of journalistic prose.\n\nprereq: 3011",
     "prereq": {
       "code": "GER 3011",
       "subject": "GER",
-      "id": "3011"
+      "number": "3011"
     }
   },
   {
+    "uid": "0090051",
     "code": "GER 3015",
     "subject": "GER",
-    "id": "3015",
-    "title": "Professional German",
+    "number": "3015",
+    "name": "Professional German",
+    "fullname": "Professional German",
     "info": "Introduction to scholarly/professional German. Technical terminology/structures in social science articles/textbooks. Prepares students for Foreign Language Immersion Program (FLIP).",
     "prereq": []
   },
   {
+    "uid": "0090091",
     "code": "GER 3016",
     "subject": "GER",
-    "id": "3016",
-    "title": "Techniques of Translation",
+    "number": "3016",
+    "name": "Techniques of Translation",
+    "fullname": "Techniques of Translation",
     "info": "Theory/practice of translation from/to German in various genres. Idiomatics, stylistics, and cross-cultural aspects of translation.\n\nprereq: 3011",
     "prereq": {
       "code": "GER 3011",
       "subject": "GER",
-      "id": "3011"
+      "number": "3011"
     }
   },
   {
+    "uid": "0090101",
     "code": "GER 3017",
     "subject": "GER",
-    "id": "3017",
-    "title": "Adv Comm Skills",
+    "number": "3017",
+    "name": "Adv Comm Skills",
+    "fullname": "Advanced Communication Skills",
     "info": "Learning strategies for approaching academic language in texts/lectures in FLIP courses.",
     "prereq": []
   },
   {
+    "uid": "0090111",
     "code": "GER 3021",
     "subject": "GER",
-    "id": "3021",
-    "title": "Business German",
+    "number": "3021",
+    "name": "Business German",
+    "fullname": "Business German",
     "info": "German economy, business culture. Practice of  language used in  business. Reading/discussion of German business documents. Preparation of formal letters and reports.\n\nprereq: 3011 or equiv",
     "prereq": {
       "code": "GER 3011",
       "subject": "GER",
-      "id": "3011"
+      "number": "3011"
     }
   },
   {
+    "uid": "7900211",
     "code": "GER 3022",
     "subject": "GER",
-    "id": "3022",
-    "title": "Advanced Business German",
+    "number": "3022",
+    "name": "Advanced Business German",
+    "fullname": "Advanced Business German",
     "info": "Provides more intensive training in vocabulary and practices of German business in such areas as banking, trade, import/export, business management, marketing. Prepares students for the \\\"International Test of Business German.\\\"",
     "prereq": []
   },
   {
+    "uid": "0103071",
     "code": "GER 3104W",
     "subject": "GER",
-    "id": "3104W",
-    "title": "Rdg & Anlys Ger Lit",
+    "number": "3104W",
+    "name": "Rdg & Anlys Ger Lit",
+    "fullname": "Reading and Analysis of German Literature",
     "info": "Introduction to literary analysis. Readings from drama, prose, and lyric poetry, from 18th century to present.\n\nprereq: 3011",
     "prereq": {
       "code": "GER 3011",
       "subject": "GER",
-      "id": "3011"
+      "number": "3011"
     }
   },
   {
+    "uid": "0099461",
     "code": "GER 3410",
     "subject": "GER",
-    "id": "3410",
-    "title": "Literature to 1750",
+    "number": "3410",
+    "name": "Literature to 1750",
+    "fullname": "German Literature Before 1750",
     "info": "Representative literary texts of German High Middle Ages, Renaissance, Reformation, and the Baroque, in cultural-historical context. Readings in modern German translation or English.\n\nprereq: 3011",
     "prereq": {
       "code": "GER 3011",
       "subject": "GER",
-      "id": "3011"
+      "number": "3011"
     }
   },
   {
+    "uid": "0090121",
     "code": "GER 3421",
     "subject": "GER",
-    "id": "3421",
-    "title": "18th-Century Lit",
+    "number": "3421",
+    "name": "18th-Century Lit",
+    "fullname": "18th-Century German Literature",
     "info": "German literature, 1720-1810, Enlightenment/Weimar classicism in historical/cultural context. Reading/discussion of literary/philosophical works, aesthetic criticism.\n\nprereq: 3011",
     "prereq": {
       "code": "GER 3011",
       "subject": "GER",
-      "id": "3011"
+      "number": "3011"
     }
   },
   {
+    "uid": "0090141",
     "code": "GER 3431",
     "subject": "GER",
-    "id": "3431",
-    "title": "19th-Century Lit",
+    "number": "3431",
+    "name": "19th-Century Lit",
+    "fullname": "19th-Century Literature",
     "info": "Literary/cultural exploration of 19th-century German literature through an investigation of romanticism, realism, and naturalism. Reading/discussion of literary/critical texts.\n\nprereq: 3011",
     "prereq": {
       "code": "GER 3011",
       "subject": "GER",
-      "id": "3011"
+      "number": "3011"
     }
   },
   {
+    "uid": "0090151",
     "code": "GER 3441",
     "subject": "GER",
-    "id": "3441",
-    "title": "20th-/21st-Century Literature",
+    "number": "3441",
+    "name": "20th-/21st-Century Literature",
+    "fullname": "20th-/21st-Century Literature",
     "info": "German literature, from 1890 to present, in historical, political, social, and cultural context.\n\nprereq: 3011",
     "prereq": {
       "code": "GER 3011",
       "subject": "GER",
-      "id": "3011"
+      "number": "3011"
     }
   },
   {
+    "uid": "0090461",
     "code": "GER 3460",
     "subject": "GER",
-    "id": "3460",
-    "title": "Ger Women Writers",
+    "number": "3460",
+    "name": "Ger Women Writers",
+    "fullname": "Women Writers in German Literature",
     "info": "Literary/historical investigation of selected German women writers, from perspectives of feminist theory, gender studies, and cultural studies/theory. Approaches may be thematic, generic, or chronological.",
     "prereq": []
   },
   {
+    "uid": "0085011",
     "code": "GER 3490",
     "subject": "GER",
-    "id": "3490",
-    "title": "Topics in German Literature",
+    "number": "3490",
+    "name": "Topics in German Literature",
+    "fullname": "Topics in German Literature",
     "info": "Intensive exploration of specific authors, literary genres, or literary topics not covered in period courses.",
     "prereq": []
   },
   {
+    "uid": "0090161",
     "code": "GER 3501",
     "subject": "GER",
-    "id": "3501",
-    "title": "Contemporary Germany",
+    "number": "3501",
+    "name": "Contemporary Germany",
+    "fullname": "Contemporary Germany",
     "info": "Social, political, and cultural developments in Germany, from 1945 to present.",
     "prereq": []
   },
   {
+    "uid": "0090171",
     "code": "GER 3510",
     "subject": "GER",
-    "id": "3510",
-    "title": "Topics in German Studies",
+    "number": "3510",
+    "name": "Topics in German Studies",
+    "fullname": "Topics in German Studies",
     "info": "One topic in depth dealing with culture or civilization of German-speaking countries.\n\nprereq: 3011",
     "prereq": {
       "code": "GER 3011",
       "subject": "GER",
-      "id": "3011"
+      "number": "3011"
     }
   },
   {
+    "uid": "0090181",
     "code": "GER 3520",
     "subject": "GER",
-    "id": "3520",
-    "title": "Topics in Austrian Culture",
+    "number": "3520",
+    "name": "Topics in Austrian Culture",
+    "fullname": "Topics in Austrian and Central European Culture",
     "info": "Culture, politics, and economy in Austria and Central Europe. Comparative analysis of cultural/political developments. Topics vary.\n\nprereq: 3011",
     "prereq": {
       "code": "GER 3011",
       "subject": "GER",
-      "id": "3011"
+      "number": "3011"
     }
   },
   {
+    "uid": "0090191",
     "code": "GER 3531",
     "subject": "GER",
-    "id": "3531",
-    "title": "Ger Intellct Hist",
+    "number": "3531",
+    "name": "Ger Intellct Hist",
+    "fullname": "Selected Writings in German Intellectual History",
     "info": "Philosophical writings on culture, history, and art. Authors include Lessing, Schiller, Kant, Hegel, Marx, Nietzsche, and Freud.\n\nprereq: 3011",
     "prereq": {
       "code": "GER 3011",
       "subject": "GER",
-      "id": "3011"
+      "number": "3011"
     }
   },
   {
+    "uid": "8191011",
     "code": "GER 3551",
     "subject": "GER",
-    "id": "3551",
-    "title": "Sustainability in Germany",
+    "number": "3551",
+    "name": "Sustainability in Germany",
+    "fullname": "Sustainability in Germany: Recreation, Education, Innovation",
     "info": "How has Germany responded to the grand challenge of climate-change? In what ways are perspectives on climate change & sustainability reflected in everyday culture? This course is designed for students to seek answers to these questions by experiencing life in Germany first-hand. During the first part of the course, you will review concepts & vocabulary related to climate change & sustainability, learn about the stages of intercultural development, reflect on your own cultural identity, practice conversational speaking in German, & prepare to immerse yourself in a foreign country. In May, you will apply what you learned as you travel to Freiburg & Munich. There you will see innovative technologies developed to lower CO2 emissions & talk with students, teachers, & business owners to learn about green communities that promote sustainable living. Finally, you will reflect on your own intercultural development as well as how approaches in Germany to climate change differ or are similar to those in your own country. \nprereq: Ger 3011 or equivalent; may be concurrently enrolled in 3011",
     "prereq": {
-      "code": "GER 3011",
-      "subject": "GER",
-      "id": "3011"
+      "or": [
+        {
+          "code": "GER 3011",
+          "subject": "GER",
+          "number": "3011"
+        },
+        {
+          "code": "GER 3011",
+          "subject": "GER",
+          "number": "3011"
+        }
+      ]
     }
   },
   {
+    "uid": "0085021",
     "code": "GER 3593",
     "subject": "GER",
-    "id": "3593",
-    "title": "Directed Studies",
+    "number": "3593",
+    "name": "Directed Studies",
+    "fullname": "Directed Studies: German-Speaking Countries",
     "info": "Preparation for research abroad during semester before departure. Written/oral reports upon return.\n\nprereq: 3011, dept consent",
     "prereq": {
       "code": "GER 3011",
       "subject": "GER",
-      "id": "3011"
+      "number": "3011"
     }
   },
   {
+    "uid": "0101741",
     "code": "GER 3601",
     "subject": "GER",
-    "id": "3601",
-    "title": "Medieval Literature",
+    "number": "3601",
+    "name": "Medieval Literature",
+    "fullname": "German Medieval Literature",
     "info": "Literary investigation of the greatest works of medieval German poetry. Readings in English.  Majors will be required to write a paper with  use of secondary sources in English and German.\n\nprereq: No knowledge of German required",
     "prereq": []
   },
   {
+    "uid": "0105321",
     "code": "GER 3604W",
     "subject": "GER",
-    "id": "3604W",
-    "title": "Intro Ger Cinema",
+    "number": "3604W",
+    "name": "Intro Ger Cinema",
+    "fullname": "Introduction to German Cinema",
     "info": "An introduction to the study of German cinema, with a focus on the relation between German film and German history, literature, culture, and politics.",
     "prereq": []
   },
   {
+    "uid": "0090201",
     "code": "GER 3610",
     "subject": "GER",
-    "id": "3610",
-    "title": "German Lit in Translation",
+    "number": "3610",
+    "name": "German Lit in Translation",
+    "fullname": "German Literature in Translation",
     "info": "In-depth study of authors or topics from various periods in German literature.\n\nprereq: No knowledge of German required; cr toward major or minor requires reading in German",
     "prereq": []
   },
   {
+    "uid": "0084541",
     "code": "GER 3631",
     "subject": "GER",
-    "id": "3631",
-    "title": "Jews, Germans, Race, Memory",
+    "number": "3631",
+    "name": "Jews, Germans, Race, Memory",
+    "fullname": "Jewish and German Writing at the Margins: Multilingualism, Race, Memory",
     "info": "How are minority stories, novels, and poems constructed at the margins of a majority culture’s language? This course addresses this question by exploring the complexity of Jewish culture in modernity, with a focus on 20th and 21st century German and American literature. We will first tackle the open-ended and endlessly productive question of what is meant by Jewish culture. What is a Jewish writer and is there such a thing as Jewish writing? What makes a text \\\"Jewish\\\"? How do Jewish authors challenge the assumptions of majority culture in their work? What role do multilingualism and translation play in the formation of Jewish cultures at the margins? We will trace the lines of affinity between the U.S. and Europe to explore the entangled histories of Germans and Jews, and between German Jews and Turkish Germans, as we look at works that challenge and expand the definition of Jewishness in the 20th century. Additional topics to be considered include how the legacies of American slavery and European colonialism shape our understandings of the Nazi genocide of the Jews, and whether Jewish writing should be understood under the rubric of \\\"whiteness.\\\" Moving beyond the approach to German Jewish literary studies anchored in Weimar Germany, we will explore the circulation of Jewish memory between Europe and the U.S. in the aftermath of the Holocaust. We will read works by, among others, Franz Kafka, Paul Celan, Gershon Scholem, Hannah Arendt, Benjamin Stein, Walter Benjamin, Barbara Honigmann, Hélène Cixous, Raymond Federman, W.G. Sebald, Allen Ginsberg, Adeena Karasick, Alfred Kazin, Saul Bellow, Philip Roth, Bernard Malamud, Avram Sutzkever, Zafer Şenocak.\n\nprereq: No knowledge of German required; some work in German must be done in order to count this course toward a German minor or a German, Scandinavian, Dutch major.",
     "prereq": []
   },
   {
+    "uid": "8167621",
     "code": "GER 3633",
     "subject": "GER",
-    "id": "3633",
-    "title": "The Holocaust",
+    "number": "3633",
+    "name": "The Holocaust",
+    "fullname": "The Holocaust: Memory, Narrative, History",
     "info": "Decades after the end of the second world war, the Holocaust continues to play a formative role in public discourse about the past in Germany and Austria. As the event itself recedes into the past, our knowledge about the Holocaust has become increasingly shaped by literary and filmic representations of it. This course has several objectives: first, to deepen students' historical knowledge of the events and experiences of the Holocaust, and at the same time to introduce critical models for examining the relationship between personal experience, historical events, and forms of representation. This class will introduce students to the debates about the politics of memory and the artistic representation of the Holocaust, with special focus on public debates about the complex ways in which Holocaust memory surfaces in contemporary Germany and Austria, and by the accrual of layers of text and discourse about the Holocaust. We will explore the controversies and debates about public Holocaust memorialization in Germany, Austria, and the U.S. We will also explore the complex interplay between documentary and fictional accounts of the Holocaust, with attention paid to literary and film texts that challenge and \\\"remediate\\\" the limits of Holocaust representation. Additional topics will include Holocaust testimony; Holocaust memoirs, and 2nd and 3rd generation Holocaust literature, the Historians' Debate of the 1980s.\n\nNo knowledge of German required.",
     "prereq": []
   },
   {
+    "uid": "0084681",
     "code": "GER 3634",
     "subject": "GER",
-    "id": "3634",
-    "title": "Women, Nonbinary Ger Authors",
+    "number": "3634",
+    "name": "Women, Nonbinary Ger Authors",
+    "fullname": "Women & Nonbinary German Authors: Cultural History & Constructing Selves through Narrative & Media",
     "info": "Examination of narrative texts and media by women and nonbinary German writers against a background of the cultural history of Germany spanning the 18th through the 20th century. Focus on personal narrative texts, both written and visual, and readings in literary and cultural theory and history. All readings in English.",
     "prereq": []
   },
   {
+    "uid": "0101881",
     "code": "GER 3641",
     "subject": "GER",
-    "id": "3641",
-    "title": "German Folklore",
+    "number": "3641",
+    "name": "German Folklore",
+    "fullname": "German Folklore",
     "info": "Literary and cultural investigation of the main folklore genres: charms, legends, folktales, and ballads; their composition, origin, and role in society with a strong emphasis on their international character. Readings in English.  Majors required to write a paper with use of secondary sources in English and German.\n\nprereq: No knowledge of German required; cr for major or minor by arrangement with instructor",
     "prereq": []
   },
   {
+    "uid": "0084651",
     "code": "GER 3642",
     "subject": "GER",
-    "id": "3642",
-    "title": "Grimms' Fairy Tales Then & Now",
+    "number": "3642",
+    "name": "Grimms' Fairy Tales Then & Now",
+    "fullname": "The Grimms' Fairy Tales, Then & Now",
     "info": "Exploration and cultural background of the Grimms' fairy tales and investigation of how various folktale types developed and became classical models for children and adults. The genre of the literary fairy tale in Germany, Europe, and North America. Comparisons of original literary versions with contemporary tales. All readings in English.",
     "prereq": []
   },
   {
+    "uid": "8099361",
     "code": "GER 3651",
     "subject": "GER",
-    "id": "3651",
-    "title": "Environment and German Lit",
+    "number": "3651",
+    "name": "Environment and German Lit",
+    "fullname": "Thinking Environment: Green Culture, German Literature and Global Debates",
     "info": "How environmental thinking became social-political force through German literature/culture, with comparisons to global or U.S. developments. Authors include Goethe, Christa Wolf, Enzensberger.",
     "prereq": []
   },
   {
+    "uid": "8133421",
     "code": "GER 3655",
     "subject": "GER",
-    "id": "3655",
-    "title": "Control/Surveillanc:Germany/US",
+    "number": "3655",
+    "name": "Control/Surveillanc:Germany/US",
+    "fullname": "Cultures of Control and Surveillance in Germany and the US",
     "info": "Discourses and practices of social control and surveillance in comparative/historical perspective. Explores the central conceptual condition for modern ethics: the relationship between individual and society. Paintings, manuals, scholarly and philosophical essays, and literary texts including writings by Franz Kafka.",
     "prereq": []
   },
   {
+    "uid": "8263481",
     "code": "GER 3661",
     "subject": "GER",
-    "id": "3661",
-    "title": "African Americans in Germany",
+    "number": "3661",
+    "name": "African Americans in Germany",
+    "fullname": "African Americans in Germany",
     "info": "How have African Americans understood their experiences with race outside of the United States? African Americans have been migrating and circulating the globe since the American Revolution, and it is only recently that scholars have considered the ways in which an abroad experience has been transformative for African Americans. In this seminar style class, we will explore why and how African Americans have used their experiences in Germany to express a new understanding of their identity in the United States.",
     "prereq": []
   },
   {
+    "uid": "0102411",
     "code": "GER 3701",
     "subject": "GER",
-    "id": "3701",
-    "title": "Hist of German Lang",
+    "number": "3701",
+    "name": "Hist of German Lang",
+    "fullname": "History of the German Language",
     "info": "Change in grammar and lexicon, 750 A.D. to present.\n\nprereq: 1004",
     "prereq": {
       "code": "GER 1004",
       "subject": "GER",
-      "id": "1004"
+      "number": "1004"
     }
   },
   {
+    "uid": "0102541",
     "code": "GER 3702",
     "subject": "GER",
-    "id": "3702",
-    "title": "Beg Middle High Ger",
+    "number": "3702",
+    "name": "Beg Middle High Ger",
+    "fullname": "Beginning Middle High German",
     "info": "Middle High German grammar. Selected literary texts.\n\nprereq: 1004",
     "prereq": {
       "code": "GER 1004",
       "subject": "GER",
-      "id": "1004"
+      "number": "1004"
     }
   },
   {
+    "uid": "0102631",
     "code": "GER 3703",
     "subject": "GER",
-    "id": "3703",
-    "title": "Old High & Low Ger",
+    "number": "3703",
+    "name": "Old High & Low Ger",
+    "fullname": "Introduction to Old High and Low German",
     "info": "Biographies, charms, heroic poetry, and miscellany from the 9th and 10th centuries.",
     "prereq": []
   },
   {
+    "uid": "0102681",
     "code": "GER 3704",
     "subject": "GER",
-    "id": "3704",
-    "title": "German Dialects",
+    "number": "3704",
+    "name": "German Dialects",
+    "fullname": "German Dialects",
     "info": "Contemporary regional dialects recorded on tape and written in texts. Synchronic and diachronic analysis.\n\nprereq: 1004",
     "prereq": {
       "code": "GER 1004",
       "subject": "GER",
-      "id": "1004"
+      "number": "1004"
     }
   },
   {
+    "uid": "0102711",
     "code": "GER 3705",
     "subject": "GER",
-    "id": "3705",
-    "title": "Proto-Germanic",
+    "number": "3705",
+    "name": "Proto-Germanic",
+    "fullname": "Characteristics of the Germanic Languages",
     "info": "German and North Sea Germanic; West, North, and East Germanic; Proto-Germanic and Indo-European.",
     "prereq": []
   },
   {
+    "uid": "0100341",
     "code": "GER 3993",
     "subject": "GER",
-    "id": "3993",
-    "title": "Directed Studies",
+    "number": "3993",
+    "name": "Directed Studies",
+    "fullname": "Directed Studies",
     "info": "Guided individual reading or study.\nPrereq instr consent, dept consent, college consent.",
     "prereq": []
   },
   {
+    "uid": "7984721",
     "code": "GER 4001",
     "subject": "GER",
-    "id": "4001",
-    "title": "Beginning German Grad Research",
+    "number": "4001",
+    "name": "Beginning German Grad Research",
+    "fullname": "Beginning German for Graduate Research",
     "info": "Emphasis on working toward novice-intermediate low proficiency in all four language modalities (listening, reading, speaking, writing). Topics include everyday subjects (shopping, directions, family, food, housing, etc.). Meets concurrently with 1001. \n\nprereq: Grad student",
     "prereq": []
   },
   {
+    "uid": "7984731",
     "code": "GER 4002",
     "subject": "GER",
-    "id": "4002",
-    "title": "Beginning German Grad Research",
+    "number": "4002",
+    "name": "Beginning German Grad Research",
+    "fullname": "Beginning German for Graduate Research",
     "info": "Listening, reading, speaking, writing. Emphasizes proficiency. Topics include free-time activities, careers, and culture of German-speaking areas. Meets concurrently with 1002.prereq: Grad student",
     "prereq": []
   },
   {
+    "uid": "7984741",
     "code": "GER 4003",
     "subject": "GER",
-    "id": "4003",
-    "title": "Intermed German Grad Research",
+    "number": "4003",
+    "name": "Intermed German Grad Research",
+    "fullname": "Intermediate German for Graduate Research",
     "info": "Listening, reading, speaking, writing. Contextualized grammar/vocabulary. Authentic readings. Essay assignments. Meets concurrently with 1003. prereq: Grad student",
     "prereq": []
   },
   {
+    "uid": "7984751",
     "code": "GER 4004",
     "subject": "GER",
-    "id": "4004",
-    "title": "Intermed German Grad Research",
+    "number": "4004",
+    "name": "Intermed German Grad Research",
+    "fullname": "Intermediate German for Graduate Research",
     "info": "Listening, reading, speaking, writing. Contextualized grammar/vocabulary. Authentic readings. Essay assignments. Meets concurrently with 1004. prereq: Grad student",
     "prereq": []
   },
   {
+    "uid": "0084991",
     "code": "GER 4040",
     "subject": "GER",
-    "id": "4040",
-    "title": "German Play",
+    "number": "4040",
+    "name": "German Play",
+    "fullname": "German Play: Oral Interpretation and Performance of German",
     "info": "Dramatic reading of German play for pronunciation; preparation and rehearsal for production and performance of German play. ",
     "prereq": []
   },
   {
+    "uid": "0085411",
     "code": "GER 4521",
     "subject": "GER",
-    "id": "4521",
-    "title": "German-Americans",
+    "number": "4521",
+    "name": "German-Americans",
+    "fullname": "The German-Americans: Literary and Linguistic Aspects",
     "info": "Study the contribution made by German immigrants to American culture, especially in Minnesota. Language and literature study is supplemented by field trips in Minnesota.",
     "prereq": []
   },
   {
+    "uid": "0085031",
     "code": "GER 4621",
     "subject": "GER",
-    "id": "4621",
-    "title": "German Cinema to 1945",
+    "number": "4621",
+    "name": "German Cinema to 1945",
+    "fullname": "German Cinema to 1945",
     "info": "Beginnings of German cinema late 19th/early 20th century. \\\"Golden age\\\" during Weimar Republic (1918-1933). Expressionism and \\\"New Objectivity.\\\" Its subordination to ideological/entertainment needs of Nazis' \\\"Third Reich\\\" (1933-45).\n",
     "prereq": []
   },
   {
+    "uid": "0085061",
     "code": "GER 4622",
     "subject": "GER",
-    "id": "4622",
-    "title": "Ger Film Since 1945",
+    "number": "4622",
+    "name": "Ger Film Since 1945",
+    "fullname": "German Cinema Since 1945",
     "info": "German cinema during the first years of postwar occupation and then in each of the two postwar German states, East and West Germany, from 1949-1990, and finally in the unified Germany from 1990 on. Includes films of DEFA, \\\"New German Cinema,\\\" feminist cinema, German comedies of the 1980s and 1990s, etc.  ",
     "prereq": []
   },
   {
+    "uid": "0102971",
     "code": "GER 5011",
     "subject": "GER",
-    "id": "5011",
-    "title": "Adv Comp, Conversation",
+    "number": "5011",
+    "name": "Adv Comp, Conversation",
+    "fullname": "Advanced Conversation and Composition",
     "info": "Achieving high proficiency in writing/speaking professional/academic German.\n\nprereq: 3012, [grad student or adv undergrad]",
     "prereq": {
       "code": "GER 3012",
       "subject": "GER",
-      "id": "3012"
+      "number": "3012"
     }
   },
   {
+    "uid": "0103011",
     "code": "GER 5016",
     "subject": "GER",
-    "id": "5016",
-    "title": "Trnsl:Theory, Pract",
+    "number": "5016",
+    "name": "Trnsl:Theory, Pract",
+    "fullname": "Advanced Translation: Theory and Practice",
     "info": "Translation theory. Related issues in stylistics, philosophy of language. Sample translations. Student production of translations, with methodological commentary.",
     "prereq": []
   },
   {
+    "uid": "0102821",
     "code": "GER 5101",
     "subject": "GER",
-    "id": "5101",
-    "title": "Analysis of German",
+    "number": "5101",
+    "name": "Analysis of German",
+    "fullname": "Analysis of German",
     "info": "Phonology, morphology, and syntax of standard German.",
     "prereq": []
   },
   {
+    "uid": "8267031",
     "code": "GER 5210",
     "subject": "GER",
-    "id": "5210",
-    "title": "Topics in German Media Theory",
+    "number": "5210",
+    "name": "Topics in German Media Theory",
+    "fullname": "Topics in German Media Theory",
     "info": "This course offers an in-depth exploration of current methods, issues, and debates in German media theory, aesthetics, and practice. Topics will vary by semester.",
     "prereq": []
   },
   {
+    "uid": "0099941",
     "code": "GER 5410",
     "subject": "GER",
-    "id": "5410",
-    "title": "Topics in German Literature",
+    "number": "5410",
+    "name": "Topics in German Literature",
+    "fullname": "Topics in German Literature",
     "info": "Topic may focus on a specific author, group of authors, genre, period, or subject matter. Topics specified in Class Schedule.",
     "prereq": []
   },
   {
+    "uid": "0099971",
     "code": "GER 5510",
     "subject": "GER",
-    "id": "5510",
-    "title": "Topics: Contemp German Culture",
+    "number": "5510",
+    "name": "Topics: Contemp German Culture",
+    "fullname": "Topics in Contemporary German Culture",
     "info": "A topic of contemporary German culture explored in depth.\n\nprereq: 3011",
     "prereq": {
       "code": "GER 3011",
       "subject": "GER",
-      "id": "3011"
+      "number": "3011"
     }
   },
   {
+    "uid": "0090211",
     "code": "GER 5610",
     "subject": "GER",
-    "id": "5610",
-    "title": "German Lit in Translation",
+    "number": "5610",
+    "name": "German Lit in Translation",
+    "fullname": "German Literature in Translation",
     "info": "Study in depth of authors or topics from various periods in German literature. Requires no knowledge of German.\n\nprereq: No knowledge of German required; cr toward major or minor requires reading in German",
     "prereq": []
   },
   {
+    "uid": "0085071",
     "code": "GER 5630",
     "subject": "GER",
-    "id": "5630",
-    "title": "Topics in German Cinema",
+    "number": "5630",
+    "name": "Topics in German Cinema",
+    "fullname": "Topics in German Cinema",
     "info": "Topics chosen may focus on specific directors, genres, film production or reception, and/or other formal, theoretical, historical, or political issues.\n\nprereq: 3xxx film course or instr consent",
     "prereq": []
   },
   {
+    "uid": "8154241",
     "code": "GER 5651",
     "subject": "GER",
-    "id": "5651",
-    "title": "Environment and German Lit",
+    "number": "5651",
+    "name": "Environment and German Lit",
+    "fullname": "Thinking Environment: Green Culture, German Literature and Global Debates",
     "info": "How environmental thinking became social-political force through German literature/culture, with comparisons to global or U.S. developments. Authors include Goethe, Christa Wolf, Enzensberger.",
     "prereq": []
   },
   {
+    "uid": "0090491",
     "code": "GER 5711",
     "subject": "GER",
-    "id": "5711",
-    "title": "Hist of Ger Lang I",
+    "number": "5711",
+    "name": "Hist of Ger Lang I",
+    "fullname": "History of the German Language I",
     "info": "Historical development of German, from beginnings to 1450.\n\nprereq: 3011",
     "prereq": {
       "code": "GER 3011",
       "subject": "GER",
-      "id": "3011"
+      "number": "3011"
     }
   },
   {
+    "uid": "0090511",
     "code": "GER 5712",
     "subject": "GER",
-    "id": "5712",
-    "title": "Hist of Ger Lang II",
+    "number": "5712",
+    "name": "Hist of Ger Lang II",
+    "fullname": "History of the German Language II",
     "info": "Historical development of German from 1450 to 2000.\n\nprereq: 5711",
     "prereq": {
       "code": "GER 5711",
       "subject": "GER",
-      "id": "5711"
+      "number": "5711"
     }
   },
   {
+    "uid": "0090521",
     "code": "GER 5721",
     "subject": "GER",
-    "id": "5721",
-    "title": "Intro Mid High Ger",
+    "number": "5721",
+    "name": "Intro Mid High Ger",
+    "fullname": "Introduction to Middle High German",
     "info": "Introduction to Middle High German language and literature. Study of grammar through formal description of Middle High German phonology, morphology, and syntax.  Normalized MHG texts read.",
     "prereq": []
   },
   {
+    "uid": "0090531",
     "code": "GER 5722",
     "subject": "GER",
-    "id": "5722",
-    "title": "MHG Adv Readings",
+    "number": "5722",
+    "name": "MHG Adv Readings",
+    "fullname": "Middle High German: Advanced Readings",
     "info": "Acquisition of fluency in reading Middle High German normalized as well as non-normalized texts, both poetry and prose.\n\nprereq: 5721",
     "prereq": {
       "code": "GER 5721",
       "subject": "GER",
-      "id": "5721"
+      "number": "5721"
     }
   },
   {
+    "uid": "0085651",
     "code": "GER 5731",
     "subject": "GER",
-    "id": "5731",
-    "title": "Old High German I",
+    "number": "5731",
+    "name": "Old High German I",
+    "fullname": "Old High German I",
     "info": "Study of the monuments of Old High German.  Detailed investigation of Old High German in comparison with the other Germanic languages.",
     "prereq": []
   },
   {
+    "uid": "0085481",
     "code": "GER 5732",
     "subject": "GER",
-    "id": "5732",
-    "title": "Old High German II",
+    "number": "5732",
+    "name": "Old High German II",
+    "fullname": "Old High German II",
     "info": "Study of the monuments of Old High German.  Detailed investigation of Old High German in comparison with the other Germanic languages.",
     "prereq": []
   },
   {
+    "uid": "0085701",
     "code": "GER 5734",
     "subject": "GER",
-    "id": "5734",
-    "title": "Old Saxon",
+    "number": "5734",
+    "name": "Old Saxon",
+    "fullname": "Old Saxon",
     "info": "Study of the poetry of Old Saxon.  Detailed investigation of Old Saxon in comparison with the other Old Germanic languages.",
     "prereq": []
   },
   {
+    "uid": "0085771",
     "code": "GER 5740",
     "subject": "GER",
-    "id": "5740",
-    "title": "Topics-Gmc Medieval Studies",
+    "number": "5740",
+    "name": "Topics-Gmc Medieval Studies",
+    "fullname": "Topics in Germanic Medieval Studies",
     "info": "Topics specified in Class Schedule.",
     "prereq": []
   },
   {
+    "uid": "0102881",
     "code": "GER 5771",
     "subject": "GER",
-    "id": "5771",
-    "title": "Early New High Ger",
+    "number": "5771",
+    "name": "Early New High Ger",
+    "fullname": "Early New High German",
     "info": "Reading and analysis of Early New High German texts.  Formal description of Early New High German phonology, morphology, syntax.",
     "prereq": []
   },
   {
+    "uid": "0102701",
     "code": "GER 5781",
     "subject": "GER",
-    "id": "5781",
-    "title": "Varieties: Mod Ger",
+    "number": "5781",
+    "name": "Varieties: Mod Ger",
+    "fullname": "Varieties of Modern German",
     "info": "Lexical, syntactic, and phonological variations examined using contemporary methods of dialectology and sociolinguistics.",
     "prereq": []
   },
   {
+    "uid": "0090561",
     "code": "GER 5801",
     "subject": "GER",
-    "id": "5801",
-    "title": "German Script",
+    "number": "5801",
+    "name": "German Script",
+    "fullname": "German Script Since 1500: Readings",
     "info": "Handwriting and printed book scripts will be read, 1500-2000.",
     "prereq": []
   },
   {
+    "uid": "0100031",
     "code": "GER 5993",
     "subject": "GER",
-    "id": "5993",
-    "title": "Directed Studies",
+    "number": "5993",
+    "name": "Directed Studies",
+    "fullname": "Directed Studies",
     "info": "Guided individual reading or study.\nPrereq instr consent, dept consent, college consent.",
     "prereq": []
   },
   {
+    "uid": "8021901",
     "code": "GER 8010",
     "subject": "GER",
-    "id": "8010",
-    "title": "Lit. & Cultural Theory Debates",
+    "number": "8010",
+    "name": "Lit. & Cultural Theory Debates",
+    "fullname": "Current Debates in Literary and Cultural Theory",
     "info": "Seminar. Close readings of theoretical constellations in texts. Topic such as text/image, history/memory/time, oral culture/literacy, public/private, authority/crisis. Draws on literary, philosopical, and theoretical work.",
     "prereq": []
   },
   {
+    "uid": "8021911",
     "code": "GER 8020",
     "subject": "GER",
-    "id": "8020",
-    "title": "Problems: Lit/Cultural History",
+    "number": "8020",
+    "name": "Problems: Lit/Cultural History",
+    "fullname": "Problems in Literary and Cultural History",
     "info": "Historiographic texts as literature and literary or filmic texts as historical documents. Homogenizing/constructive elements in historiography. Strategies of writing historical syntheses.",
     "prereq": []
   },
   {
+    "uid": "0100701",
     "code": "GER 8200",
     "subject": "GER",
-    "id": "8200",
-    "title": "Sem: Medieval Lit",
+    "number": "8200",
+    "name": "Sem: Medieval Lit",
+    "fullname": "Seminar in Medieval German Literature and Culture",
     "info": "Topics on specific author, group of authors, genre, or subject matter in German literature, ca. 800-1450.\n\nprereq: 5721",
     "prereq": {
       "code": "GER 5721",
       "subject": "GER",
-      "id": "5721"
+      "number": "5721"
     }
   },
   {
+    "uid": "0100771",
     "code": "GER 8210",
     "subject": "GER",
-    "id": "8210",
-    "title": "Sem: Early Mod Lit",
+    "number": "8210",
+    "name": "Sem: Early Mod Lit",
+    "fullname": "Seminar in Early Modern German Literature and Culture",
     "info": "Topics on specific author, group of authors, genre, or subject matter in German literature, 1450-1750.",
     "prereq": []
   },
   {
+    "uid": "0086221",
     "code": "GER 8220",
     "subject": "GER",
-    "id": "8220",
-    "title": "Sem: 18th-C Lit",
+    "number": "8220",
+    "name": "Sem: 18th-C Lit",
+    "fullname": "Seminar in 18th-Century German Literature and Culture",
     "info": "Literary, philosophical, and aesthetic texts emerging from major 18th-century literary trends, 1720-1810. Cultural and historical contexts of Enlightenment and Weimar Classicism.",
     "prereq": []
   },
   {
+    "uid": "0104171",
     "code": "GER 8230",
     "subject": "GER",
-    "id": "8230",
-    "title": "19-Century German Lit Culture",
+    "number": "8230",
+    "name": "19-Century German Lit Culture",
+    "fullname": "Seminar in 19th-Century German Literature and Culture",
     "info": "Examination of an author, issue, or movement, using a variety of critical approaches.",
     "prereq": []
   },
   {
+    "uid": "0085101",
     "code": "GER 8240",
     "subject": "GER",
-    "id": "8240",
-    "title": "20-/21-c. German Lit, Culture",
+    "number": "8240",
+    "name": "20-/21-c. German Lit, Culture",
+    "fullname": "Seminar in 20th-/21st-Century German Literature and Culture",
     "info": "Topics on literature, film, or other forms of \\\"high\\\" and popular culture.",
     "prereq": []
   },
   {
+    "uid": "0085791",
     "code": "GER 8300",
     "subject": "GER",
-    "id": "8300",
-    "title": "Tpcs:Lit, Cult Thry",
+    "number": "8300",
+    "name": "Tpcs:Lit, Cult Thry",
+    "fullname": "Topics in Literature and Cultural Theory",
     "info": "Authors, themes, movements, and social issues from 1700 to present. Focus varies each semester. ",
     "prereq": []
   },
   {
+    "uid": "7881201",
     "code": "GER 8333",
     "subject": "GER",
-    "id": "8333",
-    "title": "FTE: Master's",
+    "number": "8333",
+    "name": "FTE: Master's",
+    "fullname": "FTE: Master's",
     "info": "",
     "prereq": []
   },
   {
+    "uid": "7883561",
     "code": "GER 8444",
     "subject": "GER",
-    "id": "8444",
-    "title": "FTE: Doctoral",
+    "number": "8444",
+    "name": "FTE: Doctoral",
+    "fullname": "FTE: Doctoral",
     "info": "",
     "prereq": []
   },
   {
+    "uid": "7884801",
     "code": "GER 8666",
     "subject": "GER",
-    "id": "8666",
-    "title": "Doct Pre-Thesis Cr*",
+    "number": "8666",
+    "name": "Doct Pre-Thesis Cr*",
+    "fullname": "Doctoral Pre-Thesis Credits",
     "info": "",
     "prereq": []
   },
   {
+    "uid": "0105301",
     "code": "GER 8700",
     "subject": "GER",
-    "id": "8700",
-    "title": "Philological Sem",
+    "number": "8700",
+    "name": "Philological Sem",
+    "fullname": "Philological Seminar",
     "info": "Sample topics: history of Germanic tribes, history of scholarship in Germanic philology, Germanic dialects.",
     "prereq": []
   },
   {
+    "uid": "0090681",
     "code": "GER 8701",
     "subject": "GER",
-    "id": "8701",
-    "title": "Philol Prosem I",
+    "number": "8701",
+    "name": "Philol Prosem I",
+    "fullname": "Philological Proseminar I: Bibliography",
     "info": "Introduction to bibliography emphasizing Germanic medieval languages and literatures and medieval Latin. See Scan 8702.",
     "prereq": []
   },
   {
+    "uid": "0086181",
     "code": "GER 8741",
     "subject": "GER",
-    "id": "8741",
-    "title": "Gothic Lang I",
+    "number": "8741",
+    "name": "Gothic Lang I",
+    "fullname": "Gothic and Methods of Comparative Reconstruction I",
     "info": "The oldest extant Germanic language and the prehistory of Germanic group of languages.",
     "prereq": []
   },
   {
+    "uid": "0086191",
     "code": "GER 8742",
     "subject": "GER",
-    "id": "8742",
-    "title": "Gothic Lang II",
+    "number": "8742",
+    "name": "Gothic Lang II",
+    "fullname": "Gothic and Methods of Comparative Reconstruction II",
     "info": "Continuation of study of the oldest extant Germanic language and the prehistory of Germanic group of languages.\n\nprereq: 8741",
     "prereq": {
       "code": "GER 8741",
       "subject": "GER",
-      "id": "8741"
+      "number": "8741"
     }
   },
   {
+    "uid": "0092521",
     "code": "GER 8751",
     "subject": "GER",
-    "id": "8751",
-    "title": "PALAEOGRAPHY",
+    "number": "8751",
+    "name": "PALAEOGRAPHY",
+    "fullname": "Paleography: Medieval Manuscript Readings",
     "info": "Introduction to techniques of reading and transcribing medieval German and Latin manuscripts.",
     "prereq": []
   },
   {
+    "uid": "0090711",
     "code": "GER 8752",
     "subject": "GER",
-    "id": "8752",
-    "title": "MED TEXT EDITING",
+    "number": "8752",
+    "name": "MED TEXT EDITING",
+    "fullname": "Medieval Text Editing",
     "info": "Introduction to techniques of historical text-critical editing of medieval Germanic and Latin manuscripts.",
     "prereq": []
   },
   {
+    "uid": "0095101",
     "code": "GER 8793",
     "subject": "GER",
-    "id": "8793",
-    "title": "GPHIL DIRECTED STUD",
+    "number": "8793",
+    "name": "GPHIL DIRECTED STUD",
+    "fullname": "Germanic Philology Directed Study",
     "info": "Directed study",
     "prereq": []
   },
   {
+    "uid": "0086231",
     "code": "GER 8810",
     "subject": "GER",
-    "id": "8810",
-    "title": "Fem Lit Thry, Hist",
+    "number": "8810",
+    "name": "Fem Lit Thry, Hist",
+    "fullname": "Feminist Literary Theory and History",
     "info": "Cultural, historical, and literary examination of writings of German women, 18th-20th centuries, and feminist theoretical tools used to analyze their work.  ",
     "prereq": []
   },
   {
+    "uid": "0086201",
     "code": "GER 8820",
     "subject": "GER",
-    "id": "8820",
-    "title": "Sem: Adv Theory",
+    "number": "8820",
+    "name": "Sem: Adv Theory",
+    "fullname": "Seminar: Advanced Theory",
     "info": "Topic in critical thought, e.g., the Frankfurt School, hermeneutics, reception theory.",
     "prereq": []
   },
   {
+    "uid": "7878751",
     "code": "GER 8888",
     "subject": "GER",
-    "id": "8888",
-    "title": "Thesis Credit:Doct*",
+    "number": "8888",
+    "name": "Thesis Credit:Doct*",
+    "fullname": "Thesis Credit: Doctoral",
     "info": "",
     "prereq": []
   },
   {
+    "uid": "0103601",
     "code": "GER 8994",
     "subject": "GER",
-    "id": "8994",
-    "title": "Directed Research",
+    "number": "8994",
+    "name": "Directed Research",
+    "fullname": "Directed Research",
     "info": "tbd\n\nprereq: instr consent, dept consent; may be taken as tutorial with instr consent",
     "prereq": []
   }

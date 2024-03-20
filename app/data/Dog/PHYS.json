@@ -1,1804 +1,2018 @@
 [
   {
+    "uid": "0020411",
     "code": "PHYS 1001W",
     "subject": "PHYS",
-    "id": "1001W",
-    "title": "Energy and the Environment",
+    "number": "1001W",
+    "name": "Energy and the Environment",
+    "fullname": "Energy and the Environment",
     "info": "Fundamental principles governing physical world in context of energy/environment. Lab.\n\nprereq: 1 yr high school algebra",
     "prereq": []
   },
   {
+    "uid": "0161301",
     "code": "PHYS 1011",
     "subject": "PHYS",
-    "id": "1011",
-    "title": "Physcl Wrld",
+    "number": "1011",
+    "name": "Physcl Wrld",
+    "fullname": "Physical World",
     "info": "Fundamental laws and principles governing the physical world, discussed in the context in which encountered in modern science and technology.\n\nprereq: 1  yr high school algebra",
     "prereq": []
   },
   {
+    "uid": "0164351",
     "code": "PHYS 1012",
     "subject": "PHYS",
-    "id": "1012",
-    "title": "Elemen Phys",
+    "number": "1012",
+    "name": "Elemen Phys",
+    "fullname": "Elementary Physics",
     "info": "Topics represented in context of real world situations. Motion, forces, momentum, energy, heat, vibrations, sound, light, electricity, magnetism. Emphasizes development of logical reasoning skills. Lab.",
     "prereq": []
   },
   {
+    "uid": "8074251",
     "code": "PHYS 1021",
     "subject": "PHYS",
-    "id": "1021",
-    "title": "Intro Phys",
+    "number": "1021",
+    "name": "Intro Phys",
+    "fullname": "Intro Phys",
     "info": "",
     "prereq": []
   },
   {
+    "uid": "8258841",
     "code": "PHYS 1051W",
     "subject": "PHYS",
-    "id": "1051W",
-    "title": "Quantum Worlds",
+    "number": "1051W",
+    "name": "Quantum Worlds",
+    "fullname": "Quantum Worlds",
     "info": "This course consists of two parts that we’ll pursue in parallel. The first is an\nalgebra-based introduction to the basic formalism of quantum mechanics,\npresupposing no more than some high-school algebra and geometry. This part\nwill conclude with a gentle introduction to quantum computing. The other part will\ntrack the debate over the interpretation of quantum mechanics. A century after\nthe introduction of the theory, which underlies much of the technology we now\ntake for granted, there is still no consensus among the experts about how to\npicture the quantum world.",
     "prereq": []
   },
   {
+    "uid": "0020661",
     "code": "PHYS 1101W",
     "subject": "PHYS",
-    "id": "1101W",
-    "title": "Intro College Phys I",
+    "number": "1101W",
+    "name": "Intro College Phys I",
+    "fullname": "Introductory College Physics I",
     "info": "Fundamental principles of physics in the context of everyday world. Use of kinematics/dynamics principles and quantitative/qualitative problem solving techniques to understand natural phenomena. Lecture, recitation, lab.\n\nprereq: High school algebra, plane geometry, trigonometry; primarily for students interested in technical areas",
     "prereq": []
   },
   {
+    "uid": "0020671",
     "code": "PHYS 1102W",
     "subject": "PHYS",
-    "id": "1102W",
-    "title": "Intro College Physics II",
+    "number": "1102W",
+    "name": "Intro College Physics II",
+    "fullname": "Introductory College Physics II",
     "info": "Fundamental principles of physics in context of everyday world. Use of conservation principles and quantitative/qualitative problem solving techniques to understand natural phenomena. Lecture, recitation, lab.\n\nprereq: 1101W or 1107",
     "prereq": {
       "or": [
         {
           "code": "PHYS 1101W",
           "subject": "PHYS",
-          "id": "1101W"
+          "number": "1101W"
         },
         {
           "code": "PHYS 1107",
           "subject": "PHYS",
-          "id": "1107"
+          "number": "1107"
         }
       ]
     }
   },
   {
+    "uid": "7989031",
     "code": "PHYS 1107",
     "subject": "PHYS",
-    "id": "1107",
-    "title": "Introductory Physics Online I",
+    "number": "1107",
+    "name": "Introductory Physics Online I",
+    "fullname": "Introductory Physics Online I",
     "info": "Principles of physics in context of everyday world. Use of kinematics/dynamics principles together with quantitative/qualitative problem solving techniques to understand natural phenomena.\n\nprereq: High school algebra, plane geometry, trigonometry",
     "prereq": []
   },
   {
+    "uid": "8007971",
     "code": "PHYS 1108",
     "subject": "PHYS",
-    "id": "1108",
-    "title": "Introductory Physics Online II",
+    "number": "1108",
+    "name": "Introductory Physics Online II",
+    "fullname": "Introductory Physics Online II",
     "info": "Fundamental principles of physics in context of everyday world. Use of conservation principles and quantitative/qualitative problem solving techniques to understand natural phenomena. \n\nprereq: 1107; primarily for students interested in technical areas",
     "prereq": {
       "code": "PHYS 1107",
       "subject": "PHYS",
-      "id": "1107"
+      "number": "1107"
     }
   },
   {
+    "uid": "0164271",
     "code": "PHYS 1111",
     "subject": "PHYS",
-    "id": "1111",
-    "title": "Basic Phys I",
+    "number": "1111",
+    "name": "Basic Phys I",
+    "fullname": "Basic Physics I",
     "info": "Algebra-based. Motion of a body in one dimension. Newton's laws of motion. Emphasizes developing systematic approach to problem solving and applying it to problems. Experiments. No lab component.",
     "prereq": []
   },
   {
+    "uid": "0164331",
     "code": "PHYS 1112",
     "subject": "PHYS",
-    "id": "1112",
-    "title": "Basic Phys II",
+    "number": "1112",
+    "name": "Basic Phys II",
+    "fullname": "Basic Physics II",
     "info": "Algebra-based. Work, energy, momentum, collisions, circular motion, universal gravitation, heat, electricity. Systematic approach to problem solving. Experiments. No lab component. ",
     "prereq": []
   },
   {
+    "uid": "0161311",
     "code": "PHYS 1114",
     "subject": "PHYS",
-    "id": "1114",
-    "title": "Gen Phys Transition",
+    "number": "1114",
+    "name": "Gen Phys Transition",
+    "fullname": "General Physics, Transition",
     "info": "Principles of physics for pre-med/biological science students. Description of motion, forces, conservation principles, fields, structures of matter. Forces/effects.",
     "prereq": []
   },
   {
+    "uid": "0161551",
     "code": "PHYS 1115",
     "subject": "PHYS",
-    "id": "1115",
-    "title": "Gen Phys Transition",
+    "number": "1115",
+    "name": "Gen Phys Transition",
+    "fullname": "General Physics, Transition",
     "info": "Principles of physics for pre-med/biological science students. Description of motion, forces, conservation principles, fields, structure of matter. Heat, electricity, magnetism.",
     "prereq": []
   },
   {
+    "uid": "0161601",
     "code": "PHYS 1116",
     "subject": "PHYS",
-    "id": "1116",
-    "title": "Gen Phys Transition",
+    "number": "1116",
+    "name": "Gen Phys Transition",
+    "fullname": "General Physics, Transition",
     "info": "Principles of physics for pre-med/biological science students. Description of motion, forces, conservation principles, fields, structure of matter. Waves, light modern physics.",
     "prereq": []
   },
   {
+    "uid": "8116821",
     "code": "PHYS 1181",
     "subject": "PHYS",
-    "id": "1181",
-    "title": "Intro College Phys I",
+    "number": "1181",
+    "name": "Intro College Phys I",
+    "fullname": "Introductory College Physics I",
     "info": "Intended only to be used to recognize proficiency in material of PHYS 1101W.\n\nprereq: Proficiency in the material of PHYS 1101W",
     "prereq": {
       "code": "PHYS 1101",
       "subject": "PHYS",
-      "id": "1101"
+      "number": "1101"
     }
   },
   {
+    "uid": "8116831",
     "code": "PHYS 1182",
     "subject": "PHYS",
-    "id": "1182",
-    "title": "Intro College Phys II",
+    "number": "1182",
+    "name": "Intro College Phys II",
+    "fullname": "Introductory College Physics II",
     "info": "Intended only to be used to recognize proficiency in material of PHYS 1102W.\n\nprereq: Proficiency in the material of PHYS 1102W",
     "prereq": {
       "code": "PHYS 1102",
       "subject": "PHYS",
-      "id": "1102"
+      "number": "1102"
     }
   },
   {
+    "uid": "0020681",
     "code": "PHYS 1201W",
     "subject": "PHYS",
-    "id": "1201W",
-    "title": "Intro Phys Biol and Pre-med I",
+    "number": "1201W",
+    "name": "Intro Phys Biol and Pre-med I",
+    "fullname": "Introductory Physics for Biology and Pre-medicine I",
     "info": "Fundamental principles of physics. Description of motion, forces, conservation principles, structure of matter. Applications to mechanical systems, including fluids, waves, heat. Lab.\n\nprereq: [High school or college calculus], trigonometry, algebra",
     "prereq": []
   },
   {
+    "uid": "0020691",
     "code": "PHYS 1202W",
     "subject": "PHYS",
-    "id": "1202W",
-    "title": "Phys for Biol and Pre-med II",
+    "number": "1202W",
+    "name": "Phys for Biol and Pre-med II",
+    "fullname": "Introductory Physics for Biology and Pre-medicine II",
     "info": "Fundamental principles of physics. Motion, forces, conservation principles, structure of matter. Applications to electromagnetic phenomena, including optics, atomic structure. Lab.\n\nprereq: 1201W",
     "prereq": {
       "code": "PHYS 1201",
       "subject": "PHYS",
-      "id": "1201"
+      "number": "1201"
     }
   },
   {
+    "uid": "7895531",
     "code": "PHYS 1211",
     "subject": "PHYS",
-    "id": "1211",
-    "title": "Gen Phys wlab",
+    "number": "1211",
+    "name": "Gen Phys wlab",
+    "fullname": "General Physics With Lab",
     "info": "Fundamental principles of physics. Description of motion, forces, conservation principles, structure of matter. Applications to mechanical systems, including fluids, waves, heat. Includes lab. Offered only through CCE Independent and Distance Learning.",
     "prereq": []
   },
   {
+    "uid": "7895541",
     "code": "PHYS 1212",
     "subject": "PHYS",
-    "id": "1212",
-    "title": "Gen Phys II w lab",
+    "number": "1212",
+    "name": "Gen Phys II w lab",
+    "fullname": "General Physics II With Lab",
     "info": "Fundamental principles of physics. Description of motion, forces, conservation principles, structure of matter. Applications to electromagnetic phenomena, including optics, atomic structure. Includes lab. Offered only through CCE Independent and Distance Learning.",
     "prereq": []
   },
   {
+    "uid": "8179641",
     "code": "PHYS 1221",
     "subject": "PHYS",
-    "id": "1221",
-    "title": "Intro Phys for Life Sci I",
+    "number": "1221",
+    "name": "Intro Phys for Life Sci I",
+    "fullname": "Introductory Physics for Life Science Majors I",
     "info": "The class exposes the student to physical principles and concepts, demonstrates how these principles can be applied to quantitatively describe natural phenomena, and provides the student with an opportunity to perform hands-on experiments and measurements that model how physical knowledge is obtained. The living world exists in the physical universe, and a complete understanding of biological processes is impossible without a firm foundation in the basic physical principles to which all systems, living and inorganic, must adhere. The basic principles of classical mechanics, fluid mechanics, and oscillations and waves will be examined, with particular emphasis to their application in biological systems, using mathematical analysis at the level of basic calculus.\n\nprereq: High School or College Calculus",
     "prereq": []
   },
   {
+    "uid": "8179651",
     "code": "PHYS 1222",
     "subject": "PHYS",
-    "id": "1222",
-    "title": "Intro Physics Life Science II",
+    "number": "1222",
+    "name": "Intro Physics Life Science II",
+    "fullname": "Introductory Physics for Life Science Majors II",
     "info": "This is the second course in the introductory physics sequence for life science majors. The class exposes the student to physical principles and concepts, demonstrates how these principles can be applied to quantitatively describe natural phenomena, and provides the student with an opportunity to perform hands-on experiments and measurements that model how physical knowledge is obtained. The fundamental principles of thermal physics, electricity and magnetism, optics, and nuclear physics are considered.\n\nprereq: PHYS 1221 or equivalent",
     "prereq": {
       "code": "PHYS 1221",
       "subject": "PHYS",
-      "id": "1221"
+      "number": "1221"
     }
   },
   {
+    "uid": "8116721",
     "code": "PHYS 1281",
     "subject": "PHYS",
-    "id": "1281",
-    "title": "Intro Phys for Bio & Pre-med I",
+    "number": "1281",
+    "name": "Intro Phys for Bio & Pre-med I",
+    "fullname": "Introductory Physics for Biology and Pre-medicine I",
     "info": "Intended only to be used to recognize proficiency in material of PHYS 1201W.\n\nprereq: Proficiency in the material of PHYS1201W",
     "prereq": {
       "code": "PHYS 1201",
       "subject": "PHYS",
-      "id": "1201"
+      "number": "1201"
     }
   },
   {
+    "uid": "8116731",
     "code": "PHYS 1282",
     "subject": "PHYS",
-    "id": "1282",
-    "title": "Intro Phys Bio & Pre-med II",
+    "number": "1282",
+    "name": "Intro Phys Bio & Pre-med II",
+    "fullname": "Introductory Physics for Biology and Pre-medicine II",
     "info": "Intended only to be used to recognize proficiency in material of PHYS 1202W.\n\nprereq: Proficiency in the material of PHYS1202W",
     "prereq": {
       "code": "PHYS 1202",
       "subject": "PHYS",
-      "id": "1202"
+      "number": "1202"
     }
   },
   {
+    "uid": "0020701",
     "code": "PHYS 1301W",
     "subject": "PHYS",
-    "id": "1301W",
-    "title": "Phys for Sci and Engr I",
+    "number": "1301W",
+    "name": "Phys for Sci and Engr I",
+    "fullname": "Introductory Physics for Science and Engineering I",
     "info": "Use of fundamental principles to solve quantitative problems. Motion, forces, conservation principles, structure of matter. Applications to mechanical systems. \n\nprereq or concurrent: MATH 1271/1371/1371H or equivalent",
     "prereq": {
       "or": [
         {
           "code": "MATH 1271",
           "subject": "MATH",
-          "id": "1271"
+          "number": "1271"
         },
         {
           "code": "PHYS 1371",
           "subject": "PHYS",
-          "id": "1371"
+          "number": "1371"
+        },
+        {
+          "code": "PHYS 1371",
+          "subject": "PHYS",
+          "number": "1371"
         }
       ]
     }
   },
   {
+    "uid": "0020711",
     "code": "PHYS 1302W",
     "subject": "PHYS",
-    "id": "1302W",
-    "title": "Physics for Sci and Engr II",
+    "number": "1302W",
+    "name": "Physics for Sci and Engr II",
+    "fullname": "Introductory Physics for Science and Engineering II",
     "info": "Use of fundamental principles to solve quantitative problems. Motion, forces, conservation principles, fields, structure of matter. Applications to electromagnetic phenomena. \n\nprereq: PHYS 1301 or equivalent, Prereq or Concurrent: MATH 1272/1372/1572H or equivalent",
     "prereq": {
       "and": [
         {
           "code": "PHYS 1301",
           "subject": "PHYS",
-          "id": "1301"
+          "number": "1301"
         },
         {
           "code": "MATH 1272",
           "subject": "MATH",
-          "id": "1272"
+          "number": "1272"
         },
         {
           "code": "PHYS 1372",
           "subject": "PHYS",
-          "id": "1372"
+          "number": "1372"
         }
       ]
     }
   },
   {
+    "uid": "8116741",
     "code": "PHYS 1381",
     "subject": "PHYS",
-    "id": "1381",
-    "title": "Intro Phys Sci & Eng I",
+    "number": "1381",
+    "name": "Intro Phys Sci & Eng I",
+    "fullname": "Introductory Physics for Science and Engineering I",
     "info": "Intended only to be used to recognize proficiency in material of PHYS 1301W.\n\nprereq: Proficiency in the material of PHYS1301W",
     "prereq": {
       "code": "PHYS 1301",
       "subject": "PHYS",
-      "id": "1301"
+      "number": "1301"
     }
   },
   {
+    "uid": "8116751",
     "code": "PHYS 1382",
     "subject": "PHYS",
-    "id": "1382",
-    "title": "Intro Phys Sci & Eng II",
+    "number": "1382",
+    "name": "Intro Phys Sci & Eng II",
+    "fullname": "Introductory Physics for Science and Engineering II",
     "info": "Intended only to be used to recognize proficiency in material of PHYS 1302W.\n\nprereq: Proficiency in the material of PHYS1302W",
     "prereq": {
       "code": "PHYS 1302",
       "subject": "PHYS",
-      "id": "1302"
+      "number": "1302"
     }
   },
   {
+    "uid": "7900471",
     "code": "PHYS 1901",
     "subject": "PHYS",
-    "id": "1901",
-    "title": "Global Warming Solutions",
+    "number": "1901",
+    "name": "Global Warming Solutions",
+    "fullname": "Global Warming Solutions",
     "info": "In this seminar, we will consider various possible solutions to the current and future global warming problem. This is a topic of intense global importance. Topics will include efficiency and conservation, reduced carbon in electricity production and transportation, wind and solar power, nuclear power, policy changes, third world solutions, reforestation, and more.",
     "prereq": []
   },
   {
+    "uid": "8170901",
     "code": "PHYS 1902",
     "subject": "PHYS",
-    "id": "1902",
-    "title": "Nanotechnology",
+    "number": "1902",
+    "name": "Nanotechnology",
+    "fullname": "Nanotechnology",
     "info": "Nanotechnology is increasingly important in our modern world, and now a part of our daily lives. For example, clear sunblock uses nanoparticles. In this course, we will discuss real-world applications and consequences of nanotechnology today, such as the ethical debate around CRISPR-CAS9 editing of human genomes, and the impact of nano in medicine. We will also discuss nanobiology, applications to drugs and energy, as well as new nanomaterials with unique properties. We will also tour the nanofabrication facility in our building. This seminar will be accessible to first year students.",
     "prereq": []
   },
   {
+    "uid": "8170721",
     "code": "PHYS 1903",
     "subject": "PHYS",
-    "id": "1903",
-    "title": "Quantum Mechanics",
+    "number": "1903",
+    "name": "Quantum Mechanics",
+    "fullname": "Quantum Mechanics for Everyone",
     "info": "One of the greatest intellectual accomplishments of the twentieth century was the development of quantum mechanics, a field of physics which describes the counter-intuitive behavior of molecules, atoms, light, and subatomic particles. Can you pass through a solid wall without disturbing yourself or the wall? An electron can and does repeatedly in many common semiconductor devices. Without an understanding of quantum mechanics, neither the transistor nor the laser could have been invented. A significant fraction of the entire economy is based on technological developments that derive directly from quantum mechanics. This class will examine, with a bare minimum of mathematics, the conceptual foundations of the strange world of the quantum as well as its connection with devices and systems that we take for granted in our everyday lives.",
     "prereq": []
   },
   {
+    "uid": "7903501",
     "code": "PHYS 1904",
     "subject": "PHYS",
-    "id": "1904",
-    "title": "Conquest of Cold",
+    "number": "1904",
+    "name": "Conquest of Cold",
+    "fullname": "Conquest of Cold",
     "info": "The mastery of cold has yielded innumerable advances, from the\ndevelopment of refrigeration and air-conditioning to phenomenal leaps in examine methods of scientific thought and experimentation that led us to understand thermodynamics, the subject that developed hand-in-hand with the major technologies that involve cold. The latter include refrigeration, frozen food preparation, air conditioning, and the handling of liquefied gases (currently more than a $10 billion industry). Modern scientific developments that will be discussed include superconductors and new states of matter, such as the Quantum Hall liquids and Bose-Einstein condensates, all of which have resulted in Nobel Prizes in physics for their discoverers. \n\nUpon completion of this seminar you will have some understanding of the laws of thermodynamics, you will know what entropy is, and you will appreciate the reality that Minnesota winters are not all that cold on an absolute scale.",
     "prereq": []
   },
   {
+    "uid": "7900481",
     "code": "PHYS 1905",
     "subject": "PHYS",
-    "id": "1905",
-    "title": "Aurora Myths to Modern Science",
+    "number": "1905",
+    "name": "Aurora Myths to Modern Science",
+    "fullname": "Aurora: From Myths to Modern Science",
     "info": "The aurora, or northern lights, have long fascinated humans. We now know that aurora occur on many other planets, including Jupiter, Neptune, and Uranus. We will examine the myths from both northern and southern hemisphere that were devised to explain this beautiful natural phenomenon. We have not yet developed a complete understanding of the physical process that create the aurora. Many very prominent scientists through the ages have struggled to explain what they observed. It is only with the new measurements made after the space age that we have finally begun to understand the aurora – both on the Earth and on other planets. If the weather and the space weather cooperates, we will try to observe the aurora and related phenomena including sunspots.\n\n",
     "prereq": []
   },
   {
+    "uid": "8173861",
     "code": "PHYS 1906",
     "subject": "PHYS",
-    "id": "1906",
-    "title": "What is Space Weather?",
+    "number": "1906",
+    "name": "What is Space Weather?",
+    "fullname": "What is Space Weather (and Why Should You Care)?",
     "info": "In this class, we will explore the way our sun changes over the eleven-year solar cycle and how this can affect events from GPS signals, airline travel, cell phone coverage, and power outages to beautiful aurora and manned spaceflight to Mars. We will also touch on space weather and the possible impact on development of life on other planets (and exoplanets). If the space weather cooperates, we will try to observe the aurora and related phenomena including sunspots.\n",
     "prereq": []
   },
   {
+    "uid": "8173871",
     "code": "PHYS 1907",
     "subject": "PHYS",
-    "id": "1907",
-    "title": "The Physics of Warfare",
+    "number": "1907",
+    "name": "The Physics of Warfare",
+    "fullname": "The Physics of Warfare",
     "info": "Throughout history and even today, military leaders contemplating war, or involved in it, are always looking for some advantage over their enemies. Most have searched for a new type of wonder weapon, one that the enemy does not have. It is frequently physics that provides a path to this new weapon. Physics and science and technology in general have been of tremendous value to contemporary military leaders. They have given them an understanding of the electromagnetic spectrum so that radiation can be used in various military applications. They have also given them an understanding of rocketry and jet engines, and knowledge of the secrets of the atom so that it is possible to engineer weapons of mass destruction. This course will provide an overview of most branches of physics and in the process of doing so will show how physics has been used for military applications. It will to some extent provide a summary of the history of warfare from the first bows and arrows and chariots, through contemporary weapon systems. Students enrolled in this seminar will learn some physics, and hopefully they will take away enough understanding of contemporary military technology to be informed citizens on issues that command such a large fraction of the national budget.",
     "prereq": []
   },
   {
+    "uid": "7900491",
     "code": "PHYS 1910W",
     "subject": "PHYS",
-    "id": "1910W",
-    "title": "What is Time?",
+    "number": "1910W",
+    "name": "What is Time?",
+    "fullname": "What is Time?",
     "info": "The precise meaning and use of the concept of time has evoked serious study and debate among the most able of human thinkers for more than 2,000 years. In this seminar, we will review several of the current perspectives as well as some of this history of the concept of time from the points of view of philosophers, biologists, psychologists, and physicists.",
     "prereq": []
   },
   {
+    "uid": "8174831",
     "code": "PHYS 1911W",
     "subject": "PHYS",
-    "id": "1911W",
-    "title": "How Likely is Extraterrestrial",
+    "number": "1911W",
+    "name": "How Likely is Extraterrestrial",
+    "fullname": "How Likely is Extraterrestrial Life?",
     "info": "The goal of this course is to familiarize students with the main available scientific facts and arguments which bear on the question of the likelihood of extraterrestrial life. A second goal is to familiarize students with aspects of the various relevant disciplines early in their university careers when they may still be selecting a major. The third goal is to provide familiarity with information resources at the university, particularly through the library, as well as improved reasoning, writing, and speaking skills.",
     "prereq": []
   },
   {
+    "uid": "0020771",
     "code": "PHYS 2201",
     "subject": "PHYS",
-    "id": "2201",
-    "title": "Thermodynamics & Stat Physics",
+    "number": "2201",
+    "name": "Thermodynamics & Stat Physics",
+    "fullname": "Introductory Thermodynamics and Statistical Physics",
     "info": "Thermodynamics and its underlying statistical nature. \n\nPrereq: PHYS 1302W or equivalent",
     "prereq": {
       "code": "PHYS 1302",
       "subject": "PHYS",
-      "id": "1302"
+      "number": "1302"
     }
   },
   {
+    "uid": "0020721",
     "code": "PHYS 2303",
     "subject": "PHYS",
-    "id": "2303",
-    "title": "Physics III: Physics of Matter",
+    "number": "2303",
+    "name": "Physics III: Physics of Matter",
+    "fullname": "Physics III: Physics of Matter",
     "info": "Thermodynamics, mechanical/electromagnetic waves, optics, quantum theory. Applications of quantum nature of solids.\n\nprereq: 1302, [MATH 1272 or MATH 1372 or MATH 1572H], [MatSci or EE] student",
     "prereq": {
-      "and": [
-        {
-          "code": "PHYS 1302",
-          "subject": "PHYS",
-          "id": "1302"
-        },
-        {
-          "or": [
-            {
-              "code": "MATH 1272",
-              "subject": "MATH",
-              "id": "1272"
-            },
-            {
-              "code": "MATH 1372",
-              "subject": "MATH",
-              "id": "1372"
-            }
-          ]
-        }
-      ]
+      "code": "PHYS 1302",
+      "subject": "PHYS",
+      "number": "1302"
     }
   },
   {
+    "uid": "0164341",
     "code": "PHYS 2311",
     "subject": "PHYS",
-    "id": "2311",
-    "title": "Modern Physics",
+    "number": "2311",
+    "name": "Modern Physics",
+    "fullname": "Modern Physics",
     "info": "Broad overview of physical concepts developed in twentieth century. Special relativity, wave-particle duality, Schrodinger equation, Bohr atom, hydrogen atom in wave mechanics, many-electron atoms, x-rays, nuclear structure, radioactivity, nuclear reactions, statistical physics.\n\nprereq: [1302 or 1402], Chem 1022, Math 2243",
     "prereq": {
       "and": [
         {
-          "or": [
-            {
-              "code": "PHYS 1302",
-              "subject": "PHYS",
-              "id": "1302"
-            },
-            {
-              "code": "PHYS 1402",
-              "subject": "PHYS",
-              "id": "1402"
-            }
-          ]
-        },
-        {
           "code": "CHEM 1022",
           "subject": "CHEM",
-          "id": "1022"
+          "number": "1022"
         },
         {
           "code": "MATH 2243",
           "subject": "MATH",
-          "id": "2243"
+          "number": "2243"
         }
       ]
     }
   },
   {
+    "uid": "7905411",
     "code": "PHYS 2503",
     "subject": "PHYS",
-    "id": "2503",
-    "title": "Intro Physics: Sci & Eng III",
+    "number": "2503",
+    "name": "Intro Physics: Sci & Eng III",
+    "fullname": "Introductory Physics for Science and Engineering III",
     "info": "Physics 2503 is the third semester of a calculus-based introduction to physics principles, with emphasis on Wave Phenomena, particularly diffraction and interference, the Special Theory of Relativity and Quantum Physics. The course is intended for those students who will go on to study one of the physical sciences or an engineering discipline.\n\nprereq: 1302W or equivalent",
     "prereq": {
       "code": "PHYS 1302",
       "subject": "PHYS",
-      "id": "1302"
+      "number": "1302"
     }
   },
   {
+    "uid": "0020781",
     "code": "PHYS 2601",
     "subject": "PHYS",
-    "id": "2601",
-    "title": "Quantum Physics",
+    "number": "2601",
+    "name": "Quantum Physics",
+    "fullname": "Quantum Physics",
     "info": "Introduction to quantum mechanics. Applications to atomic, molecular, condensed-matter, nuclear, elementary-particle, and statistical physics. \n\nprereq: PHYS2503/2503H, Recommended Concurrent: Phys 3041",
     "prereq": {
       "and": [
         {
           "code": "PHYS 2503",
           "subject": "PHYS",
-          "id": "2503"
+          "number": "2503"
         },
         {
           "code": "PHYS 3041",
           "subject": "PHYS",
-          "id": "3041"
+          "number": "3041"
         }
       ]
     }
   },
   {
+    "uid": "0020941",
     "code": "PHYS 2605",
     "subject": "PHYS",
-    "id": "2605",
-    "title": "Quantum Phys Lab",
+    "number": "2605",
+    "name": "Quantum Phys Lab",
+    "fullname": "Quantum Physics Laboratory",
     "info": "Laboratory experiments in atomic, solid state, and nuclear physics offered in conjunction with 2601.\n\nprereq: concurrent registration is required (or allowed) in  2601",
     "prereq": {
       "code": "PHYS 2601",
       "subject": "PHYS",
-      "id": "2601"
+      "number": "2601"
     }
   },
   {
+    "uid": "7994511",
     "code": "PHYS 3022",
     "subject": "PHYS",
-    "id": "3022",
-    "title": "Introduction to Cosmology",
+    "number": "3022",
+    "name": "Introduction to Cosmology",
+    "fullname": "Introduction to Cosmology",
     "info": "Large-scale structure and history of universe. Dark matter, cosmic microwave background. Newtonian/relativistic world models. Physics of early universe. Cosmological tests. \n\nPrereq: PHYS 2601",
     "prereq": {
       "code": "PHYS 2601",
       "subject": "PHYS",
-      "id": "2601"
+      "number": "2601"
     }
   },
   {
+    "uid": "8171531",
     "code": "PHYS 3041",
     "subject": "PHYS",
-    "id": "3041",
-    "title": "Math Methods for Physicists",
+    "number": "3041",
+    "name": "Math Methods for Physicists",
+    "fullname": "Mathematical Methods for Physicists",
     "info": "This course introduces additional mathematical topics that physics majors need to properly handle upper division physics classes.\n\nPHYS 1302W, \nPrereq or CC: MATH 2263/2374/2573H or equivalent, Recommended Prereq: 2503/2503H, \nRecommended CC: PHYS 2601",
     "prereq": {
       "and": [
         {
           "code": "PHYS 2503",
           "subject": "PHYS",
-          "id": "2503"
+          "number": "2503"
         },
         {
           "code": "PHYS 2601",
           "subject": "PHYS",
-          "id": "2601"
+          "number": "2601"
         }
       ]
     }
   },
   {
+    "uid": "0020761",
     "code": "PHYS 3071W",
     "subject": "PHYS",
-    "id": "3071W",
-    "title": "Lab-Based Physics for Teachers",
+    "number": "3071W",
+    "name": "Lab-Based Physics for Teachers",
+    "fullname": "Laboratory-Based Physics for Teachers",
     "info": "Laboratory-based introductory physics. Topics selected to apply to elementary school curriculum: earth's motion, properties of matter, heat and temperature, kinematics, and electric current.\n\nprereq: College algebra; no credit for CSE students or students who have completed PHYS 1201/1202, PHYS 1301/1301, PHYS 1401/1402, or PHYS 1501/1502.",
     "prereq": {
       "and": [
         {
           "code": "PHYS 1201",
           "subject": "PHYS",
-          "id": "1201"
+          "number": "1201"
         },
         {
           "code": "PHYS 1202",
           "subject": "PHYS",
-          "id": "1202"
+          "number": "1202"
         },
         {
           "code": "PHYS 1301",
           "subject": "PHYS",
-          "id": "1301"
+          "number": "1301"
+        },
+        {
+          "code": "PHYS 1301",
+          "subject": "PHYS",
+          "number": "1301"
         },
         {
           "code": "PHYS 1401",
           "subject": "PHYS",
-          "id": "1401"
+          "number": "1401"
         },
         {
           "code": "PHYS 1402",
           "subject": "PHYS",
-          "id": "1402"
+          "number": "1402"
         },
         {
           "code": "PHYS 1501",
           "subject": "PHYS",
-          "id": "1501"
+          "number": "1501"
         },
         {
           "code": "PHYS 1502",
           "subject": "PHYS",
-          "id": "1502"
+          "number": "1502"
         }
       ]
     }
   },
   {
+    "uid": "7997231",
     "code": "PHYS 3201",
     "subject": "PHYS",
-    "id": "3201",
-    "title": "Stat and Thermal Phys",
+    "number": "3201",
+    "name": "Stat and Thermal Phys",
+    "fullname": "Statistical and Thermal Physics",
     "info": "Principles of thermodynamics and statistical mechanics.  Selected applications such as kinetic theory, transport theory, phase transitions.",
     "prereq": []
   },
   {
+    "uid": "8172751",
     "code": "PHYS 3605W",
     "subject": "PHYS",
-    "id": "3605W",
-    "title": "Modern Physics Laboratory",
+    "number": "3605W",
+    "name": "Modern Physics Laboratory",
+    "fullname": "Modern Physics Laboratory",
     "info": "Laboratory experiments in atomic, solid state, and nuclear physics.  Introduction to data analysis techniques as well as the communication of scientific results through maintaining a logbook and writing papers.\n\nPrerequisites:  completion (or concurrent registration) in PHYS 2503 or 2503H.",
     "prereq": {
-      "code": "PHYS 2503",
-      "subject": "PHYS",
-      "id": "2503"
+      "or": [
+        {
+          "code": "PHYS 2503",
+          "subject": "PHYS",
+          "number": "2503"
+        },
+        {
+          "code": "PHYS 2503",
+          "subject": "PHYS",
+          "number": "2503"
+        }
+      ]
     }
   },
   {
+    "uid": "0045071",
     "code": "PHYS 3993",
     "subject": "PHYS",
-    "id": "3993",
-    "title": "Directed Studies",
+    "number": "3993",
+    "name": "Directed Studies",
+    "fullname": "Directed Studies",
     "info": "Directed study in Physics in areas arranged by the student and a faculty member.\n\nprereq: instr consent, dept  consent",
     "prereq": []
   },
   {
+    "uid": "0045111",
     "code": "PHYS 3994",
     "subject": "PHYS",
-    "id": "3994",
-    "title": "Directed Research",
+    "number": "3994",
+    "name": "Directed Research",
+    "fullname": "Directed Research",
     "info": "Independent, directed study in physics in areas arranged by the student and a faculty member.\n\nprereq: instr consent, dept consent",
     "prereq": []
   },
   {
+    "uid": "0020791",
     "code": "PHYS 4001",
     "subject": "PHYS",
-    "id": "4001",
-    "title": "Analytical Mechanics",
+    "number": "4001",
+    "name": "Analytical Mechanics",
+    "fullname": "Analytical Mechanics",
     "info": "Analytic Newtonian mechanics. Mathematics beyond prerequisites developed as required. \n\nprereq: PHYS 2503/2503H or equivalent, PHYS 304",
     "prereq": {
       "code": "PHYS 2503",
       "subject": "PHYS",
-      "id": "2503"
+      "number": "2503"
     }
   },
   {
+    "uid": "0020801",
     "code": "PHYS 4002",
     "subject": "PHYS",
-    "id": "4002",
-    "title": "Electricity and Magnetism",
+    "number": "4002",
+    "name": "Electricity and Magnetism",
+    "fullname": "Electricity and Magnetism",
     "info": "Classical theory of electromagnetic fields using vector algebra and vector calculus. \n\nprereq: PHYS 3041, PHYS 2503/2503H or equivalent",
     "prereq": {
       "and": [
         {
           "code": "PHYS 3041",
           "subject": "PHYS",
-          "id": "3041"
+          "number": "3041"
         },
         {
           "code": "PHYS 2503",
           "subject": "PHYS",
-          "id": "2503"
+          "number": "2503"
+        },
+        {
+          "code": "PHYS 2503",
+          "subject": "PHYS",
+          "number": "2503"
         }
       ]
     }
   },
   {
+    "uid": "8068651",
     "code": "PHYS 4041",
     "subject": "PHYS",
-    "id": "4041",
-    "title": "Computational Methods",
+    "number": "4041",
+    "name": "Computational Methods",
+    "fullname": "Computational Methods in the Physical Sciences",
     "info": "Introduction to using computer programs to solve problems in physical sciences. Selected numerical methods, mapping problems onto computational algorithms. Arranged lab. \n\nPrereq: PHYS 3041",
     "prereq": {
       "code": "PHYS 3041",
       "subject": "PHYS",
-      "id": "3041"
+      "number": "3041"
     }
   },
   {
+    "uid": "0020811",
     "code": "PHYS 4051",
     "subject": "PHYS",
-    "id": "4051",
-    "title": "Experimental Physics I",
+    "number": "4051",
+    "name": "Experimental Physics I",
+    "fullname": "Methods of Experimental Physics I",
     "info": "Contemporary experimental techniques. Introduction to modern analog and digital electronics from an experimental viewpoint. Use of computers for data acquisition and experimental control. Statistics of data analysis. \n\nPrereq or Concurrent PHYS 3605W, PHYS 3041",
     "prereq": {
       "and": [
         {
           "code": "PHYS 3605W",
           "subject": "PHYS",
-          "id": "3605W"
+          "number": "3605W"
         },
         {
           "code": "PHYS 3041",
           "subject": "PHYS",
-          "id": "3041"
+          "number": "3041"
         }
       ]
     }
   },
   {
+    "uid": "0020821",
     "code": "PHYS 4052W",
     "subject": "PHYS",
-    "id": "4052W",
-    "title": "Experimental Physics II",
+    "number": "4052W",
+    "name": "Experimental Physics II",
+    "fullname": "Methods of Experimental Physics II",
     "info": "Second semester of laboratory sequence. Contemporary experimental techniques illustrated by experiments with data analysis. Students design and execute an experimental project. Lectures on specialized topics of professional concern. \n\nprereq: PHYS 4051",
     "prereq": {
       "code": "PHYS 4051",
       "subject": "PHYS",
-      "id": "4051"
+      "number": "4051"
     }
   },
   {
+    "uid": "0021051",
     "code": "PHYS 4071",
     "subject": "PHYS",
-    "id": "4071",
-    "title": "Concepts in Phys",
+    "number": "4071",
+    "name": "Concepts in Phys",
+    "fullname": "Concepts in Physics",
     "info": "Overview of physics with emphasis on 20th-century developments. Primarily for secondary teachers and science majors wishing to understand the conceptual connections within physics.\n\nprereq: 2201, 2303",
     "prereq": {
       "and": [
         {
           "code": "PHYS 2201",
           "subject": "PHYS",
-          "id": "2201"
+          "number": "2201"
         },
         {
           "code": "PHYS 2303",
           "subject": "PHYS",
-          "id": "2303"
+          "number": "2303"
         }
       ]
     }
   },
   {
+    "uid": "0020951",
     "code": "PHYS 4101",
     "subject": "PHYS",
-    "id": "4101",
-    "title": "Quantum Mechanics",
+    "number": "4101",
+    "name": "Quantum Mechanics",
+    "fullname": "Quantum Mechanics",
     "info": "Mathematical techniques of quantum mechanics. Schrodinger Equation and simple applications. General structure of wave mechanics. Operator methods, perturbation theory, radiation from atoms. \n\nprereq: PHYS 3041, PHYS 2601",
     "prereq": {
       "and": [
         {
           "code": "PHYS 3041",
           "subject": "PHYS",
-          "id": "3041"
+          "number": "3041"
         },
         {
           "code": "PHYS 2601",
           "subject": "PHYS",
-          "id": "2601"
+          "number": "2601"
         }
       ]
     }
   },
   {
+    "uid": "7971051",
     "code": "PHYS 4111",
     "subject": "PHYS",
-    "id": "4111",
-    "title": "Hist 19th-C Phys",
+    "number": "4111",
+    "name": "Hist 19th-C Phys",
+    "fullname": "History of 19th-Century Physics",
     "info": "Legacy of 17th-century experimental and theoretical physics especially light, electricity, magnetism, and heat. Experimental and theoretical discoveries in 19th-century physics set within the context of concurrent educational, institutional, and political developments in Europe and the United States.  Heritage of 19th-century physics.\n",
     "prereq": []
   },
   {
+    "uid": "7971851",
     "code": "PHYS 4121W",
     "subject": "PHYS",
-    "id": "4121W",
-    "title": "History 20th-Century Physics",
+    "number": "4121W",
+    "name": "History 20th-Century Physics",
+    "fullname": "History of 20th-Century Physics",
     "info": "The transition from classical to modern physics (relativity, quantum) and its architects (from Planck and Einstein to Heisenberg and Schrödinger). The WWII bomb projects in the US and in Germany. Post-war developments (solid state, particle physics).\nPrereq: calculus or permission from the instructor.",
     "prereq": []
   },
   {
+    "uid": "0020961",
     "code": "PHYS 4201",
     "subject": "PHYS",
-    "id": "4201",
-    "title": "Statistical & Thermal Physics",
+    "number": "4201",
+    "name": "Statistical & Thermal Physics",
+    "fullname": "Statistical and Thermal Physics",
     "info": "Principles of thermodynamics and statistical mechanics. Selected applications such as kinetic theory, transport theory, and phase transitions. \n\nprereq: PHYS 3041, PHYS 2201, PHYS 2601",
     "prereq": {
       "and": [
         {
           "code": "PHYS 3041",
           "subject": "PHYS",
-          "id": "3041"
+          "number": "3041"
         },
         {
           "code": "PHYS 2201",
           "subject": "PHYS",
-          "id": "2201"
+          "number": "2201"
         },
         {
           "code": "PHYS 2601",
           "subject": "PHYS",
-          "id": "2601"
+          "number": "2601"
         }
       ]
     }
   },
   {
+    "uid": "0020971",
     "code": "PHYS 4211",
     "subject": "PHYS",
-    "id": "4211",
-    "title": "Intro Solid State",
+    "number": "4211",
+    "name": "Intro Solid State",
+    "fullname": "Introduction to Solid-State Physics",
     "info": "A modern presentation of the properties of solids. Topics include vibrational and electronic properties of solids; diffraction of waves in solids and electron band structure. Other possible topics include optical properties, magnetic phenomena, and superconductivity.\n\nprereq: 2201, 4101",
     "prereq": {
       "and": [
         {
           "code": "PHYS 2201",
           "subject": "PHYS",
-          "id": "2201"
+          "number": "2201"
         },
         {
           "code": "PHYS 4101",
           "subject": "PHYS",
-          "id": "4101"
+          "number": "4101"
         }
       ]
     }
   },
   {
+    "uid": "0054302",
     "code": "PHYS 4221",
     "subject": "PHYS",
-    "id": "4221",
-    "title": "Applied Magnetism",
+    "number": "4221",
+    "name": "Applied Magnetism",
+    "fullname": "Application of Magnetism in the Natural Sciences and Engineering",
     "info": "Multidisciplinary application of magnetism and magnetic phenomena.  Survey for nonspecialists covers fundamental principles of magnetism and how this ubiquitous phenomenon is used in a variety of science and engineering disciplines. Physics of magnetism, rock magnetism, biomagnetism, magnetic sensors, and magnetic recording.",
     "prereq": []
   },
   {
+    "uid": "8265951",
     "code": "PHYS 4223",
     "subject": "PHYS",
-    "id": "4223",
-    "title": "Quantum Computation & Info",
+    "number": "4223",
+    "name": "Quantum Computation & Info",
+    "fullname": "The Physics of Quantum Computation and Quantum Information",
     "info": "This course is intended to introduce physics majors and graduate students to the tools and concepts underlying quantum information science and quantum computing.  The course will focus on aspects of quantum mechanics central to quantum information science, such as entanglement, quantum measurements, and noise in quantum systems.  Students will learn how the unique features of quantum mechanics can be harnessed for computational power, as well as about the many experimental challenges of doing so. \nPrerequisite - PHYS 2601 (Quantum Physics) or equivalent or instructor permission",
     "prereq": {
       "code": "PHYS 2601",
       "subject": "PHYS",
-      "id": "2601"
+      "number": "2601"
     }
   },
   {
+    "uid": "0049281",
     "code": "PHYS 4303",
     "subject": "PHYS",
-    "id": "4303",
-    "title": "Electrodynamics & Waves",
+    "number": "4303",
+    "name": "Electrodynamics & Waves",
+    "fullname": "Electrodynamics and Waves",
     "info": "Analytical mechanics. Electricity/magnetism, including mechanical/electromagnetic wave phenomena. Physical/geometrical optics.\n\nPrereq: PHYS 4002",
     "prereq": {
       "code": "PHYS 4002",
       "subject": "PHYS",
-      "id": "4002"
+      "number": "4002"
     }
   },
   {
+    "uid": "0020981",
     "code": "PHYS 4311",
     "subject": "PHYS",
-    "id": "4311",
-    "title": "Intro Nuc Phys",
+    "number": "4311",
+    "name": "Intro Nuc Phys",
+    "fullname": "Introduction to Nuclear Physics",
     "info": "Survey course for non-specialists and an introductory course for those planning to specialize in nuclear physics. Topics include models of nuclei, interactions between nuclei and between particles and nuclei, tests of conservation laws, fission and fusion, and astrophysical applications.",
     "prereq": []
   },
   {
+    "uid": "0020991",
     "code": "PHYS 4411",
     "subject": "PHYS",
-    "id": "4411",
-    "title": "Elem Partcle Phys",
+    "number": "4411",
+    "name": "Elem Partcle Phys",
+    "fullname": "Introduction to Elementary Particle Physics",
     "info": "Properties and interactions of the fundamental constituents of nature. Survey for nonspecialists and an introductory course for those intending to specialize in elementary particle physics.",
     "prereq": []
   },
   {
+    "uid": "0021001",
     "code": "PHYS 4501",
     "subject": "PHYS",
-    "id": "4501",
-    "title": "Experimental Proj",
+    "number": "4501",
+    "name": "Experimental Proj",
+    "fullname": "Experimental Project",
     "info": "Research project in physics area of contemporary interest. Project must be approved by faculty coordinator before registration.\n\nprereq: 4052, instr consent",
     "prereq": {
       "code": "PHYS 4052",
       "subject": "PHYS",
-      "id": "4052"
+      "number": "4052"
     }
   },
   {
+    "uid": "7906701",
     "code": "PHYS 4511",
     "subject": "PHYS",
-    "id": "4511",
-    "title": "Intro Nuc and Part Phys",
+    "number": "4511",
+    "name": "Intro Nuc and Part Phys",
+    "fullname": "Introduction to Nuclear and Particle Physics",
     "info": "Fundamental particles and Standard Model. Symmetries/quarks, models of nuclei, interactions between particles/nuclei, tests of conservation laws, fission/fusion.\n\nprereq: 4101",
     "prereq": {
       "code": "PHYS 4101",
       "subject": "PHYS",
-      "id": "4101"
+      "number": "4101"
     }
   },
   {
+    "uid": "0021021",
     "code": "PHYS 4611",
     "subject": "PHYS",
-    "id": "4611",
-    "title": "Intro to Space Physics",
+    "number": "4611",
+    "name": "Intro to Space Physics",
+    "fullname": "Introduction to Space Physics",
     "info": "Dynamics of charged particles/plasmas in space. Physics of the Sun and solar wind. Solar/galactic cosmic rays.  Interactions of solar wind with planetary magnetospheres.  Dynamics of Magnetosphere. Formation of the aurora. Physics of radiation belts.\n\nprereq: PHYS 4001, PHYS 4002",
     "prereq": {
       "and": [
         {
           "code": "PHYS 4001",
           "subject": "PHYS",
-          "id": "4001"
+          "number": "4001"
         },
         {
           "code": "PHYS 4002",
           "subject": "PHYS",
-          "id": "4002"
+          "number": "4002"
         }
       ]
     }
   },
   {
+    "uid": "0021011",
     "code": "PHYS 4621",
     "subject": "PHYS",
-    "id": "4621",
-    "title": "Intro to Plasma Physics",
+    "number": "4621",
+    "name": "Intro to Plasma Physics",
+    "fullname": "Introduction to Plasma Physics",
     "info": "Basic properties of collisionless, magnetized plasmas, single particle motion, plasmas as fluids, magnetohydrodynamics, waves in plasmas, equilibrium, instabilities, kinetic theory/shocks.\n\nPrereq: PHYS 4001, PHYS 4002",
     "prereq": {
       "and": [
         {
           "code": "PHYS 4001",
           "subject": "PHYS",
-          "id": "4001"
+          "number": "4001"
         },
         {
           "code": "PHYS 4002",
           "subject": "PHYS",
-          "id": "4002"
+          "number": "4002"
         }
       ]
     }
   },
   {
+    "uid": "0021031",
     "code": "PHYS 4623",
     "subject": "PHYS",
-    "id": "4623",
-    "title": "Modern Optics",
+    "number": "4623",
+    "name": "Modern Optics",
+    "fullname": "Introduction to Modern Optics",
     "info": "Modern optics broadly defined as geometrical, physical, and quantum optics, including interference and diffraction, optical polarization, Fourier optics, cavity optics, optical propagation, optical coherence, lasers, optical detection, and optical instruments.",
     "prereq": []
   },
   {
+    "uid": "0021041",
     "code": "PHYS 4811",
     "subject": "PHYS",
-    "id": "4811",
-    "title": "Intro to General Relativity",
+    "number": "4811",
+    "name": "Intro to General Relativity",
+    "fullname": "Introduction to General Relativity",
     "info": "Introduction to general relativity for undergraduate students. The course will introduce basic concepts of differential geometry and use them to motivate Einstein's Equation. It will then solve Einstein's equation to study particle orbits, gravitational lensing of light, black holes, and gravitational waves. Brief introduction to cosmology and evolution of the universe will be included.\n\nprereq: PHYS 4001 and (PHYS 2503 or 2503H)",
     "prereq": {
-      "and": [
-        {
-          "code": "PHYS 4001",
-          "subject": "PHYS",
-          "id": "4001"
-        },
-        {
-          "code": "PHYS 2503",
-          "subject": "PHYS",
-          "id": "2503"
-        }
-      ]
+      "code": "PHYS 4001",
+      "subject": "PHYS",
+      "number": "4001"
     }
   },
   {
+    "uid": "7919281",
     "code": "PHYS 4894",
     "subject": "PHYS",
-    "id": "4894",
-    "title": "Thesis - Directed Research",
+    "number": "4894",
+    "name": "Thesis - Directed Research",
+    "fullname": "Thesis - Directed Research",
     "info": "Thesis research/writing under direction of a faculty member. Students plan/implement scientific study while gaining experience in research methods. Details of work are determined in consultation with faculty thesis adviser selected based on availability/topic. Final grade (S/N) will be based on the completed thesis. \n\nStudents enrolling in this directed research course will complete the University's common Directed Study/Research contract with the faculty mentor/evaluator.",
     "prereq": []
   },
   {
+    "uid": "7914071",
     "code": "PHYS 4911",
     "subject": "PHYS",
-    "id": "4911",
-    "title": "Intro to Biopolymer Physics",
+    "number": "4911",
+    "name": "Intro to Biopolymer Physics",
+    "fullname": "Introduction to Biopolymer Physics",
     "info": "Introduction to biological and soft condensed matter physics. Emphasizes physical ideas necessary to understand behavior of macromolecules and other biological materials. Elements of thermodynamics and statistical mechanics are presented as needed.\n\nPrereq: PHYS 2201 or equivalent",
     "prereq": {
       "code": "PHYS 2201",
       "subject": "PHYS",
-      "id": "2201"
+      "number": "2201"
     }
   },
   {
+    "uid": "7963331",
     "code": "PHYS 4993",
     "subject": "PHYS",
-    "id": "4993",
-    "title": "Directed Studies",
+    "number": "4993",
+    "name": "Directed Studies",
+    "fullname": "Directed Studies",
     "info": "Directed study in Physics in areas arranged by student and faculty member.\n\nprereq: instr consent",
     "prereq": []
   },
   {
+    "uid": "7963341",
     "code": "PHYS 4994",
     "subject": "PHYS",
-    "id": "4994",
-    "title": "Directed Research",
+    "number": "4994",
+    "name": "Directed Research",
+    "fullname": "Directed Research",
     "info": "Independent, directed study in physics in areas arranged by student and a faculty member.\n\nprereq: instr consent",
     "prereq": []
   },
   {
+    "uid": "0045631",
     "code": "PHYS 5001",
     "subject": "PHYS",
-    "id": "5001",
-    "title": "Quantum Mechanics I",
+    "number": "5001",
+    "name": "Quantum Mechanics I",
+    "fullname": "Quantum Mechanics I",
     "info": "Schrodinger equation: bound state and scattering problems in one dimension. Spherically symmetric problems in three dimensions, angular momentum, and the hydrogen atom. Approximation methods for stationary states. Time-dependent perturbation theory. Operators and state vectors: general formalism of quantum theory.\n\nprereq: 4101 or equiv or instr consent",
     "prereq": {
       "code": "PHYS 4101",
       "subject": "PHYS",
-      "id": "4101"
+      "number": "4101"
     }
   },
   {
+    "uid": "0045641",
     "code": "PHYS 5002",
     "subject": "PHYS",
-    "id": "5002",
-    "title": "Quantum Mechanics II",
+    "number": "5002",
+    "name": "Quantum Mechanics II",
+    "fullname": "Quantum Mechanics II",
     "info": "Symmetry in quantum mechanics, space-time symmetries and the rotation group, Clebsch-Gordan coefficients and the Wigner-Eckart theorem. Scattering theory. Method of second quantization with elementary applications. Relativistic wave equations including Dirac equation.\n\nprereq: 5001 or equiv",
     "prereq": {
       "code": "PHYS 5001",
       "subject": "PHYS",
-      "id": "5001"
+      "number": "5001"
     }
   },
   {
+    "uid": "0045651",
     "code": "PHYS 5011",
     "subject": "PHYS",
-    "id": "5011",
-    "title": "Classical Phys I",
+    "number": "5011",
+    "name": "Classical Phys I",
+    "fullname": "Classical Physics I",
     "info": "Classical mechanics: Lagrangian/Hamiltonian mechanics, orbital dynamics, rigid body motion, special relativity.\n\nprereq: 4001, 4002 or instr consent",
     "prereq": {
       "and": [
         {
           "code": "PHYS 4001",
           "subject": "PHYS",
-          "id": "4001"
+          "number": "4001"
         },
         {
           "code": "PHYS 4002",
           "subject": "PHYS",
-          "id": "4002"
+          "number": "4002"
         }
       ]
     }
   },
   {
+    "uid": "0045661",
     "code": "PHYS 5012",
     "subject": "PHYS",
-    "id": "5012",
-    "title": "Classical Phys II",
+    "number": "5012",
+    "name": "Classical Phys II",
+    "fullname": "Classical Physics II",
     "info": "Classical electromagnetism: electrostatics, magnetostatics, Maxwell's equations, electromagnetic waves, radiation, interaction of charged particles with matter.\n\nprereq: 5011 or instr consent",
     "prereq": {
       "code": "PHYS 5011",
       "subject": "PHYS",
-      "id": "5011"
+      "number": "5011"
     }
   },
   {
+    "uid": "7913011",
     "code": "PHYS 5022",
     "subject": "PHYS",
-    "id": "5022",
-    "title": "Cosmology, Universe",
+    "number": "5022",
+    "name": "Cosmology, Universe",
+    "fullname": "Relativity, Cosmology, and the Universe",
     "info": "Large-scale structure and history of universe. Introduction to Newtonian and relativistic world models. Physics of early universe. Cosmological tests. Formation of galaxies.\n\nprereq: 2601 or instr consent",
     "prereq": {
       "code": "PHYS 2601",
       "subject": "PHYS",
-      "id": "2601"
+      "number": "2601"
     }
   },
   {
+    "uid": "0158981",
     "code": "PHYS 5024",
     "subject": "PHYS",
-    "id": "5024",
-    "title": "Intro to Elec and Mag Flds",
+    "number": "5024",
+    "name": "Intro to Elec and Mag Flds",
+    "fullname": "Introduction to Electric and Magnetic Fields -- Transitional Course",
     "info": "Classical theory of electromagnetic fields using vector algebra and vector calculus. This is a transitional course taught in fall 1999 only. It is open to students who completed Phys 5023 under quarters and need to finish the sequence under semesters.",
     "prereq": []
   },
   {
+    "uid": "0045671",
     "code": "PHYS 5041",
     "subject": "PHYS",
-    "id": "5041",
-    "title": "Mathematical Meth for Physics",
+    "number": "5041",
+    "name": "Mathematical Meth for Physics",
+    "fullname": "Mathematical Methods for Physics",
     "info": "Survey of mathematical techniques needed in analysis of physical problems. Emphasizes analytical methods.\n\nprereq: 2601 or grad student",
     "prereq": {
       "code": "PHYS 2601",
       "subject": "PHYS",
-      "id": "2601"
+      "number": "2601"
     }
   },
   {
+    "uid": "0045681",
     "code": "PHYS 5042",
     "subject": "PHYS",
-    "id": "5042",
-    "title": "Analyt Num Meth II",
+    "number": "5042",
+    "name": "Analyt Num Meth II",
+    "fullname": "Analytical and Numerical Methods of Physics II",
     "info": "Survey of mathematical techniques, both analytic and numerical, needed for physics. Application to physical problems.\n\nprereq: 5041 or instr consent",
     "prereq": {
       "code": "PHYS 5041",
       "subject": "PHYS",
-      "id": "5041"
+      "number": "5041"
     }
   },
   {
+    "uid": "0046171",
     "code": "PHYS 5071",
     "subject": "PHYS",
-    "id": "5071",
-    "title": "Phys HS Teachers",
+    "number": "5071",
+    "name": "Phys HS Teachers",
+    "fullname": "Physics for High School Teachers: Experimental Foundations and Historical Perspectives",
     "info": "In-depth examination of a conceptual theme in physics, its experimental foundations and historical perspectives. Kinematics and dynamics from Aristotle through Einstein; nature of charge and light; energy and thermodynamics; electricity, magnetism, and quantized fields; structure of matter.\n\nprereq: Gen physics, instr consent; no cr for physics grad or grad physics minor",
     "prereq": []
   },
   {
+    "uid": "7994321",
     "code": "PHYS 5072",
     "subject": "PHYS",
-    "id": "5072",
-    "title": "Best Practices in Phys Teach.",
+    "number": "5072",
+    "name": "Best Practices in Phys Teach.",
+    "fullname": "Best Practices in College Physics Teaching",
     "info": "Pedagogies for introductory physics classes. Topics from educational research/practice as applied to classroom.",
     "prereq": []
   },
   {
+    "uid": "7914651",
     "code": "PHYS 5081",
     "subject": "PHYS",
-    "id": "5081",
-    "title": "Intro to Biopolymer Physics",
+    "number": "5081",
+    "name": "Intro to Biopolymer Physics",
+    "fullname": "Introduction to Biopolymer Physics",
     "info": "Introduction to biological and soft condensed matter physics. Emphasizes physical ideas necessary to understand behavior of macromolecules and other biological materials.\n\nprereq: PHYS 2201 or equivalent",
     "prereq": {
       "code": "PHYS 2201",
       "subject": "PHYS",
-      "id": "2201"
+      "number": "2201"
     }
   },
   {
+    "uid": "7919521",
     "code": "PHYS 5201",
     "subject": "PHYS",
-    "id": "5201",
-    "title": "Thermal and Stat Phys",
+    "number": "5201",
+    "name": "Thermal and Stat Phys",
+    "fullname": "Thermal and Statistical Physics",
     "info": "Equilibrium Statistical Mechanics.  General Principles of Statistical Mechanics:  Ensembles. Derivation of Thermodynamics from statistical principles. Classical Systems. Quantum Statistical Mechanics:  Fundamentals.  Photons.   Ideal Fermi & Bose Gases.  Non-ideal gases. Introduction to Phase Transitions.\n\nprereq: [[4101, 4201] or equiv] previous exposure to thermodynamics, introductory statistical physics",
-    "prereq": {
-      "and": [
-        {
-          "code": "PHYS 4101",
-          "subject": "PHYS",
-          "id": "4101"
-        },
-        {
-          "code": "PHYS 4201",
-          "subject": "PHYS",
-          "id": "4201"
-        }
-      ]
-    }
+    "prereq": []
   },
   {
+    "uid": "8263961",
     "code": "PHYS 5223",
     "subject": "PHYS",
-    "id": "5223",
-    "title": "Quantum Computation & Info",
+    "number": "5223",
+    "name": "Quantum Computation & Info",
+    "fullname": "The Physics of Quantum Computation and Quantum Information",
     "info": "This course is intended to introduce physics majors and graduate students to the tools and concepts underlying quantum information science and quantum computing.  The course will focus on aspects of quantum mechanics central to quantum information science, such as entanglement, quantum measurements, and noise in quantum systems.  Students will learn how the unique features of quantum mechanics can be harnessed for computational power, as well as about the many experimental challenges of doing so. \nPrerequisite - PHYS 2601 (Quantum Physics) or equivalent or instructor permission",
     "prereq": {
       "code": "PHYS 2601",
       "subject": "PHYS",
-      "id": "2601"
+      "number": "2601"
     }
   },
   {
+    "uid": "0021061",
     "code": "PHYS 5401",
     "subject": "PHYS",
-    "id": "5401",
-    "title": "Physio Phys",
+    "number": "5401",
+    "name": "Physio Phys",
+    "fullname": "Physiological Physics",
     "info": "Musculoskeletal system, circulatory system/membrane transport, biological control systems, propagation/action potential in nervous system, biomagnetism, electromagnetism at cellular level.\n\nprereq: One semester of introductory calculus-based physics, such as PHYS1301W. Students not sure if they meet prerequisites should consult instructor.",
     "prereq": {
       "code": "PHYS 1301",
       "subject": "PHYS",
-      "id": "1301"
+      "number": "1301"
     }
   },
   {
+    "uid": "0021071",
     "code": "PHYS 5402",
     "subject": "PHYS",
-    "id": "5402",
-    "title": "Radiological Physics",
+    "number": "5402",
+    "name": "Radiological Physics",
+    "fullname": "Radiological Physics",
     "info": "Signal analysis, medical imaging, medical x-rays, tomography, radiation therapy, nuclear medicine, MRI, similar topics.\n\nprereq: Two semesters of introductory calculus-based physics, such as PHYS1302W. Students not sure if they meet prerequisites should consult instructor.",
     "prereq": {
       "code": "PHYS 1302",
       "subject": "PHYS",
-      "id": "1302"
+      "number": "1302"
     }
   },
   {
+    "uid": "8084991",
     "code": "PHYS 5621",
     "subject": "PHYS",
-    "id": "5621",
-    "title": "Intro Plasma Phys",
+    "number": "5621",
+    "name": "Intro Plasma Phys",
+    "fullname": "Introduction to Plasma Physics",
     "info": "Basic properties of collisionless, magnetized plasmas, single particle motion, plasmas as fluids, magnetohydrodynamics, waves in plasmas, equilibrium, instabilities, kinetic theory/shocks.\n\nprereq: CSE grad student, working knowledge of waves/electromagnetism",
     "prereq": []
   },
   {
+    "uid": "0042041",
     "code": "PHYS 5701",
     "subject": "PHYS",
-    "id": "5701",
-    "title": "Solid State Eng I",
+    "number": "5701",
+    "name": "Solid State Eng I",
+    "fullname": "Solid-State Physics for Engineers and Scientists",
     "info": "Crystal structure and binding; diffraction; phonons; thermal and dielectric properties of insulators; free electron model; band structure; \nsemiconductors.\n\nprereq: Grad or advanced undergrad in physics or engineering or the sciences",
     "prereq": []
   },
   {
+    "uid": "0042051",
     "code": "PHYS 5702",
     "subject": "PHYS",
-    "id": "5702",
-    "title": "Solid State Eng II",
+    "number": "5702",
+    "name": "Solid State Eng II",
+    "fullname": "Solid State Physics for Engineers and Scientists",
     "info": "Diamagnetism and paramagnetism; ferromagnetism and antiferromagnetism; optical phenomena; lasers; superconductivity; surface properties; ferroelectricity.\n\nprereq: 5701 or instr consent",
     "prereq": {
       "code": "PHYS 5701",
       "subject": "PHYS",
-      "id": "5701"
+      "number": "5701"
     }
   },
   {
+    "uid": "8251681",
     "code": "PHYS 5750",
     "subject": "PHYS",
-    "id": "5750",
-    "title": "Adv. Topic Quantum Mech & Info",
+    "number": "5750",
+    "name": "Adv. Topic Quantum Mech & Info",
+    "fullname": "Advanced Topics in Quantum Mechanics and Quantum Information",
     "info": "Topics may include quantum circuits and algorithms, hardware considerations for quantum computing, quantum information theory, and open quantum systems.",
     "prereq": []
   },
   {
+    "uid": "0045141",
     "code": "PHYS 5950",
     "subject": "PHYS",
-    "id": "5950",
-    "title": "Colloquium Seminar",
+    "number": "5950",
+    "name": "Colloquium Seminar",
+    "fullname": "Colloquium Seminar",
     "info": "Colloquium of School of Physics and Astronomy.\n\nprereq: [Grad student or advanced undergrad in physics], dept consent",
     "prereq": []
   },
   {
+    "uid": "8047371",
     "code": "PHYS 5970",
     "subject": "PHYS",
-    "id": "5970",
-    "title": "Physics Journal Club",
+    "number": "5970",
+    "name": "Physics Journal Club",
+    "fullname": "Physics Journal Club",
     "info": "Weekly student-led presentation, discussion, and critical analysis of important papers.\n\nprereq: 2601, 2605 or equiv; intended for 2nd-yr grad students in physics",
     "prereq": {
       "and": [
         {
           "code": "PHYS 2601",
           "subject": "PHYS",
-          "id": "2601"
+          "number": "2601"
         },
         {
           "code": "PHYS 2605",
           "subject": "PHYS",
-          "id": "2605"
+          "number": "2605"
         }
       ]
     }
   },
   {
+    "uid": "0045091",
     "code": "PHYS 5980",
     "subject": "PHYS",
-    "id": "5980",
-    "title": "Research Seminar",
+    "number": "5980",
+    "name": "Research Seminar",
+    "fullname": "Introduction to Research Seminar",
     "info": "Introduction to the research activities of the School of Physics and Astronomy.\n\nprereq: Grad or upper div phys major",
     "prereq": []
   },
   {
+    "uid": "0045081",
     "code": "PHYS 5993",
     "subject": "PHYS",
-    "id": "5993",
-    "title": "Directed Studies",
+    "number": "5993",
+    "name": "Directed Studies",
+    "fullname": "Directed Studies",
     "info": "Independent, directed study in physics in areas arranged by the student and a faculty member.\n\nprereq: instr consent, dept consent",
     "prereq": []
   },
   {
+    "uid": "0045101",
     "code": "PHYS 5994",
     "subject": "PHYS",
-    "id": "5994",
-    "title": "Directed Research",
+    "number": "5994",
+    "name": "Directed Research",
+    "fullname": "Directed Research",
     "info": "Problems, experimental or theoretical, of special interest to students. Written reports.\n\nprereq: Jr, dept consent",
     "prereq": []
   },
   {
+    "uid": "0045991",
     "code": "PHYS 8001",
     "subject": "PHYS",
-    "id": "8001",
-    "title": "Adv Quant Mech",
+    "number": "8001",
+    "name": "Adv Quant Mech",
+    "fullname": "Advanced Quantum Mechanics",
     "info": "Topics in non-relativistic quantum mechanics; second quantization. Introduction to Diagrammatic and Green's function techniques and to relativistic wave equations. Application of relativistic perturbation theory to particle interactions with electromagnetic field. Invariant interactions of elementary particles.\n\nprereq: 5002 or instr consent",
     "prereq": {
       "code": "PHYS 5002",
       "subject": "PHYS",
-      "id": "5002"
+      "number": "5002"
     }
   },
   {
+    "uid": "0046011",
     "code": "PHYS 8011",
     "subject": "PHYS",
-    "id": "8011",
-    "title": "Quant Field Thy I",
+    "number": "8011",
+    "name": "Quant Field Thy I",
+    "fullname": "Quantum Field Theory I",
     "info": "Second quantization of relativistic wave equations: canonical quantization of the free scalar and Dirac fields. Fields in interaction: interaction picture. Quantum electrodynamics: quantization of the electromagnetic field, propagators and Feynman rules, tree-level processes. Higher-order processes and renormalization.\n\nprereq: 8001 or instr consent",
     "prereq": {
       "code": "PHYS 8001",
       "subject": "PHYS",
-      "id": "8001"
+      "number": "8001"
     }
   },
   {
+    "uid": "0099271",
     "code": "PHYS 8012",
     "subject": "PHYS",
-    "id": "8012",
-    "title": "Quant Field Thy II",
+    "number": "8012",
+    "name": "Quant Field Thy II",
+    "fullname": "Quantum Field Theory II",
     "info": "Aspects of general theory of quantized fields, including space-time and discrete transformation properties, the CPT theorem, and the spin-statistics connection. Introduction to functional and path-integral methods. Renormalization group and asymptotic freedom. Semi-classical methods and instantons in gauge theories.\n\nprereq: 8011 or instr consent",
     "prereq": {
       "code": "PHYS 8011",
       "subject": "PHYS",
-      "id": "8011"
+      "number": "8011"
     }
   },
   {
+    "uid": "0099331",
     "code": "PHYS 8013",
     "subject": "PHYS",
-    "id": "8013",
-    "title": "Spec Top Quant Fld",
+    "number": "8013",
+    "name": "Spec Top Quant Fld",
+    "fullname": "Special Topics in Quantum Field Theory",
     "info": "Includes non-perturbative methods in quantum field theory, supersymmetry, two-dimensional quantum field theories and their applications, lattice simulations of quantum fields, topological quantum field theories, quantum field theory methods applied to condensed matter physics, and string theory.\n\nprereq: 8012 or instr consent",
     "prereq": {
       "code": "PHYS 8012",
       "subject": "PHYS",
-      "id": "8012"
+      "number": "8012"
     }
   },
   {
+    "uid": "8188181",
     "code": "PHYS 8014",
     "subject": "PHYS",
-    "id": "8014",
-    "title": "Quantum Many Body Systems",
+    "number": "8014",
+    "name": "Quantum Many Body Systems",
+    "fullname": "Quantum many Body Systems",
     "info": "Applications of quantum field theory to systems at finite density and temperature.  Perturbative field theory of the interacting electron gas and its response functions.  Instabilities of interacting fermions at finite density using renormalization group and diagrammatic methods. ",
     "prereq": []
   },
   {
+    "uid": "0045831",
     "code": "PHYS 8100",
     "subject": "PHYS",
-    "id": "8100",
-    "title": "Sem: Phys Teach",
+    "number": "8100",
+    "name": "Sem: Phys Teach",
+    "fullname": "Seminar: Problems of Physics Teaching and Higher Education",
     "info": "Lectures and informal discussions of courses and curricula, techniques, and materials important in undergraduate physics instruction; relation to general problems of higher education.",
     "prereq": []
   },
   {
+    "uid": "7968851",
     "code": "PHYS 8161",
     "subject": "PHYS",
-    "id": "8161",
-    "title": "Atomic and Molecular Structure",
+    "number": "8161",
+    "name": "Atomic and Molecular Structure",
+    "fullname": "Atomic and Molecular Structure",
     "info": "Emphasizes interpretation of quantum numbers and selection rules in terms of symmetry. Experimental data summarized and compared with theoretical predictions.\n\nprereq: Level of mathematics associated with BS in physical sciences",
     "prereq": []
   },
   {
+    "uid": "7940541",
     "code": "PHYS 8200",
     "subject": "PHYS",
-    "id": "8200",
-    "title": "Cos/High En Astro Seminar",
+    "number": "8200",
+    "name": "Cos/High En Astro Seminar",
+    "fullname": "Seminar: Cosmology and High Energy Astrophysics",
     "info": "Current topics in cosmology and high energy astrophysics.\n\nprereq: instr consent",
     "prereq": []
   },
   {
+    "uid": "8048461",
     "code": "PHYS 8300",
     "subject": "PHYS",
-    "id": "8300",
-    "title": "Biophysics Seminar",
+    "number": "8300",
+    "name": "Biophysics Seminar",
+    "fullname": "Seminar: Biological and Medical Physics.",
     "info": "Current research in biological and medical physics\n\nprereq: instr consent",
     "prereq": []
   },
   {
+    "uid": "0045921",
     "code": "PHYS 8301",
     "subject": "PHYS",
-    "id": "8301",
-    "title": "Symmetry",
+    "number": "8301",
+    "name": "Symmetry",
+    "fullname": "Symmetry and Its Application to Physical Problems",
     "info": "Fundamental invariance principles obeyed by laws of physics. Group theory as tool for using symmetry and invariance to help understand behavior of physical systems. Applications made to atomic, molecular, nuclear, condensed-matter, and elementary particle physics.\n\nprereq: 5002 or instr consent",
     "prereq": {
       "code": "PHYS 5002",
       "subject": "PHYS",
-      "id": "5002"
+      "number": "5002"
     }
   },
   {
+    "uid": "8000441",
     "code": "PHYS 8311",
     "subject": "PHYS",
-    "id": "8311",
-    "title": "Molecular Biophysics",
+    "number": "8311",
+    "name": "Molecular Biophysics",
+    "fullname": "Biological Physics of Single Molecules",
     "info": "Biological molecules, based on statistical mechanics, kinetics, optics, and other physics ideas. Physics of DNA/proteins, their interactions. Force spectroscopy (optical tweezers, atomic force microscopy). Concepts of optical spectroscopy. Single molecule fluorescence/imaging.\n\nprereq: [[5201 or Chen 4707], 5011] or instr consent",
-    "prereq": {
-      "and": [
-        {
-          "or": [
-            {
-              "code": "PHYS 5201",
-              "subject": "PHYS",
-              "id": "5201"
-            },
-            {
-              "code": "CHEN 4707",
-              "subject": "CHEN",
-              "id": "4707"
-            }
-          ]
-        },
-        {
-          "code": "PHYS 5011",
-          "subject": "PHYS",
-          "id": "5011"
-        }
-      ]
-    }
+    "prereq": []
   },
   {
+    "uid": "8000451",
     "code": "PHYS 8312",
     "subject": "PHYS",
-    "id": "8312",
-    "title": "Macroscopic Biophysics",
+    "number": "8312",
+    "name": "Macroscopic Biophysics",
+    "fullname": "Biological Physics of Macroscopic Systems",
     "info": "Macroscopic systems, based on physics such as fluid dynamics, statistical mechanics, non-linear dynamics, and chaos theory. Super-molecular aggregates. Biological physics of the cell. Biological physics of populations/evolution.\n\nprereq: [[5201 or CHEN 4707], 5011] or instr consent",
-    "prereq": {
-      "and": [
-        {
-          "or": [
-            {
-              "code": "PHYS 5201",
-              "subject": "PHYS",
-              "id": "5201"
-            },
-            {
-              "code": "CHEN 4707",
-              "subject": "CHEN",
-              "id": "4707"
-            }
-          ]
-        },
-        {
-          "code": "PHYS 5011",
-          "subject": "PHYS",
-          "id": "5011"
-        }
-      ]
-    }
+    "prereq": []
   },
   {
+    "uid": "7882611",
     "code": "PHYS 8333",
     "subject": "PHYS",
-    "id": "8333",
-    "title": "FTE: Master's",
+    "number": "8333",
+    "name": "FTE: Master's",
+    "fullname": "FTE: Master's",
     "info": "(No description)\n\nprereq: Master's student, adviser and DGS consent",
     "prereq": []
   },
   {
+    "uid": "0045931",
     "code": "PHYS 8401",
     "subject": "PHYS",
-    "id": "8401",
-    "title": "Atom Molec Struc",
+    "number": "8401",
+    "name": "Atom Molec Struc",
+    "fullname": "Atomic and Molecular Structure",
     "info": "Understanding behavior of atoms and molecules in terms of basic interactions between electrons and nuclei and electromagnetic radiation.  Applications made to condensed-matter physics, astrophysics, biophysics, and physical chemistry.",
     "prereq": []
   },
   {
+    "uid": "7884011",
     "code": "PHYS 8444",
     "subject": "PHYS",
-    "id": "8444",
-    "title": "FTE: Doctoral",
+    "number": "8444",
+    "name": "FTE: Doctoral",
+    "fullname": "FTE: Doctoral",
     "info": "(No description)\n\nprereq: Doctoral student, adviser and DGS consent",
     "prereq": []
   },
   {
+    "uid": "0045941",
     "code": "PHYS 8500",
     "subject": "PHYS",
-    "id": "8500",
-    "title": "Plan B Proj",
+    "number": "8500",
+    "name": "Plan B Proj",
+    "fullname": "Plan B Project",
     "info": "Project topic arranged between student and instructor. Written report required.\n\nprereq: instr consent; may be taken once to satisfy Plan B master's project requirement; no cr toward PhD",
     "prereq": []
   },
   {
+    "uid": "0045691",
     "code": "PHYS 8501",
     "subject": "PHYS",
-    "id": "8501",
-    "title": "Gen Rel Cosmol I",
+    "number": "8501",
+    "name": "Gen Rel Cosmol I",
+    "fullname": "General Relativity and Cosmology I",
     "info": "Tensor analysis and differential geometry. Special relativity leading to formulation of principles of general relativity and Einstein's equations. Tests of general relativity and thorough discussion of various black hole solutions, including Schwarzschild, Reissner-Nordstom, and Kerr solutions.\n\nprereq: 5012 or instr consent",
     "prereq": {
       "code": "PHYS 5012",
       "subject": "PHYS",
-      "id": "5012"
+      "number": "5012"
     }
   },
   {
+    "uid": "0045701",
     "code": "PHYS 8502",
     "subject": "PHYS",
-    "id": "8502",
-    "title": "Gen Rel Cosmol II",
+    "number": "8502",
+    "name": "Gen Rel Cosmol II",
+    "fullname": "General Relativity and Cosmology II",
     "info": "Gravitational radiation. Applications of general relativity to stellar structure of white dwarfs and neutron stars, action principle, and symmetric spaces. Big-bang cosmology, strongly emphasizing particle physics.\n\nprereq: 8501 or instr consent",
     "prereq": {
       "code": "PHYS 8501",
       "subject": "PHYS",
-      "id": "8501"
+      "number": "8501"
     }
   },
   {
+    "uid": "8197991",
     "code": "PHYS 8581",
     "subject": "PHYS",
-    "id": "8581",
-    "title": "Big Data in Astrophysics",
+    "number": "8581",
+    "name": "Big Data in Astrophysics",
+    "fullname": "Big Data in Astrophysics",
     "info": "This course will introduce key concepts and techniques used to work with large datasets, in the context of the field of astrophysics.\n\nPrerequisites: MATH 2263 and MATH 2243, or equivalent; or instructor consent.\nSuggested: familiarity with astrophysics topics such as star formation and evolution, galaxies and clusters, composition and expansion of the universe, gravitational wave sources and waveforms, and high-energy astrophysics.",
     "prereq": {
       "and": [
         {
           "code": "MATH 2263",
           "subject": "MATH",
-          "id": "2263"
+          "number": "2263"
         },
         {
           "code": "MATH 2243",
           "subject": "MATH",
-          "id": "2243"
+          "number": "2243"
         }
       ]
     }
   },
   {
+    "uid": "0045841",
     "code": "PHYS 8600",
     "subject": "PHYS",
-    "id": "8600",
-    "title": "Space Phys Seminar",
+    "number": "8600",
+    "name": "Space Phys Seminar",
+    "fullname": "Seminar: Space Physics",
     "info": "Current topics in space physics and plasma physics.",
     "prereq": []
   },
   {
+    "uid": "0045711",
     "code": "PHYS 8601",
     "subject": "PHYS",
-    "id": "8601",
-    "title": "Plasma Physics I",
+    "number": "8601",
+    "name": "Plasma Physics I",
+    "fullname": "Plasma Physics I",
     "info": "Theory of plasma waves and instabilities in plasmas, magnetohydrodynamics, nonlinear waves in plasmas, wave propagation in inhomogeneous plasmas.\n\nprereq: 4621, 5012 or instr consent",
     "prereq": {
       "and": [
         {
           "code": "PHYS 4621",
           "subject": "PHYS",
-          "id": "4621"
+          "number": "4621"
         },
         {
           "code": "PHYS 5012",
           "subject": "PHYS",
-          "id": "5012"
+          "number": "5012"
         }
       ]
     }
   },
   {
+    "uid": "0045721",
     "code": "PHYS 8602",
     "subject": "PHYS",
-    "id": "8602",
-    "title": "Plasma Physics II",
+    "number": "8602",
+    "name": "Plasma Physics II",
+    "fullname": "Plasma Physics II",
     "info": "Theory of plasma waves and instabilities, collisions, radiation, transport, nonlinear wave-particle and wave-wave interactions, instabilities in inhomogeneous plasmas.\n\nprereq: 8601 or instr consent",
     "prereq": {
       "code": "PHYS 8601",
       "subject": "PHYS",
-      "id": "8601"
+      "number": "8601"
     }
   },
   {
+    "uid": "0045821",
     "code": "PHYS 8611",
     "subject": "PHYS",
-    "id": "8611",
-    "title": "Cosmic Rays and Plasma Astro",
+    "number": "8611",
+    "name": "Cosmic Rays and Plasma Astro",
+    "fullname": "Cosmic Rays and Plasma Astrophysics",
     "info": "Properties of energetic particles in heliosphere and in astrophysical environments; solar physics, including radiation and magnetic effects; solar wind and magnetospheric physics; physics of radiation belts.\n\nprereq: 5012 or instr consent",
     "prereq": {
       "code": "PHYS 5012",
       "subject": "PHYS",
-      "id": "5012"
+      "number": "5012"
     }
   },
   {
+    "uid": "0045881",
     "code": "PHYS 8650",
     "subject": "PHYS",
-    "id": "8650",
-    "title": "Adv Top Space Phys",
+    "number": "8650",
+    "name": "Adv Top Space Phys",
+    "fullname": "Advanced Topics in Space and Plasma Physics",
     "info": "Topics in plasma waves and instabilities, solar physics, cosmic ray physics, atmospheric physics or planetary physics.\n\nprereq: 8602 or 8611 or instr consent",
     "prereq": {
       "or": [
         {
           "code": "PHYS 8602",
           "subject": "PHYS",
-          "id": "8602"
+          "number": "8602"
         },
         {
           "code": "PHYS 8611",
           "subject": "PHYS",
-          "id": "8611"
+          "number": "8611"
         }
       ]
     }
   },
   {
+    "uid": "7885141",
     "code": "PHYS 8666",
     "subject": "PHYS",
-    "id": "8666",
-    "title": "Doct Pre-Thesis Cr",
+    "number": "8666",
+    "name": "Doct Pre-Thesis Cr",
+    "fullname": "Doctoral Pre-Thesis Credits",
     "info": "TBD\n\nprereq: Doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
     "prereq": []
   },
   {
+    "uid": "0045851",
     "code": "PHYS 8700",
     "subject": "PHYS",
-    "id": "8700",
-    "title": "Cond Matter Seminar",
+    "number": "8700",
+    "name": "Cond Matter Seminar",
+    "fullname": "Seminar: Condensed Matter Physics",
     "info": "Current research.\n\nprereq: instr consent",
     "prereq": []
   },
   {
+    "uid": "0045731",
     "code": "PHYS 8701",
     "subject": "PHYS",
-    "id": "8701",
-    "title": "Stat Mech Trans I",
+    "number": "8701",
+    "name": "Stat Mech Trans I",
+    "fullname": "Statistical Mechanics and Transport Theory I",
     "info": "Equilibrium properties of macroscopic classical and quantum systems. Phase transitions and Renormalization Group. Transport theory. Applications to soft condensed matter systems.    ",
     "prereq": []
   },
   {
+    "uid": "0045741",
     "code": "PHYS 8702",
     "subject": "PHYS",
-    "id": "8702",
-    "title": "Stat Mech Trans",
+    "number": "8702",
+    "name": "Stat Mech Trans",
+    "fullname": "Statistical Mechanics and Transport Theory",
     "info": "Equilibrium properties of macroscopic classical and quantum systems. Phase transitions and Renormalization Group. Transport theory. Applications to soft condensed matter systems.\n\nprereq: 5201 or instr consent",
     "prereq": {
       "code": "PHYS 5201",
       "subject": "PHYS",
-      "id": "5201"
+      "number": "5201"
     }
   },
   {
+    "uid": "0045751",
     "code": "PHYS 8711",
     "subject": "PHYS",
-    "id": "8711",
-    "title": "Solid St Phys I",
+    "number": "8711",
+    "name": "Solid St Phys I",
+    "fullname": "Solid-State Physics I",
     "info": "Fundamental properties of solids. Electronic structure and transport in metals and semiconductors. Properties of disordered materials.\n\nprereq: 4211, 5002 or instr consent",
     "prereq": {
       "and": [
         {
           "code": "PHYS 4211",
           "subject": "PHYS",
-          "id": "4211"
+          "number": "4211"
         },
         {
           "code": "PHYS 5002",
           "subject": "PHYS",
-          "id": "5002"
+          "number": "5002"
         }
       ]
     }
   },
   {
+    "uid": "0045761",
     "code": "PHYS 8712",
     "subject": "PHYS",
-    "id": "8712",
-    "title": "Solid St Phys II",
+    "number": "8712",
+    "name": "Solid St Phys II",
+    "fullname": "Solid-State Physics II",
     "info": "Fundamental properties of solids. Electronic structure and transport in metals and semiconductors. Properties of disordered materials.\n\nprereq: 8711 or instr consent",
     "prereq": {
       "code": "PHYS 8711",
       "subject": "PHYS",
-      "id": "8711"
+      "number": "8711"
     }
   },
   {
+    "uid": "0045891",
     "code": "PHYS 8750",
     "subject": "PHYS",
-    "id": "8750",
-    "title": "Adv Top Cond Matter",
+    "number": "8750",
+    "name": "Adv Top Cond Matter",
+    "fullname": "Advanced Topics in Condensed Matter Physics",
     "info": "Sample research topics: magnetism, superconductivity, low temperature physics, superfluid helium.\n\nprereq: 8712 or instr consent",
     "prereq": {
       "code": "PHYS 8712",
       "subject": "PHYS",
-      "id": "8712"
+      "number": "8712"
     }
   },
   {
+    "uid": "7886421",
     "code": "PHYS 8777",
     "subject": "PHYS",
-    "id": "8777",
-    "title": "Thesis Credit:Mast*",
+    "number": "8777",
+    "name": "Thesis Credit:Mast*",
+    "fullname": "Thesis Credits: Master's",
     "info": "(No description)\n\nprereq: Max 18 cr per semester or summer; 10 cr total required [Plan A only]",
     "prereq": []
   },
   {
+    "uid": "0045861",
     "code": "PHYS 8800",
     "subject": "PHYS",
-    "id": "8800",
-    "title": "Nuc Phys Seminar",
+    "number": "8800",
+    "name": "Nuc Phys Seminar",
+    "fullname": "Seminar: Nuclear Physics",
     "info": "Current research topics.",
     "prereq": []
   },
   {
+    "uid": "0045771",
     "code": "PHYS 8801",
     "subject": "PHYS",
-    "id": "8801",
-    "title": "Nuc Physics I",
+    "number": "8801",
+    "name": "Nuc Physics I",
+    "fullname": "Nuclear Physics I",
     "info": "Nuclear/neutrino astrophysics. Thermonuclear reactions. Processes of nucleosynthesis. Origin of the elements. Stellar evolution. Theory of supernovae. Exotic stars. Chemical evolution of galaxies.\n\nprereq: 5001, 5002, 5011, 5012, 5201; AST 4001 recommended",
     "prereq": {
       "and": [
         {
           "code": "PHYS 5001",
           "subject": "PHYS",
-          "id": "5001"
+          "number": "5001"
         },
         {
           "code": "PHYS 5002",
           "subject": "PHYS",
-          "id": "5002"
+          "number": "5002"
         },
         {
           "code": "PHYS 5011",
           "subject": "PHYS",
-          "id": "5011"
+          "number": "5011"
         },
         {
           "code": "PHYS 5012",
           "subject": "PHYS",
-          "id": "5012"
+          "number": "5012"
         },
         {
           "code": "PHYS 5201",
           "subject": "PHYS",
-          "id": "5201"
+          "number": "5201"
         },
         {
           "code": "AST 4001",
           "subject": "AST",
-          "id": "4001"
+          "number": "4001"
         }
       ]
     }
   },
   {
+    "uid": "0045791",
     "code": "PHYS 8802",
     "subject": "PHYS",
-    "id": "8802",
-    "title": "Nuc Physics II",
+    "number": "8802",
+    "name": "Nuc Physics II",
+    "fullname": "Nuclear Physics II",
     "info": "Properties of nuclei based on hadronic and quark-gluon degrees of freedom.  Relativistic field theory at finite temperatures and density applied to many-body problems, especially nuclear matter and quark-gluon plasma.  Applications to lepton and hadron scattering, nucleus-nucleus collisions, astrophysics and cosmology.\n\nprereq: 8801 or instr consent",
     "prereq": {
       "code": "PHYS 8801",
       "subject": "PHYS",
-      "id": "8801"
+      "number": "8801"
     }
   },
   {
+    "uid": "0045901",
     "code": "PHYS 8850",
     "subject": "PHYS",
-    "id": "8850",
-    "title": "Adv Top Nuc Phys",
+    "number": "8850",
+    "name": "Adv Top Nuc Phys",
+    "fullname": "Advanced Topics in Nuclear Physics",
     "info": "Research topics.\n\nprereq: 8802 or instr consent",
     "prereq": {
       "code": "PHYS 8802",
       "subject": "PHYS",
-      "id": "8802"
+      "number": "8802"
     }
   },
   {
+    "uid": "7879201",
     "code": "PHYS 8888",
     "subject": "PHYS",
-    "id": "8888",
-    "title": "Thesis Credit:Doct*",
+    "number": "8888",
+    "name": "Thesis Credit:Doct*",
+    "fullname": "Thesis Credit: Doctoral",
     "info": "(No description)\n\nprereq: Max 18 cr per semester or summer; 24 cr required",
     "prereq": []
   },
   {
+    "uid": "0045871",
     "code": "PHYS 8900",
     "subject": "PHYS",
-    "id": "8900",
-    "title": "Elem Particle Sem",
+    "number": "8900",
+    "name": "Elem Particle Sem",
+    "fullname": "Seminar: Elementary Particle Physics",
     "info": "Elementary particle physics, high energy physics, particle astrophysics and cosmology.",
     "prereq": []
   },
   {
+    "uid": "0045801",
     "code": "PHYS 8901",
     "subject": "PHYS",
-    "id": "8901",
-    "title": "Elem Part Phys I",
+    "number": "8901",
+    "name": "Elem Part Phys I",
+    "fullname": "Elementary Particle Physics I",
     "info": "Types of fundamental interactions. Exact and approximate symmetries and conservation laws. Gauge quanta: gluons, photons, W and Z bosons, gravitons.  Fundamental fermions: leptons and quarks. Isotopic and flavor SU(3) symmetries of strong interaction. Heavy hadrons. Amplitudes and probabilities. Quantum chromodynamics.\n\nprereq: 8001 or instr consent",
     "prereq": {
       "code": "PHYS 8001",
       "subject": "PHYS",
-      "id": "8001"
+      "number": "8001"
     }
   },
   {
+    "uid": "0045811",
     "code": "PHYS 8902",
     "subject": "PHYS",
-    "id": "8902",
-    "title": "Elem Part Phys II",
+    "number": "8902",
+    "name": "Elem Part Phys II",
+    "fullname": "Elementary Particle Physics II",
     "info": "Deep inelastic scattering. Weak interactions of leptons. Semileptonic and nonleptonic weak processes with hadons. Oscillations of neutral Kaons. Violation of CP symmetry in Kaons. Neutrino masses and oscillations. Standard model of the electroweak interaction. Grand unification.  Unitarity of the S matrix. Properties of soft pions.\n\nprereq: 8901 or instr consent",
     "prereq": {
       "code": "PHYS 8901",
       "subject": "PHYS",
-      "id": "8901"
+      "number": "8901"
     }
   },
   {
+    "uid": "7968861",
     "code": "PHYS 8911",
     "subject": "PHYS",
-    "id": "8911",
-    "title": "Introduction to Supersymmetry",
+    "number": "8911",
+    "name": "Introduction to Supersymmetry",
+    "fullname": "Introduction to Supersymmetry",
     "info": "Motivation. Coleman-Mandula theorem. Supersymmetric Quantum Mechanics. 4D supersymmetry algebra and representations. Extended supersymmetry. N=1 superspace and superfields. Supersymmetric guage theories. Chiral/vector multiplets. Non-renormalization theorems. Supersymmetry breaking. Supersymmetric Standard Model. Phenomenology. Nonperturbative supersymmetry. Supergravity.\n\nprereq: 8011 or instr consent",
     "prereq": {
       "code": "PHYS 8011",
       "subject": "PHYS",
-      "id": "8011"
+      "number": "8011"
     }
   },
   {
+    "uid": "0045911",
     "code": "PHYS 8950",
     "subject": "PHYS",
-    "id": "8950",
-    "title": "Adv Top Elem Part",
+    "number": "8950",
+    "name": "Adv Top Elem Part",
+    "fullname": "Advanced Topics in Elementary Particle Physics",
     "info": "Research topics.\n\nprereq: 8902 or instr consent",
     "prereq": {
       "code": "PHYS 8902",
       "subject": "PHYS",
-      "id": "8902"
+      "number": "8902"
     }
   },
   {
+    "uid": "0045981",
     "code": "PHYS 8994",
     "subject": "PHYS",
-    "id": "8994",
-    "title": "Phys Research",
+    "number": "8994",
+    "name": "Phys Research",
+    "fullname": "Research in Physics",
     "info": "Research under faculty direction.\n\nprereq: instr consent",
     "prereq": []
   },
   {
+    "uid": "8259791",
     "code": "PHYS 8996",
     "subject": "PHYS",
-    "id": "8996",
-    "title": "Curricular Practical Training",
+    "number": "8996",
+    "name": "Curricular Practical Training",
+    "fullname": "Curricular Practical Training",
     "info": "Phys8996 CPT is a one-credit course taken pass/fail by international students engaging in an internship at an industrial work environment. Grade is based on final report/presentation covering work assignment. The presentation is to be coordinated with the Director of Career Education.\nThe course will not count toward credit requirements in the School of Physics and Astronomy graduate programs.\n\n",
     "prereq": []
   }

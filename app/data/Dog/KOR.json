@@ -1,257 +1,305 @@
 [
   {
+    "uid": "0165891",
     "code": "KOR 1011",
     "subject": "KOR",
-    "id": "1011",
-    "title": "Beginning Korean I",
+    "number": "1011",
+    "name": "Beginning Korean I",
+    "fullname": "Beginning Korean I",
     "info": "Basic grammatical structure, vocabulary, expressions of modern colloquial Korean. Introduces Korean writing system.",
     "prereq": []
   },
   {
+    "uid": "0165911",
     "code": "KOR 1012",
     "subject": "KOR",
-    "id": "1012",
-    "title": "Beginning Korean II",
+    "number": "1012",
+    "name": "Beginning Korean II",
+    "fullname": "Beginning Korean II",
     "info": "Basic grammatical structure, vocabulary, expressions of modern colloquial Korean.\n\nprereq: 1011",
     "prereq": {
       "code": "KOR 1011",
       "subject": "KOR",
-      "id": "1011"
+      "number": "1011"
     }
   },
   {
+    "uid": "7919271",
     "code": "KOR 1017",
     "subject": "KOR",
-    "id": "1017",
-    "title": "Accelerated Korean",
+    "number": "1017",
+    "name": "Accelerated Korean",
+    "fullname": "Accelerated Korean",
     "info": "Intensive course. Emphasizes reading/writing. Listening/speaking in various contexts.",
     "prereq": []
   },
   {
+    "uid": "0165941",
     "code": "KOR 3021",
     "subject": "KOR",
-    "id": "3021",
-    "title": "Intermediate Korean I",
+    "number": "3021",
+    "name": "Intermediate Korean I",
+    "fullname": "Intermediate Korean I",
     "info": "Speaking, reading, writing at intermediate level in modern colloquial Korean. Simple narration/written reports. Some basic Chinese characters may be introduced.\n\nprereq: 1012",
     "prereq": {
       "code": "KOR 1012",
       "subject": "KOR",
-      "id": "1012"
+      "number": "1012"
     }
   },
   {
+    "uid": "0165961",
     "code": "KOR 3022",
     "subject": "KOR",
-    "id": "3022",
-    "title": "Intermediate Korean II",
+    "number": "3022",
+    "name": "Intermediate Korean II",
+    "fullname": "Intermediate Korean II",
     "info": "Speaking, reading, writing at intermediate level in modern colloquial Korean. Narration/written reports. Introduction of additional basic Chinese characters.\n\nprereq: 3021",
     "prereq": {
       "code": "KOR 3021",
       "subject": "KOR",
-      "id": "3021"
+      "number": "3021"
     }
   },
   {
+    "uid": "0165971",
     "code": "KOR 3031",
     "subject": "KOR",
-    "id": "3031",
-    "title": "Third Year Korean I",
+    "number": "3031",
+    "name": "Third Year Korean I",
+    "fullname": "Third Year Korean I",
     "info": "Speaking, reading, writing at advanced level in modern colloquial Korean. Narration, written reports. Further Chinese characters introduced.\n\nprereq: 3022",
     "prereq": {
       "code": "KOR 3022",
       "subject": "KOR",
-      "id": "3022"
+      "number": "3022"
     }
   },
   {
+    "uid": "0166001",
     "code": "KOR 3032",
     "subject": "KOR",
-    "id": "3032",
-    "title": "Third Year Korean II",
+    "number": "3032",
+    "name": "Third Year Korean II",
+    "fullname": "Third Year Korean II",
     "info": "Speaking, reading, writing at advanced level in modern colloquial Korean. Narration, written reports. Further Chinese characters introduced.\n\nprereq: 3031",
     "prereq": {
       "code": "KOR 3031",
       "subject": "KOR",
-      "id": "3031"
+      "number": "3031"
     }
   },
   {
+    "uid": "7988111",
     "code": "KOR 3290",
     "subject": "KOR",
-    "id": "3290",
-    "title": "Korean Teaching Tutorial",
+    "number": "3290",
+    "name": "Korean Teaching Tutorial",
+    "fullname": "Korean Language Teaching Tutorial",
     "info": "Students tutor beginning students of Korean and are part of department's Korean language team.\n\nprereq: Grade of A in 3032",
     "prereq": {
       "code": "KOR 3032",
       "subject": "KOR",
-      "id": "3032"
+      "number": "3032"
     }
   },
   {
+    "uid": "7905971",
     "code": "KOR 3650",
     "subject": "KOR",
-    "id": "3650",
-    "title": "20th Cent Korean Lit in Trans",
+    "number": "3650",
+    "name": "20th Cent Korean Lit in Trans",
+    "fullname": "20th Century Korean Literature in Translation",
     "info": "Various works of Korean literature from colonial age through 1990s. Literary responses to historical changes. Relationship of literary works with historical issues such as colonial experience, Korean civil war and its results, and modern industrial society.",
     "prereq": []
   },
   {
+    "uid": "0167001",
     "code": "KOR 3940",
     "subject": "KOR",
-    "id": "3940",
-    "title": "KOR Culture & History",
+    "number": "3940",
+    "name": "KOR Culture & History",
+    "fullname": "Korean Culture and History",
     "info": "Introduction to Korean society/culture. History, material culture, religion, family/kinship, weddings. Lectures, discussions, videos.",
     "prereq": []
   },
   {
+    "uid": "8033021",
     "code": "KOR 3993",
     "subject": "KOR",
-    "id": "3993",
-    "title": "Directed Studies",
+    "number": "3993",
+    "name": "Directed Studies",
+    "fullname": "Directed Studies",
     "info": "Directed study in topics of Korean literature, culture, language, or linguistics.\nPrereq instr consent, dept consent, college consent.",
     "prereq": []
   },
   {
+    "uid": "7941711",
     "code": "KOR 4001",
     "subject": "KOR",
-    "id": "4001",
-    "title": "Beg Korean I for Grad Research",
+    "number": "4001",
+    "name": "Beg Korean I for Grad Research",
+    "fullname": "Beginning Korean I for Graduate Student Research",
     "info": "Basic grammatical structure, vocabulary, expressions of modern colloquial Korean. Introduces Korean writing system. Meets with 1011.",
     "prereq": []
   },
   {
+    "uid": "7941721",
     "code": "KOR 4002",
     "subject": "KOR",
-    "id": "4002",
-    "title": "Beg Korean II Grad Research",
+    "number": "4002",
+    "name": "Beg Korean II Grad Research",
+    "fullname": "Beginning Korean II for Graduate Student Research",
     "info": "Basic grammatical structure, vocabulary, expressions of modern colloquial Korean. Meets with 1012.\n\nprereq: 4001",
     "prereq": {
       "code": "KOR 4001",
       "subject": "KOR",
-      "id": "4001"
+      "number": "4001"
     }
   },
   {
+    "uid": "7941731",
     "code": "KOR 4003",
     "subject": "KOR",
-    "id": "4003",
-    "title": "Int Korean I for Grad Research",
+    "number": "4003",
+    "name": "Int Korean I for Grad Research",
+    "fullname": "Intermediate Korean I for Graduate Student Research",
     "info": "Speaking, reading, writing in modern colloquial Korean. Simple narration/written reports. Basic Chinese characters may be introduced. Meets with 3021.\n\nprereq: 4002, grad student",
     "prereq": {
       "code": "KOR 4002",
       "subject": "KOR",
-      "id": "4002"
+      "number": "4002"
     }
   },
   {
+    "uid": "7941741",
     "code": "KOR 4004",
     "subject": "KOR",
-    "id": "4004",
-    "title": "Int Korean II Grad Research",
+    "number": "4004",
+    "name": "Int Korean II Grad Research",
+    "fullname": "Intermediate Korean II for Graduate Student Research",
     "info": "Speaking, reading, writing at intermediate level in modern colloquial Korean. Narration/written reports. Introduction of additional basic Chinese characters. Meets with 3022.\n\nprereq: 4003",
     "prereq": {
       "code": "KOR 4003",
       "subject": "KOR",
-      "id": "4003"
+      "number": "4003"
     }
   },
   {
+    "uid": "7987541",
     "code": "KOR 4005",
     "subject": "KOR",
-    "id": "4005",
-    "title": "Third Yr Korean I Grad Resrch",
+    "number": "4005",
+    "name": "Third Yr Korean I Grad Resrch",
+    "fullname": "Third Year Korean I for Graduate Student Research",
     "info": "Speaking, reading, writing in modern colloquial Korean. Narration, written reports. Further Chinese characters. Meets with 3031.\n\nprereq: 4004",
     "prereq": {
       "code": "KOR 4004",
       "subject": "KOR",
-      "id": "4004"
+      "number": "4004"
     }
   },
   {
+    "uid": "7987551",
     "code": "KOR 4006",
     "subject": "KOR",
-    "id": "4006",
-    "title": "Third Yr Korean II Grad Resrch",
+    "number": "4006",
+    "name": "Third Yr Korean II Grad Resrch",
+    "fullname": "Third Year Korean II for Graduate Student Research",
     "info": "Speaking, reading, writing at advanced level in modern colloquial Korean. Narration, written reports. Further Chinese characters introduced.\n\nprereq: 4005",
     "prereq": {
       "code": "KOR 4005",
       "subject": "KOR",
-      "id": "4005"
+      "number": "4005"
     }
   },
   {
+    "uid": "8020521",
     "code": "KOR 4041",
     "subject": "KOR",
-    "id": "4041",
-    "title": "Advanced Korean I",
+    "number": "4041",
+    "name": "Advanced Korean I",
+    "fullname": "Advanced Readings in Modern Korean I",
     "info": "Speaking, listening, reading, writing. Content/task-based course. Study vocabulary/read novels, journals, selections from Korean history/arts. Writing summaries, reports, simple reaction papers.\n\nprereq: 3032 or equiv or instr consent",
     "prereq": {
       "code": "KOR 3032",
       "subject": "KOR",
-      "id": "3032"
+      "number": "3032"
     }
   },
   {
+    "uid": "8020561",
     "code": "KOR 4042",
     "subject": "KOR",
-    "id": "4042",
-    "title": "Advanced Korean II",
+    "number": "4042",
+    "name": "Advanced Korean II",
+    "fullname": "Advanced Readings in Modern Korean II",
     "info": "Speaking, listening, reading, writing. Content/task-based course. Study vocabulary/read novels, journals, selections from Korean history/arts. Writing summaries, reports, simple reaction papers.\n\nprereq: 4041 or equiv or instr consent",
     "prereq": {
       "code": "KOR 4041",
       "subject": "KOR",
-      "id": "4041"
+      "number": "4041"
     }
   },
   {
+    "uid": "8102041",
     "code": "KOR 5040",
     "subject": "KOR",
-    "id": "5040",
-    "title": "Readings in Korean Texts",
+    "number": "5040",
+    "name": "Readings in Korean Texts",
+    "fullname": "Readings in Korean Texts: North Korean Dialect",
     "info": "Expose advanced students of Korean to various North Korean contexts. Improve ability to understand North Korean literary work. Various authentic texts from North Korea. Mostly taught in Korean.\n\nprereq: 3022 or intermediate level of Korean proficiency",
     "prereq": {
       "code": "KOR 3022",
       "subject": "KOR",
-      "id": "3022"
+      "number": "3022"
     }
   },
   {
+    "uid": "8004041",
     "code": "KOR 5140",
     "subject": "KOR",
-    "id": "5140",
-    "title": "Readings in Sino-Korean Texts",
+    "number": "5140",
+    "name": "Readings in Sino-Korean Texts",
+    "fullname": "Readings in Sino-Korean Texts",
     "info": "Sino-Korean vocabulary/characters necessary for advanced and superior level of knowledge in Korean. Students conduct research projects based on specialized readings in their own fields of study.\n\nprereq: 3032 or equiv or instr consent",
     "prereq": {
       "code": "KOR 3032",
       "subject": "KOR",
-      "id": "3032"
+      "number": "3032"
     }
   },
   {
+    "uid": "8106881",
     "code": "KOR 5211",
     "subject": "KOR",
-    "id": "5211",
-    "title": "Introductory Classical Chinese",
+    "number": "5211",
+    "name": "Introductory Classical Chinese",
+    "fullname": "Introductory Classical Chinese I",
     "info": "Reading excerpts from canonical Chinese texts. Transnational nature of Classical Chinese/its importance in study of East Asian cultures. Taught in English.\n\nprereq: Two years of an East Asian language (Chinese, Japanese, Korean) or equivalent or instr consent",
     "prereq": []
   },
   {
+    "uid": "8106891",
     "code": "KOR 5212",
     "subject": "KOR",
-    "id": "5212",
-    "title": "Intro Classical Chinese II",
+    "number": "5212",
+    "name": "Intro Classical Chinese II",
+    "fullname": "Introductory Classical Chinese II",
     "info": "Reading excerpts from canonical Chinese texts. Transnational nature of Classical Chinese/its importance in study of East Asian cultures. Taught in English.\n\nprereq: 5211 and two years of an East Asian language (Chinese, Japanese, Korean) or equivalent or instr consent",
     "prereq": {
       "code": "KOR 5211",
       "subject": "KOR",
-      "id": "5211"
+      "number": "5211"
     }
   },
   {
+    "uid": "8105671",
     "code": "KOR 5993",
     "subject": "KOR",
-    "id": "5993",
-    "title": "Directed Studies",
+    "number": "5993",
+    "name": "Directed Studies",
+    "fullname": "Directed Studies",
     "info": "Guided individual study of Korean language or linguistics.\n\nprereq: instr consent, dept consent, college consent",
     "prereq": []
   }

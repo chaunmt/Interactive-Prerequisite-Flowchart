@@ -1,69 +1,85 @@
 [
   {
+    "uid": "0132081",
     "code": "PERO 5123",
     "subject": "PERO",
-    "id": "5123",
-    "title": "Prac Mgmt Extern",
+    "number": "5123",
+    "name": "Prac Mgmt Extern",
+    "fullname": "Practice Management Externship",
     "info": "Familiarizes periodontal students with the private practice environment and prepares them to select the type of practice they want to purchase or build and successfully manage their office.\n\nprereq: Resident in advanced education program in periodontology",
     "prereq": []
   },
   {
+    "uid": "0115141",
     "code": "PERO 7321",
     "subject": "PERO",
-    "id": "7321",
-    "title": "Perio/Orthodontics Seminar",
+    "number": "7321",
+    "name": "Perio/Orthodontics Seminar",
+    "fullname": "Periodontics/Orthodontics Seminar",
     "info": "Seminar related to postdoctoral work in periodontics/orthodontics.",
     "prereq": []
   },
   {
+    "uid": "7905721",
     "code": "PERO 7322",
     "subject": "PERO",
-    "id": "7322",
-    "title": "Multi. Discip. Seminars",
+    "number": "7322",
+    "name": "Multi. Discip. Seminars",
+    "fullname": "Multidisciplinary Treatment Seminar in Dentistry Related to Periodontics",
     "info": "Series of multidisciplinary treatment seminars related to specialized fields in periodontology, endodontics, pediatric dentistry, AEGD/GPR, and prosthodontics dentistry.\n\nprereq: Resident enrolled in [periodontology, endodontics, pediatric dentistry, AEGD/GPR, prosthodontics]",
     "prereq": []
   },
   {
+    "uid": "8262691",
     "code": "PERO 7323",
     "subject": "PERO",
-    "id": "7323",
-    "title": "Multi. Discip. Seminars II",
+    "number": "7323",
+    "name": "Multi. Discip. Seminars II",
+    "fullname": "Multidisciplinary Treatment Seminar in Dentistry Related to Periodontics II",
     "info": "Series of multidisciplinary treatment seminars related to specialized fields in periodontology, endodontics, pediatric dentistry, AEGD/GPR, and prosthodontics dentistry.\n\nprereq: Resident enrolled in [periodontology, endodontics, pediatric dentistry, AEGD/GPR, prosthodontics], completion of PERO 7322",
     "prereq": {
       "code": "PERO 7322",
       "subject": "PERO",
-      "id": "7322"
+      "number": "7322"
     }
   },
   {
+    "uid": "0115101",
     "code": "PERO 8000",
     "subject": "PERO",
-    "id": "8000",
-    "title": "Perio Clinic",
+    "number": "8000",
+    "name": "Perio Clinic",
+    "fullname": "Advanced Clinical Periodontology",
     "info": "Clinical training in examination, diagnosis, treatment planning, and various phases of prevention and treatment of periodontal diseases in patients.\n\nprereq: Resident in advanced education program in periodontology",
     "prereq": []
   },
   {
+    "uid": "0115111",
     "code": "PERO 8200",
     "subject": "PERO",
-    "id": "8200",
-    "title": "Clinical Seminars",
+    "number": "8200",
+    "name": "Clinical Seminars",
+    "fullname": "Clinical Seminars",
     "info": "tbd\n\nprereq: Resident in advanced education program in periodontology",
     "prereq": []
   },
   {
+    "uid": "0115121",
     "code": "PERO 8250",
     "subject": "PERO",
-    "id": "8250",
-    "title": "Anatomy of the Periodontium",
+    "number": "8250",
+    "name": "Anatomy of the Periodontium",
+    "fullname": "Anatomy of the Periodontium",
     "info": "Gingival tissues, cementum, periodontal ligament, and alveolar bone discussed from histological, physiological. and pathological point of view.\n\nprereq: Resident in advanced education program in periodontology",
     "prereq": []
   },
   {
+    "uid": "8257991",
     "code": "PERO 8251",
     "subject": "PERO",
-    "id": "8251",
-    "title": "Histology of the Periodontium",
+    "number": "8251",
+    "name": "Histology of the Periodontium",
+    "fullname": "Histology of the Periodontium",
     "info": "The goal of this course is to develop in-depth knowledge of the histology of the periodontium. The class format is a weekly seminar in which students must be able to identify and describe unlabeled histological components to the faculty. ",
     "prereq": []
   }

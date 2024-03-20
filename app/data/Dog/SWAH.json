@@ -1,101 +1,123 @@
 [
   {
+    "uid": "0022691",
     "code": "SWAH 1221",
     "subject": "SWAH",
-    "id": "1221",
-    "title": "Beginning Swahili, Semester I",
+    "number": "1221",
+    "name": "Beginning Swahili, Semester I",
+    "fullname": "Beginning Swahili, Semester I",
     "info": "Comprehension, speaking, reading, writing.",
     "prereq": []
   },
   {
+    "uid": "0022701",
     "code": "SWAH 1222",
     "subject": "SWAH",
-    "id": "1222",
-    "title": "Beginning Swahili, Semester II",
+    "number": "1222",
+    "name": "Beginning Swahili, Semester II",
+    "fullname": "Beginning Swahili II",
     "info": "Continuation of skill development from 1221.\n\nprereq: 1221 or equiv",
     "prereq": {
       "code": "SWAH 1221",
       "subject": "SWAH",
-      "id": "1221"
+      "number": "1221"
     }
   },
   {
+    "uid": "0023321",
     "code": "SWAH 3225",
     "subject": "SWAH",
-    "id": "3225",
-    "title": "Intermediate Swahili",
+    "number": "3225",
+    "name": "Intermediate Swahili",
+    "fullname": "Intermediate Swahili",
     "info": "Readings of contemporary Swahili texts. Review of grammar and complex verb forms. Vocabulary, communication skills.\n\nprereq: 1 yr Swahili or equiv",
     "prereq": []
   },
   {
+    "uid": "0023331",
     "code": "SWAH 3226",
     "subject": "SWAH",
-    "id": "3226",
-    "title": "Intermediate Swahili II",
+    "number": "3226",
+    "name": "Intermediate Swahili II",
+    "fullname": "Intermediate Swahili II",
     "info": "Continuation of skill development from 3225.\n\nprereq: 3225 or equiv",
     "prereq": {
       "code": "SWAH 3225",
       "subject": "SWAH",
-      "id": "3225"
+      "number": "3225"
     }
   },
   {
+    "uid": "8154191",
     "code": "SWAH 3425",
     "subject": "SWAH",
-    "id": "3425",
-    "title": "Advanced Swahili",
+    "number": "3425",
+    "name": "Advanced Swahili",
+    "fullname": "Advanced Swahili",
     "info": "Speaking, reading, writing. An emphasis on vocabulary development and refining of grammar points and cultural issues. The materials to supplement the standard textbook include literary texts, film, music, newspaper articles, radio and TV broadcasts, audio, video and computer interactive material, and government documents. This course presumes completion of intermediate level Swahili or its equivalent.",
     "prereq": []
   },
   {
+    "uid": "7990251",
     "code": "SWAH 4221",
     "subject": "SWAH",
-    "id": "4221",
-    "title": "Beg Swahili Grad Research I",
+    "number": "4221",
+    "name": "Beg Swahili Grad Research I",
+    "fullname": "Beginning Swahili for Graduate Research I",
     "info": "Comprehension, speaking, reading, writing. Meets with 1221.",
     "prereq": []
   },
   {
+    "uid": "8000371",
     "code": "SWAH 4222",
     "subject": "SWAH",
-    "id": "4222",
-    "title": "Beg Swahili Grad Research  II",
+    "number": "4222",
+    "name": "Beg Swahili Grad Research  II",
+    "fullname": "Beginning Swahili for Graduate Research II",
     "info": "Comprehension, speaking, reading, writing. Continuation of skill development from 1221. Meets with 1222.",
     "prereq": []
   },
   {
+    "uid": "8000381",
     "code": "SWAH 4225",
     "subject": "SWAH",
-    "id": "4225",
-    "title": "Inter Swahili Grad Research",
+    "number": "4225",
+    "name": "Inter Swahili Grad Research",
+    "fullname": "Intermediate Swahili for Graduate Research",
     "info": "Readings of contemporary Swahili texts. Review of grammar and complex verb forms. Vocabulary, communication skills.",
     "prereq": []
   },
   {
+    "uid": "8031131",
     "code": "SWAH 4226",
     "subject": "SWAH",
-    "id": "4226",
-    "title": "Inter Swahili Grad Research II",
+    "number": "4226",
+    "name": "Inter Swahili Grad Research II",
+    "fullname": "Intermediate Swahili for Graduate Research II",
     "info": "Continuation of skill development from 4225.\n\nprereq: 4225 or equiv",
     "prereq": {
       "code": "SWAH 4225",
       "subject": "SWAH",
-      "id": "4225"
+      "number": "4225"
     }
   },
   {
+    "uid": "8164201",
     "code": "SWAH 4425",
     "subject": "SWAH",
-    "id": "4425",
-    "title": "Advanced Swahili Grad Research",
+    "number": "4425",
+    "name": "Advanced Swahili Grad Research",
+    "fullname": "Advanced Swahili for Graduate Research",
     "info": "Speaking, reading, writing. An emphasis on vocabulary development and refining of grammar points and cultural issues. The materials to supplement the standard textbook include literary texts, film, music, newspaper articles, radio and TV broadcasts, audio, video and computer interactive material, and government documents. This course presumes completion of intermediate level Swahili or its equivalent.",
     "prereq": []
   },
   {
+    "uid": "8031201",
     "code": "SWAH 5226",
     "subject": "SWAH",
-    "id": "5226",
-    "title": "Advanced Swahili II",
+    "number": "5226",
+    "name": "Advanced Swahili II",
+    "fullname": "Advanced Swahili II",
     "info": "Continuation of skill development from 5225.  ",
     "prereq": []
   }

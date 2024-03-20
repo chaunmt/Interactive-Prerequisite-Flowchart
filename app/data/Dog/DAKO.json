@@ -1,237 +1,245 @@
 [
   {
+    "uid": "8011231",
     "code": "DAKO 1121",
     "subject": "DAKO",
-    "id": "1121",
-    "title": "Beg Dakota I",
+    "number": "1121",
+    "name": "Beg Dakota I",
+    "fullname": "Beginning Dakota I",
     "info": "Listening, speaking, reading, writing. Oral drills, in-class participation focused on questions/answers.",
     "prereq": []
   },
   {
+    "uid": "8011241",
     "code": "DAKO 1122",
     "subject": "DAKO",
-    "id": "1122",
-    "title": "Beg Dakota II",
+    "number": "1122",
+    "name": "Beg Dakota II",
+    "fullname": "Beginning Dakota II",
     "info": "Further development of language acquisiton skills. Oral drills, in-class participation focused on questions/answers.\n\nprereq: 1121",
     "prereq": {
       "code": "DAKO 1121",
       "subject": "DAKO",
-      "id": "1121"
+      "number": "1121"
     }
   },
   {
+    "uid": "8011251",
     "code": "DAKO 3123",
     "subject": "DAKO",
-    "id": "3123",
-    "title": "Intermediate Dakota I",
+    "number": "3123",
+    "name": "Intermediate Dakota I",
+    "fullname": "Intermediate Dakota I",
     "info": "Listening, speaking, reading, writing. Oral drills, in-class participation focused on questions/answers.\n\nprereq: 1122",
     "prereq": {
       "code": "DAKO 1122",
       "subject": "DAKO",
-      "id": "1122"
+      "number": "1122"
     }
   },
   {
+    "uid": "8011261",
     "code": "DAKO 3124",
     "subject": "DAKO",
-    "id": "3124",
-    "title": "Int Dakota II",
+    "number": "3124",
+    "name": "Int Dakota II",
+    "fullname": "Intermediate Dakota II",
     "info": "Listening, speaking, reading, writing. Oral drills, in-class participation focused on questions/answers.\n\nprereq: 1121, 1122, 3123",
     "prereq": {
       "and": [
         {
           "code": "DAKO 1121",
           "subject": "DAKO",
-          "id": "1121"
+          "number": "1121"
         },
         {
           "code": "DAKO 1122",
           "subject": "DAKO",
-          "id": "1122"
+          "number": "1122"
         },
         {
           "code": "DAKO 3123",
           "subject": "DAKO",
-          "id": "3123"
+          "number": "3123"
         }
       ]
     }
   },
   {
+    "uid": "8042761",
     "code": "DAKO 3125",
     "subject": "DAKO",
-    "id": "3125",
-    "title": "Into to Dakota Linguistics",
+    "number": "3125",
+    "name": "Into to Dakota Linguistics",
+    "fullname": "Introduction to Dakota Linguistics",
     "info": "Structure of Dakota, including phonology, morphology, syntax, and semantics.\n\nprereq: 3124",
     "prereq": {
       "code": "DAKO 3124",
       "subject": "DAKO",
-      "id": "3124"
+      "number": "3124"
     }
   },
   {
+    "uid": "8079511",
     "code": "DAKO 3126",
     "subject": "DAKO",
-    "id": "3126",
-    "title": "Dakota Language for the Class",
+    "number": "3126",
+    "name": "Dakota Language for the Class",
+    "fullname": "Dakota Language for the Classroom",
     "info": "General/specialized language for core subjects, daily routines, and classroom discourse. Methods for teaching Dakota language.\n\nprereq: 1122",
     "prereq": {
       "code": "DAKO 1122",
       "subject": "DAKO",
-      "id": "1122"
+      "number": "1122"
     }
   },
   {
+    "uid": "8063961",
     "code": "DAKO 3127",
     "subject": "DAKO",
-    "id": "3127",
-    "title": "Dakota Language for Teachers",
+    "number": "3127",
+    "name": "Dakota Language for Teachers",
+    "fullname": "Dakota Language for Teachers",
     "info": "Dakota language for teachers. Methods of teaching Dakota language in the classroom.\n\nprereq: 1121",
     "prereq": {
       "code": "DAKO 1121",
       "subject": "DAKO",
-      "id": "1121"
+      "number": "1121"
     }
   },
   {
+    "uid": "8027601",
     "code": "DAKO 4121",
     "subject": "DAKO",
-    "id": "4121",
-    "title": "Beg Dakota I",
+    "number": "4121",
+    "name": "Beg Dakota I",
+    "fullname": "Beginning Dakota I",
     "info": "Language acquisitions skills, oral drills. In-class participation focuses on questions/answers.\n\nprereq: [1122, 1004] in another language or passing score on LPE or grad student",
-    "prereq": {
-      "and": [
-        {
-          "code": "DAKO 1122",
-          "subject": "DAKO",
-          "id": "1122"
-        },
-        {
-          "code": "DAKO 1004",
-          "subject": "DAKO",
-          "id": "1004"
-        }
-      ]
-    }
+    "prereq": []
   },
   {
+    "uid": "8014401",
     "code": "DAKO 4122",
     "subject": "DAKO",
-    "id": "4122",
-    "title": "Beg Dakota II",
+    "number": "4122",
+    "name": "Beg Dakota II",
+    "fullname": "Beginning Dakota II",
     "info": "Further development of language acquisition skills. Oral drills, in-class participation focused on questions and answers.\n\nprereq: [1121, 1004 in another language] or passing score on LPE or grad student",
-    "prereq": {
-      "and": [
-        {
-          "code": "DAKO 1121",
-          "subject": "DAKO",
-          "id": "1121"
-        },
-        {
-          "code": "DAKO 1004",
-          "subject": "DAKO",
-          "id": "1004"
-        }
-      ]
-    }
+    "prereq": []
   },
   {
+    "uid": "8027611",
     "code": "DAKO 4123",
     "subject": "DAKO",
-    "id": "4123",
-    "title": "Intermediate Dakota I",
+    "number": "4123",
+    "name": "Intermediate Dakota I",
+    "fullname": "Intermediate Dakota I",
     "info": "Listening, speaking, reading, writing. Oral drills. In-class participation focuses on questions/answers.\n\nprereq: 1121, 3123, 5126",
     "prereq": {
       "and": [
         {
           "code": "DAKO 1121",
           "subject": "DAKO",
-          "id": "1121"
+          "number": "1121"
         },
         {
           "code": "DAKO 3123",
           "subject": "DAKO",
-          "id": "3123"
+          "number": "3123"
         },
         {
           "code": "DAKO 5126",
           "subject": "DAKO",
-          "id": "5126"
+          "number": "5126"
         }
       ]
     }
   },
   {
+    "uid": "8014411",
     "code": "DAKO 4124",
     "subject": "DAKO",
-    "id": "4124",
-    "title": "Int Dakota II",
+    "number": "4124",
+    "name": "Int Dakota II",
+    "fullname": "Intermediate Dakota II",
     "info": "Listening, speaking, reading, writing. Oral drills. In-class participation focuses on questions/answers.\n\nprereq: 1121, 1122, 3123",
     "prereq": {
       "and": [
         {
           "code": "DAKO 1121",
           "subject": "DAKO",
-          "id": "1121"
+          "number": "1121"
         },
         {
           "code": "DAKO 1122",
           "subject": "DAKO",
-          "id": "1122"
+          "number": "1122"
         },
         {
           "code": "DAKO 3123",
           "subject": "DAKO",
-          "id": "3123"
+          "number": "3123"
         }
       ]
     }
   },
   {
+    "uid": "8027501",
     "code": "DAKO 4126",
     "subject": "DAKO",
-    "id": "4126",
-    "title": "Advanced Dakota Language I",
+    "number": "4126",
+    "name": "Advanced Dakota Language I",
+    "fullname": "Advanced Dakota Language I",
     "info": "Focuses on immersion method.",
     "prereq": []
   },
   {
+    "uid": "8029961",
     "code": "DAKO 4129",
     "subject": "DAKO",
-    "id": "4129",
-    "title": "Advanced Dakota Language II",
+    "number": "4129",
+    "name": "Advanced Dakota Language II",
+    "fullname": "Advanced Dakota Language II",
     "info": "Focuses on immersion method.",
     "prereq": []
   },
   {
+    "uid": "8009831",
     "code": "DAKO 5126",
     "subject": "DAKO",
-    "id": "5126",
-    "title": "Advanced Dakota Language I",
+    "number": "5126",
+    "name": "Advanced Dakota Language I",
+    "fullname": "Advanced Dakota Language I",
     "info": "Focuses on immersion method.",
     "prereq": []
   },
   {
+    "uid": "8009841",
     "code": "DAKO 5129",
     "subject": "DAKO",
-    "id": "5129",
-    "title": "Advanced Dakota Language II",
+    "number": "5129",
+    "name": "Advanced Dakota Language II",
+    "fullname": "Advanced Dakota Language II",
     "info": "Focuses on immersion method.",
     "prereq": []
   },
   {
+    "uid": "8179961",
     "code": "DAKO 5226",
     "subject": "DAKO",
-    "id": "5226",
-    "title": "Dakota Mastery I",
+    "number": "5226",
+    "name": "Dakota Mastery I",
+    "fullname": "Dakota Mastery I",
     "info": "This content-based Dakota language class will focus on Dakota culture and history. Students will learn through both oral and written texts. Both traditional and contemporary stories will be discussed and utilized to give students a better view of Dakota ontology and epistemology. The effects of colonization and the need for decolonization will be also be discussed through the lens of Dakota stories and culture.",
     "prereq": []
   },
   {
+    "uid": "8190981",
     "code": "DAKO 5229",
     "subject": "DAKO",
-    "id": "5229",
-    "title": "Dakota Mastery II",
+    "number": "5229",
+    "name": "Dakota Mastery II",
+    "fullname": "Dakota Mastery II",
     "info": "This content-based Dakota language class will focus on Dakota culture and history. Students will learn through both oral and written texts. Both traditional and contemporary stories will be discussed and utilized to give students a better view of Dakota ontology and epistemology. The effects of colonization and the need for decolonization will be also be discussed through the lens of Dakota stories and culture.",
     "prereq": []
   }

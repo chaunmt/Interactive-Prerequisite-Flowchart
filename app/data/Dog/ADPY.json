@@ -1,347 +1,421 @@
 [
   {
+    "uid": "0149711",
     "code": "ADPY 5515",
     "subject": "ADPY",
-    "id": "5515",
-    "title": "Neuropsychology:U Hosp",
+    "number": "5515",
+    "name": "Neuropsychology:U Hosp",
+    "fullname": "Neuropsychology: University Hospitals",
     "info": "",
     "prereq": []
   },
   {
+    "uid": "0126421",
     "code": "ADPY 6107",
     "subject": "ADPY",
-    "id": "6107",
-    "title": "Human Behavior",
+    "number": "6107",
+    "name": "Human Behavior",
+    "fullname": "Human Behavior",
     "info": "Human behavior.",
     "prereq": []
   },
   {
+    "uid": "0116891",
     "code": "ADPY 7109",
     "subject": "ADPY",
-    "id": "7109",
-    "title": "Psychiatry Elective",
+    "number": "7109",
+    "name": "Psychiatry Elective",
+    "fullname": "Adult Psychiatry: Duluth",
     "info": "This externship in adult psychiatry provides a clinical exposure to the broad spectrum of psychiatric problems encountered in the general practice of psychiatry. The student has the opportunity to see and evaluate the various psychiatric syndromes from a hospital-based psychiatric unit. The program emphasizes an understanding of the psychodynamics, family interaction, sociologic issues, and general life stresses precipitating the psychiatric picture. Subsequent treatment possibilities also are stressed, and the student has an opportunity for participating in treatment efforts at the hospital. In addition, the student may attend seminars and\nstaff activities at St. Luke's Hospital & Regional Trauma Center. Miller-Dwan Hospital, the Medical Center, and St. Mary's Hospital\nin Duluth also are used. Efforts are made to tailor this course to the wishes of the student when it is feasible.\n\nprereq: SPECIAL INSTRUCTIONS: Students must contact the UMD Department of Family Medicine, 10 University Drive, Duluth, MN 55812 [218-726-7916] at least one month prior to quarterly cancel/add deadline.",
-    "prereq": {
-      "code": "ADPY 7916",
-      "subject": "ADPY",
-      "id": "7916"
-    }
+    "prereq": []
   },
   {
+    "uid": "0150121",
     "code": "ADPY 7121",
     "subject": "ADPY",
-    "id": "7121",
-    "title": "Descriptive Psychiatry",
+    "number": "7121",
+    "name": "Descriptive Psychiatry",
+    "fullname": "Descriptive Psychiatry",
     "info": "Psychiatric diagnoses encountered in physical-disabilities/psychosocial work settings. Clinical presentations of common diagnoses. General diagnostic criteria. Intervention alternatives.\n\nprereq: [OT or PT] student, instr consent",
     "prereq": []
   },
   {
+    "uid": "0116901",
     "code": "ADPY 7500",
     "subject": "ADPY",
-    "id": "7500",
-    "title": "Psychiatry Clerkship",
+    "number": "7500",
+    "name": "Psychiatry Clerkship",
+    "fullname": "Psychiatry Clerkship",
     "info": "This course is a requirement for all third year medical students. Its goal is to prepare medical students to recognize, diagnose, and care for patients with psychiatric disorders encountered in most medical practices. ",
     "prereq": []
   },
   {
+    "uid": "0116911",
     "code": "ADPY 7501",
     "subject": "ADPY",
-    "id": "7501",
-    "title": "Elec Rotn: Alcohol Prob Clinic",
+    "number": "7501",
+    "name": "Elec Rotn: Alcohol Prob Clinic",
+    "fullname": "Elective Rotation in Alcohol Problems Clinics",
     "info": "The Alcohol Problems Clinics provide an integrated approach for medically-ill heavy drinkers. Primary medical care is provided along with alcohol intervention by all members of an interdisciplinary team. This rotation is designed for the student who will provide primary or specialty medical care in any specialty, such as family practice, internal medicine, surgery, or psychiatry.\n\nprereq: Med 7500 and AdPy 7500",
     "prereq": {
       "and": [
         {
           "code": "MED 7500",
           "subject": "MED",
-          "id": "7500"
+          "number": "7500"
         },
         {
           "code": "ADPY 7500",
           "subject": "ADPY",
-          "id": "7500"
+          "number": "7500"
         }
       ]
     }
   },
   {
+    "uid": "0116921",
     "code": "ADPY 7502",
     "subject": "ADPY",
-    "id": "7502",
-    "title": "PsychiatryAddicElec",
+    "number": "7502",
+    "name": "PsychiatryAddicElec",
+    "fullname": "Elective Rotation In Addiction Medicine",
     "info": "Elective rotations are offered in a variety of substance abuse treatment settings. Our program is innovative and flexible, using interventions from many schools. Each treatment plan is fully individualized, and may include 12-step approaches, Rational Recovery, social learning theory, and psychiatric care. Designed for students of any specialty.\n\nprereq: AdPy 7-500",
     "prereq": []
   },
   {
+    "uid": "0116931",
     "code": "ADPY 7503",
     "subject": "ADPY",
-    "id": "7503",
-    "title": "Psych Addicn Res",
+    "number": "7503",
+    "name": "Psych Addicn Res",
+    "fullname": "Elective Experience in Research in Addiction Medicine",
     "info": "A variety of clinical research projects offer the student excellent opportunities for developing research skills, as well as a deeper\nunderstanding of the addiction process. Ongoing projects include research on medical complications of alcoholism, treatment of alcohol and other drug dependence, brain imaging, neuropsychological testing and impairment, case management, and homelessness and alcohol/drugs. Other projects are available or possible and can be arranged.\n\nprereq: Approval of course director",
     "prereq": []
   },
   {
+    "uid": "7882281",
     "code": "ADPY 7505",
     "subject": "ADPY",
-    "id": "7505",
-    "title": "Assess/Trtmnt Torture Victims",
+    "number": "7505",
+    "name": "Assess/Trtmnt Torture Victims",
+    "fullname": "Assessment and Treatment of Torture Victims",
     "info": "How to assess/treat survivors of political torture. As part of an interdisciplinary team, students have patient contact, participate in special projects. Two-week field experience.\n\nprereq: 7500, MED 7500, med sr",
     "prereq": {
       "and": [
         {
           "code": "ADPY 7500",
           "subject": "ADPY",
-          "id": "7500"
+          "number": "7500"
         },
         {
           "code": "MED 7500",
           "subject": "MED",
-          "id": "7500"
+          "number": "7500"
         }
       ]
     }
   },
   {
+    "uid": "8200041",
     "code": "ADPY 7510",
     "subject": "ADPY",
-    "id": "7510",
-    "title": "Psychiatry Clerkship A",
+    "number": "7510",
+    "name": "Psychiatry Clerkship A",
+    "fullname": "Psychiatry Clerkship Part A",
     "info": "Course created specifically to accommodate clinical setting restrictions due to COVID-19 from spring 2020 to spring 2021. Part A of this course covers the virtual coursework while Part B covers the clinical component. Both parts A and B must be completed for the clerkship requirement to be considered fulfilled. \nCatalog Description:  The goal of the Psychiatry Externship is to prepare medical students to recognize, diagnose, and care for patients with psychiatric disorders encountered in most medical practices. At the beginning of the course, students will be given an outline of specific course objectives plus other orientation materials. Students will be assigned to work with interdisciplinary teams which will aid the student in meeting course objectives. Students will be assigned patients and will follow in-hospital. They will attend teaching rounds and a variety of teaching conferences. Each student will be required to attend a series of weekly lectures/discussions at UMMC and present a case report at their individual teaching sites. Case reports include the presentation, course, and clinical outcome, in addition to a literature review of the crucial issues related to the case.\n",
     "prereq": []
   },
   {
+    "uid": "8200051",
     "code": "ADPY 7511",
     "subject": "ADPY",
-    "id": "7511",
-    "title": "Psychiatry Clerkship B",
+    "number": "7511",
+    "name": "Psychiatry Clerkship B",
+    "fullname": "Psychiatry Clerkship Part B",
     "info": "Course created specifically to accommodate clinical setting restrictions due to COVID-19 from spring 2020 to spring 2021. Part A of this course covers the virtual coursework while Part B covers the clinical component. Both parts A and B must be completed for the clerkship requirement to be considered fulfilled. \nCatalog Description:  The goal of the Psychiatry Externship is to prepare medical students to recognize, diagnose, and care for patients with psychiatric disorders encountered in most medical practices. At the beginning of the course, students will be given an outline of specific course objectives plus other orientation materials. Students will be assigned to work with interdisciplinary teams which will aid the student in meeting course objectives. Students will be assigned patients and will follow in-hospital. They will attend teaching rounds and a variety of teaching conferences. Each student will be required to attend a series of weekly lectures/discussions at UMMC and present a case report at their individual teaching sites. Case reports include the presentation, course, and clinical outcome, in addition to a literature review of the crucial issues related to the case.",
     "prereq": []
   },
   {
+    "uid": "0116941",
     "code": "ADPY 7512",
     "subject": "ADPY",
-    "id": "7512",
-    "title": "Acting Intern Psych Consult",
+    "number": "7512",
+    "name": "Acting Intern Psych Consult",
+    "fullname": "Acting Internship Psychiatry - Consultation/Liaison",
     "info": "The student is teamed with a resident and staff who supervise progressive participation in service activities. Case-directed teaching is complemented by seminars with assigned readings and service conferences. ",
     "prereq": []
   },
   {
+    "uid": "0116951",
     "code": "ADPY 7514",
     "subject": "ADPY",
-    "id": "7514",
-    "title": "Psych Substnce Elec",
+    "number": "7514",
+    "name": "Psych Substnce Elec",
+    "fullname": "Substance Abuse and Associated Psyciatric Disorders",
     "info": "The student works with patients with substance use and/or abuse disorders.  The student's involvement covers a spectrum of services including inpatient, intensive outpatient program, partial hospitalization, outpatient program, and outpatient follow-up. Supervision is conducted by Senior G-4 Resident and Staff.\n\nprereq: Approval of course director",
     "prereq": []
   },
   {
+    "uid": "0116961",
     "code": "ADPY 7516",
     "subject": "ADPY",
-    "id": "7516",
-    "title": "Chemical Dependency Services",
+    "number": "7516",
+    "name": "Chemical Dependency Services",
+    "fullname": "Chemical Dependency Services",
     "info": "The student's time is spent primarily in group therapy and lecture settings in the adult chemical dependency unit. The student will meet with the medical director during the rotation. ",
     "prereq": []
   },
   {
+    "uid": "8096311",
     "code": "ADPY 7518",
     "subject": "ADPY",
-    "id": "7518",
-    "title": "Acting Intern Geriatric Psych",
+    "number": "7518",
+    "name": "Acting Intern Geriatric Psych",
+    "fullname": "Acting Internship Geriatric Psychiatry",
     "info": "Become a member of the multidisciplinary geropsychiatry team at UMMC. See patients > 55 years and their families, evaluating brain-behavior complications of medical and neurological illness and treatments. Participate in admissions, ongoing hospital care, discharges, and team and family meetings.",
     "prereq": []
   },
   {
+    "uid": "8261251",
     "code": "ADPY 7519",
     "subject": "ADPY",
-    "id": "7519",
-    "title": "Forensic Psychiatry",
+    "number": "7519",
+    "name": "Forensic Psychiatry",
+    "fullname": "Forensic Psychiatry",
     "info": "The Division of Forensic Psychiatry specializes in providing psychiatric consultation in legal matters, both civil and criminal. Trainees with the division receive exposure to a broad array of forensic psychiatric evaluation and also learn about law and legal opinions that have shaped the legal regulation of the profession of psychiatry. Trainees also get the opportunity to write sample forensic reports as mock experts in real cases. The core competencies related to this rotation are: 1. The forensic psychiatric exam 2. Writing a forensic psychiatric report. 3. Providing expert witness testimony in Court and 4. Legal regulation of psychiatry. ",
     "prereq": []
   },
   {
+    "uid": "0116971",
     "code": "ADPY 7530",
     "subject": "ADPY",
-    "id": "7530",
-    "title": "Psychiatry Scholarly Work",
+    "number": "7530",
+    "name": "Psychiatry Scholarly Work",
+    "fullname": "Psychiatry Scholarly Work",
     "info": "The student arranges a program with a faculty supervisor. Choosing the supervisor and the content of the course is the student's responsibility and must be approved by the faculty supervisor and course director.The student arranges a program with a faculty supervisor. Choosing the supervisor and the content of the course is the student's responsibility and must be approved by the faculty supervisor and Dr. Mackenzie.",
     "prereq": []
   },
   {
+    "uid": "8168691",
     "code": "ADPY 7535",
     "subject": "ADPY",
-    "id": "7535",
-    "title": "Acting Intern Pysch Clin Pract",
+    "number": "7535",
+    "name": "Acting Intern Pysch Clin Pract",
+    "fullname": "Acting Internship Clinical Practice of Psychiatry",
     "info": "The various clinical experiences provide opportunities for diagnostic evaluation and treatment for a range of psychiatric disorders in adults and/or children, including bipolar and unipolar affective disorders, anxiety disorders, adjustment disorders, attentional disorders, personality disorders and some psychotic disorders. ",
     "prereq": []
   },
   {
+    "uid": "7902051",
     "code": "ADPY 7640",
     "subject": "ADPY",
-    "id": "7640",
-    "title": "Interdisciplary Health Care",
+    "number": "7640",
+    "name": "Interdisciplary Health Care",
+    "fullname": "Essentials of Interdisciplinary Health Care",
     "info": "Knowledge/skills to work successfully in interdisciplinary health care. Web-based course.",
     "prereq": []
   },
   {
+    "uid": "8057141",
     "code": "ADPY 7910",
     "subject": "ADPY",
-    "id": "7910",
-    "title": "Adult Psychiatry Med Residency",
+    "number": "7910",
+    "name": "Adult Psychiatry Med Residency",
+    "fullname": "Adult Psychiatry Medical Residency",
     "info": "Adult psychiatry medical residency.",
     "prereq": []
   },
   {
+    "uid": "0131421",
     "code": "ADPY 7911",
     "subject": "ADPY",
-    "id": "7911",
-    "title": "Psychiatry PGY-1 VA Med Ctr",
+    "number": "7911",
+    "name": "Psychiatry PGY-1 VA Med Ctr",
+    "fullname": "Psychiatry PGY-1 at VA Medical Center",
     "info": "Introduction to wide variety of psychiatric topics. Lectures by invited speakers and by clinical/psychiatric faculty.\n\nprereq: PGY-1 psychiatry resident, dept consent",
     "prereq": []
   },
   {
+    "uid": "0153931",
     "code": "ADPY 7920",
     "subject": "ADPY",
-    "id": "7920",
-    "title": "Adult/Child Psychopathology",
+    "number": "7920",
+    "name": "Adult/Child Psychopathology",
+    "fullname": "Adult and Child Psychopathology",
     "info": "",
     "prereq": []
   },
   {
+    "uid": "0150151",
     "code": "ADPY 7922",
     "subject": "ADPY",
-    "id": "7922",
-    "title": "Psychiatric Interviewing",
+    "number": "7922",
+    "name": "Psychiatric Interviewing",
+    "fullname": "Psychiatric Interviewing",
     "info": "",
     "prereq": []
   },
   {
+    "uid": "8057151",
     "code": "ADPY 7930",
     "subject": "ADPY",
-    "id": "7930",
-    "title": "Adult Psychiatry Med Fellow",
+    "number": "7930",
+    "name": "Adult Psychiatry Med Fellow",
+    "fullname": "Adult Psychiatry Medical Fellowship",
     "info": "Adult psychiatry medical fellowship.",
     "prereq": []
   },
   {
+    "uid": "0149831",
     "code": "ADPY 7942",
     "subject": "ADPY",
-    "id": "7942",
-    "title": "Adv Psychodynamics",
+    "number": "7942",
+    "name": "Adv Psychodynamics",
+    "fullname": "Advanced Psychodynamics",
     "info": "",
     "prereq": []
   },
   {
+    "uid": "0149851",
     "code": "ADPY 7952",
     "subject": "ADPY",
-    "id": "7952",
-    "title": "Geriatric Psych Fellowship VA",
+    "number": "7952",
+    "name": "Geriatric Psych Fellowship VA",
+    "fullname": "Geriatric Psychiatry Fellowship VA Med Ctr",
     "info": "Fifth year fellowship in geriatric psychiatry at VA Medical Center.\n\nprereq: Psychiatric resident/fellow, dept consent",
     "prereq": []
   },
   {
+    "uid": "0131431",
     "code": "ADPY 7971",
     "subject": "ADPY",
-    "id": "7971",
-    "title": "Consult Liaison Psych Fellow",
+    "number": "7971",
+    "name": "Consult Liaison Psych Fellow",
+    "fullname": "Consultation Liaison Psychiatric Fellowship",
     "info": "Fifth year fellowship in consult-liaison psychiatry.\n\nprereq: C-L fellow/psychiatric resident, dept consent",
     "prereq": []
   },
   {
+    "uid": "0131441",
     "code": "ADPY 7972",
     "subject": "ADPY",
-    "id": "7972",
-    "title": "Psychiatric Child Fellow Yr 1",
+    "number": "7972",
+    "name": "Psychiatric Child Fellow Yr 1",
+    "fullname": "Psychiatric Child Fellowship: Year I",
     "info": "First year of two-year fellowship in child/adolescent psychiatry, PGY-4 level.\n\nprereq: Psychiatric resident/fellow, dept consent",
     "prereq": []
   },
   {
+    "uid": "0131451",
     "code": "ADPY 7973",
     "subject": "ADPY",
-    "id": "7973",
-    "title": "Chemical Dep Fellow",
+    "number": "7973",
+    "name": "Chemical Dep Fellow",
+    "fullname": "Chemical Dependency Fellowship",
     "info": "Fifth year fellowship in addiction psychiatry medicine.\n\nprereq: Psychiatric resident/fellow, dept consent",
     "prereq": []
   },
   {
+    "uid": "0131461",
     "code": "ADPY 7974",
     "subject": "ADPY",
-    "id": "7974",
-    "title": "Eating Disorder Fellow",
+    "number": "7974",
+    "name": "Eating Disorder Fellow",
+    "fullname": "Eating Disorders Fellowship",
     "info": "Fifth year fellowship in psychiatry eating disorders at Fairview-University Medical Center.\n\nprereq: Psychiatric resident/fellow, dept consent",
     "prereq": []
   },
   {
+    "uid": "0131471",
     "code": "ADPY 7975",
     "subject": "ADPY",
-    "id": "7975",
-    "title": "Adv Clinical Psychiatry",
+    "number": "7975",
+    "name": "Adv Clinical Psychiatry",
+    "fullname": "Advanced Clinical Psychiatry",
     "info": "Weekly didactic training. Conceptual schemes within psychiatry: genetic, biochemical, developmental, psychoanalytic, family systems, cognitive, behavioral. Established theories and empirical studies are appraised.",
     "prereq": []
   },
   {
+    "uid": "0131481",
     "code": "ADPY 7981",
     "subject": "ADPY",
-    "id": "7981",
-    "title": "Psychiatric Child Fellow Yr 2",
+    "number": "7981",
+    "name": "Psychiatric Child Fellow Yr 2",
+    "fullname": "Psychiatric Child Fellowship: Year 2",
     "info": "Second year of two-year fellowship in child/adolescent psychiatry, PGY-5 level.\n\nprereq: Psychiatric resident/fellow, dept consent",
     "prereq": []
   },
   {
+    "uid": "0149941",
     "code": "ADPY 8201",
     "subject": "ADPY",
-    "id": "8201",
-    "title": "Clinical Psychiatry",
+    "number": "8201",
+    "name": "Clinical Psychiatry",
+    "fullname": "Clinical Psychiatry",
     "info": "",
     "prereq": []
   },
   {
+    "uid": "0149961",
     "code": "ADPY 8205",
     "subject": "ADPY",
-    "id": "8205",
-    "title": "Special Assignments",
+    "number": "8205",
+    "name": "Special Assignments",
+    "fullname": "Special Assignments",
     "info": "",
     "prereq": []
   },
   {
+    "uid": "0149971",
     "code": "ADPY 8206",
     "subject": "ADPY",
-    "id": "8206",
-    "title": "Research",
+    "number": "8206",
+    "name": "Research",
+    "fullname": "Research",
     "info": "",
     "prereq": []
   },
   {
+    "uid": "0149981",
     "code": "ADPY 8208",
     "subject": "ADPY",
-    "id": "8208",
-    "title": "Survey: Physiological Treat",
+    "number": "8208",
+    "name": "Survey: Physiological Treat",
+    "fullname": "Survey: Physiological Treatments",
     "info": "",
     "prereq": []
   },
   {
+    "uid": "0150161",
     "code": "ADPY 8244",
     "subject": "ADPY",
-    "id": "8244",
-    "title": "Cultural Psychiatry",
+    "number": "8244",
+    "name": "Cultural Psychiatry",
+    "fullname": "Cultural Psychiatry",
     "info": "",
     "prereq": []
   },
   {
+    "uid": "0116991",
     "code": "ADPY 8249",
     "subject": "ADPY",
-    "id": "8249",
-    "title": "Psych Neuropharm Elec",
+    "number": "8249",
+    "name": "Psych Neuropharm Elec",
+    "fullname": "Clinical Neuropsychopharmacology",
     "info": "The course is designed for a two-day presentation, four hours one afternoon, followed by eight hours the next day, to include the following subject matter: introduction to neurotransmitter theory and mechanism of action of psychotropic drugs; evaluation of anxiety states and use of antianxiety agents; clinical picture of depression, use of antidepressants, and principles of drug\ncombinations; schizophrenia diagnosis, use of antipsychotic drugs, antiparkinson medication, parkinson side effects of\nneuroleptics, and tardive dyskinesia; clinical evaluation of epilepsy and use of anticonvulsants; neurophysiology of sleep,\nprescription of hypnotics and sedatives, and significance of over-the-counter sleep aids; use of anorexiants, over-the-counter\nappetite suppressants, and opiate analgesics; geriatric psychopharmacology; classification of drug side effects and principles of\ndrug interaction; abused drugs; and ethnopsychopharmacology.\n\nprereq: Resident status or 3rd- or 4th-yr med student or 8248 for grad students",
     "prereq": {
       "code": "ADPY 8248",
       "subject": "ADPY",
-      "id": "8248"
+      "number": "8248"
     }
   },
   {
+    "uid": "0150031",
     "code": "ADPY 8970",
     "subject": "ADPY",
-    "id": "8970",
-    "title": "Directed Studies",
+    "number": "8970",
+    "name": "Directed Studies",
+    "fullname": "Directed Studies",
     "info": "",
     "prereq": []
   }

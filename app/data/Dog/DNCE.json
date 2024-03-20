@@ -1,1035 +1,1259 @@
 [
   {
+    "uid": "0086921",
     "code": "DNCE 1001",
     "subject": "DNCE",
-    "id": "1001",
-    "title": "Modern/Contemporary Dance 1",
+    "number": "1001",
+    "name": "Modern/Contemporary Dance 1",
+    "fullname": "Modern/Contemporary Dance Technique 1",
     "info": "First course in ten-section sequence of modern dance technique. Introductory modern dance technique training. Dance form varies according to instructor.",
     "prereq": []
   },
   {
+    "uid": "0086931",
     "code": "DNCE 1002",
     "subject": "DNCE",
-    "id": "1002",
-    "title": "Modern/Contemporary Dance 2",
+    "number": "1002",
+    "name": "Modern/Contemporary Dance 2",
+    "fullname": "Modern/Contemporary Dance Technique 2",
     "info": "Second course in ten-section sequence of modern dance technique. Introductory modern dance technique training. Dance form varies according to assigned instructor.\n\nprereq: 1001 or audition or instr consent",
     "prereq": {
       "code": "DNCE 1001",
       "subject": "DNCE",
-      "id": "1001"
+      "number": "1001"
     }
   },
   {
+    "uid": "0088331",
     "code": "DNCE 1010",
     "subject": "DNCE",
-    "id": "1010",
-    "title": "Modern/Contemporary Dance 3",
+    "number": "1010",
+    "name": "Modern/Contemporary Dance 3",
+    "fullname": "Modern/Contemporary Dance Technique 3",
     "info": "Third course in ten-section sequence of modern dance technique. Beginning modern dance technique training. Dance form varies by instructor.\n\nprereq: dept consent, audition",
     "prereq": []
   },
   {
+    "uid": "0088501",
     "code": "DNCE 1020",
     "subject": "DNCE",
-    "id": "1020",
-    "title": "Modern/Contemporary Dance 4",
+    "number": "1020",
+    "name": "Modern/Contemporary Dance 4",
+    "fullname": "Modern/Contemporary Dance Technique 4",
     "info": "Fourth course in ten-section sequence of modern dance technique. Beginning modern dance technique training. Dance form varies by instructor.\n\nprereq: 1010, dept consent, audition",
     "prereq": {
       "code": "DNCE 1010",
       "subject": "DNCE",
-      "id": "1010"
+      "number": "1010"
     }
   },
   {
+    "uid": "8006381",
     "code": "DNCE 1030",
     "subject": "DNCE",
-    "id": "1030",
-    "title": "Athletic Movement for Dance",
+    "number": "1030",
+    "name": "Athletic Movement for Dance",
+    "fullname": "Athletic Movement for Dance",
     "info": "This course explores athletic movement and its applications to dance training. Athletes and dancers are the focus of this course. Class work will emphasize: agility, dexterity, hand-eye coordination, 360 degree body motion, strong alignment/skeletal understanding in motion, holistic strength training and stamina.",
     "prereq": []
   },
   {
+    "uid": "8006231",
     "code": "DNCE 1040",
     "subject": "DNCE",
-    "id": "1040",
-    "title": "Modern Dance Partnering",
+    "number": "1040",
+    "name": "Modern Dance Partnering",
+    "fullname": "Modern Dance Partnering Technique",
     "info": "Technical demands, approaches, and skills needed for partnering in modern dance.\n\nprereq: Dance major or instr consent",
     "prereq": []
   },
   {
+    "uid": "0086521",
     "code": "DNCE 1101",
     "subject": "DNCE",
-    "id": "1101",
-    "title": "Ballet 1",
+    "number": "1101",
+    "name": "Ballet 1",
+    "fullname": "Ballet Technique 1",
     "info": "Principles, basic technique, and vocabulary of ballet; barre, center, and allegro.",
     "prereq": []
   },
   {
+    "uid": "0086641",
     "code": "DNCE 1102",
     "subject": "DNCE",
-    "id": "1102",
-    "title": "Ballet 2",
+    "number": "1102",
+    "name": "Ballet 2",
+    "fullname": "Ballet Technique 2",
     "info": "Second of two-semester sequence of fundamental Classical Ballet Technique. Principles of Classical Ballet technique. Each principle introduced separately/in progression. Barre/center work with emphasis on simplicity, repetition, creativity.\n\nprereq: 1101, or audition, or instr consent",
     "prereq": {
       "code": "DNCE 1101",
       "subject": "DNCE",
-      "id": "1101"
+      "number": "1101"
     }
   },
   {
+    "uid": "0078371",
     "code": "DNCE 1110",
     "subject": "DNCE",
-    "id": "1110",
-    "title": "Ballet 3",
+    "number": "1110",
+    "name": "Ballet 3",
+    "fullname": "Ballet Technique 3",
     "info": "First of two-semester sequence of beginning ballet technique. Level 3 in eight-level sequence of ballet technique. Practical application of ballet principles. Barre work needed for center work. Center work will consist of adagio, basic turns, petit, grand allegro.\n\nprereq: dept consent, audition",
     "prereq": []
   },
   {
+    "uid": "0085801",
     "code": "DNCE 1120",
     "subject": "DNCE",
-    "id": "1120",
-    "title": "Ballet 4",
+    "number": "1120",
+    "name": "Ballet 4",
+    "fullname": "Ballet Technique 4",
     "info": "Second of two-semester sequence in beginning ballet. Practical application of ballet principles. Barre/center work. Ever-changing combinations/steps learned in previous level.\n\nprereq: 1110, dept consent, audition",
     "prereq": {
       "code": "DNCE 1110",
       "subject": "DNCE",
-      "id": "1110"
+      "number": "1110"
     }
   },
   {
+    "uid": "0090781",
     "code": "DNCE 1201",
     "subject": "DNCE",
-    "id": "1201",
-    "title": "Jazz 1",
+    "number": "1201",
+    "name": "Jazz 1",
+    "fullname": "Jazz Technique 1",
     "info": "First of six-semester sequence of jazz dance. Fundamental jazz vocabulary/movement. Basic understanding of proper body placement, clear articulation, basic mechanics of jazz movement, rhythmic footwork. Improvisation will be introduced. Overview of history of jazz music/dance styles.",
     "prereq": []
   },
   {
+    "uid": "0090791",
     "code": "DNCE 1202",
     "subject": "DNCE",
-    "id": "1202",
-    "title": "Jazz 2",
+    "number": "1202",
+    "name": "Jazz 2",
+    "fullname": "Jazz Technique 2",
     "info": "Second of six-semester sequence in jazz dance. Fundamental jazz vocabulary/movement. Clear articulation of movement, use of space, weight, dynamics, focus, style, musicality. Improvisation. Overview of history of jazz music/dance styles.\n\nprereq: 1201 or audition or instr consent",
     "prereq": {
       "code": "DNCE 1201",
       "subject": "DNCE",
-      "id": "1201"
+      "number": "1201"
     }
   },
   {
+    "uid": "0090831",
     "code": "DNCE 1210",
     "subject": "DNCE",
-    "id": "1210",
-    "title": "Jazz 3",
+    "number": "1210",
+    "name": "Jazz 3",
+    "fullname": "Jazz Technique 3",
     "info": "Third of six-semester sequence of jazz dance. Vocabulary. Technical skills using variety of jazz dance styles while increasing flexibility, groundedness, strength. Increase understanding of musicality, dynamics, style, improvisation.\n\nprereq: dept consent, audition",
     "prereq": []
   },
   {
+    "uid": "0090841",
     "code": "DNCE 1220",
     "subject": "DNCE",
-    "id": "1220",
-    "title": "Jazz 4",
+    "number": "1220",
+    "name": "Jazz 4",
+    "fullname": "Jazz Technique 4",
     "info": "Fourth of six-semester sequence of jazz dance. Expand vocabulary/develop skills, technique, style. Increase flexibility, strength. Use of space, clear articulation of movement, rhythmic footwork, grounding movement, dynamics, musicality.\n\nprereq: 1210, dept consent, audition",
     "prereq": {
       "code": "DNCE 1210",
       "subject": "DNCE",
-      "id": "1210"
+      "number": "1210"
     }
   },
   {
+    "uid": "0076001",
     "code": "DNCE 1301",
     "subject": "DNCE",
-    "id": "1301",
-    "title": "Tap 1",
+    "number": "1301",
+    "name": "Tap 1",
+    "fullname": "Tap Technique 1",
     "info": "Learning fundamental terms, basic rhythm structures, stock steps, and standard time steps.",
     "prereq": []
   },
   {
+    "uid": "0076081",
     "code": "DNCE 1302",
     "subject": "DNCE",
-    "id": "1302",
-    "title": "Tap 2",
+    "number": "1302",
+    "name": "Tap 2",
+    "fullname": "Tap Technique 2",
     "info": "Fundamental terms, basic rhythms and syncopation, stock steps, and standard time steps; clarity of sound and rhythm.\n\nprereq: 1301 or instr consent",
     "prereq": {
       "code": "DNCE 1301",
       "subject": "DNCE",
-      "id": "1301"
+      "number": "1301"
     }
   },
   {
+    "uid": "0088661",
     "code": "DNCE 1311",
     "subject": "DNCE",
-    "id": "1311",
-    "title": "Folk Dance 1",
+    "number": "1311",
+    "name": "Folk Dance 1",
+    "fullname": "International Folk Dance 1",
     "info": "Basic folk steps including the schottische, polka, waltz, and grapevine; technical emphasis on footwork and partnering.",
     "prereq": []
   },
   {
+    "uid": "0088731",
     "code": "DNCE 1312",
     "subject": "DNCE",
-    "id": "1312",
-    "title": "Folk Dance 2",
+    "number": "1312",
+    "name": "Folk Dance 2",
+    "fullname": "International Folk Dance 2",
     "info": "Continuation of 1311.  Basic folk steps including the schottische, polka, waltz, and grapevine; technical emphasis on footwork and partnering.",
     "prereq": []
   },
   {
+    "uid": "7910901",
     "code": "DNCE 1313",
     "subject": "DNCE",
-    "id": "1313",
-    "title": "African Based Movement",
+    "number": "1313",
+    "name": "African Based Movement",
+    "fullname": "African Based Movement",
     "info": "Varied movement of African diaspora, primarily but not limited to West African region and continent of Africa. Traditional movement. Movement inspired by Africa, the Caribbean, and African diaspora at large. In-class movement participation, one movement midterm, one two-page paper.",
     "prereq": []
   },
   {
+    "uid": "7910911",
     "code": "DNCE 1315",
     "subject": "DNCE",
-    "id": "1315",
-    "title": "Flamenco",
+    "number": "1315",
+    "name": "Flamenco",
+    "fullname": "Flamenco",
     "info": "Basic Spanish Flamenco dance technique with focus on rhythm, footwork, body style. Choreography incorporating techniques learned. Live flamenco guitar accompanies classes.\n",
     "prereq": []
   },
   {
+    "uid": "7910851",
     "code": "DNCE 1317",
     "subject": "DNCE",
-    "id": "1317",
-    "title": "Arabic Dance",
+    "number": "1317",
+    "name": "Arabic Dance",
+    "fullname": "Arabic Dance",
     "info": "Basic movements/stylings of dances of Arabic-speaking world. Emphasizes classical women's performing dances of traditional/contemporary movements in Egypt, the Levant, the Arabian Peninsula, North Africa, and Turkey.  Body awareness, conditioning, cultural context of movements/dances.",
     "prereq": []
   },
   {
+    "uid": "0092091",
     "code": "DNCE 1321",
     "subject": "DNCE",
-    "id": "1321",
-    "title": "Ballroom 1",
+    "number": "1321",
+    "name": "Ballroom 1",
+    "fullname": "Ballroom 1",
     "info": "Principles of partnering. Elementary steps of the foxtrot, waltz, swing, cha-cha, rumba, and tango. ",
     "prereq": []
   },
   {
+    "uid": "0092141",
     "code": "DNCE 1322",
     "subject": "DNCE",
-    "id": "1322",
-    "title": "Ballroom 2",
+    "number": "1322",
+    "name": "Ballroom 2",
+    "fullname": "Ballroom 2",
     "info": "Continuation of 1321. Elementary steps of the foxtrot, waltz, swing, cha-cha, rumba, tango, mamba, and bolero.  Partnering, style, and phrasing.",
     "prereq": []
   },
   {
+    "uid": "7910921",
     "code": "DNCE 1323",
     "subject": "DNCE",
-    "id": "1323",
-    "title": "Swing Dance",
+    "number": "1323",
+    "name": "Swing Dance",
+    "fullname": "Swing Dance",
     "info": "Traditional swing dances popular in the United States from 1930s through early 1960s. Each week new movements/figures are taught and previous dances reviewed. Students are expected to change partners.",
     "prereq": []
   },
   {
+    "uid": "7910931",
     "code": "DNCE 1325",
     "subject": "DNCE",
-    "id": "1325",
-    "title": "Latin Dance",
+    "number": "1325",
+    "name": "Latin Dance",
+    "fullname": "Latin Dance",
     "info": "Basic vocabulary, lead/follow techniques of most popular Latin social dance styles. Salsa, Chacha, Rumba, Merengue. First half of class focuses on basic footwork/partnering; second half focuses on rhythm and musical styling.",
     "prereq": []
   },
   {
+    "uid": "8049171",
     "code": "DNCE 1327",
     "subject": "DNCE",
-    "id": "1327",
-    "title": "Argentine Tango",
+    "number": "1327",
+    "name": "Argentine Tango",
+    "fullname": "Argentine Tango",
     "info": "Basic rhythms emphasizing posture, axis, walking, lead/follow techniques, footwork patterns. Students listen to music to identify rhythm, communicate.",
     "prereq": []
   },
   {
+    "uid": "7910941",
     "code": "DNCE 1331",
     "subject": "DNCE",
-    "id": "1331",
-    "title": "Yoga",
+    "number": "1331",
+    "name": "Yoga",
+    "fullname": "Yoga",
     "info": "Theory/practice of Yoga. Standing postures, forward bends, twists, balancing, seated postures, inversions, back bends, guided relaxation/meditation. Proper alignment, weight placement, body awareness, relaxation, breathing techniques. Midterm paper, movement demonstration final.",
     "prereq": []
   },
   {
+    "uid": "7910951",
     "code": "DNCE 1332",
     "subject": "DNCE",
-    "id": "1332",
-    "title": "Yoga for Dancers",
+    "number": "1332",
+    "name": "Yoga for Dancers",
+    "fullname": "Yoga for Dancers",
     "info": "Physical experience and related aesthetic topics. Historical aspects. Philosophical ideas of yoga. Improving body mechanics through alignment, flexibility, and strength. Developing mental focus/control. Reinforcing positive body language.",
     "prereq": []
   },
   {
+    "uid": "7910961",
     "code": "DNCE 1335",
     "subject": "DNCE",
-    "id": "1335",
-    "title": "T'ai Chi Ch'uan",
+    "number": "1335",
+    "name": "T'ai Chi Ch'uan",
+    "fullname": "T'ai Chi Ch'uan",
     "info": "Ancient Chinese slow-motion exercise. Helping body/mind to become relaxed/centered. Natural movement patterns, deep breathing, tranquil stress-free mind. Self-defense applications of movements. Non-competitive, non-aggressive. ",
     "prereq": []
   },
   {
+    "uid": "8006241",
     "code": "DNCE 1336",
     "subject": "DNCE",
-    "id": "1336",
-    "title": "Somatic Studies",
+    "number": "1336",
+    "name": "Somatic Studies",
+    "fullname": "Bodyworks: Introduction to Somatic Studies",
     "info": "How body/mind are interrelated, how physical changes affect those patterns. Somatic theories/approaches originating in various regions of world.",
     "prereq": []
   },
   {
+    "uid": "8006251",
     "code": "DNCE 1338",
     "subject": "DNCE",
-    "id": "1338",
-    "title": "Skinner Releasing Technique",
+    "number": "1338",
+    "name": "Skinner Releasing Technique",
+    "fullname": "Skinner Releasing Technique",
     "info": "How body/mind are interrelated, how physical changes affect those patterns. Somatic theories/approaches originating in various regions of world.",
     "prereq": []
   },
   {
+    "uid": "8049181",
     "code": "DNCE 1343",
     "subject": "DNCE",
-    "id": "1343",
-    "title": "Urban & Street Dance Forms 1",
+    "number": "1343",
+    "name": "Urban & Street Dance Forms 1",
+    "fullname": "Urban & Street Dance Forms 1: Introduction",
     "info": "We study the origins of Hip Hop dance and how it has evolved to the current incarnations of the form. There is also a focus on Hip Hop culture as a whole and we have many discussions about issues of identity, relation to power, appropriation, and youth culture. The specific forms of movement in this course are toprocking, rocking, breakdancing (breaking), New Jack Swing, and house dance. Some questions to focus on: What is Hip Hop dance? Where does it originate? Who created Hip Hop artistic expressions? What voices/bodies are heard/seen or not heard/not seen in the films assigned?",
     "prereq": []
   },
   {
+    "uid": "8181311",
     "code": "DNCE 1344",
     "subject": "DNCE",
-    "id": "1344",
-    "title": "Urban & Street Dance Forms 2",
+    "number": "1344",
+    "name": "Urban & Street Dance Forms 2",
+    "fullname": "Urban & Street Dance Forms 2: Advanced Foundation and Histories",
     "info": "In this second course in the dance program's 4-semester Urban and Street Dance sequence, students further investigate the technical foundations and histories of rocking, breaking, funk styles, krump, house, and specific techniques that mix these forms together. These further explorations focus on more advanced techniques, aesthetic approaches, and complex issues within these forms. Students are assigned readings and writing assignments that critically examine each issue. Students will participate in an informal showing at the end of the semester.  \n\nPrerequisite: completion of DNCE 1343 or audition.",
     "prereq": {
       "code": "DNCE 1343",
       "subject": "DNCE",
-      "id": "1343"
+      "number": "1343"
     }
   },
   {
+    "uid": "8049191",
     "code": "DNCE 1345",
     "subject": "DNCE",
-    "id": "1345",
-    "title": "Alexander Technique",
+    "number": "1345",
+    "name": "Alexander Technique",
+    "fullname": "Alexander Technique for Movement Artists",
     "info": "Increased kinesthetic awareness of habitual movement patterns in order to improve dance/movement technique and prevent related injuries.",
     "prereq": []
   },
   {
+    "uid": "7910971",
     "code": "DNCE 1347",
     "subject": "DNCE",
-    "id": "1347",
-    "title": "Pilates Conditioning",
+    "number": "1347",
+    "name": "Pilates Conditioning",
+    "fullname": "Pilates Conditioning",
     "info": "Essential mat work of Pilates method. Contemporary approach to mind-body system of exercise pioneered by Joseph Pilates. Neuro-muscular resistance exercises to develop strong, flexible muscles and better alignment for optimal physical/mental well-being.",
     "prereq": []
   },
   {
+    "uid": "7910981",
     "code": "DNCE 1349",
     "subject": "DNCE",
-    "id": "1349",
-    "title": "Contact Improvisation",
+    "number": "1349",
+    "name": "Contact Improvisation",
+    "fullname": "Contact Improvisation",
     "info": "Safe, clear introduction to principles of contact improvisation. Rolling point of contact, supporting/being supported, falling/recovering, connecting with center as source/support for movement. Classes include warm-up.",
     "prereq": []
   },
   {
+    "uid": "8055361",
     "code": "DNCE 1351",
     "subject": "DNCE",
-    "id": "1351",
-    "title": "African Diasporic Movement 1",
+    "number": "1351",
+    "name": "African Diasporic Movement 1",
+    "fullname": "African Diasporic Movement 1",
     "info": "First of six-course sequence. Introduction to traditional West African dance technique as a foundational base to begin learning technique, body placement, movement, space, time, energy, isolations, patterns, etiquette, community building, group work and presentation. ",
     "prereq": []
   },
   {
+    "uid": "8055371",
     "code": "DNCE 1352",
     "subject": "DNCE",
-    "id": "1352",
-    "title": "African Diasporic Movement 2",
+    "number": "1352",
+    "name": "African Diasporic Movement 2",
+    "fullname": "African Diasporic Movement 2",
     "info": "Second of six-course sequence. Builds on level 1 by further developing in complexity technique movement, poly-rhythm, levels, undulation, combinations, dynamics. Relationship between dance/drum, energy expressing.\n\nprereq: 1351 recommended",
     "prereq": {
       "code": "DNCE 1351",
       "subject": "DNCE",
-      "id": "1351"
+      "number": "1351"
     }
   },
   {
+    "uid": "8055381",
     "code": "DNCE 1353",
     "subject": "DNCE",
-    "id": "1353",
-    "title": "African Diasporic Movement 3",
+    "number": "1353",
+    "name": "African Diasporic Movement 3",
+    "fullname": "African Diasporic Movement 3",
     "info": "Third of six-course sequence. Afro-Brazilian dance, including jumps, turns, floor work, and rhythmicity to develop flexibility, strength, and vocabulary in polycentric movement, moving toward body-sound harmony, illuminating dynamics of coordination, relaxation, breathing, undulation.",
     "prereq": []
   },
   {
+    "uid": "8055391",
     "code": "DNCE 1354",
     "subject": "DNCE",
-    "id": "1354",
-    "title": "African Diasporic Movement 4",
+    "number": "1354",
+    "name": "African Diasporic Movement 4",
+    "fullname": "African Diasporic Movement 4",
     "info": "Fourth of six-course sequence. Builds on level 3 by exploring movement from mythology of Afro-Brazilian belief systems orix and Candombl. How corporal knowledge and technique fluency through the course sequence support different dance techniques.\n\nprereq: 1353 or audition or instr consent",
     "prereq": {
       "code": "DNCE 1353",
       "subject": "DNCE",
-      "id": "1353"
+      "number": "1353"
     }
   },
   {
+    "uid": "7938621",
     "code": "DNCE 1362",
     "subject": "DNCE",
-    "id": "1362",
-    "title": "Dance for Musical Theatre",
+    "number": "1362",
+    "name": "Dance for Musical Theatre",
+    "fullname": "Dance for Musical Theatre",
     "info": "Movement based lab. Dance skills in musical theatre performance. Focuses on various styles/disciplines of dance throughout its culturally diverse heritage. Character development necessary to execution of various dance styles.",
     "prereq": []
   },
   {
+    "uid": "0097791",
     "code": "DNCE 1401",
     "subject": "DNCE",
-    "id": "1401",
-    "title": "Intro to Dance",
+    "number": "1401",
+    "name": "Intro to Dance",
+    "fullname": "Introduction to Dance",
     "info": "What is dance? How does movement create meaning? Dance as action and framework for analysis of moving bodies. Movement politics of race, class, gender, sexuality, and nation through reading, writing, moving, and watching dance performances. Discussion. Dance experience not required.",
     "prereq": []
   },
   {
+    "uid": "0097671",
     "code": "DNCE 1402",
     "subject": "DNCE",
-    "id": "1402",
-    "title": "Dance History",
+    "number": "1402",
+    "name": "Dance History",
+    "fullname": "Dance History",
     "info": "\\\"Ways of knowing\\\" in dance history by reading the works of critics, historians, and philosophers who address questions concerning the nature of dance.",
     "prereq": []
   },
   {
+    "uid": "0095351",
     "code": "DNCE 1500",
     "subject": "DNCE",
-    "id": "1500",
-    "title": "Topics in Dance",
+    "number": "1500",
+    "name": "Topics in Dance",
+    "fullname": "Topics in Dance",
     "info": "Topics specified in Class Schedule.",
     "prereq": []
   },
   {
+    "uid": "7910861",
     "code": "DNCE 1601",
     "subject": "DNCE",
-    "id": "1601",
-    "title": "Dance Improvisation",
+    "number": "1601",
+    "name": "Dance Improvisation",
+    "fullname": "Dance Improvisation",
     "info": "Individual ways of moving linked to fundamental elements of dance: time, space, and energy. Metered time, musical phrasing. Movement speed, shape, and quality. Creative process, individual movement vocabulary, structural devices in dance.\n\nprereq: Concurrent registration in a modern dance technique course, dept consent",
     "prereq": []
   },
   {
+    "uid": "0093851",
     "code": "DNCE 1626",
     "subject": "DNCE",
-    "id": "1626",
-    "title": "Music for Dance",
+    "number": "1626",
+    "name": "Music for Dance",
+    "fullname": "Music for Dance",
     "info": "Cultural gravity of the Western perspective. Ways global regions express natural laws of acoustics through music while considering historical, political, and ethical issues around the relationship between music and dance. Workshops, practice, and exercises.\n\nprereq: dept consent",
     "prereq": []
   },
   {
+    "uid": "8185421",
     "code": "DNCE 1701",
     "subject": "DNCE",
-    "id": "1701",
-    "title": "Freshman/Sophomore Repertory",
+    "number": "1701",
+    "name": "Freshman/Sophomore Repertory",
+    "fullname": "Freshman/Sophomore Repertory",
     "info": "Immersed in a professional dance company environment, this repertory class will help students develop the necessary skills to effectively navigate the complexities inherent to professional repertory dance companies. Through learning the unique and varied styles of multiple choreographers, the course examines distinguishing factors of these various choreographic works, illuminating for the student, their responsibilities as dance artists and further developing their abilities to maintain the integrity of preexisting works. ",
     "prereq": []
   },
   {
+    "uid": "8083381",
     "code": "DNCE 1905",
     "subject": "DNCE",
-    "id": "1905",
-    "title": "Freshman Seminar",
+    "number": "1905",
+    "name": "Freshman Seminar",
+    "fullname": "Freshman Seminar",
     "info": "Topics specified in Class Schedule.\n\nprereq: Fr",
     "prereq": []
   },
   {
+    "uid": "8170401",
     "code": "DNCE 1911",
     "subject": "DNCE",
-    "id": "1911",
-    "title": "Bodies and Border-Crossings",
+    "number": "1911",
+    "name": "Bodies and Border-Crossings",
+    "fullname": "Stories, Bodies, Border-Crossings",
     "info": "This seminar will explore dance and performance as imagined, practiced, and transformed by people who cross borders in multiple sites of struggle. The course engages the concepts of \\\"mobility\\\" and \\\"political economy of culture\\\" in relation to the idea of \\\"the margins\\\" as applied to and/or claimed by minority groups, activists, and others in the United States, Europe, Middle East, Africa, and Asia. In exploring these intersections, the course will engage migration and displacement/dis-location as sociopolitical, economic, and spatial phenomena, particularly in relation to struggles defined around land and water, labor and livelihood, asylum/refugees, and terrorism/security. We will examine the nature of so-called ethnic (immigrant) practices and diaspora, as well as the binary of rural/urban in the context of the narrative and transmission, internal and external cultural exchange, political resistance, and \\\"multiculturalism.\\\" The course will also address the ways that ideas of global North and global South are claimed, defined, and contested in this process.",
     "prereq": []
   },
   {
+    "uid": "8263751",
     "code": "DNCE 1912",
     "subject": "DNCE",
-    "id": "1912",
-    "title": "Building Curiosities",
+    "number": "1912",
+    "name": "Building Curiosities",
+    "fullname": "Building curiosities: A guide to critical thinking and engaging with the world around you",
     "info": "This class is designed to help students develop the skills necessary to engage wholly and fully through their surroundings. Through practicing how to ask questions, we will build the imagination so that we may expand our capacity to continuously process, understand, and synthesize how we participate in our world.  We will look to many horizons to expand our curiosity, including: race, class, gender, sexuality, ethics, accessibility, disability, queer theory, club theory, and black feminist theory. ",
     "prereq": []
   },
   {
+    "uid": "8171591",
     "code": "DNCE 1914",
     "subject": "DNCE",
-    "id": "1914",
-    "title": "The Politics of Salsa",
+    "number": "1914",
+    "name": "The Politics of Salsa",
+    "fullname": "Latinx Moves: The Politics of Salsa, Race, and Migration",
     "info": "Jennifer Aniston's character performs salsa in Along Came Polly and hopeful contestants dance it on So You Think You Can Dance, so how can salsa be a political act? This course considers the politics of salsa dancing. We will look closely at race and migration as we read, write, and dance salsa. Class time is evenly devoted to studio and seminar settings because reading about the politics of salsa can inform our dance practice, and dancing salsa can inform how we understand what we read. In the studio students will engage in movement activities that critically examine salsa through dance making and dance technique (such as partnering, rhythm, displacement, turns, awareness of other bodies, and improvisation). We will relate practices of salsa in the studio to the critical discussion of readings and movies in the seminar room. We will develop skills that will help us to closely analyze dancing bodies and the social meanings of salsa practices. Come prepared to read, write, dance, and discuss course topics. No dance experience necessary.",
     "prereq": []
   },
   {
+    "uid": "8269281",
     "code": "DNCE 3002",
     "subject": "DNCE",
-    "id": "3002",
-    "title": "2nd Year Career Readiness DNCE",
+    "number": "3002",
+    "name": "2nd Year Career Readiness DNCE",
+    "fullname": "2nd Year Career Readiness for Dancers",
     "info": "The DNCE 3002 career management course degree requirement is designed to ensure you know how to pursue dance and dance-related opportunities during the next two years at the dance program and to deepen your liberal arts education through co-curricular experiential learning opportunities (e.g., apprenticeships, intensives, learning abroad, and community engaged learning, among others). These experiences enhance your learning and connect you to the broader dance community, laying the stage for work and jobs upon graduation. This course will support you in articulating your values and mapping multiple trajectories that align with your values. This course is designed to pull apart, name, and engage with aspects of a life in dance that sometimes feel hidden, obscured, or slippery in order to support you in making intentional and purposeful choices in your education and experiences outside of school. This course will also examine the relationship of self to dance, supporting you in cultivating resilience and practicing failure. This course is a hybrid course, with the bulk of the coursework happening via Canvas, 4 full class meetings, and 2 individual or small-group meetings over the course of the semester. ",
     "prereq": []
   },
   {
+    "uid": "0090011",
     "code": "DNCE 3010",
     "subject": "DNCE",
-    "id": "3010",
-    "title": "Modern/Contemporary Dance 5",
+    "number": "3010",
+    "name": "Modern/Contemporary Dance 5",
+    "fullname": "Modern/Contemporary Dance Technique 5",
     "info": "Fifth course in ten-section sequence of modern dance technique. Application of principles of space, time, energy. Alignment, power from pelvic center, rotation/turnout, muscular tonality, joint articulation, clarity of intent, stretch, strength, stamina.\n\nprereq: dept consent, audition",
     "prereq": []
   },
   {
+    "uid": "0090071",
     "code": "DNCE 3020",
     "subject": "DNCE",
-    "id": "3020",
-    "title": "Modern/Contemporary Dance 6",
+    "number": "3020",
+    "name": "Modern/Contemporary Dance 6",
+    "fullname": "Modern/Contemporary Dance Technique 6",
     "info": "Sixth course in ten-section sequence of modern dance technique. Application of principles of space, time, energy. Alignment, power from pelvic center, rotation/turnout, muscular tonality, joint articulation, clarity of intent, stretch, strength, stamina.\n\nprereq: 3010, dept consent, audition",
     "prereq": {
       "code": "DNCE 3010",
       "subject": "DNCE",
-      "id": "3010"
+      "number": "3010"
     }
   },
   {
+    "uid": "0085831",
     "code": "DNCE 3110",
     "subject": "DNCE",
-    "id": "3110",
-    "title": "Ballet 5",
+    "number": "3110",
+    "name": "Ballet 5",
+    "fullname": "Ballet Technique 5",
     "info": "Stretch, strength, balance, musicality. Longer phrases in adagio/allegro work. More complex elevations in petit allegro. Practical work conducted in context of study of technical development of ballet.\n\nprereq: dept consent, audition",
     "prereq": []
   },
   {
+    "uid": "0085841",
     "code": "DNCE 3120",
     "subject": "DNCE",
-    "id": "3120",
-    "title": "Ballet 6",
+    "number": "3120",
+    "name": "Ballet 6",
+    "fullname": "Ballet Technique 6",
     "info": "Continuation of 3110. Ballet technique. Stretch, strength, balance, musicality. Longer phrases in adagio/allegro work. More complex elevations in petit allegro.\n\nprereq: 3110, dept consent, audition",
     "prereq": {
       "code": "DNCE 3110",
       "subject": "DNCE",
-      "id": "3110"
+      "number": "3110"
     }
   },
   {
+    "uid": "0090871",
     "code": "DNCE 3210",
     "subject": "DNCE",
-    "id": "3210",
-    "title": "Jazz 5",
+    "number": "3210",
+    "name": "Jazz 5",
+    "fullname": "Jazz Technique 5",
     "info": "Continuation of jazz technique. Rhythm structures, longer phrases, greater physical speed, attack/control.\n\nprereq: dept consent, audition",
     "prereq": []
   },
   {
+    "uid": "0090891",
     "code": "DNCE 3220",
     "subject": "DNCE",
-    "id": "3220",
-    "title": "Jazz 6",
+    "number": "3220",
+    "name": "Jazz 6",
+    "fullname": "Jazz Technique 6",
     "info": "Continuation of 3210. Jazz technique. Rhythm structures, longer phrases, greater physical speed, attack/control.\n\nprereq: 3210, dept consent, audition",
     "prereq": {
       "code": "DNCE 3210",
       "subject": "DNCE",
-      "id": "3210"
+      "number": "3210"
     }
   },
   {
+    "uid": "0077351",
     "code": "DNCE 3301",
     "subject": "DNCE",
-    "id": "3301",
-    "title": "Tap 3",
+    "number": "3301",
+    "name": "Tap 3",
+    "fullname": "Tap Technique 3",
     "info": "Tap techniques and creative development through improvisational studies.\n\nprereq: 1302 or instr consent",
     "prereq": {
       "code": "DNCE 1302",
       "subject": "DNCE",
-      "id": "1302"
+      "number": "1302"
     }
   },
   {
+    "uid": "0077571",
     "code": "DNCE 3302",
     "subject": "DNCE",
-    "id": "3302",
-    "title": "Tap 4",
+    "number": "3302",
+    "name": "Tap 4",
+    "fullname": "Tap Technique 4",
     "info": "Tap techniques and rhythm structures.\n\nprereq: 3301 or instr consent",
     "prereq": {
       "code": "DNCE 3301",
       "subject": "DNCE",
-      "id": "3301"
+      "number": "3301"
     }
   },
   {
+    "uid": "8006421",
     "code": "DNCE 3303",
     "subject": "DNCE",
-    "id": "3303",
-    "title": "Tap Technique 5",
+    "number": "3303",
+    "name": "Tap Technique 5",
+    "fullname": "Tap Technique 5",
     "info": "Fifth of six-part sequence. Sophisticated musicality, complex rhythm structures, shading, and grace moves to music of different periods. Improvisation exercises explore phrasing, context, and theme toward developing choreography. Tap history/culture.",
     "prereq": []
   },
   {
+    "uid": "8006431",
     "code": "DNCE 3304",
     "subject": "DNCE",
-    "id": "3304",
-    "title": "Tap Technique 6",
+    "number": "3304",
+    "name": "Tap Technique 6",
+    "fullname": "Tap Technique 6",
     "info": "Sixth of six-part sequence. Sophisticated musicality, complex rhythm structures, shading, and grace moves to music of different periods. Improvisation exercises explore phrasing, context, and theme toward developing choreography. Tap history/culture.",
     "prereq": []
   },
   {
+    "uid": "8049201",
     "code": "DNCE 3311",
     "subject": "DNCE",
-    "id": "3311",
-    "title": "Contemporary Indian Dance 1",
+    "number": "3311",
+    "name": "Contemporary Indian Dance 1",
+    "fullname": "Contemporary Indian Dance 1",
     "info": "First in two-course sequence. Odissi classical Indian dance, martial movement Chhau, Iyengar yoga. Students deconstruct, extend and interweave these to create contemporary South Asian form. Footwork, hip flexion, torso movement, breath, rhythmic complexity.\n\nprereq: instr consent",
     "prereq": []
   },
   {
+    "uid": "8049221",
     "code": "DNCE 3312",
     "subject": "DNCE",
-    "id": "3312",
-    "title": "Contemporary Indian Dance 2",
+    "number": "3312",
+    "name": "Contemporary Indian Dance 2",
+    "fullname": "Contemporary Indian Dance 2",
     "info": "Second in two-course sequence. Odissi classical Indian dance, martial movement Chhau, Iyengar yoga. Students deconstruct, extend and interweave these to create contemporary South Asian form. Footwork, hip flexion, torso movement, breath, rhythmic complexity.\n\nprereq: 3311 or instr consent",
     "prereq": {
       "code": "DNCE 3311",
       "subject": "DNCE",
-      "id": "3311"
+      "number": "3311"
     }
   },
   {
+    "uid": "8006261",
     "code": "DNCE 3333",
     "subject": "DNCE",
-    "id": "3333",
-    "title": "Laban Movement Analysis",
+    "number": "3333",
+    "name": "Laban Movement Analysis",
+    "fullname": "Laban Movement Analysis",
     "info": "Concepts of LMA, which is used to describe, understand, and perform all forms of movement/dance. Movement experiences, lectures, discussion, observation.",
     "prereq": []
   },
   {
+    "uid": "8006341",
     "code": "DNCE 3334",
     "subject": "DNCE",
-    "id": "3334",
-    "title": "Dance/Movement Therapy",
+    "number": "3334",
+    "name": "Dance/Movement Therapy",
+    "fullname": "Introduction to Dance/Movement Therapy",
     "info": "Historical/theoretical perspectives on use of movement/dance in relationship to psychology/healing. D/MT pioneers/techniques. Applications of D/MT with various populations/settings. Experiential course.\n\nprereq: dept consent",
     "prereq": []
   },
   {
+    "uid": "7910991",
     "code": "DNCE 3337",
     "subject": "DNCE",
-    "id": "3337",
-    "title": "Body Mind Centering",
+    "number": "3337",
+    "name": "Body Mind Centering",
+    "fullname": "Body Mind Centering",
     "info": "Improvisational movement explorations, hands-on re-patterning work. Direct experience of the way mind (desire, attention, intention) is expressed through various body systems. Students use imagery, touch, and anatomical information to access a range of inner sensations and movement experiences. Emphasizes each individual's unique experience of the body.",
     "prereq": []
   },
   {
+    "uid": "8181331",
     "code": "DNCE 3341",
     "subject": "DNCE",
-    "id": "3341",
-    "title": "Urban & Street Dance Forms 3",
+    "number": "3341",
+    "name": "Urban & Street Dance Forms 3",
+    "fullname": "Urban & Street Dance Forms 3: Emerging Scholar",
     "info": "This is the third course in the dance program's 4-semester Urban and Street Dance sequence. It focuses on intermediate/advanced techniques in rocking, breaking, funk styles, krump, house, and specific techniques that mix these forms together. These further explorations focus on more advanced techniques, aesthetics, and complex issues within forms practiced by instructors. Students are assigned readings, videos, and writing assignments to think critically about each issue. There is an informal showing at the end of the semester. \n\nprereq: Completion of DNCE 2341 or audition.",
     "prereq": []
   },
   {
+    "uid": "8181341",
     "code": "DNCE 3342",
     "subject": "DNCE",
-    "id": "3342",
-    "title": "Urban & Street Dance Forms 4",
+    "number": "3342",
+    "name": "Urban & Street Dance Forms 4",
+    "fullname": "Urban & Street Dance Forms 4: Scholar",
     "info": "This is the final course in the Dance Program's 4-semester Urban and Street Styles sequence. It focuses on advanced techniques in rocking, breaking, funk styles, krump, house, and specific techniques that mix these forms together. These further explorations focus on advanced techniques, aesthetics, and complex issues within forms practiced by instructors. Students are assigned readings, videos, and writing assignments to think critically about each issue. There is an informal showing at the end of the semester. \n\nPrerequisite: Completion of DNCE 3341 or audition\n",
     "prereq": {
       "code": "DNCE 3341",
       "subject": "DNCE",
-      "id": "3341"
+      "number": "3341"
     }
   },
   {
+    "uid": "8065731",
     "code": "DNCE 3351",
     "subject": "DNCE",
-    "id": "3351",
-    "title": "African Diasporic Movement 5",
+    "number": "3351",
+    "name": "African Diasporic Movement 5",
+    "fullname": "African Diasporic Movement 5",
     "info": "Rigorous practice. West African techniques. Cardiovascular endurance of students will improve as a result. Live drummers, students can expect to learn drum parts to enhance the understanding of the rhythms.\n\nprereq: 1354 or audition or instr consent",
     "prereq": {
       "code": "DNCE 1354",
       "subject": "DNCE",
-      "id": "1354"
+      "number": "1354"
     }
   },
   {
+    "uid": "8065741",
     "code": "DNCE 3352",
     "subject": "DNCE",
-    "id": "3352",
-    "title": "African Diasporic Movement 6",
+    "number": "3352",
+    "name": "African Diasporic Movement 6",
+    "fullname": "African Diasporic Movement 6",
     "info": "Dances performed by dance companies of Guinea through the use of more complex and deep rhythms such as Yamama, Doundounba, Baho and Tiribah. Rigorous practice. West African techniques. Live drummers.\n\nprereq: DNCE 3351 African Diasporic Movement 5 or audition or instructor consent",
     "prereq": {
       "code": "DNCE 3351",
       "subject": "DNCE",
-      "id": "3351"
+      "number": "3351"
     }
   },
   {
+    "uid": "0160831",
     "code": "DNCE 3401W",
     "subject": "DNCE",
-    "id": "3401W",
-    "title": "Dance History 1",
+    "number": "3401W",
+    "name": "Dance History 1",
+    "fullname": "Dance History 1",
     "info": "Historiography of dance, 20th century through present. Reconstruction/incorporation of dance practice in context of globalization. Artistic choices as influenced by complex history of performing arts and terrain of body/politics. ",
     "prereq": []
   },
   {
+    "uid": "0160841",
     "code": "DNCE 3402W",
     "subject": "DNCE",
-    "id": "3402W",
-    "title": "Dance History 2",
+    "number": "3402W",
+    "name": "Dance History 2",
+    "fullname": "Dance History 2",
     "info": "History/theory of dance in varied forms/aspects. From development of ballet through 20th century modern dance. Second half of year-long survey.\n\nprereq: 3401W",
     "prereq": {
       "code": "DNCE 3401",
       "subject": "DNCE",
-      "id": "3401"
+      "number": "3401"
     }
   },
   {
+    "uid": "8018661",
     "code": "DNCE 3411",
     "subject": "DNCE",
-    "id": "3411",
-    "title": "Dance and Popular Culture",
+    "number": "3411",
+    "name": "Dance and Popular Culture",
+    "fullname": "Dance and Popular Culture: Choreographing Race, Class, and Gender",
     "info": "How race, class, and gender become aestheticized and are put into motion as popular culture. Choreographic analysis of moving bodies. How \\\"popular\\\" affects understanding of culture. Exoticism, binary structures of stereotypes, identity, hegemony.",
     "prereq": []
   },
   {
+    "uid": "0093621",
     "code": "DNCE 3433",
     "subject": "DNCE",
-    "id": "3433",
-    "title": "Articulate Body",
+    "number": "3433",
+    "name": "Articulate Body",
+    "fullname": "Articulate Body",
     "info": "Lectures and movement sessions in biodynamic considerations for optimal dance performance and metabolistic demands of dance.\n\nprereq: Dnce major, dept consent",
     "prereq": []
   },
   {
+    "uid": "8050441",
     "code": "DNCE 3434",
     "subject": "DNCE",
-    "id": "3434",
-    "title": "Nutrition and Body Maintenance",
+    "number": "3434",
+    "name": "Nutrition and Body Maintenance",
+    "fullname": "Nutrition and Body Maintenance for Movement Artists",
     "info": "Students learn and research ways to improve nutrition and remain injury-free throughout career and beyond. Discuss nutrition principles and apply to unique challenges, needs, interests of movement artists. Examine anatomy of movement to develop constructive injury prevention and management strategies. Stress reduction.",
     "prereq": []
   },
   {
+    "uid": "0089681",
     "code": "DNCE 3487W",
     "subject": "DNCE",
-    "id": "3487W",
-    "title": "Dance and Citizenship",
+    "number": "3487W",
+    "name": "Dance and Citizenship",
+    "fullname": "Dance and Citizenship: Land, Migration, and Diaspora",
     "info": "Dance/performance as practiced/transformed by minority groups in the United States. Migration as a global phenomenon, particularly pertaining to land disputes, labor distribution, political asylum, refugee, and dislocation. ",
     "prereq": []
   },
   {
+    "uid": "0089451",
     "code": "DNCE 3488W",
     "subject": "DNCE",
-    "id": "3488W",
-    "title": "Dance as CP",
+    "number": "3488W",
+    "name": "Dance as CP",
+    "fullname": "Dance as Cultural Practice",
     "info": "Study of dance as art, ritual, social activity, and entertainment in selected cultures of Asia, Africa, Eastern Europe, the Middle East, and the Americas.",
     "prereq": []
   },
   {
+    "uid": "8018671",
     "code": "DNCE 3495",
     "subject": "DNCE",
-    "id": "3495",
-    "title": "Dance and Global Tourism",
+    "number": "3495",
+    "name": "Dance and Global Tourism",
+    "fullname": "Dance and Global Tourism",
     "info": "Political economy of the dancing body and its role in the representation of nation-states through global tourism. Dance and its relationship to belonging, nationalism, and the politics of art and tradition.\n\nprereq: Jr or sr",
     "prereq": []
   },
   {
+    "uid": "0095451",
     "code": "DNCE 3500",
     "subject": "DNCE",
-    "id": "3500",
-    "title": "Topics in Dance",
+    "number": "3500",
+    "name": "Topics in Dance",
+    "fullname": "Topics in Dance",
     "info": "Topics specified in Class Schedule.",
     "prereq": []
   },
   {
+    "uid": "0090991",
     "code": "DNCE 3601",
     "subject": "DNCE",
-    "id": "3601",
-    "title": "Dance Composition 1",
+    "number": "3601",
+    "name": "Dance Composition 1",
+    "fullname": "Dance Composition 1",
     "info": "Movement, vocabulary in relation to theme, space, time, energy, and body parts; solo, duet, and trio forms.\n\nprereq: 1020, 1601, concurrent regis in a modern dance technique course, dept consent",
     "prereq": {
       "and": [
         {
           "code": "DNCE 1020",
           "subject": "DNCE",
-          "id": "1020"
+          "number": "1020"
         },
         {
           "code": "DNCE 1601",
           "subject": "DNCE",
-          "id": "1601"
+          "number": "1601"
         }
       ]
     }
   },
   {
+    "uid": "0091011",
     "code": "DNCE 3602",
     "subject": "DNCE",
-    "id": "3602",
-    "title": "Dance Composition 2",
+    "number": "3602",
+    "name": "Dance Composition 2",
+    "fullname": "Dance Composition 2",
     "info": "Movement, vocabulary in relation to theme, space, time, energy, and body parts. Solo, duet, and trio forms.\n\nprereq: 3601, dept consent, concurrent regis in a modern dance technique course",
     "prereq": {
       "code": "DNCE 3601",
       "subject": "DNCE",
-      "id": "3601"
+      "number": "3601"
     }
   },
   {
+    "uid": "7911001",
     "code": "DNCE 3621",
     "subject": "DNCE",
-    "id": "3621",
-    "title": "Dance Production I",
+    "number": "3621",
+    "name": "Dance Production I",
+    "fullname": "Dance Production I",
     "info": "Technical/administrative aspects of dance production. Lighting, costumes, sound, marketing, stage management, fundraising, publicity. Emphasizes practical project management and personal management skills.\n\nprereq: Dance major, dept consent",
     "prereq": []
   },
   {
+    "uid": "7911011",
     "code": "DNCE 3622",
     "subject": "DNCE",
-    "id": "3622",
-    "title": "Dance Production II",
+    "number": "3622",
+    "name": "Dance Production II",
+    "fullname": "Dance Production II",
     "info": "Continuation of 3621. Students produce the spring Student Dance Concert.\n\nprereq: 3621, dance major, dept consent",
     "prereq": {
       "code": "DNCE 3621",
       "subject": "DNCE",
-      "id": "3621"
+      "number": "3621"
     }
   },
   {
+    "uid": "0091771",
     "code": "DNCE 3700",
     "subject": "DNCE",
-    "id": "3700",
-    "title": "Performance",
+    "number": "3700",
+    "name": "Performance",
+    "fullname": "Performance",
     "info": "Creation or reconstruction of a dance theatre work under the direction of a guest artist or faculty member.  Work is performed at the end of the rehearsal period.\n\nprereq: Concurrent enrollment in a technique course, audition, dept consent",
     "prereq": []
   },
   {
+    "uid": "8050451",
     "code": "DNCE 3701",
     "subject": "DNCE",
-    "id": "3701",
-    "title": "Summer Dance Intensive",
+    "number": "3701",
+    "name": "Summer Dance Intensive",
+    "fullname": "Summer Dance Intensive",
     "info": "Real-world experience with a professional dance company. Students participate in daily technique and repertory classes culminating in an informal performance. Artists are arranged year-by-year. ",
     "prereq": []
   },
   {
+    "uid": "7911021",
     "code": "DNCE 3901",
     "subject": "DNCE",
-    "id": "3901",
-    "title": "Career Readiness in Dance",
+    "number": "3901",
+    "name": "Career Readiness in Dance",
+    "fullname": "Career Readiness in Dance",
     "info": "Strategies fundamental to a dancer's survival. Injury prevention/care. Development of healthy dietary and muscular/skeletal habits. Career tracks.\n\nprereq: Dance major, dept consent",
     "prereq": []
   },
   {
+    "uid": "0097751",
     "code": "DNCE 4443",
     "subject": "DNCE",
-    "id": "4443",
-    "title": "Theorizing Dancing Bodies",
+    "number": "4443",
+    "name": "Theorizing Dancing Bodies",
+    "fullname": "Theorizing Dancing Bodies",
     "info": "Major developments in Western philosophic thought on dance and dance theory, from its beginnings to present.\n\nprereq: 3402W or instr consent",
     "prereq": {
       "code": "DNCE 3402",
       "subject": "DNCE",
-      "id": "3402"
+      "number": "3402"
     }
   },
   {
+    "uid": "7910871",
     "code": "DNCE 4454W",
     "subject": "DNCE",
-    "id": "4454W",
-    "title": "(Re)Writing the Dancing Body",
+    "number": "4454W",
+    "name": "(Re)Writing the Dancing Body",
+    "fullname": "(Re)Writing the Dancing Body",
     "info": "Modes of writing found in dance studies. Oral histories, historical documentation, performance reviews, performance ethnographies, scholarly essays. Discussion/critique of existent modes of writing. Writing/rewriting practice.\n\nprereq: Jr or sr",
     "prereq": []
   },
   {
+    "uid": "0093161",
     "code": "DNCE 4601",
     "subject": "DNCE",
-    "id": "4601",
-    "title": "Dance Composition 3",
+    "number": "4601",
+    "name": "Dance Composition 3",
+    "fullname": "Dance Composition 3",
     "info": "Continuation of movement vocabulary through improvisation, analysis of form and structure, experimentation with tone and performance persona. Effects of lights/costumes/text/props/music; development of larger ensemble works.\n\nprereq: 3602, concurrent regis in a modern dance technique course, dept consent",
     "prereq": {
       "code": "DNCE 3602",
       "subject": "DNCE",
-      "id": "3602"
+      "number": "3602"
     }
   },
   {
+    "uid": "0093191",
     "code": "DNCE 4602",
     "subject": "DNCE",
-    "id": "4602",
-    "title": "Dance Composition 4",
+    "number": "4602",
+    "name": "Dance Composition 4",
+    "fullname": "Dance Composition 4",
     "info": "Continuation of 4601. Movement vocabulary through improvisation, analysis of form and structure, experimentation with performance persona, and the effects of technical elements. Development of larger ensemble works.\n\nprereq: 4601, concurrent registration is required (or allowed) in  modern dance technique course, dept consent",
     "prereq": {
       "code": "DNCE 4601",
       "subject": "DNCE",
-      "id": "4601"
+      "number": "4601"
     }
   },
   {
+    "uid": "7905401",
     "code": "DNCE 4901",
     "subject": "DNCE",
-    "id": "4901",
-    "title": "Capstone Seminar for Dance",
+    "number": "4901",
+    "name": "Capstone Seminar for Dance",
+    "fullname": "Capstone Seminar for Dance",
     "info": "Development of senior project, alone or in groups, under guidance of faculty members.\n\nprereq: Sr, [Dnce or Th major]",
     "prereq": []
   },
   {
+    "uid": "0091231",
     "code": "DNCE 5010",
     "subject": "DNCE",
-    "id": "5010",
-    "title": "Modern/Contemporary Dance 7",
+    "number": "5010",
+    "name": "Modern/Contemporary Dance 7",
+    "fullname": "Modern/Contemporary Dance Technique 7",
     "info": "Seventh course in ten-section sequence of modern dance technique. Continuation of technical development. Performance range/style. Students study with various guest artists.\n\nprereq: dept consent, audition",
     "prereq": []
   },
   {
+    "uid": "0091251",
     "code": "DNCE 5020",
     "subject": "DNCE",
-    "id": "5020",
-    "title": "Modern/Contemporary Dance 8",
+    "number": "5020",
+    "name": "Modern/Contemporary Dance 8",
+    "fullname": "Modern/Contemporary Dance Technique 8",
     "info": "Eighth course in ten-section sequence of modern dance technique. Performance range/style. Students study with various guest artists.\n\nprereq: 5010, dept consent, audition",
     "prereq": {
       "code": "DNCE 5010",
       "subject": "DNCE",
-      "id": "5010"
+      "number": "5010"
     }
   },
   {
+    "uid": "8169431",
     "code": "DNCE 5030",
     "subject": "DNCE",
-    "id": "5030",
-    "title": "Modern/Contemporary Dance 9",
+    "number": "5030",
+    "name": "Modern/Contemporary Dance 9",
+    "fullname": "Modern/Contemporary Dance Technique 9",
     "info": "Ninth course in ten-section sequence of modern dance technique. It focuses on pre-professional technique training for students prepared for that level of technical achievement and readying themselves for a potential career as contemporary dance professionals. All Dance Program Modern Dance Technique courses examine the practical application and understanding of principles of space, time, and energy focusing on alignment, weight, momentum, power for the body's core, joint and skeletal articulation, clarity of focus and intent, flexibility, strength, stamina and energy flow and lines through the use of breath appropriate to the technical level of the course. The course also explores a range of performance strategies that students may encounter for future performance experiences within the dance program and beyond.",
     "prereq": []
   },
   {
+    "uid": "8171761",
     "code": "DNCE 5040",
     "subject": "DNCE",
-    "id": "5040",
-    "title": "Modern/Contemporary Dance 10",
+    "number": "5040",
+    "name": "Modern/Contemporary Dance 10",
+    "fullname": "Modern/Contemporary Dance Technique 10",
     "info": "Tenth course in ten-section sequence of modern dance technique. It focuses on pre-professional technique training for students prepared for that level of technical achievement and readying themselves for a potential career as contemporary dance professionals. All dance program modern dance technique courses examine the practical application and understanding of principles of space, time, and energy focusing on alignment, weight, momentum, power for the body's core, joint and skeletal articulation, clarity of focus and intent, flexibility, strength, stamina and energy flow and lines through the use of breath appropriate to the technical level of the course. The course also explores a range of performance strategies that students may encounter for future performance experiences within the dance program and beyond.",
     "prereq": []
   },
   {
+    "uid": "0086321",
     "code": "DNCE 5110",
     "subject": "DNCE",
-    "id": "5110",
-    "title": "Ballet 7",
+    "number": "5110",
+    "name": "Ballet 7",
+    "fullname": "Ballet Technique 7",
     "info": "Continuation of ballet technique. Musicality, performance, stylistic differences. Practical work conducted within context of choreographic/aesthetic development of ballet.\n\nprereq: dept consent, audition",
     "prereq": []
   },
   {
+    "uid": "0086341",
     "code": "DNCE 5120",
     "subject": "DNCE",
-    "id": "5120",
-    "title": "Ballet 8",
+    "number": "5120",
+    "name": "Ballet 8",
+    "fullname": "Ballet Technique 8",
     "info": "Continuation of 5110. Musicality, performance, stylistic differences. Practical work conducted within context of choreographic/aesthetic development of ballet.\n\nprereq: 5110, dept consent, audition",
     "prereq": {
       "code": "DNCE 5110",
       "subject": "DNCE",
-      "id": "5110"
+      "number": "5110"
     }
   },
   {
+    "uid": "0090901",
     "code": "DNCE 5210",
     "subject": "DNCE",
-    "id": "5210",
-    "title": "Jazz 7",
+    "number": "5210",
+    "name": "Jazz 7",
+    "fullname": "Jazz Technique 7",
     "info": "Continuation of jazz technique. Syncopation, performance projection. Specific styles: swing, bebop, lyrical, funk, latin.",
     "prereq": []
   },
   {
+    "uid": "0090911",
     "code": "DNCE 5220",
     "subject": "DNCE",
-    "id": "5220",
-    "title": "Jazz 8",
+    "number": "5220",
+    "name": "Jazz 8",
+    "fullname": "Jazz Technique 8",
     "info": "Continuation of 5210. Syncopation, performance projection. Specific styles: swing, bebop, lyrical, funk, latin.",
     "prereq": []
   },
   {
+    "uid": "8006271",
     "code": "DNCE 5333",
     "subject": "DNCE",
-    "id": "5333",
-    "title": "Laban Movement Analysis",
+    "number": "5333",
+    "name": "Laban Movement Analysis",
+    "fullname": "Laban Movement Analysis",
     "info": "Concepts of LMA, which is used to describe, understand, and perform all forms of movement/dance. Movement experiences, lectures, discussion, observation.",
     "prereq": []
   },
   {
+    "uid": "8006351",
     "code": "DNCE 5334",
     "subject": "DNCE",
-    "id": "5334",
-    "title": "Dance/Movement Therapy",
+    "number": "5334",
+    "name": "Dance/Movement Therapy",
+    "fullname": "Introduction to Dance/Movement Therapy",
     "info": "Historical/theoretical perspectives on use of movement/dance in relationship to psychology/healing. D/MT pioneers/techniques. Applications of D/MT with various populations/settings. Experiential course.\n\nprereq: dept consent",
     "prereq": []
   },
   {
+    "uid": "7991381",
     "code": "DNCE 5337",
     "subject": "DNCE",
-    "id": "5337",
-    "title": "Body-Mind Centering 2",
+    "number": "5337",
+    "name": "Body-Mind Centering 2",
+    "fullname": "Body-Mind Centering 2",
     "info": "Embodied consciousness. How knowledge is created. How mind/body are indissolubly linked. How body gives rise to states of consciousness that influence and often unconsciously control opinions, feelings, thoughts, and actions.",
     "prereq": []
   },
   {
+    "uid": "8035091",
     "code": "DNCE 5443",
     "subject": "DNCE",
-    "id": "5443",
-    "title": "Theorizing Dancing Bodies",
+    "number": "5443",
+    "name": "Theorizing Dancing Bodies",
+    "fullname": "Theorizing Dancing Bodies",
     "info": "Major developments in Western philosophic thought on dance and dance theory, from its beginnings to present.\n\nprereq: instr consent",
     "prereq": []
   },
   {
+    "uid": "8006441",
     "code": "DNCE 5454",
     "subject": "DNCE",
-    "id": "5454",
-    "title": "(Re)Writing the Dancing Body",
+    "number": "5454",
+    "name": "(Re)Writing the Dancing Body",
+    "fullname": "(Re)Writing the Dancing Body",
     "info": "Modes of writing found in dance studies. Oral histories, historical documentation, performance reviews, performance ethnographies, scholarly essays. Discussion/critique of existent modes of writing. Writing/rewriting practice.\n\nprereq: Grad student",
     "prereq": []
   },
   {
+    "uid": "8020781",
     "code": "DNCE 5493",
     "subject": "DNCE",
-    "id": "5493",
-    "title": "Choreographing Social Justice",
+    "number": "5493",
+    "name": "Choreographing Social Justice",
+    "fullname": "Choreographing Social Justice: Staging \"Equitable\" Choreographies",
     "info": "Possibilities and implications of artistic work. Metaphoric bodily practices and intersections of performance and social justice practices. Theories and histories of intersections within communities of color across global North and South. Group project.\n\nprereq: 4443 recommended",
     "prereq": {
       "code": "DNCE 4443",
       "subject": "DNCE",
-      "id": "4443"
+      "number": "4443"
     }
   },
   {
+    "uid": "8018901",
     "code": "DNCE 5495",
     "subject": "DNCE",
-    "id": "5495",
-    "title": "Dance and Global Tourism",
+    "number": "5495",
+    "name": "Dance and Global Tourism",
+    "fullname": "Dance and Global Tourism",
     "info": "Politics of dance/performance for tourism industry. Ways in which dancing body produces ideas of nation-state. How this reflects stereotypes of female identity in global context.\n\nprereq: Grad student",
     "prereq": []
   },
   {
+    "uid": "0092421",
     "code": "DNCE 5500",
     "subject": "DNCE",
-    "id": "5500",
-    "title": "Topics in Dance",
+    "number": "5500",
+    "name": "Topics in Dance",
+    "fullname": "Topics in Dance",
     "info": "Topics specified in Class Schedule.",
     "prereq": []
   },
   {
+    "uid": "7911031",
     "code": "DNCE 5601",
     "subject": "DNCE",
-    "id": "5601",
-    "title": "Dance Composition 5",
+    "number": "5601",
+    "name": "Dance Composition 5",
+    "fullname": "Dance Composition 5",
     "info": "Final part of six-semester sequence in dance composition. Exploration of movement through independently scheduled rehearsals. Choreographic concepts. Tools in dance creation, development/refinement of movement, structure of group choreography.\n\nprereq: 4601, 4602, dept consent",
     "prereq": {
       "and": [
         {
           "code": "DNCE 4601",
           "subject": "DNCE",
-          "id": "4601"
+          "number": "4601"
         },
         {
           "code": "DNCE 4602",
           "subject": "DNCE",
-          "id": "4602"
+          "number": "4602"
         }
       ]
     }
   },
   {
+    "uid": "0092491",
     "code": "DNCE 5700",
     "subject": "DNCE",
-    "id": "5700",
-    "title": "Performance",
+    "number": "5700",
+    "name": "Performance",
+    "fullname": "Performance",
     "info": "Technique, improvisation, choreography, music, design, and technical production as they relate to dance performance.\n\nprereq: concurrent registration is required (or allowed) in  technique course, dept consent, audition based\n\nStudents cast in more than one choreographic piece should register for section 002 for 2 credits",
     "prereq": []
   },
   {
+    "uid": "0088851",
     "code": "DNCE 5858",
     "subject": "DNCE",
-    "id": "5858",
-    "title": "Dance Pedagogy",
+    "number": "5858",
+    "name": "Dance Pedagogy",
+    "fullname": "Dance Pedagogy",
     "info": "Teaching dance provides the foundational pedagogy and methods for artful and responsible teaching and learning in dance. Students will examine key dance education theories and quality teaching practices, and then apply the theories by developing and teaching dance lessons. The course introduces tools that assist in the planning, teaching, assessing, and sharing of dance experiences with children, adolescent, and adult learners in a variety of settings. Specific learning opportunities include: readings, investigation and discussion of dance pedagogy; the creation of lesson plans; teaching labs (in-class and off-site supervised practice teaching); and clinical observations where students can observe the theory in practice.",
     "prereq": []
   },
   {
+    "uid": "0092701",
     "code": "DNCE 5993",
     "subject": "DNCE",
-    "id": "5993",
-    "title": "Directed Studies",
+    "number": "5993",
+    "name": "Directed Studies",
+    "fullname": "Directed Studies",
     "info": "Guided individual study.\nPrereq-instr consent, dept consent, college consent.\n",
     "prereq": []
   }

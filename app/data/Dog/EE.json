@@ -1,2716 +1,2593 @@
 [
   {
+    "uid": "0167231",
     "code": "EE 1",
     "subject": "EE",
-    "id": "1",
-    "title": "EE Refresher Course",
+    "number": "1",
+    "name": "EE Refresher Course",
+    "fullname": "Refresher Course for Electrical Engineers",
     "info": "Review of electrical engineering fundamentals required to pass the Minnesota Professional Engineering Examination in electrical engineering.  Organized review of material ordinarily contained in electrical engineering college curriculum. Emphasizes problem solving with orientation as close possible to type of questions in exam.\n\nprereq: [BSEE or BEE], pass EIT exam, four yrs elec eng experience",
     "prereq": []
   },
   {
+    "uid": "0048171",
     "code": "EE 1001",
     "subject": "EE",
-    "id": "1001",
-    "title": "Intro to ECE",
+    "number": "1001",
+    "name": "Intro to ECE",
+    "fullname": "Introduction to Electrical and Computer Engineering",
     "info": "Introduction to engineering/computer engineering. Techniques and technologies developed by electrical and computer engineers.",
     "prereq": []
   },
   {
+    "uid": "0166341",
     "code": "EE 1301",
     "subject": "EE",
-    "id": "1301",
-    "title": "Intro to Computing Systems",
+    "number": "1301",
+    "name": "Intro to Computing Systems",
+    "fullname": "Introduction to Computing Systems",
     "info": "C/C++ programming constructs, binary arithmetic and bit manipulation, data representation and abstraction, data types/structures, arrays, pointer addressing, control flow, iteration, recursion, file I/O, basics of object-oriented programming. An Internet-of-Things lab is integral to the course.",
     "prereq": []
   },
   {
+    "uid": "0142071",
     "code": "EE 1701",
     "subject": "EE",
-    "id": "1701",
-    "title": "Climate Crisis: Solutions",
+    "number": "1701",
+    "name": "Climate Crisis: Solutions",
+    "fullname": "Climate Crisis: Implementing Solutions",
     "info": "Energy from renewables such as solar and wind to combat potentially catastrophic climate change resulting from our use of fossil fuels; electrifying our transportation; ways to increase energy efficiency and energy conservation; need for energy storage to increase the penetration of renewables;  role of technology, societal benefits and the ethics.\n\nNote: EE 1701 and EE 1703 (the lab) need to both be taken to fulfill the Physical Science Core requirement.  EE 1701 alone fulfills the Technology and Society theme requirement.",
     "prereq": []
   },
   {
+    "uid": "8176511",
     "code": "EE 1703",
     "subject": "EE",
-    "id": "1703",
-    "title": "Climate Crisis: Solutions Lab",
+    "number": "1703",
+    "name": "Climate Crisis: Solutions Lab",
+    "fullname": "Laboratory for Climate Crisis: Implementing Solutions",
     "info": "Laboratory to complement and accompany EE 1701. Experiments to include among:\n1) Demonstration of Global Warming by CO2, \n2) characteristics of Light for Power Generation through PVs, Lighting through LEDs, and Growing Plants in Greenhouses, \n3) Energy Generation Using PV Panels and the Maximum Power Point, \n4) PV Panels in Series and Parallel combinations, \n5) Wind Turbine Characteristics and the Maximum Coefficient of Performance, \n6) Wind Turbine Characteristics for varying wind speeds and Pitch Control of Blades, \n7) Battery Characteristics, \n8) AC Electric Systems: Real and Reactive Power, 1-Phase, \n9) Three-Phase Systems, Motors and Generators, \n10) LEDs compared to Incandescent Lamps and CFLs, \n11) Growing Plants using LEDs and batteries in Greenhouses, \n12) Air Conditioning and Heat Pumps, \n13) Simulation of various energy resources to meet the load demand on the electric grid, \n14) Economic Calculations of using an Electric Vehicle and Participating in Community SolarGardens. EE 1701 and EE 1703 (the lab) need to both be taken to fulfill the Physical Science Core requirement.  EE 1701 alone fulfills the Technology and Society theme requirement.\n\nprereq: EE 1701 or concurrent registration is required (or allowed) in EE 1701",
     "prereq": {
-      "code": "EE 1701",
-      "subject": "EE",
-      "id": "1701"
-    }
-  },
-  {
-    "code": "EE 2001",
-    "subject": "EE",
-    "id": "2001",
-    "title": "Elec Cir",
-    "info": "Physical principles underlying circuit element models. Kirchhoff's laws. Independent/dependent sources. Opamps. Linearity in circuits. Diodes and rectification. FET characteristics, biasing, small signal models, and simple amplifiers. Transients in first- and second-order circuits. CMOS-based logic gates. Circuit simulators.\n\nprereq: concurrent registration is required (or allowed) in PHYS 1302, concurrent registration is required (or allowed) in (MATH 2243 or MATH 2373 or MATH 2573)",
-    "prereq": {
-      "and": [
+      "or": [
         {
-          "code": "PHYS 1302",
-          "subject": "PHYS",
-          "id": "1302"
+          "code": "EE 1701",
+          "subject": "EE",
+          "number": "1701"
         },
         {
-          "code": "MATH 2243",
-          "subject": "MATH",
-          "id": "2243"
-        },
-        {
-          "code": "MATH 2373",
-          "subject": "MATH",
-          "id": "2373"
+          "code": "EE 1701",
+          "subject": "EE",
+          "number": "1701"
         }
       ]
     }
   },
   {
+    "uid": "0044871",
+    "code": "EE 2001",
+    "subject": "EE",
+    "number": "2001",
+    "name": "Elec Cir",
+    "fullname": "Introduction to Circuits and Electronics",
+    "info": "Physical principles underlying circuit element models. Kirchhoff's laws. Independent/dependent sources. Opamps. Linearity in circuits. Diodes and rectification. FET characteristics, biasing, small signal models, and simple amplifiers. Transients in first- and second-order circuits. CMOS-based logic gates. Circuit simulators.\n\nprereq: concurrent registration is required (or allowed) in PHYS 1302, concurrent registration is required (or allowed) in (MATH 2243 or MATH 2373 or MATH 2573)",
+    "prereq": []
+  },
+  {
+    "uid": "0048161",
     "code": "EE 2002",
     "subject": "EE",
-    "id": "2002",
-    "title": "Cir & Elec Lab",
+    "number": "2002",
+    "name": "Cir & Elec Lab",
+    "fullname": "Introductory Circuits and Electronics Laboratory",
     "info": "Introductory lab in electronics to accompany 2001. Experiments with simple circuits. Familiarization with basic measurement tools and equipment.\n\nprereq: 2001 or concurrent registration is required (or allowed) in  2001",
     "prereq": {
-      "code": "EE 2001",
-      "subject": "EE",
-      "id": "2001"
+      "or": [
+        {
+          "code": "EE 2001",
+          "subject": "EE",
+          "number": "2001"
+        },
+        {
+          "code": "EE 2001",
+          "subject": "EE",
+          "number": "2001"
+        }
+      ]
     }
   },
   {
+    "uid": "0165771",
     "code": "EE 2006",
     "subject": "EE",
-    "id": "2006",
-    "title": "Intro Circuits Lab",
+    "number": "2006",
+    "name": "Intro Circuits Lab",
+    "fullname": "Introductory Circuits Laboratory",
     "info": "Meets concurrently with an arranged 2002 section.",
     "prereq": []
   },
   {
+    "uid": "0044881",
     "code": "EE 2011",
     "subject": "EE",
-    "id": "2011",
-    "title": "Lin Sys, Cir, & Elec",
+    "number": "2011",
+    "name": "Lin Sys, Cir, & Elec",
+    "fullname": "Linear Systems, Circuits, and Electronics",
     "info": "Sinusoidal steady state analysis. AC power calculations. Laplace transforms. Laplace transforms in circuit analysis. Elementary filter circuits. Frequency response of elementary MOSFET amplifiers. BJT characteristics and biasing. BJT small signal models and elementary amplifiers. Frequency response of BJT amplifiers. Use of circuit simulators.\n\nprereq: 2001",
     "prereq": {
       "code": "EE 2001",
       "subject": "EE",
-      "id": "2001"
+      "number": "2001"
     }
   },
   {
+    "uid": "8189431",
     "code": "EE 2015",
     "subject": "EE",
-    "id": "2015",
-    "title": "Signals Circuits Electronics",
+    "number": "2015",
+    "name": "Signals Circuits Electronics",
+    "fullname": "Signals, Circuits and Electronics",
     "info": "Introduction to analog electrical systems with particular emphasis on audio circuits and signals. Time and frequency domain representations. Kirchhoff’s laws. Power. Inductance and Capacitance. Introduction to op-amp circuits and their audio applications. Complex numbers and phasors. Introduction to Fourier Series. RLC circuits and basic filter networks. Laboratory experiments on audio amplifiers, distortion, intermodulation products, low-level differential amplifiers, bass/treble filters.\n\nprereq: concurrent registration is required (or allowed) in PHYS 1302, concurrent registration is required (or allowed) in (MATH 2243 or MATH 2373 or MATH 2573)",
-    "prereq": {
-      "and": [
-        {
-          "code": "PHYS 1302",
-          "subject": "PHYS",
-          "id": "1302"
-        },
-        {
-          "code": "MATH 2243",
-          "subject": "MATH",
-          "id": "2243"
-        },
-        {
-          "code": "MATH 2373",
-          "subject": "MATH",
-          "id": "2373"
-        }
-      ]
-    }
+    "prereq": []
   },
   {
+    "uid": "0142051",
     "code": "EE 2101",
     "subject": "EE",
-    "id": "2101",
-    "title": "Intro Elec I",
+    "number": "2101",
+    "name": "Intro Elec I",
+    "fullname": "Introduction to Electronics I",
     "info": "Diodes, field effect transistors and bipolar junction transistors, small signal transistor models. Amplifier circuits.  Covers electronics content of 2001 in half a semester.\n\nprereq: Linear circuits",
     "prereq": []
   },
   {
+    "uid": "0142061",
     "code": "EE 2103",
     "subject": "EE",
-    "id": "2103",
-    "title": "Intro Elec II",
+    "number": "2103",
+    "name": "Intro Elec II",
+    "fullname": "Introduction to Electronics II",
     "info": "Active and passive analog filters, high frequency diode and transistor models, amplifier frequency response, multistage amplifiers.  Covers electronics content of 2011 in half a semester.\n\nprereq: 2001 or 2101",
     "prereq": {
       "or": [
         {
           "code": "EE 2001",
           "subject": "EE",
-          "id": "2001"
+          "number": "2001"
         },
         {
           "code": "EE 2101",
           "subject": "EE",
-          "id": "2101"
+          "number": "2101"
         }
       ]
     }
   },
   {
+    "uid": "8194131",
     "code": "EE 2115",
     "subject": "EE",
-    "id": "2115",
-    "title": "Analog and Digital Electronics",
+    "number": "2115",
+    "name": "Analog and Digital Electronics",
+    "fullname": "Analog and Digital Electronics",
     "info": "An introduction to electronic circuits with emphasis on switching speed and analog mixed signal models. Transient analysis of RC, RL and RLC circuits. Gate delays and limitations on CMOS digital circuit switching. Transient response of lumped 1st and 2nd order ladder networks. Laplace transform and applications. Introduction to analog filters. Elementary sampled data filters. A/D and D/A circuit technologies. Laboratory experiments on AM modulation and superheterodyne receivers with focus on electronic implementation.\n\nprereq: 2015",
     "prereq": {
       "code": "EE 2015",
       "subject": "EE",
-      "id": "2015"
+      "number": "2015"
     }
   },
   {
+    "uid": "0027391",
     "code": "EE 2301",
     "subject": "EE",
-    "id": "2301",
-    "title": "Intro to Digital System Design",
+    "number": "2301",
+    "name": "Intro to Digital System Design",
+    "fullname": "Introduction to Digital System Design",
     "info": "Boolean algebra, logic gates, combinational logic, logic simplification, sequential logic, design of synchronous sequential logic, Verilog modeling, design of logic circuits. Integral lab.\n\nPrereq: [EE 1301 (preferred) or CSCI 1113 or CSCI 1103 or CSci 1133]",
-    "prereq": {
-      "or": [
-        {
-          "code": "EE 1301",
-          "subject": "EE",
-          "id": "1301"
-        },
-        {
-          "code": "CSCI 1113",
-          "subject": "CSCI",
-          "id": "1113"
-        },
-        {
-          "code": "CSCI 1103",
-          "subject": "CSCI",
-          "id": "1103"
-        },
-        {
-          "code": "CSCI 1133",
-          "subject": "CSCI",
-          "id": "1133"
-        }
-      ]
-    }
+    "prereq": []
   },
   {
+    "uid": "8038291",
     "code": "EE 2302",
     "subject": "EE",
-    "id": "2302",
-    "title": "Intro Digital Des Lab",
+    "number": "2302",
+    "name": "Intro Digital Des Lab",
+    "fullname": "Introduction to Digital System Design Laboratory",
     "info": "Digital system design lab.",
     "prereq": []
   },
   {
+    "uid": "0033711",
     "code": "EE 2361",
     "subject": "EE",
-    "id": "2361",
-    "title": "Intro to Microcontrollers",
+    "number": "2361",
+    "name": "Intro to Microcontrollers",
+    "fullname": "Introduction to Microcontrollers",
     "info": "Basic computer organization, opcodes, assembly language programming, logical operations and bit manipulation in C, stack structure, timers, parallel/serial input/output, buffers, input pulse-width and period measurements, PWM output, interrupts and multi-tasking, using special-purpose features such as A/D converters. Integral lab.\n\nprereq: EE 2301",
     "prereq": {
       "code": "EE 2301",
       "subject": "EE",
-      "id": "2301"
+      "number": "2301"
     }
   },
   {
+    "uid": "8038301",
     "code": "EE 2362",
     "subject": "EE",
-    "id": "2362",
-    "title": "Intro Microcontrollers Lab",
+    "number": "2362",
+    "name": "Intro Microcontrollers Lab",
+    "fullname": "Introduction to Microcontrollers Lab",
     "info": "Microcontrollers lab.\n\nprereq: dept consent",
     "prereq": []
   },
   {
+    "uid": "8154541",
     "code": "EE 2701",
     "subject": "EE",
-    "id": "2701",
-    "title": "Sustainable Electricity Supply",
+    "number": "2701",
+    "name": "Sustainable Electricity Supply",
+    "fullname": "Sustainable Electricity Supply: Renewables and Conservation",
     "info": "This course is on the very timely topic of combating climate change by looking closely at electricity generation, delivery, and its use for a sustainable future. Generating electricity from renewables and conservation in all forms, including improving energy efficiency, are the most important tools we have for combating climate change. This course will help you understand the historical development of energy production, the economic impacts of energy sources, the political implications, and primarily the technical understanding of solar power, wind power, electric vehicles, battery storage, fuel cells, energy distribution, and conservation. It will help you consider the potential societal benefits such as reduced energy bills, cleaner air and water, increased economic opportunities, and prepare you for exciting and meaningful careers in renewable energy and sustainability. \n\nPrerequisite: Physics 1302W (or equivalent)",
     "prereq": {
       "code": "EE 1302",
       "subject": "EE",
-      "id": "1302"
+      "number": "1302"
     }
   },
   {
+    "uid": "8182461",
     "code": "EE 2703",
     "subject": "EE",
-    "id": "2703",
-    "title": "Sust Electricity Supply Lab",
+    "number": "2703",
+    "name": "Sust Electricity Supply Lab",
+    "fullname": "Sustainable Electricity Supply: Renewables and Conservation Lab",
     "info": "This online lab is to complement what students are learning in the associated three-credit course EE2701. Students will conduct experiments related to Wind Turbines, Electronic Converters, Photovoltaics, LEDs, and the Smart Grid. Since all the experiments are digitally controlled, they can easily be performed online. Co-requisite: EE2701",
     "prereq": []
   },
   {
+    "uid": "0032261",
     "code": "EE 3005",
     "subject": "EE",
-    "id": "3005",
-    "title": "Fundamentals EE",
+    "number": "3005",
+    "name": "Fundamentals EE",
+    "fullname": "Fundamentals of Electrical Engineering",
     "info": "Fundamentals of analog electronics, digital electronics, and power systems. Circuit analysis, electronic devices and applications, digital circuits, microprocessor systems, operational amplifiers, transistor amplifiers, frequency response, magnetically coupled circuits, transformers, steady state power analysis.\n\nprereq: Math 2243, Phys 1302; not for EE majors",
     "prereq": {
       "and": [
         {
           "code": "MATH 2243",
           "subject": "MATH",
-          "id": "2243"
+          "number": "2243"
         },
         {
           "code": "PHYS 1302",
           "subject": "PHYS",
-          "id": "1302"
+          "number": "1302"
         }
       ]
     }
   },
   {
+    "uid": "0032321",
     "code": "EE 3006",
     "subject": "EE",
-    "id": "3006",
-    "title": "Fund EE Lab",
+    "number": "3006",
+    "name": "Fund EE Lab",
+    "fullname": "Fundamentals of Electrical Engineering Laboratory",
     "info": "Lab to accompany 3005.\n\nprereq: Concurrent enrollment in 3005 is allowed but not required",
     "prereq": {
       "code": "EE 3005",
       "subject": "EE",
-      "id": "3005"
+      "number": "3005"
     }
   },
   {
+    "uid": "7876141",
     "code": "EE 301",
     "subject": "EE",
-    "id": "301",
-    "title": "Intro to Dig Sys Design Disc",
+    "number": "301",
+    "name": "Intro to Dig Sys Design Disc",
+    "fullname": "Introduction to Digital System Design: Discussion",
     "info": "Discussion section to go with 2301.",
     "prereq": []
   },
   {
+    "uid": "0044891",
     "code": "EE 3015",
     "subject": "EE",
-    "id": "3015",
-    "title": "Signals and Systems",
+    "number": "3015",
+    "name": "Signals and Systems",
+    "fullname": "Signals and Systems",
     "info": "Basic techniques for analysis/design of signal processing, communications, and control systems. Time/frequency models, Fourier-domain representations, modulation. Discrete-time/digital signal/system analysis. Z transform. State models, stability, feedback. Suggest taking EE 3101 concurrently. \n\nprereq: [2115, CSE Upper Division] or dept consent",
-    "prereq": {
-      "code": "EE 2115",
-      "subject": "EE",
-      "id": "2115"
-    }
+    "prereq": []
   },
   {
+    "uid": "7905061",
     "code": "EE 3019",
     "subject": "EE",
-    "id": "3019",
-    "title": "Sig & Sys Rev",
+    "number": "3019",
+    "name": "Sig & Sys Rev",
+    "fullname": "Signals and Systems Review",
     "info": "Linear systems, Laplace transforms. Discrete-time systems, z-transform and its inverse, unilateral z-transform. Transfer function time, frequency analysis.",
     "prereq": []
   },
   {
+    "uid": "0028741",
     "code": "EE 3025",
     "subject": "EE",
-    "id": "3025",
-    "title": "Statistical Methods",
+    "number": "3025",
+    "name": "Statistical Methods",
+    "fullname": "Statistical Methods in Electrical and Computer Engineering",
     "info": "Notions of probability. Elementary statistical data analysis. Random variables, densities, expectation, correlation. Random processes, linear system response to random waveforms. Spectral analysis. Computer experiments for analysis and design in random environment.\n\nprereq: [3015, CSE upper division] or instr approval",
-    "prereq": {
-      "code": "EE 3015",
-      "subject": "EE",
-      "id": "3015"
-    }
+    "prereq": []
   },
   {
+    "uid": "8001891",
     "code": "EE 3041",
     "subject": "EE",
-    "id": "3041",
-    "title": "Industrial Assignment I",
+    "number": "3041",
+    "name": "Industrial Assignment I",
+    "fullname": "Industrial Assignment I",
     "info": "Industrial work assignment in engineering co-op program.  Evaluation based on student's formal written report covering semester's work assignment.\n\nprereq: [EE or CompE upper div], enrolled in ECE co-op program",
     "prereq": []
   },
   {
+    "uid": "0044911",
     "code": "EE 3101",
     "subject": "EE",
-    "id": "3101",
-    "title": "Signals, Circ and Electr Lab",
+    "number": "3101",
+    "name": "Signals, Circ and Electr Lab",
+    "fullname": "Signals, Circuits and Electronics Laboratory",
     "info": "Experiments in electronic systems for information processing; modulation, demodulation, and filtering using analog and digital electronics; sampling, quantization and digital filtering; feedback and phase lock loops.\n\nprereq: [2115, &3015, &3115, CSE Upper Division] or dept consent",
-    "prereq": {
-      "and": [
-        {
-          "code": "EE 2115",
-          "subject": "EE",
-          "id": "2115"
-        },
-        {
-          "code": "EE 3015",
-          "subject": "EE",
-          "id": "3015"
-        },
-        {
-          "code": "EE 3115",
-          "subject": "EE",
-          "id": "3115"
-        }
-      ]
-    }
+    "prereq": []
   },
   {
+    "uid": "0044921",
     "code": "EE 3102",
     "subject": "EE",
-    "id": "3102",
-    "title": "Cir Elec Lab II",
+    "number": "3102",
+    "name": "Cir Elec Lab II",
+    "fullname": "Circuits and Electronics Laboratory II",
     "info": "Experiments in circuits/electronics. Team design project.\n\nprereq: [3101 or CSE or dept consent], attendance first day of class.",
-    "prereq": {
-      "code": "EE 3101",
-      "subject": "EE",
-      "id": "3101"
-    }
+    "prereq": []
   },
   {
+    "uid": "0161041",
     "code": "EE 3105",
     "subject": "EE",
-    "id": "3105",
-    "title": "Circt Electr Trans Lab",
+    "number": "3105",
+    "name": "Circt Electr Trans Lab",
+    "fullname": "Circuits Electronics Transition Laboratory",
     "info": "Together with 3400, completes the 3101 requirement.",
     "prereq": []
   },
   {
+    "uid": "0044951",
     "code": "EE 3115",
     "subject": "EE",
-    "id": "3115",
-    "title": "Analog Electronics",
+    "number": "3115",
+    "name": "Analog Electronics",
+    "fullname": "Analog Electronics",
     "info": "Basic differential amplifiers using FETs and BJTs. Current sources for differential amplifiers. Op- amp-based differential amplifiers. IC op amps as multi-stage amplifiers. Ideal (dc) feedback. Stability and compensation of negative feedback amplifiers. Sinusoidal oscillators. Waveshaping circuits. Power amplifiers. Use of circuit simulators. EE 3015 and EE 3101 should be taken before or concurrently with EE 3115. \n\nprereq: [EE 2115, &EE 3015, CSE upper division] or dept consent",
-    "prereq": {
-      "and": [
-        {
-          "code": "EE 2115",
-          "subject": "EE",
-          "id": "2115"
-        },
-        {
-          "code": "EE 3015",
-          "subject": "EE",
-          "id": "3015"
-        }
-      ]
-    }
+    "prereq": []
   },
   {
+    "uid": "0047621",
     "code": "EE 3161",
     "subject": "EE",
-    "id": "3161",
-    "title": "Semiconductor Dev",
+    "number": "3161",
+    "name": "Semiconductor Dev",
+    "fullname": "Semiconductor Devices",
     "info": "Elementary semiconductor physics; physical description of pn junction diodes, bipolar junction transistors, field-effect transistors. \n\nprereq: Upper div CSE, 2115, Phys 1302, Phys 2303 or Chem 1022",
     "prereq": {
       "and": [
         {
           "code": "EE 2115",
           "subject": "EE",
-          "id": "2115"
+          "number": "2115"
         },
         {
           "code": "PHYS 1302",
           "subject": "PHYS",
-          "id": "1302"
+          "number": "1302"
         },
         {
           "code": "PHYS 2303",
           "subject": "PHYS",
-          "id": "2303"
+          "number": "2303"
         },
         {
           "code": "CHEM 1022",
           "subject": "CHEM",
-          "id": "1022"
+          "number": "1022"
         }
       ]
     }
   },
   {
+    "uid": "7905071",
     "code": "EE 3165",
     "subject": "EE",
-    "id": "3165",
-    "title": "Intro Microelectronic Devices",
+    "number": "3165",
+    "name": "Intro Microelectronic Devices",
+    "fullname": "Introduction to Microelectronic Devices With Applications",
     "info": "Basic properties of semiconductors, junction diodes. Applications to emitters, MOSFETs, detectors, optical devices, magnetic devices.  Micromechanical systems. Nanoelectronics.",
     "prereq": []
   },
   {
+    "uid": "0044901",
     "code": "EE 3601",
     "subject": "EE",
-    "id": "3601",
-    "title": "T Lines, Fields & Waves",
+    "number": "3601",
+    "name": "T Lines, Fields & Waves",
+    "fullname": "Transmission Lines, Fields, and Waves",
     "info": "Properties of transmission lines, electrostatics, magnetostatics, and electromagnetic waves in unbounded space. Guides, cavities, radiation theory, antennas. \n\nprereq: [2015, [Math 2374 or Math 2263 or Math 2574H or Math 3584H], [Phys 1302 or Phys 1402], CSE] or dept consen",
-    "prereq": {
-      "and": [
-        {
-          "code": "EE 2015",
-          "subject": "EE",
-          "id": "2015"
-        },
-        {
-          "or": [
-            {
-              "code": "MATH 2374",
-              "subject": "MATH",
-              "id": "2374"
-            },
-            {
-              "code": "MATH 2263",
-              "subject": "MATH",
-              "id": "2263"
-            }
-          ]
-        },
-        {
-          "or": [
-            {
-              "code": "PHYS 1302",
-              "subject": "PHYS",
-              "id": "1302"
-            },
-            {
-              "code": "PHYS 1402",
-              "subject": "PHYS",
-              "id": "1402"
-            }
-          ]
-        }
-      ]
-    }
+    "prereq": []
   },
   {
+    "uid": "7876151",
     "code": "EE 361",
     "subject": "EE",
-    "id": "361",
-    "title": "Intro Microcontrollers Disc",
+    "number": "361",
+    "name": "Intro Microcontrollers Disc",
+    "fullname": "Introduction to Microcontrollers: Discussion",
     "info": "Discussion section to go with 2361.",
     "prereq": []
   },
   {
+    "uid": "7953811",
     "code": "EE 3940",
     "subject": "EE",
-    "id": "3940",
-    "title": "Special Topics in ECE",
+    "number": "3940",
+    "name": "Special Topics in ECE",
+    "fullname": "Special Topics in Electrical and Computer Engineering",
     "info": "Topics that are not available in regular courses. Topics vary.\n\nprereq: instr consent",
     "prereq": []
   },
   {
+    "uid": "8259491",
     "code": "EE 3951W",
     "subject": "EE",
-    "id": "3951W",
-    "title": "Junior Design Project",
+    "number": "3951W",
+    "name": "Junior Design Project",
+    "fullname": "Junior Design Project",
     "info": "Prereq - EE 3101.Team participation in formulating/solving a structured common design problem emphasizing instrumentation systems. Oral/written presentations.",
     "prereq": {
       "code": "EE 3101",
       "subject": "EE",
-      "id": "3101"
+      "number": "3101"
     }
   },
   {
+    "uid": "0048101",
     "code": "EE 3961",
     "subject": "EE",
-    "id": "3961",
-    "title": "Indr Assngmnt I",
+    "number": "3961",
+    "name": "Indr Assngmnt I",
+    "fullname": "Industrial Assignment I",
     "info": "Industrial work assignment in Electrical and Computer Engineering co-op program. Grade based on student's written report of semester's assignment, but deferred until completion of 4961.",
     "prereq": []
   },
   {
+    "uid": "7991901",
     "code": "EE 3990",
     "subject": "EE",
-    "id": "3990",
-    "title": "Curricular Practical Training",
+    "number": "3990",
+    "name": "Curricular Practical Training",
+    "fullname": "Curricular Practical Training",
     "info": "Industrial work assignment involving advanced electrical engineering technology. Reviewed by faculty member. Final report covering work assignment\n\nprereq: instr consent, undergrad EE or CompE major",
     "prereq": []
   },
   {
+    "uid": "8001911",
     "code": "EE 4043W",
     "subject": "EE",
-    "id": "4043W",
-    "title": "Industrial Assignment II",
+    "number": "4043W",
+    "name": "Industrial Assignment II",
+    "fullname": "Industrial Assignment II",
     "info": "Solution of system design problems that require developing criteria, evaluating alternatives, and generating a preliminary design. Final report emphasizes design communication and describes design decision process, analysis, and final recommendations.prereq: 3041",
     "prereq": {
       "code": "EE 3041",
       "subject": "EE",
-      "id": "3041"
+      "number": "3041"
     }
   },
   {
+    "uid": "8001901",
     "code": "EE 4044",
     "subject": "EE",
-    "id": "4044",
-    "title": "Industrial Assignment III",
+    "number": "4044",
+    "name": "Industrial Assignment III",
+    "fullname": "Industrial Assignment III",
     "info": "Industrial work assignment in engineering co-op program.  Evaluation based on student's formal written report covering semester work assignment.prereq: 4043W",
     "prereq": {
       "code": "EE 4043",
       "subject": "EE",
-      "id": "4043"
+      "number": "4043"
     }
   },
   {
+    "uid": "0044961",
     "code": "EE 4111",
     "subject": "EE",
-    "id": "4111",
-    "title": "Adv Anal Elec Dsgn",
+    "number": "4111",
+    "name": "Adv Anal Elec Dsgn",
+    "fullname": "Advanced Analog Electronics Design",
     "info": "Basic integrated circuit building blocks of differential amplifiers, high bandwidth, instrumentation amplifiers. Current/voltage references. Feedback, stability, and noise in electronic circuits. Integral lab.\n\nprereq: 3015, 3115",
     "prereq": {
       "and": [
         {
           "code": "EE 3015",
           "subject": "EE",
-          "id": "3015"
+          "number": "3015"
         },
         {
           "code": "EE 3115",
           "subject": "EE",
-          "id": "3115"
+          "number": "3115"
         }
       ]
     }
   },
   {
+    "uid": "8038571",
     "code": "EE 4161W",
     "subject": "EE",
-    "id": "4161W",
-    "title": "Energy Conversion and Storage",
+    "number": "4161W",
+    "name": "Energy Conversion and Storage",
+    "fullname": "Energy Conversion and Storage",
     "info": "Fundamental physics/chemistry of selected energy conversion and energy storage devices. Connections with their electric power applications. Role of grid, application to electric vehicles. Lectures, lab, student presentations.\n\nprereq: 3161 or instr consent",
     "prereq": {
       "code": "EE 3161",
       "subject": "EE",
-      "id": "3161"
+      "number": "3161"
     }
   },
   {
+    "uid": "8065231",
     "code": "EE 4163",
     "subject": "EE",
-    "id": "4163",
-    "title": "Energy Conversion/Storage Lab",
+    "number": "4163",
+    "name": "Energy Conversion/Storage Lab",
+    "fullname": "Energy Conversion and Storage Laboratory",
     "info": "Provides laboratory experiences with the topics of 4161W, including the fundamental physics and chemistry of selected energy conversion and energy storage devices, their application, and their connection strategies in electric power applications.\n\nprereq: concurrent registration is required (or allowed) in 4161W",
     "prereq": {
       "code": "EE 4161",
       "subject": "EE",
-      "id": "4161"
+      "number": "4161"
     }
   },
   {
+    "uid": "0045351",
     "code": "EE 4231",
     "subject": "EE",
-    "id": "4231",
-    "title": "Linear Control Systems",
+    "number": "4231",
+    "name": "Linear Control Systems",
+    "fullname": "Linear Control Systems: Designed by Input/Output Methods",
     "info": "Modeling, characteristics, performance of feedback control systems. Stability, root locus, frequency response methods. Digital implementation, hardware considerations.\n\nprereq: [3015, [upper div CSE or grad student in CSE major]] or instr consent",
     "prereq": {
       "code": "EE 3015",
       "subject": "EE",
-      "id": "3015"
+      "number": "3015"
     }
   },
   {
+    "uid": "0045371",
     "code": "EE 4233",
     "subject": "EE",
-    "id": "4233",
-    "title": "State Space Cntrl",
+    "number": "4233",
+    "name": "State Space Cntrl",
+    "fullname": "State Space Control System Design",
     "info": "State space models, performance evaluation, numerical issues for feedback control. Stability, state estimation, quadratic performance.  Implementation, computational issues.\n\nprereq: [3015, upper div CSE] or instr consent",
-    "prereq": {
-      "code": "EE 3015",
-      "subject": "EE",
-      "id": "3015"
-    }
+    "prereq": []
   },
   {
+    "uid": "0045361",
     "code": "EE 4235",
     "subject": "EE",
-    "id": "4235",
-    "title": "Linear Cntrl Lab",
+    "number": "4235",
+    "name": "Linear Cntrl Lab",
+    "fullname": "Linear Control Systems Laboratory",
     "info": "Lab to accompany 4231.\n\nprereq: 4231 or concurrent registration is required (or allowed) in 4231",
     "prereq": {
-      "code": "EE 4231",
-      "subject": "EE",
-      "id": "4231"
-    }
-  },
-  {
-    "code": "EE 4237",
-    "subject": "EE",
-    "id": "4237",
-    "title": "State Space Lab",
-    "info": "Lab to accompany 4233.\n\nprereq: 4233 or concurrent registration is required (or allowed) in  4233; no cr for [EE or CompE] grad students",
-    "prereq": {
-      "code": "EE 4233",
-      "subject": "EE",
-      "id": "4233"
-    }
-  },
-  {
-    "code": "EE 4301",
-    "subject": "EE",
-    "id": "4301",
-    "title": "Dig Des&Prog Logic",
-    "info": "Introduction to system design/simulation. Design using Verilog code/synthesis. Emulation using Verilog code.\n\nprereq: 2301, [1301 or CSCI 1113 or CSCI 1901]",
-    "prereq": {
-      "and": [
+      "or": [
         {
-          "code": "EE 2301",
+          "code": "EE 4231",
           "subject": "EE",
-          "id": "2301"
+          "number": "4231"
         },
         {
-          "or": [
-            {
-              "code": "EE 1301",
-              "subject": "EE",
-              "id": "1301"
-            },
-            {
-              "code": "CSCI 1113",
-              "subject": "CSCI",
-              "id": "1113"
-            },
-            {
-              "code": "CSCI 1901",
-              "subject": "CSCI",
-              "id": "1901"
-            }
-          ]
+          "code": "EE 4231",
+          "subject": "EE",
+          "number": "4231"
         }
       ]
     }
   },
   {
+    "uid": "0046311",
+    "code": "EE 4237",
+    "subject": "EE",
+    "number": "4237",
+    "name": "State Space Lab",
+    "fullname": "State Space Control Laboratory",
+    "info": "Lab to accompany 4233.\n\nprereq: 4233 or concurrent registration is required (or allowed) in  4233; no cr for [EE or CompE] grad students",
+    "prereq": {
+      "or": [
+        {
+          "code": "EE 4233",
+          "subject": "EE",
+          "number": "4233"
+        },
+        {
+          "code": "EE 4233",
+          "subject": "EE",
+          "number": "4233"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "0047051",
+    "code": "EE 4301",
+    "subject": "EE",
+    "number": "4301",
+    "name": "Dig Des&Prog Logic",
+    "fullname": "Digital Design With Programmable Logic",
+    "info": "Introduction to system design/simulation. Design using Verilog code/synthesis. Emulation using Verilog code.\n\nprereq: 2301, [1301 or CSCI 1113 or CSCI 1901]",
+    "prereq": {
+      "code": "EE 2301",
+      "subject": "EE",
+      "number": "2301"
+    }
+  },
+  {
+    "uid": "8062741",
     "code": "EE 4303",
     "subject": "EE",
-    "id": "4303",
-    "title": "Intro to Programmable Devices",
+    "number": "4303",
+    "name": "Intro to Programmable Devices",
+    "fullname": "Introduction to Programmable Devices Laboratory",
     "info": "Verilog Language. Combinatorial and sequential logic synthesis with Verilog. Implementation in Field Programmable Gate Arrays (FPGAs).\n\nprereq: 2301, 2361; cannot receive cr for 4303 if cr granted for EE 4301",
     "prereq": {
       "and": [
         {
           "code": "EE 2301",
           "subject": "EE",
-          "id": "2301"
+          "number": "2301"
         },
         {
           "code": "EE 2361",
           "subject": "EE",
-          "id": "2361"
+          "number": "2361"
         },
         {
           "code": "EE 4301",
           "subject": "EE",
-          "id": "4301"
+          "number": "4301"
         }
       ]
     }
   },
   {
+    "uid": "0047041",
     "code": "EE 4341",
     "subject": "EE",
-    "id": "4341",
-    "title": "Embedded System Design",
+    "number": "4341",
+    "name": "Embedded System Design",
+    "fullname": "Embedded System Design",
     "info": "Microcontroller interfacing for embedded system design. Exception handling/interrupts. Memory Interfacing. Parallel/serial input/output methods. System Buses and protocols. Serial Buses and component interfaces. Microcontroller Networks. Real-Time Operating Systems. Integral lab.\n\nprereq: 2301, 2361, upper div CSE",
     "prereq": {
       "and": [
         {
           "code": "EE 2301",
           "subject": "EE",
-          "id": "2301"
+          "number": "2301"
         },
         {
           "code": "EE 2361",
           "subject": "EE",
-          "id": "2361"
+          "number": "2361"
         }
       ]
     }
   },
   {
+    "uid": "7932041",
     "code": "EE 4363",
     "subject": "EE",
-    "id": "4363",
-    "title": "Comp Arch & Machine Org",
+    "number": "4363",
+    "name": "Comp Arch & Machine Org",
+    "fullname": "Computer Architecture and Machine Organization",
     "info": "Introduction to computer architecture. Aspects of computer systems, such as pipelining, memory hierarchy, and input/output systems. Performance metrics. Examines each component of a complicated computer system.\n\nprereq: 2361",
     "prereq": {
       "code": "EE 2361",
       "subject": "EE",
-      "id": "2361"
+      "number": "2361"
     }
   },
   {
+    "uid": "7998831",
     "code": "EE 4389W",
     "subject": "EE",
-    "id": "4389W",
-    "title": "Intro to Predictive Learning",
+    "number": "4389W",
+    "name": "Intro to Predictive Learning",
+    "fullname": "Introduction to Predictive Learning",
     "info": "Empirical inference and statistical learning. Classical statistical framework, model complexity control, Vapnik-Chervonenkis (VC) theoretical framework, philosophical perspective. Nonlinear methods. New types of inference. Application studies.\n\nprereq: [3025, ECE student] or STAT 3022; computer programming or MATLAB or similar environment is recommended for ECE students",
+    "prereq": {
+      "code": "STAT 3022",
+      "subject": "STAT",
+      "number": "3022"
+    }
+  },
+  {
+    "uid": "0046401",
+    "code": "EE 4501",
+    "subject": "EE",
+    "number": "4501",
+    "name": "Comm Sys",
+    "fullname": "Communications Systems",
+    "info": "Systems for transmission/reception of digital/analog information. Characteristics/design of wired/wireless communication systems. Baseband, digital, and carrier-based techniques. Modulation. Coding. Electronic noise and its effects on design/performance.\n\nprereq: 3025",
+    "prereq": {
+      "code": "EE 3025",
+      "subject": "EE",
+      "number": "3025"
+    }
+  },
+  {
+    "uid": "0046411",
+    "code": "EE 4505",
+    "subject": "EE",
+    "number": "4505",
+    "name": "Comm Sys Lab",
+    "fullname": "Communications Systems Laboratory",
+    "info": "Experiments in analysis/design of wired/wireless communication systems. Lab to accompany 4501.\n\nprereq: 4501 or  concurrent registration is required (or allowed) in 4501",
     "prereq": {
       "or": [
         {
-          "code": "EE 3025",
+          "code": "EE 4501",
           "subject": "EE",
-          "id": "3025"
+          "number": "4501"
         },
         {
-          "code": "STAT 3022",
-          "subject": "STAT",
-          "id": "3022"
+          "code": "EE 4501",
+          "subject": "EE",
+          "number": "4501"
         }
       ]
     }
   },
   {
-    "code": "EE 4501",
-    "subject": "EE",
-    "id": "4501",
-    "title": "Comm Sys",
-    "info": "Systems for transmission/reception of digital/analog information. Characteristics/design of wired/wireless communication systems. Baseband, digital, and carrier-based techniques. Modulation. Coding. Electronic noise and its effects on design/performance.\n\nprereq: 3025",
-    "prereq": {
-      "code": "EE 3025",
-      "subject": "EE",
-      "id": "3025"
-    }
-  },
-  {
-    "code": "EE 4505",
-    "subject": "EE",
-    "id": "4505",
-    "title": "Comm Sys Lab",
-    "info": "Experiments in analysis/design of wired/wireless communication systems. Lab to accompany 4501.\n\nprereq: 4501 or  concurrent registration is required (or allowed) in 4501",
-    "prereq": {
-      "code": "EE 4501",
-      "subject": "EE",
-      "id": "4501"
-    }
-  },
-  {
+    "uid": "8254341",
     "code": "EE 4521",
     "subject": "EE",
-    "id": "4521",
-    "title": "Mach Learn & Data Sci for ECE",
+    "number": "4521",
+    "name": "Mach Learn & Data Sci for ECE",
+    "fullname": "Introduction to Machine Learning and Data Science for Electrical and Computer Engineers",
     "info": "Computational techniques for analysis and inference from data. Python language programming. Elementary numerical optimization and statistical data analysis. Computational methods for clustering, dimensionality reduction, classification, regression, and time series analysis. Construction, training, and utilization of deep neural networks. Application case studies using datasets arising in Electrical and Computer Engineering. \n\nprereq: EE 3025; Math 2263 or 2374; Math 2142, 2243, 2373 or CSci 2033",
     "prereq": {
       "and": [
         {
           "code": "EE 3025",
           "subject": "EE",
-          "id": "3025"
+          "number": "3025"
         },
         {
           "code": "MATH 2263",
           "subject": "MATH",
-          "id": "2263"
+          "number": "2263"
         },
         {
           "code": "EE 2374",
           "subject": "EE",
-          "id": "2374"
+          "number": "2374"
         },
         {
           "code": "MATH 2142",
           "subject": "MATH",
-          "id": "2142"
+          "number": "2142"
         },
         {
           "code": "EE 2243",
           "subject": "EE",
-          "id": "2243"
+          "number": "2243"
         },
         {
           "code": "EE 2373",
           "subject": "EE",
-          "id": "2373"
+          "number": "2373"
         },
         {
           "code": "CSCI 2033",
           "subject": "CSCI",
-          "id": "2033"
+          "number": "2033"
         }
       ]
     }
   },
   {
+    "uid": "0033021",
     "code": "EE 4541",
     "subject": "EE",
-    "id": "4541",
-    "title": "Dig Sig Proc",
+    "number": "4541",
+    "name": "Dig Sig Proc",
+    "fullname": "Digital Signal Processing",
     "info": "Review of linear discrete time systems and sampled/digital signals. Fourier analysis, discrete/fast Fourier transforms. Interpolation/decimation. Design of analog, infinite-impulse response, and finite impulse response filters. Quantization effects.\n\nprereq: [3015, 3025] or instr consent\n\nprereq: [3015, 3025] or instr consent",
-    "prereq": {
-      "and": [
-        {
-          "code": "EE 3015",
-          "subject": "EE",
-          "id": "3015"
-        },
-        {
-          "code": "EE 3025",
-          "subject": "EE",
-          "id": "3025"
-        }
-      ]
-    }
+    "prereq": []
   },
   {
+    "uid": "8266601",
     "code": "EE 4545",
     "subject": "EE",
-    "id": "4545",
-    "title": "Realtime Signal Processing Lab",
+    "number": "4545",
+    "name": "Realtime Signal Processing Lab",
+    "fullname": "Real-time Signal Processing Laboratory",
     "info": "(1 credit; EE 3015 & EE 3101; Design and implementation of real-time digital signal processing architectures.)\nReal-time implementation of digital information processing algorithms, including multirate filtering, and FFT-based spectral analysis; implementation on a modern DSP Platform; arithmetic operations and dynamic range; real-time processing requirements; processor architectures and limitations. Laboratory experience covers real-life applications in audio, communications, robotics and medical devices.",
     "prereq": []
   },
   {
+    "uid": "0166371",
     "code": "EE 4601",
     "subject": "EE",
-    "id": "4601",
-    "title": "Electromag RF Eng Optics",
+    "number": "4601",
+    "name": "Electromag RF Eng Optics",
+    "fullname": "Electromagnetics for RF Engineering and Optics",
     "info": "Electrostatics, magnetostatics, electromagnetic induction, Maxwell's equations, wave propagation in free space, guides, reflections from perfect conducting and from dielectric interfaces, resonators/antennas. Foundation for rf/microwave engineering.",
     "prereq": []
   },
   {
+    "uid": "8007591",
     "code": "EE 4607",
     "subject": "EE",
-    "id": "4607",
-    "title": "Wireless Hardware Sys Des",
+    "number": "4607",
+    "name": "Wireless Hardware Sys Des",
+    "fullname": "Wireless Hardware System Design",
     "info": "Random processes, noise, modulation, error probabilities. Antenna opertaion, power transfer between antennas, rf propagation phenomena, transmitters/receivers, transmission lines, effect of antenna performance on system performance, rf/microwave device technologies, small-signal amplifiers, mixers, power amplifiers, rf oscillators.\n\nprereq: [3015, 3115, 3601, CSE student] or dept consent",
-    "prereq": {
-      "and": [
-        {
-          "code": "EE 3015",
-          "subject": "EE",
-          "id": "3015"
-        },
-        {
-          "code": "EE 3115",
-          "subject": "EE",
-          "id": "3115"
-        },
-        {
-          "code": "EE 3601",
-          "subject": "EE",
-          "id": "3601"
-        }
-      ]
-    }
+    "prereq": []
   },
   {
+    "uid": "7963231",
     "code": "EE 4609",
     "subject": "EE",
-    "id": "4609",
-    "title": "Dig Signal Integrity",
+    "number": "4609",
+    "name": "Dig Signal Integrity",
+    "fullname": "Digital Signal Integrity",
     "info": "Introduction to high speed interconnect design. Transmission line theory, coupled line theory, elements of microwave circuit theory, parasitic calculations/measurement, techniques for good interconnect design.\n\nprereq: 2011, Phys 1301, 1302, [sr EE or CompE major]",
     "prereq": {
       "and": [
         {
           "code": "EE 2011",
           "subject": "EE",
-          "id": "2011"
+          "number": "2011"
         },
         {
           "code": "PHYS 1301",
           "subject": "PHYS",
-          "id": "1301"
+          "number": "1301"
         },
         {
           "code": "EE 1302",
           "subject": "EE",
-          "id": "1302"
+          "number": "1302"
         }
       ]
     }
   },
   {
+    "uid": "8201541",
     "code": "EE 4616",
     "subject": "EE",
-    "id": "4616",
-    "title": "Antennas",
+    "number": "4616",
+    "name": "Antennas",
+    "fullname": "Antennas: Theory, Analysis, and Design",
     "info": "With the widespread use of cell phones autonomous vehicles, and the coming of the Internet of Things, there is an increasing need to understand wireless communications and radar sensors. A key component of these systems is the antenna. The purpose of this course is to help the student develop knowledge in the area of antennas. This involves understanding the parameters that are used to characterize antennas and how these effect system performance. An important aspect of the course is to provide the student with an understanding of the operating principles behind the most commonly used antennas. This is followed with exposure to basic design principles. These can be used to perform antenna design or can be used as starting points for design using an electromagnetic simulator. As part of the course, students will be exposed to simulator use through homework assignments and course project work. [EE 3601 or equivalent]",
     "prereq": []
   },
   {
+    "uid": "8189471",
     "code": "EE 4623",
     "subject": "EE",
-    "id": "4623",
-    "title": "Introduction to Modern Optics",
+    "number": "4623",
+    "name": "Introduction to Modern Optics",
+    "fullname": "Introduction to Modern Optics",
     "info": "Modern optics broadly defined as geometrical, physical, and quantum optics, including interference and diffraction, optical polarization, Fourier optics, cavity optics, optical propagation, optical coherence, lasers, optical detection, and optical instruments. \n\nprereq: [Phys 2503 or Phys 2303] and [Math 2374 or MATH 2263 or MATH 2573H]; instr consent.",
+    "prereq": []
+  },
+  {
+    "uid": "0046751",
+    "code": "EE 4701",
+    "subject": "EE",
+    "number": "4701",
+    "name": "Electric Drives",
+    "fullname": "Electric Drives",
+    "info": "AC/DC electric-machine drives for speed/position control. Integrated discussion of electric machines, power electronics, and control systems. Computer simulations. Applications in electric transportation, robotics, process control, and energy conservation.\n\nprereq: 3015",
     "prereq": {
-      "and": [
+      "code": "EE 3015",
+      "subject": "EE",
+      "number": "3015"
+    }
+  },
+  {
+    "uid": "7914561",
+    "code": "EE 4703",
+    "subject": "EE",
+    "number": "4703",
+    "name": "Electric Drives Lab",
+    "fullname": "Electric Drives Laboratory",
+    "info": "Laboratory to accompany 4701. Simulink-based simulations of electric machines/drives in applications such as energy conservation and motion control in robotics.\n\nprereq: 4701 or concurrent registration is required (or allowed) in  4701",
+    "prereq": {
+      "or": [
         {
-          "or": [
-            {
-              "code": "PHYS 2503",
-              "subject": "PHYS",
-              "id": "2503"
-            },
-            {
-              "code": "PHYS 2303",
-              "subject": "PHYS",
-              "id": "2303"
-            }
-          ]
+          "code": "EE 4701",
+          "subject": "EE",
+          "number": "4701"
         },
         {
-          "or": [
-            {
-              "code": "MATH 2374",
-              "subject": "MATH",
-              "id": "2374"
-            },
-            {
-              "code": "MATH 2263",
-              "subject": "MATH",
-              "id": "2263"
-            }
-          ]
+          "code": "EE 4701",
+          "subject": "EE",
+          "number": "4701"
         }
       ]
     }
   },
   {
-    "code": "EE 4701",
-    "subject": "EE",
-    "id": "4701",
-    "title": "Electric Drives",
-    "info": "AC/DC electric-machine drives for speed/position control. Integrated discussion of electric machines, power electronics, and control systems. Computer simulations. Applications in electric transportation, robotics, process control, and energy conservation.\n\nprereq: 3015",
-    "prereq": {
-      "code": "EE 3015",
-      "subject": "EE",
-      "id": "3015"
-    }
-  },
-  {
-    "code": "EE 4703",
-    "subject": "EE",
-    "id": "4703",
-    "title": "Electric Drives Lab",
-    "info": "Laboratory to accompany 4701. Simulink-based simulations of electric machines/drives in applications such as energy conservation and motion control in robotics.\n\nprereq: 4701 or concurrent registration is required (or allowed) in  4701",
-    "prereq": {
-      "code": "EE 4701",
-      "subject": "EE",
-      "id": "4701"
-    }
-  },
-  {
+    "uid": "0039621",
     "code": "EE 4721",
     "subject": "EE",
-    "id": "4721",
-    "title": "Intro Power Sys Analysis",
+    "number": "4721",
+    "name": "Intro Power Sys Analysis",
+    "fullname": "Introduction to Power System Analysis",
     "info": "AC power systems. Large power system networks. Mathematics/techniques of power flow analysis. Short-circuit analysis, transient stability analysis. Use of power system simulation program for design.\n\nprereq: 2011",
     "prereq": {
       "code": "EE 2011",
       "subject": "EE",
-      "id": "2011"
+      "number": "2011"
     }
   },
   {
+    "uid": "7983031",
     "code": "EE 4722",
     "subject": "EE",
-    "id": "4722",
-    "title": "Power Sys Anal Lab",
+    "number": "4722",
+    "name": "Power Sys Anal Lab",
+    "fullname": "Power System Analysis Laboratory",
     "info": "Lab analysis of AC power systems, power system networks, power flow, short circuit, transient stability.\n\nprereq: 4721 or concurrent registration is required (or allowed) in 4721",
     "prereq": {
-      "code": "EE 4721",
-      "subject": "EE",
-      "id": "4721"
+      "or": [
+        {
+          "code": "EE 4721",
+          "subject": "EE",
+          "number": "4721"
+        },
+        {
+          "code": "EE 4721",
+          "subject": "EE",
+          "number": "4721"
+        }
+      ]
     }
   },
   {
+    "uid": "7982951",
     "code": "EE 4724",
     "subject": "EE",
-    "id": "4724",
-    "title": "Power Sys Planning & Op",
+    "number": "4724",
+    "name": "Power Sys Planning & Op",
+    "fullname": "Power System Planning and Operation",
     "info": "Engineering considerations of economics, expansion, and reliability of power systems. Costs/scheduling of generation sources. Planning for system reliability. Operation of power systems to maintain reliability.",
     "prereq": []
   },
   {
+    "uid": "0046811",
     "code": "EE 4741",
     "subject": "EE",
-    "id": "4741",
-    "title": "Pwr Electronics",
+    "number": "4741",
+    "name": "Pwr Electronics",
+    "fullname": "Power Electronics",
     "info": "Switch-mode power electronics. Switch-mode DC power supplies. Switch-mode converters for DC and AC motor drives, wind/photovoltaic inverters, interfacing power electronics equipment with utility system. Power semiconductor devices, magnetic design, electro-magnetic interference (EMI).\n\nprereq: 3015, 3115",
     "prereq": {
       "and": [
         {
           "code": "EE 3015",
           "subject": "EE",
-          "id": "3015"
+          "number": "3015"
         },
         {
           "code": "EE 3115",
           "subject": "EE",
-          "id": "3115"
+          "number": "3115"
         }
       ]
     }
   },
   {
+    "uid": "7914571",
     "code": "EE 4743",
     "subject": "EE",
-    "id": "4743",
-    "title": "Switch-Mode Pwr Elec Lab",
+    "number": "4743",
+    "name": "Switch-Mode Pwr Elec Lab",
+    "fullname": "Switch-Mode Power Electronics Laboratory",
     "info": "Laboratory to accompany 4741. PSpice-/Simulink-based simulations of converters, topologies, and control in switch-mode dc power supplies, motor drives for motion control, and inverters for interfacing renewable energy sources to utility grid.\n\nprereq: 4741 or concurrent registration is required (or allowed) in  4741",
     "prereq": {
-      "code": "EE 4741",
-      "subject": "EE",
-      "id": "4741"
+      "or": [
+        {
+          "code": "EE 4741",
+          "subject": "EE",
+          "number": "4741"
+        },
+        {
+          "code": "EE 4741",
+          "subject": "EE",
+          "number": "4741"
+        }
+      ]
     }
   },
   {
+    "uid": "0048111",
     "code": "EE 4893",
     "subject": "EE",
-    "id": "4893",
-    "title": "Directed Study",
+    "number": "4893",
+    "name": "Directed Study",
+    "fullname": "Directed Study",
     "info": "Studies of approved projects, either theoretical or experimental.\n\nprereq: dept consent",
     "prereq": []
   },
   {
+    "uid": "8200661",
     "code": "EE 4894",
     "subject": "EE",
-    "id": "4894",
-    "title": "Honors Directed Research I",
+    "number": "4894",
+    "name": "Honors Directed Research I",
+    "fullname": "Honors Directed Research I",
     "info": "Experience in research/design for electrical/computer engineering. Oral/written reports. This courses is part 1 of a two-part course that spans one year of research/design for electrical or computer engineering students. Students must apply and qualify for the course and obtain a faculty sponsor.\n\nPrereq: Departmental Consent",
     "prereq": []
   },
   {
+    "uid": "8007501",
     "code": "EE 4930",
     "subject": "EE",
-    "id": "4930",
-    "title": "Special Topics  in ECE Lab",
+    "number": "4930",
+    "name": "Special Topics  in ECE Lab",
+    "fullname": "Special Topics in Electrical and Computer Engineering Laboratory",
     "info": "Lab work not available in regular courses. Topics vary.\n\nprereq: CSE sr or grad student or instr consent",
     "prereq": []
   },
   {
+    "uid": "7953821",
     "code": "EE 4940",
     "subject": "EE",
-    "id": "4940",
-    "title": "Special Topics in ECE",
+    "number": "4940",
+    "name": "Special Topics in ECE",
+    "fullname": "Special Topics in Electrical and Computer Engineering",
     "info": "Topics that are not available in regular courses. Topics vary.\n\nprereq: CSE or instr consent",
     "prereq": []
   },
   {
+    "uid": "0048071",
     "code": "EE 4951W",
     "subject": "EE",
-    "id": "4951W",
-    "title": "Sr Design Proj",
+    "number": "4951W",
+    "name": "Sr Design Proj",
+    "fullname": "Senior Design Project",
     "info": "Team participation in formulating/solving open-ended design problems. Oral/written presentations.\n\nprereq: 3015, 3115, 3102, attendance first day of class",
     "prereq": {
       "and": [
         {
           "code": "EE 3015",
           "subject": "EE",
-          "id": "3015"
+          "number": "3015"
         },
         {
           "code": "EE 3115",
           "subject": "EE",
-          "id": "3115"
+          "number": "3115"
         },
         {
           "code": "EE 3102",
           "subject": "EE",
-          "id": "3102"
+          "number": "3102"
         }
       ]
     }
   },
   {
+    "uid": "0048121",
     "code": "EE 4961",
     "subject": "EE",
-    "id": "4961",
-    "title": "Indr Assgnmnt II",
+    "number": "4961",
+    "name": "Indr Assgnmnt II",
+    "fullname": "Industrial Assignment II",
     "info": "Industrial work assignment in ECE co-op program. Grade based on student's formal written report covering semester's work.",
     "prereq": []
   },
   {
+    "uid": "0048131",
     "code": "EE 4962",
     "subject": "EE",
-    "id": "4962",
-    "title": "Indr Assgnmnt III",
+    "number": "4962",
+    "name": "Indr Assgnmnt III",
+    "fullname": "Industrial Assignment III",
     "info": "Industrial work assignment in ECE co-op program. Formal written report covering semester's work.",
     "prereq": []
   },
   {
+    "uid": "8200671",
     "code": "EE 4994",
     "subject": "EE",
-    "id": "4994",
-    "title": "Honors Directed Research II",
+    "number": "4994",
+    "name": "Honors Directed Research II",
+    "fullname": "Honors Directed Research II",
     "info": "Experience in research/design for electrical/computer engineering. Oral/written reports. This courses is part 2 of a two-part course that spans one year of research/design for electrical or computer engineering students. Students must apply and qualify for the course and obtain a faculty sponsor.",
     "prereq": []
   },
   {
+    "uid": "7967281",
     "code": "EE 4999",
     "subject": "EE",
-    "id": "4999",
-    "title": "Special Exam",
+    "number": "4999",
+    "name": "Special Exam",
+    "fullname": "Special Exam",
     "info": "",
     "prereq": []
   },
   {
+    "uid": "8123561",
     "code": "EE 5041",
     "subject": "EE",
-    "id": "5041",
-    "title": "Graduate Industrial Assignment",
+    "number": "5041",
+    "name": "Graduate Industrial Assignment",
+    "fullname": "Industrial Assignment for Graduate Students",
     "info": "Optional industrial work assignment.  Evaluation based on student's formal written report covering semester's work assignment.  This course counts for 6 credits of Academic Progress for the semester in which it is taken.\n\nprereq: Consent of Advisor and Office of the DGS",
     "prereq": []
   },
   {
+    "uid": "7906631",
     "code": "EE 5121",
     "subject": "EE",
-    "id": "5121",
-    "title": "Transistor Modeling",
+    "number": "5121",
+    "name": "Transistor Modeling",
+    "fullname": "Transistor Device Modeling for Circuit Simulation",
     "info": "Basics of MOS, bipolar theory. Evolution of popular device models from early SPICE models to current industry standards.\n\nprereq: [3115, 3161, CSE grad student] or dept consent",
-    "prereq": {
-      "and": [
-        {
-          "code": "EE 3115",
-          "subject": "EE",
-          "id": "3115"
-        },
-        {
-          "code": "EE 3161",
-          "subject": "EE",
-          "id": "3161"
-        }
-      ]
-    }
+    "prereq": []
   },
   {
+    "uid": "0044971",
     "code": "EE 5141",
     "subject": "EE",
-    "id": "5141",
-    "title": "Microsystem Technology",
+    "number": "5141",
+    "name": "Microsystem Technology",
+    "fullname": "Introduction to Microsystem Technology",
     "info": "Microelectromechanical systems composed of microsensors, microactuators, and electronics integrated onto common substrate. Design, fabrication, and operation principles. Labs on micromachining, photolithography, etching, thin film deposition, metallization, packaging, and device characterization.\n\nprereq: [3161, 3601, CSE grad student] or dept consent",
-    "prereq": {
-      "and": [
-        {
-          "code": "EE 3161",
-          "subject": "EE",
-          "id": "3161"
-        },
-        {
-          "code": "EE 3601",
-          "subject": "EE",
-          "id": "3601"
-        }
-      ]
-    }
+    "prereq": []
   },
   {
+    "uid": "0044981",
     "code": "EE 5163",
     "subject": "EE",
-    "id": "5163",
-    "title": "Smcndctr Prop I",
+    "number": "5163",
+    "name": "Smcndctr Prop I",
+    "fullname": "Semiconductor Properties and Devices I",
     "info": "Principles/properties of semiconductor devices. Selected topics in semiconductor materials, statistics, and transport. Aspects of transport in p-n junctions, heterojunctions.\n\nprereq: [3161, 3601, CSE grad student] or dept consent",
-    "prereq": {
-      "and": [
-        {
-          "code": "EE 3161",
-          "subject": "EE",
-          "id": "3161"
-        },
-        {
-          "code": "EE 3601",
-          "subject": "EE",
-          "id": "3601"
-        }
-      ]
-    }
+    "prereq": []
   },
   {
+    "uid": "0044991",
     "code": "EE 5164",
     "subject": "EE",
-    "id": "5164",
-    "title": "Smcndctr Prop II",
+    "number": "5164",
+    "name": "Smcndctr Prop II",
+    "fullname": "Semiconductor Properties and Devices II",
     "info": "Principles/properties of semiconductor devices. Charge control in different FETs, transport, modeling. Bipolar transistor models (Ebers-Moll, Gummel-Poon), heterostructure bipolar transistors. Special devices.\n\nprereq: 5163 or instr consent",
     "prereq": {
       "code": "EE 5163",
       "subject": "EE",
-      "id": "5163"
+      "number": "5163"
     }
   },
   {
+    "uid": "0045011",
     "code": "EE 5171",
     "subject": "EE",
-    "id": "5171",
-    "title": "Microelec Fab",
+    "number": "5171",
+    "name": "Microelec Fab",
+    "fullname": "Microelectronic Fabrication",
     "info": "Fabrication of microelectronic devices. Silicon integrated circuits, GaAs devices. Lithography, oxidation, diffusion. Process integration of various technologies, including CMOS, double poly bipolar, and GaAs MESFET.\n\nprereq: CSE grad student or dept consent",
     "prereq": []
   },
   {
+    "uid": "0045021",
     "code": "EE 5173",
     "subject": "EE",
-    "id": "5173",
-    "title": "Basic Microelec Lab",
+    "number": "5173",
+    "name": "Basic Microelec Lab",
+    "fullname": "Basic Microelectronics Laboratory",
     "info": "Students fabricate a polysilicon gate, single-layer metal, NMOS chip, performing 80 percent of processing, including photolithography, diffusion, oxidation, and etching. In-process measurement results are compared with final electrical test results. Simple circuits are used to estimate technology performance.\n\nprereq: [[5171 or concurrent registration is required (or allowed) in 5171], CSE grad student] or dept consent",
-    "prereq": {
-      "code": "EE 5171",
-      "subject": "EE",
-      "id": "5171"
-    }
+    "prereq": []
   },
   {
+    "uid": "8007511",
     "code": "EE 5181",
     "subject": "EE",
-    "id": "5181",
-    "title": "Micro Nanotech Self-Assembly",
+    "number": "5181",
+    "name": "Micro Nanotech Self-Assembly",
+    "fullname": "Micro and Nanotechnology by Self Assembly",
     "info": "Self-assembly process of micro and nano  structures for realization of 1-, 2-, 3-dimensional micro- and nano-devices. Micro and nanoscale fabrication by electrostatic, magnetic, surface tension, Capillary, intrinsic and extrinsic forces. Nanoscale lithographic patterning. Devices packaging, Self-healing process.\n\nprereq: EE 3161, Phys 1302",
     "prereq": {
       "and": [
         {
           "code": "EE 3161",
           "subject": "EE",
-          "id": "3161"
+          "number": "3161"
         },
         {
           "code": "PHYS 1302",
           "subject": "PHYS",
-          "id": "1302"
+          "number": "1302"
         }
       ]
     }
   },
   {
+    "uid": "0045381",
     "code": "EE 5231",
     "subject": "EE",
-    "id": "5231",
-    "title": "Linear Systems and Control",
+    "number": "5231",
+    "name": "Linear Systems and Control",
+    "fullname": "Linear Systems and Control",
     "info": "The course studies finite-dimensional linear systems in continuous and discrete time. Such systems are described by ordinary differential and difference equations. Input-output and state-space descriptions are provided and analyzed. Introductory methods for controlling such systems are developed.\n\nprereq: [3015, CSE grad student] or instr consent",
-    "prereq": {
-      "code": "EE 3015",
-      "subject": "EE",
-      "id": "3015"
-    }
+    "prereq": []
   },
   {
+    "uid": "0045391",
     "code": "EE 5235",
     "subject": "EE",
-    "id": "5235",
-    "title": "Robust Cntrl Sys",
+    "number": "5235",
+    "name": "Robust Cntrl Sys",
+    "fullname": "Robust Control System Design",
     "info": "Development of control system design ideas; frequency response techniques in design of single-input/single-output (and MI/MO) systems. Robust control concepts.  CAD tools.\n\nprereq: CSE grad, 3015, 5231 or instr consent",
     "prereq": {
       "and": [
         {
           "code": "EE 3015",
           "subject": "EE",
-          "id": "3015"
+          "number": "3015"
         },
         {
           "code": "EE 5231",
           "subject": "EE",
-          "id": "5231"
+          "number": "5231"
         }
       ]
     }
   },
   {
+    "uid": "7980021",
     "code": "EE 5239",
     "subject": "EE",
-    "id": "5239",
-    "title": "Intro Nonlinear Optimization",
+    "number": "5239",
+    "name": "Intro Nonlinear Optimization",
+    "fullname": "Introduction to Nonlinear Optimization",
     "info": "Nonlinear optimization. Analytical/computational methods. Constrained optimization methods. Convex analysis, Lagrangian relaxation, non-differentiable optimization, applications in integer programming. Optimality conditions, Lagrange multiplier theory, duality theory. Control, communications, management science applications.\n\nprereq: [3025, Math 2373, Math 2374, CSE grad student] or dept consent",
-    "prereq": {
-      "and": [
-        {
-          "code": "EE 3025",
-          "subject": "EE",
-          "id": "3025"
-        },
-        {
-          "code": "MATH 2373",
-          "subject": "MATH",
-          "id": "2373"
-        },
-        {
-          "code": "MATH 2374",
-          "subject": "MATH",
-          "id": "2374"
-        }
-      ]
-    }
+    "prereq": []
   },
   {
+    "uid": "8258251",
     "code": "EE 5241",
     "subject": "EE",
-    "id": "5241",
-    "title": "Opt Contr & Reinfrcmnt Lrning",
+    "number": "5241",
+    "name": "Opt Contr & Reinfrcmnt Lrning",
+    "fullname": "Optimal Control and Reinforcement Learning",
     "info": "(Prereq-CSE grad student or instructor consent) A wide variety of control problems such as \\\"walk from home to school via the shortest path\\\" or \\\"maintain a constant temperature\\\" can be modeled using optimization. This course will survey a variety of methods for modeling and solving optimal control problems. In particular, we will cover numerical optimal control, model predictive control, system identification, dynamic programming, and reinforcement learning. Examples from robotics and aerospace systems will be given.",
     "prereq": []
   },
   {
+    "uid": "8038681",
     "code": "EE 5251",
     "subject": "EE",
-    "id": "5251",
-    "title": "Optimal Filtering & Estimation",
+    "number": "5251",
+    "name": "Optimal Filtering & Estimation",
+    "fullname": "Optimal Filtering and Estimation",
     "info": "Basic probability theory, stochastic processes. Gauss-Markov model. Batch/recursive least squares estimation. Filtering of linear/nonlinear systems. Continuous-time Kalman-Bucy filter. Unscented Kalman filter, particle filters. Applications.\n\nprereq: [[[MATH 2243, STAT 3021] or equiv], CSE grad student] or dept consent; 3025, 4231 recommended",
     "prereq": {
       "and": [
         {
-          "and": [
-            {
-              "code": "MATH 2243",
-              "subject": "MATH",
-              "id": "2243"
-            },
-            {
-              "code": "STAT 3021",
-              "subject": "STAT",
-              "id": "3021"
-            }
-          ]
-        },
-        {
           "code": "EE 3025",
           "subject": "EE",
-          "id": "3025"
+          "number": "3025"
         },
         {
           "code": "EE 4231",
           "subject": "EE",
-          "id": "4231"
+          "number": "4231"
         }
       ]
     }
   },
   {
+    "uid": "8199641",
     "code": "EE 5271",
     "subject": "EE",
-    "id": "5271",
-    "title": "Robot Vision",
+    "number": "5271",
+    "name": "Robot Vision",
+    "fullname": "Robot Vision",
     "info": "Modern visual perception for robotics that includes position and orientation, camera model and calibration, feature detection, multiple images, pose estimation, vision-based control, convolutional neural networks, reinforcement learning, deep Q-network, and visuomotor policy learning. [Math 2373 or equivalent; EE 1301 or equivalent basic programming course]",
     "prereq": []
   },
   {
+    "uid": "0047061",
     "code": "EE 5301",
     "subject": "EE",
-    "id": "5301",
-    "title": "VLSI Design Automation I",
+    "number": "5301",
+    "name": "VLSI Design Automation I",
+    "fullname": "VLSI Design Automation I",
     "info": "Basic graph/numerical algorithms. Algorithms for logic/high-level synthesis. Simulation algorithms at logic/circuit level. Physical-design algorithms.\n\nprereq: [2301, CSE grad student] or dept consent",
-    "prereq": {
-      "code": "EE 2301",
-      "subject": "EE",
-      "id": "2301"
-    }
+    "prereq": []
   },
   {
+    "uid": "0168811",
     "code": "EE 5302",
     "subject": "EE",
-    "id": "5302",
-    "title": "VLSI Des Auto II",
+    "number": "5302",
+    "name": "VLSI Des Auto II",
+    "fullname": "VLSI Design Automation II",
     "info": "Basic algorithms, computational complexity. High-level synthesis. Test generation. Power estimation. Timing optimization. Current topics.\n\nprereq: [5301, CSE grad student] or dept consent",
-    "prereq": {
-      "code": "EE 5301",
-      "subject": "EE",
-      "id": "5301"
-    }
+    "prereq": []
   },
   {
+    "uid": "0034071",
     "code": "EE 5323",
     "subject": "EE",
-    "id": "5323",
-    "title": "VLSI Design I",
+    "number": "5323",
+    "name": "VLSI Design I",
+    "fullname": "VLSI Design I",
     "info": "Combinational static CMOS circuits. Transmission gate networks. Clocking strategies, sequential circuits. CMOS process flows, design rules, structured layout techniques. Dynamic circuits, including Domino CMOS and DCVS. Performance analysis, design optimization, device sizing.\n\nprereq: [2301, 3115, CSE grad student] or dept consent",
-    "prereq": {
-      "and": [
-        {
-          "code": "EE 2301",
-          "subject": "EE",
-          "id": "2301"
-        },
-        {
-          "code": "EE 3115",
-          "subject": "EE",
-          "id": "3115"
-        }
-      ]
-    }
+    "prereq": []
   },
   {
+    "uid": "0034081",
     "code": "EE 5324",
     "subject": "EE",
-    "id": "5324",
-    "title": "VLSI Design II",
+    "number": "5324",
+    "name": "VLSI Design II",
+    "fullname": "VLSI Design II",
     "info": "CMOS arithmetic logic units, high-speed carry chains, fast CMOS multipliers. High-speed performance parallel shifters. CMOS memory cells, array structures, read/write circuits. Design for testability, including scan design and built-in self test. VLSI case studies.\n\nprereq: [5323, CSE grad student] or dept consent",
-    "prereq": {
-      "code": "EE 5323",
-      "subject": "EE",
-      "id": "5323"
-    }
+    "prereq": []
   },
   {
+    "uid": "0034101",
     "code": "EE 5327",
     "subject": "EE",
-    "id": "5327",
-    "title": "VLSI Design Lab",
+    "number": "5327",
+    "name": "VLSI Design Lab",
+    "fullname": "VLSI Design Laboratory",
     "info": "Complete design of an integrated circuit. Designs evaluated by computer simulation.\n\nprereq: [4301, [5323 or concurrent registration is required (or allowed) in 5323], CSE grad student] or dept consent",
     "prereq": {
-      "and": [
-        {
-          "code": "EE 4301",
-          "subject": "EE",
-          "id": "4301"
-        },
-        {
-          "code": "EE 5323",
-          "subject": "EE",
-          "id": "5323"
-        }
-      ]
+      "code": "EE 4301",
+      "subject": "EE",
+      "number": "4301"
     }
   },
   {
+    "uid": "0137081",
     "code": "EE 5329",
     "subject": "EE",
-    "id": "5329",
-    "title": "VLSI DSP Systems",
+    "number": "5329",
+    "name": "VLSI DSP Systems",
+    "fullname": "VLSI Digital Signal Processing Systems",
     "info": "Programmable architectures for signal/media processing. Data-flow representation. Architecture transformations. Low-power design. Architectures for two's complement/redundant representation, carry-save, and canonic signed digit. Scheduling/allocation for high-level synthesis.\n\nprereq: [[5323 or concurrent registration is required (or allowed) in 5323], CSE grad student] or dept consent",
-    "prereq": {
-      "code": "EE 5323",
-      "subject": "EE",
-      "id": "5323"
-    }
+    "prereq": []
   },
   {
+    "uid": "0046201",
     "code": "EE 5333",
     "subject": "EE",
-    "id": "5333",
-    "title": "Analog IC Design",
+    "number": "5333",
+    "name": "Analog IC Design",
+    "fullname": "Analog Integrated Circuit Design",
     "info": "Fundamental circuits for analog signal processing. Design issues associated with MOS/BJT devices. Design/testing of circuits. Selected topics (e.g., modeling of basic IC components, design of operational amplifier or comparator or analog sampled-data circuit filter).\n\nprereq: [3115, CSE grad student] or dept consent",
-    "prereq": {
-      "code": "EE 3115",
-      "subject": "EE",
-      "id": "3115"
-    }
+    "prereq": []
   },
   {
+    "uid": "8260101",
     "code": "EE 5334",
     "subject": "EE",
-    "id": "5334",
-    "title": "CMOS VLSI Data Converter Des",
+    "number": "5334",
+    "name": "CMOS VLSI Data Converter Des",
+    "fullname": "CMOS VLSI Data Converter Design",
     "info": "This course covers the design of modern CMOS VLSI data converters. After a brief introduction to sampling\ntheory and quantization noise the course will focus on various Nyquist rate and oversampled converters.\nIn particular, we will discuss flash, pipelined, successive approximation and sigma-delta converters. The\ncourse will involve a design project that will require the use of the Cadence design tools or equivalent\nanalog/digital VLSI design software.",
     "prereq": []
   },
   {
+    "uid": "8168051",
     "code": "EE 5340",
     "subject": "EE",
-    "id": "5340",
-    "title": "Introduction Quantum Computing",
+    "number": "5340",
+    "name": "Introduction Quantum Computing",
+    "fullname": "Introduction to Quantum Computing and Physical Basics of Computing",
     "info": "Physics of computation will explore how physical principles and limits have been shaping paradigms of computing. A key goal of this course is to understand how (and to what extent) a paradigm shift in computing can help with emerging energy problems. Topics include physical limits of computing, coding and information theoretical foundations, computing with beyond-CMOS devices, reversible computing, quantum computing, stochastic computing. \n\nA previous course in computer architecture is suggested but not required.",
     "prereq": []
   },
   {
+    "uid": "8112421",
     "code": "EE 5351",
     "subject": "EE",
-    "id": "5351",
-    "title": "Applied Parallel Programming",
+    "number": "5351",
+    "name": "Applied Parallel Programming",
+    "fullname": "Applied Parallel Programming",
     "info": "Parallel programming/architecture. Application development for many-core processors. Computational thinking, types of parallelism, programming models, mapping computations effectively to parallel hardware, efficient data structures, paradigms for efficient parallel algorithms, application case studies.\n\nprereq: [4363 or equivalent], programming experience (C/C++ preferred)",
-    "prereq": {
-      "code": "EE 4363",
-      "subject": "EE",
-      "id": "4363"
-    }
+    "prereq": []
   },
   {
+    "uid": "8168561",
     "code": "EE 5355",
     "subject": "EE",
-    "id": "5355",
-    "title": "Scalable Algorithm Techniques",
+    "number": "5355",
+    "name": "Scalable Algorithm Techniques",
+    "fullname": "Algorithmic Techniques for Scalable Many-core Computing",
     "info": "Algorithm techniques for enhancing the scalability of parallel software: scatter-to-gather, problem decomposition, binning, privatization, tiling, regularization, compaction, double-buffering, and data layout. These techniques address the most challenging problems in building scalable parallel software: limited parallelism, data contention, insufficient memory bandwidth, load balance, and communication latency. Programming assignments will be given to reinforce the understanding of the techniques. \n\nprereq: basic knowledge of CUDA, experience working in a Unix environment, and experience developing and running scientific codes written in C or C++. Completion of EE 5351 is not required but highly recommended.",
     "prereq": {
       "code": "EE 5351",
       "subject": "EE",
-      "id": "5351"
+      "number": "5351"
     }
   },
   {
+    "uid": "7920401",
     "code": "EE 5361",
     "subject": "EE",
-    "id": "5361",
-    "title": "Comp Arch & Machine Org",
+    "number": "5361",
+    "name": "Comp Arch & Machine Org",
+    "fullname": "Computer Architecture and Machine Organization",
     "info": "Introduction to computer architecture. Aspects of computer systems, such as pipelining, memory hierarchy, and input/output systems. Performance metrics. Examination of each component of a complicated computer system.",
     "prereq": []
   },
   {
+    "uid": "7920411",
     "code": "EE 5364",
     "subject": "EE",
-    "id": "5364",
-    "title": "Adv Comp Arch",
+    "number": "5364",
+    "name": "Adv Comp Arch",
+    "fullname": "Advanced Computer Architecture",
     "info": "Instruction set architecture, processor microarchitecture. Memory and I/O systems. Interactions between computer software and hardware. Methodologies of computer design.\n\nprereq: [[4363 or CSci 4203], CSE grad student] or dept consent",
-    "prereq": {
-      "or": [
-        {
-          "code": "EE 4363",
-          "subject": "EE",
-          "id": "4363"
-        },
-        {
-          "code": "CSCI 4203",
-          "subject": "CSCI",
-          "id": "4203"
-        }
-      ]
-    }
+    "prereq": []
   },
   {
+    "uid": "0033741",
     "code": "EE 5371",
     "subject": "EE",
-    "id": "5371",
-    "title": "Comp Sys Perf",
+    "number": "5371",
+    "name": "Comp Sys Perf",
+    "fullname": "Computer Systems Performance Measurement and Evaluation",
     "info": "Tools/techniques for analyzing computer hardware, software, system performance. Benchmark programs, measurement tools, performance metrics. Deterministic/probabilistic simulation techniques, random number generation/testing. Bottleneck analysis.\n\nprereq: [4363 or 5361 or CSci 4203 or 5201], [CSE grad student] or dept consent",
-    "prereq": {
-      "or": [
-        {
-          "code": "EE 4363",
-          "subject": "EE",
-          "id": "4363"
-        },
-        {
-          "code": "EE 5361",
-          "subject": "EE",
-          "id": "5361"
-        },
-        {
-          "code": "CSCI 4203",
-          "subject": "CSCI",
-          "id": "4203"
-        },
-        {
-          "code": "EE 5201",
-          "subject": "EE",
-          "id": "5201"
-        }
-      ]
-    }
+    "prereq": []
   },
   {
+    "uid": "8172391",
     "code": "EE 5373",
     "subject": "EE",
-    "id": "5373",
-    "title": "Data Modeling Using R",
+    "number": "5373",
+    "name": "Data Modeling Using R",
+    "fullname": "Data Modeling Using R",
     "info": "Introduction to data modeling and the R language programming. Multi-factor linear regression modeling.\nResidual analysis and model quality evaluation. Response prediction. Training and testing. Integral lab.\n\nAn introductory course in probability and statistics is suggested but not required; basic programming skills in some high-level programming language, such as C/C++, Java, Fortran, etc also suggested.",
     "prereq": []
   },
   {
+    "uid": "0045431",
     "code": "EE 5381",
     "subject": "EE",
-    "id": "5381",
-    "title": "Telecomm Networks",
+    "number": "5381",
+    "name": "Telecomm Networks",
+    "fullname": "Telecommunications Networks",
     "info": "Fundamental concepts of modern telecommunications networks, mathematical tools required for their performance analysis. Layered network architecture, point-to-point protocols/links, delay models, multiaccess communication/routing.\n\nprereq: [4501, 5531, CSE grad student] or dept consent",
-    "prereq": {
-      "and": [
-        {
-          "code": "EE 4501",
-          "subject": "EE",
-          "id": "4501"
-        },
-        {
-          "code": "EE 5531",
-          "subject": "EE",
-          "id": "5531"
-        }
-      ]
-    }
+    "prereq": []
   },
   {
+    "uid": "8198661",
     "code": "EE 5389",
     "subject": "EE",
-    "id": "5389",
-    "title": "Intro to Predictive Learning",
+    "number": "5389",
+    "name": "Intro to Predictive Learning",
+    "fullname": "Introduction to Predictive Learning",
     "info": "Empirical inference and statistical learning. Classical statistical framework, model complexity control, Vapnik-Chervonenkis (VC) theoretical framework, philosophical perspective. Nonlinear methods. New types of inference. Application studies.\n\nprereq: EE 3025, STAT 3022 or equivalent; computer programming or MATLAB or similar environment is recommended.",
     "prereq": {
       "and": [
         {
           "code": "EE 3025",
           "subject": "EE",
-          "id": "3025"
+          "number": "3025"
         },
         {
           "code": "STAT 3022",
           "subject": "STAT",
-          "id": "3022"
+          "number": "3022"
         }
       ]
     }
   },
   {
+    "uid": "0046221",
     "code": "EE 5391",
     "subject": "EE",
-    "id": "5391",
-    "title": "Neural Networks",
+    "number": "5391",
+    "name": "Neural Networks",
+    "fullname": "Computing With Neural Networks",
     "info": "Neural networks as a computational model. Connections to AI, statistics and model-based computation. Associative memory and matrix computation; Hopfield networks. Supervised networks for classification and prediction. Unsupervised networks for data reduction. Associative recognition/retrieval, optimization, time series prediction, knowledge extraction.\n\nprereq: [[3025 or Stat 3091], CSE grad student] or dept consent",
-    "prereq": {
-      "or": [
-        {
-          "code": "EE 3025",
-          "subject": "EE",
-          "id": "3025"
-        },
-        {
-          "code": "STAT 3091",
-          "subject": "STAT",
-          "id": "3091"
-        }
-      ]
-    }
+    "prereq": []
   },
   {
+    "uid": "8017761",
     "code": "EE 5393",
     "subject": "EE",
-    "id": "5393",
-    "title": "Circuits, Computation & Biol",
+    "number": "5393",
+    "name": "Circuits, Computation & Biol",
+    "fullname": "Circuits, Computation, and Biology",
     "info": "Connections between digital circuit design and synthetic/computational biology. Probabilistic, discrete-event simulation. Timing analysis. Information-Theoretic Analysis. Feedback in digital circuits/genetic regulatory systems. Synthesizing stochastic logic and probabilistic biochemistry.",
     "prereq": []
   },
   {
+    "uid": "0046371",
     "code": "EE 5501",
     "subject": "EE",
-    "id": "5501",
-    "title": "Digital Comm",
+    "number": "5501",
+    "name": "Digital Comm",
+    "fullname": "Digital Communication",
     "info": "Theory/techniques of modern digital communications. Communication limits. Modulation/detection. Data transmission over channels with intersymbol interference. Optimal/suboptimal sequence detection. Equalization. Error correction coding. Trellis-coded modulation. Multiple access.\n\nprereq: [3025, 4501, CSE grad student] or dept consent",
-    "prereq": {
-      "and": [
-        {
-          "code": "EE 3025",
-          "subject": "EE",
-          "id": "3025"
-        },
-        {
-          "code": "EE 4501",
-          "subject": "EE",
-          "id": "4501"
-        }
-      ]
-    }
+    "prereq": []
   },
   {
+    "uid": "0168821",
     "code": "EE 5505",
     "subject": "EE",
-    "id": "5505",
-    "title": "Wireless Comm",
+    "number": "5505",
+    "name": "Wireless Comm",
+    "fullname": "Wireless Communication",
     "info": "Introduction to wireless communication systems. Propagation modeling, digital communication over fading channels, diversity and spread spectrum techniques, radio mobile cellular systems design, performance evaluation. Current European, North American, and Japanese wireless networks.\n\nprereq: [4501, CSE grad student] or dept consent; 5501 recommended",
     "prereq": {
-      "or": [
-        {
-          "code": "EE 4501",
-          "subject": "EE",
-          "id": "4501"
-        },
-        {
-          "code": "EE 5501",
-          "subject": "EE",
-          "id": "5501"
-        }
-      ]
+      "code": "EE 5501",
+      "subject": "EE",
+      "number": "5501"
     }
   },
   {
+    "uid": "8265931",
     "code": "EE 5521",
     "subject": "EE",
-    "id": "5521",
-    "title": "ML\\DataSci for ECE\\Roboticists",
+    "number": "5521",
+    "name": "ML\\DataSci for ECE\\Roboticists",
+    "fullname": "Intro to Machine Learning and Data Science for Electrical and Computer Engineers & Roboticists",
     "info": "Computational techniques for analysis and inference from data. Python language programming. Elementary numerical optimization and statistical data analysis. Computational methods for clustering, dimensionality reduction, classification, regression, and time series analysis. Construction, training, and utilization of deep neural networks. Application case studies using datasets arising in Electrical and Computer Engineering and Robotics. \n\nprereq: [EE3025; MATH 2263 or 2374; MATH 2142, 2243, 2373 or CSCI 2033] or instructor consent.",
-    "prereq": {
-      "and": [
-        {
-          "code": "EE 3025",
-          "subject": "EE",
-          "id": "3025"
-        },
-        {
-          "code": "MATH 2263",
-          "subject": "MATH",
-          "id": "2263"
-        },
-        {
-          "code": "EE 2374",
-          "subject": "EE",
-          "id": "2374"
-        },
-        {
-          "code": "MATH 2142",
-          "subject": "MATH",
-          "id": "2142"
-        },
-        {
-          "code": "EE 2243",
-          "subject": "EE",
-          "id": "2243"
-        },
-        {
-          "code": "EE 2373",
-          "subject": "EE",
-          "id": "2373"
-        },
-        {
-          "code": "CSCI 2033",
-          "subject": "CSCI",
-          "id": "2033"
-        }
-      ]
-    }
+    "prereq": []
   },
   {
+    "uid": "0046241",
     "code": "EE 5531",
     "subject": "EE",
-    "id": "5531",
-    "title": "Prob & Stchstc Proc",
+    "number": "5531",
+    "name": "Prob & Stchstc Proc",
+    "fullname": "Probability and Stochastic Processes",
     "info": "Probability, random variables and random processes. System response to random inputs. Gaussian, Markov and other processes for modeling and engineering applications. Correlation and spectral analysis. Estimation principles. Examples from digital communications and computer\nnetworks.\n\nprereq: [3025, CSE grad student] or dept consent",
-    "prereq": {
-      "code": "EE 3025",
-      "subject": "EE",
-      "id": "3025"
-    }
+    "prereq": []
   },
   {
+    "uid": "0046231",
     "code": "EE 5542",
     "subject": "EE",
-    "id": "5542",
-    "title": "Adpt Dig Sgnl Proc",
+    "number": "5542",
+    "name": "Adpt Dig Sgnl Proc",
+    "fullname": "Adaptive Digital Signal Processing",
     "info": "Design, application, and implementation of optimum/adaptive discrete-time FIR/IIR filters. Wiener, Kalman, and Least-Squares. Linear prediction. Lattice structure. LMS, RLS, and Levinson-Durbin algorithms. Channel equalization, system identification, biomedical/sensor array processing, spectrum estimation. Noise cancellation applications.\n\nprereq: [4541, 5531, CSE grad student] or dept consent",
-    "prereq": {
-      "and": [
-        {
-          "code": "EE 4541",
-          "subject": "EE",
-          "id": "4541"
-        },
-        {
-          "code": "EE 5531",
-          "subject": "EE",
-          "id": "5531"
-        }
-      ]
-    }
+    "prereq": []
   },
   {
+    "uid": "0046441",
     "code": "EE 5545",
     "subject": "EE",
-    "id": "5545",
-    "title": "DSP Design",
+    "number": "5545",
+    "name": "DSP Design",
+    "fullname": "Digital Signal Processing Design",
     "info": "Real-time implementation of digital signal processing (DSP) algorithms, including filtering, sample-rate conversion, and FFT-based spectral analysis. Implementation on a modern DSP Platform. Processor architecture. Arithmetic operations. Real-time processing issues. Processor limitations. Integral laboratory.\n\nprereq: [4541, CSE grad student] or dept consent",
-    "prereq": {
-      "code": "EE 4541",
-      "subject": "EE",
-      "id": "4541"
-    }
+    "prereq": []
   },
   {
+    "uid": "0034991",
     "code": "EE 5549",
     "subject": "EE",
-    "id": "5549",
-    "title": "DSP Struc for VLSI",
+    "number": "5549",
+    "name": "DSP Struc for VLSI",
+    "fullname": "Digital Signal Processing Structures for VLSI",
     "info": "Pipelining. Parallel processing. Fast convolution. FIR, rank-order, IIR, lattice, adaptive digital filters. Scaling and roundoff noise. DCT. Viterbi coders. Lossless coders, video compression.\n\nprereq: [4541, CSE grad student] or dept consent",
-    "prereq": {
-      "code": "EE 4541",
-      "subject": "EE",
-      "id": "4541"
-    }
+    "prereq": []
   },
   {
+    "uid": "7991891",
     "code": "EE 5561",
     "subject": "EE",
-    "id": "5561",
-    "title": "Image Proc & Applications",
+    "number": "5561",
+    "name": "Image Proc & Applications",
+    "fullname": "Image Processing and Applications: From linear filters to artificial intelligence",
     "info": "Image enhancement, denoising, segmentation, registration, and computational imaging. Sampling, quantization, morphological processing, 2D image transforms, linear filtering, sparsity and compression, statistical modeling, optimization methods, multiresolution techniques, artificial intelligence concepts, neural networks and their applications in classification and regression tasks in image processing. Emphasis is on the principles of image processing. Implementation of algorithms in Matlab/Python and using deep learning frameworks.\n\nprereq: [4541, 5581, CSE grad student] or instr consent",
-    "prereq": {
-      "and": [
-        {
-          "code": "EE 4541",
-          "subject": "EE",
-          "id": "4541"
-        },
-        {
-          "code": "EE 5581",
-          "subject": "EE",
-          "id": "5581"
-        }
-      ]
-    }
+    "prereq": []
   },
   {
+    "uid": "0046431",
     "code": "EE 5571",
     "subject": "EE",
-    "id": "5571",
-    "title": "Stat Learning & Inference",
+    "number": "5571",
+    "name": "Stat Learning & Inference",
+    "fullname": "Statistical Learning and Inference",
     "info": "Deterministic and random approaches to learning and inference from data, with applications to statistical models for estimation, detection, and classification. Algorithms and their performance include minimum-variance unbiased estimators, sufficient statistics, fundamental bounds, (non)linear least-squares, maximum-likelihood, expectation-maximization, nonparametric density estimators, mean-square error and Bayesian estimators, importance sampling, Kalman and particle filtering, sequential probability ratio test, bootstrap, Monte Carlo Markov Chains, and graphical models.\n\nprereq: courses in Stochastic Processes (EE 5531) and Digital Signal Processing (EE 4541)",
-    "prereq": {
-      "and": [
-        {
-          "code": "EE 5531",
-          "subject": "EE",
-          "id": "5531"
-        },
-        {
-          "code": "EE 4541",
-          "subject": "EE",
-          "id": "4541"
-        }
-      ]
-    }
+    "prereq": []
   },
   {
+    "uid": "0031531",
     "code": "EE 5581",
     "subject": "EE",
-    "id": "5581",
-    "title": "Info Theory",
+    "number": "5581",
+    "name": "Info Theory",
+    "fullname": "Information Theory and Coding",
     "info": "Source/channel models, codes for sources/channels. Entropy, mutual information, capacity, rate-distortion functions. Coding theorems.\n\nprereq: [5531, CSE grad student] or dept consent",
-    "prereq": {
-      "code": "EE 5531",
-      "subject": "EE",
-      "id": "5531"
-    }
+    "prereq": []
   },
   {
+    "uid": "7987711",
     "code": "EE 5583",
     "subject": "EE",
-    "id": "5583",
-    "title": "Error Control Coding",
+    "number": "5583",
+    "name": "Error Control Coding",
+    "fullname": "Error Control Coding",
     "info": "Error-correcting codes. Concepts, properties, polynomial representation. BCH, Golay, Reed-Muller/Reed-Solomon codes.  Convolutional codes. Iterative codes.\n\nprereq: [[3025, Math 2373] or equiv], [CSE grad student or dept consent]",
-    "prereq": {
-      "and": [
-        {
-          "code": "EE 3025",
-          "subject": "EE",
-          "id": "3025"
-        },
-        {
-          "code": "MATH 2373",
-          "subject": "MATH",
-          "id": "2373"
-        }
-      ]
-    }
+    "prereq": []
   },
   {
+    "uid": "0035281",
     "code": "EE 5585",
     "subject": "EE",
-    "id": "5585",
-    "title": "Data Compression",
+    "number": "5585",
+    "name": "Data Compression",
+    "fullname": "Data Compression",
     "info": "Source coding in digital communications and recording. Codes for lossless compression. Universal lossless codes. Lossless image compression. Scalar and vector quantizer design. Loss source coding theory. Differential coding, trellis codes, transform/subband coding. Analysis/synthesis schemes.\n\nprereq: CSE grad student or dept consent",
     "prereq": []
   },
   {
+    "uid": "0046521",
     "code": "EE 5601",
     "subject": "EE",
-    "id": "5601",
-    "title": "Intro RF/Microwave Engr",
+    "number": "5601",
+    "name": "Intro RF/Microwave Engr",
+    "fullname": "Introduction to RF/Microwave Engineering",
     "info": "Fundamentals of EM theory and transmission lines concepts. Transmission lines and network analysis. CAD tool. Lumped circuit component designs. Passive circuit components. Connectivity to central communication theme.\n\nprereq: [3601, CSE grad student] or dept consent",
-    "prereq": {
-      "code": "EE 3601",
-      "subject": "EE",
-      "id": "3601"
-    }
+    "prereq": []
   },
   {
+    "uid": "0046531",
     "code": "EE 5602",
     "subject": "EE",
-    "id": "5602",
-    "title": "RF/Microwave Circuit Design",
+    "number": "5602",
+    "name": "RF/Microwave Circuit Design",
+    "fullname": "RF/Microwave Circuit Design",
     "info": "Transmission lines, network analysis concepts. CAD tools for passive/active designs. Diode based circuit designs (detectors, frequency multipliers, mixers). Transistor based circuit design (amplifiers, oscillators, mixer/doubler).\n\nprereq: [5601 or equiv], [CSE grad student or instr consent]",
-    "prereq": {
-      "code": "EE 5601",
-      "subject": "EE",
-      "id": "5601"
-    }
+    "prereq": []
   },
   {
+    "uid": "7931191",
     "code": "EE 5607",
     "subject": "EE",
-    "id": "5607",
-    "title": "Wireless Hardware Sys Des",
+    "number": "5607",
+    "name": "Wireless Hardware Sys Des",
+    "fullname": "Wireless Hardware System Design",
     "info": "Review of random processes, noise, modulation, and error probabilities. Basis antenna operation, power transfer between antennas, rf propagation phenomena, transmitters/receivers, transmission lines, effect of antenna performance on system performance, rf/microwave device technologies, small-signal amplifiers, mixers, power amplifiers, rf oscillators.",
     "prereq": []
   },
   {
+    "uid": "7963421",
     "code": "EE 5609",
     "subject": "EE",
-    "id": "5609",
-    "title": "Dig Signal Integrity",
+    "number": "5609",
+    "name": "Dig Signal Integrity",
+    "fullname": "Digital Signal Integrity",
     "info": "Introduction to high speed interconnect design. Transmission line theory, coupled line theory, elements of microwave circuit theory, parasitic calculations/measurement, techniques for good interconnect design. Term paper.",
     "prereq": []
   },
   {
+    "uid": "7922461",
     "code": "EE 5611",
     "subject": "EE",
-    "id": "5611",
-    "title": "Plasma-Aided Manuf",
+    "number": "5611",
+    "name": "Plasma-Aided Manuf",
+    "fullname": "Plasma-Aided Manufacturing",
     "info": "Manufacturing using plasma processes. Plasma properties as a processing medium. Plasma spraying, welding and microelectronics processing. Process control and system design; industrial speakers. Cross-disciplinary experience between heat transfer design issues and manufacturing technology.\n\nprereq: [[[ME 3321, ME 3322] or equiv], [upper div CSE or grad student]] or dept consent",
-    "prereq": {
-      "and": [
-        {
-          "code": "ME 3321",
-          "subject": "ME",
-          "id": "3321"
-        },
-        {
-          "code": "ME 3322",
-          "subject": "ME",
-          "id": "3322"
-        }
-      ]
-    }
+    "prereq": []
   },
   {
+    "uid": "0166391",
     "code": "EE 5613",
     "subject": "EE",
-    "id": "5613",
-    "title": "RF/Microwave Circuit Lab",
+    "number": "5613",
+    "name": "RF/Microwave Circuit Lab",
+    "fullname": "RF/Microwave Circuit Design Laboratory",
     "info": "Scattering parameters, planar lumped circuits, transmission lines, RF/microwave substrate materials, matching networks/tuning elements, resonators, filters, combiners/dividers, couplers. Integral lab.\n\nprereq: [[5601 or concurrent registration is required (or allowed) in 5601], CSE grad student] or dept consent",
-    "prereq": {
-      "code": "EE 5601",
-      "subject": "EE",
-      "id": "5601"
-    }
+    "prereq": []
   },
   {
+    "uid": "0166401",
     "code": "EE 5616",
     "subject": "EE",
-    "id": "5616",
-    "title": "Antennas",
+    "number": "5616",
+    "name": "Antennas",
+    "fullname": "Antennas: Theory, Analysis, and Design",
     "info": "With the widespread use of cell phones autonomous vehicles, and the coming of the Internet of Things, there is an increasing need to understand wireless communications and radar sensors. A key component of these systems is the antenna. The purpose of this course is to help the student develop knowledge in the area of antennas. This involves understanding the parameters that are used to characterize antennas and how these effect system performance. An important aspect of the course is to provide the student with an understanding of the operating principles behind the most commonly used antennas. This is followed with exposure to basic design principles. These can be used to perform antenna design or can be used as starting points for design using an electromagnetic simulator. As part of the course, students will be exposed to simulator use through homework assignments, and possibly, course project work. \n\nprereq: EE 3601 or equivalent",
     "prereq": {
       "code": "EE 3601",
       "subject": "EE",
-      "id": "3601"
+      "number": "3601"
     }
   },
   {
+    "uid": "0032531",
     "code": "EE 5621",
     "subject": "EE",
-    "id": "5621",
-    "title": "Physical Optics",
+    "number": "5621",
+    "name": "Physical Optics",
+    "fullname": "Physical Optics",
     "info": "Physical optics principles, including Fourier analysis of optical systems/images, scalar diffraction theory, interferometry, and coherence theory. Diffractive optical elements, holography, astronomical imaging, optical information processing, microoptics.\n\nprereq: [3015, CSE grad student] or dept consent",
-    "prereq": {
-      "code": "EE 3015",
-      "subject": "EE",
-      "id": "3015"
-    }
+    "prereq": []
   },
   {
+    "uid": "0032541",
     "code": "EE 5622",
     "subject": "EE",
-    "id": "5622",
-    "title": "Physical Optics Lab",
+    "number": "5622",
+    "name": "Physical Optics Lab",
+    "fullname": "Physical Optics Laboratory",
     "info": "Fundamental optical techniques. Diffraction and optical pattern recognition. Spatial/temporal coherence.  Interferometry. Speckle. Coherent/incoherent imaging.  Coherent image processing. Fiber Optics.\n\nprereq: [[5621 or concurrent registration is required (or allowed) in 5621], CSE grad student] or dept consent",
-    "prereq": {
-      "code": "EE 5621",
-      "subject": "EE",
-      "id": "5621"
-    }
+    "prereq": []
   },
   {
+    "uid": "0033011",
     "code": "EE 5624",
     "subject": "EE",
-    "id": "5624",
-    "title": "Optical Electronics",
+    "number": "5624",
+    "name": "Optical Electronics",
+    "fullname": "Optical Electronics",
     "info": "Fundamentals of lasers, including propagation of Gaussian beams, optical resonators, and theory of laser oscillation.  Polarization optics, electro-optic, acousto-optic modulation, nonlinear optics, phase conjugation.\n\nprereq: [[3601 or Phys 3002], CSE grad student] or dept consent",
-    "prereq": {
-      "or": [
-        {
-          "code": "EE 3601",
-          "subject": "EE",
-          "id": "3601"
-        },
-        {
-          "code": "PHYS 3002",
-          "subject": "PHYS",
-          "id": "3002"
-        }
-      ]
-    }
+    "prereq": []
   },
   {
+    "uid": "0033631",
     "code": "EE 5627",
     "subject": "EE",
-    "id": "5627",
-    "title": "Optical Fiber Comm",
+    "number": "5627",
+    "name": "Optical Fiber Comm",
+    "fullname": "Optical Fiber Communication",
     "info": "Components/systems aspects of optical fiber communication. Modes of optical fibers. Signal degradation/dispersion. Optical sources/detectors. Digital/analog transmissions systems. Direct/coherent detection. Optical amplifiers. Optical soliton propagation.\n\nprereq: [3015, 3601, CSE grad student] or dept consent",
-    "prereq": {
-      "and": [
-        {
-          "code": "EE 3015",
-          "subject": "EE",
-          "id": "3015"
-        },
-        {
-          "code": "EE 3601",
-          "subject": "EE",
-          "id": "3601"
-        }
-      ]
-    }
+    "prereq": []
   },
   {
+    "uid": "7982961",
     "code": "EE 5628",
     "subject": "EE",
-    "id": "5628",
-    "title": "Fiber Optics Lab",
+    "number": "5628",
+    "name": "Fiber Optics Lab",
+    "fullname": "Fiber Optics Laboratory",
     "info": "Experiments in fiber optics. Dielectric waveguides, modes in optical fibers, fiber dispersion/attenuation, properties of light sources/detectors, optical communication systems.\n\nprereq: [[5627 or concurrent registration is required (or allowed) in 5627], CSE grad student] or instr consent",
-    "prereq": {
-      "code": "EE 5627",
-      "subject": "EE",
-      "id": "5627"
-    }
+    "prereq": []
   },
   {
+    "uid": "0053591",
     "code": "EE 5629",
     "subject": "EE",
-    "id": "5629",
-    "title": "Optical Sys Des",
+    "number": "5629",
+    "name": "Optical Sys Des",
+    "fullname": "Optical System Design",
     "info": "Elementary or paraxial optics. Non-paraxial, exact ray tracing. Energy considerations in instrument design.  Fourier optics and image quality. Design examples: telescopes, microscopes, diffraction-limited lenses, projectors, scientific instruments.\n\nprereq: CSE grad student or dept consent",
     "prereq": []
   },
   {
+    "uid": "0168831",
     "code": "EE 5632",
     "subject": "EE",
-    "id": "5632",
-    "title": "Phot Comm Dev & Sys",
+    "number": "5632",
+    "name": "Phot Comm Dev & Sys",
+    "fullname": "Photonic Communication Devices and Systems",
     "info": "Primary solid-state components using optical communication systems. Semiconductor lasers, detectors, and optical fibers. Basic optoelectronic properties of III-V semiconductors: band structure, optical transitions, heterostructures. LEDs, semiconductor lasers, detectors. Optical network components/systems: fibers, amplifiers, power, system architectures.",
     "prereq": []
   },
   {
+    "uid": "8172401",
     "code": "EE 5640",
     "subject": "EE",
-    "id": "5640",
-    "title": "Introduction to Nano-Optics",
+    "number": "5640",
+    "name": "Introduction to Nano-Optics",
+    "fullname": "Introduction to Nano-Optics",
     "info": "This course will cover the physics and technology of nano-optics and plasmonics and their potential applications in biochemical sensing, super-resolution imaging, optical trapping, light emission, and spectroscopy. The following topics will be covered:\n\n- Maxwell's equations, E&M of metals\n- Fresnel's equations, light propagation in periodic media\n- Physics of surface plasmon waves\n- Metallic waveguides: metal-insulator-metal vs. insulator-metal-insulator\n- Optical antennas\n- Noble metal nanoparticles: Synthesis, optical properties, and applications\n- Optical biosensors based on surface plasmon resonance (SPR)\n- Surface enhanced Raman scattering (SERS)\n- Surface enhanced Infrared Absorption (SEIRA)\n- Super-resolution imaging and near-field optical microscopy\n- Light transmission through nano-apertures (extraordinary optical transmission)\n- Plasmonics at long wavelengths (infrared and terahertz)\n- Plasmonics in atomically thick materials\n\nKnowledge of Maxwell's equations, Matlab, or Mathematica coding is suggested but not required.",
     "prereq": []
   },
   {
+    "uid": "8172411",
     "code": "EE 5649",
     "subject": "EE",
-    "id": "5649",
-    "title": "Infrared Devices & Technology",
+    "number": "5649",
+    "name": "Infrared Devices & Technology",
+    "fullname": "Infrared Devices and Technology",
     "info": "One of the most economically and scientifically important but relatively unknown device technologies is infrared detection, sensing and imaging. Today the application space is much larger than traditional military applications and includes weather and climate satellites, industrial process control, petrochemical analysis, pollution sensing, astronomy, and biomedical clinical diagnostics. This class covers the basic physics of infrared emission and absorption in solid-state materials, molecules, and the atmosphere. It also discusses detector technology (with particular emphasis on types of semiconductor and quantum-dot photon detectors, microbolometers, and thermoelectric detectors) and the infrared spectroscopy of molecules to show why the infrared is so important in the study of chemical, biological, and atmospheric systems. The class will also examine types of commonly used spectrometers: cavity, dispersive, and FTIR and sampling of important applications: passive and active standoff detection, satellite climate and atmospheric monitoring, industrial and petrochemical analysis, and LIDAR. Other topics will be introduced as time allows.",
     "prereq": []
   },
   {
+    "uid": "0047931",
     "code": "EE 5653",
     "subject": "EE",
-    "id": "5653",
-    "title": "Prin Magnetic Mtrls",
+    "number": "5653",
+    "name": "Prin Magnetic Mtrls",
+    "fullname": "Physical Principles of Magnetic Materials",
     "info": "Physics of diamagnetism, paramagnetism, ferromagnetism, antiferromagnetism, ferrimagnetism. Ferromagnetic phenomena. Static/dynamic theory of micromagnetics, magneto-optics, and magnetization dynamics. Magnetic material applications.\n\nprereq: CSE grad student or dept consent",
     "prereq": []
   },
   {
+    "uid": "0047941",
     "code": "EE 5655",
     "subject": "EE",
-    "id": "5655",
-    "title": "Magnetic Rec",
+    "number": "5655",
+    "name": "Magnetic Rec",
+    "fullname": "Magnetic Recording",
     "info": "Magnetic fundamentals, recording materials, idealized models of magnetic records/reproduction, analytic models of magnetic record heads, sinusoidal magnetic recording, digital magnetic recording, magnetic recording heads/media, digital recording systems.\n\nprereq: CSE grad student or dept consent",
     "prereq": []
   },
   {
+    "uid": "0047951",
     "code": "EE 5657",
     "subject": "EE",
-    "id": "5657",
-    "title": "Phys Principles Thin Film Tech",
+    "number": "5657",
+    "name": "Phys Principles Thin Film Tech",
+    "fullname": "Physical Principles of Thin Film Technology",
     "info": "Fabrication, characterization, and application of thin film and nanostructured materials and devices. Focuses on vacuum deposition. Materials science. Hands-on, team-based labs.",
     "prereq": []
   },
   {
+    "uid": "8168571",
     "code": "EE 5670",
     "subject": "EE",
-    "id": "5670",
-    "title": "Spintronic Devices",
+    "number": "5670",
+    "name": "Spintronic Devices",
+    "fullname": "Spintronic Devices",
     "info": "Basic concepts and physical principles underlying spintronic devices; engineering designs and basic features of matured spintronic devices: GMR and MTJ sensor, MRAM, etc; new opportunities and engineering designs and challenges of spintronic devices: STT-RAM, spin torque oscillator and all spin logic, etc.",
     "prereq": []
   },
   {
+    "uid": "0046421",
     "code": "EE 5705",
     "subject": "EE",
-    "id": "5705",
-    "title": "Elec Drives in Sust Energy Sys",
+    "number": "5705",
+    "name": "Elec Drives in Sust Energy Sys",
+    "fullname": "Electric Drives in Sustainable Energy Systems",
     "info": "Role of electric drives in wind-electric systems, inertial storage, elec/hybrid vehicles. AC machines for energy-efficient operation using d-q axis modeling. Vector-/direct-torque-controlled induction motor drives. Permanent-magnet and interior-permanent magnet ac motor drives. Sensorless drives. Voltage space-vector modulation technology.\n\nprereq: [4701, CSE grad student] or dept consent",
-    "prereq": {
-      "code": "EE 4701",
-      "subject": "EE",
-      "id": "4701"
-    }
+    "prereq": []
   },
   {
+    "uid": "8039021",
     "code": "EE 5707",
     "subject": "EE",
-    "id": "5707",
-    "title": "Elec Drives in Sust En Sys Lab",
+    "number": "5707",
+    "name": "Elec Drives in Sust En Sys Lab",
+    "fullname": "Electric Drives in Sustainable Energy Systems Laboratory",
     "info": "Lab to accompany 5705.\n\nprereq: 5705 or concurrent registration is required (or allowed) in 5705",
     "prereq": {
-      "code": "EE 5705",
-      "subject": "EE",
-      "id": "5705"
+      "or": [
+        {
+          "code": "EE 5705",
+          "subject": "EE",
+          "number": "5705"
+        },
+        {
+          "code": "EE 5705",
+          "subject": "EE",
+          "number": "5705"
+        }
+      ]
     }
   },
   {
+    "uid": "0039631",
     "code": "EE 5721",
     "subject": "EE",
-    "id": "5721",
-    "title": "Pwr Generation",
+    "number": "5721",
+    "name": "Pwr Generation",
+    "fullname": "Power Generation Operation and Control",
     "info": "Engineering aspects of power system operation. Economic analysis of generation plants & scheduling to minimize total cost of operation. Scheduling of hydro resources and thermal plants with limited fuel supplies. Loss analysis, secure operation. State estimation, optimal power flow. Power system organizations.\n\nprereq: [4721, CSE grad student] or dept consent",
-    "prereq": {
-      "code": "EE 4721",
-      "subject": "EE",
-      "id": "4721"
-    }
+    "prereq": []
   },
   {
+    "uid": "0039641",
     "code": "EE 5725",
     "subject": "EE",
-    "id": "5725",
-    "title": "Pwr Sys Engr",
+    "number": "5725",
+    "name": "Pwr Sys Engr",
+    "fullname": "Power Systems Engineering",
     "info": "Reliability analysis of large power generation/transmission systems. Writing programs for state-by-state analysis and Monte Carlo analysis. Power system protection systems, circuit current calculations, short circuit detection, isolating faulted components. Characteristics of protection components.\n\nprereq: [4721, CSE grad student] or dept consent",
-    "prereq": {
-      "code": "EE 4721",
-      "subject": "EE",
-      "id": "4721"
-    }
+    "prereq": []
   },
   {
+    "uid": "0046841",
     "code": "EE 5741",
     "subject": "EE",
-    "id": "5741",
-    "title": "Adv Pwr Elec",
+    "number": "5741",
+    "name": "Adv Pwr Elec",
+    "fullname": "Advanced Power Electronics",
     "info": "Physics of solid-state power devices, passive components, magnetic optimization, advanced topologies. Unity power factor correction circuits, EMI issues, snubbers, soft switching in dc/ac converters. Practical considerations. Very low voltage output converters. Integrated computer simulations.\n\nprereq: CSE grad student] or dept consent",
     "prereq": []
   },
   {
+    "uid": "8116701",
     "code": "EE 5745",
     "subject": "EE",
-    "id": "5745",
-    "title": "Wind Energy Essentials",
+    "number": "5745",
+    "name": "Wind Energy Essentials",
+    "fullname": "Wind Energy Essentials",
     "info": "Design, planning, development/operation of wind energy facilities. Wind turbine generator types, wind forecasting/assessment, wind farm project development, grid integration, wind turbine controls, blade aerodynamics/acoustics, mechanical/hydrostatic transmissions, materials/structural reliability, wind turbine foundations, radar interference, role of public policy in wind energy.\n\nprereq: CSE grad student or dept consent",
     "prereq": []
   },
   {
+    "uid": "0048051",
     "code": "EE 5811",
     "subject": "EE",
-    "id": "5811",
-    "title": "Biological Instrumentation",
+    "number": "5811",
+    "name": "Biological Instrumentation",
+    "fullname": "Biological Instrumentation",
     "info": "This course will cover the physics and technology of biological instruments. The operating principles of optical, electrical, and mechanical biosensors will be discussed, followed by transport and delivery of biomolecules to the sensors. Techniques to manufacture these sensing devices, along with microfluidic packaging, will be covered. Lectures will be complemented by lab demo sessions to give students hands-on experiences in microfluidic chip fabrication, microscopy, and particle trapping experiments.",
     "prereq": []
   },
   {
+    "uid": "0048061",
     "code": "EE 5821",
     "subject": "EE",
-    "id": "5821",
-    "title": "Biol Sys Modeling",
+    "number": "5821",
+    "name": "Biol Sys Modeling",
+    "fullname": "Biological System Modeling and Analysis",
     "info": "Purpose of biological system modeling. Advantages, limitations, special problems. Models of nerve excitation and propagation. Biological control systems. Respiratory/cardiovascular systems. Sensory organs, theories of perception. Limbs/locomotion.",
     "prereq": []
   },
   {
+    "uid": "7895481",
     "code": "EE 5863",
     "subject": "EE",
-    "id": "5863",
-    "title": "Comp Sys Performance Anal",
+    "number": "5863",
+    "name": "Comp Sys Performance Anal",
+    "fullname": "Computer Systems Performance Analysis",
     "info": "Basic performance measurement/simulation techniques necessary for experimental computer science/engineering. Hands-on performance evaluation techniques using simulations/measurements of existing systems. Using measured data to compare computer systems or to judge how much a new architectural feature improves systems performance.",
     "prereq": []
   },
   {
+    "uid": "0047961",
     "code": "EE 5940",
     "subject": "EE",
-    "id": "5940",
-    "title": "Spec Topic EE I",
+    "number": "5940",
+    "name": "Spec Topic EE I",
+    "fullname": "Special Topics in Electrical Engineering I",
     "info": "Special topics in electrical and computer engineering.  Topics vary.",
     "prereq": []
   },
   {
+    "uid": "0047971",
     "code": "EE 5950",
     "subject": "EE",
-    "id": "5950",
-    "title": "Spec Topics EE II",
+    "number": "5950",
+    "name": "Spec Topics EE II",
+    "fullname": "Special Topics in Electrical Engineering II",
     "info": "Special topics in electrical and computer engineering.  Topics vary.",
     "prereq": []
   },
   {
+    "uid": "0047981",
     "code": "EE 5960",
     "subject": "EE",
-    "id": "5960",
-    "title": "Spec Topics EE III",
+    "number": "5960",
+    "name": "Spec Topics EE III",
+    "fullname": "Special Topics in Electrical Engineering III",
     "info": "Special topics in electrical and computer engineering.  Topics vary.",
     "prereq": []
   },
   {
+    "uid": "8013351",
     "code": "EE 5970",
     "subject": "EE",
-    "id": "5970",
-    "title": "Spec Topics EE IV",
+    "number": "5970",
+    "name": "Spec Topics EE IV",
+    "fullname": "Special Topics in Electrical Engineering IV",
     "info": "Special topics in electrical and computer engineering.  Topics vary.\n\nprereq: EE or CompE grad student or instr consent; only available for Rochester Campus",
     "prereq": []
   },
   {
+    "uid": "8172421",
     "code": "EE 5980",
     "subject": "EE",
-    "id": "5980",
-    "title": "Teaching Instruction Seminar",
+    "number": "5980",
+    "name": "Teaching Instruction Seminar",
+    "fullname": "Teaching, Grading, and Lab Instruction Seminar",
     "info": "The purpose of this course is to provide guidance and instruction in teaching, grading, and laboratory procedures. In addition, you will be provided with structured links to self-help resources, support from faculty, peers, and staff that will improve your effectiveness and efficiency while teaching and grading. The course is broken out into four components:\n- A pre-semester orientation and series of three workshops (4 hours)\n- A series of bi-weekly seminars spaced throughout the semester (approx. 4 hours)\n- A private teaching consultation by CEI (3 hours, lab TAs only)\n- A wrap-up discussion session (2 hours)",
     "prereq": []
   },
   {
+    "uid": "7905081",
     "code": "EE 5990",
     "subject": "EE",
-    "id": "5990",
-    "title": "Curricular Practical Training",
+    "number": "5990",
+    "name": "Curricular Practical Training",
+    "fullname": "Curricular Practical Training",
     "info": "Industrial work assignment involving advanced electrical engineering technology. Review by faculty member. Final report covering work assignment.\n\nprereq: Grad student, instr consent",
     "prereq": []
   },
   {
+    "uid": "7951621",
     "code": "EE 8100",
     "subject": "EE",
-    "id": "8100",
-    "title": "Adv Topics in Electronics",
+    "number": "8100",
+    "name": "Adv Topics in Electronics",
+    "fullname": "Advanced Topics in Electronics",
     "info": "Topics vary according to needs and staff availability.\n\nprereq: instr consent",
     "prereq": []
   },
   {
+    "uid": "0045031",
     "code": "EE 8141",
     "subject": "EE",
-    "id": "8141",
-    "title": "Adv Htrjnctn Trans",
+    "number": "8141",
+    "name": "Adv Htrjnctn Trans",
+    "fullname": "Advanced Heterojunction Transistors",
     "info": "Recent developments in device modeling with emphasis on bipolar junction transistors.  High-level effects in base and collector regions and their interrelationship.\n\nprereq: 5664 or instr consent",
     "prereq": {
       "code": "EE 5664",
       "subject": "EE",
-      "id": "5664"
+      "number": "5664"
     }
   },
   {
+    "uid": "0045041",
     "code": "EE 8161",
     "subject": "EE",
-    "id": "8161",
-    "title": "Phys of  Semicond",
+    "number": "8161",
+    "name": "Phys of  Semicond",
+    "fullname": "Physics of Semiconductors",
     "info": "Modern solid-state theory applied to specific semiconductor materials. Influence of band structure and scattering mechanisms upon semiconductor properties. Plasma effects in semiconductors. Mathematical treatments of generation-recombination kinetics, carrier injection, drift, and diffusion. Use of semiconductor properties in devices of current importance.\n\nprereq: instr consent",
     "prereq": []
   },
   {
+    "uid": "0045051",
     "code": "EE 8162",
     "subject": "EE",
-    "id": "8162",
-    "title": "Prop Semicond II",
+    "number": "8162",
+    "name": "Prop Semicond II",
+    "fullname": "Properties of Semiconductors II",
     "info": "Modern solid-state theory applied to specific semiconductor materials; influence of band structure and scattering mechanisms upon semiconductor properties; plasma effects in semiconductors; mathematical treatments of generation-recombination kinetics, carrier injection, drift and diffusion; use of semiconductor properties in devices of current importance.",
     "prereq": []
   },
   {
+    "uid": "7880581",
     "code": "EE 8163",
     "subject": "EE",
-    "id": "8163",
-    "title": "Quantum Electronics",
+    "number": "8163",
+    "name": "Quantum Electronics",
+    "fullname": "Quantum Electronics",
     "info": "Quantum theory of light/laser systems. Planck's radiation law, Einstein's coefficients. Quantum mechanics of atom-radiation interaction. Quantized radiation field. Interaction of quantized field with atoms. Generation/amplification of light. Nonlinear optics. Specific laser systems. Semiconductor lasers.\n\nprereq: instr consent",
     "prereq": []
   },
   {
+    "uid": "0076441",
     "code": "EE 8190",
     "subject": "EE",
-    "id": "8190",
-    "title": "Electronics Sem",
+    "number": "8190",
+    "name": "Electronics Sem",
+    "fullname": "Electronics Seminar",
     "info": "Current literature, individual assignments.\n\nprereq: instr consent",
     "prereq": []
   },
   {
+    "uid": "0046341",
     "code": "EE 8210",
     "subject": "EE",
-    "id": "8210",
-    "title": "Sys Theory Seminar",
+    "number": "8210",
+    "name": "Sys Theory Seminar",
+    "fullname": "System Theory Seminar",
     "info": "Current literature, individual assignments.",
     "prereq": []
   },
   {
+    "uid": "0045411",
     "code": "EE 8213",
     "subject": "EE",
-    "id": "8213",
-    "title": "Adv Systm Th",
+    "number": "8213",
+    "name": "Adv Systm Th",
+    "fullname": "Advanced System Theory",
     "info": "Generalized linear systems; applications, structural properties, computational approaches, classification, functional behavior, and synthesis.\n\nprereq: IT grad student, instr consent",
     "prereq": []
   },
   {
+    "uid": "0045421",
     "code": "EE 8215",
     "subject": "EE",
-    "id": "8215",
-    "title": "Nonlinear Systms",
+    "number": "8215",
+    "name": "Nonlinear Systms",
+    "fullname": "Nonlinear Systems",
     "info": "Current topics in stability analysis of nonlinear systems, design of controllers for nonlinear systems, discrete-time and stochastic nonlinear systems.\n\nprereq: instr consent",
     "prereq": []
   },
   {
+    "uid": "0046331",
     "code": "EE 8230",
     "subject": "EE",
-    "id": "8230",
-    "title": "Cont Th Seminar",
+    "number": "8230",
+    "name": "Cont Th Seminar",
+    "fullname": "Control Theory Seminar",
     "info": "Current literature, individual assignments.",
     "prereq": []
   },
   {
+    "uid": "0045401",
     "code": "EE 8231",
     "subject": "EE",
-    "id": "8231",
-    "title": "Optmztn Theory",
+    "number": "8231",
+    "name": "Optmztn Theory",
+    "fullname": "Optimization Theory",
     "info": "Introduction to optimization in engineering; approximation theory.  Least squares estimation, optimal control theory, and computational approaches.\n\nprereq: instr consent",
     "prereq": []
   },
   {
+    "uid": "0046321",
     "code": "EE 8235",
     "subject": "EE",
-    "id": "8235",
-    "title": "Adv Cont Topics",
+    "number": "8235",
+    "name": "Adv Cont Topics",
+    "fullname": "Advanced Control Topics",
     "info": "Adaptive/learning systems. Optimal/robust control/stabilization. Stability of dynamic systems.",
     "prereq": []
   },
   {
+    "uid": "8202151",
     "code": "EE 8243",
     "subject": "EE",
-    "id": "8243",
-    "title": "Model Reduction",
+    "number": "8243",
+    "name": "Model Reduction",
+    "fullname": "Model Reduction and Approximation of Dynamical Systems",
     "info": "In this course, we will study analytical and data-driven methods for model reduction and approximation of dynamical systems. The focus will be on learning the relevant mathematics and tools for obtaining \\\"lean\\\" low-dimensional representations of dynamical systems, which can be used to facilitate analysis and design. Roughly half of the course will be devoted to the problem of model reduction: i.e., given a mathematical description of a system, reduce the number of degrees of freedom required to faithfully represent that system. The other half of the course will be devoted to data-driven approximation of dynamical systems: i.e., given empirical data generated by a dynamical system, determine a mathematical representation for the underlying system dynamics. Although these two general problems are distinct, they are closely related and will be studied in parallel throughout the term.",
     "prereq": []
   },
   {
+    "uid": "7951631",
     "code": "EE 8300",
     "subject": "EE",
-    "id": "8300",
-    "title": "Adv Topics in Computers",
+    "number": "8300",
+    "name": "Adv Topics in Computers",
+    "fullname": "Advanced Topics in Computers",
     "info": "Topics vary according to needs and staff availability.\n\nprereq: instr consent",
     "prereq": []
   },
   {
+    "uid": "7951641",
     "code": "EE 8310",
     "subject": "EE",
-    "id": "8310",
-    "title": "Advanced Topics in VLSI",
+    "number": "8310",
+    "name": "Advanced Topics in VLSI",
+    "fullname": "Advanced Topics in VLSI",
     "info": "Topics vary according to needs and staff availability.\n\nprereq: instr consent",
     "prereq": []
   },
   {
+    "uid": "0168761",
     "code": "EE 8320",
     "subject": "EE",
-    "id": "8320",
-    "title": "Adv Topics Design Automation",
+    "number": "8320",
+    "name": "Adv Topics Design Automation",
+    "fullname": "Advanced Topics in Design Automation",
     "info": "State-of-the-art automated design tools for electronic system design. Topics vary.\n\nprereq: Grad student or instr consent",
     "prereq": []
   },
   {
+    "uid": "0046211",
     "code": "EE 8331",
     "subject": "EE",
-    "id": "8331",
-    "title": "CMOS Data Convert: A/D and DA",
+    "number": "8331",
+    "name": "CMOS Data Convert: A/D and DA",
+    "fullname": "CMOS Data Converters: A/D and D/A",
     "info": "Data converters, low power low voltage analog circuits. Basic background in design of CMOS analog-to-digital and digital-to-analog converters. Special circuit design techniques for low power design. Students design/test several design problems.\n\nprereq: 5333 or instr consent",
     "prereq": {
       "code": "EE 5333",
       "subject": "EE",
-      "id": "5333"
+      "number": "5333"
     }
   },
   {
+    "uid": "7881051",
     "code": "EE 8333",
     "subject": "EE",
-    "id": "8333",
-    "title": "FTE: Master's",
+    "number": "8333",
+    "name": "FTE: Master's",
+    "fullname": "FTE: Master's",
     "info": "(No description)\n\nprereq: Master's student, adviser and DGS consent",
     "prereq": []
   },
   {
+    "uid": "7899881",
     "code": "EE 8337",
     "subject": "EE",
-    "id": "8337",
-    "title": "Analog Ckts for Communications",
+    "number": "8337",
+    "name": "Analog Ckts for Communications",
+    "fullname": "Analog Circuits for Wire/Wireless Communications",
     "info": "Basic background, advanced design concepts necessary to design integrated CMOS RF circuits. Emphasizes CMOS and RF. Where appropriate, mention is made of bipolar circuits and applications to other communications areas.\n\nprereq: 5333",
     "prereq": {
       "code": "EE 5333",
       "subject": "EE",
-      "id": "5333"
+      "number": "5333"
     }
   },
   {
+    "uid": "8172461",
     "code": "EE 8350",
     "subject": "EE",
-    "id": "8350",
-    "title": "Advanced Verification Methods",
+    "number": "8350",
+    "name": "Advanced Verification Methods",
+    "fullname": "Advanced Verification Methodologies for VLSI Systems",
     "info": "Object-oriented programming in SystemVerilog. Randomization techniques, threads, interprocess communication, and functional coverage determination. Advanced interfaces and assertion-based verification. UVM tests, components, agents, environments, factory pattern, transactions, and sequences. Formal and semi-formal verification methods. Other advanced verification techniques of current research interest.\n\nPrerequisites: EE 5327 VLSI Design Lab or equivalent",
     "prereq": {
       "code": "EE 5327",
       "subject": "EE",
-      "id": "5327"
+      "number": "5327"
     }
   },
   {
+    "uid": "8180181",
     "code": "EE 8351",
     "subject": "EE",
-    "id": "8351",
-    "title": "Design Automation Techniques",
+    "number": "8351",
+    "name": "Design Automation Techniques",
+    "fullname": "Design Automation Techniques for Variation-Aware Computing",
     "info": "High-performance chip design can only be performed with the assistance of design automation tools that comprehend the needs of the designer and deliver solutions that can correctly analyze and optimize these systems. The objective of this class is to provide a view of this emerging universe and acquaint students with new research in this area. Specific topics to be covered include 1) Overview of technology trends and emerging systems 2) Variation-aware design and 3) Design automation issues.\n\nPrerequisites: CSE grad student. Some background in VLSI design and/or design automation is suggested but not required. Such prior exposure will make the experience in the class much more meaningful.",
     "prereq": []
   },
   {
+    "uid": "0076071",
     "code": "EE 8360",
     "subject": "EE",
-    "id": "8360",
-    "title": "Comp Sys Seminar",
+    "number": "8360",
+    "name": "Comp Sys Seminar",
+    "fullname": "Computer Systems Seminar",
     "info": "Current literature, individual assignments.",
     "prereq": []
   },
   {
+    "uid": "7920421",
     "code": "EE 8367",
     "subject": "EE",
-    "id": "8367",
-    "title": "Parallel Comp Org.",
+    "number": "8367",
+    "name": "Parallel Comp Org.",
+    "fullname": "Parallel Computer Organization",
     "info": "Design/implementation of multiprocessor systems. Parallel machine organization, system design. Differences between parallel, uniprocessor machines. Programming models. Synchronization/communication. Topologies, message routing strategies. Performance optimization techniques. Compiler, system software issues.\n\nprereq: 5364 or CSci 5204",
     "prereq": {
       "or": [
         {
           "code": "EE 5364",
           "subject": "EE",
-          "id": "5364"
+          "number": "5364"
         },
         {
           "code": "CSCI 5204",
           "subject": "CSCI",
-          "id": "5204"
+          "number": "5204"
         }
       ]
     }
   },
   {
+    "uid": "7920051",
     "code": "EE 8370",
     "subject": "EE",
-    "id": "8370",
-    "title": "CAD Seminar",
+    "number": "8370",
+    "name": "CAD Seminar",
+    "fullname": "Computer Aided Design Seminar",
     "info": "Current literature, individual assignments.\n\nprereq: [EE or CompE or CSci] grad major, instr consent",
     "prereq": []
   },
   {
+    "uid": "7883421",
     "code": "EE 8444",
     "subject": "EE",
-    "id": "8444",
-    "title": "FTE: Doctoral",
+    "number": "8444",
+    "name": "FTE: Doctoral",
+    "fullname": "FTE: Doctoral",
     "info": "(No description)\n\nprereq: Doctoral student, adviser and DGS consent",
     "prereq": []
   },
   {
+    "uid": "0076471",
     "code": "EE 8500",
     "subject": "EE",
-    "id": "8500",
-    "title": "Sem Communications",
+    "number": "8500",
+    "name": "Sem Communications",
+    "fullname": "Seminar: Communications",
     "info": "Current literature, individual assignments.",
     "prereq": []
   },
   {
+    "uid": "7952291",
     "code": "EE 8510",
     "subject": "EE",
-    "id": "8510",
-    "title": "Adv Topics in Communications",
+    "number": "8510",
+    "name": "Adv Topics in Communications",
+    "fullname": "Advanced Topics in Communications",
     "info": "Topics vary according to needs and staff availability.\n\nprereq: instr consent",
     "prereq": []
   },
   {
+    "uid": "7951731",
     "code": "EE 8520",
     "subject": "EE",
-    "id": "8520",
-    "title": "Adv Topics in Signal Proc",
+    "number": "8520",
+    "name": "Adv Topics in Signal Proc",
+    "fullname": "Advanced Topics in Signal Processing",
     "info": "Topics vary according to needs and staff availability.\n\nprereq: instr consent",
     "prereq": []
   },
   {
+    "uid": "0033041",
     "code": "EE 8541",
     "subject": "EE",
-    "id": "8541",
-    "title": "Image Proc & Appl",
+    "number": "8541",
+    "name": "Image Proc & Appl",
+    "fullname": "Image Processing and Applications",
     "info": "Two-dimensional digital filtering and transforms; application to image enhancement, restoration, compression, and segmentation.",
     "prereq": []
   },
   {
+    "uid": "0033031",
     "code": "EE 8551",
     "subject": "EE",
-    "id": "8551",
-    "title": "Multirate SP and Applications",
+    "number": "8551",
+    "name": "Multirate SP and Applications",
+    "fullname": "Multirate Signal Processing and Applications",
     "info": "Multirate discrete-time systems with applications in modern signal and data processing problems. Hilbert Spaces and Linear Operators; Reisz Bases and Frames; Vector Space Representation of Sampling, Interpolation, Time-frequency analysis and wavelets; Filterbanks and Polyphase Structures; Sparsity and redundancy with applications in linear and nonlinear approximation, super-resolution, blind-source separation.\nprereq: [CSE grad student] or dept consent",
     "prereq": []
   },
   {
+    "uid": "0045441",
     "code": "EE 8591",
     "subject": "EE",
-    "id": "8591",
-    "title": "Predictive Learning from Data",
+    "number": "8591",
+    "name": "Predictive Learning from Data",
+    "fullname": "Predictive Learning from Data",
     "info": "Methods for estimating dependencies from data have been traditionally explored in such diverse fields as: statistics (multivariate regression and classification), engineering (pattern recognition, system identification), computer science (artificial intelligence, machine learning, data mining) and bioinformatics. Recent interest in learning methods is triggered by the widespread use of digital technology and availability of data. Unfortunately, developments in each field are seldom related to other fields. This course is concerned with estimation of predictive data-analytic models that are estimated using past data, but are used for prediction or decision making with new data. This course will first present general conceptual framework for learning predictive models from data, using Vapnik-Chervonenkis (VC) theoretical framework, and then discuss various methods developed in statistics, pattern recognition and machine learning. Course descriptions will emphasize methodological aspects of machine learning, rather than development of new algorithms.\n\nprereq: CSE grad student or instr consent",
     "prereq": []
   },
   {
+    "uid": "7929651",
     "code": "EE 8601",
     "subject": "EE",
-    "id": "8601",
-    "title": "Adv Electromag Theory",
+    "number": "8601",
+    "name": "Adv Electromag Theory",
+    "fullname": "Advanced Electromagnetic Theory",
     "info": "Aspects of electromagnetic theory. Review of introductory material. Scattering theory, geometric theory of diffraction, integral equation methods, Green's functions.\n\nprereq: 4601 or equiv",
     "prereq": {
       "code": "EE 4601",
       "subject": "EE",
-      "id": "4601"
+      "number": "4601"
     }
   },
   {
+    "uid": "0076451",
     "code": "EE 8610",
     "subject": "EE",
-    "id": "8610",
-    "title": "Sem Elecs, Fields & Photonics",
+    "number": "8610",
+    "name": "Sem Elecs, Fields & Photonics",
+    "fullname": "Seminar: Electronics, Fields, and Photonics",
     "info": "Students are assigned readings from current literature and make individual presentations to class. From time to time outside speakers present research papers.\n\nprereq: EE grad major or instr consent",
     "prereq": []
   },
   {
+    "uid": "0046541",
     "code": "EE 8611",
     "subject": "EE",
-    "id": "8611",
-    "title": "Plasma Physics",
+    "number": "8611",
+    "name": "Plasma Physics",
+    "fullname": "Plasma Physics",
     "info": "Plasma theory and charged particle transport phenomena: collision processes, orbit theory, kinetic theory, Boltzmann transport equation, moment (continuity) equations, magnetohydrodynamics, transport properties.  Applications of plasma theory to modeling of dc, rf, and microwave discharges.\n\nprereq: instr consent",
     "prereq": []
   },
   {
+    "uid": "8022011",
     "code": "EE 8620",
     "subject": "EE",
-    "id": "8620",
-    "title": "Adv Topics in Magnetics",
+    "number": "8620",
+    "name": "Adv Topics in Magnetics",
+    "fullname": "Advanced Topics in Magnetics",
     "info": "Topics vary according to needs and staff availability.\n\nprereq: 5653 or instr consent",
     "prereq": {
       "code": "EE 5653",
       "subject": "EE",
-      "id": "5653"
+      "number": "5653"
     }
   },
   {
+    "uid": "7952241",
     "code": "EE 8630",
     "subject": "EE",
-    "id": "8630",
-    "title": "Adv Topic in Electromagnetics",
+    "number": "8630",
+    "name": "Adv Topic in Electromagnetics",
+    "fullname": "Advanced Topics in Electromagnetics",
     "info": "Topics vary according to needs and staff availability.",
     "prereq": []
   },
   {
+    "uid": "0076461",
     "code": "EE 8660",
     "subject": "EE",
-    "id": "8660",
-    "title": "Sem Magnetics",
+    "number": "8660",
+    "name": "Sem Magnetics",
+    "fullname": "Seminar: Magnetics",
     "info": "Current literature, individual assignments.",
     "prereq": []
   },
   {
+    "uid": "7884671",
     "code": "EE 8666",
     "subject": "EE",
-    "id": "8666",
-    "title": "Doct Pre-Thesis Cr*",
+    "number": "8666",
+    "name": "Doct Pre-Thesis Cr*",
+    "fullname": "Doctoral Pre-Thesis Credits",
     "info": "TBD\n\nprereq: Doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
     "prereq": []
   },
   {
+    "uid": "0046761",
     "code": "EE 8725",
     "subject": "EE",
-    "id": "8725",
-    "title": "Adv Pwr Sys Anal",
+    "number": "8725",
+    "name": "Adv Pwr Sys Anal",
+    "fullname": "Advanced Power System Analysis and Economics",
     "info": "Solving sets of equations that involve large sparse matrices. Sparse matrix storage, ordering schemes, application to power flow, short circuit calculation, optimal power flow, and state estimation.\n\nprereq: 4721, CSE grad student or instr consent",
     "prereq": {
       "code": "EE 4721",
       "subject": "EE",
-      "id": "4721"
+      "number": "4721"
     }
   },
   {
+    "uid": "0046771",
     "code": "EE 8741",
     "subject": "EE",
-    "id": "8741",
-    "title": "Pr Elect in Pwr Sys",
+    "number": "8741",
+    "name": "Pr Elect in Pwr Sys",
+    "fullname": "Power Electronics in Power Systems",
     "info": "Impact of power electronics loads on power quality.  Passive and active filters.  Active input current wave shaping.  HVDC transmission.  Static VAR control, energy storage systems.  Interconnecting photovoltaic and wind generators.  Static phase shifters and circuit breakers for flexible AC transmission (FACTS).\n\nprereq: 4741, IT grad student or instr consent",
     "prereq": {
       "code": "EE 4741",
       "subject": "EE",
-      "id": "4741"
+      "number": "4741"
     }
   },
   {
+    "uid": "8172431",
     "code": "EE 8744",
     "subject": "EE",
-    "id": "8744",
-    "title": "Renewable Energy Systems",
+    "number": "8744",
+    "name": "Renewable Energy Systems",
+    "fullname": "Modeling, Analysis, and Control of Renewable Energy Systems",
     "info": "The electrical power system has been widely recognized as the most important engineering achievement\nof the 20th century. High power quality and availability are maintained in the bulk power\nsystem mainly by enforcing hierarchical operational practices, central decision making, and topological\nredundancy. However, this status quo is being challenged by changing generation, consumption\nand operational landscapes. Particularly, increased renewable generation, supply scarcity, the impetus\nto improve resiliency to extenuating weather impacts, and expanding electricity access call for the\ndevelopment of transformative architectural and operational paradigms. Recognizing these developments,\nthis course will present enabling modeling, analysis, and control methods that will be integral to\narchitect next-generation renewable-based power systems. These methods will be developed adopting\na bottom-up approach by leveraging recent theoretical advances in circuit theory, nonlinear systems,\ncomplex networks, and stochastic processes.",
     "prereq": []
   },
   {
+    "uid": "7885951",
     "code": "EE 8777",
     "subject": "EE",
-    "id": "8777",
-    "title": "Thesis Credit:Mast*",
+    "number": "8777",
+    "name": "Thesis Credit:Mast*",
+    "fullname": "Thesis Credits: Master's",
     "info": "(No description)\n\nprereq: Max 18 cr per semester or summer; 10 cr total required [Plan A only]",
     "prereq": []
   },
   {
+    "uid": "7878541",
     "code": "EE 8888",
     "subject": "EE",
-    "id": "8888",
-    "title": "Thesis Credit:Doct*",
+    "number": "8888",
+    "name": "Thesis Credit:Doct*",
+    "fullname": "Thesis Credit: Doctoral",
     "info": "Thesis credit.",
     "prereq": []
   },
   {
+    "uid": "8086301",
     "code": "EE 8920",
     "subject": "EE",
-    "id": "8920",
-    "title": "Teaching Experience in ECE",
+    "number": "8920",
+    "name": "Teaching Experience in ECE",
+    "fullname": "Teaching Experience in Electrical and Computer Engineering",
     "info": "Coteach class under guidance of faculty mentor. Students directly teach approximately half of the classes. Feedback to improve teaching effectiveness. Meet regularly with peers and instructor to discuss teaching concerns/issues.\n\nprereq: PhD candidate in electrical engineering, passed written preliminary exam",
     "prereq": []
   },
   {
+    "uid": "8086311",
     "code": "EE 8925",
     "subject": "EE",
-    "id": "8925",
-    "title": "Ethics in ECE",
+    "number": "8925",
+    "name": "Ethics in ECE",
+    "fullname": "Ethics in Electrical and Computer Engineering",
     "info": "Topics on issues such as data integrity, professional conduct, authorship, plagiarism, patents, copyrights, conflicts, and disclosures. Students study cases, present findings, and write report.\n\nprereq: Grad student in electrical engineering",
     "prereq": []
   },
   {
+    "uid": "0047991",
     "code": "EE 8940",
     "subject": "EE",
-    "id": "8940",
-    "title": "Spec Investigations",
+    "number": "8940",
+    "name": "Spec Investigations",
+    "fullname": "Special Investigations",
     "info": "Studies of approved theoretical or experimental topics.\n\nprereq: 1-3 cr [may be repeated for cr]; IT grad student or instr consent",
     "prereq": []
   },
   {
+    "uid": "0048001",
     "code": "EE 8950",
     "subject": "EE",
-    "id": "8950",
-    "title": "Adv Topics in ECE",
+    "number": "8950",
+    "name": "Adv Topics in ECE",
+    "fullname": "Advanced Topics in Electrical and Computer Engineering",
     "info": "Topics vary according to needs and staff availability.\n\nprereq: Cr ar [may be repeated for cr]; instr consent",
     "prereq": []
   },
   {
+    "uid": "0048011",
     "code": "EE 8961",
     "subject": "EE",
-    "id": "8961",
-    "title": "Plan B Proj I",
+    "number": "8961",
+    "name": "Plan B Proj I",
+    "fullname": "Plan B Project I",
     "info": "Project topic(s) arranged between student and adviser. Written report(s).",
     "prereq": []
   },
   {
+    "uid": "0048021",
     "code": "EE 8963",
     "subject": "EE",
-    "id": "8963",
-    "title": "Plan B Project II",
+    "number": "8963",
+    "name": "Plan B Project II",
+    "fullname": "Plan B Project II",
     "info": "Project topic(s) arranged between student and adviser. Written report(s).",
     "prereq": []
   },
   {
+    "uid": "7990741",
     "code": "EE 8965",
     "subject": "EE",
-    "id": "8965",
-    "title": "Plan C Proj I",
+    "number": "8965",
+    "name": "Plan C Proj I",
+    "fullname": "Plan C Project I",
     "info": "Project topics arranged between student and adviser. Written reports.\n\nprereq: Grad EE major",
     "prereq": []
   },
   {
+    "uid": "7990751",
     "code": "EE 8967",
     "subject": "EE",
-    "id": "8967",
-    "title": "Plan C Project II",
+    "number": "8967",
+    "name": "Plan C Project II",
+    "fullname": "Plan C Project II",
     "info": "Project topics arranged between student and adviser. Written reports.\n\nprereq: EE grad student",
     "prereq": []
   },
   {
+    "uid": "0048031",
     "code": "EE 8970",
     "subject": "EE",
-    "id": "8970",
-    "title": "Grad Seminar I",
+    "number": "8970",
+    "name": "Grad Seminar I",
+    "fullname": "Graduate Seminar I",
     "info": "Recent developments in electrical engineering, related disciplines.\n\nprereq: Grad student",
     "prereq": []
   },
   {
+    "uid": "0048041",
     "code": "EE 8980",
     "subject": "EE",
-    "id": "8980",
-    "title": "Grad Seminar II",
+    "number": "8980",
+    "name": "Grad Seminar II",
+    "fullname": "Graduate Seminar II",
     "info": "Recent developments in electrical engineering, related disciplines.",
     "prereq": []
   }

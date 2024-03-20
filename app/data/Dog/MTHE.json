@@ -1,226 +1,278 @@
 [
   {
+    "uid": "7976201",
     "code": "MTHE 3101",
     "subject": "MTHE",
-    "id": "3101",
-    "title": "Mathematics & Pedagogy I",
+    "number": "3101",
+    "name": "Mathematics & Pedagogy I",
+    "fullname": "Mathematics and Pedagogy for Elementary Teachers I",
     "info": "Math content knowledge of K-6 in an environment modeling pedagogy for future implementation. Integrated content/methods. Problem solving, connections, communication, reasoning, representation. Functions, proportionality, number, numeration. prereq: [College algebra, elementary FOE or Early Childhood student, jr status or above] or instr consent",
     "prereq": []
   },
   {
+    "uid": "7976211",
     "code": "MTHE 3102",
     "subject": "MTHE",
-    "id": "3102",
-    "title": "Mathematics & Pedagogy II",
+    "number": "3102",
+    "name": "Mathematics & Pedagogy II",
+    "fullname": "Mathematics and Pedagogy for Elementary Teachers II",
     "info": "Math content knowledge of K-6 in an environment modeling pedagogy for future implementation. Integrated content/methods. Problem solving, connections, communication, reasoning, representation. Geometry, measurement, probability, statistics.\n\nprereq: 3101, college algebra",
     "prereq": {
       "code": "MTHE 3101",
       "subject": "MTHE",
-      "id": "3101"
+      "number": "3101"
     }
   },
   {
+    "uid": "0050161",
     "code": "MTHE 5011",
     "subject": "MTHE",
-    "id": "5011",
-    "title": "Arithmetic Structures in Math",
+    "number": "5011",
+    "name": "Arithmetic Structures in Math",
+    "fullname": "Arithmetic Structures in School Mathematics",
     "info": "Pedagogy, content, and instructional strategies for teaching arithmetic. Content and issues relevant to the K-8 mathematics curriculum. Instructional materials and technology appropriate for elementary or middle school arithmetic. Credit hours and targeted level vary with particular classes.\n\nprereq: Enrollment in math initial licensure program or tchg exper",
     "prereq": []
   },
   {
+    "uid": "0050221",
     "code": "MTHE 5021",
     "subject": "MTHE",
-    "id": "5021",
-    "title": "Algebraic Structures in Math",
+    "number": "5021",
+    "name": "Algebraic Structures in Math",
+    "fullname": "Algebraic Structures in School Mathematics",
     "info": "Pedagogy, content, and instructional strategies for teaching arithmetic. Content and issues relevant to the algebra curriculum. Instructional materials and technology appropriate for arithmetic. Each offering of the course will focus on either elementary/middle or middle/secondary grade levels.\n\nprereq: Tchg exper or isntr consent",
     "prereq": []
   },
   {
+    "uid": "0073901",
     "code": "MTHE 5031",
     "subject": "MTHE",
-    "id": "5031",
-    "title": "Geometric Structures in Math",
+    "number": "5031",
+    "name": "Geometric Structures in Math",
+    "fullname": "Geometric Structures in School Mathematics",
     "info": "Pedagogy, content, and instructional strategies for teaching school geometry. Content and issues relevant to the geometry curriculum. Instructional materials and technology appropriate for geometry. Each offering will focus on either elementary/middle or middle/secondary grade levels.\n\nprereq: Enrollment in math initial licensure program",
     "prereq": []
   },
   {
+    "uid": "0156251",
     "code": "MTHE 5100",
     "subject": "MTHE",
-    "id": "5100",
-    "title": "Topics in Mathematics Educ",
+    "number": "5100",
+    "name": "Topics in Mathematics Educ",
+    "fullname": "Topics in Mathematics Education",
     "info": "Issues, materials, and instructional techniques focusing on a single current topic of particular relevance to secondary school and college mathematics teachers.",
     "prereq": []
   },
   {
+    "uid": "0054411",
     "code": "MTHE 5101",
     "subject": "MTHE",
-    "id": "5101",
-    "title": "Wkshp: Elem School Math",
+    "number": "5101",
+    "name": "Wkshp: Elem School Math",
+    "fullname": "Teaching Elementary School Mathematics",
     "info": "Modern trends, methods, and materials used to convey mathematical ideas.\n\nprereq: Tchg license or student elem ed MEd or special ed or instr consent",
     "prereq": []
   },
   {
+    "uid": "8179791",
     "code": "MTHE 5115",
     "subject": "MTHE",
-    "id": "5115",
-    "title": "Applications of Teaching Math",
+    "number": "5115",
+    "name": "Applications of Teaching Math",
+    "fullname": "Applications of Teaching Mathematics",
     "info": "The purpose of this course is to examine mathematics teaching in diverse school settings and help you inquire and reflect about your own teaching practice and its impact on you, and the students you will meet. Throughout this course we will collaboratively inquire about teaching and learning, observe and analyze instruction, and reflect on your own and each other?s teaching. We will develop and integrate technological knowledge that works together with pedagogical and content knowledge to make math teaching more effective. \n\nprereq: You must be enrolled in the Mathematics initial licensure program to take this course.\n\n",
     "prereq": []
   },
   {
+    "uid": "0050151",
     "code": "MTHE 5155",
     "subject": "MTHE",
-    "id": "5155",
-    "title": "Rational Numbers/Proportional",
+    "number": "5155",
+    "name": "Rational Numbers/Proportional",
+    "fullname": "Rational Number Concepts and Proportionality",
     "info": "The relationship between the development of rational number concepts and proportional reasoning skills. Examination of how newer school curricula treat these concepts. Application of materials in the classroom and analysis of results. Reading and responding to current research.\n\nprereq: Educ student or instr consent",
     "prereq": []
   },
   {
+    "uid": "0049881",
     "code": "MTHE 5161",
     "subject": "MTHE",
-    "id": "5161",
-    "title": "Dev Leadership in School Math",
+    "number": "5161",
+    "name": "Dev Leadership in School Math",
+    "fullname": "Developing Leadership in School Mathematics",
     "info": "Current developments in the psychology and pedagogy of mathematics education as related to the evolving nature of mathematics education objectives. Emerging use of technology in the mathematics classroom. Techniques for the development of supervisory abilities. Characteristics of effective staff development.\n\nprereq: Teaching experience or instr consent",
     "prereq": []
   },
   {
+    "uid": "0050171",
     "code": "MTHE 5170",
     "subject": "MTHE",
-    "id": "5170",
-    "title": "Hist Topics in Math Classroom",
+    "number": "5170",
+    "name": "Hist Topics in Math Classroom",
+    "fullname": "Historical Topics in the Mathematics Classroom",
     "info": "Historical underpinnings of school mathematics content and methodology.  Cross-cultural contributions in the development of mathematical ideas. Development of lessons, activities, and materials for school use.",
     "prereq": []
   },
   {
+    "uid": "0072741",
     "code": "MTHE 5171",
     "subject": "MTHE",
-    "id": "5171",
-    "title": "Teaching Problem Solving",
+    "number": "5171",
+    "name": "Teaching Problem Solving",
+    "fullname": "Teaching Problem Solving",
     "info": "Investigation of fundamental concepts and principles of problem solving, reasoning, and proof. Emphasis on activities and applications appropriate for junior and senior high classes. Pedagogical experiences to prepare teachers to teach problem solving, reasoning, and proof in classrooms.",
     "prereq": []
   },
   {
+    "uid": "0073501",
     "code": "MTHE 5172",
     "subject": "MTHE",
-    "id": "5172",
-    "title": "Teaching Probability/Statistic",
+    "number": "5172",
+    "name": "Teaching Probability/Statistic",
+    "fullname": "Teaching Probability and Statistics",
     "info": "Investigation of fundamental concepts and principles of probability and statistics. Emphasis on activities and applications appropriate for junior and senior high school classes. Pedagogical experiences to prepare teachers to integrate quantitative literacy accurately and effectively in classrooms.",
     "prereq": []
   },
   {
+    "uid": "0073581",
     "code": "MTHE 5174",
     "subject": "MTHE",
-    "id": "5174",
-    "title": "Ethics,Psy Human Dev,Internet",
+    "number": "5174",
+    "name": "Ethics,Psy Human Dev,Internet",
+    "fullname": "Ethics, Psychophysical Human Development, and the Internet",
     "info": "Investigation of concepts and themes common to ethics, mathematics, physical science, human development, and the Internet. Emphasis on developing understanding of fundamental concepts and principles, on problem solving in a distributed intelligence environment (WWW) and on activities appropriate for K-12 classes.",
     "prereq": []
   },
   {
+    "uid": "7974471",
     "code": "MTHE 5305",
     "subject": "MTHE",
-    "id": "5305",
-    "title": "Mid Schl Mathematics Methods",
+    "number": "5305",
+    "name": "Mid Schl Mathematics Methods",
+    "fullname": "Middle School Mathematics Methods",
     "info": "The unique needs of middle school students in the mathematics classroom. Mathematics content and pedagogical skills. Adolescent development/psychology. Field placement in a middle school mathematics classroom.\n\nprereq: Elem ed licensure student",
     "prereq": []
   },
   {
+    "uid": "0049891",
     "code": "MTHE 5313",
     "subject": "MTHE",
-    "id": "5313",
-    "title": "Teach/learn Middle Sch Math",
+    "number": "5313",
+    "name": "Teach/learn Middle Sch Math",
+    "fullname": "Teaching and Learning Mathematics in the Middle School",
     "info": "Mathematics learning, instruction methods, mathematical topics, and assessment procedures appropriate for the middle grades. Examination of newer curricular materials. Illustration of successful instructional techniques. Discussion of the relationship between the nature of the learner and effective instruction.",
     "prereq": []
   },
   {
+    "uid": "0156271",
     "code": "MTHE 5314",
     "subject": "MTHE",
-    "id": "5314",
-    "title": "Teaching & Learning Math",
+    "number": "5314",
+    "name": "Teaching & Learning Math",
+    "fullname": "Teaching and Learning Mathematics",
     "info": "Methods, materials, and curriculum development. Principles of learning. Review of research. Preparation/evaluation of tests, units, and materials of instruction. Recent developments in mathematics curriculum and in instructional alternatives. Issues in teaching/learning. Program planning/evaluation.\n\nprereq: Math Ed or MEd or CI MEd or grad student or instr consent",
     "prereq": []
   },
   {
+    "uid": "7942451",
     "code": "MTHE 5345",
     "subject": "MTHE",
-    "id": "5345",
-    "title": "Teach/Learn in Dev. Math.",
+    "number": "5345",
+    "name": "Teach/Learn in Dev. Math.",
+    "fullname": "Teaching and Learning in Developmental Mathematics",
     "info": "Research related to developmental education and mathematics education. Principles of learning. Students? mathematical development. Assessment/evaluation of teaching/learning. Instructional technology. Strategies for students.",
     "prereq": []
   },
   {
+    "uid": "0050271",
     "code": "MTHE 5355",
     "subject": "MTHE",
-    "id": "5355",
-    "title": "Math for Diverse Learners",
+    "number": "5355",
+    "name": "Math for Diverse Learners",
+    "fullname": "Mathematics for Diverse Learners",
     "info": "Mathematical concepts and methods for exceptional students, both low achieving and gifted. Experimental materials and methods designed for underachieving students.\n\nprereq: Teaching license or student in elem ed or special ed or instr consent",
     "prereq": []
   },
   {
+    "uid": "0072701",
     "code": "MTHE 5366",
     "subject": "MTHE",
-    "id": "5366",
-    "title": "Tech-Assist Math Instruction",
+    "number": "5366",
+    "name": "Tech-Assist Math Instruction",
+    "fullname": "Technology-Assisted Mathematics Instruction",
     "info": "Technology--including computers, programmable and graphing calculators, and video--as instructional tools in mathematics; design and evaluation of technology-based mathematics lessons; the effect of technology on the mathematics curriculum; managing the technology-enriched classroom.",
     "prereq": []
   },
   {
+    "uid": "0156281",
     "code": "MTHE 5696",
     "subject": "MTHE",
-    "id": "5696",
-    "title": "Student Teaching in Math",
+    "number": "5696",
+    "name": "Student Teaching in Math",
+    "fullname": "Student Teaching in Mathematics",
     "info": "Student teaching in secondary school mathematics classes.\n\nprereq: MEd/initial licensure student or instr consent",
     "prereq": []
   },
   {
+    "uid": "0156291",
     "code": "MTHE 5993",
     "subject": "MTHE",
-    "id": "5993",
-    "title": "Directed Studies in Math Educ",
+    "number": "5993",
+    "name": "Directed Studies in Math Educ",
+    "fullname": "Directed Studies in Mathematics Education",
     "info": "Secondary school classroom teaching project to improve specific teaching skills, planned by student, approved/directed by student's adviser.\n\nprereq: Math ed MEd student, instr consent",
     "prereq": []
   },
   {
+    "uid": "8087511",
     "code": "MTHE 8561",
     "subject": "MTHE",
-    "id": "8561",
-    "title": "School Mathematics Curricula",
+    "number": "8561",
+    "name": "School Mathematics Curricula",
+    "fullname": "School Mathematics Curricula - 1850 to Present",
     "info": "Historical antecedents of present day school mathematics curricula. Examine primary source materials by reviewing  early mathematics texts from curriculum library.",
     "prereq": []
   },
   {
+    "uid": "0083581",
     "code": "MTHE 8571",
     "subject": "MTHE",
-    "id": "8571",
-    "title": "Res in Math Ed",
+    "number": "8571",
+    "name": "Res in Math Ed",
+    "fullname": "Research in Mathematics Education",
     "info": "Designed for advanced graduate students in mathematics education. Presentation and discussion of Ph.D. thesis proposals and other contemporary research.\n\nprereq: 5313, 8501",
     "prereq": {
       "and": [
         {
           "code": "MTHE 5313",
           "subject": "MTHE",
-          "id": "5313"
+          "number": "5313"
         },
         {
           "code": "MTHE 8501",
           "subject": "MTHE",
-          "id": "8501"
+          "number": "8501"
         }
       ]
     }
   },
   {
+    "uid": "0083511",
     "code": "MTHE 8591",
     "subject": "MTHE",
-    "id": "8591",
-    "title": "Sem MthE",
+    "number": "8591",
+    "name": "Sem MthE",
+    "fullname": "Seminar: Mathematics Education",
     "info": "Problems of mathematics instruction from kindergarten through junior college; opportunity to develop proposals and design models for empirical research.\n\nprereq: Math educ PhD student",
     "prereq": []
   },
   {
+    "uid": "0083531",
     "code": "MTHE 8995",
     "subject": "MTHE",
-    "id": "8995",
-    "title": "Problems in Mathematics Educ",
+    "number": "8995",
+    "name": "Problems in Mathematics Educ",
+    "fullname": "Problems: Mathematics Education",
     "info": "Students survey most recent literature and design and prepare research reports on special topics.",
     "prereq": []
   }

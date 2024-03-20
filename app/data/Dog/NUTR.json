@@ -1,326 +1,359 @@
 [
   {
+    "uid": "7975441",
     "code": "NUTR 5621W",
     "subject": "NUTR",
-    "id": "5621W",
-    "title": "Macronutrient Metabolism",
+    "number": "5621W",
+    "name": "Macronutrient Metabolism",
+    "fullname": "Macronutrient Metabolism",
     "info": "Carbohydrate, lipid, protein, and energy metabolism. Systems/holistic approaches of metabolic pathways. Regulation/alteration of metabolic pathways. Macronutrient metabolism techniques/research.",
     "prereq": []
   },
   {
+    "uid": "7975451",
     "code": "NUTR 5622",
     "subject": "NUTR",
-    "id": "5622",
-    "title": "Vitamin & Mineral Biochemistry",
+    "number": "5622",
+    "name": "Vitamin & Mineral Biochemistry",
+    "fullname": "Vitamin and Mineral Biochemistry",
     "info": "Nutritional, biochemical, and physiological aspects of vitamins and essential minerals in human and experimental-animal models.\n\nprereq: BioC 3021, Phsl 3051, FSCN 4612",
     "prereq": {
       "and": [
         {
           "code": "BIOC 3021",
           "subject": "BIOC",
-          "id": "3021"
+          "number": "3021"
         },
         {
           "code": "PHSL 3051",
           "subject": "PHSL",
-          "id": "3051"
+          "number": "3051"
         },
         {
           "code": "FSCN 4612",
           "subject": "FSCN",
-          "id": "4612"
+          "number": "4612"
         }
       ]
     }
   },
   {
+    "uid": "7975551",
     "code": "NUTR 5623W",
     "subject": "NUTR",
-    "id": "5623W",
-    "title": "Regulation of Energy Balance",
+    "number": "5623W",
+    "name": "Regulation of Energy Balance",
+    "fullname": "Regulation of Energy Balance",
     "info": "Regulation of energy balance in humans, including regulation of food intake and energy expenditure.",
     "prereq": []
   },
   {
+    "uid": "8007161",
     "code": "NUTR 5624",
     "subject": "NUTR",
-    "id": "5624",
-    "title": "Nutrition and Genetics",
+    "number": "5624",
+    "name": "Nutrition and Genetics",
+    "fullname": "Nutrition and Genetics",
     "info": "Overview of gene-diet interactions and relevant technologies used to study such interactions. Nutrigenomics, epigenetics, transcriptomics, proteomics, metabolomics. Examples of gene-diet interactions, implications. Current issues.\n\nPrerequisites: Courses in Nutritional Biochemistry (e.g., NUTR 5625), and Vitamin and Mineral Biochemistry (e.g., NUTR 5622), or consent of instructor",
-    "prereq": {
-      "and": [
-        {
-          "code": "NUTR 5625",
-          "subject": "NUTR",
-          "id": "5625"
-        },
-        {
-          "code": "NUTR 5622",
-          "subject": "NUTR",
-          "id": "5622"
-        }
-      ]
-    }
+    "prereq": []
   },
   {
+    "uid": "8051311",
     "code": "NUTR 5625",
     "subject": "NUTR",
-    "id": "5625",
-    "title": "Nutritional Biochemistry",
+    "number": "5625",
+    "name": "Nutritional Biochemistry",
+    "fullname": "Nutritional Biochemistry",
     "info": "Overview of biochemical molecules and pathways important in nutritional events.\n\nprereq: BIOC 3021 or instr consent",
     "prereq": {
       "code": "BIOC 3021",
       "subject": "BIOC",
-      "id": "3021"
+      "number": "3021"
     }
   },
   {
+    "uid": "8051321",
     "code": "NUTR 5626",
     "subject": "NUTR",
-    "id": "5626",
-    "title": "Nutritional Physiology",
+    "number": "5626",
+    "name": "Nutritional Physiology",
+    "fullname": "Nutritional Physiology",
     "info": "Whole body macronutrient metabolism as it relates to etiology of metabolic diseases. Signaling between tissues to control homeostasis. How dysregulation of crosstalk can lead to metabolic diseases. How diet, exercise, or starvation impact metabolism. Regulation of food intake and energy expenditure. Designing/analyzing/interpreting research data.\n\nprereq: NUTR 5625",
     "prereq": {
       "code": "NUTR 5625",
       "subject": "NUTR",
-      "id": "5625"
+      "number": "5625"
     }
   },
   {
+    "uid": "8080371",
     "code": "NUTR 5627",
     "subject": "NUTR",
-    "id": "5627",
-    "title": "Nutritional & Food Toxicology",
+    "number": "5627",
+    "name": "Nutritional & Food Toxicology",
+    "fullname": "Nutritional and Food Toxicology",
     "info": "Toxic agents, organisms, and toxic effects that are important in the toxic events, with a focus on food toxicants and nutrient-toxicant interaction.\n\nprereq: BIOC 3021; designed for students majoring in [nutrition or food science or toxicology]",
     "prereq": {
       "code": "BIOC 3021",
       "subject": "BIOC",
-      "id": "3021"
+      "number": "3021"
     }
   },
   {
+    "uid": "8195951",
     "code": "NUTR 5993",
     "subject": "NUTR",
-    "id": "5993",
-    "title": "Directed Study",
+    "number": "5993",
+    "name": "Directed Study",
+    "fullname": "Directed Research",
     "info": "A course in which a student designs and carries out a directed study on selected topics or problems under the direction of a faculty member; eg, literature review. Directed study courses may be taken for variable credit and special permission is needed for enrollment.  Students enrolling in a directed study will be required to use the University-wide on-line directed study contract process in order to enroll.\n \nPrereq: department consent, instructor consent, no more than 6 credits of directed study counts towards CFANS major requirements.\n",
     "prereq": []
   },
   {
+    "uid": "8195961",
     "code": "NUTR 5994",
     "subject": "NUTR",
-    "id": "5994",
-    "title": "Directed Research",
+    "number": "5994",
+    "name": "Directed Research",
+    "fullname": "Directed Research",
     "info": "An opportunity in which a student designs and carries\nout a directed research project under the direction of a faculty member. Directed research may be taken for variable credit and special permission is needed for enrollment.Students enrolling in a directed research will be required to use the\nUniversity-wide on-line directed research contract process in order to enroll.\n \nPrereq: department consent, instructor consent, no more than 6 credits of directed research counts towards CFANS major requirements.\n",
     "prereq": []
   },
   {
+    "uid": "8261331",
     "code": "NUTR 6014",
     "subject": "NUTR",
-    "id": "6014",
-    "title": "Adv Nutrition Ed & Counseling",
+    "number": "6014",
+    "name": "Adv Nutrition Ed & Counseling",
+    "fullname": "Advanced Nutrition Education and Counseling",
     "info": "Effective counseling skills are especially important for clinical dietitians. This course will build off the basic nutrition counseling skills covered in FSCN 3614, and help students develop advanced skills needed to navigate difficult interactions, understand diverse patient populations, and communicate complex concepts in an educational setting.\n\nThis course is suitable for advanced/graduate-level dietetics students, entry-level practitioners, and seasoned professionals who want to refresh their skills.\n\nThe first half of the course will focus on Motivational Interviewing, and the second half will focus on several specific patient populations and communication issues that may arise during nutrition counseling sessions. We will discuss establishing rapport with patients who have food insecurity, neurodivergence, chronic health conditions, personality disorders, and challenging family dynamics. You will develop skills and explore these concepts through application by practicing in small group breakout sessions and by completing written assignments.",
     "prereq": []
   },
   {
+    "uid": "8261321",
     "code": "NUTR 6064",
     "subject": "NUTR",
-    "id": "6064",
-    "title": "Current Trends in Dietetics",
+    "number": "6064",
+    "name": "Current Trends in Dietetics",
+    "fullname": "Current Trends in the Dietetics Profession",
     "info": "This course will explore current trends and issues in the dietetics profession.  We will review the Academy of Nutrition and Dietetics’ code of ethics, scope of practice, standards of professional performance and professional development.\n\nStudents will develop skills in salary negotiation and familiarity with the legislative process surrounding dietetics.  Additional topics will include sustainability, fad diets, and inter-professional education.  This course allows the student to demonstrate formulation and analysis of professional opinions based on current research and evidence-based resources.",
     "prereq": []
   },
   {
+    "uid": "8261341",
     "code": "NUTR 6067",
     "subject": "NUTR",
-    "id": "6067",
-    "title": "Clinical Decision-Making",
+    "number": "6067",
+    "name": "Clinical Decision-Making",
+    "fullname": "Clinical Decision-Making in Nutrition",
     "info": "Real-world patients often present with complex medical and social histories, comorbidities, individual health beliefs and values, and other complexities that do not fit within simple, clear clinical guidelines, or have clinical conditions for which research and clinical guidelines for nutrition therapy are lacking. Thus, clinical decision-making is an essential skill for evidence-based dietetics practice.\n\nIn this course, students will apply current research, evidence-based guidelines, foundational knowledge in medical nutrition therapy, ethical practice principles, and critical thinking skills to work through a variety of complex clinical case studies using the steps of the Nutrition Care Process.",
     "prereq": []
   },
   {
+    "uid": "8263161",
     "code": "NUTR 8001",
     "subject": "NUTR",
-    "id": "8001",
-    "title": "Nutrition Grad Orientation",
+    "number": "8001",
+    "name": "Nutrition Grad Orientation",
+    "fullname": "Orientation to the Nutrition Graduate Program",
     "info": "Orientation to nutrition graduate program. Presenting scientific seminars, using electronic presentation programs and equipment.",
     "prereq": []
   },
   {
+    "uid": "7882511",
     "code": "NUTR 8333",
     "subject": "NUTR",
-    "id": "8333",
-    "title": "FTE: Master's",
+    "number": "8333",
+    "name": "FTE: Master's",
+    "fullname": "FTE: Master's",
     "info": "(No description)\n\nprereq: Master's student, adviser and DGS consent",
     "prereq": []
   },
   {
+    "uid": "8259311",
     "code": "NUTR 8411",
     "subject": "NUTR",
-    "id": "8411",
-    "title": "Obesity Prevention",
+    "number": "8411",
+    "name": "Obesity Prevention",
+    "fullname": "Obesity Prevention - From the Molecule to the Bedside",
     "info": "This course will cover research topics in obesity prevention at a graduate level.  The course will emphasize a multidisciplinary understanding of obesity in the following areas:\n\n• Adipocyte biology, including relevant issues relating to fat storage, retrieval, and trafficking of intracellular energy; adipose tissue function at a system level especially factors favoring fat storage and retrieval.\n\n• Physiology of obesity, to include neural and hormonal influences on energy balance, including brain mechanisms of appetite, feedback mechanisms triggered by negative energy balance, hedonic mechanisms, and feedback systems triggered by excess consumption. The interaction between obesity and hypertension, inflammation, cardiovascular disease, sleep, exercise, stress and the microbiome. \n\n• Clinical consequences of obesity with specific reference to the many organ system dysfunctions related to excess body weight. Treatment of obesity, with understanding of behavior change therapies. Bariatric and pharmaceutical approaches to the treatment of obesity, with emphasis on basic mechanisms involving brain, adipose tissue, and adipocytes. We will also cover special issues related to fetal programming of diabetes and pediatric obesity. \n\nStudy design and analyses for studies will be discussed within all arms. Students will engage in critical evaluation of literature in biological and clinical obesity prevention research. \n\nCourse learning objectives:  The student will gain a comprehensive understanding of adipocyte biology and function; animal obesity models; physiology of body fat regulation; central nervous system regulation of energy intake and energy expenditure; cardiovascular disease, hypertension, stress, microbiome and sleep effects in obesity; genetic and individual propensity for obesity; fetal programming of diabetes and clinical consequences and treatment of obesity in adults and children; pharmaceutical approaches; an understanding of design and analyses in all types of studies, and an ability to critically analyze relevant literature. \n\nPrerequisites:  This 8000 level course is intended for graduate students pursuing graduate work in a health science-related program.  Undergraduate degrees can include, but are not limited to, a Bachelor of Science in nutrition, physiology, integrative biology or other related degree.  The instructor will consider other majors on an individual basis and permission.",
     "prereq": {
       "code": "NUTR 8000",
       "subject": "NUTR",
-      "id": "8000"
+      "number": "8000"
     }
   },
   {
+    "uid": "7883831",
     "code": "NUTR 8444",
     "subject": "NUTR",
-    "id": "8444",
-    "title": "FTE: Doctoral",
+    "number": "8444",
+    "name": "FTE: Doctoral",
+    "fullname": "FTE: Doctoral",
     "info": "(No description)\n\nprereq: Doctoral student, adviser and DGS consent",
     "prereq": []
   },
   {
+    "uid": "0111381",
     "code": "NUTR 8610",
     "subject": "NUTR",
-    "id": "8610",
-    "title": "Nutr Grad Seminar",
+    "number": "8610",
+    "name": "Nutr Grad Seminar",
+    "fullname": "Nutrition Graduate Seminar",
     "info": "Presentation of thesis (M.S. or Ph.D.) or plan B project work in public seminar.",
     "prereq": []
   },
   {
+    "uid": "8126141",
     "code": "NUTR 8611",
     "subject": "NUTR",
-    "id": "8611",
-    "title": "Nutrition and Cancer",
+    "number": "8611",
+    "name": "Nutrition and Cancer",
+    "fullname": "The Role of Nutrition in Cancer Causation and Prevention",
     "info": "This is a lecture and seminar based course that covers issues in nutrition and cancer, with an emphasis on the role of nutritional factors in the etiology and prevention of cancer and how nutrition research is translated into dietary recommendations for cancer prevention. During the seminars, students will discuss current epidemiological, clinical and laboratory evidences on modulation of cancer risk by dietary factors.\n\nprereq: FScN 1112 (Principles of Nutrition), FScN 4612 (Advanced Human Nutrition), NUTR 5626 (Nutritional Physiology), Toxicology, Advanced Biology/Biochemistry/Genetics/Molecular Biology",
     "prereq": {
-      "and": [
-        {
-          "and": [
-            {
-              "code": "FSCN 1112",
-              "subject": "FSCN",
-              "id": "1112"
-            },
-            {
-              "code": "FSCN 4612",
-              "subject": "FSCN",
-              "id": "4612"
-            }
-          ]
-        },
-        {
-          "code": "NUTR 5626",
-          "subject": "NUTR",
-          "id": "5626"
-        }
-      ]
+      "code": "NUTR 5626",
+      "subject": "NUTR",
+      "number": "5626"
     }
   },
   {
+    "uid": "0123791",
     "code": "NUTR 8612",
     "subject": "NUTR",
-    "id": "8612",
-    "title": "Diet & Chronic Disease",
+    "number": "8612",
+    "name": "Diet & Chronic Disease",
+    "fullname": "Advances in Nutrition: Diet and Chronic Disease",
     "info": "Recent research on relationship of diet to development/treatment of chronic diseases, including cancer, diabetes, and osteoporosis. Clinical, animal, and cell culture studies examined epidemiologically.",
     "prereq": []
   },
   {
+    "uid": "0123921",
     "code": "NUTR 8613",
     "subject": "NUTR",
-    "id": "8613",
-    "title": "Lipopro, Cholest",
+    "number": "8613",
+    "name": "Lipopro, Cholest",
+    "fullname": "Advances in Nutrition: Lipoproteins, Cholesterol, and Atherosclerosis",
     "info": "Lipoprotein biochemistry and physiology, environmental and genetic factors influencing cholesterol metabolism, efficacy of diet therapy and lipid lowering in heart disease prevention, use of drugs in atherosclerosis, putative role of lipoprotein oxidation in atherosclerosis. Human studies and animal models in atherosclerosis research.",
     "prereq": []
   },
   {
+    "uid": "0123991",
     "code": "NUTR 8614",
     "subject": "NUTR",
-    "id": "8614",
-    "title": "Adv Energy Balance",
+    "number": "8614",
+    "name": "Adv Energy Balance",
+    "fullname": "Advances in Nutrition: Advanced Energy Balance",
     "info": "Recent literature on energy balance and body composition in animals and humans.",
     "prereq": []
   },
   {
+    "uid": "0124011",
     "code": "NUTR 8615",
     "subject": "NUTR",
-    "id": "8615",
-    "title": "Exercise Metabolism",
+    "number": "8615",
+    "name": "Exercise Metabolism",
+    "fullname": "Advances in Nutrition: Exercise Metabolism",
     "info": "Review of research on effects of diet on exercise metabolism.",
     "prereq": []
   },
   {
+    "uid": "0124021",
     "code": "NUTR 8616",
     "subject": "NUTR",
-    "id": "8616",
-    "title": "Micro Nutrients",
+    "number": "8616",
+    "name": "Micro Nutrients",
+    "fullname": "Advances in Nutrition: Free Radicals, Trace Elements, and Other Micronutrients",
     "info": "Free radical chemistry, cellular biology, and micronutrient nutrition considered in roles of pro-oxidants and antioxidants in human diseases and aging. Current understanding of biological action of free radicals and role of micronutrients in antioxidant protection in humans and animals.",
     "prereq": []
   },
   {
+    "uid": "7889561",
     "code": "NUTR 8617",
     "subject": "NUTR",
-    "id": "8617",
-    "title": "Cancer and Chemoprevention",
+    "number": "8617",
+    "name": "Cancer and Chemoprevention",
+    "fullname": "Chemical Carcinogenesis and Chemoprevention",
     "info": "Fundamental background in  chemical carcinogenesis, carcinogen activation/detoxification, carcinogen-DNA adduct formation, cellular oncogenesis, cancer chemoprevention, nutrition/cancer. Topics integrated/interrelated.",
     "prereq": []
   },
   {
+    "uid": "7918491",
     "code": "NUTR 8618",
     "subject": "NUTR",
-    "id": "8618",
-    "title": "Neuroregulation of Metabolism",
+    "number": "8618",
+    "name": "Neuroregulation of Metabolism",
+    "fullname": "Neuroregulation of Energy Metabolism",
     "info": "Advanced topics on neural regulation of food intake and energy expenditure. Neurotransmitters, including NPY, opioids, urocortin, melanocortins, oxytocin, and vasopressin. Genetics of obesity. Behavioral aspects of feeding. Energy balance. Macronutrient specific appetite. Energy expenditure. Uncoupling proteins. Vagal feeding regulation. Drug therapy for obesity. Eating disorders. Students read/discuss key research papers.",
     "prereq": []
   },
   {
+    "uid": "0123731",
     "code": "NUTR 8620",
     "subject": "NUTR",
-    "id": "8620",
-    "title": "Advances in Nutrition",
+    "number": "8620",
+    "name": "Advances in Nutrition",
+    "fullname": "Advances in Nutrition",
     "info": "Recent research or special topics (e.g., obesity, vitamin biochemistry, nutrition education).\n",
     "prereq": []
   },
   {
+    "uid": "0111391",
     "code": "NUTR 8621",
     "subject": "NUTR",
-    "id": "8621",
-    "title": "Presentation Skills",
+    "number": "8621",
+    "name": "Presentation Skills",
+    "fullname": "Presentation Skills",
     "info": "Orientation to nutrition graduate program. Presenting scientific seminars, using electronic presentation programs/equipment.\n\nprereq: dept consent",
     "prereq": []
   },
   {
+    "uid": "7885051",
     "code": "NUTR 8666",
     "subject": "NUTR",
-    "id": "8666",
-    "title": "Doct Pre-Thesis Cr",
+    "number": "8666",
+    "name": "Doct Pre-Thesis Cr",
+    "fullname": "Doctoral Pre-Thesis Credits",
     "info": "tbd\n\nprereq: Doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
     "prereq": []
   },
   {
+    "uid": "7879151",
     "code": "NUTR 8695",
     "subject": "NUTR",
-    "id": "8695",
-    "title": "Independent Study: Nutrition",
+    "number": "8695",
+    "name": "Independent Study: Nutrition",
+    "fullname": "Independent Study: Nutrition",
     "info": "Written report for master's plan B project.\n\nprereq: instr consent",
     "prereq": []
   },
   {
+    "uid": "7886331",
     "code": "NUTR 8777",
     "subject": "NUTR",
-    "id": "8777",
-    "title": "Thesis Credit:Mast*",
+    "number": "8777",
+    "name": "Thesis Credit:Mast*",
+    "fullname": "Thesis Credits: Master's",
     "info": "(No description)\n\nprereq: Max 18 cr per semester or summer; 10 cr total required [Plan A only]",
     "prereq": []
   },
   {
+    "uid": "7879001",
     "code": "NUTR 8888",
     "subject": "NUTR",
-    "id": "8888",
-    "title": "Thesis Credit:Doct*",
+    "number": "8888",
+    "name": "Thesis Credit:Doct*",
+    "fullname": "Thesis Credit: Doctoral",
     "info": "(No description)\n\nprereq: Max 18 cr per semester or summer; 24 cr required",
     "prereq": []
   },
   {
+    "uid": "7899971",
     "code": "NUTR 8900",
     "subject": "NUTR",
-    "id": "8900",
-    "title": "Adv Lifestyle Nutr",
+    "number": "8900",
+    "name": "Adv Lifestyle Nutr",
+    "fullname": "Advances in Nutrition: Advanced Lifestyle Nutrition",
     "info": "Evaluation and discussion of research and research issues in nutrition during various stages of the life cycle. Methodological issues of applied human nutrition investigation, current status of knowledge, and implication of research results to public health policies, programs, and future research.",
     "prereq": []
   }

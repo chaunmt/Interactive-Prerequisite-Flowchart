@@ -1,175 +1,209 @@
 [
   {
+    "uid": "7896111",
     "code": "TRIN 1201",
     "subject": "TRIN",
-    "id": "1201",
-    "title": "Health Care for Interpreters",
+    "number": "1201",
+    "name": "Health Care for Interpreters",
+    "fullname": "Health Care Terms and Concepts for Interpreters",
     "info": "Technical vocabulary, oral discourse patterns used by health\ncare providers in talking to patients, family members. Language of American health care interview.",
     "prereq": []
   },
   {
+    "uid": "7908591",
     "code": "TRIN 1301",
     "subject": "TRIN",
-    "id": "1301",
-    "title": "American Law for Interpreters",
+    "number": "1301",
+    "name": "American Law for Interpreters",
+    "fullname": "Legal Terms and Concepts for Interpreters",
     "info": "American legal system. Technical vocabulary used in courts and other legal settings. Oral legal discourse. Presentations by specialists, discussion, exercises for review/practice.",
     "prereq": []
   },
   {
+    "uid": "8155441",
     "code": "TRIN 1901",
     "subject": "TRIN",
-    "id": "1901",
-    "title": "Special Ed Terms & Concepts",
+    "number": "1901",
+    "name": "Special Ed Terms & Concepts",
+    "fullname": "Special Education Terms and Concepts for Interpreters",
     "info": "This course is designed to introduce students to the terminology, processes, concepts, and legalities involved in interpreting in special education settings.",
     "prereq": []
   },
   {
+    "uid": "0133121",
     "code": "TRIN 3001",
     "subject": "TRIN",
-    "id": "3001",
-    "title": "Intro: Translation",
+    "number": "3001",
+    "name": "Intro: Translation",
+    "fullname": "Introduction to Translation",
     "info": "Theory of and supervised practice in translation. Re-expressing meaning in a second language. Translation primarily of English language texts concerning public health/safety, legal/voting rights, regulations, and procedures.\n\nprereq: Bilingual proficiency in [English, second language of instruction]",
     "prereq": []
   },
   {
+    "uid": "7953901",
     "code": "TRIN 3002",
     "subject": "TRIN",
-    "id": "3002",
-    "title": "Intermediate Translation",
+    "number": "3002",
+    "name": "Intermediate Translation",
+    "fullname": "Intermediate Translation",
     "info": "Additional instruction and supervised practice in translation.\n\nprereq: 3001",
     "prereq": {
       "code": "TRIN 3001",
       "subject": "TRIN",
-      "id": "3001"
+      "number": "3001"
     }
   },
   {
+    "uid": "7966041",
     "code": "TRIN 3005",
     "subject": "TRIN",
-    "id": "3005",
-    "title": "Principles of Translation",
+    "number": "3005",
+    "name": "Principles of Translation",
+    "fullname": "Principles of Translation",
     "info": "Key linguistic principles that help us understand how language makes meaning. Applying principles to translation.\n\nprereq: Fluent in English, proficient in a second language; basic knowledge of English grammar recommended",
     "prereq": []
   },
   {
+    "uid": "0133131",
     "code": "TRIN 3101",
     "subject": "TRIN",
-    "id": "3101",
-    "title": "Intro Interpreting",
+    "number": "3101",
+    "name": "Intro Interpreting",
+    "fullname": "Introduction to Interpreting",
     "info": "Practical and theoretical introduction to interpreting in health, human service, and legal settings. Emphasis on understanding the unique role of the interpreter, current models and modes of interpreting, ethical issues and professional standards of practice, and developing pre-interpreting skills.\n\nprereq: high level of proficiency in spoken English and another language; 3001 recommended",
     "prereq": {
       "code": "TRIN 3001",
       "subject": "TRIN",
-      "id": "3001"
+      "number": "3001"
     }
   },
   {
+    "uid": "0133141",
     "code": "TRIN 3102",
     "subject": "TRIN",
-    "id": "3102",
-    "title": "Consecutive Interpreting",
+    "number": "3102",
+    "name": "Consecutive Interpreting",
+    "fullname": "Consecutive Interpreting",
     "info": "\t\nPractice/theory at professional level in interpreting in health, human service, legal settings. Emphasizes professional/client dialogues. Consecutive interpreting skills, vocabulary research/storage, intercultural issues. Analyzing interpretive process. Performance assessment through audio/videotaping. Subject languages (e.g., Spanish, Russian, Somali) specified for each section. prereq: 3101, high level of proficiency in [spoken English, another language]",
     "prereq": {
       "code": "TRIN 3101",
       "subject": "TRIN",
-      "id": "3101"
+      "number": "3101"
     }
   },
   {
+    "uid": "0136011",
     "code": "TRIN 3103",
     "subject": "TRIN",
-    "id": "3103",
-    "title": "Interpreting II",
+    "number": "3103",
+    "name": "Interpreting II",
+    "fullname": "Interpreting II",
     "info": "Practical and theoretical course aimed at achieving professional levels of proficiency with emphasis on interpreting professional/client dialogues. Analysis of the interpreting process, consecutive and simultaneous interpreting, intercultural issues, and situational ethics. Subject language specified in Class Schedule.",
     "prereq": []
   },
   {
+    "uid": "7957771",
     "code": "TRIN 3900",
     "subject": "TRIN",
-    "id": "3900",
-    "title": "Topics Trans Interp",
+    "number": "3900",
+    "name": "Topics Trans Interp",
+    "fullname": "Topics in Translation and Interpreting",
     "info": "Topics specified in Class Schedule.",
     "prereq": []
   },
   {
+    "uid": "7926021",
     "code": "TRIN 4201",
     "subject": "TRIN",
-    "id": "4201",
-    "title": "Interpreting in Health Care",
+    "number": "4201",
+    "name": "Interpreting in Health Care",
+    "fullname": "Interpreting in Health Care Settings",
     "info": "Practice in interpreting simulated clinical encounters and monologues. Fluency/accuracy in consecutive/simultaneous modes. Sight translation, medical vocabulary in two languages, ethical/situational considerations in health care interpreting. Coursework mainly in bilingual sections (English, another language).\n\nprereq: 1201, 3102",
     "prereq": {
       "and": [
         {
           "code": "TRIN 1201",
           "subject": "TRIN",
-          "id": "1201"
+          "number": "1201"
         },
         {
           "code": "TRIN 3102",
           "subject": "TRIN",
-          "id": "3102"
+          "number": "3102"
         }
       ]
     }
   },
   {
+    "uid": "7945101",
     "code": "TRIN 4301",
     "subject": "TRIN",
-    "id": "4301",
-    "title": "Interpreting in Legal Settings",
+    "number": "4301",
+    "name": "Interpreting in Legal Settings",
+    "fullname": "Interpreting in Legal Settings",
     "info": "Principles/practice of interpreting in legal settings. Skill-building for fluency/accuracy in simultaneous/consecutive modes. Sight translation. Legal register in two languages. Ethical considerations, courtroom conduct. Observation of actual court proceedings. Coursework mainly in bilingual sections (English, another language).\n\nprereq: 1301, 3102",
     "prereq": {
       "and": [
         {
           "code": "TRIN 1301",
           "subject": "TRIN",
-          "id": "1301"
+          "number": "1301"
         },
         {
           "code": "TRIN 3102",
           "subject": "TRIN",
-          "id": "3102"
+          "number": "3102"
         }
       ]
     }
   },
   {
+    "uid": "8168701",
     "code": "TRIN 4901",
     "subject": "TRIN",
-    "id": "4901",
-    "title": "Interpreting in Special Ed",
+    "number": "4901",
+    "name": "Interpreting in Special Ed",
+    "fullname": "Interpreting in Special Education Settings",
     "info": "This course is designed to build interpreting capacity and competency in the specialized field of educational interpreting. It is also designed to give students simulated opportunities to employ the terminology, processes, concepts, and legalities studied in TRIN 1901.\n",
     "prereq": []
   },
   {
+    "uid": "0133151",
     "code": "TRIN 5900",
     "subject": "TRIN",
-    "id": "5900",
-    "title": "Topics Trans Interp",
+    "number": "5900",
+    "name": "Topics Trans Interp",
+    "fullname": "Topics in Translation and Interpreting",
     "info": "Topics specified in Class Schedule.",
     "prereq": []
   },
   {
+    "uid": "0133161",
     "code": "TRIN 5993",
     "subject": "TRIN",
-    "id": "5993",
-    "title": "Directed Study",
+    "number": "5993",
+    "name": "Directed Study",
+    "fullname": "Directed Study",
     "info": "Directed study in translation/interpretation.",
     "prereq": []
   },
   {
+    "uid": "8076911",
     "code": "TRIN 900",
     "subject": "TRIN",
-    "id": "900",
-    "title": "Special Ed for Interpreters",
+    "number": "900",
+    "name": "Special Ed for Interpreters",
+    "fullname": "Special Education for Interpreters",
     "info": "Terminology, processes, concepts, and legalities involved in interpreting in special education settings.",
     "prereq": []
   },
   {
+    "uid": "8083391",
     "code": "TRIN 990",
     "subject": "TRIN",
-    "id": "990",
-    "title": "Interpreting in Special Ed",
+    "number": "990",
+    "name": "Interpreting in Special Ed",
+    "fullname": "Interpreting in Special Education Settings",
     "info": "Advanced skills to apply special education protocols/concepts to simulated interpreting encounters. Self-assessment, glossary compilation, critical analysis, review of ethical procedures.",
     "prereq": []
   }

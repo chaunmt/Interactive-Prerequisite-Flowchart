@@ -1,85 +1,101 @@
 [
   {
+    "uid": "8091461",
     "code": "VBS 1001",
     "subject": "VBS",
-    "id": "1001",
-    "title": "Intro Biotechnology",
+    "number": "1001",
+    "name": "Intro Biotechnology",
+    "fullname": "Introduction to Biotechnology",
     "info": "Basic understanding of cell biology/biotechnology. Laboratory exercises using modern molecular biotechnology techniques. Lectures. History of biotechnology. Cell biology/biotechnology. Develop research plan.",
     "prereq": []
   },
   {
+    "uid": "0129751",
     "code": "VBS 2022",
     "subject": "VBS",
-    "id": "2022",
-    "title": "General Microbiology",
+    "number": "2022",
+    "name": "General Microbiology",
+    "fullname": "General Microbiology",
     "info": "Fundamental principles of microbiology. Bacterial metabolism, growth, genetics. Biology of viruses/fungi. Control of microorganisms. Host-microbe interactions. Microorganisms/disease. Applied microbiology. Lecture.\n\nprereq: One semester each of college chemistry, biology",
     "prereq": []
   },
   {
+    "uid": "0129761",
     "code": "VBS 2032",
     "subject": "VBS",
-    "id": "2032",
-    "title": "General Microbiology w/Lab",
+    "number": "2032",
+    "name": "General Microbiology w/Lab",
+    "fullname": "General Microbiology With Laboratory",
     "info": "Bacterial metabolism, growth/genetics, biology of viruses/fungi. Control of microorganisms. Host-microbe interactions, microorganisms/disease, applied microbiology.\n\nprereq: One semester each of college chemistry, biology",
     "prereq": []
   },
   {
+    "uid": "8089381",
     "code": "VBS 2100",
     "subject": "VBS",
-    "id": "2100",
-    "title": "Comp Animal Anatomy",
+    "number": "2100",
+    "name": "Comp Animal Anatomy",
+    "fullname": "Companion Animal Anatomy",
     "info": "Develop anatomical knowledge through study/dissection. Compare/contrast animal adaptations.\n\nPrereq: General Biology (e.g., BIOL 1009) is recommended",
-    "prereq": {
-      "code": "BIOL 1009",
-      "subject": "BIOL",
-      "id": "1009"
-    }
+    "prereq": []
   },
   {
+    "uid": "7882881",
     "code": "VBS 8333",
     "subject": "VBS",
-    "id": "8333",
-    "title": "FTE: Master's",
+    "number": "8333",
+    "name": "FTE: Master's",
+    "fullname": "FTE: Master's",
     "info": "(No description)",
     "prereq": []
   },
   {
+    "uid": "7884221",
     "code": "VBS 8444",
     "subject": "VBS",
-    "id": "8444",
-    "title": "FTE: Doctoral",
+    "number": "8444",
+    "name": "FTE: Doctoral",
+    "fullname": "FTE: Doctoral",
     "info": "(No description)",
     "prereq": []
   },
   {
+    "uid": "7885431",
     "code": "VBS 8666",
     "subject": "VBS",
-    "id": "8666",
-    "title": "Doct Pre-Thesis Cr",
+    "number": "8666",
+    "name": "Doct Pre-Thesis Cr",
+    "fullname": "Doctoral Pre-Thesis Credits",
     "info": "(No description)",
     "prereq": []
   },
   {
+    "uid": "0134471",
     "code": "VBS 8700",
     "subject": "VBS",
-    "id": "8700",
-    "title": "Vet Patho Seminar",
+    "number": "8700",
+    "name": "Vet Patho Seminar",
+    "fullname": "Seminar: Veterinary Pathobiology",
     "info": "To be determined",
     "prereq": []
   },
   {
+    "uid": "7886751",
     "code": "VBS 8777",
     "subject": "VBS",
-    "id": "8777",
-    "title": "Thesis Credit:Mast*",
+    "number": "8777",
+    "name": "Thesis Credit:Mast*",
+    "fullname": "Thesis Credits: Master's",
     "info": "(No description)",
     "prereq": []
   },
   {
+    "uid": "7879431",
     "code": "VBS 8888",
     "subject": "VBS",
-    "id": "8888",
-    "title": "Thesis Credit:Doct*",
+    "number": "8888",
+    "name": "Thesis Credit:Doct*",
+    "fullname": "Thesis Credit: Doctoral",
     "info": "(No description)",
     "prereq": []
   }
