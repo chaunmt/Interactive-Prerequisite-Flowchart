@@ -141,11 +141,8 @@ function extractCourses(str, targetSubject, targetId) {
     // Remove semester and year (not a course)
     // ASSUME: NO PREREQ"S SUBJECT --> USE TARGET"S SUBJECT
     if (!(subject == "INSIDE") && !allSubjects.includes(subject)) {
-      if (!allSems.includes(subject)) {
-        subject = targetSubject;
-      } else {
-        return null;
-      }
+      if (allSems.includes(subject)) return null;
+      subject = targetSubject;
     }
 
     // If this course = target, it is not prereq
@@ -469,6 +466,7 @@ function exportDogs(SUBJECT) {
   let subject = SUBJECT;
   let subjectCode = subject == "allCourses" ? "" : "subjectCode=" + subject;
   let fileName = subject + ".json";
+  // NOTE: Write path is relative to location of execution and *not* this file
   let filePath = "./app/data/Dog/"; // For offical data folder
   // let filePath = "./app/data/"  // For testing purpose
   let returnFields = "&returnFields=subjectCode,courseNumber,name,description"; // preq is at the end of description
@@ -488,9 +486,7 @@ function exportDogs(SUBJECT) {
       let courses = filterNull(
         data.data.map((course) => {
           // Filter out prerequisites
-          // if (course.subjectCode + " " + course.courseNumber == "ECON 4960") console.log("before: " + course.description + "\n\n");
           let descrip = course.description.toLowerCase();
-          // if (course.subjectCode + " " + course.courseNumber == "ECON 4960") console.log("after: " + course.description + "\n\n");
           let splitPattern = "\n\n\n\n\n";
           if (descrip.includes("prereq:")) {
             splitPattern = "prereq:";
@@ -517,8 +513,6 @@ function exportDogs(SUBJECT) {
           ) {
             return null;
           }
-
-          // if (course.subjectCode + " " + course.courseNumber == "ECON 4960") console.log("end: " + course.description + "\n\n");
 
           return {
             code: course.subjectCode + " " + course.courseNumber,
@@ -556,6 +550,6 @@ let allCourseNumbers = require("./General/id/allCourses.json");
 exportDogs("allCourses");
 
 // Export each course json data files
-// for (let pup of allSubjects) {
-//   exportDogs(pup);
-// }
+for (let pup of allSubjects) {
+  exportDogs(pup);
+}
