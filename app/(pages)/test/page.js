@@ -11,9 +11,10 @@ import {
   PrereqTraversal,
 } from "../../data/types";
 
+import { Search } from "../../data/search";
+
 export default function Page() {
   /* access.ts tests */
-
   let shell1 = {
     code: "MATH 5466",
     subject: "MATH",
@@ -36,6 +37,10 @@ export default function Page() {
   let test4 = Access("MATH").isPrereq(shell2, Access("MATH").get(shell1));
   console.log(`=== targets of ${shell3.code}===`);
   console.log(Access("CSCI").target(shell3));
+
+  /* search access test */
+  let test5 = Search().courseByName("Admin");
+  let test6 = Search().deptByName("Classical");
 
   /* graphBuilder.ts tests */
 
@@ -70,6 +75,10 @@ export default function Page() {
       <br></br>
       {/* test5 = Access("MATH").target(shell1)[0].title = {test5} */}
       <Mermaid graph={builtgraph} />
+      <br></br>
+      test5 = SearchName().courseByName(&quotAdmin & Leader/HiEd&quot) = {test5[4].title}
+      <br></br>
+      test6 = SearchName().deptByName(&quotClassical&quot) = {test6[1]}
     </div>
   );
 }
