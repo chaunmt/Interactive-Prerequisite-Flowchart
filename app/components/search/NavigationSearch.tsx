@@ -8,27 +8,47 @@ import React, { useState, useEffect, Component } from "react";
 import Link from "next/link";
 
 /**
- * 
- */
-interface SearchResult {
-  display_name: string;
-  //support both links to other pages and callback functions
-  representation: Component;
-}
-
-/**
  * // TODO: make SearchResult[] object or something with onClick that can do a
  * // react Link or handler function somehow 
  * // (prolly another component now that i think about it)
  * 
- * @param {SearchResult[]} searchResults results to be displayed in a list
+ * @param {any[]} searchResults results to be displayed in a list
  * @returns 
  */
-function SearchResultsList({ searchResults }: { searchResults: SearchResult[] }) {
+function SearchResultsList({ filteredData }: { filteredData: any[] }) {
   // TODO: inline vs hoverable list options, many options, this is meant to be customizable
+
+  return (
+    <ul className="list">
+      {filteredData.length > 0 ? (
+        <li>
+          <Link href={`/${filteredData[0].subject}`}>
+            {filteredData[0].subject}
+          </Link>
+        </li>
+      ) : (
+        ""
+      )}
+      {filteredData.length > 0 ? (
+        filteredData.map((course, index) => (
+          <li key={index}>
+            <Link href={`/${course.subject}/${course.id}`}>
+              {course.code} - {course.title}
+            </Link>
+          </li>
+        ))
+      ) : (
+        <li>No search results</li>
+      )}
+    </ul>
+  );
 }
 
-function NavigationSearch({ sendResults }: { sendResults: (a: string) => void}) {
+/**
+ * Global search bar that allows you to choose a department and narrow down 
+ * results from there
+ */
+function NavigationSearch() {
   const [search, setSearch] = useState("");
   const [courses, setCourses] = useState([]);
   const [filteredData, setFilteredData] = useState([]);
@@ -73,30 +93,7 @@ function NavigationSearch({ sendResults }: { sendResults: (a: string) => void}) 
   return (
     <div className="Search">
       <SearchBar value={search} sendQuery={handleSearch} />
-      {search && (
-        <ul className="list">
-          {filteredData.length > 0 ? (
-            <li>
-              <Link href={`/${filteredData[0].subject}`}>
-                {filteredData[0].subject}
-              </Link>
-            </li>
-          ) : (
-            ""
-          )}
-          {filteredData.length > 0 ? (
-            filteredData.map((course, index) => (
-              <li key={index}>
-                <Link href={`/${course.subject}/${course.id}`}>
-                  {course.code} - {course.title}
-                </Link>
-              </li>
-            ))
-          ) : (
-            <li>No search results</li>
-          )}
-        </ul>
-      )}
+      {search && <SearchResultsList filteredData={filteredData} />}
     </div>
   );
 }

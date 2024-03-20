@@ -6,8 +6,10 @@
 /**
  * Search Bar UI Component that accepts and sends back search query values
  * 
+ * (<input> but pretty)
+ * 
  * @callback sendQuery
- * @param {{value: string, sendQuery: function(event: any): void}} props 3edl;kfjas;l
+ * @param {{value: string, sendQuery: function(event: any): void}} props
  * @returns 
  */
 export default function SearchBar({ value, sendQuery }: { value: string, sendQuery: (event: any) => void}) {
