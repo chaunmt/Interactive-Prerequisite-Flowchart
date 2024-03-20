@@ -141,7 +141,9 @@ function extractCourses(str, targetSubject, targetId) {
     // Remove semester and year (not a course)
     // ASSUME: NO PREREQ"S SUBJECT --> USE TARGET"S SUBJECT
     if (!(subject == "INSIDE") && !allSubjects.includes(subject)) {
-      if (allSems.includes(subject)) return null;
+      if (allSems.includes(subject)) {
+        return null;
+      }
       subject = targetSubject;
     }
 
@@ -354,8 +356,10 @@ function convertLogic(str, targetSubject, targetId) {
 
 /** Replace encoded substring with decoded data */
 function decodeBracket(data, encodedData) {
-  if (!data) return null;
-
+  if (!data) {
+    return null;
+  }
+  
   // Handle "and" array, "or" array
   if (data.and) {
     if (data.and.length == 1) {
