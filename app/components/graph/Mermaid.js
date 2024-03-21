@@ -2,7 +2,7 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import mermaid from "mermaid";
-import "../styles/GraphPage.css";  
+import "../styles/Mermaid.css";  
 
 const config = {
   theme: 'neutral',  // this should be dynamically updated

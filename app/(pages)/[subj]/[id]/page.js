@@ -8,7 +8,6 @@ import Custom404 from "../../[errors]/404";
 
 import "../../../components/styles/Idpage.css"
 import "../../../components/styles/Layout.css";
-import "../../../components/styles/GraphPage.css";
 
 export async function generateMetadata({ params, searchParams }, parent) {
   return {
