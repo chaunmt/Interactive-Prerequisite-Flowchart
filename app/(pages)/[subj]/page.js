@@ -5,6 +5,8 @@ import { NavigationSearch } from "../../components/search/NavigationSearch";
 import Custom404 from "../[errors]/404";
 import Graph from "../../components/graph/Graph";
 
+import "../../components/styles/SearchBarSmall.css"
+
 export async function generateMetadata({ params, searchParams }, parent) {
   return {
     title: `${params.subj.toUpperCase()} Courses`,

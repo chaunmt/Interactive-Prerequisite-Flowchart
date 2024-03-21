@@ -8,6 +8,7 @@ import Custom404 from "../../[errors]/404";
 
 import "../../../components/styles/Idpage.css";
 import "../../../components/styles/Layout.css";
+import "../../../components/styles/SearchBarSmall.css"
 
 import { FiDownload } from "react-icons/fi";
 import { IoReturnUpBackOutline } from "react-icons/io5";
@@ -30,20 +31,20 @@ export default function Page({ params }) {
     <div id="content">
       <div id="nav">
         <Link href={"/" + SUBJ}>
-          <button id="go-back"><IoReturnUpBackOutline /></button>
+          <button id="back"><IoReturnUpBackOutline /></button>
         </Link>
-        <NavigationSearch id="small" />
+        <NavigationSearch/>
       </div>
       <div id="container">
         <div id="graph">
-          <div id="graph-header">
+          <div id="head">
             <div
               id="warning"
               title="Prerequisite information is unreliable and subject to change during and between terms."
             >
               <b>*Possible Prerequisites</b>
             </div>
-            <button id="graph-download"><FiDownload /></button>
+            <button id="download"><FiDownload /></button>
           </div>
           <Graph sourceData={course} />
           {/* <Mermaid graph={graphString} /> */}

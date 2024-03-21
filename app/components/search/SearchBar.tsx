@@ -1,7 +1,7 @@
 /**
  * SearchBar.tsx - Search Bar UI Component
  */
-import "../styles/SearchBar.css"
+// import "../styles/SearchBar.css"
 
 /**
  * Search Bar UI Component that accepts and sends back search query values
