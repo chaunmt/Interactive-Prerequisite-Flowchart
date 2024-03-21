@@ -12,13 +12,64 @@
 
 .item {
   text-align: center;
-  background-color: var(--course-card);
+  background-color: transparent;
   border-radius: 0.2rem;
   padding: 0.5rem;
-  width: 6rem;
+  width: 100%;
   height: 3rem;
   font-size: 1.1rem;
   font-weight: bold;
   border: none;
+  cursor: pointer;
+}
+
+.item:hover {
+  background-color: var(--course-card-hover);
+  color: var(--p-color-hover);
+}
+
+#items {
   box-shadow: 0rem 0rem 0.2rem var(--shadow);
+  height: 30%;
+  overflow-y: scroll;
+}
+
+#selectedItems {
+  box-shadow: 0rem 0rem 0.2rem var(--shadow);
+  height: 30%;
+  overflow-y: scroll;
+}
+
+#items::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+#items::-webkit-scrollbar-track {
+  background: var(--scroll-track);
+}
+
+#items::-webkit-scrollbar-thumb {
+  background: var(--scroll-thumb);
+  border-radius: 0.2rem;
+}
+
+#items::-webkit-scrollbar-thumb:hover {
+  background: var(--scroll-thumb-hover);
+}
+
+#selectedItems::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+#selectedItems::-webkit-scrollbar-track {
+  background: var(--scroll-track);
+}
+
+#selectedItems::-webkit-scrollbar-thumb {
+  background: var(--scroll-thumb);
+  border-radius: 0.2rem;
+}
+
+#selectedItems::-webkit-scrollbar-thumb:hover {
+  background: var(--scroll-thumb-hover);
 }

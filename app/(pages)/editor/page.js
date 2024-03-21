@@ -49,17 +49,21 @@ export default function Page({ params }) {
 
   return (
     <div id="editor">
-      <div id="instruction">
+      <div id="resultGraph">
         {courses.length === 0 ? (
           <h2>Add courses to the right to get started</h2>
         ) : (
           <Graph sourceData={courses} />
         )}
       </div>
-      <div>
+      <div id="picker">
         <div id="picker-header">
-          <SearchBar value={search} sendQuery={handleSearch} />
-          <div id="selectedTitle"><h2>Selected</h2></div>
+          <div id="searchPicker">
+            <SearchBar value={search} sendQuery={handleSearch} />
+          </div>
+          <div id="selectedPicker">
+            <div id="selectedTitle"><h2>Selected</h2></div>
+          </div>
         </div>
         <DualPanePicker
           items={items}
