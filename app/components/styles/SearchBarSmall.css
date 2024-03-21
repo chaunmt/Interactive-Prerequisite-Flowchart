@@ -22,7 +22,7 @@
   background-color: var(--search-result-container);
   box-shadow: 0.1rem 0.1rem 0.2rem var(--shadow);
   max-height: 15rem;
-  max-width: 25rem;
+  width: 25rem;
   overflow-y: auto;
   z-index: 999;
 }
