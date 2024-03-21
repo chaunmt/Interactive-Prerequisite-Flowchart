@@ -11,7 +11,7 @@ import { CoursesTable } from "../../components/table/CoursesTable";
 import "../../components/styles/SearchBarSmall.css"
 import "../../components/styles/SubjPage.css"
 
-import { IoReturnUpBackOutline } from "react-icons/io5";
+import { MdOpenInNew } from "react-icons/md";
 
 export async function generateMetadata({ params, searchParams }, parent) {
   return {
@@ -37,11 +37,16 @@ export default function Page({ params }) {
         </div>
         <div id="courseBox">
           <div id="infoBox">
-            <h2>
-              SUBJ XXXX
-              <br></br>
-              NAME OF SELECTED COURSE
-            </h2>
+            <div id="infoBoxHead">
+              <h2>
+                SUBJ XXXX
+                <br></br>
+                NAME OF SELECTED COURSE
+              </h2>
+              <button id="openId">
+                <MdOpenInNew />
+              </button>
+            </div>
             <p>*Possible Prerequisites: XXXX</p>
           </div>
           <div id="graphBox">

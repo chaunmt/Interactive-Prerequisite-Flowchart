@@ -18,11 +18,11 @@ function CoursesTable({ SUBJ_COURSES }: { SUBJ_COURSES: Course[] }) {
 
   function formatCard(course: Course) {
     return (
-        <button 
-          className="card"
-          onClick={handleClickCard}>
-          {course.id}
-        </button>
+      <button 
+        className="card"
+        onClick={handleClickCard}>
+        {course.id}
+      </button>
     );
   };
 
