@@ -3,6 +3,7 @@ import Footer from "../components/layout/Footer";
 import { Keywords } from "../components/layout/Meta";
 
 import { Metadata } from "next";
+import "../components/styles/Layout.css";
 
 export const metadata: Metadata = {
   title: {
@@ -24,9 +25,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Header />
-        <main>
-          {children}
-        </main>
+        <main>{children}</main>
         <Footer />
       </body>
     </html>

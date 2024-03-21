@@ -3,25 +3,25 @@
 :root {
   /* ---------------------------- New set of global color and variables ---------------------------- */
   /* Colors */
-  --uomn-red: #8C001F;
+  --uomn-red: #8c001f;
   --maroon-red: #800000;
   --uomn-dark-red: #610014;
-  --uomn-yellow: #FFDE7A;
-  
-  --hightlight-yellow: #FFCC33;
-  --hightlight-purple: #8B80F9;
+  --uomn-yellow: #ffde7a;
 
-  --bright-yellow: #FFDE7A;
-  --bright-purple: #B8BAFF;
-  --bright-pink: #FF7AC2;
-  --bright-blue: #7FEDFC;
-  --bright-green: #A6FF97;
+  --hightlight-yellow: #ffcc33;
+  --hightlight-purple: #8b80f9;
 
-  --light-gray: #F5F5F5;
-  --uom-gray: #F9F7F6;
-  --mild-gray-1: #D4D2D3; 
-  --mild-gray-2: #D9D9D9;
-  --dark-gray: #3B413C;
+  --bright-yellow: #ffde7a;
+  --bright-purple: #b8baff;
+  --bright-pink: #ff7ac2;
+  --bright-blue: #7fedfc;
+  --bright-green: #a6ff97;
+
+  --light-gray: #f5f5f5;
+  --uom-gray: #f9f7f6;
+  --mild-gray-1: #d4d2d3;
+  --mild-gray-2: #d9d9d9;
+  --dark-gray: #3b413c;
 
   /* Color variables */
   --header-bar: var(--mild-gray-2);
@@ -33,14 +33,19 @@
 
   --border: var(--dark-gray);
 
+  --info-box: white;
+  --graph-box: var(--mild-gray-2);
+  --warning: var(--uomn-red);
+
+  --title: var(--maroon-red);
 
   /* ---------------------------- OLD Global color variables ---------------------------- */
   --bg-color: #eeeeee;
   --search-bg-color: #d2d0d0;
   --shadow: #00000066;
 
-  --title: #464646;
-  --title-p: hsl(0, 100%, 25%);
+  /* --title: #464646; */
+  --title-p: #800000;
 
   --header-p-color: #ef6464;
   --header-nav-highlight: #000000;
