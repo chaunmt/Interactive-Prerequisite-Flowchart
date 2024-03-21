@@ -1,14 +1,13 @@
-import Mermaid from "../../../components/Mermaid";
-import buildGraph from "../../../data/graphBuilder";
 import Access, { allSubjects } from "../../../data/access";
-import Search from "../../../components/Search"
+import { NavigationSearch } from "../../../components/search/NavigationSearch";
 import Link from "next/link";
+
+import Graph from "../../../components/graph/Graph";
 
 import Custom404 from "../../[errors]/404";
 
-import "../../../components/styles/Idpage.css"
+import "../../../components/styles/Idpage.css";
 import "../../../components/styles/Layout.css";
-import "../../../components/styles/GraphPage.css";
 
 export async function generateMetadata({ params, searchParams }, parent) {
   return {
@@ -23,23 +22,28 @@ export default function Page({ params }) {
   if (!Access(SUBJ).ids.includes(ID)) return <Custom404 />; // Display 404 page when id is not available
 
   let course = Access(SUBJ).getCourse(ID, "id");
-  const graphString = buildGraph(course);
-  
+
   return (
     <div id="content">
       <div id="nav">
-        <Link href={"/"+SUBJ}>
+        <Link href={"/" + SUBJ}>
           <button id="back">Back</button>
         </Link>
-        <Search id="search"></Search>
+        <NavigationSearch id="search" />
       </div>
       <div id="container">
         <div id="graph">
           <div id="graph-header">
-            <div id="warning" title="Prerequisite information is unreliable and subject to change during and between terms."><b>*Possible Prerequisites</b></div>
+            <div
+              id="warning"
+              title="Prerequisite information is unreliable and subject to change during and between terms."
+            >
+              <b>*Possible Prerequisites</b>
+            </div>
             <button id="graph-download">Download</button>
           </div>
-          <Mermaid graph={graphString} />
+          <Graph sourceData={course} />
+          {/* <Mermaid graph={graphString} /> */}
         </div>
         <div id="infoBox">
           <div id="code">{course.code}</div>
