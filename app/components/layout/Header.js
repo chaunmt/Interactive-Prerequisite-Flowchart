@@ -9,7 +9,7 @@ export default function Header() {
         <Link href={"/"}> 
           <Image 
             id="logo" 
-            src={"/logos/GopherMRed.jpg"} 
+            src={"/logos/CFLogo.webp"} 
             alt="interactive-prereq-logo" 
             width={1000} height={1000} // Pixel rendered
           />
