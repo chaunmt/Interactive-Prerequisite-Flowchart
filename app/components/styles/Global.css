@@ -22,7 +22,8 @@
   --mild-gray-1: #d4d2d3;
   --mild-gray-2: #d9d9d9;
   --mild-gray-3: #d2d0d0;
-  --dark-gray: #3b413c;
+  --dark-gray-1: #5d5d5d;
+  --dark-gray-2: #3b413c;
 
   /* Color variables */
   --header-bar: var(--mild-gray-2);
@@ -32,7 +33,7 @@
   --footer-club-text: var(--mild-gray-1);
   --footer-github-text: var(--hightlight-purple);
 
-  --border: var(--dark-gray);
+  --border: var(--dark-gray-2);
 
   --info-box: white;
   --graph-box: var(--mild-gray-2);
@@ -41,8 +42,8 @@
   --search-bar: var(--mild-gray-3);
   --search-result-container: var(--light-gray);
   --scroll-track: var(--mild-gray-2);
-  --scroll-thumb: var(--dark-gray);
-  --scroll-thumb-hover: white;
+  --scroll-thumb: var(--dark-gray-2);
+  --scroll-thumb-hover: var(--dark-gray-1);
 
   --title: var(--maroon-red);
   --p-color: black;
