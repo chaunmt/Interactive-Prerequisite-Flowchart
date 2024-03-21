@@ -6,12 +6,13 @@ export default function Header() {
   return (
     <div id="header">
       <nav>
-        <Link href={"/"}> 
-          <Image 
-            id="logo" 
-            src={"/logos/GopherMRed.jpg"} 
-            alt="interactive-prereq-logo" 
-            width={1000} height={1000} // Pixel rendered
+        <Link href={"/"}>
+          <Image
+            id="logo"
+            src={"/logos/GopherMRed.jpg"}
+            alt="interactive-prereq-logo"
+            width={1000}
+            height={1000} // Pixel rendered
           />
         </Link>
       </nav>

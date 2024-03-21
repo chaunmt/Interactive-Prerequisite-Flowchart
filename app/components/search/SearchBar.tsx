@@ -2,19 +2,25 @@
  * SearchBar.tsx - Search Bar UI Component
  */
 // import "../styles/SearchBar.css"
-import "../styles/Search.css"
+import "../styles/Search.css";
 
 /**
  * Search Bar UI Component that accepts and sends back search query values
- * 
+ *
  * (<input> but pretty)
- * 
+ *
  * @callback sendQuery
  * @param {{value: string, sendQuery: function(event: any): void}} props
- * @returns 
+ * @returns
  */
-export default function SearchBar({ value, sendQuery }: { value: string, sendQuery: (event: any) => void}) {
-    // TODO reconsider hideous type
+export default function SearchBar({
+  value,
+  sendQuery,
+}: {
+  value: string;
+  sendQuery: (event: any) => void;
+}) {
+  // TODO reconsider hideous type
 
   return (
     <input
@@ -23,5 +29,6 @@ export default function SearchBar({ value, sendQuery }: { value: string, sendQue
       value={value}
       onChange={sendQuery}
       className="searchBar"
-    />);
+    />
+  );
 }

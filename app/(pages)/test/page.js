@@ -76,7 +76,8 @@ export default function Page() {
       {/* test5 = Access("MATH").target(shell1)[0].title = {test5} */}
       <Mermaid graph={builtgraph} />
       <br></br>
-      test5 = SearchName().courseByName(&quotAdmin & Leader/HiEd&quot) = {test5[4].title}
+      test5 = SearchName().courseByName(&quotAdmin & Leader/HiEd&quot) ={" "}
+      {test5[4].title}
       <br></br>
       test6 = SearchName().deptByName(&quotClassical&quot) = {test6[1]}
     </div>

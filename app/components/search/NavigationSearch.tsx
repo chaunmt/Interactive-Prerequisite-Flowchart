@@ -14,9 +14,13 @@ interface NavigationSearchResult {
 
 /**
  * @param {NavigationSearchResult[]} searchResults results to be displayed in a list
- * @returns 
+ * @returns
  */
-function SearchResultsList({ filteredData }: { filteredData: NavigationSearchResult[] }) {
+function SearchResultsList({
+  filteredData,
+}: {
+  filteredData: NavigationSearchResult[];
+}) {
   // TODO: inline vs hoverable list options, many options, this is meant to be customizable
 
   return (
@@ -24,9 +28,7 @@ function SearchResultsList({ filteredData }: { filteredData: NavigationSearchRes
       {filteredData.length > 0 ? (
         filteredData.map((result, index) => (
           <li key={index}>
-            <Link href={result.href}>
-              {result.display_text}
-            </Link>
+            <Link href={result.href}>{result.display_text}</Link>
           </li>
         ))
       ) : (
@@ -37,7 +39,7 @@ function SearchResultsList({ filteredData }: { filteredData: NavigationSearchRes
 }
 
 /**
- * Global search bar that allows you to choose a department and narrow down 
+ * Global search bar that allows you to choose a department and narrow down
  * results from there
  */
 function NavigationSearch() {
@@ -51,14 +53,16 @@ function NavigationSearch() {
     //first 20 courses matching query
     const courses = Search().courseByName(search).slice(0, 20);
     // TODO: have some other handler deal with representation
-    const results = depts.map(({ apr, name}) => ({
+    const results = depts.map(({ apr, name }) => ({
       display_text: `${apr} - ${name}`,
-      href: `/${apr}`
-    }))
-    results.push(...courses.map((course) => ({
-      display_text: `${course.code} - ${course.title}`,
-      href: `/${course.subject}/${course.id}`
-    })));
+      href: `/${apr}`,
+    }));
+    results.push(
+      ...courses.map((course) => ({
+        display_text: `${course.code} - ${course.title}`,
+        href: `/${course.subject}/${course.id}`,
+      })),
+    );
     setResults(results);
   }, [search, setResults]);
 
@@ -76,6 +80,4 @@ function NavigationSearch() {
   );
 }
 
-export {
-  NavigationSearch
-};
+export { NavigationSearch };
