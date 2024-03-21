@@ -3,37 +3,29 @@
  */
 "use client";
 import SearchBar from "./SearchBar";
-
-import React, { useState, useEffect, Component } from "react";
+import { Search } from "../../data/search";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 
+interface NavigationSearchResult {
+  display_text: string;
+  href: string;
+}
+
 /**
- * // TODO: make SearchResult[] object or something with onClick that can do a
- * // react Link or handler function somehow 
- * // (prolly another component now that i think about it)
- * 
- * @param {any[]} searchResults results to be displayed in a list
+ * @param {NavigationSearchResult[]} searchResults results to be displayed in a list
  * @returns 
  */
-function SearchResultsList({ filteredData }: { filteredData: any[] }) {
+function SearchResultsList({ filteredData }: { filteredData: NavigationSearchResult[] }) {
   // TODO: inline vs hoverable list options, many options, this is meant to be customizable
 
   return (
     <ul className="list">
       {filteredData.length > 0 ? (
-        <li>
-          <Link href={`/${filteredData[0].subject}`}>
-            {filteredData[0].subject}
-          </Link>
-        </li>
-      ) : (
-        ""
-      )}
-      {filteredData.length > 0 ? (
-        filteredData.map((course, index) => (
+        filteredData.map((result, index) => (
           <li key={index}>
-            <Link href={`/${course.subject}/${course.id}`}>
-              {course.code} - {course.title}
+            <Link href={result.href}>
+              {result.display_text}
             </Link>
           </li>
         ))
@@ -50,39 +42,25 @@ function SearchResultsList({ filteredData }: { filteredData: any[] }) {
  */
 function NavigationSearch() {
   const [search, setSearch] = useState("");
-  const [courses, setCourses] = useState([]);
-  const [filteredData, setFilteredData] = useState([]);
+  const [results, setResults] = useState([]);
 
+  // call Search utility to find depts/classes matching query
   useEffect(() => {
-    const subject = search.match(/[a-zA-Z]+/g)?.[0].toUpperCase();
-    if (subject) {
-      import(`../../data/Dog/${subject}.json`)
-        .then((module) => {
-          setCourses(module.default); //array of courses
-        })
-        .catch((e) => {
-          console.error("Failed to load subject data", e);
-          setCourses([]);
-        });
-    }
-  }, [search]);
-
-  // Filter courses, search term
-  useEffect(() => {
-    if (courses.length) {
-      const processedSearch = search.replace(/\s+/g, "").toLowerCase();
-      const results = courses.filter((course) => {
-        return (
-          course.title.toLowerCase().includes(processedSearch) ||
-          course.code
-            .toLowerCase()
-            .replace(/\s+/g, "")
-            .includes(processedSearch)
-        );
-      });
-      setFilteredData(results);
-    }
-  }, [search, courses]);
+    //first 5 departments matching query
+    const depts = Search().deptByName(search).slice(0, 5);
+    //first 20 courses matching query
+    const courses = Search().courseByName(search).slice(0, 20);
+    // TODO: have some other handler deal with representation
+    const results = depts.map((dept) => ({
+      display_text: dept,
+      href: `/${dept}`
+    }))
+    results.push(...courses.map((course) => ({
+      display_text: `${course.code} - ${course.title}`,
+      href: `/${course.subject}/${course.id}`
+    })));
+    setResults(results);
+  }, [search, setResults]);
 
   // Handle the search input change
   const handleSearch = (event) => {
@@ -93,7 +71,7 @@ function NavigationSearch() {
   return (
     <div className="Search">
       <SearchBar value={search} sendQuery={handleSearch} />
-      {search && <SearchResultsList filteredData={filteredData} />}
+      {search && <SearchResultsList filteredData={results} />}
     </div>
   );
 }
