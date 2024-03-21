@@ -10,6 +10,8 @@ import { useEffect, useState } from "react";
 import SearchBar from "../../components/search/SearchBar";
 import { Search } from "../../data/search";
 
+import "../../components/styles/SearchBar.css"
+
 export default function Page({ params }) {
   const [search, setSearch] = useState("");
   const [items, setItems] = useState([]);
@@ -57,7 +59,7 @@ export default function Page({ params }) {
       <div>
         <div id="picker-header">
           <SearchBar value={search} sendQuery={handleSearch} />
-          Selected
+          <div id="selectedTitle"><h2>Selected</h2></div>
         </div>
         <DualPanePicker
           items={items}

@@ -20,8 +20,8 @@ function Picker({
   return (
     <div>
       {items.map((item) => (
-        <div>
-          <button
+        <div className="itemBox">
+          <button className="item"
             key={item.id}
             onClick={() => {
               onClickItem(item.id);
@@ -64,8 +64,12 @@ export default function DualPanePicker({
   return (
     <div>
       <div id="bars">
-        <Picker items={items} onClickItem={addItem} />
-        <Picker items={selectedItems} onClickItem={removeItem} />
+        <div id="items">
+          <Picker items={items} onClickItem={addItem} />
+        </div>
+        <div id="selectedItems">
+          <Picker items={selectedItems} onClickItem={removeItem} />
+        </div>
       </div>
     </div>
   );

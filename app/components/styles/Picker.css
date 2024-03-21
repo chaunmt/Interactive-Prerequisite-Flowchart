@@ -1,5 +1,24 @@
+@import url("./Global.css");
+
 #bars {
   display: grid;
   grid-template-columns: 50% 50%;
   justify-content: space-between;
+  text-align: center;
+  width: 95%;
+  padding: 1rem;
+  gap: 0.5rem;
+}
+
+.item {
+  text-align: center;
+  background-color: var(--course-card);
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  width: 6rem;
+  height: 3rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  box-shadow: 0rem 0rem 0.2rem var(--shadow);
 }
