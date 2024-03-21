@@ -2,13 +2,19 @@
 
 import "../components/styles/Layout.css";
 import "../components/styles/Mainpage.css";
-import { NavigationSearch } from "../components/search/NavigationSearch";
+import Search from "../components/Search";
+import Link from "next/link";
 
 export default function Page() {
   return (
-    <div>
-      {/* <GraphSearch /> */}
-      <NavigationSearch />
+    <div class>
+      <div>
+        <img id = "titleLogo" src={"/logos/CFLongLogo.webp"} alt="Title name" />
+      </div>
+      <div className>
+        {/* <GraphSearch /> */}
+        <Search />
+      </div>
     </div>
   );
 }
