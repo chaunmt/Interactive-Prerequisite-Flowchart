@@ -49,9 +49,9 @@ export default function Page({ params }) {
 
   return (
     <div id="editor">
-      <div>
+      <div id="instruction">
         {courses.length === 0 ? (
-          <div>Add courses to the right to get started</div>
+          <h2>Add courses to the right to get started</h2>
         ) : (
           <Graph sourceData={courses} />
         )}
