@@ -57,3 +57,22 @@
   font-size: 20px;
   font-weight: bold;
 }
+
+button#go-back {
+  font-size: 2rem;
+  border: none;
+  box-shadow: 0 0 2px var(--border);
+}
+
+button#go-back svg {
+  position: relative;
+  justify-content: center;
+}
+
+button#graph-download {
+  font-size: 1.5rem;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+}

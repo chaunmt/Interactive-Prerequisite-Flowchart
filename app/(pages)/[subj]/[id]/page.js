@@ -9,6 +9,9 @@ import Custom404 from "../../[errors]/404";
 import "../../../components/styles/Idpage.css";
 import "../../../components/styles/Layout.css";
 
+import { FiDownload } from "react-icons/fi";
+import { IoReturnUpBackOutline } from "react-icons/io5";
+
 export async function generateMetadata({ params, searchParams }, parent) {
   return {
     title: `${params.subj.toUpperCase()} ${params.id}`,
@@ -27,9 +30,9 @@ export default function Page({ params }) {
     <div id="content">
       <div id="nav">
         <Link href={"/" + SUBJ}>
-          <button id="back">Back</button>
+          <button id="go-back"><IoReturnUpBackOutline /></button>
         </Link>
-        <NavigationSearch id="search" />
+        <NavigationSearch id="small" />
       </div>
       <div id="container">
         <div id="graph">
@@ -40,7 +43,7 @@ export default function Page({ params }) {
             >
               <b>*Possible Prerequisites</b>
             </div>
-            <button id="graph-download">Download</button>
+            <button id="graph-download"><FiDownload /></button>
           </div>
           <Graph sourceData={course} />
           {/* <Mermaid graph={graphString} /> */}
