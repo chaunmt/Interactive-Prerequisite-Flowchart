@@ -1,4 +1,4 @@
-/// DO NOT RUN FROM INSIDE THE REPO ///
+/*** DO NOT RUN FROM INSIDE THE REPO ***/
 /* Use `pnpm run sources` now, as this is a
  * script to be executed from the top-level
  * directory instead
@@ -19,7 +19,6 @@ function deleteSpaces(str) {
 
 /** Replace all "," with " and "
  * Replace all "/" with " and " */
-
 function replaceSigns(str) {
   str = str.replaceAll(", ", " and ");
   str = str.replaceAll("/", " or ");
@@ -28,23 +27,23 @@ function replaceSigns(str) {
 }
 
 /** Delete info about recommended courses from info string
- * WARNING: Omit this case because of data's inconsistency */
+ * WARNING: Omit this case because of data"s inconsistency */
 function spliceRecommendAt(str, splitPattern) {
   let arr = str.split(splitPattern);
   let i = 0;
   while (i < arr.length) {
-    // if (!arr[i] || arr[i].toLowerCase().includes("recommend")) arr.splice(i, 1)
-    // else i ++
-    if (!arr[i] || arr[i].toLowerCase().includes("special instruction"))
+    if (!arr[i] || arr[i].toLowerCase().includes("special instruction")) {
       arr.splice(i, 1);
-    else i++;
+    } else {
+      i++;
+    }
   }
   return arr.join(" or ");
 }
 
-/** ASSUMPTION: Filter out extra information from info string
- * WARNING: Omit this case because of data's inconsistency
- */
+/** ASSUMPTION: Filter out extra information from info string 
+ * WARNING: Omit this case because of data"s inconsistency
+*/
 function filterExtraInfo(str) {
   // if (str.toUpperCase().includes("NO PREREQUISITE")) return ""
   str = spliceRecommendAt(str, ";");
@@ -56,12 +55,14 @@ function filterExtraInfo(str) {
 function splitStringAt(str, type) {
   str = deleteSpaces(str);
 
-  let index; // Find the first index of a character of type "word" or "number"
-  if (type == "word") index = str.search(/[A-Za-z]/);
-  else index = str.search(/\d/);
+  let index = -1; 
+  if (type == "word") { // Find the first index of a character of type "word"
+    index = str.search(/[A-Za-z]/);
+  } else { // Find the first index of a character of type "number"
+    index = str.search(/\d/);
+  }
 
-  if (index != -1) {
-    // Check if a letter or digit was found
+  if (index != -1) { // Check if a letter or digit was found
     return [str.slice(0, index), str.slice(index)];
   }
 
@@ -102,7 +103,8 @@ function extractCourses(str, targetSubject, targetId) {
       if (!num) {
         num = id;
       }
-      if (parseInt(num, 10) < 1000 && subject != "INSIDE") {
+
+      if (parseInt(num, 10) < 1000 && (subject != "INSIDE")) {
         return null;
       }
 
@@ -110,6 +112,7 @@ function extractCourses(str, targetSubject, targetId) {
       if (suffix && (suffix.length != 1 || !allowedSuffix.includes(suffix))) {
         id = num;
       }
+      
       if (!allCourseNumbers.includes(id)) {
         if (allCourseNumbers.includes(id + "W")) {
           id = id + "W";
@@ -126,6 +129,7 @@ function extractCourses(str, targetSubject, targetId) {
       if (id.includes("V") || id.includes("H")) {
         return null;
       }
+
       return id;
     }
 
@@ -137,10 +141,10 @@ function extractCourses(str, targetSubject, targetId) {
     // Remove semester and year (not a course)
     // ASSUME: NO PREREQ"S SUBJECT --> USE TARGET"S SUBJECT
     if (!(subject == "INSIDE") && !allSubjects.includes(subject)) {
-      if (!allSems.includes(subject)) {
-        subject = targetSubject;
+      if (allSems.includes(subject)) {
+        return null;
       }
-      return null;
+      subject = targetSubject;
     }
 
     // If this course = target, it is not prereq
@@ -158,9 +162,11 @@ function isEqualCourse(A, B) {
   if (!A || !B) {
     return false;
   }
+  
   if (!A.code || !A.subject || !A.id) {
     return false;
   }
+  
   if (!B.code || !B.subject || !B.id) {
     return false;
   }
@@ -169,9 +175,11 @@ function isEqualCourse(A, B) {
   if (A.code != B.code) {
     return false;
   }
+  
   if (A.subject != B.subject) {
     return false;
   }
+  
   if (A.id != B.id) {
     return false;
   }
@@ -185,6 +193,7 @@ function filterDuplicate(items) {
   if (!items) {
     return null;
   }
+  
   if (items.code) {
     return items;
   }
@@ -228,6 +237,7 @@ function filterExtraArray(items) {
   if (!items) {
     return null;
   }
+  
   if (items.id) {
     return items;
   }
@@ -241,16 +251,18 @@ function filterExtraArray(items) {
   if (items.and) {
     if (items.and.length == 1) {
       return filterExtraArray(items.and[0]); // Single item array becomes single item
+    } else {
+      return { and: filterExtraArray(items.and) };
     }
-    return { and: filterExtraArray(items.and) };
   }
 
   // Handle "or" array
   if (items.or) {
     if (items.or.length == 1) {
       return filterExtraArray(items.or[0]); // Single item array becomes single item
+    } else {
+      return { or: filterExtraArray(items.or) };
     }
-    return { or: filterExtraArray(items.or) };
   }
 
   // Single item array becomes single item
@@ -280,6 +292,7 @@ function filterNull(items) {
   if (!items || items.length == 0) {
     return null;
   }
+  
   if (items.id) {
     return items;
   }
@@ -288,6 +301,7 @@ function filterNull(items) {
   if (items.and) {
     return { and: filterNull(items.and) };
   }
+  
   if (items.or) {
     return { or: filterNull(items.or) };
   }
@@ -303,6 +317,7 @@ function filterNull(items) {
     if (items[i] && !items[i]?.id) {
       items[i] = filterNull(items[i]);
     }
+    
     if (!items[i]) {
       items.splice(i, 1); // Delete null
     } else {
@@ -344,7 +359,7 @@ function decodeBracket(data, encodedData) {
   if (!data) {
     return null;
   }
-
+  
   // Handle "and" array, "or" array
   if (data.and) {
     if (data.and.length == 1) {
@@ -398,9 +413,7 @@ function encodeBracket(info, targetSubject, targetId) {
       if (!hasNumber(inside[inNum])) {
         info = info.replace(inside[inNum], "");
         inNum--;
-      }
-      // Replace "[" + string inside + "]" with "inside" + its index in the saved array
-      else {
+      } else { // Replace "[" + string inside + "]" with "inside" + its index in the saved array
         info = info.replace(inside[inNum], "inside" + inNum.toString());
         i = i - inside[inNum].length + 7;
       }
@@ -440,7 +453,7 @@ function filterPrereq(info, targetSubject, targetId) {
   if (!encoded.length || encoded.length == 0) {
     return encoded;
   }
-
+  
   let data = encoded[encoded.length - 1];
   data = decodeBracket(data, encoded);
   data = filterDuplicate(data);
@@ -458,9 +471,9 @@ function exportDogs(SUBJECT) {
   let subject = SUBJECT;
   let subjectCode = subject == "allCourses" ? "" : "subjectCode=" + subject;
   let fileName = subject + ".json";
-  // write path is relative to location of execution and *not* this file
+  // NOTE: Write path is relative to location of execution and *not* this file
   let filePath = "./app/data/Dog/"; // For offical data folder
-  // let filePath = './app/data/'  // For testing purpose
+  // let filePath = "./app/data/"  // For testing purpose
   let returnFields = "&returnFields=subjectCode,courseNumber,name,description"; // preq is at the end of description
   let limit = "&limit=infinity";
 
@@ -492,13 +505,13 @@ function exportDogs(SUBJECT) {
             splitPattern = "prerequisite";
           } else if (descrip.includes("prerequisites")) {
             splitPattern = "prerequisites";
-          } // else if (descrip.includes("\n")) { splitPattern = "\n"; }
+          }
 
           let info = descrip.split(splitPattern);
+
           const prereq = info[1]
             ? filterPrereq(info[1], course.subjectCode, course.courseNumber)
             : []; // Assume there is no prereq
-
           if (
             course.courseNumber.includes("H") ||
             course.courseNumber.includes("V")
@@ -512,14 +525,12 @@ function exportDogs(SUBJECT) {
             id: course.courseNumber,
             title: course.name,
             info: course.description,
-            // info: info[0].trim(),
-            // prereqInfo: info[1]?.trim() || null,
             prereq: prereq || [],
           };
         }),
       );
 
-      fs.writeFile(filePath + fileName, JSON.stringify(courses), (error) => {
+      fs.writeFile(filePath + fileName, JSON.stringify(courses, null, 2), (error) => {
         if (error) {
           console.error(
             "Error exporting data to JSON file" + fileName + ":",
@@ -544,6 +555,6 @@ let allCourseNumbers = require("./General/id/allCourses.json");
 exportDogs("allCourses");
 
 // Export each course json data files
-allSubjects.forEach((pup) => {
+for (let pup of allSubjects) {
   exportDogs(pup);
-});
+}
