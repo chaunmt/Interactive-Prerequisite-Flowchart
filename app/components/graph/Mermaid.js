@@ -2,10 +2,10 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import mermaid from "mermaid";
-import "./styles/GraphPage.css";  
+import "../styles/Mermaid.css";
 
 const config = {
-  // theme: 'dark',  // this should be dynamically updated
+  theme: "neutral", // this should be dynamically updated
   securityLevel: "loose", // allows click interaction
   startOnLoad: false, // do not render until react is ready
   // logLevel: 'debug',

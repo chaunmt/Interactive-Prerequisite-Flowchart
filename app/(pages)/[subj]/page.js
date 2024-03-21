@@ -1,13 +1,9 @@
 // page with dynamic graph generation and search bar for courses in [subj]
 import Access, { allSubjects } from "../../data/access";
-import "../../components/styles/Layout.css";
-import "../../components/styles/GraphPage.css";
-import Search from "../../components/Search";
-
-import Mermaid from "../../components/Mermaid";
-import buildGraph from "../../data/graphBuilder";
+import { NavigationSearch } from "../../components/search/NavigationSearch";
 
 import Custom404 from "../[errors]/404";
+import Graph from "../../components/graph/Graph";
 
 export async function generateMetadata({ params, searchParams }, parent) {
   return {
@@ -20,13 +16,12 @@ export default function Page({ params }) {
   if (!allSubjects.includes(SUBJ)) return <Custom404 />; // Display 404 page when subject is not available
   const SUBJ_COURSES = Access(SUBJ).courses;
 
-  const graphString = buildGraph(SUBJ_COURSES);
-
   return (
     <div>
       <h1>{SUBJ} Courses </h1>
-      <Search />
-      <Mermaid graph={graphString} />
+      <NavigationSearch />
+      <Graph sourceData={SUBJ_COURSES} />
+      {/* <Mermaid graph={graphString} /> */}
     </div>
   );
 }

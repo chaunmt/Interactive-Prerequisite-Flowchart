@@ -8,6 +8,12 @@ main {
  
 }
 
+h1 {
+  font-weight: bold;
+  color: var(--title);
+  font-size: 2.2rem;
+  margin-left: 3%;
+}
 
 #header {
   position: fixed;
