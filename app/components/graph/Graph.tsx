@@ -14,8 +14,9 @@
 
 // import { useState } from "react";
 
-// import Mermaid from "./Mermaid";
+import Mermaid from "./Mermaid";
 import { CourseShell } from "../../data/types";
+import buildGraph from "../../data/graphBuilder";
 
 /**
  * Component which accepts a list of courses and generates a graph
@@ -23,4 +24,12 @@ import { CourseShell } from "../../data/types";
  * @param {CourseShell | CourseShell[]} sourceData Courses to build a graph from 
  * @returns Component
  */
-export default function Graph({ sourceData }: { sourceData: CourseShell | CourseShell[] }) { }
+export default function Graph({ sourceData, top_down }: { sourceData: CourseShell | CourseShell[], top_down?: boolean }) {
+    //TODO: extract Mermaid compatibility layer from graphBuilder.ts
+    // - add graph customization features
+    const graph = buildGraph(sourceData);
+
+    return (
+        <Mermaid graph={graph} />
+    )
+}

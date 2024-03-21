@@ -2,10 +2,8 @@
 import Access, { allSubjects } from "../../data/access";
 import { NavigationSearch } from "../../components/search/NavigationSearch";
 
-import Mermaid from "../../components/graph/Mermaid";
-import buildGraph from "../../data/graphBuilder";
-
 import Custom404 from "../[errors]/404";
+import Graph from "../../components/graph/Graph";
 
 export async function generateMetadata({ params, searchParams }, parent) {
   return {
@@ -18,13 +16,12 @@ export default function Page({ params }) {
   if (!allSubjects.includes(SUBJ)) return <Custom404 />; // Display 404 page when subject is not available
   const SUBJ_COURSES = Access(SUBJ).courses;
 
-  const graphString = buildGraph(SUBJ_COURSES);
-
   return (
     <div>
       <h1>{SUBJ} Courses </h1>
       <NavigationSearch />
-      <Mermaid graph={graphString} />
+      <Graph sourceData={SUBJ_COURSES} />
+      {/* <Mermaid graph={graphString} /> */}
     </div>
   );
 }
