@@ -34,6 +34,7 @@
   --footer-github-text: var(--hightlight-purple);
 
   --border: var(--dark-gray-2);
+  --shadow: var(--dark-gray-2);
 
   --info-box: white;
   --graph-box: var(--mild-gray-2);
@@ -45,6 +46,8 @@
   --scroll-thumb: var(--dark-gray-2);
   --scroll-thumb-hover: var(--dark-gray-1);
 
+  --course-card: white;
+
   --title: var(--maroon-red);
   --p-color: black;
   --p-color-hover: var(--maroon-red);
@@ -52,15 +55,7 @@
   /* ---------------------------- OLD Global color variables ---------------------------- */
   --bg-color: #eeeeee;
   
-  --shadow: #00000066;
-
-  /* --title: #464646; */
   --title-p: #800000;
-
-  --header-nav-highlight: #000000;
-
-  --footer-p-color: maroon;
-  --footer-nav-highlight: #e08978;
 
   --table-bg-color: #ffffff;
   --card-bg-color: #6eb899;

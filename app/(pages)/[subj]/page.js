@@ -23,22 +23,19 @@ export default function Page({ params }) {
   const SUBJ = params.subj.toUpperCase();
   if (!allSubjects.includes(SUBJ)) return <Custom404 />; // Display 404 page when subject is not available
   const SUBJ_COURSES = Access(SUBJ).courses;
-  console.log(Search().exactDept(SUBJ));
 
   return (
     <div id="content">
+      <h1>{Search().exactDept(SUBJ).toUpperCase()}</h1>
       <div id="nav">
-        <Link href={"/"}>
-          <button id="back"><IoReturnUpBackOutline /></button>
-        </Link>
         <NavigationSearch/>
       </div>
-      <h1>{Search().exactDept(SUBJ)}</h1>
       <div id="containers">
-        <div id="coursesTable">
-          <CoursesTable />
+        {/* Check CoursesTable.tsx to find id and class name */}
+        <div id="tableBox">
+          <CoursesTable SUBJ_COURSES={SUBJ_COURSES}/>
         </div>
-        <div id="graphBox">
+        <div id="courseBox">
           <div id="infoBox">
             <h2>
               SUBJ XXXX
@@ -47,7 +44,9 @@ export default function Page({ params }) {
             </h2>
             <p>*Possible Prerequisites: XXXX</p>
           </div>
-          <Graph sourceData={SUBJ_COURSES} />
+          <div id="graphBox">
+            <Graph sourceData={SUBJ_COURSES} />
+          </div>
         </div>
       </div>
     </div>

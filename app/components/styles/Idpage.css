@@ -1,5 +1,13 @@
 @import url("./Global.css");
 
+.Search {
+  text-align: right;
+}
+
+.Search .container {
+  right: 5%;
+}
+
 #content {
   padding-left: 5%;
   padding-right: 5%;
