@@ -16,16 +16,18 @@ function Search() {
   };
 
   function courseByName(text: string) {
+    const l_text = text.toLowerCase()
     return courses
     .filter(course => {
       const fullCodeName = course.code + " - " + course.title;
-      return fullCodeName.includes(text);
+      return fullCodeName.toLowerCase().includes(l_text);
     });
   }
 
   function deptByName(text: string) {
+    const l_text = text.toLowerCase()
     return Object.entries(departments)
-    .filter(([apr, name]) => name.includes(text))
-    .map(([apr, name]) => `${apr} - ${name}`);
+    .map(([apr, name]) => `${apr} - ${name}`)
+    .filter((title) => title.toLowerCase().includes(l_text));
   }
 }
