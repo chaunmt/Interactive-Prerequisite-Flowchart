@@ -51,9 +51,9 @@ function NavigationSearch() {
     //first 20 courses matching query
     const courses = Search().courseByName(search).slice(0, 20);
     // TODO: have some other handler deal with representation
-    const results = depts.map((dept) => ({
-      display_text: dept,
-      href: `/${dept}`
+    const results = depts.map(({ apr, name}) => ({
+      display_text: `${apr} - ${name}`,
+      href: `/${apr}`
     }))
     results.push(...courses.map((course) => ({
       display_text: `${course.code} - ${course.title}`,

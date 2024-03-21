@@ -27,7 +27,7 @@ function Search() {
   function deptByName(text: string) {
     const l_text = text.toLowerCase()
     return Object.entries(departments)
-    .map(([apr, name]) => `${apr} - ${name}`)
-    .filter((title) => title.toLowerCase().includes(l_text));
+    .filter(([apr, name]) => apr.toLowerCase().includes(l_text) || l_text.startsWith(apr.toLowerCase()) || name.toLowerCase().includes(l_text))
+    .map(([apr, name]) => ({ apr, name }));
   }
 }
