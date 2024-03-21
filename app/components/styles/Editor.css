@@ -1,0 +1,12 @@
+#editor {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  /* justify-content: space-between; */
+}
+
+#picker-header {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+}
