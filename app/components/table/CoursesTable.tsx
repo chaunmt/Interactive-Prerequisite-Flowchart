@@ -1,0 +1,5 @@
+export { CoursesTable };
+
+function CoursesTable() {
+
+}
