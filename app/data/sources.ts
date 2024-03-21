@@ -13,6 +13,24 @@ const filePath = "./app/data/Dog/"; // For offical data folder
 // Using file system
 let fs = require("fs");
 
+// Generate allCourses.json and each subject json
+
+let allSubjects = require("./General/allSubjects.json");
+let allCourseNumbers = require("./General/id/allCourses.json");
+
+// Export allCourses json data files
+exportAll();
+
+let allCourses = require("./Dog/allCourses.json");
+
+// Export a test json file to current folder
+// exportDogs("AAS");
+
+// Export each course json data files
+for (let pup of allSubjects) {
+  exportDogs(pup);
+}
+
 /** Check whether a string contains any number */
 function hasNumber(str) {
   return /\d/.test(str);
@@ -160,9 +178,43 @@ function extractCourses(str, targetSubject, targetNumber) {
       return null;
     }
 
-    // TODO fix
-    return { code: `${subject} ${number}`, subject: subject, number: number };
+    if (
+      allCourses.some(
+        (cours) => subject == cours.subject && check_num(number, cours.number),
+      )
+    ) {
+      return { code: `${subject} ${number}`, subject: subject, number: number };
+    }
+    console.error("Unable to correctly parse prereq:", `${subject} ${number}`);
+    return null;
   });
+}
+
+function check_num(numA, numB) {
+  if (extract(numA, /\d+/g) != extract(numB, /\d+/g)) {
+    return false;
+  }
+
+  let suffixes = ["W", ""];
+
+  let lvA = extract(numA[numA.length - 1], /[a-zA-Z]+/g);
+  let lvB = extract(numB[numB.length - 1], /[a-zA-Z]+/g);
+
+  if (lvA == lvB || (suffixes.includes(lvA) && suffixes.includes(lvB))) {
+    return true;
+  }
+  return false;
+}
+
+function extract(code, regex) {
+  if (!code) {
+    return "";
+  }
+  let match = code.match(regex);
+  if (!match) {
+    return "";
+  }
+  return match[0];
 }
 
 /** Check whether 2 courses are the same */
@@ -172,11 +224,11 @@ function isEqualCourse(A, B) {
     return false;
   }
 
-  if (!A.code || !A.subject || !A.id) {
+  if (!A.code || !A.subject || !A.number) {
     return false;
   }
 
-  if (!B.code || !B.subject || !B.id) {
+  if (!B.code || !B.subject || !B.number) {
     return false;
   }
 
@@ -189,7 +241,7 @@ function isEqualCourse(A, B) {
     return false;
   }
 
-  if (A.id != B.id) {
+  if (A.number != B.number) {
     return false;
   }
 
@@ -247,7 +299,7 @@ function filterExtraArray(items) {
     return null;
   }
 
-  if (items.id) {
+  if (items.number) {
     return items;
   }
 
@@ -282,7 +334,7 @@ function filterExtraArray(items) {
   // Recursively handle nested arrays
   let i = 0;
   while (i < items.length) {
-    if (items[i] && !items[i].id) {
+    if (items[i] && !items[i].number) {
       items[i] = filterExtraArray(items[i]);
     }
     if (!items[i]) {
@@ -392,7 +444,7 @@ function decodeBracket(data, encodedData) {
   // Data is course
   else if (data.subject == "INSIDE") {
     // Data is encoded
-    data = encodedData[data.id];
+    data = encodedData[data.number];
     if (data != null) {
       data = decodeBracket(data, encodedData); // Decode data
     }
@@ -602,20 +654,4 @@ function exportAll() {
         },
       );
     });
-}
-
-// Generate allCourses.json and each subject json
-
-let allSubjects = require("./General/allSubjects.json");
-let allCourseNumbers = require("./General/id/allCourses.json");
-
-// Export allCourses json data files
-exportAll();
-
-// Export a test json file to current folder
-// exportDogs("AAS");
-
-// Export each course json data files
-for (let pup of allSubjects) {
-  exportDogs(pup);
 }
