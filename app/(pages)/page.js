@@ -2,18 +2,23 @@
 
 import "../components/styles/Layout.css";
 import "../components/styles/Mainpage.css";
-import Search from "../components/Search";
-import Link from "next/link";
+import "../components/styles/SearchBarBig.css"
+import { NavigationSearch } from "../components/search/NavigationSearch";
+import Image from "next/image";
 
 export default function Page() {
   return (
     <div class>
       <div>
-        <img id = "titleLogo" src={"/logos/CFLongLogo.webp"} alt="Title name" />
+        <Image
+          id = "titleLogo"
+          src={"/logos/CFLongLogo.webp"}
+          alt="Title name"
+          width={1000} height={1000} // Pixel rendered
+        />
       </div>
       <div className>
-        {/* <GraphSearch /> */}
-        <Search />
+        <NavigationSearch />
       </div>
     </div>
   );
