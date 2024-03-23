@@ -75,7 +75,9 @@ function NavigationSearch() {
   return (
     <div className="Search">
       <SearchBar value={search} sendQuery={handleSearch} />
-      {search && <SearchResultsList filteredData={results} />}
+      <div className="container">
+        {search && <SearchResultsList filteredData={results} />}
+      </div>
     </div>
   );
 }
