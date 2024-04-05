@@ -33,7 +33,7 @@ function CoursesTable({ SUBJ_COURSES } : { SUBJ_COURSES: Course[] }) {
               </button>
             </Link>
           </div>
-          <p>*Possible Prerequisites: {JSON.stringify(selectedCourse.prereq, null, 2)}</p>
+          <p>{selectedCourse.info}</p>
         </div>
         <div id="graphBox">
           <Graph sourceData={selectedCourse} />

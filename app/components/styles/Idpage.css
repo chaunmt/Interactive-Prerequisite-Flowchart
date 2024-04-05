@@ -30,6 +30,7 @@
 #graph {
   background-color: var(--graph-box);
   margin: 0 2%;
+  padding-bottom: 2%;
 }
 
 #graph #head {
@@ -49,6 +50,7 @@
 #infoBox {
   background-color: var(--info-box);
   padding: 5%;
+  margin: 0%;
 }
 
 #infoBox #code {
