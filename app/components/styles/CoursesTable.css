@@ -1,13 +1,5 @@
 @import url("./Global.css");
 
-#coursesTable {
-  width: 95%;
-  padding: 1rem;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(6rem, 1fr));
-  gap: 0.5rem;
-}
-
 button.card {
   text-align: center;
   background-color: var(--course-card);
@@ -19,5 +11,44 @@ button.card {
   font-weight: bold;
   border: none;
   box-shadow: 0rem 0rem 0.2rem var(--shadow);
+}
+
+#containers {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding-top: 2%;
+}
+
+#coursesTable {
+  width: 95%;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(6rem, 1fr));
+  gap: 0.5rem;
+  background-color: var(--graph-box);
+  margin-right: 2%;
+}
+
+#courseBox {
+  background-color: var(--graph-box);
+  width: 95%;
+  margin-left: 2%;
+}
+
+#infoBox {
+  background-color: var(--info-box);
+  margin: 3%;
+  padding-top: 0;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 2%;
+  border: none;
+  box-shadow: 0rem 0rem 0.2rem var(--shadow);
+}
+
+#infoBoxHead {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
