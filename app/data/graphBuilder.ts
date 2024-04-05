@@ -19,24 +19,27 @@ const debug: {
   reduced: true,
 };
 
+type build_options = {
+  includes?: CourseShell[]; // courses to include in the graph (these have their prerequisites recursively included too)
+  soft_exludes?: CourseShell[]; // courses to include in the graph without their prerequisites
+  hard_excludes?: CourseShell[]; // courses to exclude entirely
+  simplify?: boolean; // remove sophisticated representation of prerequisite relationships (no "or" or "and" nodes)
+  decimate_orphans?: boolean; // filter out nodes with no edges
+};
+
 /** pass in either a courseshell or an array of courseshells, and get back the appropriate graph */
-export default function buildGraph(input: CourseShell | CourseShell[]) {
-  return convertJSONGraph(
-    (Array.isArray(input) ? build(input) : build([input])) as {
-      nodes: { id: string; text: string }[];
-      edges: { from: string; to: string }[];
-    },
-  );
+export default function buildGraph(input: build_options): GraphData {
+  return build(input); // broken
 }
+
+/** use this to check if every or node is redundant */
+function or_redundancy_check() {}
 
 /** type definition used only for the state variable in PrereqTraversal's lambdas */
 type build_state = { nid: string; i: number };
 
 /** the function that actually does all the work */
-function build(courses: CourseShell[]): {
-  nodes: NodeData[];
-  edges: EdgeData[];
-} {
+function build(courses: CourseShell[]): GraphData {
   if (courses.length == 0) {
     console.log("WARNING: no courses passed in, built empty graph.");
   }
@@ -159,10 +162,7 @@ function build(courses: CourseShell[]): {
 /// MERMAID/REAGRAPH COMPATIBILITY
 
 /** naively converts a JSON representation of a graph to Mermaid's markdown representation */
-function convertJSONGraph(input: {
-  nodes: { id: string; text: string }[];
-  edges: { from: string; to: string }[];
-}) {
+export function convertJSONGraph(input: GraphData) {
   // TODO sophisticated conversion if still using Mermaid -- 2024/01/13
   return (
     "graph BT\n" +
@@ -171,6 +171,11 @@ function convertJSONGraph(input: {
       input.edges.map((e) => `${e.from} --> ${e.to}`).join("\n"), // edge declarations
     ].join("\n")
   );
+}
+
+interface GraphData {
+  nodes: NodeData[];
+  edges: EdgeData[];
 }
 
 /** should be removed if migrating to reaflow/graph
