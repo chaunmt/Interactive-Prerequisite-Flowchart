@@ -35,40 +35,6 @@ h1 {
   padding-bottom: 1rem;
 }
 
-#containers {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  padding-top: 2%;
-}
-
-#tableBox {
-  background-color: var(--graph-box);
-  margin-right: 2%;
-}
-
-#courseBox {
-  background-color: var(--graph-box);
-  width: 95%;
-  margin-left: 2%;
-}
-
-#infoBox {
-  background-color: var(--info-box);
-  margin: 3%;
-  padding-top: 0;
-  padding-left: 2%;
-  padding-right: 2%;
-  padding-bottom: 2%;
-  border: none;
-  box-shadow: 0rem 0rem 0.2rem var(--shadow);
-}
-
-#infoBoxHead {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
 button {
   cursor: pointer;
 }
