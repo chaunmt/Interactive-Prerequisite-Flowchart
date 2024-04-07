@@ -19,30 +19,38 @@ function Search() {
     exactDept
   };
 
+  /**
+   * remove all whitespace and convert to lower-case with the hopes of
+   * increasing search compatibility
+   */
+  function mash(text: string) {
+    return text.toLowerCase().replaceAll(/\s/g,'');
+  }
+
   function courseByName(text: string) {
-    const l_text = text.toLowerCase();
+    const l_text = mash(text);
     return courses.filter((course) => {
       const fullCodeName = course.code + " - " + course.title;
-      return fullCodeName.toLowerCase().includes(l_text);
+      return mash(fullCodeName).includes(l_text);
     });
   }
 
   function deptByName(text: string) {
-    const l_text = text.toLowerCase();
+    const l_text = mash(text);
     return Object.entries(departments)
       .filter(
         ([apr, name]) =>
-          apr.toLowerCase().includes(l_text) ||
-          l_text.startsWith(apr.toLowerCase()) ||
-          name.toLowerCase().includes(l_text),
+          mash(apr).includes(l_text) ||
+          l_text.startsWith(mash(apr)) ||
+          mash(name).includes(l_text),
       )
       .map(([apr, name]) => ({ apr, name }));
   }
 
   function exactDept(text: string) {
-    const l_text = text.toLowerCase();
+    const l_text = mash(text);
     for (let apr in departments) {
-      if (apr.toLowerCase() == l_text || departments[apr].toLowerCase() == l_text) {
+      if (mash(apr) == l_text || mash(departments[apr]) == l_text) {
         return apr + " - " + departments[apr];
       }
     }
