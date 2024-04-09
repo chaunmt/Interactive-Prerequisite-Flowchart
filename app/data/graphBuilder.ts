@@ -20,31 +20,36 @@ const debug: {
 };
 
 type build_options = {
-  includes?: CourseShell[]; // courses to include in the graph (these have their prerequisites recursively included too)
-  soft_exludes?: CourseShell[]; // courses to include in the graph without their prerequisites
-  hard_excludes?: CourseShell[]; // courses to exclude entirely
-  simplify?: boolean; // remove sophisticated representation of prerequisite relationships (no "or" or "and" nodes)
-  decimate_orphans?: boolean; // filter out nodes with no edges
+  // note: hard_excludes takes precedence over soft_excludes, which takes precedence over includes (if a course appears in more than one list)
+  readonly includes?: CourseShell[]; // courses to include in the graph (these have their prerequisites recursively included too)
+  readonly soft_excludes?: CourseShell[]; // courses to include in the graph without their prerequisites
+  readonly hard_excludes?: CourseShell[]; // courses to exclude entirely
+  readonly simplify?: boolean; // remove sophisticated representation of prerequisite relationships (no "or" or "and" nodes)
+  readonly decimate_orphans?: boolean; // filter out nodes with no edges
 };
-
-/** pass in either a courseshell or an array of courseshells, and get back the appropriate graph */
-export default function buildGraph(input: build_options): GraphData {
-  return build(input); // broken
-}
 
 /** use this to check if every or node is redundant */
 function or_redundancy_check() {}
 
-/** type definition used only for the state variable in PrereqTraversal's lambdas */
-type build_state = { nid: string; i: number };
+/** pass in either a courseshell or an array of courseshells, and get back the appropriate graph */
+export default function buildGraph(input: build_options): GraphData {
+  let graph = build(input);
+  return input.decimate_orphans ? graph : cleanup(graph);
+
+  function cleanup(graph: GraphData) {
+    return graph;
+  }
+}
 
 /** the function that actually does all the work */
-function build(courses: CourseShell[]): GraphData {
-  if (courses.length == 0) {
-    console.log("WARNING: no courses passed in, built empty graph.");
+function build(input: build_options): GraphData {
+  let { includes, soft_excludes, hard_excludes, simplify } = input;
+
+  if (!includes && !soft_excludes) {
+    console.warn("WARNING: no courses passed in, building empty graph.");
   }
   if (debug.process) {
-    const log = debug.reduced ? courses.map((x) => x.code) : courses;
+    const log = debug.reduced ? includes.map((x) => x.code) : includes;
     console.log("begin build:", log);
   }
 
@@ -52,7 +57,7 @@ function build(courses: CourseShell[]): GraphData {
   let edge_list: EdgeData[] = [];
   /** store and reuse Accessors instead of creating a new one every time it's needed */
   let accessors = new Map<string, Accessor>();
-  let process = PrereqTraversal<void, build_state>(
+  let processor = PrereqTraversal<void, build_state>(
     () => {},
     course_lambda,
     () => {},
@@ -62,10 +67,17 @@ function build(courses: CourseShell[]): GraphData {
     andx,
   ); // no return value needed, so most of the lambdas can be void
 
-  courses.forEach((course, i) => {
+  includes.forEach((course, i) => {
     if (debug.process) {
       const log = debug.reduced ? course.code : course;
-      console.log("list:", log, "—", i);
+      console.log("includes:", log, "—", i);
+    }
+    singleton(course);
+  });
+  soft_excludes.forEach((course, i) => {
+    if (debug.process) {
+      const log = debug.reduced ? course.code : course;
+      console.log("soft_excludes:", log, "—", i);
     }
     singleton(course);
   });
@@ -102,7 +114,7 @@ function build(courses: CourseShell[]): GraphData {
       : accessors.get(course.subject).get(course);
     // TODO proper error handling
     if (full_course == null) {
-      console.log(
+      console.error(
         "ERROR: Invalid course found while building graph:",
         course.code,
       );
@@ -111,10 +123,13 @@ function build(courses: CourseShell[]): GraphData {
     }
     const { code, subject, id, prereq } = full_course;
     let node_id = `${subject}_${id}`;
-    // skip if already processed
+    // skip this step if already processed
     if (node_list.every((node) => node.id !== node_id)) {
       node_list.push({ id: node_id, text: code });
-      process(prereq, { nid: node_id, i: 0 });
+      // only process prereqs if not soft_excluded
+      if (soft_excludes.every((cours) => code != cours.code)) {
+        processor(prereq, { nid: node_id, i: 0 });
+      }
     }
     return node_id;
   }
@@ -159,6 +174,10 @@ function build(courses: CourseShell[]): GraphData {
   }
 }
 
+type build_state = { nid: string; i: number };
+
+type GraphData = { nodes: NodeData[]; edges: EdgeData[] };
+
 /// MERMAID/REAGRAPH COMPATIBILITY
 
 /** naively converts a JSON representation of a graph to Mermaid's markdown representation */
@@ -171,11 +190,6 @@ export function convertJSONGraph(input: GraphData) {
       input.edges.map((e) => `${e.from} --> ${e.to}`).join("\n"), // edge declarations
     ].join("\n")
   );
-}
-
-interface GraphData {
-  nodes: NodeData[];
-  edges: EdgeData[];
 }
 
 /** should be removed if migrating to reaflow/graph
