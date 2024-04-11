@@ -8,8 +8,8 @@ import Graph, {
 export default function Page() {
   // test data
   let incl = [
-    "CSCI 1933",
-    "CSCI 2011",
+    // "EE 5364",
+    "CSCI 4041",
     "CSCI 2033",
     "MATH 4281",
     "MATH 4242",
@@ -17,11 +17,17 @@ export default function Page() {
   let soft = [
     "MATH 1271",
     "CSCI 2033",
-    "PHYS 2503",
-    "PHYS 1302",
+    // "PHYS 2503",
+    // "PHYS 1302",
     "PHYS 1301",
   ].map((code) => AccessAll.getCourse(code));
-  let hard = [].map((code) => AccessAll.getCourse(code));
+  let hard = [
+    "MATH 2263",
+    "MATH 2283",
+    "CSCI 1913",
+    // "CHEM 1066",
+    // "CHEM 1062",
+  ].map((code) => AccessAll.getCourse(code));
   let simpl = undefined;
   let deci = undefined;
 
