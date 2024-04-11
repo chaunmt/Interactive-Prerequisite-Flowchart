@@ -28,7 +28,7 @@ export default function Page() {
     // "CHEM 1066",
     // "CHEM 1062",
   ].map((code) => AccessAll.getCourse(code));
-  let simpl = undefined;
+  let simpl = true;
   let deci = true;
 
   let build: build_options = {
