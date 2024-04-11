@@ -1,4 +1,4 @@
-import Access from "./access";
+import Access, { isEqualCourses } from "./access";
 import {
   Accessor,
   CourseShell,
@@ -37,13 +37,20 @@ type build_options = {
 function or_redundancy_check() {}
 
 export default function buildGraph(input: build_options): GraphData {
-  let graph = build(input);
-  return input.decimate_orphans ? graph : cleanup(graph);
+  let graph = input.simplify ? build_simple(input) : surgery(build(input));
+  return input.decimate_orphans ? graph : assist(graph);
 
-  function cleanup(graph: GraphData) {
+  function surgery(graph: GraphData) {
+    // remove redundant or/and
+    return graph;
+  }
+  function assist(graph: GraphData) {
+    // filter out orphans
     return graph;
   }
 }
+
+let build_simple = build; // TODO implement
 
 /** the function that actually does all the work */
 function build(input: build_options): GraphData {
@@ -75,18 +82,30 @@ function build(input: build_options): GraphData {
 
   // enter recursive pattern for each included/soft_excluded course
   includes.forEach((course, i) => {
-    if (debug.process) {
-      const log = debug.reduced ? course.code : course;
-      console.log("includes:", log, "—", i);
+    const log = debug.reduced ? course.code : course;
+    if (hard_excludes.some((thing) => isEqualCourses(thing, course))) {
+      if (debug.process) {
+        console.log(`includes[${i}]:`, log, "skipped (hard exclusion)");
+      }
+    } else {
+      if (debug.process) {
+        console.log(`includes[${i}]:`, log);
+      }
+      singleton(course);
     }
-    singleton(course);
   });
   soft_excludes.forEach((course, i) => {
-    if (debug.process) {
-      const log = debug.reduced ? course.code : course;
-      console.log("soft_excludes:", log, "—", i);
+    const log = debug.reduced ? course.code : course;
+    if (hard_excludes.some((excl) => isEqualCourses(excl, course))) {
+      if (debug.process) {
+        console.log(`soft_excludes[${i}]:`, log, "skipped (hard exclusion)");
+      }
+    } else {
+      if (debug.process) {
+        console.log(`soft_excludes[${i}]:`, log);
+      }
+      singleton(course);
     }
-    singleton(course);
   });
 
   // by the time flow of control is back here the graph should be complete
@@ -154,6 +173,9 @@ function build(input: build_options): GraphData {
   }
 
   function course_lambda(preq: CourseShell, state: build_state) {
+    // skip if excluded
+    if (hard_excludes.some((excl) => isEqualCourses(excl, preq))) return;
+
     let node_id = singleton(preq);
     let edge_id = `${node_id}___${state.nid}`;
     if (edge_list.every((edge) => edge.id !== edge_id)) {
@@ -227,3 +249,12 @@ interface EdgeData<T = any> {
   parent?: string;
   selectionDisabled?: boolean;
 }
+
+// a smarter version of this would have the Nodes keep track of
+// either their outbound or inbound edges, and then iterate over
+// the node list to append together each of their edge lists
+// interface NodeData {
+//   id: string;
+//   ...
+//   edges: string[]; // list of connected node ids
+// }
