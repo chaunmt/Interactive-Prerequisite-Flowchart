@@ -37,23 +37,24 @@ type build_options = {
 function or_redundancy_check() {}
 
 export default function buildGraph(input: build_options): GraphData {
-  let graph = input.simplify ? build_simple(input) : surgery(build(input));
+  let graph = surgery(build(input));
+  console.log(assist(graph).nodes);
   return input.decimate_orphans ? assist(graph) : graph;
 
+  // remove redundant or/and
   function surgery(graph: GraphData) {
-    // remove redundant or/and
+    // let redundancies = graph.nodes.filter((node) => {});
     return graph;
   }
+
+  // filter out orphans
   function assist(graph: GraphData) {
-    // filter out orphans
     let nodes = graph.nodes.filter((node) =>
-      graph.edges.some((edge) => node.id == edge.from),
+      graph.edges.some((edge) => node.id == edge.from || node.id == edge.to),
     );
     return { nodes: nodes, edges: graph.edges };
   }
 }
-
-let build_simple = build; // TODO implement
 
 /** the function that actually does all the work */
 function build(input: build_options): GraphData {
@@ -167,7 +168,7 @@ function build(input: build_options): GraphData {
 
       // only process prereqs if not soft_excluded
       if (soft_excludes.every((encl) => code != encl.code)) {
-        processor(prereq, { nid: node_id, i: 0 });
+        processor(simplify ? flatten(prereq) : prereq, { nid: node_id, i: 0 });
       }
     }
 
@@ -216,9 +217,24 @@ function build(input: build_options): GraphData {
     // }
     return { nid: node_id, i: state.i };
   }
+
+  type build_state = { nid: string; i: number };
 }
 
-type build_state = { nid: string; i: number };
+let flatten = PrereqTraversal<CourseShell[], void>(
+  (cl_outs) => {
+    return cl_outs.flat();
+  },
+  (crs) => {
+    return [crs];
+  },
+  (al_out) => {
+    return al_out;
+  },
+  (al_out) => {
+    return al_out;
+  },
+);
 
 type GraphData = { nodes: NodeData[]; edges: EdgeData[] };
 
