@@ -30,7 +30,7 @@ type build_options = {
   readonly soft_excludes?: CourseShell[]; // courses to include in the graph without their prerequisites
   readonly hard_excludes?: CourseShell[]; // courses to exclude entirely
   readonly simplify?: boolean; // remove sophisticated representation of prerequisite relationships (no "or" or "and" nodes)
-  readonly decimate_orphans?: boolean; // filter out nodes with no edges
+  readonly decimate_orphans?: boolean; // filter out nodes with no edges (this can filter out courses from the above lists)
 };
 
 /** use this to check if every or node is redundant */
@@ -38,7 +38,7 @@ function or_redundancy_check() {}
 
 export default function buildGraph(input: build_options): GraphData {
   let graph = input.simplify ? build_simple(input) : surgery(build(input));
-  return input.decimate_orphans ? graph : assist(graph);
+  return input.decimate_orphans ? assist(graph) : graph;
 
   function surgery(graph: GraphData) {
     // remove redundant or/and
@@ -46,7 +46,10 @@ export default function buildGraph(input: build_options): GraphData {
   }
   function assist(graph: GraphData) {
     // filter out orphans
-    return graph;
+    let nodes = graph.nodes.filter((node) =>
+      graph.edges.some((edge) => node.id == edge.from),
+    );
+    return { nodes: nodes, edges: graph.edges };
   }
 }
 
@@ -55,7 +58,7 @@ let build_simple = build; // TODO implement
 /** the function that actually does all the work */
 function build(input: build_options): GraphData {
   // unpacking solely for compactness of following code (at the expense of memory)
-  let { includes, soft_excludes, hard_excludes, simplify } = input;
+  const { includes, soft_excludes, hard_excludes, simplify } = input;
 
   if (!includes && !soft_excludes) {
     console.warn("WARNING: no courses passed in, building empty graph.");
@@ -163,7 +166,7 @@ function build(input: build_options): GraphData {
       node_list.push({ id: node_id, text: code });
 
       // only process prereqs if not soft_excluded
-      if (soft_excludes.every((cours) => code != cours.code)) {
+      if (soft_excludes.every((encl) => code != encl.code)) {
         processor(prereq, { nid: node_id, i: 0 });
       }
     }

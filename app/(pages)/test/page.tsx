@@ -29,7 +29,7 @@ export default function Page() {
     // "CHEM 1062",
   ].map((code) => AccessAll.getCourse(code));
   let simpl = undefined;
-  let deci = undefined;
+  let deci = true;
 
   let build: build_options = {
     includes: incl,
