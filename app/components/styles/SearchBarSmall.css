@@ -1,12 +1,12 @@
 @import url("./Global.css");
 
-.Search {
+#navSmall .Search {
   width: 50%;
   right: 0;
   top: 0;
 }
 
-.Search input {
+#navSmall .Search input {
   border: 0;
   outline: 0;
   background: var(--search-bar);
@@ -15,7 +15,7 @@
   box-shadow: 0.05rem 0.05rem 0.2rem var(--shadow);
 }
 
-.Search .container {
+#navSmall .Search .container {
   position: absolute;
   background-color: var(--search-result-container);
   box-shadow: 0rem 0rem 0.2rem var(--shadow);
@@ -25,13 +25,13 @@
   z-index: 999;
 }
 
-.Search ul {
+#navSmall .Search ul {
   margin-top: 1%;
   margin-bottom: 1%;
   padding: 2%;
 }
 
-.Search ul li {
+#navSmall .Search ul li {
   list-style-type: none;
   padding-top: 2%;
   padding-right: 2%;
@@ -40,24 +40,24 @@
   cursor: pointer;
 }
 
-.Search ul li:hover {
+#navSmall .Search ul li:hover {
   color: var(--p-color-hover);
   background-color: var(--search-bar);
 }
 
-.Search .container::-webkit-scrollbar {
+#navSmall .Search .container::-webkit-scrollbar {
   width: 0.5rem;
 }
 
-.Search .container::-webkit-scrollbar-track {
+#navSmall .Search .container::-webkit-scrollbar-track {
   background: var(--scroll-track);
 }
 
-.Search .container::-webkit-scrollbar-thumb {
+#navSmall .Search .container::-webkit-scrollbar-thumb {
   background: var(--scroll-thumb);
   border-radius: 0.2rem;
 }
 
-.Search .container::-webkit-scrollbar-thumb:hover {
+#navSmall .Search .container::-webkit-scrollbar-thumb:hover {
   background: var(--scroll-thumb-hover);
 }
