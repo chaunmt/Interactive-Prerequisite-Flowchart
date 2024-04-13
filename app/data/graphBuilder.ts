@@ -59,9 +59,9 @@ export default function buildGraph(input: build_options): GraphData {
 /** the function that actually does all the work */
 function build(input: build_options): GraphData {
   // unpacking solely for compactness of following code (at the expense of memory)
-  const { includes, soft_excludes, hard_excludes, simplify } = input;
+  const { includes = [], soft_excludes = [], hard_excludes = [], simplify } = input;
 
-  if (!includes && !soft_excludes) {
+  if (includes.length == 0 && soft_excludes.length == 0) {
     console.warn("WARNING: no courses passed in, building empty graph.");
   }
   if (debug.process) {
