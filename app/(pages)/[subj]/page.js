@@ -8,8 +8,8 @@ import Graph from "../../components/graph/Graph";
 import { Search } from "../../data/search";
 import { CoursesTable } from "../../components/table/CoursesTable";
 
-import "../../components/styles/SearchBarSmall.css"
-import "../../components/styles/SubjPage.css"
+import "../../components/styles/SearchBarSmall.css";
+import "../../components/styles/SubjPage.css";
 
 import { MdOpenInNew } from "react-icons/md";
 
@@ -28,12 +28,12 @@ export default function Page({ params }) {
     <div id="content">
       <h1>{Search().exactDept(SUBJ).toUpperCase()}</h1>
       <div id="nav">
-        <NavigationSearch/>
+        <NavigationSearch />
       </div>
       <div id="containers">
         {/* Check CoursesTable.tsx to find id and class name */}
         <div id="tableBox">
-          <CoursesTable SUBJ_COURSES={SUBJ_COURSES}/>
+          <CoursesTable SUBJ_COURSES={SUBJ_COURSES} />
         </div>
         <div id="courseBox">
           <div id="infoBox">
@@ -50,7 +50,8 @@ export default function Page({ params }) {
             <p>*Possible Prerequisites: XXXX</p>
           </div>
           <div id="graphBox">
-            <Graph sourceData={SUBJ_COURSES} />
+            {/* <Graph sourceData={SUBJ_COURSES} /> */}
+            <Graph build={{ includes: SUBJ_COURSES }} />
           </div>
         </div>
       </div>

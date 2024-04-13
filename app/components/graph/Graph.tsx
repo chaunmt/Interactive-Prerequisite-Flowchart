@@ -10,10 +10,11 @@
  * such as manually adding new entries instead of relying entirely on the
  * Mermaid compatibility layer in graphBuilder.ts
  */
-// "use client"
+// "use client";
 
 // import { useState } from "react";
 
+import Reaflow from "./Reaflow";
 import Mermaid from "./Mermaid";
 import { CourseShell } from "../../data/types";
 import buildGraph from "../../data/graphBuilder";
@@ -31,23 +32,23 @@ export type {
 };
 
 type display_options = {
-  readonly orientation?: "TB" | "BT" | "LR" | "RL"; // top-bottom, bottom-top, left-right, right-left
+  readonly orientation?: "DOWN" | "UP" | "RIGHT" | "LEFT"; // top-bottom, bottom-top, left-right, right-left
   // TODO: other readonly optional members as needed (remember to pad for undefined when using nonboolean) -- jahndan 2024/04/11
 };
 
-// note that {} can be passed for display to use defaults
 function Graph({
   build,
   display,
 }: {
   build: build_options;
-  display: display_options;
+  display?: display_options;
 }) {
   //TODO: extract Mermaid compatibility layer from graphBuilder.ts
   // - add graph customization features
   const graph = buildGraph(build);
 
-  return <Mermaid graph={convertJSONGraph(graph)} />;
+  return <Reaflow nodes={graph.nodes} edges={graph.edges} />;
+  // return <Mermaid graph={convertJSONGraph(graph)} />;
 }
 
 /** naively converts a JSON representation of a graph to Mermaid's markdown representation */

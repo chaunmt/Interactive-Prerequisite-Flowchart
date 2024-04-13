@@ -8,7 +8,7 @@ import Custom404 from "../../[errors]/404";
 
 import "../../../components/styles/Idpage.css";
 import "../../../components/styles/Layout.css";
-import "../../../components/styles/SearchBarSmall.css"
+import "../../../components/styles/SearchBarSmall.css";
 
 import { FiDownload } from "react-icons/fi";
 import { IoReturnUpBackOutline } from "react-icons/io5";
@@ -31,9 +31,11 @@ export default function Page({ params }) {
     <div id="content">
       <div id="nav">
         <Link href={"/" + SUBJ}>
-          <button id="back"><IoReturnUpBackOutline /></button>
+          <button id="back">
+            <IoReturnUpBackOutline />
+          </button>
         </Link>
-        <NavigationSearch/>
+        <NavigationSearch />
       </div>
       <div id="container">
         <div id="graph">
@@ -44,9 +46,11 @@ export default function Page({ params }) {
             >
               <b>*Possible Prerequisites</b>
             </div>
-            <button id="download"><FiDownload /></button>
+            <button id="download">
+              <FiDownload />
+            </button>
           </div>
-          <Graph sourceData={course} />
+          <Graph build={{ includes: [course] }} />
           {/* <Mermaid graph={graphString} /> */}
         </div>
         <div id="infoBox">
