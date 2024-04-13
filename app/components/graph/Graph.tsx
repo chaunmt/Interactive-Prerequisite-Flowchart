@@ -35,13 +35,12 @@ type display_options = {
   // TODO: other readonly optional members as needed (remember to pad for undefined when using nonboolean) -- jahndan 2024/04/11
 };
 
-// note that {} can be passed for display to use defaults
 function Graph({
   build,
   display,
 }: {
   build: build_options;
-  display: display_options;
+  display?: display_options;
 }) {
   //TODO: extract Mermaid compatibility layer from graphBuilder.ts
   // - add graph customization features
