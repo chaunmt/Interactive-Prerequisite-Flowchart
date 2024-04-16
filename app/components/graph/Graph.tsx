@@ -46,14 +46,15 @@ function Graph({
   // - add graph customization features
   const graph = buildGraph(build);
 
-  return <Mermaid graph={convertJSONGraph(graph)} />;
+  return <Mermaid graph={convertJSONGraph(graph, display)} />;
 }
 
 /** naively converts a JSON representation of a graph to Mermaid's markdown representation */
-function convertJSONGraph(input: GraphData) {
+function convertJSONGraph(input: GraphData, display?: display_options) {
   // TODO sophisticated conversion if still using Mermaid -- 2024/01/13
+  const orientation = display?.orientation ?? "BT";
   return (
-    "graph BT\n" +
+    `graph ${orientation}\n` +
     [
       input.nodes.map((n) => `${n.id}[${n.text}]`).join("\n"), // node declarations
       input.edges.map((e) => `${e.from} --> ${e.to}`).join("\n"), // edge declarations
