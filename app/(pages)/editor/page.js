@@ -53,7 +53,7 @@ export default function Page({ params }) {
         {courses.length === 0 ? (
           <h2>Add courses to the right to get started</h2>
         ) : (
-          <Graph sourceData={courses} />
+          <Graph build={{ includes: courses }} />
         )}
       </div>
       <div id="picker">

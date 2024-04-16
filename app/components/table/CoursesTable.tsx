@@ -36,7 +36,7 @@ function CoursesTable({ SUBJ_COURSES } : { SUBJ_COURSES: Course[] }) {
           <p>{selectedCourse.info}</p>
         </div>
         <div id="graphBox">
-          <Graph sourceData={selectedCourse} />
+          <Graph build={{ includes: [selectedCourse] }} />
         </div>
       </div>
     </div>

@@ -46,7 +46,7 @@ export default function Page({ params }) {
             </div>
             <button id="download"><FiDownload /></button>
           </div>
-          <Graph sourceData={course} />
+          <Graph build={{ includes: [course] }} />
           {/* <Mermaid graph={graphString} /> */}
         </div>
         <div id="infoBox">
