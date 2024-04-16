@@ -17,6 +17,11 @@ export default function Page({ params }) {
   const [items, setItems] = useState([]);
   const [selectedItems, setSelected] = useState([]);
   const [courses, setCourses] = useState([]);
+  const [displayOptions, setDisplayOptions] = useState({orientation: "BT"});
+
+  function changeOrientation(event) {
+    setDisplayOptions({orientation: event.target.value})
+  }
 
   // update selectable items when search query changes
   useEffect(() => {
@@ -53,7 +58,18 @@ export default function Page({ params }) {
         {courses.length === 0 ? (
           <h2>Add courses to the right to get started</h2>
         ) : (
-          <Graph build={{ includes: courses }} />
+          <div>
+            <div>
+              <label for="orientation-picker">Orientation: </label>
+              <select name="orientation" id="orientation-picker" onChange={changeOrientation}>
+                <option value="TB">Top-to-Bottom</option>
+                <option value="BT" selected>Bottom-to-Top</option>
+                <option value="LR">Left-to-Right</option>
+                <option value="RL">Right-to-Left</option>
+              </select>
+            </div>
+            <Graph build={{ includes: courses }} display={displayOptions} />
+          </div>
         )}
       </div>
       <div id="picker">
