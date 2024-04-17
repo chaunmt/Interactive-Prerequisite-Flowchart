@@ -5,7 +5,7 @@ import { Course } from "../../data/types";
 import Graph from "../graph/Graph";
 import Link from "next/link";
 
-import "../styles/CoursesTable.css"
+import "./CoursesTable.css"
 
 import { MdOpenInNew } from "react-icons/md";
 

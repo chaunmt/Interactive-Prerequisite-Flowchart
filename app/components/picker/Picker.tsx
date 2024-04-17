@@ -3,7 +3,7 @@
  */
 "use client";
 
-import "../styles/Picker.css";
+import "./Picker.css";
 
 interface ListItem {
   id: string;

@@ -1,7 +1,5 @@
 "use client";
 
-import "../../components/styles/Mainpage.css";
-import "../../components/styles/Editor.css";
 import Graph from "../../components/graph/Graph";
 import DualPanePicker from "../../components/picker/Picker";
 import { AccessAll } from "../../data/access";
@@ -10,7 +8,8 @@ import { useEffect, useState } from "react";
 import SearchBar from "../../components/search/SearchBar";
 import { Search } from "../../data/search";
 
-import "../../components/styles/SearchBar.css"
+import "../Mainpage.css";
+import "./Editor.css";
 
 export default function Page({ params }) {
   const [search, setSearch] = useState("");

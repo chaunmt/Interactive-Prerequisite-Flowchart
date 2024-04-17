@@ -1,10 +1,11 @@
 // Home page - "google.com" w/ global search
 
-import "../components/styles/Layout.css";
-import "../components/styles/Mainpage.css";
-import "../components/styles/SearchBarBig.css"
 import { NavigationSearch } from "../components/search/NavigationSearch";
 import Image from "next/image";
+
+import "./Layout.css";
+import "./Mainpage.css";
+import "../components/search/SearchBarBig.css"
 
 export default function Page() {
   return (

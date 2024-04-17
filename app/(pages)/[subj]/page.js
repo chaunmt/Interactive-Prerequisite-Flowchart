@@ -6,8 +6,8 @@ import Custom404 from "../[errors]/404";
 import { Search } from "../../data/search";
 import { CoursesTable } from "../../components/table/CoursesTable";
 
-import "../../components/styles/SearchBarSmall.css"
-import "../../components/styles/SubjPage.css"
+import "../../components/search/SearchBarSmall.css"
+import "./SubjPage.css"
 
 export async function generateMetadata({ params, searchParams }, parent) {
   return {
