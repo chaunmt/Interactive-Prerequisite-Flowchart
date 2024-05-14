@@ -169,7 +169,7 @@ function build(input: build_options): GraphData {
 
     // skip this step if already processed
     if (node_list.every((node) => node.id !== node_id)) {
-      node_list.push({ id: node_id, text: code });
+      node_list.push({ id: node_id, text: code, data: { code, subject, id } });
 
       // only process prereqs if not soft_excluded
       if (soft_excludes.every((encl) => code != encl.code)) {
