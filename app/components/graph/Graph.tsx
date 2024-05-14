@@ -43,11 +43,16 @@ function Graph({
   build: build_options;
   display?: display_options;
 }) {
-  //TODO: extract Mermaid compatibility layer from graphBuilder.ts
-  // - add graph customization features
-  const graph = buildGraph(build);
+  //TODO: add graph customization features
+  // const graph: GraphData = buildGraph(build);
 
-  return <Reaflow nodes={graph.nodes} edges={graph.edges} />;
+  return (
+    <Reaflow
+      // nodes={graph.nodes}
+      // edges={graph.edges}
+      build={build}
+    />
+  );
   // return <Mermaid graph={convertJSONGraph(graph)} />;
 }
 
