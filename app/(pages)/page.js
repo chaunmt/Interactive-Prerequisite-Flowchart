@@ -17,7 +17,7 @@ export default function Page() {
           width={1000} height={1000} // Pixel rendered
         />
       </div>
-      <div className>
+      <div id="navBig">
         <NavigationSearch />
       </div>
     </div>

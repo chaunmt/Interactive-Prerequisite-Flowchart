@@ -62,14 +62,12 @@ export default function DualPanePicker({
   }
 
   return (
-    <div>
-      <div id="bars">
-        <div id="items">
-          <Picker items={items} onClickItem={addItem} />
-        </div>
-        <div id="selectedItems">
-          <Picker items={selectedItems} onClickItem={removeItem} />
-        </div>
+    <div id="bars">
+      <div id="items">
+        <Picker items={items} onClickItem={addItem} />
+      </div>
+      <div id="selectedItems">
+        <Picker items={selectedItems} onClickItem={removeItem} />
       </div>
     </div>
   );

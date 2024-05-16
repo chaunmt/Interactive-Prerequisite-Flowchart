@@ -1,11 +1,11 @@
 @import url("./Global.css");
 
-.Search {
+#navBig .Search {
   text-align: center;
   top: 5%;
 }
 
-.Search input {
+#navBig .Search input {
   border: 0;
   outline: 0;
   background: var(--search-bar);
@@ -18,7 +18,7 @@
   font-size: large;
 }
 
-.Search ul li {
+#navBig .Search ul li {
   list-style-type: none;
   border: 0;
   outline: 0;
@@ -29,6 +29,6 @@
   cursor: pointer;
 }
 
-.Search ul li:hover {
+#navBig .Search ul li:hover {
   color: var(--p-color-hover);
 }
