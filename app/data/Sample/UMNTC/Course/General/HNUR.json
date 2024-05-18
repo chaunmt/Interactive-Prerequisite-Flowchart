@@ -1,0 +1,222 @@
+[
+  {
+    "uid": "813204",
+    "code": "HNUR1005",
+    "subject": "HNUR",
+    "number": "1005",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Conversational Hindi-Urdu",
+    "fullname": "Conversational Hindi-Urdu",
+    "info": "Conversational Hindi-Urdu is targeted for students with different backgrounds and purposes. This specific course is designed for students who want to acquire only conversational skills without focusing on the Hindi/Urdu script and writing and reading components. English transliteration will be used instead.",
+    "prereq": []
+  },
+  {
+    "uid": "803932",
+    "code": "HNUR1011",
+    "subject": "HNUR",
+    "number": "1011",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Beginning Hindi-Urdu I",
+    "fullname": "Beginning Hindi-Urdu I",
+    "info": "Listening, speaking, reading, writing. Development of communicative competence.",
+    "prereq": []
+  },
+  {
+    "uid": "803933",
+    "code": "HNUR1012",
+    "subject": "HNUR",
+    "number": "1012",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Beginning Hindi-Urdu II",
+    "fullname": "Beginning Hindi-Urdu II",
+    "info": "Listening, speaking, reading, writing. Development of communicative competence.prereq: 1011 or instr consent",
+    "prereq": {
+      "code": "HNUR 1011",
+      "subject": "HNUR",
+      "id": "1011"
+    }
+  },
+  {
+    "uid": "816904",
+    "code": "HNUR1015",
+    "subject": "HNUR",
+    "number": "1015",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Accelerated Beg Hindi-Urdu",
+    "fullname": "Accelerated Beginning Hindi-Urdu",
+    "info": "This course is designed for students who already have good speaking skills (mainly heritage students) or those who studied Hindi/Urdu in the past and can review basic knowledge of the language at a faster pace than that of regular language classes. Course focuses on all four skills (plus cultural skills) and employs the communicative approach as a main teaching methodology. The Hindi/Urdu script will be introduced right from the beginning. By the end of semester, students will be equipped with linguistic and cultural competencies that will enable them to communicate successfully with people of the target country at a novice-high level, and have a good foundation on which to further build proficiency in the language. Students will learn materials that are normally covered in a full academic year.",
+    "prereq": []
+  },
+  {
+    "uid": "804824",
+    "code": "HNUR3021",
+    "subject": "HNUR",
+    "number": "3021",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Intermediate Hindi-Urdu I",
+    "fullname": "Intermediate Hindi-Urdu I",
+    "info": "Reading, writing, speaking, listening skills. Grammar review, basic compositions, oral presentations.prereq: 1012 or instr consent",
+    "prereq": {
+      "code": "HNUR 1012",
+      "subject": "HNUR",
+      "id": "1012"
+    }
+  },
+  {
+    "uid": "804812",
+    "code": "HNUR3022",
+    "subject": "HNUR",
+    "number": "3022",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Intermediate Hindi-Urdu II",
+    "fullname": "Intermediate Hindi-Urdu II",
+    "info": "Reading, writing, speaking, listening skills. Grammar review, basic compositions, oral presentations.prereq: 3021 or instr consent",
+    "prereq": {
+      "code": "HNUR 3021",
+      "subject": "HNUR",
+      "id": "3021"
+    }
+  },
+  {
+    "uid": "008024",
+    "code": "HNUR3032",
+    "subject": "HNUR",
+    "number": "3032",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Advanced Hindi-Urdu II",
+    "fullname": "Advanced Hindi-Urdu II",
+    "info": "Continued emphasis on development of communication skills, ability to comprehend both written/spoken texts. Speak, read, write in Hindi/Urdu beyond intermediate level.prereq: 3031 or instr consent",
+    "prereq": {
+      "code": "HNUR 3031",
+      "subject": "HNUR",
+      "id": "3031"
+    }
+  },
+  {
+    "uid": "798796",
+    "code": "HNUR3290",
+    "subject": "HNUR",
+    "number": "3290",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Hindi-Urdu Teaching Tutorial",
+    "fullname": "Hindi-Urdu Language Teaching Tutorial",
+    "info": "Students tutor beginning students of Hindi-Urdu and are part of department's Hindi-Urdu language team.prereq: Grade of A in HNDI 4162",
+    "prereq": {
+      "code": "HNDI 4162",
+      "subject": "HNDI",
+      "id": "4162"
+    }
+  },
+  {
+    "uid": "803934",
+    "code": "HNUR4001",
+    "subject": "HNUR",
+    "number": "4001",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Beg Hindi-Urdu I Grad Research",
+    "fullname": "Beginning Hindi-Urdu I for Graduate Student Research",
+    "info": "Listening, speaking, reading, writing. Development of communicative competence.",
+    "prereq": []
+  },
+  {
+    "uid": "803935",
+    "code": "HNUR4002",
+    "subject": "HNUR",
+    "number": "4002",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Beg Hindi-Urdu II Grad Resrch",
+    "fullname": "Beginning Hindi-Urdu II for Graduate Student Research",
+    "info": "Listening, speaking, reading, writing. Development of communicative competence.prereq: 4001 or instr consent",
+    "prereq": {
+      "code": "HNUR 4001",
+      "subject": "HNUR",
+      "id": "4001"
+    }
+  },
+  {
+    "uid": "804813",
+    "code": "HNUR4003",
+    "subject": "HNUR",
+    "number": "4003",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Int Hindi-Urdu I Grad Research",
+    "fullname": "Intermediate Hindi-Urdu I for Graduate Student Research",
+    "info": "Reading, writing, speaking, listening skills. Grammar review, basic compositions, oral presentations.prereq: 4002 or instr consent",
+    "prereq": {
+      "code": "HNUR 4002",
+      "subject": "HNUR",
+      "id": "4002"
+    }
+  },
+  {
+    "uid": "804814",
+    "code": "HNUR4004",
+    "subject": "HNUR",
+    "number": "4004",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Int Hindi-Urdu II Grad Resrch",
+    "fullname": "Intermediate Hindi-Urdu II for Graduate Student Research",
+    "info": "Reading, writing, speaking, listening skills. Grammar review, basic compositions, oral presentations.prereq: 4003 or instr consent",
+    "prereq": {
+      "code": "HNUR 4003",
+      "subject": "HNUR",
+      "id": "4003"
+    }
+  },
+  {
+    "uid": "808010",
+    "code": "HNUR4005",
+    "subject": "HNUR",
+    "number": "4005",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Adv Hindi-Urdu I Grad Research",
+    "fullname": "Advanced Hindi-Urdu I for Graduate Student Research",
+    "info": "Continued emphasis on development of communication skills, ability to comprehend both written/spoken texts. speak, read, write in Hindi/Urdu beyond intermediate level.prereq: 4004 or instr consent",
+    "prereq": {
+      "code": "HNUR 4004",
+      "subject": "HNUR",
+      "id": "4004"
+    }
+  },
+  {
+    "uid": "808011",
+    "code": "HNUR4006",
+    "subject": "HNUR",
+    "number": "4006",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Adv Hindi-Urdu II Grad Resrch",
+    "fullname": "Advanced Hindi-Urdu II for Graduate Student Research",
+    "info": "Continued emphasis on development of communication skills,  ability to comprehend both written/spoken texts. Speak, read, write in Hindi/Urdu beyond intermediate level. Meets with HNUR 3032.prereq: 4005 or instr consent",
+    "prereq": {
+      "code": "HNUR 4005",
+      "subject": "HNUR",
+      "id": "4005"
+    }
+  },
+  {
+    "uid": "816974",
+    "code": "HNUR4015",
+    "subject": "HNUR",
+    "number": "4015",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Accel Beg Hindi-Urdu Grad Res",
+    "fullname": "Accelerated Beginning Hindi-Urdu for Graduate Research",
+    "info": "This course is designed for students who already have good speaking skills (mainly heritage students) or those who studied Hindi/Urdu in the past and can review basic knowledge of the language at a faster pace than that of regular language classes. Course focuses on all four skills (plus cultural skills) and employs the communicative approach as a main teaching methodology. The Hindi/Urdu script will be introduced right from the beginning. By the end of semester, students will be equipped with linguistic and cultural competencies that will enable them to communicate successfully with people of the target country at a novice-high level, and have a good foundation on which to further build proficiency in the language. Students will learn materials that are normally covered in a full academic year. ",
+    "prereq": []
+  }
+]

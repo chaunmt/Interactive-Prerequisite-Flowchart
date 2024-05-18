@@ -1,0 +1,1228 @@
+[
+  {
+    "uid": "013132",
+    "code": "IDSC3001",
+    "subject": "IDSC",
+    "number": "3001",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Info Syst & Dig Transformation",
+    "fullname": "Information Systems & Digital Transformation",
+    "info": "Information technologies have transformed the way businesses operate and the way consumers interact with businesses. They have enabled organizations to increase efficiency, reduce costs, and reach new customers. Their impact goes beyond the business world and affects nearly every aspect of modern society. Along with the benefits they provide, technologies have created new problems around privacy, security, misinformation on social media, algorithmic bias, and potential stifling of competition and innovation. In today's digital age, it is crucial to develop an understanding of information technologies, their impact on business and society, and the challenges they pose for decision making in commercial firms, government agencies, and public policies.  This course is designed to cover a broad range of information technology issues in order to prepare students for the knowledge intensive economy of the 21st century. Students will be exposed to not only the technical aspects of information technologies, but also the social, political, and economic factors that shape its development and use. Through a combination of lectures, discussions, videos, in-class exercises and talks by guest speakers, students will gain an in-depth understanding of how information technologies are shaping businesses and the society as a whole. Students will also develop critical thinking skills to analyze and evaluate the impact of technology on society. Topics include business strategy and disruptive technologies, enterprise systems such as those for Customer Relationship Management, Supply Chain Management and Human Resource Management, electronic and mobile commerce, social media applications and their social impact, cloud computing, data analytics, IT privacy and security, artificial intelligence and its social impact.",
+    "prereq": []
+  },
+  {
+    "uid": "802006",
+    "code": "IDSC3101",
+    "subject": "IDSC",
+    "number": "3101",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Introduction to Programming",
+    "fullname": "Introduction to Programming",
+    "info": "Introduction to Programming introduces students to a number of fundamental programming concepts, including: variables, decision structures, programming functions, and repetition structures. These concepts, which are widely applicable to different programming languages, are introduced using Python.",
+    "prereq": []
+  },
+  {
+    "uid": "802007",
+    "code": "IDSC3102",
+    "subject": "IDSC",
+    "number": "3102",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Intermediate Programming",
+    "fullname": "Intermediate Programming",
+    "info": "Programming concepts to develop large, full-featured applications. Object-oriented programming, database applications, Web applications. Style, performance, UI design.",
+    "prereq": []
+  },
+  {
+    "uid": "802008",
+    "code": "IDSC3103",
+    "subject": "IDSC",
+    "number": "3103",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Data Modeling",
+    "fullname": "Data Modeling and Databases",
+    "info": "Concepts for designing, using, and implementing database systems. Normalization techniques. Structured Query Language (SQL). Analyzing a business situation. Building a database application.",
+    "prereq": []
+  },
+  {
+    "uid": "802009",
+    "code": "IDSC3104",
+    "subject": "IDSC",
+    "number": "3104",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Enterprise Systems",
+    "fullname": "Enterprise Systems",
+    "info": "Management aspects of Enterprise Systems. Vendor/vendor management options. Technologies, organizational readiness. Hands-on access to software solutions from ERP software provider. End-to-end processes. Measurement of key performance indicators. Analytics, workflow.prereq: 3001",
+    "prereq": {
+      "code": "IDSC 3001",
+      "subject": "IDSC",
+      "id": "3001"
+    }
+  },
+  {
+    "uid": "016555",
+    "code": "IDSC3111",
+    "subject": "IDSC",
+    "number": "3111",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "IS for Bus Process & Mgmt",
+    "fullname": "Information Systems for Business Processes and Management",
+    "info": "Developing/using IS to support business processes, management, and decision making. Technology components of IS, impact on organizations. Creation/change processes. Selected managerial issues. Techniques for designing, developing, implementing systems. Databases, user interfaces. Computer/communications network platforms.",
+    "prereq": []
+  },
+  {
+    "uid": "013854",
+    "code": "IDSC3201",
+    "subject": "IDSC",
+    "number": "3201",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Intro to Prog for Systems Dev",
+    "fullname": "Introduction to Programming for Systems Development",
+    "info": "Programming language syntax and control logic. User interface design. File/database access. Structured, event, and object-oriented design. Coding, testing, and debugging. Hands-on use of application-development environment and contemporary-development tools.",
+    "prereq": []
+  },
+  {
+    "uid": "013855",
+    "code": "IDSC3202",
+    "subject": "IDSC",
+    "number": "3202",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Analysis & Modeling",
+    "fullname": "Analysis and Modeling of Business Systems",
+    "info": "Improving/automating key business processes in manufacturing and service industries. Roles of business management and MIS. Selecting business process opportunities, business process analysis, process modeling of work/data flow, decomposition, software tools. Traditional/object analysis methods.prereq: 3001",
+    "prereq": {
+      "code": "IDSC 3001",
+      "subject": "IDSC",
+      "id": "3001"
+    }
+  },
+  {
+    "uid": "820070",
+    "code": "IDSC3511",
+    "subject": "IDSC",
+    "number": "3511",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Pitching Business Strategy",
+    "fullname": "Pitching Business Strategy",
+    "info": "Contemporary business strategy drives growth across industries and geographies. Thus, effectively selling an approach to an ambiguous business situation is an important skill for those entering the business world - either as a consultant or a staff member wishing to sell ideas to senior management. You will learn how to approach an opportunity and how to communicate your approach and an action plan to management with appropriate emphasis and structure. The class consists of a series of hands-on workshops and real-world, global business cases (which serve as proxies for real-life consulting and staff experiences). Prereq: IDSc 3001 or I-Core (completed or concurrent), or Instructor permission.",
+    "prereq": {
+      "code": "IDSC 3001",
+      "subject": "IDSC",
+      "id": "3001"
+    }
+  },
+  {
+    "uid": "015100",
+    "code": "IDSC4102",
+    "subject": "IDSC",
+    "number": "4102",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Introduction to IS Analysis",
+    "fullname": "Introduction to Information Systems Analysis",
+    "info": "Life cycle for development of an information system application. Standards, tools, and techniques required in analysis of information requirements and in logical information systems design. Processing alternative approaches to systems design.",
+    "prereq": []
+  },
+  {
+    "uid": "015101",
+    "code": "IDSC4103",
+    "subject": "IDSC",
+    "number": "4103",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "DB Design, Manip, Mgmt",
+    "fullname": "Database Design, Manipulation, and Management",
+    "info": "Use of computer technology and software to represent, manipulate, and manage data. Facilities for ad hoc interactive use and system development. Principles and techniques of logical database design. Introduction to physical representation and storage of data. DBMS tools to manage data and high-level languages to retrieve and manipulate data.",
+    "prereq": []
+  },
+  {
+    "uid": "815256",
+    "code": "IDSC4104",
+    "subject": "IDSC",
+    "number": "4104",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Aligning SAP to Bus. Processes",
+    "fullname": "Aligning Enterprise Systems (SAP) to Business Processes",
+    "info": "This course covers how firms automate and integrate their proprietary, value-adding business processes using commodity enterprise systems. Students configure and test several end-to-end business processes in SAP, a leading enterprise system. Enterprise System (ES) configuration skills are critical for firms implementing an ES and also for consultants supporting those firms. In the real world, configuration is done prior to go live, but more importantly every time a firm does an acquisition, divestiture, or changes their business processes.",
+    "prereq": []
+  },
+  {
+    "uid": "816779",
+    "code": "IDSC4111",
+    "subject": "IDSC",
+    "number": "4111",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Data Engineering Bus Analytics",
+    "fullname": "Data Engineering for Business Analytics",
+    "info": "Modern organizations increasingly base their decisions on data which is becoming more abundant each day. The first step of using data for decision making is to prepare data in a suitable format for analysis, a step commonly known as data engineering. Typical data engineering tasks may include data acquisition, parsing, handling missing data, summarization, augmenting, transformation, subsetting, sampling, aggregation, and merging. Data engineers also frequently use basic data visualization tools to detect and fix data issues. Most recently, there is increasing demand for data engineers to handle big data and unstructured data. A good data engineering process ensures quality, reliability, and usability of data. In fact, data engineering is such a critical and time-consuming step of data-driven decision making that many data scientists and analysts spend more than 60% of their time doing data engineering related tasks.",
+    "prereq": []
+  },
+  {
+    "uid": "015102",
+    "code": "IDSC4131",
+    "subject": "IDSC",
+    "number": "4131",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Adv DB Design & Admin",
+    "fullname": "Advanced Database Design and Administration",
+    "info": "Role, organization, functions, and tools of data administration. Data planning and information architectures. Object-oriented DBMS and support for graphics and CAD/CAM applications. Data security, maintaining database integrity, and managing data shared, networked or distributed environment. Strategies for using advanced DBMS tools and CASE tools.",
+    "prereq": []
+  },
+  {
+    "uid": "015103",
+    "code": "IDSC4151",
+    "subject": "IDSC",
+    "number": "4151",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Data Communciations Systems",
+    "fullname": "Data Communications Systems",
+    "info": "Characteristics of transmission facilities and networks, concentrators and multiplexors, terminals, modems, and front end processors. Control hardware and software systems. The role of data communications in management information systems.",
+    "prereq": []
+  },
+  {
+    "uid": "015104",
+    "code": "IDSC4153",
+    "subject": "IDSC",
+    "number": "4153",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Telecomm:Domestic and Int'l",
+    "fullname": "Telecommunications: Domestic and International Policy and Regulation",
+    "info": "Regulation and policy making in telecommunications. Evolution of the industry. Industry structure. Models for policy. Roles and relationships of U.S. standards organizations, the telecommunications industry, and governmental units. Evolution of international telecommunications organizations and regulatory systems. Analysis of current issues.",
+    "prereq": []
+  },
+  {
+    "uid": "819708",
+    "code": "IDSC4161",
+    "subject": "IDSC",
+    "number": "4161",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Python for Busnss Applications",
+    "fullname": "Python for Business Applications",
+    "info": "According to recent industry surveys, Python is a highly popular tool used by organizations for business tasks. This course is designed for students who already have an intermediate programming background such as IDSC 3101/3102 (or equivalent Computer Science programming courses) and would like to explore using Python for tasks such as text processing, data analysis, and website scraping. This course focuses on business-oriented applications of Python without requiring students to learn formal computing concepts. Participants will then learn how to apply functionality from powerful and popular libraries. We will spend most of our class time completing practical hands-on exercises.",
+    "prereq": []
+  },
+  {
+    "uid": "013856",
+    "code": "IDSC4203",
+    "subject": "IDSC",
+    "number": "4203",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "IT Infrastructure",
+    "fullname": "Information Technology Infrastructure",
+    "info": "Technology/infrastructure for developing large-scale information systems. Processes to identify, evaluate, and select appropriate infrastructure components. Application of systems analysis and design techniques in a class project.",
+    "prereq": []
+  },
+  {
+    "uid": "013857",
+    "code": "IDSC4204W",
+    "subject": "IDSC",
+    "number": "4204",
+    "honors": false,
+    "writingIntensive": true,
+    "name": "Strat Info Tech Management",
+    "fullname": "Strategic Information Technology Management",
+    "info": "Information services as service function. Investing resources to support strategy. Managing IS resources.  Project Management, Human Capital Management, Infrastructure Management. Emphasis on cloud/big data infrastructures, outsourcing.",
+    "prereq": []
+  },
+  {
+    "uid": "816780",
+    "code": "IDSC4210",
+    "subject": "IDSC",
+    "number": "4210",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Interact Data Vis for Bus Anyl",
+    "fullname": "Interactive Data Visualization for Business Analytics",
+    "info": "IDSC 4210 is an elective course for the undergraduate Business Analytics minor at the Carlson School of Management. It focuses on the fundamental and widely used exploratory data analysis technique of interactive visualization that is integral to modern business analytics. The key goal of this course is to prepare students for the rapidly changing digital environment faced by companies as it pertains to data-driven decisions. The students will also have hands?on experience with interactive data visualization using modern, state-of-the-art software on real-world datasets.",
+    "prereq": []
+  },
+  {
+    "uid": "802010",
+    "code": "IDSC4301",
+    "subject": "IDSC",
+    "number": "4301",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "MIS in Action: Capstone Course",
+    "fullname": "MIS in Action: A Capstone Course",
+    "info": "The course is designed for students to integrate a large number of concepts they have studied in previous course work within the department and school. The class uses a live-case/project-based design that requires students to identify and develop a detailed managerial analysis of an information technology and/or management information system (IT, MIS) project for a local corporation.",
+    "prereq": []
+  },
+  {
+    "uid": "816781",
+    "code": "IDSC4310",
+    "subject": "IDSC",
+    "number": "4310",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Prescriptive Analytics",
+    "fullname": "Prescriptive Analytics",
+    "info": "Prescriptive Analytics answer the question \"What should I do?\" This class of analytical techniques focuses on moving beyond simply analyzing the data to providing an optimal action plan. Prescriptive techniques combine learnings from the descriptive and predictive disciplines with a new layer of insight and computer algorithms that suggests an action plan rather than just describing the data or predicting what might happen.prereq: IDSc 4110 & 4210 recommended.",
+    "prereq": {
+      "and": [
+        {
+          "code": "IDSC 4110",
+          "subject": "IDSC",
+          "id": "4110"
+        },
+        {
+          "code": "IDSC 4210",
+          "subject": "IDSC",
+          "id": "4210"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "798330",
+    "code": "IDSC4401",
+    "subject": "IDSC",
+    "number": "4401",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Information Security",
+    "fullname": "Information Security",
+    "info": "Concepts/issues of security and data integrity threats that undermine utility, robustness, and confidence in electronic technologies in facilitating business transactions.prereq: 3001",
+    "prereq": {
+      "code": "IDSC 3001",
+      "subject": "IDSC",
+      "id": "3001"
+    }
+  },
+  {
+    "uid": "802011",
+    "code": "IDSC4411",
+    "subject": "IDSC",
+    "number": "4411",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "IT Governance and Assurance",
+    "fullname": "Information Technology Governance and Assurance",
+    "info": "Information technology audit function, internal control, audit process, smart operations, network security, systems development life cycle, enterprise resource planning risk, compliance issues. IT governance, business continuity, frameworks/methodologies. Lectures, case studies, real-world examples.prereq: 3001",
+    "prereq": {
+      "code": "IDSC 3001",
+      "subject": "IDSC",
+      "id": "3001"
+    }
+  },
+  {
+    "uid": "013858",
+    "code": "IDSC4421",
+    "subject": "IDSC",
+    "number": "4421",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Fin Inf Sys/Tech",
+    "fullname": "Financial Information Systems and Technologies",
+    "info": "IS in financial services, corporate financial operations, and investment management. Traditional vs electronic financial markets, computerized trading, digital sources of financial data, electronic money, decision technologies in financial services. Software development skills for personal investments.prereq: 3001",
+    "prereq": {
+      "code": "IDSC 3001",
+      "subject": "IDSC",
+      "id": "3001"
+    }
+  },
+  {
+    "uid": "013859",
+    "code": "IDSC4431",
+    "subject": "IDSC",
+    "number": "4431",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Advanced Database Design",
+    "fullname": "Advanced Database Design",
+    "info": "Reviews ER/relational modeling and normalization, then focuses on fact modeling (ORM) to produce advanced richer business data models. \"Flipped\" class, fully online, including all lectures & final exam. Weekly in-class review session is recorded and online for questions, discussion, and results of assignments & quizzes. prereq: 3103 or CSCI 4707 or CSCI 5707 or instr consent",
+    "prereq": {
+      "or": [
+        {
+          "code": "IDSC 3103",
+          "subject": "IDSC",
+          "id": "3103"
+        },
+        {
+          "code": "CSCI 4707",
+          "subject": "CSCI",
+          "id": "4707"
+        },
+        {
+          "code": "CSCI 5707",
+          "subject": "CSCI",
+          "id": "5707"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "013860",
+    "code": "IDSC4432",
+    "subject": "IDSC",
+    "number": "4432",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Adv DB Mgmt & Admin",
+    "fullname": "Advanced Database Management and Administration",
+    "info": "Managing information resources. Data planning, global information architectures. Advanced data manipulation languages, comprehensive DBMS facilities, and O-O DBMS. Analysis and data mining tools. Deploying/managing databases in a distributed environment. Data integrity, security, and privacy.",
+    "prereq": []
+  },
+  {
+    "uid": "013861",
+    "code": "IDSC4441",
+    "subject": "IDSC",
+    "number": "4441",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Electronic Commerce",
+    "fullname": "Electronic Commerce",
+    "info": "Issues/trends in applying e-commerce initiatives. Technological infrastructure, revenue models, web marketing, business-to-business strategies, online auctions, legal and ethical aspects, hardware/software, payment systems, security. Conceiving, planning, building, and managing e-commerce initiatives.prereq: 3001",
+    "prereq": {
+      "code": "IDSC 3001",
+      "subject": "IDSC",
+      "id": "3001"
+    }
+  },
+  {
+    "uid": "808918",
+    "code": "IDSC4444",
+    "subject": "IDSC",
+    "number": "4444",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Descrip & Predict Analytics",
+    "fullname": "Descriptive and Predictive Analytics",
+    "info": "Descriptive and Predictive Analytics exposes students to a number of data mining and machine learning methods, including: exploratory methods (such as association rules and cluster analysis), predictive methods (such as K-NN and decision trees), and text mining methods. The course combines theoretical lectures with lab lectures, where the methods are practically implemented using the software R. prereqs: IDSC 3001; non-MIS majors also need IDSC 4110",
+    "prereq": [
+      {
+        "code": "IDSC 3001",
+        "subject": "IDSC",
+        "id": "3001"
+      },
+      {
+        "code": "IDSC 4110",
+        "subject": "IDSC",
+        "id": "4110"
+      }
+    ]
+  },
+  {
+    "uid": "013862",
+    "code": "IDSC4451",
+    "subject": "IDSC",
+    "number": "4451",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Telecomm Fundamntls",
+    "fullname": "Telecommunications Fundamentals and Applications",
+    "info": "Concepts and terminology of electronic communications. Media, signaling, data linking, and networking concepts and protocols. Technology including fiber optics, satellites, and wireless. Business uses and management issues. Public networks and carrier systems, telecommunications industry, regulation, and standards.",
+    "prereq": []
+  },
+  {
+    "uid": "013864",
+    "code": "IDSC4452",
+    "subject": "IDSC",
+    "number": "4452",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "DataComm Networks",
+    "fullname": "Data Communications and Networks",
+    "info": "Structure of local and wide-area data communications networks. LAN architecture, protocols, and devices. WAN interconnections via frame relay and ATM. LAN operating systems structure and operations. The Internet and intranets. Network administration issues. EDI and electronic commerce and security.",
+    "prereq": []
+  },
+  {
+    "uid": "808919",
+    "code": "IDSC4455",
+    "subject": "IDSC",
+    "number": "4455",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Web 2.0: Bus. of Social Media",
+    "fullname": "Web 2.0: The Business of Social Media",
+    "info": "Business use of social media technologies. Blogs, wikis, online social networks. Readings, forum discussion, case analyses. How technologies engage consumers, market products or services, benefit from open innovation, foster collaboration among employees.prereq: 3001",
+    "prereq": {
+      "code": "IDSC 3001",
+      "subject": "IDSC",
+      "id": "3001"
+    }
+  },
+  {
+    "uid": "792368",
+    "code": "IDSC4461",
+    "subject": "IDSC",
+    "number": "4461",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Data Warehousing",
+    "fullname": "Data Warehousing",
+    "info": "Designing, developing, using, and managing data warehouses. Data warehousing vs traditional databases. ETL processes. Dimensional analysis and multidimensional modeling. Supporting business intelligence. Marketplace for vendors/tools. Operational performance/management of data warehouses. Deploying data warehouse on the Internet. Hands-on use of data warehousing tools.",
+    "prereq": []
+  },
+  {
+    "uid": "818649",
+    "code": "IDSC4471",
+    "subject": "IDSC",
+    "number": "4471",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Agile Methods",
+    "fullname": "Agile Methods",
+    "info": "With the changing landscape of MIS methodologies, it is important to prepare for the future. This course will cover modern lightweight, and interactive IT development practices. Topics will include methodologies (RUP, Scrum, Kanban, and others); requirements gathering processes (Epics, User Stories); tools (burn-down chart, Kanban visualization); and leadership concepts (Scrum master, team member, sponsor). This class is appropriate for those with project-oriented career goals, in IT organizations as well as consulting roles.Prereq: IDSC 3001",
+    "prereq": {
+      "code": "IDSC 3001",
+      "subject": "IDSC",
+      "id": "3001"
+    }
+  },
+  {
+    "uid": "013879",
+    "code": "IDSC4490",
+    "subject": "IDSC",
+    "number": "4490",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Info Systems Special Topics",
+    "fullname": "Information Systems Special Topics",
+    "info": "Discussion and analysis of current topics and developments in information systems.",
+    "prereq": []
+  },
+  {
+    "uid": "013880",
+    "code": "IDSC4491",
+    "subject": "IDSC",
+    "number": "4491",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Ind Study in IS",
+    "fullname": "Independent Study in Information Systems",
+    "info": "Independent study in informations systems.prereq: instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "819731",
+    "code": "IDSC4493",
+    "subject": "IDSC",
+    "number": "4493",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Directed Study",
+    "fullname": "Directed Study",
+    "info": "Student-initiated project or directed study to be completed with a faculty member.prereq: Instrutor consent",
+    "prereq": []
+  },
+  {
+    "uid": "013881",
+    "code": "IDSC4496",
+    "subject": "IDSC",
+    "number": "4496",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "IS Internship",
+    "fullname": "Information Systems Industry Internship",
+    "info": "Learning by working in IS activities and receiving appropriate training from a sponsoring organization. Custom designed to meet pre-established learning objectives. \"Work practice\" plan required and must be approved by the organization and the director of IDSc undergraduate studies.",
+    "prereq": []
+  },
+  {
+    "uid": "826935",
+    "code": "IDSC4504",
+    "subject": "IDSC",
+    "number": "4504",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "ML and Responsible AI for Bus",
+    "fullname": "Machine Learning and Responsible AI for Business Applications",
+    "info": "Businesses nowadays increasingly make decisions based on data analytics with machine learning (ML) and artificial intelligence (AI) tools and techniques. As such, the abilities to identify analytics problems, collect/process data, and formulate and deliver solutions are important skills of next-generation business professionals. This course offers an introduction to advanced ML/AI topics for business applications. The course builds on top of basic ML/AI concepts and covers more advanced topics in predictive modeling. In addition, this course also teaches topics related to responsible ML/AI, including algorithmic bias and fairness, transparency and explainability, as well as regulatory and privacy issues. Each topic will be introduced with a combination of theoretical intuition and understanding, case studies and hands-on practice. As a part of the course, students will also work in teams on analytics project ideation and solution formulation. prereq: BA 3551",
+    "prereq": {
+      "code": "BA 3551",
+      "subject": "BA",
+      "id": "3551"
+    }
+  },
+  {
+    "uid": "826982",
+    "code": "IDSC4521",
+    "subject": "IDSC",
+    "number": "4521",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Business Analytics in Action",
+    "fullname": "Business Analytics in Action",
+    "info": "Students in this capstone put their analytics acumen to practical use as data analytics consultants. They will work on real analytics projects from real client companies. The capstone project will challenge students to be effective analytics professionals who can think critically, apply analytics techniques, manage projects from beginning to end, and communicate results to business stakeholders.This program equips students with the tools required to put analytics to practical use and solve specific business problems, the language and intuition to help generate business value from data, and the necessary insights for leveraging analytics to accelerate growth and increase efficiency and productivity.prereq : MKTG 3005, IDSC 4111, IDSC 4444",
+    "prereq": {
+      "and": [
+        {
+          "code": "MKTG 3005",
+          "subject": "MKTG",
+          "id": "3005"
+        },
+        {
+          "code": "IDSC 4111",
+          "subject": "IDSC",
+          "id": "4111"
+        },
+        {
+          "code": "IDSC 4444",
+          "subject": "IDSC",
+          "id": "4444"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "820264",
+    "code": "IDSC4590",
+    "subject": "IDSC",
+    "number": "4590",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "BA Special Topics",
+    "fullname": "Business Analytics Special Topics",
+    "info": "Discussion and analysis of current topics and developments in business analytics.",
+    "prereq": []
+  },
+  {
+    "uid": "816299",
+    "code": "IDSC6003",
+    "subject": "IDSC",
+    "number": "6003",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Accounting & Information Sys",
+    "fullname": "Accounting and Information Systems",
+    "info": "IS/IT infrastructure assessment methods, technology solutions, management issues. Digital data sources. Systems design in accounting and financial reporting information systems. Internal control requirements of Sarbanes-Oxley Act of 2002. Experiential learning, hands-on use of accounting enterprise software other packages.",
+    "prereq": []
+  },
+  {
+    "uid": "013884",
+    "code": "IDSC6025",
+    "subject": "IDSC",
+    "number": "6025",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "IT & Systems for Comp Advan",
+    "fullname": "Information Technology and Systems for Competitive Advantage",
+    "info": "Managing information resources/technology. Information technologies, applications, competitive advantages associated with specific technology, organizational/managerial implications.",
+    "prereq": []
+  },
+  {
+    "uid": "794487",
+    "code": "IDSC6041",
+    "subject": "IDSC",
+    "number": "6041",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Info Tech Mgmt",
+    "fullname": "Information Technology Management",
+    "info": "Management of information systems, information technology (IT) in global organization. Strategic uses of IT. Alignment of IT, organizational strategy, internet/Web technologies, e-commerce customer services. Integration of e-business applications, interorganizational systems, systems implementation. Management of information as resource. Lecture, case analysis, classroom discussion.Prereq MBA student.",
+    "prereq": []
+  },
+  {
+    "uid": "794488",
+    "code": "IDSC6051",
+    "subject": "IDSC",
+    "number": "6051",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Info Tech & Solutions",
+    "fullname": "Information Technologies and Solutions",
+    "info": "Current/emerging technologies in modern Net-enhanced organizations. Internet/Web technologies, including Internet fundamentals, Web communications, Web 2.0/social media, information security, cloud computing, IT-driven innovation, emerging IT trends.",
+    "prereq": []
+  },
+  {
+    "uid": "013885",
+    "code": "IDSC6101",
+    "subject": "IDSC",
+    "number": "6101",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Ind Productivity",
+    "fullname": "Individual Productivity with Information Technology",
+    "info": "Concepts, principles, practices for increasing knowledge/productivity. Productivity enhancing software functions/features, software selection/solutions, development processes, advanced use of software packages.",
+    "prereq": []
+  },
+  {
+    "uid": "016746",
+    "code": "IDSC6102",
+    "subject": "IDSC",
+    "number": "6102",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Solv Bus Prob w/Dec Supp Tools",
+    "fullname": "Solving Business Problems with Decision Support Tools",
+    "info": "Applying spreadsheet tools in decision support, problem solving techniques. Business modeling, what-if analysis, goal-seeking, charting/graphing, database structuring/querying, financial/statistical analysis, scenario management, development of business applications (using Visual Basic). Lectures, hands-on problem solving.",
+    "prereq": []
+  },
+  {
+    "uid": "013887",
+    "code": "IDSC6201",
+    "subject": "IDSC",
+    "number": "6201",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "IS Dev: Methodologies & Tools",
+    "fullname": "Information Systems Development: Methodologies and Tools",
+    "info": "Methods/tools associated with large-scale information systems development. Process modeling, data maodeling. Relational and )-) DBMS. Visual, graphical, object, and procedural systems development languages. Interface design. Application of CASE tools. Lecture, lab.",
+    "prereq": []
+  },
+  {
+    "uid": "013889",
+    "code": "IDSC6202",
+    "subject": "IDSC",
+    "number": "6202",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "IS Dev. Planning & Analysis",
+    "fullname": "Information Systems Development: Planning and Analysis",
+    "info": "Information systems planning/analysis methodologies, concepts, and techniques. Systems development, problem formulation/prioritization, risk assessment. Establishing enterprise-wide information requirements, Specifiying/verifying application systems requirements with end-users. IS acquisition/implementation. Group project.",
+    "prereq": []
+  },
+  {
+    "uid": "013891",
+    "code": "IDSC6203",
+    "subject": "IDSC",
+    "number": "6203",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Inf Sys Dev Project",
+    "fullname": "Information Systems Development Project",
+    "info": "A system development project exercise that demonstrates the techniques covered in 6202. Development of transaction system components and decision support components. The application is designed to introduce and utilize data warehousing techniques and as an example of the use of specific techniques in decision support.",
+    "prereq": []
+  },
+  {
+    "uid": "013893",
+    "code": "IDSC6204",
+    "subject": "IDSC",
+    "number": "6204",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Manag Org Inf Res",
+    "fullname": "Managing Organizational Information Resources",
+    "info": "Effective management of IT/IS function for competitive organizational performance. Issues/alternative solutions for managing information resources within/among organizations. Strategic/operational plans for function, role of outsourcing, challenges of decentralization vs. centralization, management of IT professionals.",
+    "prereq": []
+  },
+  {
+    "uid": "013894",
+    "code": "IDSC6401",
+    "subject": "IDSC",
+    "number": "6401",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Decision Technologies",
+    "fullname": "Decision Technologies",
+    "info": "Traditional vs. Web-based decision support. Focuses on business-to-consumer (B2C) applications. Expert systems, neural networks, genetic algorithms, geographic information systems, intelligent agents, and yield management systems. Business applications. Requirements, decision representations, and business value of applications. Hands-on experience with software tools.prereq: MBA student",
+    "prereq": []
+  },
+  {
+    "uid": "013895",
+    "code": "IDSC6402",
+    "subject": "IDSC",
+    "number": "6402",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Decision Support",
+    "fullname": "Decision Support",
+    "info": "Cognitive/behavioral aspects of resources for business decisions. Prescriptive/descriptive analysis of decision support problems, effect of resources on decision processes. Problem representation for individual/group decision making. Role of expert knowledge. Assessment of user performance.",
+    "prereq": []
+  },
+  {
+    "uid": "013896",
+    "code": "IDSC6411",
+    "subject": "IDSC",
+    "number": "6411",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "IS Consulting",
+    "fullname": "Information Systems Consulting",
+    "info": "Utilization of consultant expertise by organizations. Opportunities and risks involved. Consulting firm perspectives, including how to respond to a RFP, estimate costs and construct profitable (and winning) bids, organize consulting work in large projects, develop and maintain relationships.",
+    "prereq": []
+  },
+  {
+    "uid": "016747",
+    "code": "IDSC6413",
+    "subject": "IDSC",
+    "number": "6413",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Inf Sys Dev Project",
+    "fullname": "Information Systems Development Project",
+    "info": "",
+    "prereq": []
+  },
+  {
+    "uid": "016748",
+    "code": "IDSC6415",
+    "subject": "IDSC",
+    "number": "6415",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Adv System Development",
+    "fullname": "Advanced System Development",
+    "info": "",
+    "prereq": []
+  },
+  {
+    "uid": "789436",
+    "code": "IDSC6417",
+    "subject": "IDSC",
+    "number": "6417",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "IT Studio",
+    "fullname": "Information Technology Studio",
+    "info": "Hands-on lessons with advanced information technology tools. Operating systems, Web servers, transaction servers, e-commerce site builders, database management systems, data warehousing, non-Microsoft operating systems, administration tools, network management tools. Students participate in selection of specific tools to learn. Teamwork on various system installation, administration activities.",
+    "prereq": []
+  },
+  {
+    "uid": "013897",
+    "code": "IDSC6421",
+    "subject": "IDSC",
+    "number": "6421",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Financial IS & Technology",
+    "fullname": "Financial Information Systems and Technology",
+    "info": "IT-focused business models of financial firms. Industry/firm technology infrastructures, applications, and in-firm control technologies. IT in financial markets and investment management. E-brokerage, digital quote vendors, Web-based IPOs. Web-based and home banking systems, traditional/Internet-based e-payment solutions, e-bill payment/presentment. Hands on experience with software.prereq: MBA student",
+    "prereq": []
+  },
+  {
+    "uid": "789844",
+    "code": "IDSC6423",
+    "subject": "IDSC",
+    "number": "6423",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Enterprise Systems",
+    "fullname": "Enterprise Systems",
+    "info": "Enterprise Systems are the information core of diverse organizations and play a major role in their management and performance. This course provides the context of Enterprise Systems role in organization's journey of Digital Transformation. It examines Enterprise System's structural aspects such as governance, program & change management, sourcing, development (programming), testing, operations, and regulatory compliance. Business cases provide real world examples across these subjects and focus on specifics such as labor multi-sourcing and A/B testing strategies. ",
+    "prereq": []
+  },
+  {
+    "uid": "013899",
+    "code": "IDSC6431",
+    "subject": "IDSC",
+    "number": "6431",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Adv DB Design",
+    "fullname": "Advanced Database Design",
+    "info": "Comparative review of data modeling methodologies. Advanced constructs in database design. Modeling subtypes/supertypes, ternary/higher-order relationships, integrity constraints. CASE tools, representation of facts, verbalization of a data model for human understanding, validation.",
+    "prereq": []
+  },
+  {
+    "uid": "013900",
+    "code": "IDSC6432",
+    "subject": "IDSC",
+    "number": "6432",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Adv DB Mgmt & Admin",
+    "fullname": "Advanced Database Management and Administration",
+    "info": "Managing information resources. Data planning, global information architectures, advanced data manipulation languages, comprehensive DBMS facilities, O-O DBMS, analysis/data mining tools, deploying/managing databases in a distributed environment. Data integrity, security, privacy.",
+    "prereq": []
+  },
+  {
+    "uid": "804430",
+    "code": "IDSC6435",
+    "subject": "IDSC",
+    "number": "6435",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Business Process Excellence",
+    "fullname": "Business Process Excellence",
+    "info": "Concepts, frameworks, and techniques to align strategy, architecture, process, and technology. Business process analysis/redesign using practical process modeling tool. Real-world team project.prereq: 6040 or 6050 or MBA 6240",
+    "prereq": {
+      "or": [
+        {
+          "code": "IDSC 6040",
+          "subject": "IDSC",
+          "id": "6040"
+        },
+        {
+          "code": "IDSC 6050",
+          "subject": "IDSC",
+          "id": "6050"
+        },
+        {
+          "code": "MBA 6240",
+          "subject": "MBA",
+          "id": "6240"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "013902",
+    "code": "IDSC6441",
+    "subject": "IDSC",
+    "number": "6441",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Elec Commerce",
+    "fullname": "Introduction to Electronic Commerce",
+    "info": "Web, browsers, search engines, portals and Internet service providers, HTML and Web development tools, intelligent agents, Web site metering tools. E-commerce applications. Client-side Web page development in HTML with a current CASE tool. Server-side development approaches for interactive Web pages with embedded database functionality. Hands-on experience with software development tools.",
+    "prereq": []
+  },
+  {
+    "uid": "016581",
+    "code": "IDSC6442",
+    "subject": "IDSC",
+    "number": "6442",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "E-Sourcing & E-Auctions",
+    "fullname": "E-Sourcing and E-Auctions",
+    "info": "Traditional firms' planning process to establish e-business operational, sales, and Web-based marketing capabilities. Bundling, aggregation, digital product pricing policies. Technology standards, sponsored technologies. Industry infrastructures for e-commerce. Enabling technologies in business-to-business contexts. Web server and content management. Design issues. Hands-on with software development tools.",
+    "prereq": []
+  },
+  {
+    "uid": "804431",
+    "code": "IDSC6444",
+    "subject": "IDSC",
+    "number": "6444",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Bus Analytics for Managers I",
+    "fullname": "Business Analytics for Managers I",
+    "info": "Use of information technologies to organize and analyze data to help managers make decisions about their business and the way they serve customers. Focused on data mining, the course also provides an orientation to statistical modeling, programming, and the design and testing of prototype systems and evaluation models, and an introduction to basic techniques in visualization, association rules, clustering, classification, regression, and elementary natural language processing. prereq: [IDSC 6041 or IDSC 6051 or MBA 6241], MBA student",
+    "prereq": {
+      "or": [
+        {
+          "code": "IDSC 6041",
+          "subject": "IDSC",
+          "id": "6041"
+        },
+        {
+          "code": "IDSC 6051",
+          "subject": "IDSC",
+          "id": "6051"
+        },
+        {
+          "code": "MBA 6241",
+          "subject": "MBA",
+          "id": "6241"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "810590",
+    "code": "IDSC6446",
+    "subject": "IDSC",
+    "number": "6446",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Bus Analytics for Managers II",
+    "fullname": "Business Analytics for Managers II",
+    "info": "This course builds upon IDSC 6444 “Business Analytics for Managers I” course. While IDSC 6444 focuses on the fundamental and most widely used data mining/analytics techniques, IDSC 6446 “Business Analytics for Managers II” delves into a number of other current and emerging data mining/analytics areas that are becoming increasingly important for modern organizations. Such areas include advanced elements of predictive modeling process, cost-aware data mining/analytics, mining text and Web data, advanced data mining techniques, and other advanced topics.  This course promotes practical data-analytic thinking and decision making, covers a number of fundamental issues, and introduces students to a number of analytics techniques in the aforementioned areas. The students will be able to apply these techniques to design and test data mining models in different settings, using real world datasets. This course will also discuss the value of advanced data mining/analytics in a variety of organizational contexts and business applications.",
+    "prereq": []
+  },
+  {
+    "uid": "013903",
+    "code": "IDSC6451",
+    "subject": "IDSC",
+    "number": "6451",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Fundamentals of Telecomm.",
+    "fullname": "Fundamentals of Telecommunications",
+    "info": "Layered protocols, protocol stacks. Optical fiber, modems, cable, DSL, TDM, frame relay, ATM, SONET, satellites, wireless. Signaling, multiplexing, circuit/packet switching, data linking and networking concepts, LANs/WANs. Business uses, management/administration issues. Public networks and carrier systems, telecommunications industry, convergence, regulation/standards.",
+    "prereq": []
+  },
+  {
+    "uid": "013904",
+    "code": "IDSC6452",
+    "subject": "IDSC",
+    "number": "6452",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Internet Technologies",
+    "fullname": "Internet Technologies",
+    "info": "Structure/organization/evolution of Internet. Standards, IP functions. ARP, DNS, DHCP, routers/protocols. TCP, UDP, multicasting. FTP, HTTP, SMTP, SNMP. HTTP 1.1, IPv6, MIME. Encryption, SSH, SSL, IPSec. Intranets, extranets. Public key infrastructures, certification hierarchies. Products/technologies that support information systems/e-commerce.",
+    "prereq": []
+  },
+  {
+    "uid": "810037",
+    "code": "IDSC6455",
+    "subject": "IDSC",
+    "number": "6455",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Web 2.0: Bus. of Social Media",
+    "fullname": "Web 2.0: The Business of Social Media",
+    "info": "Business use of social media, peer production, strategies and tactics of social media marketing, social media crisis, open innovation, use of social media to engage employees and foster collaboration, risks and challenges of social mediaprereq: MBA student",
+    "prereq": []
+  },
+  {
+    "uid": "013905",
+    "code": "IDSC6461",
+    "subject": "IDSC",
+    "number": "6461",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Data Warehousing",
+    "fullname": "Data Warehousing",
+    "info": "Role of data warehouses in supporting decision making in organizations. Differences from traditional databases, extracting/cleansing data, integrating external data sources, building a historical database. Dimensional analysis, multidimensional modeling. Online analytical processing.",
+    "prereq": []
+  },
+  {
+    "uid": "804432",
+    "code": "IDSC6465",
+    "subject": "IDSC",
+    "number": "6465",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Tech & Digital Transformation",
+    "fullname": "Emerging Technologies and Digital Transformation: Changes to Work, Capability Sourcing and Innovatio",
+    "info": "Outsourcing IT and IT enabled services. Sourcing business/knowledge processes: finance/accounting, human resources, engineering services, data analytics. Strategic global sourcing planning/implementation. Managing offshore service relationships.prereq: [IDSC 6041 or IDSC 6051 or MBA 6241], MBA student",
+    "prereq": {
+      "or": [
+        {
+          "code": "IDSC 6041",
+          "subject": "IDSC",
+          "id": "6041"
+        },
+        {
+          "code": "IDSC 6051",
+          "subject": "IDSC",
+          "id": "6051"
+        },
+        {
+          "code": "MBA 6241",
+          "subject": "MBA",
+          "id": "6241"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "013906",
+    "code": "IDSC6471",
+    "subject": "IDSC",
+    "number": "6471",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Knowledge Mgmt",
+    "fullname": "Knowledge Management",
+    "info": "Design, evaluation, use of knowledge in organizations. Leveraging knowledge in workers, structures, processes. Assessment of knowledge needs. Evaluation of key decision processes, information demands, usage patterns, content requirements. Behavioral/cultural barriers. Use of technology for knowledge management.prereq: MBA student",
+    "prereq": []
+  },
+  {
+    "uid": "013907",
+    "code": "IDSC6481",
+    "subject": "IDSC",
+    "number": "6481",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Mgrl Dec Making",
+    "fullname": "Managerial Decision Making",
+    "info": "Frameworks for making decisions as a manager, knowledge worker, or individual. How policies area adopted. Poor decision making. Learning from mistakes. Bounded rationality, system thinking, concepts of learning.prereq: MBA student",
+    "prereq": []
+  },
+  {
+    "uid": "013909",
+    "code": "IDSC6490",
+    "subject": "IDSC",
+    "number": "6490",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Advanced Topics in MIS",
+    "fullname": "Advanced Topics in MIS",
+    "info": "Discussion and analysis of topics and developments in managing information systems.",
+    "prereq": []
+  },
+  {
+    "uid": "013910",
+    "code": "IDSC6491",
+    "subject": "IDSC",
+    "number": "6491",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Ind Study in IS",
+    "fullname": "Independent Study in Information Systems",
+    "info": "Independent study in Information Systems.prereq: instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "799511",
+    "code": "IDSC8003",
+    "subject": "IDSC",
+    "number": "8003",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Accounting & Info Systems",
+    "fullname": "Accounting and Information Systems",
+    "info": "IS/IT infrastructure assessment methods, technology solutions, management issues. Digital data sources. Systems design in accounting and financial reporting information systems. Internal control requirements of Sarbanes-Oxley Act of 2002. Experiential learning, hands-on use of accounting enterprise software other packages.prereq: IDSC 3001 or equivalent",
+    "prereq": {
+      "code": "IDSC 3001",
+      "subject": "IDSC",
+      "id": "3001"
+    }
+  },
+  {
+    "uid": "004525",
+    "code": "IDSC8511",
+    "subject": "IDSC",
+    "number": "8511",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "IDSC Topics & Research",
+    "fullname": "Conceptual Topics and Research Methods in Information and Decision Sciences",
+    "info": "Relationships to underlying disciplines; major research streams; seminal articles, survey literature, and major researchers. Provides framework for organizing knowledge about information and decision sciences.prereq: instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "004526",
+    "code": "IDSC8521",
+    "subject": "IDSC",
+    "number": "8521",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "System Development",
+    "fullname": "System Development",
+    "info": "Why it is hard to develop efficient/effective information systems, what can be done to improve situation. Defining efficiency/effectiveness in development process and in systems. Producing/evaluating artifacts (constructs, models, methods, tools) that enable more efficient/effective information systems to be developed.prereq: Business admin PhD student or instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "809049",
+    "code": "IDSC8531",
+    "subject": "IDSC",
+    "number": "8531",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Org Theory & Research in IS",
+    "fullname": "Organizational Theory and Research in Information Systems",
+    "info": "Introduction, adoption, use/exploitation of information systems in organizations. Critically examine empirical work.  Formulate research questions. Conduct research.prereq: PhD student in Business Administration",
+    "prereq": []
+  },
+  {
+    "uid": "809050",
+    "code": "IDSC8541",
+    "subject": "IDSC",
+    "number": "8541",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Intro to Econ of IS",
+    "fullname": "Introduction to Economics of Information Systems",
+    "info": "Classical research questions. Methods/findings that form backbone of economics of IS. Online auctions, electronic markets, offshoring, human capital issues.prereq: PhD student in Business Administration or instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "817423",
+    "code": "IDSC8620",
+    "subject": "IDSC",
+    "number": "8620",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Data Mining & Personalization",
+    "fullname": "Data Mining and Personalization",
+    "info": "IDSC 8620 is intended primarily for research-oriented graduate students who are interested in learning about current data mining / machine learning methodologies and how to use them in research.  The course will provide a comprehensive overview of the exploratory and predictive analytics techniques, focusing on the fundamentals but covering a number of advanced issues as well, and will demonstrate how these techniques can be applied various application areas (including the increasingly important areas of text analytics and recommender systems). The course puts significant emphasis on practical, hands-on experience applying data mining techniques in different settings using real-world datasets, but will also discuss the use and value of data mining in a variety of research contexts.  ",
+    "prereq": []
+  },
+  {
+    "uid": "819379",
+    "code": "IDSC8631",
+    "subject": "IDSC",
+    "number": "8631",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Emerging Tech: AI, BlkChn, VR",
+    "fullname": "Emerging Technologies: Artificial Intelligence, Blockchain, & Virtual Reality",
+    "info": "This course covers the latest research on emerging technologies such as artificial intelligence, blockchain, metaverse, and social media. Example topics include AI transparency, AI aversion, human-robot interactions, designs and mechanisms of blockchain, the impact of augmented reality and virtual reality, peer production, and online social networks. We will be reading and discussing book chapters and articles from multiple disciplines including but not limited to information systems, human-computer interaction, management, communication, and computer science.",
+    "prereq": []
+  },
+  {
+    "uid": "004527",
+    "code": "IDSC8711",
+    "subject": "IDSC",
+    "number": "8711",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Cognitive Science",
+    "fullname": "Cognitive Science",
+    "info": "Empirically based concepts of knowledge and reason, mental representation and conceptual systems that guide problem solving and decision making. Computational metaphor of mind drawn from psychology, computer science, linguistics, anthropology, and philosophy. Implications for understanding of knowledge work.prereq: Business admin PhD student or instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "004528",
+    "code": "IDSC8721",
+    "subject": "IDSC",
+    "number": "8721",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Behavioral Decision Theory",
+    "fullname": "Behavioral Decision Theory",
+    "info": "Traditional/current research. Major models/methodologies. Issues of preference, judgment, and choice under conditions of certainty/uncertainty. Seminar format.prereq: Business admin PhD student or instr consent; offered alt yrs",
+    "prereq": []
+  },
+  {
+    "uid": "016750",
+    "code": "IDSC8722",
+    "subject": "IDSC",
+    "number": "8722",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Heuristic Decision Making",
+    "fullname": "Heuristic Decision Making",
+    "info": "How decisions are made, how knowledge is stored/used, how knowledge of variability/feedback influence decisions. Decisions at strategic, operational, individual level. Exceptional performance, pathologies of decision making. Basis for \"best practice.\" How knowledge is managed in decisions, decision failure. Folly, normal accidents, decision problems in which individuals manipulate information to influence/deceive others.prereq: Business Admin PhD student or instr consent; offered alt yrs",
+    "prereq": []
+  },
+  {
+    "uid": "004530",
+    "code": "IDSC8800",
+    "subject": "IDSC",
+    "number": "8800",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "IDSc Rsrch Seminar",
+    "fullname": "Research Seminar in Information and Decision Sciences",
+    "info": "Topics, which vary by semester, are selected from new areas of research, research methods, and significant issues.prereq: Business admin PhD student or instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "016751",
+    "code": "IDSC8801",
+    "subject": "IDSC",
+    "number": "8801",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Research Seminar in IDSc",
+    "fullname": "Research Seminar in Information and Decision Sciences",
+    "info": "New areas of research, research methods, issues.prereq: Business Admin PhD student or instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "004665",
+    "code": "IDSC8892",
+    "subject": "IDSC",
+    "number": "8892",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Readings Info & Decision Sci",
+    "fullname": "Readings in Information and Decision Sciences",
+    "info": "Readings useful to a student's individual program and objectives that are not available through regular courses.prereq: Business admin PhD student or instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "004666",
+    "code": "IDSC8894",
+    "subject": "IDSC",
+    "number": "8894",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Research in IDS",
+    "fullname": "Graduate Research in Information and Decision Sciences",
+    "info": "Individual research on an approved topic appropriate to student's program and objectives.prereq: Business admin PhD student or instr consent",
+    "prereq": []
+  }
+]

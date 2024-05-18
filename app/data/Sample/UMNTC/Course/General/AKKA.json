@@ -1,0 +1,55 @@
+[
+  {
+    "uid": "008811",
+    "code": "AKKA5011",
+    "subject": "AKKA",
+    "number": "5011",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Elem Akkadian I",
+    "fullname": "Elementary Akkadian I",
+    "info": "Introduction to cuneiform script. Basics of Old Babylonian morphology and syntax. Written drills, readings from Hammurabi laws, foundation inscriptions, annals, religious and epic literature.prereq: Adv undergrads with instr consent or grads",
+    "prereq": []
+  },
+  {
+    "uid": "008816",
+    "code": "AKKA5012",
+    "subject": "AKKA",
+    "number": "5012",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Elem Akkadian II",
+    "fullname": "Elementary Akkadian II",
+    "info": "Continuation of 5011. Readings include The Gilgamesh Epic, The Descent of Ishtar, Mari Letters, Annals of Sennacherib and Essarhaddon, Sargon II.prereq: 5011",
+    "prereq": {
+      "code": "AKKA 5011",
+      "subject": "AKKA",
+      "id": "5011"
+    }
+  },
+  {
+    "uid": "008585",
+    "code": "AKKA5300",
+    "subject": "AKKA",
+    "number": "5300",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Readings in AKKA",
+    "fullname": "Readings in Akkadian",
+    "info": "Survey of Akkadian literature, including literary, legal, historiographical, and sacred texts. Topics specified in Class Schedule.prereq: 5011, 5022",
+    "prereq": {
+      "and": [
+        {
+          "code": "AKKA 5011",
+          "subject": "AKKA",
+          "id": "5011"
+        },
+        {
+          "code": "AKKA 5022",
+          "subject": "AKKA",
+          "id": "5022"
+        }
+      ]
+    }
+  }
+]

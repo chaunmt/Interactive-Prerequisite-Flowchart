@@ -1,0 +1,1443 @@
+[
+  {
+    "uid": "009029",
+    "code": "BIOC1001",
+    "subject": "BIOC",
+    "number": "1001",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Elem Biochemistry",
+    "fullname": "Elementary Biochemistry",
+    "info": "Chemistry and biochemistry as they apply to the organization, function, and regulation of living systems, especially humans. Suitable for undergraduates who desire an introduction to biochemistry including students in health science programs such as dental hygiene or occupational therapy.",
+    "prereq": []
+  },
+  {
+    "uid": "803332",
+    "code": "BIOC1010",
+    "subject": "BIOC",
+    "number": "1010",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Human Health and Disease",
+    "fullname": "Human Health and Disease",
+    "info": "Introduction to molecular basis of common human diseases.  Human genome, cellular/molecular biology, biochemical reactions, organ relationships, whole body physiology.Inherited Diseases, metabolic diseases.Aging. Methods to diagnose, treat, andprevent disease. Gene therapy, regenerative medicine, drug-based interventions.",
+    "prereq": []
+  },
+  {
+    "uid": "003224",
+    "code": "BIOC1012",
+    "subject": "BIOC",
+    "number": "1012",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Gen Prin Biochem",
+    "fullname": "General Principles of Biochemistry",
+    "info": "Continuation of Chem 1011. Elementary survey of biochemistry beginning with a review of organic chemistry.",
+    "prereq": []
+  },
+  {
+    "uid": "788203",
+    "code": "BIOC2011",
+    "subject": "BIOC",
+    "number": "2011",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Biochem for Ag/Health Sciences",
+    "fullname": "Biochemistry for the Agricultural and Health Sciences",
+    "info": "Survey of organic chemistry and biochemistry outlining structure and metabolism of biomolecules, metabolic regulation, principles of molecular biology.prereq: Chem 1015, Bio 1009",
+    "prereq": {
+      "and": [
+        {
+          "code": "CHEM 1015",
+          "subject": "CHEM",
+          "id": "1015"
+        },
+        {
+          "code": "BIOC 1009",
+          "subject": "BIOC",
+          "id": "1009"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "807331",
+    "code": "BIOC2331",
+    "subject": "BIOC",
+    "number": "2331",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Chemical Mechanisms in Biology",
+    "fullname": "Chemical Mechanisms in Biology",
+    "info": "Organic structure, properties, chemical mechanisms as they apply to biological systems. Theoretical approach. Metabolic conversions, biodegradation, other biology-specific aspects of chemistry.prereq: [CHEM 1062 or equiv], one semester of general biology recommended",
+    "prereq": {
+      "code": "CHEM 1062",
+      "subject": "CHEM",
+      "id": "1062"
+    }
+  },
+  {
+    "uid": "009030",
+    "code": "BIOC3001",
+    "subject": "BIOC",
+    "number": "3001",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Biochem for Health Sciences",
+    "fullname": "Biochemistry for Health Sciences",
+    "info": "Survey of organic chemistry/biochemistry.  Structure/metabolism of biomolecules, basic principles of molecular biology, regulation of physiological processes.",
+    "prereq": []
+  },
+  {
+    "uid": "014290",
+    "code": "BIOC3021",
+    "subject": "BIOC",
+    "number": "3021",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Biochemistry",
+    "fullname": "Biochemistry",
+    "info": "Fundamentals of biochemistry. Structure/function of nucleic acids, proteins, lipids, carbohydrates. Enzymes. Metabolism. DNA replication and repair, transcription, protein synthesis. Recommended prerequisites: Introductory biology (BIOL 1009 or BIOL 2003 or equivalent), organic chemistry (CHEM 2301 or CHEM 2081/2085 or equivalent). Note: CBS students should take BIOC 3022, not 3021.",
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            {
+              "code": "BIOL 1009",
+              "subject": "BIOL",
+              "id": "1009"
+            },
+            {
+              "code": "BIOL 2003",
+              "subject": "BIOL",
+              "id": "2003"
+            }
+          ]
+        },
+        {
+          "or": [
+            {
+              "code": "CHEM 2301",
+              "subject": "CHEM",
+              "id": "2301"
+            },
+            {
+              "code": "CHEM 2081",
+              "subject": "CHEM",
+              "id": "2081"
+            },
+            {
+              "code": "BIOC 2085",
+              "subject": "BIOC",
+              "id": "2085"
+            }
+          ]
+        },
+        {
+          "code": "BIOC 3022",
+          "subject": "BIOC",
+          "id": "3022"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "815590",
+    "code": "BIOC3022",
+    "subject": "BIOC",
+    "number": "3022",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Biochem for Life Scientists",
+    "fullname": "Biochemistry for Life Scientists",
+    "info": "This course provides an introduction to biochemistry including discussion of the structure and functions of biomolecules (proteins, carbohydrates, lipids, and nucleic acids), central metabolic pathways, and the mechanisms of enzyme action.This course is intended for students in the College of Biological Sciences. Students from other colleges should register for BIOC 3021.prereq: CHEM 2301 or CHEM 2081/2085 or equivalent",
+    "prereq": {
+      "or": [
+        {
+          "code": "CHEM 2301",
+          "subject": "CHEM",
+          "id": "2301"
+        },
+        {
+          "code": "CHEM 2081",
+          "subject": "CHEM",
+          "id": "2081"
+        },
+        {
+          "code": "BIOC 2085",
+          "subject": "BIOC",
+          "id": "2085"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "826210",
+    "code": "BIOC3600",
+    "subject": "BIOC",
+    "number": "3600",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Special Topics in Biochemistry",
+    "fullname": "Special Topics in Biochemistry",
+    "info": "Topics course in Biochemistry",
+    "prereq": []
+  },
+  {
+    "uid": "005069",
+    "code": "BIOC3960",
+    "subject": "BIOC",
+    "number": "3960",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Biochem Research Topics",
+    "fullname": "Research Topics in Biochemistry",
+    "info": "Lectures and discussion on current research in the department.prereq: BIOC 3021 or BIOC 3022 or concurrent registration is required (or allowed) in 4331 or instr consent",
+    "prereq": {
+      "or": [
+        {
+          "code": "BIOC 3021",
+          "subject": "BIOC",
+          "id": "3021"
+        },
+        {
+          "code": "BIOC 3022",
+          "subject": "BIOC",
+          "id": "3022"
+        },
+        {
+          "code": "BIOC 4331",
+          "subject": "BIOC",
+          "id": "4331"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "009033",
+    "code": "BIOC4001",
+    "subject": "BIOC",
+    "number": "4001",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Biochemistry for Med Tech",
+    "fullname": "Biochemistry for Medical Technology",
+    "info": "Chemical properties, biosynthesis, catabolism, structure/function of biomolecules. Fundamental aspects of molecular biology/metabolic regulation.",
+    "prereq": []
+  },
+  {
+    "uid": "009034",
+    "code": "BIOC4002",
+    "subject": "BIOC",
+    "number": "4002",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Physiol Biochem Human Systems",
+    "fullname": "Physiological Biochemistry of Human Systems",
+    "info": "Physiological biochemistry. Emphasizes processes occurring in humans.",
+    "prereq": []
+  },
+  {
+    "uid": "003019",
+    "code": "BIOC4025W",
+    "subject": "BIOC",
+    "number": "4025",
+    "honors": false,
+    "writingIntensive": true,
+    "name": "Laboratory in Biochemistry",
+    "fullname": "Laboratory in Biochemistry",
+    "info": "Theory, principles, and use of fundamental techniques in modern biochemistry labs. prereq: 3021, 3022, or 4331 or equiv",
+    "prereq": {
+      "and": [
+        {
+          "code": "BIOC 3021",
+          "subject": "BIOC",
+          "id": "3021"
+        },
+        {
+          "code": "BIOC 3022",
+          "subject": "BIOC",
+          "id": "3022"
+        },
+        {
+          "code": "BIOC 4331",
+          "subject": "BIOC",
+          "id": "4331"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "790013",
+    "code": "BIOC4125",
+    "subject": "BIOC",
+    "number": "4125",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Molecular Bio & Biotech Lab",
+    "fullname": "Laboratory in Molecular Biology and Biotechnology",
+    "info": "This molecular biology laboratory course is designed to give students hands-on experience performing common techniques used in modern molecular biology, as well as the background information needed to understand what kind of information can be obtained by using them. Because of the dual nature of this course, a portion of the laboratory time will be spent on lectures explaining the theory behind the techniques being used as well as practical aspects of experimental design. In addition, readings will be assigned that explain the history and principles behind some of the techniques used. Basic recombinant DNA techniques: methods for growing, isolating, and purifying recombinant DNA and cloning vectors, DNA sequencing and sequence analysis, gene expression, Polymerase Chain Reaction (PCR), other current techniques.prereq: Biol 3015 or Biol 3020 or Biol 3025 or Bioc 3021 or Bioc 3022 or Bioc 4331 or Biol 4003 or instructor consent",
+    "prereq": {
+      "or": [
+        {
+          "code": "BIOL 3015",
+          "subject": "BIOL",
+          "id": "3015"
+        },
+        {
+          "code": "BIOL 3020",
+          "subject": "BIOL",
+          "id": "3020"
+        },
+        {
+          "code": "BIOL 3025",
+          "subject": "BIOL",
+          "id": "3025"
+        },
+        {
+          "code": "BIOC 3021",
+          "subject": "BIOC",
+          "id": "3021"
+        },
+        {
+          "code": "BIOC 3022",
+          "subject": "BIOC",
+          "id": "3022"
+        },
+        {
+          "code": "BIOC 4331",
+          "subject": "BIOC",
+          "id": "4331"
+        },
+        {
+          "code": "BIOL 4003",
+          "subject": "BIOL",
+          "id": "4003"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "790014",
+    "code": "BIOC4185",
+    "subject": "BIOC",
+    "number": "4185",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Molecular Genetics",
+    "fullname": "Laboratory in Molecular Genetics",
+    "info": "Basic recombinant DNA techniques. Methods for growing, isolating, and purifying recombinant DNA and cloning vectors. DNA sequencing, sequence analysis. Gene expression, Polymerase Chain Reaction (PCR). Current techniques.prereq: Enrollment in Life Sciences Summer Undergraduate Research Program",
+    "prereq": []
+  },
+  {
+    "uid": "800388",
+    "code": "BIOC4225",
+    "subject": "BIOC",
+    "number": "4225",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Laboratory In NMR Techniques",
+    "fullname": "Laboratory in NMR Techniques",
+    "info": "Practical aspects of nuclear magnetic resonance (NMR) spectrometry. Hands-on experience with 500/600 MHz instruments. Sample preparation/handling, contamination sources, tube/probe options, experiment selection, experimental procedures, software, data processing.prereq: 4331; 4521 recommended; intended for biochemistry majors",
+    "prereq": [
+      {
+        "code": "BIOC 4331",
+        "subject": "BIOC",
+        "id": "4331"
+      },
+      {
+        "code": "BIOC 4521",
+        "subject": "BIOC",
+        "id": "4521"
+      }
+    ]
+  },
+  {
+    "uid": "802906",
+    "code": "BIOC4325",
+    "subject": "BIOC",
+    "number": "4325",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Mass Spectrometry Laboratory",
+    "fullname": "Laboratory in Mass Spectrometry",
+    "info": "Hands-on experience with techniques/instruments. Sample preparation/handling, 2-dimenstioal gels, MS-MS, MALDI-TOF, electrospray/LC-MS, experiment selection/procedures, software, data processing.prereq: 4332, 4521",
+    "prereq": {
+      "and": [
+        {
+          "code": "BIOC 4332",
+          "subject": "BIOC",
+          "id": "4332"
+        },
+        {
+          "code": "BIOC 4521",
+          "subject": "BIOC",
+          "id": "4521"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "002945",
+    "code": "BIOC4331",
+    "subject": "BIOC",
+    "number": "4331",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Structure/Catalysis/Metabolism",
+    "fullname": "Biochemistry I: Structure, Catalysis, and Metabolism in Biological Systems",
+    "info": "Advanced survey of structure/catalysis, metabolism/bioenergetics.prereq: (BIOL 1009 or 2003 or equiv) AND (Chem 2302 or CHEM 2081/2085 or equiv)",
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            {
+              "code": "BIOL 1009",
+              "subject": "BIOL",
+              "id": "1009"
+            },
+            {
+              "code": "BIOC 2003",
+              "subject": "BIOC",
+              "id": "2003"
+            }
+          ]
+        },
+        {
+          "or": [
+            {
+              "code": "CHEM 2302",
+              "subject": "CHEM",
+              "id": "2302"
+            },
+            {
+              "code": "CHEM 2081",
+              "subject": "CHEM",
+              "id": "2081"
+            },
+            {
+              "code": "BIOC 2085",
+              "subject": "BIOC",
+              "id": "2085"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "uid": "003181",
+    "code": "BIOC4332",
+    "subject": "BIOC",
+    "number": "4332",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Signal Trans/Gene Expression",
+    "fullname": "Biochemistry II: Molecular Mechanisms of Signal Transduction and Gene Expression",
+    "info": "Advanced survey of molecular biology. Mechanisms of gene action/biological regulation. prereq: BioC 4331 or Bioc 3201 or BioC 3022",
+    "prereq": {
+      "or": [
+        {
+          "code": "BIOC 4331",
+          "subject": "BIOC",
+          "id": "4331"
+        },
+        {
+          "code": "BIOC 3201",
+          "subject": "BIOC",
+          "id": "3201"
+        },
+        {
+          "code": "BIOC 3022",
+          "subject": "BIOC",
+          "id": "3022"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "811695",
+    "code": "BIOC4351",
+    "subject": "BIOC",
+    "number": "4351",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Protein Engineering",
+    "fullname": "Protein Engineering",
+    "info": "Key properties of enzymes/molecular basis, computer modeling strategies, mutagenesis strategies to create protein variants, expression/screening of protein variants. Evaluate research papers, identify unsolved practical/theoretical problems, plan protein engineering experiment.prereq: 4331 or instr consent",
+    "prereq": {
+      "code": "BIOC 4331",
+      "subject": "BIOC",
+      "id": "4331"
+    }
+  },
+  {
+    "uid": "005070",
+    "code": "BIOC4418",
+    "subject": "BIOC",
+    "number": "4418",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Molecular Immunol",
+    "fullname": "Topics in Molecular Immunology",
+    "info": "Molecular interactions occurring among proteins and peptides involved in immune recognition.",
+    "prereq": []
+  },
+  {
+    "uid": "013689",
+    "code": "BIOC4521",
+    "subject": "BIOC",
+    "number": "4521",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Intro to Physical Biochemistry",
+    "fullname": "Introduction to Physical Biochemistry",
+    "info": "Physical chemical principles, their applications in biochemistry. Thermodynamics, kinetics, spectroscopy, solution dynamics as applied to biochemical reactions/ biopolymers. prereq: 4331 recommended, (Chem 1081 or 1061 and 1065) AND (Physics 1221 or 1201W or 1301W) required",
+    "prereq": {
+      "and": [
+        {
+          "code": "BIOC 4331",
+          "subject": "BIOC",
+          "id": "4331"
+        },
+        {
+          "and": [
+            {
+              "code": "CHEM 1081",
+              "subject": "CHEM",
+              "id": "1081"
+            },
+            {
+              "code": "BIOC 1061",
+              "subject": "BIOC",
+              "id": "1061"
+            },
+            {
+              "code": "BIOC 1065",
+              "subject": "BIOC",
+              "id": "1065"
+            }
+          ]
+        },
+        {
+          "or": [
+            {
+              "code": "BIOC 1221",
+              "subject": "BIOC",
+              "id": "1221"
+            },
+            {
+              "code": "BIOC 1201W",
+              "subject": "BIOC",
+              "id": "1201W"
+            },
+            {
+              "code": "BIOC 1301W",
+              "subject": "BIOC",
+              "id": "1301W"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "uid": "788840",
+    "code": "BIOC4793W",
+    "subject": "BIOC",
+    "number": "4793",
+    "honors": false,
+    "writingIntensive": true,
+    "name": "Directed Studies: WI",
+    "fullname": "Directed Studies: Writing Intensive",
+    "info": "Writing Intensive Directed Studies is an individual-study, literature-based investigation in which the student is mentored directly by a faculty member. One main feature of this course is that the student will receive writing instruction and the written output of the course will be revised during the semester. The project needs to be explained in a Research/Directed Studies contract and agreed on by both the student and faculty mentor. The contract must be approved by the director of undergraduate studies (DUGS) for the major before the student is allowed to register. The contract includes a description of learning objectives for the course, how writing instruction will take place, a timeline for when student writing will be handed in and how it will be assessed, methodology to be used by the student, and how assessment of learning will be conducted by the mentor. Additional oversight is established for this course near the end of the semester the written output is submitted to the DUGS for the major. The DUGS is responsible to determine that the writing meets standards set by the CBS Education Policy Committee for quality of writing, appropriate citation of literature, well-constructed figures, tables, and legends (if present), appropriate use and interpretation of statistics (if present), conclusions that are supported by evidence, and well-formatted references. This course is graded S/N and approval of the DUGS is required before a grade of S can be given by the faculty mentor. prereq: department consent, instructor consent, no more than 7 credits of 4793W, 4794W, 4993, 4994 counts towards CBS major requirements.",
+    "prereq": {
+      "and": [
+        {
+          "code": "BIOC 4794W",
+          "subject": "BIOC",
+          "id": "4794W"
+        },
+        {
+          "code": "BIOC 4993",
+          "subject": "BIOC",
+          "id": "4993"
+        },
+        {
+          "code": "BIOC 4994",
+          "subject": "BIOC",
+          "id": "4994"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "788841",
+    "code": "BIOC4794W",
+    "subject": "BIOC",
+    "number": "4794",
+    "honors": false,
+    "writingIntensive": true,
+    "name": "Directed Research: WI",
+    "fullname": "Directed Research: Writing Intensive",
+    "info": "Writing Intensive Directed Research is an individual-study, laboratory or field research experience in which the student is mentored directly by a faculty member. This course is not for students starting out in research. It is intended for students who already have been working in the research group of the mentor and have developed an independent research project. In this course, the student will receive writing instruction through a writing support course (corresponding to 1 credit in addition to the credits of directed research time) that will meet weekly throughout the semester. The written output usually is in the form of a scientific paper describing the results of the student's project. Written output of the course must be revised during the semester and a schedule for writing, assessment, and revision needs to be in place at the beginning of the semester. The project needs to be explained in the campus Directed Research contract and the project and participation in the writing support course agreed on by both the student and faculty mentor. The contract must be approved by the Director of Undergraduate Studies (DUGS) for the major before the student is allowed to register. The contract includes a description of learning objectives for the course, agreement about how writing instruction will take place, confirmation of understanding of the timeline for when student writing will be handed in and how it will be assessed, methodology to be used by the student, and how assessment of learning will be conducted by the mentor. Additional oversight is established for this course - near the end of the semester the written output is submitted to the DUGS for the major. The DUGS is responsible to determine that the writing meets standards set by the CBS Education Policy Committee for quality of writing, appropriate citation of literature, well-constructed figures, tables, and legends (if present), appropriate use and interpretation of statistics (if present), conclusions that are supported by evidence, and well-formatted references. The DUGS can call for a final revision before a grade is given. This course is graded S/N by the writing support course instructor, and approval of both the DUGS and the research mentor is required before a grade of S can be given by the writing support course instructor.This course is for non-Honors students. Students should register for the number of research credits they intend to pursue plus 1 cr for the writing support component (for example: 2-4 cr of research + 1 cr writing support = 3-5 cr).prereq: department consent, instructor consent, no more than a total of 7 credits of 4793W, 4794W, 4993, 4994 combined can count towards CBS major requirements.",
+    "prereq": {
+      "and": [
+        {
+          "code": "BIOC 4793W",
+          "subject": "BIOC",
+          "id": "4793W"
+        },
+        {
+          "code": "BIOC 4993",
+          "subject": "BIOC",
+          "id": "4993"
+        },
+        {
+          "code": "BIOC 4994",
+          "subject": "BIOC",
+          "id": "4994"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "800747",
+    "code": "BIOC4950",
+    "subject": "BIOC",
+    "number": "4950",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Biochem Computer Simulation",
+    "fullname": "Computer Simulation and Data Analysis in Biochemistry",
+    "info": "Introduction to computer simulation and data analysis. How to use readily available computer tools to formulate quantitative models and analyze experiments with free/open source software program R.prereq: 4331, 4332, MATH 1272",
+    "prereq": {
+      "and": [
+        {
+          "code": "BIOC 4331",
+          "subject": "BIOC",
+          "id": "4331"
+        },
+        {
+          "code": "BIOC 4332",
+          "subject": "BIOC",
+          "id": "4332"
+        },
+        {
+          "code": "MATH 1272",
+          "subject": "MATH",
+          "id": "1272"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "806374",
+    "code": "BIOC4960",
+    "subject": "BIOC",
+    "number": "4960",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Special Topics in Biochemistry",
+    "fullname": "Special Topics in Biochemistry",
+    "info": "In-depth study of a topic in biochemistry.prereq: [[3021 or equiv], CHEM 2301]] or instr consent",
+    "prereq": {
+      "and": [
+        {
+          "code": "BIOC 3021",
+          "subject": "BIOC",
+          "id": "3021"
+        },
+        {
+          "code": "CHEM 2301",
+          "subject": "CHEM",
+          "id": "2301"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "005072",
+    "code": "BIOC4993",
+    "subject": "BIOC",
+    "number": "4993",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Directed Studies",
+    "fullname": "Directed Studies",
+    "info": "Directed Studies is an individual-study, literature-based investigation in which the student is mentored directly by a faculty member. The topic for the course needs to be explained in a Research/Directed Studies contract and agreed on by both the student and faculty mentor. The contract must be approved by the director of undergraduate studies (DUGS) for the major before the student is allowed to register. The contract includes a description of learning objectives for the course, methodology to be used, and how the assessment of learning will be conducted. prereq: department consent, instructor consent, no more than 7 credits of 4793W, 4794W, 4993, 4994 counts towards CBS major requirements.",
+    "prereq": {
+      "and": [
+        {
+          "code": "BIOC 4793W",
+          "subject": "BIOC",
+          "id": "4793W"
+        },
+        {
+          "code": "BIOC 4794W",
+          "subject": "BIOC",
+          "id": "4794W"
+        },
+        {
+          "code": "BIOC 4994",
+          "subject": "BIOC",
+          "id": "4994"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "005073",
+    "code": "BIOC4994",
+    "subject": "BIOC",
+    "number": "4994",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Directed Research",
+    "fullname": "Directed Research",
+    "info": "Directed Research is an individual-study, laboratory or field investigation course. The research topic needs to be agreed on by both the student and the faculty mentor and explained in a Research/Directed Studies contract. The contract must be approved by the director of undergraduate studies (DUGS) for the major before the student is allowed to register. The contract includes a description of learning objectives for the course, methodology to be used, and how the assessment of learning will be conducted. prereq: department consent, instructor consent, no more than 7 credits of 4793W, 4794W, 4993, 4994 counts towards CBS major requirements.",
+    "prereq": {
+      "and": [
+        {
+          "code": "BIOC 4793W",
+          "subject": "BIOC",
+          "id": "4793W"
+        },
+        {
+          "code": "BIOC 4794W",
+          "subject": "BIOC",
+          "id": "4794W"
+        },
+        {
+          "code": "BIOC 4993",
+          "subject": "BIOC",
+          "id": "4993"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "790715",
+    "code": "BIOC5001",
+    "subject": "BIOC",
+    "number": "5001",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Biochem Molecular/Cell Biol",
+    "fullname": "Biochemistry, Molecular and Cellular Biology",
+    "info": "Integrated course in biochemistry, molecular biology, cell biology, and developmental biology.prereq: undergrad course in biochemistry, instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "817760",
+    "code": "BIOC5002",
+    "subject": "BIOC",
+    "number": "5002",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Evaluation of Biochem Research",
+    "fullname": "Critical Evaluation of Biochemistry Research",
+    "info": "BioC 5002 guides advanced undergraduates and new graduate students as they learn how to design experiments and to critically evaluate a wide variety of cutting-edge research projects, both as readers and as researchers. Introductory lectures include peer review, experimental design, critical thinking and the psychology of judgment and decision-making. This is followed by a series of guest speakers who will guide students as they develop their skills in evaluation of current research papers.",
+    "prereq": []
+  },
+  {
+    "uid": "807173",
+    "code": "BIOC5213",
+    "subject": "BIOC",
+    "number": "5213",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Topics in Molecular Biology",
+    "fullname": "Selected Topics in Molecular Biology",
+    "info": "Cutting edge areas in molecular biology. Topics focus on the \"3 R's\" of DNA: repair, replication, and recombination. Faculty who are experts in these areas teach modules on specific topics, including discussion of their research interests.prereq: 4332 or 8002 or [3021, BIOL 4003] or instr consent",
+    "prereq": {
+      "or": [
+        {
+          "code": "BIOC 4332",
+          "subject": "BIOC",
+          "id": "4332"
+        },
+        {
+          "code": "BIOC 8002",
+          "subject": "BIOC",
+          "id": "8002"
+        },
+        {
+          "and": [
+            {
+              "code": "BIOC 3021",
+              "subject": "BIOC",
+              "id": "3021"
+            },
+            {
+              "code": "BIOL 4003",
+              "subject": "BIOL",
+              "id": "4003"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "uid": "809272",
+    "code": "BIOC5216",
+    "subject": "BIOC",
+    "number": "5216",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Signal Transduction",
+    "fullname": "Current Topics in Signal Transduction",
+    "info": "Mechanisms by which biological signals evoke biochemical responses.",
+    "prereq": []
+  },
+  {
+    "uid": "802283",
+    "code": "BIOC5225",
+    "subject": "BIOC",
+    "number": "5225",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Graduate NMR Laboratory",
+    "fullname": "Graduate Laboratory in NMR Techniques",
+    "info": "Practical aspects of nuclear magnetic resonance (NMR) spectrometry. Hands-on experience with 500/600 MHz instruments. Sample preparation/handling, contamination sources, tube/probe options, experiment selection, experimental procedures, software, data processing.prereq: 8001 or instr consent",
+    "prereq": {
+      "code": "BIOC 8001",
+      "subject": "BIOC",
+      "id": "8001"
+    }
+  },
+  {
+    "uid": "008206",
+    "code": "BIOC5309",
+    "subject": "BIOC",
+    "number": "5309",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Biocat & Biodegrad",
+    "fullname": "Biocatalysis and Biodegradation",
+    "info": "Fundamentals of microbial enzymes/metabolism as pertaining to biodegradation of environmental pollutants/biosynthesis for making commodity chemicals. Practical examples. Guest speakers from industry.",
+    "prereq": []
+  },
+  {
+    "uid": "811534",
+    "code": "BIOC5351",
+    "subject": "BIOC",
+    "number": "5351",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Protein Engineering",
+    "fullname": "Protein Engineering",
+    "info": "Key properties of enzymes/molecular basis, computer modeling strategies, mutagenesis strategies to create protein variants, expression/screening of protein variants. Evaluate research papers, identify unsolved practical/theoretical problems, plan protein engineering experiment.",
+    "prereq": []
+  },
+  {
+    "uid": "015972",
+    "code": "BIOC5352",
+    "subject": "BIOC",
+    "number": "5352",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Biotech and Bioengineering",
+    "fullname": "Biotechnology and Bioengineering for Biochemists",
+    "info": "Protein biotechnology. Microorganisms used as hosts for protein expression, protein expression, and engineering methods. Production of enzymes of industrial interest. Applications of protein biotechnology in bioelectronics. Formulation of therapeutic biopharmaceuticals.Recommended prerequisites: Biochemistry (BiOC 3021 or 3022 or 4331) and Microbiology MICB 3301",
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            {
+              "code": "BIOC 3021",
+              "subject": "BIOC",
+              "id": "3021"
+            },
+            {
+              "code": "BIOC 3022",
+              "subject": "BIOC",
+              "id": "3022"
+            },
+            {
+              "code": "BIOC 4331",
+              "subject": "BIOC",
+              "id": "4331"
+            }
+          ]
+        },
+        {
+          "code": "MICB 3301",
+          "subject": "MICB",
+          "id": "3301"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "794023",
+    "code": "BIOC5353",
+    "subject": "BIOC",
+    "number": "5353",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Biotechnology-Small Molecules",
+    "fullname": "Microbial Biochemistry and Biotechnology: Small Molecules",
+    "info": "Small molecule biotechnology. Screening strategies for drug discovery. Secondary metabolite and antibiotic biosynthesis. Combinatorial methods for generating new pharmaceutically active natural products. Production of organic acids and vitamins. Introduction to metabolic engineering.prereq: [[3021 or 4331 or Biol 3021 or MicB 4111], [Biol 3301 or MicB 3301]] or instr consent",
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            {
+              "code": "BIOC 3021",
+              "subject": "BIOC",
+              "id": "3021"
+            },
+            {
+              "code": "BIOC 4331",
+              "subject": "BIOC",
+              "id": "4331"
+            },
+            {
+              "code": "BIOL 3021",
+              "subject": "BIOL",
+              "id": "3021"
+            },
+            {
+              "code": "MICB 4111",
+              "subject": "MICB",
+              "id": "4111"
+            }
+          ]
+        },
+        {
+          "or": [
+            {
+              "code": "BIOL 3301",
+              "subject": "BIOL",
+              "id": "3301"
+            },
+            {
+              "code": "MICB 3301",
+              "subject": "MICB",
+              "id": "3301"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "uid": "788041",
+    "code": "BIOC5361",
+    "subject": "BIOC",
+    "number": "5361",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Microbial Genomics",
+    "fullname": "Microbial Genomics and Bioinformatics",
+    "info": "Introduction to genomics. Emphasizes microbial genomics. Sequencing methods, sequence analysis, genomics databases, genome mapping, prokaryotic horizontal gene transfer, genomics in biotechnology, intellectual property issues. Hands-on introduction to UNIX shell scripting, genomic data analysis using R and Excel in a computer lab setting. prereq: College-level courses in [organic chemistry, biochemistry, microbiology]",
+    "prereq": []
+  },
+  {
+    "uid": "002946",
+    "code": "BIOC5401W",
+    "subject": "BIOC",
+    "number": "5401",
+    "honors": false,
+    "writingIntensive": true,
+    "name": "Advanced Metabolism",
+    "fullname": "Advanced Metabolism and Its Regulation",
+    "info": "Underlying principles that determine metabolism of common/unusual compounds in plants, animals, microorganisms. Regulation of carbon, energy flow in whole organisms.",
+    "prereq": []
+  },
+  {
+    "uid": "015970",
+    "code": "BIOC5444",
+    "subject": "BIOC",
+    "number": "5444",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Muscle",
+    "fullname": "Muscle",
+    "info": "Muscle molecular structure/function and disease. Muscle regulation, ion transport, and force generation. Muscular dystrophy and heart disease.prereq: 3021 or BIOL 3021 or 4331 or BIOL 4331 or PHSL 3061 or instr consent",
+    "prereq": {
+      "or": [
+        {
+          "code": "BIOC 3021",
+          "subject": "BIOC",
+          "id": "3021"
+        },
+        {
+          "code": "BIOL 3021",
+          "subject": "BIOL",
+          "id": "3021"
+        },
+        {
+          "code": "BIOC 4331",
+          "subject": "BIOC",
+          "id": "4331"
+        },
+        {
+          "code": "BIOL 4331",
+          "subject": "BIOL",
+          "id": "4331"
+        },
+        {
+          "code": "PHSL 3061",
+          "subject": "PHSL",
+          "id": "3061"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "787795",
+    "code": "BIOC5446",
+    "subject": "BIOC",
+    "number": "5446",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Membrane Biochemistry",
+    "fullname": "Membrane Biochemistry",
+    "info": "Membrane structure. Mechanisms and physiological roles of channels, pumps, and membrane enzymes.",
+    "prereq": []
+  },
+  {
+    "uid": "015968",
+    "code": "BIOC5527",
+    "subject": "BIOC",
+    "number": "5527",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Intro Structural Biology",
+    "fullname": "Introduction to Modern Structural Biology",
+    "info": "Methods employed in modern structural biology to elucidate macromolecular structures. Primary focus on X-ray diffraction, nuclear magnetic resonance (NMR) spectroscopy and mass spectrometry. Principles underlying structural biology and structure/function relationships.prereq: [intro biochemistry, intro physics] or physical chemistry or instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "015971",
+    "code": "BIOC5528",
+    "subject": "BIOC",
+    "number": "5528",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Spectroscopy & Kinetics",
+    "fullname": "Spectroscopy and Kinetics",
+    "info": "Biochemical dynamics from perspectives of kinetics and spectroscopy.  Influence of structure, molecular interactions, and chemical transformations on biochemical reactions. Focuses on computational, spectroscopic, and physical methods. Steady-state and transient kinetics. Optical and magnetic resonance spectroscopies.prereq: Intro physical chemistry or equiv; intro biochemistry recommended",
+    "prereq": []
+  },
+  {
+    "uid": "015969",
+    "code": "BIOC5530",
+    "subject": "BIOC",
+    "number": "5530",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Topics Molecular Biophysics",
+    "fullname": "Selected Topics in Molecular Biophysics",
+    "info": "Topics from current literature on biophysics of proteins, nucleic acids, muscle, membranes. Content/instructors vary from one offering to another, on an approximately every other year rotation.",
+    "prereq": []
+  },
+  {
+    "uid": "009035",
+    "code": "BIOC5531",
+    "subject": "BIOC",
+    "number": "5531",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Macro Crystallography I",
+    "fullname": "Macromolecular Crystallography I: Fundamentals and Techniques",
+    "info": "Macromolecular crystallography for protein structure determination/engineering. Determining macromolecule structure by diffraction.prereq: [[One organic chemistry or biochemistry course], [two calculus or college physics courses]] or instr approval",
+    "prereq": []
+  },
+  {
+    "uid": "014040",
+    "code": "BIOC5532",
+    "subject": "BIOC",
+    "number": "5532",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Macro Crystallography II",
+    "fullname": "Macromolecular Crystallography II: Techniques and Applications",
+    "info": "Determining structure of macromolecule by diffraction. Using software in macromolecular crystallography.prereq: 5531",
+    "prereq": {
+      "code": "BIOC 5531",
+      "subject": "BIOC",
+      "id": "5531"
+    }
+  },
+  {
+    "uid": "817244",
+    "code": "BIOC5535",
+    "subject": "BIOC",
+    "number": "5535",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Intro Structrl Bio-Diffraction",
+    "fullname": "Introduction to Modern Structural Biology -- Diffraction",
+    "info": "Theory and practice in the determination of three-dimensional structures of macromolecules using x-ray and neutron diffraction and electron microscopy. prereq: (Introductory biochemistry, introductory physics, college calculus] or physical chemistry or instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "817245",
+    "code": "BIOC5536",
+    "subject": "BIOC",
+    "number": "5536",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Intro Structural Biology - NMR",
+    "fullname": "Introduction to Modern Structural Biology - Nuclear Magnetic Resonance",
+    "info": "Theory and practice in the determination of three-dimensional structures of macromolecules using NMR. Recommended prerequisite courses: (Introductory biochemistry, introductory physics, college calculus) or physical chemistry",
+    "prereq": []
+  },
+  {
+    "uid": "806378",
+    "code": "BIOC5960",
+    "subject": "BIOC",
+    "number": "5960",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Biophysical Spectroscopy",
+    "fullname": "Biophysical Spectroscopy",
+    "info": "In-depth study of topics in biochemistry.prereq: [[3021 or equiv], CHEM 2301]] or instr consent or grad",
+    "prereq": {
+      "and": [
+        {
+          "code": "BIOC 3021",
+          "subject": "BIOC",
+          "id": "3021"
+        },
+        {
+          "code": "CHEM 2301",
+          "subject": "CHEM",
+          "id": "2301"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "016481",
+    "code": "BIOC6001",
+    "subject": "BIOC",
+    "number": "6001",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Biochem Molecular/Cell Biol",
+    "fullname": "Biochemistry, Molecular and Cellular Biology",
+    "info": "Integrated view of biochemistry, molecular biology, cell biology, and genetics. Clinical correlation sessions deal with specific diseases relevant to lecture topics.",
+    "prereq": []
+  },
+  {
+    "uid": "012636",
+    "code": "BIOC6002",
+    "subject": "BIOC",
+    "number": "6002",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "MedBiochem Nutrition",
+    "fullname": "MedBiochemistry:  Nutrition",
+    "info": "Introduction to principles/concepts of nutrition. Importance for medicine. Nine hours.",
+    "prereq": []
+  },
+  {
+    "uid": "013925",
+    "code": "BIOC6011",
+    "subject": "BIOC",
+    "number": "6011",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Dental Biochemistry",
+    "fullname": "Biochemistry for Dental Students",
+    "info": "Survey of chemical properties, biosynthesis, catabolism, structure/function of biomolecules. Fundamentals of molecular biology/metabolic regulation.prereq: Dental student",
+    "prereq": []
+  },
+  {
+    "uid": "013926",
+    "code": "BIOC6012",
+    "subject": "BIOC",
+    "number": "6012",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Biochem for Dental Students II",
+    "fullname": "Biochemistry for Dental Students II",
+    "info": "Survey of physiological biochemistry.  Emphasizes processes that occur in humans and are related to dentistry.",
+    "prereq": []
+  },
+  {
+    "uid": "790126",
+    "code": "BIOC6021",
+    "subject": "BIOC",
+    "number": "6021",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Biochemistry",
+    "fullname": "Biochemistry",
+    "info": "Fundamentals of biochemistry. Structure/function of proteins, nucleic acids, lipids and carbohydrates. Metabolism, regulation of metabolism. Quantitative treatments of chemical equilibria, enzyme catalysis, and bioenergetics. Chemical basis of genetic information flow.prereq: general biology, organic chemistry, instr consent; intended for MBS students",
+    "prereq": []
+  },
+  {
+    "uid": "826954",
+    "code": "BIOC6994",
+    "subject": "BIOC",
+    "number": "6994",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Directed Studies",
+    "fullname": "Directed Studies",
+    "info": "This course is for students who have academic interests that are not met by the current courses listed.",
+    "prereq": []
+  },
+  {
+    "uid": "005143",
+    "code": "BIOC8001",
+    "subject": "BIOC",
+    "number": "8001",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Biochemistry",
+    "fullname": "Biochemistry: Structure, Catalysis, and Metabolism",
+    "info": "Protein structure, methods to determine structure, protein folding, forces stabilizing macromolecular structure, protein engineering, design. Dynamic properties of proteins/enzymes, enzyme substrate complexes, mechanism of enzyme catalysis. Enzymology of metabolic regulation and cell signaling.prereq: BMBB or MCDBconcurrent registration is required (or allowed) in G grad student or instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "005145",
+    "code": "BIOC8002",
+    "subject": "BIOC",
+    "number": "8002",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Molecular Biology",
+    "fullname": "Molecular Biology and Regulation of Biological Processes",
+    "info": "Classical to current topics in molecular biology. Aspects of DNA, RNA, and protein biology. DNA replication, repair, and recombination. RNA transcription, editing, and regulation. Protein translation/modification. Technologies such as deep-sequencing micro-RNA and prions.prereq: [BMBB or MCDBG] grad student or instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "817081",
+    "code": "BIOC8005",
+    "subject": "BIOC",
+    "number": "8005",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Biochem: Structure & Catalysis",
+    "fullname": "Biochemistry: Structure and Catalysis",
+    "info": "Protein structure, methods to determine structure, protein folding, forces stabilizing macromolecular structure, protein engineering, design. Dynamic properties of proteins/enzymes, enzyme substrate complexes, mechanism of enzyme catalysis.  ",
+    "prereq": []
+  },
+  {
+    "uid": "817082",
+    "code": "BIOC8006",
+    "subject": "BIOC",
+    "number": "8006",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Biochem: Metabolism & Control",
+    "fullname": "Biochemistry: Metabolism and Control",
+    "info": "Enzymology of metabolism, metabolic regulation, metabolic control and cell signaling.  ",
+    "prereq": []
+  },
+  {
+    "uid": "009039",
+    "code": "BIOC8007",
+    "subject": "BIOC",
+    "number": "8007",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Molecular Biology of Genome",
+    "fullname": "Molecular Biology of the Genome",
+    "info": "This course explores the molecular biology of the eukaryotic genome and transcriptome, focusing on fundamental genetic processes, molecular mechanisms, and their relationships to biology and disease. Students gain a firm understanding of the key concepts and techniques through lectures, reading, and discussions. Students learn to critically analyze scientific papers through student-led presentations and discussions. They gain experience in articulating scientific questions, formulating testable hypotheses, and designing experiments. This course promotes development of science writing skills.",
+    "prereq": []
+  },
+  {
+    "uid": "817083",
+    "code": "BIOC8008",
+    "subject": "BIOC",
+    "number": "8008",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Molecular Bio of Transcriptome",
+    "fullname": "Molecular Biology of the Transcriptome",
+    "info": "This course explores the molecular biology of the eukaryotic genome and transcriptome, focusing on fundamental genetic processes, molecular mechanisms, and their relationships to biology and disease. Students gain a firm understanding of the key concepts and techniques through lectures, reading, and discussions. Students learn to critically analyze scientific papers through student-led presentations and discussions. They gain experience in articulating scientific questions, formulating testable hypotheses, and designing experiments. This course promotes development of science writing skills.",
+    "prereq": []
+  },
+  {
+    "uid": "005146",
+    "code": "BIOC8084",
+    "subject": "BIOC",
+    "number": "8084",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Research & Literature Reports",
+    "fullname": "Research and Literature Reports",
+    "info": "Current developments.prereq: Grad BMBB major or instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "820036",
+    "code": "BIOC8101",
+    "subject": "BIOC",
+    "number": "8101",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Milestones in Biology of Aging",
+    "fullname": "Milestones in the Biology of Aging",
+    "info": "This course introduces the participant to historical perspectives and emerging topics on the biology of aging.  The course utilizes original literature, including both seminal, historical background papers and the most recent advances in the field of biogerontology. The participants use these resources to advance in-depth discussions on each of the topics.  This course is directed to graduate students and post-doctoral fellows currently engaged in conducting research in the area of biological aging. ",
+    "prereq": []
+  },
+  {
+    "uid": "818651",
+    "code": "BIOC8102",
+    "subject": "BIOC",
+    "number": "8102",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Topics in the Biology of Aging",
+    "fullname": "Hot Topics in the Biology of Aging",
+    "info": "This course is intended to provide a platform of understanding about the major issues surrounding biological research in aging. This course will include a combination of student- and faculty-led discussions on select research topics that are highly relevant to the field of biogerontology research, along with instruction/discussions on scientific integrity. Student participants will lead discussions focused on their area of research expertise, utilizing a combination of review articles and research articles. Discussion of scientific misconduct will include case studies.  This course is open to graduate students and post-doctoral fellows involved in the National Institutes on Aging (NIA) training grant “Functional Proteomics of Aging”. This course is also open to other graduate students or post-doctoral fellows who are conducting biological research in aging with instructor’s permission.",
+    "prereq": []
+  },
+  {
+    "uid": "819229",
+    "code": "BIOC8103",
+    "subject": "BIOC",
+    "number": "8103",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Study of Biology of Aging",
+    "fullname": "Application of New Technologies to the Study of Biology of Aging",
+    "info": "This course is intended to provide a platform of understanding about the use of proteomic and other large-scale \"omics\" technologies in aging research. This course will include a combination of faculty- and student-led discussions on select topics that are highly relevant to the field of mass spectrometry and proteomic research. This course also includes an introduction to the NIH/NRSA fellowship applications. This course is directed to graduate students and post-doctoral fellows currently engaged in conducting research in the area of biological aging.",
+    "prereq": []
+  },
+  {
+    "uid": "819673",
+    "code": "BIOC8104",
+    "subject": "BIOC",
+    "number": "8104",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Career in Aging Research",
+    "fullname": "Fostering a Career in Aging Research",
+    "info": "This course is intended to provide a platform for preparing pre-doctoral students and post-doctoral fellows for the next step in their academic career.  The course will include a combination of student- and faculty-led discussions on topics such as preparing for the job interview, composing a CV and cover letter, and developing a course syllabus based on the biology of aging. Trainees will also participate in a one-day symposium conducted by the MN Gerontological Society to raise their awareness of broad issues within the local aging community. This course is directed to graduate students and post-doctoral fellows currently engaged in conducting research in the area of biological aging.prereq: Graduate students and post-doctoral fellows on the NIA Training Grant \"Functional Proteomics of Aging\" and those who are interested in biological research in aging with instructor permission.",
+    "prereq": []
+  },
+  {
+    "uid": "005148",
+    "code": "BIOC8184",
+    "subject": "BIOC",
+    "number": "8184",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Grad Sem",
+    "fullname": "Graduate Seminar",
+    "info": "Reports on recent developments in the field and on research projects in the department.prereq: grad BMBB major or DGS consent",
+    "prereq": []
+  },
+  {
+    "uid": "009037",
+    "code": "BIOC8213",
+    "subject": "BIOC",
+    "number": "8213",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Topics in Molecular Biology",
+    "fullname": "Selected Topics in Molecular Biology",
+    "info": "Current topics such as DNA replication, recombination and gene conversion, regulation of gene expression, chromatin structure and transcription, developmental gene regulation, organellar gene expression, RNA splicing, initiation/control of translation, animal viruses, transposable elements, somatic recombination, oncogenes.",
+    "prereq": []
+  },
+  {
+    "uid": "012729",
+    "code": "BIOC8216",
+    "subject": "BIOC",
+    "number": "8216",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Signal Transduction/Gene Expr",
+    "fullname": "Signal Transduction and Gene Expression",
+    "info": "Cell signaling, metabolic regulation in development. Procaryotic/eucaryotic systems used as models for discussion. Literature-based course.prereq: 8002 or instr consent",
+    "prereq": {
+      "code": "BIOC 8002",
+      "subject": "BIOC",
+      "id": "8002"
+    }
+  },
+  {
+    "uid": "005151",
+    "code": "BIOC8290",
+    "subject": "BIOC",
+    "number": "8290",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Current Research Techniques",
+    "fullname": "Current Research Techniques",
+    "info": "Research project carried out in laboratory of a staff member.prereq: Grad BMBB major",
+    "prereq": []
+  },
+  {
+    "uid": "016749",
+    "code": "BIOC8333",
+    "subject": "BIOC",
+    "number": "8333",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "FTE: Master's",
+    "fullname": "FTE: Master's",
+    "info": "(No description)prereq: Master's student, adviser and DGS consent",
+    "prereq": []
+  },
+  {
+    "uid": "791609",
+    "code": "BIOC8401",
+    "subject": "BIOC",
+    "number": "8401",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Ethics Molec Cell Biology",
+    "fullname": "Ethics, Public Policy, and Careers in Molecular and Cellular Biology",
+    "info": "Ethics of scientific investigation from viewpoint of western scientific enterprise. Relationship between science, culture, and public policies. Careers in molecular/cellular biology. Nontraditional career tracks. Invited speakers, case studies, small-group discussions, lectures.prereq: Grad student in [BMBB or MCDBconcurrent registration is required (or allowed) in G]",
+    "prereq": []
+  },
+  {
+    "uid": "788318",
+    "code": "BIOC8444",
+    "subject": "BIOC",
+    "number": "8444",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "FTE: Doctoral",
+    "fullname": "FTE: Doctoral",
+    "info": "(No description)prereq: Doctoral student, adviser and DGS consent",
+    "prereq": []
+  },
+  {
+    "uid": "788444",
+    "code": "BIOC8666",
+    "subject": "BIOC",
+    "number": "8666",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Doct Pre-Thesis Cr*",
+    "fullname": "Doctoral Pre-Thesis Credits",
+    "info": "TBDprereq: Doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
+    "prereq": []
+  },
+  {
+    "uid": "788573",
+    "code": "BIOC8777",
+    "subject": "BIOC",
+    "number": "8777",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Thesis Credit:Mast*",
+    "fullname": "Thesis Credits: Master's",
+    "info": "(No description)prereq: Max 18 cr per semester or summer; 10 cr total required [Plan A only]",
+    "prereq": []
+  },
+  {
+    "uid": "787831",
+    "code": "BIOC8888",
+    "subject": "BIOC",
+    "number": "8888",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Thesis Credit:Doct*",
+    "fullname": "Thesis Credit: Doctoral",
+    "info": "(No description)prereq: Max 18 cr per semester or summer; 24 cr required",
+    "prereq": []
+  }
+]

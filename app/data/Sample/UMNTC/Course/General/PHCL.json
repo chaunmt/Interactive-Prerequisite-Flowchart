@@ -1,0 +1,761 @@
+[
+  {
+    "uid": "016699",
+    "code": "PHCL1450",
+    "subject": "PHCL",
+    "number": "1450",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Intro Pharmacology",
+    "fullname": "Introduction to Pharmacology: Concepts of Drug Action",
+    "info": "Selected topics on concepts of how drugs act, their discovery, implications for society. Lectures, discussion, visits to pharmacology research labs.",
+    "prereq": []
+  },
+  {
+    "uid": "809632",
+    "code": "PHCL2001",
+    "subject": "PHCL",
+    "number": "2001",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Basics of Pharmacology",
+    "fullname": "Basic Principles of Pharmacology: A Drug's Fantastic Voyage",
+    "info": "Basic principles of pharmacology affecting drug from administration through action/elimination.prereq: First-year chemistryKeywords: Pharmacology, Drug, Introduction, Pharmacogenetics, Addiction, Toxicity",
+    "prereq": []
+  },
+  {
+    "uid": "016703",
+    "code": "PHCL3001",
+    "subject": "PHCL",
+    "number": "3001",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Dental Therapeutics",
+    "fullname": "Dental Therapeutics",
+    "info": "Pharmacology for the dental hygienist. Principles of drug actions.",
+    "prereq": []
+  },
+  {
+    "uid": "796707",
+    "code": "PHCL3100",
+    "subject": "PHCL",
+    "number": "3100",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Premed/Life Sci. Pharmacology",
+    "fullname": "Pharmacology for Pre-Med and Life Science Students",
+    "info": "Principles/mechanisms of drug action. Major drug categories for different organ systems.prereq: College-level biology, biochemistry or physiology recommended",
+    "prereq": []
+  },
+  {
+    "uid": "814923",
+    "code": "PHCL3210",
+    "subject": "PHCL",
+    "number": "3210",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Gateway to Pharmacology",
+    "fullname": "Gateway to Pharmacology: How popular drugs work",
+    "info": "This course will study the mechanisms of prototype drugs in the major drug categories. We will focus on drugs that are frequently used for the treatment of common conditions in the United States. We will also explore different types of drugs to treat some conditions.",
+    "prereq": []
+  },
+  {
+    "uid": "795439",
+    "code": "PHCL4001",
+    "subject": "PHCL",
+    "number": "4001",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Mechanisms of Drug Action",
+    "fullname": "Mechanisms of Drug Action",
+    "info": "How drugs function as applied to the treatment of a single medical condition. Pharmacology, pharmacokinetics, pharmacodynamics, pharmacogenetics, pharmacogenomics.prereq: Upper div or instr consent; [prev or concurrent] courses in [biology, biochemistry] recommended",
+    "prereq": []
+  },
+  {
+    "uid": "808509",
+    "code": "PHCL4003",
+    "subject": "PHCL",
+    "number": "4003",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Anti-infective drugs",
+    "fullname": "Anti-infective drugs: Drugs that kill invaders",
+    "info": "Principles/mechanisms of anti-infective drugs, and treatments of infectious diseases.prereq: College-level biology",
+    "prereq": []
+  },
+  {
+    "uid": "806864",
+    "code": "PHCL4010",
+    "subject": "PHCL",
+    "number": "4010",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Pharmacology Research Topics",
+    "fullname": "Current Research Topics in Pharmacology",
+    "info": "Cutting-edge research projects in pharmacology. Research seminars, literature studies, discussion sessions, oral presentations.prereq: Upper div or instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "813575",
+    "code": "PHCL4020",
+    "subject": "PHCL",
+    "number": "4020",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Chemotherapy",
+    "fullname": "Chemotherapy: from current anticancer drugs to future cancer therapeutics",
+    "info": "This course will expose students to the studies of therapeutic agents used for the treatment of cancer.  We will study the mechanisms of current anticancer drugs.  We will also explore the recent development of novel anticancer agents, as well as the process of drug discovery & development.prereq: College-level biology: PHCL 2001 and/or PHCL3100, GCD4151 recommended.",
+    "prereq": {
+      "and": [
+        {
+          "code": "PHCL 2001",
+          "subject": "PHCL",
+          "id": "2001"
+        },
+        {
+          "code": "PHCL 3100",
+          "subject": "PHCL",
+          "id": "3100"
+        },
+        {
+          "code": "GCD 4151",
+          "subject": "GCD",
+          "id": "4151"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "810861",
+    "code": "PHCL4100",
+    "subject": "PHCL",
+    "number": "4100",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Molecular Pharmacology Lab",
+    "fullname": "Laboratory in Molecular Pharmacology",
+    "info": "Hands-on experimentation using molecular techniques for data collection/analysis.prereq: [2001 or 4001], 3100, [BioC 3021 or BioC 4331], [BioC 4025, BioC 4125 recommended]",
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            {
+              "code": "PHCL 2001",
+              "subject": "PHCL",
+              "id": "2001"
+            },
+            {
+              "code": "PHCL 4001",
+              "subject": "PHCL",
+              "id": "4001"
+            }
+          ]
+        },
+        {
+          "code": "PHCL 3100",
+          "subject": "PHCL",
+          "id": "3100"
+        },
+        {
+          "or": [
+            {
+              "code": "BIOC 3021",
+              "subject": "BIOC",
+              "id": "3021"
+            },
+            {
+              "code": "BIOC 4331",
+              "subject": "BIOC",
+              "id": "4331"
+            }
+          ]
+        },
+        {
+          "and": [
+            {
+              "code": "BIOC 4025",
+              "subject": "BIOC",
+              "id": "4025"
+            },
+            {
+              "code": "BIOC 4125",
+              "subject": "BIOC",
+              "id": "4125"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "uid": "810889",
+    "code": "PHCL4343",
+    "subject": "PHCL",
+    "number": "4343",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Pharmacology of the Synapse",
+    "fullname": "Pharmacology of the Synapse",
+    "info": "Study synapse as pharmacological gateway to nervous system. Explore physiology of/cellular signalling at synapse, how signalling influences conditions such as Parkinson's disease, depression, anxiety, pain, addiction. How various drugs modify signalling at synapse.recommend: [PHCL 2001, PHCL 3100]",
+    "prereq": []
+  },
+  {
+    "uid": "807360",
+    "code": "PHCL4993",
+    "subject": "PHCL",
+    "number": "4993",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Directed Studies",
+    "fullname": "Directed Studies",
+    "info": "Individual study (\"dry lab\" experience) on selected topics in pharmacology/biomedical science with faculty from the Pharmacology Department or other biomedicine disciplines.  Readings and use of scientific literature.prereq: instr consent, dept consent",
+    "prereq": []
+  },
+  {
+    "uid": "807361",
+    "code": "PHCL4994",
+    "subject": "PHCL",
+    "number": "4994",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Directed Research",
+    "fullname": "Directed Research",
+    "info": "Laboratory research (\"wet lab\" experience) in the areas of pharmacological/biomedical research.prereq: instr consent, dept consent",
+    "prereq": []
+  },
+  {
+    "uid": "016704",
+    "code": "PHCL5100",
+    "subject": "PHCL",
+    "number": "5100",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Pharmacology: Drugs & Disease",
+    "fullname": "Pharmacology: Drugs and Disease",
+    "info": "Basic pharmacological principles, mechanisms of drug actions, major drug classes in medicine.",
+    "prereq": []
+  },
+  {
+    "uid": "016705",
+    "code": "PHCL5101",
+    "subject": "PHCL",
+    "number": "5101",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Pharmacology for Pharmacy Stu.",
+    "fullname": "Pharmacology for Pharmacy Students I",
+    "info": "Action/fate of drugs. Lectures, lab.",
+    "prereq": []
+  },
+  {
+    "uid": "016706",
+    "code": "PHCL5102",
+    "subject": "PHCL",
+    "number": "5102",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Pharmacology for Pharmacy Stu.",
+    "fullname": "Pharmacology for Pharmacy Students II",
+    "info": "Action/fate of drugs.prereq: 5101 or instr consent",
+    "prereq": {
+      "code": "PHCL 5101",
+      "subject": "PHCL",
+      "id": "5101"
+    }
+  },
+  {
+    "uid": "016707",
+    "code": "PHCL5103",
+    "subject": "PHCL",
+    "number": "5103",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Pharmacology for Dental Stu.",
+    "fullname": "Pharmacology for Dental Students",
+    "info": "Pharmacological principles/actions of drugs.",
+    "prereq": []
+  },
+  {
+    "uid": "820397",
+    "code": "PHCL5108",
+    "subject": "PHCL",
+    "number": "5108",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Intro to Lab Research",
+    "fullname": "Introduction to Laboratory Research",
+    "info": "In this course, students will gain practical experience working in a biomedical research laboratory. Students will develop and refine skills  required for productive and safe lab work. Topics covered in this class include lab safety, proper equipment usage, making solutions and related calculations, and fundamental concepts and techniques in molecular biology and signal transduction. Key course concepts and content will be reinforced by conducting experiments in the lab under the supervision of an experienced instructor.",
+    "prereq": []
+  },
+  {
+    "uid": "014728",
+    "code": "PHCL5109",
+    "subject": "PHCL",
+    "number": "5109",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Intro to Sci Communication",
+    "fullname": "Introduction to Scientific Communication",
+    "info": "This course is an interactive classroom experience focused on developing student communication skills. The primary emphasis is on student presentations of their research projects. In addition to making verbal presentations, students are expected to provide constructive criticism and feedback to their peers. Students also work on scientific writing skills by preparing a one-page NIH-style Specific Aims page outlining their research project.\n\nPrerequisites: student in the Graduate Program in Pharmacology (MS program) or approval from the Director of Graduate Studies\n\nKeywords: Pharmacology, Directed, Independent Study, Biomedical, Basic Science, Research, Drug",
+    "prereq": []
+  },
+  {
+    "uid": "788959",
+    "code": "PHCL5110",
+    "subject": "PHCL",
+    "number": "5110",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Introduction to Pharmacology",
+    "fullname": "Introduction to Pharmacology",
+    "info": "This is a course for first-year students in the Graduate Program in Pharmacology. The course introduces students to the basic principles of pharmacology and focuses on molecular mechanisms of drug action. Topics covered include pharmacokinetics, pharmacodynamics, signal transduction, toxicology pharmacogenomics, and drug discovery. Prerequisites: student in the Graduate Program in Pharmacology or approval from the Course Director(s) Keywords: Introduction, Pharmacology, Molecular, Drug, Pharmacokinetics, Pharmacodynamics, Protein, Pharmacokinetics",
+    "prereq": []
+  },
+  {
+    "uid": "789693",
+    "code": "PHCL5111",
+    "subject": "PHCL",
+    "number": "5111",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Pharmacogenomics",
+    "fullname": "Pharmacogenomics",
+    "info": "Human genetic variation, its implications. Functional genomics, pharmacogenomics, toxicogenomics, proteomics. Interactive, discussion-based course.prereq: Grad student or instr consentKeywords: Pharmacology, Pharmacogenomics, Toxicogenomics, Proteomics, Genetics, Drug",
+    "prereq": []
+  },
+  {
+    "uid": "799823",
+    "code": "PHCL5112",
+    "subject": "PHCL",
+    "number": "5112",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Foundations of Biomed Research",
+    "fullname": "Foundations of Biomedical Research",
+    "info": "This is a course for first-year students in the Graduate Program of Pharmacology. This course will introduce graduate students to the basic operating principles and techniques of a scientific research laboratory, general concepts surrounding experimental design and experimental controls, and familiarity with common laboratory calculations. Discussion of scientific techniques will include recombinant DNA and molecular biology techniques, protein expression and purification, protein assays, biochemical data analysis and fitting methods, transcriptomics and proteomics studies, and cell culture & mouse models of disease. Methods are presented in the context of highlighting general principles in experimental design.\n\nPrerequisites: student in the Graduate Program in Pharmacology\n\nKeywords: Basic Science, Pharmacology, Personnel, Writing, Presentation, Protein, DNA, Molecule, Microscope, Bioinformatics, Drug",
+    "prereq": []
+  },
+  {
+    "uid": "790559",
+    "code": "PHCL5210",
+    "subject": "PHCL",
+    "number": "5210",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Pharmacology",
+    "fullname": "Pharmacology",
+    "info": "Principles of pharmacology. Meets with INMD 6818.",
+    "prereq": []
+  },
+  {
+    "uid": "790560",
+    "code": "PHCL5211",
+    "subject": "PHCL",
+    "number": "5211",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Pharmacology",
+    "fullname": "Pharmacology",
+    "info": "Meets with 6808/6809. Major classes of drugs.",
+    "prereq": []
+  },
+  {
+    "uid": "790561",
+    "code": "PHCL5212",
+    "subject": "PHCL",
+    "number": "5212",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Pharmacology",
+    "fullname": "Pharmacology",
+    "info": "Meets with INMD 6810/6811.",
+    "prereq": []
+  },
+  {
+    "uid": "009713",
+    "code": "PHCL5462",
+    "subject": "PHCL",
+    "number": "5462",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Neurosci Drug Abuse",
+    "fullname": "Neuroscience Principles of Drug Abuse",
+    "info": "Current research on drugs of abuse, their mechanisms of action, characteristics shared by various agents, and neural systems affected by them. Offered biennially, spring semester of even-numbered years.prereq: instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "826926",
+    "code": "PHCL5993",
+    "subject": "PHCL",
+    "number": "5993",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Directed Studies",
+    "fullname": "Directed Studies",
+    "info": "Individual study (\"dry lab\" experience) on selected topics in pharmacology/biomedical science with faculty from the Pharmacology Department or other biomedicine disciplines.  Readings and use of scientific literature.prereq: instr consent, dept consentmax crs 6; 2 completions allowed",
+    "prereq": []
+  },
+  {
+    "uid": "826925",
+    "code": "PHCL5994",
+    "subject": "PHCL",
+    "number": "5994",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Directed Research",
+    "fullname": "Directed Research",
+    "info": "Laboratory research (\"wet lab\" experience) in the areas of pharmacological/biomedical research.prereq: instr consent, dept consentmax crs 12; 4 completions allowed",
+    "prereq": []
+  },
+  {
+    "uid": "010431",
+    "code": "PHCL6110",
+    "subject": "PHCL",
+    "number": "6110",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Pharmacology",
+    "fullname": "Pharmacology",
+    "info": "Meets with Phcl 5210. Lectures on general principles of pharmacology.",
+    "prereq": []
+  },
+  {
+    "uid": "010472",
+    "code": "PHCL6111",
+    "subject": "PHCL",
+    "number": "6111",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Pharmacology",
+    "fullname": "Pharmacology",
+    "info": "Continuation of 6110. Meets with Phcl 5211. Lectures on the major classes of drugs.",
+    "prereq": []
+  },
+  {
+    "uid": "010503",
+    "code": "PHCL6112",
+    "subject": "PHCL",
+    "number": "6112",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Pharmacology",
+    "fullname": "Pharmacology",
+    "info": "Continuation of 6111. Meets with 5212",
+    "prereq": []
+  },
+  {
+    "uid": "807692",
+    "code": "PHCL8014",
+    "subject": "PHCL",
+    "number": "8014",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Small RNA Biology",
+    "fullname": "Small RNA Biology",
+    "info": "Small RNAs as major regulators of gene/protein expression. MicroRNAs and their potential use in diagnosis/prognosis of various disease conditions, including cancers. Biology of small RNAs and their role in health and disease.prereq: BIOC 8002 or MICA 8004 or equiv or instr consent",
+    "prereq": {
+      "or": [
+        {
+          "code": "BIOC 8002",
+          "subject": "BIOC",
+          "id": "8002"
+        },
+        {
+          "code": "MICA 8004",
+          "subject": "MICA",
+          "id": "8004"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "801156",
+    "code": "PHCL8026",
+    "subject": "PHCL",
+    "number": "8026",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Neuro-Immune Interactions",
+    "fullname": "Neuro-Immune Interactions",
+    "info": "Regulatory systems (neuroendocrine, cytokine, autonomic nervous systems) linking brain/immune systems in brain-immune axis. Functional effects of bidirectional brain-immune regulation.prereq: MICA 8001 or equiv or instr consent",
+    "prereq": {
+      "code": "MICA 8001",
+      "subject": "MICA",
+      "id": "8001"
+    }
+  },
+  {
+    "uid": "808979",
+    "code": "PHCL8100",
+    "subject": "PHCL",
+    "number": "8100",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Lab Research in Pharmacology",
+    "fullname": "Laboratory Research in Pharmacology",
+    "info": "Supervised independent research in pharmacology. Modern biomedical/pharmacology research methodology, data generation/analysis. Formulation/testing of basic science hypotheses.prereq: Grad student or instr consentKeywords: Pharmacology, Lab, Research, Data, Analysis, Benchwork, Hypothesis, Basic Science",
+    "prereq": []
+  },
+  {
+    "uid": "009145",
+    "code": "PHCL8110",
+    "subject": "PHCL",
+    "number": "8110",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Adv Pharmacology",
+    "fullname": "Advanced Pharmacology",
+    "info": "Contemporary research concepts, experimental approaches in investigative pharmacology. Mechanisms of action of drugs on systems (whole animal), organ, and cellular levels.",
+    "prereq": []
+  },
+  {
+    "uid": "009170",
+    "code": "PHCL8111",
+    "subject": "PHCL",
+    "number": "8111",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Adv Pharmacology II",
+    "fullname": "Advanced Pharmacology II",
+    "info": "Supplement to Phcl 6111 and 6112. Contemporary research concepts and experimental approaches in the different areas of investigative pharmacology. Mechanisms of action of drugs on cellular and molecular levels.",
+    "prereq": []
+  },
+  {
+    "uid": "009380",
+    "code": "PHCL8200",
+    "subject": "PHCL",
+    "number": "8200",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "SciComm I",
+    "fullname": "SciComm I: Critical Analysis & Publishing",
+    "info": "The mission of the course is to increase the students’ ability to critically evaluate and comprehend the scientific literature, properly present scientific literature/figures, and critique presentations related to the field of pharmacology. After the course is completed, the students will be able to understand and differentiate the six components of a scientific paper, quickly identify the hypothesis and objective of a scientific paper, recognize the key figure(s), with controls, that support the hypothesis, how to present scientific data, how to submit journal articles and navigate the submission and publication process, and critique presentations. Prerequisites: student in the Graduate Program in PharmacologyKeywords: Pharmacology, Seminar, Presentation, Lecture, Research, Basic Science",
+    "prereq": []
+  },
+  {
+    "uid": "009382",
+    "code": "PHCL8207",
+    "subject": "PHCL",
+    "number": "8207",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Sem Psychopharm",
+    "fullname": "Seminar: Psychopharmacology",
+    "info": "For graduate students and postdoctorals interested in studies and research associated with psychotropic drugs and chemicals. Neurochemistry, pharmacology, and behavior as antecedent or consequential variables. Some seminars devoted to biomedical ethics.prereq: instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "793181",
+    "code": "PHCL8208",
+    "subject": "PHCL",
+    "number": "8208",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Neuropsychopharmacology",
+    "fullname": "Neuropsychopharmacology",
+    "info": "Relationships between drugs/biochemical, behavioral, neurophysiological consequences. Functional biogenic amine, peptidergic. How manipulations alter neuronal function or behavior. Feedback mechanisms, induction, inhibition. Reinforcement of, tolerance to, or dependence on drugs.prereq: [5212, Psy 5021, Psy 5061] or instr consent",
+    "prereq": {
+      "and": [
+        {
+          "code": "PHCL 5212",
+          "subject": "PHCL",
+          "id": "5212"
+        },
+        {
+          "code": "PSY 5021",
+          "subject": "PSY",
+          "id": "5021"
+        },
+        {
+          "code": "PSY 5061",
+          "subject": "PSY",
+          "id": "5061"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "803099",
+    "code": "PHCL8209",
+    "subject": "PHCL",
+    "number": "8209",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Substance Abuse at the Bedside",
+    "fullname": "Substance Abuse at the Bedside",
+    "info": "Clinical management of addictive diseases. Students discuss how observed clinical interactions can influence a basic science project in which they are involved.prereq: Grad student in any basic-science program",
+    "prereq": []
+  },
+  {
+    "uid": "809531",
+    "code": "PHCL8211",
+    "subject": "PHCL",
+    "number": "8211",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Advanced Pharmacology",
+    "fullname": "Advanced Pharmacology",
+    "info": "This hybrid course offers a combination of online and in-class lectures coupled with interactive literature discussion/flipped classroom components. The course has three sections focusing on 1) pharmacology of the autonomic, cardiovascular, and respiratory systems, 2) anti-cancer and anti-microbial therapeutics and 3) pharmacology of the nervous system. Course Instructors will highlight key features of currently utilized therapeutic agents and underscore recent advances in basic and clinical research that underpin emerging or potential approaches to pharmacotherapy. student in the Graduate Program in Pharmacology, or Course Director consentKeywords: Pharmacology, Drug, Therapy, Medical, Biomedical, Clinic",
+    "prereq": []
+  },
+  {
+    "uid": "809532",
+    "code": "PHCL8212",
+    "subject": "PHCL",
+    "number": "8212",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Advanced Med Pharmacology II",
+    "fullname": "Advanced Medical Pharmacology II",
+    "info": "Online content focused on organ system-based study of medical therapeutics. In-class content focused on current biomedical literature. Develop critical reasoning skills needed to interpret/critique basic science, translational, clinical research papers/presentations.prereq: 8211 or instructor consentKeywords: Pharmacology, Drug, Therapy, Medical, Biomedical, Clinic",
+    "prereq": {
+      "code": "PHCL 8211",
+      "subject": "PHCL",
+      "id": "8211"
+    }
+  },
+  {
+    "uid": "802253",
+    "code": "PHCL8216",
+    "subject": "PHCL",
+    "number": "8216",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Signal Transduction & Gene Exp",
+    "fullname": "Signal Transduction and Gene Expression",
+    "info": "Mechanisms of intracellular signal transduction. Transcriptional regulation> Cellular/molecular techniques to study cell signaling. Well-characterized signaling pathways, Experimental approaches. Current issues/problems. ",
+    "prereq": []
+  },
+  {
+    "uid": "009524",
+    "code": "PHCL8217",
+    "subject": "PHCL",
+    "number": "8217",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Prob in Invest Phcl",
+    "fullname": "Problems in Investigative Pharmacology",
+    "info": "Presentation and discussion of contemporary research problems, investigative approaches, and methodologies in experimental pharmacology.  Related to cardiovascular, renal, endocrine, and autonomic pharmacology; neuropharmacology; psychopharmacology; chemotherapy; toxicology; and molecular pharmacology.",
+    "prereq": []
+  },
+  {
+    "uid": "820398",
+    "code": "PHCL8220",
+    "subject": "PHCL",
+    "number": "8220",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "The Ethical Scientist",
+    "fullname": "The Ethical Scientist",
+    "info": "This course focuses on scientific integrity in research and medicine. Topics to be discussed include best practices for experimental design, data collection, and analysis, regulatory requirements for human and animal studies, collaboration and authorship practices, and other social and ethicalissues.Prerequisite: student in the Graduate Program in Pharmacology (GPP), or Course Director consent",
+    "prereq": []
+  },
+  {
+    "uid": "807142",
+    "code": "PHCL8221",
+    "subject": "PHCL",
+    "number": "8221",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "SciComm II",
+    "fullname": "SciComm II: Writing & Research Presentation",
+    "info": "In collaboration with their mentors, students will develop thesis projects and scientific communication skills. Specifically, students will learn the principles of oral presentation, hone speaking style and slide content, and prepare for the departmental second-year talk. They will prepare sections of an NIH-style fellowship proposal in time for those eligible to submit an F31 NRSA application for the December deadline. This proposal will also comprise the written component of the preliminary exam. Students will also learn the elements of the closed-door component of the preliminary exam and how best to prepare. Throughout the class, students will provide feedback to their peers, develop critical thinking skills, and practice self-advocacy with their mentors, colleagues, and classmates in soliciting constructive criticism.\n\nPrerequisites: student in the Graduate Program in Pharmacology (PhD program)\n\nKeywords: Pharmacology, Basic Science, Writing, Presentation, Practice, Thesis, Dissertation",
+    "prereq": []
+  },
+  {
+    "uid": "798165",
+    "code": "PHCL8222",
+    "subject": "PHCL",
+    "number": "8222",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Transdisciplinary Tobacco Res.",
+    "fullname": "Transdisciplinary Tobacco Research",
+    "info": "Transdisciplinary science, its application to nicotine/tobacco research. Transdisciplinary theories/methods, examples of their application/integration.  Draws on TTURC/local investigators, public health advocates. Offered every other year.prereq: instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "802254",
+    "code": "PHCL8320",
+    "subject": "PHCL",
+    "number": "8320",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Readings in Neurobiology",
+    "fullname": "Readings in Neurobiology",
+    "info": "Topics in neurobiology/neurophysiology.prereq: instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "788257",
+    "code": "PHCL8333",
+    "subject": "PHCL",
+    "number": "8333",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "FTE: Master's",
+    "fullname": "FTE: Master's",
+    "info": "(No description)prereq: Master's student, adviser and DGS consent",
+    "prereq": []
+  },
+  {
+    "uid": "788387",
+    "code": "PHCL8444",
+    "subject": "PHCL",
+    "number": "8444",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "FTE: Doctoral",
+    "fullname": "FTE: Doctoral",
+    "info": "(No description)prereq: Doctoral student, adviser and DGS consent",
+    "prereq": []
+  },
+  {
+    "uid": "826941",
+    "code": "PHCL8555",
+    "subject": "PHCL",
+    "number": "8555",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Master's Project",
+    "fullname": "Master's Project",
+    "info": "This course is intended to provide credit for the Plan B master's project that students on that track complete in the final semester of study. Only students who are enrolled in the MPaT master's Plan B track should register for this course. Learning objectives are tailored by the student's mentor and mentorship/examination committee. Benchmarks are assessed based on progress towards the project's completion, and the final grade is tied to the recommendation by the examination committee of the suitability of the project towards earning the terminal degree. ",
+    "prereq": []
+  },
+  {
+    "uid": "788509",
+    "code": "PHCL8666",
+    "subject": "PHCL",
+    "number": "8666",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Doct Pre-Thesis Cr",
+    "fullname": "Doctoral Pre-Thesis Credits",
+    "info": "TBDprereq: Doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
+    "prereq": []
+  },
+  {
+    "uid": "788638",
+    "code": "PHCL8777",
+    "subject": "PHCL",
+    "number": "8777",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Thesis Credit:Mast*",
+    "fullname": "Thesis Credits: Master's",
+    "info": "(No description)prereq: Max 18 cr per semester or summer; 10 cr total required [Plan A only]",
+    "prereq": []
+  },
+  {
+    "uid": "787911",
+    "code": "PHCL8888",
+    "subject": "PHCL",
+    "number": "8888",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Thesis Credit:Doct*",
+    "fullname": "Thesis Credit: Doctoral",
+    "info": "(No description)prereq: Max 18 cr per semester or summer; 24 cr required",
+    "prereq": []
+  }
+]

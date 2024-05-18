@@ -1,0 +1,50 @@
+[
+  {
+    "uid": "813998",
+    "code": "PSE6011",
+    "subject": "PSE",
+    "number": "6011",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Electric Machines and Drives",
+    "fullname": "Electric Machines and Drives",
+    "info": "Students learn various aspects of electric machines and drives under a steady state operation. Course provides overview of the components and control and a basic fundamental understanding for further learning.This course describes the principles behind how electric machines operate, in a way that they can be controlled in adjustable speed and position applications. In order to do so, power-electronics based converters are described in their functionality as well as the feedback control of speed and position in a system.prereq: Circuit analysis â¿¿ dc and sinusoidal ac in steady state using phasors; basic idea of diode, transistor and thyristor operation; Fourier analysis; Laplace Transform: Bode Plots, gain and phase margin; Electromagnetic-field concepts, magnetic-circuit concepts",
+    "prereq": []
+  },
+  {
+    "uid": "813999",
+    "code": "PSE6021",
+    "subject": "PSE",
+    "number": "6021",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Power Systems",
+    "fullname": "Power Systems",
+    "info": "Students will learn various aspects of electric power systems and receive an overview of the various components and control and a basic fundamental understanding for further learning. Course begins with examining various means of generating electricity and then transmitting it over power lines and cables; calculating power flow in an interconnected grid; various components such as transformers, synchronous generators, etc. that make up power systems. The middle-part of the course describes the requirements for voltage stability and keeping the generators operating synchronously under transient fault conditions. The last part of the courses deals with the protection of power systems against transmission line faults using protective relaying, and under transient over-voltages by means of insulation coordination using surge arrestors.prereq: Circuit analysis â¿¿ dc and sinusoidal ac in steady state using phasors; basic idea of diode, transistor and thyristor operation; Fourier analysis; Laplace Transform; Electromagnetic field concepts, magnetic-circuit concepts",
+    "prereq": []
+  },
+  {
+    "uid": "814003",
+    "code": "PSE6031",
+    "subject": "PSE",
+    "number": "6031",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Power Electronics",
+    "fullname": "Power Electronics",
+    "info": "Course on power electronics, an enabling technology, with a focus on its various applications, basic converter structures and how these converters are used and controlled in these applications. By exploiting the commonality of various converters, students get a much deeper and broader understanding. The concentration of this course will be on switch-mode power electronics where the transistors such as MOSFETs and IGBTs are used as semiconductor switches - either ON or OFF. The terminal characteristics of these devices will be discussed for designing converters in which they are used in order to calculate conduction and switching losses for thermal management and design trade-offs; however, in analyzing the voltage transfer ratios in various converter topologies and in their feedback control, these semiconductor devices and the associated passive components will be considered ideal. The last part of the course will discuss thyristor-based converters used at very high power levels in electric-utility applications.prereq: Circuit analysis â¿¿ dc and sinusoidal ac in steady state using phasors; basic idea of diode, transistor and thyristor operation; Fourier analysis; Laplace Transform: Bode Plots, gain and phase margin; Electromagnetic field concepts, magnetic-circuit concepts",
+    "prereq": []
+  },
+  {
+    "uid": "814084",
+    "code": "PSE6041",
+    "subject": "PSE",
+    "number": "6041",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Power Gen Operation & Control",
+    "fullname": "Power Generation Operation and Control",
+    "info": "Power system operations and economics is a topic important to understanding how decisions are made in hour by hour control of a power system and in planning of new power system facilities. The cost of power starts with acquiring fuel and in buying and selling power with neighboring electric companies and in markets. The course builds on the characteristics of large generating facilities to include how they are operated to minimize cost while meeting the requirement to supply load and keep equipment operating within safe margins. This necessarily brings into focus the transmission system which connects generators to loads and several sections of the course are devoted to transmission system operation and analysis. Students will be introduced to new optimization methods and new analysis methods used in the power industry.  prereq: Advanced calculus, linear albegra, Laplace transforms, circuit analysis - dc and sinusoidal ac in steady state using phasors; basic power systems analysis including three phase per unit systems, real and reactive power calculations, power flow calculations, basic probability and statistics, basic time series analysis of signals.",
+    "prereq": []
+  }
+]

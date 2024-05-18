@@ -1,0 +1,291 @@
+[
+  {
+    "uid": "817532",
+    "code": "MPHY5040",
+    "subject": "MPHY",
+    "number": "5040",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Intro Medical Physics",
+    "fullname": "Introduction to Medical Physics",
+    "info": "Interactions and energy deposition by ionizing radiation in matter; medical imaging; radiation therapy physics and related radiation safety topics.",
+    "prereq": []
+  },
+  {
+    "uid": "009138",
+    "code": "MPHY5138",
+    "subject": "MPHY",
+    "number": "5138",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Medical Physics Seminar I",
+    "fullname": "Medical Physics Seminar I",
+    "info": "This seminar introduces new medical physics graduate students to the program, graduation requirements, and research conducted by medical physics faculty.",
+    "prereq": []
+  },
+  {
+    "uid": "009142",
+    "code": "MPHY5139",
+    "subject": "MPHY",
+    "number": "5139",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Medical Physics Seminar II",
+    "fullname": "Medical Physics Seminar II",
+    "info": "This seminar introduces new medical physics graduate students to the program, graduation requirements, practice of medical physics, and research conducted by medical physics faculty and students.",
+    "prereq": []
+  },
+  {
+    "uid": "817533",
+    "code": "MPHY5160",
+    "subject": "MPHY",
+    "number": "5160",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Radiation Physics & Dosimetry",
+    "fullname": "Advanced Radiation Physics and Dosimetry",
+    "info": "Interactions and energy deposition by ionizing radiation in matter; concepts, quantities and units in radiological physics; principles and methods of radiation dosimetry. ",
+    "prereq": []
+  },
+  {
+    "uid": "009133",
+    "code": "MPHY5170",
+    "subject": "MPHY",
+    "number": "5170",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Radiation Therapy Physics I",
+    "fullname": "Radiation Therapy Physics I",
+    "info": "Theoretical/experimental aspects of radiological physics. Physicalproperties of various ionizing radiations, interactions of ionizingradiations with matter, methods of radiation dose measurement.prereq: instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "009134",
+    "code": "MPHY5171",
+    "subject": "MPHY",
+    "number": "5171",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Med/Health Physics of Imag I",
+    "fullname": "Medical and Health Physics of Imaging I",
+    "info": "Physics of diagnostic imaging: specification/quantification of image quality, X-ray production, image receptors, magnetic resonance imaging, radiation exposure and protection. Special imaging techniques, including mammography, computed tomography, and direct digital image capture.prereq: 5170 or instr consent",
+    "prereq": {
+      "code": "MPHY 5170",
+      "subject": "MPHY",
+      "id": "5170"
+    }
+  },
+  {
+    "uid": "009140",
+    "code": "MPHY5172",
+    "subject": "MPHY",
+    "number": "5172",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Radiation Biology",
+    "fullname": "Radiation Biology",
+    "info": "Effects of ionizing radiation on cells, tissues, and organisms. Biochemical/physiological bases of radiation effects. Biological rationale for radiation therapy practices.\n\nprereq: 5170 or instr consent",
+    "prereq": {
+      "code": "MPHY 5170",
+      "subject": "MPHY",
+      "id": "5170"
+    }
+  },
+  {
+    "uid": "009141",
+    "code": "MPHY5173",
+    "subject": "MPHY",
+    "number": "5173",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Radiation Therapy Physics II",
+    "fullname": "Radiation Therapy Physics II",
+    "info": "Measurements of radiation quality, output, and depth dose distributions for clinical use. Treatment parameter calculation. Beam modification and shaping. Treatment planning for fixed field and rotational therapy inexternal beam, intracavitary, and interstitial therapy. Computer applications in treatment planning. Principles/criteria for radiation protection.prereq: 5170 or instr consent",
+    "prereq": {
+      "code": "MPHY 5170",
+      "subject": "MPHY",
+      "id": "5170"
+    }
+  },
+  {
+    "uid": "009136",
+    "code": "MPHY5174",
+    "subject": "MPHY",
+    "number": "5174",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Med/Health Physics of Imag II",
+    "fullname": "Medical and Health Physics of Imaging II",
+    "info": "Physics of diagnostic imaging. Ultrasound, theoretical/experimental applications of radionuclides in medicine and biology. Counting statistics and imaging systems associated with radiopharmaceuticals, radiation dosimetry, and safety in nuclear medicine.prereq: 5170 or instr consent",
+    "prereq": {
+      "code": "MPHY 5170",
+      "subject": "MPHY",
+      "id": "5170"
+    }
+  },
+  {
+    "uid": "802701",
+    "code": "MPHY5177",
+    "subject": "MPHY",
+    "number": "5177",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Radiation Therapy Physics Lab",
+    "fullname": "Radiation Therapy Physics Lab",
+    "info": "This course provides students hands-on experience with hardware/software used in radiation therapy clinic for physics measurements.",
+    "prereq": []
+  },
+  {
+    "uid": "817528",
+    "code": "MPHY5178",
+    "subject": "MPHY",
+    "number": "5178",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Physical Principles of MRI",
+    "fullname": "Physical Principles of Magnetic Resonance Imaging",
+    "info": "Magnetic resonance imaging physics, spatial selection and encoding, imaging hardware, and system engineering. Imaging sequences, signal-to-noise, and contrast. ",
+    "prereq": []
+  },
+  {
+    "uid": "009143",
+    "code": "MPHY8147",
+    "subject": "MPHY",
+    "number": "8147",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Advanced Physics of MRI",
+    "fullname": "Advanced Physics of Magnetic Resonance Imaging (MRI)",
+    "info": "NMR (nuclear magnetic resonance) and MRI physics, spatial selection and encoding, imaging hardware and system engineering. Imaging sequences, associated contrast/resolution. Recent developments in MRI.prereq: 5174 or instr consent",
+    "prereq": {
+      "code": "MPHY 5174",
+      "subject": "MPHY",
+      "id": "5174"
+    }
+  },
+  {
+    "uid": "009139",
+    "code": "MPHY8148",
+    "subject": "MPHY",
+    "number": "8148",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Med Img Sci",
+    "fullname": "Advanced Digital Imaging Science",
+    "info": "Role of digital image science in medical imaging. Measurement of image quality, digital radiography. Image reconstruction for CT, SPECT, PET, and MRI. 3D image processing, image registration/visualization. Picture archiving, communications systems.prereq: 5171 or instr consent",
+    "prereq": {
+      "code": "MPHY 5171",
+      "subject": "MPHY",
+      "id": "5171"
+    }
+  },
+  {
+    "uid": "803097",
+    "code": "MPHY8149",
+    "subject": "MPHY",
+    "number": "8149",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Adv Topics in Rad Therapy Phys",
+    "fullname": "Advanced Topics in Radiation Therapy Physics",
+    "info": "Special procedures. Total body irradiation, intensity-modulated radiation therapy, stereotactic radiosurgery/radiotherapy, image-guided radiation therapy. Treatment planning algorithms/techniques. Brachytherapy.prereq: [5170, 5173] or instr consent",
+    "prereq": {
+      "and": [
+        {
+          "code": "MPHY 5170",
+          "subject": "MPHY",
+          "id": "5170"
+        },
+        {
+          "code": "MPHY 5173",
+          "subject": "MPHY",
+          "id": "5173"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "009164",
+    "code": "MPHY8293",
+    "subject": "MPHY",
+    "number": "8293",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Directed Study",
+    "fullname": "Directed Study in Medical Physics",
+    "info": "Individualized study under faculty direction.prereq: instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "009165",
+    "code": "MPHY8294",
+    "subject": "MPHY",
+    "number": "8294",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Directed Research",
+    "fullname": "Directed Research in Medical Physics",
+    "info": "Individualized research under faculty direction.prereq: instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "788084",
+    "code": "MPHY8333",
+    "subject": "MPHY",
+    "number": "8333",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "FTE: Master's",
+    "fullname": "FTE: Master's",
+    "info": "(No description)prereq: Master's student, adviser and DGS consent",
+    "prereq": []
+  },
+  {
+    "uid": "788322",
+    "code": "MPHY8444",
+    "subject": "MPHY",
+    "number": "8444",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "FTE: Doctoral",
+    "fullname": "FTE: Doctoral",
+    "info": "(No description)prereq: Doctoral student, adviser and DGS consent",
+    "prereq": []
+  },
+  {
+    "uid": "788447",
+    "code": "MPHY8666",
+    "subject": "MPHY",
+    "number": "8666",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Doct Pre-Thesis Cr*",
+    "fullname": "Doctoral Pre-Thesis Credits",
+    "info": "tbdprereq: Doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
+    "prereq": []
+  },
+  {
+    "uid": "788575",
+    "code": "MPHY8777",
+    "subject": "MPHY",
+    "number": "8777",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Thesis Credit:Mast*",
+    "fullname": "Thesis Credits: Master's",
+    "info": "(No description)prereq: Max 18 cr per semester or summer; 10 cr total required [Plan A only]",
+    "prereq": []
+  },
+  {
+    "uid": "787834",
+    "code": "MPHY8888",
+    "subject": "MPHY",
+    "number": "8888",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Thesis Credit:Doct*",
+    "fullname": "Thesis Credit: Doctoral",
+    "info": "(No description)prereq: Max 18 cr per semester or summer; 24 cr required",
+    "prereq": []
+  }
+]

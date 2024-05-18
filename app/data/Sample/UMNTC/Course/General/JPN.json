@@ -1,0 +1,699 @@
+[
+  {
+    "uid": "011084",
+    "code": "JPN1011",
+    "subject": "JPN",
+    "number": "1011",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Beginning Japanese I",
+    "fullname": "Beginning Japanese I",
+    "info": "Introduction to speaking, reading, writing Japanese.",
+    "prereq": []
+  },
+  {
+    "uid": "011230",
+    "code": "JPN1012",
+    "subject": "JPN",
+    "number": "1012",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Beginning Japanese II",
+    "fullname": "Beginning Japanese II",
+    "info": "Introduction to speaking, reading, writing Japanese.prereq: 1011",
+    "prereq": {
+      "code": "JPN 1011",
+      "subject": "JPN",
+      "id": "1011"
+    }
+  },
+  {
+    "uid": "016655",
+    "code": "JPN3001",
+    "subject": "JPN",
+    "number": "3001",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Jpn Calligraphy I",
+    "fullname": "Japanese Calligraphy I",
+    "info": "Basic tools (e.g., brush, sumi ink stick, rice paper). Practice in basic brush strokes. Different characters or hiragana in expressions that are appropriate for season or that have cultural significance. Taught entirely in Japanese.",
+    "prereq": []
+  },
+  {
+    "uid": "016909",
+    "code": "JPN3002",
+    "subject": "JPN",
+    "number": "3002",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "JPN Calligraphy II",
+    "fullname": "Japanese Calligraphy II",
+    "info": "Tools used in Japanese calligraphy (e.g., brush, sumi ink stick, rice paper). Basic brush strokes. Talk about/appreciation of calligraphy. Different characters or hiragana in expressions that are appropriate for season or that have cultural significance. One-to-one feedback on practice calligraphy. Taught entirely in Japanese.",
+    "prereq": []
+  },
+  {
+    "uid": "011087",
+    "code": "JPN3021",
+    "subject": "JPN",
+    "number": "3021",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Intermed Japanese I",
+    "fullname": "Intermediate Japanese I",
+    "info": "Intermediate speaking, reading, writing in Japanese.prereq: 1012 or instr consent",
+    "prereq": {
+      "code": "JPN 1012",
+      "subject": "JPN",
+      "id": "1012"
+    }
+  },
+  {
+    "uid": "011233",
+    "code": "JPN3022",
+    "subject": "JPN",
+    "number": "3022",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Intermediate Japanese II",
+    "fullname": "Intermediate Japanese II",
+    "info": "Intermediate speaking, reading, writing in Japanese.prereq: 3021 or instr consent",
+    "prereq": {
+      "code": "JPN 3021",
+      "subject": "JPN",
+      "id": "3021"
+    }
+  },
+  {
+    "uid": "011089",
+    "code": "JPN3031",
+    "subject": "JPN",
+    "number": "3031",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Third Year Japanese I",
+    "fullname": "Third Year Japanese I",
+    "info": "Advanced intermediate-level instruction in speaking, reading, writing Japanese. Development of reading proficiency in modern Japanese prose.prereq: 3022 or instr consent",
+    "prereq": {
+      "code": "JPN 3022",
+      "subject": "JPN",
+      "id": "3022"
+    }
+  },
+  {
+    "uid": "011234",
+    "code": "JPN3032",
+    "subject": "JPN",
+    "number": "3032",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Third Year Japanese II",
+    "fullname": "Third Year Japanese II",
+    "info": "Advanced intermediate-level instruction in speaking, reading, writing Japanese. Development of reading proficiency in modern Japanese prose.prereq: 3031 or instr consent",
+    "prereq": {
+      "code": "JPN 3031",
+      "subject": "JPN",
+      "id": "3031"
+    }
+  },
+  {
+    "uid": "016393",
+    "code": "JPN3167",
+    "subject": "JPN",
+    "number": "3167",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Re-examining Geisha",
+    "fullname": "Re-examining \"Geisha Girls\"",
+    "info": "Critically investigates conceptions/representations of Japanese women entertainers, commonly termed \"geisha.\" Literary texts, visual/performing arts, film. Premodern/modern Japanese examples, examples from the United States.",
+    "prereq": []
+  },
+  {
+    "uid": "798804",
+    "code": "JPN3290",
+    "subject": "JPN",
+    "number": "3290",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Japanese Teaching Tutorial",
+    "fullname": "Japanese Language Teaching Tutorial",
+    "info": "Students tutor beginning students of Japanese and are part of department's Japanese language team.prereq: Grade of A in 4042",
+    "prereq": {
+      "code": "JPN 4042",
+      "subject": "JPN",
+      "id": "4042"
+    }
+  },
+  {
+    "uid": "011096",
+    "code": "JPN3451",
+    "subject": "JPN",
+    "number": "3451",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Intro to Jpn Ling",
+    "fullname": "Introduction to Japanese Linguistics",
+    "info": "Analysis of structure and meaning of Japanese sentence patterns.",
+    "prereq": []
+  },
+  {
+    "uid": "011097",
+    "code": "JPN3993",
+    "subject": "JPN",
+    "number": "3993",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Directed Studies",
+    "fullname": "Directed Studies",
+    "info": "Directed study in topics of Japanese literature or linguistics.",
+    "prereq": []
+  },
+  {
+    "uid": "793885",
+    "code": "JPN4001",
+    "subject": "JPN",
+    "number": "4001",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Beg Japanese I Grad Research",
+    "fullname": "Beginning Japanese I for Graduate Student Research",
+    "info": "Introduction to speaking, reading, writing Japanese. Meets with 1011.",
+    "prereq": []
+  },
+  {
+    "uid": "793886",
+    "code": "JPN4002",
+    "subject": "JPN",
+    "number": "4002",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Beg Japanese II Grad Research",
+    "fullname": "Beginning Japanese II for Graduate Student Research",
+    "info": "Introduction to speaking, reading, writing Japanese. Meets with 1012.prereq: 4001",
+    "prereq": {
+      "code": "JPN 4001",
+      "subject": "JPN",
+      "id": "4001"
+    }
+  },
+  {
+    "uid": "793887",
+    "code": "JPN4003",
+    "subject": "JPN",
+    "number": "4003",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Int Japanese I Grad Research",
+    "fullname": "Intermediate Japanese I for Graduate Student Research",
+    "info": "Intermediate speaking, reading, writing in Japanese. Meets with 3021.prereq: 4002",
+    "prereq": {
+      "code": "JPN 4002",
+      "subject": "JPN",
+      "id": "4002"
+    }
+  },
+  {
+    "uid": "793888",
+    "code": "JPN4004",
+    "subject": "JPN",
+    "number": "4004",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Int Japanese II Grad Research",
+    "fullname": "Intermediate Japanese II for Graduate Student Research",
+    "info": "Intermediate speaking, reading, writing in Japanese. Meets with 3022.prereq: 4003",
+    "prereq": {
+      "code": "JPN 4003",
+      "subject": "JPN",
+      "id": "4003"
+    }
+  },
+  {
+    "uid": "798746",
+    "code": "JPN4005",
+    "subject": "JPN",
+    "number": "4005",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Third Yr Japanese I Grad Rsrch",
+    "fullname": "Third Year Japanese I for Graduate Student Research",
+    "info": "Advanced intermediate-level instruction in speaking, reading, writing Japanese. Development of reading proficiency in modern Japanese prose. Meets with 3031.prereq: 4004",
+    "prereq": {
+      "code": "JPN 4004",
+      "subject": "JPN",
+      "id": "4004"
+    }
+  },
+  {
+    "uid": "798747",
+    "code": "JPN4006",
+    "subject": "JPN",
+    "number": "4006",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Third Yr Japanese II Grad Rsch",
+    "fullname": "Third Year Japanese II for Graduate Student Research",
+    "info": "Advanced intermediate-level instruction in speaking, reading, writing Japanese. Development of reading proficiency in modern Japanese prose.prereq: 4005",
+    "prereq": {
+      "code": "JPN 4005",
+      "subject": "JPN",
+      "id": "4005"
+    }
+  },
+  {
+    "uid": "011118",
+    "code": "JPN4041",
+    "subject": "JPN",
+    "number": "4041",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Advanced Japanese I",
+    "fullname": "Advanced Japanese Conversation and Composition I",
+    "info": "Practice in advanced spoken/written Japanese. Assignments include essays, summaries, formal interviews in Japanese.prereq: 3032 or instr consent",
+    "prereq": {
+      "code": "JPN 3032",
+      "subject": "JPN",
+      "id": "3032"
+    }
+  },
+  {
+    "uid": "011119",
+    "code": "JPN4042",
+    "subject": "JPN",
+    "number": "4042",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Advanced Japanese II",
+    "fullname": "Advanced Japanese Conversation and Composition II",
+    "info": "Practice in advanced spoken/written Japanese. Typical assignments include essays, summaries, formal interviews in Japanese.prereq: 4041 or instr consent",
+    "prereq": {
+      "code": "JPN 4041",
+      "subject": "JPN",
+      "id": "4041"
+    }
+  },
+  {
+    "uid": "011114",
+    "code": "JPN4061",
+    "subject": "JPN",
+    "number": "4061",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Classical Jpn",
+    "fullname": "Classical Japanese",
+    "info": "Study of the structures and arguments of classical Japanese poetry, narrative, and drama.",
+    "prereq": []
+  },
+  {
+    "uid": "011115",
+    "code": "JPN4062",
+    "subject": "JPN",
+    "number": "4062",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Classical Japanese",
+    "fullname": "Classical Japanese",
+    "info": "Analysis of the structures and arguments of classical Japanese poetry, narrative, and drama.",
+    "prereq": []
+  },
+  {
+    "uid": "791296",
+    "code": "JPN5040",
+    "subject": "JPN",
+    "number": "5040",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Readings in Japanese Texts",
+    "fullname": "Readings in Japanese Texts",
+    "info": "Students read authentic materials of various types to increase reading and speaking ability. Topics specified in Class Schedule.prereq: 4042 or equiv or instr consent",
+    "prereq": {
+      "code": "JPN 4042",
+      "subject": "JPN",
+      "id": "4042"
+    }
+  },
+  {
+    "uid": "817977",
+    "code": "JPN5041",
+    "subject": "JPN",
+    "number": "5041",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Reading Japanese Lit & Culture",
+    "fullname": "Reading Japanese Texts: Literature and Culture",
+    "info": "This course is conducted 100% in modern Japanese, including course materials, lectures, and discussions. Close reading of texts written in modern Japanese, including a recent novel, essays on social phenomena, critical essays on Japanese society, and/or academic papers. Read and translate these texts accurately and critically; discuss them in Japanese, and/or compose an essay entirely in modern Japanese. Pre-requisite: JPN 4042 or equivalent or instructor consent.",
+    "prereq": []
+  },
+  {
+    "uid": "011100",
+    "code": "JPN5071",
+    "subject": "JPN",
+    "number": "5071",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Jpn for Careers",
+    "fullname": "Communicative Competence for Japan-Oriented Careers",
+    "info": "Effective communication using spoken and written Japanese in contexts likely to be encountered by a career-oriented professional in Japan.prereq: 4041 or 4042 or instr consent",
+    "prereq": {
+      "or": [
+        {
+          "code": "JPN 4041",
+          "subject": "JPN",
+          "id": "4041"
+        },
+        {
+          "code": "JPN 4042",
+          "subject": "JPN",
+          "id": "4042"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "011101",
+    "code": "JPN5072",
+    "subject": "JPN",
+    "number": "5072",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Jpn for Careers",
+    "fullname": "Communicative Competence for Japan-Oriented Careers",
+    "info": "Effective communication using spoken and written Japanese in contexts likely to be encountered by a career-oriented professional in Japan.",
+    "prereq": []
+  },
+  {
+    "uid": "011211",
+    "code": "JPN5160",
+    "subject": "JPN",
+    "number": "5160",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Topics Jpn Literature",
+    "fullname": "Topics in Japanese Literature",
+    "info": "Literary, historical, or cultural study of selected Japanese literature.",
+    "prereq": []
+  },
+  {
+    "uid": "014197",
+    "code": "JPN5161",
+    "subject": "JPN",
+    "number": "5161",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Premod Wmn's Wrting",
+    "fullname": "Women's Writing in Premodern Japan",
+    "info": "Works by women in premodern Japan including Genji monogatari, a lengthy narrative, Makura no soshi, a collection of vignettes, and poetry. Concerns include gendered writing system/authorship, narrative techniques, sexuality and the figure of the author, and strategies of fictionality.",
+    "prereq": []
+  },
+  {
+    "uid": "014266",
+    "code": "JPN5162",
+    "subject": "JPN",
+    "number": "5162",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Premod Tale Lit",
+    "fullname": "Tale Literature in Premodern Japan",
+    "info": "Tale literature, both Buddhist and secular, presents the world of the middle- to lower-class people. Rhetoric and religion, fiction and history, gender and sexuality, the role of the supernatural/fantastic, and re-tellings of earlier texts.",
+    "prereq": []
+  },
+  {
+    "uid": "014296",
+    "code": "JPN5163",
+    "subject": "JPN",
+    "number": "5163",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Jpn Hist Narratives",
+    "fullname": "Premodern Historical Narratives",
+    "info": "Narratives rooted in history. Issues include the problematization of reality, the formation of national identity, the idea of divine Imperial power, oral storytelling and its relationship to written texts, and the popularization of historical writings.",
+    "prereq": []
+  },
+  {
+    "uid": "011209",
+    "code": "JPN5164",
+    "subject": "JPN",
+    "number": "5164",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Mod J Lit",
+    "fullname": "Readings in Early Modern Japanese Literature",
+    "info": "An examination of the stylistic and ideological aspects of the prose fiction, poetry, and non-fiction of the period 1863 to 1945. Offered in a rotating format alternating between readings in the original language and readings in English translation.",
+    "prereq": []
+  },
+  {
+    "uid": "011210",
+    "code": "JPN5165",
+    "subject": "JPN",
+    "number": "5165",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Contemp J Lit",
+    "fullname": "Readings in Postwar and Contemporary Japanese Literature",
+    "info": "Literary and historical exploration of selected works published between 1945 and the present. Focus may be on a writer, a period, or a theme. Offered in a rotating format alternating between readings in the original language and readings in English translation. ",
+    "prereq": []
+  },
+  {
+    "uid": "011208",
+    "code": "JPN5166",
+    "subject": "JPN",
+    "number": "5166",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "20 Cent J Wmn's Lit",
+    "fullname": "Literature by 20th-Century Japanese Women",
+    "info": "Literary and historical exploration of selected works by Japanese women writers in a variety of genres. All literary texts read in Japanese; critical readings may be in English.",
+    "prereq": []
+  },
+  {
+    "uid": "810686",
+    "code": "JPN5211",
+    "subject": "JPN",
+    "number": "5211",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Intro Classical Chinese I",
+    "fullname": "Introductory Classical Chinese I",
+    "info": "Reading excerpts from canonical Chinese texts. Transnational nature of Classical Chinese/its importance in study of East Asian cultures. Taught in English.prereq: Two years of an East Asian language (Chinese, Japanese, Korean) or equivalent or instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "810687",
+    "code": "JPN5212",
+    "subject": "JPN",
+    "number": "5212",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Intro Classical Chinese II",
+    "fullname": "Introductory Classical Chinese II",
+    "info": "Reading excerpts from canonical Chinese texts. Transnational nature of Classical Chinese/its importance in study of East Asian cultures. Taught in English.prereq: 5211 and two years of an East Asian language (Chinese, Japanese, Korean) or equivalent or instr consent",
+    "prereq": {
+      "code": "JPN 5211",
+      "subject": "JPN",
+      "id": "5211"
+    }
+  },
+  {
+    "uid": "011102",
+    "code": "JPN5251",
+    "subject": "JPN",
+    "number": "5251",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Hist of Jpn Lang",
+    "fullname": "History of the Japanese Language",
+    "info": "Development of Japanese grammar from classical to the modern language.",
+    "prereq": []
+  },
+  {
+    "uid": "011103",
+    "code": "JPN5451",
+    "subject": "JPN",
+    "number": "5451",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Jpn Syntax/Semantic",
+    "fullname": "Structure of Japanese: Syntax/Semantics",
+    "info": "Analysis of structure and meaning of Japanese sentence patterns.",
+    "prereq": []
+  },
+  {
+    "uid": "011104",
+    "code": "JPN5452",
+    "subject": "JPN",
+    "number": "5452",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Jpn Phonol/Morph",
+    "fullname": "Structure of Japanese: Phonology/Morphology",
+    "info": "Generative and nongenerative approaches to Japanese sound and word structure.",
+    "prereq": []
+  },
+  {
+    "uid": "011105",
+    "code": "JPN5453",
+    "subject": "JPN",
+    "number": "5453",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Jpn Discourse/CA",
+    "fullname": "Structure of Japanese: Discourse/Conversation Analysis",
+    "info": "Analysis of Japanese written texts and conversations. Emergence of grammar in discourse, discourse/conversational structural units, patterns genre, strategies, style, and sociolinguistics variables.",
+    "prereq": []
+  },
+  {
+    "uid": "011106",
+    "code": "JPN5650",
+    "subject": "JPN",
+    "number": "5650",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Prosem: Jpn Ling",
+    "fullname": "Proseminar: Japanese Linguistics",
+    "info": "Selected topics in Japanese linguistics and/or contrastive analysis of Japanese and English with attention to contributions from Eastern and Western linguistic traditions.",
+    "prereq": []
+  },
+  {
+    "uid": "011107",
+    "code": "JPN5993",
+    "subject": "JPN",
+    "number": "5993",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Jpn Direct Studies",
+    "fullname": "Directed Studies in Japanese",
+    "info": "Individual study with guidance of a faculty member.Prereq instr consent, dept consent, college consent.",
+    "prereq": []
+  },
+  {
+    "uid": "788133",
+    "code": "JPN8333",
+    "subject": "JPN",
+    "number": "8333",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "FTE: Master's",
+    "fullname": "FTE: Master's",
+    "info": "(No description)prereq: Master's student, adviser and DGS consent",
+    "prereq": []
+  },
+  {
+    "uid": "788368",
+    "code": "JPN8444",
+    "subject": "JPN",
+    "number": "8444",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "FTE: Doctoral",
+    "fullname": "FTE: Doctoral",
+    "info": "(No description)prereq: Doctoral student, adviser and DGS consent",
+    "prereq": []
+  },
+  {
+    "uid": "011116",
+    "code": "JPN8630",
+    "subject": "JPN",
+    "number": "8630",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Premod Japanese Lit",
+    "fullname": "Seminar in Premodern Japanese Literature",
+    "info": "Selected topic in Japanese literature from 8th century to 1860s; theoretical tools used to analyze modern Japanese literature.",
+    "prereq": []
+  },
+  {
+    "uid": "014299",
+    "code": "JPN8631",
+    "subject": "JPN",
+    "number": "8631",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Premodern Poetry",
+    "fullname": "Premodern Poetry",
+    "info": "Presentation of poetry in four genres: imperial anthologies, narratives centered around poetry, personal collections, and noh plays. Implications of anthologizing/collecting, relationships between prose and poetry, and construction of an authorial figure.",
+    "prereq": []
+  },
+  {
+    "uid": "014300",
+    "code": "JPN8632",
+    "subject": "JPN",
+    "number": "8632",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Marginalized Lit",
+    "fullname": "Marginalized Literatures of Premodern Japan",
+    "info": "Texts located at fringes of premodern Japanese literary canon. Ranges from collection of songs sung by women entertainers/prostitutes to texts from Ryukyu islands. Power, canon, and center/margin relationship.",
+    "prereq": []
+  },
+  {
+    "uid": "014301",
+    "code": "JPN8633",
+    "subject": "JPN",
+    "number": "8633",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Premod Urban Lit",
+    "fullname": "Premodern Urban Literature",
+    "info": "Literature and dramatic scripts between 1600-1868 about urban space and society in regions of Kyoto/Osaka and Edo (Tokyo). Notion of popular culture, relationship between textual production and consumption, and discourses of the urban.",
+    "prereq": []
+  },
+  {
+    "uid": "011117",
+    "code": "JPN8640",
+    "subject": "JPN",
+    "number": "8640",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Modern Jpn Lit",
+    "fullname": "Seminar in Modern Japanese Literature",
+    "info": "Selected topic in Japanese literature from 1860s to the present, including analytical styles and strategies used in Japanese literary criticism.",
+    "prereq": []
+  },
+  {
+    "uid": "011108",
+    "code": "JPN8650",
+    "subject": "JPN",
+    "number": "8650",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Sem Jpn Linguistics",
+    "fullname": "Seminar: Japanese Linguistics",
+    "info": "Research on selected topic in Japanese linguistics; emphasizes collecting and analyzing primary data.",
+    "prereq": []
+  },
+  {
+    "uid": "788491",
+    "code": "JPN8666",
+    "subject": "JPN",
+    "number": "8666",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Doct Pre-Thesis Cr*",
+    "fullname": "Doctoral Pre-Thesis Credits",
+    "info": "tbdprereq: Doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
+    "prereq": []
+  },
+  {
+    "uid": "788618",
+    "code": "JPN8777",
+    "subject": "JPN",
+    "number": "8777",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Thesis Credit:Mast*",
+    "fullname": "Thesis Credits: Master's",
+    "info": "(No description)prereq: Max 18 cr per semester or summer; 10 cr total required (Plan A only)",
+    "prereq": []
+  },
+  {
+    "uid": "787886",
+    "code": "JPN8888",
+    "subject": "JPN",
+    "number": "8888",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Thesis Credit:Doct*",
+    "fullname": "Thesis Credit: Doctoral",
+    "info": "(No description)prereq: Max 18 cr per semester or summer; 24 cr required",
+    "prereq": []
+  }
+]

@@ -1,0 +1,466 @@
+[
+  {
+    "uid": "013752",
+    "code": "CLSP1010",
+    "subject": "CLSP",
+    "number": "1010",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Orientation",
+    "fullname": "Orientation in Clinical Laboratory Sciences",
+    "info": "Orientation to medical technology (clinical laboratory science) profession.prereq: Interest in field of Clinical Laboratory Sciences",
+    "prereq": []
+  },
+  {
+    "uid": "013544",
+    "code": "CLSP4089",
+    "subject": "CLSP",
+    "number": "4089",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Specialty Rotation",
+    "fullname": "Specialty Rotation",
+    "info": "One-week clinical rotation in specialty lab such as immunophenotyping, cytogenetics, surgical pathology, molecular diagnostics, immunology, or forensics.",
+    "prereq": []
+  },
+  {
+    "uid": "013754",
+    "code": "CLSP4092",
+    "subject": "CLSP",
+    "number": "4092",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Honors",
+    "fullname": "Honors Program: Laboratory Methods",
+    "info": "Individual assignment to special projects or research in one of the clinical areas of chemistry, hematology, immunohematology, or microbiology.prereq: instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "016282",
+    "code": "CLSP4101",
+    "subject": "CLSP",
+    "number": "4101",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Diagnostic Microbiology II",
+    "fullname": "Diagnostic Microbiology II",
+    "info": "Overview of lab-aided diagnosis of bacterial, mycobacterial, viral, fungal, parasitic infectious diseases.prereq: One microbiology course with lab, one biochem course, enrolled year 4 CLSP student, instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "790468",
+    "code": "CLSP4102",
+    "subject": "CLSP",
+    "number": "4102",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Diagnostic Microbiology Lectur",
+    "fullname": "Principles of Diagnostic Microbiology",
+    "info": "Techniques used in laboratory diagnosis of infectious disease.  Isolating/identifying bacteria/yeast. Antibacterial susceptibility testing. Lecture.prereq: One microbiology course with lab, one biochem course, enrolled year 4 CLS student, instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "790471",
+    "code": "CLSP4103",
+    "subject": "CLSP",
+    "number": "4103",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Diagnostic Microbiology Lab",
+    "fullname": "Diagnostic Microbiology: Laboratory",
+    "info": "Techniques used in lab diagnosis of infectious disease. Isolating/identifying bacteria/yeasts. Antimicrobial susceptibility testing. Lab.prereq: One microbiology course with lab, one biochem course, enrolled CLSP student, instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "016035",
+    "code": "CLSP4201",
+    "subject": "CLSP",
+    "number": "4201",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Hematology I",
+    "fullname": "Hematology I",
+    "info": "Theory/application of basic principles in clinical hematology.  Lecture, lab.prereq: Enrolled year 4 CLSP student, instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "016283",
+    "code": "CLSP4202",
+    "subject": "CLSP",
+    "number": "4202",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Hemat ology II",
+    "fullname": "Hematology II",
+    "info": "Fundamentals of examining blood/bone marrow. Emphasizes identification of normal, immature, abnormal cells. Correlation of clinical/lab findings. Lecture, lab.prereq: [4201 or 5201], enrolled year 4 CLSP student, instr consent",
+    "prereq": {
+      "or": [
+        {
+          "code": "CLSP 4201",
+          "subject": "CLSP",
+          "id": "4201"
+        },
+        {
+          "code": "CLSP 5201",
+          "subject": "CLSP",
+          "id": "5201"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "016284",
+    "code": "CLSP4203",
+    "subject": "CLSP",
+    "number": "4203",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Hemostasis",
+    "fullname": "Hemostasis",
+    "info": "Theory/application of concepts/techniques in hemostasis/coagulation. Lecture, Lab. Online course.prereq: [4201 or 5201], enrolled year 4 CLSP student, instr consent",
+    "prereq": {
+      "or": [
+        {
+          "code": "CLSP 4201",
+          "subject": "CLSP",
+          "id": "4201"
+        },
+        {
+          "code": "CLSP 5201",
+          "subject": "CLSP",
+          "id": "5201"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "013319",
+    "code": "CLSP4263",
+    "subject": "CLSP",
+    "number": "4263",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Compar Hemostasis",
+    "fullname": "Comparative Hemostasis",
+    "info": "Theory and application of specific concepts and techniques in hemostasis and coagulation.",
+    "prereq": []
+  },
+  {
+    "uid": "802284",
+    "code": "CLSP4301",
+    "subject": "CLSP",
+    "number": "4301",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Urinalysis",
+    "fullname": "Urinalysis",
+    "info": "Procedures for physical, chemical, microscopic examination of urine. Lecture, lab.prereq: Enrolled year 4 CLSP student",
+    "prereq": []
+  },
+  {
+    "uid": "016037",
+    "code": "CLSP4302",
+    "subject": "CLSP",
+    "number": "4302",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Clinical Chemistry I",
+    "fullname": "Clinical Chemistry I: Lecture and Lab",
+    "info": "Assessing renal/metabolic disease/dysfunction, electrolyte, and acid-base balance. Principles/processes for quality management in clinical lab. Lecture online only, lab.prereq: Two organic chem courses with lab, one biochem course, instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "016286",
+    "code": "CLSP4304",
+    "subject": "CLSP",
+    "number": "4304",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Clinical Chemistry II",
+    "fullname": "Clinical Chemistry II: Lecture",
+    "info": "Principles/application of clinical chemistry. Correlation of clinical/lab findings.prereq: [4302 or 5302], two organic chem courses with lab, one biochem course, year 4 CLSP student.",
+    "prereq": {
+      "or": [
+        {
+          "code": "CLSP 4302",
+          "subject": "CLSP",
+          "id": "4302"
+        },
+        {
+          "code": "CLSP 5302",
+          "subject": "CLSP",
+          "id": "5302"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "016289",
+    "code": "CLSP4305",
+    "subject": "CLSP",
+    "number": "4305",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Clinical Chemistry II: Lab",
+    "fullname": "Clinical Chemistry II: Laboratory",
+    "info": "Principles/application of lab procedures in clinical chemistry.prereq: [4302 or 5302], two organic chem courses with lab, one biochem course",
+    "prereq": {
+      "or": [
+        {
+          "code": "CLSP 4302",
+          "subject": "CLSP",
+          "id": "4302"
+        },
+        {
+          "code": "CLSP 5302",
+          "subject": "CLSP",
+          "id": "5302"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "016036",
+    "code": "CLSP4311",
+    "subject": "CLSP",
+    "number": "4311",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Clin Chem I: Lab",
+    "fullname": "Clinical Chemistry I:  Laboratory Applications",
+    "info": "Application of clinical chemistry principles and lab techniques in the analysis of urine, plasma, and body fluids.  Emphasis on lab tests to evaluate renal function, electrolytes, and acid-base balance.  Principles and processes for managing test quality.",
+    "prereq": []
+  },
+  {
+    "uid": "790666",
+    "code": "CLSP4401",
+    "subject": "CLSP",
+    "number": "4401",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Immunology",
+    "fullname": "Immunology",
+    "info": "Basic principles of human immune function, clinical applications, clinical techniques (including flow cytometry).prereq: BIOC 3021, instr consent",
+    "prereq": {
+      "code": "BIOC 3021",
+      "subject": "BIOC",
+      "id": "3021"
+    }
+  },
+  {
+    "uid": "802285",
+    "code": "CLSP4402",
+    "subject": "CLSP",
+    "number": "4402",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Molecular Diagnostics",
+    "fullname": "Molecular Diagnostics",
+    "info": "Theory/application of molecular diagnostics in clinical lab.  Lecture, lab.",
+    "prereq": []
+  },
+  {
+    "uid": "016279",
+    "code": "CLSP4501",
+    "subject": "CLSP",
+    "number": "4501",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Intro Transfusion Medicine",
+    "fullname": "Introduction to Transfusion Medicine",
+    "info": "Principles of blood grouping, antibody identification, compatibility testing, donor testing for transfusion medicine.",
+    "prereq": []
+  },
+  {
+    "uid": "016280",
+    "code": "CLSP4502",
+    "subject": "CLSP",
+    "number": "4502",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Transfusion Med Laboratory",
+    "fullname": "Introduction to Transfusion Medicine: Laboratory",
+    "info": "Exercises illustrating basic techniques in blood grouping, antibody identification, compatibility testing, donor testing for transfusion medicine.prereq: 4401 or 5401",
+    "prereq": {
+      "or": [
+        {
+          "code": "CLSP 4401",
+          "subject": "CLSP",
+          "id": "4401"
+        },
+        {
+          "code": "CLSP 5401",
+          "subject": "CLSP",
+          "id": "5401"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "803215",
+    "code": "CLSP4601W",
+    "subject": "CLSP",
+    "number": "4601",
+    "honors": false,
+    "writingIntensive": true,
+    "name": "Mgmt & Prof Issues",
+    "fullname": "Management and Professional Issues",
+    "info": "Basic concepts in professional issues and management as applied to clinical lab.prereq: 4602, CLSP student",
+    "prereq": {
+      "code": "CLSP 4602",
+      "subject": "CLSP",
+      "id": "4602"
+    }
+  },
+  {
+    "uid": "016034",
+    "code": "CLSP4602",
+    "subject": "CLSP",
+    "number": "4602",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Education and Research",
+    "fullname": "Basic Concepts in Education and Research as Applied to the Clinical Laboratory",
+    "info": "Basic concepts in education/research as applied to clinical laboratory.prereq: instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "013543",
+    "code": "CLSP4701",
+    "subject": "CLSP",
+    "number": "4701",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "App Diagn Micro",
+    "fullname": "Applied Diagnostic Microbiology",
+    "info": "Isolation, identification, and antimicrobial susceptibility testing of clinically significant microbes from patient specimens.prereq: 4102, 4101 enrolled CLSP student, instr consent",
+    "prereq": {
+      "and": [
+        {
+          "code": "CLSP 4102",
+          "subject": "CLSP",
+          "id": "4102"
+        },
+        {
+          "code": "CLSP 4101",
+          "subject": "CLSP",
+          "id": "4101"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "013541",
+    "code": "CLSP4702",
+    "subject": "CLSP",
+    "number": "4702",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Appl Clin Heme/Hemostasis",
+    "fullname": "Applied Clinical Hematology/Hemostasis",
+    "info": "Application of basic methods/techniques in clinical hematology, cellular morphology, and hemostasis.prereq: 4201, 4202, 4203, enrolled CLSP student, instr consent",
+    "prereq": {
+      "and": [
+        {
+          "code": "CLSP 4201",
+          "subject": "CLSP",
+          "id": "4201"
+        },
+        {
+          "code": "CLSP 4202",
+          "subject": "CLSP",
+          "id": "4202"
+        },
+        {
+          "code": "CLSP 4203",
+          "subject": "CLSP",
+          "id": "4203"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "013539",
+    "code": "CLSP4703",
+    "subject": "CLSP",
+    "number": "4703",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "App Clin Chem/UA",
+    "fullname": "Applied Clinical Chemistry and Urinalysis",
+    "info": "Application of basic methods/techniques in clinical chemistry lab.prereq: 4301, 4302, 4304, 4305, enrolled CLSP student, instr consent",
+    "prereq": {
+      "and": [
+        {
+          "code": "CLSP 4301",
+          "subject": "CLSP",
+          "id": "4301"
+        },
+        {
+          "code": "CLSP 4302",
+          "subject": "CLSP",
+          "id": "4302"
+        },
+        {
+          "code": "CLSP 4304",
+          "subject": "CLSP",
+          "id": "4304"
+        },
+        {
+          "code": "CLSP 4305",
+          "subject": "CLSP",
+          "id": "4305"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "013542",
+    "code": "CLSP4704",
+    "subject": "CLSP",
+    "number": "4704",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "App Transfusion Medicine",
+    "fullname": "Applied Transfusion Medicine",
+    "info": "Application of basic methods/techniques in tranfusion medicine lab.prereq: 4501, 4502, enrolled CLSP student, instr consent",
+    "prereq": {
+      "and": [
+        {
+          "code": "CLSP 4501",
+          "subject": "CLSP",
+          "id": "4501"
+        },
+        {
+          "code": "CLSP 4502",
+          "subject": "CLSP",
+          "id": "4502"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "013564",
+    "code": "CLSP4705",
+    "subject": "CLSP",
+    "number": "4705",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Specialty Rotation",
+    "fullname": "Specialty Rotation",
+    "info": "A one week rotation in specialty lab such as cytogenetics, flow cytometry, microbiology lab at MN Dept of Health, and other choices.",
+    "prereq": []
+  },
+  {
+    "uid": "016033",
+    "code": "CLSP4901",
+    "subject": "CLSP",
+    "number": "4901",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Spec Lab Methods",
+    "fullname": "Special Laboratory Methods",
+    "info": "Individual assignment to special project in research lab or clinical lab.prereq: CLSP student, instr consent",
+    "prereq": []
+  }
+]

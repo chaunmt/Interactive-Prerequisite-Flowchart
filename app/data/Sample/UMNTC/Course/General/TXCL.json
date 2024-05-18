@@ -1,0 +1,231 @@
+[
+  {
+    "uid": "791908",
+    "code": "TXCL5000",
+    "subject": "TXCL",
+    "number": "5000",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Directed Rsch in Tox",
+    "fullname": "Directed Research in Toxicology",
+    "info": "Special project that addresses specific issue in toxicology. Under guidance of faculty member.prereq: instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "014224",
+    "code": "TXCL5011",
+    "subject": "TXCL",
+    "number": "5011",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Principles of Tox",
+    "fullname": "Principles of Toxicology",
+    "info": "Introduction to fundamentals of poisoning in individuals and the environment, assessment of potential health hazards, and application of toxicology in various professional careers.prereq: Grad txcl major or instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "808370",
+    "code": "TXCL5012",
+    "subject": "TXCL",
+    "number": "5012",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Priciples of Toxicology",
+    "fullname": "Principles of Toxicology",
+    "info": "Science of toxicology. Biomedical principles. Regulatory practices governing protection of human health and environmental quality.prereq: At least one semester [biochemistry, calculus, cell biology]; at least one semester of [human or animal] physiology recommended",
+    "prereq": []
+  },
+  {
+    "uid": "808371",
+    "code": "TXCL5013",
+    "subject": "TXCL",
+    "number": "5013",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Chemical Toxicology",
+    "fullname": "Chemical Toxicology",
+    "info": "Signs, symptoms, and mechanism of toxicity of different classes of chemicals spanning several organ systems, including chemical carcinogenesis.prereq: 5012, instr consent",
+    "prereq": {
+      "code": "TXCL 5012",
+      "subject": "TXCL",
+      "id": "5012"
+    }
+  },
+  {
+    "uid": "808372",
+    "code": "TXCL5101",
+    "subject": "TXCL",
+    "number": "5101",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "NanoToxicology",
+    "fullname": "Molecular and Cellular Basis of Nanoparticle Toxicology",
+    "info": "Introduction to science of nanotoxicology. Nanotechnology in scientific research. Assessment of impact on biological systems.prereq: Introductory toxicology course",
+    "prereq": []
+  },
+  {
+    "uid": "790285",
+    "code": "TXCL5195",
+    "subject": "TXCL",
+    "number": "5195",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Vet Tox",
+    "fullname": "Veterinary Toxicology",
+    "info": "Toxicology of minerals, pesticides, venoms, and various toxins. Identification of poisonous plants. Recognition, diagnosis, and treatment of animal poisons.prereq: Grad student or instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "790286",
+    "code": "TXCL5545",
+    "subject": "TXCL",
+    "number": "5545",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Intro to Regulatory Medicine",
+    "fullname": "Introduction to Regulatory Medicine",
+    "info": "Explanation of products requiring pre-market approval and those that may be marketed without approval. Post-market surveillance. Adverse reactions, removal of product from market.prereq: Grad student or instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "014229",
+    "code": "TXCL8012",
+    "subject": "TXCL",
+    "number": "8012",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Advanced Tox I",
+    "fullname": "Advanced Toxicology I",
+    "info": "Absorption, distribution, metabolism, and excretion of xenobiotics; toxicokinetics; mechanisms of toxicity or specific classes of chemical agents.prereq: 5011 or BioC 4331, PubH 5104 or instr consent",
+    "prereq": {
+      "and": [
+        {
+          "code": "TXCL 5011",
+          "subject": "TXCL",
+          "id": "5011"
+        },
+        {
+          "code": "BIOC 4331",
+          "subject": "BIOC",
+          "id": "4331"
+        },
+        {
+          "code": "PUBH 5104",
+          "subject": "PUBH",
+          "id": "5104"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "014228",
+    "code": "TXCL8013",
+    "subject": "TXCL",
+    "number": "8013",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Advanced Tox II",
+    "fullname": "Advanced Toxicology II",
+    "info": "Kinetic and dynamic determinants of target organ toxicity; pathological alterations in structure/function relationships for major target organ systems; mechanisms of mutagenesis, carcinogenesis, and teratogenesis.prereq: 8012, BioC 4332, Phsl 5062 or Phsl 6101 or instr consent",
+    "prereq": {
+      "and": [
+        {
+          "code": "TXCL 8012",
+          "subject": "TXCL",
+          "id": "8012"
+        },
+        {
+          "code": "BIOC 4332",
+          "subject": "BIOC",
+          "id": "4332"
+        },
+        {
+          "code": "PHSL 5062",
+          "subject": "PHSL",
+          "id": "5062"
+        },
+        {
+          "code": "PHSL 6101",
+          "subject": "PHSL",
+          "id": "6101"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "014226",
+    "code": "TXCL8100",
+    "subject": "TXCL",
+    "number": "8100",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Investigative Tox",
+    "fullname": "Investigative Toxicology",
+    "info": "Evaluating toxicology research issues and literature.prereq: 8013 or instr consent",
+    "prereq": {
+      "code": "TXCL 8013",
+      "subject": "TXCL",
+      "id": "8013"
+    }
+  },
+  {
+    "uid": "788286",
+    "code": "TXCL8333",
+    "subject": "TXCL",
+    "number": "8333",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "FTE: Master's",
+    "fullname": "FTE: Master's",
+    "info": "(No description)prereq: Master's student, adviser and DGS consent",
+    "prereq": []
+  },
+  {
+    "uid": "788420",
+    "code": "TXCL8444",
+    "subject": "TXCL",
+    "number": "8444",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "FTE: Doctoral",
+    "fullname": "FTE: Doctoral",
+    "info": "(No description)prereq: Doctoral student, adviser and DGS consent",
+    "prereq": []
+  },
+  {
+    "uid": "788541",
+    "code": "TXCL8666",
+    "subject": "TXCL",
+    "number": "8666",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Doct Pre-Thesis Cr",
+    "fullname": "Doctoral Pre-Thesis Credits",
+    "info": "tbdprereq: Doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
+    "prereq": []
+  },
+  {
+    "uid": "788672",
+    "code": "TXCL8777",
+    "subject": "TXCL",
+    "number": "8777",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Thesis Credit:Mast*",
+    "fullname": "Thesis Credits: Master's",
+    "info": "(No description)prereq: Max 18 cr per semester or summer; 10 cr total required [Plan A only]",
+    "prereq": []
+  },
+  {
+    "uid": "787941",
+    "code": "TXCL8888",
+    "subject": "TXCL",
+    "number": "8888",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Thesis Credit:Doct*",
+    "fullname": "Thesis Credit: Doctoral",
+    "info": "(No description)prereq: Max 18 cr per semester or summer; 24 cr required",
+    "prereq": []
+  }
+]

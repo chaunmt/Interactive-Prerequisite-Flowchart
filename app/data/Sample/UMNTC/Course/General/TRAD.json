@@ -1,0 +1,404 @@
+[
+  {
+    "uid": "013138",
+    "code": "TRAD7170",
+    "subject": "TRAD",
+    "number": "7170",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Basic Radiological Physics",
+    "fullname": "Basic Radiological Physics",
+    "info": "",
+    "prereq": []
+  },
+  {
+    "uid": "013156",
+    "code": "TRAD7171",
+    "subject": "TRAD",
+    "number": "7171",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Physics of Nuclear Medicine",
+    "fullname": "Physics of Nuclear Medicine",
+    "info": "N/Aprereq: 7170 or instr consent",
+    "prereq": {
+      "code": "TRAD 7170",
+      "subject": "TRAD",
+      "id": "7170"
+    }
+  },
+  {
+    "uid": "013171",
+    "code": "TRAD7172",
+    "subject": "TRAD",
+    "number": "7172",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Radiation Biology",
+    "fullname": "Radiation Biology",
+    "info": "Effects of ionizing radiations on cells, tissues, and organisms. Biochemical/physiological basis of radiation effects, biological rationale for radiation therapy practices.",
+    "prereq": []
+  },
+  {
+    "uid": "013157",
+    "code": "TRAD7173",
+    "subject": "TRAD",
+    "number": "7173",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Physics of Radiation Therapy",
+    "fullname": "Physics of Radiation Therapy",
+    "info": "Physics of radiation therapy.",
+    "prereq": []
+  },
+  {
+    "uid": "013139",
+    "code": "TRAD7174",
+    "subject": "TRAD",
+    "number": "7174",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Physics of Diagnostic Rad",
+    "fullname": "Physics of Diagnostic Radiology",
+    "info": "",
+    "prereq": []
+  },
+  {
+    "uid": "802703",
+    "code": "TRAD7177",
+    "subject": "TRAD",
+    "number": "7177",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Rad Therapy Phys Lab: Basics",
+    "fullname": "Radiation Therapy Physics Laboratory: Radiation Physics Basics",
+    "info": "Hands-on experience with hardware/software used in radiation therapy clinic for physics measurements.prereq: 7170 or concurrent registration is required (or allowed) in 7173 or instr consent",
+    "prereq": {
+      "or": [
+        {
+          "code": "TRAD 7170",
+          "subject": "TRAD",
+          "id": "7170"
+        },
+        {
+          "code": "TRAD 7173",
+          "subject": "TRAD",
+          "id": "7173"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "013150",
+    "code": "TRAD7300",
+    "subject": "TRAD",
+    "number": "7300",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Radiation Therapy",
+    "fullname": "Radiation Therapy",
+    "info": "Radiation therapy.",
+    "prereq": []
+  },
+  {
+    "uid": "013149",
+    "code": "TRAD7340",
+    "subject": "TRAD",
+    "number": "7340",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Spec Prob: Radiation Therapy",
+    "fullname": "Special Problems in Radiation Therapy",
+    "info": "",
+    "prereq": []
+  },
+  {
+    "uid": "013177",
+    "code": "TRAD7440",
+    "subject": "TRAD",
+    "number": "7440",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Spec Prob: Radiologic Physics",
+    "fullname": "Special Problems in Radiological Physics",
+    "info": "",
+    "prereq": []
+  },
+  {
+    "uid": "011720",
+    "code": "TRAD7505",
+    "subject": "TRAD",
+    "number": "7505",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Intro to Radiation Oncology",
+    "fullname": "Introduction to Radiation Oncology",
+    "info": "This course is designed not only for the student who plans to go into radiation therapy, but for those who plan to go into a field such as family practice, internal medicine, pediatrics, or surgery, where oncologic patients may be part of their practice. It provides training in clinical oncology, especially the diagnosis, disposition, and care of patients with cancer. The student attends all departmental and interdepartmental functions including follow-up clinics, new patient oncology conference, etc. radiation physics will provide supplemental teaching. There is no night call.",
+    "prereq": []
+  },
+  {
+    "uid": "011723",
+    "code": "TRAD7507",
+    "subject": "TRAD",
+    "number": "7507",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Advanced Radiation Oncology",
+    "fullname": "Advanced Radiation Oncology",
+    "info": "Here the student will gain more familiarity with the role of radiation therapy in the treatment of cancer patients. The student will be able to work-up new patients and present to the staff, assist in the treatment planning and follow patients through therapy. The student will see follow-up patients and new patient in the clinic. Student will observe or assist in brachytherapy source implantation for gynecology cancer.",
+    "prereq": []
+  },
+  {
+    "uid": "011725",
+    "code": "TRAD7510",
+    "subject": "TRAD",
+    "number": "7510",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Radiation Oncology Research",
+    "fullname": "Radiation Oncology Research",
+    "info": "This elective provides an opportunity for each interested student to participate in a clinical research project designed around a specific topic related to radiation oncology. The student may choose to participate in an ongoing research project within the radiation oncology division or in an original investigative project of the student's design arranged on an individual basis by the course director with staff members in the Department of Therapeutic Radiology-Radiation Oncology. ",
+    "prereq": []
+  },
+  {
+    "uid": "011727",
+    "code": "TRAD7511",
+    "subject": "TRAD",
+    "number": "7511",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "TRAD Elec",
+    "fullname": "Outpatient Diagnosis, Evaluation and Treatment of Adults and Children with Cancer",
+    "info": "This course is designed for the student who plans to go into fields such as family practice, internal medicine, pediatrics, or surgery, where oncologic patients may be part of their practice. This multidisciplinary course allows the student to spend two weeks in therapeutic radiology, and four weeks in pediatric oncology and medical oncology combined. During this time the student evaluates and participates in the care of patients primarily in an outpatient setting. In all areas, the student is responsible for theevaluation of patients, and opportunity is provided for follow-up throughout the course. There is no night call.prereq: Med 7500",
+    "prereq": {
+      "code": "MED 7500",
+      "subject": "MED",
+      "id": "7500"
+    }
+  },
+  {
+    "uid": "011730",
+    "code": "TRAD7583",
+    "subject": "TRAD",
+    "number": "7583",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "TRAD Oncology Elec",
+    "fullname": "Fundamentals of Clinical Oncology",
+    "info": "This multidisciplinary course provides an introduction to the fundamentals of clinical oncology (adult and pediatric) and is designed for the medical student interested in entering any specialty. Emphasis is on understanding important concepts of oncology, acquiring practical skills relevant to the diagnosis and treatment of the common malignancies, and gaining confidence in providing psychosocial support to patients and families. The student is able to follow newly diagnosed patients as they go through their initial evaluation/staging tests for malignancy and participate in planning treatments. Approximately two hours a day are devoted to conferences and tutorial sessions developed specifically for each student enrolled in this course.prereq: Med 7500 or Ped 7501",
+    "prereq": {
+      "or": [
+        {
+          "code": "MED 7500",
+          "subject": "MED",
+          "id": "7500"
+        },
+        {
+          "code": "PED 7501",
+          "subject": "PED",
+          "id": "7501"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "826315",
+    "code": "TRAD7600",
+    "subject": "TRAD",
+    "number": "7600",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Acting Intern in Rad. Oncology",
+    "fullname": "Acting Internship in Radiation Oncology",
+    "info": "The sub-internship is designed to prepare students for their role as a radiation oncology resident. During the rotation, the student should function as a beginning PGY-2 resident under the supervision of an attending physician. The sub-intern will assume primary responsibility for the patients on that attending's service. The attending will make sure that the workload is commensurate with the sub-intern’s clinical skills, the complexity of the cases and the number of patients on the service. Graduated responsibility will be granted by the supervising attending, based on the students’ performance. prereq: MED 7500, SURG 7550, and a minimum of 2 weeks of radiation oncology ",
+    "prereq": {
+      "and": [
+        {
+          "code": "MED 7500",
+          "subject": "MED",
+          "id": "7500"
+        },
+        {
+          "code": "SURG 7550",
+          "subject": "SURG",
+          "id": "7550"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "805692",
+    "code": "TRAD7910",
+    "subject": "TRAD",
+    "number": "7910",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Therapeutic Rad Residency",
+    "fullname": "Therapeutic Radiology Residency",
+    "info": "Therapeutic radiology residency.",
+    "prereq": []
+  },
+  {
+    "uid": "805693",
+    "code": "TRAD7930",
+    "subject": "TRAD",
+    "number": "7930",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Therapeutic Rad Fellowship",
+    "fullname": "Therapeutic Radiology Fellowship",
+    "info": "Therapeutic radiology fellowship.",
+    "prereq": []
+  },
+  {
+    "uid": "805607",
+    "code": "TRAD8149",
+    "subject": "TRAD",
+    "number": "8149",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Adv Topics in Rad Therapy Phys",
+    "fullname": "Advanced Topics in Radiation Therapy Physics",
+    "info": "Special procedures, including total body irradiation, intensity-modulated radiation therapy, stereotactic radiosurgery/radiotherapy, image-guided radiation therapy. Treatment planning algorithms and techniques. Advanced techniques in brachytherapy.prereq: [7170, 7173] or [BPHY 5170, BPHY 5173]",
+    "prereq": {
+      "or": [
+        {
+          "and": [
+            {
+              "code": "TRAD 7170",
+              "subject": "TRAD",
+              "id": "7170"
+            },
+            {
+              "code": "TRAD 7173",
+              "subject": "TRAD",
+              "id": "7173"
+            }
+          ]
+        },
+        {
+          "and": [
+            {
+              "code": "TRAD 5170",
+              "subject": "TRAD",
+              "id": "5170"
+            },
+            {
+              "code": "TRAD 5173",
+              "subject": "TRAD",
+              "id": "5173"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "uid": "013178",
+    "code": "TRAD8204",
+    "subject": "TRAD",
+    "number": "8204",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Tumor Clinic Conference",
+    "fullname": "Tumor Clinic Conference",
+    "info": "Students who attended a conference",
+    "prereq": []
+  },
+  {
+    "uid": "013179",
+    "code": "TRAD8240",
+    "subject": "TRAD",
+    "number": "8240",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Radiation Therapy Conference",
+    "fullname": "Radiation Therapy Conference",
+    "info": "",
+    "prereq": []
+  },
+  {
+    "uid": "013151",
+    "code": "TRAD8310",
+    "subject": "TRAD",
+    "number": "8310",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Fund Radiation Therapy",
+    "fullname": "Fundamentals of Radiation Therapy",
+    "info": "",
+    "prereq": []
+  },
+  {
+    "uid": "013152",
+    "code": "TRAD8315",
+    "subject": "TRAD",
+    "number": "8315",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Radiation Therapy Pathology",
+    "fullname": "Radiation Therapy Pathology",
+    "info": "",
+    "prereq": []
+  },
+  {
+    "uid": "013153",
+    "code": "TRAD8320",
+    "subject": "TRAD",
+    "number": "8320",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Red Therapy Treat Plan Probs",
+    "fullname": "Radiation Therapy Treatment Planning Problems",
+    "info": "Inactivating, entering information to get the proposal approved.",
+    "prereq": []
+  },
+  {
+    "uid": "013154",
+    "code": "TRAD8325",
+    "subject": "TRAD",
+    "number": "8325",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Rad Therapy Ped Oncology",
+    "fullname": "Radiation Therapy Pediatrics Oncology",
+    "info": "",
+    "prereq": []
+  },
+  {
+    "uid": "013155",
+    "code": "TRAD8350",
+    "subject": "TRAD",
+    "number": "8350",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Research: Radiation Therapy",
+    "fullname": "Research: Radiation Therapy",
+    "info": "",
+    "prereq": []
+  },
+  {
+    "uid": "013140",
+    "code": "TRAD8450",
+    "subject": "TRAD",
+    "number": "8450",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Research: Radiation Biology",
+    "fullname": "Research: Radiation Biology",
+    "info": "",
+    "prereq": []
+  },
+  {
+    "uid": "013141",
+    "code": "TRAD8550",
+    "subject": "TRAD",
+    "number": "8550",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Research: Radiologic Physics",
+    "fullname": "Research: Radiological Physics",
+    "info": "",
+    "prereq": []
+  }
+]

@@ -1,0 +1,2110 @@
+[
+  {
+    "uid": "796330",
+    "code": "ME1",
+    "subject": "ME",
+    "number": "1",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Refresher Course for ME",
+    "fullname": "Refresher Course for Mechanical Engineers",
+    "info": "Organized review of topics in mechanical engineering program in preparation for Minnesota Professional Engineering Exam. Emphasizes problem solving, organization of information/notes, trial exams.",
+    "prereq": []
+  },
+  {
+    "uid": "005019",
+    "code": "ME2011",
+    "subject": "ME",
+    "number": "2011",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Intro to Engineering",
+    "fullname": "Introduction to Engineering",
+    "info": "Skills critical for practicing engineers. Mechanical engineering, engineering design. Visual, written, and oral communication forms. Computer-based design tools. Substantial design projects, including prototype construction.prereq: CSE pre-major",
+    "prereq": []
+  },
+  {
+    "uid": "825882",
+    "code": "ME2021",
+    "subject": "ME",
+    "number": "2021",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Intro to Prog & Computations",
+    "fullname": "Introduction to Programming and Computations for Mechanical Engineers",
+    "info": "This course introduces programing concepts and numerical methods, specific to engineers using MATLAB. Programming concepts include variable types, data structures, programming logic, debugging, file input and output, functions, and data visualization. These topics will then be used to develop numerical methods, topics to include root finding, differentiation, integration, systems of equations, and an introduction to solving ordinary differential equations. An emphasis will be placed on using these methods to solve mechanical engineering problems.prereq: Completed or concurrent registration in Math 1272 or 1372 or 1572H",
+    "prereq": {
+      "or": [
+        {
+          "code": "MATH 1272",
+          "subject": "MATH",
+          "id": "1272"
+        },
+        {
+          "code": "ME 1372",
+          "subject": "ME",
+          "id": "1372"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "819397",
+    "code": "ME246",
+    "subject": "ME",
+    "number": "246",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Heat Trans",
+    "fullname": "Heat Trans",
+    "info": "",
+    "prereq": []
+  },
+  {
+    "uid": "006411",
+    "code": "ME3041",
+    "subject": "ME",
+    "number": "3041",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Ind Assignment I",
+    "fullname": "Industrial Assignment I",
+    "info": "Industrial work assignment in engineering intern program.  Evaluation based on student's formal written report covering the quarter's work assignment.\n\nprereq: ME upper div, enrolled in ME co-op program",
+    "prereq": []
+  },
+  {
+    "uid": "793178",
+    "code": "ME3080",
+    "subject": "ME",
+    "number": "3080",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Topics Mechanical Engineering",
+    "fullname": "Topics in Mechanical Engineering",
+    "info": "Specialized topics within various areas of mechanical engineering. Topics vary each semester.prereq: dept consent",
+    "prereq": []
+  },
+  {
+    "uid": "004833",
+    "code": "ME3221",
+    "subject": "ME",
+    "number": "3221",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Fund of Design & Manufacturing",
+    "fullname": "Fundamentals of Design & Manufacturing",
+    "info": "Material behavior and failure in design and manufacturing. Models for material removal, bulk deformation, sheet metal forming, and consolidation processes. Characterization of process capabilities and parts.prereq: 2011, AEM 3031, MatS 2001",
+    "prereq": {
+      "and": [
+        {
+          "code": "ME 2011",
+          "subject": "ME",
+          "id": "2011"
+        },
+        {
+          "code": "AEM 3031",
+          "subject": "AEM",
+          "id": "3031"
+        },
+        {
+          "code": "MATS 2001",
+          "subject": "MATS",
+          "id": "2001"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "004848",
+    "code": "ME3222",
+    "subject": "ME",
+    "number": "3222",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Mechanisms & Machine Design",
+    "fullname": "Mechanisms & Machine Design",
+    "info": "Selection of standard mechanical components such as bearings, gears, and fasteners. Analysis and synthesis of motion in machines. Displacement, velocity, and acceleration of mechanisms. Machine design project: Apply lecture topics to develop new machines that fulfill customer specifications.prereq: [3221 or concurrent registration is required (or allowed) in 3221], [CSci 1113 or equiv]",
+    "prereq": {
+      "and": [
+        {
+          "code": "ME 3221",
+          "subject": "ME",
+          "id": "3221"
+        },
+        {
+          "code": "CSCI 1113",
+          "subject": "CSCI",
+          "id": "1113"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "004849",
+    "code": "ME3281",
+    "subject": "ME",
+    "number": "3281",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Sys Dyn & Control",
+    "fullname": "System Dynamics and Control",
+    "info": "Dynamics of mechanical, electrical, thermal, fluid, and hybrid systems. System response using Laplace transform and numerical integration. Fourier transform and convolution. Transfer functions and frequency response. Introduction to classical control.prereq: AEM 2021, [Math 2243 or Math 2373], ME upper div",
+    "prereq": {
+      "and": [
+        {
+          "code": "AEM 2021",
+          "subject": "AEM",
+          "id": "2021"
+        },
+        {
+          "or": [
+            {
+              "code": "MATH 2243",
+              "subject": "MATH",
+              "id": "2243"
+            },
+            {
+              "code": "MATH 2373",
+              "subject": "MATH",
+              "id": "2373"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "uid": "005038",
+    "code": "ME3321",
+    "subject": "ME",
+    "number": "3321",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Thermodynamics",
+    "fullname": "Thermodynamics",
+    "info": "Properties, equations of state, processes, cycles for reversible/irreversible thermodynamic systems. Modes of work/heat transfer. Equations for conservation of mass, linear momentum, energy, entropy.  Mixture properties, thermochemistry, chemical equilibrium for ideal gases.",
+    "prereq": []
+  },
+  {
+    "uid": "005039",
+    "code": "ME3322",
+    "subject": "ME",
+    "number": "3322",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Heat/Fluid Flow",
+    "fullname": "Heat Transfer and Fluid Flow",
+    "info": "Mechanisms of heat transfer: conduction, radiation, convection, phasechange. Fluid flow: mass/momentum conservation laws, statics, inviscid model, Bernoulli's equation. Convection: external/internal flows, heat transfer coefficient, forced/natural convection, heat exchangers. Phase change: boiling/condensation.",
+    "prereq": []
+  },
+  {
+    "uid": "005040",
+    "code": "ME3324",
+    "subject": "ME",
+    "number": "3324",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Thermal Science",
+    "fullname": "Introduction to Thermal Science",
+    "info": "Thermodynamics, heat transfer. Thermal properties of substances. First/second laws of thermodynamics. Steady/unsteady heat conduction.  Thermal resistance concept. Convection heat transfer. Radiative heat transfer between solid surfaces. Boiling/condensation heat transfer.prereq: Chem 1061, Chem 1065, Math 2243 or Math 2373, Phys 1301, [CSE student]",
+    "prereq": {
+      "and": [
+        {
+          "code": "CHEM 1061",
+          "subject": "CHEM",
+          "id": "1061"
+        },
+        {
+          "code": "CHEM 1065",
+          "subject": "CHEM",
+          "id": "1065"
+        },
+        {
+          "code": "MATH 2243",
+          "subject": "MATH",
+          "id": "2243"
+        },
+        {
+          "code": "MATH 2373",
+          "subject": "MATH",
+          "id": "2373"
+        },
+        {
+          "code": "PHYS 1301",
+          "subject": "PHYS",
+          "id": "1301"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "796704",
+    "code": "ME3331",
+    "subject": "ME",
+    "number": "3331",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Thermodynamics",
+    "fullname": "Thermodynamics",
+    "info": "Properties, equations of state, processes, cycles for reversible and irreversible thermodynamic systems. Modes of energy transfer. Equations for conservation of mass, energy, entropy balances. Application of thermodynamic principles to modern engineering systems.\n\nprereq: Chem 1061, Chem 1065, Phys 1301",
+    "prereq": {
+      "and": [
+        {
+          "code": "CHEM 1061",
+          "subject": "CHEM",
+          "id": "1061"
+        },
+        {
+          "code": "CHEM 1065",
+          "subject": "CHEM",
+          "id": "1065"
+        },
+        {
+          "code": "PHYS 1301",
+          "subject": "PHYS",
+          "id": "1301"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "796705",
+    "code": "ME3332",
+    "subject": "ME",
+    "number": "3332",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Fluid Mechanics",
+    "fullname": "Fluid Mechanics",
+    "info": "Mass, momentum conservation principles. Fluid statics, Bernoulli equation. Control volume analysis, dimensional analysis, internal and external viscous flow. Momentum and energy considerations. Introduction to boundary layers.prereq: Math 2243 or Math 2373, 3331",
+    "prereq": {
+      "and": [
+        {
+          "code": "MATH 2243",
+          "subject": "MATH",
+          "id": "2243"
+        },
+        {
+          "code": "MATH 2373",
+          "subject": "MATH",
+          "id": "2373"
+        },
+        {
+          "code": "ME 3331",
+          "subject": "ME",
+          "id": "3331"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "796706",
+    "code": "ME3333",
+    "subject": "ME",
+    "number": "3333",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Heat Transfer",
+    "fullname": "Heat Transfer",
+    "info": "Mechanisms of heat transfer. Conduction, convection, radiation. Boundary layer analysis using momentum and energy equations. Applications such as fins, heat exchangers, electronics cooling, bioheat transfer, energy conversion technologies, phase change energy storage and boiling.\n\nprereq: 3332",
+    "prereq": {
+      "code": "ME 3332",
+      "subject": "ME",
+      "id": "3332"
+    }
+  },
+  {
+    "uid": "811071",
+    "code": "ME3990",
+    "subject": "ME",
+    "number": "3990",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Curricular Practical Training",
+    "fullname": "Curricular Practical Training",
+    "info": "Industrial work assignment involving advanced mechanical engineering technology. Reviewed by faculty member. Final report covering work assignment.prereq: ME major",
+    "prereq": []
+  },
+  {
+    "uid": "014689",
+    "code": "ME4031W",
+    "subject": "ME",
+    "number": "4031",
+    "honors": false,
+    "writingIntensive": true,
+    "name": "Basic Measure Lab",
+    "fullname": "Basic Mechanical Measurements Laboratory",
+    "info": "Experimental methods, statistical estimates of experimental uncertainty, calibration, signal conditioning, selected transducers for mechanical measurements, data acquisition/processing. Temperature, pressure, humidity, stress-strain, force, velocity, flow/radiative properties.\n\nprereq: IE 4521, upper div ME",
+    "prereq": {
+      "code": "IE 4521",
+      "subject": "IE",
+      "id": "4521"
+    }
+  },
+  {
+    "uid": "006412",
+    "code": "ME4042",
+    "subject": "ME",
+    "number": "4042",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Ind Assignment II",
+    "fullname": "Industrial Assignment II",
+    "info": "Industrial work assignment in engineering intern program.  Evaluation based on student's formal written report covering the quarter's work assignment.prereq: ME upper div, enrolled in ME co-op program",
+    "prereq": []
+  },
+  {
+    "uid": "006413",
+    "code": "ME4043W",
+    "subject": "ME",
+    "number": "4043",
+    "honors": false,
+    "writingIntensive": true,
+    "name": "Ind Assignment II",
+    "fullname": "Industrial Assignment II",
+    "info": "Solution of system design problems that require developing criteria, evaluating alternatives, and generating a preliminary design. Final report emphasizes design communication and describes design decision process, analysis, and final recommendations.\n\nprereq: 3041",
+    "prereq": {
+      "code": "ME 3041",
+      "subject": "ME",
+      "id": "3041"
+    }
+  },
+  {
+    "uid": "798300",
+    "code": "ME4044",
+    "subject": "ME",
+    "number": "4044",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Industrial Assignment III",
+    "fullname": "Industrial Assignment III",
+    "info": "Industrial work assignment in engineering co-op program.  Evaluation based on student's formal written report covering semester work assignment.\n\nprereq: ME upper div, registration in ME co-op program",
+    "prereq": []
+  },
+  {
+    "uid": "817349",
+    "code": "ME4053",
+    "subject": "ME",
+    "number": "4053",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Mech. Engineering Modeling",
+    "fullname": "Mechanical Engineering Modeling",
+    "info": "This course is aimed at teaching undergraduate students mechanical engineering modeling, technical analysis and technical design capabilities from a non-compartmentalized perspective. The course focuses on, (i) modeling complex, multi-disciplinary mechanical engineering problems by identifying critical elements of a problem, (ii) design and development of analysis tools using analytical and numerical techniques and (iii) developing optimized solutions/designs to problems/challenges. PREREQ: ME 3221, ME 3222, ME 3281, ME 3331, ME 3332, ME 3333 ",
+    "prereq": {
+      "and": [
+        {
+          "code": "ME 3221",
+          "subject": "ME",
+          "id": "3221"
+        },
+        {
+          "code": "ME 3222",
+          "subject": "ME",
+          "id": "3222"
+        },
+        {
+          "code": "ME 3281",
+          "subject": "ME",
+          "id": "3281"
+        },
+        {
+          "code": "ME 3331",
+          "subject": "ME",
+          "id": "3331"
+        },
+        {
+          "code": "ME 3332",
+          "subject": "ME",
+          "id": "3332"
+        },
+        {
+          "code": "ME 3333",
+          "subject": "ME",
+          "id": "3333"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "005020",
+    "code": "ME4054W",
+    "subject": "ME",
+    "number": "4054",
+    "honors": false,
+    "writingIntensive": true,
+    "name": "Design Projects",
+    "fullname": "Design Projects",
+    "info": "Students work in teams and undertake single, substantial design project. Design problems are open-ended. Product design process. Teams give formal presentation of progress at mid-semester design review, show completed work at design show.prereq: 2011, 3221, 3222, 3281, 3331, 3332, 3333, 4031W, AEM 2021, AEM 3031, EE 3005, ME upper div",
+    "prereq": {
+      "and": [
+        {
+          "code": "ME 2011",
+          "subject": "ME",
+          "id": "2011"
+        },
+        {
+          "code": "ME 3221",
+          "subject": "ME",
+          "id": "3221"
+        },
+        {
+          "code": "ME 3222",
+          "subject": "ME",
+          "id": "3222"
+        },
+        {
+          "code": "ME 3281",
+          "subject": "ME",
+          "id": "3281"
+        },
+        {
+          "code": "ME 3331",
+          "subject": "ME",
+          "id": "3331"
+        },
+        {
+          "code": "ME 3332",
+          "subject": "ME",
+          "id": "3332"
+        },
+        {
+          "code": "ME 3333",
+          "subject": "ME",
+          "id": "3333"
+        },
+        {
+          "code": "ME 4031W",
+          "subject": "ME",
+          "id": "4031W"
+        },
+        {
+          "code": "AEM 2021",
+          "subject": "AEM",
+          "id": "2021"
+        },
+        {
+          "code": "AEM 3031",
+          "subject": "AEM",
+          "id": "3031"
+        },
+        {
+          "code": "EE 3005",
+          "subject": "EE",
+          "id": "3005"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "005021",
+    "code": "ME4055W",
+    "subject": "ME",
+    "number": "4055",
+    "honors": false,
+    "writingIntensive": true,
+    "name": "Extended Design",
+    "fullname": "Extended Design Project",
+    "info": "Continuation of 4054 for students wishing to undertake a more substantial design project for an entire year. Permission granted when student takes 4054 and commits to undertake a two-semester design project. Meets with 4054.   ",
+    "prereq": []
+  },
+  {
+    "uid": "014646",
+    "code": "ME4080",
+    "subject": "ME",
+    "number": "4080",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Topics Mechanical Engineering",
+    "fullname": "Topics in Mechanical Engineering",
+    "info": "Topics vary each semester.prereq: ME upper div",
+    "prereq": []
+  },
+  {
+    "uid": "014645",
+    "code": "ME4090",
+    "subject": "ME",
+    "number": "4090",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Advanced Engineering Problems",
+    "fullname": "Advanced Engineering Problems",
+    "info": "Independent research project with faculty advisor in mechanical engineering, typically related to advisor's research interests. Student contacts advisor to develop project description well before project's start date.prereq: ME upper div, instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "004932",
+    "code": "ME4131W",
+    "subject": "ME",
+    "number": "4131",
+    "honors": false,
+    "writingIntensive": true,
+    "name": "Indoor Environ & Energy Lab",
+    "fullname": "Indoor Environment & Energy Laboratory",
+    "info": "Experiments in psychrometrics, refrigeration, air conditioning, solar energy, indoor air quality, and other topics related to refrigeration, building heating/cooling, and indoor air quality. \n\nprereq: ME 3333, ME 4031W, admitted to upper division/ME major",
+    "prereq": {
+      "and": [
+        {
+          "code": "ME 3333",
+          "subject": "ME",
+          "id": "3333"
+        },
+        {
+          "code": "ME 4031",
+          "subject": "ME",
+          "id": "4031"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "004850",
+    "code": "ME4231",
+    "subject": "ME",
+    "number": "4231",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Mot Cont Lab",
+    "fullname": "Motion Control Laboratory",
+    "info": "Microprocessor programming, digital filters, frequency response testing, modeling of eletromechanical systems, closed loop velocity and position control, programmable logic controllers, factory automation, open loop position control of a vibratory system using input shaping, closed loop position control using pole placement.prereq: 3281, 4031W, ME upper div",
+    "prereq": {
+      "and": [
+        {
+          "code": "ME 3281",
+          "subject": "ME",
+          "id": "3281"
+        },
+        {
+          "code": "ME 4031",
+          "subject": "ME",
+          "id": "4031"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "016602",
+    "code": "ME4232",
+    "subject": "ME",
+    "number": "4232",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Fluid Power Control Lab",
+    "fullname": "Fluid Power Control Lab",
+    "info": "Fluid power fundamentals. Description/operation of components. Fluid power symbols/circuits. Component sizing. Modeling/simulation, system identification, controller design/implementation. Connecting/making measurements on hydraulic circuits. Lab.prereq: 3281, 4031W, ME upper div",
+    "prereq": {
+      "and": [
+        {
+          "code": "ME 3281",
+          "subject": "ME",
+          "id": "3281"
+        },
+        {
+          "code": "ME 4031",
+          "subject": "ME",
+          "id": "4031"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "802813",
+    "code": "ME4233",
+    "subject": "ME",
+    "number": "4233",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Vibration Engineering Lab",
+    "fullname": "Vibration Engineering Laboratory",
+    "info": "Vibration phenomena, concepts, and terminology. Nyquist sampling, aliasing, noise, sensors, filters, spectrum analysis. Frequency response (Bode plots), impulse response, Fourier transforms. Design considerations, acoustic characterization, vibration isolation, vibration damping.prereq: 3281, 4031W, ME upper div",
+    "prereq": {
+      "and": [
+        {
+          "code": "ME 3281",
+          "subject": "ME",
+          "id": "3281"
+        },
+        {
+          "code": "ME 4031",
+          "subject": "ME",
+          "id": "4031"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "005041",
+    "code": "ME4331",
+    "subject": "ME",
+    "number": "4331",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Thermal Energy Engr Lab",
+    "fullname": "Thermal Energy Engineering Laboratory",
+    "info": "Measurement/analysis of heat transfer in single phase, multiphase, reacting environments. Experimental measurements relevant to thermal/fluid systems, statistical design of experiments/uncertainty analysis. Heat exchange.prereq: [3331, 3332, 3333, 4031W], [ME upper div or grad student]",
+    "prereq": {
+      "and": [
+        {
+          "code": "ME 3331",
+          "subject": "ME",
+          "id": "3331"
+        },
+        {
+          "code": "ME 3332",
+          "subject": "ME",
+          "id": "3332"
+        },
+        {
+          "code": "ME 3333",
+          "subject": "ME",
+          "id": "3333"
+        },
+        {
+          "code": "ME 4031W",
+          "subject": "ME",
+          "id": "4031W"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "005228",
+    "code": "ME4431W",
+    "subject": "ME",
+    "number": "4431",
+    "honors": false,
+    "writingIntensive": true,
+    "name": "Energy Con Sys Lab",
+    "fullname": "Energy Conversion Systems Laboratory",
+    "info": "Analyze operation/control of engines, power plants, heating/ventilation systems. Performance characteristics of devices, measurement techniques. Interpretation of experimental data. Presentation of results.prereq: 3333, 4031W, [ME upper div or grad student]",
+    "prereq": {
+      "and": [
+        {
+          "code": "ME 3333",
+          "subject": "ME",
+          "id": "3333"
+        },
+        {
+          "code": "ME 4031",
+          "subject": "ME",
+          "id": "4031"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "818598",
+    "code": "ME4583",
+    "subject": "ME",
+    "number": "4583",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Design for Life: Water in Tanz",
+    "fullname": "Design for Life: Water in Tanzania",
+    "info": " Teams will evaluate community needs and infrastructure to design potable water-handling systems in rural Tanzania, typically off the power grid. Fluid mechanics: complex distribution networks, system losses, pump selection, borehole development; field measurements. Designs must address Tanzanian design guidelines.",
+    "prereq": []
+  },
+  {
+    "uid": "827119",
+    "code": "ME4585",
+    "subject": "ME",
+    "number": "4585",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Mechatronics in Switzerland",
+    "fullname": "Mechatronics in Switzerland",
+    "info": "Students work in teams to design, build andtest an autonomous robot. Course instructionincludes topics in electronics, systemdynamics and control, and mechanical design.This course is intended for interdisciplinaryteams, such that each member brings aparticular expertise.",
+    "prereq": []
+  },
+  {
+    "uid": "807816",
+    "code": "ME5070",
+    "subject": "ME",
+    "number": "5070",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Topics: ME",
+    "fullname": "Topics in Mechanical Engineering",
+    "info": "Specialized topics within areas of mechanical engineering.  Emphasis on topics of current interest. Topics vary each semester.prereq: CSE upper div or grad student",
+    "prereq": []
+  },
+  {
+    "uid": "004938",
+    "code": "ME5101",
+    "subject": "ME",
+    "number": "5101",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Vapor Power Cycles",
+    "fullname": "Vapor Power Cycles",
+    "info": "Vapor power cycle analysis, regeneration, reheat, compound cycle modifications, combined gas turbine--vapor cycle systems, components, fuels and combustion, heat sources -- solar, nuclear, geothermal, low T cycles, bottoming cycles, environmental concerns. EES software used extensively for cycle analysis.prereq: CSE upper div or grad student",
+    "prereq": []
+  },
+  {
+    "uid": "004933",
+    "code": "ME5103",
+    "subject": "ME",
+    "number": "5103",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Therm Env Engr",
+    "fullname": "Thermal Environmental Engineering",
+    "info": "Thermodynamic properties of moist air; psychrometric charts; HVAC systems; solar energy; human thermal comfort; indoor air quality; heating and cooling loads in buildings.prereq: 3331 or 3332, 3333, CSE upper div or grad",
+    "prereq": {
+      "and": [
+        {
+          "code": "ME 3331",
+          "subject": "ME",
+          "id": "3331"
+        },
+        {
+          "code": "ME 3332",
+          "subject": "ME",
+          "id": "3332"
+        },
+        {
+          "code": "ME 3333",
+          "subject": "ME",
+          "id": "3333"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "004934",
+    "code": "ME5105",
+    "subject": "ME",
+    "number": "5105",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "HVAC Sys Des",
+    "fullname": "HVAC System Design",
+    "info": "Design procedures used for heat exchangers, cooling towers, hydronic systems, and air handling systems. HVAC system design for a commercial building.prereq: 5103, [CSE upper div or grad student]",
+    "prereq": {
+      "code": "ME 5103",
+      "subject": "ME",
+      "id": "5103"
+    }
+  },
+  {
+    "uid": "004939",
+    "code": "ME5113",
+    "subject": "ME",
+    "number": "5113",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Aerosol Engineering",
+    "fullname": "Aerosol/Particle Engineering",
+    "info": "Kinetic theory, definition, theory and measurement of particle properties, elementary particle mechanics, particle statistics; Brownian motion and diffusion, coagulation, evaporation and condensation, sampling and transport.prereq: CSE upper div or grad student",
+    "prereq": []
+  },
+  {
+    "uid": "004941",
+    "code": "ME5115",
+    "subject": "ME",
+    "number": "5115",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Air Pollution",
+    "fullname": "Air Quality and Air Pollution Control",
+    "info": "Air pollution sources, atmospheric transport, transformations, fate, and emissions control.  Air pollution meteorology, dispersion, chemistry of secondary pollutant formation, standards and regulation.  Control devices and techniques for gaseous and particulate emissions.  Cyclones, electrostatic precipitators, wet and dry scrubbers, combustion modification.",
+    "prereq": []
+  },
+  {
+    "uid": "004935",
+    "code": "ME5116",
+    "subject": "ME",
+    "number": "5116",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Cleanroom Technolog",
+    "fullname": "Cleanroom Technology and Particle Monitoring",
+    "info": "Fundamentals of cleanroom technology for microelectronics manufacturing; airborne and liquid-borne particulate contaminants; particle monitors:  optical and condensation particle counters, wafer surface scanner, microscopy; filter performance and testing; cleanroom design and operation; high purity systems; particle detection in processing equipment.prereq: CSE upper div or grad student",
+    "prereq": []
+  },
+  {
+    "uid": "004937",
+    "code": "ME5133",
+    "subject": "ME",
+    "number": "5133",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Aerosol Lab",
+    "fullname": "Aerosol Measurement Laboratory",
+    "info": "Principles of aerosol measurement.  Single particle analysis by optical and electron microscopy.  Aerosol samplers and inertial collectors.  Integral mass concentration and number concentration detectors.  Size distribution by laser particle counter and differential mobility particle sizer.  Aerosol generation and instrument calibration.prereq: CSE upper div or graduate student",
+    "prereq": []
+  },
+  {
+    "uid": "802296",
+    "code": "ME5211",
+    "subject": "ME",
+    "number": "5211",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Human Fact Work Ana",
+    "fullname": "Human Factors and Work Analysis",
+    "info": "Human factors engineering (ergonomics), methods engineering, work measurement. Displays, controls, instrument layout, supervisory control. Anthropometry, work physiology, biomechanics. Noise, illumination, toxicology. Operations analysis, motion study, time standards.",
+    "prereq": []
+  },
+  {
+    "uid": "004851",
+    "code": "ME5221",
+    "subject": "ME",
+    "number": "5221",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Comp-Asst Prod Real",
+    "fullname": "Computer-Assisted Product Realization",
+    "info": "Injection molding with emphasis on design of manufacturing processes. Tooling design and specification of processing conditions using computer-based tools; process simulation software and computer-controlled machine tools.  Simultaneous process and part design. Production of tooling and parts. Part evaluation.prereq: 3221, AEM 3031, CSci 1113, MatS 2001",
+    "prereq": {
+      "and": [
+        {
+          "code": "ME 3221",
+          "subject": "ME",
+          "id": "3221"
+        },
+        {
+          "code": "AEM 3031",
+          "subject": "AEM",
+          "id": "3031"
+        },
+        {
+          "code": "CSCI 1113",
+          "subject": "CSCI",
+          "id": "1113"
+        },
+        {
+          "code": "MATS 2001",
+          "subject": "MATS",
+          "id": "2001"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "004853",
+    "code": "ME5223",
+    "subject": "ME",
+    "number": "5223",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Mat'ls in Des",
+    "fullname": "Materials in Design",
+    "info": "Fundamental properties of engineering materials. Fabrication, treatment. Physical/corrosive properties.  Failure mechanism, cost/value analysis as related to material selection/specification.prereq: 3221, ME upper division or grad student",
+    "prereq": {
+      "code": "ME 3221",
+      "subject": "ME",
+      "id": "3221"
+    }
+  },
+  {
+    "uid": "004909",
+    "code": "ME5228",
+    "subject": "ME",
+    "number": "5228",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "FE Mod/Ana/Desgn",
+    "fullname": "Introduction to Finite Element Modeling, Analysis, and Design",
+    "info": "Finite elements as principal analysis tool in computer-aided design (CAD); theoretical issues and implementation aspects for modeling and analyzing engineering problems encompassing stress analysis, heat transfer, and flow problems for linear situations. One-, two-, and three-dimensional practical engineering applications.prereq: CSE upper div or grad, 3221, AEM 3031, CSci 1113, MatS 2001",
+    "prereq": {
+      "and": [
+        {
+          "code": "ME 3221",
+          "subject": "ME",
+          "id": "3221"
+        },
+        {
+          "code": "AEM 3031",
+          "subject": "AEM",
+          "id": "3031"
+        },
+        {
+          "code": "CSCI 1113",
+          "subject": "CSCI",
+          "id": "1113"
+        },
+        {
+          "code": "MATS 2001",
+          "subject": "MATS",
+          "id": "2001"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "818494",
+    "code": "ME5229",
+    "subject": "ME",
+    "number": "5229",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "FEM for Transient/Dynamic Appl",
+    "fullname": "Finite Element Method for Computational Mechanics: Transient/Dynamic Applications",
+    "info": "Computational mechanics involving transient/ dynamic situations for solids and structures, heat transfer, fluid flow, nano-mechanics and the like. Development and analysis of numerical methods and computational algorithms. Stability and accuracy of algorithms, convergence issues; linear/nonlinear situations. Implicit, explicit, mixed, and variable time discretization approaches; modal-based methods for engineering problems.CSE upper div or grad, CSCI 1113, ME 3221, ME 3333, ME 5228 or equiv",
+    "prereq": []
+  },
+  {
+    "uid": "005023",
+    "code": "ME5231",
+    "subject": "ME",
+    "number": "5231",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Dig/Ana Control Lab",
+    "fullname": "Digital and Analog Control Laboratory",
+    "info": "Lab experiments illustrate and apply control theory to mechanical engineering systems. Emphasis on real-life control design and implementation, including dynamic modeling, controller design, analysis and simulation, hardware implementation, measurement techniques, sensor calibration, data acquisition, and processing.",
+    "prereq": []
+  },
+  {
+    "uid": "004854",
+    "code": "ME5241",
+    "subject": "ME",
+    "number": "5241",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Comp Aided Engr",
+    "fullname": "Computer-Aided Engineering",
+    "info": "Apply computer-aided engineering to mechanical design. Engineering design projects and case studies using computer-aided design and finite element analysis software; design optimization and computer graphical presentation of results.prereq: 3222, CSci 1113 or equiv, CSE upper div or grad",
+    "prereq": {
+      "and": [
+        {
+          "code": "ME 3222",
+          "subject": "ME",
+          "id": "3222"
+        },
+        {
+          "code": "CSCI 1113",
+          "subject": "CSCI",
+          "id": "1113"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "004855",
+    "code": "ME5243",
+    "subject": "ME",
+    "number": "5243",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Adv Mech Design",
+    "fullname": "Advanced Mechanism Design",
+    "info": "Analytical methods of kinematic, dynamic, and kinetoelastodynamic analysis and synthesis of mechanisms.  Computerized design for function, path, and motion generation based on Burmeister theory.prereq: CSE upper div or grad, 3222 or equiv, basic kinematics and dynamics of machines; knowledge of CAD packages such as Pro-E recommended",
+    "prereq": {
+      "code": "ME 3222",
+      "subject": "ME",
+      "id": "3222"
+    }
+  },
+  {
+    "uid": "004856",
+    "code": "ME5247",
+    "subject": "ME",
+    "number": "5247",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Applied Stress Analysis",
+    "fullname": "Applied Stress Analysis",
+    "info": "Intermediate-level solid mechanics with application to common machine elements such as unsymmetrical beams, non-circular shafts and plates. Stress functions. Introduction to energy methods for stress analysis. Experimental methods for measuring strains and determining related stresses, with lab. prereq: AEM 3031, MatS 2001, ME 3221",
+    "prereq": {
+      "and": [
+        {
+          "code": "AEM 3031",
+          "subject": "AEM",
+          "id": "3031"
+        },
+        {
+          "code": "MATS 2001",
+          "subject": "MATS",
+          "id": "2001"
+        },
+        {
+          "code": "ME 3221",
+          "subject": "ME",
+          "id": "3221"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "004857",
+    "code": "ME5248",
+    "subject": "ME",
+    "number": "5248",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Vibration Engineering",
+    "fullname": "Vibration Engineering",
+    "info": "Apply vibration theory to design.  Optimize isolators, detuning mechanisms, and viscoelastic suspensions and structures. Use modal analysis methods to describe free vibration of complex systems, relating to both theoretical and test procedures.prereq: CSE upper div or grad, 3281",
+    "prereq": {
+      "code": "ME 3281",
+      "subject": "ME",
+      "id": "3281"
+    }
+  },
+  {
+    "uid": "004859",
+    "code": "ME5281",
+    "subject": "ME",
+    "number": "5281",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Feedback Control Systems",
+    "fullname": "Feedback Control Systems",
+    "info": "Continuous and discrete time feedback control systems. Frequency response, stability, poles and zeros; transient responses; Nyquist and Bode diagrams; root locus; lead-lag and PID compensators, Nichols-Ziegler design method. State-space modeling/control. Digital implementation. Computer-aided design and analysis of control systems.prereq: 3281",
+    "prereq": {
+      "code": "ME 3281",
+      "subject": "ME",
+      "id": "3281"
+    }
+  },
+  {
+    "uid": "005025",
+    "code": "ME5286",
+    "subject": "ME",
+    "number": "5286",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Robotics",
+    "fullname": "Robotics",
+    "info": "The course deals with two major components: robot manipulators (more commonly known as the robot arm) and image processing. Lecture topics covered under robot manipulators include their forward and inverse kinematics, the mathematics of homogeneous transformations and coordinate frames, the Jacobian and velocity control, task programming, computational issues related to robot control, determining path trajectories, reaction forces, manipulator dynamics, and control. Topics under computer vision include image sensors, digitization, preprocessing, thresholding, edge detection, segmentation, feature extraction, and classification techniques. A weekly 2 hr. laboratory lasting for 8-9 weeks, will provide students with practical experience using and programming robots; students will work in pairs and perform a series of experiments using a collaborative robot.prereq: [3281 or equiv], [upper div ME or AEM or CSci or grad student]",
+    "prereq": {
+      "code": "ME 3281",
+      "subject": "ME",
+      "id": "3281"
+    }
+  },
+  {
+    "uid": "004860",
+    "code": "ME5288",
+    "subject": "ME",
+    "number": "5288",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Mod & Sim of Dyn Sy",
+    "fullname": "Modeling and Simulation of Dynamic Systems",
+    "info": "Bond graphs as structured methodology for developing unified models of mechanical, electrical, magnetic, fluid, thermal, and hybrid systems. Causality and formulation of state-space equations. Analytical and numerical solution of equations of motion. Multiport fields, rigid body dynamics, and distributed parameter systems.",
+    "prereq": []
+  },
+  {
+    "uid": "798352",
+    "code": "ME5312",
+    "subject": "ME",
+    "number": "5312",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Solar Thermal Technologies",
+    "fullname": "Solar Thermal Technologies",
+    "info": "Solar radiation fundamentals. Measurement/processing needed to predict solar irradiance dependence on time, location, and orientation. Characteristics of components in solar thermal systems: collectors, heat exchangers, thermal storage. System performance, low-temperature applications.  Concentrating solar energy, including solar thermo-chemical processes, to produce hydrogen/solar power systems and photovoltaics. Solar design project.prereq: [3333, CSE upper Div] or grad student",
+    "prereq": {
+      "code": "ME 3333",
+      "subject": "ME",
+      "id": "3333"
+    }
+  },
+  {
+    "uid": "814523",
+    "code": "ME5332",
+    "subject": "ME",
+    "number": "5332",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Intermediate Fluid Mechanics",
+    "fullname": "Intermediate Fluid Mechanics",
+    "info": "Bridge between introductory fluid mechanics and advanced graduate level course. Principles of incompressible and compressible flows, boundary layer theory, and analysis using differential formulations of the governing conservation equations. Analysis of phenomena relevant to the practice of engineering is emphasized through problem solving. prereq: ME 3332, Admitted to upper division/ME major or graduate student",
+    "prereq": {
+      "code": "ME 3332",
+      "subject": "ME",
+      "id": "3332"
+    }
+  },
+  {
+    "uid": "005042",
+    "code": "ME5341",
+    "subject": "ME",
+    "number": "5341",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Thermal Design",
+    "fullname": "Case Studies in Thermal Engineering and Design",
+    "info": "Characteristics of applied heat transfer problems. Nature of problem specification, incompleteness of needed knowledge base, accuracy issues. Categories of applied heat transfer problems.prereq: 3333, CSE upper div or grad student",
+    "prereq": {
+      "code": "ME 3333",
+      "subject": "ME",
+      "id": "3333"
+    }
+  },
+  {
+    "uid": "016605",
+    "code": "ME5344",
+    "subject": "ME",
+    "number": "5344",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Thermo of Fluid Flow with App",
+    "fullname": "Thermodynamics of Fluid Flow With Applications",
+    "info": "Conservation of mass, momentum, energy. Relevant thermodynamic properties. Nozzles, diffusers, thrust producers, shocks. Fluid-wall frictional interactions. Wall heat transfer, internal heat release. Temperature recovery. Mass addition. prereq: ME 3331, ME 3332, completed, or concurrent registration in ME 3333; admitted to upper division/ME major or grad student",
+    "prereq": {
+      "and": [
+        {
+          "code": "ME 3331",
+          "subject": "ME",
+          "id": "3331"
+        },
+        {
+          "code": "ME 3332",
+          "subject": "ME",
+          "id": "3332"
+        },
+        {
+          "code": "ME 3333",
+          "subject": "ME",
+          "id": "3333"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "005043",
+    "code": "ME5348",
+    "subject": "ME",
+    "number": "5348",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Elect Heat Transfer",
+    "fullname": "Heat Transfer in Electronic Equipment",
+    "info": "Technology trends and packaging needs of microelectronic components. Thermal characteristics, heat transfer mechanisms, thermal failure modes of electronic/microelectronic equipment. Reliability prediction. Thermal stress/strain in layered structures and solder joints.",
+    "prereq": []
+  },
+  {
+    "uid": "006525",
+    "code": "ME5351",
+    "subject": "ME",
+    "number": "5351",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Computational HT",
+    "fullname": "Computational Heat Transfer",
+    "info": "Numerical solution of heat conduction/analogous physical processes. Develop/use computer program to solve complex problems involving steady/unsteady heat conduction, flow/heat transfer in ducts, flow in porous media.prereq: 3333, CSE upper div or grad student",
+    "prereq": {
+      "code": "ME 3333",
+      "subject": "ME",
+      "id": "3333"
+    }
+  },
+  {
+    "uid": "005044",
+    "code": "ME5361",
+    "subject": "ME",
+    "number": "5361",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Plasma-Aided Manuf",
+    "fullname": "Plasma-Aided Manufacturing",
+    "info": "Properties of plasmas as a processing medium, process control and system design considerations using specific examples of plasma spray coating, welding, and microelectronics processing.  ",
+    "prereq": []
+  },
+  {
+    "uid": "005045",
+    "code": "ME5381",
+    "subject": "ME",
+    "number": "5381",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Biotransport",
+    "fullname": "Biological Transport Processes",
+    "info": "Fluid, mass, and heat transport in biological systems. Mass transfer across membranes, fluid flow in capillaries, interstitium, veins and arteries. Biotransport issues in single cells and tissues, artificial organs, membrane oxygenators, and drug delivery applications.",
+    "prereq": []
+  },
+  {
+    "uid": "005225",
+    "code": "ME5446",
+    "subject": "ME",
+    "number": "5446",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Introduction to Combustion",
+    "fullname": "Introduction to Combustion",
+    "info": "Thermodynamics, kinetics, energy and mass transport, pollutants in reacting systems. Reactors, laminar, and turbulent flames. Ignition, quenching, and flame stability. Diffusion flames. Combustion in reciprocating engines, furnaces, and turbines, with emphasis on internal combustion engine performance and emissions.prereq: 3331, 3332, 3333, CSE upper div or grad student; concurrent registration with 3333 is allowed with instructor consent",
+    "prereq": {
+      "and": [
+        {
+          "code": "ME 3331",
+          "subject": "ME",
+          "id": "3331"
+        },
+        {
+          "code": "ME 3332",
+          "subject": "ME",
+          "id": "3332"
+        },
+        {
+          "code": "ME 3333",
+          "subject": "ME",
+          "id": "3333"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "005037",
+    "code": "ME5461",
+    "subject": "ME",
+    "number": "5461",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Int Comb Engines",
+    "fullname": "Internal Combustion Engines",
+    "info": "Basic spark ignition and diesel engine principles, air, fuel-air and actual engine cycles, cycle modeling, combustion and emissions, knock phenomena, air flow and volumetric efficiency, mixture requirements, ignition requirements and performance. Lectures/complementary labs.prereq: CSE upper div or grad student, C or better in [3332, 3333] or 3324",
+    "prereq": {
+      "and": [
+        {
+          "and": [
+            {
+              "code": "ME 3332",
+              "subject": "ME",
+              "id": "3332"
+            },
+            {
+              "code": "ME 3333",
+              "subject": "ME",
+              "id": "3333"
+            }
+          ]
+        },
+        {
+          "code": "ME 3324",
+          "subject": "ME",
+          "id": "3324"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "005226",
+    "code": "ME5462",
+    "subject": "ME",
+    "number": "5462",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Gas Turbines",
+    "fullname": "Gas Turbines",
+    "info": "Gas turbine cycles, regeneration, recuperation, reheat, intercooling, combined cycle plants, and thermochemical regeneration. Axial and radial flow compressors and turbines; combustor designs, energy analysis, emissions, and noise. Turbojet, fanjet, turboprop engine performance.  Stationary power plants, vehicular propulsion, hybrid vehicles.\n\nprereq: 3331, 3332, 3333, CSE upper div or grad student",
+    "prereq": {
+      "and": [
+        {
+          "code": "ME 3331",
+          "subject": "ME",
+          "id": "3331"
+        },
+        {
+          "code": "ME 3332",
+          "subject": "ME",
+          "id": "3332"
+        },
+        {
+          "code": "ME 3333",
+          "subject": "ME",
+          "id": "3333"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "809929",
+    "code": "ME5465",
+    "subject": "ME",
+    "number": "5465",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Energy-Res, Tech & Soc",
+    "fullname": "Energy-Resources, Technology and Society",
+    "info": "Scientific/technological underpinnings described/analyzed for 21st Century. Energy systems analysis, energy conversion technologies, availability analysis, renewable/non-renewable resources, environmental impacts, societal impacts of energy use patterns/energy policies.prereq: 3333, [CSE upper division or grad]",
+    "prereq": {
+      "code": "ME 3333",
+      "subject": "ME",
+      "id": "3333"
+    }
+  },
+  {
+    "uid": "801249",
+    "code": "ME5666",
+    "subject": "ME",
+    "number": "5666",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Modern Thermodynamics",
+    "fullname": "Modern Thermodynamics",
+    "info": "Applications of thermodynamics to natural phenomena. Multiscale approach. Student group projects, with undergrads and grad students in same group. Three hours/week classroom instruction, one hour/week project discussion. Project presentations at weeks 8 and 14 are webcast.prereq: 3331 or equiv",
+    "prereq": {
+      "code": "ME 3331",
+      "subject": "ME",
+      "id": "3331"
+    }
+  },
+  {
+    "uid": "808028",
+    "code": "ME8001",
+    "subject": "ME",
+    "number": "8001",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Research Ethics",
+    "fullname": "Research Ethics and Professional Practice",
+    "info": "Intellectual property, data management, social responsibility, authorship, and plagiarism, conflict of interest, and reporting misconduct. Case studies. Recent newspaper articles. ",
+    "prereq": []
+  },
+  {
+    "uid": "825605",
+    "code": "ME8111",
+    "subject": "ME",
+    "number": "8111",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Multiphase Systems Analysis",
+    "fullname": "Multiphase Systems Analysis",
+    "info": "This course provides an introduction to the physical behavior of multiphase systems, including aerosols, granular systems, colloids, sprays, foams, dusty plasmas, and emulsions.  The course emphasis is on developing fundamental relationships that describe how the behavior of one phase is influenced by its interaction with the other phase.  The course will be divided into four sections. In the first, transport of dilute systems of rigid particles in a gaseous or liquid medium is examined at the single particle level.  Students will be taught how to construct and numerically solve Lagrangian particle tracking models with one-way coupling and will be provided with codes to compute the free molecular drag force on particles of arbitrary shape (IMoS).  In the second section, the course will discuss dense dispersed media, including effective medium approximations to describe thermal and electrical transport in complex systems, an introduction to foams and unit cells, flow in porous media, and granular systems (four-way coupled systems).  In the third section, the course will return to dilute systems, but wherein the dispersed phase is deformable (droplets).  Topics will include droplet behavior on a surface (wetting and line tension), an introduction to emulsions, droplet-droplet coalescence, and atomization processes.  The fourth and final section of the course, phase change and multiphase system formation will be introduced, including the kinetics of nucleation of condensed phase material in a gas, as well as solid (ice) formation in a liquid.  The overarching goal of the course is to prepare PhD and MS students to be able to address research level questions experimentally, numerically, and theoretically in their studies beyond the course.",
+    "prereq": []
+  },
+  {
+    "uid": "007655",
+    "code": "ME8113",
+    "subject": "ME",
+    "number": "8113",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Aerosol Engineering",
+    "fullname": "Advanced Aerosol/Particle Engineering",
+    "info": "Introduction to kinetic theory, definition, theory, and measurement of particle properties; elementary particle mechanics, particle statistics; Brownian motion and diffusion, coagulation, evaporation and condensation, sampling, and transport.prereq: CSE grad student or instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "007403",
+    "code": "ME8221",
+    "subject": "ME",
+    "number": "8221",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "NPDBD-I",
+    "fullname": "New Product Design and Business Development I",
+    "info": "Students and faculty work with company representatives to develop a product concept, a working physical prototype, and an extensive business plan. Concept design, detail design, manufacturing, marketing, introduction strategy, and profit forecasting. Sponsoring company intends to bring product to market. ME 8222 must be taken in sequence the same year.prereq: CSE grad student, some design experience",
+    "prereq": []
+  },
+  {
+    "uid": "007404",
+    "code": "ME8222",
+    "subject": "ME",
+    "number": "8222",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "NPDBD-II",
+    "fullname": "New Product Design and Business Development II",
+    "info": "Students and faculty work with company representatives to develop a product concept, a working physical prototype, and an extensive business plan. Concept design, detail design, manufacturing, marketing, introduction strategy, and profit forecasting. Sponsoring company intends to bring product to market. Must be taken in sequence with 8221 the same year.prereq: 8221",
+    "prereq": {
+      "code": "ME 8221",
+      "subject": "ME",
+      "id": "8221"
+    }
+  },
+  {
+    "uid": "007405",
+    "code": "ME8228",
+    "subject": "ME",
+    "number": "8228",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Flow/Thermal/Stress",
+    "fullname": "Finite Elements in Multidisciplinary Flow/Thermal/Stress and Manufacturing Applications",
+    "info": "Multidisciplinary and coupled effects involving flow/heat transfer/stress. In-depth understanding of modeling and analysis in each discipline. Coupling multi-disciplines for engineering problems. Applications to manufacturing and process modeling of, e.g., metals, alloys, polymers.prereq: 3222, 5341, AEM 3031, CSci 1113",
+    "prereq": {
+      "and": [
+        {
+          "code": "ME 3222",
+          "subject": "ME",
+          "id": "3222"
+        },
+        {
+          "code": "ME 5341",
+          "subject": "ME",
+          "id": "5341"
+        },
+        {
+          "code": "AEM 3031",
+          "subject": "AEM",
+          "id": "3031"
+        },
+        {
+          "code": "CSCI 1113",
+          "subject": "CSCI",
+          "id": "1113"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "007406",
+    "code": "ME8229",
+    "subject": "ME",
+    "number": "8229",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "FE for Comp Mech",
+    "fullname": "Finite Element Methods for Computational Mechanics: Transient/Dynamic Problems",
+    "info": "Computational mechanics involving transient or dynamic situations; development and analysis of computational algorithms. Stability and accuracy of algorithms, convergence issues; linear/nonlinear situations. Implicit, explicit, mixed, and variable time discretization approaches; modal-based methods for engineering problemsprereq: 5228 or equiv, 5341, AEM 3031, CSci 1113",
+    "prereq": {
+      "and": [
+        {
+          "code": "ME 5228",
+          "subject": "ME",
+          "id": "5228"
+        },
+        {
+          "code": "ME 5341",
+          "subject": "ME",
+          "id": "5341"
+        },
+        {
+          "code": "AEM 3031",
+          "subject": "AEM",
+          "id": "3031"
+        },
+        {
+          "code": "CSCI 1113",
+          "subject": "CSCI",
+          "id": "1113"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "007407",
+    "code": "ME8243",
+    "subject": "ME",
+    "number": "8243",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Topics in Design",
+    "fullname": "Topics in Design: Advanced Materials",
+    "info": "Topics vary with each offering.",
+    "prereq": []
+  },
+  {
+    "uid": "798495",
+    "code": "ME8253",
+    "subject": "ME",
+    "number": "8253",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Comp. Nanomechanics",
+    "fullname": "Computational Nanomechanics",
+    "info": "Fundamentals of mechanical properties in nanometer scale. Role of discrete structure and underlying atomic, molecular, and interfacial forces are illustrated with modern examples. Overview of computational atomistic methods. Lectures, hands-on computing using publicly available or personally developed scientific software packages.prereq: CSE grad student",
+    "prereq": []
+  },
+  {
+    "uid": "798528",
+    "code": "ME8254",
+    "subject": "ME",
+    "number": "8254",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Fundamentals of MEMS",
+    "fullname": "Fundamentals of Microelectromechanical Systems (MEMS)",
+    "info": "Major classes, components, and applications of MEMS. Principles behind operation of MEMS devices/ systems. Standard microfabrication techniques. Unique requirements, environments, and applications of MEMS. Students apply microfabrication techniques/applications to design/manufacture of a MEMS device or microsystem.",
+    "prereq": []
+  },
+  {
+    "uid": "817284",
+    "code": "ME8255",
+    "subject": "ME",
+    "number": "8255",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Introduction to Nanotechnology",
+    "fullname": "Introduction to Nanotechnology",
+    "info": "This course covers a broad range of subjects introducing students to the science and technology of nanoscale materials. This includes from fundamental principles, to synthesizing and characterizing nanomaterials, to incorporating them into advanced manufacturing processes and hybrid nano-bio systems. Indeed, establishing a critical scientific understanding of properties at the nanoscale will ultimately enable a variety of next-generation devices. The focus of this course thus is on the fundamental techniques necessary for investigations at small dimensions, and the very latest research developments in this rapidly evolving field.",
+    "prereq": []
+  },
+  {
+    "uid": "007408",
+    "code": "ME8262",
+    "subject": "ME",
+    "number": "8262",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Topics in Mfg Processes",
+    "fullname": "Topics in Modeling and Analysis of Manufacturing Processes",
+    "info": "Advanced topics in Manufacturing. Analytical/numerical modeling of manufacturing processes. Use of computer-based modeling tools and computer controlled manufacturing machines. Comparison of predictions/measurements of process variables and part characteristics. Part production/testing. Processes, technologies, and topics vary with each offering.prereq: 3221, AEM 3016",
+    "prereq": {
+      "and": [
+        {
+          "code": "ME 3221",
+          "subject": "ME",
+          "id": "3221"
+        },
+        {
+          "code": "AEM 3016",
+          "subject": "AEM",
+          "id": "3016"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "004858",
+    "code": "ME8268",
+    "subject": "ME",
+    "number": "8268",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Prop Fab Plastics",
+    "fullname": "Properties and Fabrication of Plastics and Composites",
+    "info": "Materials, equipment, and processes. Principles of product and tool design. Hydraulic and temperature circuit control for equipment.prereq: 3221, AEM 3031, MatS 2001",
+    "prereq": {
+      "and": [
+        {
+          "code": "ME 3221",
+          "subject": "ME",
+          "id": "3221"
+        },
+        {
+          "code": "AEM 3031",
+          "subject": "AEM",
+          "id": "3031"
+        },
+        {
+          "code": "MATS 2001",
+          "subject": "MATS",
+          "id": "2001"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "007410",
+    "code": "ME8281",
+    "subject": "ME",
+    "number": "8281",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Adv Control System Des-1",
+    "fullname": "Advanced Control System Design-1",
+    "info": "Loop Shaping. Review of controllability/observability. LQR/LQG/LTR. Repetitive control. Input shaping. Tracking control (feedforward, precompensation). Lyapunov stability. System identification.prereq: 5281",
+    "prereq": {
+      "code": "ME 5281",
+      "subject": "ME",
+      "id": "5281"
+    }
+  },
+  {
+    "uid": "790821",
+    "code": "ME8282",
+    "subject": "ME",
+    "number": "8282",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Adv Control Systems Design-2",
+    "fullname": "Advanced Control Systems Design-2",
+    "info": "Introduction to nonlinear systems, bifurcations, chaos, Lyapunov stability. Input-output stability (circle theorem, passivity, Lure'). Input-output and input-state feedback linearization. Lyapunov-based design. Sliding surface control, dynamic surface control. Parameter identification (least squares, gradient, etc). Lyapunov-based adaptive control, integrator back-stepping, singular perturbations.prereq: 5281",
+    "prereq": {
+      "code": "ME 5281",
+      "subject": "ME",
+      "id": "5281"
+    }
+  },
+  {
+    "uid": "817291",
+    "code": "ME8283",
+    "subject": "ME",
+    "number": "8283",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Design of Mechatronic Products",
+    "fullname": "Design of Mechatronic Products",
+    "info": "The purpose of this course is for advanced mechanical engineering students to gain additional mechatronic skills by learning how to use microcontrollers to implement control systems in the context of a practical product or device. Embedded microcontrollers are ubiquitous in modern products from washing machines to cell phones to automobiles to space rockets. Knowing how to design and program microcontrollers, how to interface microcontrollers to sensors and actuators, and how to implement control algorithms on a microcontroller is an important skill for the modern control system design engineer.  The course is hands-on and follows a learn by doing approach. Students spend 1/3 the course in a microcontroller boot camp and 2/3 on a substantial microcontroller project. The lectures cover didactic material related to microcontrollers, sensors, actuators, electronics circuit design and fabrication and control algorithm implementation.prereq: An introductory system dynamics and controls course or permission of instructor.  ",
+    "prereq": []
+  },
+  {
+    "uid": "804149",
+    "code": "ME8285",
+    "subject": "ME",
+    "number": "8285",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Control Systems for Vehicle",
+    "fullname": "Control Systems for Intelligent Vehicle Applications",
+    "info": "This course focuses on a study of several advanced control design techniques and their applications to smart vehicles. The control system topics studied include lead and lag compensator design, loop shaping, analysis of system norms, H2-optimal control, feedback linearization, sliding surface control, and observer design. The vehicle application topics studied include cruise control, adaptive cruise control, automated lane keeping, automated highway systems, yaw stability control, active rollover prevention, engine control, and active and semi-active suspensions. In each application, a dynamic model is first developed that is simple enough for control system design, but at the same time, rich enough for capturing the essential features of the dynamics. The control design for each application is studied in-depth during lecture and further analyzed during hands-on homework.prereq: 5281 or EE 5231 or equiv",
+    "prereq": {
+      "or": [
+        {
+          "code": "ME 5281",
+          "subject": "ME",
+          "id": "5281"
+        },
+        {
+          "code": "EE 5231",
+          "subject": "EE",
+          "id": "5231"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "007411",
+    "code": "ME8287",
+    "subject": "ME",
+    "number": "8287",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Topics in Dynamics & Control",
+    "fullname": "Topics in Dynamics and Control",
+    "info": "Topics Course in Dynamics and Control",
+    "prereq": []
+  },
+  {
+    "uid": "814568",
+    "code": "ME8332",
+    "subject": "ME",
+    "number": "8332",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Advanced Fluid Dynamics",
+    "fullname": "Advanced Fluid Dynamics in Mechanical Engineering",
+    "info": "Advanced fluid dynamics course addressing the theory and applications of fluid flows pertinent to mechanical engineering. The course focuses on the physical phenomena, mathematical formulations, and advanced problem-solving techniques for flows ranging from microscale flows to turbulence, with examples from mechanical engineering practice. Prerequisite an intermediate fluid mechanics course or permission of instructor.",
+    "prereq": []
+  },
+  {
+    "uid": "788241",
+    "code": "ME8333",
+    "subject": "ME",
+    "number": "8333",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "FTE: Master's",
+    "fullname": "FTE: Master's",
+    "info": "(No description)prereq: Master's student, adviser and DGS consent",
+    "prereq": []
+  },
+  {
+    "uid": "007656",
+    "code": "ME8337",
+    "subject": "ME",
+    "number": "8337",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Exp Methods: Thermal Sciences",
+    "fullname": "Experimental Methods in the Thermal Sciences",
+    "info": "The course will provide fundamentals on optics theory and optical instruments for students to understand and implement cutting-edge optical diagnostic tools, and to design optical methods for measurements in fluid and thermal sciences. The course will cover commonly used optical measurement techniques including particle image/tracking velocimetry, laser induced fluorescence, Schlieren photography, and digital holography.",
+    "prereq": []
+  },
+  {
+    "uid": "007657",
+    "code": "ME8339",
+    "subject": "ME",
+    "number": "8339",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Optical Diag",
+    "fullname": "Optical Diagnostics of Flow Systems",
+    "info": "Overview of ray, wave, and quantum principles of light; capabilities and limitations of various diagnostics. Propagation and imaging properties of lenses; interference phenomena; diffraction; light scattering; laser- and phase-Doppler anemometry; introduction to emission and absorption spectroscopy.",
+    "prereq": []
+  },
+  {
+    "uid": "007659",
+    "code": "ME8341",
+    "subject": "ME",
+    "number": "8341",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Conduction",
+    "fullname": "Conduction",
+    "info": "Advanced understanding/application of conduction/diffusion to heat/mass transfer problems. Solving ordinary/partial differential equations related to physics of diffusion. Special topics in numerical microscale heat transfer.prereq: Undergrad class in heat transfer or instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "790801",
+    "code": "ME8342",
+    "subject": "ME",
+    "number": "8342",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Convection",
+    "fullname": "Convection",
+    "info": "Heat transfer in fluids flowing around bodies and in tubes/ducts. Forced/natural convection. Laminar/turbulent flow regimes. Turbulent transport and modeling. High-speed flows, viscous dissipation, variable property effects. Application to heat exchange devices. Convective mass transfer.prereq: Grad level course on fundamentals of fluid mechanics that has a substantial component on viscous flows or instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "007666",
+    "code": "ME8343",
+    "subject": "ME",
+    "number": "8343",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Radiation",
+    "fullname": "Radiation",
+    "info": "Advanced radiation heat transfer problems. Physics foundation for radiation. Materials properties. Radiation transfer problems. Solution methods for integro-differential equations. Statistical methods. Multi-mode heat transfer.prereq: Undergrad class in heat transfer or instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "007667",
+    "code": "ME8344",
+    "subject": "ME",
+    "number": "8344",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Boiling H T",
+    "fullname": "Boiling Heat Transfer and Two-Phase Flow",
+    "info": "Phenomena pertaining to ebullient heat transfer and two-phase flow; superheat, nucleation, bubble characteristics and dynamics, nucleate boiling, interfacial transport, critical heat flux, dryout, film boiling; flow patterns in two-phase flow, void fraction, pressure drop.",
+    "prereq": []
+  },
+  {
+    "uid": "007668",
+    "code": "ME8345",
+    "subject": "ME",
+    "number": "8345",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Comp HT and FF",
+    "fullname": "Computational Heat Transfer and Fluid Flow",
+    "info": "Finite volume method for solution of governing equations for heat transfer and fluid flow. Mathematical models of turbulence. Construction of general computer program. Practical applications.prereq: CSE grad student",
+    "prereq": []
+  },
+  {
+    "uid": "007669",
+    "code": "ME8346",
+    "subject": "ME",
+    "number": "8346",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Radiation",
+    "fullname": "Radiation Heat Transfer",
+    "info": "Fundamentals of processes and solution methods to selected radiation exchange problems. Specific applications include radiation exchange between surfaces, lighting, radiation transfer in semitransparent media and in participating media.",
+    "prereq": []
+  },
+  {
+    "uid": "809814",
+    "code": "ME8350",
+    "subject": "ME",
+    "number": "8350",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Heat Transfer Physics",
+    "fullname": "Heat Transfer Physics",
+    "info": "Physical fundamentals of storage, transport, transformation of thermal energy by energy carriers. Phonons, electrons, fluid particles, photons. Physical mechanisms, multiple time scales. Heat transfer processes. Atomic-molecular dynamics, solid state physics, electromagnetism, quantum optics.prereq: CSE grad student",
+    "prereq": []
+  },
+  {
+    "uid": "007670",
+    "code": "ME8361",
+    "subject": "ME",
+    "number": "8361",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Molecular Gas Dynamics",
+    "fullname": "Molecular Gas Dynamics",
+    "info": "Kinetic theory of gases, Boltzmann equation, Maxwell-Boltzmann distribution, collisions, transport properties. Introduction to quantum mechanics. Statistical thermodynamics, classical/quantum statistics. partition functions and thermodynamic properties. Irreversible thermodynamics.prereq: CSE grad student",
+    "prereq": []
+  },
+  {
+    "uid": "007672",
+    "code": "ME8362",
+    "subject": "ME",
+    "number": "8362",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Intro to Plasma Technology",
+    "fullname": "Introduction to Plasma Technology",
+    "info": "Fundamentals of gaseous plasmas. Thermal/nonequilibrium plasmas.  Types of plasma generation. Electron energy distribution function. Sheaths, glow discharges, electric arcs, RF plasmas. Steady/unsteady plasmas. Plasma heat transfer. Plasma diagnostics.prereq: 8361",
+    "prereq": {
+      "code": "ME 8361",
+      "subject": "ME",
+      "id": "8361"
+    }
+  },
+  {
+    "uid": "818290",
+    "code": "ME8363",
+    "subject": "ME",
+    "number": "8363",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Reacting Flow",
+    "fullname": "Introduction to Reactive Flow Systems",
+    "info": "This is an advanced graduate level course that covers the basics of reactive flow systems pertinent to mechanical engineering. After the introduction/review of the fundamentals of collisions, chemical kinetics, reactions and relevant aspects of basic physical chemistry, the course focuses on reaction kinetics and transport phenomena in reactive flow systems. It will introduce modeling approaches of zero and one dimensional reaction kinetics systems and diagnostics to measure the chemical and transport properties of reactive flow systems. The fundamentals and approaches introduced in this course will be applied to examples of reactive flow systems from mechanical engineering practice including both gas phase and multiphase systems (solid-gas and liquid-gas). prereq: ME 8361 is a co-prerequisite and can be taken in parallel with ME 8361",
+    "prereq": {
+      "code": "ME 8361",
+      "subject": "ME",
+      "id": "8361"
+    }
+  },
+  {
+    "uid": "789296",
+    "code": "ME8381",
+    "subject": "ME",
+    "number": "8381",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Bioheat",
+    "fullname": "Bioheat and Mass Transfer",
+    "info": "Analytical/numerical tools to analyze heat/mass transfer phenomenon in cryobiological, hyperthermic, other biomedically relevant applications.prereq: CSE grad student, upper-division transport/fluids course; [physics, biology] recommended",
+    "prereq": []
+  },
+  {
+    "uid": "792290",
+    "code": "ME8390",
+    "subject": "ME",
+    "number": "8390",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Topics: Thermal Sciences",
+    "fullname": "Advanced Topics in the Thermal Sciences : Biostabilization in Biomedicine, and Biotechnology",
+    "info": "Topics vary according to instructor.",
+    "prereq": []
+  },
+  {
+    "uid": "788376",
+    "code": "ME8444",
+    "subject": "ME",
+    "number": "8444",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "FTE: Doctoral",
+    "fullname": "FTE: Doctoral",
+    "info": "(No description)prereq: Doctoral student, adviser and DGS consent",
+    "prereq": []
+  },
+  {
+    "uid": "007674",
+    "code": "ME8446",
+    "subject": "ME",
+    "number": "8446",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Adv Combustion",
+    "fullname": "Advanced Combustion",
+    "info": "Fundamental understanding of linkage between thermodynamics, chemical kinetics, and transport phenomena in combustion systems. Heat release rate, flame stability, and emissions. How those issues arise in furnaces, internal combustion engines, and rockets.prereq: Undergrad courses in thermodynamics, fluid mechanics, heat transfer, IT grad student; 5446 or 8641 highly recommended",
+    "prereq": {
+      "and": [
+        {
+          "code": "ME 5446",
+          "subject": "ME",
+          "id": "5446"
+        },
+        {
+          "code": "ME 8641",
+          "subject": "ME",
+          "id": "8641"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "010941",
+    "code": "ME8462",
+    "subject": "ME",
+    "number": "8462",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Turbomachinery",
+    "fullname": "Turbomachinery",
+    "info": "Thermodynamic analysis of energy transfer between fluid and rotor; dimensional analysis; principles of axial, mixed, and radial flow pumps, fans, compressors, and turbines; cascade performance; computer flow simulations; applications to propulsion systems and power plants.prereq: CSE grad student, 3321, 3322 or equiv or instr consent",
+    "prereq": {
+      "and": [
+        {
+          "code": "ME 3321",
+          "subject": "ME",
+          "id": "3321"
+        },
+        {
+          "code": "ME 3322",
+          "subject": "ME",
+          "id": "3322"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "007661",
+    "code": "ME8641",
+    "subject": "ME",
+    "number": "8641",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Statistical Thermo",
+    "fullname": "Statistical and Non-Equilibrium Thermodynamics",
+    "info": "Statistical approaches for calculating transport coefficients and deriving basic statistical laws. Statistical and probability theorems, kinetic gas theory, and distribution of molecular velocities; Boltzmann, Bose-Einstein, and Fermi-Dirac statistics and their applications. Chemical reactions and systems; irreversible thermodynamics.",
+    "prereq": []
+  },
+  {
+    "uid": "007658",
+    "code": "ME8642",
+    "subject": "ME",
+    "number": "8642",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Adv Thermo",
+    "fullname": "Advanced Thermodynamics",
+    "info": "Macroscopic (classical) thermodynamics. Applications of second law, properties of mixtures (ideal and non-ideal), chemical thermodynamics, and thermodynamics of compressible flows.",
+    "prereq": []
+  },
+  {
+    "uid": "789701",
+    "code": "ME8646",
+    "subject": "ME",
+    "number": "8646",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Reacting Flows",
+    "fullname": "Reacting Flows",
+    "info": "Introduction to simple methods for thermophysical data estimation. Principles/application of chemical kinetics. Simulation of  homogeneous/heterogeneous kinetics, including transport. Principles applied to problems in combustion and materials processing (CVD, plasma processing) through computer exercises employing CHEMKIN suite of programs.",
+    "prereq": []
+  },
+  {
+    "uid": "788498",
+    "code": "ME8666",
+    "subject": "ME",
+    "number": "8666",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Doct Pre-Thesis Cr",
+    "fullname": "Doctoral Pre-Thesis Credits",
+    "info": "TBDprereq: Doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
+    "prereq": []
+  },
+  {
+    "uid": "792006",
+    "code": "ME8772",
+    "subject": "ME",
+    "number": "8772",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Graduate Seminar: Adv. Trans.",
+    "fullname": "Advanced Transportation Technologies Seminar",
+    "info": "Advanced technologies specifically related to transportation. Topics draw from core science/technology areas of human factors, intelligent vehicles, traffic modeling/management, sensing, communications, and controls.",
+    "prereq": []
+  },
+  {
+    "uid": "007164",
+    "code": "ME8773",
+    "subject": "ME",
+    "number": "8773",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Graduate Seminar",
+    "fullname": "Graduate Seminar",
+    "info": "Recent developments.prereq: CSE grad student",
+    "prereq": []
+  },
+  {
+    "uid": "007165",
+    "code": "ME8774",
+    "subject": "ME",
+    "number": "8774",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Graduate Seminar",
+    "fullname": "Graduate Seminar",
+    "info": "Recent developments.prereq: 8773",
+    "prereq": {
+      "code": "ME 8773",
+      "subject": "ME",
+      "id": "8773"
+    }
+  },
+  {
+    "uid": "015451",
+    "code": "ME8775",
+    "subject": "ME",
+    "number": "8775",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Technical Communication",
+    "fullname": "Technical Communication",
+    "info": "One-day workshop on presenting a seminar. Students deliver one-hour seminar on technical topic and attend nine other technical seminars.",
+    "prereq": []
+  },
+  {
+    "uid": "788626",
+    "code": "ME8777",
+    "subject": "ME",
+    "number": "8777",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Thesis Credit:Mast*",
+    "fullname": "Thesis Credits: Master's",
+    "info": "(No description)prereq: Max 18 cr per semester or summer; 10 cr total required [Plan A only]",
+    "prereq": []
+  },
+  {
+    "uid": "007173",
+    "code": "ME8794",
+    "subject": "ME",
+    "number": "8794",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Mech Eng Research",
+    "fullname": "Mechanical Engineering Research",
+    "info": "Directed research.prereq: instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "007172",
+    "code": "ME8800",
+    "subject": "ME",
+    "number": "8800",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Modern Dev in Mechanical Eng",
+    "fullname": "Modern Developments in Mechanical Engineering",
+    "info": "Seminars on topics in engineering science of importance to mechanical engineers. Invited scholars deliver five-lecture series on each topic; two to five topics each semester.prereq: CSE grad student",
+    "prereq": []
+  },
+  {
+    "uid": "787893",
+    "code": "ME8888",
+    "subject": "ME",
+    "number": "8888",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Thesis Credit:Doct*",
+    "fullname": "Thesis Credit: Doctoral",
+    "info": "(No description)prereq: Max 18 cr per semester or summer; 24 cr required",
+    "prereq": []
+  },
+  {
+    "uid": "792385",
+    "code": "ME8951",
+    "subject": "ME",
+    "number": "8951",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Plan B",
+    "fullname": "Plan B",
+    "info": "Structured framework for completing MS Plan B projects.",
+    "prereq": []
+  },
+  {
+    "uid": "792467",
+    "code": "ME8953",
+    "subject": "ME",
+    "number": "8953",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Plan B",
+    "fullname": "Plan B",
+    "info": "Structured environment in which students can complete a M.S. Plan B project.",
+    "prereq": []
+  },
+  {
+    "uid": "806672",
+    "code": "ME8990",
+    "subject": "ME",
+    "number": "8990",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Curricular Practical Training",
+    "fullname": "Curricular Practical Training",
+    "info": "Industrial work assignment involving advanced mechanical engineering. Review/approval by faculty member and director of graduate studies. Final report covering work assignment.",
+    "prereq": []
+  }
+]

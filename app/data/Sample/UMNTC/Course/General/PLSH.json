@@ -1,0 +1,170 @@
+[
+  {
+    "uid": "007409",
+    "code": "PLSH1101",
+    "subject": "PLSH",
+    "number": "1101",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Beginning Polish",
+    "fullname": "Beginning Polish",
+    "info": "Develop basic proficiency in listening, speaking, reading, and writing and become acquainted with Polish culture. First of four courses designed to satisfy CLA language graduation requirement.",
+    "prereq": []
+  },
+  {
+    "uid": "007412",
+    "code": "PLSH1102",
+    "subject": "PLSH",
+    "number": "1102",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Beginning Polish",
+    "fullname": "Beginning Polish",
+    "info": "Develop basic proficiency in listening, speaking, reading and writing and to acquaint students with Polish culture. Second of four courses designed to satisfy CLA language graduation requirement.prereq: 1101 or equiv",
+    "prereq": {
+      "code": "PLSH 1101",
+      "subject": "PLSH",
+      "id": "1101"
+    }
+  },
+  {
+    "uid": "007413",
+    "code": "PLSH3001",
+    "subject": "PLSH",
+    "number": "3001",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Intermediate Polish",
+    "fullname": "Intermediate Polish",
+    "info": "Conversation, composition, advanced grammar, translation, and readings in appropriate literature. Third of four courses designed to satisfy CLA language graduation requirement.prereq: 1102 or equiv",
+    "prereq": {
+      "code": "PLSH 1102",
+      "subject": "PLSH",
+      "id": "1102"
+    }
+  },
+  {
+    "uid": "007414",
+    "code": "PLSH3002",
+    "subject": "PLSH",
+    "number": "3002",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Intermediate Polish",
+    "fullname": "Intermediate Polish",
+    "info": "Conversation, composition, advanced grammar, translation, and readings in appropriate literature. Fourth in a sequence of courses designed to satisfy CLA language graduation requirement.prereq: 3001 or equiv",
+    "prereq": {
+      "code": "PLSH 3001",
+      "subject": "PLSH",
+      "id": "3001"
+    }
+  },
+  {
+    "uid": "007415",
+    "code": "PLSH3601",
+    "subject": "PLSH",
+    "number": "3601",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Surv of Plsh Lit",
+    "fullname": "Survey of Polish Literature: Baroque through Romanticism",
+    "info": "Reading and analysis of major works of Polish literature from Baroque through Romanticism.",
+    "prereq": []
+  },
+  {
+    "uid": "007416",
+    "code": "PLSH3602",
+    "subject": "PLSH",
+    "number": "3602",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Surv of Polish Lit",
+    "fullname": "Survey of Polish Literature: 1863 to the Present",
+    "info": "Reading and analysis of major works of Polish literature from 1863 to the present.",
+    "prereq": []
+  },
+  {
+    "uid": "802255",
+    "code": "PLSH4101",
+    "subject": "PLSH",
+    "number": "4101",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Beginning Polish Grad Research",
+    "fullname": "Beginning Polish for Graduate Research",
+    "info": "Develop basic proficiency in listening, speaking, reading, and writing and become acquainted with Polish culture. prereq: Fourth sem course in another language or grad student",
+    "prereq": []
+  },
+  {
+    "uid": "802256",
+    "code": "PLSH4102",
+    "subject": "PLSH",
+    "number": "4102",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Beginning Polish Grad Research",
+    "fullname": "Beginning Polish for Graduate Research",
+    "info": "Develop basic proficiency in listening, speaking, reading and writing and to acquaint students with Polish culture. prereq: 4101, [fourth sem course in another language or grad student]",
+    "prereq": {
+      "code": "PLSH 4101",
+      "subject": "PLSH",
+      "id": "4101"
+    }
+  },
+  {
+    "uid": "802257",
+    "code": "PLSH4103",
+    "subject": "PLSH",
+    "number": "4103",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Int Polish Grad Research",
+    "fullname": "Intermediate Polish for Graduate Research",
+    "info": "Conversation, composition, advanced grammar, translation, and readings in appropriate literature. prereq: 4102",
+    "prereq": {
+      "code": "PLSH 4102",
+      "subject": "PLSH",
+      "id": "4102"
+    }
+  },
+  {
+    "uid": "802258",
+    "code": "PLSH4104",
+    "subject": "PLSH",
+    "number": "4104",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Int Polish Grad Research",
+    "fullname": "Intermediate Polish for Graduate Research",
+    "info": "Conversation, composition, advanced grammar, translation, and readings in appropriate literature.prereq: 4103",
+    "prereq": {
+      "code": "PLSH 4103",
+      "subject": "PLSH",
+      "id": "4103"
+    }
+  },
+  {
+    "uid": "007417",
+    "code": "PLSH5900",
+    "subject": "PLSH",
+    "number": "5900",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Polish: Topics",
+    "fullname": "Topics",
+    "info": "Topics specified in Class Schedule.",
+    "prereq": []
+  },
+  {
+    "uid": "007418",
+    "code": "PLSH5993",
+    "subject": "PLSH",
+    "number": "5993",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Directed Studies",
+    "fullname": "Directed Studies",
+    "info": "Guided individual reading or study in Polish language, literature, and culture.",
+    "prereq": []
+  }
+]

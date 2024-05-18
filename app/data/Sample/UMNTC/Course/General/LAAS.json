@@ -1,0 +1,239 @@
+[
+  {
+    "uid": "806455",
+    "code": "LAAS5050",
+    "subject": "LAAS",
+    "number": "5050",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Integrated Topics in LAAS",
+    "fullname": "Integrated Topics in Land & Atmospheric Science",
+    "info": "Earth system science. Interactions between the land and atmosphere. Biogeochemistry, human-environment interactions, environmental biophysics, and global environmental change.",
+    "prereq": []
+  },
+  {
+    "uid": "806456",
+    "code": "LAAS5051",
+    "subject": "LAAS",
+    "number": "5051",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Proposal Writing for LAAS",
+    "fullname": "Thesis Proposal Writing for Land & Atmospheric Science",
+    "info": "Grant proposals, including proposal formats of various funding sources, how to develop a significance statement, hypotheses and objectives, background, methods, project summary, time line, and budget. Critique proposal samples/discuss other aspects of seeking funding for research. Discuss LAAS graduate program prelim exam process.",
+    "prereq": []
+  },
+  {
+    "uid": "011283",
+    "code": "LAAS5311",
+    "subject": "LAAS",
+    "number": "5311",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Soil Chemistry and Mineralogy",
+    "fullname": "Soil Chemistry and Mineralogy",
+    "info": "Structural chemistry, origin/identification of crystalline soil clay minerals. Structure of soil organic matter. Chemical processes in soil: solubility, adsorption/desorption, ion exchange, oxidation/reduction, acidity, alkalinity. Solution of problems related to environmental degradation, plant nutrition, and soil genesis.prereq: [[Chem 1022 or equiv], Phys 1102, grad] or instr consent",
+    "prereq": {
+      "and": [
+        {
+          "code": "CHEM 1022",
+          "subject": "CHEM",
+          "id": "1022"
+        },
+        {
+          "code": "PHYS 1102",
+          "subject": "PHYS",
+          "id": "1102"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "819083",
+    "code": "LAAS5416",
+    "subject": "LAAS",
+    "number": "5416",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Precision Ag and Nutrient Mgmt",
+    "fullname": "Precision Agriculture and Nutrient Management",
+    "info": "Precision Agriculture is an integrated information- and technology-based modern agricultural management system, with the intent to manage the spatial and temporal variability associated with all important aspects of agricultural production to achieve optimum yield, quality, efficiency and profitability, protection of the environment and sustainable development. It is an important direction of future agriculture. The focus of this course is on the concept, principles and technologies of precision agriculture and their applications in nutrient resource management. The specific topics include concept and development of precision agriculture and nutrient management, key supporting technologies, soil spatial variability and analysis, yield data analysis, remote sensing-based precision nutrient management, management zone delineation and application, crop growth modeling, combining crop growth modeling and remote sensing for precision nutrient management, and the challenges and future directions of precision agriculture and nutrient management.  Precision agriculture and nutrient management is data intensive and the students will also learn basic agro-informatics through hands-on experiences and computer exercises. This course will involve background knowledge and technologies from multi-disciplines, which will facilitate multi-disciplinary integration and innovation. The class will include both lectures and activities such as case studies, group discussion and presentation, problem-solving, and hands-on exercises.This course is intended for graduate students and upper-level undergraduate students whose major is related to agriculture, environmental science and sustainability. This course is equivalent to LAAS 5480 (001) in Fall of 2018 only.  This course was taught one semester as a topic course and is only equivalent to that particular topic and semester.",
+    "prereq": []
+  },
+  {
+    "uid": "806457",
+    "code": "LAAS5425",
+    "subject": "LAAS",
+    "number": "5425",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Atmospheric Processes I",
+    "fullname": "Atmospheric Processes I: Thermodynamics and Dynamics of the Atmosphere",
+    "info": "Basic laws governing atmospheric motion through analysis of atmospheric dynamics and thermodynamics at the micro, synoptic, and global scales. Fundamental thermodynamic and dynamical processes/equations governing the behavior of the atmosphere/apply to larger-scale geophysical situations.prereq: One yr college-level [calculus, physics]",
+    "prereq": []
+  },
+  {
+    "uid": "806458",
+    "code": "LAAS5426",
+    "subject": "LAAS",
+    "number": "5426",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Atmospheric Processes II",
+    "fullname": "Atmospheric Processes II: Radiation, Composition, and Climate",
+    "info": "Atmospheric radiation, composition/chemistry, climate change. Radiative transfer in Earth's atmosphere. Changing chemical makeup of troposphere/stratosphere. Interplay between natural processes and human activities in air pollution, stratospheric ozone depletion, and chemical forcing of climate. Anthropogenic contribution to climate change/role of land-atmosphere feedbacks affecting atmosphere's energy budget and cycling of greenhouse gases. Application to numerical modeling.prereq: [one yr college-level [calculus, physics, chemistry]]; LAAS 5425 recommended",
+    "prereq": {
+      "code": "LAAS 5425",
+      "subject": "LAAS",
+      "id": "5425"
+    }
+  },
+  {
+    "uid": "803964",
+    "code": "LAAS5480",
+    "subject": "LAAS",
+    "number": "5480",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Land and Atmospheric Science",
+    "fullname": "Special Topics in Land and Atmospheric Science",
+    "info": "Lectures by visiting scholar or regular staff member. Topics specified in Class Schedule.prereq: grad student or instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "008044",
+    "code": "LAAS5515",
+    "subject": "LAAS",
+    "number": "5515",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Soil Form.: Proc. & Biogeochem",
+    "fullname": "Soil Formation: Earth Surface Processes and Biogeochemistry",
+    "info": "Basic soil morphology, soil profile descriptions. Pedogenic processes, models of soil development. Soil geomorphology, hydrology, hillslope processes. Digital spatial analysis. Soil classification. Soil surveys, land use. Soil geography.prereq: 2125 or instr consent",
+    "prereq": {
+      "code": "LAAS 2125",
+      "subject": "LAAS",
+      "id": "2125"
+    }
+  },
+  {
+    "uid": "816489",
+    "code": "LAAS5621",
+    "subject": "LAAS",
+    "number": "5621",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Envir. Genomics & Microbiomes",
+    "fullname": "Environmental Genomics and Microbiomes",
+    "info": "This course deals with molecular and genomic approaches to answer ecological questions related to environmental sciences. The course focuses on microbial community analysis and (meta)genomics, but also covers transcriptomics and other omics approaches. It includes hands-on computer exercises to learn basic bioinformatics with python and R. prereq: college-level courses in microbiology",
+    "prereq": []
+  },
+  {
+    "uid": "806888",
+    "code": "LAAS8005",
+    "subject": "LAAS",
+    "number": "8005",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Supervised Teaching",
+    "fullname": "Supervised Classroom or Extension Teaching Experience",
+    "info": "Teaching experience in biosystems and agricultural engineering or agronomy and plant genetics or horticultural science or soil, water, and climate or plant pathology. Discussions about effective teaching to strengthen skills and develop a personal teaching philosophy.prereq: instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "010641",
+    "code": "LAAS8128",
+    "subject": "LAAS",
+    "number": "8128",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "LAAS Seminar",
+    "fullname": "Land and Atmospheric Science Seminar",
+    "info": "Students present an open seminar on an advanced topic and attend seminars presented by other graduate students.",
+    "prereq": []
+  },
+  {
+    "uid": "012849",
+    "code": "LAAS8195",
+    "subject": "LAAS",
+    "number": "8195",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Research Problems",
+    "fullname": "Research Problems in Soils",
+    "info": "Directed research on special topics of interest in soil science or climatology supervised by individual or small groups of faculty.prereq: [Grad major in soil sci or related field], instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "788278",
+    "code": "LAAS8333",
+    "subject": "LAAS",
+    "number": "8333",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "FTE: Master's",
+    "fullname": "FTE: Master's",
+    "info": "(No description)prereq: Master's student, adviser and DGS consent",
+    "prereq": []
+  },
+  {
+    "uid": "788413",
+    "code": "LAAS8444",
+    "subject": "LAAS",
+    "number": "8444",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "FTE: Doctoral",
+    "fullname": "FTE: Doctoral",
+    "info": "(No description)prereq: Doctoral student, adviser and DGS consent",
+    "prereq": []
+  },
+  {
+    "uid": "012745",
+    "code": "LAAS8550",
+    "subject": "LAAS",
+    "number": "8550",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Teaching Experience",
+    "fullname": "Teaching Experience",
+    "info": "Provides students with practical experiences in instructional techniques in a university setting.prereq: Grad major in soil sci or related field, instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "788534",
+    "code": "LAAS8666",
+    "subject": "LAAS",
+    "number": "8666",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Doct Pre-Thesis Cr",
+    "fullname": "Doctoral Pre-Thesis Credits",
+    "info": "Doctoral pre-thesis credits.prereq: Doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
+    "prereq": []
+  },
+  {
+    "uid": "788659",
+    "code": "LAAS8777",
+    "subject": "LAAS",
+    "number": "8777",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Thesis Credit:Mast*",
+    "fullname": "Thesis Credits: Master's",
+    "info": "(No description)prereq: Max 18 cr per semester or summer; 10 cr total required [Plan A only]",
+    "prereq": []
+  },
+  {
+    "uid": "787935",
+    "code": "LAAS8888",
+    "subject": "LAAS",
+    "number": "8888",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Thesis Credit:Doct*",
+    "fullname": "Thesis Credit: Doctoral",
+    "info": "(No description)prereq: Max 18 cr per semester or summer; 24 cr required",
+    "prereq": []
+  }
+]

@@ -1,0 +1,102 @@
+[
+  {
+    "uid": "002088",
+    "code": "ASL1701",
+    "subject": "ASL",
+    "number": "1701",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "ASL I",
+    "fullname": "American Sign Language I",
+    "info": "The first dynamic course of a four-course sequence is designed to prepare the students for the visual modality of American Sign Language. This course introduces basic grammatical structure and basic vocabulary to develop communicative proficiency and cultural knowledge. The course utilizes a practical approach to learning vocabulary, grammar, fingerspelling, and cultural aspects through conversational activities. Students will study units 1, 2, 3, and 4 in the Signing Naturally textbook. Community involvement in the ASL/Deaf community is required outside of class for Fall/Spring (not required for May/Summer Term).",
+    "prereq": []
+  },
+  {
+    "uid": "002089",
+    "code": "ASL1702",
+    "subject": "ASL",
+    "number": "1702",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "ASL II",
+    "fullname": "American Sign Language II",
+    "info": "The second dynamic course of a four-course sequence further acclimates the students to the visual modality of American Sign Language and draws upon previously acquired knowledge in ASL 1701. The course utilizes a practical approach to learning vocabulary, grammar, fingerspelling, and cultural aspects through conversational activities. In ASL 1702, students’ production and comprehension skills continue to develop qualitatively and quantitatively as they are exposed to a greater variety of interaction activities. Students will study units 5, 7, and 8 in the Signing Naturally Level 1 textbook. Community involvement in the ASL/Deaf community is required outside of class for Fall/Spring (not required for May/Summer Term). prereq: 1701 with grade of at least [S or C-] or dept consent",
+    "prereq": {
+      "code": "ASL 1701",
+      "subject": "ASL",
+      "id": "1701"
+    }
+  },
+  {
+    "uid": "002092",
+    "code": "ASL3001",
+    "subject": "ASL",
+    "number": "3001",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Deaf Culture",
+    "fullname": "Cultural and Sociolingual Views within the Deaf Community",
+    "info": "This course investigates the Deaf community using an ethnocentric view of culture. Students will explore cultural readings and various sources in class discussion using multi-disciplinary approaches: sociological, educational, and linguistic views. Can be taken concurrently with ASL 1701-3704. Class instruction conducted entirely in ASL with an English interpreter.",
+    "prereq": []
+  },
+  {
+    "uid": "002090",
+    "code": "ASL3703",
+    "subject": "ASL",
+    "number": "3703",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "ASL III",
+    "fullname": "American Sign Language III",
+    "info": "The third dynamic course of a four-course sequence draws upon previously acquired knowledge in ASL 1702. The course includes comprehension and production activities, vocabulary, grammatical structure, fingerspelling, and cultural aspects to further develop communicative proficiency and cultural knowledge. In ASL 3703, students are provided with various conversational opportunities to expand their production and comprehension skills in ASL. Students will study units 9, 10, and 11 in the Signing Naturally textbook. Community involvement in the ASL/Deaf community is required outside of class for Fall/Spring (not required for May/Summer Term). prereq: 1702 with grade of at least [S or C-] or dept consent",
+    "prereq": {
+      "code": "ASL 1702",
+      "subject": "ASL",
+      "id": "1702"
+    }
+  },
+  {
+    "uid": "002091",
+    "code": "ASL3704",
+    "subject": "ASL",
+    "number": "3704",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "ASL IV",
+    "fullname": "American Sign Language IV",
+    "info": "The final dynamic course of a four-course sequence draws upon previously acquired knowledge in ASL 3703. The course includes comprehension and production activities, vocabulary, grammatical structure, fingerspelling, and cultural aspects to further develop communicative proficiency and cultural knowledge. In ASL 3704, students are provided with various conversational opportunities to expand their production and comprehension skills in ASL. Students will study units 15, 17-18, and 22-23 in the Signing Naturally textbook. Community involvement in the ASL/Deaf community is required outside of class for Fall/Spring (not required for May/Summer Term).prereq: 3703 with grade of at least [S or C-] or dept consent",
+    "prereq": {
+      "code": "ASL 3703",
+      "subject": "ASL",
+      "id": "3703"
+    }
+  },
+  {
+    "uid": "809386",
+    "code": "ASL3800",
+    "subject": "ASL",
+    "number": "3800",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "ASL Independent Study",
+    "fullname": "ASL Independent Study: Extended Study",
+    "info": "Tutoring/supporting ASL instruction. Social/academic situations. Trained in tutoring by SMART Learning Commons.prereq: Completion of or concurrent registration is required (or allowed) in 3704",
+    "prereq": {
+      "code": "ASL 3704",
+      "subject": "ASL",
+      "id": "3704"
+    }
+  },
+  {
+    "uid": "003447",
+    "code": "ASL5642",
+    "subject": "ASL",
+    "number": "5642",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Classroom Communication: ASL",
+    "fullname": "Classroom Communication Through ASL",
+    "info": "American Sign Language (ASL) form/function, vocabulary production,  grammatical features needed by professionals working with children, storytelling strategies, technical sign language for classroom teachers. Content progresses in repeated segments.",
+    "prereq": []
+  }
+]

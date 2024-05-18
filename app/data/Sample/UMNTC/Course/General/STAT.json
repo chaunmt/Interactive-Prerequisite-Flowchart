@@ -1,0 +1,1724 @@
+[
+  {
+    "uid": "001616",
+    "code": "STAT1001",
+    "subject": "STAT",
+    "number": "1001",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Intro Ideas of Stat",
+    "fullname": "Introduction to the Ideas of Statistics",
+    "info": "Graphical/numerical presentations of data. Judging the usefulness/reliability of results/inferences from surveys and other studies to interesting populations. Coping with randomness/variation in an uncertain world.prereq: Mathematics requirement for admission to University",
+    "prereq": []
+  },
+  {
+    "uid": "788057",
+    "code": "STAT1905",
+    "subject": "STAT",
+    "number": "1905",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Freshman Seminar",
+    "fullname": "Freshman Seminar",
+    "info": "Topics specified in Class Schedule.",
+    "prereq": []
+  },
+  {
+    "uid": "817900",
+    "code": "STAT1911",
+    "subject": "STAT",
+    "number": "1911",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Big Data for the Social Good",
+    "fullname": "Big Data for the Social Good",
+    "info": "How are companies, non-profits, and governmental agencies using Big Data, modern statistics, and machine learning techniques to improve our lives? In this course we will explore how cities are using statistics and Big Data for a variety of outreach programs, including helping people avoid foreclosure/keep their homes, improving traffic flow of all kinds -- from walking and running paths to roads and public transit routes -- and more! We will explore how charities and non-profits are using Big Data to improve charitable giving and access to resources for those who need it, how school districts and public charter schools are using Big Data to improve K-12 education, and finally we will explore how companies like Facebook and Google are using statistics and online Big Data to change modern cities and developing countries. Big Data touches our everyday lives, and this course will explore the good our data can be used for.",
+    "prereq": []
+  },
+  {
+    "uid": "818884",
+    "code": "STAT1915",
+    "subject": "STAT",
+    "number": "1915",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Scientific Computing: Python",
+    "fullname": "Scientific Computing with Python",
+    "info": "The singular most important skill to have in modern times is to be able to glean out true and relevant information from the deluge of data, and this class is aimed at developing that skill. To tease out information from big data, one needs an understanding of \"what to compute\" and \"how to compute\":  the statistics and computer science arms of data science respectively. This class will initiate the development of such an understanding, as well as develop some computational skills in Python language, and scientific writing skill is LaTeX language. Python is a modern programming language, which is very popular in various industries dealing with large quantities of data. LaTeX is the principal language for writing mathematical and technical descriptions and research papers. We will discuss the basic principles that form the foundation of data science, and are central to modern statistics, machine learning and artificial intelligence. We will discuss how to quantify uncertainty, identify falsehood and develop scientific skepticism while analyzing data.",
+    "prereq": []
+  },
+  {
+    "uid": "001618",
+    "code": "STAT3011",
+    "subject": "STAT",
+    "number": "3011",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Intro Statistical Analysis",
+    "fullname": "Introduction to Statistical Analysis",
+    "info": "Standard statistical reasoning. Simple statistical methods. Social/physical sciences. Mathematical reasoning behind facts in daily news. Basic computing environment.",
+    "prereq": []
+  },
+  {
+    "uid": "001622",
+    "code": "STAT3021",
+    "subject": "STAT",
+    "number": "3021",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Intro to Prob&Stat",
+    "fullname": "Introduction to Probability and Statistics",
+    "info": "This is an introductory course in statistics whose primary objectives are to teach students the theory of elementary probability theory and an introduction to the elements of statistical inference, including testing, estimation, and confidence statements.\n\nprereq: Math 1272",
+    "prereq": {
+      "code": "MATH 1272",
+      "subject": "MATH",
+      "id": "1272"
+    }
+  },
+  {
+    "uid": "001621",
+    "code": "STAT3022",
+    "subject": "STAT",
+    "number": "3022",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Data Analysis",
+    "fullname": "Data Analysis",
+    "info": "Practical survey of applied statistical inference/computing covering widely used statistical tools. Multiple regression, variance analysis, experiment design, nonparametric methods, model checking/selection, variable transformation, categorical data analysis, logistic regression.\n\nprereq: 3011 or 3021 or SOC 3811",
+    "prereq": {
+      "or": [
+        {
+          "code": "STAT 3011",
+          "subject": "STAT",
+          "id": "3011"
+        },
+        {
+          "code": "STAT 3021",
+          "subject": "STAT",
+          "id": "3021"
+        },
+        {
+          "code": "SOC 3811",
+          "subject": "SOC",
+          "id": "3811"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "814524",
+    "code": "STAT3032",
+    "subject": "STAT",
+    "number": "3032",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Regression and Correlated Data",
+    "fullname": "Regression and Correlated Data",
+    "info": "This is a second course in statistics with a focus on linear regression and correlated data. The intent of this course is to prepare statistics, economics and actuarial science students for statistical modeling needed in their discipline. The course covers the basic concepts of linear algebra and computing in R, simple linear regression, multiple linear regression, statistical inference, model diagnostics, transformations, model selection, model validation, and basics of time series and mixed models. Numerous datasets will be analyzed and interpreted using the open-source statistical software R.\n\nprereq: STAT 3011 or STAT 3021",
+    "prereq": {
+      "or": [
+        {
+          "code": "STAT 3011",
+          "subject": "STAT",
+          "id": "3011"
+        },
+        {
+          "code": "STAT 3021",
+          "subject": "STAT",
+          "id": "3021"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "819058",
+    "code": "STAT3301",
+    "subject": "STAT",
+    "number": "3301",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Regression/Statistical Cmptng",
+    "fullname": "Regression and Statistical Computing",
+    "info": "This is a second course in statistics for students that have completed a calculus-based introductory course. Students will learn to analyze data with the multiple linear regression model.  This will include inference, diagnostics, validation, transformations, and model selection.Students will also design and perform Monte Carlo simulation studies to improve their understanding of statistical concepts like coverage probability, Type I error probability, and power.  This will allow students to understand the impacts of model misspecification and the quality of approximate inference. prereq: Stat 3021 and (CSci 1113 or CSci 1133), and co-requisite (CSci 2033 or Math 2142 or Math 2243 or Math 2373)",
+    "prereq": {
+      "and": [
+        {
+          "code": "STAT 3021",
+          "subject": "STAT",
+          "id": "3021"
+        },
+        {
+          "or": [
+            {
+              "code": "CSCI 1113",
+              "subject": "CSCI",
+              "id": "1113"
+            },
+            {
+              "code": "CSCI 1133",
+              "subject": "CSCI",
+              "id": "1133"
+            }
+          ]
+        },
+        {
+          "or": [
+            {
+              "code": "CSCI 2033",
+              "subject": "CSCI",
+              "id": "2033"
+            },
+            {
+              "code": "MATH 2142",
+              "subject": "MATH",
+              "id": "2142"
+            },
+            {
+              "code": "MATH 2243",
+              "subject": "MATH",
+              "id": "2243"
+            },
+            {
+              "code": "MATH 2373",
+              "subject": "MATH",
+              "id": "2373"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "uid": "813401",
+    "code": "STAT3501",
+    "subject": "STAT",
+    "number": "3501",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Internship in Stat Practice",
+    "fullname": "Internship in Statistical Practice",
+    "info": "Internship for statistics undergraduate students, in the university or in the community with supervision provided by statistics faculty and on-site mentors.prereq: Statistics Major",
+    "prereq": []
+  },
+  {
+    "uid": "815334",
+    "code": "STAT3701",
+    "subject": "STAT",
+    "number": "3701",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Intro to Statistical Computing",
+    "fullname": "Introduction to Statistical Computing",
+    "info": "Elementary Monte Carlo, simulation studies, elementary optimization, programming in R, and graphics in R.\n\nPrerequisites: (MATH 1272 or 1372 or 1572H), CSCI 1113, and STAT 3032",
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            {
+              "code": "MATH 1272",
+              "subject": "MATH",
+              "id": "1272"
+            },
+            {
+              "code": "STAT 1372",
+              "subject": "STAT",
+              "id": "1372"
+            }
+          ]
+        },
+        {
+          "code": "CSCI 1113",
+          "subject": "CSCI",
+          "id": "1113"
+        },
+        {
+          "code": "STAT 3032",
+          "subject": "STAT",
+          "id": "3032"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "818523",
+    "code": "STAT3896",
+    "subject": "STAT",
+    "number": "3896",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Internship for Academic Credit",
+    "fullname": "Internship for Academic Credit",
+    "info": "An applied learning experience in an agreed-upon, short-term, supervised workplace activity, with defined goals, which may be related to a student's major field or area of interest. The work can be full or part time, paid or unpaid, primarily in off-campus environments. Internships integrate classroom knowledge and theory with practical application and skill development in professional or community settings. The skills and knowledge learned should be transferable to other employment settings and not simply to advance the operations of the employer. Typically the student's work is supervised and evaluated by a site coordinator or instructor.",
+    "prereq": []
+  },
+  {
+    "uid": "815335",
+    "code": "STAT4051",
+    "subject": "STAT",
+    "number": "4051",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Statistical Machine Learning I",
+    "fullname": "Statistical Machine Learning I",
+    "info": "This is the first semester of the applied statistics and statistical machine learning sequence for majors seeking a BA or BS in statistics or data science, coupled with the course STAT 4052. The course delves into the foundational statistics supporting contemporary machine learning techniques. The emphasis lies on identifying problem types, selecting appropriate analytical methods, accurate result interpretation, and hands-on exposure to real-world data analysis. The curriculum builds upon traditional multivariate statistical analysis and unsupervised learning, extending to modern machine learning topics. Topics include clustering, dimension reduction, matrix completion, factor analysis, covariance analysis, and graphical models. Additionally, advanced data structures such as text and graph data are covered. The course prioritizes the fundamental statistical principles integral to machine learning, demonstrated through the analysis and interpretation of numerous datasets. prereq: (STAT 3701 or STAT 3301) and (STAT 4101 or STAT 5101 or MATH 5651)",
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            {
+              "code": "STAT 3701",
+              "subject": "STAT",
+              "id": "3701"
+            },
+            {
+              "code": "STAT 3301",
+              "subject": "STAT",
+              "id": "3301"
+            }
+          ]
+        },
+        {
+          "or": [
+            {
+              "code": "STAT 4101",
+              "subject": "STAT",
+              "id": "4101"
+            },
+            {
+              "code": "STAT 5101",
+              "subject": "STAT",
+              "id": "5101"
+            },
+            {
+              "code": "MATH 5651",
+              "subject": "MATH",
+              "id": "5651"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "uid": "815336",
+    "code": "STAT4052",
+    "subject": "STAT",
+    "number": "4052",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Statistical Mach Learning II",
+    "fullname": "Statistical Machine Learning II",
+    "info": "This is the second semester of the core Applied Statistics sequence for majors seeking a BA or BS in statistics. Both Stat 4051 and Stat 4052 are required in the major. The course introduces a wide variety of applied statistical methods, methodology for identifying types of problems and selecting appropriate methods for data analysis, to correctly interpret results, and to provide hands-on experience with real-life data analysis. The course covers basic concepts of classification, both classical methods of linear classification rules as well as modern computer-intensive methods of classification trees, and the estimation of classification errors by splitting data into training and validation data sets; non-linear parametric regression; nonparametric regression including kernel estimates; categorical data analysis; logistic and Poisson regression; and adjustments for missing data. Numerous datasets will be analyzed and interpreted, using the open-source statistical software R and Rstudio.\n\nprerequisites: STAT 4051 and (STAT 4102 or STAT 5102)",
+    "prereq": {
+      "and": [
+        {
+          "code": "STAT 4051",
+          "subject": "STAT",
+          "id": "4051"
+        },
+        {
+          "or": [
+            {
+              "code": "STAT 4102",
+              "subject": "STAT",
+              "id": "4102"
+            },
+            {
+              "code": "STAT 5102",
+              "subject": "STAT",
+              "id": "5102"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "uid": "006405",
+    "code": "STAT4101",
+    "subject": "STAT",
+    "number": "4101",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Theory of Statistics I",
+    "fullname": "Theory of Statistics I",
+    "info": "Random variables/distributions. Generating functions. Standard distribution families. Data summaries. Sampling distributions. Likelihood/sufficiency.\n\nprereq: Math 1272 or Math 1372 or Math 1572H",
+    "prereq": {
+      "or": [
+        {
+          "code": "MATH 1272",
+          "subject": "MATH",
+          "id": "1272"
+        },
+        {
+          "code": "MATH 1372",
+          "subject": "MATH",
+          "id": "1372"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "006406",
+    "code": "STAT4102",
+    "subject": "STAT",
+    "number": "4102",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Theory of Statistics II",
+    "fullname": "Theory of Statistics II",
+    "info": "Estimation. Significance tests. Distribution free methods. Power. Application to regression and to analysis of variance/count data.prereq: 4101",
+    "prereq": {
+      "code": "STAT 4101",
+      "subject": "STAT",
+      "id": "4101"
+    }
+  },
+  {
+    "uid": "013471",
+    "code": "STAT4893W",
+    "subject": "STAT",
+    "number": "4893",
+    "honors": false,
+    "writingIntensive": true,
+    "name": "Communication for Statistician",
+    "fullname": "Consultation and Communication for Statisticians",
+    "info": "This course focuses on how to interact and collaborate as a statistician on a multidisciplinary team. Students will learn about all aspects of statistical consulting by performing an actual consultation. This includes: understanding the needs of the researcher, designing a study to investigate the client's needs, and communicating study results through graphs, writing, and oral presentations in a manner that a non-statistician can understand. Students will also discuss how to design research ethically (respecting the rights of the subjects in the research), how to analyze data without manipulating results, and how to properly cite and credit other people's work. Students will also be exposed to professional statisticians as a means of better understanding careers in statistics.prereq: Senior Statistics Major. STAT 4051 and STAT 4102 or STAT 5102",
+    "prereq": {
+      "and": [
+        {
+          "code": "STAT 4051",
+          "subject": "STAT",
+          "id": "4051"
+        },
+        {
+          "code": "STAT 4102",
+          "subject": "STAT",
+          "id": "4102"
+        },
+        {
+          "code": "STAT 5102",
+          "subject": "STAT",
+          "id": "5102"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "791285",
+    "code": "STAT4931",
+    "subject": "STAT",
+    "number": "4931",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Topics in Statistics",
+    "fullname": "Topics in Statistics",
+    "info": "Topics vary according to student needs and available staff.",
+    "prereq": []
+  },
+  {
+    "uid": "791289",
+    "code": "STAT4932",
+    "subject": "STAT",
+    "number": "4932",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Topics in Statistics",
+    "fullname": "Topics in Statistics",
+    "info": "Topics vary according  to student needs and available staff.prereq: instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "001624",
+    "code": "STAT5021",
+    "subject": "STAT",
+    "number": "5021",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Stat Analysis",
+    "fullname": "Statistical Analysis",
+    "info": "Intensive introduction to statistical methods for graduate students needing statistics as a research technique. prereq: college algebra or instr consent; credit will not be granted if credit has been received for STAT 3011",
+    "prereq": {
+      "code": "STAT 3011",
+      "subject": "STAT",
+      "id": "3011"
+    }
+  },
+  {
+    "uid": "001627",
+    "code": "STAT5031",
+    "subject": "STAT",
+    "number": "5031",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Stat Methods Quality Improv",
+    "fullname": "Statistical Methods for Quality Improvement",
+    "info": "Random variability/sampling. Controlling statistical process. Shewhart/accumulative charting. Analyzing plant data, trend surface, and variance/design of experiments.prereq: [3021 or 3022 or 4102 or 5021 or 5102 or 8102],  Math 1272",
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            {
+              "code": "STAT 3021",
+              "subject": "STAT",
+              "id": "3021"
+            },
+            {
+              "code": "STAT 3022",
+              "subject": "STAT",
+              "id": "3022"
+            },
+            {
+              "code": "STAT 4102",
+              "subject": "STAT",
+              "id": "4102"
+            },
+            {
+              "code": "STAT 5021",
+              "subject": "STAT",
+              "id": "5021"
+            },
+            {
+              "code": "STAT 5102",
+              "subject": "STAT",
+              "id": "5102"
+            },
+            {
+              "code": "STAT 8102",
+              "subject": "STAT",
+              "id": "8102"
+            }
+          ]
+        },
+        {
+          "code": "MATH 1272",
+          "subject": "MATH",
+          "id": "1272"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "004493",
+    "code": "STAT5041",
+    "subject": "STAT",
+    "number": "5041",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Bayesian Decision Making",
+    "fullname": "Bayesian Decision Making",
+    "info": "Axioms for subjective probability/utility. Optimal statistical decision making. Sequential decisions/decision trees. Backward induction. Bayesian data analysis.prereq: 4101 or 5021 or 5101 or instr consent",
+    "prereq": {
+      "or": [
+        {
+          "code": "STAT 4101",
+          "subject": "STAT",
+          "id": "4101"
+        },
+        {
+          "code": "STAT 5021",
+          "subject": "STAT",
+          "id": "5021"
+        },
+        {
+          "code": "STAT 5101",
+          "subject": "STAT",
+          "id": "5101"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "820085",
+    "code": "STAT5052",
+    "subject": "STAT",
+    "number": "5052",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Statistical & Machine Learning",
+    "fullname": "Statistical and Machine Learning",
+    "info": "The material covered will be the foundations of modern machine learning methods including regularization methods, discriminant analysis, neural nets, random forest, bagging, boosting, support vector machine, and clustering. Model comparison using cross-validation and bootstrap methods will be emphasized.",
+    "prereq": []
+  },
+  {
+    "uid": "006408",
+    "code": "STAT5101",
+    "subject": "STAT",
+    "number": "5101",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Theory of Statistics I",
+    "fullname": "Theory of Statistics I",
+    "info": "Logical development of probability, basic issues in statistics. Probability spaces. Random variables, their distributions and expected values. Law of large numbers, central limit theorem, generating functions, multivariate normal distribution.\n\nprereq: (MATH 2263 or MATH 2374 or MATH 2573H), (MATH 2142 or CSCI 2033 or MATH 2373 or MATH 2243)",
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            {
+              "code": "MATH 2263",
+              "subject": "MATH",
+              "id": "2263"
+            },
+            {
+              "code": "MATH 2374",
+              "subject": "MATH",
+              "id": "2374"
+            }
+          ]
+        },
+        {
+          "or": [
+            {
+              "code": "MATH 2142",
+              "subject": "MATH",
+              "id": "2142"
+            },
+            {
+              "code": "CSCI 2033",
+              "subject": "CSCI",
+              "id": "2033"
+            },
+            {
+              "code": "MATH 2373",
+              "subject": "MATH",
+              "id": "2373"
+            },
+            {
+              "code": "MATH 2243",
+              "subject": "MATH",
+              "id": "2243"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "uid": "006409",
+    "code": "STAT5102",
+    "subject": "STAT",
+    "number": "5102",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Theory of Statistics II",
+    "fullname": "Theory of Statistics II",
+    "info": "Sampling, sufficiency, estimation, test of hypotheses, size/power. Categorical data. Contingency tables. Linear models. Decision theory.prereq: 5101 or Math 5651",
+    "prereq": {
+      "or": [
+        {
+          "code": "STAT 5101",
+          "subject": "STAT",
+          "id": "5101"
+        },
+        {
+          "code": "MATH 5651",
+          "subject": "MATH",
+          "id": "5651"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "003665",
+    "code": "STAT5201",
+    "subject": "STAT",
+    "number": "5201",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Samp Methodology in Finite Pop",
+    "fullname": "Sampling Methodology in Finite Populations",
+    "info": "Simple random, systematic, stratified, unequal probability sampling. Ratio, model based estimation. Single stage, multistage, adaptive cluster sampling. Spatial sampling. prereq: 3022 or 3032 or 3301 or 4102 or 5021 or 5102 or instr consent",
+    "prereq": {
+      "or": [
+        {
+          "code": "STAT 3022",
+          "subject": "STAT",
+          "id": "3022"
+        },
+        {
+          "code": "STAT 3032",
+          "subject": "STAT",
+          "id": "3032"
+        },
+        {
+          "code": "STAT 3301",
+          "subject": "STAT",
+          "id": "3301"
+        },
+        {
+          "code": "STAT 4102",
+          "subject": "STAT",
+          "id": "4102"
+        },
+        {
+          "code": "STAT 5021",
+          "subject": "STAT",
+          "id": "5021"
+        },
+        {
+          "code": "STAT 5102",
+          "subject": "STAT",
+          "id": "5102"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "003466",
+    "code": "STAT5302",
+    "subject": "STAT",
+    "number": "5302",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Applied Regression Analysis",
+    "fullname": "Applied Regression Analysis",
+    "info": "Simple, multiple, and polynomial regression. Estimation, testing, prediction. Use of graphics in regression. Stepwise and other numerical methods. Weighted least squares, nonlinear models, response surfaces. Experimental research/applications. prereq: 3032 or 3022 or 4102 or 5021 or 5102 or instr consent Please note this course generally does not count in the Statistical Practice BA or Statistical Science BS degrees. Please consult with a department advisor with questions.",
+    "prereq": {
+      "or": [
+        {
+          "code": "STAT 3032",
+          "subject": "STAT",
+          "id": "3032"
+        },
+        {
+          "code": "STAT 3022",
+          "subject": "STAT",
+          "id": "3022"
+        },
+        {
+          "code": "STAT 4102",
+          "subject": "STAT",
+          "id": "4102"
+        },
+        {
+          "code": "STAT 5021",
+          "subject": "STAT",
+          "id": "5021"
+        },
+        {
+          "code": "STAT 5102",
+          "subject": "STAT",
+          "id": "5102"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "003465",
+    "code": "STAT5303",
+    "subject": "STAT",
+    "number": "5303",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Designing Experiments",
+    "fullname": "Designing Experiments",
+    "info": "Analysis of variance. Multiple comparisons. Variance-stabilizing transformations. Contrasts. Construction/analysis of complete/incomplete block designs. Fractional factorial designs. Confounding split plots. Response surface design. prereq: 3022 or 3032 or 3301 or 4102 or 5021 or 5102 or instr consent",
+    "prereq": {
+      "or": [
+        {
+          "code": "STAT 3022",
+          "subject": "STAT",
+          "id": "3022"
+        },
+        {
+          "code": "STAT 3032",
+          "subject": "STAT",
+          "id": "3032"
+        },
+        {
+          "code": "STAT 3301",
+          "subject": "STAT",
+          "id": "3301"
+        },
+        {
+          "code": "STAT 4102",
+          "subject": "STAT",
+          "id": "4102"
+        },
+        {
+          "code": "STAT 5021",
+          "subject": "STAT",
+          "id": "5021"
+        },
+        {
+          "code": "STAT 5102",
+          "subject": "STAT",
+          "id": "5102"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "003664",
+    "code": "STAT5401",
+    "subject": "STAT",
+    "number": "5401",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Applied Multivariate Methods",
+    "fullname": "Applied Multivariate Methods",
+    "info": "Bivariate and multivariate distributions. Multivariate normal distributions. Analysis of multivariate linear models. Repeated measures, growth curve, and profile analysis. Canonical correlation analysis. Principal components and factor analysis. Discrimination, classification, and clustering.pre-req: STAT 3032 or 3301 or 3022 or 4102 or 5021 or 5102 or instr consentAlthough not a formal prerequisite of this course, students are encouraged to have familiarity with linear algebra prior to enrolling. Please consult with a department advisor with questions. ",
+    "prereq": []
+  },
+  {
+    "uid": "004367",
+    "code": "STAT5421",
+    "subject": "STAT",
+    "number": "5421",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Analysis of Categorical Data",
+    "fullname": "Analysis of Categorical Data",
+    "info": "Varieties of categorical data, cross-classifications, contingency tables. Tests for independence. Combining 2x2 tables. Multidimensional tables/loglinear models. Maximum-likelihood estimation. Tests for goodness of fit. Logistic regression. Generalized linear/multinomial-response models.prereq: STAT 3022 or 3032 or 3301 or 5302 or 4051 or 8051 or 5102 or 4102",
+    "prereq": {
+      "or": [
+        {
+          "code": "STAT 3022",
+          "subject": "STAT",
+          "id": "3022"
+        },
+        {
+          "code": "STAT 3032",
+          "subject": "STAT",
+          "id": "3032"
+        },
+        {
+          "code": "STAT 3301",
+          "subject": "STAT",
+          "id": "3301"
+        },
+        {
+          "code": "STAT 5302",
+          "subject": "STAT",
+          "id": "5302"
+        },
+        {
+          "code": "STAT 4051",
+          "subject": "STAT",
+          "id": "4051"
+        },
+        {
+          "code": "STAT 8051",
+          "subject": "STAT",
+          "id": "8051"
+        },
+        {
+          "code": "STAT 5102",
+          "subject": "STAT",
+          "id": "5102"
+        },
+        {
+          "code": "STAT 4102",
+          "subject": "STAT",
+          "id": "4102"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "803456",
+    "code": "STAT5511",
+    "subject": "STAT",
+    "number": "5511",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Time Series Analysis",
+    "fullname": "Time Series Analysis",
+    "info": "Characteristics of time series. Stationarity. Second-order descriptions, time-domain representation, ARIMA/GARCH models. Frequency domain representation. Univariate/multivariate time series analysis. Periodograms, non parametric spectral estimation. State-space models.prereq: STAT 4102 or STAT 5102",
+    "prereq": {
+      "or": [
+        {
+          "code": "STAT 4102",
+          "subject": "STAT",
+          "id": "4102"
+        },
+        {
+          "code": "STAT 5102",
+          "subject": "STAT",
+          "id": "5102"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "004712",
+    "code": "STAT5601",
+    "subject": "STAT",
+    "number": "5601",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Nonparametric Methods",
+    "fullname": "Nonparametric Methods",
+    "info": "Order statistics. Classical rank-based procedures (e.g., Wilcoxon, Kruskal-Wallis). Goodness of fit. Topics may include smoothing, bootstrap, and generalized linear models.prereq: Stat classes 3032 or 3022 or 4102 or 5021 or 5102 or instr consent",
+    "prereq": {
+      "or": [
+        {
+          "code": "STAT 3032",
+          "subject": "STAT",
+          "id": "3032"
+        },
+        {
+          "code": "STAT 3022",
+          "subject": "STAT",
+          "id": "3022"
+        },
+        {
+          "code": "STAT 4102",
+          "subject": "STAT",
+          "id": "4102"
+        },
+        {
+          "code": "STAT 5021",
+          "subject": "STAT",
+          "id": "5021"
+        },
+        {
+          "code": "STAT 5102",
+          "subject": "STAT",
+          "id": "5102"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "811207",
+    "code": "STAT5701",
+    "subject": "STAT",
+    "number": "5701",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Statistical Computing",
+    "fullname": "Statistical Computing",
+    "info": "Statistical programming, function writing, graphics using high-level statistical computing languages. Data management, parallel computing, version control, simulation studies, power calculations. Using optimization to fit statistical models. Monte Carlo methods, reproducible research.prereq: (Stat 5102 or Stat 8102) and (Stat 5302 or STAT 8051) or consent",
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            {
+              "code": "STAT 5102",
+              "subject": "STAT",
+              "id": "5102"
+            },
+            {
+              "code": "STAT 8102",
+              "subject": "STAT",
+              "id": "8102"
+            }
+          ]
+        },
+        {
+          "or": [
+            {
+              "code": "STAT 5302",
+              "subject": "STAT",
+              "id": "5302"
+            },
+            {
+              "code": "STAT 8051",
+              "subject": "STAT",
+              "id": "8051"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "uid": "819821",
+    "code": "STAT5731",
+    "subject": "STAT",
+    "number": "5731",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Bayesian Astrostatistics",
+    "fullname": "Bayesian Astrostatistics",
+    "info": "This course will introduce Bayesian methods for interpreting and analyzing large data sets from astrophysical experiments. These methods will be demonstrated using astrophysics real-world data sets and a focus on modern statistical software, such as R and python.prereq:  MATH 2263 and MATH 2243, or equivalent; or instructor consentSuggested: statistical course at the level of AST 4031, AST 5031, STAT 3021, or STAT 5021",
+    "prereq": {
+      "and": [
+        {
+          "code": "MATH 2263",
+          "subject": "MATH",
+          "id": "2263"
+        },
+        {
+          "code": "MATH 2243",
+          "subject": "MATH",
+          "id": "2243"
+        },
+        {
+          "code": "AST 4031",
+          "subject": "AST",
+          "id": "4031"
+        },
+        {
+          "code": "AST 5031",
+          "subject": "AST",
+          "id": "5031"
+        },
+        {
+          "code": "STAT 3021",
+          "subject": "STAT",
+          "id": "3021"
+        },
+        {
+          "code": "STAT 5021",
+          "subject": "STAT",
+          "id": "5021"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "013466",
+    "code": "STAT5931",
+    "subject": "STAT",
+    "number": "5931",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Topics in Statistics",
+    "fullname": "Topics in Statistics",
+    "info": "Topics vary according to student needs and available staff.",
+    "prereq": []
+  },
+  {
+    "uid": "013468",
+    "code": "STAT5932",
+    "subject": "STAT",
+    "number": "5932",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Topics in Statistics",
+    "fullname": "Topics in Statistics",
+    "info": "Topics vary according to students' needs and available staff.",
+    "prereq": []
+  },
+  {
+    "uid": "013424",
+    "code": "STAT5993",
+    "subject": "STAT",
+    "number": "5993",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Tutorial",
+    "fullname": "Tutorial",
+    "info": "Directed study in areas not covered by regular offerings.prereq: instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "799513",
+    "code": "STAT8051",
+    "subject": "STAT",
+    "number": "8051",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Advanced Regression Techniques",
+    "fullname": "Advanced Regression Techniques: linear, nonlinear and nonparametric methods",
+    "info": "Linear/generalized linear models, modern regression methods including nonparametric regression, generalized additive models, splines/basis function methods, regularization, bootstrap/other resampling-based inference.\n\nprereq: Statistics grad or instr consent\n\n\nprereq: Statistics grad or instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "799514",
+    "code": "STAT8052",
+    "subject": "STAT",
+    "number": "8052",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Applied Statistical Methods 2",
+    "fullname": "Applied Statistical Methods 2: Design of Experiments and Mixed -Effects Modeling",
+    "info": "Design experiments/analyze data with fixed effects, random/mixed effects models. ANOVA for factorial designs.  Contrasts, multiple comparisons, power/sample size,   confounding, fractional factorials. Computer-generated designs. Response surfaces. Multi-level models. Generalized estimating equations (GEE) for longitudinal data with non-normal errors.\n\nprereq: 8051 or instr consent",
+    "prereq": {
+      "code": "STAT 8051",
+      "subject": "STAT",
+      "id": "8051"
+    }
+  },
+  {
+    "uid": "800960",
+    "code": "STAT8053",
+    "subject": "STAT",
+    "number": "8053",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Applied Statistical Methods 3",
+    "fullname": "Applied Statistical Methods 3: Multivariate Analysis and Advanced Regression",
+    "info": "Standard multivariate analysis. Multivariate linearmodel, classification, clustering, principal components, factor analysis, canonical correlation. Topics in advanced regression.prereq: PhD student in stat or DGS permission and 8052",
+    "prereq": {
+      "code": "STAT 8052",
+      "subject": "STAT",
+      "id": "8052"
+    }
+  },
+  {
+    "uid": "800959",
+    "code": "STAT8054",
+    "subject": "STAT",
+    "number": "8054",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Statistical Methods 4",
+    "fullname": "Statistical Methods 4: Advanced Statistical Computing",
+    "info": "Optimization, numerical integration, Markov chain Monte Carlo, related topics.prereq: STAT 8053 or instr consent",
+    "prereq": {
+      "code": "STAT 8053",
+      "subject": "STAT",
+      "id": "8053"
+    }
+  },
+  {
+    "uid": "800982",
+    "code": "STAT8055",
+    "subject": "STAT",
+    "number": "8055",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Applied Project",
+    "fullname": "Applied Project",
+    "info": "Collaborative applied statistical practice with a member of University community, including  consulting, problem solving, presentation/documentation of results.prereq: [8054, 8801] or instr consent",
+    "prereq": {
+      "and": [
+        {
+          "code": "STAT 8054",
+          "subject": "STAT",
+          "id": "8054"
+        },
+        {
+          "code": "STAT 8801",
+          "subject": "STAT",
+          "id": "8801"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "817909",
+    "code": "STAT8056",
+    "subject": "STAT",
+    "number": "8056",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Stat Learning & Data Mining",
+    "fullname": "Statistical Learning and Data Mining",
+    "info": "STAT8056 covers a range of emerging topics in machine learning and data science, including high-dimensional analysis, recommender systems, undirected and directed graphical models, feed-forward networks, and unstructured data analysis. This course will introduce various statistical and computational techniques for prediction and inference. These techniques are directly applicable to many fields, such as business, engineering, and bioinformatics. This course requires the basic knowledge of machine learning and data mining (e.g., STAT8053).",
+    "prereq": []
+  },
+  {
+    "uid": "004494",
+    "code": "STAT8061",
+    "subject": "STAT",
+    "number": "8061",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Applied Stat I",
+    "fullname": "Applied Statistical Methods I",
+    "info": "The regression problem; linear regression with one or more predictors; using graphics in regression; model building; model assessment and diagnostics; outliers; generalized linear models; logistic, Poisson, and nonlinear regression.",
+    "prereq": []
+  },
+  {
+    "uid": "004709",
+    "code": "STAT8062",
+    "subject": "STAT",
+    "number": "8062",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Applied Stat II",
+    "fullname": "Applied Statistical Methods II",
+    "info": "Categorical data analysis: loglinear models, logit models, multinomialresponse models, exact and asymptotic inference, conditionalindependence; models of association. Experimental design: randomization,ANOVA, contrasts and multiple testing, factorials, blocking, covariates,split plots, random effects, fractional factorials, response surfaces.",
+    "prereq": []
+  },
+  {
+    "uid": "004710",
+    "code": "STAT8101",
+    "subject": "STAT",
+    "number": "8101",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Theory of Statistics 1",
+    "fullname": "Theory of Statistics 1",
+    "info": "Review of linear algebra. Introduction to probability theory. Random variables, their transformations/expectations. Standard distributions, including multivariate Normal distribution. Probability inequalities. Convergence concepts, including laws of large numbers, Central Limit Theorem. delta method. Sampling distributions.prereq: Statistics grad major or instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "004711",
+    "code": "STAT8102",
+    "subject": "STAT",
+    "number": "8102",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Theory Statistics 2",
+    "fullname": "Theory of Statistics 2",
+    "info": "Statistical inference. Sufficiency. Likelihood-based methods. Point estimation. Confidence intervals. Neyman Pearson hypothesis testing theory. Introduction to theory of linear models.prereq: 8101, Statistics graduate major or instr consent",
+    "prereq": {
+      "code": "STAT 8101",
+      "subject": "STAT",
+      "id": "8101"
+    }
+  },
+  {
+    "uid": "004714",
+    "code": "STAT8111",
+    "subject": "STAT",
+    "number": "8111",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Mathematical Statistics I",
+    "fullname": "Mathematical Statistics I",
+    "info": "Probability theory, basic inequalities, characteristic functions, and exchangeability. Multivariate normal distribution. Exponential family. Decision theory, admissibility, and Bayes rules.prereq: [5102 or 8102 or instr consent], [[Math 5615, Math 5616] or real analysis], matrix algebra",
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            {
+              "code": "STAT 5102",
+              "subject": "STAT",
+              "id": "5102"
+            },
+            {
+              "code": "STAT 8102",
+              "subject": "STAT",
+              "id": "8102"
+            }
+          ]
+        },
+        {
+          "and": [
+            {
+              "code": "MATH 5615",
+              "subject": "MATH",
+              "id": "5615"
+            },
+            {
+              "code": "MATH 5616",
+              "subject": "MATH",
+              "id": "5616"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "uid": "004715",
+    "code": "STAT8112",
+    "subject": "STAT",
+    "number": "8112",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Math Stat II",
+    "fullname": "Mathematical Statistics II",
+    "info": "Statistical inference, estimation, and hypothesis testing.Convergence and relationship between convergence modes.Asymptotics of maximum likelihood estimators, distributionfunctions, quantiles. Delta method.prereq: 8111",
+    "prereq": {
+      "code": "STAT 8111",
+      "subject": "STAT",
+      "id": "8111"
+    }
+  },
+  {
+    "uid": "004727",
+    "code": "STAT8121",
+    "subject": "STAT",
+    "number": "8121",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Theories of Inference",
+    "fullname": "Theories of Inference",
+    "info": "Topics vary according to instructor and student interests. Sample topics: conditional distributions and sufficiency; estimation theory; comparison of statistical inference theories; Neyman-Pearson hypothesis-testing theory and its extensions; confidence regions; invariance; nonparametric, sequential, likelihood, and Bayesian inference.",
+    "prereq": []
+  },
+  {
+    "uid": "004728",
+    "code": "STAT8131",
+    "subject": "STAT",
+    "number": "8131",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Predictive Inferenc",
+    "fullname": "Predictive Inference",
+    "info": "Traditional frequentist and nontraditional predictive approaches. Bayesian predictive methods and the purpose for which data are used. Theoretical apparatus discussed using a variety of common statistical paradigms. Model selection, comparisons and allocation, perturbation analysis and control.",
+    "prereq": []
+  },
+  {
+    "uid": "006396",
+    "code": "STAT8141",
+    "subject": "STAT",
+    "number": "8141",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Prob Assessment",
+    "fullname": "Probability Assessment",
+    "info": "Probability as a language of uncertainty for quantifying and communicatingexpert opinion and for use as Bayesian prior distributions. Methods forelicitation and construction of subjective probabilities. De Finetti coherence, predictive elicitation, fitting subjective-probability models,computer-aided elicitation, and use of experts.prereq: 5102",
+    "prereq": {
+      "code": "STAT 5102",
+      "subject": "STAT",
+      "id": "5102"
+    }
+  },
+  {
+    "uid": "004726",
+    "code": "STAT8151",
+    "subject": "STAT",
+    "number": "8151",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Stat Decision Theor",
+    "fullname": "Statistical Decision Theory",
+    "info": "Comparison of inferential methods in statistics (including riskcomparison, minimaxity, and admissibility) using Wald's formulation of decision. Formal and proper Bayes rules compared with frequentist inferences. Topics may vary depending on instructor.",
+    "prereq": []
+  },
+  {
+    "uid": "012865",
+    "code": "STAT8171",
+    "subject": "STAT",
+    "number": "8171",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Sequential Analysis",
+    "fullname": "Sequential Analysis",
+    "info": "Walds's sequential probability ratio test and modifications.Sequential decision theory. Martingales. Sequential estimation,design, and hypothesis testing. Recent developments.prereq: 8112",
+    "prereq": {
+      "code": "STAT 8112",
+      "subject": "STAT",
+      "id": "8112"
+    }
+  },
+  {
+    "uid": "004716",
+    "code": "STAT8201",
+    "subject": "STAT",
+    "number": "8201",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Topics in Sampling",
+    "fullname": "Topics in Sampling",
+    "info": "Sampling theory; stratified sampling, ratio estimators, cluster sampling, double sampling, superpopulation theory, Bayesian methods, multiple imputation, nonresponse.prereq: 8102 or instr consent",
+    "prereq": {
+      "code": "STAT 8102",
+      "subject": "STAT",
+      "id": "8102"
+    }
+  },
+  {
+    "uid": "004717",
+    "code": "STAT8311",
+    "subject": "STAT",
+    "number": "8311",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Linear Models",
+    "fullname": "Linear Models",
+    "info": "General linear model theory from a coordinate-free geometric approach. Distribution theory, ANOVA tables, testing, confidence statements, mixed models, covariance structures, variance components estimation.prereq: Linear algebra, 5102 or 8102 or instr consent",
+    "prereq": {
+      "and": [
+        {
+          "code": "STAT 5102",
+          "subject": "STAT",
+          "id": "5102"
+        },
+        {
+          "code": "STAT 8102",
+          "subject": "STAT",
+          "id": "8102"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "004719",
+    "code": "STAT8312",
+    "subject": "STAT",
+    "number": "8312",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Lin & Nonlin Regres",
+    "fullname": "Linear and Nonlinear Regression",
+    "info": "Nonlinear regression: asymptotic theory, Bates-Watts curvatures, super leverage, parameter plots, projected residuals, transform-both-sides methodology, Wald versus likelihood inference. Topics in linear and generalized linear models as they relate to nonlinearity issues, including diagnostics, semi-parametric models, and model assessment.prereq: 8311",
+    "prereq": {
+      "code": "STAT 8311",
+      "subject": "STAT",
+      "id": "8311"
+    }
+  },
+  {
+    "uid": "004718",
+    "code": "STAT8313",
+    "subject": "STAT",
+    "number": "8313",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Topics Exper Design",
+    "fullname": "Topics in Experimental Design",
+    "info": "Optimal, Bayes, and nonlinear designs; algorithms for computing designs; sample size; recent developments.prereq: 8311",
+    "prereq": {
+      "code": "STAT 8311",
+      "subject": "STAT",
+      "id": "8311"
+    }
+  },
+  {
+    "uid": "004721",
+    "code": "STAT8321",
+    "subject": "STAT",
+    "number": "8321",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Regression Graphics",
+    "fullname": "Regression Graphics",
+    "info": "Foundations: dimension-reduction subspaces, Li-Duan Lemma, structural dimension. Inferring about central dimension-reduction subspaces by using 3D plots, graphical regression, inverse regression graphics, net-effect plots, principal Hessian directions, sliced inverse regression and predictor transformations. Graphics for model assessment.prereq: 8311",
+    "prereq": {
+      "code": "STAT 8311",
+      "subject": "STAT",
+      "id": "8311"
+    }
+  },
+  {
+    "uid": "788281",
+    "code": "STAT8333",
+    "subject": "STAT",
+    "number": "8333",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "FTE: Master's",
+    "fullname": "FTE: Master's",
+    "info": "(No description)prereq: Master's student, adviser and DGS consent",
+    "prereq": []
+  },
+  {
+    "uid": "006770",
+    "code": "STAT8401",
+    "subject": "STAT",
+    "number": "8401",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Multivariate Methds",
+    "fullname": "Topics in Multivariate Methods",
+    "info": "Bivariate and multivariate distributions. Multivariate normal distributions. Hotellings's T-squared, MANOVA, MANCOVA, and regressionwith multivariate dependent variable. Repeated measures, growth curve, andprofile analysis. Canonical correlation analysis. Principle components andfactor analysis. Discrimination, classification, clustering.prereq: 8311",
+    "prereq": {
+      "code": "STAT 8311",
+      "subject": "STAT",
+      "id": "8311"
+    }
+  },
+  {
+    "uid": "004725",
+    "code": "STAT8411",
+    "subject": "STAT",
+    "number": "8411",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Multivariate Analy",
+    "fullname": "Multivariate Analysis",
+    "info": "Multivariate normal distribution. Inference on the mean, covariance, and correlation and regression coefficients; related sampling distributions such as Hotelling's T-squared and Wishart distributions. Multivariate analysis of variance. Principal components and canonical correlation. Discriminant analysis.prereq: 8152",
+    "prereq": {
+      "code": "STAT 8152",
+      "subject": "STAT",
+      "id": "8152"
+    }
+  },
+  {
+    "uid": "004722",
+    "code": "STAT8421",
+    "subject": "STAT",
+    "number": "8421",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Theory Categor Data",
+    "fullname": "Theory of Categorical Data Analysis",
+    "info": "Categorical data, multidimensional cross-classified arrays, mixed categorical and continuous data. Loglinear, logit, and multinomial response models. Ordinal responses. Current research topics.prereq: 8062 or instr consent",
+    "prereq": {
+      "code": "STAT 8062",
+      "subject": "STAT",
+      "id": "8062"
+    }
+  },
+  {
+    "uid": "788416",
+    "code": "STAT8444",
+    "subject": "STAT",
+    "number": "8444",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "FTE: Doctoral",
+    "fullname": "FTE: Doctoral",
+    "info": "(No description)prereq: Doctoral student, adviser and DGS consent",
+    "prereq": []
+  },
+  {
+    "uid": "004723",
+    "code": "STAT8501",
+    "subject": "STAT",
+    "number": "8501",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Stochas Proc Appl",
+    "fullname": "Introduction to Stochastic Processes with Applications",
+    "info": "Markov chains in discrete and continuous time, renewal processes,Poisson process, Brownian motion, and other stochastic modelsencountered in applications.prereq: 5101 or 8101",
+    "prereq": {
+      "or": [
+        {
+          "code": "STAT 5101",
+          "subject": "STAT",
+          "id": "5101"
+        },
+        {
+          "code": "STAT 8101",
+          "subject": "STAT",
+          "id": "8101"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "004713",
+    "code": "STAT8511",
+    "subject": "STAT",
+    "number": "8511",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Time Series",
+    "fullname": "Time Series Analysis",
+    "info": "Characteristics of time series. Stationarity. Second-order descriptions. Time-domain representation, ARIMA/GARCH models. Frequency domain representation, univariate/multivariate analysis. Periodograms, non-parametric spectral estimation, state space models.prereq: 5102 or 8111 or instr consent",
+    "prereq": {
+      "or": [
+        {
+          "code": "STAT 5102",
+          "subject": "STAT",
+          "id": "5102"
+        },
+        {
+          "code": "STAT 8111",
+          "subject": "STAT",
+          "id": "8111"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "826219",
+    "code": "STAT8581",
+    "subject": "STAT",
+    "number": "8581",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Big Data in Astrophysics",
+    "fullname": "Big Data in Astrophysics",
+    "info": "This course will introduce key concepts and techniques used to work with large datasets, in the context of the field of astrophysics. Prerequisites: MATH 2263 and MATH 2243, or equivalent; or instructor consent.Suggested: familiarity with astrophysics topics such as star formation and evolution, galaxies and clusters, composition and expansion of the universe, gravitational wave sources and waveforms, and high-energy astrophysics.",
+    "prereq": {
+      "and": [
+        {
+          "code": "MATH 2263",
+          "subject": "MATH",
+          "id": "2263"
+        },
+        {
+          "code": "MATH 2243",
+          "subject": "MATH",
+          "id": "2243"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "788537",
+    "code": "STAT8666",
+    "subject": "STAT",
+    "number": "8666",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Doct Pre-Thesis Cr",
+    "fullname": "Doct Pre-Thesis Cr",
+    "info": "TBDprereq: Doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
+    "prereq": []
+  },
+  {
+    "uid": "006407",
+    "code": "STAT8701",
+    "subject": "STAT",
+    "number": "8701",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Comput Stat Methds",
+    "fullname": "Computational Statistical Methods",
+    "info": "Random variate generation, variance reduction techniques. Robustlocation estimation and regression, smoothing additive models,regression trees. Programming projects; basic programming abilityand familiarity with standard high-level language (preferablyFORTRAN or C) are essential.prereq: 8311, programming exper",
+    "prereq": {
+      "code": "STAT 8311",
+      "subject": "STAT",
+      "id": "8311"
+    }
+  },
+  {
+    "uid": "004720",
+    "code": "STAT8711",
+    "subject": "STAT",
+    "number": "8711",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Stat Computing",
+    "fullname": "Statistical Computing",
+    "info": "Basic numerical analysis for statisticians. Numerical methods for linearalgebra, eigen-analysis, integration, and optimization and their statistical applications.prereq: 8701 or instr consent",
+    "prereq": {
+      "code": "STAT 8701",
+      "subject": "STAT",
+      "id": "8701"
+    }
+  },
+  {
+    "uid": "004724",
+    "code": "STAT8721",
+    "subject": "STAT",
+    "number": "8721",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Prog+Graph in Stats",
+    "fullname": "Programming Paradigms and Dynamic Graphics in Statistics",
+    "info": "Alternative programming paradigms to traditional procedural programming, including object-oriented programming and functional programming. Applications to development of dynamic statistical graphs and representation and use of functional data, such as mean function in nonlinear regression log likelihoods and prior densities in Bayesian analysis.prereq: 8062, 8102",
+    "prereq": {
+      "and": [
+        {
+          "code": "STAT 8062",
+          "subject": "STAT",
+          "id": "8062"
+        },
+        {
+          "code": "STAT 8102",
+          "subject": "STAT",
+          "id": "8102"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "788662",
+    "code": "STAT8777",
+    "subject": "STAT",
+    "number": "8777",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Thesis Credit:Mast*",
+    "fullname": "Thesis Credits: Master's",
+    "info": "(No description)prereq: Max 18 cr per semester or summer; 10 cr total required [Plan A only]",
+    "prereq": []
+  },
+  {
+    "uid": "004729",
+    "code": "STAT8801",
+    "subject": "STAT",
+    "number": "8801",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Statistical Consulting",
+    "fullname": "Statistical Consulting",
+    "info": "Principles of effective consulting/problem-solving, meeting skills, reporting. Aspects of professional practice/behavior, ethics, continuing education.prereq: STAT 8051 and STAT Grad Student or Instructor Consent",
+    "prereq": {
+      "code": "STAT 8051",
+      "subject": "STAT",
+      "id": "8051"
+    }
+  },
+  {
+    "uid": "016212",
+    "code": "STAT8811",
+    "subject": "STAT",
+    "number": "8811",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Stat Practicum",
+    "fullname": "Statistical Consulting Practicum",
+    "info": "Providing (under faculty supervision) statistical support to clients, primarily University researchers. Exercises in problem solving, ethics, listening/communication skills.prereq: Statistics grad student or instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "796897",
+    "code": "STAT8821",
+    "subject": "STAT",
+    "number": "8821",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Curricular Practical Training",
+    "fullname": "Curricular Practical Training",
+    "info": "Industrial work assignment using advanced statistical techniques. Grade based on final report and presentation covering work assignment.prereq: Statistics grad student, dept consent",
+    "prereq": []
+  },
+  {
+    "uid": "787950",
+    "code": "STAT8888",
+    "subject": "STAT",
+    "number": "8888",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Thesis Credit:Doct*",
+    "fullname": "Thesis Credit: Doctoral",
+    "info": "(No description)prereq: Max 18 cr per semester or summer; 24 cr required",
+    "prereq": []
+  },
+  {
+    "uid": "017009",
+    "code": "STAT8900",
+    "subject": "STAT",
+    "number": "8900",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Student Seminar",
+    "fullname": "Student Seminar",
+    "info": "Preparation or presentation of seminar on statistical topics.prereq: Statistics graduate student",
+    "prereq": []
+  },
+  {
+    "uid": "799471",
+    "code": "STAT8913",
+    "subject": "STAT",
+    "number": "8913",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Literature Seminar",
+    "fullname": "Literature Seminar",
+    "info": "Students will read, present, discuss, and critique current literature/research.prereq: Statistics grad major or instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "013469",
+    "code": "STAT8931",
+    "subject": "STAT",
+    "number": "8931",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Advance Topics Stat",
+    "fullname": "Advanced Topics in Statistics",
+    "info": "Topics vary according to student needs/available staff.",
+    "prereq": []
+  },
+  {
+    "uid": "013470",
+    "code": "STAT8932",
+    "subject": "STAT",
+    "number": "8932",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Advanced Topics in Statistics",
+    "fullname": "Advanced Topics in Statistics",
+    "info": "Topics vary according to student needs/available staff.",
+    "prereq": []
+  },
+  {
+    "uid": "794702",
+    "code": "STAT8933",
+    "subject": "STAT",
+    "number": "8933",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Advanced Topics Stat",
+    "fullname": "Advanced Topics in Statistics",
+    "info": "Topics vary according to student needs and available staff.",
+    "prereq": []
+  },
+  {
+    "uid": "006772",
+    "code": "STAT8992",
+    "subject": "STAT",
+    "number": "8992",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Dirctd Rdng & Rsrch",
+    "fullname": "Directed Readings and Research",
+    "info": "Directed study in areas not covered by regular offerings.prereq: instr consent",
+    "prereq": []
+  }
+]

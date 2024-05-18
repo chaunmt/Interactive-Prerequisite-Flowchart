@@ -1,0 +1,102 @@
+[
+  {
+    "uid": "800722",
+    "code": "PERS1011",
+    "subject": "PERS",
+    "number": "1011",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Beginning Persian I",
+    "fullname": "Beginning Persian I",
+    "info": "Listening, speaking, reading, and writing in modern standard Persian (Farsi).",
+    "prereq": []
+  },
+  {
+    "uid": "800724",
+    "code": "PERS1012",
+    "subject": "PERS",
+    "number": "1012",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Beginning Persian II",
+    "fullname": "Beginning Persian II",
+    "info": "Listening, speaking, reading, writing in modern standard Persian (Farsi).prereq: 1011 or instr consent",
+    "prereq": {
+      "code": "PERS 1011",
+      "subject": "PERS",
+      "id": "1011"
+    }
+  },
+  {
+    "uid": "800726",
+    "code": "PERS3101",
+    "subject": "PERS",
+    "number": "3101",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Intermediate Persian I",
+    "fullname": "Intermediate Persian I",
+    "info": "Listening, speaking, reading, and writing in modern standard Persian (Farsi).",
+    "prereq": []
+  },
+  {
+    "uid": "800728",
+    "code": "PERS3102",
+    "subject": "PERS",
+    "number": "3102",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Intermediate Persian II",
+    "fullname": "Intermediate Persian II",
+    "info": "Listening, speaking, reading, and writing in modern standard Persian (Farsi).",
+    "prereq": []
+  },
+  {
+    "uid": "800723",
+    "code": "PERS4101",
+    "subject": "PERS",
+    "number": "4101",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Beg Persian I Grad Research",
+    "fullname": "Beginning Persian I for Graduate Student Research",
+    "info": "Listening, speaking, reading, and writing in modern standard Persian (Farsi).",
+    "prereq": []
+  },
+  {
+    "uid": "800725",
+    "code": "PERS4102",
+    "subject": "PERS",
+    "number": "4102",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Beg Persian II Grad Research",
+    "fullname": "Beginning Persian II for Graduate Student Research",
+    "info": "Listening, speaking, reading, and writing in modern standard Persian (Farsi).",
+    "prereq": []
+  },
+  {
+    "uid": "800727",
+    "code": "PERS4103",
+    "subject": "PERS",
+    "number": "4103",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Intermed Persian I Grad Rsrch",
+    "fullname": "Intermediate Persian I for Graduate Student Research",
+    "info": "Listening, speaking, reading, and writing in modern standard Persian (Farsi).",
+    "prereq": []
+  },
+  {
+    "uid": "800730",
+    "code": "PERS4104",
+    "subject": "PERS",
+    "number": "4104",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Intermed Persian II Grad Rsrch",
+    "fullname": "Intermediate Persian II for Graduate Student Research",
+    "info": "Listening, speaking, reading, and writing in modern standard Persian (Farsi).",
+    "prereq": []
+  }
+]

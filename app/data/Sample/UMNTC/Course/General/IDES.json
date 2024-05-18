@@ -1,0 +1,576 @@
+[
+  {
+    "uid": "804727",
+    "code": "IDES1170",
+    "subject": "IDES",
+    "number": "1170",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Topics in Interior Design",
+    "fullname": "Topics in Interior Design",
+    "info": "In-depth investigation of specific topic, announced in advance.",
+    "prereq": []
+  },
+  {
+    "uid": "012926",
+    "code": "IDES1601",
+    "subject": "IDES",
+    "number": "1601",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "ID Studio I",
+    "fullname": "Interior Design Studio I",
+    "info": "Theories used to solve interior design problems related to human behavior. Design process. Communication skills that are required for interior design profession.prereq: Interior design pre-major or interior environments minor",
+    "prereq": []
+  },
+  {
+    "uid": "012927",
+    "code": "IDES1602",
+    "subject": "IDES",
+    "number": "1602",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "ID Studio II",
+    "fullname": "Interior Design Studio II",
+    "info": "Introduction to interior design programming as method for understanding behaviors/requirements of humans in spaces. Use of color in three-dimensional environments. Developing communication skills. Problem-solving.prereq: [1601 or DHA 1601] with grade of at least C-, interior design pre-major",
+    "prereq": {
+      "or": [
+        {
+          "code": "IDES 1601",
+          "subject": "IDES",
+          "id": "1601"
+        },
+        {
+          "code": "DHA 1601",
+          "subject": "DHA",
+          "id": "1601"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "804786",
+    "code": "IDES2196",
+    "subject": "IDES",
+    "number": "2196",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Work Experience",
+    "fullname": "Work Experience in Interior Design",
+    "info": "Supervised work experience in business, industry, or government, related to student's area of study.prereq: Plan submitted/approved by [adviser, internship supervisor], written approval of supervisor, instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "012928",
+    "code": "IDES2603",
+    "subject": "IDES",
+    "number": "2603",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "ID Studio III",
+    "fullname": "Interior Design Studio III",
+    "info": "Expanding presentation skills, visual communication of design process. Design of interior environment as influenced by neighborhood, adjacent structures, regional context, diverse cultures.prereq: [1602 or DHA 1602] with grade of at least C-, pass portfolio review, interior design major",
+    "prereq": {
+      "or": [
+        {
+          "code": "IDES 1602",
+          "subject": "IDES",
+          "id": "1602"
+        },
+        {
+          "code": "DHA 1602",
+          "subject": "DHA",
+          "id": "1602"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "012929",
+    "code": "IDES2604",
+    "subject": "IDES",
+    "number": "2604",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "ID Studio IV",
+    "fullname": "Interior Design Studio IV",
+    "info": "Relationship between exterior/interior design as it pertains to building construction. Methods/materials, principles of structure, building systems, construction details. Interface of electrical, HVAC, plumbing systems in buildings.prereq: [2603 or DHA 2603], 2613",
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            {
+              "code": "IDES 2603",
+              "subject": "IDES",
+              "id": "2603"
+            },
+            {
+              "code": "DHA 2603",
+              "subject": "DHA",
+              "id": "2603"
+            }
+          ]
+        },
+        {
+          "code": "IDES 2613",
+          "subject": "IDES",
+          "id": "2613"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "012894",
+    "code": "IDES2612",
+    "subject": "IDES",
+    "number": "2612",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Int Materials & Specifications",
+    "fullname": "Interior Materials and Specifications",
+    "info": "Environmental issues, from global to interior spaces. Effect of building codes/legislation, social awareness. Functional/aesthetic relation of materials/resources to interior design.prereq: [Pass portfolio review, interior design major] or interior environments minor or design minor or instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "012930",
+    "code": "IDES2613",
+    "subject": "IDES",
+    "number": "2613",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Structures, Systems, Safety",
+    "fullname": "Interior Structures, Systems, and Life Safety",
+    "info": "Codes, standards, regulations, and guidelines that govern design of interior space and support life safety. Integration of building systems. Structures for non-residential/residential occupancy. Building/energy codes. Lectures, guest speakers, field trips.",
+    "prereq": []
+  },
+  {
+    "uid": "012945",
+    "code": "IDES2621",
+    "subject": "IDES",
+    "number": "2621",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Computer Aided Des: Int Design",
+    "fullname": "Computer Aided Design: Interior Design",
+    "info": "Application of two-/three-dimensional computer drawing in design/visualization of interior space. AutoCAD software used on Windows-based system.prereq: [Interior design major, pass portfolio review] or instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "808389",
+    "code": "IDES2622",
+    "subject": "IDES",
+    "number": "2622",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Computer Applications I",
+    "fullname": "Computer Applications I",
+    "info": "Computer-aided design, its role in interior design.  Use of software applications for construction drawings, two-/three-dimensional representation. Modeling for interior design problem-solving/presentation.prereq: Interior design major",
+    "prereq": []
+  },
+  {
+    "uid": "009256",
+    "code": "IDES3161",
+    "subject": "IDES",
+    "number": "3161",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Int & Furn to 1750",
+    "fullname": "History of Interiors and Furnishings: Ancient to 1750",
+    "info": "Study of European and American interiors and furnishings, including furniture, textiles, and decorative objects.",
+    "prereq": []
+  },
+  {
+    "uid": "009258",
+    "code": "IDES3162",
+    "subject": "IDES",
+    "number": "3162",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Int/Furn to Present",
+    "fullname": "History of Interiors and Furnishings: 1750 to Present",
+    "info": "European/American interiors/furnishings, including furniture, textiles, and decorative objects.",
+    "prereq": []
+  },
+  {
+    "uid": "804758",
+    "code": "IDES3170",
+    "subject": "IDES",
+    "number": "3170",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Topics in Interior Design",
+    "fullname": "Topics in Interior Design",
+    "info": "In-depth investigation of specific topic.",
+    "prereq": []
+  },
+  {
+    "uid": "804759",
+    "code": "IDES3196",
+    "subject": "IDES",
+    "number": "3196",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Field Study: Natl/Intl",
+    "fullname": "Field Study: National or International",
+    "info": "Faculty-directed field study in national or international setting.prereq: instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "012946",
+    "code": "IDES3605",
+    "subject": "IDES",
+    "number": "3605",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Interior Design Studio V",
+    "fullname": "Interior Design Studio V",
+    "info": "Advanced interior design problems dealing with small to medium scale spaces. Emphasizes special-needs populations.",
+    "prereq": []
+  },
+  {
+    "uid": "012947",
+    "code": "IDES3606",
+    "subject": "IDES",
+    "number": "3606",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "ID Studio VI",
+    "fullname": "Interior Design Studio VI",
+    "info": "Interior design problems dealing with medium-scale spaces. Focuses on medium office design. prereq: IDes 3605",
+    "prereq": {
+      "code": "IDES 3605",
+      "subject": "IDES",
+      "id": "3605"
+    }
+  },
+  {
+    "uid": "808392",
+    "code": "IDES3612",
+    "subject": "IDES",
+    "number": "3612",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Lighting Design",
+    "fullname": "Lighting Design",
+    "info": "Lighting as dynamic design element. Psychological aspects of light color/quality/sources. Photometrics, codes, daylighting, energy conservation. How lighting impacts health/well-being. Integrating lighting with interior/architectural elements. Lighting/fixture design. Computer visualization. Lecture, assignments, projects.",
+    "prereq": []
+  },
+  {
+    "uid": "012895",
+    "code": "IDES3614",
+    "subject": "IDES",
+    "number": "3614",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "ID Ethics & Pro Pr",
+    "fullname": "Interior Design Ethics and Professional Practice",
+    "info": "Business of interior design, professional ethics, and responsible design. Ethical theory/conduct. Responsibility to business, clients, colleagues, and community at large and globally.prereq: 2604 or DHA 2604; or Interior Environments Minor",
+    "prereq": {
+      "or": [
+        {
+          "code": "IDES 2604",
+          "subject": "IDES",
+          "id": "2604"
+        },
+        {
+          "code": "DHA 2604",
+          "subject": "DHA",
+          "id": "2604"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "808396",
+    "code": "IDES3622",
+    "subject": "IDES",
+    "number": "3622",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Computer Applications II",
+    "fullname": "Computer Applications II",
+    "info": "Advanced concepts/terms in computer modeling. Computer graphics, three-dimensional modeling, rendering, animation to provide representation strategies for interior design problem-solving/presentation. Applications such as Autodesk Revit, AutoCAD, Autodesk 3ds Max Design.prereq: 2622",
+    "prereq": {
+      "code": "IDES 2622",
+      "subject": "IDES",
+      "id": "2622"
+    }
+  },
+  {
+    "uid": "804760",
+    "code": "IDES4193",
+    "subject": "IDES",
+    "number": "4193",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Dir Study in Interior Design",
+    "fullname": "Directed Study in Interior Design",
+    "info": "Independent study in interior design under tutorial guidance.prereq: Undergrad, instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "804790",
+    "code": "IDES4196",
+    "subject": "IDES",
+    "number": "4196",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Internship",
+    "fullname": "Internship in Interior Design",
+    "info": "Supervised work experience relating activity in business, industry, or government to student's area of study. Integrative paper or project may be required. prereq: 4607, instr consent",
+    "prereq": {
+      "code": "IDES 4607",
+      "subject": "IDES",
+      "id": "4607"
+    }
+  },
+  {
+    "uid": "009303",
+    "code": "IDES4607",
+    "subject": "IDES",
+    "number": "4607",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Interior Design Studio VII",
+    "fullname": "Interior Design Studio VII",
+    "info": "Advanced interior design problems dealing with large scale spaces. Historic precedent, adaptive use, renovation.prereq: [IDes 2604] or [DHA 2604]] with grade of at least C-",
+    "prereq": {
+      "or": [
+        {
+          "code": "IDES 2604",
+          "subject": "IDES",
+          "id": "2604"
+        },
+        {
+          "code": "DHA 2604",
+          "subject": "DHA",
+          "id": "2604"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "009304",
+    "code": "IDES4608",
+    "subject": "IDES",
+    "number": "4608",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "ID Thesis",
+    "fullname": "Interior Design Thesis",
+    "info": "Comprehensive independent interior design project developed from student-conducted research/program developed in 4615W.prereq: [4615W or DHA 4615W], [4607 or DHA 4607] with grade of at least C-",
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            {
+              "code": "IDES 4615W",
+              "subject": "IDES",
+              "id": "4615W"
+            },
+            {
+              "code": "DHA 4615W",
+              "subject": "DHA",
+              "id": "4615W"
+            }
+          ]
+        },
+        {
+          "or": [
+            {
+              "code": "IDES 4607",
+              "subject": "IDES",
+              "id": "4607"
+            },
+            {
+              "code": "DHA 4607",
+              "subject": "DHA",
+              "id": "4607"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "uid": "794625",
+    "code": "IDES4615W",
+    "subject": "IDES",
+    "number": "4615",
+    "honors": false,
+    "writingIntensive": true,
+    "name": "ID Research",
+    "fullname": "Interior Design Research",
+    "info": "Research methods for programming interior design solutions. Developing comprehensive program. Issues that affect interior design research/practices.prereq: 3605 or DHA 3605",
+    "prereq": {
+      "or": [
+        {
+          "code": "IDES 3605",
+          "subject": "IDES",
+          "id": "3605"
+        },
+        {
+          "code": "DHA 3605",
+          "subject": "DHA",
+          "id": "3605"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "804947",
+    "code": "IDES4616",
+    "subject": "IDES",
+    "number": "4616",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Sustain Cmmrcl Interior Dsgn",
+    "fullname": "Sustainable Commercial Interior Design",
+    "info": "Intent, requirements, submittals, technologies/strategies to achieve LEED CI standards in existing, new construction, or tenant improvement projects.",
+    "prereq": []
+  },
+  {
+    "uid": "819057",
+    "code": "IDES4617",
+    "subject": "IDES",
+    "number": "4617",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Lighting Design Innovations",
+    "fullname": "Lighting Design Innovations and Technological Advances",
+    "info": "This course deepens students' understanding of the relationship between interior and architectural lighting design issues, strategies, and methods in contemporary practice. It investigates an integrated approach to lighting design to consider lighting innovations and emerging trends in health and comfort, smart technologies, energy and performance, metrics and standards, and assessment processes and tools. Assignments incrementally introduce students to related lighting issues to enable students to gain hands-on knowledge and application of related design issues through a small design project. Field studies and guest lectures provide insights into innovations in industry and professional perspectives on emerging technologies and systems integration.",
+    "prereq": []
+  },
+  {
+    "uid": "804761",
+    "code": "IDES5170",
+    "subject": "IDES",
+    "number": "5170",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Topics in Interior Design",
+    "fullname": "Topics in Interior Design",
+    "info": "In-depth investigation of specific topic, announced in advance.prereq: Jr or sr or grad student",
+    "prereq": []
+  },
+  {
+    "uid": "804728",
+    "code": "IDES5193",
+    "subject": "IDES",
+    "number": "5193",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Directed Study",
+    "fullname": "Directed Study in Interior Design",
+    "info": "Independent study in interior design under tutorial guidance.prereq: Jr or sr or grad student",
+    "prereq": []
+  },
+  {
+    "uid": "804783",
+    "code": "IDES5196",
+    "subject": "IDES",
+    "number": "5196",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Work experience",
+    "fullname": "Work experience (lighting internship)",
+    "info": "Faculty-directed internship",
+    "prereq": []
+  },
+  {
+    "uid": "818895",
+    "code": "IDES5612",
+    "subject": "IDES",
+    "number": "5612",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Lighting Design",
+    "fullname": "Lighting Design",
+    "info": "Lighting as dynamic design element. Psychological aspects of light color/quality/sources. Photometrics, codes, daylighting, energy conservation. How lighting impacts health/well-being. Integrating lighting with interior/architectural elements. Lighting/fixture design. Computer visualization. Lecture, assignments, projects.",
+    "prereq": []
+  },
+  {
+    "uid": "818905",
+    "code": "IDES5616",
+    "subject": "IDES",
+    "number": "5616",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Sustain Cmmrcl Interior Dsgn",
+    "fullname": "Sustainable Commercial Interior Design",
+    "info": "Intent, requirements, submittals, technologies/strategies to achieve LEED CI standards in existing, new construction, or tenant improvement projects.",
+    "prereq": []
+  },
+  {
+    "uid": "818992",
+    "code": "IDES5617",
+    "subject": "IDES",
+    "number": "5617",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Lighting Design Innovations",
+    "fullname": "Lighting Design Innovations and Technological Advances",
+    "info": "This course deepens students' understanding of the relationship between interior and architectural lighting design issues, strategies, and methods in contemporary practice. It investigates an integrated approach to lighting design to consider lighting innovations and emerging trends in health and comfort, smart technologies, energy and performance, metrics and standards, and assessment processes and tools. Assignments incrementally introduce students to related lighting issues to enable students to gain hands-on knowledge and application of related design issues through a small design project. Field studies and guest lectures provide insights into innovations in industry and professional perspectives on emerging technologies and systems integration.",
+    "prereq": []
+  },
+  {
+    "uid": "804729",
+    "code": "IDES8170",
+    "subject": "IDES",
+    "number": "8170",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Topics in Interior Design",
+    "fullname": "Topics in Interior Design",
+    "info": "In-depth investigation of topic, announced in advance.",
+    "prereq": []
+  },
+  {
+    "uid": "804730",
+    "code": "IDES8180",
+    "subject": "IDES",
+    "number": "8180",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Professional Seminar",
+    "fullname": "Professional Seminar",
+    "info": "Professional development issues/trends.",
+    "prereq": []
+  },
+  {
+    "uid": "804731",
+    "code": "IDES8192",
+    "subject": "IDES",
+    "number": "8192",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Readings",
+    "fullname": "Readings in Interior Design",
+    "info": "Independent study, review of books/periodicals under tutorial guidance.prereq: instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "804732",
+    "code": "IDES8193",
+    "subject": "IDES",
+    "number": "8193",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Directed Study",
+    "fullname": "Directed Study",
+    "info": "Directed study in interior design.prereq: instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "804733",
+    "code": "IDES8222",
+    "subject": "IDES",
+    "number": "8222",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Plan B Master's Project",
+    "fullname": "Plan B Master's Project",
+    "info": "Plan B master's project.prereq: [DHA or design] master's student, instr consent",
+    "prereq": []
+  }
+]

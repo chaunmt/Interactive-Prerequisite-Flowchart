@@ -1,0 +1,117 @@
+[
+  {
+    "uid": "798418",
+    "code": "MDS3001W",
+    "subject": "MDS",
+    "number": "3001",
+    "honors": false,
+    "writingIntensive": true,
+    "name": "Intro to Multidis Studies",
+    "fullname": "Introduction to Multidisciplinary Studies",
+    "info": "University study at a major research institution, its history/theory and expectations/outcomes. Students design their degree and select areas/courses. Institutional/student perspectives.prereq: Admitted to multidisciplinary studies",
+    "prereq": []
+  },
+  {
+    "uid": "807304",
+    "code": "MDS3093",
+    "subject": "MDS",
+    "number": "3093",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Directed Study",
+    "fullname": "Directed Study",
+    "info": "Independent, directed study.prereq: instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "808803",
+    "code": "MDS3101",
+    "subject": "MDS",
+    "number": "3101",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Project Development",
+    "fullname": "Project Development",
+    "info": "Development, completion, approval of MdS project proposal. Steps/skills of academic project design/development including academic research/writing. Library data base searching methods/citation styles.prereq: 3001W, MdS major, adviser referral, permission number, basiccomputer/internet skills",
+    "prereq": {
+      "code": "MDS 3001",
+      "subject": "MDS",
+      "id": "3001"
+    }
+  },
+  {
+    "uid": "808804",
+    "code": "MDS3201",
+    "subject": "MDS",
+    "number": "3201",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Project Registration",
+    "fullname": "Project Registration",
+    "info": "The Project Registration course is an elective within the Multidisciplinary Studies program. The proposal for this course is designed within the previous course, MDS 3101-Project Development. MDS 3201 is designed to allow the completion of project proposal outcomes in consultation with the course instructor and project evaluator, who will provide final approval.  Three completions are allowed. prereq: include MDS 3001W, MDS 3101, MDS major status, and permission from an MDS adviser.",
+    "prereq": {
+      "and": [
+        {
+          "code": "MDS 3001W",
+          "subject": "MDS",
+          "id": "3001W"
+        },
+        {
+          "code": "MDS 3101",
+          "subject": "MDS",
+          "id": "3101"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "808805",
+    "code": "MDS3202",
+    "subject": "MDS",
+    "number": "3202",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Project Registration 2",
+    "fullname": "Project Registration 2",
+    "info": "Complete project developed in MdS 3101 by conducting research, accomplishing project outcome(s), securing a narrative evaluation from project adviser/evaluator.prereq: 3001W, MdS major status, C- or above 3101, approved project proposal, permission number, basic computer/internet skills",
+    "prereq": {
+      "and": [
+        {
+          "code": "MDS 3001W",
+          "subject": "MDS",
+          "id": "3001W"
+        },
+        {
+          "code": "MDS 3101",
+          "subject": "MDS",
+          "id": "3101"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "808806",
+    "code": "MDS3203",
+    "subject": "MDS",
+    "number": "3203",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Project Registration 3",
+    "fullname": "Project Registration 3",
+    "info": "Complete project developed in MdS 3101 by conducting research, accomplishing project outcome(s), securing narrative evaluation from project adviser/evaluator.prereq: 3001W, MdS major, C- or above 3101, approved project proposal, permission number, basic computer/internet skills",
+    "prereq": {
+      "and": [
+        {
+          "code": "MDS 3001W",
+          "subject": "MDS",
+          "id": "3001W"
+        },
+        {
+          "code": "MDS 3101",
+          "subject": "MDS",
+          "id": "3101"
+        }
+      ]
+    }
+  }
+]

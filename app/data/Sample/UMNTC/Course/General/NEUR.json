@@ -1,0 +1,427 @@
+[
+  {
+    "uid": "015962",
+    "code": "NEUR5121",
+    "subject": "NEUR",
+    "number": "5121",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Dx Neurology",
+    "fullname": "Descriptive Neurology",
+    "info": "Central and peripheral nervous system.  Correlation of neuroanatomy, neurophysiology, clinical neurology, and pathology of the nervous system.prereq: enrolled OT or PT",
+    "prereq": []
+  },
+  {
+    "uid": "805007",
+    "code": "NEUR5230",
+    "subject": "NEUR",
+    "number": "5230",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Cerebrovascular Hemodynamics I",
+    "fullname": "Cerebrovascular Hemodynamics and Diseases I",
+    "info": "Principles of cerebrovascular disease/pathophysiology, hemodynamics, diagnostic imaging, and endovacular devices. Bench-to-bedside experiments. Clinical trials, including design constraints and biostatistics.prereq: [[PHSL 3051 or PHSL 3063], [MATH 1271 or MATH 1371], [MATH 1272 or MATH 1372], [PHYS 1201W or PHYS 1301W], instr consent] or [grad student, [PHSL 5061 or instr consent]]",
+    "prereq": {
+      "or": [
+        {
+          "and": [
+            {
+              "or": [
+                {
+                  "code": "PHSL 3051",
+                  "subject": "PHSL",
+                  "id": "3051"
+                },
+                {
+                  "code": "PHSL 3063",
+                  "subject": "PHSL",
+                  "id": "3063"
+                }
+              ]
+            },
+            {
+              "or": [
+                {
+                  "code": "MATH 1271",
+                  "subject": "MATH",
+                  "id": "1271"
+                },
+                {
+                  "code": "MATH 1371",
+                  "subject": "MATH",
+                  "id": "1371"
+                }
+              ]
+            },
+            {
+              "or": [
+                {
+                  "code": "MATH 1272",
+                  "subject": "MATH",
+                  "id": "1272"
+                },
+                {
+                  "code": "MATH 1372",
+                  "subject": "MATH",
+                  "id": "1372"
+                }
+              ]
+            },
+            {
+              "or": [
+                {
+                  "code": "PHYS 1201W",
+                  "subject": "PHYS",
+                  "id": "1201W"
+                },
+                {
+                  "code": "PHYS 1301W",
+                  "subject": "PHYS",
+                  "id": "1301W"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "PHSL 5061",
+          "subject": "PHSL",
+          "id": "5061"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "805008",
+    "code": "NEUR5240",
+    "subject": "NEUR",
+    "number": "5240",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Cerebrovascular Hemodynamics 2",
+    "fullname": "Cerebrovascular Hemodynamics and Diseases II",
+    "info": "Principles of cerebrovascular disease/pathophysiology, hemodynamics, diagnostic imaging, and endovacular devices. Bench-to-bedside experiments. Clinical trials, including design constraints and biostatistics. Treatment options, endovascular devices, design of new clinical studies.prereq: 5230, instr consent",
+    "prereq": {
+      "code": "NEUR 5230",
+      "subject": "NEUR",
+      "id": "5230"
+    }
+  },
+  {
+    "uid": "011549",
+    "code": "NEUR7120",
+    "subject": "NEUR",
+    "number": "7120",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Neurology Research",
+    "fullname": "Neurology Research",
+    "info": "Students are eligible to participate in clinical or basic science research programs conducted by members of the Department of Neurology at the Fairview-University Medical Center or affiliated hospitals. The specific nature of the project is decided upon by the student and the faculty member. The student is responsible for making their own arrangements with the faculty member. ",
+    "prereq": []
+  },
+  {
+    "uid": "012949",
+    "code": "NEUR7200",
+    "subject": "NEUR",
+    "number": "7200",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Clinical Neurology",
+    "fullname": "Clinical Neurology",
+    "info": "Clinical neurology.",
+    "prereq": []
+  },
+  {
+    "uid": "012953",
+    "code": "NEUR7205",
+    "subject": "NEUR",
+    "number": "7205",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Applied Neuropathology",
+    "fullname": "Applied Neuropathology",
+    "info": "",
+    "prereq": []
+  },
+  {
+    "uid": "012954",
+    "code": "NEUR7221",
+    "subject": "NEUR",
+    "number": "7221",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Neurochem Asp of Clin Disord",
+    "fullname": "Neurochemical Aspects of Selected Clinical Disorders",
+    "info": "Neurochemical aspects of selected clinical disorders. ",
+    "prereq": []
+  },
+  {
+    "uid": "800806",
+    "code": "NEUR7300",
+    "subject": "NEUR",
+    "number": "7300",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Interventional Neurology Elect",
+    "fullname": "Interventional Neurology Elective",
+    "info": "Rotation with the interventional neurology team: observe procedures, see patients in clinic, participate in research projects.Prereq 7510.",
+    "prereq": {
+      "code": "NEUR 7510",
+      "subject": "NEUR",
+      "id": "7510"
+    }
+  },
+  {
+    "uid": "011551",
+    "code": "NEUR7510",
+    "subject": "NEUR",
+    "number": "7510",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Neurology Externship",
+    "fullname": "Neurology Externship",
+    "info": "This required 4-week clerkship offers students the opportunity to work directly with neurologists in inpatient and outpatient settings.",
+    "prereq": []
+  },
+  {
+    "uid": "820014",
+    "code": "NEUR7511",
+    "subject": "NEUR",
+    "number": "7511",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Essentials of Clinical Neur",
+    "fullname": "Essentials of Clinical Neurology",
+    "info": "The goals of the neurology clerkship are to increase clinical skills in diagnosing and treating neurologic illnesses, to stimulate interest in clinical neurosciences, and to increase awareness of the role of the neurologist. Upon completion of the course, the student will be familiar with common neurological disorders and will have a sense for when neurologic consultation is appropriate.",
+    "prereq": []
+  },
+  {
+    "uid": "820015",
+    "code": "NEUR7512",
+    "subject": "NEUR",
+    "number": "7512",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Neurology Apprenticeship",
+    "fullname": "Neurology Apprenticeship",
+    "info": "The goals of the neurology clerkship are to increase clinical skills in diagnosing and treating neurologic illnesses, to stimulate interest in clinical neurosciences, and to increase awareness of the role of the neurologist. Upon completion of the course, the student will be familiar with common neurological disorders and will have a sense for when neurologic consultation is appropriate.",
+    "prereq": []
+  },
+  {
+    "uid": "810111",
+    "code": "NEUR7520",
+    "subject": "NEUR",
+    "number": "7520",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Pediatric Neurology Elective",
+    "fullname": "Pediatric Neurology Elective",
+    "info": "This elective for third- and fourth- year medical students will offer a chance to interact with Child Neurologists with varying focuses of practice including developmental, neuromuscular, movement, epilepsy, and miscellaneous neuro-genetic and neuro-metabolic disorders. Students will be involved in both the inpatient and outpatient aspects concurrently.",
+    "prereq": []
+  },
+  {
+    "uid": "011552",
+    "code": "NEUR7542",
+    "subject": "NEUR",
+    "number": "7542",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Peds Neurology Elec",
+    "fullname": "Pediatric Neurology",
+    "info": "Successful completion of this rotation satisfies the neurology requirement (Neur 7-510). Pediatric neurology patients have a variety of problems ranging from coma, muscular dystrophy, epilepsy to learning disabilities;from inborn errors of metabolism, metabolic neurologic dysfunction to behavior disorders. Patients are seen both on service and inconsultation in the hospital and in the outpatient clinic which meets three times weekly. Students will function as part of the groupof physicians who evaluate and suggest therapy for these children. There will be close supervision and tutorial sessions with thesenior pediatric neurology fellows as well as scheduled rounds with pediatric neurology staff members at least three times weekly.There is no night call, routinely. A teaching conference is held weekly and students are encouraged to participate during therotation. ",
+    "prereq": []
+  },
+  {
+    "uid": "011553",
+    "code": "NEUR7544",
+    "subject": "NEUR",
+    "number": "7544",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Electroencephal Ele",
+    "fullname": "Clinical Electroencephalography",
+    "info": "The student attends EEG interpretative sessions and tracings discussions, correlating these with the clinical picture. In addition, he or she will observe recording techniques. The student should also review a topic, accompanying its presentation with an adequate written bibliography. The bibliography should be arranged in the format of one of the journals in the field. ",
+    "prereq": []
+  },
+  {
+    "uid": "011554",
+    "code": "NEUR7545",
+    "subject": "NEUR",
+    "number": "7545",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Neuromuscular Elective",
+    "fullname": "Neuromuscular Diseases",
+    "info": "Students participate in all aspects of diagnosis/management of patients with neuromuscular disease. Rotation includes neuromuscular and Muscular Dystrophy Association clinics, clinical electrophysiology laboratory evaluations of patients, nerve/muscle biopsy histological interpretation, and clinic/electromyography conferences. Diseases seen include carpal tunnel syndrome, radiculopathies, polyneuropathies, muscular dystrophy, amyotrophic lateral sclerosis, myasthenia gravis. Molecular basis of inherited neuromuscular disease. Students may participate in clinical research projects. ",
+    "prereq": []
+  },
+  {
+    "uid": "798705",
+    "code": "NEUR7565",
+    "subject": "NEUR",
+    "number": "7565",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Neuro Subspecialty Elective",
+    "fullname": "Neurology Subspecialty Elective",
+    "info": "The student will be exposed to a variety of neurological subspecialty outpatient clinics. This elective is intended as an opportunity to gain greater familiarity with neurological clinical findings and management of common neurological problems. Course coordinator will discuss areas of student interest and help coordinate a schedule from among the available subspecialties.",
+    "prereq": []
+  },
+  {
+    "uid": "011555",
+    "code": "NEUR7599",
+    "subject": "NEUR",
+    "number": "7599",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Acting Intern Neurology",
+    "fullname": "Acting Intern Neurology",
+    "info": "This hospital-based course is designed for students with special interest in the clinical and basic neurosciences who desire additional experience in clinical neurology. The majority of the subintern's time is spent performing inpatient consultations under the supervision of a senior resident and/or staff neurologist. Students are able to attend conference with the neurology residents. This course is designed primarily for students considering a career in neurology.prereq: NEUR 7511 plus 2 additional non-research neurology credits or NEUR 7510",
+    "prereq": {
+      "or": [
+        {
+          "code": "NEUR 7511",
+          "subject": "NEUR",
+          "id": "7511"
+        },
+        {
+          "code": "NEUR 7510",
+          "subject": "NEUR",
+          "id": "7510"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "015958",
+    "code": "NEUR7600",
+    "subject": "NEUR",
+    "number": "7600",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Epilepsy Diagnosis & Treatment",
+    "fullname": "Epilepsy Diagnosis and Treatment",
+    "info": "The student works with an epileptologist in inpatient/outpatient settings. Emphasis is on learning diagnosis, pharmacological and surgical treatment, and the social and psychological consequences to care for the needs of epilepsy patients.",
+    "prereq": []
+  },
+  {
+    "uid": "012959",
+    "code": "NEUR7705",
+    "subject": "NEUR",
+    "number": "7705",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Neurological/Neurosurg Conf",
+    "fullname": "Neurological-Neurosurgical Conference",
+    "info": "Neurological-neurosurgical conference.",
+    "prereq": []
+  },
+  {
+    "uid": "805682",
+    "code": "NEUR7910",
+    "subject": "NEUR",
+    "number": "7910",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Neurology Medical Residency",
+    "fullname": "Neurology Medical Residency",
+    "info": "Neurology medical residency.",
+    "prereq": []
+  },
+  {
+    "uid": "805683",
+    "code": "NEUR7930",
+    "subject": "NEUR",
+    "number": "7930",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Neurology Medical Fellowship",
+    "fullname": "Neurology Medical Fellowship",
+    "info": "Neurology medical fellowship.",
+    "prereq": []
+  },
+  {
+    "uid": "012950",
+    "code": "NEUR8201",
+    "subject": "NEUR",
+    "number": "8201",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Clinical Pediatric Neurology",
+    "fullname": "Clinical Pediatric Neurology",
+    "info": "",
+    "prereq": []
+  },
+  {
+    "uid": "012951",
+    "code": "NEUR8202",
+    "subject": "NEUR",
+    "number": "8202",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Research in Neurology",
+    "fullname": "Research in Neurology",
+    "info": "Research in Neurology",
+    "prereq": []
+  },
+  {
+    "uid": "012952",
+    "code": "NEUR8203",
+    "subject": "NEUR",
+    "number": "8203",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Applied Electroencephalography",
+    "fullname": "Applied Electroencephalography",
+    "info": "Applied Electroencephalography",
+    "prereq": []
+  },
+  {
+    "uid": "012960",
+    "code": "NEUR8204",
+    "subject": "NEUR",
+    "number": "8204",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Applied Electromyography",
+    "fullname": "Applied Electromyography",
+    "info": "Applied Electromyography",
+    "prereq": []
+  },
+  {
+    "uid": "012955",
+    "code": "NEUR8233",
+    "subject": "NEUR",
+    "number": "8233",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Neurological Clinical Path Con",
+    "fullname": "Neurological Clinical Pathological Conference",
+    "info": "Neurological Clinical Pathological Conference",
+    "prereq": []
+  },
+  {
+    "uid": "012957",
+    "code": "NEUR8236",
+    "subject": "NEUR",
+    "number": "8236",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Research in Neuropathology",
+    "fullname": "Research in Neuropathology",
+    "info": "Research in Neuropathology",
+    "prereq": []
+  },
+  {
+    "uid": "012958",
+    "code": "NEUR8704",
+    "subject": "NEUR",
+    "number": "8704",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Survey of Neuropathology",
+    "fullname": "Survey of Neuropathology",
+    "info": "Survey of Neuropathology",
+    "prereq": []
+  }
+]

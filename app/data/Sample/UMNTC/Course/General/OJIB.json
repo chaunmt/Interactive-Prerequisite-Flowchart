@@ -1,0 +1,302 @@
+[
+  {
+    "uid": "811447",
+    "code": "OJIB1100",
+    "subject": "OJIB",
+    "number": "1100",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Ojibwe Immersion",
+    "fullname": "Ojibwe Immersion",
+    "info": "Three week course designed to help students with little or no knowledge of Ojibwe language. Introduction to fundamentals of Ojibwe language. Taught primarily in Ojibwe with some grammatical description. Learn to read/write in Ojibwe language.",
+    "prereq": []
+  },
+  {
+    "uid": "801127",
+    "code": "OJIB1101",
+    "subject": "OJIB",
+    "number": "1101",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Beginning Ojibwe I",
+    "fullname": "Beginning Ojibwe I",
+    "info": "Speaking. Grammar. Writing systems.",
+    "prereq": []
+  },
+  {
+    "uid": "801128",
+    "code": "OJIB1102",
+    "subject": "OJIB",
+    "number": "1102",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Beginning Ojibwe II",
+    "fullname": "Beginning Ojibwe II",
+    "info": "Speaking. Grammar. Writing systems.prereq: 1101",
+    "prereq": {
+      "code": "OJIB 1101",
+      "subject": "OJIB",
+      "id": "1101"
+    }
+  },
+  {
+    "uid": "801129",
+    "code": "OJIB3103",
+    "subject": "OJIB",
+    "number": "3103",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Intermediate Ojibwe I",
+    "fullname": "Intermediate Ojibwe I",
+    "info": "Speaking. Grammar. Storytelling. Oral history. Translation projects.prereq: 1101, 1102",
+    "prereq": {
+      "and": [
+        {
+          "code": "OJIB 1101",
+          "subject": "OJIB",
+          "id": "1101"
+        },
+        {
+          "code": "OJIB 1102",
+          "subject": "OJIB",
+          "id": "1102"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "801130",
+    "code": "OJIB3104",
+    "subject": "OJIB",
+    "number": "3104",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Int Ojibwe II",
+    "fullname": "Intermediate Ojibwe II",
+    "info": "Speaking. Grammar. Storytelling. Oral history. Translation projects.prereq: 1102, 1102,3103",
+    "prereq": {
+      "and": [
+        {
+          "code": "OJIB 1102",
+          "subject": "OJIB",
+          "id": "1102"
+        },
+        {
+          "code": "OJIB 3103",
+          "subject": "OJIB",
+          "id": "3103"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "808475",
+    "code": "OJIB3127",
+    "subject": "OJIB",
+    "number": "3127",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Ojibwe Language for Teachers",
+    "fullname": "Ojibwe Language for Teachers",
+    "info": "How to learn Ojibwe outside classroom and teach it in formal/informal learning settings, including second language classrooms, immersion schools, language tables, and immersion camps.prereq: 1101",
+    "prereq": {
+      "code": "OJIB 1101",
+      "subject": "OJIB",
+      "id": "1101"
+    }
+  },
+  {
+    "uid": "811582",
+    "code": "OJIB4100",
+    "subject": "OJIB",
+    "number": "4100",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Ojibwe Immersion",
+    "fullname": "Ojibwe Immersion",
+    "info": "Three week course designed to help students with little or no knowledge of Ojibwe language. Introduction to fundamentals of Ojibwe language. Taught primarily in Ojibwe with some grammatical description. Learn to read/write in Ojibwe language.",
+    "prereq": []
+  },
+  {
+    "uid": "802762",
+    "code": "OJIB4101",
+    "subject": "OJIB",
+    "number": "4101",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Beginning Ojibwe I",
+    "fullname": "Beginning Ojibwe I",
+    "info": "Speaking, grammar, writing systems.prereq: community member, see department for permission to enroll.",
+    "prereq": []
+  },
+  {
+    "uid": "801438",
+    "code": "OJIB4102",
+    "subject": "OJIB",
+    "number": "4102",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Beginning Ojibwe II",
+    "fullname": "Beginning Ojibwe II",
+    "info": "Speaking. Grammar. Writing systems.prereq: community member, see department for permission to enroll.",
+    "prereq": []
+  },
+  {
+    "uid": "802763",
+    "code": "OJIB4103",
+    "subject": "OJIB",
+    "number": "4103",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Intermediate Ojibwe I",
+    "fullname": "Intermediate Ojibwe I",
+    "info": "Speaking. Grammar. Storytelling. Oral history. Translation projects.prereq: 1101, 3103, community member, see department for permission to enroll.",
+    "prereq": {
+      "and": [
+        {
+          "code": "OJIB 1101",
+          "subject": "OJIB",
+          "id": "1101"
+        },
+        {
+          "code": "OJIB 3103",
+          "subject": "OJIB",
+          "id": "3103"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "801439",
+    "code": "OJIB4104",
+    "subject": "OJIB",
+    "number": "4104",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Intermediate Ojibwe II",
+    "fullname": "Intermediate Ojibwe II",
+    "info": "Speaking. Grammar. Storytelling. Oral history. Translation projects.prereq: 1102, 3102, community member, see department for permission to enroll.",
+    "prereq": {
+      "and": [
+        {
+          "code": "OJIB 1102",
+          "subject": "OJIB",
+          "id": "1102"
+        },
+        {
+          "code": "OJIB 3102",
+          "subject": "OJIB",
+          "id": "3102"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "802751",
+    "code": "OJIB4106",
+    "subject": "OJIB",
+    "number": "4106",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Advanced Ojibwe I",
+    "fullname": "Advanced Ojibwe I",
+    "info": "Focuses on immersion method.",
+    "prereq": []
+  },
+  {
+    "uid": "803013",
+    "code": "OJIB4109",
+    "subject": "OJIB",
+    "number": "4109",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Advanced Ojibwe Language II",
+    "fullname": "Advanced Ojibwe Language II",
+    "info": "Focuses on immersion method.",
+    "prereq": []
+  },
+  {
+    "uid": "820560",
+    "code": "OJIB4993",
+    "subject": "OJIB",
+    "number": "4993",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Directed Study",
+    "fullname": "Ojibwe Language Directed Study",
+    "info": "Faculty directed research/study course.",
+    "prereq": []
+  },
+  {
+    "uid": "800985",
+    "code": "OJIB5106",
+    "subject": "OJIB",
+    "number": "5106",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Advanced Ojibwe Language I",
+    "fullname": "Advanced Ojibwe Language I",
+    "info": "Focuses on immersion method.",
+    "prereq": []
+  },
+  {
+    "uid": "800986",
+    "code": "OJIB5109",
+    "subject": "OJIB",
+    "number": "5109",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Advanced Ojibwe Language II",
+    "fullname": "Advanced Ojibwe Language II",
+    "info": "Focuses on immersion method.",
+    "prereq": []
+  },
+  {
+    "uid": "814267",
+    "code": "OJIB5202",
+    "subject": "OJIB",
+    "number": "5202",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Ojibwe Mastery I",
+    "fullname": "Ojibwe Mastery I",
+    "info": "The purpose of the first three years of the Ojibwe language courses at the University is to introduce students to the most common Ojibwe grammatical and conjugational systems, and to help develop their fluency through immersion. In this course and in the subsequent course in the winter semester, students will work towards Ojibwe language mastery by learning less frequent, but crucial aspects of the Ojibwe language and further working towards a more sophisticated level of talking.",
+    "prereq": []
+  },
+  {
+    "uid": "814268",
+    "code": "OJIB5204W",
+    "subject": "OJIB",
+    "number": "5204",
+    "honors": false,
+    "writingIntensive": true,
+    "name": "Ojibwe Mastery II",
+    "fullname": "Ojibwe Mastery II",
+    "info": "The purpose of the first three years of the Ojibwe language courses at the University is to introduce students to the most common Ojibwe grammatical and conjugational systems, and to help develop their fluency through immersion. In this semester, students will continue refining their Ojibwe language ability by studying verb conjugational systems, more complex mii-phrases, reduplication, more grammar pattern study, and more opportunities to use and apply their language skills.",
+    "prereq": []
+  },
+  {
+    "uid": "818866",
+    "code": "OJIB5250",
+    "subject": "OJIB",
+    "number": "5250",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Ojibwe Conversations 1",
+    "fullname": "Ojibwe Conversations 1",
+    "info": "The course provide  students opportunities to increase their Ojibwe speaking ability through consistent practice and performance of dialogues and stories while receiving native-speaker/instructor feedback.  This is a performance based class, which will allow students to apply and practice what they have learned from other Ojibwe courses. ",
+    "prereq": []
+  },
+  {
+    "uid": "825606",
+    "code": "OJIB5252",
+    "subject": "OJIB",
+    "number": "5252",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Ojibwe Conversations II",
+    "fullname": "Ojibwe Conversations II",
+    "info": "The course provide  students opportunities to increase their Ojibwe speaking ability through consistent practice and performance of dialogues and stories while receiving native-speaker/instructor feedback.  This is a performance based class, which will allow students to apply and practice what they have learned from other Ojibwe courses.",
+    "prereq": []
+  }
+]

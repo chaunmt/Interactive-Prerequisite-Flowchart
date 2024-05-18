@@ -1,0 +1,2711 @@
+[
+  {
+    "uid": "006280",
+    "code": "APEC1001",
+    "subject": "APEC",
+    "number": "1001",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Orientation to Applied Econ",
+    "fullname": "Orientation to Applied Economics",
+    "info": "Introduction to curriculum offerings, liberal education requirements, employment opportunities, faculty in the Department of Applied Economics. Emphasizes historical development of the discipline, areas of specialization, coursework expectations, career planning.",
+    "prereq": []
+  },
+  {
+    "uid": "006281",
+    "code": "APEC1101",
+    "subject": "APEC",
+    "number": "1101",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Principles of Microeconomics",
+    "fullname": "Principles of Microeconomics",
+    "info": "Economic behavior of consumers/firms in domestic/international markets. Demand, supply, competition. Efficiency, Invisible Hand. Monopoly, imperfect competition. Externalities, property rights. Economics of public policy in environment/health/safety. Public goods, tax policy.",
+    "prereq": []
+  },
+  {
+    "uid": "006286",
+    "code": "APEC1102",
+    "subject": "APEC",
+    "number": "1102",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Principles of Macroeconomics",
+    "fullname": "Principles of Macroeconomics",
+    "info": "Unemployment/inflation, measures of national income, macro models, fiscal policy/problems. Taxes and the national debt. Money/banking, monetary policy/problems. Poverty and income distribution. International trade and exchange rates. Economic growth/development.prereq: 1101 or Econ 1101",
+    "prereq": {
+      "or": [
+        {
+          "code": "APEC 1101",
+          "subject": "APEC",
+          "id": "1101"
+        },
+        {
+          "code": "ECON 1101",
+          "subject": "ECON",
+          "id": "1101"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "818091",
+    "code": "APEC1201",
+    "subject": "APEC",
+    "number": "1201",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Excel in Economics and Mgmnt",
+    "fullname": "Applications of Excel in Economics and Management",
+    "info": "This course offers students the opportunity to master the basic and intermediate functionality of Microsoft Excel, and apply those skills to economic and managerial applications such as the financial impact of loans and investments, growth accounting, basic regression analysis, demand and cost estimation, and resource allocation. In addition, this course also emphasizes competencies regarding presenting and discussing quantitative information: interpreting quantitative/graphical data (demonstrating quantitative literacy), determining effective data display with charts, and making adequate choices about the graphical presentation of data. This course will enable students to become proficient in assembling and presenting data using Microsoft Excel. ",
+    "prereq": []
+  },
+  {
+    "uid": "006287",
+    "code": "APEC1251",
+    "subject": "APEC",
+    "number": "1251",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Principles of Accounting",
+    "fullname": "Principles of Accounting",
+    "info": "Financial accounting. Theory, concepts, principles, procedures. Preparation/understanding of the four financial statements.",
+    "prereq": []
+  },
+  {
+    "uid": "796003",
+    "code": "APEC1905",
+    "subject": "APEC",
+    "number": "1905",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "The Ordinary Business of Life",
+    "fullname": "The Ordinary Business of Life: Issues in Business, Government, and Macroeconomics",
+    "info": "The world of economics is sometimes referred to as the study of the ordinary business of life. In this course we will discover, reflect on, and teach ourselves about a selected group of topics in the fields of business management and economics. While the first quarter of our meetings will be on business and economic history to provide context (the \\\"Economic Revolution,\\\" the Federal Reserve System, and the role of government in the economy), the second quarter of class will analyze macro issues related to the domestic and world economies (economic growth, income inequality, the New Economy, and globalization). The third and fourth quarters of our time together will be micro-related.  As part of this class, we will investigate the fields of leadership and business ethics through a series of readings and films. In addition, throughout the term some of our class discussions will be dedicated to helping you make your transition to and navigation of the University a smooth one.prereq: freshman",
+    "prereq": []
+  },
+  {
+    "uid": "825768",
+    "code": "APEC1906",
+    "subject": "APEC",
+    "number": "1906",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "The Farm Bill's Impact on You",
+    "fullname": "The Farm Bill's Impact on You",
+    "info": "The Farm Bill has widespread bipartisan support from the U.S. Congress. The course looks at each component of the most recent Farm Bill: Crop insurance, commodities, forestry, rural development, food aid, trade, nutrition including school nutrition, SNAP and WIC, research, extension, and education, and other components. Each week will include a look at one component and students will choose a component to write short essays and oral presentations looking at the history, authorization and appropriation language, and how it is implemented by USDA. Each class will include a short remote presentation by a CFANS faculty member discussing how their research fits within that week?s component. Students will meet with the instructor individually to discuss their essays and presentations.",
+    "prereq": []
+  },
+  {
+    "uid": "006289",
+    "code": "APEC3000",
+    "subject": "APEC",
+    "number": "3000",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Seminar:International Agric",
+    "fullname": "Seminar in International Agriculture",
+    "info": "Presentation and discussion of students' research papers, literature reviews of selected topics, or discussions by students and faculty of their experiences in international agriculture. ",
+    "prereq": []
+  },
+  {
+    "uid": "006291",
+    "code": "APEC3001",
+    "subject": "APEC",
+    "number": "3001",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Ap Micro:Consumers, Prod & Mkt",
+    "fullname": "Applied Microeconomics: Consumers, Producers, and Markets",
+    "info": "Consumer/producer decisions. Theory of supply/demand. Markets, pricing, investment, effect regulation, market failures.\n\nprereq: [[1101 or ECON 1101 or 1101H or ECON 1101H], [MATH 1142 or MATH 1271]] or instr consent; intended for undergrads in [Ag/Food Bus Mgmt, Appl Econ]",
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            {
+              "code": "APEC 1101",
+              "subject": "APEC",
+              "id": "1101"
+            },
+            {
+              "code": "ECON 1101",
+              "subject": "ECON",
+              "id": "1101"
+            }
+          ]
+        },
+        {
+          "or": [
+            {
+              "code": "MATH 1142",
+              "subject": "MATH",
+              "id": "1142"
+            },
+            {
+              "code": "MATH 1271",
+              "subject": "MATH",
+              "id": "1271"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "uid": "006292",
+    "code": "APEC3002",
+    "subject": "APEC",
+    "number": "3002",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Managerial Economics",
+    "fullname": "Managerial Economics",
+    "info": "Microeconomic theory, its application to managerial problems. Introduction to regression analysis, demand analysis, demand function estimation, forecasting, cost function estimation, resource allocation decisions, linear programming, market structure, pricing policy, risk analysis, investment analysis.prereq - ApEc 3001 or Econ 3101 AND SCO  2550 or Stat 3011",
+    "prereq": {
+      "and": [
+        {
+          "code": "APEC 3001",
+          "subject": "APEC",
+          "id": "3001"
+        },
+        {
+          "code": "ECON 3101",
+          "subject": "ECON",
+          "id": "3101"
+        },
+        {
+          "code": "STAT 3011",
+          "subject": "STAT",
+          "id": "3011"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "814054",
+    "code": "APEC3003",
+    "subject": "APEC",
+    "number": "3003",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Intro to Applied Econometrics",
+    "fullname": "Introduction to Applied Econometrics",
+    "info": "Econometrics is the core empirical methodology used in economics. It allows economists (and others) to learn about the world through data in non-experimental situations. This course teaches student how to use common types of econometric analysis to answer research questions in an experiential learning environment.\n\nprereq: APEC 1101 or equiv., STAT 3011 or equiv.",
+    "prereq": {
+      "and": [
+        {
+          "code": "APEC 1101",
+          "subject": "APEC",
+          "id": "1101"
+        },
+        {
+          "code": "STAT 3011",
+          "subject": "STAT",
+          "id": "3011"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "817650",
+    "code": "APEC3004",
+    "subject": "APEC",
+    "number": "3004",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Management Science Workshop",
+    "fullname": "Management Science Workshop",
+    "info": "The Management Science Workshop focuses on quantitative techniques from management science relevant to applied economics and agribusiness management problems, emphasizing applications of linear and nonlinear programming to decision problems of firms and other organizations. The economic foundations of the models and the economic interpretations of their solutions are emphasized. Specific topics include production planning, logistics, scheduling, inventory management, and network models. The course is lab-based and all applications use Excel, with the Solver add-in, as the software platform; however, more specialized software may be introduced.prereq:  ApEc 3001 or Econ 3101",
+    "prereq": {
+      "or": [
+        {
+          "code": "APEC 3001",
+          "subject": "APEC",
+          "id": "3001"
+        },
+        {
+          "code": "ECON 3101",
+          "subject": "ECON",
+          "id": "3101"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "006293",
+    "code": "APEC3006",
+    "subject": "APEC",
+    "number": "3006",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Appl Macro: Government & Econ",
+    "fullname": "Applied Macroeconomics: Government and the Economy",
+    "info": "This course covers the core topics in macroeconomics including monetary policy, fiscal policy (including government expenditures and taxation), output, output growth, interest rates, exchange rates, inflation, expectations, GDP accounting, and balance of payments statements. The course modality alternates between in person and remote, depending on the semester and instructor.\n\nprereq: [[1102 or Econ 1102], [3001 or Econ 3101]] or instr consent",
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            {
+              "code": "APEC 1102",
+              "subject": "APEC",
+              "id": "1102"
+            },
+            {
+              "code": "ECON 1102",
+              "subject": "ECON",
+              "id": "1102"
+            }
+          ]
+        },
+        {
+          "or": [
+            {
+              "code": "APEC 3001",
+              "subject": "APEC",
+              "id": "3001"
+            },
+            {
+              "code": "ECON 3101",
+              "subject": "ECON",
+              "id": "3101"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "uid": "006296",
+    "code": "APEC3007",
+    "subject": "APEC",
+    "number": "3007",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Appl Macro:Policy, Trade & Dev",
+    "fullname": "Applied Macroeconomics: Policy, Trade, and Development",
+    "info": "Indicators of economic development, growth in trade, and welfare of developing countries. Globalization. Drivers of growth, productivity, technical change, and research. Comparative advantage. Distribution consequences of trade. Trade policy instruments/institutions.prereq: [1101 or ECON 1101], [1101H or ECON 1101H], [1102 or ECON 1102], [1102H or ECON 1102H]; 3001, 3006 recommended",
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            {
+              "code": "APEC 1101",
+              "subject": "APEC",
+              "id": "1101"
+            },
+            {
+              "code": "ECON 1101",
+              "subject": "ECON",
+              "id": "1101"
+            }
+          ]
+        },
+        {
+          "or": [
+            {
+              "code": "APEC 1102",
+              "subject": "APEC",
+              "id": "1102"
+            },
+            {
+              "code": "ECON 1102",
+              "subject": "ECON",
+              "id": "1102"
+            }
+          ]
+        },
+        {
+          "code": "APEC 3001",
+          "subject": "APEC",
+          "id": "3001"
+        },
+        {
+          "code": "APEC 3006",
+          "subject": "APEC",
+          "id": "3006"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "006297",
+    "code": "APEC3041W",
+    "subject": "APEC",
+    "number": "3041",
+    "honors": false,
+    "writingIntensive": true,
+    "name": "Econ Development U.S. Agri",
+    "fullname": "Economic Development of U.S. Agriculture",
+    "info": "Economic, political, social, and technical forces that have shaped development of U.S. agriculture. Role of agricultural development in national economic development in the United States. Implications for developing countries.",
+    "prereq": []
+  },
+  {
+    "uid": "804943",
+    "code": "APEC3061",
+    "subject": "APEC",
+    "number": "3061",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Econ Dvlpmnt in Contemp Africa",
+    "fullname": "Economic Development in Contemporary Africa",
+    "info": "Major socio-economic challenges that confront post-independence sub-Saharan African countries in quest for sustainable economic development/growth. Causes of persistent poverty/inequality, role of institutions/multinational agencies. Growth in 21st century.prereq: 1101 or ECON 1101",
+    "prereq": {
+      "or": [
+        {
+          "code": "APEC 1101",
+          "subject": "APEC",
+          "id": "1101"
+        },
+        {
+          "code": "ECON 1101",
+          "subject": "ECON",
+          "id": "1101"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "006299",
+    "code": "APEC3071",
+    "subject": "APEC",
+    "number": "3071",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Microecon of Int'l Development",
+    "fullname": "Microeconomics of International Development",
+    "info": "Characteristics and performance of peasant agriculture; potential role of agriculture in economic development, and design of economic policies to achieve agricultural and economic development; role of women in agricultural development.prereq: 1101, 1102, Econ 1101, 1102, or instr consent",
+    "prereq": {
+      "and": [
+        {
+          "code": "APEC 1101",
+          "subject": "APEC",
+          "id": "1101"
+        },
+        {
+          "code": "APEC 1102",
+          "subject": "APEC",
+          "id": "1102"
+        },
+        {
+          "code": "ECON 1101",
+          "subject": "ECON",
+          "id": "1101"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "809735",
+    "code": "APEC3202",
+    "subject": "APEC",
+    "number": "3202",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Intro to the Food System",
+    "fullname": "An Introduction to the Food System: Analysis, Management and Design",
+    "info": "Introduction to use of systems thinking for exploration of problems in contemporary food system from multidisciplinary perspective. System concepts. Historical evolution of food system. Analysis, management, design.",
+    "prereq": []
+  },
+  {
+    "uid": "006633",
+    "code": "APEC3311W",
+    "subject": "APEC",
+    "number": "3311",
+    "honors": false,
+    "writingIntensive": true,
+    "name": "Intro Public Policy Analysis",
+    "fullname": "Introduction to Public Policy Analysis",
+    "info": "Elements of public policy analysis, the policy analysts' roles, market failure, public choice, bureaucratic decision making, and public services.",
+    "prereq": []
+  },
+  {
+    "uid": "006669",
+    "code": "APEC3401",
+    "subject": "APEC",
+    "number": "3401",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Markets, Marketing & Prices",
+    "fullname": "Markets, Marketing, and Prices",
+    "info": "Market structure; demand and supply structure; regulations and institutions that influence the behavior of firms in agricultural marketing systems; performance in food assembly, manufacturing, and distribution industries.",
+    "prereq": []
+  },
+  {
+    "uid": "006672",
+    "code": "APEC3411",
+    "subject": "APEC",
+    "number": "3411",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Commodity Marketing",
+    "fullname": "Commodity Marketing",
+    "info": "Economic concepts related to marketing agricultural commodities. Conditions of competitive markets, historical perspectives on market institutions/policy, structural characteristics of markets, policies/regulations affecting agricultural marketing of livestock, crop, and dairy products.prereq: 1101 or Econ 1101",
+    "prereq": {
+      "or": [
+        {
+          "code": "APEC 1101",
+          "subject": "APEC",
+          "id": "1101"
+        },
+        {
+          "code": "ECON 1101",
+          "subject": "ECON",
+          "id": "1101"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "006673",
+    "code": "APEC3421",
+    "subject": "APEC",
+    "number": "3421",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Livestock & Meat Marketing",
+    "fullname": "Livestock and Meat Marketing Economics",
+    "info": "Economic relationships in marketing of livestock, dairy, and meat products. Product grades. Inspection/transportation. Market structure, channels, pricing, and competition. Government regulations/policies.",
+    "prereq": []
+  },
+  {
+    "uid": "007582",
+    "code": "APEC3451",
+    "subject": "APEC",
+    "number": "3451",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Food & Agricultural Sales",
+    "fullname": "Food and Agricultural Sales",
+    "info": "Professional selling of agricultural and food products. Students build/refine sales abilities, identify/qualify prospects, deliver sales presentations, close the sale. Principles of market research.prereq: 1101 or Econ 1101",
+    "prereq": {
+      "or": [
+        {
+          "code": "APEC 1101",
+          "subject": "APEC",
+          "id": "1101"
+        },
+        {
+          "code": "ECON 1101",
+          "subject": "ECON",
+          "id": "1101"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "812937",
+    "code": "APEC3480",
+    "subject": "APEC",
+    "number": "3480",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Topics in Applied Economics",
+    "fullname": "Topics in Applied Economics",
+    "info": "Lectures and discussion on applied economics subjects.  Topics specified in Class Schedule.",
+    "prereq": []
+  },
+  {
+    "uid": "006676",
+    "code": "APEC3501",
+    "subject": "APEC",
+    "number": "3501",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Agribusiness Finance",
+    "fullname": "Agribusiness Finance",
+    "info": "Analysis of financing and investment strategies for agribusiness firms and their effects on liquidity, solvency, and profitability. Analysis of financial institutions, markets, and instruments. Management problems, issues facing financial intermediaries serving agriculture.prereq: [[1251 or Acct 2051], 60 cr] or instr consent",
+    "prereq": {
+      "or": [
+        {
+          "code": "APEC 1251",
+          "subject": "APEC",
+          "id": "1251"
+        },
+        {
+          "code": "ACCT 2051",
+          "subject": "ACCT",
+          "id": "2051"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "818166",
+    "code": "APEC3511",
+    "subject": "APEC",
+    "number": "3511",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Retail Supermarket Analysis",
+    "fullname": "Retail Supermarket Case Analysis",
+    "info": "This is a course in which students will work in teams to address a real-world issue faced by a retail food company. The National Grocers Association (NGA) determines the particular case annually, and the event is held at their annual meeting along with the Industry-University Coalition. Elements of the solution may involve marketing, budgeting, strategic pricing, and market research. Students are asked to prepare a presentation to a group of retail grocers at the annual meeting of NGA, typically held in Las Vegas, NV. Students will complete weekly assignments in which they lay the groundwork for the competition.  The competition is held in February. During the Fall semester, students engage in research and evaluation of options on the case study. During the Spring semester, students finalize their presentations and compete at the NGA Show with teams from about 18 other universities that are members of the NGA Industry-University Coalition. The competition involves a 15-minute presentation on the first day with 10 minutes of questions and answers. Students are guaranteed to present twice with a second presentation on the second day. Four finalists are chosen for the finals on the third day with the winning team being recognized at the evening banquet and a cash prize.Students will also have the opportunity to interact with industry representatives at the show in a number of ways during the four days.prereq: APEC 1101 or 1101H or Econ 1101 or 1101H",
+    "prereq": {
+      "or": [
+        {
+          "code": "APEC 1101",
+          "subject": "APEC",
+          "id": "1101"
+        },
+        {
+          "code": "ECON 1101",
+          "subject": "ECON",
+          "id": "1101"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "819190",
+    "code": "APEC3521",
+    "subject": "APEC",
+    "number": "3521",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Agribusiness/Food Supply Chain",
+    "fullname": "Agribusiness and Food Supply / Value Chain Issues",
+    "info": "The course is an introductory survey of the global food economy and current issues. Included in this course is information on marketing channels, value chains, and supply chains; factors that make the global food economy unique relative to other industries; current policy topics including labeling, Farm Bill, and trade. Students will work on a project regarding a trademarked food product or Certified B Corporation project throughout the semester. Business sustainability concepts will be applied to food economy supply chains.",
+    "prereq": []
+  },
+  {
+    "uid": "826293",
+    "code": "APEC3531",
+    "subject": "APEC",
+    "number": "3531",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Intro to Student Research",
+    "fullname": "Introduction to Student Research in Applied Economics",
+    "info": "The course is designed for students participating in the undergraduate research program funded by the USDA NIFA Workforce Development Program. Students will participate in lectures introducing them to research methods in applied economics; participate in an international study tour; present their to research to the Agricultural and Applied Economics Association undergraduate research paper competition; visit various agribusiness and food company visits; participate in campus lab tours; and other activities.",
+    "prereq": []
+  },
+  {
+    "uid": "806975",
+    "code": "APEC3551",
+    "subject": "APEC",
+    "number": "3551",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Value-Added Entrepreneurship",
+    "fullname": "Concept Design and Value-Added Entrepreneurship in Food, Agricultural and Natural Resource Sciences",
+    "info": "Explore the core skills required by entrepreneurs in opportunity identification and problem framing that lead to creating viable concepts that provide solutions to real consumer challenges. Students will tackle innovation challenges from an in-depth exploration of entrepreneurial and design thinking and learn how to incorporate these skills into their future professional work. Master techniques for exploring problems from a systems viewpoint through a series of hands-on projects from concept design to product mapping and consumer testing. Students get to select a project of their choosing directly from their major of study and will pitch their new product or service concept to an expert panel. ",
+    "prereq": []
+  },
+  {
+    "uid": "818068",
+    "code": "APEC3562",
+    "subject": "APEC",
+    "number": "3562",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Rural Property Appraisal",
+    "fullname": "Fundamentals of Rural Property Appraisal",
+    "info": "There are two major objectives for this course. One is to develop an understanding of the fundamentals and principles of valuing and appraising rural property, especially farmland. Students will gain an appreciation of what an appraiser does, what constitutes a sound appraisal and how to apply this knowledge in their careers. The second major objective is to show students how to evaluate an individual land purchase. Buying land involves many individual factors that must be considered.prereq:  1101 or 1101H or Econ 1101",
+    "prereq": {
+      "or": [
+        {
+          "code": "APEC 1101",
+          "subject": "APEC",
+          "id": "1101"
+        },
+        {
+          "code": "ECON 1101",
+          "subject": "ECON",
+          "id": "1101"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "006697",
+    "code": "APEC3611W",
+    "subject": "APEC",
+    "number": "3611",
+    "honors": false,
+    "writingIntensive": true,
+    "name": "Environmental & Nat Res Econ",
+    "fullname": "Environmental and Natural Resource Economics",
+    "info": "Concepts of resource use. Financial/economic feasibility. External effects, market failures. Resource use, environmental problems. Measuring impacts of resource development. Economics of alternative resource programs, environmental strategies.prereq: 1101 or ECON 1101 or 1101H or ECON 1101H",
+    "prereq": {
+      "or": [
+        {
+          "code": "APEC 1101",
+          "subject": "APEC",
+          "id": "1101"
+        },
+        {
+          "code": "ECON 1101",
+          "subject": "ECON",
+          "id": "1101"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "791082",
+    "code": "APEC3801",
+    "subject": "APEC",
+    "number": "3801",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Hlth Econ & Plcy",
+    "fullname": "Health Economics and Policy",
+    "info": "Economics of health care markets. Problems faced by consumers and health care services. Builds on microeconomic principles of supply/demand for health, health care, health insurance, and role of government. Theoretical/empirical models, applications.",
+    "prereq": []
+  },
+  {
+    "uid": "006678",
+    "code": "APEC3811",
+    "subject": "APEC",
+    "number": "3811",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Principles of Farm Management",
+    "fullname": "Principles of Farm Management",
+    "info": "Strategic and operations aspects of farm management; financial analysis, budgeting, strategic management; marketing plan and control; enterprise and whole farm planning and control; investment analysis, quality, risk, and personnel management.prereq: 1101 or Econ 1101",
+    "prereq": {
+      "or": [
+        {
+          "code": "APEC 1101",
+          "subject": "APEC",
+          "id": "1101"
+        },
+        {
+          "code": "ECON 1101",
+          "subject": "ECON",
+          "id": "1101"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "006679",
+    "code": "APEC3821",
+    "subject": "APEC",
+    "number": "3821",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Retail Center Management",
+    "fullname": "Retail Center Management",
+    "info": "Management of garden centers, grocery stores, and other retail units selling perishable agricultural products.prereq: [1101 or Econ 1101], [1251 or Acct 2050]",
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            {
+              "code": "APEC 1101",
+              "subject": "APEC",
+              "id": "1101"
+            },
+            {
+              "code": "ECON 1101",
+              "subject": "ECON",
+              "id": "1101"
+            }
+          ]
+        },
+        {
+          "or": [
+            {
+              "code": "APEC 1251",
+              "subject": "APEC",
+              "id": "1251"
+            },
+            {
+              "code": "ACCT 2050",
+              "subject": "ACCT",
+              "id": "2050"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "uid": "811891",
+    "code": "APEC3841",
+    "subject": "APEC",
+    "number": "3841",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Ag & Consumer Co-ops & Mutuals",
+    "fullname": "Agricultural and Consumer Cooperatives and Mutuals",
+    "info": "There are three broad business organizational forms in the world: public benefit, mutual or cooperative benefit, and investor benefit. The topic is motivated by focusing on the mutual or cooperative benefit organization and comparing and contrasting it with the other two business forms. Each class begins with a speaker, usually a producer member or manager, from a cooperative or mutual including coffee, cocoa, dairy, food, credit union, and other types of consumer and agricultural cooperatives. Students will choose a cooperative or mutual at the beginning of the semester, and most homework assignments will be applied to your cooperative including a final digital media project. The course has one live lecture and one asynchronous lecture each week.Credit will not be granted if credit has been received for: APEC 5841",
+    "prereq": []
+  },
+  {
+    "uid": "016488",
+    "code": "APEC3921",
+    "subject": "APEC",
+    "number": "3921",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Agricultural Law",
+    "fullname": "Agricultural Law",
+    "info": "The legal system. Contracts. Torts. Farm tenancy. Property. Drainage/environmental concerns. Credit/finance. Partnerships, corporations, cooperatives. Estate planning.",
+    "prereq": []
+  },
+  {
+    "uid": "006682",
+    "code": "APEC3991",
+    "subject": "APEC",
+    "number": "3991",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Independent Study:Applied Econ",
+    "fullname": "Independent Study in Applied Economics",
+    "info": "Independent study and supervised reading and research on subjects and problems not covered in regularly offered courses.prereq: instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "819494",
+    "code": "APEC3993",
+    "subject": "APEC",
+    "number": "3993",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Directed Study",
+    "fullname": "Directed Study in Applied Economics",
+    "info": "A course in which a student designs and carries out a directed study on selected topics or problems under the direction of a faculty member; eg, literature review. Directed study courses may be taken for variable credit and special permission is needed for enrollment.  Students enrolling in a directed study will be required to use the University-wide online directed study contract process in order to enroll. No more than 6 credits of directed study counts towards CFANS major requirements.",
+    "prereq": []
+  },
+  {
+    "uid": "819495",
+    "code": "APEC3994",
+    "subject": "APEC",
+    "number": "3994",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Directed Research",
+    "fullname": "Directed Research in Applied Economics",
+    "info": "An opportunity in which a student designs and carries out a directed research project under the direction of a faculty member. Directed research may be taken for variable credit and special permission is needed for enrollment. Students enrolling in a directed research will be required to use the University-wide online directed research contract process in order to enroll. No more than 6 credits of directed research counts towards CFANS major requirements.",
+    "prereq": []
+  },
+  {
+    "uid": "006683",
+    "code": "APEC4096",
+    "subject": "APEC",
+    "number": "4096",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "PEP: Internship",
+    "fullname": "Professional Experience Program: Internship",
+    "info": "Professional experience in agribusiness firms or government agencies gained through supervised practical experience. Evaluative reports and consultations with faculty advisers and employers.prereq: CFANS undergrad, instr consent, completed internship contract",
+    "prereq": []
+  },
+  {
+    "uid": "792299",
+    "code": "APEC4103",
+    "subject": "APEC",
+    "number": "4103",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "World Food Problems",
+    "fullname": "World Food Problems",
+    "info": "Multidisciplinary look at problems and possible solutions affecting food production, storage, and utilization in developing countries. Presentations and discussions introduce conflicting views on population, technology, and ethical and cultural values of people in various parts of the world.",
+    "prereq": []
+  },
+  {
+    "uid": "006688",
+    "code": "APEC4311",
+    "subject": "APEC",
+    "number": "4311",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Tourism Development",
+    "fullname": "Tourism Development: Principles, Processes, Policies",
+    "info": "Evolution of tourism industry; economic, environmental, and sociocultural impacts of tourism development; influence of government policies and organizations; models and tools needed for successful development; consequences of development activities and ways to involve stakeholders in decisions.prereq: 1101, 1102 or Econ 1101, 1102",
+    "prereq": {
+      "and": [
+        {
+          "code": "APEC 1101",
+          "subject": "APEC",
+          "id": "1101"
+        },
+        {
+          "code": "APEC 1102",
+          "subject": "APEC",
+          "id": "1102"
+        },
+        {
+          "code": "ECON 1101",
+          "subject": "ECON",
+          "id": "1101"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "006694",
+    "code": "APEC4451W",
+    "subject": "APEC",
+    "number": "4451",
+    "honors": false,
+    "writingIntensive": true,
+    "name": "Food Marketing Economics",
+    "fullname": "Food Marketing Economics",
+    "info": "Economics of food marketing in the United States. Food consumption trends, consumer food behavior, marketing strategies, consumer survey methodology, food distribution/retailing system. Policy issues related to food marketing. Individual/group projects.prereq: [[1101 or Econ 1101], [1101H or Econ 1101H], SCO 2550 or STAT 3011 or equiv, 60 cr] or instr consent",
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            {
+              "code": "APEC 1101",
+              "subject": "APEC",
+              "id": "1101"
+            },
+            {
+              "code": "ECON 1101",
+              "subject": "ECON",
+              "id": "1101"
+            }
+          ]
+        },
+        {
+          "code": "STAT 3011",
+          "subject": "STAT",
+          "id": "3011"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "802095",
+    "code": "APEC4461",
+    "subject": "APEC",
+    "number": "4461",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Horticultural Marketing",
+    "fullname": "Horticultural Marketing",
+    "info": "Major areas in horticultural marketing. Difference between horticultural products and commercial commodities. Core marketing components that should be used by every small horticultural business. Approaches to consumer research.",
+    "prereq": []
+  },
+  {
+    "uid": "007397",
+    "code": "APEC4481",
+    "subject": "APEC",
+    "number": "4481",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Futures and Options Markets",
+    "fullname": "Futures and Options Markets",
+    "info": "Economics of futures/options trading in theory/application. Basis/price relationship in storable/nonstorable commodities. Hedging/commercial use of futures/options contracts. Speculation. Pricing efficiency. Market performances/regulation.prereq: [[3001 or Econ 3101], [AnSc 3011 or SCO 2550 or Stat 3011],] or instr consent",
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            {
+              "code": "APEC 3001",
+              "subject": "APEC",
+              "id": "3001"
+            },
+            {
+              "code": "ECON 3101",
+              "subject": "ECON",
+              "id": "3101"
+            }
+          ]
+        },
+        {
+          "or": [
+            {
+              "code": "ANSC 3011",
+              "subject": "ANSC",
+              "id": "3011"
+            },
+            {
+              "code": "STAT 3011",
+              "subject": "STAT",
+              "id": "3011"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "uid": "795035",
+    "code": "APEC4501",
+    "subject": "APEC",
+    "number": "4501",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Financial Modeling",
+    "fullname": "Financial Modeling: Spreadsheet Applications in Finance, Management, and Marketing",
+    "info": "Designing/implementing solutions to problems in finance, management, and market analysis with MS Excel® spreadsheet, VBA language, MS Power BI and Power Excel tools. Exercises cover topics such as proforma financial statement analysis, efficient portfolio derivation, VBA macros and functions, and building interactive dashboards for analysis of market trends.  prereq: [APEC 3501 or FINA 3001], [APEC 1251 or ACCT 2050]",
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            {
+              "code": "APEC 3501",
+              "subject": "APEC",
+              "id": "3501"
+            },
+            {
+              "code": "FINA 3001",
+              "subject": "FINA",
+              "id": "3001"
+            }
+          ]
+        },
+        {
+          "or": [
+            {
+              "code": "APEC 1251",
+              "subject": "APEC",
+              "id": "1251"
+            },
+            {
+              "code": "ACCT 2050",
+              "subject": "ACCT",
+              "id": "2050"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "uid": "006704",
+    "code": "APEC4821W",
+    "subject": "APEC",
+    "number": "4821",
+    "honors": false,
+    "writingIntensive": true,
+    "name": "Business Economics & Strategy",
+    "fullname": "Business Economics and Strategy",
+    "info": "Strategic management for production, processing, wholesaling, retailing, and service. Strategy formulation, implementation, and control. Business plans. Case study analysis.prereq: APEC 3002 or APEC 3003",
+    "prereq": {
+      "or": [
+        {
+          "code": "APEC 3002",
+          "subject": "APEC",
+          "id": "3002"
+        },
+        {
+          "code": "APEC 3003",
+          "subject": "APEC",
+          "id": "3003"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "006901",
+    "code": "APEC5031",
+    "subject": "APEC",
+    "number": "5031",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Economic Data Analysis",
+    "fullname": "Methods of Economic Data Analysis",
+    "info": "The course introduces linear statistical economic (econometric) models with and without independent errors.  It also introduces econometric models for analyzing discrete response variables, censored response variables, and non-random data samples. It shows how these econometric models can be used to evaluate and quantify theoretical relationships and forecast counterfactual economic outcomes.prereq: APEC 3001, Math 1142 or Math 1272, Stat 3001 or Sco 2550 or grad student or instructor consent ",
+    "prereq": {
+      "and": [
+        {
+          "code": "APEC 3001",
+          "subject": "APEC",
+          "id": "3001"
+        },
+        {
+          "code": "MATH 1142",
+          "subject": "MATH",
+          "id": "1142"
+        },
+        {
+          "code": "MATH 1272",
+          "subject": "MATH",
+          "id": "1272"
+        },
+        {
+          "code": "STAT 3001",
+          "subject": "STAT",
+          "id": "3001"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "795352",
+    "code": "APEC5032",
+    "subject": "APEC",
+    "number": "5032",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Data Analysis for Mgmt&Policy",
+    "fullname": "Economic Data Analysis for Managerial and Policy Decisions",
+    "info": "The course covers statistical and econometric methods for the analysis of data to support managerial and policy decisions. It includes methods for organizing, accessing, and ensuring the quality of data. The econometric methods covered by the course are applicable to panel, discrete response, duration, and time series data.prereq: 5031 or instr consent",
+    "prereq": {
+      "code": "APEC 5031",
+      "subject": "APEC",
+      "id": "5031"
+    }
+  },
+  {
+    "uid": "009515",
+    "code": "APEC5151",
+    "subject": "APEC",
+    "number": "5151",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Appl Micro: Firm & Household",
+    "fullname": "Applied Microeconomics: Firm and Household",
+    "info": "The course provides a mathematical treatment of cost -benefit analysis in terms of the theory of how prices, income, preferences, and other factors affect consumer choices and the demand for goods and services. It also includes treats the theory of how prices, technology, and other important factors affect producer decisions, the supply of goods and services, and the demand for productive resources. This demand and supply analysis is then combined to explore the theory of price determination in competitive and noncompetitive markets. The optimization theories and economic models are developed without and with uncertainty.prereq: (APEC 3001, Math 1142 or Math 1272, and Stat 3011 or Sco 2550) or equiv or grad student or instr consent",
+    "prereq": {
+      "and": [
+        {
+          "code": "APEC 3001",
+          "subject": "APEC",
+          "id": "3001"
+        },
+        {
+          "code": "MATH 1142",
+          "subject": "MATH",
+          "id": "1142"
+        },
+        {
+          "code": "MATH 1272",
+          "subject": "MATH",
+          "id": "1272"
+        },
+        {
+          "code": "STAT 3011",
+          "subject": "STAT",
+          "id": "3011"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "009516",
+    "code": "APEC5152",
+    "subject": "APEC",
+    "number": "5152",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Appl Macro:Income & Employment",
+    "fullname": "Applied Macroeconomics: Income and Employment",
+    "info": "Static general equilibrium open economy models and simple business cycle models that examine economic growth, business cycles, and fiscal and monetary policy. Input-output analysis and large scale econometric models. Sources/properties of economy and sector-wide data. Empirical applications.prereq: 3001 or or Math 1271 or Math 2243 or equiv or grad student or instr consent",
+    "prereq": {
+      "or": [
+        {
+          "code": "APEC 3001",
+          "subject": "APEC",
+          "id": "3001"
+        },
+        {
+          "code": "MATH 1271",
+          "subject": "MATH",
+          "id": "1271"
+        },
+        {
+          "code": "MATH 2243",
+          "subject": "MATH",
+          "id": "2243"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "006902",
+    "code": "APEC5321",
+    "subject": "APEC",
+    "number": "5321",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Regional Economic Analysis",
+    "fullname": "Regional Economic Analysis",
+    "info": "Development patterns. Role of resources, transportation, and institutional constraints. Migration, investments in growth and change. Economic information in investment and location decisions. Economic development policies and tools. Economic impact analysis.prereq: 3006 or ECON 3102 or instr consent",
+    "prereq": {
+      "or": [
+        {
+          "code": "APEC 3006",
+          "subject": "APEC",
+          "id": "3006"
+        },
+        {
+          "code": "ECON 3102",
+          "subject": "ECON",
+          "id": "3102"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "788944",
+    "code": "APEC5341",
+    "subject": "APEC",
+    "number": "5341",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Public Finance",
+    "fullname": "Public Finance",
+    "info": "Which services should the public sector provide? Which level of government should provide them? How should governments fund those services? Which types of taxes should be levied and on whom? Applying economic theory/analysis to spending, revenue, and tax policy issues facing governments.prereq: 3001 or Econ 3101 or PA 5021",
+    "prereq": {
+      "or": [
+        {
+          "code": "APEC 3001",
+          "subject": "APEC",
+          "id": "3001"
+        },
+        {
+          "code": "ECON 3101",
+          "subject": "ECON",
+          "id": "3101"
+        },
+        {
+          "code": "PA 5021",
+          "subject": "PA",
+          "id": "5021"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "006928",
+    "code": "APEC5401",
+    "subject": "APEC",
+    "number": "5401",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Price Analysis, Fut & Opt Mkts",
+    "fullname": "Price Analysis, Futures, and Options Markets",
+    "info": "Development/application of price models. Unique market institutions in agriculture that have been developed in response to marketing/pricing problems. Futures/options trading. Hedging, speculative uses of futures/options contracts. Price efficiency, market performance/regulations.",
+    "prereq": []
+  },
+  {
+    "uid": "816793",
+    "code": "APEC5411",
+    "subject": "APEC",
+    "number": "5411",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Commodity Marketing",
+    "fullname": "Commodity Marketing",
+    "info": "Economic concepts related to marketing agricultural commodities. Conditions of competitive markets, historical perspectives on market institutions/policy, structural characteristics of markets, policies/regulations affecting agricultural marketing of livestock, crop, and dairy products.prereq: graduate student and 1101 or Econ 1101 ",
+    "prereq": {
+      "and": [
+        {
+          "code": "APEC 1101",
+          "subject": "APEC",
+          "id": "1101"
+        },
+        {
+          "code": "ECON 1101",
+          "subject": "ECON",
+          "id": "1101"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "789122",
+    "code": "APEC5451",
+    "subject": "APEC",
+    "number": "5451",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Food Marketing Economics",
+    "fullname": "Food Marketing Economics",
+    "info": "Economics of food marketing in the United States. Food consumption trends. Consumer food behavior, expenditure, data collection. Consumer utility models, demand forecasting. Food distribution system. Changes in supply chain, industry structure that serves retail food outlets. Individual/group projects.",
+    "prereq": []
+  },
+  {
+    "uid": "791997",
+    "code": "APEC5481",
+    "subject": "APEC",
+    "number": "5481",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Futures and Options Markets",
+    "fullname": "Futures and Options Markets",
+    "info": "Economic concepts related to futures/options trading. Hedging, speculation.",
+    "prereq": []
+  },
+  {
+    "uid": "788397",
+    "code": "APEC5511",
+    "subject": "APEC",
+    "number": "5511",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Labor Economics",
+    "fullname": "Labor Economics",
+    "info": "Theoretical foundations of labor markets. Intertemporal/household labor supply. Demand for labor, efficiency wages. Human capital theory, unemployment, migration decisions. Analysis of econometric research applied to labor policy issues such as minimum wage, tax policy, social insurance, education.prereq: [[3001 or Econ 3101 or PA 5021], [PA 5032 or equiv]] or instr consent",
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            {
+              "code": "APEC 3001",
+              "subject": "APEC",
+              "id": "3001"
+            },
+            {
+              "code": "ECON 3101",
+              "subject": "ECON",
+              "id": "3101"
+            },
+            {
+              "code": "PA 5021",
+              "subject": "PA",
+              "id": "5021"
+            }
+          ]
+        },
+        {
+          "code": "PA 5032",
+          "subject": "PA",
+          "id": "5032"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "006929",
+    "code": "APEC5581",
+    "subject": "APEC",
+    "number": "5581",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Human Cap HH Econ",
+    "fullname": "Human Capital and Household Economics",
+    "info": "Household economics and investment in human capital (e.g., children, education, health and nutrition); labor force participation, lifetime earnings, and nonmarket work; time allocation and substitution of capital for labor in the household in the western and third world.",
+    "prereq": []
+  },
+  {
+    "uid": "008217",
+    "code": "APEC5611",
+    "subject": "APEC",
+    "number": "5611",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Ec Aspects of Environ Mgmt",
+    "fullname": "Economic Aspects of Environmental Management",
+    "info": "Economist approach to environmental problems such as water/air pollution. Application of supply/demand concepts to evaluation of environmental resources. Methods of evaluation. Analysis of pollution control policies from economic point of view.prereq: [Sr or grad student] in [biological science or conservation biology or ecology or fisheries or forestry or public affairs or water resources or wildlife conservation] or CLA or instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "006930",
+    "code": "APEC5637",
+    "subject": "APEC",
+    "number": "5637",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Agricultural Law",
+    "fullname": "Agricultural Law",
+    "info": "Economic regulation of agriculture. Industrial organization and market structure in agribusiness, public lands and water law, agricultural cooperatives, farm labor, farm finance, crop insurance and disaster assistance, agricultural biotechnology, food and drug law, price and income regulations, and international agricultural marketing.",
+    "prereq": []
+  },
+  {
+    "uid": "006931",
+    "code": "APEC5651",
+    "subject": "APEC",
+    "number": "5651",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Econ Nat Resourc & Env Policy",
+    "fullname": "Economics of Natural Resource and Environmental Policy",
+    "info": "Economic analyses, including project evaluation of current natural resource/environmental issues. Intertemporal use of natural resources, natural resource scarcity/adequacy, environmental quality, and mechanisms for pollution control and their implications for public policy.prereq: [[3001 or ECON 3101], [3611 or ECON 3611 or ESPM 3261]] or instr consent",
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            {
+              "code": "APEC 3001",
+              "subject": "APEC",
+              "id": "3001"
+            },
+            {
+              "code": "ECON 3101",
+              "subject": "ECON",
+              "id": "3101"
+            }
+          ]
+        },
+        {
+          "or": [
+            {
+              "code": "APEC 3611",
+              "subject": "APEC",
+              "id": "3611"
+            },
+            {
+              "code": "ECON 3611",
+              "subject": "ECON",
+              "id": "3611"
+            },
+            {
+              "code": "ESPM 3261",
+              "subject": "ESPM",
+              "id": "3261"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "uid": "006932",
+    "code": "APEC5711",
+    "subject": "APEC",
+    "number": "5711",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Agricultural & Env Policy",
+    "fullname": "Agricultural and Environmental Policy",
+    "info": "This is a topics course which changes from year to year. This year we will consider the relationship between famines and armed conflict. The general supposition (conventional wisdom) is that famines are the result of the forces of nature – floods, droughts, and earthquakes. In fact, the evidence supports the argument that famines result from the actions of man to do harm to others. We will consider a variety of cases including the Irish Famine of the 19th Century, the hunger after the conclusion of World War II, and the Bengal Famine of 1948.prereq: 3001 or Econ 3101",
+    "prereq": {
+      "or": [
+        {
+          "code": "APEC 3001",
+          "subject": "APEC",
+          "id": "3001"
+        },
+        {
+          "code": "ECON 3101",
+          "subject": "ECON",
+          "id": "3101"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "008237",
+    "code": "APEC5721",
+    "subject": "APEC",
+    "number": "5721",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Econ of Sci and Tech Policy",
+    "fullname": "Economics of Science and Technology Policy",
+    "info": "This course covers the economic effects of science and technology policies, such as intellectual property rights.  The course considers the effects of policies on: (1) the economic growth and development levels of countries; (2) the international technology transfers that occur between countries through trade, foreign direct investment, and licensing arrangements; and (3) differences in the economic welfare of developed and developing countries.prereq: APEC 3001 or ECON 3101 or instr consent",
+    "prereq": {
+      "or": [
+        {
+          "code": "APEC 3001",
+          "subject": "APEC",
+          "id": "3001"
+        },
+        {
+          "code": "ECON 3101",
+          "subject": "ECON",
+          "id": "3101"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "016731",
+    "code": "APEC5731",
+    "subject": "APEC",
+    "number": "5731",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Econ Growth & Int'l Dev",
+    "fullname": "Economic Growth and International Development",
+    "info": "Economics of research and development. Technical change, productivity growth. Impact of technology on institutions. Science and technology policy.prereq: 3002 or [Econ 3101, Stat 3022]; Econ 4211 recommended",
+    "prereq": {
+      "or": [
+        {
+          "code": "APEC 3002",
+          "subject": "APEC",
+          "id": "3002"
+        },
+        {
+          "and": [
+            {
+              "code": "ECON 3101",
+              "subject": "ECON",
+              "id": "3101"
+            },
+            {
+              "code": "STAT 3022",
+              "subject": "STAT",
+              "id": "3022"
+            }
+          ]
+        },
+        {
+          "code": "ECON 4211",
+          "subject": "ECON",
+          "id": "4211"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "006700",
+    "code": "APEC5751",
+    "subject": "APEC",
+    "number": "5751",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Global Trade and Policy",
+    "fullname": "Global Trade and Policy",
+    "info": "Trade policies of import/export nations, gains from trade, trade negotiations/agreements. Free trade and common market areas. Exchange rate impacts. Primary commodities and market instability. Current trade issues.prereq: 3001 or Econ 3101 or PA 5021",
+    "prereq": {
+      "or": [
+        {
+          "code": "APEC 3001",
+          "subject": "APEC",
+          "id": "3001"
+        },
+        {
+          "code": "ECON 3101",
+          "subject": "ECON",
+          "id": "3101"
+        },
+        {
+          "code": "PA 5021",
+          "subject": "PA",
+          "id": "5021"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "816812",
+    "code": "APEC5821",
+    "subject": "APEC",
+    "number": "5821",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Business Economics & Strategy",
+    "fullname": "Business Economics and Strategy",
+    "info": "Strategic management for production, processing, wholesaling, retailing, and service. Strategy formulation, implementation, and control. Business plans. Case study analysis.prereq: graduate student and APEC 3001 or equivalent or instructor consent",
+    "prereq": {
+      "code": "APEC 3001",
+      "subject": "APEC",
+      "id": "3001"
+    }
+  },
+  {
+    "uid": "816810",
+    "code": "APEC5831",
+    "subject": "APEC",
+    "number": "5831",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Food and Agribusiness Marketpl",
+    "fullname": "Food and Agribusiness Marketplace",
+    "info": "This is a graduate student survey course of the industrial organization and current policy issues in the food and agribusiness marketplace. It represents a collaboration between the College of Food, Agricultural, and Natural Resource Sciences and the Carlson School of Management. The course uses short readings and speakers. A comprehensive look at all of the sectors in the food and agribusiness value chain is described. Topics include food policies (Farm Bills, food stamps, food labeling, and similar topics); environmental policies (water, invasive species, agriculture production and similar topics); and industrial organization issues (marketing and production contracts, overview of firm strategic orientation, distribution and similar topics). Readings, guest speakers, and presentations are used.prereq:  graduate student",
+    "prereq": []
+  },
+  {
+    "uid": "817764",
+    "code": "APEC5832",
+    "subject": "APEC",
+    "number": "5832",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "The Business of Food Systems",
+    "fullname": "The Business of Food Systems",
+    "info": "This is a graduate survey course to introduce students to the Minnesota food industry through its regulatory process, research and development, and industry structure. It is an integrated week long course that includes field study tours of Minnesota agriculture and food economy coupled with classroom instruction. Each year the course will focus on two Minnesota industries such as dairy, beef, soybean, corn, potatoes, and other agricultural and food industries. The course has been developed through a collaboration with College of Veterinary Medicine, School of Public Health, and College of Food, Agricultural, and Natural Resource Sciences. ",
+    "prereq": []
+  },
+  {
+    "uid": "008238",
+    "code": "APEC5841",
+    "subject": "APEC",
+    "number": "5841",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Ag & Consumer Co-ops & Mutuals",
+    "fullname": "Agricultural and Consumer Cooperatives and Mutuals",
+    "info": "There are three broad business organizational forms in the world: public benefit, mutual or cooperative benefit, and investor benefit. The topic is motivated by focusing on the mutual or cooperative benefit organization and comparing and contrasting it with the other two business forms. Each class begins with a speaker, usually a producer member or manager, from a cooperative or mutual including coffee, cocoa, dairy, food, credit union, and other types of consumer and agricultural cooperatives. Students will choose a cooperative or mutual at the beginning of the semester and most homework assignments will be applied to your cooperative including a final digital media project. The course has one live lecture and one asynchronous lecture each week.Credit will not be granted if credit has been received for: APEC 3841",
+    "prereq": []
+  },
+  {
+    "uid": "006933",
+    "code": "APEC5861",
+    "subject": "APEC",
+    "number": "5861",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Economics of Agri Production",
+    "fullname": "Economics of Agricultural Production",
+    "info": "Production economics applied to agriculture, profitable combination of production factors; comparative advantage and location of production.",
+    "prereq": []
+  },
+  {
+    "uid": "006942",
+    "code": "APEC5891",
+    "subject": "APEC",
+    "number": "5891",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Ind Study: Adv Topics",
+    "fullname": "Independent Study: Advanced Topics in Farm and Agribusiness Management",
+    "info": "Special topics or individual work suited to the needs of particular groups of students.prereq: instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "819911",
+    "code": "APEC5990",
+    "subject": "APEC",
+    "number": "5990",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Special Topics in Applied Econ",
+    "fullname": "Special Topics in Applied Economics",
+    "info": "Special topics courses - focus on areas not covered in regularly offered courses.  prereqs: graduate student or instructor consent",
+    "prereq": []
+  },
+  {
+    "uid": "006943",
+    "code": "APEC5991",
+    "subject": "APEC",
+    "number": "5991",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Independent Study",
+    "fullname": "Independent Study in Applied Economics",
+    "info": "Independent study and supervised reading/research on subjects/problems not covered in regularly offered courses.prereq: instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "806881",
+    "code": "APEC8001",
+    "subject": "APEC",
+    "number": "8001",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Consumer Choice",
+    "fullname": "Applied Microeconomic Analysis of Consumer Choice and Consumer Demand",
+    "info": "The course provides a rigorous mathematical treatment of cost-benefit analysis in terms of the theory of how prices, income, preferences, and other factors affect consumer choices and the demand for goods and services.  The optimization theories and economic models are developed with and without uncertainty.  Part of four-course, year-long sequence (APEC 8001-2-3-4)prereq: [[5151 or ECON 3101 or ECON 5151 or intermediate microeconomic theory], [[MATH 2243, MATH 2263] or equiv]] or instr consent",
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            {
+              "code": "APEC 5151",
+              "subject": "APEC",
+              "id": "5151"
+            },
+            {
+              "code": "ECON 3101",
+              "subject": "ECON",
+              "id": "3101"
+            },
+            {
+              "code": "ECON 5151",
+              "subject": "ECON",
+              "id": "5151"
+            }
+          ]
+        },
+        {
+          "and": [
+            {
+              "code": "MATH 2243",
+              "subject": "MATH",
+              "id": "2243"
+            },
+            {
+              "code": "MATH 2263",
+              "subject": "MATH",
+              "id": "2263"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "uid": "806883",
+    "code": "APEC8002",
+    "subject": "APEC",
+    "number": "8002",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Production and Uncertainty",
+    "fullname": "Applied Microeconomic Analysis of Production and Choice Under Uncertainty",
+    "info": "The course provides a rigorous mathematical treatment of cost-benefit analysis in terms of the theory of how prices, technology, and other important factors affect producer decisions, the supply of goods and services, and the demand for productive resources.  The optimization theories and economic models are developed with and without uncertainty.  The course also explores the theory of price determination in competitive, monopoly, and monopsony markets.  Part of four-course, year-long sequence (APEC 8001-2-3-4)prereq: [[8001 or ECON 8001 or ECON 8101], [[MATH 2243, MATH 2263] or equiv]] or instr consent",
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            {
+              "code": "APEC 8001",
+              "subject": "APEC",
+              "id": "8001"
+            },
+            {
+              "code": "ECON 8001",
+              "subject": "ECON",
+              "id": "8001"
+            },
+            {
+              "code": "ECON 8101",
+              "subject": "ECON",
+              "id": "8101"
+            }
+          ]
+        },
+        {
+          "and": [
+            {
+              "code": "MATH 2243",
+              "subject": "MATH",
+              "id": "2243"
+            },
+            {
+              "code": "MATH 2263",
+              "subject": "MATH",
+              "id": "2263"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "uid": "806885",
+    "code": "APEC8003",
+    "subject": "APEC",
+    "number": "8003",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Game Theory",
+    "fullname": "Applied Microeconomic Analysis of Game Theory and Information",
+    "info": "The course provides a rigorous mathematical treatment of cost-benefit analysis in terms of the theory of how strategic interactions between consumers and producers (game theory) and information affect prices, resource allocation, and welfare.  The optimization theories and economic models are developed in the contexts of both market and nonmarket goods and services.  Part of four-course, year-long sequence (APEC 8001-2-3-4).prereq: [[8002 or ECON 8002 or ECON 8102], [[MATH 2243, MATH 2263] or equiv]] or instr consent",
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            {
+              "code": "APEC 8002",
+              "subject": "APEC",
+              "id": "8002"
+            },
+            {
+              "code": "ECON 8002",
+              "subject": "ECON",
+              "id": "8002"
+            },
+            {
+              "code": "ECON 8102",
+              "subject": "ECON",
+              "id": "8102"
+            }
+          ]
+        },
+        {
+          "and": [
+            {
+              "code": "MATH 2243",
+              "subject": "MATH",
+              "id": "2243"
+            },
+            {
+              "code": "MATH 2263",
+              "subject": "MATH",
+              "id": "2263"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "uid": "806859",
+    "code": "APEC8004",
+    "subject": "APEC",
+    "number": "8004",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Social Choice and Welfare",
+    "fullname": "Applied Microeconomic Analysis of Social Choice and Welfare",
+    "info": "The course provides a rigorous mathematical treatment of cost-benefit analysis in terms of the theory of how prices of goods and services are determined in competitive markets, and the implications of these prices on social welfare.  It shows what happens to the prices of goods and services and social welfare when competitive markets fail.  Part of four-course, year-long sequence (APEC 8001-2-3-4).  prereq: [[8003 or ECON 8003 or ECON 8103], [[MATH 2243, MATH 2263] or equiv]] or instr consent",
+    "prereq": {
+      "and": [
+        {
+          "or": [
+            {
+              "code": "APEC 8003",
+              "subject": "APEC",
+              "id": "8003"
+            },
+            {
+              "code": "ECON 8003",
+              "subject": "ECON",
+              "id": "8003"
+            },
+            {
+              "code": "ECON 8103",
+              "subject": "ECON",
+              "id": "8103"
+            }
+          ]
+        },
+        {
+          "and": [
+            {
+              "code": "MATH 2243",
+              "subject": "MATH",
+              "id": "2243"
+            },
+            {
+              "code": "MATH 2263",
+              "subject": "MATH",
+              "id": "2263"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "uid": "008048",
+    "code": "APEC8202",
+    "subject": "APEC",
+    "number": "8202",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Math Optimization in Appl Econ",
+    "fullname": "Mathematical Optimization in Applied Economics",
+    "info": "Economic foundations and applications of mathematical and dynamic programming and optimal control. Mathematical optimization concepts; structures and economic interpretations of various models of the firm, consumer, household, sector, and economy. Model building and solution techniques.prereq: [5151, Econ 5151] or equiv or instr consent",
+    "prereq": {
+      "and": [
+        {
+          "code": "APEC 5151",
+          "subject": "APEC",
+          "id": "5151"
+        },
+        {
+          "code": "ECON 5151",
+          "subject": "ECON",
+          "id": "5151"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "008224",
+    "code": "APEC8203",
+    "subject": "APEC",
+    "number": "8203",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Appl Welfare Econ & Public Pol",
+    "fullname": "Applied Welfare Economics and Public Policy",
+    "info": "Basic concepts underlying measurement of welfare change, problems of market failure and externalities, social welfare functions, and distribution within and across generations. Application of concepts, based on case studies of the environment, returns to research, technical change, and agricultural policy.prereq: calculus, intermediate econ theory",
+    "prereq": []
+  },
+  {
+    "uid": "789123",
+    "code": "APEC8204",
+    "subject": "APEC",
+    "number": "8204",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Applied Financial Economics",
+    "fullname": "Applied Financial Economics",
+    "info": "Introduction to major theories of asset pricing under competitive markets, symmetric information. Equilibrium/arbitrage models of financial markets, option pricing models. Applications of asset pricing theory: agricultural markets, financial derivatives, interest rates, agricultural credit.prereq: Econ 5151 or [Econ 8001, Econ 8002] or instr consent",
+    "prereq": {
+      "or": [
+        {
+          "code": "ECON 5151",
+          "subject": "ECON",
+          "id": "5151"
+        },
+        {
+          "and": [
+            {
+              "code": "ECON 8001",
+              "subject": "ECON",
+              "id": "8001"
+            },
+            {
+              "code": "ECON 8002",
+              "subject": "ECON",
+              "id": "8002"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "uid": "792886",
+    "code": "APEC8205",
+    "subject": "APEC",
+    "number": "8205",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Applied Game Theory",
+    "fullname": "Applied Game Theory",
+    "info": "Topics in game theory, application to economic problems. For each topic, important theory/equilibrium concepts are followed by extensive applications. Focuses on static/dynamic games of complete/incomplete information, evolutionary games.prereq: [8101, 8102, 8103, 8104] or [Econ 8001, Econ 8002, Econ 8003, 8004] or instr consent",
+    "prereq": {
+      "or": [
+        {
+          "and": [
+            {
+              "code": "APEC 8101",
+              "subject": "APEC",
+              "id": "8101"
+            },
+            {
+              "code": "APEC 8102",
+              "subject": "APEC",
+              "id": "8102"
+            },
+            {
+              "code": "APEC 8103",
+              "subject": "APEC",
+              "id": "8103"
+            },
+            {
+              "code": "APEC 8104",
+              "subject": "APEC",
+              "id": "8104"
+            }
+          ]
+        },
+        {
+          "and": [
+            {
+              "code": "ECON 8001",
+              "subject": "ECON",
+              "id": "8001"
+            },
+            {
+              "code": "ECON 8002",
+              "subject": "ECON",
+              "id": "8002"
+            },
+            {
+              "code": "ECON 8003",
+              "subject": "ECON",
+              "id": "8003"
+            },
+            {
+              "code": "APEC 8004",
+              "subject": "APEC",
+              "id": "8004"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "uid": "799905",
+    "code": "APEC8206",
+    "subject": "APEC",
+    "number": "8206",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Dynamic Optimization",
+    "fullname": "Dynamic Optimization: Applications in Economics and Management",
+    "info": "Formulation and solution of dynamic optimization problems using optimal control theory and dynamic programming. Analytical and numerical solution methods to solve deterministic and stochastic problems for various economic applications.prereq: 5151 or equiv or instr consent",
+    "prereq": {
+      "code": "APEC 5151",
+      "subject": "APEC",
+      "id": "5151"
+    }
+  },
+  {
+    "uid": "008357",
+    "code": "APEC8211",
+    "subject": "APEC",
+    "number": "8211",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Econometric Analysis I",
+    "fullname": "Econometric Analysis I",
+    "info": "The course introduces the foundations for statistical economic (econometric) models, linear econometric models, and inference with linear econometric models when observations are independent and the sample size is large.  it shows how linear models can be used to evaluate and quantify theoretical relationships and forecast counterfactual economic outcomes.  Part of four-course, year-long sequence (APEC 8211-2-3-4). prereq: ApEc 5031 or equiv OR Ph.D. student OR instr consent",
+    "prereq": {
+      "code": "APEC 5031",
+      "subject": "APEC",
+      "id": "5031"
+    }
+  },
+  {
+    "uid": "789613",
+    "code": "APEC8212",
+    "subject": "APEC",
+    "number": "8212",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Econometric Analysis II",
+    "fullname": "Econometric Analysis II",
+    "info": "The course introduces the foundations for statistical economic (econometric) models, linear econometric models, and inference with linear econometric models when observations are dependent because individual units are sampled over regular time intervals (panel data) as well as for other reasons.  It shows how these linear models can be used to evaluate and quantify theoretical relationships and forecast counterfactual economic outcomes.  Part of four-course, year-long sequence (APEC 8211-2-3-4).  prereq: 8211 or equiv or instr consent",
+    "prereq": {
+      "code": "APEC 8211",
+      "subject": "APEC",
+      "id": "8211"
+    }
+  },
+  {
+    "uid": "819969",
+    "code": "APEC8213",
+    "subject": "APEC",
+    "number": "8213",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Econometric Analysis III",
+    "fullname": "Econometric Analysis III",
+    "info": "The course introduces econometric techniques and models for analyzing economic data for discrete response variables, censored response variables, and non-random data samples.  It show show these nonlinear models can be used to evaluate and quantify theoretical relationships and forecast counterfactual economic outcomes.  Part of four-course, year-long sequence (APEC 8211-2-3-4). prereq:  ApEc 5031 or equiv OR Ph.D. student OR instr consent",
+    "prereq": {
+      "code": "APEC 5031",
+      "subject": "APEC",
+      "id": "5031"
+    }
+  },
+  {
+    "uid": "819970",
+    "code": "APEC8214",
+    "subject": "APEC",
+    "number": "8214",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Econometric Analysis IV",
+    "fullname": "Econometric Analysis IV",
+    "info": "The course introduces econometric techniques and models used to identify the assumptions required for causal inference as well as tests for these assumptions when they are available.  It shows how these techniques and models can be used to evaluate and quantify causal economic relationships and forecast counterfactual economic outcomes.  Part of four-course, year-long sequence (APEC 8211-2-3-4).  prereq:  ApEc 5031 or equiv OR Ph.D. student OR instr consent",
+    "prereq": {
+      "code": "APEC 5031",
+      "subject": "APEC",
+      "id": "5031"
+    }
+  },
+  {
+    "uid": "818149",
+    "code": "APEC8221",
+    "subject": "APEC",
+    "number": "8221",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Programming for Econometrics",
+    "fullname": "Programming for Econometrics",
+    "info": "Applications of computer programming in econometrics. Introduction to and best practices in programming, including writing functions, organizing and commenting code, vectorization and other performance tips. Programmatic acquisition of novel economic datasets through Application Programming Interfaces (APIs), web scraping, and databases.  Efficient cleaning and merging of datasets. Finally, a survey of common computational challenges in econometric estimation and potential solutions. prereq: APEC 5031 or equivalent ",
+    "prereq": {
+      "code": "APEC 5031",
+      "subject": "APEC",
+      "id": "5031"
+    }
+  },
+  {
+    "uid": "818150",
+    "code": "APEC8222",
+    "subject": "APEC",
+    "number": "8222",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Big Data Methods in Economics",
+    "fullname": "Big Data Methods in Economics",
+    "info": "Challenges, techniques, and opportunities presented by data that has one or more of the following characteristics: large, unstructured, high frequency, variable quality. The course will consist of three parts: 1) computational tools for applying standard econometric techniques on large datasets, 2) extracting summary information from unstructured data (e.g. images, text) for use in econometric analysis, 3) application of statistical learning techniques (e.g. classifiers, regression trees, machine learning) and the role of such techniques in causal inference. prereq: APEC 5031 or equivalent; APEC 8221 or equivalent programming experience. ",
+    "prereq": {
+      "or": [
+        {
+          "code": "APEC 5031",
+          "subject": "APEC",
+          "id": "5031"
+        },
+        {
+          "code": "APEC 8221",
+          "subject": "APEC",
+          "id": "8221"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "825961",
+    "code": "APEC8223",
+    "subject": "APEC",
+    "number": "8223",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Impact Evaluation",
+    "fullname": "Impact Evaluation: Theory and Methods",
+    "info": "This course provides a thorough review of many different econometric methods used to estimate (evaluate) the impact of programs on outcomes of interest.  The methods include randomized controlled trials (RCTs), difference in differences, matching methods, regression discontinuity, instrumental variables, control function methods, and quantile treatment effects.Prerequisites: Students should have completed Apec 8214 or an equivalent course. ",
+    "prereq": {
+      "code": "APEC 8214",
+      "subject": "APEC",
+      "id": "8214"
+    }
+  },
+  {
+    "uid": "788075",
+    "code": "APEC8333",
+    "subject": "APEC",
+    "number": "8333",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "FTE: Master's",
+    "fullname": "FTE: Master's",
+    "info": "(No description)prereq: Master's student, adviser and DGS consent",
+    "prereq": []
+  },
+  {
+    "uid": "807921",
+    "code": "APEC8341",
+    "subject": "APEC",
+    "number": "8341",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Applied Public Finance",
+    "fullname": "Applied Public Finance",
+    "info": "Current economic research on government tax and expenditure policy. Apply tools of applied economics to public finance issues. Tax policy, taxation and household decisions (including labor supply and saving), taxation and the firm (including the cost of capital), and fundamental tax reform. Alternative demand models for public goods, public choice theory, and fiscal federalism.prereq: 8001-8004 or ECON 8001-8004 or ECON 8101-8104",
+    "prereq": {
+      "or": [
+        {
+          "code": "APEC 8001",
+          "subject": "APEC",
+          "id": "8001"
+        },
+        {
+          "code": "APEC 8004",
+          "subject": "APEC",
+          "id": "8004"
+        },
+        {
+          "code": "ECON 8001",
+          "subject": "ECON",
+          "id": "8001"
+        },
+        {
+          "code": "ECON 8101",
+          "subject": "ECON",
+          "id": "8101"
+        },
+        {
+          "code": "APEC 8104",
+          "subject": "APEC",
+          "id": "8104"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "008042",
+    "code": "APEC8401",
+    "subject": "APEC",
+    "number": "8401",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Ag Markets & Policy",
+    "fullname": "Agricultural Markets and Policy",
+    "info": "Seven-week course. Designed for students pursuing the field of food and agricultural economics to acquire a foundational understanding of markets for food and farm commodities and skills to conduct analyses of market supply and demand and efforts of policy changes.  prereq: APEC 8001 & 8002 or ECON 8101 & 8102, or concurrent registration ",
+    "prereq": {
+      "and": [
+        {
+          "code": "APEC 8001",
+          "subject": "APEC",
+          "id": "8001"
+        },
+        {
+          "code": "APEC 8002",
+          "subject": "APEC",
+          "id": "8002"
+        },
+        {
+          "code": "ECON 8101",
+          "subject": "ECON",
+          "id": "8101"
+        },
+        {
+          "code": "APEC 8102",
+          "subject": "APEC",
+          "id": "8102"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "008014",
+    "code": "APEC8402",
+    "subject": "APEC",
+    "number": "8402",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Info and Behavioral Econ",
+    "fullname": "Information and Behavioral Economics",
+    "info": "This course examines new theories of consumer behavior that combines economists' and psychologists' modeling of human behavior. Questions about whether human behavior is consistent with standard economic models will be posed and alternative explanatory models will be offered by incorporating psychological phenomena. The influence of information on consumer choice over time and under uncertainty will also be studied from a theoretical and empirical perspective. Topics include expected and unexpected utility theory, bounded rationality, prospect theory, choice over time, and rational addiction with applications to empirical work. prereq: APEC 8001 - 8004 or ECON 8101 - 8104, APEC 8401, APEC 8211-8212",
+    "prereq": {
+      "and": [
+        {
+          "code": "APEC 8001",
+          "subject": "APEC",
+          "id": "8001"
+        },
+        {
+          "code": "APEC 8004",
+          "subject": "APEC",
+          "id": "8004"
+        },
+        {
+          "code": "ECON 8101",
+          "subject": "ECON",
+          "id": "8101"
+        },
+        {
+          "code": "APEC 8104",
+          "subject": "APEC",
+          "id": "8104"
+        },
+        {
+          "code": "APEC 8401",
+          "subject": "APEC",
+          "id": "8401"
+        },
+        {
+          "code": "APEC 8211",
+          "subject": "APEC",
+          "id": "8211"
+        },
+        {
+          "code": "APEC 8212",
+          "subject": "APEC",
+          "id": "8212"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "792887",
+    "code": "APEC8403",
+    "subject": "APEC",
+    "number": "8403",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Applied Consumer Theory",
+    "fullname": "Applied Consumer Theory",
+    "info": "The objective of this course is to provide students with the theoretical and methodological foundations to perform analyses of demand and competition in food and agricultural markets. Some of the specific topics include specification and estimation of demand systems such as welfare analysis, analysis of competition, market power and public policy (e.g., a tax policy) in both homogeneous and differentiated product markets, analysis of cost pass-through, and merger analysis. prereqs: APEC 8001 - 8004 or ECON 8001 - 8004 or ECON 8101 - 8104, APEC 8211, APEC 8212, or instructor consent.",
+    "prereq": {
+      "and": [
+        {
+          "code": "APEC 8001",
+          "subject": "APEC",
+          "id": "8001"
+        },
+        {
+          "code": "APEC 8004",
+          "subject": "APEC",
+          "id": "8004"
+        },
+        {
+          "code": "ECON 8001",
+          "subject": "ECON",
+          "id": "8001"
+        },
+        {
+          "code": "ECON 8101",
+          "subject": "ECON",
+          "id": "8101"
+        },
+        {
+          "code": "APEC 8104",
+          "subject": "APEC",
+          "id": "8104"
+        },
+        {
+          "code": "APEC 8211",
+          "subject": "APEC",
+          "id": "8211"
+        },
+        {
+          "code": "APEC 8212",
+          "subject": "APEC",
+          "id": "8212"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "008188",
+    "code": "APEC8404",
+    "subject": "APEC",
+    "number": "8404",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Applied Production Theory",
+    "fullname": "Applied Production Theory",
+    "info": "Aspects of production theory. Axiomatic representations of multi-output technologies. Input, output, and directional distance functions. Cost, revenue, and profit functions and duality. Input/output separability. Jointness/non-jointness in production. Index numbers, measures of efficiency/productivity.prereq: APEC 8001 and 8002 or equiv or instr consent",
+    "prereq": {
+      "and": [
+        {
+          "code": "APEC 8001",
+          "subject": "APEC",
+          "id": "8001"
+        },
+        {
+          "code": "APEC 8002",
+          "subject": "APEC",
+          "id": "8002"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "788311",
+    "code": "APEC8444",
+    "subject": "APEC",
+    "number": "8444",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "FTE: Doctoral",
+    "fullname": "FTE: Doctoral",
+    "info": "(No description)prereq: Doctoral student, adviser and DGS consent",
+    "prereq": []
+  },
+  {
+    "uid": "807658",
+    "code": "APEC8501",
+    "subject": "APEC",
+    "number": "8501",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Labor Economics I",
+    "fullname": "Labor Economics I",
+    "info": "Theoretical and empirical studies of compensating differentials, discrimination, personnel economics, and gross flows. prereq: 8003 or equiv or concurrent registration is required (or allowed) in 8003, 8211, 5032 or equiv",
+    "prereq": {
+      "and": [
+        {
+          "code": "APEC 8003",
+          "subject": "APEC",
+          "id": "8003"
+        },
+        {
+          "code": "APEC 8211",
+          "subject": "APEC",
+          "id": "8211"
+        },
+        {
+          "code": "APEC 5032",
+          "subject": "APEC",
+          "id": "5032"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "807370",
+    "code": "APEC8502",
+    "subject": "APEC",
+    "number": "8502",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Labor Economics II",
+    "fullname": "Labor Economics II",
+    "info": "Topics in applied microeconomics related to labor supply and human capital. Household decisions and resulting outcomes in labor market. Household labor supply. Estimation of labor supply and earnings functions. Theory of human capital, wage structure and determination, and impacts of tax and transfer policies.",
+    "prereq": []
+  },
+  {
+    "uid": "008032",
+    "code": "APEC8601",
+    "subject": "APEC",
+    "number": "8601",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Natural Resource Economics",
+    "fullname": "Natural Resource Economics",
+    "info": "Economic analysis of resource use and management. Capital theory, dynamic resource allocation. Applications to renewable and nonrenewable resources. Empirical studies, policy issues.prereq: [5151, 8202, 8206 [ECON 5151 or equiv]] or instr consent",
+    "prereq": {
+      "and": [
+        {
+          "code": "APEC 5151",
+          "subject": "APEC",
+          "id": "5151"
+        },
+        {
+          "code": "APEC 8202",
+          "subject": "APEC",
+          "id": "8202"
+        },
+        {
+          "code": "APEC 8206",
+          "subject": "APEC",
+          "id": "8206"
+        },
+        {
+          "code": "ECON 5151",
+          "subject": "ECON",
+          "id": "5151"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "008000",
+    "code": "APEC8602",
+    "subject": "APEC",
+    "number": "8602",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Economics of the Environment",
+    "fullname": "Economics of the Environment",
+    "info": "Economic analysis of environmental management, emphasizing environmental policy. Application of microeconomic theory to problems of market failure, market-based pollution control policies, contingent valuation, hedonic models, option value, and other topics.prereq: 8004 or ECON 8004 or ECON 8104 or equiv or instr consent",
+    "prereq": {
+      "or": [
+        {
+          "code": "APEC 8004",
+          "subject": "APEC",
+          "id": "8004"
+        },
+        {
+          "code": "ECON 8004",
+          "subject": "ECON",
+          "id": "8004"
+        },
+        {
+          "code": "ECON 8104",
+          "subject": "ECON",
+          "id": "8104"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "788438",
+    "code": "APEC8666",
+    "subject": "APEC",
+    "number": "8666",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Doct Pre-Thesis Cr*",
+    "fullname": "Doctoral Pre-Thesis Credits",
+    "info": "Doctoral Pre-Thesis Creditsprereq: Doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
+    "prereq": []
+  },
+  {
+    "uid": "008359",
+    "code": "APEC8701",
+    "subject": "APEC",
+    "number": "8701",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Trade and Development I",
+    "fullname": "Trade and Development I",
+    "info": "This course will analyze international trade and economic policies that affect trade. The course will consider the determinants of trade, the welfare effects of trade, and the implications of trade liberalization or protectionism. The course will use contemporary economic theory and econometric methods of analysis; and will provide an economic foundation for analyzing issues on the frontier of the academic literature and policy debate.",
+    "prereq": []
+  },
+  {
+    "uid": "008360",
+    "code": "APEC8702",
+    "subject": "APEC",
+    "number": "8702",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Trade and Development II",
+    "fullname": "Trade and Development II",
+    "info": "This course will focus on the applied microeonomics of international development. The course will focus on empirically testing the various theories developed to account for persistent economic underdevelopment and poverty. We will start from key ideas and methods in empirical development economics, then cover household models (both unitary and otherwise), intrahousehold models, market formation and market participation, land markets, technology adoption, risk and insurance, and other topics related to development microeconomics, all from an empirical perspective.: prereq: First-year PhD level microeconomics and econometrics",
+    "prereq": []
+  },
+  {
+    "uid": "795206",
+    "code": "APEC8703",
+    "subject": "APEC",
+    "number": "8703",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Trade and Development III",
+    "fullname": "Trade and Development III",
+    "info": "Topics in the microeconomic analysis of development covered include: education (both the determinants of educational outcomes and the impact of those outcomes on several economic outcomes), poverty, inequality, demography (population, fertility and gender issues), and the impact of international aid.  ",
+    "prereq": []
+  },
+  {
+    "uid": "817415",
+    "code": "APEC8704",
+    "subject": "APEC",
+    "number": "8704",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Trade and Development IV",
+    "fullname": "Trade and Development IV",
+    "info": "This course will focus on the applied microeconomics of international development. It will empirically analyze various market failures in developing countries, their role in driving persistent poverty, and interventions to address them. The course will focus specifically on the functioning of financial, labor, and healthcare markets, as well as the influence of social networks and economic decisions and outcomes.",
+    "prereq": []
+  },
+  {
+    "uid": "788568",
+    "code": "APEC8777",
+    "subject": "APEC",
+    "number": "8777",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Thesis Credit:Mast*",
+    "fullname": "Thesis Credits: Master's",
+    "info": "(No description)prereq: Max 18 cr per semester or summer; 10 cr total required [Plan A only]",
+    "prereq": []
+  },
+  {
+    "uid": "008471",
+    "code": "APEC8793",
+    "subject": "APEC",
+    "number": "8793",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Plan B Project",
+    "fullname": "Master's Paper:  Plan B Project",
+    "info": "Students work under guidance of adviser to complete their Plan B Paper project.prereq: Agri/ApEc MS student or ApEc MS student",
+    "prereq": []
+  },
+  {
+    "uid": "008030",
+    "code": "APEC8802",
+    "subject": "APEC",
+    "number": "8802",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Financial Economics",
+    "fullname": "Financial Economics",
+    "info": "Major theories of asset pricing under assumptions of uncertainty, competitive markets, and symmetric information. Equilibrium/arbitrage models of financial markets with econometric applications. Pricing/use of derivatives.prereq: [8211, Econ 5151] or [Econ 8001, Econ 8002] or instr consent",
+    "prereq": {
+      "or": [
+        {
+          "and": [
+            {
+              "code": "APEC 8211",
+              "subject": "APEC",
+              "id": "8211"
+            },
+            {
+              "code": "ECON 5151",
+              "subject": "ECON",
+              "id": "5151"
+            }
+          ]
+        },
+        {
+          "and": [
+            {
+              "code": "ECON 8001",
+              "subject": "ECON",
+              "id": "8001"
+            },
+            {
+              "code": "ECON 8002",
+              "subject": "ECON",
+              "id": "8002"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "uid": "792890",
+    "code": "APEC8803",
+    "subject": "APEC",
+    "number": "8803",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Marketing Economics",
+    "fullname": "Marketing Economics",
+    "info": "Review of market structure, conduct, and performance. Market interdependency over space/time. Product forms. Issues pertaining to market failures/interventions.prereq: [Econ 8001, Econ 8002] or [Econ 8101, Econ 8102] or instr consent",
+    "prereq": {
+      "or": [
+        {
+          "and": [
+            {
+              "code": "ECON 8001",
+              "subject": "ECON",
+              "id": "8001"
+            },
+            {
+              "code": "ECON 8002",
+              "subject": "ECON",
+              "id": "8002"
+            }
+          ]
+        },
+        {
+          "and": [
+            {
+              "code": "ECON 8101",
+              "subject": "ECON",
+              "id": "8101"
+            },
+            {
+              "code": "ECON 8102",
+              "subject": "ECON",
+              "id": "8102"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "uid": "792891",
+    "code": "APEC8804",
+    "subject": "APEC",
+    "number": "8804",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Managerial Economics",
+    "fullname": "Managerial Economics",
+    "info": "Analysis of managerial decisions by organizations/individual entrepreneurs. Application of dynamic programming to investment/resource allocation decisions. Economics of business organization, including boundaries of the firm, mechanisms for vertical coordination. Economic implications of alternative ownership structures.prereq: [8001, 8002, 8003, 8004] or [Econ 8101, Econ 8102, Econ 8103, Econ 8104] or instr consent; majors must register on A-F basis.",
+    "prereq": {
+      "or": [
+        {
+          "and": [
+            {
+              "code": "APEC 8001",
+              "subject": "APEC",
+              "id": "8001"
+            },
+            {
+              "code": "APEC 8002",
+              "subject": "APEC",
+              "id": "8002"
+            },
+            {
+              "code": "APEC 8003",
+              "subject": "APEC",
+              "id": "8003"
+            },
+            {
+              "code": "APEC 8004",
+              "subject": "APEC",
+              "id": "8004"
+            }
+          ]
+        },
+        {
+          "and": [
+            {
+              "code": "ECON 8101",
+              "subject": "ECON",
+              "id": "8101"
+            },
+            {
+              "code": "ECON 8102",
+              "subject": "ECON",
+              "id": "8102"
+            },
+            {
+              "code": "ECON 8103",
+              "subject": "ECON",
+              "id": "8103"
+            },
+            {
+              "code": "ECON 8104",
+              "subject": "ECON",
+              "id": "8104"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "uid": "787825",
+    "code": "APEC8888",
+    "subject": "APEC",
+    "number": "8888",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Thesis Credit:Doct*",
+    "fullname": "Thesis Credit: Doctoral",
+    "info": "Doctoral thesis credit.prereq: ApEc PhD student; max 18 cr per semester or summer; 24 cr required",
+    "prereq": []
+  },
+  {
+    "uid": "008373",
+    "code": "APEC8901",
+    "subject": "APEC",
+    "number": "8901",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Graduate Seminar: MS & PhD",
+    "fullname": "Graduate Seminar: MS & PhD",
+    "info": "Attendance and active participation in applied economics research seminars. Effective research methods. Research topics and observe professional methods of research presentations.",
+    "prereq": []
+  },
+  {
+    "uid": "008374",
+    "code": "APEC8902",
+    "subject": "APEC",
+    "number": "8902",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Grad Res Dev Seminar",
+    "fullname": "Graduate Research Development Seminar",
+    "info": "Faculty, students, outside speakers present research ideas/results, which participants critique. Topics vary according to interests of speakers.prereq: ApEc MS student or ApEc PhD student",
+    "prereq": []
+  },
+  {
+    "uid": "809642",
+    "code": "APEC8903",
+    "subject": "APEC",
+    "number": "8903",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "PhD Qualifying Paper Seminar I",
+    "fullname": "PhD Qualifying Paper Seminar I",
+    "info": "Support for writing second year Qualifying Paper. Purpose of paper is to provide guided opportunity for doctoral students to complete substantial research paper.prereq: 8001-8004 or Econ 8001-8004 or Econ 8101-8104",
+    "prereq": {
+      "or": [
+        {
+          "code": "APEC 8001",
+          "subject": "APEC",
+          "id": "8001"
+        },
+        {
+          "code": "APEC 8004",
+          "subject": "APEC",
+          "id": "8004"
+        },
+        {
+          "code": "ECON 8001",
+          "subject": "ECON",
+          "id": "8001"
+        },
+        {
+          "code": "ECON 8101",
+          "subject": "ECON",
+          "id": "8101"
+        },
+        {
+          "code": "APEC 8104",
+          "subject": "APEC",
+          "id": "8104"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "809643",
+    "code": "APEC8904",
+    "subject": "APEC",
+    "number": "8904",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "PhD Qualifying Paper Sem II",
+    "fullname": "PhD Qualifying Paper Seminar II",
+    "info": "Provides support to doctoral students writing second year Qualifying Paper. Purpose of paper is to provide guided opportunity for students to complete substantial research paper.prereq: APEC 8903",
+    "prereq": {
+      "code": "APEC 8903",
+      "subject": "APEC",
+      "id": "8903"
+    }
+  },
+  {
+    "uid": "819912",
+    "code": "APEC8990",
+    "subject": "APEC",
+    "number": "8990",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Special Topics in Applied Econ",
+    "fullname": "Special Topics in Applied Economics",
+    "info": "Special topics courses - focus on areas not covered in regularly offered courses.  \n\nprereqs: graduate student or instructor consent",
+    "prereq": []
+  },
+  {
+    "uid": "008352",
+    "code": "APEC8991",
+    "subject": "APEC",
+    "number": "8991",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Independent Study",
+    "fullname": "Independent Study in Applied Economics",
+    "info": "Independent study and supervised reading/research on subjects/problems not covered in regularly offered courses.prereq: instr consent",
+    "prereq": []
+  }
+]

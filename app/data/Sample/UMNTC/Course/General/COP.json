@@ -1,0 +1,114 @@
+[
+  {
+    "uid": "818790",
+    "code": "COP4793W",
+    "subject": "COP",
+    "number": "4793",
+    "honors": false,
+    "writingIntensive": true,
+    "name": "Directed Studies: WI",
+    "fullname": "Writing Intensive Directed Studies",
+    "info": "Writing Intensive Directed Studies is an individual-study, literature-based investigation in which the student is mentored directly by a faculty member. One main feature of this course is that the student will receive writing instruction and the written output of the course will be revised during the semester. The project needs to be explained in a Research/Directed Studies contract and agreed on by both the student and faculty mentor. The contract must be approved by the director of undergraduate studies (DUGS) for the major before the student is allowed to register. The contract includes a description of learning objectives for the course, how writing instruction will take place, a timeline for when student writing will be handed in and how it will be assessed, methodology to be used by the student, and how assessment of learning will be conducted by the mentor. Additional oversight is established for this course near the end of the semester the written output is submitted to the DUGS for the major. The DUGS is responsible to determine that the writing meets standards set by the CBS Education Policy Committee for quality of writing, appropriate citation of literature, well-constructed figures, tables, and legends (if present), appropriate use and interpretation of statistics (if present), conclusions that are supported by evidence, and well-formatted references. This course is graded S/N and approval of the DUGS is required before a grade of S can be given by the faculty mentor.prereq: department consent, instructor consent, no more than 7 credits of 4793, 4794, 4993W, 4994W counts towards CBS major requirements.",
+    "prereq": {
+      "and": [
+        {
+          "code": "COP 4793",
+          "subject": "COP",
+          "id": "4793"
+        },
+        {
+          "code": "COP 4794",
+          "subject": "COP",
+          "id": "4794"
+        },
+        {
+          "code": "COP 4993W",
+          "subject": "COP",
+          "id": "4993W"
+        },
+        {
+          "code": "COP 4994",
+          "subject": "COP",
+          "id": "4994"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "818791",
+    "code": "COP4794W",
+    "subject": "COP",
+    "number": "4794",
+    "honors": false,
+    "writingIntensive": true,
+    "name": "Directed Research: WI",
+    "fullname": "Writing Intensive Directed Research",
+    "info": "Writing Intensive Directed Research is an individual-study, laboratory or field research experience in which the student is mentored directly by a faculty member. This course is intended for students who already have initiated a research project in the lab of the mentor and already have results. In this course the student will receive writing instruction. The written output usually is in the form of a scientific paper describing the results of the student's project. Written output of the course must be revised during the semester and a schedule for writing, assessment and revision needs to be in place at the beginning of the semester. The project needs to be explained in a Research/Directed Studies contract and agreed on by both the student and faculty mentor. The contract must be approved by the Director of Undergraduate Studies (DUGS) for the major before the student is allowed to register. The contract includes a description of learning objectives for the course, how writing instruction will take place, a timeline for when student writing will be handed in and how it will be assessed, methodology to be used by the student, and how assessment of learning will be conducted by the mentor. Additional oversight is established for this course - near the end of the semester the written output is submitted to the DUGS for the major. The DUGS is responsible to determine that the writing meets standards set by the CBS Education Policy Committee for quality of writing, appropriate citation of literature, well-constructed figures, tables, and legends (if present), appropriate use and interpretation of statistics (if present), conclusions that are supported by evidence, and well-formatted references. The DUGS can call for a final revision before a grade is given. This course is graded S/N and approval of the DUGS is required before a grade of S can be given by the faculty mentor.",
+    "prereq": []
+  },
+  {
+    "uid": "818729",
+    "code": "COP4993",
+    "subject": "COP",
+    "number": "4993",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Directed Studies",
+    "fullname": "Directed Studies",
+    "info": "Directed Studies is an individual-study, literature-based investigation in which the student is mentored directly by a faculty member. The topic for the course needs to be explained in a Research/Directed Studies contract and agreed on by both the student and faculty mentor. The contract must be approved by the director of undergraduate studies (DUGS) for the major before the student is allowed to register. The contract includes a description of learning objectives for the course, methodology to be used, and how the assessment of learning will be conducted. prereq: department consent, instructor consent, no more than 7 credits of 4793, 4794, 4993W, 4994W counts towards CBS major requirements.",
+    "prereq": {
+      "and": [
+        {
+          "code": "COP 4793",
+          "subject": "COP",
+          "id": "4793"
+        },
+        {
+          "code": "COP 4794",
+          "subject": "COP",
+          "id": "4794"
+        },
+        {
+          "code": "COP 4993W",
+          "subject": "COP",
+          "id": "4993W"
+        },
+        {
+          "code": "COP 4994",
+          "subject": "COP",
+          "id": "4994"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "818730",
+    "code": "COP4994",
+    "subject": "COP",
+    "number": "4994",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Directed Research",
+    "fullname": "Directed Research",
+    "info": "Directed Research is an individual-study, laboratory or field investigation course. The research topic needs to be agreed on by both the student and the faculty mentor and explained in a Research/Directed Studies contract. The contract must be approved by the director of undergraduate studies (DUGS) for the major before the student is allowed to register. The contract includes a description of learning objectives for the course, methodology to be used, and how the assessment of learning will be conducted. prereq: department consent, instructor consent, no more than 7 credits of 4793, 4794, 4993W, 4994W counts towards CBS major requirements.",
+    "prereq": {
+      "and": [
+        {
+          "code": "COP 4793",
+          "subject": "COP",
+          "id": "4793"
+        },
+        {
+          "code": "COP 4794",
+          "subject": "COP",
+          "id": "4794"
+        },
+        {
+          "code": "COP 4993W",
+          "subject": "COP",
+          "id": "4993W"
+        }
+      ]
+    }
+  }
+]

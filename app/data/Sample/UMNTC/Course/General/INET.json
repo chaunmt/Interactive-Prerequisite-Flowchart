@@ -1,0 +1,515 @@
+[
+  {
+    "uid": "795959",
+    "code": "INET1001",
+    "subject": "INET",
+    "number": "1001",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "SurveyOf InformationTechnology",
+    "fullname": "Survey of Information Technology",
+    "info": "Major classifications of information technology (IT). Business uses with focus on data, systems, networks. IT as career, including degrees, certifications, trends, opportunities, lifelong learning.",
+    "prereq": []
+  },
+  {
+    "uid": "826705",
+    "code": "INET2001",
+    "subject": "INET",
+    "number": "2001",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Fundamentals of IT",
+    "fullname": "Fundamentals of IT",
+    "info": "This course is a foundational piece of the INET curriculum. You will come to understand the major?s framework and how the courses in the major work together. You will also learn about the choices you have in becoming an IT/ICT professional. Information Technology (IT), or Information and Communication Technology (ICT), is a growing field that impacts every aspect of life. IT/ICT exists across multiple sectors, which can include broad mandates as well as very niche focuses. There is much that can be learned and many options for honing one?s technical expertise. But regardless of how much one can learn about the technology of IT/ICT, there will always be the human element and interactions that one must engage in as a professional in this world. The course is composed of three sections: (1) personal identity in IT; (2) collaboration in IT; and (3) IT in professional contexts. In short, INET 2001 will introduce you to the IT/ICT industry's culture and skills and prepare you to be a successful student and a productive professional.",
+    "prereq": []
+  },
+  {
+    "uid": "819705",
+    "code": "INET3011W",
+    "subject": "INET",
+    "number": "3011",
+    "honors": false,
+    "writingIntensive": true,
+    "name": "Social Impact of IT",
+    "fullname": "Social Impact of Information Technology",
+    "info": "Information and Communication Technology (ICT) has a profound impact on society in many different ways. Some of these ways -- for example, in a business or in terms of specific employment activities -- you will study in other courses; INET 3011W asks you to think about the ethical decision-making that goes into ICT activities and their impact within and beyond the ICT world. What ethical choices must individuals make when designing new software or applications? What sorts of problems and competing interests can arise during work in organizational teams or across an industry, and how can they be resolved? More fundamentally, what impact does ICT, along with the ethical decisions made by those working in the field, have on the larger world -- the communities in which it is deployed, the environment on which it operates, and the governments and economies in which it plays an ever-increasing role? To address these and related questions, INET 3011W will require you to examine ICT's impact from three different perspectives: (1) the individual decision-maker; (2) the team or organizational dynamic; and (3) the stakeholders at the social, and even global, level. prereq: None",
+    "prereq": []
+  },
+  {
+    "uid": "805358",
+    "code": "INET3065",
+    "subject": "INET",
+    "number": "3065",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Comp Security Business Pro",
+    "fullname": "Computer Security for the Business Professional",
+    "info": "Computer security without technical jargon. Real-world examples and issues. Practices for safe, secure, and ethical computer use: virus, worm, and malware detection and elimination; antivirus and firewall selection; secure Internet purchasing; social networking sites; web page setup. prereq: Basic computer/Internet navigation skills; laptop with browser and MS Word or equivalent.",
+    "prereq": []
+  },
+  {
+    "uid": "800559",
+    "code": "INET3101",
+    "subject": "INET",
+    "number": "3101",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "C Programming: Language&Apps",
+    "fullname": "C Programming: Language and Applications",
+    "info": "Syntax of C language. How other languages use C to interact with operating system. Debugging. Assignments build upon real-world programming examples to demonstrate how/where to use C. Scripting using languages such as UNIX shell and Perl.prereq: Programming experience or completed coursework in [Java or C+ or similar programming language]",
+    "prereq": []
+  },
+  {
+    "uid": "806525",
+    "code": "INET3102",
+    "subject": "INET",
+    "number": "3102",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Web Infrastructure",
+    "fullname": "Web Infrastructure",
+    "info": "Infrastructure of the web, from its fundamental protocol (HTTP) to the organization and use of large-scale components and services. Cloud offerings (compute, storage, queuing) and platforms (AWS, Google Apps, Heroku).prereq: [3101, CSCI 2021] or equiv IT experience",
+    "prereq": {
+      "and": [
+        {
+          "code": "INET 3101",
+          "subject": "INET",
+          "id": "3101"
+        },
+        {
+          "code": "CSCI 2021",
+          "subject": "CSCI",
+          "id": "2021"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "793864",
+    "code": "INET3350",
+    "subject": "INET",
+    "number": "3350",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Special Topics in ITI",
+    "fullname": "Special Topics in IT Infrastructure",
+    "info": "Topics in information technology infrastructure.",
+    "prereq": []
+  },
+  {
+    "uid": "818135",
+    "code": "INET4001",
+    "subject": "INET",
+    "number": "4001",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Foundations Operating Systems",
+    "fullname": "Foundations of Operating Systems",
+    "info": "Although the concept of an operating system has some core components, such as I/O, storage, CPU scheduling, process, and synchronization, the ways we use computing devices are radically changing. With the advent of concepts like IoT (internet of things), we need to not just simply take a single concept of a computer (PC or server) as de facto standard, we must adapt and understand how the core components that make up an operating system change how we need to use these components. We also have the ability to consume OS resources via networking like never before. What is commonly called \"cloud computing\" has now stretched what we think of a compute device across the globe as a connected system of services/processes. This course will start from the beginning of computing (briefly) to ground what we are actually trying to do with compute devices. From here, we'll understand the foundation of operating system components, but not just from a single platform. An introduction to cloud computing is essential as well, as there are many components we consume via compute devices that are across a WAN circuit as a \"service.\"Prerequisites:  CSci 2021 or EE 2361",
+    "prereq": {
+      "or": [
+        {
+          "code": "CSCI 2021",
+          "subject": "CSCI",
+          "id": "2021"
+        },
+        {
+          "code": "EE 2361",
+          "subject": "EE",
+          "id": "2361"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "817708",
+    "code": "INET4002",
+    "subject": "INET",
+    "number": "4002",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Foundations of Networking",
+    "fullname": "Foundations of Networking",
+    "info": "Basics of data communications and computer networks. Foundations of network protocols, data communications models, networking devices, and network types.  Local area, wide area, and wireless networks and their uses in business applications. Network monitoring, troubleshooting, security, and management fundamentals, including their application in enterprise networking. 3 credits.No prerequisites, but basic knowledge of computer architecture and operating systems is recommended. Note that credit will be granted for either INet 4002 or CSci 4211, but not both.",
+    "prereq": {
+      "code": "CSCI 4211",
+      "subject": "CSCI",
+      "id": "4211"
+    }
+  },
+  {
+    "uid": "814057",
+    "code": "INET4007",
+    "subject": "INET",
+    "number": "4007",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Security II: Cyber Security",
+    "fullname": "Security II: Cyber Security",
+    "info": "An exploration of information security, how it applies to current networking technologies, and ways these technologies are used and consumed. New authentication methods for securing user data, such as telemetry, biometrics, and N factor authentication, will be surveyed. The course will also look at recent instances of information breaches that have put a spotlight on security, especially as they relate to cloud services, virtual environments, and Internet standards.No prerequisites. Basic knowledge of security issues and processes (detection, risk assessment, technology, secure design, business continuity, forensics, and legal aspects) is recommended. If you have taken INet 4165, you will be well prepared. If you are unsure about whether your knowledge is sufficient for success in this class, contact the instructor.",
+    "prereq": {
+      "code": "INET 4165",
+      "subject": "INET",
+      "id": "4165"
+    }
+  },
+  {
+    "uid": "790628",
+    "code": "INET4011",
+    "subject": "INET",
+    "number": "4011",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Networking I: Network Admin",
+    "fullname": "Networking I: Network Administration",
+    "info": "A combination of networking theory (lecture and expert guest speakers) and application (lab work). Topics include network architecture, switching, routing, algorithms, protocols, infrastructure hardware, cable plant, security, and network management.prereq: CSCI 4211-Introduction to Computer Networks or equivalent networking knowledge and understanding.",
+    "prereq": {
+      "code": "CSCI 4211",
+      "subject": "CSCI",
+      "id": "4211"
+    }
+  },
+  {
+    "uid": "790874",
+    "code": "INET4021",
+    "subject": "INET",
+    "number": "4021",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Dev Ops I: Network Programming",
+    "fullname": "Dev Ops I: Network Programming",
+    "info": "Network and distributed programming concepts. Design using C, Java, and other higher-level programming languages. Sockets, TCP/IP, RPC, streaming, CORBA, .NET, and SOAP. Labs use UNIX/Linux and MS Windows operating systems.prereq: major admission requirements completed. ",
+    "prereq": []
+  },
+  {
+    "uid": "791019",
+    "code": "INET4031",
+    "subject": "INET",
+    "number": "4031",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Introduction to Systems",
+    "fullname": "Introduction to Systems",
+    "info": "Overview of systems administration. Integration of hardware, software, and operational practice. Role of a systems administrator in today's infrastructure world, the environment within which the administrator operates, and various components that influence decision-making criteria. Ways these technologies are implemented in practice are conveyed through industry speakers, tours, and demonstrations. Hands-on labs when possible.prereq: Secure knowledge of operating systems, such as provided by INet 4001 or CSci 4061.",
+    "prereq": {
+      "and": [
+        {
+          "code": "INET 4001",
+          "subject": "INET",
+          "id": "4001"
+        },
+        {
+          "code": "CSCI 4061",
+          "subject": "CSCI",
+          "id": "4061"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "801205",
+    "code": "INET4032",
+    "subject": "INET",
+    "number": "4032",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Systems I: Storage",
+    "fullname": "Systems I: Storage",
+    "info": "Information is one of the most valuable commodities of the 21st century. This course deals with the proper care and handling of enterprise data, whether the \"enterprise\" is a large multinational corporation, a family home, or something in between. Topics include storage network architecture and storage system design. We will examine data storage technology; local, network, and distributed storage; storage history; data protection policy and implementation (including redundancy, replication, backup, and archive storage); security; compression and encryption; and emerging technologies like Big Data, Cloud storage, AWS, Google, and vCloud Air.prereq: Fundamental understanding of an operating system such as Microsoft Windows, Linux, or Apple OSX, in the areas of file systems, I/O, computer architecture, and basic administration.",
+    "prereq": []
+  },
+  {
+    "uid": "788884",
+    "code": "INET4041",
+    "subject": "INET",
+    "number": "4041",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Networking II: Emerging Tech",
+    "fullname": "Networking II: Emerging Technologies",
+    "info": "Emerging networking concepts, technologies, and applications. Topics will evolve to reflect current trends and expertise of the faculty, such as high speed networking, ATM, network security, wireless networks, multimedia, and electronic commerce. Each technology is considered for the underlying theory; the driving technological and business needs; the applications; the competing alternative technologies; and the design, implementation, and configuration of such systems. Case studies may be used to identify and analyze strategic issues and problems. Concepts and tools from this and previous ITI courses are applied to solve these problems and design realistic programs of action. Hands-on labs are included when possible. Industry speakers, tours, and demonstrations show practical applications.  prereq: CSci 4211 or equivalent, or professional experience, to comprise a basic understanding and knowledge of operating systems, computer architecture, and probability theory. Senior status preferred.",
+    "prereq": {
+      "code": "CSCI 4211",
+      "subject": "CSCI",
+      "id": "4211"
+    }
+  },
+  {
+    "uid": "788883",
+    "code": "INET4051",
+    "subject": "INET",
+    "number": "4051",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "IT Infrastruc Oper: Capstone",
+    "fullname": "IT Infrastructure Operations: Capstone",
+    "info": "Comprehensive review of major aspects of IT infrastructure and operations: networks, databases, servers, storage, project management, governance, compliance, monitoring, and more. This course merges these discrete disciplines into an operational pattern, preparing you to quickly integrate yourself into a productive working IT environment..  You'll learn how to map and develop processes, collect and analyze operational metrics, plan tactically and strategically, plan for capacity, secure the infrastructure, and scale the topics to fit an organization's size. Because IT infrastructure operations are almost always the function of a team, there will be two case study assignments that will challenge you and your group members to use your knowledge about the course material against a current industry issue. prereq: INet 4002 or CSci 4211 or instructor consent, Senior.",
+    "prereq": {
+      "or": [
+        {
+          "code": "INET 4002",
+          "subject": "INET",
+          "id": "4002"
+        },
+        {
+          "code": "CSCI 4211",
+          "subject": "CSCI",
+          "id": "4211"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "791305",
+    "code": "INET4061",
+    "subject": "INET",
+    "number": "4061",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Data Science I: Fundamentals",
+    "fullname": "Data Science I: Fundamentals",
+    "info": "Introduction to data science. Design strategies for business analytics: statistics for machine learning, core data mining models, data pipeline, visualization. Hands-on labs with data mining, statistics, and in-memory analytics software.prereq: Basic statistics and programming skills, laptop",
+    "prereq": []
+  },
+  {
+    "uid": "811445",
+    "code": "INET4062",
+    "subject": "INET",
+    "number": "4062",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Data Science II",
+    "fullname": "Data Science II: Advanced",
+    "info": "This course is a follow-up to INET 4061: Data Science Fundamentals. It covers the tools required to apply and implement data science techniques such as mathematical programming libraries, cloud resources, and big data databases. It also gives an overview of advanced data science methodologies such as deep learning, reinforcement learning, recommendation systems, and linear programming. Previously offered as INET 4710.prereq: Basic programming knowledge (Java, Python, R). Linear algebra and calculus strongly recommended (e.g. MATH 2243 and 2263). INET 4061 strongly recommended.",
+    "prereq": {
+      "and": [
+        {
+          "and": [
+            {
+              "code": "MATH 2243",
+              "subject": "MATH",
+              "id": "2243"
+            },
+            {
+              "code": "INET 2263",
+              "subject": "INET",
+              "id": "2263"
+            }
+          ]
+        },
+        {
+          "code": "INET 4061",
+          "subject": "INET",
+          "id": "4061"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "793879",
+    "code": "INET4081",
+    "subject": "INET",
+    "number": "4081",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Intro to Software Engineering",
+    "fullname": "Introduction to Software Engineering",
+    "info": "Theory/practice of software engineering. Software development, requirements/specifications, design, verification, validation.",
+    "prereq": []
+  },
+  {
+    "uid": "801206",
+    "code": "INET4082W",
+    "subject": "INET",
+    "number": "4082",
+    "honors": false,
+    "writingIntensive": true,
+    "name": "ITI Projects and Processes",
+    "fullname": "IT Infrastructure Projects and Processes",
+    "info": "This course presents an IT management perspective on business partnerships, project management and lifecycles, methodologies, processes, and organizational structures. It covers scope definition, resource estimating of time and cost, quality considerations, and metrics and risk analysis. Project management best practices are emphasized. All the concepts will be tied together with project simulation assignments. As a writing intensive designated course, it will spend significant time focusing on the writing process. Writing is crucial to this discipline because clear, accurate, and professional communication is essential to each element in the process of project management. The inability to write well, clearly, and in terms of specified audiences can, in the professional world, lead to not only miscommunication between team members but also, and more largely, to a failure of projects and the companies and employees they represent.prereq:  45 cr recommended",
+    "prereq": []
+  },
+  {
+    "uid": "804608",
+    "code": "INET4083W",
+    "subject": "INET",
+    "number": "4083",
+    "honors": false,
+    "writingIntensive": true,
+    "name": "Systems II: Analysis & Design",
+    "fullname": "Systems II: Analysis and Design",
+    "info": "Requirements management, analysis, and design of computer system solutions that meet business objectives. Materials and resources are intended to prepare students to be effective business analysts and systems analysts. Topics include the systems development life cycle, analysis and design tools and techniques, and communication strategies. As a writing intensive course, INET 4083W focuses especially on writing in information technology and the writing process and uses a case study and in-class exercises to develop analytical, technical, and communication skills. Students can expect to spend significant time in and out of class developing writing skills, thinking through the writing process, and drafting and revising written work. Prereq: INet 4082W (or equivalent project management experience) is recommended.",
+    "prereq": {
+      "code": "INET 4082",
+      "subject": "INET",
+      "id": "4082"
+    }
+  },
+  {
+    "uid": "816463",
+    "code": "INET4121",
+    "subject": "INET",
+    "number": "4121",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "DevOps II: Dev Strategies",
+    "fullname": "DevOps II: Development Strategies",
+    "info": "DevOps (Development and Operations) is the term used to describe the collaboration of software engineers with the quality assurance and operations teams who test, deploy, and operate new systems. Its goal is to generate better and more continuous feedback regarding what is being developed, consumed, and operated, in order to increase delivery and deployment speed while maintaining system stability. Topics include configuration management, application deployment, monitoring of application and infrastructure performance, version control, and testing and building systems. Professional software engineering tools for the continuous integration tool chain are surveyed, and the Python language, combined with operating system and web functions, is used to develop tools for automating DevOps practices. (Though assignments are in Python, students with only Java or C++ should be able to learn Python quickly.)prereqs:  CSCI 4061 or operating system knowledge, basic knowledge of Python",
+    "prereq": {
+      "code": "CSCI 4061",
+      "subject": "CSCI",
+      "id": "4061"
+    }
+  },
+  {
+    "uid": "796335",
+    "code": "INET4131",
+    "subject": "INET",
+    "number": "4131",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Advanced Database Design",
+    "fullname": "Advanced Database Design",
+    "info": "High-level, conceptual data modeling to capture robust data semantics before implementing in a Relational DBMS. ER/relational DB design concepts and normalization. Subtypes/supertypes, ternary relationships, integrity constraints, business rules. Document/present designs. Design problem-solving with Object Role Modeling (ORM) and MS VisioEA.",
+    "prereq": []
+  },
+  {
+    "uid": "796336",
+    "code": "INET4153",
+    "subject": "INET",
+    "number": "4153",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Intro Security: Policy & Reg",
+    "fullname": "Introduction to Security:  Policy and Regulation",
+    "info": "Explores the significant domestic and international regulatory demands faced by information technology management (IT) in business and industry, with attention to the effects of those regulations on IT Infrastructure policy, technology management, and decision making. Several major U.S. and international regulatory documents will be studied. IT governance, risk and compliance management frameworks, best practices, and common approaches used to meet todays regulatory challenges and support common business functions will be examined, as well as  IT policies, procedures, and processes in highly regulated business sectors.prereq: experience with Windows/Internet; 45 semester credits",
+    "prereq": []
+  },
+  {
+    "uid": "801777",
+    "code": "INET4165",
+    "subject": "INET",
+    "number": "4165",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Security I: Principles",
+    "fullname": "Security I: Principles",
+    "info": "An in-depth look at the information security profession. Focuses on real-world IT security issues and processes rather than any particular technology or product solution. Topics include risk assessments/pen testing, ethics, malicious code, preservation of business continuity/disaster recovery, security policies and procedures, security awareness, encryption, privacy and legal issues, intruder detection, forensics, secure web design, incident response, vulnerability assessment, and security audits.prereq: CSCI 4061 or equiv experience with operating systems",
+    "prereq": {
+      "code": "CSCI 4061",
+      "subject": "CSCI",
+      "id": "4061"
+    }
+  },
+  {
+    "uid": "790022",
+    "code": "INET4193",
+    "subject": "INET",
+    "number": "4193",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Directed Study",
+    "fullname": "Directed Study",
+    "info": "Independent project. Topic arranged with and supervised by ITI faculty.prereq: ITI student, dept consent",
+    "prereq": []
+  },
+  {
+    "uid": "802445",
+    "code": "INET4596",
+    "subject": "INET",
+    "number": "4596",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Internship",
+    "fullname": "Internship",
+    "info": "Provides students with the opportunity to gain hands-on experience working in a professional IT setting and get an insider's view of information technology applications in the workplace.  In consultation with a faculty adviser, students apply classroom learning, contribute to knowledge of best practices,  and prepare for the transition from school to full-time employment in the IT field.  Students seeking credit for the internship are expected to find employment that primarily draws upon the intern’s academic knowledge in field-relevant level tasks and allows for new learning in these areas.prereq: [ITI major or certificate student], [jr or sr], dept consent",
+    "prereq": []
+  },
+  {
+    "uid": "791429",
+    "code": "INET4707",
+    "subject": "INET",
+    "number": "4707",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Introduction to Databases",
+    "fullname": "Introduction to Databases",
+    "info": "This course prepares students to make decisions regarding the database technologies that should be included in an organization’s information technology portfolio. To that end, it covers:   1.  The theory and concepts of relational and NoSQL databases, the two predominant families of database technology.2.  How to represent data in technology-independent, relational, and NoSQL data models.3.  How to query relational and NoSQL databases, including hands-on experience with relational and NoSQL databases.4.  How to determine which categories of relational and/or NoSQL databases are appropriate for a given application.5.  Research into current and emerging database technology trends.Recommended prerequisites: INet 4001 or CSci 4061, at least 45 cr completed; CSci majors contact CSci Dept before registering.",
+    "prereq": {
+      "and": [
+        {
+          "code": "INET 4001",
+          "subject": "INET",
+          "id": "4001"
+        },
+        {
+          "code": "CSCI 4061",
+          "subject": "CSCI",
+          "id": "4061"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "805390",
+    "code": "INET4709",
+    "subject": "INET",
+    "number": "4709",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Data Mgmt I: Fundamentals",
+    "fullname": "Data Management I: Fundamentals",
+    "info": "This course provides insight into concepts and techniques for installing and managing highly scalable relational databases: storage, protection, structure, tuning, and access. Students will learn how to integrate business requirements into specific database policies and procedures. Topics include selection of hardware and software components, backup and disaster recovery, performance metrics, high availability, and monitoring techniques.  Hands-on lab exercises will utilize core concepts covered in lecture:  installation of MySQL, backup and recovery, import and export, security, transaction management, data partitioning, and database replication.   prereq: INet/CSci 4707 and CSci 4061, or professional experience with SQL and basic operating systems.",
+    "prereq": {
+      "and": [
+        {
+          "code": "CSCI 4707",
+          "subject": "CSCI",
+          "id": "4707"
+        },
+        {
+          "code": "CSCI 4061",
+          "subject": "CSCI",
+          "id": "4061"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "812142",
+    "code": "INET4711",
+    "subject": "INET",
+    "number": "4711",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Data Manage II: Dist. Systems",
+    "fullname": "Data Management II: Distributed Systems",
+    "info": "Introduction to distributed programming and systems concepts in high-scale environments with a focus on application to commercial systems in the data center. Discussion of key protocols and algorithms as well as best-practice implementations on platforms commonly associated with big data in the enterprise. Hands-on experience in the design and engineering of distributed systems on cloud-oriented technologies.prereq: INET 4031 and 4707 or consent of instructor.",
+    "prereq": {
+      "and": [
+        {
+          "code": "INET 4031",
+          "subject": "INET",
+          "id": "4031"
+        },
+        {
+          "code": "INET 4707",
+          "subject": "INET",
+          "id": "4707"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "788882",
+    "code": "INET5011",
+    "subject": "INET",
+    "number": "5011",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Internet Infrastructure",
+    "fullname": "Internet Infrastructure",
+    "info": "Routing protocols, switching technology, network access methods/protocols, trunk technology. Security principles in context of Internet/enterprise intranets. Lectures, labs, outside readings.",
+    "prereq": []
+  }
+]

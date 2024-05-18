@@ -1,0 +1,675 @@
+[
+  {
+    "uid": "014797",
+    "code": "MBT5150",
+    "subject": "MBT",
+    "number": "5150",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Fin Acct  Issues",
+    "fullname": "Current Financial Accounting Issues",
+    "info": "Accounting principles/practices underlying preparation of financial statements and additional disclosures. Recent pronouncements on financial accounting.",
+    "prereq": []
+  },
+  {
+    "uid": "796923",
+    "code": "MBT5223",
+    "subject": "MBT",
+    "number": "5223",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Tax-Exempt Organizations",
+    "fullname": "Tax-exempt Organizations",
+    "info": "Tax law/issues concerning Section 501(c)(3) and other tax-exempt organizations. Qualification, procedures. Unrelated business income, private foundations (including intermediate sanctions), joint ventures.prereq: ACCT 5135",
+    "prereq": {
+      "code": "ACCT 5135",
+      "subject": "ACCT",
+      "id": "5135"
+    }
+  },
+  {
+    "uid": "794496",
+    "code": "MBT5236",
+    "subject": "MBT",
+    "number": "5236",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Taxation of Business",
+    "fullname": "Introduction to Taxation of Business",
+    "info": "Introduction to income tax laws governing taxation of corporations, partnerships, limited liability companies, limited liability partnerships, and S corporations. Students write research memorandums.",
+    "prereq": []
+  },
+  {
+    "uid": "794497",
+    "code": "MBT5325",
+    "subject": "MBT",
+    "number": "5325",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Adv. Tax Principles",
+    "fullname": "Advanced Tax Principles",
+    "info": "Issues affecting all tax entities. Focuses on topics pertaining to individuals and partnerships: at-risk provisions, passive activity loss rules, alternative minimum tax/AMT credit for individuals, tax benefit rule and claim of right doctrine, like-kind exchanges of personal property, net operating losses, hobby losses, business/rental use of residences.",
+    "prereq": []
+  },
+  {
+    "uid": "796926",
+    "code": "MBT5326",
+    "subject": "MBT",
+    "number": "5326",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Mergers & Acquisitions II",
+    "fullname": "Mergers and Acquisitions II",
+    "info": "Current corporate transactions serve as case studies for analyzing tax consequences of various transaction structures. Participants prepare present value models of related tax consequences to corporations/shareholders involved. Use of Section 338(h)(10) for acquisitions of S corporations, international acquisitions.",
+    "prereq": []
+  },
+  {
+    "uid": "794498",
+    "code": "MBT5330",
+    "subject": "MBT",
+    "number": "5330",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Tax of Corp II",
+    "fullname": "Taxation of Corporations II",
+    "info": "Corporate readjustments related to multiple corporations and consolidated returns.",
+    "prereq": []
+  },
+  {
+    "uid": "796927",
+    "code": "MBT5341",
+    "subject": "MBT",
+    "number": "5341",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Tax of Partnership II",
+    "fullname": "Taxation of Partners and Partnerships II",
+    "info": "Partnership allocation issues. Special allocation arrangements, substantial economic effect regulations. Allocations of gains, losses, depreciation under Code Section 704(c). Partnership disguised sales issues, allocation of partnership liabilities, mergers/divisions. Section 197, partnership rules. Issues relating to choice of entity, issues when converting to/from partnership form.",
+    "prereq": []
+  },
+  {
+    "uid": "014845",
+    "code": "MBT5351",
+    "subject": "MBT",
+    "number": "5351",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Wealth Transfer II",
+    "fullname": "Wealth Transfer II (Estate Planning)",
+    "info": "Topics related to planning transfer of property during lifetime and at death.",
+    "prereq": []
+  },
+  {
+    "uid": "014853",
+    "code": "MBT5356",
+    "subject": "MBT",
+    "number": "5356",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Qualified Retirement Plans",
+    "fullname": "Taxation of Qualified Retirement Plans",
+    "info": "Federal income taxation of corporate deferred compensation and fringe benefits. Pension/profit sharing/stock option plans. Retirement accounts, annuities/insurance, medical related compensation benefits. Reporting requirements.",
+    "prereq": []
+  },
+  {
+    "uid": "796929",
+    "code": "MBT5361",
+    "subject": "MBT",
+    "number": "5361",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "State and Local Tax II",
+    "fullname": "State and Local Taxation II",
+    "info": "Income/sales tax consequences of mergers/acquisitions, corporate reorganizations. Practical application of tax concepts. Planning ideas in drop shipments, investment holding companies, e-commerce, leasing companies, and like tax alternatives. Real property taxation, individual income taxation, state administrative tax procedures, state payroll considerations.",
+    "prereq": []
+  },
+  {
+    "uid": "796931",
+    "code": "MBT5373",
+    "subject": "MBT",
+    "number": "5373",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Taxation of Manufacturers",
+    "fullname": "Taxation of Manufacturers",
+    "info": "Valuation, charitable contributions of inventory, acquisition of going-business valuation, uniform capitalization requirements, retail inventory method, accounting method changes. As related to LIFO: background, economic considerations, election, conformity, costing, pooling, methods, Inventory Price Index Computations (IPIC).",
+    "prereq": []
+  },
+  {
+    "uid": "796932",
+    "code": "MBT5376",
+    "subject": "MBT",
+    "number": "5376",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Tax of Financial Instruments",
+    "fullname": "Taxation of Financial Instruments",
+    "info": "How financial products/derivatives are used and the tax consequences that result. Trends/developments.",
+    "prereq": []
+  },
+  {
+    "uid": "014883",
+    "code": "MBT5390",
+    "subject": "MBT",
+    "number": "5390",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Topics in Taxation",
+    "fullname": "Topics in Taxation",
+    "info": "Topics vary.",
+    "prereq": []
+  },
+  {
+    "uid": "794493",
+    "code": "MBT6201",
+    "subject": "MBT",
+    "number": "6201",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Tax Acct Methods I",
+    "fullname": "Tax Accounting Methods I",
+    "info": "This course covers the federal income tax rules for when income and expense should be recognized.  The purpose of this course is to provide students the statutory and regulatory framework for analyzing and explaining the federal income tax consequences of tax accounting methods and periods issues. prereq: ACCT 5135, MBT student - NOTE:  Previous course number was MBT 5200.",
+    "prereq": {
+      "and": [
+        {
+          "code": "ACCT 5135",
+          "subject": "ACCT",
+          "id": "5135"
+        },
+        {
+          "code": "MBT 5200",
+          "subject": "MBT",
+          "id": "5200"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "817292",
+    "code": "MBT6202",
+    "subject": "MBT",
+    "number": "6202",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Tax Acct Methods II",
+    "fullname": "Tax Accounting Methods II",
+    "info": "This course covers special topics within the tax accounting methods area, including changes in accounting methods, accounting periods, installment sales, and inventory concepts. The purpose of this course is to provide students statutory and regulatory framework for analyzing and explaining the federal income tax consequences of special tax accounting methods issues. prereq: MBT 5200/6201  NOTE: Previous course number was MBT 5201",
+    "prereq": {
+      "or": [
+        {
+          "code": "MBT 5200",
+          "subject": "MBT",
+          "id": "5200"
+        },
+        {
+          "code": "MBT 6201",
+          "subject": "MBT",
+          "id": "6201"
+        },
+        {
+          "code": "MBT 5201",
+          "subject": "MBT",
+          "id": "5201"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "794494",
+    "code": "MBT6221",
+    "subject": "MBT",
+    "number": "6221",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Tax Research Comm Practice",
+    "fullname": "Tax Research, Communication, and Practice",
+    "info": "Tax questions. Locating/assessing potential authority. Communicating research results. Sources of IRS policy. Processing/auditing returns. Rulings, determination letters. Closing agreements. Assessments, collections.prereq: ACCT 5135  NOTE: Previous course number was MBT 5220",
+    "prereq": [
+      {
+        "code": "ACCT 5135",
+        "subject": "ACCT",
+        "id": "5135"
+      },
+      {
+        "code": "MBT 5220",
+        "subject": "MBT",
+        "id": "5220"
+      }
+    ]
+  },
+  {
+    "uid": "796924",
+    "code": "MBT6226",
+    "subject": "MBT",
+    "number": "6226",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Negotiation techniques in tax",
+    "fullname": "Negotiation Techniques in Taxation",
+    "info": "Hands-on approach. Applications from facilitating business sales, mergers, and acquisitions, to representing a client's position before IRS, to controlling TV remote. Negotiation process: planning, pre-negotiation preparation, strategy development.   NOTE: Previous course number was MBT 5226.  ",
+    "prereq": []
+  },
+  {
+    "uid": "014803",
+    "code": "MBT6231",
+    "subject": "MBT",
+    "number": "6231",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Corporate Taxation I",
+    "fullname": "Corporate Taxation I",
+    "info": "Federal income taxation of corporations/shareholders. Organization of a corporation. Establishment of capital structure. Determination of tax liability. Dividends, non-liquidating distributions. Stock redemptions, liquidations.  prereq: ACCT 5135   NOTE: Previous course number was MBT 5230",
+    "prereq": [
+      {
+        "code": "ACCT 5135",
+        "subject": "ACCT",
+        "id": "5135"
+      },
+      {
+        "code": "MBT 5230",
+        "subject": "MBT",
+        "id": "5230"
+      }
+    ]
+  },
+  {
+    "uid": "796925",
+    "code": "MBT6232",
+    "subject": "MBT",
+    "number": "6232",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Corporate Taxation II",
+    "fullname": "Corporate Taxation II",
+    "info": "Different types of acquisitions, dispositions, reorganizations, and spin-offs involving C corporations. Tax consequences of acquisition to corporations/shareholders involved. Use of 338 elections, limitations on acquired net operating losses/credits, use of covenants not to compete, consulting agreements, deferred payment terms, treatment of transaction costs.   NOTE: Previous course number was MBT 5323prereq: MBT 6231/5230",
+    "prereq": {
+      "or": [
+        {
+          "code": "MBT 6231",
+          "subject": "MBT",
+          "id": "6231"
+        },
+        {
+          "code": "MBT 5230",
+          "subject": "MBT",
+          "id": "5230"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "014815",
+    "code": "MBT6333",
+    "subject": "MBT",
+    "number": "6333",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Tax Aspects Consolidated Rtrns",
+    "fullname": "Tax Aspects of Consolidated Returns",
+    "info": "Filing. Determining affiliated groups. Election filing. Intercompany transactions. Limitations on certain loss and credit carryforwards. Allocation of federal income tax liability. E&P, investment basis adjustments. Loss allowance rules. Excess-loss accounts.   NOTE: Previous course number was MBT 5333.",
+    "prereq": []
+  },
+  {
+    "uid": "014820",
+    "code": "MBT6335",
+    "subject": "MBT",
+    "number": "6335",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Taxation Small Business Corp",
+    "fullname": "Taxation of the Small Business Corporation",
+    "info": "Federal income taxation of S corporations. Election eligibility; termination of status; treatment of income and deduction items; distributions, basis of stock and debt. Compensation arrangements in closely held corporations; fiscal year issues; personal service corporations; advantages of C corporations vs. S corporations; corporation liquidation and redemption rules; S corporation's built-in gains tax. NOTE: Previous course number was MBT 5335. prereq: MBT 6231/5230",
+    "prereq": {
+      "or": [
+        {
+          "code": "MBT 6231",
+          "subject": "MBT",
+          "id": "6231"
+        },
+        {
+          "code": "MBT 5230",
+          "subject": "MBT",
+          "id": "5230"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "014835",
+    "code": "MBT6341",
+    "subject": "MBT",
+    "number": "6341",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Taxation of Partnerships",
+    "fullname": "Taxation of Partners and Partnerships",
+    "info": "Reviews tax consequences associated with formation, operation, and dissolution of a partnership.    NOTE: Previous course number was MBT 5340prereq: Acct 5135",
+    "prereq": {
+      "code": "ACCT 5135",
+      "subject": "ACCT",
+      "id": "5135"
+    }
+  },
+  {
+    "uid": "796928",
+    "code": "MBT6346",
+    "subject": "MBT",
+    "number": "6346",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "ASC740 Computations & Analysis",
+    "fullname": "ASC 740 Computations and Analysis",
+    "info": "Financial accounting/reporting standards for effects of income taxes from corporate activities. Computation of current/deferred tax expense/benefit. Temporary differences, carryforwards. Computation of deferred tax assets/liabilities, valuation allowances, business combinations. Investments in subsidiaries, equity method investments. Foreign operations, tax allocations, interim period tax calculations.    NOTE: Previous course number was MBT 5346.",
+    "prereq": []
+  },
+  {
+    "uid": "815200",
+    "code": "MBT6347",
+    "subject": "MBT",
+    "number": "6347",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Tax Tech & Analytics Fndmntls",
+    "fullname": "Tax Technology and Analytics Fundamentals",
+    "info": "Tax technology is transforming the way tax departments are doing business in many amazing ways. Both public accounting firms and businesses are investing in people, process, data, and technology at a rapid pace. This course provides the student with relevant background on current technologies and associated challenges, managerial approaches, systems design, process, data challenges and risk assessment methods that are specific to the tax technology arena. Additionally, it will focus on the fundamental concepts of project management, business requirements, data analytics, implementation choices, and the necessary business cases that are being conducted in both the public and private sector.prereq: ACCT 5135  NOTE: Previous course number was MBT 5347.",
+    "prereq": [
+      {
+        "code": "ACCT 5135",
+        "subject": "ACCT",
+        "id": "5135"
+      },
+      {
+        "code": "MBT 5347",
+        "subject": "MBT",
+        "id": "5347"
+      }
+    ]
+  },
+  {
+    "uid": "810067",
+    "code": "MBT6348",
+    "subject": "MBT",
+    "number": "6348",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Advanced ASC 740 Concepts",
+    "fullname": "Advanced ASC 740 Concepts",
+    "info": "Examination of topics under ASC 740 Accounting for Income Taxes. Share-based awards, uncertain tax positions, valuation allowances, business combinations, foreign operations, interim period tax calculations. Process design/perspective of stakeholders of income tax accounting.  NOTE: Previous course number was MBT 5348.prereq: MBT 6346/5346",
+    "prereq": {
+      "or": [
+        {
+          "code": "MBT 6346",
+          "subject": "MBT",
+          "id": "6346"
+        },
+        {
+          "code": "MBT 5346",
+          "subject": "MBT",
+          "id": "5346"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "014841",
+    "code": "MBT6351",
+    "subject": "MBT",
+    "number": "6351",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Wealth Transfer I",
+    "fullname": "Wealth Transfer I (Estates and Gifts)",
+    "info": "Taxation of transfers under federal estate and gift tax laws. Property owned by decedent. Retained life estates. Transfers taking effect at death. Revocable transfers. Joint interest. Powers of appointment. Valuation. Expenses, debts, taxes. Charitable bequests, marital deduction. Taxable inter vivos gifts, splitting/credits.prereq: ACCT 5135, MBT student.   NOTE: Previous course number was MBT 5350.",
+    "prereq": {
+      "and": [
+        {
+          "code": "ACCT 5135",
+          "subject": "ACCT",
+          "id": "5135"
+        },
+        {
+          "code": "MBT 5350",
+          "subject": "MBT",
+          "id": "5350"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "014851",
+    "code": "MBT6353",
+    "subject": "MBT",
+    "number": "6353",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Income Taxation of Fiduciaries",
+    "fullname": "Income Taxation of Fiduciaries",
+    "info": "Simple, complex, and revocable trusts. Estates. Accumulation distributions and income with respect to decedents. Trust accounting income and principal. Distributable net income. Terminations. Excess distributions.  NOTE: Previous course number was MBT 5353.prereq: ACCT 5135",
+    "prereq": {
+      "code": "ACCT 5135",
+      "subject": "ACCT",
+      "id": "5135"
+    }
+  },
+  {
+    "uid": "014854",
+    "code": "MBT6361",
+    "subject": "MBT",
+    "number": "6361",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "State, Local Tax",
+    "fullname": "State and Local Taxation",
+    "info": "Examines state levying of individual income, corporate income, property, sales, and excise taxes. Tax problems of businesses with multistate operations.prereq: Acct 5135, MBT student.   NOTE: Previous course number was MBT 5360.",
+    "prereq": {
+      "and": [
+        {
+          "code": "ACCT 5135",
+          "subject": "ACCT",
+          "id": "5135"
+        },
+        {
+          "code": "MBT 5360",
+          "subject": "MBT",
+          "id": "5360"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "796930",
+    "code": "MBT6363",
+    "subject": "MBT",
+    "number": "6363",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Compensation and Benefits",
+    "fullname": "Compensation and Benefits",
+    "info": "Federal income taxation of executive compensation, relevant fringe benefit programs. Benefit programs other than qualified retirement plans. Salary continuation, stock options, non-profit organization plans, health/welfare plans.prereq: ACCT 5135   NOTE: Previous course number was MBT 5363.",
+    "prereq": [
+      {
+        "code": "ACCT 5135",
+        "subject": "ACCT",
+        "id": "5135"
+      },
+      {
+        "code": "MBT 5363",
+        "subject": "MBT",
+        "id": "5363"
+      }
+    ]
+  },
+  {
+    "uid": "014858",
+    "code": "MBT6371",
+    "subject": "MBT",
+    "number": "6371",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Tax of Property Transactions",
+    "fullname": "Taxation of Property Transactions",
+    "info": "Determining realized gain or loss and recognized gain or loss, and tax treatment of that gain or loss on property dispositions. Consequences of property transactions including depreciation, depletion, basis, and capital gains problems.prereq: Acct 5135   NOTE: Previous course number was MBT 5370.",
+    "prereq": [
+      {
+        "code": "ACCT 5135",
+        "subject": "ACCT",
+        "id": "5135"
+      },
+      {
+        "code": "MBT 5370",
+        "subject": "MBT",
+        "id": "5370"
+      }
+    ]
+  },
+  {
+    "uid": "014865",
+    "code": "MBT6381",
+    "subject": "MBT",
+    "number": "6381",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Tax Aspects Int'l Business I",
+    "fullname": "Tax Aspects of International Business I",
+    "info": "Multinational business operations/transactions involving foreign income. Tax consequences of transactions with/by foreign organizations/companies.prereq: MBT 6231/5230   NOTE: Previous course number was MBT 5380.",
+    "prereq": {
+      "or": [
+        {
+          "code": "MBT 6231",
+          "subject": "MBT",
+          "id": "6231"
+        },
+        {
+          "code": "MBT 5230",
+          "subject": "MBT",
+          "id": "5230"
+        },
+        {
+          "code": "MBT 5380",
+          "subject": "MBT",
+          "id": "5380"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "014881",
+    "code": "MBT6382",
+    "subject": "MBT",
+    "number": "6382",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Tax Aspects Int'l Business II",
+    "fullname": "Tax Aspects of International Business II",
+    "info": "Foreign tax credit, Subpart F planning opportunities, international structuring (joint ventures, use of entity classification regulations). Transfer pricing, foreign currency. Legislative, regulatory, and judicial developments.prereq: MBT 6381/5380    NOTE: Previous course number was MBT 5381",
+    "prereq": {
+      "or": [
+        {
+          "code": "MBT 6381",
+          "subject": "MBT",
+          "id": "6381"
+        },
+        {
+          "code": "MBT 5380",
+          "subject": "MBT",
+          "id": "5380"
+        },
+        {
+          "code": "MBT 5381",
+          "subject": "MBT",
+          "id": "5381"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "805372",
+    "code": "MBT6383",
+    "subject": "MBT",
+    "number": "6383",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Transfer Pricing",
+    "fullname": "Transfer Pricing",
+    "info": "This course provides an introduction to transfer pricing issues facing multinational businesses. The discussion will focus on the application of the arm’s length standard as described in US Treasury Regulations 1.482, and application of transfer pricing legislation and regulations in other countries, largely through the transfer pricing guidelines published by the Organization for Economic Cooperation and Development (OECD). The course examines economic models, pricing policies, global intangible property, and controversy involving transfer pricing.  Prereq: ACCT 5135.    NOTE: Previous course number was MBT 5382.",
+    "prereq": [
+      {
+        "code": "ACCT 5135",
+        "subject": "ACCT",
+        "id": "5135"
+      },
+      {
+        "code": "MBT 5382",
+        "subject": "MBT",
+        "id": "5382"
+      }
+    ]
+  },
+  {
+    "uid": "796933",
+    "code": "MBT6420",
+    "subject": "MBT",
+    "number": "6420",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Current Topics in Taxation",
+    "fullname": "Current Topics in Taxation",
+    "info": "Tax research/compliance, other tasks. Students submit summary paper.\n\nprereq: ACCT 5135, MBT student.   NOTE: Previous course number was MBT 5420.",
+    "prereq": {
+      "and": [
+        {
+          "code": "ACCT 5135",
+          "subject": "ACCT",
+          "id": "5135"
+        },
+        {
+          "code": "MBT 5420",
+          "subject": "MBT",
+          "id": "5420"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "014798",
+    "code": "MBT6501",
+    "subject": "MBT",
+    "number": "6501",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Bus, Gov, Econ Tax Policy",
+    "fullname": "Business, Government, and Economic Tax Policy",
+    "info": "Effects of business/government on tax system. Social, political, economic, cultural values affecting tax system. Macroeconomics/implication for taxation. History of taxes/alternate approaches to taxation, public finance, government expenditures in theory/practice. Specific taxes.prereq: MBT 6231/5230.   NOTE: Previous course number was MBT 5500.",
+    "prereq": {
+      "or": [
+        {
+          "code": "MBT 6231",
+          "subject": "MBT",
+          "id": "6231"
+        },
+        {
+          "code": "MBT 5230",
+          "subject": "MBT",
+          "id": "5230"
+        },
+        {
+          "code": "MBT 5500",
+          "subject": "MBT",
+          "id": "5500"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "788239",
+    "code": "MBT8333",
+    "subject": "MBT",
+    "number": "8333",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "FTE: Master's",
+    "fullname": "FTE: Master's",
+    "info": "(No description)prereq: Master's student, adviser and DGS consent",
+    "prereq": []
+  }
+]

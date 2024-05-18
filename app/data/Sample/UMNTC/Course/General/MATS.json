@@ -1,0 +1,1177 @@
+[
+  {
+    "uid": "788552",
+    "code": "MATS1001",
+    "subject": "MATS",
+    "number": "1001",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Adv in Chem Eng and Mat Sci",
+    "fullname": "Advances in Chemical Engineering and Materials Science",
+    "info": "Survey the roles chemical and materials engineers play in addressing societal and technological challenges in areas including human health and biotechnology, energy and sustainability, and data-driven discovery and design. Lectures, panel discussions, and interactive exercises.Recommended for students interested in chemical engineering and/or materials science and engineering majors. ",
+    "prereq": []
+  },
+  {
+    "uid": "794237",
+    "code": "MATS1999",
+    "subject": "MATS",
+    "number": "1999",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Special Exam",
+    "fullname": "Special Exam",
+    "info": "",
+    "prereq": []
+  },
+  {
+    "uid": "004906",
+    "code": "MATS2001",
+    "subject": "MATS",
+    "number": "2001",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Mech. Prop.",
+    "fullname": "Introduction to the Science of Engineering Materials",
+    "info": "Structure-property relationships of engineering materials. Atomic structure and bonding. Crystal structures. Imperfections in solids. Strength of materials, strengthening mechanisms. Phase transformations. Heat treatment/control of micro-structures. Materials selection/design. Integrating properties of metals, ceramics, polymers, and composites.prereq: CHEM 1061, CHEM 1065, [MATH 1272 or MATH 1372], PHYS 1301W, CSE student",
+    "prereq": {
+      "and": [
+        {
+          "code": "CHEM 1061",
+          "subject": "CHEM",
+          "id": "1061"
+        },
+        {
+          "code": "CHEM 1065",
+          "subject": "CHEM",
+          "id": "1065"
+        },
+        {
+          "or": [
+            {
+              "code": "MATH 1272",
+              "subject": "MATH",
+              "id": "1272"
+            },
+            {
+              "code": "MATH 1372",
+              "subject": "MATH",
+              "id": "1372"
+            }
+          ]
+        },
+        {
+          "code": "PHYS 1301",
+          "subject": "PHYS",
+          "id": "1301"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "798351",
+    "code": "MATS2002",
+    "subject": "MATS",
+    "number": "2002",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Mech. Prop. Lab",
+    "fullname": "Introduction to the Science of Engineering Materials Laboratory",
+    "info": "Lab experiments dealing with mechanical properties of engineering materials. Elastic modulus, tensile strength, creep, impact strength, fracture.prereq: [2001 or concurrent registration is required (or allowed) in 2001], IT student",
+    "prereq": {
+      "code": "MATS 2001",
+      "subject": "MATS",
+      "id": "2001"
+    }
+  },
+  {
+    "uid": "004974",
+    "code": "MATS2601",
+    "subject": "MATS",
+    "number": "2601",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Intr. Mat. Sc. H.",
+    "fullname": "Introduction to Materials Science (Honors)",
+    "info": "Physical principles which govern materials properties at the microscopic scale. Starting from the atomic structure and interatomic bonding, it moves to more complex, physical properties: mechanical, electrical, optical, and thermodynamical properties.",
+    "prereq": []
+  },
+  {
+    "uid": "004997",
+    "code": "MATS3001",
+    "subject": "MATS",
+    "number": "3001",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Thermodynamics",
+    "fullname": "Thermodynamics of Materials",
+    "info": "Fundamental thermodynamic concepts, 1st, 2nd, 3rd Laws. Behavior of gases, liquids, solids. Phase diagrams. Reaction equilibria involving gases, condensed phases. Use of computer-based thermodynamic program(s). Electrochemistry.prereq: MatS upper div",
+    "prereq": []
+  },
+  {
+    "uid": "004999",
+    "code": "MATS3002",
+    "subject": "MATS",
+    "number": "3002",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Diffusion",
+    "fullname": "Mass Transport and Kinetics",
+    "info": "Mass transport in solids: solid state diffusion, Fick's laws, defects/diffusion mechanisms. Mass transport in fluids: fluid flow, diffusion with convection, mass transfer. Kinetics of chemical reactions and phase transformations. Computer-based problems illustrating applications. prereq: 3001, 3141, [MATH 2373 or equiv], upper div Mat",
+    "prereq": {
+      "and": [
+        {
+          "code": "MATS 3001",
+          "subject": "MATS",
+          "id": "3001"
+        },
+        {
+          "code": "MATS 3141",
+          "subject": "MATS",
+          "id": "3141"
+        },
+        {
+          "code": "MATH 2373",
+          "subject": "MATH",
+          "id": "2373"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "004990",
+    "code": "MATS3011",
+    "subject": "MATS",
+    "number": "3011",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Intro. Mat. Sci.",
+    "fullname": "Introduction to Materials Science and Engineering",
+    "info": "Builds progressively from electrons to atoms to bonding to crystal structures. Defects, X-ray diffraction, phase diagrams. Microstructure as basis for understanding mechanical/electrical properties. Metals, polymers, ceramics, semiconductors, composites.prereq: CHEM 1061, CHEM 1065, [MATH 1272 or MATH 1372], PHYS 1302, CSE student",
+    "prereq": {
+      "and": [
+        {
+          "code": "CHEM 1061",
+          "subject": "CHEM",
+          "id": "1061"
+        },
+        {
+          "code": "CHEM 1065",
+          "subject": "CHEM",
+          "id": "1065"
+        },
+        {
+          "or": [
+            {
+              "code": "MATH 1272",
+              "subject": "MATH",
+              "id": "1272"
+            },
+            {
+              "code": "MATH 1372",
+              "subject": "MATH",
+              "id": "1372"
+            }
+          ]
+        },
+        {
+          "code": "PHYS 1302",
+          "subject": "PHYS",
+          "id": "1302"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "004996",
+    "code": "MATS3012",
+    "subject": "MATS",
+    "number": "3012",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Metals and Alloys",
+    "fullname": "Metals and Alloys",
+    "info": "Structure of metals/alloys. Crystal structure/defects (point defects, dislocations, grain boundaries). Microstructure. Properties of metals, especially mechanical properties.prereq: [3011, [MatS or ChEn upper div]] or instr consent",
+    "prereq": {
+      "code": "MATS 3011",
+      "subject": "MATS",
+      "id": "3011"
+    }
+  },
+  {
+    "uid": "005034",
+    "code": "MATS3013",
+    "subject": "MATS",
+    "number": "3013",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Electri & Mag Properties",
+    "fullname": "Electrical and Magnetic Properties of Materials",
+    "info": "Electronic/magnetic properties of solids. Simple band theory of solids. Free electron theory of conductivity/transport. Optical/dielectric response functions. Elementary theory of magnetism. Electronic devices. Superconductivity. Computer-based problems to illustrate applications.prereq: 3011, [CHEM 4502 or PHYS 2303], [upper div MatS or ChEn] or instr consent",
+    "prereq": {
+      "and": [
+        {
+          "code": "MATS 3011",
+          "subject": "MATS",
+          "id": "3011"
+        },
+        {
+          "or": [
+            {
+              "code": "CHEM 4502",
+              "subject": "CHEM",
+              "id": "4502"
+            },
+            {
+              "code": "PHYS 2303",
+              "subject": "PHYS",
+              "id": "2303"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "uid": "787619",
+    "code": "MATS3041",
+    "subject": "MATS",
+    "number": "3041",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Indust Assign I",
+    "fullname": "Industrial Assignment I",
+    "info": "Industrial work assignment in engineering co-op program. Formal report on technical project related to industrial work.prereq: MatS upper div, completion of required courses in MatS program through fall sem of 3rd yr, GPA of at least 2.80, regis in co-op program",
+    "prereq": []
+  },
+  {
+    "uid": "796883",
+    "code": "MATS3045",
+    "subject": "MATS",
+    "number": "3045",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "MatS Industrial Internship",
+    "fullname": "Materials Science and Engineering Industrial Internship",
+    "info": "Industrial internship, three to eight months. Formal report on technical project related to industrial work.prereq: MatS Upper Division.  GPA of at least 2.8.",
+    "prereq": []
+  },
+  {
+    "uid": "815838",
+    "code": "MATS3141",
+    "subject": "MATS",
+    "number": "3141",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Numerical Methods for MatS",
+    "fullname": "Numerical Methods for Materials Science",
+    "info": "Mathematics and numerical/computation methods for Materials Science. Example problems include: diffusion problems; coupled diffusion/kinetics problems; nucleation, growth and crystallization; quantum mechanics/electrostatic problems relevant to electronic/magnetic/optical devices. The use of MatLab will be emphasized. prereq: Math 2374 or equivalent, MatS 3011 (or &) Coreqs: Math 2373 or equivalent, Chem 4502/Phys 2303",
+    "prereq": {
+      "and": [
+        {
+          "code": "MATH 2374",
+          "subject": "MATH",
+          "id": "2374"
+        },
+        {
+          "code": "MATS 3011",
+          "subject": "MATS",
+          "id": "3011"
+        },
+        {
+          "code": "MATH 2373",
+          "subject": "MATH",
+          "id": "2373"
+        },
+        {
+          "code": "CHEM 4502",
+          "subject": "CHEM",
+          "id": "4502"
+        },
+        {
+          "code": "PHYS 2303",
+          "subject": "PHYS",
+          "id": "2303"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "788999",
+    "code": "MATS3801",
+    "subject": "MATS",
+    "number": "3801",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Characterization Lab",
+    "fullname": "Structural Characterization Lab",
+    "info": "Characterization of structure of engineering materials by optical/electron microscopy, atomic force microscopy, x-ray diffraction, spectroscopic method, related methods. Crystallography, defects, microstructure, macromolecular structure. Specimen preparation, data collection/analysis, maintaining laboratory notebook.prereq: [3011, MatS upper div] or dept consent",
+    "prereq": {
+      "code": "MATS 3011",
+      "subject": "MATS",
+      "id": "3011"
+    }
+  },
+  {
+    "uid": "789000",
+    "code": "MATS3851W",
+    "subject": "MATS",
+    "number": "3851",
+    "honors": false,
+    "writingIntensive": true,
+    "name": "Materials Properties Lab",
+    "fullname": "Materials Properties Lab",
+    "info": "Characterization of properties of engineering materials. Mechanical, electrical, optical, magnetic, and thermal properties. Relationship between properties and materials structure. Specimen preparation. Data collection and analysis, including statistical analysis. Laboratory notebook and report writing.prereq: [3801, 3013, MatS upper div] or dept consent",
+    "prereq": {
+      "and": [
+        {
+          "code": "MATS 3801",
+          "subject": "MATS",
+          "id": "3801"
+        },
+        {
+          "code": "MATS 3013",
+          "subject": "MATS",
+          "id": "3013"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "787620",
+    "code": "MATS4041",
+    "subject": "MATS",
+    "number": "4041",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Indust Assign II",
+    "fullname": "Industrial Assignment II",
+    "info": "Industrial assignment in engineering co-op program. Application of materials science principles to engineering design problems in an industrial work environment.  Formal written report and presentation.prereq: 3041, GPA of at least 2.80, registration in co-op program",
+    "prereq": {
+      "code": "MATS 3041",
+      "subject": "MATS",
+      "id": "3041"
+    }
+  },
+  {
+    "uid": "005035",
+    "code": "MATS4212",
+    "subject": "MATS",
+    "number": "4212",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Ceramics",
+    "fullname": "Ceramics",
+    "info": "Crystal structures, non-crystalline (glass) structures, microstructure. Ceramic phase relationships: binary/ternary diagrams. Ceramic properties: thermal, mechanical, electrical, magnetic, optical. Computer applications.prereq: [3011, [3001 or CHEN 3101], [MatS or ChEn upper div]] or instr consent",
+    "prereq": {
+      "and": [
+        {
+          "code": "MATS 3011",
+          "subject": "MATS",
+          "id": "3011"
+        },
+        {
+          "or": [
+            {
+              "code": "MATS 3001",
+              "subject": "MATS",
+              "id": "3001"
+            },
+            {
+              "code": "CHEN 3101",
+              "subject": "CHEN",
+              "id": "3101"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "uid": "005036",
+    "code": "MATS4214",
+    "subject": "MATS",
+    "number": "4214",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Polymers",
+    "fullname": "Polymers",
+    "info": "Polymer structure-property relations: structure/morphology of crystalline/amorphous state. Crystallization kinetics. Vitrification and glass transition. Mechanical properties, failure, permeability, optical/electrical properties, polymer composites, effect of processing on properties.prereq: [3011, [3001 or CHEN 3101], [upper div MatS or ChEn]] or instr consent",
+    "prereq": {
+      "and": [
+        {
+          "code": "MATS 3011",
+          "subject": "MATS",
+          "id": "3011"
+        },
+        {
+          "or": [
+            {
+              "code": "MATS 3001",
+              "subject": "MATS",
+              "id": "3001"
+            },
+            {
+              "code": "CHEN 3101",
+              "subject": "CHEN",
+              "id": "3101"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "uid": "005166",
+    "code": "MATS4221",
+    "subject": "MATS",
+    "number": "4221",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Mat. Performance",
+    "fullname": "Materials Performance",
+    "info": "Thermal/mechanical processing to control properties/other applications. Analysis of costs/performance, failure in metallurgical structures by use of fracture mechanics methodology. prereq: 3012, AEM 2031, Upper div MatS",
+    "prereq": {
+      "and": [
+        {
+          "code": "MATS 3012",
+          "subject": "MATS",
+          "id": "3012"
+        },
+        {
+          "code": "AEM 2031",
+          "subject": "AEM",
+          "id": "2031"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "791391",
+    "code": "MATS4223W",
+    "subject": "MATS",
+    "number": "4223",
+    "honors": false,
+    "writingIntensive": true,
+    "name": "Polymer Laboratory",
+    "fullname": "Polymer Laboratory",
+    "info": "Synthesis, characterization, and physical properties of polymers. Free radical, condensation, emulsion, anionic polymerization. Infrared spectroscopy/gel permeation chromatography. Viscoelasticity, rubber elasticity, crystallization.",
+    "prereq": []
+  },
+  {
+    "uid": "005169",
+    "code": "MATS4301W",
+    "subject": "MATS",
+    "number": "4301",
+    "honors": false,
+    "writingIntensive": true,
+    "name": "Mat. Process.",
+    "fullname": "Materials Processing",
+    "info": "Casting, solidification and plastic forming of metals. Powder processing, forming operations, sintering of ceramics. Processing of thermoplastic/thermoset polymers. Computer applications of data collection/reduction.prereq: 4212, [4214 or concurrent registration is required (or allowed) in 4214] Upper Div MatS",
+    "prereq": {
+      "and": [
+        {
+          "code": "MATS 4212",
+          "subject": "MATS",
+          "id": "4212"
+        },
+        {
+          "code": "MATS 4214",
+          "subject": "MATS",
+          "id": "4214"
+        }
+      ]
+    }
+  },
+  {
+    "uid": "819963",
+    "code": "MATS4312",
+    "subject": "MATS",
+    "number": "4312",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Princ./Apps. of Solar Cells",
+    "fullname": "Principles and Applications of Solar Cells",
+    "info": "This course begins with a discussion of current energy conversion and consumption before focusing on the working principles and applications of solar cells.  Students will understand the operation of solar cells based on optical absorption, carrier generation and recombination, and charge separation in semiconductors.  Several different materials platforms for solar cells are discussed including monocrystalline, thin film (inorganic, organic, and hybrid semiconductors), and tandem devices.  Students will also develop an understanding of associated cost and economic considerations.",
+    "prereq": []
+  },
+  {
+    "uid": "005170",
+    "code": "MATS4400",
+    "subject": "MATS",
+    "number": "4400",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Sr. Design",
+    "fullname": "Senior Design Project",
+    "info": "Work in teams to apply expertise in materials science/engineering toward a specific project. With mentor from industry or faculty member guidance, each team defines a problem/follows design steps that culminate in a product design.prereq: Sr MatS major",
+    "prereq": []
+  },
+  {
+    "uid": "791136",
+    "code": "MATS4401",
+    "subject": "MATS",
+    "number": "4401",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Senior Design Thesis I",
+    "fullname": "Senior Design Thesis I",
+    "info": "First semester of a 2-semester thesis project. Research and design work directed by faculty member in Department of Chemical Engineering and Materials Science. Written reports are due at midsemester and end of semester. At least one research presentation must be given.prereq: Credit will not be granted if credit has been received for: : 4400; MatS senior, dept consent, GPA of at least 3.00, project approval by faculty adviser",
+    "prereq": {
+      "code": "MATS 4400",
+      "subject": "MATS",
+      "id": "4400"
+    }
+  },
+  {
+    "uid": "791137",
+    "code": "MATS4402",
+    "subject": "MATS",
+    "number": "4402",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Senior Design Thesis II",
+    "fullname": "Senior Design Thesis II",
+    "info": "Second of 2-semester thesis project. Students continue thesis design project, write thesis, and give final presentation. Lecture portion meets concurrently with 4400.prereq: 4401",
+    "prereq": {
+      "code": "MATS 4401",
+      "subject": "MATS",
+      "id": "4401"
+    }
+  },
+  {
+    "uid": "005171",
+    "code": "MATS4511W",
+    "subject": "MATS",
+    "number": "4511",
+    "honors": false,
+    "writingIntensive": true,
+    "name": "Corrosion",
+    "fullname": "Corrosion and Electrochemistry of Corrosion",
+    "info": "Electrochemical thermodynamics, electrochemical kinetics, theory of aqueous corrosion, theory of high temperature oxidation; specific topics include general corrosion, passivation, pitting, galvanic protection/corrosion, environmental degradation of mechanical properties, corrosion of electronic components, growth of oxide scales by diffusion, materials selection and design. Computers used to collect lab data.prereq: MatS 3011 or instr consent, upper div CSE or grad",
+    "prereq": {
+      "code": "MATS 3011",
+      "subject": "MATS",
+      "id": "3011"
+    }
+  },
+  {
+    "uid": "795086",
+    "code": "MATS4512",
+    "subject": "MATS",
+    "number": "4512",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Corrosion",
+    "fullname": "Corrosion and Electrochemistry of Corrosion",
+    "info": "Electrochemical thermodynamics, electrochemical kinetics, theory of aqueous corrosion, theory of high temperature oxidation;  specific topics include general corrosion, passivation, pitting, galvanic protection/corrosion, environmental degradation of mechanical properties, corrosion of electronic components, growth of oxide scales by diffusion, materials selection and design.  Computers used to collect lab data.prereq: MatS 3011 or instr consent, upper div CSE or grad",
+    "prereq": {
+      "code": "MATS 3011",
+      "subject": "MATS",
+      "id": "3011"
+    }
+  },
+  {
+    "uid": "005172",
+    "code": "MATS4591",
+    "subject": "MATS",
+    "number": "4591",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Indepen. Study",
+    "fullname": "Independent Study in Materials Science",
+    "info": "Library, theoretical, laboratory or design studies of scientific or engineering topics in materials science for an individual student.  Course content and credits by arrangement with professor.  Design credits available if arranged with professor.  May be used for upper division Honors Program experience if arranged with professor.prereq: Upper div mat sci",
+    "prereq": []
+  },
+  {
+    "uid": "005173",
+    "code": "MATS4593",
+    "subject": "MATS",
+    "number": "4593",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Directed Study",
+    "fullname": "Directed Study in Materials Science",
+    "info": "This course can take two forms: (a) Library, theoretical or design studies of scientific or engineering topics in materials science for an individual or a small group of students. Course content and credits by arrangement with professor. Design credits available if arranged with professor. (b) Special topics course offered only once, e.g., by a visiting professor.prereq: upper div MatS",
+    "prereq": []
+  },
+  {
+    "uid": "005175",
+    "code": "MATS4594",
+    "subject": "MATS",
+    "number": "4594",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Directed Research",
+    "fullname": "Directed Research in Materials Science",
+    "info": "Research studies of scientific or engineering topics in materials science for an individual or small group of students.  Course content and credits by arrangement with professor. Design credits available if arranged with professor. May be used for upper division Honors Program experience if arranged with professor.prereq: Upper div mat sci",
+    "prereq": []
+  },
+  {
+    "uid": "788553",
+    "code": "MATS5221",
+    "subject": "MATS",
+    "number": "5221",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Intro Poly Chem",
+    "fullname": "Introduction to Polymer Chemistry",
+    "info": "Condensation, radical, ionic, emulsion, ring-opening, metal-catalyzed polymerizations. Chain conformation, solution thermodynamics, molecular weight characterization, physical properties.",
+    "prereq": []
+  },
+  {
+    "uid": "805662",
+    "code": "MATS5353",
+    "subject": "MATS",
+    "number": "5353",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Electron Microprobe",
+    "fullname": "Electron Microprobe Theory and Practice",
+    "info": "Characterizing solid materials with electron beam instrumentation, including reduction of X-ray data to chemical compositions.prereq: [One yr chem, one yr physics] or instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "010833",
+    "code": "MATS5517",
+    "subject": "MATS",
+    "number": "5517",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Microscopy of Materials",
+    "fullname": "Microscopy of Materials",
+    "info": "A basic introduction to electron microscopy (EM) methods and techniques for materials characterization. The course is intended for junior- and senior-level undergraduates and graduate students interested in obtaining a basic understanding of characterization with EM. Topics to be covered include an introduction to instrumentation, basics of scattering theory, and a survey of imaging, diffraction, and analytical measurement techniques. Current and emerging techniques will also be covered, including machine learning and big data for EM and time-resolved measurements. Students will research a specific topic of interest over the course of the semester, culminating in a project paper and a class presentation.",
+    "prereq": []
+  },
+  {
+    "uid": "795305",
+    "code": "MATS5518",
+    "subject": "MATS",
+    "number": "5518",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Basic SEM",
+    "fullname": "Imaging and Diffraction in the Scanning Electron Microscope",
+    "info": "Theory/practice of scanning electron micrscopy. Classroom sessions cover how instrument works, best-use practices. Practical sessions allow students to hone skills.",
+    "prereq": []
+  },
+  {
+    "uid": "795306",
+    "code": "MATS5519",
+    "subject": "MATS",
+    "number": "5519",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Basic TEM",
+    "fullname": "Basic Transmission Electron Microscopy",
+    "info": "Theory/practice of transmission electron microscope. Classroom sessions cover how instrument works, best-use practices. Practical sessions allow students to hone skills.",
+    "prereq": []
+  },
+  {
+    "uid": "795307",
+    "code": "MATS5520",
+    "subject": "MATS",
+    "number": "5520",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Basic Analytical EM",
+    "fullname": "Basic Analytical Electron Microscopy",
+    "info": "Theory/practice of analytical electron microscopy. Classroom sessions cover techniques, best-use practices. Practical sessions allow students to hone skills.",
+    "prereq": []
+  },
+  {
+    "uid": "005177",
+    "code": "MATS5521",
+    "subject": "MATS",
+    "number": "5521",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Thin Films",
+    "fullname": "Thin Films and Interfaces",
+    "info": "Fundamentals of vacuum science; vapor pressures and thin film deposition processes (physical and chemical vapor deposition, sputtering, laser ablation); thermodynamics and kinetics of thin film growth; epitaxy; film stability and reactions; structure-property relationship; multilayers and diffusion barriers; characterization techniques to include photon, electron, and ion spectroscopies.  Computer-based homework problems.",
+    "prereq": []
+  },
+  {
+    "uid": "005178",
+    "code": "MATS5531",
+    "subject": "MATS",
+    "number": "5531",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Electrochemical Engineering",
+    "fullname": "Electrochemical Engineering",
+    "info": "Fundamentals of electrochemical engineering.  Topics include electrochemical mass transfer electrokinetics, thermodynamics of cells, modern sensors, formation of thin films and microstructured materials. Computer-based problems will be assigned.prereq: MatS 3011 or instr consent, upper div CSE or grad",
+    "prereq": {
+      "code": "MATS 3011",
+      "subject": "MATS",
+      "id": "3011"
+    }
+  },
+  {
+    "uid": "801247",
+    "code": "MATS5771",
+    "subject": "MATS",
+    "number": "5771",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Colloids and Dispersions",
+    "fullname": "Colloids and Dispersions",
+    "info": "Preparation, stability, coagulation kinetics, or colloidal solutions. DLVO theory, electrokinetic phenomena. Properties of micelles, other microstructures.prereq: Physical chemistry",
+    "prereq": []
+  },
+  {
+    "uid": "825421",
+    "code": "MATS5801",
+    "subject": "MATS",
+    "number": "5801",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Opt & Energy Systems Eng",
+    "fullname": "Optimization in Chemical and Energy Systems Engineering",
+    "info": "Mathematical optimization is a rigorous and systematic method for modeling and solving decision-making problems. It has become an indispensable tool in various disciplines, including economics, science, and engineering. In this course, students are introduced to the theory of mathematical optimization, systematic approaches to modeling complex optimization problems, and state-of-the-art algorithms for solving them. While the presented methods are general, we focus on applications in chemical engineering, energy systems engineering, and related disciplines. Many of the applications are directly related to the efficient design and operation of sustainable industrial systems.",
+    "prereq": []
+  },
+  {
+    "uid": "825426",
+    "code": "MATS5802",
+    "subject": "MATS",
+    "number": "5802",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Machine Learning",
+    "fullname": "Applied Machine Learning in Chemical Engineering and Materials Science",
+    "info": "Machine learning is an increasingly prominent tool used by engineers to aid in the design and characterization of materials and molecules. This course will introduce advanced undergraduates and graduate students to fundamental concepts and practical skills that enable the application of machine learning to these problems. These concepts and skills will be contextualized with examples of recent advances at the intersection of chemical engineering, materials science, and machine learning.",
+    "prereq": []
+  },
+  {
+    "uid": "825422",
+    "code": "MATS5803",
+    "subject": "MATS",
+    "number": "5803",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "ChemMat Tech Commercialization",
+    "fullname": "Chemical and Materials Technology Commercialization",
+    "info": "Introduction to chemical and materials technology commercialization including a focus on products, markets, customers, and processes for brining innovations to market.",
+    "prereq": []
+  },
+  {
+    "uid": "010836",
+    "code": "MATS8001",
+    "subject": "MATS",
+    "number": "8001",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Structure and Symmetry",
+    "fullname": "Structure and Symmetry of Materials",
+    "info": "Comprehensive description of structure of materials, including metals, semiconductors, organic crystals, polymers, and liquid crystals. Atomic and molecular ordering, influence of intermolecular forces on symmetry and structure. Principles of scattering and use of X-ray, neutron, and electron diffraction.prereq: MatS and ChEn majors must take this course for a grade",
+    "prereq": []
+  },
+  {
+    "uid": "010837",
+    "code": "MATS8002",
+    "subject": "MATS",
+    "number": "8002",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Thermo & Kinetics",
+    "fullname": "Thermodynamics and Kinetics",
+    "info": "First three laws of thermodynamics, free energy, equilibrium constants, fugacity and activity relationships, solution models, order-disorder transitions, phase transitions. Elementary statistical mechanics. Applications to materials systems, including surface energies, multicomponent equilibria, reaction kinetics, mass transport, diffusion.",
+    "prereq": []
+  },
+  {
+    "uid": "010839",
+    "code": "MATS8003",
+    "subject": "MATS",
+    "number": "8003",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Electronic Properties",
+    "fullname": "Electronic Properties",
+    "info": "Basic physical theory of bonding in metals, alloys, and semiconductors.  Review of modern physics, statistical physics, and solid state physics.  Structure of matter emphasizing electronic processes. Techniques for predicting and understanding electronic structure of solids. Transport theory, elementary theory of magnetism, and superconductivity.prereq: instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "010841",
+    "code": "MATS8004",
+    "subject": "MATS",
+    "number": "8004",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Mechanical Properties",
+    "fullname": "Mechanical Properties",
+    "info": "Defects in crystalline materials, including point defects, dislocations, and grain boundaries. Structure and movement of defects related to mechanical behavior of materials. Tools used to understand crystals and crystallography.",
+    "prereq": []
+  },
+  {
+    "uid": "010842",
+    "code": "MATS8005",
+    "subject": "MATS",
+    "number": "8005",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Dislocations and Interfaces",
+    "fullname": "Dislocations and Interfaces",
+    "info": "Structure and properties at an advanced level. Influence of bonding and crystallography on structures of dislocations cores. CSL and DSCL theory of grain boundaries and of structures of phase boundaries in heterojunctions including thin film epilayers. Effect of defects on electrical, optical, magnetic, and superconducting behavior of materials.",
+    "prereq": []
+  },
+  {
+    "uid": "825140",
+    "code": "MATS8103",
+    "subject": "MATS",
+    "number": "8103",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Scattering from Soft Matter",
+    "fullname": "Scattering from Soft Matter",
+    "info": "This course will treat light scattering (LS), dynamic light scattering (DLS), small angle neutron scattering (SANS), and small angle X-ray scattering (SAXS), with particular emphasis on SANS and DLS. Both fundamental theory and experimental techniques will be developed in detail. Thematerials focus will be on polymer and colloidal solutions, polymer blends, and block copolymers",
+    "prereq": []
+  },
+  {
+    "uid": "793301",
+    "code": "MATS8114",
+    "subject": "MATS",
+    "number": "8114",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Soft Materials",
+    "fullname": "Structure and Symmetry in Soft Materials",
+    "info": "Molecular interactions, packing, symmetry operations/structure. X-ray/neutron scattering in soft materials, including organic/liquid crystals, amphiphiles, and polymers.",
+    "prereq": []
+  },
+  {
+    "uid": "795233",
+    "code": "MATS8115",
+    "subject": "MATS",
+    "number": "8115",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Elect Micro Soft Matter",
+    "fullname": "Electron Microscopy of Soft Matter",
+    "info": "Operation principles of transmission electron microscope (TEM) and scanning electron microscope (SEM). How these instruments are applied in study of soft materials (e.g., liquid, semi-liquid material systems). Unique specimen preparation techniques, low image contrast, electron-beam radiation-damage, limited signal-to-noise ratio. TEM /SEM digital imaging.",
+    "prereq": []
+  },
+  {
+    "uid": "814681",
+    "code": "MATS8201",
+    "subject": "MATS",
+    "number": "8201",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Applied Math",
+    "fullname": "Applied Math",
+    "info": "Integrated approach to solving linear mathematical problems. Linear algebraic equations. Linear ordinary and partial differential equations using theoretical/numerical analysis based on linear operator theory.prereq: Materials science grad student or instructor consent.",
+    "prereq": []
+  },
+  {
+    "uid": "793009",
+    "code": "MATS8204",
+    "subject": "MATS",
+    "number": "8204",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Computational Methods",
+    "fullname": "Computational Methods and Applications to Problems in Materials Science and Engineering",
+    "info": "Implementation of computational methods/applications to numerical problems in materials science and engineering. Emphasizes implementation to applications.prereq: Grad student, knowledge of programming languages such as Fortran",
+    "prereq": []
+  },
+  {
+    "uid": "792166",
+    "code": "MATS8211",
+    "subject": "MATS",
+    "number": "8211",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Phys Chem Poly",
+    "fullname": "Physical Chemistry of Polymers",
+    "info": "Introduction to polymer physical chemistry. Chain conformations; thermodynamics of polymer solutions, blends, and copolymers; light, neutron, and X-ray scattering; dynamics in dilute solutions and polymer characterization; dynamics of melts and viscoelasticity; rubber elasticity, networks, and gels; glass transitions; crystallization.prereq: Undergrad physical chem or instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "010638",
+    "code": "MATS8212",
+    "subject": "MATS",
+    "number": "8212",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Solid State Reaction Kinetics",
+    "fullname": "Solid State Reaction Kinetics",
+    "info": "Reactions between ceramic solids in terms of transport mechanisms. Thermodynamics of point defects in binary and ternary ionic solids, diffusion in the bulk and along line and surface defects, chemical and electrochemical potential gradients, reactions at interfaces, practical examples drawn from oxidation and solid/solid reactions of ceramics.",
+    "prereq": []
+  },
+  {
+    "uid": "010736",
+    "code": "MATS8213",
+    "subject": "MATS",
+    "number": "8213",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Electronic Properties",
+    "fullname": "Electronic Properties of Materials",
+    "info": "Band theory studied by tight binding, pseudopotential, K.P. and KKR techniques. Optical and transport properties. Experimental techniques for characterizing electronic properties, including photoemission, Auger spectroscopy, and optical spectroscopy. Microelectronic materials, metal-semiconductor, and other interface phenomena.",
+    "prereq": []
+  },
+  {
+    "uid": "010739",
+    "code": "MATS8214",
+    "subject": "MATS",
+    "number": "8214",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Electr Props Organic Materials",
+    "fullname": "Electronic Properties and Applications of Organic Materials",
+    "info": "Introduction to current and prospective applications of organic materials in electronic, electroluminescent, and photoconductive devices. Bonding, electronic structure, charge carriers, transport mechanisms, luminescence, and photoconductivity in molecular crystals and conducting polymers. ",
+    "prereq": []
+  },
+  {
+    "uid": "010741",
+    "code": "MATS8215",
+    "subject": "MATS",
+    "number": "8215",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Electronic Ceramics",
+    "fullname": "Electronic Ceramics",
+    "info": "Electronic properties of ceramics; electronic and ionic conduction; dielectric behavior; ferroelectric, piezoelectric, pyroelectric, and electroptic properties. Relationships between structure (crystal structure, microstructure) and properties. Introduction to applications (e.g., capacitors, sensors, actuators.",
+    "prereq": []
+  },
+  {
+    "uid": "010832",
+    "code": "MATS8216",
+    "subject": "MATS",
+    "number": "8216",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Contact and Fracture Mechanics",
+    "fullname": "Contact and Fracture Mechanics",
+    "info": "Theories of indentation contact and fracture resistance emphasizing structure/property relationships. Surfaces, thin film interfaces, coatings, and bulk behavior. Theoretical basis and experimental techniques for measuring mechanical behavior at the nano-scale. Lab exercises.",
+    "prereq": []
+  },
+  {
+    "uid": "793170",
+    "code": "MATS8217",
+    "subject": "MATS",
+    "number": "8217",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Trans Electron Microscopy",
+    "fullname": "Transmission Electron Microscopy",
+    "info": "This course is an introduction to transmission electron microscopy (TEM) and materials characterization using TEM. Topics include description and operation of TEMs, electron sources, basics of electron optics, interaction of electrons with specimen, diffraction, imaging techniques, and microanalysis. The goal of this course is to enable you to understand the fundamentals of TEM and microanalysis, read the scientific literature and determine which TEM-based method would be best to solve the problem you encounter in your own research. In a process you will learn aboutinstrumentation, structure of materials, diffraction physics, optics, and condensed matter physics.",
+    "prereq": []
+  },
+  {
+    "uid": "010834",
+    "code": "MATS8218",
+    "subject": "MATS",
+    "number": "8218",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Thin Film Growth and Epitaxy",
+    "fullname": "Thin Film Growth and Epitaxy",
+    "info": "Principles of epitaxial growth. Growth models, thermodynamics, kinetics, homoepitaxial growth, continuum models of homoepitaxial growth, models of heteroepitaxial growth, surfaces, interfaces, defects, coincident lattices, experimental methods of growth, characterization.",
+    "prereq": []
+  },
+  {
+    "uid": "010846",
+    "code": "MATS8219",
+    "subject": "MATS",
+    "number": "8219",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Science of Porous Media",
+    "fullname": "Science of Porous Media",
+    "info": "Geometry and topology of porous materials. Fundamentals of flow, transports, and deformation in them. One- and two-phase Darcy flows, convective dispersion in microporous materials. Relations of macroscopic properties and behavior to microscopic structures and mechanisms. Nanoporous materials. Examples from nature and technology.",
+    "prereq": []
+  },
+  {
+    "uid": "790800",
+    "code": "MATS8221",
+    "subject": "MATS",
+    "number": "8221",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Synthetic Polymer Chemistry",
+    "fullname": "Synthetic Polymer Chemistry",
+    "info": "Condensation, radical, ionic, emulsion, ring-opening, metal-catalyzed polymerizations. Chain conformation, solution thermodynamics, molecular weight characterization, physical properties.prereq: [Undergrad organic chemistry course, undergrad physical chemistry course] or instr consent",
+    "prereq": []
+  },
+  {
+    "uid": "804845",
+    "code": "MATS8223",
+    "subject": "MATS",
+    "number": "8223",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Electronic Structure",
+    "fullname": "Electronic Structure of Solids: Basic Theory and Practical Calculations",
+    "info": "Theoretical and computational methods for electronic structure calculations of solids. Lab experience with popular free software for electronic structure calculations, Quantum ESPRESSO distribution.",
+    "prereq": []
+  },
+  {
+    "uid": "817571",
+    "code": "MATS8301",
+    "subject": "MATS",
+    "number": "8301",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Phys. Rate Process I Transport",
+    "fullname": "Physical Rate Processes I: Transport",
+    "info": "Survey of mass transfer, dilute, and concentrated diffusion. Brownian motion. Diffusion coefficients in polymers, of electrolytes, and at critical points. Multicomponent diffusion. Mass transfer correlations/predictions. Mass transfer coupled with chemical reaction.",
+    "prereq": []
+  },
+  {
+    "uid": "788238",
+    "code": "MATS8333",
+    "subject": "MATS",
+    "number": "8333",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "FTE: Master's",
+    "fullname": "FTE: Master's",
+    "info": "(No description)prereq: Master's student, adviser and DGS consent",
+    "prereq": []
+  },
+  {
+    "uid": "788374",
+    "code": "MATS8444",
+    "subject": "MATS",
+    "number": "8444",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "FTE: Doctoral",
+    "fullname": "FTE: Doctoral",
+    "info": "(No description)prereq: Doctoral student, adviser and DGS consent",
+    "prereq": []
+  },
+  {
+    "uid": "812408",
+    "code": "MATS8555",
+    "subject": "MATS",
+    "number": "8555",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "MATS Teach",
+    "fullname": "MatS Teaching Practicum",
+    "info": "Experience in instruction including grading of student work, holding of office hours, and in special cases, lecturing.  Students will work with and receive feedback from a faculty member in CEMS.prereq: Grad MATS or ChEn major and DGS permission",
+    "prereq": []
+  },
+  {
+    "uid": "826169",
+    "code": "MATS8593",
+    "subject": "MATS",
+    "number": "8593",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "M.S. Plan B Project I",
+    "fullname": "M.S. Plan B Project I",
+    "info": "This course is one of two key project components for the Plan B Masters program.Objectives:- Learn to review, evaluate, and synthesize scientific literature- Identify and communicate the scientific premise and motivation for a doctoral thesis scale research study ",
+    "prereq": []
+  },
+  {
+    "uid": "826170",
+    "code": "MATS8594",
+    "subject": "MATS",
+    "number": "8594",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "M.S. Plan B Project II",
+    "fullname": "M.S. Plan B Project II",
+    "info": "This course is one of two key project components for the Plan B Masters program. Objectives:- Learn to formulate a research plan, devise and substantiate effective methods- Identify and communicate the scientific premise and motivation for a doctoral thesis scale research study ",
+    "prereq": []
+  },
+  {
+    "uid": "788496",
+    "code": "MATS8666",
+    "subject": "MATS",
+    "number": "8666",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Doct Pre-Thesis Cr",
+    "fullname": "Doctoral Pre-Thesis Credits",
+    "info": "TBDprereq: Doctoral student who has not passed prelim oral; no required consent for 1st/2nd registrations, up to 12 combined cr; dept consent for 3rd/4th registrations, up to 24 combined cr; doctoral student admitted before summer 2007 may register up to four times, up to 60 combined cr",
+    "prereq": []
+  },
+  {
+    "uid": "788624",
+    "code": "MATS8777",
+    "subject": "MATS",
+    "number": "8777",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Thesis Credit:Mast*",
+    "fullname": "Thesis Credits: Master's",
+    "info": "(No description)prereq: Max 18 cr per semester or summer; 10 cr total required [Plan A only]",
+    "prereq": []
+  },
+  {
+    "uid": "787891",
+    "code": "MATS8888",
+    "subject": "MATS",
+    "number": "8888",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Thesis Credit:Doct*",
+    "fullname": "Thesis Credit: Doctoral",
+    "info": "(No description)prereq: Max 18 cr per semester or summer; 24 cr required",
+    "prereq": []
+  },
+  {
+    "uid": "826171",
+    "code": "MATS8900",
+    "subject": "MATS",
+    "number": "8900",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Seminar",
+    "fullname": "Seminar",
+    "info": "Presentation and discussion of papers concerning the newer developments in chemical engineering and materials science and engineering.",
+    "prereq": []
+  },
+  {
+    "uid": "826172",
+    "code": "MATS8901",
+    "subject": "MATS",
+    "number": "8901",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Seminar",
+    "fullname": "Seminar",
+    "info": "Presentation and discussion of papers concerning the newer developments in chemical engineering and materials science and engineering.",
+    "prereq": []
+  },
+  {
+    "uid": "014776",
+    "code": "MATS8993",
+    "subject": "MATS",
+    "number": "8993",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Directed Study",
+    "fullname": "Directed Study",
+    "info": "",
+    "prereq": []
+  },
+  {
+    "uid": "014779",
+    "code": "MATS8994",
+    "subject": "MATS",
+    "number": "8994",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Directed Research",
+    "fullname": "Directed Research",
+    "info": "",
+    "prereq": []
+  },
+  {
+    "uid": "014893",
+    "code": "MATS8995",
+    "subject": "MATS",
+    "number": "8995",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Special topics",
+    "fullname": "Special Topics",
+    "info": "New or experimental courses offered by department or visiting faculty.",
+    "prereq": []
+  }
+]

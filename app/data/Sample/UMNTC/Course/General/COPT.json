@@ -1,0 +1,30 @@
+[
+  {
+    "uid": "010346",
+    "code": "COPT5001",
+    "subject": "COPT",
+    "number": "5001",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Elementary Coptic",
+    "fullname": "Elementary Coptic",
+    "info": "Introduction to Coptic grammar and vocabulary, chiefly in the Sahidic dialect.",
+    "prereq": []
+  },
+  {
+    "uid": "010353",
+    "code": "COPT5002",
+    "subject": "COPT",
+    "number": "5002",
+    "honors": false,
+    "writingIntensive": false,
+    "name": "Elementary Coptic",
+    "fullname": "Elementary Coptic",
+    "info": "Reading a variety of Coptic literature, such as Gnostic, martyrological, or monastic texts.prereq: 5001 or equiv",
+    "prereq": {
+      "code": "COPT 5001",
+      "subject": "COPT",
+      "id": "5001"
+    }
+  }
+]
