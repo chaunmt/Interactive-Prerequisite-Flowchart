@@ -23,7 +23,7 @@ export default function Page({ params }) {
   return (
     <div id="content">
       <h1>{Search().exactDept(SUBJ).toUpperCase()}</h1>
-      <div id="nav">
+      <div id="navSmall">
         <NavigationSearch/>
       </div>
       <div id="tableBox">

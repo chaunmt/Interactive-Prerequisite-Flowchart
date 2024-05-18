@@ -29,7 +29,7 @@ export default function Page({ params }) {
 
   return (
     <div id="content">
-      <div id="nav">
+      <div id="navSmall">
         <Link href={"/" + SUBJ}>
           <button id="back"><IoReturnUpBackOutline /></button>
         </Link>
