@@ -39,7 +39,7 @@ export default function Page() {
     decimate_orphans: deci,
   };
   let display: display_options = {
-    orientation: "TB",
+    orientation: "DOWN",
   };
 
   return (

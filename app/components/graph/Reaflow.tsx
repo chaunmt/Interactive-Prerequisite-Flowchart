@@ -12,21 +12,13 @@ export default function Reaflow({ build }) {
   const [l_soft, setSoftcludes] = useState<CourseShell[]>(build.soft_excludes);
   const [l_hard, setHardcludes] = useState<CourseShell[]>(build.hard_excludes);
 
-  // const [l_nodes, setNodes] = useState<NodeData[]>(nodes);
-  // const [l_edges, setEdges] = useState<EdgeData[]>(edges);
-
-  // const [didMount, setDidMount] = useState(false);
-
-  // useEffect(() => {
-  //   if (!didMount) return;
-  //   const generateGraph = async () => {}
-  // }, [didMount, graph]);
-
-  // useEffect(() => {
-  //   setDidMount(true);
-  // }, []);
-
-  const { nodes, edges } = buildGraph(build);
+  const { nodes, edges } = buildGraph({
+    includes: l_incl,
+    soft_excludes: l_soft,
+    hard_excludes: l_hard,
+    simplify,
+    decimate_orphans,
+  });
 
   // TODO look further into Canvas layoutOptions={{}} with custom layout options
   return (
@@ -58,10 +50,7 @@ export default function Reaflow({ build }) {
           <Node
             {...node}
             onClick={() => {
-              // this is erroring bc NodeProps doesn't have .data (only NodeData does)
-              // and idk how to get this info in the onclick callback function
-              let new_course = node.data;
-
+              let new_course = AccessAll.getCourse(node.id.replace("_", " "));
               let new_soft = [new_course, ...l_soft];
               if (l_soft.some((shell) => isEqualCourses(shell, new_course))) {
                 setSoftcludes(
