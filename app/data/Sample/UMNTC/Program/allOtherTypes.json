@@ -1,0 +1,742 @@
+[
+  {
+    "code": "",
+    "name": "University Honors Program",
+    "status": "",
+    "type": "",
+    "degreeGranter": "TUED - Undergraduate Education Administration",
+    "classification": "",
+    "diploma": "",
+    "info": "The University Honors Program is a student-centered place of connection for undergraduate education across the University; a place where our community can come together to innovate, create, lead, and serve; a place that challenges high-ability students to be bold, unconventional thinkers.",
+    "level": "Undergraduate",
+    "accredited": "",
+    "minProgramCredit": "7",
+    "maxProgramCredit": "28",
+    "minDegreeCredit": "",
+    "maxDegreeCredit": "",
+    "requirements": {
+      "admission": {
+        "tests": {
+          "TOEFL": "",
+          "IELTS": "",
+          "GRE": "",
+          "GMAT": "",
+          "MCAT": "",
+          "LSAT": "",
+          "Other": ""
+        },
+        "minCredits": "",
+        "preMajorStatus": "No",
+        "GPA": {
+          "min": "3.5",
+          "minTransIUT": "3.5",
+          "minTrans": "3.5",
+          "rationale": "UHP serves high-achieving students per University Senate policy. 3.5 is used broadly to evaluate preparedness for completion of Latin Honors. General expectation for students is a GPA of 3.5 in the last 60 graded credits and completion of program requirements."
+        },
+        "info": {
+          "key": "",
+          "label": "",
+          "notes": ""
+        }
+      },
+      "language": {
+        "sem": "0",
+        "undergrad": "No second language",
+        "grad": ""
+      }
+    },
+    "requisites": {
+      "requisitesSimple": [
+        {
+          "id": "Pcp60cpt",
+          "name": "First Year - NEXUS One",
+          "type": "Completion Requirement",
+          "rules": [
+            {
+              "id": "OUU7O76l",
+              "name": "NEXUS One",
+              "condition": "freeformText",
+              "subRules": []
+            }
+          ]
+        },
+        {
+          "id": "cagl8AH6",
+          "name": "General Honors Requirements",
+          "type": "Completion Requirement",
+          "rules": [
+            {
+              "id": "ftW2IHYi",
+              "name": "",
+              "condition": "freeformText",
+              "subRules": []
+            },
+            {
+              "id": "UvXQmGOD",
+              "name": "Three Honors Courses",
+              "condition": "freeformText",
+              "subRules": []
+            },
+            {
+              "id": "B9QEsZV3",
+              "name": "Five additional Honors Experiences (course or non-course)",
+              "condition": "freeformText",
+              "subRules": []
+            }
+          ]
+        },
+        {
+          "id": "OOjencTw",
+          "name": "Final Year - Thesis and Thesis Supporting Coursework",
+          "type": "Completion Requirement",
+          "rules": [
+            {
+              "id": "q2B7pBMy",
+              "name": "Final Year",
+              "condition": "allOf",
+              "subRules": [
+                {
+                  "id": "TMfpaWvH",
+                  "name": "Thesis-related Coursework",
+                  "condition": "completedAtLeastXOf",
+                  "courses": {
+                    "and": [
+                      "8140461"
+                    ]
+                  }
+                },
+                {
+                  "id": "ckaWgtkz",
+                  "name": "The Honors Thesis",
+                  "condition": "completedAllOf"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "admreq",
+          "name": "Admission Requirements",
+          "type": "Completion Requirements",
+          "rules": []
+        }
+      ]
+    }
+  },
+  {
+    "code": "204552006",
+    "name": "Additional Licensure Teaching",
+    "status": "Active",
+    "type": "Specialization",
+    "degreeGranter": "TCED - College of Education and Human Development",
+    "classification": "G - Unspecified-Grad/Professional",
+    "diploma": "College of Education Additional Licensure",
+    "info": "The additional licensure program offers a variety of courses specifically designed to address the competencies required by the state for various teaching and administrative licenses. Additional licenses are added to a current five-year, full-time professional Minnesota teaching license. Courses are offered throughout the year with evening courses offered during fall, spring, and summer semesters, and day courses offered during summer semester. Students who enroll in the program are generally practicing teachers. They complete the program in an average of one to two years.",
+    "level": "Graduate",
+    "accredited": true,
+    "minProgramCredit": "19",
+    "maxProgramCredit": "24",
+    "minDegreeCredit": "",
+    "maxDegreeCredit": "",
+    "requirements": {
+      "admission": {
+        "tests": {
+          "TOEFL": "",
+          "IELTS": "",
+          "GRE": "",
+          "GMAT": "",
+          "MCAT": "",
+          "LSAT": "",
+          "Other": ""
+        },
+        "minCredits": "",
+        "preMajorStatus": "",
+        "GPA": {
+          "min": "",
+          "minTransIUT": "",
+          "minTrans": "",
+          "rationale": ""
+        },
+        "info": {
+          "key": "",
+          "label": "",
+          "notes": ""
+        }
+      },
+      "language": {
+        "sem": "",
+        "undergrad": "",
+        "grad": ""
+      }
+    },
+    "requisites": {
+      "requisitesSimple": [
+        {
+          "id": "admreq",
+          "name": "Admission Requirements",
+          "type": "Completion Requirements",
+          "rules": []
+        },
+        {
+          "id": "204552006",
+          "name": "Program Requirements",
+          "type": "Completion Requirements",
+          "rules": [
+            {
+              "id": "424826",
+              "name": "Required courses",
+              "condition": "freeformText",
+              "subRules": []
+            }
+          ]
+        },
+        {
+          "id": "88979",
+          "name": "Academic and Behavioral Strategist",
+          "type": "Completion Requirements",
+          "rules": []
+        },
+        {
+          "id": "88980",
+          "name": "Agricultural Education 5-12",
+          "type": "Completion Requirements",
+          "rules": []
+        },
+        {
+          "id": "88981",
+          "name": "Autism Spectrum Disorders licensure",
+          "type": "Completion Requirements",
+          "rules": []
+        },
+        {
+          "id": "88982",
+          "name": "Chemistry Education 9-12",
+          "type": "Completion Requirements",
+          "rules": []
+        },
+        {
+          "id": "88983",
+          "name": "Comm Arts/Lit Educ 5-8/9-12",
+          "type": "Completion Requirements",
+          "rules": []
+        },
+        {
+          "id": "88984",
+          "name": "Comm Arts/Lit Education 5-8",
+          "type": "Completion Requirements",
+          "rules": []
+        },
+        {
+          "id": "88985",
+          "name": "Deaf and Hard of Hearing",
+          "type": "Completion Requirements",
+          "rules": []
+        },
+        {
+          "id": "88986",
+          "name": "Developmental Disabilities",
+          "type": "Completion Requirements",
+          "rules": []
+        },
+        {
+          "id": "88987",
+          "name": "Early Childhood Educ Birth-Gr3",
+          "type": "Completion Requirements",
+          "rules": []
+        },
+        {
+          "id": "88988",
+          "name": "Earth & Space Science Ed 9-12",
+          "type": "Completion Requirements",
+          "rules": []
+        },
+        {
+          "id": "88989",
+          "name": "Emotional and Behavioral Disorders",
+          "type": "Completion Requirements",
+          "rules": []
+        },
+        {
+          "id": "88990",
+          "name": "English as a Second Lang K-12",
+          "type": "Completion Requirements",
+          "rules": []
+        },
+        {
+          "id": "88991",
+          "name": "Learning Disabilities K-12",
+          "type": "Completion Requirements",
+          "rules": []
+        },
+        {
+          "id": "88992",
+          "name": "Life Science Education 9-12",
+          "type": "Completion Requirements",
+          "rules": []
+        },
+        {
+          "id": "88993",
+          "name": "Mathematics Education 5-8",
+          "type": "Completion Requirements",
+          "rules": []
+        },
+        {
+          "id": "88994",
+          "name": "Mathematics Education 5-8/9-12",
+          "type": "Completion Requirements",
+          "rules": []
+        },
+        {
+          "id": "88995",
+          "name": "Oral/Aural",
+          "type": "Completion Requirements",
+          "rules": []
+        },
+        {
+          "id": "88996",
+          "name": "Physics Education 9-12",
+          "type": "Completion Requirements",
+          "rules": []
+        },
+        {
+          "id": "88997",
+          "name": "Reading",
+          "type": "Completion Requirements",
+          "rules": []
+        },
+        {
+          "id": "88998",
+          "name": "Visual Arts Education K-12",
+          "type": "Completion Requirements",
+          "rules": []
+        },
+        {
+          "id": "88999",
+          "name": "WorldLang/Cultures:  Japanese K-12",
+          "type": "Completion Requirements",
+          "rules": []
+        },
+        {
+          "id": "89000",
+          "name": "WorldLang/Cultures:  Arabic K-12",
+          "type": "Completion Requirements",
+          "rules": []
+        },
+        {
+          "id": "89001",
+          "name": "WorldLang/Cultures:  Chinese K-12",
+          "type": "Completion Requirements",
+          "rules": []
+        },
+        {
+          "id": "89002",
+          "name": "WorldLang/Cultures:  French K-12",
+          "type": "Completion Requirements",
+          "rules": []
+        },
+        {
+          "id": "89003",
+          "name": "WorldLang/Cultures:  German K-12",
+          "type": "Completion Requirements",
+          "rules": []
+        },
+        {
+          "id": "89004",
+          "name": "WorldLang/Cultures:  Hebrew K-12",
+          "type": "Completion Requirements",
+          "rules": []
+        },
+        {
+          "id": "89005",
+          "name": "WorldLang/Cultures:  Italian K-12",
+          "type": "Completion Requirements",
+          "rules": []
+        },
+        {
+          "id": "89006",
+          "name": "WorldLang/Cultures:  Latin K-12",
+          "type": "Completion Requirements",
+          "rules": []
+        },
+        {
+          "id": "89007",
+          "name": "WorldLang/Cultures:  Norweg K-12",
+          "type": "Completion Requirements",
+          "rules": []
+        },
+        {
+          "id": "89008",
+          "name": "WorldLang/Cultures:  Ojibwe K-12",
+          "type": "Completion Requirements",
+          "rules": []
+        },
+        {
+          "id": "89009",
+          "name": "WorldLang/Cultures:  Polish K-12",
+          "type": "Completion Requirements",
+          "rules": []
+        },
+        {
+          "id": "89010",
+          "name": "WorldLang/Cultures:  Russian K-12",
+          "type": "Completion Requirements",
+          "rules": []
+        },
+        {
+          "id": "89011",
+          "name": "WorldLang/Cultures:  Spanish K-12",
+          "type": "Completion Requirements",
+          "rules": []
+        },
+        {
+          "id": "89012",
+          "name": "WorldLang/Cultures:  Swedish K-12",
+          "type": "Completion Requirements",
+          "rules": []
+        },
+        {
+          "id": "89013",
+          "name": "Dance",
+          "type": "Completion Requirements",
+          "rules": []
+        },
+        {
+          "id": "89014",
+          "name": "Theatre",
+          "type": "Completion Requirements",
+          "rules": []
+        }
+      ]
+    }
+  },
+  {
+    "code": "218500006",
+    "name": "DirecTrack to Teaching",
+    "status": "Active",
+    "type": "Preparation",
+    "degreeGranter": "TCED - College of Education and Human Development",
+    "classification": "B - Bachelor's Degree",
+    "diploma": "",
+    "info": "Get on the path to teacher licensure as an undergraduate through DirecTrack to Teaching. The program gives undergraduates early exposure to the culture of teaching and schools. Enter the profession with confidence and competence.\n\n Learn as part of a select group of future teachers from multiple disciplines.\n Participate in guided experiences (observation, academic support, tutoring) with youth in classroom settings.\n Focus on the subject area you want to teach.\n Earn preferred admission status into the M.Ed/initial licensure program when certain benchmarks are met (but admission is not guaranteed).\n\nDirecTrack to Teaching is not a stand-alone undergraduate major, and it does not lead to any particular baccalaureate degree. You will maintain your current University of Minnesota undergraduate college and major status (e.g., math major, history major, etc.) while pursuing the DirecTrack to Teaching program.",
+    "level": "Undergraduate",
+    "accredited": "",
+    "minProgramCredit": "4",
+    "maxProgramCredit": "4",
+    "minDegreeCredit": "",
+    "maxDegreeCredit": "",
+    "requirements": {
+      "admission": {
+        "tests": {
+          "TOEFL": "",
+          "IELTS": "",
+          "GRE": "",
+          "GMAT": "",
+          "MCAT": "",
+          "LSAT": "",
+          "Other": ""
+        },
+        "minCredits": "",
+        "preMajorStatus": "No",
+        "GPA": {
+          "min": "",
+          "minTransIUT": "",
+          "minTrans": "",
+          "rationale": ""
+        },
+        "info": {
+          "key": "",
+          "label": "",
+          "notes": ""
+        }
+      },
+      "language": {
+        "sem": "0",
+        "undergrad": "No second language",
+        "grad": ""
+      }
+    },
+    "requisites": {
+      "requisitesSimple": [
+        {
+          "id": "admreq",
+          "name": "Admission Requirements",
+          "type": "Completion Requirements",
+          "rules": []
+        },
+        {
+          "id": "218500006",
+          "name": "Program Requirements",
+          "type": "Completion Requirements",
+          "rules": [
+            {
+              "id": "408678",
+              "name": "Preferred Coursework",
+              "condition": "completedAllOf",
+              "subRules": [],
+              "courses": {
+                "and": [
+                  "8024151"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "85156",
+          "name": "Art Education",
+          "type": "Completion Requirements",
+          "rules": []
+        },
+        {
+          "id": "85157",
+          "name": "English Education",
+          "type": "Completion Requirements",
+          "rules": []
+        },
+        {
+          "id": "85158",
+          "name": "Mathematics Education",
+          "type": "Completion Requirements",
+          "rules": []
+        },
+        {
+          "id": "85159",
+          "name": "Science Education",
+          "type": "Completion Requirements",
+          "rules": []
+        },
+        {
+          "id": "85160",
+          "name": "Second Languages and Cultures",
+          "type": "Completion Requirements",
+          "rules": []
+        },
+        {
+          "id": "85161",
+          "name": "Social Studies Education",
+          "type": "Completion Requirements",
+          "rules": []
+        },
+        {
+          "id": "85162",
+          "name": "Special Education",
+          "type": "Completion Requirements",
+          "rules": []
+        },
+        {
+          "id": "85163",
+          "name": "Dance Education",
+          "type": "Completion Requirements",
+          "rules": []
+        },
+        {
+          "id": "85164",
+          "name": "Theatre Education",
+          "type": "Completion Requirements",
+          "rules": []
+        }
+      ]
+    }
+  },
+  {
+    "code": "232600006",
+    "name": "Additional Licensure Other",
+    "status": "Active",
+    "type": "Specialization",
+    "degreeGranter": "TCED - College of Education and Human Development",
+    "classification": "G - Unspecified-Grad/Professional",
+    "diploma": "",
+    "info": "The additional licensure program offers a variety of courses specifically designed to address the competencies required by the state for various teaching and administrative licenses. Additional licenses are added to a current five-year, full-time professional Minnesota teaching license. Courses are offered throughout the year with evening courses offered during fall, spring, and summer semesters, and day courses offered during the summer semester. Students who enroll in the program are generally practicing teachers. They complete the program in an average of one to two years.",
+    "level": "Graduate",
+    "accredited": true,
+    "minProgramCredit": "19",
+    "maxProgramCredit": "24",
+    "minDegreeCredit": "",
+    "maxDegreeCredit": "",
+    "requirements": {
+      "admission": {
+        "tests": {
+          "TOEFL": "",
+          "IELTS": "",
+          "GRE": "",
+          "GMAT": "",
+          "MCAT": "",
+          "LSAT": "",
+          "Other": ""
+        },
+        "minCredits": "",
+        "preMajorStatus": "",
+        "GPA": {
+          "min": "",
+          "minTransIUT": "",
+          "minTrans": "",
+          "rationale": ""
+        },
+        "info": {
+          "key": "",
+          "label": "",
+          "notes": ""
+        }
+      },
+      "language": {
+        "sem": "",
+        "undergrad": "",
+        "grad": ""
+      }
+    },
+    "requisites": {
+      "requisitesSimple": [
+        {
+          "id": "admreq",
+          "name": "Admission Requirements",
+          "type": "Completion Requirements",
+          "rules": []
+        },
+        {
+          "id": "232600006",
+          "name": "Program Requirements",
+          "type": "Completion Requirements",
+          "rules": [
+            {
+              "id": "424825",
+              "name": "Required courses",
+              "condition": "freeformText",
+              "subRules": []
+            }
+          ]
+        },
+        {
+          "id": "88973",
+          "name": "Director of Community Education",
+          "type": "Completion Requirements",
+          "rules": []
+        },
+        {
+          "id": "88974",
+          "name": "Director of Special Education",
+          "type": "Completion Requirements",
+          "rules": []
+        },
+        {
+          "id": "88975",
+          "name": "Early Childhood Special Education",
+          "type": "Completion Requirements",
+          "rules": []
+        },
+        {
+          "id": "88976",
+          "name": "Parent and Family Education",
+          "type": "Completion Requirements",
+          "rules": []
+        },
+        {
+          "id": "88977",
+          "name": "Principal K-12",
+          "type": "Completion Requirements",
+          "rules": []
+        },
+        {
+          "id": "88978",
+          "name": "Superintendent K- 12",
+          "type": "Completion Requirements",
+          "rules": []
+        },
+        {
+          "id": "89213",
+          "name": "Online Parent and Family Education",
+          "type": "Completion Requirements",
+          "rules": []
+        }
+      ]
+    }
+  },
+  {
+    "code": "25253A202",
+    "name": "Master of Global Management",
+    "status": "",
+    "type": "",
+    "degreeGranter": "TCSM - Curtis L. Carlson School of Management",
+    "classification": "",
+    "diploma": "",
+    "info": "The MGM is a terminal master's degree, or alternative credential option restricted to eligible Doctor of Business Administration (DBA) students who do not complete the doctoral degree. Applications to the MGM are not otherwise considered.",
+    "level": "Graduate",
+    "accredited": true,
+    "minProgramCredit": "",
+    "maxProgramCredit": "",
+    "minDegreeCredit": 33,
+    "maxDegreeCredit": "",
+    "requirements": {
+      "admission": {
+        "tests": {
+          "TOEFL": "",
+          "IELTS": "",
+          "GRE": "",
+          "GMAT": "",
+          "MCAT": "",
+          "LSAT": "",
+          "Other": ""
+        },
+        "minCredits": "",
+        "preMajorStatus": "No",
+        "GPA": {
+          "min": "",
+          "minTransIUT": "",
+          "minTrans": "",
+          "rationale": ""
+        },
+        "info": {
+          "key": "",
+          "label": "",
+          "notes": ""
+        }
+      },
+      "language": {
+        "sem": "",
+        "undergrad": "",
+        "grad": ""
+      }
+    },
+    "requisites": {
+      "requisitesSimple": [
+        {
+          "id": "UBqZgxly",
+          "name": "Core Courses (33 credits)",
+          "type": "Completion Requirement",
+          "rules": [
+            {
+              "id": "ySDaWurj",
+              "name": "",
+              "condition": "completedAllOf",
+              "subRules": [],
+              "courses": {
+                "and": [
+                  "8174311",
+                  "8174321",
+                  "8174331",
+                  "8174341",
+                  "8174421",
+                  "8174441",
+                  "8174451",
+                  "8174461",
+                  "8174471",
+                  "8174481",
+                  "8174491",
+                  "8174501",
+                  "8174511",
+                  "8174521",
+                  "8174531",
+                  "8174541",
+                  "8174551",
+                  "8174561",
+                  "8174571",
+                  "8174581",
+                  "8251421"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
