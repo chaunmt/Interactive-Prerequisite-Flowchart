@@ -47,7 +47,6 @@ export default function Page({ params }) {
     setSearch(event.target.value);
   };
 
-  console.log("major-minor branch test")
   return (
     <div id="editor">
       <div id="resultGraph">
