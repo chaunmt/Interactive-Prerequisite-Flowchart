@@ -6,6 +6,7 @@ export default function Footer() {
     <div id="footer">
       <h2 id="clubName">© 2023 Social Coding</h2>
 
+      
       <Link
         id="github"
         href="https://github.com/chaunmt/Interactive-Prerequisite-Flowchart"
@@ -13,6 +14,10 @@ export default function Footer() {
       >
         <strong>Contribute to Github</strong>
       </Link>
+
+      // <Link href="mailto:tam00024@umn.edu">
+      //   <h4>Contact Us</h4>
+      // </Link>
     </div>
   );
 }
