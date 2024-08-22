@@ -26,6 +26,11 @@ export default function Page({ params }) {
   if (!Access(SUBJ).ids.includes(ID)) return <Custom404 />; // Display 404 page when id is not available
 
   let course = Access(SUBJ).getCourse(ID, "id");
+  let build = {
+    includes: [course],
+    simplify: false,  // set true to remove or/and distinction
+    decimate_orphans: false,  // if the current course is an orphan we probably shouldn't draw an empty graph
+  };
 
   return (
     <div id="content">
@@ -46,7 +51,7 @@ export default function Page({ params }) {
             </div>
             <button id="download"><FiDownload /></button>
           </div>
-          <Graph sourceData={course} />
+          <Graph build={build} />
           {/* <Mermaid graph={graphString} /> */}
         </div>
         <div id="infoBox">

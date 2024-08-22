@@ -9,24 +9,20 @@
  * This component may also enable new ways of modifying/updating the graph,
  * such as manually adding new entries instead of relying entirely on the
  * Mermaid compatibility layer in graphBuilder.ts
- */
-// "use client"
-
-// import { useState } from "react";
+*/
+export default Graph;
 
 import Mermaid from "./Mermaid";
 import { CourseShell } from "../../data/types";
 import buildGraph from "../../data/graphBuilder";
 import type { GraphData, build_options } from "../../data/graphBuilder";
 
-/** TODO documentation */
-export default Graph;
 export type {
-  /** TODO documentation */
+  /** nodes and edges */
   GraphData,
-  /** TODO documentation */
+  /** @see graphBuilder */
   build_options,
-  /** TODO documentation */
+  /** type definition is self-explanatory */
   display_options,
 };
 
@@ -42,18 +38,19 @@ function Graph({
   build: build_options;
   display?: display_options;
 }) {
-  //TODO: extract Mermaid compatibility layer from graphBuilder.ts
-  // - add graph customization features
+  //TODO: add graph customization features
   const graph = buildGraph(build);
 
-  return <Mermaid graph={convertJSONGraph(graph)} />;
+  return <Mermaid graph={convertJSONGraph(graph, display)} />;
 }
 
 /** naively converts a JSON representation of a graph to Mermaid's markdown representation */
-function convertJSONGraph(input: GraphData) {
+function convertJSONGraph(input: GraphData, display?: display_options) {
   // TODO sophisticated conversion if still using Mermaid -- 2024/01/13
+  let orientation = display?.orientation || "BT";
+
   return (
-    "graph BT\n" +
+    `graph ${orientation}\n` +
     [
       input.nodes.map((n) => `${n.id}[${n.text}]`).join("\n"), // node declarations
       input.edges.map((e) => `${e.from} --> ${e.to}`).join("\n"), // edge declarations

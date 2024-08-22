@@ -23,34 +23,40 @@ const debug: {
   reduced: true,
 };
 
-// to avoid redundancy, this type's formal documentation will live in Graph.tsx
 // note: hard_excludes takes precedence over soft_excludes, which takes precedence over includes (if a course appears in more than one list)
+// and strong_orphans are an override to keep them in when filtering out orphan nodes (they still must be in includes to be placed in the graph)
 type build_options = {
   readonly includes?: CourseShell[]; // courses to include in the graph (these have their prerequisites recursively included too)
   readonly soft_excludes?: CourseShell[]; // courses to include in the graph without their prerequisites
   readonly hard_excludes?: CourseShell[]; // courses to exclude entirely
   readonly simplify?: boolean; // remove sophisticated representation of prerequisite relationships (no "or" or "and" nodes)
   readonly decimate_orphans?: boolean; // filter out nodes with no edges (this can filter out courses from the above lists)
+  readonly strong_orphans?: CourseShell[]; // will never be filtered out even if it's an orphan node (does not add to the graph, just overrides the filter)
 };
 
-/** use this to check if every or node is redundant */
+/** use this to check if every or node is redundant; TODO implement */
 function or_redundancy_check() {}
 
 export default function buildGraph(input: build_options): GraphData {
+  let { strong_orphans } = input;
   let graph = surgery(build(input));
-  console.log(assist(graph).nodes);
   return input.decimate_orphans ? assist(graph) : graph;
 
   // remove redundant or/and
   function surgery(graph: GraphData) {
+    // TODO implement
     // let redundancies = graph.nodes.filter((node) => {});
     return graph;
   }
 
   // filter out orphans
   function assist(graph: GraphData) {
-    let nodes = graph.nodes.filter((node) =>
-      graph.edges.some((edge) => node.id == edge.from || node.id == edge.to),
+    let nodes = graph.nodes.filter(
+      (node) =>
+        strong_orphans
+          .map((sh) => `${sh.subject}_${sh.id}`)
+          .includes(node.id) ||
+        graph.edges.some((edge) => node.id == edge.from || node.id == edge.to),
     );
     return { nodes: nodes, edges: graph.edges };
   }
@@ -59,7 +65,12 @@ export default function buildGraph(input: build_options): GraphData {
 /** the function that actually does all the work */
 function build(input: build_options): GraphData {
   // unpacking solely for compactness of following code (at the expense of memory)
-  const { includes = [], soft_excludes = [], hard_excludes = [], simplify } = input;
+  const {
+    includes = [],
+    soft_excludes = [],
+    hard_excludes = [],
+    simplify,
+  } = input;
 
   if (includes.length == 0 && soft_excludes.length == 0) {
     console.warn("WARNING: no courses passed in, building empty graph.");
