@@ -12,7 +12,8 @@ import { MdOpenInNew } from "react-icons/md";
 export { CoursesTable };
 
 function CoursesTable({ SUBJ_COURSES } : { SUBJ_COURSES: Course[] }) {
-  const [selectedCourse, setSelectedCourse] = useState<Course>(SUBJ_COURSES[0]);
+  // no courses initially selected
+  const [selectedCourses, setSelectedCourses] = useState<Course[]>([]);
 
   return (
     <div id="containers">
@@ -23,20 +24,22 @@ function CoursesTable({ SUBJ_COURSES } : { SUBJ_COURSES: Course[] }) {
         <div id="infoBox">
           <div id="infoBoxHead">
             <h2>
-              {selectedCourse.code}
+              {selectedCourses[0]?.code || ""}
               <br></br>
-              {selectedCourse.title}
+              {selectedCourses[0]?.title || ""}
             </h2>
-            <Link href={"/" + selectedCourse.subject + "/" + selectedCourse.id}>
+            { selectedCourses[0] &&
+            <Link href={"/" + selectedCourses[0].subject + "/" + selectedCourses[0].id}>
               <button id="openId">
                 <MdOpenInNew />
               </button>
             </Link>
+            }
           </div>
-          <p>{selectedCourse.info}</p>
+          <p>{selectedCourses[0]?.info || ""}</p>
         </div>
         <div id="graphBox">
-          <Graph sourceData={selectedCourse} />
+          <Graph sourceData={selectedCourses} />
         </div>
       </div>
     </div>
@@ -44,7 +47,14 @@ function CoursesTable({ SUBJ_COURSES } : { SUBJ_COURSES: Course[] }) {
 
   function handleClickCard(course: Course) {
     console.log("clicked " + course.code);
-    setSelectedCourse(course);
+    // toggle select functionality
+    if (selectedCourses.some(c => c.code == course.code)) {
+      // set to new array including all other elements but course
+      setSelectedCourses(selectedCourses.filter(c => c.code !== course.code));
+    } else {
+      // new array including all elements and also course
+      setSelectedCourses([ course, ...selectedCourses ]);
+    }
   }
 
   function formatCard(course: Course) {
@@ -55,7 +65,7 @@ function CoursesTable({ SUBJ_COURSES } : { SUBJ_COURSES: Course[] }) {
         {course.id}
       </button>
     );
-  };
+  }
 
   function formatTable() {
     return SUBJ_COURSES.map(
@@ -64,5 +74,5 @@ function CoursesTable({ SUBJ_COURSES } : { SUBJ_COURSES: Course[] }) {
           {formatCard(course)}
         </div>
     );
-  };
+  }
 }
