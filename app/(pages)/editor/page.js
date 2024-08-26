@@ -13,11 +13,11 @@ import { Search } from "../../data/search";
 import "../../components/styles/SearchBar.css"
 
 export default function Page({ params }) {
-  let build: build_options = {
+  let build = {
     simplify: false, // set true to remove or/and distinction
     decimate_orphans: true,
   };
-  let display: display_options = {
+  let display = {
     orientation: "BT",
   };
 
