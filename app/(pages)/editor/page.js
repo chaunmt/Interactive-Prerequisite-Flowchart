@@ -13,6 +13,14 @@ import { Search } from "../../data/search";
 import "../../components/styles/SearchBar.css"
 
 export default function Page({ params }) {
+  let build: build_options = {
+    simplify: false, // set true to remove or/and distinction
+    decimate_orphans: true,
+  };
+  let display: display_options = {
+    orientation: "BT",
+  };
+
   const [search, setSearch] = useState("");
   const [items, setItems] = useState([]);
   const [selectedItems, setSelected] = useState([]);
@@ -53,7 +61,14 @@ export default function Page({ params }) {
         {courses.length === 0 ? (
           <h2>Add courses to the right to get started</h2>
         ) : (
-          <Graph sourceData={courses} />
+          <Graph
+            build={{
+              includes: courses,
+              ...build,
+              strong_orphans: courses,
+            }}
+            display={display}
+          />
         )}
       </div>
       <div id="picker">
