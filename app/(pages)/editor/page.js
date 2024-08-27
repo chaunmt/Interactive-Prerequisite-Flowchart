@@ -47,6 +47,7 @@ export default function Page({ params }) {
     setSearch(event.target.value);
   };
   
+
   return (
     <div id="editor">
       <div id="resultGraph">
