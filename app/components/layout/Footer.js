@@ -15,9 +15,9 @@ export default function Footer() {
         <strong>Contribute to Github</strong>
       </Link>
 
-      // <Link href="mailto:tam00024@umn.edu">
-      //   <h4>Contact Us</h4>
-      // </Link>
+      <Link href="mailto:truon417@umn.edu">
+        <h4>Contact Us</h4>
+      </Link>
     </div>
   );
 }
