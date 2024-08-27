@@ -6,7 +6,7 @@
 		"lint": "next lint",
 		"sources": "node app/data/sources.ts"
 	},
-	"packageManager": "pnpm@8.10.0",
+	"packageManager": "pnpm@9.1.1",
 	"pnpm": {
 		"patchedDependencies": {
 			"mermaid@10.5.1": "patches/mermaid@10.5.1.patch"
