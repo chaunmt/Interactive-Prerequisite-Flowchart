@@ -9,31 +9,51 @@
  * This component may also enable new ways of modifying/updating the graph,
  * such as manually adding new entries instead of relying entirely on the
  * Mermaid compatibility layer in graphBuilder.ts
- */
-// "use client"
-
-// import { useState } from "react";
+*/
+export default Graph;
 
 import Mermaid from "./Mermaid";
 import { CourseShell } from "../../data/types";
 import buildGraph from "../../data/graphBuilder";
+import type { GraphData, build_options } from "../../data/graphBuilder";
 
-/**
- * Component which accepts a list of courses and generates a graph
- *
- * @param {CourseShell | CourseShell[]} sourceData Courses to build a graph from
- * @returns Component
- */
-export default function Graph({
-  sourceData,
-  top_down,
+export type {
+  /** nodes and edges */
+  GraphData,
+  /** @see graphBuilder */
+  build_options,
+  /** type definition is self-explanatory */
+  display_options,
+};
+
+type display_options = {
+  readonly orientation?: "TB" | "BT" | "LR" | "RL"; // top-bottom, bottom-top, left-right, right-left
+  // TODO: other readonly optional members as needed (remember to pad for undefined when using nonboolean) -- jahndan 2024/04/11
+};
+
+function Graph({
+  build,
+  display,
 }: {
-  sourceData: CourseShell | CourseShell[];
-  top_down?: boolean;
+  build: build_options;
+  display?: display_options;
 }) {
-  //TODO: extract Mermaid compatibility layer from graphBuilder.ts
-  // - add graph customization features
-  const graph = buildGraph(sourceData);
+  //TODO: add graph customization features
+  const graph = buildGraph(build);
 
-  return <Mermaid graph={graph} />;
+  return <Mermaid graph={convertJSONGraph(graph, display)} />;
+}
+
+/** naively converts a JSON representation of a graph to Mermaid's markdown representation */
+function convertJSONGraph(input: GraphData, display?: display_options) {
+  // TODO sophisticated conversion if still using Mermaid -- 2024/01/13
+  let orientation = display?.orientation || "BT";
+
+  return (
+    `graph ${orientation}\n` +
+    [
+      input.nodes.map((n) => `${n.id}[${n.text}]`).join("\n"), // node declarations
+      input.edges.map((e) => `${e.from} --> ${e.to}`).join("\n"), // edge declarations
+    ].join("\n")
+  );
 }
