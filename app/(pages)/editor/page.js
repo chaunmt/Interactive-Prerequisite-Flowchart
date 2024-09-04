@@ -54,6 +54,7 @@ export default function Page({ params }) {
   const handleSearch = (event) => {
     setSearch(event.target.value);
   };
+  
 
   return (
     <div id="editor">
