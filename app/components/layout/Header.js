@@ -3,6 +3,7 @@ import Image from "next/image";
 import "../styles/Layout.css";
 
 export default function Header() {
+  //test dark mode branch
   return (
     <div id="header">
       <nav>
