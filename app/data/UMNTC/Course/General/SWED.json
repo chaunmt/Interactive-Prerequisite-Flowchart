@@ -1,0 +1,134 @@
+[
+  {
+    "uid": "008493",
+    "code": "SWED1001",
+    "subject": "SWED",
+    "number": "1001",
+    "honors": false,
+    "writing": false,
+    "name": "Beginning Swedish",
+    "fullname": "Beginning Swedish",
+    "info": "Emphasis on working toward novice-intermediate low proficiency in all four language modalities (listening, reading, speaking, writing).  Topics include everyday subjects (shopping, directions, family, food, housing, etc.).",
+    "prereq": {}
+  },
+  {
+    "uid": "008494",
+    "code": "SWED1002",
+    "subject": "SWED",
+    "number": "1002",
+    "honors": false,
+    "writing": false,
+    "name": "Beginning Swedish",
+    "fullname": "Beginning Swedish",
+    "info": "Continues the presentation of all four language modalities (listening, reading, speaking, writing), with a proficiency emphasis. Topics include free-time activities, careers, and Swedish culture.\n\nprereq: 1001",
+    "prereq": {
+      "and": [
+        "008493"
+      ]
+    }
+  },
+  {
+    "uid": "008495",
+    "code": "SWED1003",
+    "subject": "SWED",
+    "number": "1003",
+    "honors": false,
+    "writing": false,
+    "name": "Intermediate Swedish",
+    "fullname": "Intermediate Swedish",
+    "info": "Emphasis on intermediate proficiency in listening, reading, speaking, and writing. Contextualized work on grammar and vocabulary is combined with authentic readings and essay assignments.\n\nprereq: 1002",
+    "prereq": {
+      "and": [
+        "008494"
+      ]
+    }
+  },
+  {
+    "uid": "008496",
+    "code": "SWED1004",
+    "subject": "SWED",
+    "number": "1004",
+    "honors": false,
+    "writing": false,
+    "name": "Intermediate Swedish",
+    "fullname": "Intermediate Swedish",
+    "info": "Emphasis on developing intermediate mid-high proficiency in listening, reading, speaking, and writing. Contextualized work on grammar and vocabulary is supported by work with authentic readings and essay assignments.\n\nprereq: 1003",
+    "prereq": {
+      "and": [
+        "008495"
+      ]
+    }
+  },
+  {
+    "uid": "007968",
+    "code": "SWED3011",
+    "subject": "SWED",
+    "number": "3011",
+    "honors": false,
+    "writing": false,
+    "name": "Advanced Swedish",
+    "fullname": "Advanced Swedish",
+    "info": "Achieving advanced proficiency in Swedish. Fiction, film, journalistic, and professional prose. Grammar, vocabulary building exercises, review of oral/written modes of communication.",
+    "prereq": {}
+  },
+  {
+    "uid": "007981",
+    "code": "SWED3012",
+    "subject": "SWED",
+    "number": "3012",
+    "honors": false,
+    "writing": false,
+    "name": "Advanced Swedish",
+    "fullname": "Advanced Swedish",
+    "info": "Novels, short stories, plays, articles. Structural, stylistic, vocabulary-building exercises.",
+    "prereq": {}
+  },
+  {
+    "uid": "014531",
+    "code": "SWED4001",
+    "subject": "SWED",
+    "number": "4001",
+    "honors": false,
+    "writing": false,
+    "name": "Beg Swedish Grad Research",
+    "fullname": "Beginning Swedish for Graduate Research",
+    "info": "Emphasis on working toward novice-intermediate low proficiency in all four language modalities (listening, reading, speaking, writing). Topics include everyday subjects (shopping, directions, family, food, housing, etc.). Meets concurrently with 1001.",
+    "prereq": {}
+  },
+  {
+    "uid": "014532",
+    "code": "SWED4002",
+    "subject": "SWED",
+    "number": "4002",
+    "honors": false,
+    "writing": false,
+    "name": "Beg Swedish Grad Research",
+    "fullname": "Beginning Swedish for Graduate Research",
+    "info": "Continues the presentation of all four language modalities (listening, reading, speaking, writing), with a proficiency emphasis. Topics include free-time activities, careers, and Swedish culture. Meets concurrently with 1002.",
+    "prereq": {}
+  },
+  {
+    "uid": "014534",
+    "code": "SWED4003",
+    "subject": "SWED",
+    "number": "4003",
+    "honors": false,
+    "writing": false,
+    "name": "Int Swedish Grad Research",
+    "fullname": "Intermediate Swedish for Graduate Research",
+    "info": "Emphasis on intermediate proficiency in listening, reading, speaking, and writing. Contextualized work on grammar and vocabulary is combined with authentic readings and essay assignments. Meets concurrently with 1003.",
+    "prereq": {}
+  },
+  {
+    "uid": "014535",
+    "code": "SWED4004",
+    "subject": "SWED",
+    "number": "4004",
+    "honors": false,
+    "writing": false,
+    "name": "Int Swedish Grad Research",
+    "fullname": "Intermediate Swedish for Graduate Research",
+    "info": "Emphasis on developing intermediate mid-high proficiency in listening, reading, speaking, and writing. Contextualized work on grammar and vocabulary is supported by work with authentic readings and essay assignments. Meets concurrently with 1004.",
+    "prereq": {}
+  }
+]

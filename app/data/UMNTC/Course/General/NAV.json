@@ -1,0 +1,178 @@
+[
+  {
+    "uid": "014527",
+    "code": "NAV1000",
+    "subject": "NAV",
+    "number": "1000",
+    "honors": false,
+    "writing": false,
+    "name": "Naval Lab I",
+    "fullname": "Professional Training in Naval Science",
+    "info": "Instruction and training in basic military subjects and professional development, including military leadership, close order drill, marksmanship, honors and ceremonies, personnel inspections, and computer-based war game simulations.  Classes and small group seminars on leadership and ethical issues with case studies.\n\nprereq: enrolled in NROTC",
+    "prereq": {}
+  },
+  {
+    "uid": "013602",
+    "code": "NAV1101",
+    "subject": "NAV",
+    "number": "1101",
+    "honors": false,
+    "writing": false,
+    "name": "Intro to Naval Sci",
+    "fullname": "Introduction to Naval Science",
+    "info": "Navy organization, customs and traditions, officer and enlisted rank and rating structures, uniforms and insignia, shipboard duties, seamanship, damage control, and safety. Core values of the naval services, Navy regulations, and the Uniform Code of Military Justice.",
+    "prereq": {}
+  },
+  {
+    "uid": "013603",
+    "code": "NAV1102",
+    "subject": "NAV",
+    "number": "1102",
+    "honors": false,
+    "writing": false,
+    "name": "Seapower",
+    "fullname": "Seapower and Maritime Affairs",
+    "info": "Historical influences on development of U.S. Navy, from American Revolution to present. Critical, contemporary issues.",
+    "prereq": {}
+  },
+  {
+    "uid": "014528",
+    "code": "NAV2000",
+    "subject": "NAV",
+    "number": "2000",
+    "honors": false,
+    "writing": false,
+    "name": "Naval Lab II",
+    "fullname": "Professional Training in Naval Science",
+    "info": "Instruction and training in basic military subjects and professional development, including military leadership, close order drill, marksmanship, honors and ceremonies, personnel inspections, and computer-based war game simulations.  Classes and small group seminars on leadership and ethical issues with case studies.\n\nprereq: Soph enrolled in NROTC",
+    "prereq": {}
+  },
+  {
+    "uid": "013614",
+    "code": "NAV2201",
+    "subject": "NAV",
+    "number": "2201",
+    "honors": false,
+    "writing": false,
+    "name": "Ship Systems I",
+    "fullname": "Ship Systems I: Naval Engineering",
+    "info": "Detailed study of ship characteristics/types. Design, hydrodynamic forces, stability, compartmentation, propulsion, electrical/auxiliary systems, damage control, administration. Basic concepts of theory/design for steam, gas turbine, diesel, nuclear propulsion.",
+    "prereq": {}
+  },
+  {
+    "uid": "013615",
+    "code": "NAV2202",
+    "subject": "NAV",
+    "number": "2202",
+    "honors": false,
+    "writing": false,
+    "name": "Ship Systems II",
+    "fullname": "Ship Systems II: Science and Technology in Naval Weapons Systems",
+    "info": "Detection, evaluation, threat analysis, weapon selection, delivery, guidance, explosives. Physical aspects of radar, underwater sound. Facets of command, control, communications as means of weapons system integration.",
+    "prereq": {}
+  },
+  {
+    "uid": "014529",
+    "code": "NAV3000",
+    "subject": "NAV",
+    "number": "3000",
+    "honors": false,
+    "writing": false,
+    "name": "Naval Lab III",
+    "fullname": "Professional Training in Naval Science",
+    "info": "Instruction and training in basic military subjects and professional development, including military leadership, close order drill, marksmanship, honors and ceremonies, personnel inspections, and computer-based war game simulations.  Classes and small group seminars on leadership and ethical issues with case studies.\n\nprereq: Jr enrolled in NROTC",
+    "prereq": {}
+  },
+  {
+    "uid": "013612",
+    "code": "NAV3301",
+    "subject": "NAV",
+    "number": "3301",
+    "honors": false,
+    "writing": false,
+    "name": "Navigation I Pilot & Celestial",
+    "fullname": "Navigation I: Piloting and Celestial Navigation",
+    "info": "National/international nautical rules of the road, seamanship, tactical maneuvering/signaling, relative motion, vector-analysis, formation tactics, ship employment, ship behavior/characteristics. Application of maneuvering board in solving motion problems.  (part 1)",
+    "prereq": {}
+  },
+  {
+    "uid": "013613",
+    "code": "NAV3302",
+    "subject": "NAV",
+    "number": "3302",
+    "honors": false,
+    "writing": false,
+    "name": "Navigation II (Ops)",
+    "fullname": "Navigation II: Seamanship and Ship Operations",
+    "info": "National/international nautical rules of the road, seamanship, tactical maneuvering/signaling, relative motion, vector-analysis, formation tactics, ship employment, ship behavior/characteristics. Application of maneuvering board in solving motion problems.\n\nprereq: 3301",
+    "prereq": {
+      "and": [
+        "013612"
+      ]
+    }
+  },
+  {
+    "uid": "013609",
+    "code": "NAV3309",
+    "subject": "NAV",
+    "number": "3309",
+    "honors": false,
+    "writing": false,
+    "name": "Maneuver Warfare",
+    "fullname": "Fundamentals of Maneuver Warfare",
+    "info": "Fundamentals of Maneuver Warfare (FMW) is a detailed look at broad aspects of warfare and their interactions with maneuver warfare doctrine, with a focus on the United States Marine Corps. Throughout the course there is a strong focus on Leadership, as the fundamental purpose of this course is to develop the skills, knowledge, leadership background and mentality necessary for a successful Marine Corps Officer.",
+    "prereq": {}
+  },
+  {
+    "uid": "013607",
+    "code": "NAV3310",
+    "subject": "NAV",
+    "number": "3310",
+    "honors": false,
+    "writing": false,
+    "name": "Evolution of War",
+    "fullname": "Evolution of Warfare",
+    "info": "Great military leaders of history. Development of warfare, from dawn of recorded history to present. Focuses on effect of major military theorists, strategists, tacticians, technological developments.",
+    "prereq": {}
+  },
+  {
+    "uid": "014530",
+    "code": "NAV4000",
+    "subject": "NAV",
+    "number": "4000",
+    "honors": false,
+    "writing": false,
+    "name": "Naval Lab IV",
+    "fullname": "Professional Training in Naval Science",
+    "info": "Instruction and training in basic military subjects and professional development, including military leadership, close order drill, marksmanship, honors and ceremonies, personnel inspections, and computer-based war game simulations.  Classes and small group seminars on leadership and ethical issues with case studies.\n\nprereq: Sr enrolled in NROTC",
+    "prereq": {}
+  },
+  {
+    "uid": "013604",
+    "code": "NAV4401W",
+    "subject": "NAV",
+    "number": "4401",
+    "honors": false,
+    "writing": true,
+    "name": "Leadership & Mgmt I",
+    "fullname": "Leadership and Management I",
+    "info": "Advanced study of organizational behavior/management. Major behavioral theories examined in detail. Practical applications. Exercises, case studies, seminar discussions.",
+    "prereq": {}
+  },
+  {
+    "uid": "013605",
+    "code": "NAV4402W",
+    "subject": "NAV",
+    "number": "4402",
+    "honors": false,
+    "writing": true,
+    "name": "Leadership & Ethics",
+    "fullname": "Leadership and Ethics",
+    "info": "Junior officer role. Responsibilities faced as leader, manager, professional officer of Naval Services. Develops specific competencies in areas of leadership, management, professional administration, development. Emphasizes Naval Service ethics, core values.\n\nprereq: NAV 4401W",
+    "prereq": {
+      "and": [
+        "013604"
+      ]
+    }
+  }
+]

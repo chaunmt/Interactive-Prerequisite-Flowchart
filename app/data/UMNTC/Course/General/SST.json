@@ -1,0 +1,107 @@
+[
+  {
+    "uid": "010660",
+    "code": "SST8000",
+    "subject": "SST",
+    "number": "8000",
+    "honors": false,
+    "writing": false,
+    "name": "Colloquium",
+    "fullname": "Colloquium",
+    "info": "Series of weekly lectures by nationally and internationally known scholars with diverse disciplinary and methodological backgrounds speaking on a variety of issues.\n\nprereq: Grad SST minor",
+    "prereq": {}
+  },
+  {
+    "uid": "010662",
+    "code": "SST8100",
+    "subject": "SST",
+    "number": "8100",
+    "honors": false,
+    "writing": false,
+    "name": "Sem: Models, Theories, Reality",
+    "fullname": "Seminar: Models, Theories, and Reality",
+    "info": "Students participate in ongoing research on the role of models and theories in science, and prepare and present research papers.\n\nprereq: HSci 8111 or [Phil 8601 or Phil 8602 or Phil 8605] or instr consent",
+    "prereq": {
+      "or": [
+        "009162",
+        {
+          "or": [
+            "008083",
+            "008085",
+            "008087"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "uid": "790917",
+    "code": "SST8200",
+    "subject": "SST",
+    "number": "8200",
+    "honors": false,
+    "writing": false,
+    "name": "Sem: Phil Phys Scien",
+    "fullname": "Seminar: Philosophy of the Physical Sciences",
+    "info": "Students participate in ongoing research in history, philosophy, and social study of physical sciences and prepare and present research papers.\n\nprereq: instr consent",
+    "prereq": {}
+  },
+  {
+    "uid": "010664",
+    "code": "SST8300",
+    "subject": "SST",
+    "number": "8300",
+    "honors": false,
+    "writing": false,
+    "name": "Sem: Biological/Biomed Sci",
+    "fullname": "Seminar: The Biological and Biomedical Sciences",
+    "info": "Students participate in ongoing research in history, philosophy, and social study of biological and biomedical sciences, and prepare and present research papers.\n\nprereq: HSci 8111 or [Phil 8601 or Phil 8602 or Phil 8605] or instr consent",
+    "prereq": {
+      "or": [
+        "009162",
+        {
+          "or": [
+            "008083",
+            "008085",
+            "008087"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "uid": "010666",
+    "code": "SST8400",
+    "subject": "SST",
+    "number": "8400",
+    "honors": false,
+    "writing": false,
+    "name": "Sem: Science, Tech, Society",
+    "fullname": "Seminar: Science, Technology, and Society",
+    "info": "Students participate in ongoing research on interactions involving science, technology, and society from perspectives of history, philosophy, and social study of science, and prepare and present research papers.\n\nprereq: HSci 8111 or [Phil 8601 or Phil 8602 or Phil 8605] or instr consent",
+    "prereq": {
+      "or": [
+        "009162",
+        {
+          "or": [
+            "008083",
+            "008085",
+            "008087"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "uid": "797092",
+    "code": "SST8420",
+    "subject": "SST",
+    "number": "8420",
+    "honors": false,
+    "writing": false,
+    "name": "Soc & Cult Stud Sci",
+    "fullname": "Seminar: Social and Cultural Studies of Science",
+    "info": "Recent work; theoretical and methodological differences among practitioners; selected responses from historians and philosophers of science.",
+    "prereq": {}
+  }
+]

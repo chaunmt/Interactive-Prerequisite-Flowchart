@@ -1,0 +1,281 @@
+[
+  {
+    "uid": "008851",
+    "code": "DTCH1001",
+    "subject": "DTCH",
+    "number": "1001",
+    "honors": false,
+    "writing": false,
+    "name": "Beginning Dutch",
+    "fullname": "Beginning Dutch",
+    "info": "Emphasis on working toward novice-intermediate low proficiency in all four language modalities (listening, reading, speaking, writing).  Topics include everyday subjects (shopping, directions, family, food, housing, etc.).",
+    "prereq": {}
+  },
+  {
+    "uid": "008858",
+    "code": "DTCH1002",
+    "subject": "DTCH",
+    "number": "1002",
+    "honors": false,
+    "writing": false,
+    "name": "Beginning Dutch",
+    "fullname": "Beginning Dutch",
+    "info": "Continues the presentation of all four language modalities (listening, reading, speaking, writing), with a proficiency emphasis. Topics include free-time activities, careers, and Dutch culture.\n\nprereq: 1001",
+    "prereq": {
+      "and": [
+        "008851"
+      ]
+    }
+  },
+  {
+    "uid": "008860",
+    "code": "DTCH1003",
+    "subject": "DTCH",
+    "number": "1003",
+    "honors": false,
+    "writing": false,
+    "name": "Intermediate Dutch",
+    "fullname": "Intermediate Dutch",
+    "info": "Emphasis on intermediate proficiency in listening, reading, speaking, and writing. Contextualized work on grammar and vocabulary is combined with authentic readings and essay assignments.\n\nprereq: 1002",
+    "prereq": {
+      "and": [
+        "008858"
+      ]
+    }
+  },
+  {
+    "uid": "008862",
+    "code": "DTCH1004",
+    "subject": "DTCH",
+    "number": "1004",
+    "honors": false,
+    "writing": false,
+    "name": "Intermediate Dutch",
+    "fullname": "Intermediate Dutch",
+    "info": "Emphasis on developing intermediate mid-high proficiency in listening, reading, speaking, and writing. Contextualized work on grammar and vocabulary is supported by work with authentic readings and essay assignments.\n\nprereq: 1003",
+    "prereq": {
+      "and": [
+        "008860"
+      ]
+    }
+  },
+  {
+    "uid": "817884",
+    "code": "DTCH1911",
+    "subject": "DTCH",
+    "number": "1911",
+    "honors": false,
+    "writing": false,
+    "name": "Anne Frank: Her Life, Legacy",
+    "fullname": "Anne Frank: Her Life and Legacy",
+    "info": "To understand Anne Frank's symbolic status as a holocaust victim and object of identification for many young people in the world, one must know the context of her ethnic heritage, the uniqueness of her hiding situation, and the critical acclaim of her journal and its adaptations. This seminar examines the iconic text against the backdrop of the Netherlands under a civil administration during the Nazi occupation. From the perspective of the history of Jewish life in the Netherlands, the rise of antisemitism and the German exploitation of the Dutch bureaucracy for the purpose of persecution and deportation, Anne Frank will emerge as a particular case of victimization, one of many, and not as the universal example with sainthood status that she has become over time. To look at her from this perspective, however, will by no means undermine or devalue the legacy of her optimism and humanism for our world of today.",
+    "prereq": {}
+  },
+  {
+    "uid": "825760",
+    "code": "DTCH1912",
+    "subject": "DTCH",
+    "number": "1912",
+    "honors": false,
+    "writing": false,
+    "name": "Amsterdam and the World",
+    "fullname": "Amsterdam and the World",
+    "info": "In the 17th century, Amsterdam was the richest city in the world. From here, the Dutch East India Company, the first multinational corporation of its kind, sailed across the oceans to establish trading posts and colonies all over the globe. Here, they speculated with tulips at the world\u2019s oldest stock market. 17th-century Amsterdam was known for its financial prosperity as well as its religious and intellectual freedom. Exiled communities settled here and enriched the city with new philosophies, religious ideas, and innovative scientific and technical practices. Amsterdam is the city of famous architects and painters, musicians, radical thinkers, and writers. While the wealth of Amsterdam was acquired through a vast global trading network, it did include traffic in enslaved people throughout its colonial empire. The course will explore current debates surrounding the Dutch colonial legacy in a 21st-century multicultural world and Amsterdam\u2019s leading role in our reconciliation with the past.",
+    "prereq": {}
+  },
+  {
+    "uid": "008825",
+    "code": "DTCH3011W",
+    "subject": "DTCH",
+    "number": "3011",
+    "honors": false,
+    "writing": true,
+    "name": "Conversation and Composition",
+    "fullname": "Conversation and Composition",
+    "info": "Practice/refinement of spoken/written Dutch. Composition, vocabulary. Reading, viewing, and discussion of Dutch/Flemish media reports. Grammar review, critical corrective grammatical skills.\n\nprereq: 1004 or 4004 or instr consent",
+    "prereq": {
+      "or": [
+        "008862",
+        "014506"
+      ]
+    }
+  },
+  {
+    "uid": "008826",
+    "code": "DTCH3012",
+    "subject": "DTCH",
+    "number": "3012",
+    "honors": false,
+    "writing": false,
+    "name": "Conversation and Composition",
+    "fullname": "Conversation and Composition",
+    "info": "Practice and refinement of spoken and written Dutch. Compositional skills, vocabulary. Reading, viewing, and discussion of Dutch and Flemish media reports. Grammar review. Development of critical corrective grammatical skills.\n\nprereq: 3011 or 4011",
+    "prereq": {
+      "or": [
+        "008825",
+        "808581"
+      ]
+    }
+  },
+  {
+    "uid": "008840",
+    "code": "DTCH3310",
+    "subject": "DTCH",
+    "number": "3310",
+    "honors": false,
+    "writing": false,
+    "name": "Studies in Dutch Literature",
+    "fullname": "Studies in Dutch Literature",
+    "info": "In-depth study of authors or topics from various periods in Dutch literature (e.g., 19th-century Dutch novels, colonial novels, literature of Golden Age). All primary literature is read in the original.\n\nprereq: Reading knowledge of Dutch",
+    "prereq": {}
+  },
+  {
+    "uid": "008842",
+    "code": "DTCH3510",
+    "subject": "DTCH",
+    "number": "3510",
+    "honors": false,
+    "writing": false,
+    "name": "Topics in Dutch Culture",
+    "fullname": "Topics in Dutch Culture",
+    "info": "A single topic or theme of Dutch or Flemish culture explored in depth. Past topics have included Dutch national character, origin of the Batavian myth, and images of Dutchness.\n\nprereq: No knowledge of Dutch required",
+    "prereq": {}
+  },
+  {
+    "uid": "008849",
+    "code": "DTCH3610",
+    "subject": "DTCH",
+    "number": "3610",
+    "honors": false,
+    "writing": false,
+    "name": "Dutch Lit in Translation",
+    "fullname": "Dutch Literature in Translation",
+    "info": "In-depth study of authors or topics from various periods in Dutch literature. All primary/secondary literature is read in English translation.",
+    "prereq": {}
+  },
+  {
+    "uid": "010308",
+    "code": "DTCH3993",
+    "subject": "DTCH",
+    "number": "3993",
+    "honors": false,
+    "writing": false,
+    "name": "Directed Studies",
+    "fullname": "Directed Studies",
+    "info": "Guided reading in or study of Dutch literature, culture, or advanced language skills.\nPrereq-instr consent, dept consent, college consent.",
+    "prereq": {}
+  },
+  {
+    "uid": "014490",
+    "code": "DTCH4001",
+    "subject": "DTCH",
+    "number": "4001",
+    "honors": false,
+    "writing": false,
+    "name": "Beginning Dutch Grad Research",
+    "fullname": "Beginning Dutch for Graduate Research",
+    "info": "Emphasis on working toward novice-intermediate low proficiency in all four language modalities (listening, reading, speaking, writing). Topics include everyday subjects (shopping, directions, family, food, housing, etc.). Meets concurrently with 1001.",
+    "prereq": {}
+  },
+  {
+    "uid": "014500",
+    "code": "DTCH4002",
+    "subject": "DTCH",
+    "number": "4002",
+    "honors": false,
+    "writing": false,
+    "name": "Beginning Dutch Grad Research",
+    "fullname": "Beginning Dutch for Graduate Research",
+    "info": "Continues the presentation of all four language modalities (listening, reading, speaking, writing), with a proficiency emphasis. Topics include free-time activities, careers, and Dutch culture. Meets concurrently with 1002.",
+    "prereq": {}
+  },
+  {
+    "uid": "014501",
+    "code": "DTCH4003",
+    "subject": "DTCH",
+    "number": "4003",
+    "honors": false,
+    "writing": false,
+    "name": "Int Dutch Grad Research",
+    "fullname": "Intermediate Dutch for Graduate Research",
+    "info": "Emphasis on intermediate proficiency in listening, reading, speaking, and writing. Contextualized work on grammar and vocabulary is combined with authentic readings and essay assignments. Meets concurrently with 1003.",
+    "prereq": {}
+  },
+  {
+    "uid": "014506",
+    "code": "DTCH4004",
+    "subject": "DTCH",
+    "number": "4004",
+    "honors": false,
+    "writing": false,
+    "name": "Int Dutch Grad Research",
+    "fullname": "Intermediate Dutch for Graduate Research",
+    "info": "Emphasis on developing intermediate mid-high proficiency in listening, reading, speaking, and writing. Contextualized work on grammar and vocabulary is supported by work with authentic readings and essay assignments. Meets concurrently with 1004.",
+    "prereq": {}
+  },
+  {
+    "uid": "808581",
+    "code": "DTCH4011",
+    "subject": "DTCH",
+    "number": "4011",
+    "honors": false,
+    "writing": false,
+    "name": "Conv and Comp Grad Research",
+    "fullname": "Conversation and Composition for Graduate Research",
+    "info": "Practice/refinement of spoken/written Dutch. Composition, vocabulary. Reading, viewing, and discussion of Dutch/Flemish media reports. Grammar review, critical corrective grammatical skills. Meets with 3011W.",
+    "prereq": {}
+  },
+  {
+    "uid": "808487",
+    "code": "DTCH4012",
+    "subject": "DTCH",
+    "number": "4012",
+    "honors": false,
+    "writing": false,
+    "name": "Conv and Comp Grad Research",
+    "fullname": "Conversation and Composition for Graduate Research",
+    "info": "Practice/refinement of spoken/written Dutch. Compositional skills, vocabulary. Reading, viewing, and discussion of Dutch/Flemish media reports. Grammar review. development of critical corrective grammatical skills. Meets with 3012. \n\nprereq: 3011 or 4011",
+    "prereq": {
+      "or": [
+        "008825",
+        "808581"
+      ]
+    }
+  },
+  {
+    "uid": "009928",
+    "code": "DTCH5490",
+    "subject": "DTCH",
+    "number": "5490",
+    "honors": false,
+    "writing": false,
+    "name": "Topics: Dtch Lit",
+    "fullname": "Topics in Dutch Literature",
+    "info": "Topic may focus on a specific author, group of authors, genre, period, or subject matter.  Topics specified in Class Schedule.",
+    "prereq": {}
+  },
+  {
+    "uid": "009941",
+    "code": "DTCH5741",
+    "subject": "DTCH",
+    "number": "5741",
+    "honors": false,
+    "writing": false,
+    "name": "Dtch:Med, Early Mod",
+    "fullname": "Medieval and Early Modern Dutch",
+    "info": "Introduction to the linguistic aspects of medieval and early modern Dutch.  Reading and analysis of representative literary texts from the Dutch Middle Ages to 1700.",
+    "prereq": {}
+  },
+  {
+    "uid": "010309",
+    "code": "DTCH5993",
+    "subject": "DTCH",
+    "number": "5993",
+    "honors": false,
+    "writing": false,
+    "name": "Directed Studies",
+    "fullname": "Directed Studies",
+    "info": "Guided individual reading or study.\nPrereq-instr consent, dept consent, college consent.",
+    "prereq": {}
+  }
+]

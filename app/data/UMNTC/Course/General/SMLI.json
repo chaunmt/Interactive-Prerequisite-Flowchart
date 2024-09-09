@@ -1,0 +1,126 @@
+[
+  {
+    "uid": "804218",
+    "code": "SMLI1221",
+    "subject": "SMLI",
+    "number": "1221",
+    "honors": false,
+    "writing": false,
+    "name": "Beginning Somali",
+    "fullname": "Beginning Somali",
+    "info": "Comprehension, speaking, reading, writing.",
+    "prereq": {}
+  },
+  {
+    "uid": "804338",
+    "code": "SMLI1222",
+    "subject": "SMLI",
+    "number": "1222",
+    "honors": false,
+    "writing": false,
+    "name": "Somali II",
+    "fullname": "Beginning Somali II",
+    "info": "Comprehension, speaking, reading, writing.\n\nprereq: 1221",
+    "prereq": {
+      "and": [
+        "804218"
+      ]
+    }
+  },
+  {
+    "uid": "804255",
+    "code": "SMLI1225",
+    "subject": "SMLI",
+    "number": "1225",
+    "honors": false,
+    "writing": false,
+    "name": "Accelerated Beginning Somali I",
+    "fullname": "Accelerated Beginning Somali I",
+    "info": "Review of grammar/usage, practice in reading/writing. Introduction to Somali literature and formal writing. Topics in Somali culture. \n\nprereq: EPT Placement of SMLI 1225 and ability in basic spoken Somali",
+    "prereq": {
+      "and": [
+        "804255"
+      ]
+    }
+  },
+  {
+    "uid": "804258",
+    "code": "SMLI1226",
+    "subject": "SMLI",
+    "number": "1226",
+    "honors": false,
+    "writing": false,
+    "name": "Accelerated Beg Somali II",
+    "fullname": "Accelerated Beginning Somali II",
+    "info": "Review of grammar/usages, practice in reading/writing. Introduction to Somali literature and formal writing. Topics in Somali culture.\n\nprereq: 1225 or instr consent",
+    "prereq": {
+      "or": [
+        "804255"
+      ]
+    }
+  },
+  {
+    "uid": "807333",
+    "code": "SMLI1227",
+    "subject": "SMLI",
+    "number": "1227",
+    "honors": false,
+    "writing": false,
+    "name": "Intermediate Somali",
+    "fullname": "Intermediate Somali",
+    "info": "Review of grammar/usage, practice in reading/writing. Introduction to Somali literature and formal writing. Somali culture.",
+    "prereq": {}
+  },
+  {
+    "uid": "807488",
+    "code": "SMLI3227",
+    "subject": "SMLI",
+    "number": "3227",
+    "honors": false,
+    "writing": false,
+    "name": "Intermediate Somali I",
+    "fullname": "Intermediate Somali I",
+    "info": "Intermediate level Somali language for undergraduate students. \n\nprereq: SMLI 1222",
+    "prereq": {
+      "and": [
+        "804338"
+      ]
+    }
+  },
+  {
+    "uid": "807498",
+    "code": "SMLI3228",
+    "subject": "SMLI",
+    "number": "3228",
+    "honors": false,
+    "writing": false,
+    "name": "Intermediate Somali II",
+    "fullname": "Intermediate Somali II",
+    "info": "Intermediate Somali language for undergraduate students.",
+    "prereq": {}
+  },
+  {
+    "uid": "807495",
+    "code": "SMLI4227",
+    "subject": "SMLI",
+    "number": "4227",
+    "honors": false,
+    "writing": false,
+    "name": "Int Somali Grad Research I",
+    "fullname": "Intermediate Somali for Graduate Research I",
+    "info": "Intermediate Somali language for graduate students.",
+    "prereq": {}
+  },
+  {
+    "uid": "807494",
+    "code": "SMLI4228",
+    "subject": "SMLI",
+    "number": "4228",
+    "honors": false,
+    "writing": false,
+    "name": "Int Somali Grad Research II",
+    "fullname": "Intermediate Somali for Graduate Research II",
+    "info": "Intermediate Somali II for graduate students.",
+    "prereq": {}
+  }
+]
