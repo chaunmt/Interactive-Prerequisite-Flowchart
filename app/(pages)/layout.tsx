@@ -1,6 +1,8 @@
 import Header from "../components/layout/Header";
 import Footer from "../components/layout/Footer";
 import { Keywords } from "../components/layout/Meta";
+import * as React from "react";
+import {Providers} from "../providers";
 
 import { Metadata } from "next";
 import "../components/styles/Layout.css";
@@ -22,12 +24,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className="bgImg">
-        <Header />
-        <main>{children}</main>
-        <Footer />
-      </body>
-    </html>
+      <html lang="en">
+        <body className="bgImg">
+          <Providers>
+            <Header />
+              <main>{children}</main>
+            <Footer />
+          </Providers>
+        </body>
+      </html>
   );
 }

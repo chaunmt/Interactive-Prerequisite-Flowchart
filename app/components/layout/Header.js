@@ -1,6 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
 import "../styles/Layout.css";
+import { ThemeSwitcher } from "../picker/ThemeSwitcher";
+import {Button, ButtonGroup} from "@nextui-org/button";
 
 export default function Header() {
   //test dark mode branch
@@ -16,12 +18,17 @@ export default function Header() {
           />
         </Link>
       </nav>
+
       <ul>
         <li id="home"><Link href={"/"}>Home</Link></li>
         <li id="about">About</li>
         <li id="subject">Subject</li>
         <li id="setting">Setting</li>
+        <li>
+          <ThemeSwitcher />
+        </li>
       </ul>
+
     </div>
   );
 }

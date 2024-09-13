@@ -1,4 +1,7 @@
 @import url("./Fonts.css");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   /* ---------------------------- New set of global color and variables ---------------------------- */
