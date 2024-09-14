@@ -81,25 +81,33 @@ config:
     "\n%% node declarations\n" +
     input.nodes
       .map((n) => {
-        if (n.text == "OR") {
+        if (n.type == "or") {
           // sorry if your editor bugs out: the zwj allows me to
           // add padding because mermaid trims whitespace otherwise
           return `${n.id}([‍  or  ‍]):::OR\n`;
         }
-        if (n.text == "AND") {
+        if (n.type == "and") {
           // sorry if your editor bugs out: the zwj allows me to
           // add padding because mermaid trims whitespace otherwise
           return `${n.id}{{‍ and ‍}}:::AND\n`;
         }
         // course node
-        return `${n.id}[${n.text}]\n`;
+        return `${n.id}[${n.display || "unknown"}]\n`;
       })
       .join("") +
     "\n%% edge declarations\n" +
-    input.edges
-      .map((e) => {
-        return `${e.from} --> ${e.to}\n`;
-      })
+    input.nodes
+      .map((parent) =>
+        parent.inbound_edges
+          .map((child) => `${child} --> ${parent.id}\n`)
+          .join(""),
+      )
       .join("");
+  // input.edges
+  //   .map((e) => {
+  //     return `${e.from} --> ${e.to}\n`;
+  //   })
+  //   .join("");
+  console.log(graph);
   return graph;
 }
