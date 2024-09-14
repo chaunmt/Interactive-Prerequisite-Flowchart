@@ -9,11 +9,10 @@
  * This component may also enable new ways of modifying/updating the graph,
  * such as manually adding new entries instead of relying entirely on the
  * Mermaid compatibility layer in graphBuilder.ts
-*/
+ */
 export default Graph;
 
 import Mermaid from "./Mermaid";
-import { CourseShell } from "../../data/types";
 import buildGraph from "../../data/graphBuilder";
 import type { GraphData, build_options } from "../../data/graphBuilder";
 
@@ -27,8 +26,9 @@ export type {
 };
 
 type display_options = {
-  readonly orientation?: "TB" | "BT" | "LR" | "RL"; // top-bottom, bottom-top, left-right, right-left
-  // TODO: other readonly optional members as needed (remember to pad for undefined when using nonboolean) -- jahndan 2024/04/11
+  orientation?: "TB" | "BT" | "LR" | "RL"; // top-bottom, bottom-top, left-right, right-left
+  theme?: "light" | "dark"; // assumed light if not included
+  // TODO: other optional members as needed (remember to pad for undefined when using nonboolean) -- jahndan 2024/04/11
 };
 
 function Graph({
@@ -38,22 +38,67 @@ function Graph({
   build: build_options;
   display?: display_options;
 }) {
-  //TODO: add graph customization features
+  // TODO: add graph customization features
   const graph = buildGraph(build);
 
   return <Mermaid graph={convertJSONGraph(graph, display)} />;
 }
 
-/** naively converts a JSON representation of a graph to Mermaid's markdown representation */
-function convertJSONGraph(input: GraphData, display?: display_options) {
-  // TODO sophisticated conversion if still using Mermaid -- 2024/01/13
-  let orientation = display?.orientation || "BT";
+// here only SVG styling works -- text styling must happen in Mermaid init
+const lightStyles = `
+classDef AND fill:#9cc684,stroke:#53793a,stroke-width:1px;
+classDef OR fill:#63c7e1,stroke:#007d96,stroke-width:1px;
+classDef default fill:#d2aef1,stroke:#815f9c,stroke-width:1px;
+`;
+const darkStyles = `
+classDef AND fill:#9cc684,stroke:#53793a,stroke-width:1px;
+classDef OR fill:#63c7e1,stroke:#007d96,stroke-width:1px;
+classDef default fill:#d2aef1,stroke:#815f9c,stroke-width:1px;
+`;
 
-  return (
+/** naively converts a JSON representation of a graph to Mermaid's textual representation */
+export function convertJSONGraph(input: GraphData, display?: display_options) {
+  // TODO sophisticated conversion if still using Mermaid -- 2024/01/13
+  let frontmatter = `\
+---
+config:
+  # # probably use this for arrow colors
+  # theme: ${display?.theme == "dark" ? "dark" : "neutral"}
+  # # not yet sure how to use this or what for
+  # themeCSS: ${display?.theme || "light"}
+  # layout: elk  # redundant
+---
+
+`;
+  let orientation = display?.orientation || "BT";
+  let styling = display?.theme == "dark" ? darkStyles : lightStyles;
+
+  let graph =
+    frontmatter +
     `graph ${orientation}\n` +
-    [
-      input.nodes.map((n) => `${n.id}[${n.text}]`).join("\n"), // node declarations
-      input.edges.map((e) => `${e.from} --> ${e.to}`).join("\n"), // edge declarations
-    ].join("\n")
-  );
+    styling +
+    "\n%% node declarations\n" +
+    input.nodes
+      .map((n) => {
+        if (n.text == "OR") {
+          // sorry if your editor bugs out: the zwj allows me to
+          // add padding because mermaid trims whitespace otherwise
+          return `${n.id}([‍  or  ‍]):::OR\n`;
+        }
+        if (n.text == "AND") {
+          // sorry if your editor bugs out: the zwj allows me to
+          // add padding because mermaid trims whitespace otherwise
+          return `${n.id}{{‍ and ‍}}:::AND\n`;
+        }
+        // course node
+        return `${n.id}[${n.text}]\n`;
+      })
+      .join("") +
+    "\n%% edge declarations\n" +
+    input.edges
+      .map((e) => {
+        return `${e.from} --> ${e.to}\n`;
+      })
+      .join("");
+  return graph;
 }
