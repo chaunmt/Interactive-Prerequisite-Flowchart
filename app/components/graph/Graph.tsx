@@ -92,7 +92,7 @@ config:
           return `${n.id}{{‍ and ‍}}:::AND\n`;
         }
         // course node
-        return `${n.id}[${n.display || "unknown"}]\n`;
+        return `${n.id}[${n.meta || "unknown"}]\n`;
       })
       .join("") +
     "\n%% edge declarations\n" +

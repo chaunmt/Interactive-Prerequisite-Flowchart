@@ -15,14 +15,14 @@ export type { GraphData, build_options };
 
 /** debug messages from buildGraph */
 const debug: {
-  process?: boolean; // print at each stage of the process in order of evaluation
-  postprocess?: boolean; // print steps of the post-processing where stuff is renamed and filtered
-  output?: boolean; // print the output graph in dual list form before returning
-  formatted?: boolean; // compacts the log output at the expense of some specificity
+  process?: boolean;
+  raw_output?: boolean;
+  postprocess?: boolean;
+  formatted?: boolean;
 } = {
   // process: true,
-  // postprocess: true,
-  // output: true,
+  postprocess: true,
+  // raw_output: true,
   formatted: true, // some prints don't work right if this is off
 };
 
@@ -37,18 +37,84 @@ type build_options = {
   strong_orphans?: readonly CourseShell[]; // will never be filtered out even if it's an orphan node (does not add to the graph, just overrides the filter)
 };
 
+// debugging function
+function graphtostring(graph: GraphData): string {
+  return graph.nodes
+    .map(
+      (node) =>
+        `\
+${node?.id}${node?.type == "course" ? `[${node?.meta}]` : ""}
+  type: ${node?.type}
+  edges: ${node?.inbound_edges}
+`,
+    )
+    .join("");
+}
+
 function buildGraph(input: build_options): GraphData {
   let { strong_orphans } = input;
-  let graph = surgery(rawbuild(input));
+  let raw = rawbuild(input);
+  let combined = combine(raw);
+  // if (debug.postprocess) {
+  //   console.log("POSTCOMBINE:");
+  //   console.log("combined:\n" + graphtostring(combined));
+  // }
+  let graph = surgery(combined);
+  // if (debug.postprocess) {
+  //   console.log("POSTSURGERY:");
+  //   console.log("graph:\n" + graphtostring(graph));
+  // }
   return input.decimate_orphans ? assist(graph) : graph;
 
-  // remove redundant or/and
-  function surgery(graph: GraphData) {
+  // stitch top level 'and' nodes out
+  function surgery(graph: GraphData): GraphData {
+    graph["listdebug"];
+    graph.nodes
+      .filter((n) => n.type == "course")
+      .forEach((node) => {
+        node.inbound_edges
+          .map((e) => graph.nodes.find((n) => n.id == e))
+          .filter((n) => n?.type == "and")
+          .forEach((and, i) => {
+            // if not a combined node
+            if (!and.meta) {
+              // remove 'and' node
+              let idx = graph.nodes.indexOf(and);
+              graph.nodes.splice(idx, 1); // from the list of nodes
+              node.inbound_edges.splice(i, 1); // from this node's list of edges
+              // stitch 'and' children to 'course' node
+              node.inbound_edges.push(...and.inbound_edges);
+            }
+          });
+      });
+    return graph;
+  }
+
+  // filter out orphans
+  function assist(graph: GraphData): GraphData {
+    let preserves = strong_orphans.map((sh) => `${sh.subject}_${sh.id}`);
+    let edges = graph.nodes
+      .map((node) => {
+        return node.inbound_edges.map((from) => {
+          return { from, to: node.id };
+        });
+      })
+      .flat();
+    let nodes = graph.nodes.filter(
+      (node) =>
+        preserves.includes(node.id) ||
+        edges.some((edge) => node.id == edge.from || node.id == edge.to),
+    );
+    return { nodes: nodes };
+  }
+
+  // de-duplicate 'and'/'or' nodes that share same child nodes
+  function combine(graph: GraphData) {
     // note: reverse order for correctness
     // must process children before parents
     // -- a node's canonized id is based on its children
     for (let node of graph.nodes.reverse()) {
-      // canonize only And/Or nodes
+      // canonize only 'and'/'or' nodes
       switch (node.type) {
         case "and":
         case "or":
@@ -63,7 +129,8 @@ function buildGraph(input: build_options): GraphData {
           );
           for (let n of updates) {
             // replace the id in the edge list
-            n.inbound_edges[n.inbound_edges.indexOf(old_id)] = node.id;
+            let i = n.inbound_edges.indexOf(old_id);
+            n.inbound_edges.splice(i, 1, node.id);
           }
           if (debug.postprocess) {
             console.log(old_id, "", node.id);
@@ -74,24 +141,16 @@ function buildGraph(input: build_options): GraphData {
     }
 
     // remove duplicates
-    let out: GraphData = { nodes: [], edges: null };
+    let out: GraphData = { nodes: [] };
     for (const node of graph.nodes) {
-      if (out.nodes.every((n) => n.id !== node.id)) {
+      let existing_node = out.nodes.find((n) => n.id == node.id);
+      if (existing_node) {
+        existing_node.meta = true; // existing node is a combined node
+      } else {
         out.nodes.push(node);
       }
     }
     return out;
-  }
-
-  // filter out orphans
-  function assist(graph: GraphData): GraphData {
-    let preserves = strong_orphans.map((sh) => `${sh.subject}_${sh.id}`);
-    let nodes = graph.nodes.filter(
-      (node) =>
-        preserves.includes(node.id) ||
-        graph.edges.some((edge) => node.id == edge.from || node.id == edge.to),
-    );
-    return { nodes: nodes, edges: graph.edges };
   }
 }
 
@@ -105,16 +164,16 @@ function rawbuild(input: build_options): GraphData {
   } = input;
 
   if (includes.length == 0 && soft_excludes.length == 0) {
-    console.warn("WARNING: no courses passed in, building empty graph.");
+    console.warn("WARNING: no courses passed in, returning empty graph.");
+    return { nodes: [] };
   }
   if (debug.process) {
     const log = debug.formatted ? includes.map((x) => x.code) : includes;
-    console.log("begin build:", log);
+    console.log("PROCESS:", log);
   }
 
   // lots of declarations needed in scope for closures
   let node_list: NodeData[] = [];
-  let edge_list: EdgeData[] = [];
   /** store and reuse Accessors instead of creating a new one every time it's needed */
   let accessors = new Map<string, Accessor>();
   let processor = PrereqTraversal<void, build_state>(
@@ -130,49 +189,39 @@ function rawbuild(input: build_options): GraphData {
   // enter recursive pattern for each included/soft_excluded course
   soft_excludes.forEach((course, i) => {
     const log = debug.formatted ? course.code : course;
-    if (hard_excludes.some((excl) => isEqualCourses(excl, course))) {
-      if (debug.process) {
-        console.log(`soft_excludes[${i}]:`, log, "skipped (hard exclusion)");
-      }
-    } else {
+    if (hard_excludes.every((excl) => !isEqualCourses(excl, course))) {
       if (debug.process) {
         console.log(`soft_excludes[${i}]:`, log);
       }
       singleton(course);
+    } else {
+      if (debug.process) {
+        console.log(`soft_excludes[${i}]:`, log, "skipped (hard exclusion)");
+      }
     }
   });
   includes.forEach((course, i) => {
     const log = debug.formatted ? course.code : course;
-    if (hard_excludes.some((thing) => isEqualCourses(thing, course))) {
-      if (debug.process) {
-        console.log(`includes[${i}]:`, log, "skipped (hard exclusion)");
-      }
-    } else {
+    if (hard_excludes.every((thing) => !isEqualCourses(thing, course))) {
       if (debug.process) {
         console.log(`includes[${i}]:`, log);
       }
       singleton(course);
+    } else {
+      if (debug.process) {
+        console.log(`includes[${i}]:`, log, "skipped (hard exclusion)");
+      }
     }
   });
 
   // by the time flow of control is back here the graph should be complete
-  if (debug.output) {
-    console.log("finish build:");
-    const nlog = node_list
-      .map(
-        (n) => `\
-${n.id}:
-  type: ${n.type}
-  inbounds: [${n.inbound_edges}]
-`,
-      )
-      .join("");
-    // const elog = edge_list.map((e) => `${e.from} -> ${e.to}\n`).join("");
+  if (debug.raw_output) {
+    console.log("OUTPUT:");
+    const nlog = graphtostring({ nodes: node_list });
     console.log(nlog);
   }
   return {
     nodes: node_list,
-    edges: edge_list,
   };
 
   // here follows a lot of closures that need* this specific scope
@@ -201,7 +250,7 @@ ${n.id}:
       : accessors.get(course.subject).get(course);
 
     // TODO proper error handling - 2024/03/08
-    if (full_course == null) {
+    if (!full_course) {
       console.error(
         "ERROR: Invalid course found while building graph:",
         course.code,
@@ -217,18 +266,21 @@ ${n.id}:
     if (node_list.every((node) => node.id !== node_id)) {
       node_list.push({
         id: node_id,
-        display: code,
+        meta: code,
         type: "course",
         inbound_edges: [],
       });
 
       // only process prereqs if not soft_excluded
       if (soft_excludes.every((encl) => code != encl.code)) {
-        processor(simplify ? flatten(prereq) : prereq, { nid: node_id, i: 0 });
+        processor(simplify ? flatten(prereq) : prereq, {
+          parent: node_id,
+          i: 0,
+        });
       } // TODO pretty certain this if guard is unnecessary if we process soft_excludes before includes
     }
 
-    // this is used to distinguish And/Or nodes from each other
+    // this is used to distinguish 'and'/'or' nodes from each other
     return node_id;
   }
 
@@ -238,43 +290,36 @@ ${n.id}:
 
     let node_id = singleton(preq);
     // add this node we are currently creating to the parent's list of inbound edges
-    node_list.find((n) => n.id == state.nid)?.inbound_edges.push(node_id);
-    let edge_id = `${node_id}___${state.nid}`;
-    if (edge_list.every((edge) => edge.id !== edge_id)) {
-      edge_list.push({ id: edge_id, from: node_id, to: state.nid });
-    }
+    node_list.find((n) => n.id == state.parent)?.inbound_edges.push(node_id);
     return;
   }
 
   function arrx(state: build_state, index: number): build_state {
-    return { nid: state.nid, i: index };
+    return { parent: state.parent, i: index };
   }
 
   function orx(state: build_state): build_state {
-    let node_id = `${state.nid}_${state.i}_or`;
+    let node_id = `${state.parent}_${state.i}_or`;
     // add this node we are currently creating to the parent's list of inbound edges
-    node_list.find((n) => n.id == state.nid)?.inbound_edges.push(node_id);
-    let edge_id = `${node_id}___${state.nid}`;
+    node_list.find((n) => n.id == state.parent)?.inbound_edges.push(node_id);
     // if (node_list.every(node => node.id !== node_id)) {
     node_list.push({ id: node_id, type: "or", inbound_edges: [] });
-    edge_list.push({ id: edge_id, from: node_id, to: state.nid });
     // }
-    return { nid: node_id, i: state.i };
+    return { parent: node_id, i: state.i };
   }
 
   function andx(state: build_state): build_state {
-    let node_id = `${state.nid}_${state.i}_and`;
+    let node_id = `${state.parent}_${state.i}_and`;
     // add this node we are currently creating to the parent's list of inbound edges
-    node_list.find((n) => n.id == state.nid)?.inbound_edges.push(node_id);
-    let edge_id = `${node_id}___${state.nid}`;
+    node_list.find((n) => n.id == state.parent)?.inbound_edges.push(node_id);
+    let edge_id = `${node_id}___${state.parent}`;
     // if (node_list.every(node => node.id !== node_id)) {
     node_list.push({ id: node_id, type: "and", inbound_edges: [] });
-    edge_list.push({ id: edge_id, from: node_id, to: state.nid });
     // }
-    return { nid: node_id, i: state.i };
+    return { parent: node_id, i: state.i };
   }
 
-  type build_state = { nid: string; i: number };
+  type build_state = { parent: string; i: number };
 }
 
 let flatten = PrereqTraversal<CourseShell[], void>(
@@ -296,22 +341,13 @@ let flatten = PrereqTraversal<CourseShell[], void>(
 
 type GraphData = {
   nodes: NodeData[]; //: Map<node_id, NodeData>;
-  edges: EdgeData[]; //: Map<edge_id, EdgeData>;
 };
 
 type node_id = string;
-type edge_id = string;
 
 interface NodeData {
   id: node_id;
-  display?: any;
+  meta?: any; // display text for course nodes, combined status for and/or nodes
   type: "course" | "or" | "and";
-  inbound_edges: node_id[]; // corresponds to an edge from list entry to this
-}
-
-// maybe redundant now -- but refactoring needed elsewhere before removing this
-interface EdgeData {
-  id: edge_id; // currently unused
-  from?: string;
-  to?: string;
+  inbound_edges: node_id[]; // nodes in the list have edges going towards this one
 }
