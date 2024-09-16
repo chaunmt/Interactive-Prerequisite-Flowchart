@@ -1,5 +1,5 @@
 // page with dynamic graph generation and search bar for courses in [subj]
-import Access, { allSubjects } from "../../data/access";
+import { Access, allSubjects } from "../../data/access";
 import { NavigationSearch } from "../../components/search/NavigationSearch";
 
 import Custom404 from "../[errors]/404";

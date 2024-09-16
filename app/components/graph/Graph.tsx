@@ -9,12 +9,12 @@
  * This component may also enable new ways of modifying/updating the graph,
  * such as manually adding new entries instead of relying entirely on the
  * Mermaid compatibility layer in graphBuilder.ts
-*/
+ */
 export default Graph;
 
 import Mermaid from "./Mermaid";
 import { CourseShell } from "../../data/types";
-import buildGraph from "../../data/graphBuilder";
+import { buildGraph } from "../../data/graphBuilder";
 import type { GraphData, build_options } from "../../data/graphBuilder";
 
 export type {
