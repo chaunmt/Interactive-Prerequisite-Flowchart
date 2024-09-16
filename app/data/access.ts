@@ -7,6 +7,10 @@ import {
 } from "./types";
 
 export {
+  /** Accessor Factory - returns the subject-specific accessor to get relevant course info
+   *
+   * note: SUBJECT should be an uppercase string matching those in subjects */
+  Access,
   /** One Accessor for all - not a factory, just directly access the methods on this one */
   AccessAll,
   /** a list of all subject codes */
@@ -21,10 +25,7 @@ export {
 
 const subjects: readonly string[] = require(`./General/allSubjects.json`);
 
-/** Accessor Factory - returns the subject-specific accessor to get relevant course info
- *
- * note: SUBJECT should be an uppercase string matching those in subjects */
-export default function Access(SUBJECT: string): Accessor | undefined {
+function Access(SUBJECT: string): Accessor | undefined {
   if (!subjects.includes(SUBJECT)) {
     console.error(`Invalid subject "${SUBJECT}" passed to Access module!`);
     return;
@@ -163,10 +164,6 @@ const AccessAll: Omit<Accessor, "ids"> = (() => {
     return getCourse(shell.code);
   }
 })(); // IIFE
-
-function allSubj() {
-  return subjects;
-}
 
 // utility functions that can either be imported separately or used as members of the accessor objects
 

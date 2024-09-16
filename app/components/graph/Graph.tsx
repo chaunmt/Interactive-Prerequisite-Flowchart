@@ -13,7 +13,8 @@
 export default Graph;
 
 import Mermaid from "./Mermaid";
-import buildGraph from "../../data/graphBuilder";
+import { buildGraph } from "../../data/graphBuilder";
+
 import type { GraphData, build_options } from "../../data/graphBuilder";
 
 export type {

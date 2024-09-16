@@ -1,4 +1,4 @@
-import Access, { allSubjects } from "../../../data/access";
+import { Access, allSubjects } from "../../../data/access";
 import { NavigationSearch } from "../../../components/search/NavigationSearch";
 import Link from "next/link";
 

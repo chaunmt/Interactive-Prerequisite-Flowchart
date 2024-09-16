@@ -1,4 +1,4 @@
-import Access, { isEqualCourses } from "./access";
+import { Access, isEqualCourses } from "./access";
 import {
   Accessor,
   CourseShell,
@@ -10,6 +10,7 @@ import {
 
 // TODO redo documentation (reexported items should be documented where reexported)
 
+export { buildGraph };
 export type { GraphData, build_options };
 
 /** debug messages from buildGraph */
@@ -37,7 +38,7 @@ type build_options = {
 /** use this to check if every or node is redundant; TODO implement */
 function or_redundancy_check() {}
 
-export default function buildGraph(input: build_options): GraphData {
+function buildGraph(input: build_options): GraphData {
   let { strong_orphans } = input;
   let graph = surgery(build(input));
   return input.decimate_orphans ? assist(graph) : graph;
