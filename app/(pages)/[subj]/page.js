@@ -27,7 +27,7 @@ export default function Page({ params }) {
         <NavigationSearch/>
       </div>
       <div id="tableBox">
-        <CoursesTable SUBJ_COURSES={SUBJ_COURSES}/>
+        <CoursesTable courses={SUBJ_COURSES}/>
       </div>
     </div>
   );

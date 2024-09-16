@@ -13,6 +13,19 @@ button.card {
   box-shadow: 0rem 0rem 0.2rem var(--shadow);
 }
 
+button.card_hl {
+  text-align: center;
+  background-color: var(--uomn-yellow);
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  width: 6rem;
+  height: 3rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  box-shadow: 0rem 0rem 0.2rem var(--shadow);
+}
+
 #containers {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -51,4 +64,3 @@ button.card {
   flex-direction: row;
   justify-content: space-between;
 }
-

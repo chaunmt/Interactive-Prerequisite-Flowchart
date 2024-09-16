@@ -1,6 +1,13 @@
 export type { Accessor, CourseShell, Course, PrereqFormat };
 
-export { isCourseShell, isCourse, PrereqTraversal };
+export {
+  isPrereqCourseShell,
+  isPrereqCourse,
+  isCourseShell,
+  isCourse,
+  cmpCourse,
+  PrereqTraversal,
+};
 
 // this only exists for when you need Map<string, Accessor>
 type Accessor = {
@@ -8,7 +15,7 @@ type Accessor = {
   ids: readonly string[];
   getCourse: {
     (value: string): Course | null;
-    (value: string, property: "code" | "id"): Course | null;
+    (value: string, property: "code" | "id"): Course | undefined;
   };
   target: (prereq: CourseShell) => Course[];
   isPrereq: (course: CourseShell, target: Course) => boolean;
@@ -38,13 +45,39 @@ type PrereqFormat =
   | CourseShell;
 
 /** like Array.isArray(), this does type verification */
-function isCourseShell(arg: PrereqFormat): arg is CourseShell {
+function isPrereqCourseShell(arg: PrereqFormat): arg is CourseShell {
   return (arg as CourseShell).code !== undefined;
 }
 
 /** like Array.isArray(), this does type verification */
-function isCourse(arg: PrereqFormat): arg is CourseShell {
-  return isCourseShell(arg) && (arg as Course).title !== undefined;
+function isPrereqCourse(arg: PrereqFormat): arg is Course {
+  return isPrereqCourseShell(arg) && (arg as Course).title !== undefined;
+}
+function isCourseShell(arg: any): arg is CourseShell {
+  return (
+    arg &&
+    (arg as Course).code !== undefined &&
+    (arg as Course).subject !== undefined &&
+    (arg as Course).id !== undefined
+  );
+}
+function isCourse(arg: any): arg is Course {
+  return (
+    isCourseShell(arg) &&
+    (arg as Course).title !== undefined &&
+    (arg as Course).info !== undefined &&
+    (arg as Course).prereq !== undefined
+  );
+}
+
+function cmpCourse(a: Course, b: Course): number {
+  if (a.code > b.code) {
+    return 1;
+  } else if (b.code > a.code) {
+    return -1;
+  } else {
+    return 0;
+  }
 }
 
 /** "a little bit of functional programming never hurt anybody" - jahndan, 2024
@@ -76,7 +109,7 @@ function PrereqTraversal<out, state>(
       /* in the array pattern, each entry is mapped to the corresponding
        * output, and this array is fed into the array lambda */
       return arrl(input.map((value, i) => fn(value, rx(ex, i))));
-    } else if (isCourseShell(input)) {
+    } else if (isPrereqCourseShell(input)) {
       /* this is the branch whose lambda defines the behavior of the
        * whole function you get back, and it's the terminating case
        * of this recursion pattern */

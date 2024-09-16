@@ -25,9 +25,10 @@ export {
 
 const subjects: readonly string[] = require(`./General/allSubjects.json`);
 
-function Access(SUBJECT: string): Accessor {
+function Access(SUBJECT: string): Accessor | undefined {
   if (!subjects.includes(SUBJECT)) {
-    throw new Error(`Invalid subject "${SUBJECT}" passed to Access module!`);
+    console.error(`Invalid subject "${SUBJECT}" passed to Access module!`);
+    return;
   }
 
   const courses: readonly Course[] = require(`./Dog/${SUBJECT}.json`);
@@ -39,8 +40,7 @@ function Access(SUBJECT: string): Accessor {
     /** all course ID numbers in this subject */
     ids,
     /** Get course item that has a matching code (or id if specified)
-     * Returns a null if none found
-     */
+     * Returns undefined if none found */
     getCourse,
     /** Returns an array of Courses that have prereq as its prerequisites */
     target,
@@ -56,9 +56,15 @@ function Access(SUBJECT: string): Accessor {
 
   // definitions which still need to happen in this scope (closure)
 
-  function getCourse(value: string): Course | null;
-  function getCourse(value: string, property: "code" | "id"): Course | null;
-  function getCourse(value: string, property?: "code" | "id"): Course | null {
+  function getCourse(value: string): Course | undefined;
+  function getCourse(
+    value: string,
+    property: "code" | "id",
+  ): Course | undefined;
+  function getCourse(
+    value: string,
+    property?: "code" | "id",
+  ): Course | undefined {
     let cmp =
       property == undefined || property == "code" ? value.split(" ")[1] : value;
     // binary search
@@ -76,7 +82,7 @@ function Access(SUBJECT: string): Accessor {
         r = m - 1;
       }
     }
-    return null;
+    return;
   }
 
   function target(prereq: CourseShell) {
@@ -103,9 +109,7 @@ const AccessAll: Omit<Accessor, "ids"> = (() => {
   return {
     /** all Courses in campus */
     courses,
-    /** Get course item that has a matching code (the second parameter will be ignored here)
-     * @see Course for valid properties (invalidity just returns a null)
-     */
+    /** Get course item that has a matching code (second parameter is ignored) */
     getCourse,
     /** Returns an array of Courses that have prereq as its prerequisites */
     target,
@@ -121,9 +125,9 @@ const AccessAll: Omit<Accessor, "ids"> = (() => {
 
   // definitions which still need to happen in this scope (closure)
 
-  function getCourse(value: string): Course | null;
-  function getCourse(value: string, property: any): Course | null;
-  function getCourse(value: string, property?: any): Course | null {
+  function getCourse(value: string): Course | undefined;
+  // function getCourse(value: string, property: any): Course | undefined;
+  function getCourse(value: string, property?: any): Course | undefined {
     let cmp = value.split(" ")[1];
     // binary search
     let l = 0;

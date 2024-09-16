@@ -8,7 +8,7 @@ function Search() {
   const departments: readonly string[] = require(
     `./General/subjectNames.json`,
   ).dept_mapping;
-  const courses: readonly Course[] = AccessAll.courses;
+  const courses = AccessAll.courses;
 
   return {
     /** Return an array of Course that include a text */
@@ -16,7 +16,7 @@ function Search() {
     /** Return an array of Department (type object[appreviation, name]) that include a text */
     deptByName,
     /** Return a string of full name of a department based on appreviation or name */
-    exactDept
+    exactDept,
   };
 
   /**
@@ -24,7 +24,7 @@ function Search() {
    * increasing search compatibility
    */
   function mash(text: string) {
-    return text.toLowerCase().replaceAll(/\s/g,'');
+    return text.toLowerCase().replaceAll(/\s/g, "");
   }
 
   function courseByName(text: string) {

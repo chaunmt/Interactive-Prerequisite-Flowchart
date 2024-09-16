@@ -15,9 +15,9 @@ export type { GraphData, build_options };
 
 /** debug messages from buildGraph */
 const debug: {
-  readonly process?: boolean; // print at each stage of the process in order of evaluation
-  readonly output?: boolean; // print the output graph in dual list form before returning
-  readonly reduced?: boolean; // compacts the log output at the expense of some specificity
+  process?: boolean; // print at each stage of the process in order of evaluation
+  output?: boolean; // print the output graph in dual list form before returning
+  reduced?: boolean; // compacts the log output at the expense of some specificity
 } = {
   // process: true,
   // output: true,
@@ -27,12 +27,12 @@ const debug: {
 // note: hard_excludes takes precedence over soft_excludes, which takes precedence over includes (if a course appears in more than one list)
 // and strong_orphans are an override to keep them in when filtering out orphan nodes (they still must be in includes to be placed in the graph)
 type build_options = {
-  readonly includes?: CourseShell[]; // courses to include in the graph (these have their prerequisites recursively included too)
-  readonly soft_excludes?: CourseShell[]; // courses to include in the graph without their prerequisites
-  readonly hard_excludes?: CourseShell[]; // courses to exclude entirely
-  readonly simplify?: boolean; // remove sophisticated representation of prerequisite relationships (no "or" or "and" nodes)
-  readonly decimate_orphans?: boolean; // filter out nodes with no edges (this can filter out courses from the above lists)
-  readonly strong_orphans?: CourseShell[]; // will never be filtered out even if it's an orphan node (does not add to the graph, just overrides the filter)
+  includes?: readonly CourseShell[]; // courses to include in the graph (these have their prerequisites recursively included too)
+  soft_excludes?: readonly CourseShell[]; // courses to include in the graph without their prerequisites
+  hard_excludes?: readonly CourseShell[]; // courses to exclude entirely
+  simplify?: boolean; // remove sophisticated representation of prerequisite relationships (no "or" or "and" nodes)
+  decimate_orphans?: boolean; // filter out nodes with no edges (this can filter out courses from the above lists)
+  strong_orphans?: readonly CourseShell[]; // will never be filtered out even if it's an orphan node (does not add to the graph, just overrides the filter)
 };
 
 /** use this to check if every or node is redundant; TODO implement */
@@ -59,7 +59,7 @@ function buildGraph(input: build_options): GraphData {
           .includes(node.id) ||
         graph.edges.some((edge) => node.id == edge.from || node.id == edge.to),
     );
-    return { nodes: nodes, edges: graph.edges };
+    return { nodes: nodes, edges: graph.edges, orphans: [] }; // TODO actually report orphans
   }
 }
 
@@ -135,6 +135,7 @@ function build(input: build_options): GraphData {
   return {
     nodes: node_list,
     edges: edge_list,
+    orphans: [],
   };
 
   // here follows a lot of closures that need this specific scope
@@ -248,37 +249,31 @@ let flatten = PrereqTraversal<CourseShell[], void>(
   },
 );
 
-type GraphData = { nodes: NodeData[]; edges: EdgeData[] };
+type GraphData = { nodes: NodeData[]; edges: EdgeData[]; orphans: node_id[] };
 
 /// MERMAID/REAGRAPH COMPATIBILITY
+
+type node_id = string;
+type edge_id = string;
 
 /** should be removed if migrating to reaflow/graph
  * reduced version of the corresponding reaflow/graph
  * interface, only keeping what I expect to use */
-interface NodeData<T = any> {
-  id: string;
-  disabled?: boolean;
+interface NodeData {
+  id: node_id;
   text?: any;
-  parent?: string;
-  data?: T;
-  className?: string;
-  selectionDisabled?: boolean;
+  disabled?: boolean;
 }
 
 /** should be removed if migrating to reaflow/graph
  * reduced version of the corresponding reaflow/graph
  * interface, only keeping what I expect to use */
-interface EdgeData<T = any> {
-  id: string;
-  disabled?: boolean;
+interface EdgeData {
+  id: edge_id;
   text?: any;
+  disabled?: boolean;
   from?: string;
   to?: string;
-  data?: T;
-  className?: string;
-  arrowHeadType?: any;
-  parent?: string;
-  selectionDisabled?: boolean;
 }
 
 // a smarter version of this would have the Nodes keep track of
