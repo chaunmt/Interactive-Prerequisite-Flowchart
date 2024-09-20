@@ -100,12 +100,133 @@
     "prereq": []
   },
   {
+    "code": "ECON 3011",
+    "subject": "ECON",
+    "id": "3011",
+    "title": "Intermediate Microeconomics I",
+    "info": "This course presents a formal analysis of consumer theory, producer theory, market structures, market equilibrium, efficiency (welfare economics), and market failures. More specifically, the topics that will be discussed are the behavior of households, firms, and industries under competitive conditions with a focus on factors influencing production, price, and other outcomes. Basically, the concepts that were introduced in ECON 1101 (or equivalent courses) will be studied in detail with a more formal treatment of the models. We will also examine the applications of the theory, especially to current economic policy problems.  \n\nprereq: ECON 1101 (or APEC 1101); ECON 1102 (or APEC 1102); MATH 1271 or MATH 1142.  Or equivalent courses approved by the Economics Department.",
+    "prereq": {
+      "or": [
+        {
+          "code": "ECON 1101",
+          "subject": "ECON",
+          "id": "1101"
+        },
+        {
+          "code": "APEC 1101",
+          "subject": "APEC",
+          "id": "1101"
+        },
+        {
+          "code": "ECON 1102",
+          "subject": "ECON",
+          "id": "1102"
+        },
+        {
+          "code": "APEC 1102",
+          "subject": "APEC",
+          "id": "1102"
+        },
+        {
+          "code": "MATH 1271",
+          "subject": "MATH",
+          "id": "1271"
+        },
+        {
+          "code": "MATH 1142",
+          "subject": "MATH",
+          "id": "1142"
+        }
+      ]
+    }
+  },
+  {
+    "code": "ECON 3012",
+    "subject": "ECON",
+    "id": "3012",
+    "title": "Intermediate Microeconomics II",
+    "info": "This course (as a follow-up to ECON 3011) presents a formal analysis of consumer theory, producer theory, market structures, market equilibrium, efficiency (welfare economics), and market failures. In this course, we focus on the optimal choice behavior of producers and social planners under various constraints and the aggregate (efficiency and equity) effects of these decisions. More specifically, the topics that will be discussed are the behavior of firms and markets under competitive, monopolistic, and oligopolistic conditions, externalities, and economic efficiency, with some game theory. It also examines the applications of the theory, especially to current economic policy problems.  \n\nprereq: ECON 3011",
+    "prereq": {
+      "code": "ECON 3011",
+      "subject": "ECON",
+      "id": "3011"
+    }
+  },
+  {
     "code": "ECON 3021",
     "subject": "ECON",
     "id": "3021",
     "title": "Survey Econ Ideas",
     "info": "A historical and analytical treatment of how important economic ideas developed over time, and their relationship to prevailing economic conditions and politics. Economic ideas from Adam Smith to the present.",
     "prereq": []
+  },
+  {
+    "code": "ECON 3023",
+    "subject": "ECON",
+    "id": "3023",
+    "title": "Intermediate Macroeconomics I",
+    "info": "This course builds on fundamental concepts and techniques learned in ECON 3101 (ECON 3011 and ECON 3012) and ECON 1102. The purpose of this course is to introduce you to modern macroeconomics by building macroeconomic models from microeconomic principles, which is consistent with the way that macroeconomic research is conducted nowadays. We will also be learning about the measurement of macroeconomic aggregates. More specifically, the topics that will be discussed are the determinants and measurement of national income, employment, and price level, as well as economic growth.  Emphasis will be given to a general equilibrium approach. It also examines the applications of the theory, especially current modern macroeconomic policy issues.\n\nAn introductory economics course is meant to teach the language of economics, while an intermediate course is intended to teach some of the tools of economics. To that end, our goals for this course will be to:\n- Learn about the measurement of macroeconomic data.\n- Develop an understanding of the foundations of modern macroeconomic models.\n- Subject these various models to data and determine their empirical relevance.\n- Use these models to gain a deeper understanding of economic growth and business cycles.\n\nPrereq: ECON 1102 (or APEC 1102); ECON 3011 and ECON 3012 (or ECON 3101); MATH 1271 or MATH 1142.  Or equivalent courses approved by the Economics Department.Students registering for ECON 3023 should not register for APEC 3006. Completion of both ECON 3023 and 3024 is equivalent to APEC 3006.",
+    "prereq": {
+      "and": [
+        {
+          "code": "ECON 1102",
+          "subject": "ECON",
+          "id": "1102"
+        },
+        {
+          "code": "APEC 1102",
+          "subject": "APEC",
+          "id": "1102"
+        },
+        {
+          "code": "ECON 3011",
+          "subject": "ECON",
+          "id": "3011"
+        },
+        {
+          "code": "ECON 3012",
+          "subject": "ECON",
+          "id": "3012"
+        },
+        {
+          "code": "ECON 3101",
+          "subject": "ECON",
+          "id": "3101"
+        },
+        {
+          "code": "MATH 1271",
+          "subject": "MATH",
+          "id": "1271"
+        },
+        {
+          "code": "MATH 1142",
+          "subject": "MATH",
+          "id": "1142"
+        },
+        {
+          "code": "APEC 3006",
+          "subject": "APEC",
+          "id": "3006"
+        },
+        {
+          "code": "ECON 3024",
+          "subject": "ECON",
+          "id": "3024"
+        }
+      ]
+    }
+  },
+  {
+    "code": "ECON 3024",
+    "subject": "ECON",
+    "id": "3024",
+    "title": "Intermediate Macroeconomics II",
+    "info": "This course builds on fundamental concepts and techniques learned in ECON 3101 (equivalently, ECON 3011 and ECON 3012), and ECON 1102 as a follow-up to ECON 3023 (Intermediate Macroeconomics II). The purpose of this course (together with ECON 3023) is to introduce you to modern macroeconomics by building macroeconomic models from microeconomic principles, which is consistent with the way that macroeconomic research is conducted nowadays. More specifically, the topics that will be discussed are savings and investment, monetary theory, monetary and fiscal policies, search and unemployment, banking and macroeconomics, and open economy macroeconomics. Emphasis will be given to a general equilibrium approach. It also examines the applications of the theory, especially current modern macroeconomic policy issues. An introductory economics course is meant to teach the language of economics, while an intermediate course is intended to teach some of the tools of economics. To that end, our goals for this course will be to: Learn about the measurement of macroeconomic data, develop an understanding of the foundations of modern macroeconomic models, subject these various models to data and determine their empirical relevance, and use these models to gain a deeper understanding of economic growth and business cycles. This course analyzes the basic concepts in macroeconomic theory. In particular, it examines the applications of the theory, especially current modern macroeconomic policy issues. \n\nprereq/coreq: ECON 3023",
+    "prereq": {
+      "code": "ECON 3023",
+      "subject": "ECON",
+      "id": "3023"
+    }
   },
   {
     "code": "ECON 3031",
@@ -162,7 +283,7 @@
     "subject": "ECON",
     "id": "3102",
     "title": "Intermediate Macroeconomics",
-    "info": "Determinants of national income, employment, and price level; effects of monetary and fiscal policies; emphasis on a general equilibrium approach. Applications of the theory, especially to current modern macroeconomic policy issues.\n ApEc 3006 cannot be substituted for ECON 3102.\n\nprereq: ECON 1101 (or ECON 1165, APEC 1101), ECON 1102 (or APEC1102), ECON 3101, MATH 1271 or equivalent courses approved by the Economics Department.",
+    "info": "Determinants of national income, employment, and price level; effects of monetary and fiscal policies; emphasis on a general equilibrium approach. Applications of the theory, especially to current modern macroeconomic policy issues. ApEc 3006 cannot be substituted for ECON 3102.\n\nprereq: ECON 1101 (or ECON 1165, APEC 1101), ECON 1102 (or APEC1102), ECON 3101, MATH 1271 or equivalent courses approved by the Economics Department.",
     "prereq": {
       "and": [
         {
@@ -366,19 +487,19 @@
     "code": "ECON 3960",
     "subject": "ECON",
     "id": "3960",
-    "title": "Topics in Econ: Area Studies",
-    "info": "Topics specified in class schedule.\n\nprereq: [1101, 1102] or equiv",
+    "title": "Topics in Economics",
+    "info": "Topics specified in class schedule.\nprereq: ECON 1101 or ECON 1165 or equivalent\n",
     "prereq": {
-      "and": [
+      "or": [
         {
           "code": "ECON 1101",
           "subject": "ECON",
           "id": "1101"
         },
         {
-          "code": "ECON 1102",
+          "code": "ECON 1165",
           "subject": "ECON",
-          "id": "1102"
+          "id": "1165"
         }
       ]
     }
@@ -1527,11 +1648,11 @@
     }
   },
   {
-    "code": "ECON 4341",
+    "code": "ECON 4341W",
     "subject": "ECON",
-    "id": "4341",
+    "id": "4341W",
     "title": "Poverty and Income Inequality",
-    "info": "This course focuses on the economic aspects of poverty and inequality in the United States. The course utilizes economic theory and empirical research to analyze the determinants of, and potential strategies to overcome poverty and inequality. Topics include measurement and trends of poverty and income inequality, labor markets, education, discrimination, residential segregation,  immigration,  hunger and nutrition, US farm policy, food distribution, food security, food aid, the connection between food production and health outcomes, as well as other related themes. \n\nprereq: [MATH 1271, ECON 1101, ECON 1102, ECON 3101] or equiv; ",
+    "info": "This course focuses on the economic aspects of poverty and inequality in the United States. The course utilizes economic theory and empirical research to analyze the determinants of and potential strategies to overcome poverty and inequality. Topics include measurement and trends of poverty and income inequality, labor markets, education, discrimination, residential segregation, immigration, hunger and nutrition, US farm policy, food distribution, food security, food aid, the connection between food production and health outcomes, as well as other related themes. \n\nprereq: [MATH 1271, ECON 1101, ECON 1102, ECON 3101, ECON 3102] or equiv; ",
     "prereq": {
       "and": [
         {
@@ -1553,6 +1674,11 @@
           "code": "ECON 3101",
           "subject": "ECON",
           "id": "3101"
+        },
+        {
+          "code": "ECON 3102",
+          "subject": "ECON",
+          "id": "3102"
         }
       ]
     }
@@ -1671,11 +1797,11 @@
     }
   },
   {
-    "code": "ECON 4432W",
+    "code": "ECON 4432",
     "subject": "ECON",
-    "id": "4432W",
+    "id": "4432",
     "title": "International Finance",
-    "info": "Balance of payments; international financial markets; exchange rate determination; international monetary system; international investment and capital flows; financial management of the multinational firm; open economy macroeconomic policy.\n\nprereq: ECON 1101 (or ECON 1165, APEC 1101), ECON 1102 (or APEC 1102), ECON 3101, ECON 3102, MATH 1271 or equivalent courses approved by the Economics Department and first-writing course.",
+    "info": "Balance of payments, international financial markets, exchange rate determination, international monetary system, international investment and capital flows, financial management of the multinational firm, open economy macroeconomic policy.\n\nprereq: ECON 1101 (or ECON 1165, APEC 1101), ECON 1102 (or APEC 1102), ECON 3101, ECON 3102, MATH 1271 or equivalent courses approved by the Economics Department.",
     "prereq": {
       "and": [
         {

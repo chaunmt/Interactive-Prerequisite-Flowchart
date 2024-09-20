@@ -60,7 +60,7 @@
     "subject": "ARTS",
     "id": "1104",
     "title": "Intro Drawing and Printmaking",
-    "info": "This course exposes students to the ideas, methods, and materials of drawing and printmaking. Fundamental elements such as line, value, texture, shape and space are explored in works using media such as graphite, charcoal and ink on a variety of surfaces. Students will be introduced to printmaking methods through monoprinting and other immediate techniques. In hands-on exercises and projects, students will create original work based on observation and imagination. Slide lectures and critiques will help students to address technical concerns and contextualize their work within the rich history of these two graphic media. Studio work outside of scheduled class time is expected.\n",
+    "info": "This course exposes students to the ideas, methods, and materials of drawing and printmaking. Fundamental elements such as line, value, texture, shape and space are explored in works using media such as graphite, charcoal and ink on a variety of surfaces. Students will be introduced to printmaking methods through monoprinting and other immediate techniques. In hands-on exercises and projects, students will create original work based on observation and imagination. Slide lectures and critiques will help students to address technical concerns and contextualize their work within the rich history of these two graphic media. Studio work outside of scheduled class time is expected.",
     "prereq": []
   },
   {
@@ -404,20 +404,11 @@
     "subject": "ARTS",
     "id": "3130",
     "title": "Intermediate Printmaking",
-    "info": "The print as vehicle for conceptual/personal expression. Traditional printmaking techniques, evolving contemporary processes for realizing visual concepts. Historical/cultural development of multiple/matrix as means of communication.\n\nprereq: 1103 or 1104",
+    "info": "The print as vehicle for conceptual/personal expression. Traditional printmaking techniques, evolving contemporary processes for realizing visual concepts. Historical/cultural development of multiple/matrix as means of communication.\n\nPrerequisite: ARTS 1103 and must be a Degree Seeking Student.",
     "prereq": {
-      "or": [
-        {
-          "code": "ARTS 1103",
-          "subject": "ARTS",
-          "id": "1103"
-        },
-        {
-          "code": "ARTS 1104",
-          "subject": "ARTS",
-          "id": "1104"
-        }
-      ]
+      "code": "ARTS 1103",
+      "subject": "ARTS",
+      "id": "1103"
     }
   },
   {
@@ -491,13 +482,18 @@
     "subject": "ARTS",
     "id": "3180",
     "title": "Zines, Comics, and Books",
-    "info": "This class introduces students to the culture and creation of artist's books, comics, and zines. Students will generate one example of each format, while being exposed to a wide range of works and relevant processes. We will view and read examples across cultures and develop an understanding of the history and contemporary context for making artist's books.\n \nWe will look at zines that embrace punk culture, gay culture, counter culture, and feminist movements. We will read graphic novels and connect with the local comics scene. We will visit archives of artists books in the Twin Cities, starting with the impressive collection at the University of Minnesota.\n \nStudents will use the Risograph process as well as other generative techniques for self-publishing, from the copy machine to internet publishing. Students will also be introduced to binding techniques for the artists' book section of this class. Prerequisite:  Students must have taken one of the following courses:  1101,1103, OR 1107.",
+    "info": "This class introduces students to the culture and creation of artist's books, comics, and zines. Students will generate one example of each format, while being exposed to a wide range of works and relevant processes. We will view and read examples across cultures and develop an understanding of the history and contemporary context for making artist's books.\n \nWe will look at zines that embrace punk culture, gay culture, counter culture, and feminist movements. We will read graphic novels and connect with the local comics scene. We will visit archives of artists books in the Twin Cities, starting with the impressive collection at the University of Minnesota.\n \nStudents will use the Risograph process as well as other generative techniques for self-publishing, from the copy machine to internet publishing. Students will also be introduced to binding techniques for the artists' book section of this class. Prerequisite: Students must be a degree-seeking student and have taken one of the following courses:  1101, 1102, 1103, OR 1107.",
     "prereq": {
       "and": [
         {
           "code": "ARTS 1101",
           "subject": "ARTS",
           "id": "1101"
+        },
+        {
+          "code": "ARTS 1102",
+          "subject": "ARTS",
+          "id": "1102"
         },
         {
           "code": "ARTS 1103",
@@ -525,7 +521,7 @@
     "subject": "ARTS",
     "id": "3206W",
     "title": "Art + Ecology",
-    "info": "Art + Ecology explores the history, theory, and contemporary practice of artists engaged with the ecological issues of our time. This seminar offers an introduction to the dynamic and emerging field of Environmental Art, focusing on the ways in which artists use creativity to work across disciplines to address ecological concerns. This course investigates the role contemporary artists play as catalysts in relation to a range of concerns, including environmental justice, mass extinction, climate change, and treatment of \\\"waste\\\" as well as issues of the quality of the air, water, soil, and habitat. This seminar also will introduce the notion of artists as agents of change who build communities of ecologically aware practices around interrelated environmental and social issues. Students will be encouraged to see how their creativity and imagination can contribute to finding solutions to pressing environmental problems.",
+    "info": "Art + Ecology explores the history, theory, and contemporary practice of artists engaged with the ecological issues of our time. This seminar offers an introduction to the dynamic and emerging field of Environmental Art, focusing on the ways in which artists use creativity to work across disciplines to address ecological concerns. This course investigates the role contemporary artists play as catalysts in relation to a range of concerns, including environmental justice, mass extinction, climate change, and treatment of \"waste\" as well as issues of the quality of the air, water, soil, and habitat. This seminar also will introduce the notion of artists as agents of change who build communities of ecologically aware practices around interrelated environmental and social issues. Students will be encouraged to see how their creativity and imagination can contribute to finding solutions to pressing environmental problems.",
     "prereq": []
   },
   {
@@ -731,7 +727,7 @@
     "subject": "ARTS",
     "id": "3401W",
     "title": "Theories Studio Perspective",
-    "info": "How do artists read and write theory? What roles can ideas play in the creative process? This course investigates practices and theories that inform the work of contemporary artists. Through a combination of readings, lectures, asynchronous discussions, writing assignments, and experiments in practice and prose, we will explore some significant questions that lie at the crossroads of ethics and aesthetics. We will also dig into our own practices as artists, writers, and thinkers to understand more fully how ethics and aesthetics intersect in what we do. Readings include texts by visual artists and poets, articles from art journals, as well as essays by art historians and critics of visual culture. This course utilizes writing and critical thinking to deepen each student's connection to contemporary art and to reflect on their own aesthetic experiences. As a writing intensive course, ARTS3401W: Critical Theories emphasizes writing as a multi-purpose tool for making sense of—and with—art. \n\nprereq: instr consent",
+    "info": "How do artists read and write theory? What roles can ideas play in the creative process? This course investigates practices and theories that inform the work of contemporary artists. Through a combination of readings, lectures, asynchronous discussions, writing assignments, and experiments in practice and prose, we will explore some significant questions that lie at the crossroads of ethics and aesthetics. We will also dig into our own practices as artists, writers, and thinkers to understand more fully how ethics and aesthetics intersect in what we do. Readings include texts by visual artists and poets, articles from art journals, as well as essays by art historians and critics of visual culture. This course utilizes writing and critical thinking to deepen each student's connection to contemporary art and to reflect on their own aesthetic experiences. As a writing intensive course, ARTS3401W: Critical Theories emphasizes writing as a multi-purpose tool for making sense of—and with—art. \n\nWhile not required, it is recommended that students take ARTS 1001 prior to 3401W.\n\nPrerequisite: Junior or Instructor Consent.",
     "prereq": []
   },
   {
@@ -918,8 +914,8 @@
     "code": "ARTS 3730",
     "subject": "ARTS",
     "id": "3730",
-    "title": "Int Digital Photography",
-    "info": "In a world of images, what are ways you can use digital photography? This class explores those possibilities. You will consider your own image making in the context of contemporary art, current events, photographic history, and the universe of imagery in which we live. This class builds on 1701 Intro to Photography, approaching photography as a means of expression, investigation, critical inquiry, and interaction. The emphasis is on finding your personal voice and direction as a photographic artist. Students come to this class with a working knowledge of basic camera operation and photographic principles, from technical to aesthetic and conceptual. Students will learn and use advanced digital tools and workflow in the service of their own creative exploration. We will examine the changing role of digital image production and distribution in society. This class is organized around a series of project assignments and exercises. These prompts are opportunities to engage with both your own physical surroundings and the larger world. Smartphone cameras, social media and mass dissemination of images have changed people's everyday lives. These tools have been at the forefront during the pandemic and to highlight long-standing systems of violence. This class engages with these topics. Projects will be completed with manually controlled advanced digital cameras, cell phone cameras, found images (print, negatives and / or digital), and more.\n\nPrerequisite: ARTS 1701",
+    "title": "Intermed Digital Photography",
+    "info": "In a world of images, what are ways you can use digital photography? This class explores those possibilities. You will consider your own image making in the context of contemporary art, current events, photographic history, and the universe of imagery in which we live. This class builds on 1701 Intro to Photography, approaching photography as a means of expression, investigation, critical inquiry, and interaction. The emphasis is on finding your personal voice and direction as a photographic artist. Students come to this class with a working knowledge of basic camera operation and photographic principles, from technical to aesthetic and conceptual. Students will learn and use advanced digital tools and workflow in the service of their own creative exploration. We will examine the changing role of digital image production and distribution in society. This class is organized around a series of project assignments and exercises. These prompts are opportunities to engage with both your own physical surroundings and the larger world. Smartphone cameras, social media, and mass dissemination of images have changed people's everyday lives. These tools have been at the forefront during the pandemic and to highlight long-standing systems of violence. This class engages with these topics. Projects will be completed with manually controlled advanced digital cameras, cell phone cameras, found images (print, negatives and / or digital), and more.\n\nprereq: ARTS 1701",
     "prereq": {
       "code": "ARTS 1701",
       "subject": "ARTS",
@@ -931,7 +927,7 @@
     "subject": "ARTS",
     "id": "3740",
     "title": "Lighting & Constructed Image",
-    "info": "Take control of your photographs and moving images. This class is about creating photographs vs. simply taking pictures of what you observe. Students will learn to use flash and continuous light sources to shape the content and feeling of your work, to create worlds, characters, and stories. You will have access to the well-equipped lighting studio and a variety of studio and location lighting equipment for check out.\n\nSome projects will be specific to still photography, but you will have the option of working with video in others. You will learn principles of lighting that apply to all media. In addition to lighting, the use of props, sets, costumes and digital manipulation will be explored in a series of student projects.\n\nYou will learn to control and use light creatively in the studio and on location, in table-top setups, portraits and large-scale outdoor productions. The class will look at contemporary and historic artists in all genres who work with the constructed image. There will be a lot of hands-on skills taught in this class, but always in the service of exploring and expressing your personal vision.\n\nPrerequisite: ARTS 1701 Introduction to Photography",
+    "info": "Take control of your photographs and moving images. This class is about creating photographs vs. simply taking pictures of what you observe. Students will learn to use flash and continuous light sources to shape the content and feeling of your work, to create worlds, characters, and stories. You will have access to the well-equipped lighting studio and a variety of studio and location lighting equipment for check out.\n\nSome projects will be specific to still photography, but you will have the option of working with video in others. You will learn principles of lighting that apply to all media. In addition to lighting, the use of props, sets, costumes and digital manipulation will be explored in a series of student projects.\n\nYou will learn to control and use light creatively in the studio and on location, in table-top setups, portraits and large-scale outdoor productions. The class will look at contemporary and historic artists in all genres who work with the constructed image. There will be a lot of hands-on skills taught in this class, but always in the service of exploring and expressing your personal vision.\n\nprereq: ARTS 1701 Introduction to Photography",
     "prereq": {
       "code": "ARTS 1701",
       "subject": "ARTS",
@@ -955,7 +951,7 @@
     "subject": "ARTS",
     "id": "3760",
     "title": "Experimental Film and Video",
-    "info": "Experimental moving image practice is increasingly prevalent within contemporary art and cinema. This class is designed to heighten your awareness and experience of the variety of ways feeling and perception can be explored through moving images and sound. We will step beyond traditional narrative structures and conventions of camera use to explore the spiritual, conceptual, and emotional potential of the medium. There will be individual and collaborative group work on elements of film production - character design, location and scene design, writing, improvisational and scripted acting and shooting, camera and sound recording tools and techniques, editing, and post-production. \n\nThe class will include screenings, readings and discussion of experimental films from the inception of the avant-garde through the most contemporary experimental work being produced today. You will explore the visual and aural experience of moving image and sound through a variety of alternative shooting, recording, editing and interdisciplinary installation and presentation options. Students begin the semester by developing a film concept and planning production. Working individually and collaboratively, you will then shoot the film and complete a preliminary edit. Through critiques and further editing and shooting, you will work, re-work, and start over with your material to discover unplanned changes in tone, flow, experience, and meaning.\n\nStudents need to provide their own portable drive and 1-2 SD cards for each class, and may choose to purchase their own subscription to Adobe Creative Cloud if they wish to use their own computer.\n\nPrerequisite: ARTS 1704",
+    "info": "Experimental moving image practice is increasingly prevalent within contemporary art and cinema. This class is designed to heighten your awareness and experience of the variety of ways feeling and perception can be explored through moving images and sound. We will step beyond traditional narrative structures and conventions of camera use to explore the spiritual, conceptual, and emotional potential of the medium. There will be individual and collaborative group work on elements of film production—character design, location and scene design, writing, improvisational and scripted acting and shooting, camera and sound recording tools and techniques, editing, and post-production. \n\nThe class will include screenings, readings, and discussion of experimental films from the inception of the avant-garde through the most contemporary experimental work being produced today. You will explore the visual and aural experience of moving image and sound through a variety of alternative shooting, recording, editing, and interdisciplinary installation and presentation options. Students begin the semester by developing a film concept and planning production. Working individually and collaboratively, you will then shoot the film and complete a preliminary edit. Through critiques and further editing and shooting, you will work, re-work, and start over with your material to discover unplanned changes in tone, flow, experience, and meaning.\n\nStudents need to provide their own portable drive and 1-2 SD cards for each class, and may choose to purchase their own subscription to Adobe Creative Cloud if they wish to use their own computer.\n\nPrerequisite: ARTS 1704",
     "prereq": {
       "code": "ARTS 1704",
       "subject": "ARTS",
@@ -967,7 +963,7 @@
     "subject": "ARTS",
     "id": "3770",
     "title": "Animation",
-    "info": "In this course, students will be introduced to a variety of techniques of digital animation. Through short exercises and longer projects, students gain experience with digital 2D animation in Photoshop and After Effects as well as 3D animation in Maya. Through practice and application, students explore the tools and methods of animation.  The course begins with focused exercises and culminates in an independent project. Classes consist of demonstrations, independent work time, historical and contemporary animation screenings, in-progress and final critiques, and self-assessments. \n\nThis course strives to further the student’s knowledge, skills, and artistic achievement in animation. This is a class for undergraduate (3770) and graduate (5770) students of varied experience and skills, and the outcomes above are evaluated on progress and participation. All students successfully completing the class will have created one, in‐depth, short animation and several short animation exercises. They will leave the class with a working knowledge of Photoshop, Maya, and other animation skills and techniques. \n\nprereq: ARTS 1704 or Instructor Consent",
+    "info": "In this course, students will be introduced to a variety of techniques of digital animation. Through short exercises and longer projects, students gain experience with digital 2D animation in Photoshop and After Effects as well as 3D animation in Maya. Through practice and application, students explore the tools and methods of animation. The course begins with focused exercises and culminates in an independent project. Classes consist of demonstrations, independent work time, historical and contemporary animation screenings, in-progress and final critiques, and self-assessments. \n\nThis course strives to further the student’s knowledge, skills, and artistic achievement in animation. This is a class for undergraduate (3770) and graduate (5770) students of varied experience and skills, and the outcomes above are evaluated on progress and participation. All students successfully completing the class will have created one, in‐depth, short animation and several short animation exercises. They will leave the class with a working knowledge of Photoshop, Maya, and other animation skills and techniques. \n\nprereq: ARTS 1704 or Instructor Consent",
     "prereq": {
       "code": "ARTS 1704",
       "subject": "ARTS",
@@ -979,11 +975,20 @@
     "subject": "ARTS",
     "id": "3780",
     "title": "Super 8 and 16 MM Filmmaking",
-    "info": "Feel the film whirring through the camera, get your hands wet in the darkroom, and hear the click-click of the projector. Revisit the origins of moving image and how it evolved into your mobile device and contemporary practice. This course will explore the medium of Super 8 filmmaking in the tradition of the experimental and avant ­garde. We will focus on the physicality of the film stock, the basic mechanics of the camera and projector, and how these elements translate into a visual language and aesthetic. Students will learn how to shoot, process, edit, splice, project, and transfer their own super 8 films. This course will balance the technical, conceptual, and historical aspects of small­ gauge or amateur analog filmmaking, and address what it means to work in this medium at the beginning of the 21st century. The course will include presentations, readings, and discussions on contemporary and historical artists in the medium, as well as film screenings and lectures. Classroom visits by artists and field trips will also provide an informed context for the primary course objective.\n\nprereq: ARTS 1704 or instructor consent",
+    "info": "Feel the film whirring through the camera, get your hands wet in the darkroom, and hear the click-click of the projector. Revisit the origins of moving image and how it evolved into your mobile device and contemporary practice. This course will explore the medium of Super 8 filmmaking in the tradition of the experimental and avant ­garde. We will focus on the physicality of the film stock, the basic mechanics of the camera and projector, and how these elements translate into a visual language and aesthetic. Students will learn how to shoot, process, edit, splice, project, and transfer their own super 8 films. This course will balance the technical, conceptual, and historical aspects of small­ gauge or amateur analog filmmaking, and address what it means to work in this medium at the beginning of the 21st century. The course will include presentations, readings, and discussions on contemporary and historical artists in the medium, as well as film screenings and lectures. Classroom visits by artists and field trips will also provide an informed context for the primary course objective.\n\nPrerequisites: ARTS 1704; Students must complete ARTS 3780 or be an MFA student before enrolling in ARTS 5780; or instructor consent.",
     "prereq": {
-      "code": "ARTS 1704",
-      "subject": "ARTS",
-      "id": "1704"
+      "or": [
+        {
+          "code": "ARTS 1704",
+          "subject": "ARTS",
+          "id": "1704"
+        },
+        {
+          "code": "ARTS 5780",
+          "subject": "ARTS",
+          "id": "5780"
+        }
+      ]
     }
   },
   {
@@ -1047,7 +1052,7 @@
     "subject": "ARTS",
     "id": "3850",
     "title": "Foundry and Metal Sculpture",
-    "info": "Are you interested in participating in a human tradition that is at least 8,000 years old? \n\nIn this course, you will collaborate with the elements: earth, water, wind, and fire to create artwork using different mold techniques for casting metal and pouring bronze and aluminum. Using studio practices, we will investigate the historical and contemporary methods and concepts of mold making and casting metal. Metal casting processes are by nature a social act. In this course, please be ready to help each other, whether by helping brainstorm ideas, helping preparing materials, cleaning areas, or giving a hand to lift something– this is all part of the making process and our shared learning experience in the foundry.  \n\nprereq: ARTS 1802",
+    "info": "Are you interested in participating in a human tradition that is at least 8,000 years old? \n\nIn this course, you will collaborate with the elements: earth, water, wind, and fire to create artwork using different mold techniques for casting metal and pouring bronze and aluminum. Using studio practices, we will investigate the historical and contemporary methods and concepts of mold making and casting metal. Metal casting processes are by nature a social act. In this course, please be ready to help each other, whether by helping brainstorm ideas, helping preparing materials, cleaning areas, or giving a hand to lift something—this is all part of the making process and our shared learning experience in the foundry.  \n\nPrerequisite: ARTS 1802",
     "prereq": {
       "code": "ARTS 1802",
       "subject": "ARTS",
@@ -1059,7 +1064,7 @@
     "subject": "ARTS",
     "id": "3860",
     "title": "Sculpture and Installation",
-    "info": "This class will examine the historical and contemporary aspects of sculpture installation art. The structure of this studio course provides space for in-depth research, idea development, individual exploration, experimentation, play and critical feedback. This course is not media specific, you will be working with materials that work with the concepts in your practice. You are encouraged to explore the use of sound, video and performance in your installations. A generous amount of studio time is allowed for studio work and personal exploration augmented by readings, field trips and visiting artist lectures. \n\n\nprereq: 1802\n",
+    "info": "This class will examine the historical and contemporary aspects of sculpture installation art. The structure of this studio course provides space for in-depth research, idea development, individual exploration, experimentation, play, and critical feedback. This course is not media specific, you will be working with materials that work with the concepts in your practice. You are encouraged to explore the use of sound, video, and performance in your installations. A generous amount of studio time is allowed for studio work and personal exploration augmented by readings, field trips, and visiting artist lectures. \n\nprereq: 1802",
     "prereq": {
       "code": "ARTS 1802",
       "subject": "ARTS",
@@ -1155,7 +1160,7 @@
     "subject": "ARTS",
     "id": "5140",
     "title": "Advanced Printmaking",
-    "info": "This course engages deeply with print media to understand the processes technically and conceptually. Students hone their skills with in-depth demonstrations that can include intaglio, lithography, monoprinting, relief, and screen printing. Contemporary visiting artists who engage with print as their primary media offer inspiration for students' development, as do visits to local collections to view and discuss prints from the past 600 years. Students develop their own voice and a community with their peers as they build skills in the printmaking studios. They explore their relationships with the media as they learn about concepts of how the multiple has functioned historically, politically and as a tool for activism. Through readings, lectures, discussions, and making, the course explores print’s contemporary iterations to combine digital and hand processes and even work across media to morph into sculptural, printstallation, or public projects.\n\nprereq: ARTS 3130",
+    "info": "This course engages deeply with print media to understand the processes technically and conceptually. Students hone their skills with in-depth demonstrations that can include intaglio, lithography, monoprinting, relief, and screen printing. Contemporary visiting artists who engage with print as their primary media offer inspiration for students' development, as do visits to local collections to view and discuss prints from the past 600 years. Students develop their own voice and a community with their peers as they build skills in the printmaking studios. They explore their relationships with the media as they learn about concepts of how the multiple has functioned historically, politically, and as a tool for activism. Through readings, lectures, discussions, and making, the course explores print’s contemporary iterations to combine digital and hand processes and even work across media to morph into sculptural, printstallation, or public projects.\n\nPrerequisite: Must be a degree-seeking student. Students must first complete ARTS 3130 or be MFA student before enrolling.",
     "prereq": {
       "code": "ARTS 3130",
       "subject": "ARTS",
@@ -1399,8 +1404,8 @@
     "code": "ARTS 5710",
     "subject": "ARTS",
     "id": "5710",
-    "title": "Advanced Photo/Moving Image",
-    "info": "In this class, students have the opportunity to deepen and expand their creative practice, conceptual and technical skills they have developed so far in Photography and/or Moving Image. The class is structured around two individual, advanced projects of the student's choice over the course of the semester. The first body of work will be presented in an exhibition or installation. Students will learn skills in developing a project all the way through to sharing it with the public. They will develop skills in preparing and mounting an exhibition. They will have the chance to reflect on their exhibited works in order to develop their second, smaller project, which launches from, rethinks, or is an entirely different direction from the first. To this end, all types of digital, analog photographic, film and video media, and installation are welcome and any mix thereof. \n\nThe class includes studio time, image lectures, discussions, critique, selected readings, field trips, demonstrations determined by the class needs, one-to-one meetings and visiting artists. In this advanced class, students use the cameras, tools and methods necessary for their work and their ideas. \n\nprereq: previously completed a 3XXX course in Photography or Moving Images.",
+    "title": "Advanced Photo & Moving Image",
+    "info": "In this class, students have the opportunity to deepen and expand their creative practice, and the conceptual and technical skills they have developed so far in Photography and/or Moving Image. The class is structured around two individual, advanced projects of the student's choice over the course of the semester. The first body of work will be presented in an exhibition or installation. Students will learn skills in developing a project all the way through to sharing it with the public. They will develop skills in preparing and mounting an exhibition. They will have the chance to reflect on their exhibited works in order to develop their second, smaller project, which launches from, rethinks, or is an entirely different direction from the first. To this end, all types of digital, analog photographic, film and video media, and installation are welcome and any mix thereof. \n\nThe class includes studio time, image lectures, discussions, critique, selected readings, field trips, demonstrations determined by the class needs, one-to-one meetings and visiting artists. In this advanced class, students use the cameras, tools and methods necessary for their work and their ideas. \n\nprereq: previously completed a 3XXX course in Photography or Moving Images.",
     "prereq": []
   },
   {
@@ -1428,11 +1433,20 @@
     "subject": "ARTS",
     "id": "5760",
     "title": "Experimental Film and Video",
-    "info": "Experimental moving image practice is increasingly prevalent within contemporary art and cinema. This class is designed to heighten your awareness and experience of the variety of ways feeling and perception can be explored through moving images and sound. We will step beyond traditional narrative structures and conventions of camera use to explore the spiritual, conceptual, and emotional potential of the medium. There will be individual and collaborative group work on elements of film production - character design, location and scene design, writing, improvisational and scripted acting and shooting, camera and sound recording tools and techniques, editing, and post-production. \n\nThe class will include screenings, readings and discussion of experimental films from the inception of the avant-garde through the most contemporary experimental work being produced today. You will explore the visual and aural experience of moving image and sound through a variety of alternative shooting, recording, editing and interdisciplinary installation and presentation options. Students begin the semester by developing a film concept and planning production. Working individually and collaboratively, you will then shoot the film and complete a preliminary edit. Through critiques and further editing and shooting, you will work, re-work, and start over with your material to discover unplanned changes in tone, flow, experience, and meaning.\n\nStudents need to provide their own portable drive and 1-2 SD cards for each class, and may choose to purchase their own subscription to Adobe Creative Cloud if they wish to use their own computer.\n\nPrerequisite: ARTS major, ARTS 1704",
+    "info": "Experimental moving image practice is increasingly prevalent within contemporary art and cinema. This class is designed to heighten your awareness and experience of the variety of ways feeling and perception can be explored through moving images and sound. We will step beyond traditional narrative structures and conventions of camera use to explore the spiritual, conceptual, and emotional potential of the medium. There will be individual and collaborative group work on elements of film production—character design, location and scene design, writing, improvisational and scripted acting and shooting, camera and sound recording tools and techniques, editing, and post-production. \n\nThe class will include screenings, readings, and discussion of experimental films from the inception of the avant-garde through the most contemporary experimental work being produced today. You will explore the visual and aural experience of moving image and sound through a variety of alternative shooting, recording, editing, and interdisciplinary installation and presentation options. Students begin the semester by developing a film concept and planning production. Working individually and collaboratively, you will then shoot the film and complete a preliminary edit. Through critiques and further editing and shooting, you will work, re-work, and start over with your material to discover unplanned changes in tone, flow, experience, and meaning.\n\nStudents need to provide their own portable drive and 1-2 SD cards for each class, and may choose to purchase their own subscription to Adobe Creative Cloud if they wish to use their own computer.\n\nPrerequisite: ARTS major, ARTS 1704; Non-MFA students should complete ARTS 3760 before enrolling in ARTS 5760.",
     "prereq": {
-      "code": "ARTS 1704",
-      "subject": "ARTS",
-      "id": "1704"
+      "and": [
+        {
+          "code": "ARTS 1704",
+          "subject": "ARTS",
+          "id": "1704"
+        },
+        {
+          "code": "ARTS 3760",
+          "subject": "ARTS",
+          "id": "3760"
+        }
+      ]
     }
   },
   {
@@ -1440,11 +1454,20 @@
     "subject": "ARTS",
     "id": "5770",
     "title": "Animation",
-    "info": "In this course, students will be introduced to a variety of techniques of digital animation. Through short exercises and longer projects, students gain experience with digital 2D animation in Photoshop and After Effects as well as 3D animation in Maya. Through practice and application, students explore the tools and methods of animation.  The course begins with focused exercises and culminates in an independent project. Classes consist of demonstrations, independent work time, historical and contemporary animation screenings, in-progress and final critiques, and self-assessments. \n\nThis course strives to further the student’s knowledge, skills, and artistic achievement in animation. This is a class for undergraduate (3770) and graduate (5770) students of varied experience and skills, and the outcomes above are evaluated on progress and participation. All students successfully completing the class will have created one, in‐depth, short animation and several short animation exercises. They will leave the class with a working knowledge of Photoshop, Maya, and other animation skills and techniques. \n\nprereq: ARTS 3770 or Instructor Consent",
+    "info": "In this course, students will be introduced to a variety of techniques of digital animation. Through short exercises and longer projects, students gain experience with digital 2D animation in Photoshop and After Effects as well as 3D animation in Maya. Through practice and application, students explore the tools and methods of animation. The course begins with focused exercises and culminates in an independent project. Classes consist of demonstrations, independent work time, historical and contemporary animation screenings, in-progress and final critiques, and self-assessments. \n\nThis course strives to further the student’s knowledge, skills, and artistic achievement in animation. This is a class for undergraduate (3770) and graduate (5770) students of varied experience and skills, and the outcomes above are evaluated on progress and participation. All students successfully completing the class will have created one, in‐depth, short animation and several short animation exercises. They will leave the class with a working knowledge of Photoshop, Maya, and other animation skills and techniques. \n\nprereq: ARTS 1704; Students should be an MFA or complete 3770 before enrolling in ARTS 5770, or receive Instructor Consent.",
     "prereq": {
-      "code": "ARTS 3770",
-      "subject": "ARTS",
-      "id": "3770"
+      "or": [
+        {
+          "code": "ARTS 1704",
+          "subject": "ARTS",
+          "id": "1704"
+        },
+        {
+          "code": "ARTS 3770",
+          "subject": "ARTS",
+          "id": "3770"
+        }
+      ]
     }
   },
   {
@@ -1452,8 +1475,21 @@
     "subject": "ARTS",
     "id": "5780",
     "title": "Adv Super 8/16 MM Filmmaking",
-    "info": "Feel the film whirring through the camera, get your hands wet in the darkroom, and hear the click-click of the projector. Revisit the origins of moving image and how it evolved into your mobile device and contemporary practice. This course will explore the medium of Super 8 filmmaking in the tradition of the experimental and avant ­garde. We will focus on the physicality of the film stock, the basic mechanics of the camera and projector, and how these elements translate into a visual language and aesthetic. Students will learn how to shoot, process, edit, splice, project, and transfer their own super 8 films. This course will balance the technical, conceptual, and historical aspects of small­ gauge or amateur analog filmmaking, and address what it means to work in this medium at the beginning of the 21st century. The course will include presentations, readings, and discussions on contemporary and historical artists in the medium, as well as film screenings and lectures. Classroom visits by artists and field trips will also provide an informed context for the primary course objective.\n\n\nprereq: Art major",
-    "prereq": []
+    "info": "Feel the film whirring through the camera, get your hands wet in the darkroom, and hear the click-click of the projector. Revisit the origins of moving image and how it evolved into your mobile device and contemporary practice. This course will explore the medium of Super 8 filmmaking in the tradition of the experimental and avant-­garde. We will focus on the physicality of the film stock, the basic mechanics of the camera and projector, and how these elements translate into a visual language and aesthetic. Students will learn how to shoot, process, edit, splice, project, and transfer their own super 8 films. This course will balance the technical, conceptual, and historical aspects of small­ gauge or amateur analog filmmaking, and address what it means to work in this medium at the beginning of the 21st century. The course will include presentations, readings, and discussions on contemporary and historical artists in the medium, as well as film screenings and lectures. Classroom visits by artists and field trips will also provide an informed context for the primary course objective.\n\nPrerequisites: Arts Major and ARTS 1704; Students must complete ARTS 3780 or be an MFA student before enrolling in ARTS 5780; or instructor consent.",
+    "prereq": {
+      "and": [
+        {
+          "code": "ARTS 1704",
+          "subject": "ARTS",
+          "id": "1704"
+        },
+        {
+          "code": "ARTS 3780",
+          "subject": "ARTS",
+          "id": "3780"
+        }
+      ]
+    }
   },
   {
     "code": "ARTS 5810",
@@ -1523,15 +1559,19 @@
     "subject": "ARTS",
     "id": "5850",
     "title": "Adv Foundry & Metal Sculpture",
-    "info": "Are you interested in participating in a human tradition that is at least 8,000 years old? \nIn this course, you will collaborate with the elements: earth, water, wind and fire to create artwork using different mold techniques for casting metal and pouring bronze and aluminum. Using studio practices, we will investigate the historical and contemporary methods and concepts of mold making and casting metal. Metal casting processes are by nature a social act. In this course, please be ready to help each other, whether by helping brainstorm ideas, helping preparing materials, cleaning areas, or giving a hand to lift something– this is all part of the making process and our shared learning experience in the foundry.  \n\nprereq: Art major",
-    "prereq": []
+    "info": "Are you interested in participating in a human tradition that is at least 8,000 years old? \nIn this course, you will collaborate with the elements: earth, water, wind, and fire to create artwork using different mold techniques for casting metal and pouring bronze and aluminum. Using studio practices, we will investigate the historical and contemporary methods and concepts of mold making and casting metal. Metal casting processes are by nature a social act. In this course, please be ready to help each other, whether by helping brainstorm ideas, helping preparing materials, cleaning areas, or giving a hand to lift something—this is all part of the making process and our shared learning experience in the foundry.  \n\nPrerequisite: Art major, ARTS 3850",
+    "prereq": {
+      "code": "ARTS 3850",
+      "subject": "ARTS",
+      "id": "3850"
+    }
   },
   {
     "code": "ARTS 5860",
     "subject": "ARTS",
     "id": "5860",
     "title": "Advanced Sculpture",
-    "info": "This advanced Sculpture course is a self-motivated and self-directed studio class to help you develop and maintain a personal studio practice. The structure of this studio course provides space for in-depth research, idea development, individual exploration, experimentation, play and critical feedback.\n\nPrereq: ARTS major and ARTS 3860",
+    "info": "This advanced Sculpture course is a self-motivated and self-directed studio class to help you develop and maintain a personal studio practice. The structure of this studio course provides space for in-depth research, idea development, individual exploration, experimentation, play, and critical feedback.\n\nPrereq: Students should be an ARTS major and complete ARTS 3860 before enrolling if they are not an ARTS MFA student.",
     "prereq": {
       "code": "ARTS 3860",
       "subject": "ARTS",

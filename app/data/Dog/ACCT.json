@@ -4,7 +4,7 @@
     "subject": "ACCT",
     "id": "1911",
     "title": "The Language of Business",
-    "info": "Have you ever wondered why Tesla’s stock price tripled in a 3-month time period? Why did Toys R Us go bankrupt? Why does Apple hold on to $200 billion of cash? Why is Snapchat still not profitable yet? All of these questions can be answered by looking at a company’s financial statements!\n\nFinancial accounting is often called the language of business as it is the language that companies use to communicate their financial information to various parties. Regardless of whether you want to work in the field of accounting and finance, become a manager at a company, or just dabble in stock market investing, understanding how a business works, how managers make decisions, and how to analyze financial statements will be hugely beneficial for your future. \n\nThis seminar will start by exposing you to basic business terminology and concepts, as well as analyzing how businesses make decisions. Next, we will focus on the ABCs of financial statements and financial analysis. Finally, we will apply these principles to real-life case studies and discussions that explore various companies such as Spotify, Tesla, Uber, Netflix, Starbucks, Apple, Snapchat, and more!\n",
+    "info": "Have you ever wondered why Tesla's stock price tripled in a 3-month time period? Why did Toys R Us go bankrupt? Why does Apple hold on to $200 billion of cash? Why is Snapchat still not profitable yet? All of these questions can be answered by looking at a company's financial statements!\n\nFinancial accounting is often called the language of business as it is the language that companies use to communicate their financial information to various parties. Regardless of whether you want to work in the field of accounting and finance, become a manager at a company, or just dabble in stock market investing, understanding how a business works, how managers make decisions, and how to analyze financial statements will be hugely beneficial for your future. \n\nThis seminar will start by exposing you to basic business terminology and concepts, as well as analyzing how businesses make decisions. Next, we will focus on the ABCs of financial statements and financial analysis. Finally, we will apply these principles to real-life case studies and discussions that explore various companies such as Spotify, Tesla, Uber, Netflix, Starbucks, Apple, Snapchat, and more!",
     "prereq": []
   },
   {
@@ -19,8 +19,8 @@
     "code": "ACCT 3001",
     "subject": "ACCT",
     "id": "3001",
-    "title": "Strategic Mgmt Acct",
-    "info": "Costing techniques, including activity-based costing. Applying costing methods to determine costs of products, services, and production processes. Use of costs in operating/strategic decisions.\n\nprereq: ACCT 2051 or 2050",
+    "title": "Strategic Mgmt Accounting",
+    "info": "Costing techniques, including activity-based costing. Applying costing methods to determine costs of products, services, and production processes. Use of costs in operating/strategic decisions.\n\nprereq:  ACCT 2051 or 2051H or ACCT 2050",
     "prereq": {
       "or": [
         {
@@ -106,11 +106,35 @@
     "subject": "ACCT",
     "id": "5102",
     "title": "Intermediate Accounting II",
-    "info": "Basic valuation problems encountered in financial reporting. Focuses on valuation of liabilities. Accounting for leases, pensions, and deferred taxes. Introduces consolidated financial statements.\n\nprereq: 5101[ mgmt or grad mgmt student]",
+    "info": "Basic valuation problems encountered in financial reporting. Focuses on valuation of liabilities. Accounting for leases, pensions, and deferred taxes. Introduces consolidated financial statements.\n\nprereq: CSOM mjr or grad mgmt or NONM; ACCT 5101",
     "prereq": {
       "code": "ACCT 5101",
       "subject": "ACCT",
       "id": "5101"
+    }
+  },
+  {
+    "code": "ACCT 5121W",
+    "subject": "ACCT",
+    "id": "5121W",
+    "title": "Auditing I",
+    "info": "This introductory course covers the importance of the audit process and how to plan an audit and conduct auditing procedures. The auditor's objective is to obtain reasonable assurance whether the financial statements, as a whole, are free from material misstatements (due to fraud or error) and present fairly, in all material respects and in accordance with generally accepted auditing standards (GAAS), the financial position of the entity. The course helps students identify audit risks related to the financial statements, perform audit tests, and interpret audit results.\n\nprereq: ACCT 5101",
+    "prereq": {
+      "code": "ACCT 5101",
+      "subject": "ACCT",
+      "id": "5101"
+    }
+  },
+  {
+    "code": "ACCT 5122",
+    "subject": "ACCT",
+    "id": "5122",
+    "title": "Auditing II",
+    "info": "This course leverages the audit concepts discussed in ACCT 5121W and introduces various ways that data analytics and process automation can be incorporated into a traditional audit plan. Accounting firms are increasingly expecting entry level hires to possess a basic understanding of advanced data analytics tools and an ability to apply data concepts to an audit to improve both audit efficiency and quality. The course will help students identify audit risks related to financial statement balances, perform audit testing using analytical procedures, and interpret results of data-driven procedures to demonstrate audit concepts. In this class you will work extensively with Microsoft Excel, Alteryx, and UiPath. The usage of these tools, as well as an understanding of data fundamentals will aid you in upper-level classes and ultimately improve your technology skills and career prospects. \n\nprereq: ACCT 5121 (can be concurrent)",
+    "prereq": {
+      "code": "ACCT 5121",
+      "subject": "ACCT",
+      "id": "5121"
     }
   },
   {
@@ -149,11 +173,20 @@
     "subject": "ACCT",
     "id": "5126",
     "title": "Internal Auditing",
-    "info": "Financial/operational auditing. Standards. Managing the function.\n\nprereq: 2050",
+    "info": "This course is an introduction to the auditing internal. Emphasis is placed on the independent audits performed by the internal audit function. The case method employed in this class is used to provide students with a realistic view of the audit process. After successfully completing this course, the student should have a working knowledge of the function and procedures of internal auditing.\n\nprereq: ACCT 2050 or ACCT 2051 or ACCT 2051H",
     "prereq": {
-      "code": "ACCT 2050",
-      "subject": "ACCT",
-      "id": "2050"
+      "or": [
+        {
+          "code": "ACCT 2050",
+          "subject": "ACCT",
+          "id": "2050"
+        },
+        {
+          "code": "ACCT 2051",
+          "subject": "ACCT",
+          "id": "2051"
+        }
+      ]
     }
   },
   {
@@ -161,22 +194,18 @@
     "subject": "ACCT",
     "id": "5135",
     "title": "Federal Income Tax",
-    "info": "U.S. federal system of taxation. Concepts of gross income, deductions, credits. Analysis of structure of Internal Revenue Code, its provisions with respect to specific areas of law. Interrelationships between legislative, judicial, and administrative authority. Methods, tools, and techniques to conduct tax research. \n\nprereq: [2050 and or 2051] or MBA 6030], [mgmt or grad mgmt student]",
+    "info": "U.S. federal system of taxation. Concepts of gross income, deductions, credits. Analysis of structure of Internal Revenue Code, its provisions with respect to specific areas of law. Interrelationships between legislative, judicial, and administrative authority. Methods, tools, and techniques to conduct tax research. \n\nprereq: ACCT 2050 or ACCT 2051 or ACCT 2051H or MBA 6030; CSOM mjr or grad mgmt or NONM",
     "prereq": {
       "or": [
         {
-          "and": [
-            {
-              "code": "ACCT 2050",
-              "subject": "ACCT",
-              "id": "2050"
-            },
-            {
-              "code": "ACCT 2051",
-              "subject": "ACCT",
-              "id": "2051"
-            }
-          ]
+          "code": "ACCT 2050",
+          "subject": "ACCT",
+          "id": "2050"
+        },
+        {
+          "code": "ACCT 2051",
+          "subject": "ACCT",
+          "id": "2051"
         },
         {
           "code": "MBA 6030",
@@ -191,9 +220,9 @@
     "subject": "ACCT",
     "id": "5141",
     "title": "Financial-Data Analytics",
-    "info": "This is a 2-credit introductory course on financial reporting data analytics for Carlson students. The main learning objective is to introduce students specializing in business (accounting, auditing, tax, finance, marketing, operations, etc.) to data analytics, providing them the necessary knowledge and tools needed to effectively use data analytics in their specialized domain. The goal is thus for students to be able to consume and use available data analytics technologies to complement existing technical skills, rather than to train \\\"data analytics specialists\\\" (although this class is a good jumping-off point for students who wish to pursue a career specializing in data analytics!). Prior coding experience is thus not required, although students should have completed business statistics (SCO 2550 or BA 2551 or equivalent statistics course). \n\nAfter a general overview of data analytics and machine learning, we will dive into the ETL (extract, transform, load) process, covering topics and showcasing applications such as data joins, variable types, formulas, and regular expressions. We will then explore data visualization tools (including pivot tables and dashboards) and conclude the term by modeling data to create business insights via predictions. Students will gain hands-on experience using state-of-the-art data analytics tools and will learn how to conduct basic SQL queries. Students will improve their quantitative and problem-solving skills and learn how to apply scientific research methods to answer questions, present solutions, and discuss limitations. An emphasis will be placed on financial reporting datasets/applications, although the methods and concepts covered are applicable to other business settings/functions. Ultimately, students will enhance their analytical skills and achieve a deeper understanding of issues related to financial reporting specifically and business more generally.  \n\nprereq: SCO 2550 or BA 2551 or equivalent statistics course and ACCT 2050 or 2051",
+    "info": "This is a 2-credit introductory course on financial reporting data analytics for Carlson students. The main learning objective is to introduce students specializing in business (accounting, auditing, tax, finance, marketing, operations, etc.) to data analytics, providing them the necessary knowledge and tools needed to effectively use data analytics in their specialized domain. The goal is thus for students to be able to consume and use available data analytics technologies to complement existing technical skills, rather than to train \"data analytics specialists\" (although this class is a good jumping-off point for students who wish to pursue a career specializing in data analytics). Prior coding experience is thus not required, although students should have completed business statistics (SCO 2550 or BA 2551 or equivalent statistics course). \n\nAfter a general overview of data analytics and machine learning, we will dive into the ETL (extract, transform, load) process, covering topics and showcasing applications such as data joins, variable types, formulas, and regular expressions. We will then explore data visualization tools (including pivot tables and dashboards) and conclude the term by modeling data to create business insights via predictions. Students will gain hands-on experience using state-of-the-art data analytics tools and will learn how to conduct basic SQL queries. Students will improve their quantitative and problem-solving skills and learn how to apply scientific research methods to answer questions, present solutions, and discuss limitations. An emphasis will be placed on financial reporting datasets/applications, although the methods and concepts covered are applicable to other business settings/functions. Ultimately, students will enhance their analytical skills and achieve a deeper understanding of issues related to financial reporting specifically and business more generally.  \n\nprereq: SCO 2550 or BA 2551 or equivalent statistics course; ACCT 2050 or 2051 or 2051H;  BA 3051 is recommended",
     "prereq": {
-      "and": [
+      "or": [
         {
           "code": "BA 2551",
           "subject": "BA",
@@ -208,6 +237,11 @@
           "code": "ACCT 2051",
           "subject": "ACCT",
           "id": "2051"
+        },
+        {
+          "code": "BA 3051",
+          "subject": "BA",
+          "id": "3051"
         }
       ]
     }
@@ -267,8 +301,8 @@
     "code": "ACCT 5201",
     "subject": "ACCT",
     "id": "5201",
-    "title": "Intermed Mgmt Acct",
-    "info": "This course is an in-action course. The course explores the topic of management accounting in greater depth. The course expands introductory course material via special emphasis on decision making, problem solving skills and exploration of accounting's role within overall management. The course is an in-action class. We will have a project working on a business case from a firm as the final assessment for the course.\n\nprereq: 3001, acct or finance major",
+    "title": "Intermediate Mgmt Accounting",
+    "info": "This course is an in-action course. The course explores the topic of management accounting in greater depth. The course expands introductory course material via special emphasis on decision-making, problem solving skills, and exploration of accounting's role within overall management. The course is an in-action class. We will have a project working on a business case from a firm as the final assessment for the course.\n\nprereq: CSOM mjr or NONM; ACCT 3001",
     "prereq": {
       "code": "ACCT 3001",
       "subject": "ACCT",
@@ -288,7 +322,7 @@
     "subject": "ACCT",
     "id": "5236",
     "title": "Taxation of Business",
-    "info": "Introduction to the income tax laws governing the taxation of corporations, partnerships, limited liability companies, limited liability partnerships, and S corporations. Students will also increase their knowledge and skills related to tax research by writing research memorandums.\n\nprereq: 5135, acct major",
+    "info": "Introduction to the income tax laws governing the taxation of corporations, partnerships, limited liability companies, limited liability partnerships, and S corporations. Students will also increase their knowledge and skills related to tax research by writing research memorandums.\n\nprereq: ACCT major; ACCT 5135",
     "prereq": {
       "code": "ACCT 5135",
       "subject": "ACCT",
@@ -337,7 +371,7 @@
     "subject": "ACCT",
     "id": "5311",
     "title": "International Acct",
-    "info": "Causes/history of international differences in design of financial accounting/reporting systems, efforts to harmonize them into worldwide system. Role/impact of currency translation on financial statements. International Accounting Standards, conceptual framework.\n\nprereq: 5101; [5102 or concurrent registration is required (or allowed) in 5102] recommended",
+    "info": "Causes/history of international differences in design of financial accounting/reporting systems, efforts to harmonize them into worldwide system. Role/impact of currency translation on financial statements. International Accounting Standards, conceptual framework.\n\nprereq: CSOM mjr or NONM; ACCT 5101; ACCT 5102 (can be concurrent)",
     "prereq": {
       "or": [
         {
@@ -398,7 +432,7 @@
     "subject": "ACCT",
     "id": "6075",
     "title": "Managing Global Corp Tax Rate",
-    "info": "Computation, disclosure, and analysis of worldwide provision for income taxes. Impact of new Administration?s tax policy. Comparative corporate income tax systems. Impact of International Financial Reporting Standards. Short-term convergence of international/U.S. accounting standards. Case studies.\n\nprereq: MBA student",
+    "info": "Computation, disclosure, and analysis of worldwide provision for income taxes. Impact of new Administration's tax policy. Comparative corporate income tax systems. Impact of International Financial Reporting Standards. Short-term convergence of international/U.S. accounting standards. Case studies.\n\nprereq: MBA student",
     "prereq": []
   },
   {
@@ -504,7 +538,7 @@
     "subject": "ACCT",
     "id": "6601",
     "title": "Internal Control",
-    "info": "Internal control from management's perspective. Application of COSO Internal ControlIntegrated Framework and Enterprise Risk ManagementIntegrated Framework.\n\nprereq: MAcc grad major",
+    "info": "Internal control from management's perspective. Application of COSO Internal Control—Integrated Framework and Enterprise Risk Management—Integrated Framework.\n\nprereq: MAcc grad major",
     "prereq": []
   },
   {
@@ -528,7 +562,7 @@
     "subject": "ACCT",
     "id": "6604",
     "title": "Advanced Management Accounting",
-    "info": "Advanced Management Accounting will expose students to the application of management accounting from a strategic perspective. Students will deepen their knowledge and understanding of management accountings role in areas such as sustainability, environmental accounting, time-based accounting, including time-based activity-based costing, activity-based management, value chain analysis, business process re-engineering, benchmarking, target costing, product life cycle management, quantifying qualitative improvements and big data. Via cases and discussion of current articles, students will explore the most current and challenging issues facing management accountants.",
+    "info": "Advanced Management Accounting will expose students to the application of management accounting from a strategic perspective. Students will deepen their knowledge and understanding of management accounting's role in areas such as sustainability, environmental accounting, time-based accounting, including time-based activity-based costing, activity-based management, value chain analysis, business process re-engineering, benchmarking, target costing, product life cycle management, quantifying qualitative improvements and \"big data\". Via cases and discussion of current articles, students will explore the most current and challenging issues facing management accountants.",
     "prereq": []
   },
   {

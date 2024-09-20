@@ -20,9 +20,9 @@
     "subject": "FINA",
     "id": "3001",
     "title": "Finance Fundamentals",
-    "info": "How competition for capital in Capital Markets establishes metrics and measures used to understand financial performance of the firm.  The course introduces the finance view of the firm and the application of value creation principles to firm decision making.  Course presents the centrality of cash flows, the theoretical foundations for Time Value of Money, decision tools for investment of capital, basic valuation of stocks and bonds, and the theoretical foundations for the impact of risk on the required return on investor capital.\n\nprereq: ACCT 2050 or ACCT 2051, SCO 2550 or BA 2551 or equivalent statistics course",
+    "info": "Students will learn how competition for capital in Capital Markets establishes metrics and measures used to understand financial performance of the firm. The course introduces the finance view of the firm and the application of value creation principles to firm decision making. The course presents the centrality of cash flows, the theoretical foundations for Time Value of Money, decision tools for investment of capital, basic valuation of stocks and bonds, and the theoretical foundations for the impact of risk on the required return on investor capital.\n\nprereq: ACCT 2050 or ACCT 2051 or ACCT 2051H; SCO 2550 or BA 2551 or equivalent statistics course",
     "prereq": {
-      "and": [
+      "or": [
         {
           "code": "ACCT 2050",
           "subject": "ACCT",
@@ -54,7 +54,7 @@
     "subject": "FINA",
     "id": "4121",
     "title": "Financial Markets",
-    "info": "This course provides a framework to understand how financial markets operate and how they establish the cost of capital demanded by investors through market interest rates. Course presents valuation models for bonds, the impact of the Federal Reserve on the level and term structure of interest rates, measures of interest rate risk, financing markets for securities and how these define the pricing of futures and forward contracts.  prereq: 3001 or 3001H, CSOM major or Math/Actuarial Science major or Management minor. ",
+    "info": "This course provides a framework to understand how financial markets operate and how they establish the cost of capital demanded by investors through market interest rates. Course presents valuation models for bonds, the impact of the Federal Reserve on the level and term structure of interest rates, measures of interest rate risk, financing markets for securities and how these define the pricing of futures and forward contracts. \n\nprereq: FINA 3001 or FINA 3001H; CSOM mjr or NONM or Management minor or Math/Actuarial Science major. ",
     "prereq": {
       "code": "FINA 3001",
       "subject": "FINA",
@@ -65,24 +65,41 @@
     "code": "FINA 4122",
     "subject": "FINA",
     "id": "4122",
-    "title": "Banks, Banking Srvs & Fintech",
-    "info": "This course examines the traditional economic functions of commercial banks, especially lending, savings and liquidity provision, and payment services. For each function, we will address key business risks, policy concerns, and the impact of competition both from traditional nonbank financial institutions and from “fintechs” seeking to leverage new information technology. \n\npreq Fina 3001",
-    "prereq": []
+    "title": "Banks, Banking Srvcs & Fintech",
+    "info": "This course examines the traditional economic functions of commercial banks, especially lending, savings and liquidity provision, and payment services. For each function, we will address key business risks, policy concerns, and the impact of competition both from traditional nonbank financial institutions and from “fintechs” seeking to leverage new information technology. \n\nprereq: FINA 3001 or FINA 3001H; CSOM mjr or NONM or Math/Actuarial Science major",
+    "prereq": {
+      "code": "FINA 3001",
+      "subject": "FINA",
+      "id": "3001"
+    }
   },
   {
     "code": "FINA 4125",
     "subject": "FINA",
     "id": "4125",
     "title": "Blockchain, Cryptocurrencies",
-    "info": "If you have been following the popular press you know about Bitcoin, Ethereum, NFTs, and possibly ICOs. You have heard about blockchain and distributed ledgers. You might not know that the number of cryptocurrencies is fast increasing and might soon be about 1000 of them. Depending on that day’s price, there might be a 100 cryptos with a notional market cap above one billion and about 15 above 10 billion. You will learn that cryptocurrencies are extremely volatile. Is it all hype or this the shape of our future? Will this be another Tulip craze? How will they effect regular commerce? Are they just digital gold? How will governments step in to regulate them? Will Governments issue their own Digicoins?\nIn this course, we will not be able to answer all the above questions. However, you will gain a basic understanding of the new technology that is based on cryptography. We will discuss what it provides and where it is still lacking. We will revisit the role of money and what makes a currency successful. We will then examine the properties of cryptocurrencies and ask what it would take for them to be a store of value and/or a medium of exchange. To do this we will start with some fundamental concepts from cryptography that would allow you to understand the technology beyond some stretched analogies. We will discuss the economics of these currencies and the regulatory issues facing governments. We will then delve into the use cases: Primary markets (ICOs & venture capital), secondary markets and exchanges, smart contracts, and potentially settlement activities in clearing houses.",
-    "prereq": []
+    "info": "If you have been following the popular press you know about Bitcoin, Ethereum, NFTs, and possibly ICOs. You have heard about blockchain and distributed ledgers. You might not know that the number of cryptocurrencies is fast increasing and might soon be about 1000 of them. Depending on that day’s price, there might be a 100 cryptos with a notional market cap above one billion and about 15 above 10 billion. You will learn that cryptocurrencies are extremely volatile. Is it all hype or this the shape of our future? Will this be another Tulip craze? How will they effect regular commerce? Are they just digital gold? How will governments step in to regulate them? Will Governments issue their own Digicoins?\nIn this course, we will not be able to answer all the above questions. However, you will gain a basic understanding of the new technology that is based on cryptography. We will discuss what it provides and where it is still lacking. We will revisit the role of money and what makes a currency successful. We will then examine the properties of cryptocurrencies and ask what it would take for them to be a store of value and/or a medium of exchange. To do this we will start with some fundamental concepts from cryptography that would allow you to understand the technology beyond some stretched analogies. We will discuss the economics of these currencies and the regulatory issues facing governments. We will then delve into the use cases: Primary markets (ICOs & venture capital), secondary markets and exchanges, smart contracts, and potentially settlement activities in clearing houses.\n\nprereq: FINA 3001 or FINA 3001H or APEC 3501; CSOM mjr or Math mjr or NONM",
+    "prereq": {
+      "or": [
+        {
+          "code": "FINA 3001",
+          "subject": "FINA",
+          "id": "3001"
+        },
+        {
+          "code": "APEC 3501",
+          "subject": "APEC",
+          "id": "3501"
+        }
+      ]
+    }
   },
   {
     "code": "FINA 4221",
     "subject": "FINA",
     "id": "4221",
-    "title": "Prin of Corporate Finance",
-    "info": "This course evaluates how the financing choices the firm makes influence the creation of firm value and allocation of firm risks among investors.  Course presents the debt vs. equity trade-off, tax effects of financing, dividend vs. share repurchases, and the impact on managerial incentives and agency problems. \nprereq: 3001 or 3001H, CSOM major or Math/Actuarial Science major or Management Minor",
+    "title": "Principle of Corporate Finance",
+    "info": "This course evaluates how the financing choices the firm makes influence the creation of firm value and allocation of firm risks among investors.  Course presents the debt vs. equity trade-off, tax effects of financing, dividend vs. share repurchases, and the impact on managerial incentives and agency problems. \n\nprereq: FINA 3001 or FINA 3001H; CSOM mjr or NONM or Management minor or Math/Actuarial Science major.",
     "prereq": {
       "code": "FINA 3001",
       "subject": "FINA",
@@ -123,11 +140,20 @@
     "subject": "FINA",
     "id": "4234",
     "title": "Mergers and Acq - In Action",
-    "info": "This Action Based Course will explore in an experiential way the methodology corporate managers employ and invest capital to achieve growth and a return to its shareholders through mergers and acquisitions. Starting with the strategic rationale and ending with the challenges of integration, this course will focus on the process used for identifying M&A targets and the methods used in practice to value these transactions.  The objectives of the course will be to leverage skills mastered in the core curriculum: finance, marketing, accounting, and operations – and other related courses that will help you in this class.  \nPrerequisite: Fina 4422",
+    "info": "This action-based course will explore in an experiential way the methodology corporate managers employ and invest capital to achieve growth and a return to its shareholders through mergers and acquisitions. Starting with the strategic rationale and ending with the challenges of integration, this course will focus on the process used for identifying M&A targets and the methods used in practice to value these transactions. The objectives of the course will be to leverage skills mastered in the core curriculum: finance, marketing, accounting, and operations and other related courses that will help you in this class.  \nPrerequisite: Fina 4422 or 5322",
     "prereq": {
-      "code": "FINA 4422",
-      "subject": "FINA",
-      "id": "4422"
+      "or": [
+        {
+          "code": "FINA 4422",
+          "subject": "FINA",
+          "id": "4422"
+        },
+        {
+          "code": "FINA 5322",
+          "subject": "FINA",
+          "id": "5322"
+        }
+      ]
     }
   },
   {
@@ -143,7 +169,7 @@
     "subject": "FINA",
     "id": "4242W",
     "title": "Corporate Investment Decisions",
-    "info": "This case-based course provides the student with an opportunity to apply the concepts from previous finance coursework to a variety of decisions a firm would face when allocating capital to investment decisions. The focus is weighted toward combining the theory with the practice of valuation of investment opportunities through the use of group cases to give the student a sense of the strengths and weaknesses of such analysis. The course presents firm performance measurement metrics, APV & WACC based valuation, working capital management, making capital budgeting decisions, financial distress and capital structure, real options, and mergers and acquisitions. prereq: FINA 4121, 4321, 4422 or 5322, 4522, and CSOM major",
+    "info": "This case-based course provides the student with an opportunity to apply the concepts from previous finance coursework to a variety of decisions a firm would face when allocating capital to investment decisions. The focus is weighted toward combining the theory with the practice of valuation of investment opportunities through the use of group cases to give the student a sense of the strengths and weaknesses of such analysis. The course presents firm performance measurement metrics, APV & WACC based valuation, working capital management, making capital budgeting decisions, financial distress and capital structure, real options, and mergers and acquisitions. \n\nprereq: FINA 4121, 4321, 4422 or 5322, 4522, and CSOM major",
     "prereq": {
       "and": [
         {
@@ -178,8 +204,8 @@
     "code": "FINA 4321",
     "subject": "FINA",
     "id": "4321",
-    "title": "Portfolio Mgmt",
-    "info": "This course uses statistics to demonstrate how the construction of portfolios of individual securities impacts the risk return trade-off for investors through diversification.  Course presents models of pricing investor risk, impact of asset allocation on returns, active versus indexed portfolio management, and approaches to measure value added performance of investment portfolios.\nprereq: 3001 or 3001H, CSOM major or math/actuarial science major or Management minor",
+    "title": "Portfolio Management",
+    "info": "This course uses statistics to demonstrate how the construction of portfolios of individual securities impacts the risk return trade-off for investors through diversification. Course presents models of pricing investor risk, impact of asset allocation on returns, active versus indexed portfolio management, and approaches to measure value added performance of investment portfolios.\n\nprereq:  FINA 3001 or FINA 3001H; CSOM mjr or NONM or Management minor",
     "prereq": {
       "code": "FINA 3001",
       "subject": "FINA",
@@ -211,7 +237,7 @@
     "subject": "FINA",
     "id": "4329",
     "title": "Security Analysis Capstone",
-    "info": "Valuation of equity securities. Principles. Relationship between various valuation approaches. Tools to test self-designed security selection rules.prereq: FINA 4121 or 4121H, 4321 or 4321H, 4422 or 5322, 4522, ACCT 5100 or ACCT 5101",
+    "info": "Valuation of equity securities. Principles. Relationship between various valuation approaches. Tools to test self-designed security selection rules.\n\nprereq: FINA 4121 or 4121H, 4321 or 4321H, 4422 or 5322, 4522, ACCT 5100 or ACCT 5101",
     "prereq": {
       "and": [
         {
@@ -278,9 +304,9 @@
     "subject": "FINA",
     "id": "4522",
     "title": "Options & Derivatives I",
-    "info": "This course provides a comprehensive introduction to derivative contracts and their pay-offs and basic pricing and how they are used to manage risk or speculate in financial markets.  Course presents forward and futures contracts, option contracts and swap contracts.\n\nprereq: 3001 or 3001H or ApEc 3501, 4121 or 4121H, 4321 or 4321H (can be concurrent), CSOM major",
+    "info": "This course provides a comprehensive introduction to derivative contracts and their pay-offs and basic pricing and how they are used to manage risk or speculate in financial markets. Course presents forward and futures contracts, option contracts, and swap contracts.\n\nprereq: CSOM mjr; FINA 3001 or FINA 3001H or APEC 3501; FINA 4121 or FINA 4121H; FINA 4321 or FINA 4321H",
     "prereq": {
-      "and": [
+      "or": [
         {
           "code": "FINA 3001",
           "subject": "FINA",
@@ -317,20 +343,11 @@
     "subject": "FINA",
     "id": "4529",
     "title": "Derivatives II Capstone",
-    "info": "Quantitatively advanced material such as Black-Scholes model for valuing option sensitivities (the Greeks). Value-at-risk methods. Valuation/uses of credit derivatives such as default swaps/collateralized debt obligations.\n\nprereq: 4522 or 4523",
+    "info": "Quantitatively advanced material such as Black-Scholes model for valuing option sensitivities (the Greeks). Value-at-risk methods. Valuation/uses of credit derivatives such as default swaps/collateralized debt obligations.\n\nprereq: FINA 4522",
     "prereq": {
-      "or": [
-        {
-          "code": "FINA 4522",
-          "subject": "FINA",
-          "id": "4522"
-        },
-        {
-          "code": "FINA 4523",
-          "subject": "FINA",
-          "id": "4523"
-        }
-      ]
+      "code": "FINA 4522",
+      "subject": "FINA",
+      "id": "4522"
     }
   },
   {
@@ -416,6 +433,18 @@
     }
   },
   {
+    "code": "FINA 5323",
+    "subject": "FINA",
+    "id": "5323",
+    "title": "Advanced Financial Modeling",
+    "info": "This course builds the advanced financial modeling tools needed to build, operate, and understand the standard performance analysis,\nvaluation analysis, credit analysis, and M&A and LBO models that have become central to modern financial analysts.\n\nprereq: FINA 5322 and admittance to the Carlson Funds Enterprise",
+    "prereq": {
+      "code": "FINA 5322",
+      "subject": "FINA",
+      "id": "5322"
+    }
+  },
+  {
     "code": "FINA 5422",
     "subject": "FINA",
     "id": "5422",
@@ -487,7 +516,7 @@
     "subject": "FINA",
     "id": "6114",
     "title": "Private & Public Equity Finan.",
-    "info": "Financing is a critical success factor for growing businesses. We will follow the life cycle of a firm to discuss financing at different stages. This course will explore current issues and best practices for private and public equity ranging from early-stage financing with angel investors and Venture Capital to late stage ?take-private? transactions such as leveraged buyouts. We will also explore topics including Initial Public Offerings (IPOs), Direct Listings, Special Purpose Acquisition Companies (SPACs) or ?blank-check? companies and Seasoned Equity Offerings (SEOs). The course will utilize a combination of learning techniques including guest speakers, lectures, in class exercises and case studies.\n\nThis course was created to combine Fina 6112 and Fina 6113.",
+    "info": "Financing is a critical success factor for growing businesses. We will follow the life cycle of a firm to discuss financing at different stages. This course will explore current issues and best practices for private and public equity ranging from early-stage financing with angel investors and Venture Capital to late stage “take-private” transactions such as leveraged buyouts. We will also explore topics including Initial Public Offerings (IPOs), Direct Listings, Special Purpose Acquisition Companies (SPACs) or “blank-check” companies and Seasoned Equity Offerings (SEOs). The course will utilize a combination of learning techniques including guest speakers, lectures, in class exercises and case studies.\n\nThis course was created to combine Fina 6112 and Fina 6113.",
     "prereq": []
   },
   {
@@ -535,7 +564,7 @@
     "subject": "FINA",
     "id": "6123",
     "title": "Financial Services Industry",
-    "info": "This course gives an overview of the U.S. financial services industry, emphasizing the overall environment, key institutional details, and underlying economic functions. After introducing financial markets and institutions and their functions, we look at the biggest sectors of this industry (banking, insurance, securities dealing, money management, etc.) in more depth. We conclude with a discussion of the impact of \\\"fintech\\\" on this sector.",
+    "info": "This course gives an overview of the U.S. financial services industry, emphasizing the overall environment, key institutional details, and underlying economic functions. After introducing financial markets and institutions and their functions, we look at the biggest sectors of this industry (banking, insurance, securities dealing, money management, etc.) in more depth. We conclude with a discussion of the impact of \"fintech\" on this sector.",
     "prereq": []
   },
   {

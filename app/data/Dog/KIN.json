@@ -75,8 +75,8 @@
     "code": "KIN 3027",
     "subject": "KIN",
     "id": "3027",
-    "title": "Human Anatomy",
-    "info": "Kinesiology 3027 is a 4-credit introduction to human anatomy with two 50-min lectures and one 100-min lab per week. Upon completing this course, students will be able to use proper anatomical terminology and identify the majority of the human anatomical structures and their functions. The lecture series is organized around an organ systems approach and currently follows the text of Human Anatomy. The lectures are divided into basic anatomy and human development principles and the major anatomical systems: skin, musculoskeletal, cardiovascular, respiratory, renal, neurological, endocrine, immune, and digestive. Each section proceeds an anatomic description from the microscopic or cellular level to the key features of tissues that aggregate into organ anatomy (bottom up). The kinetic anatomy perspective describes organ systems' dynamic and functional characteristics based on their component organ anatomy and interactions (top-down). The context for course material covered will reflect a kinesiology focus on human movement in exercise and sports. This will better prepare students for graduate school courses in the health sciences, movement sciences, and Athletic Training. In addition, students will be encouraged to learn their anatomy as a health and preventive medicine skill. The laboratory component is divided into two; one identifies cells, tissues, and bones and the different bone parts. These activities are performed in the Human Performance Teaching Laboratory (HPTL) in Mariucci Arena 141. Laboratory activities include using light microscopes to identify cells and tissues and working with individual bones and intact skeletons. The second component is the cadaver lab at the Anatomy Bequest Program. Students will have the opportunity to visualize and identify anatomical structures in cadavers and cadavers specimens during these labs. The cadaver labs provide students with the three-dimensional organization of the human anatomy and the association with neighboring anatomical structures. The instructors will demonstrate the functional anatomical aspects and clinical anatomical correlations. Students are able to further complement their understanding of human anatomy by using anatomy and physiology virtual labs.",
+    "title": "Human Anatomy for Kinesiology",
+    "info": "Kinesiology 3027 is a 4-credit introduction to human anatomy that examines the human body by organ systems. The course consists of two 50-minute lectures and one 100-minute lab per week, leveraging augmented reality (AR) cadaver technology. Students will identify and describe the structure-function relationships of anatomical structures. This course covers major organ systems from histological to gross levels, including, but not limited to, the integument, nervous, endocrine, cardiovascular, respiratory, urinary, digestive, and reproductive systems while emphasizing musculoskeletal systems and movement. This course uses Microsoft HoloLenses to provide AR cadavers in addition to traditional physical and 2D models. AR technology facilitates a holistic integration of many body systems and helps students visualize structures that are challenging to depict with other models and methods.",
     "prereq": []
   },
   {
@@ -453,7 +453,7 @@
     "subject": "KIN",
     "id": "3982",
     "title": "Research Methods",
-    "info": "This course is designed to prepare students to read, understand, interpret, evaluate, and critique research with a specific emphasis on research in the kinesiology discipline and relevance of research methods in students' everyday lives. The course will cover reviewing research articles and their relation to study design and methods. Other topics include ethical considerations in research, quantitative and qualitative design, sampling, measurement validity and reliability, and basic statistics for analyzing research questions. Students will write a literature review on a topic of interest and design a research study.prereq: Kinesiology Major or Physical Activity and Health Promotion Major or Sport Management Major",
+    "info": "This course is designed to prepare students to read, understand, interpret, evaluate, and critique research with a specific emphasis on research in the kinesiology discipline and relevance of research methods in students' everyday lives. The course will cover reviewing research articles and their relation to study design and methods. Other topics include ethical considerations in research, quantitative and qualitative design, sampling, measurement validity and reliability, and basic statistics for analyzing research questions. Students will write a literature review on a topic of interest and design a research study.\n\nprereq: Kinesiology Major or Physical Activity and Health Promotion Major or Sport Management Major",
     "prereq": []
   },
   {
@@ -522,7 +522,7 @@
     "subject": "KIN",
     "id": "4385",
     "title": "Exercise Physiology",
-    "info": "Information and learning experiences presented in this class will cover specific areas within the discipline of Exercise Physiology. This course is designed for the advanced undergraduate student in Kinesiology, as well as advanced students in such complementary areas as public health, nutrition, physiology, biology, biochemistry, or any sport‑ related areas. It creates a great opportunity to combine the science of biological, biochemistry, physics and physiology with the study of health, fitness, wellness, human performance, and sport. Emphasis is placed on basic human physiological systems and the responses of those systems to the challenge of physical activity: from moderate to extreme intensities. The biochemical bases of these responses will be presented. Historical, psychological, sociological, and philosophical implications of these topics will be integrated into many of the lecture/discussions. In addition to lecture information, students will be provided a \\\"hands on,\\\" small group laboratory experience that is carefully orchestrated to track lecture material and presentations.\n\nprereq: KIN 3385 or PHSL 3051 and Kinesiology Major or Physical Activity and Health Promotion Major",
+    "info": "Information and learning experiences presented in this class will cover specific areas within the discipline of Exercise Physiology. This course is designed for the advanced undergraduate student in Kinesiology, as well as advanced students in such complementary areas as public health, nutrition, physiology, biology, biochemistry, or any sport‑ related areas. It creates a great opportunity to combine the science of biological, biochemistry, physics and physiology with the study of health, fitness, wellness, human performance, and sport. Emphasis is placed on basic human physiological systems and the responses of those systems to the challenge of physical activity: from moderate to extreme intensities. The biochemical bases of these responses will be presented. Historical, psychological, sociological, and philosophical implications of these topics will be integrated into many of the lecture/discussions. In addition to lecture information, students will be provided a \"hands on,\" small group laboratory experience that is carefully orchestrated to track lecture material and presentations.\n\nprereq: KIN 3385 or PHSL 3051 and Kinesiology Major or Physical Activity and Health Promotion Major",
     "prereq": {
       "or": [
         {
@@ -650,13 +650,9 @@
     "code": "KIN 5122",
     "subject": "KIN",
     "id": "5122",
-    "title": "Appl. Ex. Physiol.",
-    "info": "Mechanisms of cardiorespiratory and muscular responses to exercise; application of exercise physiology to assessment of work capacity, athletic conditioning, and requirements of human powered vehicles; low to moderate exercise as an intervention in lowering risk for common health problems.\n\nprereq: 4385 or equiv or instr consent",
-    "prereq": {
-      "code": "KIN 4385",
-      "subject": "KIN",
-      "id": "4385"
-    }
+    "title": "Applied Exercise Physiology",
+    "info": "Mechanisms of cardiorespiratory and muscular responses to exercise; application of exercise physiology to assessment of work capacity, athletic conditioning, and requirements of human powered vehicles; low to moderate exercise as an intervention in lowering risk for common health problems.",
+    "prereq": []
   },
   {
     "code": "KIN 5123",

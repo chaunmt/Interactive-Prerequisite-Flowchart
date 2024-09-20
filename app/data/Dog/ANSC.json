@@ -32,6 +32,14 @@
     "prereq": []
   },
   {
+    "code": "ANSC 1051",
+    "subject": "ANSC",
+    "id": "1051",
+    "title": "Intro to Veterinary Science",
+    "info": "The goals of this course are to afford learners a base knowledge of veterinary science by moving through topics ranging from the cell to surgery and to provide a view of the practice of veterinary medicine through the eyes of an experienced practitioner. ",
+    "prereq": []
+  },
+  {
     "code": "ANSC 1101",
     "subject": "ANSC",
     "id": "1101",
@@ -208,7 +216,7 @@
     "subject": "ANSC",
     "id": "3007",
     "title": "Equine Nutrition",
-    "info": "Principles of nutrition. Emphasizes unique aspects of equine nutrition. Nutritional needs of healthy animals. Factors in feeding. Animal behavior, growth/development, physiological status, environmental conditions, food type, availability. How physiology of horse's gastrointestinal tract, utilization of feedstuffs, and horse's nutritional requirements interrelate. Balanced rations, nutritional related ailments. Pasture management, forage selection, use of dietary feed additives/enhancers.prereq: ANSC 2401",
+    "info": "Principles of nutrition. Emphasizes unique aspects of equine nutrition. Nutritional needs of healthy animals. Factors in feeding. Animal behavior, growth/development, physiological status, environmental conditions, food type, availability. How physiology of horse's gastrointestinal tract, utilization of feedstuffs, and horse's nutritional requirements interrelate. Balanced rations, nutritional related ailments. Pasture management, forage selection, use of dietary feed additives/enhancers.\n\nprereq: ANSC 2401",
     "prereq": {
       "code": "ANSC 2401",
       "subject": "ANSC",
@@ -252,7 +260,7 @@
     "subject": "ANSC",
     "id": "3093",
     "title": "Directed Study",
-    "info": "Directed Study: A course in which a student designs and carries out a directed study on selected topics or problems under the direction of a faculty member; eg, literature review. Directed study courses may be taken for variable credit and special permission is needed for enrollment.  Students enrolling in a directed study will be required to use the University-wide on-line directed study contract process in order to enroll. No more than 6 credits of directed study counts towards CFANS major requirements. prereq: instructor consent.",
+    "info": "Directed Study: A course in which a student designs and carries out a directed study on selected topics or problems under the direction of a faculty member; eg, literature review. Directed study courses may be taken for variable credit and special permission is needed for enrollment.  Students enrolling in a directed study will be required to use the University-wide on-line directed study contract process in order to enroll. No more than 6 credits of directed study counts towards CFANS major requirements. \n\nprereq: instructor consent.",
     "prereq": []
   },
   {
@@ -260,7 +268,7 @@
     "subject": "ANSC",
     "id": "3094",
     "title": "Directed Research",
-    "info": "An opportunity in which a student designs and carries out a directed research project under the direction of a faculty member. Directed research may be taken for variable credit and special permission is needed for enrollment. Students enrolling in a directed research will be required to use the University-wide online directed research contract process in order to enroll. No more than 6 credits of directed research counts towards CFANS major requirements. prereq: instructor consent. ",
+    "info": "An opportunity in which a student designs and carries out a directed research project under the direction of a faculty member. Directed research may be taken for variable credit and special permission is needed for enrollment. Students enrolling in a directed research will be required to use the University-wide online directed research contract process in order to enroll. No more than 6 credits of directed research counts towards CFANS major requirements. \n\nprereq: instructor consent. ",
     "prereq": []
   },
   {
@@ -634,12 +642,8 @@
     "subject": "ANSC",
     "id": "4603",
     "title": "Beef Production Systems Mgmt",
-    "info": "How to resolve problems and manage cow-calf, stocker, or feedlot operations. Segments of beef industry, challenges. Nutrition, reproduction, genetics, and health in beef cattle production. Students evaluate a beef cattle enterprise and contribute in marketing, selection, reproduction, nutrition, or health management.\n\nprereq: concurrent registration is required (or allowed) in 4613",
-    "prereq": {
-      "code": "ANSC 4613",
-      "subject": "ANSC",
-      "id": "4613"
-    }
+    "info": "How to resolve problems and manage cow-calf, stocker, or feedlot operations. Segments of beef industry, challenges. Nutrition, reproduction, genetics, and health in beef cattle production. Students evaluate a beef cattle enterprise and contribute in marketing, selection, reproduction, nutrition, or health management. Concurrent registration is allowed in AnSc 4613. ",
+    "prereq": []
   },
   {
     "code": "ANSC 4604",
@@ -691,7 +695,7 @@
     "subject": "ANSC",
     "id": "4613",
     "title": "Adv Beef Prod Systems Mgmt",
-    "info": "Half semester course. Student enterprise-analysis teams evaluate a beef cattle enterprise and solve  problems in marketing, selection, reproduction, nutrition, or health management.\n\nprereq: 4603",
+    "info": "Student enterprise-analysis teams evaluate a beef cattle enterprise and solve  problems in marketing, selection, reproduction, nutrition, or health management.\n\nprereq: 4603",
     "prereq": {
       "code": "ANSC 4603",
       "subject": "ANSC",
@@ -739,7 +743,7 @@
     "subject": "ANSC",
     "id": "5025",
     "title": "Gut Microbiome Systems",
-    "info": "This course is primarily focused on providing conceptual and methodological tools to understand how diet and the gut microbiome converge to impact the physiological landscape of animals and humans, considering diet, host and microbiome as one highly integrated system. To that end, the course relies on concepts of data analysis, gastrointestinal microbiology, the breadth of scientific literature produced up to date and hands on experiences to immerse attendants in the ever-growing microbiome field and open them to consider a microbiome lens to address different research questions in their respective fields. \n\nThe course emphasizes three main conceptual areas:\n\n1.\tCompositional and functional organization of microbial communities in the mammalian gut: From cells to functional communities.\n2.\tDietary drivers of the mammalian gut microbiome: Nutritional Ecology in the mammalian gut \n3.\tHost-microbiome interactions: Physiological impact of the mammalian gut microbiome  \n\nRather than memorizing these concepts, the course emphasizes the need to apply them to real life issues in animal and human nutrition and health. As such, recognizing these conceptual areas in context, and using them for problem solving in their respective research areas is the ultimate goal of the course.\n\nUndergraduate level course in microbiology and physiology are suggested to enroll in this course. Also, previous completion of statistics courses and familiarity with the R statistical interface and command line are recommended.",
+    "info": "This course is primarily focused on providing conceptual and methodological tools to understand how diet and the gut microbiome converge to impact the physiological landscape of animals and humans, considering diet, host and microbiome as one highly integrated system. To that end, the course relies on concepts of data analysis, gastrointestinal microbiology, the breadth of scientific literature produced up to date and hands on experiences to immerse attendants in the ever-growing microbiome field and open them to consider a microbiome lens to address different research questions in their respective fields. \n\nThe course emphasizes three main conceptual areas:\n\n1.\tCompositional and functional organization of microbial communities in the mammalian gut: From cells to functional communities.\n2.\tDietary drivers of the mammalian gut microbiome: Nutritional Ecology in the mammalian gut \n3.\tHost-microbiome interactions: Physiological impact of the mammalian gut microbiome  \n\nRather than memorizing these concepts, the course emphasizes the need to apply them to real life issues in animal and human nutrition and health. As such, recognizing these conceptual areas in context, and using them for problem solving in their respective research areas, is the ultimate goal of the course.\n\nUndergraduate level course in microbiology and physiology are suggested to enroll in this course. Also, previous completion of statistics courses and familiarity with the R statistical interface and command line are recommended.",
     "prereq": []
   },
   {
@@ -747,7 +751,7 @@
     "subject": "ANSC",
     "id": "5035",
     "title": "Animal Welfare Judging Assess",
-    "info": "Advanced application of animal welfare science toward the assessment of real-life scenarios in agriculture, companion, and exotic animals. Top students will compete on the UMN team at the Intercollegiate Animal Welfare Judging and Assessment Competition held in November each year.\n",
+    "info": "Advanced application of animal welfare science toward the assessment of real-life scenarios in agriculture, companion, and exotic animals. Top students will compete on the UMN team at the Intercollegiate Animal Welfare Judging and Assessment Competition held in November each year.",
     "prereq": []
   },
   {
@@ -1109,6 +1113,14 @@
     "id": "8510",
     "title": "Grad Seminar",
     "info": "Students attend seminars and lead a seminar, giving oral presentation of scientific data. Public speaking skills. Preparing visuals for scientific presentations. Audience critiques of presentations.\n\nprereq: instr consent",
+    "prereq": []
+  },
+  {
+    "code": "ANSC 8511",
+    "subject": "ANSC",
+    "id": "8511",
+    "title": "Animal Science Faculty Seminar",
+    "info": "This is a required course for 1st year students in which Animal Science graduate faculty  members present a 25-minute seminar followed by 10-minute Q&A with two  presentations per week. The presenting faculty will describe their research efforts,  impact of their research (and extension efforts if applicable) towards the grand  challenges in animal science, sharable resources available in their labs, skills they could  help students develop, graduate-level courses they teach, and additional information the  faculty member wants to share. The current DGS leads a 5-min discussion in the beginning of the class period and coordinates the course. Other students and faculty are invited to attend any session they want. The schedule of presentations will be distributed to Animal Science faculty, other graduate students not registered for the course, and senior undergraduate  students.",
     "prereq": []
   },
   {

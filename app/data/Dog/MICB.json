@@ -54,9 +54,14 @@
     "subject": "MICB",
     "id": "3303",
     "title": "Biology of Microorg (w/o lab)",
-    "info": "Taxonomy, anatomy, physiology, biochemistry, pathogenesis, infectious disease, immunology, ecology of microbes. Molecular structure in relation to function of bacteria, fungi, protozoa, viruses.\n\nprereq: Biol 2003 or Biol 1009 or instructor permission",
+    "info": "This course is intended to provide a broad overview of the microbial\nworld highlighting the structure, function, and diversity of microorganisms including bacteria, fungi, protists, and viruses. Topics include microbial anatomy, physiology, biochemistry, molecular biology and ecology. Microbial pathogenesis, immunology and infectious disease will also be presented and discussed.\n\nprereq: Biol 1961 and Biol 2003 or Biol 1009 or instructor permission.\nCredit will not be granted if credit has been received for: BIOL 2032, MICB 3303, VBS 2032.",
     "prereq": {
-      "or": [
+      "and": [
+        {
+          "code": "BIOL 1961",
+          "subject": "BIOL",
+          "id": "1961"
+        },
         {
           "code": "BIOL 2003",
           "subject": "BIOL",
@@ -66,6 +71,16 @@
           "code": "BIOL 1009",
           "subject": "BIOL",
           "id": "1009"
+        },
+        {
+          "code": "BIOL 2032",
+          "subject": "BIOL",
+          "id": "2032"
+        },
+        {
+          "code": "VBS 2032",
+          "subject": "VBS",
+          "id": "2032"
         }
       ]
     }
@@ -83,7 +98,7 @@
     "subject": "MICB",
     "id": "4131",
     "title": "Immunology",
-    "info": "Molecular, genetic and cellular basis for innate and adaptive immune responses. The immune systems role in; transplantation, autoimmune disease, cancer immunotherapy, vaccinololgy, acquired and genetic immunodeficiencies.\n\nprereq: Biol 2003 or Biol 1009 and [Junior or senior]",
+    "info": "Molecular, genetic, and cellular basis for innate and adaptive immune responses. The immune system's role in: transplantation, autoimmune disease, cancer, vaccines, acquired and genetic immunodeficiencies.\n\nprereq: Biol 2003 or Biol 1009 and [Junior or senior]",
     "prereq": {
       "or": [
         {
@@ -200,7 +215,7 @@
     "subject": "MICB",
     "id": "4171",
     "title": "Bio, Genetics, Path of Viruses",
-    "info": "Structure, attachment, entry. Genome replication/mRNA production by RNA viruses. Reverse transcription. DNA virus templates. Replication of DNA virus genomes. Processing of viral pre-mRNA. Translational control. Assembly, host defense, tumor viruses, pathogenesis, HIV, antivirals.\n\nprereq: Biol 2003 and Biol 4003 and [MicB 4131 or instructor permission]",
+    "info": "Structure, attachment, entry. Genome replication/mRNA production by RNA viruses. Reverse transcription. DNA virus templates. Replication of DNA virus genomes. Processing of viral pre-mRNA. Translational control. Assembly, host defense, tumor viruses, pathogenesis, HIV, antivirals.\n\nprereq: Biol 2003 and Biol 4003 and [MicB 4131 or instructor permission] and Bioc 3022",
     "prereq": {
       "and": [
         {
@@ -217,6 +232,11 @@
           "code": "MICB 4131",
           "subject": "MICB",
           "id": "4131"
+        },
+        {
+          "code": "BIOC 3022",
+          "subject": "BIOC",
+          "id": "3022"
         }
       ]
     }

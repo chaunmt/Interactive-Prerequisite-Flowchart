@@ -427,7 +427,7 @@
     "subject": "IE",
     "id": "5441",
     "title": "Financial Decision Making",
-    "info": "Cash flow streams, interest rates, fixed income securities. Evaluating investment alternatives, capital budgeting, dynamic cash flow process.  Mean-variance portfolio selection, Capital Asset Pricing Model, utility maximization, risk aversion. Derivative securities, asset dynamics, basic option pricing theory.prereq: CSE upper div or grad student",
+    "info": "Cash flow streams, interest rates, fixed income securities. Evaluating investment alternatives, capital budgeting, dynamic cash flow process.  Mean-variance portfolio selection, Capital Asset Pricing Model, utility maximization, risk aversion. Derivative securities, asset dynamics, basic option pricing theory.\n\nprereq: CSE upper div or grad student",
     "prereq": []
   },
   {
@@ -451,7 +451,7 @@
     "subject": "IE",
     "id": "5513",
     "title": "Engr Safety",
-    "info": "Occupational, health, and product safety.  Standards, laws, and regulations.  Hazards and their engineering control, including general principles, tools and machines, mechanics and structures, electrical safety, materials handling, fire safety, and chemicals.  Human behavior and safety, procedures and training, warnings and instructions.prereq: Upper div CSE or grad student",
+    "info": "Occupational, health, and product safety.  Standards, laws, and regulations.  Hazards and their engineering control, including general principles, tools and machines, mechanics and structures, electrical safety, materials handling, fire safety, and chemicals.  Human behavior and safety, procedures and training, warnings and instructions.\n\nprereq: Upper div CSE or grad student",
     "prereq": []
   },
   {
@@ -459,7 +459,7 @@
     "subject": "IE",
     "id": "5522",
     "title": "Quality Engineering",
-    "info": "Quality engineering/management, economics of quality, statistical process control design of experiments, reliability, maintainability, availability.prereq: [4521 or equiv], [upper div or grad student or CNR]",
+    "info": "Quality engineering/management, economics of quality, statistical process control design of experiments, reliability, maintainability, availability.\n\nprereq: [4521 or equiv], [upper div or grad student or CNR]",
     "prereq": {
       "code": "IE 4521",
       "subject": "IE",
@@ -511,7 +511,7 @@
     "subject": "IE",
     "id": "5545",
     "title": "Decision Analysis",
-    "info": "Single-person and group decision problems. Structuring of decision problems arising in personal, business, and public policy contexts. Decision-making under uncertainty, value of information, games of complete information and Nash equilibrium, Bayesian games, group decision-making and distributed consensus, basics of mechanism design.prereq: 3521 or equiv",
+    "info": "Single-person and group decision problems. Structuring of decision problems arising in personal, business, and public policy contexts. Decision-making under uncertainty, value of information, games of complete information and Nash equilibrium, Bayesian games, group decision-making and distributed consensus, basics of mechanism design.\n\nprereq: 3521 or equiv",
     "prereq": {
       "code": "IE 3521",
       "subject": "IE",
@@ -539,7 +539,7 @@
     "subject": "IE",
     "id": "5553",
     "title": "Simulation",
-    "info": "Discrete event simulation. Using integrated simulation/animation environment to create, analyze, and evaluate realistic models for various industry settings, including manufacturing/service operations and systems engineering. Experimental design for simulation. Selecting input distributions, evaluating simulation output.prereq: Upper div or grad student; familiarity with probability/statistics recommended",
+    "info": "Discrete event simulation. Using integrated simulation/animation environment to create, analyze, and evaluate realistic models for various industry settings, including manufacturing/service operations and systems engineering. Experimental design for simulation. Selecting input distributions, evaluating simulation output.\n\nprereq: Upper div or grad student; familiarity with probability/statistics recommended",
     "prereq": []
   },
   {
@@ -775,6 +775,14 @@
     "id": "8564",
     "title": "Opt for Machine Learning",
     "info": "Machine learning has been widely used in many areas such as computer vision, search engines, speech recognition, robotics, recommender systems, bioinformatics, social networks, and finance. It has become an important tool in prediction and data analysis. This course provides a comprehensive overview of important optimization models for machine learning. It also systematically provides a theoretical and computational study on various optimization methods for solving these models and more general problems.",
+    "prereq": []
+  },
+  {
+    "code": "IE 8566",
+    "subject": "IE",
+    "id": "8566",
+    "title": "Convex Conic Optimization",
+    "info": "This course introduces the fundamentals of convex analysis and its applications in continuous optimization. In the course, the modeling power of convex conic optimization for solving a wide variety of engineering problems will be illustrated. Interior point methods and their iteration complexity analysis will be introduced for solving convex conic optimization models such as semidefinite programming. ",
     "prereq": []
   },
   {

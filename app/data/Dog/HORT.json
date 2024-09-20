@@ -20,7 +20,7 @@
     "subject": "HORT",
     "id": "1003",
     "title": "Organic Gardening",
-    "info": "This fully online course focuses on the principles and practices of growing fruits, vegetables, and herbs with an ecological approach. You'll explore basic botany, soils and compost, species and variety selection, planning and design, container gardening, pest management, season extension, and more so you can approach your gardening projects with confidence.\n\nWe will begin by taking a look at the fundamentals of organic gardening, then move onto an overview of basic plant science principles. Following this introduction, course content will focus on how these principles can be applied practically in the planning and management of an organic garden, whether that be in your yard, on your patio, or at a school or community site. \n\nThis course isn?t so much about memorizing facts as it is about you becoming a well-informed gardener who can make educated decisions and seek out reliable answers to questions or problems that might come up. \n\nThe course is presented entirely online and makes extensive use of discussions, interactive activities, worksheets, and multimedia projects that get you immersed in a host of gardening topics. Short video segments in each module highlight key topics and provide information to guide you as you work through the readings, activities, and assignments.",
+    "info": "This fully online course focuses on the principles and practices of growing fruits, vegetables, and herbs with an ecological approach. You'll explore basic botany, soils and compost, species and variety selection, planning and design, container gardening, pest management, season extension, and more so you can approach your gardening projects with confidence.\n\nWe will begin by taking a look at the fundamentals of organic gardening, then move onto an overview of basic plant science principles. Following this introduction, course content will focus on how these principles can be applied practically in the planning and management of an organic garden, whether that be in your yard, on your patio, or at a school or community site. \n\nThis course isn’t so much about memorizing facts as it is about you becoming a well-informed gardener who can make educated decisions and seek out reliable answers to questions or problems that might come up. \n\nThe course is presented entirely online and makes extensive use of discussions, interactive activities, worksheets, and multimedia projects that get you immersed in a host of gardening topics. Short video segments in each module highlight key topics and provide information to guide you as you work through the readings, activities, and assignments.",
     "prereq": []
   },
   {
@@ -28,7 +28,7 @@
     "subject": "HORT",
     "id": "1004",
     "title": "Build Hort Learn Community",
-    "info": "How to use personal, departmental, college, and University resources to increase learning. Building collegial relationships with other incoming students to form a \\\"student learning community\\\" that will support personal/professional growth.",
+    "info": "How to use personal, departmental, college, and University resources to increase learning. Building collegial relationships with other incoming students to form a \"student learning community\" that will support personal/professional growth.",
     "prereq": []
   },
   {
@@ -59,8 +59,8 @@
     "code": "HORT 1014",
     "subject": "HORT",
     "id": "1014",
-    "title": "The Edible Landscape",
-    "info": "Tracing our relationship with edible landscapes traces to our hunting-gathering origins. Technological/social changes that have distanced us from our food. Integrating food plants into pleasing, sustainable, and edible landscapes in yards, neighborhoods, and cities.  ",
+    "title": "Our Edible Landscapes",
+    "info": "This asynchronous online course explores how technology, society, and culture influence the selection, cultivation, and consumption of food plants. We will examine how these factors interact to shape the landscapes that sustain us. ",
     "prereq": []
   },
   {
@@ -251,8 +251,36 @@
     "subject": "HORT",
     "id": "3131",
     "title": "Organic Farm Plan, Grow, Mkt",
-    "info": "Organic fruit and vegetable production has been one of the fastest growing segments of the US economy for almost two decades, stimulating an overwhelming number of biological and ecological innovations to produce food using organic approaches. This course aims to increase student's knowledge of ecological concepts as applied to managing organic systems, with an emphasis on soil nutrient cycles and plant-soil-microbe interactions that serve as the cornerstone of organic systems. Students in this course will learn tools needed to manage an organic diversified vegetable operation. The course consists of two components. The lecture session is designed to help students think about concepts and principles that are useful in planning and managing production strategies on organic farms. We spend a significant amount of our time reviewing soil nutrient cycling and its critical importance for organic farms, including how to effectively use soil and organic nutrient inputs such as cover crops, manure and fertilizers, to provide vegetable crops with the nutrients they need to grow. We also learn about successful marketing strategies for organic produce. Finally, near the end of the semester we will discuss pest management, including both weeds and disease/insect pests, and compare different tillage options available to organic producers. What we learn is then applied to planning next year's season of the UMN student organic farm. Throughout, we will use case studies, guest speakers, games, and active learning discussion approaches to move these classroom sessions \\\"beyond the lecture\\\" and allow students to engage with the material in a meaningful way. The lab is designed to allow a space to put into action some of the concepts students learn in lecture, including soil organic matter analysis, microgreen propagation, calculation of organic fertilizer rates, and operation of driven and walk-behind tractors.",
-    "prereq": []
+    "info": "Organic fruit and vegetable production has been one of the fastest growing segments of the US economy for almost two decades, stimulating an overwhelming number of biological and ecological innovations to produce food using organic approaches. This course aims to increase student's knowledge of ecological concepts as applied to managing organic systems, with an emphasis on soil nutrient cycles and plant-soil-microbe interactions that serve as the cornerstone of organic systems. Students in this course will learn tools needed to manage an organic diversified vegetable operation. The course consists of two components. The lecture session is designed to help students think about concepts and principles that are useful in planning and managing production strategies on organic farms. We spend a significant amount of our time reviewing soil nutrient cycling and its critical importance for organic farms, including how to effectively use soil and organic nutrient inputs such as cover crops, manure and fertilizers, to provide vegetable crops with the nutrients they need to grow. We also learn about successful marketing strategies for organic produce. Finally, near the end of the semester we will discuss pest management, including both weeds and disease/insect pests, and compare different tillage options available to organic producers. What we learn is then applied to planning next year's season of the UMN student organic farm. Throughout, we will use case studies, guest speakers, games, and active learning discussion approaches to move these classroom sessions \"beyond the lecture\" and allow students to engage with the material in a meaningful way. The lab is designed to allow a space to put into action some of the concepts students learn in lecture, including soil organic matter analysis, microgreen propagation, calculation of organic fertilizer rates, and operation of driven and walk-behind tractors.\n\nprereq: Agro 1101 or 1103 or Biol 1001 or 1009 or Hort 1001",
+    "prereq": {
+      "or": [
+        {
+          "code": "AGRO 1101",
+          "subject": "AGRO",
+          "id": "1101"
+        },
+        {
+          "code": "HORT 1103",
+          "subject": "HORT",
+          "id": "1103"
+        },
+        {
+          "code": "BIOL 1001",
+          "subject": "BIOL",
+          "id": "1001"
+        },
+        {
+          "code": "HORT 1009",
+          "subject": "HORT",
+          "id": "1009"
+        },
+        {
+          "code": "HORT 1001",
+          "subject": "HORT",
+          "id": "1001"
+        }
+      ]
+    }
   },
   {
     "code": "HORT 3480",
@@ -367,7 +395,7 @@
     "subject": "HORT",
     "id": "4072",
     "title": "Growing Plants Organically",
-    "info": "Science/ethics of organic cultivation. What is meant by \\\"green\\\" from legal, scientific, and ethical perspective. Original literature on organic practice. Written report, student-lead class discussion.",
+    "info": "Science/ethics of organic cultivation. What is meant by \"green\" from legal, scientific, and ethical perspective. Original literature on organic practice. Written report, student-lead class discussion.",
     "prereq": []
   },
   {
@@ -885,15 +913,10 @@
     "code": "HORT 5131",
     "subject": "HORT",
     "id": "5131",
-    "title": "Organic Farm Plan,Grow ,Mkt",
-    "info": "Students plan/implement cropping/marketing strategies for organic produce/flowers from Student Organic Farm on St. Paul campus.\n\nprereq: 1001 or AGRO 1101 or AGRO 1103 or BIOL 1001 or BIOL 1009 or instr consent",
+    "title": "Organic Farm Plan, Grow, Mkt",
+    "info": "Students plan/implement cropping/marketing strategies for organic produce/flowers from Student Organic Farm on St. Paul campus.\n\nprereq: AGRO 1101 or AGRO 1103 or BIOL 1001 or BIOL 1009 or HORT 1001 ",
     "prereq": {
       "or": [
-        {
-          "code": "HORT 1001",
-          "subject": "HORT",
-          "id": "1001"
-        },
         {
           "code": "AGRO 1101",
           "subject": "AGRO",
@@ -913,6 +936,11 @@
           "code": "BIOL 1009",
           "subject": "BIOL",
           "id": "1009"
+        },
+        {
+          "code": "HORT 1001",
+          "subject": "HORT",
+          "id": "1001"
         }
       ]
     }
@@ -977,7 +1005,7 @@
     "code": "HORT 6011",
     "subject": "HORT",
     "id": "6011",
-    "title": "Plant Prop",
+    "title": "Plant Propagation",
     "info": "Principles/techniques of propagating plants by seeds, cuttings, grafts, buds, layers, and division.  Lectures on principles, labs on practice of various propagating techniques. Reading/discussion of related primary literature.\n\nprereq: Master of Professional Studies or instr consent",
     "prereq": []
   },
@@ -985,8 +1013,8 @@
     "code": "HORT 6101",
     "subject": "HORT",
     "id": "6101",
-    "title": "Intro to MPS Hort",
-    "info": "This course will introduce you to the MPS Horticulture Program, along with the resources available at the University that can help you successfully complete your MPS degree. In addition, you will learn more about the research, teaching, and outreach occurring in the Department of Horticultural Science and begin to plan for your required capstone project that occurs at the end of your degree program. We will meet online each week via Zoom. Our class time will be used in several ways including large and small group discussions, guest speakers, and workshops.",
+    "title": "Intro to MPS in Horticulture",
+    "info": "This course will introduce you to the MPS Horticulture Program, along with the resources available at the University that can help you successfully complete your MPS degree. In addition, you will learn more about the research, teaching, and outreach occurring in the Department of Horticultural Science and begin to plan for your required capstone project that occurs at the end of your degree program. We will meet online each week via Zoom. Our class time will be used in several ways including large and small group discussions, guest speakers, and workshops.\n\nprereq: MPS in Horticulture Student",
     "prereq": []
   },
   {

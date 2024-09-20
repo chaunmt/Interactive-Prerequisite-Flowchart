@@ -135,6 +135,18 @@
     "prereq": []
   },
   {
+    "code": "MGMT 3063",
+    "subject": "MGMT",
+    "id": "3063",
+    "title": "Leadership Lab in Action",
+    "info": "MGMT 3063: Leadership Lab in Action prepares students to translate leadership theory into practice. Students work with a client on real-world leadership challenges by applying the frameworks from The Student Leadership Challenge. By the end of the course, students will have identified, analyzed, and proposed solutions to business leadership challenges for a client.\n\nThe Department of Work and Organizations approaches leadership development from six perspectives: academic foundation, experiential education, relational guidance, research infrastructure, cultural immersion, and community connections. \n\nThis course, associated with the Carlson Leadership Lab which is a selective experience of a limited number of students, focuses on experiential education and relational guidance. The experiential learning portion of the class will allow you to navigate leadership moments and bring the course concepts to life.  After course completion, all students should be able to:\n1. Articulate the importance of collaboration in leadership (understand).\n2. Identify leadership challenges through the lens of the five practices for becoming an exemplary leader (knowledge).\n3. Effectively analyze challenges or opportunities presented by clients (analyze).\n4. Understand the role of creativity, innovation, discovery, and expression in problem solving (understand).\n5. Develop problem-solving and critical-thinking skills to identify opportunities for innovation and impact (create).\n6. Effectively communicate solutions for leadership challenges (apply).\n\nprereq: MGMT 3061",
+    "prereq": {
+      "code": "MGMT 3061",
+      "subject": "MGMT",
+      "id": "3061"
+    }
+  },
+  {
     "code": "MGMT 3070",
     "subject": "MGMT",
     "id": "3070",
@@ -187,7 +199,7 @@
     "subject": "MGMT",
     "id": "3603",
     "title": "Topics: Environmental Issues",
-    "info": "Concepts/issues relating to inventory, subsequent analysis of production systems. Production system from holistic point of view, using term commonly used in industrial ecology: \\\"metabolic system.\\\"\n\nprereq: [MATH 1142 or [MATH 1271, MATH 1272]], [APEC 1101 or ECON 1101 or 3261W]",
+    "info": "Concepts/issues relating to inventory, subsequent analysis of production systems. Production system from holistic point of view, using term commonly used in industrial ecology: \"metabolic system.\"\n\nprereq: [MATH 1142 or [MATH 1271, MATH 1272]], [APEC 1101 or ECON 1101 or 3261W]",
     "prereq": {
       "and": [
         {
@@ -291,7 +303,7 @@
     "code": "MGMT 4008",
     "subject": "MGMT",
     "id": "4008",
-    "title": "EntrepreneurialMgmt",
+    "title": "Entrepreneurial Management",
     "info": "Management of a new venture after founding. Internal/external challenges of managing a startup organization. Working with resource constraints and understanding how business models may change over time.\n\nprereq: MGMT 3015 or MGMT 3010 or IBUS 3010",
     "prereq": {
       "or": [
@@ -318,11 +330,20 @@
     "subject": "MGMT",
     "id": "4031",
     "title": "Industry Analysis Global Cntxt",
-    "info": "This course covers concepts and tools required to devise strategies that enable a global business to create superior value for customers and to capture a sufficient share of that value. It will offer perspectives on analyzing competitive situations and identifying and evaluating strategic options. In particular, it focuses on:\n- Applying fundamental concepts of strategic management--including strategy identification, the relationship of strategy and organization, industry analysis, competitor analysis, firm and industry evolution--coupled with economic theory and quantitative analysis to evaluate competitive strategies in a global context;\n- Developing an awareness of the impact of external environmental forces and of strategic actions by the firm and its rivals on business strategy.\n- Integrating knowledge gained in previous and concurrent core courses with a focus on understanding applying analytical concepts that are most useful to business analysts and managers. \n\nprereq: Mgmt 3004 ",
+    "info": "This course covers concepts and tools required to devise strategies that enable a global business to create superior value for customers and to capture a sufficient share of that value. It will offer perspectives on analyzing competitive situations and identifying and evaluating strategic options. In particular, it focuses on:\n- Applying fundamental concepts of strategic management—including strategy identification, the relationship of strategy and organization, industry analysis, competitor analysis, firm and industry evolution—coupled with economic theory and quantitative analysis to evaluate competitive strategies in a global context\n- Developing an awareness of the impact of external environmental forces and of strategic actions by the firm and its rivals on business strategy\n- Integrating knowledge gained in previous and concurrent core courses with a focus on understanding applying analytical concepts that are most useful to business analysts and managers\n\nprereq: MGMT 3001 or MGMT 3004 ",
     "prereq": {
-      "code": "MGMT 3004",
-      "subject": "MGMT",
-      "id": "3004"
+      "or": [
+        {
+          "code": "MGMT 3001",
+          "subject": "MGMT",
+          "id": "3001"
+        },
+        {
+          "code": "MGMT 3004",
+          "subject": "MGMT",
+          "id": "3004"
+        }
+      ]
     }
   },
   {
@@ -330,11 +351,20 @@
     "subject": "MGMT",
     "id": "4032",
     "title": "Corporate Strategy",
-    "info": "This course examines issues of corporate strategy, i.e., issues associated with creating and managing a firm that operates in multiple businesses. Some of the key questions we shall seek to address through this course are:  \n\n• What are the drivers of corporate scope? How should a firm choose the activities/businesses it participates in?\n• What are the sources of value for a firm from being diversified across multiple businesses?\n• What are the challenges associated with managing across multiple businesses and markets?\n• How are these challenges best dealt with? What structures and processes enable successful corporate diversification over time?\n\nThe learning objective of this course is to help you learn to identify and define successful corporate strategies and offer solutions for the common problems that diversified firms face. The course not only introduces you to core concepts around corporate strategy, but it also seeks to develop your ability to critically evaluate the strategies of multi-business firms, through the extensive use of case discussions. \n\nprereq: Mgmt 3004",
+    "info": "This course examines issues of corporate strategy, i.e., issues associated with creating and managing a firm that operates in multiple businesses. Some of the key questions we shall seek to address through this course are:  \n\n• What are the drivers of corporate scope? How should a firm choose the activities/businesses it participates in?\n• What are the sources of value for a firm from being diversified across multiple businesses?\n• What are the challenges associated with managing across multiple businesses and markets?\n• How are these challenges best dealt with? What structures and processes enable successful corporate diversification over time?\n\nThe learning objective of this course is to help you learn to identify and define successful corporate strategies and offer solutions for the common problems that diversified firms face. The course not only introduces you to core concepts around corporate strategy, but it also seeks to develop your ability to critically evaluate the strategies of multi-business firms, through the extensive use of case discussions. \n\nprereq: MGMT 3001 or MGMT 3004",
     "prereq": {
-      "code": "MGMT 3004",
-      "subject": "MGMT",
-      "id": "3004"
+      "or": [
+        {
+          "code": "MGMT 3001",
+          "subject": "MGMT",
+          "id": "3001"
+        },
+        {
+          "code": "MGMT 3004",
+          "subject": "MGMT",
+          "id": "3004"
+        }
+      ]
     }
   },
   {
@@ -384,7 +414,7 @@
     "subject": "MGMT",
     "id": "4035",
     "title": "Mergers & Acquisition Strategy",
-    "info": "This course focuses on the strategic use of mergers and acquisitions (M&A) as a means of new market entry and growth. It covers such questions as: when should one pursue an acquisition? What are the sources of value from an acquisition? What are the common challenges acquirers face? What should acquirers look for in a potential target? How should they integrate a target post-acquisition? It also considers the sell-side strategies for firms looking to exit businesses through divestiture.\n\nThe learning objective of this course is to help you learn to identify and define successful mergers and acquisitions, and offer solutions for the common problems that firms face when undertaking acquisitions. The course not only introduces you to core concepts around M&A, it also seeks to develop your ability to critically evaluate firms’ M&A choices, and to effectively communicate your assessment of these choices to a business audience. \n\nprereq: Mgmt 4032",
+    "info": "This course focuses on the strategic use of mergers and acquisitions (M&A) as a means of new market entry and growth. It covers such questions as: when should one pursue an acquisition? What are the sources of value from an acquisition? What are the common challenges acquirers face? What should acquirers look for in a potential target? How should they integrate a target post-acquisition? It also considers the sell-side strategies for firms looking to exit businesses through divestiture.\n\nThe learning objective of this course is to help you learn to identify and define successful mergers and acquisitions and offer solutions for the common problems that firms face when undertaking acquisitions. The course not only introduces you to core concepts around M&A, it also seeks to develop your ability to critically evaluate firms’ M&A choices and to effectively communicate your assessment of these choices to a business audience. \n\nprereq: MGMT 4032",
     "prereq": {
       "code": "MGMT 4032",
       "subject": "MGMT",
@@ -404,7 +434,7 @@
     "subject": "MGMT",
     "id": "4055",
     "title": "Managing Innovation & Change",
-    "info": "This course focuses on how business organizations innovate and change. The course covers foundational topics and combines both theoretical insights and practical knowledge based on cases and hands-on exercises. The class topics address the following questions:\n\n·       What are the sources, types and patterns of innovation?\n\n·       What are the characteristics of an organization’s innovation ecosystem?\n\n·       How do organizations compete and collaborate in innovation ecosystems?\n\n·       What are some external forces shaping organizational innovations? \n\n·       How do organizations adapt to these external forces?\n\nBy the end of this course, students will:\n\nLearn the key principles of success and failure of innovation and change in business organizations across different products, services and geographies.\nApply course concepts to real organizational cases, diagnose problems and recommend solutions.\nUse clear written, verbal and online communication skills.\nCollaborate to create novel solutions to tasks and problems.\nDemonstrate the use of a wide range of qualitative and quantitative sources to support conclusions and recommendations.\n\nprereq: MGMT 3001 or MGMT 3004 or MGMT 3010 or MGMT 3015",
+    "info": "This course focuses on how business organizations innovate and change. The course covers foundational topics and combines both theoretical insights and practical knowledge based on cases and hands-on exercises. The class topics address the following questions:\n·       What are the sources, types, and patterns of innovation?\n·       What are the characteristics of an organization’s innovation ecosystem?\n·       How do organizations compete and collaborate in innovation ecosystems?\n·       What are some external forces shaping organizational innovations? \n·       How do organizations adapt to these external forces?\n\nBy the end of this course, students will:\n- Learn the key principles of success and failure of innovation and change in business organizations across different products, services, and geographies.\n- Apply course concepts to real organizational cases, diagnose problems, and recommend solutions.\n- Use clear written, verbal, and online communication skills.\n- Collaborate to create novel solutions to tasks and problems.\n- Demonstrate the use of a wide range of qualitative and quantitative sources to support conclusions and recommendations.\n\nprereq: MGMT 3001 or MGMT 3004 or MGMT 3010 or MGMT 3015",
     "prereq": {
       "or": [
         {
@@ -450,7 +480,7 @@
     "code": "MGMT 4100",
     "subject": "MGMT",
     "id": "4100",
-    "title": "Topics in Management",
+    "title": "Topics in Strategic Management",
     "info": "Topics vary for each offering.",
     "prereq": []
   },
@@ -500,7 +530,7 @@
     "subject": "MGMT",
     "id": "4173",
     "title": "New Venture Financing",
-    "info": "This experiential course is offered to University undergraduate students interested in learning about new venture\nfinancing through the operation of an independent angel investment fund. It serves as an introduction to the subject\nmatter, while providing a forum for the students to review investment opportunities, connect with members from the\nentrepreneurial and investor communities, and learn about startup fundraising through direct participation in the\ninvestment process.\n\nThis course is being offered to complement a student-owned private venture capital fund in collaboration with\nindividual accredited investors, which was initially formed in April of 2018. In addition to the ongoing management of\nthe fund operations and reporting, the students will be responsible for ongoing capital raising. Final authority for all\ninvestment decisions rests with the students.",
+    "info": "This experiential course is offered to University undergraduate students interested in learning about new venture financing through the operation of an independent angel investment fund. It serves as an introduction to the subject matter, while providing a forum for the students to review investment opportunities, connect with members from the entrepreneurial and investor communities, and learn about startup fundraising through direct participation in the investment process.\n\nThis course is being offered to complement a student-owned private venture capital fund in collaboration with individual accredited investors, which was initially formed in April of 2018. In addition to the ongoing management of the fund operations and reporting, the students will be responsible for ongoing capital raising. Final authority for all investment decisions rests with the students.",
     "prereq": []
   },
   {
@@ -508,7 +538,7 @@
     "subject": "MGMT",
     "id": "4175W",
     "title": "New Business Feasibility",
-    "info": "The purpose of this course is to provide students with the following insights into • Techniques for developing and screening business ideas • Criteria for properly assessing idea feasibility • Equipping yourself with the necessary information and analysis to develop a useful business plan • Preparing an effective business plan • Effectively pitching the plan to stakeholders, primarily prospective investors The class makes use of lecture, videos, articles, cases, class exercises, assignments, and quizzes to help develop depth of understanding amongst students of the relevant subject matter of this course. \n\nprereq: MGMT 3010 or MGMT 3015 or IBUS 3010",
+    "info": "The purpose of this course is to provide students with the following insights to:\n• Techniques for developing and screening business ideas \n• Criteria for properly assessing idea feasibility \n• Equipping yourself with the necessary information and analysis to develop a useful business plan \n• Preparing an effective business plan \n• Effectively pitching the plan to stakeholders, primarily prospective investors \nThe class makes use of lecture, videos, articles, cases, class exercises, assignments, and quizzes to help develop depth of understanding amongst students of the relevant subject matter of this course. \n\nprereq: MGMT 3010 or MGMT 3015 or IBUS 3010",
     "prereq": {
       "or": [
         {
@@ -542,7 +572,7 @@
     "subject": "MGMT",
     "id": "4505",
     "title": "Seminar in Int'l Business",
-    "info": "Globalization and technological developments of the digital age have created exciting new opportunities for managers who seek growth and profits by accessing resources and serving markets worldwide. At the same time, managing across cultures and nations in a world where foreign companies are not always viewed in a positive light, and where political realities often obstruct business opportunities, poses multiple challenges. This course will address the global context and then focus on the strategic and cultural challenges involved in managing activities across borders, in an increasingly interconnected world. It  will also draw on the students?  international experience (a semester abroad or a short term experience). Overall, as current challenges abound, they also provide an extremely rich context within which we can discuss the topics on our syllabus.prereq: CSOM jr or sr; strongly recommended completed international experience requirement; MGMT 3045 required only for IB majors/minors",
+    "info": "Globalization and technological developments of the digital age have created exciting new opportunities for managers who seek growth and profits by accessing resources and serving markets worldwide. At the same time, managing across cultures and nations in a world where foreign companies are not always viewed in a positive light, and where political realities often obstruct business opportunities, poses multiple challenges. This course will address the global context and then focus on the strategic and cultural challenges involved in managing activities across borders, in an increasingly interconnected world. It  will also draw on the students’  international experience (a semester abroad or a short term experience). Overall, as current challenges abound, they also provide an extremely rich context within which we can discuss the topics on our syllabus.\n\nprereq: CSOM jr or sr; \nstrongly recommended completed international experience requirement; MGMT 3045 required only for IB majors/minors",
     "prereq": {
       "code": "MGMT 3045",
       "subject": "MGMT",
@@ -570,7 +600,7 @@
     "subject": "MGMT",
     "id": "5019",
     "title": "Bus, Natural Enviro",
-    "info": "Resource deployment policies that affect the natural environment. Sustainability. Local/global environmental threats, how government policies address these issues. Business strategies/practices that produce \\\"win-win\\\" outcomes.\n\nprereq: MBA student",
+    "info": "Resource deployment policies that affect the natural environment. Sustainability. Local/global environmental threats, how government policies address these issues. Business strategies/practices that produce \"win-win\" outcomes.\n\nprereq: MBA student",
     "prereq": []
   },
   {
@@ -586,7 +616,7 @@
     "subject": "MGMT",
     "id": "5102",
     "title": "StartUp: Customer Dev/Testing",
-    "info": "Provides a structured process with faculty and mentor oversight for students at any level and from any college at the University to learn the initial process of customer development by testing market acceptance of a specific new business concept. Students primarily take this course individually and must have an idea or technology that they are interested in pursuing. The goal of the curse is to teach the process to quickly and efficiently test the value and market fit for a new concept.",
+    "info": "Provides a structured process with faculty and mentor oversight for students at any level and from any college at the University to learn the initial process of customer development by testing market acceptance of a specific new business concept. Students primarily take this course individually and must have an idea or technology that they are interested in pursuing. The goal of the curse is to teach the process to quickly and efficiently test the value and market fit for a new concept.\n\nprereq: Dept consent",
     "prereq": []
   },
   {
@@ -626,7 +656,7 @@
     "subject": "MGMT",
     "id": "6021",
     "title": "Preparing/Implementing Bs Plan",
-    "info": "Students teams develop/implement business plans for business venture launch via startup or acquisition. Each team presents aspects of their business plan: \\\"elevator pitch,\\\" company mission, product/service value proposition, customer/market segmentation, competitive analysis, business strategy, marketing plan, financial projects. Students provide feedback on each other's plans.",
+    "info": "Students teams develop/implement business plans for business venture launch via startup or acquisition. Each team presents aspects of their business plan: \"elevator pitch,\" company mission, product/service value proposition, customer/market segmentation, competitive analysis, business strategy, marketing plan, financial projects. Students provide feedback on each other's plans.",
     "prereq": []
   },
   {
@@ -812,11 +842,11 @@
     "subject": "MGMT",
     "id": "6131",
     "title": "Competitive Dynamics of Indust",
-    "info": "This course offers perspectives on analyzing competitive situations and identifying and evaluating strategic options. In particular, the course focuses on applying fundamental concepts of strategic management—including competitor analysis, game theory, co-operation, network effects, firm and industry evolution—coupled with economic theory and quantitative analysis to evaluate competitive strategies; Developing an awareness of the impact of external environmental forces and of strategic actions buy the firm and its rivals on business strategy; Integrating knowledge gained in previous and concurrent core courses with a focus on understanding applying analytical concepts that are most useful to general managers.\nPrerequisites: MBA 6300; MBA student",
+    "info": "This course offers perspectives on analyzing competitive situations and identifying and evaluating strategic options. In particular, the course focuses on applying fundamental concepts of strategic management—including competitor analysis, game theory, co-operation, network effects, firm and industry evolution—coupled with economic theory and quantitative analysis to evaluate competitive strategies; developing an awareness of the impact of external environmental forces and of strategic actions buy the firm and its rivals on business strategy; integrating knowledge gained in previous and concurrent core courses with a focus on understanding applying analytical concepts that are most useful to general managers.\n\nprereq: MBA 6301; MBA student",
     "prereq": {
-      "code": "MBA 6300",
+      "code": "MBA 6301",
       "subject": "MBA",
-      "id": "6300"
+      "id": "6301"
     }
   },
   {
@@ -1051,7 +1081,7 @@
     "subject": "MGMT",
     "id": "8406",
     "title": "Organizational Theory I",
-    "info": "Major theories and current research on organizational and inter-organizational topics from a macro perspective. This is course one of two. Previously offered as Mgmt 8302.prereq: Business admin PhD student or instructor consent",
+    "info": "Major theories and current research on organizational and inter-organizational topics from a macro perspective. This is course one of two. \nPreviously offered as Mgmt 8302.\n\nprereq: Business admin PhD student or instructor consent",
     "prereq": []
   },
   {
@@ -1059,7 +1089,7 @@
     "subject": "MGMT",
     "id": "8407",
     "title": "Organizational Theory II",
-    "info": "Major theories and current research on organizational and inter-organizational topics from a macro perspective. This course is two of two. Previously offered as Mgmt 8302.prereq: Mgmt 8406, Business admin PhD student or instructor consent",
+    "info": "Major theories and current research on organizational and inter-organizational topics from a macro perspective. This course is two of two. \nPreviously offered as Mgmt 8302.\n\nprereq: Mgmt 8406, Business admin PhD student or instructor consent",
     "prereq": {
       "code": "MGMT 8406",
       "subject": "MGMT",

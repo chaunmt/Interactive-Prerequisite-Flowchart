@@ -116,6 +116,32 @@
     "prereq": []
   },
   {
+    "code": "PLPA 3004",
+    "subject": "PLPA",
+    "id": "3004",
+    "title": "Microbes Sustain Crop Prod",
+    "info": "Sustainable agricultural practices are crucial to address food security as climate change and the increasing world population continue to challenge food production. Several aspects of agricultural sustainability are important to achieve increased food production, including: maintaining soil fertility, managing water, and plant genetic resources, reducing the environmental impact of agriculture, and restoring degraded lands. To keep up with the growing food demand, there has been an increased use of fertilizers and pesticides in agriculture; however, these chemicals when used in large quantities harm the environment and limit the beneficial activities of plant-associated microbes. Millions of microorganisms live in soil and plants, and many of them have been shown to increase plant biomass without supplementary fertilizers or the use of pesticides to provide protection against plant pathogens. This course is designed for graduate and advanced undergraduate students interested in learning about beneficial soil microbes, how to identify such microbes, and how these microbes can be harnessed to improve the sustainability of our agricultural production systems.\n\nprereq: Knowledge of basic microbiology is required. Students enrolling for this course must complete, MICB 3301, BIOL 1961, or PLPA1005. Alternatively, students with junior standing with a completion of 60+ credits are also eligible. Graduate or undergraduate students who may have not taken either of the prerequisite courses listed above, but still wish to enroll, must talk to the instructor before enrolling.",
+    "prereq": {
+      "and": [
+        {
+          "code": "MICB 3301",
+          "subject": "MICB",
+          "id": "3301"
+        },
+        {
+          "code": "BIOL 1961",
+          "subject": "BIOL",
+          "id": "1961"
+        },
+        {
+          "code": "PLPA 1005",
+          "subject": "PLPA",
+          "id": "1005"
+        }
+      ]
+    }
+  },
+  {
     "code": "PLPA 3090",
     "subject": "PLPA",
     "id": "3090",
@@ -144,7 +170,7 @@
     "subject": "PLPA",
     "id": "4096",
     "title": "PEP:Internship",
-    "info": "Supervised practicum with professional experience in plant pathology and related industries including the Plant Disease and \\\"Dial-U\\\" clinics. Evaluative reports and consultations with faculty advisers and employers.\n\nprereq: COAFES undergrad,  complete internship contract available in COAFES Career Services before registering; UC only",
+    "info": "Supervised practicum with professional experience in plant pathology and related industries including the Plant Disease and \"Dial-U\" clinics. Evaluative reports and consultations with faculty advisers and employers.\n\nprereq: COAFES undergrad,  complete internship contract available in COAFES Career Services before registering; UC only",
     "prereq": []
   },
   {
@@ -159,22 +185,9 @@
     "code": "PLPA 5004",
     "subject": "PLPA",
     "id": "5004",
-    "title": "Microbes for Sustainable Ag",
-    "info": "Sustainable agricultural practices are crucial to address food security as climate change and the increasing world population continue to challenge food production. Several aspects of agricultural sustainability are important to achieve increased food production, including; maintaining soil fertility, managing water, and plant genetic resources, reducing the environmental impact of agriculture, and restoring\ndegraded lands. To keep up with the growing food demand, there has been an increased use of fertilizers and pesticides in agriculture; however, these chemicals when used in large quantities harm the environment and limit the beneficial activities of plant-associated microbes. Millions of microorganisms live in soil and plants, and many of them have been shown to increase plant biomass without supplementary fertilizers or\nthe use of pesticides to provide protection against plant pathogens. This course is designed for graduate and advanced undergraduate students interested in learning about beneficial soil microbes, how to identify such microbes, and how these microbes can be harnessed to improve the sustainability of our agricultural production systems.\n\nprereq: Basic microbiology is required: BIOL 1961 or PLPA1005. Instructor consent for Grads without either prereq course listed.",
-    "prereq": {
-      "or": [
-        {
-          "code": "BIOL 1961",
-          "subject": "BIOL",
-          "id": "1961"
-        },
-        {
-          "code": "PLPA 1005",
-          "subject": "PLPA",
-          "id": "1005"
-        }
-      ]
-    }
+    "title": "Microbes Sustain Crop Prod",
+    "info": "Sustainable agricultural practices are crucial to address food security as climate change and the increasing world population continue to challenge food production. Several aspects of agricultural sustainability are important to achieve increased food production, including; maintaining soil fertility, managing water, and plant genetic resources, reducing the environmental impact of agriculture, and restoring degraded lands. To keep up with the growing food demand, there has been an increased use of fertilizers and pesticides in agriculture; however, these chemicals when used in large quantities harm the environment and limit the beneficial activities of plant-associated microbes. Millions of microorganisms live in soil and plants, and many of them have been shown to increase plant biomass without supplementary fertilizers or the use of pesticides to provide protection against plant pathogens. This course is designed for graduate and advanced undergraduate students interested in learning about beneficial soil microbes, how to identify such microbes, and how these microbes can be harnessed to improve the sustainability of our agricultural production systems.",
+    "prereq": []
   },
   {
     "code": "PLPA 5090",
@@ -221,7 +234,7 @@
     "subject": "PLPA",
     "id": "5202",
     "title": "Field Plant Pathology",
-    "info": "Characteristics of a variety of plant diseases. Field trips to observe symptoms and effects of diseases, and to learn about prevention and control of diseases in field, forest, golf course, greenhouse, nursery, orchard, and urban environments.",
+    "info": "Characteristics of a variety of plant diseases. Field trips to observe symptoms and effects of diseases and to learn about prevention and control of diseases in field, forest, golf course, greenhouse, nursery, orchard, and urban environments.",
     "prereq": []
   },
   {
@@ -281,7 +294,7 @@
     "subject": "PLPA",
     "id": "5444",
     "title": "Ecology of Plant-Microbe Inter",
-    "info": "Concepts and recent research in the ecology, epidemiology, and evolutionary/coevolutionary biology of plant-microbe interactions spanning the range from parasitic to mutualistic in agricultural and natural habitats.\n\nprereq: Intro plant pathology or advanced biology coursework recommended",
+    "info": "Microbes exist in close association with plants as pathogens, saprophytes, epiphytes, endophytes, and mutualists. This course will explore the intimate connections between the ecology, life history, evolutionary biology, and fitness of plants and their microbes. \nprereq: Intro plant pathology or advanced biology coursework recommended",
     "prereq": []
   },
   {

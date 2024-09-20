@@ -12,7 +12,7 @@
     "subject": "PMB",
     "id": "2022",
     "title": "General Botany",
-    "info": "Introduction to the biology of plants, algae, and fungi. Structure, growth, development, reproduction, diversity, and aspects of their ecology. Includes laboratory that focuses on structures in photosynthetic organisms and fungi as well as an introduction to physiology.\n\nprereq: One semester of college biology",
+    "info": "Introduction to the biology of plants, algae, and fungi. Structure, growth, development, reproduction, diversity, and aspects of their ecology. Includes laboratory that focuses on structures in photosynthetic organisms and fungi as well as an introduction to physiology. This course has no prerequisites, however one semester of college biology will be helpful for understanding the course content.",
     "prereq": []
   },
   {
@@ -84,7 +84,7 @@
     "subject": "PMB",
     "id": "3212",
     "title": "Fungi - A Kingdom of Their Own",
-    "info": "No matter how you classify life on Earth, the fungi are in a Kingdom of their own. Latest estimates of the number of fungal species on our planet are between 2.2 and 3.8 million species. The diversity of single-celled and multi-cellular fungi is staggering, the result of divergence within a group of aquatic eukaryotes one billion years ago (± 500 million years). That divergence ultimately gave rise to animals and fungi, but the diversification within the fungal lineages is unrivaled. They can be found in aerobic and anaerobic environments. They are found on every Continent, recycling and reallocating vast amounts of nutrients in every Biome. They cause problems in crops but are also used to make food, with ancient processes such as fermentation and mushroom cultivation. For these reasons, mycology (study of fungi) is increasingly popular among students with interests as diverse as their fungal subjects. With the advent of high-throughput DNA sequencing to sample entire communities, we are seeing fungi in all of these places where they were previously invisible. The fungal role in Earth's most critical processes is, right now, coming into light. It is an exciting time to study Kingdom Fungi.\n\nThis course uses a format of lecture, discussion, and field trips to provide undergraduate and graduate students with a solid foundation in the fungi, primarily through an environmental lens. Undergraduate and graduate students will learn the basics of fungi in three core sections: 1) Phylogeny, taxonomy, and diagnostics (Who are the fungi?); 2) Morphology and physiology (How do fungi work?); 3) Ecology and Biotechnology (What are fungal implications and applications?). Within each core section, there will be one class period devoted to a discussion of the environment, the role of fungi, and the human dimensions of conservation and management. This discussion will be used by the class to vote for an environmental theme used to frame writing assignments, one per unit. Using this theme, all students will create a \\\"Fungus in Focus\\\" one-page \\\"brief\\\" focused on this environmental issue. This is a creative way to connect \\\"dots\\\" for students linking microbial processes to environment, in our case harnessing connections to fungi that often have visible characters (e.g. mushrooms) that make those connections easier for students. We will also go on two field trips, one to a mushroom cultivation facility, and one into the field in April, all depending on class size and weather.\n\nprereq: Introductory Biology course ",
+    "info": "No matter how you classify life on Earth, the fungi are in a Kingdom of their own. Latest estimates of the number of fungal species on our planet are between 2.2 and 3.8 million species. The diversity of single-celled and multi-cellular fungi is staggering, the result of divergence within a group of aquatic eukaryotes one billion years ago (± 500 million years). That divergence ultimately gave rise to animals and fungi, but the diversification within the fungal lineages is unrivaled. They can be found in aerobic and anaerobic environments. They are found on every Continent, recycling and reallocating vast amounts of nutrients in every Biome. They cause problems in crops but are also used to make food, with ancient processes such as fermentation and mushroom cultivation. For these reasons, mycology (study of fungi) is increasingly popular among students with interests as diverse as their fungal subjects. With the advent of high-throughput DNA sequencing to sample entire communities, we are seeing fungi in all of these places where they were previously invisible. The fungal role in Earth's most critical processes is, right now, coming into light. It is an exciting time to study Kingdom Fungi.\n\nThis course uses a format of lecture, discussion, and field trips to provide undergraduate and graduate students with a solid foundation in the fungi, primarily through an environmental lens. Undergraduate and graduate students will learn the basics of fungi in three core sections: 1) Phylogeny, taxonomy, and diagnostics (Who are the fungi?); 2) Morphology and physiology (How do fungi work?); 3) Ecology and Biotechnology (What are fungal implications and applications?). Within each core section, there will be one class period devoted to a discussion of the environment, the role of fungi, and the human dimensions of conservation and management. This discussion will be used by the class to vote for an environmental theme used to frame writing assignments, one per unit. Using this theme, all students will create a \"Fungus in Focus\" one-page \"brief\" focused on this environmental issue. This is a creative way to connect \"dots\" for students linking microbial processes to environment, in our case harnessing connections to fungi that often have visible characters (e.g. mushrooms) that make those connections easier for students. We will also go on two field trips, one to a mushroom cultivation facility, and one into the field in April, all depending on class size and weather.\n\nprereq: Introductory Biology course ",
     "prereq": []
   },
   {
@@ -137,13 +137,18 @@
     "subject": "PMB",
     "id": "4111",
     "title": "Microbial Physiology/Diversity",
-    "info": "Structural/functional organization of bacteria/archaea. Energy metabolism utilizing light, inorganic/organic chemicals. Cell morphologies, roles/assembly of surface structures. Growth/survival mechanisms in various extreme environments. Adaptation to changing conditions by development of specialized cells/structures, altering metabolic patterns.\n\nprereq: MicB 3301 required; BioC 3021 or BioC 4331 recommended",
+    "info": "Structural/functional organization of bacteria/archaea. Energy metabolism utilizing light, inorganic/organic chemicals. Cell morphologies, roles/assembly of surface structures. Growth/survival mechanisms in various extreme environments. Adaptation to changing conditions by development of specialized cells/structures, altering metabolic patterns. prereq: MicB 3301 or MicB 3303 required; BioC 3021 or BioC 4331 recommended",
     "prereq": {
       "or": [
         {
           "code": "MICB 3301",
           "subject": "MICB",
           "id": "3301"
+        },
+        {
+          "code": "MICB 3303",
+          "subject": "MICB",
+          "id": "3303"
         },
         {
           "code": "BIOC 3021",
@@ -163,11 +168,20 @@
     "subject": "PMB",
     "id": "4121",
     "title": "Microbial Ecology & Appl Micro",
-    "info": "Evolution/structure of microbial communities. Population interaction within ecosystems. Quantitative/habitat ecology. Biogeochemical cycling. Molecular microbial ecology, gene transfer in the environment. Molecular phylogeny of microorganisms. Application of microbes in agriculture. Production of commodity chemicals, drugs, and other high-value products.\n\nprereq: 3301",
+    "info": "Evolution/structure of microbial communities. Population interaction within ecosystems. Quantitative/habitat ecology. Biogeochemical cycling. Molecular microbial ecology, gene transfer in the environment. Molecular phylogeny of microorganisms. Application of microbes in agriculture. Production of commodity chemicals, drugs, and other high-value products. \n\nprereq: BIOL 1009, BIOL 1951 or equivalent.",
     "prereq": {
-      "code": "PMB 3301",
-      "subject": "PMB",
-      "id": "3301"
+      "and": [
+        {
+          "code": "BIOL 1009",
+          "subject": "BIOL",
+          "id": "1009"
+        },
+        {
+          "code": "BIOL 1951",
+          "subject": "BIOL",
+          "id": "1951"
+        }
+      ]
     }
   },
   {
@@ -233,7 +247,7 @@
     "subject": "PMB",
     "id": "4511",
     "title": "Flowering Plant Diversity",
-    "info": "Systematics of flowering plants of the world. Ecology, geography, origins, and evolution. Family characteristics. Floral structure, function, evolution. Pollination biology. Methods of phylogenetic reconstruction. Molecular evolution. Taxonomic terms. Methods of collection/identification. Lab.\n\nprereq: BIOL 1001 or 1009 or 1009H or 2002",
+    "info": "Flowering plants occupy every continent on Earth and support us in countless ways. Observing plant diversity from around the world provides us powerful insights and practical tools to students in the natural sciences and humanities. This course has two main objectives: getting to know major groups of flowering plants and using the tools of comparative biology to learn from nature. Labs, tours, online learning, group exercises, and optional field trips emphasize hands-on experience in diverse settings. Ethnobotany, plant form & function, development, ecology, taxonomy and phytochemistry are presented in an evolutionary context. \n\nprereq: BIOL 1001 or BIOL 1001H or BIOL 1009 or BIOL 1009H or BIOL 1951 or BIOL 1951H or BIOL 2003 or BIOL 2003H.",
     "prereq": {
       "or": [
         {
@@ -242,14 +256,19 @@
           "id": "1001"
         },
         {
-          "code": "PMB 1009",
-          "subject": "PMB",
+          "code": "BIOL 1009",
+          "subject": "BIOL",
           "id": "1009"
         },
         {
-          "code": "PMB 2002",
-          "subject": "PMB",
-          "id": "2002"
+          "code": "BIOL 1951",
+          "subject": "BIOL",
+          "id": "1951"
+        },
+        {
+          "code": "BIOL 2003",
+          "subject": "BIOL",
+          "id": "2003"
         }
       ]
     }
