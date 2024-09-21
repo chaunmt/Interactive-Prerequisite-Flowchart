@@ -32,7 +32,7 @@ function exportSubject() {
   data = filterDuplicate(data.map(
     (each) => each.subject
   ))
-  fs.writeFile(filePath + fileName, JSON.stringify(data), (error) => handleErrorExportJSON(error, fileName))
+  fs.writeFile(filePath + fileName, JSON.stringify(data, null, 2), (error) => handleErrorExportJSON(error, fileName))
 }
 
 function exportId(SUBJECT) {
@@ -46,7 +46,7 @@ function exportId(SUBJECT) {
       return each.id
     }
   )))
-  fs.writeFile(filePath + fileName, JSON.stringify(data), (error) => handleErrorExportJSON(error, fileName))
+  fs.writeFile(filePath + fileName, JSON.stringify(data, null, 2), (error) => handleErrorExportJSON(error, fileName))
 }
 
 // export all subjects and ids for allCourses
