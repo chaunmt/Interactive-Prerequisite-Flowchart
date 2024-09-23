@@ -5,9 +5,6 @@ import { Keywords } from "../components/layout/Meta";
 import { Metadata } from "next";
 import "../components/styles/Layout.css";
 
-// Tailwind global css, should change name tbh
-import './global.css'
-
 export const metadata: Metadata = {
   title: {
     template: "%s | Gopher Prerequisite",
