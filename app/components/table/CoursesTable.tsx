@@ -22,34 +22,37 @@ function CoursesTable({ courses }: { courses: readonly Course[] }) {
   };
 
   // no courses initially selected
-  const [{ selected, unselected }, setCourseSel] = useState<{
-    selected: readonly Course[];
-    unselected: readonly Course[];
+  const [selection, setSelection] = useState<{
+    list: { course: Course; selected: boolean }[];
+    latest?: Course;
   }>({
-    selected: [],
-    unselected: courses,
+    list: courses.map((course) => ({ course, selected: false })),
+    latest: undefined,
   });
 
   return (
     <div id="containers">
       <div id="coursesTable">{formatTable()}</div>
       <div id="courseBox">
-        {selected[0] ? (
+        {/* pls style this nicer */}
+        {selection.latest ? (
           // when at least one course is selected
           <div id="infoBox">
             <div id="infoBoxHead">
               <h2>
-                {selected[0].code}
+                {selection.latest.code}
                 <br />
-                {selected[0].title}
+                {selection.latest.title}
               </h2>
-              <Link href={`/${selected[0].subject}/${selected[0].id}`}>
+              <Link
+                href={`/${selection.latest.subject}/${selection.latest.id}`}
+              >
                 <button id="openId">
                   <MdOpenInNew />
                 </button>
               </Link>
             </div>
-            <p>{selected[0].info}</p>
+            <p>{selection.latest.info}</p>
           </div>
         ) : (
           <div id="infoBox">
@@ -63,9 +66,13 @@ function CoursesTable({ courses }: { courses: readonly Course[] }) {
         <div id="graphBox">
           <Graph
             build={{
-              includes: selected,
+              includes: selection.list
+                .filter((e) => e.selected)
+                .map((e) => e.course),
               ...build,
-              strong_orphans: selected,
+              strong_orphans: selection.list
+                .filter((e) => e.selected)
+                .map((e) => e.course),
             }}
             display={display}
           />
@@ -74,38 +81,32 @@ function CoursesTable({ courses }: { courses: readonly Course[] }) {
     </div>
   );
 
-  function handleClickCard(course: Course) {
-    console.log("clicked " + course.code);
-    if (selected.some((c) => c.code == course.code)) {
-      setCourseSel({
-        selected: selected.filter((c) => c.code != course.code),
-        unselected: [course, ...unselected].sort(cmpCourse),
-      });
-    } else {
-      setCourseSel({
-        selected: [course, ...selected],
-        unselected: unselected.filter((c) => c.code != course.code),
-      });
-    }
+  function handleClickCard(latest: Course) {
+    console.log("clicked " + latest.code);
+    // safe to compare objects by identity since no course objects are created (only reused)
+    let i = selection.list.map((e) => e.course).indexOf(latest);
+    if (i < 0) return; // should never happen, also there should only be one
+    let { selected, course } = selection.list[i];
+    // we're not supposed to mutate the state directly but this
+    // works because we still call setSelection to update the state
+    selection.list.splice(i, 1, { selected: !selected, course });
+    setSelection({
+      list: selection.list,
+      latest: selection.list.some((e) => e.selected) ? latest : undefined,
+    });
+    // if react is updated and this breaks, rewrite this to not directly modify the array
   }
 
   function formatTable() {
-    return [
-      selected.map((course, index) => (
-        <div key={index}>
-          <button className="card_hl" onClick={() => handleClickCard(course)}>
-            {course.id}
-          </button>
-        </div>
-      )),
-      unselected.map((course, index) => (
-        // guarantee unique keys by offsetting by selection size
-        <div key={index + selected.length}>
-          <button className="card" onClick={() => handleClickCard(course)}>
-            {course.id}
-          </button>
-        </div>
-      )),
-    ].flat();
+    return selection.list.map((e, index) => (
+      <div key={index}>
+        <button
+          className={e.selected ? "card_hl" : "card"}
+          onClick={() => handleClickCard(e.course)}
+        >
+          {e.course.id}
+        </button>
+      </div>
+    ));
   }
 }
