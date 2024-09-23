@@ -234,19 +234,21 @@
     "subject": "MBT",
     "id": "6335",
     "title": "Taxation Small Business Corp",
-    "info": "Federal income taxation of S corporations. Election eligibility; termination of status; treatment of income and deduction items; distributions, basis of stock and debt. Compensation arrangements in closely held corporations; fiscal year issues; personal service corporations; advantages of C corporations vs. S corporations; corporation liquidation and redemption rules; S corporation's built-in gains tax. NOTE: Previous course number was MBT 5335. \n\nprereq: MBT 6231\\\\5230",
-    "prereq": [
-      {
-        "code": "MBT 6231",
-        "subject": "MBT",
-        "id": "6231"
-      },
-      {
-        "code": "MBT 5230",
-        "subject": "MBT",
-        "id": "5230"
-      }
-    ]
+    "info": "Federal income taxation of S corporations. Election eligibility; termination of status; treatment of income and deduction items; distributions, basis of stock and debt. Compensation arrangements in closely held corporations; fiscal year issues; personal service corporations; advantages of C corporations vs. S corporations; corporation liquidation and redemption rules; S corporation's built-in gains tax. NOTE: Previous course number was MBT 5335. \n\nprereq: MBT 6231/5230",
+    "prereq": {
+      "or": [
+        {
+          "code": "MBT 6231",
+          "subject": "MBT",
+          "id": "6231"
+        },
+        {
+          "code": "MBT 5230",
+          "subject": "MBT",
+          "id": "5230"
+        }
+      ]
+    }
   },
   {
     "code": "MBT 6341",
@@ -292,19 +294,21 @@
     "subject": "MBT",
     "id": "6348",
     "title": "Advanced ASC 740 Concepts",
-    "info": "Examination of topics under ASC 740 Accounting for Income Taxes. Share-based awards, uncertain tax positions, valuation allowances, business combinations, foreign operations, interim period tax calculations. Process design/perspective of stakeholders of income tax accounting.  NOTE: Previous course number was MBT 5348.\n\nprereq: MBT 6346\\\\5346",
-    "prereq": [
-      {
-        "code": "MBT 6346",
-        "subject": "MBT",
-        "id": "6346"
-      },
-      {
-        "code": "MBT 5346",
-        "subject": "MBT",
-        "id": "5346"
-      }
-    ]
+    "info": "Examination of topics under ASC 740 Accounting for Income Taxes. Share-based awards, uncertain tax positions, valuation allowances, business combinations, foreign operations, interim period tax calculations. Process design/perspective of stakeholders of income tax accounting.  NOTE: Previous course number was MBT 5348.\n\nprereq: MBT 6346/5346",
+    "prereq": {
+      "or": [
+        {
+          "code": "MBT 6346",
+          "subject": "MBT",
+          "id": "6346"
+        },
+        {
+          "code": "MBT 5346",
+          "subject": "MBT",
+          "id": "5346"
+        }
+      ]
+    }
   },
   {
     "code": "MBT 6351",
@@ -473,8 +477,8 @@
     "code": "MBT 6420",
     "subject": "MBT",
     "id": "6420",
-    "title": "Current Topics in Taxation",
-    "info": "Tax research/compliance, other tasks. Students submit summary paper.\n\nprereq: ACCT 5135, MBT student.   NOTE: Previous course number was MBT 5420.",
+    "title": "MBT Directed Study",
+    "info": "Tax research/compliance, other tasks. Students submit summary paper.\n\nprereq: ACCT 5135, MBT student.  NOTE: Previous course number was MBT 5420.",
     "prereq": {
       "and": [
         {

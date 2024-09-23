@@ -3,8 +3,8 @@
     "code": "CEGE 1101",
     "subject": "CEGE",
     "id": "1101",
-    "title": "Introduction to CE, EnvE, GeoE",
-    "info": "CEGE 1101 introduces students to the civil, environmental, and geo-engineering practice and the vital role these fields play in society. Presentations by professionals and faculty will explore the current and future challenges of the field, research areas, and career opportunities. Small group discussions with current CEGE majors will help students foster connections with peers and learn about the experience and opportunities in the Department of Civil, Environmental, and Geo- Engineering.\n\nprereq: Lower div",
+    "title": "Intro to Civil, Env, & Geo-Eng",
+    "info": "This course introduces students to the civil, environmental, and geo-engineering practice and the vital role these fields play in engineering our society. Presentations by professionals and faculty will explore the current and future challenges of the field, research areas, and career opportunities. Small group discussions with upper-division CEGE students will foster connections with classmates while learning about the\nopportunities in the Civil, Environmental, and Geo- Engineering Department.",
     "prereq": []
   },
   {
@@ -12,7 +12,7 @@
     "subject": "CEGE",
     "id": "1201",
     "title": "Emerging Technologies in Trans",
-    "info": "Emerging battery and computer technologies are revolutionizing our daily transportation.\nVehicle automation has the potential to reduce congestion, create new methods of traffic\ncontrol, and change our travel patterns. 29% of United States greenhouse gas emissions come from transportation, and electric vehicles could help reduce the environmental impacts. This course presents an introductory exploration into automated and electric vehicle technologies from a transportation systems perspective. As you study emerging technologies, you will also get exposed to the engineering methods used to design current transportation systems.\n\nPrereq: High school algebra, trigonometry, and physics",
+    "info": "Emerging battery and computer technologies are revolutionizing our daily transportation.\nVehicle automation has the potential to reduce congestion, create new methods of traffic control, and change our travel patterns. 29% of United States greenhouse gas emissions come from transportation, and electric vehicles could help reduce the environmental impacts. This course presents an introductory exploration into automated and electric vehicle technologies from a transportation systems perspective. As you study emerging technologies, you will also get exposed to the engineering methods used to design current transportation systems.\n\nprereq: Recommended (High school algebra, trigonometry, and physics)",
     "prereq": []
   },
   {
@@ -20,7 +20,7 @@
     "subject": "CEGE",
     "id": "1501",
     "title": "Environmental Issues Solutions",
-    "info": "Open to students from all colleges. Importance of science in understanding/solving various environmental problems. Case studies. Laboratory exercises.\n\nprereq: High school chemistry or equiv, one yr high school algebra",
+    "info": "You will explore a range of environmental challenges and their potential solutions, including climate change, water pollution, air pollution, renewable energy, resource depletion, and biodiversity loss, social justice, equity, ethical responsibilities. You will study the causes, consequences, and solutions while gaining hands-on experience through weekly laboratory sessions where you will work in groups, focusing on environmental monitoring, data collection, and analysis to assess environmental parameters and understand real-world applications. You will participate in engaging field trips to the Hennepin Energy Recovery Center, Eloise Butler Wildflower Garden and Bird Sanctuary, and two local lakes and/or the Mississippi River during your lab sessions. By the end of the course, you will be equipped with the knowledge, skills, and ethical awareness necessary to contribute meaningfully to the ongoing dialogue on environmental sustainability and solutions. \n\nJoin us as this course is  designed for all majors. \n\nThis course satisfies the Liberal Education requirements of Physical Sciences with Lab Core and The Environment Theme.",
     "prereq": []
   },
   {
@@ -28,7 +28,7 @@
     "subject": "CEGE",
     "id": "3101",
     "title": "Computer Applications I",
-    "info": "Computer tools and computational methods for solving civil, environmental, and geo- engineering problems. Solving systems of linear/nonlinear equations, parameter estimation and engineeringmodel fitting, numerical differentiation/integration, numerical solution of ordinary and partial differential equations.\n\nprereq: MATH 1372, PHYS 1301, CSE or instructor consent",
+    "info": "Computer tools and computational methods for solving civil, environmental, and geo-engineering problems. Solving systems of linear/nonlinear equations, parameter estimation and engineering model fitting, numerical differentiation/integration, numerical solution of ordinary, and partial differential equations.\n\nprereq: MATH 1372 or equiv., PHYS 1301 or equiv., CSE or instructor consent",
     "prereq": {
       "and": [
         {
@@ -49,7 +49,7 @@
     "subject": "CEGE",
     "id": "3102",
     "title": "Uncertainty & Decision Analy",
-    "info": "Stochastic models, their usefulness in reasoning about uncertainty in civil, environmental, and geo-engineering. Techniques for identifying, fitting, and validating models using\ndata samples. Testing hypotheses about, and bounding uncertainty attached to, engineering parameters. Applications to civil, environmental, and geo-engineering.\n\nprereq: MATH 1372 or equiv",
+    "info": "Stochastic models, their usefulness in reasoning about uncertainty in civil, environmental, and geo-engineering. Techniques for identifying, fitting, and validating models using data samples. Testing hypotheses about, and bounding uncertainty attached to, engineering parameters. Applications to civil, environmental, and geo-engineering.\n\nprereq: MATH 1372 or equiv",
     "prereq": {
       "code": "MATH 1372",
       "subject": "MATH",
@@ -61,20 +61,8 @@
     "subject": "CEGE",
     "id": "3103",
     "title": "Engrg Ethics and Prof Practice",
-    "info": "Introduction to ethical thinking, legal aspects of professional practice, codes of ethics for engineers, ethical problem-solving using case studies.\n\nPrereq: Civil Eng. or Environmental Eng. or Geoengineering Upper Division",
+    "info": "Introduction to ethical thinking, code of ethics for engineers, accounting for Equity, Diversity and Inclusion (DEI) in engineering practice, the role of Environmental Justice, and legal aspects of professional practice, using ethical and DEI case studies.\n\nprereq: Civil Eng. or Environmental Eng. or Geoengineering Upper Division",
     "prereq": []
-  },
-  {
-    "code": "CEGE 3111",
-    "subject": "CEGE",
-    "id": "3111",
-    "title": "CADD for Civil Engineers",
-    "info": "Introduction to AutoCAD and Civil 3D software. Students complete all tasks to design two-lane roadways and subdivision using civil engineering design software, including topography, plan/profile, contours, cross sections, and quantity calculations.\n\nprereq: CEGE 3201",
-    "prereq": {
-      "code": "CEGE 3201",
-      "subject": "CEGE",
-      "id": "3201"
-    }
   },
   {
     "code": "CEGE 3190",
@@ -89,7 +77,7 @@
     "subject": "CEGE",
     "id": "3201",
     "title": "Transportation Engineering",
-    "info": "Applying laws of motion to vehicle performance, determining constraints for highway designs. Traffic flow principles, their relation to capacity and level of service. Geometric design, traffic control, pavement design, transportation planning. prereq: PHYS 1301, (CEGE 3101, CEGE 3102 can be taken concurrently)",
+    "info": "Applying laws of motion to vehicle performance, determining constraints for highway designs. Traffic flow principles, their relation to capacity and level of service. Geometric design, traffic control, pavement design, transportation planning. \n\nprereq: PHYS 1301 or equivalent, (CEGE 3101, CEGE 3102 can be taken concurrently)",
     "prereq": {
       "and": [
         {
@@ -115,32 +103,11 @@
     }
   },
   {
-    "code": "CEGE 3202",
-    "subject": "CEGE",
-    "id": "3202",
-    "title": "Surveying & Mapping",
-    "info": "Theory of precision measurements of distance, elevation, angle, and direction of points/lines above, on, or beneath earth's surface. Establishing such points/lines. Elements of coordinate systems, datum planes, and maps.\n\nprereq: MATH 1271, MATH 1272], [CSE or Construction Mgmt]",
-    "prereq": {
-      "and": [
-        {
-          "code": "MATH 1271",
-          "subject": "MATH",
-          "id": "1271"
-        },
-        {
-          "code": "MATH 1272",
-          "subject": "MATH",
-          "id": "1272"
-        }
-      ]
-    }
-  },
-  {
     "code": "CEGE 3301",
     "subject": "CEGE",
     "id": "3301",
     "title": "Soil Mechanics I",
-    "info": "Index properties and soil classification.  Effective stress. Permeability and seepage.  Elasticity theory.  One-dimensional compression and consolidation; settlements.  Compaction; cut and fill problems.\n\nprereq: upper division CSE, AEM 3031, CEGE 3101, or instructor consent",
+    "info": "Index properties and soil classification. Effective stress. Permeability and seepage. Elasticity theory. One-dimensional compression and consolidation; settlements.  Compaction; cut and fill problems.\n\nprereq: upper division CSE, AEM 3031, CEGE 3101, or instructor consent",
     "prereq": {
       "and": [
         {
@@ -185,13 +152,13 @@
     "subject": "CEGE",
     "id": "3501",
     "title": "Environmental Engineering",
-    "info": "A quantitative approach to environmental problems, including the development of mass and energy balances and the application of fundamental principles of environmental chemistry and microbiology. Meets the University of Minnesota's liberal education environment theme through the incorporation of environmental function, problems, and solutions throughout the course.\n\nprereq: Chem 1062, Phys 1302, Math 1372 or equivalent",
+    "info": "A quantitative approach to environmental problems, including the development of mass and energy balances and the application of fundamental principles of environmental chemistry and microbiology. Meets the University of Minnesota's liberal education environment theme through the incorporation of environmental function, problems, and solutions throughout the course.\n\nprereq: Chem 1071 or equivalent, Phys 1302 or equivalent, Math 1372 or equivalent",
     "prereq": {
       "and": [
         {
-          "code": "CHEM 1062",
+          "code": "CHEM 1071",
           "subject": "CHEM",
-          "id": "1062"
+          "id": "1071"
         },
         {
           "code": "PHYS 1302",
@@ -211,7 +178,7 @@
     "subject": "CEGE",
     "id": "3502",
     "title": "Fluid Mechanics",
-    "info": "Fluid statics/dynamics. Kinematics of fluid flow, equations of motion, pressure-velocity relationships, viscous effects, boundary layers. Momentum/energy equations. Lift/drag. Flow in pipes and pipe systems. Hydraulic machinery. Fluid measurements. prereq: [AEM 2012 or AEM 3031], Math 2373, CEGE 3101",
+    "info": "Course covers fluid statics/dynamics. Kinematics of fluid flow, equations of motion, pressure-velocity relationships, viscous effects, boundary layers. Momentum/energy equations. Lift/drag. Flow in pipes and pipe systems. Hydraulic machinery. Fluid measurements. \n\nprereq: [AEM 2012 or AEM 3031], Math 2373 or equivalent, CEGE 3101",
     "prereq": {
       "and": [
         {
@@ -266,7 +233,7 @@
     "subject": "CEGE",
     "id": "4102W",
     "title": "Capstone Design for CE",
-    "info": "Teams formulate/solve civil engineering problems. From conceptual stage through preliminary planning, public hearings, design, environmental impact statements, final plans/specifications, and award of contracts. \n\nprereq: 4101W, 4401, 4501",
+    "info": "Students participate in teams to design a solution for an open-ended civil, environmental, and geo- engineering problem. Projects include a cross-section of critical design tasks from conceptualization through preliminary planning, public hearings, design, environmental impact statements, final plans/specifications, and award of contracts. Student design reports must include an assessment of sustainability and an evaluation of issues related to ethics, diversity, equity, and inclusion.\n\nprereq: 4101W, 4401, 4501",
     "prereq": {
       "and": [
         {
@@ -292,7 +259,7 @@
     "subject": "CEGE",
     "id": "4103W",
     "title": "Capstone Design for EnvE",
-    "info": "Team participation in formulation/solution of open-ended civil engineering problems, from conceptual stage through preliminary planning, public hearings, design, and environmental impact statements, to preparation of final plans/specifications and award of contracts.\n\nPrereqs: CEGE 4101W, 4501, 4502",
+    "info": "Students participate in teams to design a solution for an open-ended civil, environmental, and geo- engineering problem. Projects include a cross-section of critical design tasks from conceptualization through preliminary planning, public hearings, design, environmental impact statements, final plans/specifications, and award of contracts. Student design reports must include an assessment of sustainability and an evaluation of issues related to ethics, diversity, equity, and inclusion.\n\nPrereqs: CEGE 4101W, 4501, 4502",
     "prereq": {
       "and": [
         {
@@ -317,8 +284,8 @@
     "code": "CEGE 4104W",
     "subject": "CEGE",
     "id": "4104W",
-    "title": "Capstone Design for GeoE",
-    "info": "Team participation in formulation/solution of open-ended civil engineering problems, from conceptual stage through preliminary planning, public hearings, design, and environmental impact statements, to preparation of final plans/specifications and award of contracts.\n\nprereq: CEGE 4101W,  CEGE 4121, CEGE 4311, CEGE 4351, ESCI 4501",
+    "title": "Capstone Design for GeoEng",
+    "info": "Students participate in teams to design a solution for an open-ended civil, environmental, and geo- engineering problem. Projects include a cross-section of critical design tasks from conceptualization through preliminary planning, public hearings, design, environmental impact statements, final plans/specifications, and award of contracts. Student design reports must include an assessment of sustainability and an evaluation of issues related to ethics, diversity, equity, and inclusion.\n\nprereq: CEGE 4101W,  CEGE 4121, CEGE 4311, CEGE 4351, ESCI 4501",
     "prereq": {
       "and": [
         {
@@ -350,11 +317,19 @@
     }
   },
   {
+    "code": "CEGE 4111",
+    "subject": "CEGE",
+    "id": "4111",
+    "title": "CADD & Coordinate Geometry",
+    "info": "This course provides an introduction to AutoCAD, Civil 3D, and GIS software applications. Students complete all tasks to design two-lane roadways and subdivision using civil engineering design software, including topography, plan/profile, contours, cross sections, and quantity calculations. Instruction in coordinate geometry includes how various data files are obtained, and can be used to create surfaces for design.",
+    "prereq": []
+  },
+  {
     "code": "CEGE 4121",
     "subject": "CEGE",
     "id": "4121",
     "title": "Computer Applications II",
-    "info": "Advanced application of computer tools/methods in solving ordinary/partial differential equations from civil engineering problems. Spreadsheet, MatLab programming.  Methods may include finite differences, boundary element, finite element, and control volume finite element.\n\nprereq: CEGE 3101, MATH 2373 or equivalent, MATH 2374 or equivalent, upper division CSE or instructor consent",
+    "info": "Advanced application of computer tools/methods in solving ordinary/partial differential equations from civil engineering problems. Spreadsheet, MatLab programming. Methods may include finite differences, boundary element, finite element, and control volume finite element.\n\nprereq: CEGE 3101, MATH 2373 or equivalent, MATH 2374 or equivalent, upper division CSE or instructor consent",
     "prereq": {
       "and": [
         {
@@ -380,7 +355,7 @@
     "subject": "CEGE",
     "id": "4160",
     "title": "Special Topics",
-    "info": "Topics/credits vary.\n\nprereq: Upper div CSE",
+    "info": "Topics/credits vary.prereq: Upper div CSE",
     "prereq": []
   },
   {
@@ -412,7 +387,7 @@
     "subject": "CEGE",
     "id": "4194",
     "title": "Directed Research",
-    "info": " Special studies in planning, designing, or analyzing civil, environmental, and geo- engineering systems. Lab problems, literature studies, or reports supervised by staff.\nPrereq: Instructor Consent",
+    "info": "Special studies in planning, designing, or analyzing civil, environmental, and geo-engineering systems. Lab problems, literature studies, or reports supervised by staff.\n\nprereq: Instructor Consent",
     "prereq": []
   },
   {
@@ -484,28 +459,37 @@
     "subject": "CEGE",
     "id": "4219",
     "title": "Air Transportation Systems",
-    "info": "This course provides an overview of the civil air transportation system design and operations. After completing this course, you should be able to  describe the operations of civil transport aircraft from the pilot and company, and air traffic control perspectives; conduct basic economic analysis on airline operations and demand; conduct capacity analysis for airspace and airports; and conduct basic optimization for air transportation operations. This course will prepare students for working with the civil aviation industry.\n\nPrereqs: CEGE 3101, CEGE 3102, MATH 2263, PHYS 1301",
+    "info": "This course provides an overview of the civil air transportation system design and operations. After completing this course, you should be able to  describe the operations of civil transport aircraft from the pilot and company and air traffic control perspectives; conduct basic economic analysis on airline operations and demand; conduct capacity analysis for airspace and airports; and conduct basic optimization for air transportation operations. This course will prepare students for working with the civil aviation industry.\n\nprereq: MATH 2263 or equivalent , MATH 2373 or equivalent, PHYS 1301 or equivalent \nRecommended: (CEGE 3101 or equivalent, CEGE 3102 or equivalent)",
     "prereq": {
       "and": [
-        {
-          "code": "CEGE 3101",
-          "subject": "CEGE",
-          "id": "3101"
-        },
-        {
-          "code": "CEGE 3102",
-          "subject": "CEGE",
-          "id": "3102"
-        },
         {
           "code": "MATH 2263",
           "subject": "MATH",
           "id": "2263"
         },
         {
+          "code": "MATH 2373",
+          "subject": "MATH",
+          "id": "2373"
+        },
+        {
           "code": "PHYS 1301",
           "subject": "PHYS",
           "id": "1301"
+        },
+        {
+          "and": [
+            {
+              "code": "CEGE 3101",
+              "subject": "CEGE",
+              "id": "3101"
+            },
+            {
+              "code": "CEGE 3102",
+              "subject": "CEGE",
+              "id": "3102"
+            }
+          ]
         }
       ]
     }
@@ -579,7 +563,7 @@
     "subject": "CEGE",
     "id": "4311",
     "title": "Rock Mechanics",
-    "info": "Site investigation/classification. In-situ stresses. Strength/failure criteria of rock/interfaces. Stereographic projections. Kinematic analysis of rock slopes. Block size/stability. Reinforcement. Methods of stress analysis.  Pillar design, stiffness effects. Elastoplastic analysis. Rock-support interaction. Numerical modeling of support systems. Lab testing of rock.\n\nprereq: CEGE 3301 or instr consent",
+    "info": "Site investigation/classification. In-situ stresses. Strength/failure criteria of rock/interfaces. Stereographic projections. Kinematic analysis of rock slopes. Block size/stability. Reinforcement. Methods of stress analysis.  Pillar design, stiffness effects. Elastoplastic analysis. Rock-support interaction. Numerical modeling of support systems. Lab testing of rock.prereq: CEGE 3301 or instr consent",
     "prereq": {
       "code": "CEGE 3301",
       "subject": "CEGE",
@@ -655,7 +639,7 @@
     "subject": "CEGE",
     "id": "4411",
     "title": "Matrix Structural Analysis",
-    "info": "Analysis of linear structural systems by matrix methods, stiffness, and flexibility methods. Introduction to computerized structural analysis of trusses/frames, including coding.\n\nprereq: CEGE 3101, CEGE 3401, upper div CSE or grad student or instr consent",
+    "info": "Analysis of elastic linear plane and three-dimensional structures such as bars, shafts, beams, grids, and frames using the stiffness method. Introduction to computational strategies for modeling and analyzing structures using a matrix approach.\n\nprereq: CEGE 3101, CEGE 3401, upper div CSE or grad student or instr consent",
     "prereq": {
       "and": [
         {
@@ -739,11 +723,11 @@
     "subject": "CEGE",
     "id": "4417",
     "title": "Str Eng. Design of Wood Bldgs.",
-    "info": "This course provides an in-depth presentation of topics in design of wood structures. The course is intended\nfor advanced undergraduate and entering graduate students who have completed CEGE 4401 or equivalent.\nThe course extends basic concepts of member design, which are covered in CEGE 4401, to wood members\nand simple wood structures. Knowledge of basic concrete and steel design, construction materials and\nstructural analysis is presumed. Topics covered in the course include: wood properties and grading; design\ncriteria using sawn wood, glue-laminated wood, and plywood; design of beams, columns, trusses, shear\ndiaphragms and floors; connections for wood structures; and building codes and test methods.\n\nPrereqs: CEGE 4401 or equivalent",
+    "info": "This course provides an in-depth presentation of topics in the design of wood structures. The course is intended for advanced undergraduate and entering graduate students. Topics covered in the course include: wood properties and grading; building codes and technologies; loading and design criteria for beams, columns, trusses, and wall and floor panels; and connections for wood structures.\n\nprereqs: CEGE 3401 or equivalent, upper division CSE or grad student, or instructor consent",
     "prereq": {
-      "code": "CEGE 4401",
+      "code": "CEGE 3401",
       "subject": "CEGE",
-      "id": "4401"
+      "id": "3401"
     }
   },
   {
@@ -789,7 +773,7 @@
     "subject": "CEGE",
     "id": "4511",
     "title": "Hydraulic Structures",
-    "info": "Hydraulic design procedures for culverts, dams, spillways, outlet works, and river control works. Drop structures, water intakes, bridge crossings. \n\nprereq: CEGE 4501, upper division CSE student, Grad student or instructor consent",
+    "info": "Hydraulic design procedures for culverts, dams, spillways, outlet works, and river control works. Drop structures, water intakes, bridge crossings. prereq: CEGE 4501, upper division CSE student, Grad student or instructor consent",
     "prereq": {
       "code": "CEGE 4501",
       "subject": "CEGE",
@@ -821,7 +805,7 @@
     "subject": "CEGE",
     "id": "4515",
     "title": "Remote Sensing of Env. & Water",
-    "info": "The course presents fundamentals of probability theory, statistical learning, and physics of remotes sensing to increase understanding and technical knowledge of undergraduate and graduate students about Earth data analysis and remote sensing  \n\nPrereqs: CEGE 3102, Stat 3021 or equivalent, CEGE 4501 recommended",
+    "info": "The course presents fundamentals of probability theory, statistical learning, and physics of remote sensing to increase understanding and technical knowledge of undergraduate and graduate students about Earth data analysis and remote sensing.   \n\nprereq: Recommended (CEGE 3102, Stat 3021 or equivalent, CEGE 4501) ",
     "prereq": {
       "and": [
         {
@@ -847,8 +831,12 @@
     "subject": "CEGE",
     "id": "4516",
     "title": "Stream Mechanics",
-    "info": "Streams are the principle means for the delivery of the water, sediments, and nutrients that are required to sustain life on the Earth?s surface. This course discusses the fundamental mechanisms that drive physical transport processes in streams, the role of these physical processes in the stream ecosystem functions, as well as the impacts of biota on these physical processes. The specific topics include open channel flow, sediment transport, channel geomorphology, groundwater flow, the advection and diffusion of nutrients and pollutants. We will also briefly discuss how these physical processes impact stream ecological functions and how biota impacts these physical processes. In addition, we will briefly discuss current ways to restore streams, especially methods to increase channel stability. prereq: Multivariate Calculus",
-    "prereq": []
+    "info": "Streams are the principle means for the delivery of the water, sediments, and nutrients that are required to sustain life on the Earth's surface. This course discusses the fundamental mechanisms that drive physical transport processes in streams, the role of these physical processes in the stream ecosystem functions, as well as the impacts of biota on these physical processes. The specific topics include open channel flow, sediment transport, channel geomorphology, groundwater flow, and the advection and diffusion of nutrients and pollutants. We will also briefly discuss how these physical processes impact stream ecological functions and how biota impacts these physical processes. In addition, we will briefly discuss current ways to restore streams, especially methods to increase channel stability. \n\nprereq: CEGE 2374 or equivalent",
+    "prereq": {
+      "code": "CEGE 2374",
+      "subject": "CEGE",
+      "id": "2374"
+    }
   },
   {
     "code": "CEGE 4522",
@@ -879,7 +867,7 @@
     "subject": "CEGE",
     "id": "4563",
     "title": "Pollutant Fate and Transport",
-    "info": "This course will focus on understanding the processes that dictate chemical fate in surface waters, including air-water transfer, adsorption, and biological and abiotic degradation. Students will evaluate the kinetics of these processes by interpreting experimental data. They will also characterize transport in surface waters by building theoretical and computational models from scratch that incorporate advection, diffusion and dispersion transport processes. Students will develop finite difference solutions to advection-diffusion-reaction equations, using ideal and non-ideal reactor theory, to describe the ultimate fate of pollutants in surface water systems such as rivers, lakes, and estuaries. Fate and transport of organic pollutants (such as pesticides and pharmaceuticals), as well as biochemical oxygen demand and nutrient pollution, will be studied.\n\nPrerequisites: CEGE 3101, CEGE 3501, or instructor consent",
+    "info": "This course will focus on understanding the processes that dictate chemical and biological fate in surface waters, including air-water transfer, adsorption, and biological and abiotic degradation. Students will evaluate the kinetics of these processes by interpreting experimental data. They will also characterize transport in surface waters by building theoretical and computational models from scratch that incorporate advection, diffusion, and dispersion transport processes. Students will use ideal and non-ideal reactor theory to develop finite difference solutions to advection-diffusion-reaction equations to describe the ultimate fate of pollutants in surface water systems such as rivers, lakes, and estuaries. Fate and transport of organic pollutants (such as pesticides and pharmaceuticals), biochemical oxygen demand, and nutrient pollution will be studied.\n\nprereqs: CEGE 3101, CEGE 3501, or instructor consent",
     "prereq": {
       "and": [
         {
@@ -900,7 +888,7 @@
     "subject": "CEGE",
     "id": "4581",
     "title": "Dsgn Sustainable Dvlpmnt India",
-    "info": "In this interdisciplinary course in Bangalore (India's fast-growing mega-city and entrepreneurship hub) you will work in teams with local partners to research and design sustainable solutions to development challenges of water, energy, waste, agriculture, transportation, and health. prereq: Open to Junior/Seniors with min. 3.0 GPA.",
+    "info": "In this interdisciplinary course in Bangalore (India's fast-growing mega-city and entrepreneurship hub) you will work in teams with local partners to research and design sustainable solutions to development challenges of water, energy, waste, agriculture, transportation, and health. \n\nprereq: Open to Junior/Seniors with min. 3.0 GPA.",
     "prereq": []
   },
   {
@@ -1053,7 +1041,7 @@
     "subject": "CEGE",
     "id": "5341",
     "title": "Wave Methods",
-    "info": "Introduction to contemporary methods for nondestructive characterization of objects of civil infrastructure (e.g., highways, bridges, geotechnical sites). Imaging technologies based on propagation of elastic waves such as ultrasonic/resonant frequency methods, seismic surveys, and acoustic emission monitoring. Lecture\n\nprereq: [AEM 2021, AEM 3031] or instr consent",
+    "info": "Introduction to contemporary methods for nondestructive characterization of objects of civil infrastructure (e.g., highways, bridges, geotechnical sites). Imaging technologies based on propagation of elastic waves such as ultrasonic/resonant frequency methods, seismic surveys, and acoustic emission monitoring. Lectureprereq: [AEM 2021, AEM 3031] or instr consent",
     "prereq": {
       "and": [
         {
@@ -1074,7 +1062,7 @@
     "subject": "CEGE",
     "id": "5342",
     "title": "Intro to Inverse Problems",
-    "info": " Introduction to principles and applications of the inverse problems theory -- the underpinning of model-driven data analytics. The course covers\n(i) basic ideas, (ii) mathematical foundation, (iii) discretization strategies, (iv) regularization techniques, (v) solution algorithms, and (vi) example problems. All advanced concepts, when recalled, are introduced in an intuitive engineering setting. The discussion, supported by ample numerical examples, focuses on the inversion of linear ``forward'' models. Numerical solutions are implemented in the Matlab environment, and make use of the regtools package that accompanies the textbook (P.C. Hansen, Discrete Inverse Problems -- Insight and Applications, SIAM, 2010). \n\nPrereqs: MATH 2243, MATH 2263, CEGE 3101 or equivalent \n",
+    "info": " Introduction to principles and applications of the inverse problems theory -- the underpinning of model-driven data analytics. The course covers(i) basic ideas, (ii) mathematical foundation, (iii) discretization strategies, (iv) regularization techniques, (v) solution algorithms, and (vi) example problems. All advanced concepts, when recalled, are introduced in an intuitive engineering setting. The discussion, supported by ample numerical examples, focuses on the inversion of linear ``forward'' models. Numerical solutions are implemented in the Matlab environment, and make use of the regtools package that accompanies the textbook (P.C. Hansen, Discrete Inverse Problems -- Insight and Applications, SIAM, 2010). Prereqs: MATH 2243, MATH 2263, CEGE 3101 or equivalent ",
     "prereq": {
       "and": [
         {
@@ -1136,20 +1124,11 @@
     "subject": "CEGE",
     "id": "5415",
     "title": "Masonry Structures",
-    "info": "Masonry materials and their production. Mortars, grouts. Design of unreinforced and reinforced masonry structural systems. Walls, columns, lintels. Codes/specifications, testing.\n\nprereq: CEGE 3401, upper div CSE or grad student or instr consent; 4401 recommended",
+    "info": "Masonry materials and their production. Mortars, grouts. Design of unreinforced and reinforced masonry structural systems. Walls, columns, lintels. Codes/specifications, testing.\n\nprereq:  CEGE 4401, upper div CSE or grad student or instr consent",
     "prereq": {
-      "and": [
-        {
-          "code": "CEGE 3401",
-          "subject": "CEGE",
-          "id": "3401"
-        },
-        {
-          "code": "CEGE 4401",
-          "subject": "CEGE",
-          "id": "4401"
-        }
-      ]
+      "code": "CEGE 4401",
+      "subject": "CEGE",
+      "id": "4401"
     }
   },
   {
@@ -1177,13 +1156,21 @@
     "code": "CEGE 5417",
     "subject": "CEGE",
     "id": "5417",
-    "title": "Str Eng. Design of Wood Bldgs.",
-    "info": "This course provides an in-depth presentation of topics in design of wood structures. The course is intended\nfor advanced undergraduate and entering graduate students who have completed CEGE 4401 or equivalent.\nThe course extends basic concepts of member design, which are covered in CEGE 4401, to wood members\nand simple wood structures. Knowledge of basic concrete and steel design, construction materials and\nstructural analysis is presumed. Topics covered in the course include: wood properties and grading; design\ncriteria using sawn wood, glue-laminated wood, and plywood; design of beams, columns, trusses, shear\ndiaphragms and floors; connections for wood structures; and building codes and test methods.\n\nPrereqs: CEGE 4401 or equivalent",
+    "title": "Eng. Design of Wood Buildings",
+    "info": "This course provides an in-depth presentation of topics in the design of wood structures. The course is intended for advanced undergraduate and entering graduate students. Topics covered in the course include wood properties and grading; building codes and technologies; loading and design criteria for beams, columns, trusses, and wall and floor panels; and connections for wood structures.\n\nprereq: CEGE 3401 or equivalent, upper division CSE or grad student, or instructor's consent",
     "prereq": {
-      "code": "CEGE 4401",
+      "code": "CEGE 3401",
       "subject": "CEGE",
-      "id": "4401"
+      "id": "3401"
     }
+  },
+  {
+    "code": "CEGE 5496",
+    "subject": "CEGE",
+    "id": "5496",
+    "title": "Industrial Internship",
+    "info": "The internship program aims to help students gain hands-on experience through involvement in real-world projects, which will facilitate their transition into a professional career. The internship spans a 15-week summer session, comprising 13 weeks of full-time work at a firm and two weeks dedicated to report writing. At the end of the internship, students will present their experiences to the CEGE department in a formal presentation session.\n\nprereq: CEGE graduate student, completion of at least one semester of coursework in the MS program; no other courses can be taken simultaneously.",
+    "prereq": []
   },
   {
     "code": "CEGE 5511",
@@ -1280,7 +1267,15 @@
     "subject": "CEGE",
     "id": "5516",
     "title": "Stream Mechanics",
-    "info": "Streams are the principal means for the delivery of the water, sediments, and nutrients that are required to sustain life on the Earth?s surface. This course discusses the fundamental mechanisms that drive physical transport processes in streams, the role of these physical processes in the stream ecosystem functions, as well as the impacts of biota on these physical processes. The specific topics include open channel flow, sediment transport, channel geomorphology, groundwater flow, the advection and diffusion of nutrients and pollutants. We will also briefly discuss how these physical processes impact stream ecological functions and how biota impacts these physical processes. In addition, we will briefly discuss current ways to restore streams, especially methods to increase channel stability. prereq: Multivariate Calculus",
+    "info": "Streams are the principal means for the delivery of the water, sediments, and nutrients that are required to sustain life on the Earth's surface. This course discusses the fundamental mechanisms that drive physical transport processes in streams, the role of these physical processes in the stream ecosystem functions, as well as the impacts of biota on these physical processes. The specific topics include open channel flow, sediment transport, channel geomorphology, groundwater flow, the advection and diffusion of nutrients and pollutants. We will also briefly discuss how these physical processes impact stream ecological functions and how biota impacts these physical processes. In addition, we will briefly discuss current ways to restore streams, especially methods to increase channel stability. \n\nprereq: Multivariate Calculus",
+    "prereq": []
+  },
+  {
+    "code": "CEGE 5524",
+    "subject": "CEGE",
+    "id": "5524",
+    "title": "A Circularity Revolution",
+    "info": "A Circularity Revolution: Working to Close the Loop on Global Issues is designed to provide students the fundamental knowledge and perspectives to develop and critique sustainable solutions for water, energy, and materials use, re-use, and upcycling from technological, policy, and cultural viewpoints. The class will focus on how each student's personal and disciplinary identities intersect with society’s needs and on creating a common vocabulary, grounding students in natural elemental cycles, differing perspectives on circularity and resource use, and the importance of the co-creation of solutions. Key foci are introducing experimental analytical strategies, and basic tools and mechanisms to achieve and interrogate circularity, such as principles of green engineering, lifecycle assessment, economic and policy tools, and after-progress narratives. Case studies, social practice art interventions, and a group project will be used to demonstrate how science and technology, policy, and expansive community/stakeholder knowledge all are important aspects of developing and re-conceptualizing sustainable solutions to problems in water, material, and energy use. The course compliments a new National Science Foundation-sponsored Research Trainee Program with a circularity theme.\n\nprereq: grad student or upper division CSE  undergraduate student",
     "prereq": []
   },
   {
@@ -1345,26 +1340,8 @@
     "subject": "CEGE",
     "id": "5543",
     "title": "Intro Enviro Fluid Mechanics",
-    "info": "Environmental fluid mechanics is the study of the interaction of fluid flows that occur in aquatic ecosystems with the growth and behavior of living organisms.\n\n\nprereq: CEGE 3502 or AEM 4201 or ChEn 3005, upper division CSE or grad students or instructor consent",
-    "prereq": {
-      "or": [
-        {
-          "code": "CEGE 3502",
-          "subject": "CEGE",
-          "id": "3502"
-        },
-        {
-          "code": "AEM 4201",
-          "subject": "AEM",
-          "id": "4201"
-        },
-        {
-          "code": "CHEN 3005",
-          "subject": "CHEN",
-          "id": "3005"
-        }
-      ]
-    }
+    "info": "In Environmental Fluid Mechanics, we study the movement and changes of pollutants and nutrients in water systems. Our focus is on quantifying transport from microscopic to watersheds scales. The overall goal is to develop physically-based knowledge of fluid flow transport processes that mediate the fate of contaminants and nutrients in the environment. An understanding of mechanisms guides sustainable water quality management strategies. The topics covered encompass dimensional analysis, scaling, transport phenomena, flow, dispersion, and chemical/biological reactions, along with practical laboratory experience.\n\nprereq: Any undergraduate fluid mechanics course or consent of the instructor",
+    "prereq": []
   },
   {
     "code": "CEGE 5551",
@@ -1511,7 +1488,7 @@
     "code": "CEGE 8213",
     "subject": "CEGE",
     "id": "8213",
-    "title": "Adv Trans Tech Seminar",
+    "title": "Adv Trans Technologies Seminar",
     "info": "Advanced technologies specifically related to transportation. Topics drawn from core science/technology areas of human factors, intelligent vehicles, traffic modeling/management, sensing, communications, and controls.",
     "prereq": []
   },
@@ -2206,6 +2183,14 @@
       "subject": "CEGE",
       "id": "5541"
     }
+  },
+  {
+    "code": "CEGE 8545",
+    "subject": "CEGE",
+    "id": "8545",
+    "title": "Data Quality",
+    "info": "Data Quality will examine the application of quality assurance and quality control fundamentals to engineering studies in the field, in the laboratory, and in modeling. The course material will be applicable to any study. Data quality considerations are important through the planning, data generation (field, laboratory, modeling), data organization, and data interpretation stages of a project. Practical questions and problems will be considered by in-class small groups and homework assignments. These problems will be largely based on real data sets. The class topics will include: data quality as a component of effective experiment design, measures of uncertainty for experimental and analytical data, data-quality considerations in the laboratory, data-quality considerations in the field, data-quality considerations in computational modeling, documentation for data quality, and data handling, data checks.",
+    "prereq": []
   },
   {
     "code": "CEGE 8551",

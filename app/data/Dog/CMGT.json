@@ -16,6 +16,14 @@
     "prereq": []
   },
   {
+    "code": "CMGT 3009",
+    "subject": "CMGT",
+    "id": "3009",
+    "title": "Construction Technology Apps",
+    "info": "The construction industry as a whole is getting more tech-enabled. This course will build the awareness of relevant technologies and their essential functions that students need for success in Construction Management coursework as well as their present or future careers. It may also help them in obtaining their internship and possible baseline software certification from the platform, when available. Software applications include Procore project management, Bluebeam .pdf management, Microsoft Project scheduling, and selected uses of Microsoft Excel spreadsheet design and functions.  \n\nBasic computer literacy recommended",
+    "prereq": []
+  },
+  {
     "code": "CMGT 3011",
     "subject": "CMGT",
     "id": "3011",
@@ -48,6 +56,14 @@
         }
       ]
     }
+  },
+  {
+    "code": "CMGT 3202",
+    "subject": "CMGT",
+    "id": "3202",
+    "title": "Surveying & Mapping",
+    "info": "Theory of precision measurements of distance, elevation, angle, and direction of points/lines above, on, or beneath earth's surface. Establishing such points/lines. Elements of coordinate systems, datum planes, and maps.prereq: CSE or Construction Mgmt",
+    "prereq": []
   },
   {
     "code": "CMGT 4000",
@@ -166,8 +182,8 @@
     "code": "CMGT 4021",
     "subject": "CMGT",
     "id": "4021",
-    "title": "Constr Planning&Scheduling",
-    "info": "Project planning, scheduling, and control. Considering/understanding alternatives. Industry techniques. Introduction to critical path method. Using commercial software on personal computers. Updating/analyzing project schedules.\n\nprereq: 3001, 3011, 45 sem cr",
+    "title": "Intro Const Planng & Schedulng",
+    "info": "Provides introductory knowledge and skill set to create an overall plan for building a construction project from concept through completion. Students will learn how to accurately communicate a plan, use resources, adapt to variability, and utilize lean practices to create a project flow that delivers value in the least wasteful way, using commercial software on personal computers. They will be required to participate in a team that collaborates outside of the classroom.  \n\nPrereq: 3001, 3011 (or CE 4101), 45 semester credits. ",
     "prereq": {
       "and": [
         {
@@ -179,6 +195,11 @@
           "code": "CMGT 3011",
           "subject": "CMGT",
           "id": "3011"
+        },
+        {
+          "code": "CE 4101",
+          "subject": "CE",
+          "id": "4101"
         }
       ]
     }
@@ -443,6 +464,18 @@
     "title": "Health & Safety Planning/Mgmt",
     "info": "Companies can reduce the risk of injury, disease, and death due to environmental hazards by implementing an appropriate health and safety plan. Each plan must be continually reviewed to ensure it is current with new products, scientific evidence, legal parameters, and cultural changes. This course is a comprehensive study of the essential components of an effective safety planning and management system. It also examines the cultural aspects of integrating total safety planning and management into all levels of an operation.\nPrerequisites:  None",
     "prereq": []
+  },
+  {
+    "code": "CMGT 4421",
+    "subject": "CMGT",
+    "id": "4421",
+    "title": "Advanced Constr Scheduling",
+    "info": "This course builds on the prerequisite course CMGT 4021 - Construction Planning and Scheduling. Students will gain technical literacy and competency when crafting a detailed construction project schedule intended for the execution of the flow of work that will meet or exceed modern industry scheduling standards. Using Microsoft Project and Procore software, the student will apply and communicate principles of sequencing, duration, and resource leveling while also implementing applicable lean principles.",
+    "prereq": {
+      "code": "CMGT 4021",
+      "subject": "CMGT",
+      "id": "4021"
+    }
   },
   {
     "code": "CMGT 4422",

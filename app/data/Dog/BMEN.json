@@ -12,7 +12,7 @@
     "subject": "BMEN",
     "id": "1601",
     "title": "BME Undergrad Seminar I",
-    "info": "Introduction to biomedical engineering from academic/industrial perspectives. Survey of current/emerging areas.\n\nprereq: CSE student or instructor approval.",
+    "info": "Introduction to biomedical engineering from academic/industrial perspectives. Survey of current/emerging areas.\n\nprereq: CSE student or department consent",
     "prereq": []
   },
   {
@@ -28,28 +28,28 @@
     "subject": "BMEN",
     "id": "2101",
     "title": "Biomed Thermodynamics/Kinetics",
-    "info": "Introduction to thermodynamics and kinetics, framed in the context of biomedical technologies and applications. Topics include principles of probability, extremum principles and equilibria, entropy & the Boltzmann distribution law, thermodynamic driving forces, solutions & mixtures, solvation & transfer of molecules between phases, phase transitions, biological rate processes, noncovalent binding interactions, binding equilibria and kinetics, enzyme kinetics, gene expression, protein trafficking, and network dynamics. \n\nPrerequisites BMEN 2501, CHEM 1022, MATH 2373, concurrent registration is required (or allowed) in MATH 2374",
+    "info": "Introduction to thermodynamics and kinetics, framed in the context of biomedical technologies and applications. Topics include principles of probability, extremum principles and equilibria, entropy & the Boltzmann distribution law, thermodynamic driving forces, solutions & mixtures, solvation & transfer of molecules between phases, phase transitions, biological rate processes, noncovalent binding interactions, binding equilibria and kinetics, enzyme kinetics, gene expression, protein trafficking, and network dynamics. \n\nprereq: Math 2373 or 2374, Chem 2301, Phys 1302W ",
     "prereq": {
       "and": [
-        {
-          "code": "BMEN 2501",
-          "subject": "BMEN",
-          "id": "2501"
-        },
-        {
-          "code": "CHEM 1022",
-          "subject": "CHEM",
-          "id": "1022"
-        },
         {
           "code": "MATH 2373",
           "subject": "MATH",
           "id": "2373"
         },
         {
-          "code": "MATH 2374",
-          "subject": "MATH",
+          "code": "BMEN 2374",
+          "subject": "BMEN",
           "id": "2374"
+        },
+        {
+          "code": "CHEM 2301",
+          "subject": "CHEM",
+          "id": "2301"
+        },
+        {
+          "code": "PHYS 1302",
+          "subject": "PHYS",
+          "id": "1302"
         }
       ]
     }
@@ -66,53 +66,17 @@
     "code": "BMEN 2401",
     "subject": "BMEN",
     "id": "2401",
-    "title": "Biomedical Programming",
-    "info": "Introduction to structured programming in biomedical engineering. Development of programming skills/logic relevant for numerical methods used for analyzing biomedical signals and solving algebraic/differential equations using Matlab. Programming logic/structured programming, introduction to scientific computation motivated by signal representations. Weekly lecture, computer lab modules.\n\nprereq: CSE student, PHYS 1302W, and MATH 2373 or MATH 2374",
-    "prereq": {
-      "and": [
-        {
-          "code": "PHYS 1302W",
-          "subject": "PHYS",
-          "id": "1302W"
-        },
-        {
-          "code": "MATH 2373",
-          "subject": "MATH",
-          "id": "2373"
-        },
-        {
-          "code": "MATH 2374",
-          "subject": "MATH",
-          "id": "2374"
-        }
-      ]
-    }
+    "title": "Programming for BME",
+    "info": "Introduction to structured programming in biomedical engineering. Development of programming skills/logic relevant for numerical methods used for analyzing biomedical signals and solving algebraic/differential equations using Matlab. Programming logic/structured programming, introduction to scientific computation motivated by signal representations. Weekly lecture, computer lab modules.\n\nprereq: CSE Student",
+    "prereq": []
   },
   {
     "code": "BMEN 2501",
     "subject": "BMEN",
     "id": "2501",
-    "title": "Cell and Molecular Biology",
-    "info": "Fundamentals of cellular/molecular biology. Chemistry of proteins, lipids, and nucleic acids. Applications to biomedical engineering. Function/dynamics of intracellular structures and differentiated animal cells. Application of physical/chemical fundamentals to modeling cellular/subcellular processes. Lecture/lab.\n\nprereq: concurrent registration is required (or allowed) in CHEM 1022, concurrent registration is required (or allowed) in MATH 1372, concurrent registration is required (or allowed) in PHYS 1302, CSE student",
-    "prereq": {
-      "and": [
-        {
-          "code": "CHEM 1022",
-          "subject": "CHEM",
-          "id": "1022"
-        },
-        {
-          "code": "MATH 1372",
-          "subject": "MATH",
-          "id": "1372"
-        },
-        {
-          "code": "PHYS 1302",
-          "subject": "PHYS",
-          "id": "1302"
-        }
-      ]
-    }
+    "title": "Cellular and Molecular Biology",
+    "info": "Fundamentals of cellular and molecular biology. Chemistry of proteins, lipids, and nucleic acids. Applications to biomedical engineering. Function/dynamics of intracellular structures and differentiated animal cells. Application of physical/chemical fundamentals to modeling cellular/sub-cellular processes. Lecture/lab.\n\nprereq: CSE Student",
+    "prereq": []
   },
   {
     "code": "BMEN 2502",
@@ -247,7 +211,7 @@
     "subject": "BMEN",
     "id": "3151",
     "title": "Medical Device Practicum",
-    "info": "BMEN 3151 \\\"Medical Device Practicum\\\" allows students to use the skills they learned in BMEN 2151 \\\"Introductory Medical Device Prototyping\\\" for making an actual medical device prototype. Weekly seminars introduce advanced medical device topics that will be fundamental to senior design. Students will become acquainted with the following topics: Design opportunities in medicine, conceiving and vetting a medical device, FDA regulations and guidance, intellectual property, commercialization licensing and entrepreneurship, and building a medical device prototype.",
+    "info": "BMEN 3151 \"Medical Device Practicum\" allows students to use the skills they learned in BMEN 2151 \"Introductory Medical Device Prototyping\" for making an actual medical device prototype. Weekly seminars introduce advanced medical device topics that will be fundamental to senior design. Students will become acquainted with the following topics: Design opportunities in medicine, conceiving and vetting a medical device, FDA regulations and guidance, intellectual property, commercialization licensing and entrepreneurship, and building a medical device prototype.",
     "prereq": []
   },
   {
@@ -472,38 +436,33 @@
     "subject": "BMEN",
     "id": "4001W",
     "title": "BME Engineering Design I",
-    "info": "Design/analysis of biomedical devices/technologies. Students work in teams on open ended design project, present completed work at design show.\n\nprereq: 2501, 3001, 3101, 3201, 3301, 3701",
+    "info": "Design/analysis of biomedical devices/technologies. Students work in teams on open-ended design projects, and present completed work at design show.\n\nPrerequisite: BME Upper Division and 4 of 5 BME introductory lab & lecture courses (3011/15, 3111/15, 3211/15, 3311/15, 3411/15)",
     "prereq": {
       "and": [
         {
-          "code": "BMEN 2501",
+          "code": "BMEN 3011",
           "subject": "BMEN",
-          "id": "2501"
+          "id": "3011"
         },
         {
-          "code": "BMEN 3001",
+          "code": "BMEN 3111",
           "subject": "BMEN",
-          "id": "3001"
+          "id": "3111"
         },
         {
-          "code": "BMEN 3101",
+          "code": "BMEN 3211",
           "subject": "BMEN",
-          "id": "3101"
+          "id": "3211"
         },
         {
-          "code": "BMEN 3201",
+          "code": "BMEN 3311",
           "subject": "BMEN",
-          "id": "3201"
+          "id": "3311"
         },
         {
-          "code": "BMEN 3301",
+          "code": "BMEN 3411",
           "subject": "BMEN",
-          "id": "3301"
-        },
-        {
-          "code": "BMEN 3701",
-          "subject": "BMEN",
-          "id": "3701"
+          "id": "3411"
         }
       ]
     }
@@ -513,7 +472,7 @@
     "subject": "BMEN",
     "id": "4002W",
     "title": "BME Engineering Design II",
-    "info": "Continuation of 4001W.\n\nprereq: 4001W",
+    "info": "Continuation of 4001W: BME Engineering Design I\n\nprereq: BMEn 4001W\n\n",
     "prereq": {
       "code": "BMEN 4001",
       "subject": "BMEN",
@@ -524,22 +483,9 @@
     "code": "BMEN 4011",
     "subject": "BMEN",
     "id": "4011",
-    "title": "CAD/CAE of Bioelectr.Devices",
-    "info": "Simulation, analysis, design of industry common Bioelectrical Devices with using CAD software. Altium Designer CAD/LT Spice.\n\nprereq: [3211, 3215] or instr consent",
-    "prereq": {
-      "and": [
-        {
-          "code": "BMEN 3211",
-          "subject": "BMEN",
-          "id": "3211"
-        },
-        {
-          "code": "BMEN 3215",
-          "subject": "BMEN",
-          "id": "3215"
-        }
-      ]
-    }
+    "title": "CAD/CAE of Bioelectric Devices",
+    "info": "Simulation, analysis, design of industry common Bioelectrical Devices using CAD software. Altium Designer CAD/LT Spice.\n\nprereq: BME Upper Division ",
+    "prereq": []
   },
   {
     "code": "BMEN 4013",
@@ -554,31 +500,16 @@
     "subject": "BMEN",
     "id": "4015",
     "title": "CAE of Biomech/Transport Devic",
-    "info": "Computational modeling and simulation of biomechanical and biotransport devices using COMSOL Multiphysics software. \n\nprereq: 3011, 3015, 3111, 3115",
-    "prereq": {
-      "and": [
-        {
-          "code": "BMEN 3011",
-          "subject": "BMEN",
-          "id": "3011"
-        },
-        {
-          "code": "BMEN 3015",
-          "subject": "BMEN",
-          "id": "3015"
-        },
-        {
-          "code": "BMEN 3111",
-          "subject": "BMEN",
-          "id": "3111"
-        },
-        {
-          "code": "BMEN 3115",
-          "subject": "BMEN",
-          "id": "3115"
-        }
-      ]
-    }
+    "info": "Computational modeling and simulation of biomechanical and biotransport devices using COMSOL Multiphysics software. \n\nRecommended Prior Coursework: BMEN 3011/15 and BMEN 3111/15 \n\nprereq: BMEN Upper Division",
+    "prereq": []
+  },
+  {
+    "code": "BMEN 4151",
+    "subject": "BMEN",
+    "id": "4151",
+    "title": "Phys Inspired Eng Solutions",
+    "info": "Students who participate in the PIES BMEn Directed Research Program have an opportunity to frequently interact with physicians to observe a need within the clinical environment and formulate engineering-based solutions. Students will be put on teams where they will collaborate to generate ideas, do rapid-prototyping, and perform usability tests on their devices with guidance from physicians and BMEn faculty. Students will earn Directed Research Credits which count towards upper division technical electives. You are required to work an average of 3 hours per week, per credit you sign up for (1-3 credits per semester). This includes hospital observations, team meetings, and prototyping.",
+    "prereq": []
   },
   {
     "code": "BMEN 4793",
@@ -601,7 +532,7 @@
     "subject": "BMEN",
     "id": "4896",
     "title": "Industrial Assignment I",
-    "info": "Industrial assignment in co-op program. Industrial work assignment in engineering intern program. Evaluation based on student's formal written report covering semester's work assignment. Please visit the Engineering Co-op Program's website for the full syllabus and course information: http://co-op.umn.edu prereq: BMEn upper div, completion of required courses in BMEn prog through spring sem of 3rd yr, registered in co-op prog\n\nprereq: BMEn upper div, completion of required courses in BMEn prog through spring sem of 3rd yr, registered in co-op prog",
+    "info": "Industrial assignment in co-op program. Industrial work assignment in engineering intern program. Evaluation based on student's formal written report covering semester's work assignment. Please visit the Engineering Co-op Program's website for the full syllabus and course information: http://co-op.umn.edu prereq: BMEn upper div, completion of required courses in BMEn prog through spring sem of 3rd yr, registered in co-op progprereq: BMEn upper div, completion of required courses in BMEn prog through spring sem of 3rd yr, registered in co-op prog",
     "prereq": []
   },
   {
@@ -617,7 +548,7 @@
     "subject": "BMEN",
     "id": "4996W",
     "title": "Industrial Assignment II",
-    "info": "Industrial assignment in co-op program. Solution of system design problems that require developing criteria, evaluating alternatives, and generating a preliminary design. Final report emphasizes design communication and describes design decision process, analysis, and final recommendations.\n\nPlease visit the Engineering Co-op Program's website for the full syllabus and further course information: http://co-op.umn.edu\n\nprereq: 4896, registered in co-op prog",
+    "info": "Industrial assignment in co-op program. Solution of system design problems that require developing criteria, evaluating alternatives, and generating a preliminary design. Final report emphasizes design communication and describes design decision process, analysis, and final recommendations.Please visit the Engineering Co-op Program's website for the full syllabus and further course information: http://co-op.umn.eduprereq: 4896, registered in co-op prog",
     "prereq": {
       "code": "BMEN 4896",
       "subject": "BMEN",
@@ -628,19 +559,45 @@
     "code": "BMEN 5001",
     "subject": "BMEN",
     "id": "5001",
-    "title": "Adv Biomats",
-    "info": "Commonly used biomaterials. Chemical/physical aspects. Practical examples from such areas as cardiovascular/orthopedic applications, drug delivery, and cell encapsulation. Methods used for chemical analysis and for physical characterization of biomaterials. Effect of additives, stabilizers, processing conditions, and sterilization methods.\n\nprereq: 3301 or MatS 3011 or grad student or instr consent",
+    "title": "Advanced Biomaterials",
+    "info": "Commonly used biomaterials. Chemical/physical aspects. Practical examples from such areas as cardiovascular/orthopedic applications, drug delivery, and cell encapsulation. Methods used for chemical analysis and for physical characterization of biomaterials. Effect of additives, stabilizers, processing conditions, and sterilization methods.\n\nprereq: BMEN 3311 or MatS 3011 or CSE grad student or instructor consent",
     "prereq": {
       "or": [
         {
-          "code": "BMEN 3301",
+          "code": "BMEN 3311",
           "subject": "BMEN",
-          "id": "3301"
+          "id": "3311"
         },
         {
           "code": "MATS 3011",
           "subject": "MATS",
           "id": "3011"
+        }
+      ]
+    }
+  },
+  {
+    "code": "BMEN 5011",
+    "subject": "BMEN",
+    "id": "5011",
+    "title": "Immunoengineering",
+    "info": "This course will provide an introduction into the dynamic and evolving research area of Immunoengineering, examining strategies in clinical and preclinical development for manipulating the immune system to treat and protect against disease. The course is geared towards engineers without a deeply established background in immunology. Basic principles in immunology will be covered in a didactic fashion, and contemporary research directions will be discussed based on articles from the primary literature. Biomaterials and in particular nanomaterials will be presented as a tool for modifying immune responses, along with strategies based in biotechnology, chemistry, and molecular biology. Applications for cancer immunotherapy, vaccine development, and the treatment of autoimmune disorders will receive particular focus.\nPreviously offered as a topics title for BMEn 5910, and should not be taken again.\n\nprereq: CSE upper division with Chem 1066, Biol 1009 or BMEn 2501 or equivalent / instructor consent; or\nCBS upper division with Chem 1066, Physics II or equivalent/instructor consent ",
+    "prereq": {
+      "and": [
+        {
+          "code": "CHEM 1066",
+          "subject": "CHEM",
+          "id": "1066"
+        },
+        {
+          "code": "BIOL 1009",
+          "subject": "BIOL",
+          "id": "1009"
+        },
+        {
+          "code": "BMEN 2501",
+          "subject": "BMEN",
+          "id": "2501"
         }
       ]
     }
@@ -666,7 +623,7 @@
     "subject": "BMEN",
     "id": "5101",
     "title": "Adv Bioelectric/Instruments",
-    "info": "Instrumentation, computer systems, and processing requirements for clinical physiological signals. Electrode characteristics, signal processing, and interpretation of physiological events by ECG, EEG, and EMG. Measurement of respiration and blood volume/flow. \n\nprereq: [CSE upper div, grad student] or instructor consent",
+    "info": "Instrumentation, computer systems, and processing requirements for clinical physiological signals. Electrode characteristics, signal processing, and interpretation of physiological events by ECG, EEG, and EMG. Measurement of respiration and blood volume/flow. \n\nprereq: CSE upper division or grad student",
     "prereq": []
   },
   {
@@ -682,7 +639,7 @@
     "subject": "BMEN",
     "id": "5111",
     "title": "Biomedical Ultrasound",
-    "info": "Introduction to biomedical ultrasound, including physics of ultrasound, transducer technology, medical ultrasound imaging, photoacoustic imaging, applications of non-linear acoustics, and high-intensity ultrasound.\n\nprereq: [[PHYS 1302 or equiv], [MATH 2374 or equiv]] or instr consent",
+    "info": "Introduction to biomedical ultrasound, including physics of ultrasound, transducer technology, medical ultrasound imaging, photoacoustic imaging, applications of non-linear acoustics, and high-intensity ultrasound.\n\nPrerequisites: BME Upper Division or CSE grad student \nRecommended prior coursework: PHYS 1302 or equivalent, MATH 2374 or equivalent; familiarity with MATLAB programming",
     "prereq": {
       "and": [
         {
@@ -718,12 +675,12 @@
     "code": "BMEN 5201",
     "subject": "BMEN",
     "id": "5201",
-    "title": "Adv Biomech",
-    "info": "Introduction to biomechanics of musculoskeletal system. Anatomy, tissue material properties. Kinematics, dynamics, and control of joint/limb movement. Analysis of forces/motions within joints. Application to injury, disease. Treatment of specific joints, design of orthopedic devices/implants.\n\nprereq: [[3001 or equiv], [CSE upper div or grad student]] or instr consent",
+    "title": "Advanced Biomechanics",
+    "info": "Introduction to biomechanics of musculoskeletal system. Anatomy, tissue material properties. Kinematics, dynamics, and control of joint/limb movement. Analysis of forces/motions within joints. Application to injury, disease. Treatment of specific joints, design of orthopedic devices/implants.\n\nprereq: BMEN 3011; CSE upper div or grad student ",
     "prereq": {
-      "code": "BMEN 3001",
+      "code": "BMEN 3011",
       "subject": "BMEN",
-      "id": "3001"
+      "id": "3011"
     }
   },
   {
@@ -786,45 +743,9 @@
     "code": "BMEN 5351",
     "subject": "BMEN",
     "id": "5351",
-    "title": "Cell Eng",
-    "info": "Engineering approaches to cell-related phenomena important to cell/tissue engineering. Receptor/ligand binding. Trafficking/signaling processes. Applications to cell proliferation, adhesion, and motility. Cell-matrix interactions.\n\nprereq: [2401, [2501 or concurrent registration is required (or allowed) in 5501], [MATH 2243 or MATH 2373]] or CSE upper div or grad student or instr consent",
-    "prereq": {
-      "and": [
-        {
-          "code": "BMEN 2401",
-          "subject": "BMEN",
-          "id": "2401"
-        },
-        {
-          "and": [
-            {
-              "code": "BMEN 2501",
-              "subject": "BMEN",
-              "id": "2501"
-            },
-            {
-              "code": "BMEN 5501",
-              "subject": "BMEN",
-              "id": "5501"
-            },
-            {
-              "or": [
-                {
-                  "code": "MATH 2243",
-                  "subject": "MATH",
-                  "id": "2243"
-                },
-                {
-                  "code": "MATH 2373",
-                  "subject": "MATH",
-                  "id": "2373"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
+    "title": "Cell Engineering",
+    "info": "Engineering approaches to cell-related phenomena important to cell/tissue engineering. Receptor/ligand binding. Trafficking/signaling processes. Applications to cell proliferation, adhesion, and motility. Cell-matrix interactions.\n\nSuggested Prior Coursework:  BMEN3111 or equivalent \nPrerequisite: CSE upper div or grad student",
+    "prereq": []
   },
   {
     "code": "BMEN 5361",
@@ -902,8 +823,8 @@
     "code": "BMEN 5501",
     "subject": "BMEN",
     "id": "5501",
-    "title": "Biol for Biomed Eng",
-    "info": "Concepts of cell/tissue structure/function. Basic principles of cell biology. Tissue engineering, artificial organs.\n\nprereq: Engineering upper div or grad student",
+    "title": "Biology for Biomed Engineers",
+    "info": "Concepts of cell/tissue structure/function. Basic principles of cell biology. Tissue engineering, artificial organs.",
     "prereq": []
   },
   {
@@ -919,26 +840,8 @@
     "subject": "BMEN",
     "id": "5601",
     "title": "Cardiovascular Devices",
-    "info": "Design of cardiovascular devices with experts from local medtech companies. Discussion of clinical need, the generic design (emphasizing use of engineering principles), typical testing and validation methods, and major limitations of the available devices. Design, analysis, and testing of these and related devices.\n\nprereq: BMEN 3011, 3111, 3211, or equivalents with instr consent",
-    "prereq": {
-      "and": [
-        {
-          "code": "BMEN 3011",
-          "subject": "BMEN",
-          "id": "3011"
-        },
-        {
-          "code": "BMEN 3111",
-          "subject": "BMEN",
-          "id": "3111"
-        },
-        {
-          "code": "BMEN 3211",
-          "subject": "BMEN",
-          "id": "3211"
-        }
-      ]
-    }
+    "info": "Design of cardiovascular devices with experts from local medtech companies. Discussion of clinical need, the generic design (emphasizing use of engineering principles), typical testing and validation methods, and major limitations of the available devices. Design, analysis, and testing of these and related devices.\n\nRecommended Prior Coursework: BMEN 3011, 3111, 3211\n\nprereq: BME Upper Division or CSE grad student",
+    "prereq": []
   },
   {
     "code": "BMEN 5701",
@@ -1278,7 +1181,7 @@
     "code": "BMEN 8888",
     "subject": "BMEN",
     "id": "8888",
-    "title": "Thesis Credit:Doct*",
+    "title": "Thesis Credit: Doctoral",
     "info": "Thesis credit: doctoral.\n\nprereq: PhD student in biomedical engineering; max 14 cr per semester or summer; 24 cr required",
     "prereq": []
   },

@@ -8,7 +8,7 @@ import Image from "next/image";
 
 export default function Page() {
   return (
-    <div class>
+    <div id="content">
       <div>
         <Image
           id = "titleLogo"

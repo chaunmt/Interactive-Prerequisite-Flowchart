@@ -865,7 +865,7 @@
     "subject": "NURS",
     "id": "5030",
     "title": "FoundationConcepProfessNursing",
-    "info": "Foundation of knowledge for culturally appropriate, ethical, evidence-based nursing practice across the life span. Research/theory that underlie the art/science of professional nursing. Concepts of person, environment, health, and nursing.\n\nprereq: Admission to master's in nursing program",
+    "info": "This course provides the foundation of professional nursing, including scope and standards, evidence-based nursing practice, and introduction to nursing theory. The concepts of communication, diversity, equity, inclusivity, and social determinants of health are explored. Beginning development of clinical reasoning skills is supported by the nursing process.\n\nprereq: Admission to the Master’s in Nursing (MN) Program with all program prerequisites completed.",
     "prereq": []
   },
   {
@@ -897,21 +897,8 @@
     "subject": "NURS",
     "id": "5034",
     "title": "Transition Pro Nurse Practice",
-    "info": "Critical analysis of issues affecting the transition to professional nursing practice including those related to the quality of healthcare, quality improvement, and the ability of nurses to improve patient outcomes across settings.\n\nprereq: Nurs 5033, Nurs 6200",
-    "prereq": {
-      "and": [
-        {
-          "code": "NURS 5033",
-          "subject": "NURS",
-          "id": "5033"
-        },
-        {
-          "code": "NURS 6200",
-          "subject": "NURS",
-          "id": "6200"
-        }
-      ]
-    }
+    "info": "Framed in the context of patient safety and quality of care, this course highlights competencies for students that will lead to a positive transition to their professional nurse role. The course engages students in the application of the quality improvement process to address patient safety and quality issues. Students will focus on practice issues that can compromise patient safety and quality of care. Students will plan their transition to professional practice and identify how they will proactively address issues that typically confront new nurse graduates in their first professional nursing role. ",
+    "prereq": []
   },
   {
     "code": "NURS 5035",
@@ -950,7 +937,7 @@
     "subject": "NURS",
     "id": "5116",
     "title": "Consumer Health Informatics",
-    "info": "This course examines issues from the consumer’s perspective in the acquisition, understanding, or use of health information. Mobile health, telehealth, sensor technology, and internet sources for improving health are examined. The impact on consumer-provider communication and relationships as well as ethical and legal issues are explored.\n\nprereq: Grad student or instr consent",
+    "info": "Consumer health informatics (CHI) focuses on the access and use of health information and tools by consumers to facilitate engagement in overall health and well-being. This course examines issues from the consumer’s perspective in the acquisition, understanding, or use of health information. Students will examine a range of CHI applications such as digital health, telehealth, sensor technology, and internet sources for improving health. The class will explore the socio-technical aspects of user needs, generate theory-informed design and implementation strategies, and select appropriate evaluation approaches. Students will assess the potential impact on consumer-provider communication and relationships as well as ethical and legal issues related to consumer technologies. ",
     "prereq": []
   },
   {
@@ -1017,7 +1004,7 @@
     "code": "NURS 5190",
     "subject": "NURS",
     "id": "5190",
-    "title": "Ess Hol Hlth Asses Fndtl Clini",
+    "title": "Health Assessment and Clinical",
     "info": "Introduction to health and physical assessment for safe, culturally sensitive, inclusive, and ethical nursing practice across the life span. Active learning, simulation, and clinical settings are used to develop a holistic approach to nursing process: assessment, diagnosis, outcome, planning, implementation, and evaluation. \n\nprereq: Admission to MN Program",
     "prereq": []
   },
@@ -1126,7 +1113,7 @@
     "subject": "NURS",
     "id": "5228",
     "title": "Pharmacology for Adv Prac Nurs",
-    "info": "Overview of pharmacological principles for commonly used medication classes. Each drug class, related physiology. Pharmacodynamics and pharmacokinetics of drug classes and\nspecific medications.\n\nprereq: Grad nursing student or instr consent",
+    "info": "Foundational overview of pharmacological principles for commonly used medication classes. Includes an overview of each drug class, a review of related physiology, and the pharmacodynamics and pharmacokinetics of drug classes and specific medications.\n",
     "prereq": []
   },
   {
@@ -1142,7 +1129,7 @@
     "subject": "NURS",
     "id": "5230",
     "title": "PharmacotherapforNursAnesthII",
-    "info": "Reviews basic physics, organic and biochemistry of metabolic processes, pharmacodynamics & pharmacokinetics. Detailed description of anesthetic drugs, physiologic mechanisms, side effects, toxicities, metabolism & elimination as outlined on National Certification Examination. Synthesis of pharmacotherapeutics into nurse anesthesia plan of care.",
+    "info": "Reviews basic physics, organic and biochemistry of metabolic processes, pharmacodynamics, and pharmacokinetics. Detailed description of anesthetic drugs, physiologic mechanisms, side effects, toxicities, metabolism, and elimination as outlined on the National Certification Examination. Synthesis of pharmacotherapeutics into nurse anesthesia plan of care.",
     "prereq": []
   },
   {
@@ -1266,7 +1253,7 @@
     "subject": "NURS",
     "id": "5800",
     "title": "Nursing Topics",
-    "info": "Course allows students to study a topic not included in regular courses, or for faculty to offer a course to determine interest in a topic.\n\nprereq: instr consent",
+    "info": "Course allows students to study a topic not included in regular courses, or for faculty to offer a course to determine interest in a topic.prereq: instr consent",
     "prereq": []
   },
   {
@@ -2158,6 +2145,14 @@
     "prereq": []
   },
   {
+    "code": "NURS 6601",
+    "subject": "NURS",
+    "id": "6601",
+    "title": "Intro to Adv Psych Nurse Role",
+    "info": "Students will explore the role of the advanced practice psychiatric nurse practitioner in providing care for individuals, families, and communities in the context of a doctor of nursing practice degree. Students will examine the rich history and development of the advanced psychiatric mental health nursing role, including core mental health concepts and relevant nursing theories. ",
+    "prereq": []
+  },
+  {
     "code": "NURS 6602",
     "subject": "NURS",
     "id": "6602",
@@ -2295,6 +2290,22 @@
         }
       ]
     }
+  },
+  {
+    "code": "NURS 6606",
+    "subject": "NURS",
+    "id": "6606",
+    "title": "Assessmt Mgmt CmplxMentHlthDis",
+    "info": "Analyze advanced concepts from nursing theory and research, social sciences, neuropsychology, and neurophysiology to assess, differentiate, and treat complex psychiatric symptoms and disorders across the age continuum and across the health system continuum of care. Evaluate clinical evidence for psychotherapeutic interventions, including psychotherapy, psychopharmacology, and integrative modalities for treatment of complex psychiatric disorders.",
+    "prereq": []
+  },
+  {
+    "code": "NURS 6607",
+    "subject": "NURS",
+    "id": "6607",
+    "title": "PsychMH AdvNursPracticum III",
+    "info": "Clinical focus: Students refine diagnostic interviewing skills to conduct a comprehensive psychiatric assessment for clients across the lifespan. Students expand knowledge of patient treatment to include complex psychiatric patient care. ",
+    "prereq": []
   },
   {
     "code": "NURS 6702",
@@ -2469,8 +2480,8 @@
     "code": "NURS 6895",
     "subject": "NURS",
     "id": "6895",
-    "title": "AdultAcuteCreHolisticHlthAsses",
-    "info": "Provides nurse anesthesia students and other interested APRN students with the cognitive and psychomotor skills necessary to perform an advanced health assessment for acute care adult patients and/or those in need of a preoperative assessment.\n\nprereq: Nurse anesthesia DNP student or instr consent",
+    "title": "AdultAcuteCare Holistic Assess",
+    "info": "Provides nurse anesthesia students with the cognitive and psychomotor skills necessary to perform an advanced health assessment for acute care adult patients and/or those in need of a preoperative assessment. An inclusive, holistic assessment of the health of all patient populations will be addressed with cultural competence.",
     "prereq": []
   },
   {
@@ -2654,6 +2665,14 @@
         }
       ]
     }
+  },
+  {
+    "code": "NURS 6915",
+    "subject": "NURS",
+    "id": "6915",
+    "title": "Pro Aspects of Nurs AnesthPrac",
+    "info": "The course will explore the history of nurse anesthesia practice and provide an overview of the philosophical and scientific underpinnings of nurse anesthesia practice. Students will evaluate professional licensing, state laws, and credentialing aspects of practice. Nurse anesthesia practice models, delivery systems, and reimbursement will be examined. Students will analyze selected world views and theories from a variety of disciplines with emphasis placed on the development of critical thinking skills within a complex, global, and diverse healthcare environment.",
+    "prereq": []
   },
   {
     "code": "NURS 6920",
@@ -3122,8 +3141,8 @@
     "code": "NURS 7000",
     "subject": "NURS",
     "id": "7000",
-    "title": "DNP Proseminar",
-    "info": "Historical, regulatory, and professional underpinnings of advanced specialty nursing practice within a clinical doctoral framework.\n\nprereq: Admission to Post-BSN Doctorate of Nursing Practice Program",
+    "title": "Advanced Nursing Practice",
+    "info": "In this foundation course, learners will develop skills and tools to lead a resilient, ethical, and collaborative approach to advanced level nursing practice and sustainably driven quality improvement. This course provides an overview of global systemic and historical factors which have influenced the eco-socio-cultural health of communities and the standards of competence outlined by the AACN Essentials for Advanced Level Nursing Education. In this course, students will develop plans for flourishing at both individual and macro system levels and will explore advocacy, policy, and culturally supportive interventions as it relates to advanced nursing practice.",
     "prereq": []
   },
   {
@@ -3196,7 +3215,7 @@
     "subject": "NURS",
     "id": "7100",
     "title": "QI and Implementation Science",
-    "info": "Study of improvement and implementation science with emphasis on integration of organizational change theory, quality improvement models, guidelines, and strategies to drive evidence-based change and improve patient outcomes in the context of healthcare systems.",
+    "info": "This course focuses on the application of improvement and implementation science to lead quality improvement in healthcare systems. Students will apply the components of a quality improvement plan, using an equity and ethical lens and theory driven strategies to a quality or safety issue in healthcare.   ",
     "prereq": []
   },
   {
@@ -3225,6 +3244,14 @@
     "id": "7103",
     "title": "Nursing Research Methods",
     "info": "Evaluate research methods underlying development of knowledge for discipline/practice of nursing. ",
+    "prereq": []
+  },
+  {
+    "code": "NURS 7104",
+    "subject": "NURS",
+    "id": "7104",
+    "title": "ScholWriting for AdvNursPract",
+    "info": "This course prepares the advanced nursing practice student to communicate effectively through scholarly writing using essential writing skills and APA style. Topics include finding and appropriately citing scholarly sources of evidence, writing with clarity, applying academic writing style, recognizing and avoiding plagiarism, avoiding bias in writing, and negotiating the ethics of authorship. Students will complete a series of online modules through self-paced learning and submit a writing sample to demonstrate mastery of content.",
     "prereq": []
   },
   {
@@ -3334,7 +3361,7 @@
     "subject": "NURS",
     "id": "7110",
     "title": "DNP Project Planning",
-    "info": "This course is the first in a series of three in which the student will apply quality improvement techniques, change theory, and interprofessional collaboration through the development of a sustainable, evidence-based intervention in the practice arena.",
+    "info": " This course is the first in a series of three in which the student will apply quality improvement techniques, change theory, and interprofessional collaboration through the development of a sustainable evidence-based intervention in the practice arena.",
     "prereq": []
   },
   {
@@ -3350,8 +3377,21 @@
     "subject": "NURS",
     "id": "7112",
     "title": "DNP Project Eval/Dissemination",
-    "info": "This course is the third in a series of three in which the student will apply quality improvement techniques, change theory, and interprofessional collaboration through the implementation of a sustainable evidence-based intervention in the practice arena. This three semester project series provides a foundation for future scholarship and impact for the doctorally-prepared nurse.",
-    "prereq": []
+    "info": "This course is the third in a series of three in which the student will apply quality improvement techniques, change theory, and interprofessional collaboration through the implementation of a sustainable evidence-based intervention in the practice arena. This three semester project series provides a foundation for future scholarship and impact for the doctorally-prepared nurse.\n\nprereq: NURS 7110 and NURS 7111 (may be concurrent with instructor permission) ",
+    "prereq": {
+      "and": [
+        {
+          "code": "NURS 7110",
+          "subject": "NURS",
+          "id": "7110"
+        },
+        {
+          "code": "NURS 7111",
+          "subject": "NURS",
+          "id": "7111"
+        }
+      ]
+    }
   },
   {
     "code": "NURS 7113",
@@ -3440,6 +3480,14 @@
     "id": "7202",
     "title": "Nurs Moral/Ethical Pos/Action",
     "info": "Normative ethics and theoretical underpinnings for positions taken. Implications for subsequent action. Morally defensible positions on health-related issues, corresponding actions from perspective of nursing.",
+    "prereq": []
+  },
+  {
+    "code": "NURS 7205",
+    "subject": "NURS",
+    "id": "7205",
+    "title": "HealthEconFinan in AdvNursPrac",
+    "info": "By the conclusion of this course, advanced nursing practice students are prepared to apply economic and finance concepts in a variety of practice settings. The student will translate practice-relevant concepts and priorities (e.g. technology, evidenced-based practice, return on investment) into actions that are valued by organizational decision-makers, leveraging advocacy techniques, advanced decision-making, and evidence-based data with an emphasis on conceptualizing resources broadly. Additionally, the student will utilize evidence-based, innovative leadership and advocacy principles in the development of economic and business models to promote equitable distribution of healthcare resources, address health disparities, and improve population health.",
     "prereq": []
   },
   {
@@ -3762,6 +3810,14 @@
       "subject": "NURS",
       "id": "7212"
     }
+  },
+  {
+    "code": "NURS 7230",
+    "subject": "NURS",
+    "id": "7230",
+    "title": "AdvNurs Pub, Pop, Planet Healt",
+    "info": "The course is designed to address healthcare delivery and outcomes from public health prevention to disease management of populations to transdisciplinary solutions for planetary health. The course provides foundational principles to examine health equity from patient to planet. Students will advance key advanced nursing skill sets in relation to advocacy, multi-sectoral partnership, epidemiology, health equity, and preparedness that will serve as tools in diverse scholarly, clinical, and programmatic practice contexts.",
+    "prereq": []
   },
   {
     "code": "NURS 7300",
@@ -4314,8 +4370,24 @@
     "code": "NURS 7600",
     "subject": "NURS",
     "id": "7600",
-    "title": "Nurs Res & Evidence Based Prac",
-    "info": "Examination of evidence based nursing including types and levels of evidence, research process, critique, and synthesis of research studies, and the science of implementation. \n\nprereq: Completion of or concurrent enrollment in a 3 credit inferential statistics course",
+    "title": "Eval Evid to Improve Nurs Prac",
+    "info": "Application, synthesis, and critical evaluation of health related evidence and examination of ethical considerations. It focuses on critiquing research studies, clinical practice guidelines, systematic and integrative literature reviews, and synthesizing a body of evidence to support evidence based practice, health care quality, and health equity. \n\nprereq: [Statistics, pre-req or concurrent]",
+    "prereq": []
+  },
+  {
+    "code": "NURS 7602",
+    "subject": "NURS",
+    "id": "7602",
+    "title": "Psych Intervent w IndivGrpsFam",
+    "info": "Analyze theory and research as a basis for integrating psychotherapy for individuals, families, and groups across the lifespan and continuum of healthcare systems.",
+    "prereq": []
+  },
+  {
+    "code": "NURS 7603",
+    "subject": "NURS",
+    "id": "7603",
+    "title": "PsychMH AdvNursPracticum IV",
+    "info": "Clinical focus: Apply theories, research and clinical evidence about psychotherapeutic interventions and therapeutic use of self to promote mental health management, and recovery from biopsychosocial sequelae of psychiatric illnesses experienced by individuals of all ages and families.",
     "prereq": []
   },
   {
@@ -4425,6 +4497,14 @@
         }
       ]
     }
+  },
+  {
+    "code": "NURS 7623",
+    "subject": "NURS",
+    "id": "7623",
+    "title": "AdvNurs Leader GlobaImpactPrac",
+    "info": "This practicum course allows students to demonstrate knowledge from the didactic course, Advanced Nursing Leadership for Global Impact, into practice. Students may select one of two practice settings, an immersion experience in New York City or an immersion experience in a local setting. By the conclusion of course, students will demonstrate leadership competencies related to global health and advancement of the Sustainable Development Goals (SDGs).",
+    "prereq": []
   },
   {
     "code": "NURS 7705",

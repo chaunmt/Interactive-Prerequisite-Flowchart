@@ -246,7 +246,7 @@
     "subject": "ME",
     "id": "3333",
     "title": "Heat Transfer",
-    "info": "Mechanisms of heat transfer. Conduction, convection, radiation. Boundary layer analysis using momentum and energy equations. Applications such as fins, heat exchangers, electronics cooling, bioheat transfer, energy conversion technologies, phase change energy storage and boiling.\n\nprereq: 3332",
+    "info": "Mechanisms of heat transfer. Conduction, convection, radiation. Boundary layer analysis using momentum and energy equations. Applications such as fins, heat exchangers, electronics cooling, bioheat transfer, energy conversion technologies, phase change energy storage and boiling.\n\nprereq: 3332, ME upper division",
     "prereq": {
       "code": "ME 3332",
       "subject": "ME",
@@ -266,11 +266,11 @@
     "subject": "ME",
     "id": "4031W",
     "title": "Basic Measure Lab",
-    "info": "Experimental methods, statistical estimates of experimental uncertainty, calibration, signal conditioning, selected transducers for mechanical measurements, data acquisition/processing. Temperature, pressure, humidity, stress-strain, force, velocity, flow/radiative properties.\n\nprereq: IE 4521, upper div ME",
+    "info": "Experimental methods, statistical estimates of experimental uncertainty, calibration, signal conditioning, selected transducers for mechanical measurements, data acquisition/processing. Temperature, pressure, humidity, stress-strain, force, velocity, flow/radiative properties.\n\nprereq: IE 3521, upper div ME",
     "prereq": {
-      "code": "IE 4521",
+      "code": "IE 3521",
       "subject": "IE",
-      "id": "4521"
+      "id": "3521"
     }
   },
   {
@@ -437,7 +437,7 @@
     "subject": "ME",
     "id": "4131W",
     "title": "Indoor Environ & Energy Lab",
-    "info": "Experiments in psychrometrics, refrigeration, air conditioning, solar energy, indoor air quality, and other topics related to refrigeration, building heating/cooling, and indoor air quality. \n\nprereq: ME 3333, ME 4031W, admitted to upper division/ME major",
+    "info": "Experiments in psychrometrics, refrigeration, air conditioning, solar energy, indoor air quality, and other topics related to refrigeration, building heating/cooling, and indoor air quality. \n\nprereq: ME 3333, ME 4031W",
     "prereq": {
       "and": [
         {
@@ -574,6 +574,14 @@
     "id": "4583",
     "title": "Design for Life: Water in Tanz",
     "info": " Teams will evaluate community needs and infrastructure to design potable water-handling systems in rural Tanzania, typically off the power grid. Fluid mechanics: complex distribution networks, system losses, pump selection, borehole development; field measurements. Designs must address Tanzanian design guidelines.\n",
+    "prereq": []
+  },
+  {
+    "code": "ME 4585",
+    "subject": "ME",
+    "id": "4585",
+    "title": "Mechatronics in Switzerland",
+    "info": "Students work in teams to design, build and test an autonomous robot. Course instruction includes topics in electronics, system dynamics and control, and mechanical design. This course is intended for interdisciplinary teams, such that each member brings a particular expertise.",
     "prereq": []
   },
   {
@@ -824,7 +832,7 @@
     "subject": "ME",
     "id": "5248",
     "title": "Vibration Engineering",
-    "info": "Apply vibration theory to design.  Optimize isolators, detuning mechanisms, and viscoelastic suspensions and structures. Use modal analysis methods to describe free vibration of complex systems, relating to both theoretical and test procedures.prereq: CSE upper div or grad, 3281",
+    "info": "Apply vibration theory to design.  Optimize isolators, detuning mechanisms, and viscoelastic suspensions and structures. Use modal analysis methods to describe free vibration of complex systems, relating to both theoretical and test procedures.\n\nprereq: CSE upper div or grad, 3281",
     "prereq": {
       "code": "ME 3281",
       "subject": "ME",
@@ -1112,6 +1120,14 @@
     }
   },
   {
+    "code": "ME 8223",
+    "subject": "ME",
+    "id": "8223",
+    "title": "SMS Des",
+    "info": "Smart materials are an emergent class of stimuli-responsive materials. For example, in response to a change in temperature, shape memory alloys change their shape, alternatively, a magnetic field applied to a magneto-rheological material causes a change in the material stiffness. A smart structure is assembled to use the smart properties of its individual components. Smart materials and structures hold promise to provide integrated sensing, actuation, computation, and communication in a single material system. Successful integration of specific functionalities includes self-healing, self-cooling, deployable structures, structural health monitoring, combined sensor/actuator material systems, and\nenergy harvesting for various medical and rehabilitative devices, aerospace structures, and consumer products.\n\nThis course covers the phenomenological material performance and design approaches for smart materials and structures. A fundamental understanding of the underlying mechanisms and graphical and mathematical representations of the mechanical behavior of the material and structures is necessary to design these systems. The fundamental material behavior and structural modeling approaches will be covered through lectures, while students in the course will present recent research developments. The course will provide experience in design with smart materials and structures, reporting of research results through written and oral presentations, and critical analysis of recent research publications. Motivated students from a broad range of disciplines are encouraged to join.",
+    "prereq": []
+  },
+  {
     "code": "ME 8228",
     "subject": "ME",
     "id": "8228",
@@ -1282,6 +1298,14 @@
     "id": "8283",
     "title": "Design of Mechatronic Products",
     "info": "The purpose of this course is for advanced mechanical engineering students to gain additional mechatronic skills by learning how to use microcontrollers to implement control systems in the context of a practical product or device. Embedded microcontrollers are ubiquitous in modern products from washing machines to cell phones to automobiles to space rockets. Knowing how to design and program microcontrollers, how to interface microcontrollers to sensors and actuators, and how to implement control algorithms on a microcontroller is an important skill for the modern control system design engineer.  The course is hands-on and follows a learn by doing approach. Students spend 1/3 the course in a microcontroller boot camp and 2/3 on a substantial microcontroller project. The lectures cover didactic material related to microcontrollers, sensors, actuators, electronics circuit design and fabrication and control algorithm implementation.\n\nprereq: An introductory system dynamics and controls course or permission of instructor.  ",
+    "prereq": []
+  },
+  {
+    "code": "ME 8284",
+    "subject": "ME",
+    "id": "8284",
+    "title": "Medical Robotics",
+    "info": "Course Objectives:\n1. Provide a broad survey of modern robotics topics. Students will be conversant with the leading topics in leading international robotics journals and conferences. This includes an emphasis on medical and surgical robotic applications.\n2. Provide sufficient background in mathematical and modeling techniques and their use to technically critique and advance technical robotics topics.\n3. Provide sufficient exposure and background to engage in international robotics conferences and research.",
     "prereq": []
   },
   {

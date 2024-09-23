@@ -128,20 +128,49 @@
     "subject": "AGRO",
     "id": "2402",
     "title": "The Science of Cannabis",
-    "info": "Botany, growth and development of cannabis, industrial and medical uses, cultivation of industrial and medical cannabis, human health and social impacts, federal and state regulations. ",
-    "prereq": []
+    "info": "Botany, growth and development of cannabis, industrial and medical uses, cultivation of industrial and medical cannabis, human health and social impacts, federal and state regulations. \n\nprereq: AGRO 1101 or AGRO 1103 or BIOL 1001 or BIOL 1009 or HORT 1001 or PLPA 1005",
+    "prereq": {
+      "or": [
+        {
+          "code": "AGRO 1101",
+          "subject": "AGRO",
+          "id": "1101"
+        },
+        {
+          "code": "AGRO 1103",
+          "subject": "AGRO",
+          "id": "1103"
+        },
+        {
+          "code": "BIOL 1001",
+          "subject": "BIOL",
+          "id": "1001"
+        },
+        {
+          "code": "BIOL 1009",
+          "subject": "BIOL",
+          "id": "1009"
+        },
+        {
+          "code": "HORT 1001",
+          "subject": "HORT",
+          "id": "1001"
+        },
+        {
+          "code": "PLPA 1005",
+          "subject": "PLPA",
+          "id": "1005"
+        }
+      ]
+    }
   },
   {
     "code": "AGRO 2501",
     "subject": "AGRO",
     "id": "2501",
     "title": "Plant ID:Urban&Rural Landscape",
-    "info": "Identification of weed species and native herbaceous plants that are important in crop production, turf management, horticulture production, and landscapes systems. This course will emphasize the identification of weed species and other plants found in Minnesota and the upper Midwest area of the United States. Plant families, life cycles, habitats and relationships to humans.\n\nprereq: Biol 1009 or equiv",
-    "prereq": {
-      "code": "BIOL 1009",
-      "subject": "BIOL",
-      "id": "1009"
-    }
+    "info": "Identification of weed species and native herbaceous plants that are important in crop production, turf management, horticulture production, and landscapes systems. This course will emphasize the identification of weed species and other plants found in Minnesota and the upper Midwest area of the United States. Plant families, life cycles, habitats, and relationships to humans.",
+    "prereq": []
   },
   {
     "code": "AGRO 2502",
@@ -364,26 +393,12 @@
     "code": "AGRO 4605",
     "subject": "AGRO",
     "id": "4605",
-    "title": "Strategies for Ag Prod & Mgmt",
-    "info": "ISome of humanity's greatest challenges are related to agriculture. The human population continues to grow and food, fuel, and fiber production are critical to improving human lives around the world. In this course, students will learn the principles of crop production and apply those principles to address real-world agricultural challenges using quantitative tools and skills. Students will learn how to find, access, and use publicly available data to better make decisions in agriculture. Group activities will require students to synthesize information from peer-reviewed research and apply that information to practical problems. This class includes trips to field research plots to collect data, organizing it, and analyzing it to test hypotheses and solve problems. Discussions and labs will be interactive and will require individual and group-level critical thinking.\n\nprereq: 1101 or equivalent, [CHEM1015/17 or equivalent], SOIL1125 or equivalent], [jr or sr or grad student or instr consent]",
+    "title": "Data-Driven Agronomy",
+    "info": "Some of humanity's greatest challenges are related to agriculture. The human population continues to grow, and food, fuel, and fiber production are critical to improving human lives around the world. In this course, students will learn the principles of crop production and apply those principles to address real-world agricultural challenges using quantitative tools and skills. Students will learn how to find, access, and use publicly available data to better make decisions in agriculture. Group activities will require students to synthesize information from peer-reviewed research and apply that information to practical problems. This class includes trips to field research plots to collect data, organize it, and analyze it to test hypotheses and solve problems. Discussions and labs will be interactive and will require individual and group-level critical thinking.\n\nprereq: AGRO 1661W",
     "prereq": {
-      "and": [
-        {
-          "code": "AGRO 1101",
-          "subject": "AGRO",
-          "id": "1101"
-        },
-        {
-          "code": "CHEM 1015",
-          "subject": "CHEM",
-          "id": "1015"
-        },
-        {
-          "code": "SOIL 1125",
-          "subject": "SOIL",
-          "id": "1125"
-        }
-      ]
+      "code": "AGRO 1661W",
+      "subject": "AGRO",
+      "id": "1661W"
     }
   },
   {
@@ -399,34 +414,34 @@
     "subject": "AGRO",
     "id": "4888",
     "title": "Issues in Sustainable Ag",
-    "info": "Agroecology, sustainable practices, production economics, environmental quality, holistic resource management, healthy food/water, rural communities. Meet sustainable-agriculture advocates, including farmers, faculty, and representatives of non-profit sustainable-agriculture organizations.\n\nprereq: 1103, Soil 1125 or 2125 or equiv",
-    "prereq": {
-      "and": [
-        {
-          "code": "AGRO 1103",
-          "subject": "AGRO",
-          "id": "1103"
-        },
-        {
-          "code": "SOIL 1125",
-          "subject": "SOIL",
-          "id": "1125"
-        },
-        {
-          "code": "AGRO 2125",
-          "subject": "AGRO",
-          "id": "2125"
-        }
-      ]
-    }
+    "info": "Agroecology, sustainable practices, production economics, environmental quality, holistic resource management, healthy food/water, rural communities. Meet sustainable-agriculture advocates, including farmers, faculty, and representatives of non-profit sustainable-agriculture organizations.",
+    "prereq": []
   },
   {
     "code": "AGRO 5021",
     "subject": "AGRO",
     "id": "5021",
     "title": "Plant Breeding Principles",
-    "info": "This course is intended for advanced undergraduate students and graduate students that are either: 1) not plant breeding majors who will benefit from a basic understanding of how genetics is applied to plant improvement; or 2) plant breeding majors lacking prior coursework in plant breeding. The objective of this course is to develop an understanding of the underlying principles, ideas, and concepts important to applying genetic principles to plant breeding, evaluating breeding methods, and enhancing genetic progress and efficiency.",
-    "prereq": []
+    "info": "This course is intended for advanced undergraduate students and graduate students that are either: 1) not plant breeding majors who will benefit from a basic understanding of how genetics is applied to plant improvement; or 2) plant breeding majors lacking prior coursework in plant breeding. The objective of this course is to develop an understanding of the underlying principles, ideas, and concepts important to applying genetic principles to plant breeding, evaluating breeding methods, and enhancing genetic progress and efficiency.\n\nprereq: PLSC 3401 and an introductory statistics course that includes analysis of variance, such as BIOL 3272 or STAT 3011",
+    "prereq": {
+      "and": [
+        {
+          "code": "PLSC 3401",
+          "subject": "PLSC",
+          "id": "3401"
+        },
+        {
+          "code": "BIOL 3272",
+          "subject": "BIOL",
+          "id": "3272"
+        },
+        {
+          "code": "STAT 3011",
+          "subject": "STAT",
+          "id": "3011"
+        }
+      ]
+    }
   },
   {
     "code": "AGRO 5121",
@@ -482,6 +497,14 @@
     "prereq": []
   },
   {
+    "code": "AGRO 5605",
+    "subject": "AGRO",
+    "id": "5605",
+    "title": "Data-Driven Agronomy",
+    "info": "Some of humanity's greatest challenges are related to agriculture. The human population continues to grow, and food, fuel, and fiber production are critical to improving human lives around the world. In this course, students will learn the principles of crop production and apply those principles to address real-world agricultural challenges using quantitative tools and skills. Students will learn how to find, access, and use publicly available data to better make decisions in agriculture. Group activities will require students to synthesize information from peer-reviewed research and apply that information to practical problems. This class includes trips to field research plots to collect data, organize it, and analyze it to test hypotheses and solve problems. Discussions and labs will be interactive and will require individual and group-level critical thinking. ",
+    "prereq": []
+  },
+  {
     "code": "AGRO 5980",
     "subject": "AGRO",
     "id": "5980",
@@ -503,6 +526,14 @@
     "id": "8005",
     "title": "Supervised Teaching",
     "info": "Classroom or extension teaching experience in one of the following departments: Agronomy and Plant Genetics; Biosystems and Agricultural Engineering; Horticultural Science; Plant Pathology; or Soil, Water, and Climate. Participation in discussions about effective teaching to strengthen skills and develop personal teaching philosophy.prereq: Grad SENG major, instr consent",
+    "prereq": []
+  },
+  {
+    "code": "AGRO 8010",
+    "subject": "AGRO",
+    "id": "8010",
+    "title": "Sustainable Ag Colloquium",
+    "info": "Forum for University faculty and students, and representatives of the farming community, including farmers, grassroots organizations, agricultural businesses, and representatives of state agencies, to engage in discussions on topics related to sustainability of food production.",
     "prereq": []
   },
   {
@@ -568,8 +599,21 @@
     "subject": "AGRO",
     "id": "8241",
     "title": "Chromosomal & Molec Genetics",
-    "info": "Mixture of classic/current info in molecular plant genetics, biotech, and genomics. Students devise experiments in breeding, genetics, genomics, physiology, cellular/molecular biology, and other areas.\n\nprereq: Introductory Genetics course",
-    "prereq": []
+    "info": "Mixture of classic/current info in molecular plant genetics, biotech, and genomics. Students devise experiments in breeding, genetics, genomics, physiology, cellular/molecular biology, and other areas.\n\nprereq: BIOL 4003 or GCD 3022 or an equivalent introductory genetics course",
+    "prereq": {
+      "or": [
+        {
+          "code": "BIOL 4003",
+          "subject": "BIOL",
+          "id": "4003"
+        },
+        {
+          "code": "GCD 3022",
+          "subject": "GCD",
+          "id": "3022"
+        }
+      ]
+    }
   },
   {
     "code": "AGRO 8270",

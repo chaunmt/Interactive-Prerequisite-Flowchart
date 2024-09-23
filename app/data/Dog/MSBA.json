@@ -4,7 +4,7 @@
     "subject": "MSBA",
     "id": "6111",
     "title": "Business Essentials",
-    "info": "Introduction to fundamental concepts and applications in core business disciplines such as financial accounting, marketing, operations, and strategy, with an emphasis on their connection to business analytics. The course aims to increase students’ business acumen and allows them to effectively partner with key functional areas of an organization. ",
+    "info": "This course aims to increase the business acumen of students by exploring fundamental concepts in core business disciplines such as strategy, financial accounting, marketing, and operations through the lens of data analytics. The course showcases how the strategic use of data and analytics drives innovation and value across these key business areas. Through the use of business cases and real-world applications, students will gain insight into effectively using data analytics to collaborate with key functional areas of an organization in order to make informed business decisions.",
     "prereq": []
   },
   {
@@ -30,6 +30,27 @@
     "title": "Ethics and Data Privacy",
     "info": "Explore the moral, social, ethical, and legal ramifications of the choices made at the different stages of the data analysis pipeline, from data collection and storage to analysis and use. Students will learn the basics of ethical thinking in data science, understand the history of ethical dilemmas in scientific work, study issues of fairness, transparency, and algorithmic bias associated with machine learning, and explore the distinct challenges associated with ethics and privacy in modern data science. \n",
     "prereq": []
+  },
+  {
+    "code": "MSBA 6155",
+    "subject": "MSBA",
+    "id": "6155",
+    "title": "Generative AI for Business",
+    "info": "Generative AI will give students an understanding of the transformative paradigm of Generative AI—its applications, limitations, ethical and social implications, and how it can unlock previously inaccessible value. This course is designed to prepare students for the generative AI related choices they will face as leaders and managers. Through this course, students will develop a robust understanding of the technology and an experience in working with popular generative AI tools such as ChatGPT and Midjourney. We will examine the six new superpowers of Gen AI and see how they can create business value through use cases.\n\nprereq: MSBA 6311, MSBA 6421, or instructor consent\n",
+    "prereq": {
+      "and": [
+        {
+          "code": "MSBA 6311",
+          "subject": "MSBA",
+          "id": "6311"
+        },
+        {
+          "code": "MSBA 6421",
+          "subject": "MSBA",
+          "id": "6421"
+        }
+      ]
+    }
   },
   {
     "code": "MSBA 6250",
@@ -68,16 +89,70 @@
     "subject": "MSBA",
     "id": "6331",
     "title": "Big Data Analytics",
-    "info": "Exploring big data infrastructure and ecosystem, ingesting and managing big data, analytics with big data; Hadoop, MapReduce, Hive, Spark, scalable machine Learning, scalable real-time streaming analytics, NoSQL, cloud computing, and other recent developments in big data.",
+    "info": "The course covers the utilization of big data tools, cloud computing platforms, and MLOps practices to efficiently process, manage, and analyze massive datasets, emphasizing the development of robust data pipelines and the deployment of machine learning operations for real-world applications. Students gain practical experience in harnessing the power of distributed computing frameworks, scalable data storage and processing tools, and cloud services to address the challenges posed by the growing volume and complexity of contemporary data science. Topics include: Hadoop MapReduce, Hive, Spark, Streaming Analytics, Cloud Computing, NoSQL, and MLOps.\n \nprereq: MSBA 6311, MSBA 6321, or instructor consent",
+    "prereq": {
+      "and": [
+        {
+          "code": "MSBA 6311",
+          "subject": "MSBA",
+          "id": "6311"
+        },
+        {
+          "code": "MSBA 6321",
+          "subject": "MSBA",
+          "id": "6321"
+        }
+      ]
+    }
+  },
+  {
+    "code": "MSBA 6335",
+    "subject": "MSBA",
+    "id": "6335",
+    "title": "Comm for Analytics Profession",
+    "info": "In today's data-driven business landscape, the ability to communicate complex analytical insights effectively is paramount. This specialized course is tailored for Master of Science in Business Analytics students, equipping them with the essential skills to convey data-driven findings with clarity, impact, and persuasion. It covers topics including data storytelling, visual communication, presentation techniques, and stakeholder engagement strategies.",
     "prereq": []
+  },
+  {
+    "code": "MSBA 6341",
+    "subject": "MSBA",
+    "id": "6341",
+    "title": "Responsible AI",
+    "info": "In an era where artificial intelligence plays an increasingly pivotal role in  business analytics, responsible AI practices are imperative. This advanced course will equip students with the knowledge, skills, and ethical mindset needed to develop AI solutions that are not only technologically proficient but also responsible, fair, and transparent. It covers topics such as ethical AI, algorithm fairness and bias mitigation, and explainable AI.\n\nprereq: MSBA 6421 or instructor consent",
+    "prereq": {
+      "code": "MSBA 6421",
+      "subject": "MSBA",
+      "id": "6421"
+    }
   },
   {
     "code": "MSBA 6345",
     "subject": "MSBA",
     "id": "6345",
     "title": "Consult Prob-Solv & Agile Mgmt",
-    "info": "Consultative problem-solving techniques, including using collaborative frameworks to bring strategic thinking skills to analytics projects. Project management skills with a focus on the Agile mindset and the implementation of Scrum practices using tools such as Jira and Confluence. Teams will apply these skills in real-time through the Business Analytics Experiential Learning Project which will be run in conjunction with this course.\n\nprereq: MSBA student",
+    "info": "Consultative problem-solving techniques, including using collaborative frameworks to bring strategic thinking skills to analytics projects. Project management skills with a focus on the Agile mindset and the implementation of Scrum practices using tools such as Jira and Confluence. Teams will apply these skills in real-time through the Business Analytics Experiential Learning Project which will be run in conjunction with this course.",
     "prereq": []
+  },
+  {
+    "code": "MSBA 6351",
+    "subject": "MSBA",
+    "id": "6351",
+    "title": "RecSys and Applications",
+    "info": "With the fast evolution of machine learning and the advent of generative AI, the development of recommender systems is greatly enhanced and their applications in online platforms are becoming imperative. This course introduces techniques for recommender systems and its application in a wide range of business settings such as movie recommendation, click-through-rate prediction, online dating, buyer-seller and producer-distributor matching, fashion outfit composition, and product sales forecasting. We first introduce the notion of personalization and latent representation. Then we discuss canonical recommender systems, context-aware recommender systems, deep-learning-empowered recommender systems, and recommendations with auxiliary information. Finally, we demonstrate the applications of recommender systems in several business settings, where business analysts will be equipped with recognize and disentangle complex online platform matching problems with the techniques of recommender systems.\n\nprereq: MSBA 6131, MSBA 6421, or instructor consent",
+    "prereq": {
+      "and": [
+        {
+          "code": "MSBA 6131",
+          "subject": "MSBA",
+          "id": "6131"
+        },
+        {
+          "code": "MSBA 6421",
+          "subject": "MSBA",
+          "id": "6421"
+        }
+      ]
+    }
   },
   {
     "code": "MSBA 6355",
@@ -92,8 +167,21 @@
     "subject": "MSBA",
     "id": "6411",
     "title": "Exploratory Data Analytics",
-    "info": "Fundamentals of exploratory business analytics. Solving real-world business problems using appropriate data analysis techniques and effective technical/managerial communication. Foundational methods allow for the detection of relationships and patterns in structured and unstructured data through clustering, dimensionality reduction,  probabilistic graphical models, anomaly detection, and deep neural networks.",
-    "prereq": []
+    "info": "This course introduces the fundamentals of exploratory business analytics. Students will learn to detect relationships and patterns in both structured and unstructured data via a variety of exploratory techniques such as data visualization, clustering, dimensionality reduction, topic modeling, anomaly detection, deep neural networks, and generative AI. The course integrates theoretical discussion and hands-on practice using Python, with an emphasis on real-world problem solving and effective technical/managerial communication.\n\nprereq: MSBA 6121, MSBA 6311, or instructor consent",
+    "prereq": {
+      "and": [
+        {
+          "code": "MSBA 6121",
+          "subject": "MSBA",
+          "id": "6121"
+        },
+        {
+          "code": "MSBA 6311",
+          "subject": "MSBA",
+          "id": "6311"
+        }
+      ]
+    }
   },
   {
     "code": "MSBA 6421",
@@ -107,41 +195,93 @@
     "code": "MSBA 6431",
     "subject": "MSBA",
     "id": "6431",
-    "title": "Adv Issues in Bus Analytics",
-    "info": "Analysis of time series data, interpretation and forecasting; fundamentals of network analysis, mining digital media and social networks, community detection and friend recommendation; personalization technologies, and recommender systems.",
-    "prereq": []
+    "title": "Times Series Forecasting",
+    "info": "A wide variety of data science tasks, ranging from financial stock market trading to inventory management to sales planning, requires understanding time trends and issuing time forecasts. These types of tasks leverage repeatedly measured data records across a span of time, called time series. In this course, we will introduce techniques for time series analysis and forecasting and their applications in business settings, including thorough discussion of canonical ARIMA models and brief introduction to deep-learning-based models such as recurrent neural networks and transformers.\n\nprereq: MSBA 6121, MSBA 6131, or instructor consent",
+    "prereq": {
+      "and": [
+        {
+          "code": "MSBA 6121",
+          "subject": "MSBA",
+          "id": "6121"
+        },
+        {
+          "code": "MSBA 6131",
+          "subject": "MSBA",
+          "id": "6131"
+        }
+      ]
+    }
   },
   {
     "code": "MSBA 6441",
     "subject": "MSBA",
     "id": "6441",
     "title": "Inference via Ecnmtrcs Exprmnt",
-    "info": "Controlled experiments in business settings, experiment design, A/B testing. Specialized statistical methodologies. Fundamentals of econometrics, instrument variable regression, propensity score matching.",
-    "prereq": []
+    "info": "Controlled experiments in business settings, experiment design, A/B testing. Specialized statistical methodologies. Fundamentals of econometrics, instrument variable regression, propensity score matching.\n\nprereq: MSBA 6121, MSBA 6311, or instructor consent",
+    "prereq": {
+      "and": [
+        {
+          "code": "MSBA 6121",
+          "subject": "MSBA",
+          "id": "6121"
+        },
+        {
+          "code": "MSBA 6311",
+          "subject": "MSBA",
+          "id": "6311"
+        }
+      ]
+    }
   },
   {
     "code": "MSBA 6451",
     "subject": "MSBA",
     "id": "6451",
-    "title": "Optmzng/Simulation Decsn Mkng",
-    "info": "Fundamentals of decision analysis, linear optimization, mixed integer linear programming, Bayesian inference, Monte Carlo simulation, and decision technologies.",
-    "prereq": []
+    "title": "Prescriptive Analytics",
+    "info": "This course explores optimization techniques in business analytics, providing students with the skills to formulate, solve, and interpret prescriptive models for optimal decision-making, resource allocation, and process improvement in complex organizational settings.\n\nprereq: MSBA 6131 or instructor consent",
+    "prereq": {
+      "code": "MSBA 6131",
+      "subject": "MSBA",
+      "id": "6131"
+    }
   },
   {
     "code": "MSBA 6461",
     "subject": "MSBA",
     "id": "6461",
-    "title": "Advanced AI for Bus Apps",
-    "info": "This course covers some advanced topics in machine learning and artificial intelligence for solving analytics problems and building business applications. Topics include but are not limited to: reinforcement learning and recent advances on natural language processing. Students are introduced to the basic concepts of reinforcement learning such as Markov decision process, bandits, and regret minimization, and are trained to build simple and practical reinforcement learning systems. The course also discusses some recent progress in natural language processing / understanding, such as representation learning, sequential models, and transformer models, as well as their business applications.\n",
-    "prereq": []
+    "title": "Advanced AI for NLP",
+    "info": "This course covers several topics in natural language understanding using machine learning and artificial intelligence. Students are introduced to foundational natural language processing techniques (e.g., text pre-processing and bag of words representation) and more advanced topics in natural language understanding, such as representation learning, sequential models, transformer models, and large language models (e.g., ChatGPT), along with their business applications. The course combines theoretical discussions of concepts and techniques and hands-on practices in Python, leveraging popular packages such as Tensorflow or Pytorch. The overall objective is to develop a foundation for understanding and leveraging modern AI tools and techniques for language-understanding.\n\nprereq: MSBA 6131 or instructor consent",
+    "prereq": {
+      "code": "MSBA 6131",
+      "subject": "MSBA",
+      "id": "6131"
+    }
   },
   {
     "code": "MSBA 6511",
     "subject": "MSBA",
     "id": "6511",
     "title": "BA Experiential Learning",
-    "info": "This course involves hands-on application of the analytics methodologies, techniques, and tools learned throughout the program to a real-world problem (such as consulting for a real-world business client in the area of marketing, strategy, operation/supply chain, information technology, finance, accounting, or human resources) as well as the development and presentation of results, interpretations, insights, and recommendations.",
-    "prereq": []
+    "info": "This course involves hands-on application of the analytics methodologies, techniques, and tools learned throughout the program to a real-world problem (such as consulting for a real-world business client in the area of marketing, strategy, operation/supply chain, information technology, finance, accounting, or human resources) as well as the development and presentation of results, interpretations, insights, and recommendations.\n\nprereq: MSBA 6321, MSBA 6411, MSBA 6421, or instructor consent",
+    "prereq": {
+      "and": [
+        {
+          "code": "MSBA 6321",
+          "subject": "MSBA",
+          "id": "6321"
+        },
+        {
+          "code": "MSBA 6411",
+          "subject": "MSBA",
+          "id": "6411"
+        },
+        {
+          "code": "MSBA 6421",
+          "subject": "MSBA",
+          "id": "6421"
+        }
+      ]
+    }
   },
   {
     "code": "MSBA 6515",

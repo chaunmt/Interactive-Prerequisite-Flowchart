@@ -4,7 +4,7 @@
     "subject": "EEB",
     "id": "3001",
     "title": "Ecology and Society",
-    "info": "Basic concepts in ecology. Organization, development, function of ecosystem. Population growth/regulation. Human effect on ecosystems.\n\nprereq: [Jr or sr] recommended; biological sciences students may not apply cr toward major",
+    "info": "Basic concepts in ecology. Organization, development, function of ecosystem. Population growth/regulation. Human effect on ecosystems.prereq: [Jr or sr] recommended; biological sciences students may not apply cr toward major",
     "prereq": []
   },
   {
@@ -28,7 +28,7 @@
     "subject": "EEB",
     "id": "3407",
     "title": "Ecology",
-    "info": "Principles of ecology from populations to ecosystems. Applications to human populations, disease, exotic organisms, habitat fragmentation, biodiversity and global dynamics of the earth.",
+    "info": "Principles of ecology from populations to ecosystems. Applications to human populations, disease, exotic organisms, habitat fragmentation, biodiversity, and global dynamics of the earth.",
     "prereq": []
   },
   {
@@ -36,7 +36,7 @@
     "subject": "EEB",
     "id": "3408W",
     "title": "Ecology",
-    "info": "Principles of population growth/interactions, communities and ecosystem function applied to ecological issues. Regulation of populations, dynamics/impacts of disease, invasions by exotic organisms, biodiversity, global change. Lab. Scientific writing. Quantitative skill development (mathematical models, data analysis, statistics and some coding in R).\n\nprereq: [One semester college biology or instr consent], [MATH 1142 or MATH 1271 or Math 1272 or Math 1241 or Math 1242 or MATH 1281 or Math 1282 or equiv]",
+    "info": "Principles of population growth/interactions, communities and ecosystem function applied to ecological issues. Regulation of populations, dynamics/impacts of disease, invasions by exotic organisms, biodiversity, global change. Lab. Scientific writing. Quantitative skill development (mathematical models, data analysis, statistics and some coding in R). prereq: [One semester college biology or instr consent], [MATH 1142 or MATH 1271 or Math 1272 or Math 1241 or Math 1242 or MATH 1281 or Math 1282 or equiv]",
     "prereq": {
       "and": [
         {
@@ -77,7 +77,7 @@
     "subject": "EEB",
     "id": "3409",
     "title": "Evolution",
-    "info": "Diversity of forms in fossil record and in presently existing biology. Genetic mechanisms of evolution, including natural selection, sexual selection, genetic drift. Examples of ongoing evolution in wild/domesticated populations and in disease-causing organisms. Lab.\n\nprereq: One semester college biology",
+    "info": "Evolution has shaped all of life and continues to. This course explores processes that cause the genetic change of populations over generations and the outcomes of these processes.  Evolution is crucial for understanding of current societal issues including biodiversity conservation, genetic engineering, food security, and public health. Lab. \n\nprereq: one semester of college biology. ",
     "prereq": []
   },
   {
@@ -85,7 +85,7 @@
     "subject": "EEB",
     "id": "3411",
     "title": "Intro Animal Behavior",
-    "info": "This course provides a broad introduction to animal behavior. As one of the most interdisciplinary fields in all of biology, understanding animal behavior requires an understanding of cell biology, physiology, genetics, development, ecology, endocrinology, evolution, learning theory, and even physics and economics! This course will draw on questions and methods from each of these disciplines to answer what on the surface appears to be a very simple question: “Why is that animal doing that?” The course will review such key topics as feeding behavior, reproductive behavior, perception, learning, animal conflict, social behavior, parental care, and communication. The lecture parallels a required laboratory. \n\nprereq: Undergrad biology course \nCredit granted for only one of the following: EEB 3411, EEB 3412W, EEB 3811W, EEB 5412",
+    "info": "This course provides a broad introduction to animal behavior. As one of the most interdisciplinary fields in all of biology, understanding animal behavior requires an understanding of cell biology, physiology, genetics, development, ecology, endocrinology, evolution, learning theory, and even physics and economics! This course will draw on questions and methods from each of these disciplines to answer what on the surface appears to be a very simple question: “Why is that animal doing that?” The course will review such key topics as feeding behavior, reproductive behavior, perception, learning, animal conflict, social behavior, parental care, and communication. The lecture parallels a required laboratory. prereq: Undergrad biology course Credit granted for only one of the following: EEB 3411, EEB 3412W, EEB 3811W, EEB 5412",
     "prereq": {
       "and": [
         {
@@ -110,19 +110,79 @@
     "code": "EEB 3412W",
     "subject": "EEB",
     "id": "3412W",
-    "title": "Intro Animal Behavior (WI)",
-    "info": "EEB 3412W is a lecture/lab writing-intensive course. Why do animals behave the way they do? This question is relevant to conservation, agriculture, human health, veterinary medicine, developing artificial intelligence, and understanding the origins of human behavior. This writing intensive course provides a broad introduction to animal behavior. As one of the most interdisciplinary fields in all of biology, understanding animal behavior requires an understanding of cell biology, physiology, genetics, development, ecology, endocrinology, evolution, learning theory, and even physics and economics! \n\nThis course will draw on questions and methods from each of these disciplines to answer what on the surface appears to be a very simple question: Why is that animal doing that? The course will review such key topics as feeding behavior, reproductive behavior, perception, learning, animal conflict, social behavior, parental care, and communication. Throughout the course, students will be immersed in the scientific process, reading scientific literature, thinking critically, formulating their own research questions and answering them in an independent project. \n\nThis is a writing intensive course that covers scientific process and how to formulate research questions. \n\nprereq: Undergrad biology course Credit granted for only one of the following: EEB 3411, EEB 3412W, EEB 3811W, EEB 5412",
+    "title": "Intro to Animal Behavior (WI)",
+    "info": "EEB 3412W is a lecture/lab writing-intensive course. Why do animals behave the way they do? This question is relevant to conservation, agriculture, human health, veterinary medicine, developing artificial intelligence, and understanding the origins of human behavior. This writing intensive course provides a broad introduction to animal behavior. As one of the most interdisciplinary fields in all of biology, understanding animal behavior requires an understanding of cell biology, physiology, genetics, development, ecology, endocrinology, evolution, learning theory, and even physics and economics! This course will draw on questions and methods from each of these disciplines to answer what on the surface appears to be a very simple question: Why is that animal doing that? The course will review such key topics as feeding behavior, reproductive behavior, perception, learning, animal conflict, social behavior, parental care, and communication. Throughout the course, students will be immersed in the scientific process, reading scientific literature, thinking critically, formulating their own research questions, and answering them in an independent project. This is a writing intensive course that covers scientific process and how to formulate research questions. \n\nprereq: BIOL1951 or one of the following: BIOL1001, BIOL1003, BIOL1009, BIOL1012, BIOL1015, BIOL1052, BIOL1055, MATH1241, CHEM1081, CHEM1061, CHEM1071H, PHYS1221, PHYS1301W, PHYS1401V or instructor consent. Credit granted for only one of the following: EEB 3411, EEB 3412W or EEB 5412.",
     "prereq": {
       "and": [
+        {
+          "code": "BIOL 1951",
+          "subject": "BIOL",
+          "id": "1951"
+        },
+        {
+          "code": "BIOL 1001",
+          "subject": "BIOL",
+          "id": "1001"
+        },
+        {
+          "code": "BIOL 1003",
+          "subject": "BIOL",
+          "id": "1003"
+        },
+        {
+          "code": "BIOL 1009",
+          "subject": "BIOL",
+          "id": "1009"
+        },
+        {
+          "code": "BIOL 1012",
+          "subject": "BIOL",
+          "id": "1012"
+        },
+        {
+          "code": "BIOL 1015",
+          "subject": "BIOL",
+          "id": "1015"
+        },
+        {
+          "code": "BIOL 1052",
+          "subject": "BIOL",
+          "id": "1052"
+        },
+        {
+          "code": "BIOL 1055",
+          "subject": "BIOL",
+          "id": "1055"
+        },
+        {
+          "code": "MATH 1241",
+          "subject": "MATH",
+          "id": "1241"
+        },
+        {
+          "code": "CHEM 1081",
+          "subject": "CHEM",
+          "id": "1081"
+        },
+        {
+          "code": "CHEM 1061",
+          "subject": "CHEM",
+          "id": "1061"
+        },
+        {
+          "code": "PHYS 1221",
+          "subject": "PHYS",
+          "id": "1221"
+        },
+        {
+          "code": "PHYS 1301W",
+          "subject": "PHYS",
+          "id": "1301W"
+        },
         {
           "code": "EEB 3411",
           "subject": "EEB",
           "id": "3411"
-        },
-        {
-          "code": "EEB 3811W",
-          "subject": "EEB",
-          "id": "3811W"
         },
         {
           "code": "EEB 5412",
@@ -153,7 +213,7 @@
     "subject": "EEB",
     "id": "3534",
     "title": "Biodiversity Science",
-    "info": "Biodiversity science is a rapidly expanding field of enquiry with increasing digital resources and global monitoring capabilities precisely at the moment in history that scientists recognize as the Sixth Extinction. In other words, we are currently facing a biodiversity crisis with threats to the Earth's biota not seen since the dinosaurs perished 65 million years ago. \\\"Biodiversity\\\" was coined by W.G. Rosen and E.O Wilson in the 1980s to describe the variation in all of life on Earth. The term is now widely used in both the scientific and popular literature and is at the center of scientific enquiry, conservation efforts, large-scale collaborative pursuits of technological advances to allow monitoring from space, and global assessments that interface with international policy. Biodiversity requires integration across multiple disciplines from evolution, to ecology, remote sensing, conservation biology, economics and the social sciences, including the environmental policy. Biodiversity science is thus inherently interdisciplinary. As a consequence, rarely does a single course provide students the opportunity to focus on this critical topic from multiple perspectives and dimensions. \n\nThis new course seeks to provide students intensive study of biodiversity from six perspectives: 1) the origins of biodiversity, including the processes of speciation and extinction over macroevolutionary timescales and those involved in generating biological variation at microevolutionary scales; 2) the ecological problem of species coexistence, given the nature of competitive interactions and biological filters with a focus on the interactions of individual species and major threats to biodiversity; 3) the consequences of biodiversity and biodiversity loss for ecosystem functions, focusing on ecosystem scale processes; 4) the services or benefits to humans attributed to biodiversity, including cultural benefits of biodiversity; here we discuss both practical and ethical arguments for sustaining biodiversity; 5) methods of detecting biodiversity including classic field biodiversity observations and taxonomic collections and emerging remote sensing methods that harness hyperspectral data and satellite imagery; and 6) scientific assessments of biodiversity that communicate the science of biodiversity to policymakers, particularly the Intergovernmental Platform on Biodiversity and Ecosystem Services (IPBES). The IPBES involves scientists from around the world and integrates indigenous and local knowledge (ILK). The United Nations and governments around the globe are sponsoring the IPBES, building on earlier assessments such as a prominent one in the UK. \n\nSeveral guest lecturers from across the University will participate in discussions and aid in development of computer labs (including Sharon Jansa (CBS), Keith Barker (CBS), Joe Knight (CFANS), and others).\n\nprereq: One semester college biology or instr consent, MATH 1142 or MATH 1271 or Math 1272 or Math 1241 or Math 1242 or MATH 1281 or Math 1282 or equiv",
+    "info": "Biodiversity science is a rapidly expanding field of enquiry with increasing digital resources and global monitoring capabilities precisely at the moment in history that scientists recognize as the Sixth Extinction. In other words, we are currently facing a biodiversity crisis with threats to the Earth's biota not seen since the dinosaurs perished 65 million years ago. \"Biodiversity\" was coined by W.G. Rosen and E.O Wilson in the 1980s to describe the variation in all of life on Earth. The term is now widely used in both the scientific and popular literature and is at the center of scientific enquiry, conservation efforts, large-scale collaborative pursuits of technological advances to allow monitoring from space, and global assessments that interface with international policy. Biodiversity requires integration across multiple disciplines from evolution, to ecology, remote sensing, conservation biology, economics and the social sciences, including the environmental policy. Biodiversity science is thus inherently interdisciplinary. As a consequence, rarely does a single course provide students the opportunity to focus on this critical topic from multiple perspectives and dimensions. \n\nThis new course seeks to provide students intensive study of biodiversity from six perspectives: 1) the origins of biodiversity, including the processes of speciation and extinction over macroevolutionary timescales and those involved in generating biological variation at microevolutionary scales; 2) the ecological problem of species coexistence, given the nature of competitive interactions and biological filters with a focus on the interactions of individual species and major threats to biodiversity; 3) the consequences of biodiversity and biodiversity loss for ecosystem functions, focusing on ecosystem scale processes; 4) the services or benefits to humans attributed to biodiversity, including cultural benefits of biodiversity; here we discuss both practical and ethical arguments for sustaining biodiversity; 5) methods of detecting biodiversity including classic field biodiversity observations and taxonomic collections and emerging remote sensing methods that harness hyperspectral data and satellite imagery; and 6) scientific assessments of biodiversity that communicate the science of biodiversity to policymakers, particularly the Intergovernmental Platform on Biodiversity and Ecosystem Services (IPBES). The IPBES involves scientists from around the world and integrates indigenous and local knowledge (ILK). The United Nations and governments around the globe are sponsoring the IPBES, building on earlier assessments such as a prominent one in the UK. \n\nSeveral guest lecturers from across the University will participate in discussions and aid in development of computer labs (including Sharon Jansa (CBS), Keith Barker (CBS), Joe Knight (CFANS), and others).\n\nprereq: One semester college biology or instr consent, MATH 1142 or MATH 1271 or Math 1272 or Math 1241 or Math 1242 or MATH 1281 or Math 1282 or equiv",
     "prereq": {
       "and": [
         {
@@ -194,8 +254,26 @@
     "subject": "EEB",
     "id": "3603",
     "title": "Aquatic Environment",
-    "info": "Fundamentals of aquatic ecology. Case study approach to water problems faced by society (e.g., eutrophication, climate change, invasive species, acid rain, wetland protection, biodiversity preservation). Science used to diagnose/remediate or remove problems.\n\nprereq: One semester college biology",
-    "prereq": []
+    "info": "Fundamentals of aquatic ecology. Case study approach to water problems faced by society (e.g., eutrophication, climate change, invasive species, acid rain, wetland protection, biodiversity preservation). Science used to diagnose/remediate or remove problems. \nprereq: BIOL 1001 or 1009 or 1951 or equiv",
+    "prereq": {
+      "or": [
+        {
+          "code": "BIOL 1001",
+          "subject": "BIOL",
+          "id": "1001"
+        },
+        {
+          "code": "EEB 1009",
+          "subject": "EEB",
+          "id": "1009"
+        },
+        {
+          "code": "EEB 1951",
+          "subject": "EEB",
+          "id": "1951"
+        }
+      ]
+    }
   },
   {
     "code": "EEB 3701",
@@ -210,7 +288,7 @@
     "subject": "EEB",
     "id": "3807",
     "title": "Ecology",
-    "info": "Population growth/interactions. Ecosystem function applied to ecological issues. Regulation of human populations, dynamics/impacts of disease, invasions by exotic organisms, habitat fragmentation, biodiversity. Lab, field work.\n\nprereq: [One semester college biology], [MATH 1142 or MATH 1271 or MATH 1281 or equiv]",
+    "info": "Population growth/interactions. Ecosystem function applied to ecological issues. Regulation of human populations, dynamics/impacts of disease, invasions by exotic organisms, habitat fragmentation, biodiversity. Lab, field work.prereq: [One semester college biology], [MATH 1142 or MATH 1271 or MATH 1281 or equiv]",
     "prereq": {
       "and": [
         {
@@ -236,26 +314,8 @@
     "subject": "EEB",
     "id": "3811W",
     "title": "Animal Behavior in the Field",
-    "info": "In this course we will learn general principles governing the evolution of animal behavior. Being conducted at a field station, the approach is hands-on experiential learning through the application of the scientific method to the study of animal behavior. Thus, we will learn animal behavior by becoming animal behaviorists. Animal behaviorists communicate to one another through written reports in peer-reviewed literature and through oral talks at meetings. We will do both of these. All of these experiences culminate in the design, execution and presentation (written and oral) of an independent research project. Therefore, it is appropriate that this course is designated as writing-intensive. Writing comprises 90 points out of the course total of 140 points, representing 64% of the course grade. This is course meets two days per week from 8AM to 12N and from 1PM to 5PM over a 5-week period in May/June at the Itasca Biological Station and Labs. \n\nprereq: Undergrad biology course Credit granted for only one of the following: EEB 3411, EEB 3412W, EEB 3811W, EEB 5412",
-    "prereq": {
-      "and": [
-        {
-          "code": "EEB 3411",
-          "subject": "EEB",
-          "id": "3411"
-        },
-        {
-          "code": "EEB 3412W",
-          "subject": "EEB",
-          "id": "3412W"
-        },
-        {
-          "code": "EEB 5412",
-          "subject": "EEB",
-          "id": "5412"
-        }
-      ]
-    }
+    "info": "In this course we will learn general principles governing the evolution of animal behavior. Being conducted at a field station, the approach is hands-on experiential learning through the application of the scientific method to the study of animal behavior. Thus, we will learn animal behavior by becoming animal behaviorists. Animal behaviorists communicate to one another through written reports in peer-reviewed literature and through oral talks at meetings. We will do both of these. All of these experiences culminate in the design, execution, and presentation (written and oral) of an independent research project. Therefore, it is appropriate that this course is designated as writing-intensive. Writing comprises 90 points out of the course total of 140 points, representing 64% of the course grade. This is course meets two days per week from 8AM to 12N and from 1PM to 5PM over a 5-week period in May/June at the Itasca Biological Station and Labs. \n\nprereq: Undergrad biology course ",
+    "prereq": []
   },
   {
     "code": "EEB 3851W",
@@ -310,21 +370,28 @@
     "subject": "EEB",
     "id": "4129",
     "title": "Mammalogy",
-    "info": "Evolutionary and biogeographic history of mammalia. Recognize, identify, and study natural history of mammals at the ordinal level, North American mammals at familial level, and mammals north of Mexico at generic level. Minnesota mammals at specific level. Includes lab.\n\nprereq: Biol 1001 or Biol 2012",
-    "prereq": {
-      "or": [
-        {
-          "code": "BIOL 1001",
-          "subject": "BIOL",
-          "id": "1001"
-        },
-        {
-          "code": "BIOL 2012",
-          "subject": "BIOL",
-          "id": "2012"
-        }
-      ]
-    }
+    "info": "An overview of the biology of mammals of the world. The lecture covers a wide rang of topics including the evolution, biogeography, physiology, ecology, and behavior of mammals. The lab takes phylogenetic perspective and introduces the diversity of mammals, with a focus on evolutionary and functional significance of mammalian traits. \n\nprereq: One semester of college-level biology (BIOL 1951 or 1009). A course in Animal Diversity (e.g. BIOL 3012) is recommended but not required.",
+    "prereq": [
+      {
+        "or": [
+          {
+            "code": "BIOL 1951",
+            "subject": "BIOL",
+            "id": "1951"
+          },
+          {
+            "code": "EEB 1009",
+            "subject": "EEB",
+            "id": "1009"
+          }
+        ]
+      },
+      {
+        "code": "BIOL 3012",
+        "subject": "BIOL",
+        "id": "3012"
+      }
+    ]
   },
   {
     "code": "EEB 4134",
@@ -853,7 +920,7 @@
     "subject": "EEB",
     "id": "5322",
     "title": "Evolution and Animal Cognition",
-    "info": "Animal cognitive abilities. Learning, perception, memory, navigation, and communication from evolutionary/comparative perspective. Cognitive abilities as adaptations that solve specific environmental problems. Empirical methods for assessing cognitive abilities. Emphasizes parsimonious interpretations of data. Controversial topics such as animal intelligence, animal language and whether non-human animals have a \\\"theory of mind.\\\"\n\nprereq: Biol 3411 or Psy 3061 or instr consent",
+    "info": "Animal cognitive abilities. Learning, perception, memory, navigation, and communication from evolutionary/comparative perspective. Cognitive abilities as adaptations that solve specific environmental problems. Empirical methods for assessing cognitive abilities. Emphasizes parsimonious interpretations of data. Controversial topics such as animal intelligence, animal language and whether non-human animals have a \"theory of mind.\"\n\nprereq: Biol 3411 or Psy 3061 or instr consent",
     "prereq": {
       "or": [
         {
@@ -926,7 +993,7 @@
     "subject": "EEB",
     "id": "5409",
     "title": "Evolution",
-    "info": "Diversity of forms in fossil record and in presently existing biology. Genetic mechanisms of evolution, including natural selection, sexual selection, genetic drift. Examples of ongoing evolution in wild/domesticated populations and in disease-causing organisms. Lab.\n\nprereq: One semester college biology",
+    "info": "Evolution has shaped all of life and continues to. This course explores the processes that cause the genetic change of populations over generations and the outcomes of these processes. Evolution is crucial for understanding of current societal issues including biodiversity conservation, genetic engineering, food security, and public health. Lab. ",
     "prereq": []
   },
   {
@@ -934,25 +1001,11 @@
     "subject": "EEB",
     "id": "5412",
     "title": "Intro to Animal Behavior",
-    "info": "EEB 5412 is a lecture-only course for graduate students. \nWhy do animals behave the way they do? This question is relevant to conservation, agriculture, human health, veterinary medicine, developing artificial intelligence and understanding the origins of human behavior. This writing intensive course provides a broad introduction to animal behavior. As one of the most interdisciplinary fields in all of biology, understanding animal behavior requires an understanding of cell biology, physiology, genetics, development, ecology, endocrinology, evolution, learning theory, and even physics and economics!  This course will draw on questions and methods from each of these disciplines to answer what on the surface appears to be a very simple question: Why is that animal doing that? The course will review such key topics as feeding behavior, reproductive behavior, perception, learning, animal conflict, social behavior, parental care, and communication. Throughout the course, students will be immersed in the scientific process, reading scientific literature, thinking critically, formulating their own research questions, and answering them in an independent project.This is a writing intensive course that covers scientific process and how to formulate research questions.\n\nprereq: Undergrad biology course\n\nCredit granted for only one of the following: EEB 3411, EEB 3412W, EEB 3811W, EEB 5412\n\n",
+    "info": "EEB 5412 is a lecture-only course for graduate students. Why do animals behave the way they do? This question is relevant to conservation, agriculture, human health, veterinary medicine, developing artificial intelligence and understanding the origins of human behavior. This writing intensive course provides a broad introduction to animal behavior. As one of the most interdisciplinary fields in all of biology, understanding animal behavior requires an understanding of cell biology, physiology, genetics, development, ecology, endocrinology, evolution, learning theory, and even physics and economics! This course will draw on questions and methods from each of these disciplines to answer what on the surface appears to be a very simple question: Why is that animal doing that? The course will review such key topics as feeding behavior, reproductive behavior, perception, learning, animal conflict, social behavior, parental care, and communication. Throughout the course, students will be immersed in the scientific process, reading scientific literature, thinking critically, formulating their own research questions, and answering them in an independent project. This is a writing intensive course that covers scientific process and how to formulate research questions. \n\nprereq: graduate student Course credit granted for only one of the following:  EEB 3412W or EEB 5412",
     "prereq": {
-      "and": [
-        {
-          "code": "EEB 3411",
-          "subject": "EEB",
-          "id": "3411"
-        },
-        {
-          "code": "EEB 3412W",
-          "subject": "EEB",
-          "id": "3412W"
-        },
-        {
-          "code": "EEB 3811W",
-          "subject": "EEB",
-          "id": "3811W"
-        }
-      ]
+      "code": "EEB 3412W",
+      "subject": "EEB",
+      "id": "3412W"
     }
   },
   {
@@ -960,7 +1013,7 @@
     "subject": "EEB",
     "id": "5534",
     "title": "Biodiversity Science",
-    "info": "Biodiversity science is a rapidly expanding field of enquiry with increasing digital resources and global monitoring capabilities precisely at the moment in history that scientists recognize as the Sixth Extinction. In other words, we are currently facing a biodiversity crisis with threats to the Earth's biota not seen since the dinosaurs perished 65 million years ago. \\\"Biodiversity\\\" was coined by W.G. Rosen and E.O Wilson in the 1980s to describe the variation in all of life on Earth. The term is now widely used in both the scientific and popular literature and is at the center of scientific enquiry, conservation efforts, large-scale collaborative pursuits of technological advances to allow monitoring from space, and global assessments that interface with international policy. Biodiversity requires integration across multiple disciplines from evolution, to ecology, remote sensing, conservation biology, economics and the social sciences, including the environmental policy. Biodiversity science is thus inherently interdisciplinary. As a consequence, rarely does a single course provide students the opportunity to focus on this critical topic from multiple perspectives and dimensions. \n\nThis new course seeks to provide students intensive study of biodiversity from six perspectives: 1) the origins of biodiversity, including the processes of speciation and extinction over macroevolutionary timescales and those involved in generating biological variation at microevolutionary scales; 2) the ecological problem of species coexistence, given the nature of competitive interactions and biological filters with a focus on the interactions of individual species and major threats to biodiversity; 3) the consequences of biodiversity and biodiversity loss for ecosystem functions, focusing on ecosystem scale processes; 4) the services or benefits to humans attributed to biodiversity, including cultural benefits of biodiversity; here we discuss both practical and ethical arguments for sustaining biodiversity; 5) methods of detecting biodiversity including classic field biodiversity observations and taxonomic collections and emerging remote sensing methods that harness hyperspectral data and satellite imagery; and 6) scientific assessments of biodiversity that communicate the science of biodiversity to policymakers, particularly the Intergovernmental Platform on Biodiversity and Ecosystem Services (IPBES). The IPBES involves scientists from around the world and integrates indigenous and local knowledge (ILK). The United Nations and governments around the globe are sponsoring the IPBES, building on earlier assessments such as a prominent one in the UK. \n\nSeveral guest lecturers from across the University will participate in discussions and aid in development of computer labs (including Sharon Jansa (CBS), Keith Barker (CBS), Joe Knight (CFANS), and others).\n",
+    "info": "Biodiversity science is a rapidly expanding field of inquiry with increasing digital resources and global monitoring capabilities precisely at the moment in history that scientists recognize as the Sixth Extinction. In other words, we are currently facing a biodiversity crisis with threats to the Earth's biota not seen since the dinosaurs perished 65 million years ago. \"Biodiversity\" was coined by W.G. Rosen and E.O Wilson in the 1980s to describe the variation in all of life on Earth. The term is now widely used in both the scientific and popular literature and is at the center of scientific enquiry, conservation efforts, large-scale collaborative pursuits of technological advances to allow monitoring from space, and global assessments that interface with international policy. Biodiversity requires integration across multiple disciplines from evolution, to ecology, remote sensing, conservation biology, economics, and the social sciences, including environmental policy. Biodiversity science is thus inherently interdisciplinary. As a consequence, rarely does a single course provide students the opportunity to focus on this critical topic from multiple perspectives and dimensions.\nThis course seeks to provide students intensive study of biodiversity from six perspectives: 1) the origins of biodiversity, including the processes of speciation and extinction over macroevolutionary timescales and those involved in generating biological variation at microevolutionary scales; 2) the ecological problem of species coexistence, given the nature of competitive interactions and biological filters with a focus on the interactions of individual species and major threats to biodiversity; 3) the consequences of biodiversity and biodiversity loss for ecosystem functions, focusing on ecosystem scale processes; 4) the services or benefits to humans attributed to biodiversity, including cultural benefits of biodiversity; here we discuss both practical and ethical arguments for sustaining biodiversity; 5) methods of detecting biodiversity including classic field biodiversity observations and taxonomic collections and emerging remote sensing methods that harness hyperspectral data and satellite imagery; and 6) scientific assessments of biodiversity that communicate the science of biodiversity to policymakers, particularly the Intergovernmental Platform on Biodiversity and Ecosystem Services (IPBES) and the Convention on Biological Diversity (CBD).\nSeveral guest lecturers from across the University will participate in discussions and aid in development of computer labs.",
     "prereq": []
   },
   {
@@ -996,29 +1049,34 @@
     "subject": "EEB",
     "id": "5611",
     "title": "Biogeochemical Processes",
-    "info": "Application of biochemistry, ecology, chemistry, and physics to environmental issues. Issues in biogeochemistry. Impact of humans on biogeochemical processes in soils, lakes, oceans, estuaries, forests, urban/managed ecosystems, and extreme environments (e.g., early Earth, deep sea vents, thermal springs).\n\nprereq: [BIOC 2331, CHEM 2301] or instr consent",
-    "prereq": {
-      "and": [
-        {
-          "code": "BIOC 2331",
-          "subject": "BIOC",
-          "id": "2331"
-        },
-        {
-          "code": "CHEM 2301",
-          "subject": "CHEM",
-          "id": "2301"
-        }
-      ]
-    }
+    "info": "Application of biochemistry, ecology, chemistry, and physics to environmental issues. Issues in biogeochemistry. Impact of humans on biogeochemical processes in soils, lakes, oceans, estuaries, forests, urban/managed ecosystems, and extreme environments (e.g., early Earth, deep sea vents, thermal springs).\n\nprereq: graduate student",
+    "prereq": []
   },
   {
     "code": "EEB 5851",
     "subject": "EEB",
     "id": "5851",
     "title": "Health and Biodiversity",
-    "info": "Basics of biodiversity, human/animal health, interdependence. Strategies for sustainable health.\n\nprereq: At least one year of college Biology or equivalent",
-    "prereq": []
+    "info": "Basics of biodiversity, human/animal health, interdependence. Strategies for sustainable health. \n\nprereq: BIOL 1001, 1009, 1951 or equiv.",
+    "prereq": {
+      "and": [
+        {
+          "code": "BIOL 1001",
+          "subject": "BIOL",
+          "id": "1001"
+        },
+        {
+          "code": "EEB 1009",
+          "subject": "EEB",
+          "id": "1009"
+        },
+        {
+          "code": "EEB 1951",
+          "subject": "EEB",
+          "id": "1951"
+        }
+      ]
+    }
   },
   {
     "code": "EEB 5961",

@@ -1,7 +1,3 @@
-import { usePathname, useSearchParams } from "next/navigation";
-
-import { headers } from "next/headers";
-
 let Meta = {
   keywords: [
     "University of Minnesota",

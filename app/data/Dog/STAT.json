@@ -28,7 +28,7 @@
     "subject": "STAT",
     "id": "1915",
     "title": "Scientific Computing: Python",
-    "info": "The singular most important skill to have in modern times is to be able to glean out true and relevant information from the deluge of data, and this class is aimed at developing that skill. To tease out information from big data, one needs an understanding of \\\"what to compute\\\" and \\\"how to compute\\\":  the statistics and computer science arms of data science respectively. This class will initiate the development of such an understanding, as well as develop some computational skills in Python language, and scientific writing skill is LaTeX language. Python is a modern programming language, which is very popular in various industries dealing with large quantities of data. LaTeX is the principal language for writing mathematical and technical descriptions and research papers. We will discuss the basic principles that form the foundation of data science, and are central to modern statistics, machine learning and artificial intelligence. We will discuss how to quantify uncertainty, identify falsehood and develop scientific skepticism while analyzing data.",
+    "info": "The singular most important skill to have in modern times is to be able to glean out true and relevant information from the deluge of data, and this class is aimed at developing that skill. To tease out information from big data, one needs an understanding of \"what to compute\" and \"how to compute\":  the statistics and computer science arms of data science respectively. This class will initiate the development of such an understanding, as well as develop some computational skills in Python language, and scientific writing skill is LaTeX language. Python is a modern programming language, which is very popular in various industries dealing with large quantities of data. LaTeX is the principal language for writing mathematical and technical descriptions and research papers. We will discuss the basic principles that form the foundation of data science, and are central to modern statistics, machine learning and artificial intelligence. We will discuss how to quantify uncertainty, identify falsehood and develop scientific skepticism while analyzing data.",
     "prereq": []
   },
   {
@@ -43,7 +43,7 @@
     "code": "STAT 3021",
     "subject": "STAT",
     "id": "3021",
-    "title": "Intro to Prob&Stat",
+    "title": "Intro Probability & Statistics",
     "info": "This is an introductory course in statistics whose primary objectives are to teach students the theory of elementary probability theory and an introduction to the elements of statistical inference, including testing, estimation, and confidence statements.\n\nprereq: Math 1272",
     "prereq": {
       "code": "MATH 1272",
@@ -82,7 +82,7 @@
     "subject": "STAT",
     "id": "3032",
     "title": "Regression and Correlated Data",
-    "info": "This is a second course in statistics with a focus on linear regression and correlated data. The intent of this course is to prepare statistics, economics and actuarial science students for statistical modeling needed in their discipline. The course covers the basic concepts of linear algebra and computing in R, simple linear regression, multiple linear regression, statistical inference, model diagnostics, transformations, model selection, model validation, and basics of time series and mixed models. Numerous datasets will be analyzed and interpreted using the open-source statistical software R.\n\nprereq: STAT 3011 or STAT 3021",
+    "info": "This is a second course in statistics with a focus on linear regression and correlated data. The intent of this course is to prepare statistics, economics, and actuarial science students for statistical modeling needed in their discipline. The course covers the basic concepts of linear algebra and computing in R, simple linear regression, multiple linear regression, statistical inference, model diagnostics, transformations, model selection, model validation, and basics of time series and mixed models. Numerous datasets will be analyzed and interpreted using the open-source statistical software R.\n\nprereq: STAT 3011 or STAT 3021",
     "prereq": {
       "or": [
         {
@@ -165,7 +165,7 @@
     "subject": "STAT",
     "id": "3701",
     "title": "Intro to Statistical Computing",
-    "info": "Elementary Monte Carlo, simulation studies, elementary optimization, programming in R, and graphics in R.\n\nPrerequisites: (MATH 1272 or 1372 or 1572H), CSCI 1113, and STAT 3032",
+    "info": "Elementary Monte Carlo, simulation studies, elementary optimization, programming in R, and graphics in R.\n\nprereq: (MATH 1272 or 1372 or 1572H), CSCI 1113, and STAT 3032",
     "prereq": {
       "and": [
         {
@@ -208,7 +208,7 @@
     "subject": "STAT",
     "id": "4051",
     "title": "Statistical Machine Learning I",
-    "info": "This is the first semester of the applied statistics and statistical machine learning sequence for majors seeking a BA or BS in statistics or data science, coupled with the course STAT 4052. The course delves into the foundational statistics supporting contemporary machine learning techniques. The emphasis lies on identifying problem types, selecting appropriate analytical methods, accurate result interpretation, and hands-on exposure to real-world data analysis. The curriculum builds upon traditional multivariate statistical analysis and unsupervised learning, extending to modern machine learning topics. Topics include clustering, dimension reduction, matrix completion, factor analysis, covariance analysis, and graphical models. Additionally, advanced data structures such as text and graph data are covered. The course prioritizes the fundamental statistical principles integral to machine learning, demonstrated through the analysis and interpretation of numerous datasets. prereq: (STAT 3701 or STAT 3301) and (STAT 4101 or STAT 5101 or MATH 5651)",
+    "info": "This is the first semester of the applied statistics and statistical machine learning sequence for majors seeking a BA or BS in statistics or data science, coupled with the course STAT 4052. The course delves into the foundational statistics supporting contemporary machine learning techniques. The emphasis lies on identifying problem types, selecting appropriate analytical methods, accurate result interpretation, and hands-on exposure to real-world data analysis. The curriculum builds upon traditional multivariate statistical analysis and unsupervised learning, extending to modern machine learning topics. Topics include clustering, dimension reduction, matrix completion, factor analysis, covariance analysis, and graphical models. Additionally, advanced data structures such as text and graph data are covered. The course prioritizes the fundamental statistical principles integral to machine learning, demonstrated through the analysis and interpretation of numerous datasets. \n\nprereq: (STAT 3701 or STAT 3301) and (STAT 4101 or STAT 5101 or MATH 5651)",
     "prereq": {
       "and": [
         {
@@ -861,7 +861,7 @@
     "subject": "STAT",
     "id": "8051",
     "title": "Advanced Regression Techniques",
-    "info": "Linear/generalized linear models, modern regression methods including nonparametric regression, generalized additive models, splines/basis function methods, regularization, bootstrap/other resampling-based inference.\n\nprereq: Statistics grad or instr consent\n\n\nprereq: Statistics grad or instr consent",
+    "info": "Linear/generalized linear models, modern regression methods including nonparametric regression, generalized additive models, splines/basis function methods, regularization, bootstrap/other resampling-based inference.\n\nprereq: Statistics grad or instr consent",
     "prereq": []
   },
   {
@@ -869,7 +869,7 @@
     "subject": "STAT",
     "id": "8052",
     "title": "Applied Statistical Methods 2",
-    "info": "Design experiments/analyze data with fixed effects, random/mixed effects models. ANOVA for factorial designs.  Contrasts, multiple comparisons, power/sample size,   confounding, fractional factorials. Computer-generated designs. Response surfaces. Multi-level models. Generalized estimating equations (GEE) for longitudinal data with non-normal errors.\n\nprereq: 8051 or instr consent",
+    "info": "Design experiments/analyze data with fixed effects, random/mixed effects models. ANOVA for factorial designs. Contrasts, multiple comparisons, power/sample size, confounding, fractional factorials. Computer-generated designs. Response surfaces. Multi-level models. Generalized estimating equations (GEE) for longitudinal data with non-normal errors.\n\nprereq: 8051 or instr consent",
     "prereq": {
       "code": "STAT 8051",
       "subject": "STAT",

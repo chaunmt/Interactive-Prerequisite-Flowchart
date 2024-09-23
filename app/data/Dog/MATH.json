@@ -62,7 +62,7 @@
     "subject": "MATH",
     "id": "1042",
     "title": "Math of Design",
-    "info": "A tour of mathematics relevant to principles of design that support the \\\"making\\\" of things: from objects to buildings. Project-based problem solving. Systems of equations, trigonometry, vectors, analytic geometry, conic sections, transformations, approximation of length, area, and volume.\n\nPrereq: Satisfactory score on placement test or grade of at least C- in [1031 or 1051]",
+    "info": "A tour of mathematics relevant to principles of design that support the \"making\" of things: from objects to buildings. Project-based problem solving. Systems of equations, trigonometry, vectors, analytic geometry, conic sections, transformations, approximation of length, area, and volume.\n\nPrereq: Satisfactory score on placement test or grade of at least C- in [1031 or 1051]",
     "prereq": {
       "or": [
         {
@@ -365,6 +365,14 @@
       "subject": "MATH",
       "id": "1473"
     }
+  },
+  {
+    "code": "MATH 1901",
+    "subject": "MATH",
+    "id": "1901",
+    "title": "Mathematical Climate Models",
+    "info": "Description\nFall 2024\nRichard McGehee\nSchool of Mathematics\n\nProfessor McGehee joined the faculty at the University of Minnesota in 1970 and, except for visiting positions at other institutions, has spent his career here. His research interests include abstract dynamical systems, classical mechanics, population ecology, and conceptual climate models.  He was a founding co-PI for the Mathematics and Climate Research Network, a national mathematics research group currently administered at the American Institute of Mathematics.\n\nEarth's climate is changing rapidly, creating a crisis for humanity. This course will investigate the changing climate from a quantitative perspective by investigating simple models, comparing them to data, and using them to understand possible future climates.\nQuestions to be studied include these: What determines Earth's surface temperature? What is the role of greenhouse gases, and why are they increasing so dramatically? What is the role of ocean circulation? When will the Arctic Ocean become ice free, and why does it matter? Knowledge of high school algebra will be assumed. We will use spreadsheets to study data and models, but no prior experience with spreadsheets is required.  We will introduce concepts from classical physics as needed, so no prior knowledge of physics is required. No background in climate science will be assumed. The main prerequisite is an eagerness to learn about Earth's climate and a willingness to investigate data.\nGrades will be based on homework, class participation, and class projects.  No exams.\nGroup work is encouraged but not required.  Lectures and discussions will be interspersed and combined.",
+    "prereq": []
   },
   {
     "code": "MATH 2001",
@@ -1521,7 +1529,7 @@
     "subject": "MATH",
     "id": "5467",
     "title": "Wavelets",
-    "info": "Background theory/experience in wavelets. Inner product spaces, operator theory, Fourier transforms applied to Gabor transforms, multi-scale analysis, discrete wavelets, self-similarity. Computing techniques.\n\nprereq: [2243 or 2373 or 2573], [2283 or 2574 or 3283 or instr consent]; [[2263 or 2374], 4567] recommended",
+    "info": "Background theory/experience in wavelets. Inner product spaces, operator theory, Fourier transforms applied to Gabor transforms, multi-scale analysis, discrete wavelets, self-similarity. Computing techniques.prereq: [2243 or 2373 or 2573], [2283 or 2574 or 3283 or instr consent]; [[2263 or 2374], 4567] recommended",
     "prereq": {
       "and": [
         {
@@ -1960,7 +1968,7 @@
     "subject": "MATH",
     "id": "5654",
     "title": "Predict, Filtering",
-    "info": "Markov chains, Wiener process, stationary sequences, Ornstein-Uhlenbeck process. Partially observable Markov processes (hidden Markov models), stationary processes. Equations for general filters, Kalman filter. Prediction of future values of partially observable processes.\n\nprereq: 5651 or Stat 5101",
+    "info": "Markov chains, Wiener process, stationary sequences, Ornstein-Uhlenbeck process. Partially observable Markov processes (hidden Markov models), stationary processes. Equations for general filters, Kalman filter. Prediction of future values of partially observable processes.prereq: 5651 or Stat 5101",
     "prereq": {
       "or": [
         {
@@ -2431,7 +2439,7 @@
     "code": "MATH 8301",
     "subject": "MATH",
     "id": "8301",
-    "title": "Manifolds/Top",
+    "title": "Algebraic Topology",
     "info": "Classification of compact surfaces, fundamental group/covering spaces. Homology group, basic cohomology. Application to degree of a map, invariance of domain/dimension.\n\nprereq: [Some point-set topology, algebra] or instr consent",
     "prereq": []
   },
@@ -2451,7 +2459,7 @@
     "code": "MATH 8306",
     "subject": "MATH",
     "id": "8306",
-    "title": "Algebraic Top",
+    "title": "Algebraic Topology II",
     "info": "Singular homology, cohomology theory with coefficients. Eilenberg-Stenrod axioms, Mayer-Vietoris theorem.\n\nprereq: 8301 or instr consent",
     "prereq": {
       "code": "MATH 8301",
@@ -2984,22 +2992,9 @@
     "code": "MATH 8654",
     "subject": "MATH",
     "id": "8654",
-    "title": "Prob, Stoch Process",
-    "info": "Review of basic theorems of probability for independent random variables; introductions to Brownian motion process, Poisson process, conditioning, Markov processes, stationary processes, martingales, super- and sub-martingales, Doob-Meyer decomposition.\n\nprereq: 8651 or 8602 or instr consent",
-    "prereq": {
-      "or": [
-        {
-          "code": "MATH 8651",
-          "subject": "MATH",
-          "id": "8651"
-        },
-        {
-          "code": "MATH 8602",
-          "subject": "MATH",
-          "id": "8602"
-        }
-      ]
-    }
+    "title": "Prob Modeling and Computation",
+    "info": "This course aims to introduce the basic methodology, theory, and algorithms for probabilistic modeling. Specifically, the course is divided into three parts. The first part (and majority) of the course will cover fundamentals of statistical inference, including likelihood-based estimation methods, asymptotic theory, Bayesian statistics, nonparametric models (e.g. nonparametric regression, Gaussian process), minmax theory. The second part will focus on statistical sampling algorithms, with emphasis on Markov Chain Monte Carlo methods. The last part (if time permits) will cover inference for sequential data, with emphasis on filtering and data assimilation.  ",
+    "prereq": []
   },
   {
     "code": "MATH 8655",

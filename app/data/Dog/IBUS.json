@@ -161,7 +161,7 @@
     "subject": "IBUS",
     "id": "3033W",
     "title": "Business Communication",
-    "info": "Written/oral communication skills for effective participation in contemporary organizations. From basic principles to communication strategy.  Communication technology. Cases, simulations of \\\"real-world\\\" situations in a domestic and global context. Global perspectives of focus have included India, Spain, South Korea and Japan.  \n\nprereq: Fr composition, CSOM upper-div, at least 60 cr",
+    "info": "Written/oral communication skills for effective participation in contemporary organizations. From basic principles to communication strategy.  Communication technology. Cases, simulations of \"real-world\" situations in a domestic and global context. Global perspectives of focus have included India, Spain, South Korea and Japan.  \n\nprereq: Fr composition, CSOM upper-div, at least 60 cr",
     "prereq": []
   },
   {
@@ -393,7 +393,7 @@
     "subject": "IBUS",
     "id": "3702",
     "title": "International Business Summer",
-    "info": "Summer study abroad at one of Carlson School's international exchange partner universities. Students select courses based on academic needs/interests. For current offerings, contact Carlson International Programs.prereq: 60 cr",
+    "info": "Summer study abroad at one of Carlson School's international exchange partner universities. Students select courses based on academic needs/interests. For current offerings, contact Carlson International Programs.\n\nprereq: 60 cr",
     "prereq": []
   },
   {
@@ -425,7 +425,7 @@
     "subject": "IBUS",
     "id": "3999",
     "title": "Self-Designed Int'l Research",
-    "info": "In meeting the international experience requirement through a self-design students will develop reflective research component.  Through this course, students are expected to gain meaningful exposure to an international setting that allows for cultural interaction, in-depth study, research, and reflection.  This experience would serve as a catalyst for students to attain a broader mindset and to gain deeper understanding of cultural norms and expectations of others.  Contact the Carlson Global Institute (cgi@umn.edu) to discuss the application process.  \n\nprereq: approved proposal and dept consent.",
+    "info": "In meeting the international experience requirement through a self-design students will develop reflective research component.  Through this course, students are expected to gain meaningful exposure to an international setting that allows for cultural interaction, in-depth study, research, and reflection.  This experience would serve as a catalyst for students to attain a broader mindset and to gain deeper understanding of cultural norms and expectations of others.  Contact the Carlson Global Institute (cgi@umn.edu) to discuss the application process.  prereq: approved proposal and dept consent.",
     "prereq": []
   },
   {
@@ -552,6 +552,37 @@
     "prereq": []
   },
   {
+    "code": "IBUS 4622",
+    "subject": "IBUS",
+    "id": "4622",
+    "title": "International Finance - Brazil",
+    "info": "When you travel outside the United States, you do not use dollar bills to make purchases, right? Nearly every country operates with its own form of currency, and the value of this currency in comparison to the dollar (or any other currency) is known as the exchange rate. These rates play a crucial role not just for travelers but also for businesses. Numerous companies either procure materials, sell their goods on the international stage, or operate as multinational entities with establishments overseas.\n\nIn this course, you are going to discover how to navigate these rates, understand their fluctuations, and most importantly, recognize that predicting exchange rate movements in the short term is largely a gamble. So, what is the strategy when facing unpredictable risks? You safeguard against them, much like purchasing insurance. Hence, this class will cover how corporations protect themselves against exchange rate risks with derivative contracts. You will also learn how multinational companies assess international projects. \n\nprereq: CSOM major, Fina 3001 or 3001H, 4121 or 4121H, 4221\nCredit will not be granted if credit has been received for: FINA 4622",
+    "prereq": {
+      "and": [
+        {
+          "code": "FINA 3001",
+          "subject": "FINA",
+          "id": "3001"
+        },
+        {
+          "code": "IBUS 4121",
+          "subject": "IBUS",
+          "id": "4121"
+        },
+        {
+          "code": "IBUS 4221",
+          "subject": "IBUS",
+          "id": "4221"
+        },
+        {
+          "code": "FINA 4622",
+          "subject": "FINA",
+          "id": "4622"
+        }
+      ]
+    }
+  },
+  {
     "code": "IBUS 4641",
     "subject": "IBUS",
     "id": "4641",
@@ -668,7 +699,7 @@
     "subject": "IBUS",
     "id": "5140",
     "title": "Vienna Summer Program",
-    "info": "Summer study abroad program at Europe's largest business school (WU-Vienna). Students take three business classes, plus German language. Program participants from Europe, Asia, Latin America, United States.prereq: Carlson grad student",
+    "info": "Summer study abroad program at Europe's largest business school (WU-Vienna). Students take three business classes, plus German language. Program participants from Europe, Asia, Latin America, United States.\n\nprereq: Carlson grad student",
     "prereq": []
   },
   {
@@ -816,6 +847,27 @@
     "prereq": []
   },
   {
+    "code": "IBUS 5212",
+    "subject": "IBUS",
+    "id": "5212",
+    "title": "Economic Growth & MIT",
+    "info": "This course is designed to help students gain a more global understanding of cultural values, how these interact with social and economic issues, and understand the role of business as a force for social and economic good.  Specifically, students will study the economics of the Middle Income Trap (MIT) and how cultural values and norms relate to it.  The MIT is an economic development situation in which a country attains a certain income due to given advantages and then gets “stuck” at that level.  The term was introduced by the World Bank in 2007 and is defined as the \"middle-income range\" countries with gross national product per capita that has remained between $1,000 to $12,000 at constant (2011) prices.  Students will study this phenomenon in general and then more specifically with respect to the economies of Argentina and Chile.  These countries provide a unique opportunity to compare and contrast very different economic policies within the context of this phenomenon. With better understanding of the causes and consequences of the MIT, the course then seeks to better understand actions that can potentially alleviate the MIT and return economies to a path of growth.  Within this context, student groups will be partnered with a company/organization located in Argentina or Chile to learn more about how they can create opportunities for growth, especially in situations where there are social, political, and economic challenges.\n\nprereq: ACCT 3001 or IBUS 3002  or equivalent",
+    "prereq": {
+      "or": [
+        {
+          "code": "ACCT 3001",
+          "subject": "ACCT",
+          "id": "3001"
+        },
+        {
+          "code": "IBUS 3002",
+          "subject": "IBUS",
+          "id": "3002"
+        }
+      ]
+    }
+  },
+  {
     "code": "IBUS 5260",
     "subject": "IBUS",
     "id": "5260",
@@ -828,7 +880,7 @@
     "subject": "IBUS",
     "id": "5300",
     "title": "Graduate Exchange",
-    "info": "Study at one of Carlson School's international exchange partner universities. Students select courses based on academic needs/interests. For current offerings, contact Carlson International Programs.prereq: Carlson grad student",
+    "info": "Study at one of Carlson School's international exchange partner universities. Students select courses based on academic needs/interests. For current offerings, contact Carlson International Programs.\n\nprereq: Carlson grad student",
     "prereq": []
   },
   {
@@ -836,7 +888,7 @@
     "subject": "IBUS",
     "id": "5301",
     "title": "Graduate Exchange Int'l Bus",
-    "info": "Summer study abroad at one of Carlson School's international exchange partner universities. Students select courses based on academic needs/interests.prereq: Carlson grad student",
+    "info": "Summer study abroad at one of Carlson School's international exchange partner universities. Students select courses based on academic needs/interests.\n\nprereq: Carlson grad student",
     "prereq": []
   },
   {
@@ -1037,6 +1089,14 @@
     "id": "6406",
     "title": "Global Business Practicum",
     "info": "It provides students with a unique opportunity to work on cross-cultural teams with students from across the world enrolled at a partner university to address a business issue posed by the sponsoring company. The course is designed to: increase students ability to work in diverse teams and analyze problems from a global perspective; help students develop a more robust understanding of the business topic of the project; and increase students tolerance for working through ambiguous situations.  Contact the Carlson Global Institute with questions.  \n\nPrereq: approved application",
+    "prereq": []
+  },
+  {
+    "code": "IBUS 6407",
+    "subject": "IBUS",
+    "id": "6407",
+    "title": "Retailtainment:Art of Commerce",
+    "info": "This course invites students into the unique, experiential retail landscapes of Japan. By considering the intersecting roles of art, culture, technology, and commerce, it sheds new light on the design and development of these immersive, multidimensional storytelling spaces. A selection of readings, activities, and assignments will challenge students to reflect upon how retailers from a variety of sectors inform, engage, entertain, and persuade, with the ultimate goal of building brand love and loyalty.  ",
     "prereq": []
   },
   {

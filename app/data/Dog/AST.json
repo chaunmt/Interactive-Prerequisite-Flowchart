@@ -44,7 +44,7 @@
     "subject": "AST",
     "id": "1910",
     "title": "The Ultimate Questions",
-    "info": "Why are we here? Not here at the U, or even on Earth, but why do intelligent beings even exist in the universe? How did it all begin? And how is it going to end? Did the universe have to turn out the way it did, or are we simply the lucky one of an infinite number of universes existing across space and time? Of course, we won't answer any of these questions, but their exploration makes for a fascinating journey. Our guidebooks will be two intriguing works by Paul Davies, \\\"The Goldilocks Enigma\\\" and \\\"The Mind of God,\\\" anchoring our discussions which are guaranteed to keep you up at night.",
+    "info": "Why are we here? Not here at the U, or even on Earth, but why do intelligent beings even exist in the universe? How did it all begin? And how is it going to end? Did the universe have to turn out the way it did, or are we simply the lucky one of an infinite number of universes existing across space and time? Of course, we won't answer any of these questions, but their exploration makes for a fascinating journey. Our guidebooks will be two intriguing works by Paul Davies, \"The Goldilocks Enigma\" and \"The Mind of God,\" anchoring our discussions which are guaranteed to keep you up at night.",
     "prereq": []
   },
   {
@@ -60,7 +60,7 @@
     "subject": "AST",
     "id": "1911",
     "title": "Nothing",
-    "info": "Is \\\"nothing\\\" too wonderful to be true, as the great eighteenth century physicist Michael Faraday pondered? Following the Bard, in this seminar we will make much ado about \\\"nothing.\\\" From the birth of the Universe ex-nihilo, to the philosophies that find meaning in nothing, to the tangled history of zero over the centuries, to our beginnings as seen by theologies when even nothing was not. In our journey through the teeming vacuum, \\\"nothing\\\" is sacred, and will be both ventured and gained. Caution is advised, however, in telling people that you've signed up for \\\"nothing!\\\"",
+    "info": "Is \"nothing\" too wonderful to be true, as the great eighteenth century physicist Michael Faraday pondered? Following the Bard, in this seminar we will make much ado about \"nothing.\" From the birth of the Universe ex-nihilo, to the philosophies that find meaning in nothing, to the tangled history of zero over the centuries, to our beginnings as seen by theologies when even nothing was not. In our journey through the teeming vacuum, \"nothing\" is sacred, and will be both ventured and gained. Caution is advised, however, in telling people that you've signed up for \"nothing!\"",
     "prereq": []
   },
   {
@@ -100,7 +100,7 @@
     "subject": "AST",
     "id": "4001",
     "title": "Astrophysics I",
-    "info": "Astrophysics of stars and stellar populations. Stellar formation, evolution, interiors/atmospheres. Stellar populations, galactic distribution of stars.\n\nprereq: 2001, Phys 2601",
+    "info": "Astrophysics of stars and stellar populations. Stellar formation, evolution, interiors/atmospheres. Stellar populations, galactic distribution of stars.\nprereq: 2001, Phys 2601",
     "prereq": {
       "and": [
         {
@@ -121,7 +121,7 @@
     "subject": "AST",
     "id": "4002",
     "title": "Astrophysics II",
-    "info": "Astrophysics of galaxies and the universe. Diffuse matter, galactic structure, and evolution. Clusters of galaxies.  Introductory cosmology, evolution of the universe.\n\nprereq: 2001, Phys 2601",
+    "info": "Astrophysics of galaxies and the universe. Diffuse matter, galactic structure, and evolution. Clusters of galaxies. Introductory cosmology, evolution of the universe. \n\nprereq: 2001, Phys 2601",
     "prereq": {
       "and": [
         {
@@ -263,7 +263,7 @@
     "subject": "AST",
     "id": "5022",
     "title": "Cosmology, Universe",
-    "info": "Large-scale structure/history of universe. Introduction to Newtonian/relativistic world models. Physics of early universe, cosmological tests, formation of galaxies.\n\nprereq: [2001, Phys 2601] or instr consent",
+    "info": "Large-scale structure/history of universe. Introduction to Newtonian/relativistic world models. Physics of early universe, cosmological tests, formation of galaxies.\n\nprereq: [2001, Phys 2601, Phys 3041] or instr consent",
     "prereq": {
       "and": [
         {
@@ -275,6 +275,11 @@
           "code": "PHYS 2601",
           "subject": "PHYS",
           "id": "2601"
+        },
+        {
+          "code": "PHYS 3041",
+          "subject": "PHYS",
+          "id": "3041"
         }
       ]
     }
@@ -413,7 +418,7 @@
     "subject": "AST",
     "id": "8110",
     "title": "Topics in Astrophysics",
-    "info": "Sample topics include Understanding Supernovae, Structure Formation, and Gravitational Lensing.  ",
+    "info": "The course will concentrate on two topics in cosmology: formation of the large scale structure in the Universe, and gravitational lensing and its applications.",
     "prereq": []
   },
   {
@@ -461,7 +466,7 @@
     "subject": "AST",
     "id": "8581",
     "title": "Big Data in Astrophysics",
-    "info": "This course will introduce key concepts and techniques used to work with large datasets, in the context of the field of astrophysics. prereq: instructor consent.Suggested: familiarity with astrophysics topics, such as star formation and evolution, galaxies and clusters, composition and expansion of the universe, gravitational wave sources and waveforms, and high-energy astrophysics.",
+    "info": "This course will introduce key concepts and techniques used to work with large datasets, in the context of the field of astrophysics. \n\nprereq: instructor consent.\nSuggested: familiarity with astrophysics topics, such as star formation and evolution, galaxies and clusters, composition and expansion of the universe, gravitational wave sources and waveforms, and high-energy astrophysics.",
     "prereq": []
   },
   {

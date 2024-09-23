@@ -11,8 +11,8 @@
     "code": "CHEM 1015",
     "subject": "CHEM",
     "id": "1015",
-    "title": "Intro Chem: Lecture",
-    "info": "Matter/energy, atoms, compounds, solutions, chemical reactions, mole/chemical calculations, gases, liquids, solids, chemical bonding, atomic/molecular structure, acids, bases, equilibria. Physical/chemical properties of hydrocarbons and organic compounds. Problem solving.\n\nprereq: [High school chemistry or equiv], two yrs high school math, not passed chem placement exam, high school physics recommended;\n\nStudents who will go on to take CHEM 1061/1065 should take CHEM 1015 only. Students who will NOT be continuing on to CHEM 1061/1065 and need to fulfill the Physical Science/Lab core requirement need take the 1-credit lab course CHEM 1017 either concurrently or consecutively. This course will NOT fulfill the Physical Science/Lab core requirement unless the CHEM 1017 lab course is completed either concurrently or consecutively.",
+    "title": "Intro Chemistry: Lecture",
+    "info": "Matter/energy, atoms, compounds, solutions, chemical reactions, mole/chemical calculations, gases, liquids, solids, chemical bonding, atomic/molecular structure, acids, bases, equilibria. Physical/chemical properties of hydrocarbons and organic compounds. Problem solving.\n\nEffective fall 2024, CHEM 1015 is no longer a prerequisite to CHEM 1061/1081/1071. \n\nCHEM 1015 should only be completed by students whose major requires this course and or any student who is taking the course to fulfill the Physical Liberal Education requirement.\n\nCHEM 1015 will meet in-person.\n\nConcurrent enrollment in CHEM 1017 lab is required. You must enroll in CHEM 1017 first.\n\nConsult with your advisor with any questions or contact the Chemistry department at chemfaq@umn.ed",
     "prereq": {
       "and": [
         {
@@ -21,9 +21,14 @@
           "id": "1061"
         },
         {
-          "code": "CHEM 1065",
+          "code": "CHEM 1081",
           "subject": "CHEM",
-          "id": "1065"
+          "id": "1081"
+        },
+        {
+          "code": "CHEM 1071",
+          "subject": "CHEM",
+          "id": "1071"
         },
         {
           "code": "CHEM 1017",
@@ -46,31 +51,8 @@
     "subject": "CHEM",
     "id": "1017",
     "title": "INTRO CHEM: LAB",
-    "info": "Organic chemistry. Matter/energy, atoms, compounds, solutions, chemical reactions, mole/chemical calculations, gases, liquids, solids, chemical bonding, atomic/molecular structure, acids, bases, equilibria. Physical/chemical properties of hydrocarbons and organic compounds containing halogens, nitrogen, or oxygen. Problem solving.\n\nprereq: [1015 or concurrent registration is required (or allowed) in 1015], dept consent; credit will not be granted if credit received for: 1011; CHEM 1017 is a 1-credit lab-only course. This course is not intended for students who are planning to take CHEM 1061/1065. Intended only for students who need the course to fulfill the Physical Science/Lab requirement, and are taking CHEM 1015 either concurrently or consecutively. This course will NOT fulfill the Physical Science/Lab core requirement, unless CHEM 1015 is completed either concurrently or consecutively.; meets Lib Ed req of Physical Sciences)",
-    "prereq": {
-      "and": [
-        {
-          "code": "CHEM 1015",
-          "subject": "CHEM",
-          "id": "1015"
-        },
-        {
-          "code": "CHEM 1011",
-          "subject": "CHEM",
-          "id": "1011"
-        },
-        {
-          "code": "CHEM 1061",
-          "subject": "CHEM",
-          "id": "1061"
-        },
-        {
-          "code": "CHEM 1065",
-          "subject": "CHEM",
-          "id": "1065"
-        }
-      ]
-    }
+    "info": "Organic chemistry. Matter/energy, atoms, compounds, solutions, chemical reactions, mole/chemical calculations, gases, liquids, solids, chemical bonding, atomic/molecular structure, acids, bases, equilibria. Physical/chemical properties of hydrocarbons and organic compounds containing halogens, nitrogen, or oxygen. Problem solving.\n\nCHEM 1017 is a 1-credit lab-only course. \n\nThis course is intended for students who need to take CHEM 1015/1017 for their major course requirement and for students who are taking the course to fulfill the Physical Science/Lab requirement.\n\nThis course will  fulfill the Physical Science/Lab core requirement, when taken with CHEM 1015 concurrently.",
+    "prereq": []
   },
   {
     "code": "CHEM 1021",
@@ -92,23 +74,34 @@
     "code": "CHEM 1061",
     "subject": "CHEM",
     "id": "1061",
-    "title": "Chem Prin I",
-    "info": "Atomic theory, periodic properties of elements. Thermochemistry, reaction stoichiometry. Behavior of gases, liquids, and solids. Molecular/ionic structure/bonding. Organic chemistry and polymers. energy sources, environmental issues related to energy use.\nPrereq-Grade of at least C- in [1011 or 1015] or [passing placement exam, concurrent registration is required (or allowed) in 1065]; intended for science or engineering majors; concurrent registration is required (or allowed) in 1065; registration for 1065 must precede registration for 1061 ",
+    "title": "Chemical Principles I",
+    "info": "Atomic theory, periodic properties of elements. Thermochemistry, reaction stoichiometry. Behavior of gases, liquids, and solids. Molecular/ionic structure/bonding. Organic chemistry and polymers. energy sources, environmental issues related to energy use.\n\nprereq: Grade of at least C- in CHEM 1015 OR Math placement of MATH 1151 or grade of at least C- in MATH 1031 or 1051 or CI 1806\n\nConcurrent registration is required in 1065; registration for 1065 must precede registration for 1061\n",
     "prereq": {
-      "and": [
+      "or": [
         {
-          "or": [
-            {
-              "code": "CHEM 1011",
-              "subject": "CHEM",
-              "id": "1011"
-            },
-            {
-              "code": "CHEM 1015",
-              "subject": "CHEM",
-              "id": "1015"
-            }
-          ]
+          "code": "CHEM 1015",
+          "subject": "CHEM",
+          "id": "1015"
+        },
+        {
+          "code": "MATH 1151",
+          "subject": "MATH",
+          "id": "1151"
+        },
+        {
+          "code": "MATH 1031",
+          "subject": "MATH",
+          "id": "1031"
+        },
+        {
+          "code": "CHEM 1051",
+          "subject": "CHEM",
+          "id": "1051"
+        },
+        {
+          "code": "CI 1806",
+          "subject": "CI",
+          "id": "1806"
         },
         {
           "code": "CHEM 1065",
@@ -143,12 +136,26 @@
     "code": "CHEM 1065",
     "subject": "CHEM",
     "id": "1065",
-    "title": "Chem Prin I Lab",
-    "info": "Basic laboratory skills while investigating physical and chemical phenomena closely linked to lecture material. Experimental design, data collection and treatment, discussion of errors, and proper treatment of hazardous wastes.\n\nprereq: concurrent registration is required (or allowed) in 1061",
+    "title": "Chemical Principles  I Lab",
+    "info": "Basic laboratory skills while investigating physical and chemical phenomena closely linked to lecture material. Experimental design, data collection and treatment, discussion of errors, and proper treatment of hazardous wastes.\n\nprereq: concurrent registration is required (or allowed) in 1061, 1071, 1071H, 1081",
     "prereq": {
-      "code": "CHEM 1061",
-      "subject": "CHEM",
-      "id": "1061"
+      "and": [
+        {
+          "code": "CHEM 1061",
+          "subject": "CHEM",
+          "id": "1061"
+        },
+        {
+          "code": "CHEM 1071",
+          "subject": "CHEM",
+          "id": "1071"
+        },
+        {
+          "code": "CHEM 1081",
+          "subject": "CHEM",
+          "id": "1081"
+        }
+      ]
     }
   },
   {
@@ -164,15 +171,78 @@
     }
   },
   {
+    "code": "CHEM 1071",
+    "subject": "CHEM",
+    "id": "1071",
+    "title": "Gen Chem I for Phy Sci & Engr",
+    "info": "Advanced introduction to atomic theory. Periodic properties of elements. Behavior of gases, liquids, and solids. Molecular/ionic structure, bonding. Aspects of organic chemistry, spectroscopy, and polymers. Mathematically demanding quantitative problems. Writing for scientific journals.\n\nPrereq: Math placement of MATH 1271 OR grade of at least C- in MATH 1151 or 1155\n\nConcurrent registration is required in 1065; registration for 1065 must precede registration for 1071",
+    "prereq": {
+      "or": [
+        {
+          "code": "MATH 1271",
+          "subject": "MATH",
+          "id": "1271"
+        },
+        {
+          "code": "MATH 1151",
+          "subject": "MATH",
+          "id": "1151"
+        },
+        {
+          "code": "CHEM 1155",
+          "subject": "CHEM",
+          "id": "1155"
+        },
+        {
+          "code": "CHEM 1065",
+          "subject": "CHEM",
+          "id": "1065"
+        }
+      ]
+    }
+  },
+  {
+    "code": "CHEM 1072",
+    "subject": "CHEM",
+    "id": "1072",
+    "title": "CSE Chemical Principles II",
+    "info": "Advanced introduction. Chemical kinetics/reaction mechanisms, chemical/physical equilibria, acids/bases, entropy/second law of thermodynamics, electrochemistry/corrosion; descriptive chemistry of elements; coordination chemistry; biochemistry.",
+    "prereq": []
+  },
+  {
     "code": "CHEM 1081",
     "subject": "CHEM",
     "id": "1081",
     "title": "Chemistry for Life Sciences I",
-    "info": "The topics of atomic theory, molecular structure, bonding and shape, energy and enthalpy, gases, properties of solutions, and equilibrium will be presented along with their application to biological systems. Intended to provide a strong chemistry background for students pursuing life science related majors or careers in life science related fields.\n\nprereq: grade of a C- or better in CHEM 1015 or passing chemistry placement exam.",
+    "info": "The topics of atomic theory, molecular structure, bonding and shape, energy and enthalpy, gases, properties of solutions, and equilibrium will be presented along with their application to biological systems. Intended to provide a strong chemistry background for students pursuing life science related majors or careers in life science-related fields.\n\nPrereq: Math placement of MATH 1151 or grade of at least C- in MATH 1031 or 1051 or CI 1806\n\nConcurrent registration is required in 1065; registration for 1065 must precede registration for 1081.",
     "prereq": {
-      "code": "CHEM 1015",
-      "subject": "CHEM",
-      "id": "1015"
+      "or": [
+        {
+          "code": "MATH 1151",
+          "subject": "MATH",
+          "id": "1151"
+        },
+        {
+          "code": "MATH 1031",
+          "subject": "MATH",
+          "id": "1031"
+        },
+        {
+          "code": "CHEM 1051",
+          "subject": "CHEM",
+          "id": "1051"
+        },
+        {
+          "code": "CI 1806",
+          "subject": "CI",
+          "id": "1806"
+        },
+        {
+          "code": "CHEM 1065",
+          "subject": "CHEM",
+          "id": "1065"
+        }
+      ]
     }
   },
   {
@@ -240,7 +310,7 @@
     "subject": "CHEM",
     "id": "1902",
     "title": "Chem to Modern Med",
-    "info": "Chemistry has evolved from a field based on scientific curiosity and inquiry to a central science that continues to impact our daily lives with life-saving medicines and high-tech materials. The personal narratives that led to these discoveries are both exciting and informative about how we view this science in its current form. To provide a foundation for understanding the chemistry that affects our everyday lives, this course will discuss the stories behind several landmark discoveries, from the foundational work in synthetic dyes that color our clothes, to the search for Ehrlich's \\\"magic bullets\\\" that led to the first antibiotics and anti-cancer drugs. Course content will be focused around excerpts from written texts, invited speakers, inspirational TED talks, and interactive hands-on exercises will also be incorporated into our exploration uncovering the wonders of chemistry and its impact on our daily lives. No advanced chemistry background is required.",
+    "info": "Chemistry has evolved from a field based on scientific curiosity and inquiry to a central science that continues to impact our daily lives with life-saving medicines and high-tech materials. The personal narratives that led to these discoveries are both exciting and informative about how we view this science in its current form. To provide a foundation for understanding the chemistry that affects our everyday lives, this course will discuss the stories behind several landmark discoveries, from the foundational work in synthetic dyes that color our clothes, to the search for Ehrlich's \"magic bullets\" that led to the first antibiotics and anti-cancer drugs. Course content will be focused around excerpts from written texts, invited speakers, inspirational TED talks, and interactive hands-on exercises will also be incorporated into our exploration uncovering the wonders of chemistry and its impact on our daily lives. No advanced chemistry background is required.",
     "prereq": []
   },
   {
@@ -248,7 +318,7 @@
     "subject": "CHEM",
     "id": "1903",
     "title": "Chemistry in the Kitchen",
-    "info": "This seminar will look at the chemistry behind cooking and baking. In this course, we'll cover topics such as coffee roasting, gluten formation, caramelization, \\\"unscrambling\\\" an egg, the science of ice cream, and molecular gastronomy. We will discuss some of the fundamental processes and chemical transformation that occur when we step into the kitchen. In addition to chemistry, this course will touch on interdisciplinary concepts from biochemistry, neuroscience, materials science, and physics.",
+    "info": "This seminar will look at the chemistry behind cooking and baking. In this course, we'll cover topics such as coffee roasting, gluten formation, caramelization, \"unscrambling\" an egg, the science of ice cream, and molecular gastronomy. We will discuss some of the fundamental processes and chemical transformation that occur when we step into the kitchen. In addition to chemistry, this course will touch on interdisciplinary concepts from biochemistry, neuroscience, materials science, and physics.",
     "prereq": []
   },
   {
@@ -304,7 +374,7 @@
     "subject": "CHEM",
     "id": "1911W",
     "title": "Quant Mech & Popular Philos",
-    "info": "One may argue about its causal role in these matters, but there is no doubt that the language of quantum mechanics has provided a powerful new set of metaphors with which to express our understanding of ourselves and our place in the overall scheme of things. We will begin with an introduction to some of the basic ideas of quantum mechanics, including the uncertainty principle and wave/particle duality, and discuss some of the quantum paradoxes that highlight the counter-intuitive nature of these concepts. We will then go on to discuss the reflection of these ideas in popular books, articles, and web sites concerning religion, mythology, and philosophy.\n",
+    "info": "One may argue about its causal role in these matters, but there is no doubt that the language of quantum mechanics has provided a powerful new set of metaphors with which to express our understanding of ourselves and our place in the overall scheme of things. We will begin with an introduction to some of the basic ideas of quantum mechanics, including the uncertainty principle and wave/particle duality, and discuss some of the quantum paradoxes that highlight the counter-intuitive nature of these concepts. We will then go on to discuss the reflection of these ideas in popular books, articles, and web sites concerning religion, mythology, and philosophy.",
     "prereq": []
   },
   {
@@ -312,7 +382,7 @@
     "subject": "CHEM",
     "id": "1912",
     "title": "Quant Mechanics and Theology",
-    "info": "During the first half of the semester, we will introduce the fundamental ideas of quantum mechanics, including wave/particle duality and the uncertainty principle. We will also discuss some of the paradoxes that highlight the counter-intuitive nature of these concepts and illustrate the properties of indeterminacy, entanglement, nonlocality, interconnectedness, and other aspects of \\\"quantum weirdness\\\".  During the second half of the semester, through students' presentations and papers on topics of their choice, we will explore the reflections of these ideas in theology and related topics.",
+    "info": "During the first half of the semester, we will introduce the fundamental ideas of quantum mechanics, including wave/particle duality and the uncertainty principle. We will also discuss some of the paradoxes that highlight the counter-intuitive nature of these concepts and illustrate the properties of indeterminacy, entanglement, nonlocality, interconnectedness, and other aspects of \"quantum weirdness\".  During the second half of the semester, through students' presentations and papers on topics of their choice, we will explore the reflections of these ideas in theology and related topics.",
     "prereq": []
   },
   {
@@ -328,7 +398,7 @@
     "subject": "CHEM",
     "id": "1914",
     "title": "Sustainability: Promote Change",
-    "info": "Sustainability is becoming increasingly important in our daily lives from the food we eat and the plastic products we use every day to turning the lights off when not in use! This seminar will focus on giving students a broad overview of what sustainability means in the field of science and engineering. We will survey the United Nations Sustainable Development goals and touch on topics in renewable energy, farming and food, environment and water, along with sustainable technologies and innovation. Special attention will be placed on green chemistry along with learning about the plastics problem, and understanding how researchers are creating sustainable technologies with recyclability/degradability.",
+    "info": "Sustainability is becoming increasingly important in our daily lives from the food we eat and the plastic products we use every day to turning the lights off when not in use! This seminar will focus on giving students a broad overview of what sustainability means in the field of science and engineering. We will survey the United Nations Sustainable Development goals and touch on topics in renewable energy, farming and food, environment and water, along with sustainable technologies and innovation. Special attention will be placed on green chemistry along with learning about the plastics problem and understanding how researchers are creating sustainable technologies with recyclability/degradability.",
     "prereq": []
   },
   {
@@ -352,7 +422,7 @@
     "subject": "CHEM",
     "id": "2081",
     "title": "Chemistry for Life Science III",
-    "info": "The topics of spectroscopy, conjugation and aromaticity, carbonyl and their reactivity, carboxylic acid derivatives, and electrophilic aromatic substitution  reactions will be presented along with their application to biological systems. Intended to provide a strong chemistry background for students pursuing life science related majors or careers in life science related fields.\n\nprereq: grade of a C- or better in CHEM 1082 (lecture) and CHEM 1086 (lab). This course is recommended for CBS majors.",
+    "info": "The topics of spectroscopy, conjugation and aromaticity, carbonyl and their reactivity, carboxylic acid derivatives, and electrophilic aromatic substitution reactions will be presented along with their application to biological systems. Intended to provide a strong chemistry background for students pursuing life science related majors or careers in life science related fields.\n\nprereq: grade of a C- or better in CHEM 1082 (lecture) and CHEM 1086 (lab)",
     "prereq": {
       "and": [
         {
@@ -605,7 +675,7 @@
     "subject": "CHEM",
     "id": "4011",
     "title": "Mech of Chem React",
-    "info": "Reaction mechanisms, methods of study. Mechanistic concepts. Gas phase reactions. \\\"Electron pushing\\\" mechanisms in organic/enzymatic reactions. Kinetic schemes, other strategies.\n\nprereq: [2302, 4501] or equiv",
+    "info": "Reaction mechanisms, methods of study. Mechanistic concepts. Gas phase reactions. \"Electron pushing\" mechanisms in organic/enzymatic reactions. Kinetic schemes, other strategies.\n\nprereq: [2302, 4501] or equiv",
     "prereq": {
       "and": [
         {
@@ -1170,26 +1240,12 @@
     "code": "CHEM 4701",
     "subject": "CHEM",
     "id": "4701",
-    "title": "Inorg Chem",
-    "info": "Periodic trends. Structure/bonding in compounds where s and p electrons are important. Descriptive chemistry of solids and transition metal compounds. Transition metal chemistry. Topics in main group and materials chemistry.\n\nprereq: [2311 or concurrent registration is required (or allowed) in 2311], [4501 or concurrent registration is required (or allowed) in 4501 or 4502 or concurrent registration is required (or allowed) in 4502]",
+    "title": "Inorganic Chemistry",
+    "info": "Periodic trends. Structure/bonding in compounds where s and p electrons are important. Descriptive chemistry of solids and transition metal compounds. Transition metal chemistry. Topics in main group and materials chemistry.\n\nprereq: 2302 or 2332H",
     "prereq": {
-      "and": [
-        {
-          "code": "CHEM 2311",
-          "subject": "CHEM",
-          "id": "2311"
-        },
-        {
-          "code": "CHEM 4501",
-          "subject": "CHEM",
-          "id": "4501"
-        },
-        {
-          "code": "CHEM 4502",
-          "subject": "CHEM",
-          "id": "4502"
-        }
-      ]
+      "code": "CHEM 2302",
+      "subject": "CHEM",
+      "id": "2302"
     }
   },
   {
@@ -1309,7 +1365,7 @@
     "subject": "CHEM",
     "id": "8011",
     "title": "Mech of Chem React",
-    "info": "Reaction mechanisms and methods of study. Mechanistic concepts in chemistry. Gas phase reactions to mechanisms, \\\"electron pushing\\\" mechanisms in organic reactions, mechanism of enzymatic reactions. Kinetic schemes and other strategies to investigate mechanisms.\n\nprereq: 2302 or equiv",
+    "info": "Reaction mechanisms and methods of study. Mechanistic concepts in chemistry. Gas phase reactions to mechanisms, \"electron pushing\" mechanisms in organic reactions, mechanism of enzymatic reactions. Kinetic schemes and other strategies to investigate mechanisms.\n\nprereq: 2302 or equiv",
     "prereq": {
       "code": "CHEM 2302",
       "subject": "CHEM",

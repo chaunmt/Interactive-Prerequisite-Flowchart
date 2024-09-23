@@ -92,7 +92,7 @@
     "subject": "FSCN",
     "id": "1906",
     "title": "Farm to Table: Food Access",
-    "info": "Overview\nThis course explores a potential theory of gradually changing the food system to better include meaningful and relevant practical, healthy, affordable, desirable (PHAD) foods that will enhance the nutrition of the general population and ultimately enhance public health. We will foster essential leadership qualities, skills, and knowledge to work toward collective solutions around adaptive challenges. We will create a valid, reliable, and sustainable process for the development of practical, healthier, affordable, and desirable foods.\n",
+    "info": "OverviewThis course explores a potential theory of gradually changing the food system to better include meaningful and relevant practical, healthy, affordable, desirable (PHAD) foods that will enhance the nutrition of the general population and ultimately enhance public health. We will foster essential leadership qualities, skills, and knowledge to work toward collective solutions around adaptive challenges. We will create a valid, reliable, and sustainable process for the development of practical, healthier, affordable, and desirable foods.",
     "prereq": []
   },
   {
@@ -214,7 +214,7 @@
     "subject": "FSCN",
     "id": "3667",
     "title": "ProfessionsDietetics/Nutrition",
-    "info": "An overview of the dietetics and nutrition profession: career options; portfolio development; professional materials and resources; credentialing; and professional topics. Preparation for the next steps toward becoming a registered dietitian. \n\nprereq: Sophomore or Junior in the Nutrition Major. Admitted to (or planning to apply to) the Didactic Program in Dietetics (DPD) sub-plan of the Nutrition major.  Strongly recommended to be taken as Sophomore or Junior",
+    "info": "An overview of the dietetics and nutrition profession: career options; portfolio development; professional materials and resources; credentialing; and professional topics. Preparation for the next steps toward becoming a registered dietitian. prereq: Sophomore or Junior in the Nutrition Major. Admitted to (or planning to apply to) the Didactic Program in Dietetics (DPD) sub-plan of the Nutrition major.  Strongly recommended to be taken as Sophomore or Junior",
     "prereq": []
   },
   {
@@ -298,8 +298,8 @@
     "code": "FSCN 4112",
     "subject": "FSCN",
     "id": "4112",
-    "title": "Food Chem & Funct Foods",
-    "info": "Most-important food constituents, their occurrence, structures, functional properties, and health benefits. Proteins, lipids, carbohydrates, water. Vitamins, minerals, enzymes, phytochemicals, food additives, contaminants.\n\nprereq: 3102, BIOC 3021",
+    "title": "Food Chem & Functional Foods",
+    "info": "Most-important food constituents, their occurrence, structures, functional properties, and health benefits. Proteins, lipids, carbohydrates, water. Vitamins, minerals, enzymes, phytochemicals, food additives, contaminants.\n\nprereq: FSCN 3102, BIOC 3021",
     "prereq": {
       "and": [
         {
@@ -414,7 +414,7 @@
     "subject": "FSCN",
     "id": "4131",
     "title": "Food Quality",
-    "info": "This course is designed to give students an overview of the management systems, statistical procedures, and regulatory requirements involved with producing quality food and ingredients. The course material includes risk assessment and management, good manufacturing practices, hazard analysis critical control point (HACCP), statistical methods for process control, total quality management, and food and drug laws. The course is intended primarily for upper division undergraduates majoring in food science.\n\nprereq: jr",
+    "info": "This course is designed to give students an overview of the management systems, statistical procedures, and regulatory requirements involved with producing quality food and ingredients. The course material includes risk assessment and management, good manufacturing practices, hazard analysis critical control point (HACCP), statistical methods for process control, total quality management, and food and drug laws. The course is intended primarily for upper-division undergraduates majoring in food science.\n\nprereq: jr or sr",
     "prereq": []
   },
   {
@@ -726,8 +726,31 @@
     "subject": "FSCN",
     "id": "4621",
     "title": "Nutrition and Metabolism",
-    "info": "Carbohydrate, lipid, protein metabolism. Uses systems/holistic approach to emphasize how metabolic pathways interrelate. Prequisite courses: FSCN 4612, BIOC 3021, ANSC 3301",
-    "prereq": []
+    "info": "Carbohydrate, lipid, protein metabolism. Uses systems/holistic approach to emphasize how metabolic pathways interrelate. \n\nprereq: FSCN 4612, BIOC 3021; ANSC 3301 or PHSL 3051",
+    "prereq": {
+      "and": [
+        {
+          "code": "FSCN 4612",
+          "subject": "FSCN",
+          "id": "4612"
+        },
+        {
+          "code": "BIOC 3021",
+          "subject": "BIOC",
+          "id": "3021"
+        },
+        {
+          "code": "ANSC 3301",
+          "subject": "ANSC",
+          "id": "3301"
+        },
+        {
+          "code": "PHSL 3051",
+          "subject": "PHSL",
+          "id": "3051"
+        }
+      ]
+    }
   },
   {
     "code": "FSCN 4622",
@@ -751,32 +774,6 @@
       "code": "FSCN 4665",
       "subject": "FSCN",
       "id": "4665"
-    }
-  },
-  {
-    "code": "FSCN 4665",
-    "subject": "FSCN",
-    "id": "4665",
-    "title": "Medical Nutrition Therapy I",
-    "info": "Nutrition care process, with a focus on nutrition assessment and support, and on pathophysiology, management, and nutrition care of disease and injury, e.g. gastrointestinal (GI), pancreatic, hepatic, and pulmonary disorders; surgery/trauma/burns; and cancer. \n \nprereq: FSCN 4612, PHSL 3051, BIOC 3021",
-    "prereq": {
-      "and": [
-        {
-          "code": "FSCN 4612",
-          "subject": "FSCN",
-          "id": "4612"
-        },
-        {
-          "code": "PHSL 3051",
-          "subject": "PHSL",
-          "id": "3051"
-        },
-        {
-          "code": "BIOC 3021",
-          "subject": "BIOC",
-          "id": "3021"
-        }
-      ]
     }
   },
   {
@@ -1078,7 +1075,7 @@
     "subject": "FSCN",
     "id": "5531",
     "title": "Grains: Cereal Chem & Tech",
-    "info": "Origins, structure, biochemistry, and cellular properties of major cereal grains as they relate to primary processing (milling) and secondary processing (production of cereal products).prereq: Biol 1009, Chem 1022 or Graduate Student ",
+    "info": "Origins, structure, biochemistry, and cellular properties of major cereal grains as they relate to primary processing (milling) and secondary processing (production of cereal products).\n\nprereq: Biol 1009, Chem 1022 or Graduate Student ",
     "prereq": {
       "and": [
         {
@@ -1128,7 +1125,7 @@
     "subject": "FSCN",
     "id": "5621W",
     "title": "Nutrition and Metabolism",
-    "info": "Carbohydrate, lipid, and protein metabolism. Uses \\\"systems\\\" or \\\"holistic\\\" approach to emphasize how metabolic pathways interrelate.",
+    "info": "Carbohydrate, lipid, and protein metabolism. Uses \"systems\" or \"holistic\" approach to emphasize how metabolic pathways interrelate.",
     "prereq": []
   },
   {

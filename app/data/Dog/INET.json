@@ -36,26 +36,44 @@
     "subject": "INET",
     "id": "3101",
     "title": "C Programming: Language&Apps",
-    "info": "Syntax of C language. How other languages use C to interact with operating system. Debugging. Assignments build upon real-world programming examples to demonstrate how/where to use C. Scripting using languages such as UNIX shell and Perl.\n\nprereq: Programming experience or completed coursework in [Java or C+ or similar programming language]",
-    "prereq": []
+    "info": "Syntax of C language. How other languages use C to interact with operating system. Debugging. Assignments build upon real-world programming examples to demonstrate how/where to use C. Scripting using languages such as UNIX shell and Perl.  \n\nprereq: CSCI 1913 or 1933.",
+    "prereq": {
+      "or": [
+        {
+          "code": "CSCI 1913",
+          "subject": "CSCI",
+          "id": "1913"
+        },
+        {
+          "code": "INET 1933",
+          "subject": "INET",
+          "id": "1933"
+        }
+      ]
+    }
   },
   {
     "code": "INET 3102",
     "subject": "INET",
     "id": "3102",
     "title": "Web Infrastructure",
-    "info": "Infrastructure of the web, from its fundamental protocol (HTTP) to the organization and use of large-scale components and services. Cloud offerings (compute, storage, queuing) and platforms (AWS, Google Apps, Heroku).\n\nprereq: [3101, CSCI 2021] or equiv IT experience",
+    "info": "Infrastructure of the web, from its fundamental protocol (HTTP) to the organization and use of large-scale components and services. Cloud offerings (compute, storage, queuing) and platforms (AWS, Google Apps, Heroku).  \n\nprereq: CSCI 1913 or 1933; INET 3101.",
     "prereq": {
-      "and": [
+      "or": [
+        {
+          "code": "CSCI 1913",
+          "subject": "CSCI",
+          "id": "1913"
+        },
+        {
+          "code": "INET 1933",
+          "subject": "INET",
+          "id": "1933"
+        },
         {
           "code": "INET 3101",
           "subject": "INET",
           "id": "3101"
-        },
-        {
-          "code": "CSCI 2021",
-          "subject": "CSCI",
-          "id": "2021"
         }
       ]
     }
@@ -73,18 +91,18 @@
     "subject": "INET",
     "id": "4001",
     "title": "Foundations Operating Systems",
-    "info": "Although the concept of an operating system has some core components, such as I/O, storage, CPU scheduling, process, and synchronization, the ways we use computing devices are radically changing. With the advent of concepts like IoT (internet of things), we need to not just simply take a single concept of a computer (PC or server) as de facto standard, we must adapt and understand how the core components that make up an operating system change how we need to use these components. We also have the ability to consume OS resources via networking like never before. What is commonly called \\\"cloud computing\\\" has now stretched what we think of a compute device across the globe as a connected system of services/processes. This course will start from the beginning of computing (briefly) to ground what we are actually trying to do with compute devices. From here, we'll understand the foundation of operating system components, but not just from a single platform. An introduction to cloud computing is essential as well, as there are many components we consume via compute devices that are across a WAN circuit as a \\\"service.\\\"\n\nPrerequisites:  CSci 2021 or EE 2361\n",
+    "info": "Although the concept of an operating system has some core components, such as I/O, storage, CPU scheduling, process, and synchronization, the ways we use computing devices are radically changing. With the advent of concepts like IoT (internet of things), we need to not just simply take a single concept of a computer (PC or server) as de facto standard, we must adapt and understand how the core components that make up an operating system change how we need to use these components. We also have the ability to consume OS resources via networking like never before. What is commonly called \"cloud computing\" has now stretched what we think of a compute device across the globe as a connected system of services/processes. This course will start from the beginning of computing (briefly) to ground what we are actually trying to do with computer devices. From here, we'll understand the foundation of operating system components, but not just from a single platform. An introduction to cloud computing is essential as well, as there are many components we consume via compute devices that are across a WAN circuit as a \"service.\" \nprereq: CSCI 1913 or 1933.",
     "prereq": {
       "or": [
         {
-          "code": "CSCI 2021",
+          "code": "CSCI 1913",
           "subject": "CSCI",
-          "id": "2021"
+          "id": "1913"
         },
         {
-          "code": "EE 2361",
-          "subject": "EE",
-          "id": "2361"
+          "code": "INET 1933",
+          "subject": "INET",
+          "id": "1933"
         }
       ]
     }
@@ -94,18 +112,18 @@
     "subject": "INET",
     "id": "4002",
     "title": "Foundations of Networking",
-    "info": "Basics of data communications and computer networks. Foundations of network protocols, data communications models, networking devices, and network types.  Local area, wide area, and wireless networks and their uses in business applications. Network monitoring, troubleshooting, security, and management fundamentals, including their application in enterprise networking. 3 credits.\n\nNo prerequisites, but basic knowledge of computer architecture and operating systems is recommended. Note that credit will be granted for either INet 4002 or CSci 4211, but not both.",
+    "info": "Basics of data communications and computer networks. Foundations of network protocols, data communications models, networking devices, and network types.  Local area, wide area, and wireless networks and their uses in business applications. Network monitoring, troubleshooting, security, and management fundamentals, including their application in enterprise networking. 3 credits. Note that credit will be granted for either INet 4002 or CSci 4211, but not both.  \n\nprereq:  INET 4001.",
     "prereq": {
-      "code": "CSCI 4211",
-      "subject": "CSCI",
-      "id": "4211"
+      "code": "INET 4001",
+      "subject": "INET",
+      "id": "4001"
     }
   },
   {
     "code": "INET 4007",
     "subject": "INET",
     "id": "4007",
-    "title": "Security II: Cyber Security",
+    "title": "Security II: Cloud Secur Strat",
     "info": "An exploration of information security, how it applies to current networking technologies, and ways these technologies are used and consumed. New authentication methods for securing user data, such as telemetry, biometrics, and N factor authentication, will be surveyed. The course will also look at recent instances of information breaches that have put a spotlight on security, especially as they relate to cloud services, virtual environments, and Internet standards.\n\nNo prerequisites. Basic knowledge of security issues and processes (detection, risk assessment, technology, secure design, business continuity, forensics, and legal aspects) is recommended. If you have taken INet 4165, you will be well prepared. If you are unsure about whether your knowledge is sufficient for success in this class, contact the instructor.",
     "prereq": {
       "code": "INET 4165",
@@ -117,61 +135,79 @@
     "code": "INET 4011",
     "subject": "INET",
     "id": "4011",
-    "title": "Networking I: Network Admin",
-    "info": "A combination of networking theory (lecture and expert guest speakers) and application (lab work). Topics include network architecture, switching, routing, algorithms, protocols, infrastructure hardware, cable plant, security, and network management.\n\nprereq: CSCI 4211-Introduction to Computer Networks or equivalent networking knowledge and understanding.",
+    "title": "Networking I: Netwk Infr & Adm",
+    "info": "A combination of networking theory (lecture and expert guest speakers) and application (lab work). Topics include network architecture, switching, routing, algorithms, protocols, infrastructure hardware, cable plant, security, and network management.\n\nRecommended prerequisite:  INET 4002",
     "prereq": {
-      "code": "CSCI 4211",
-      "subject": "CSCI",
-      "id": "4211"
+      "code": "INET 4002",
+      "subject": "INET",
+      "id": "4002"
     }
   },
   {
     "code": "INET 4021",
     "subject": "INET",
     "id": "4021",
-    "title": "Dev Ops I: Network Programming",
-    "info": "Network and distributed programming concepts. Design using C, Java, and other higher-level programming languages. Sockets, TCP/IP, RPC, streaming, CORBA, .NET, and SOAP. Labs use UNIX/Linux and MS Windows operating systems.\n\nprereq: major admission requirements completed. ",
-    "prereq": []
+    "title": "Dev Ops I: Fndns Netwrk Coding",
+    "info": "DevOps merges software development and IT operations into a unified process aimed at automating the software lifecycle, enhancing teamwork, speeding up deployments, and improving quality. It’s built on continuous improvement, shortening the time from development to production without sacrificing quality. DevOps is crucial in today’s technology-driven market, providing a significant edge by enabling rapid, high-quality software delivery. It breaks down barriers between teams, fosters collaboration, and speeds up problem-solving, leading to more robust products. Practices like continuous integration and deployment help organizations quickly adjust to market shifts, enhance user satisfaction, and mitigate risks. Adopting DevOps boosts efficiency and innovation, making it essential for competitiveness in the digital age. INET 4021 offers students an in-depth look at the essential coding principles underlying network operations, pivotal for refining DevOps methodologies. This course covers distributed programming and key network concepts, preparing students to enhance DevOps procedures effectively. Participants will learn about the use of sockets as an API for web communications, examining both stateless and stateful approaches to managing client/server dynamics. Through hands-on labs focused on Java application development with servlets, the course provides practical experience with TCP/IP socket programming, understanding the HTTP protocol, and applying stateless and stateful communication techniques. This base of knowledge is indispensable for diagnosing and improving network performance within a DevOps framework, involving technologies like C, Java, Sockets, TCP/IP, and RPC, in UNIX/Linux settings. \n\nSample textbooks: Internetworking with TCP/IP, Volume 3 by Douglas E. Comer; An Introduction to Network Programming with Java by Jan Grab\n\nRecommended prerequisites:  CSCI 1913 or CSCI 1933; INET 2001\n",
+    "prereq": {
+      "or": [
+        {
+          "code": "CSCI 1913",
+          "subject": "CSCI",
+          "id": "1913"
+        },
+        {
+          "code": "CSCI 1933",
+          "subject": "CSCI",
+          "id": "1933"
+        },
+        {
+          "code": "INET 2001",
+          "subject": "INET",
+          "id": "2001"
+        }
+      ]
+    }
   },
   {
     "code": "INET 4031",
     "subject": "INET",
     "id": "4031",
     "title": "Introduction to Systems",
-    "info": "Overview of systems administration. Integration of hardware, software, and operational practice. Role of a systems administrator in today's infrastructure world, the environment within which the administrator operates, and various components that influence decision-making criteria. Ways these technologies are implemented in practice are conveyed through industry speakers, tours, and demonstrations. Hands-on labs when possible.\n\nprereq: Secure knowledge of operating systems, such as provided by INet 4001 or CSci 4061.",
+    "info": "Overview of systems administration. Integration of hardware, software, and operational practice. Role of a systems administrator in today's infrastructure world, the environment within which the administrator operates, and various components that influence decision-making criteria. Ways these technologies are implemented in practice are conveyed through industry speakers, tours, and demonstrations. Hands-on labs when possible.  \n\nprereq: INET 4001.",
     "prereq": {
-      "and": [
-        {
-          "code": "INET 4001",
-          "subject": "INET",
-          "id": "4001"
-        },
-        {
-          "code": "CSCI 4061",
-          "subject": "CSCI",
-          "id": "4061"
-        }
-      ]
+      "code": "INET 4001",
+      "subject": "INET",
+      "id": "4001"
     }
   },
   {
     "code": "INET 4032",
     "subject": "INET",
     "id": "4032",
-    "title": "Systems I: Storage",
-    "info": "Information is one of the most valuable commodities of the 21st century. This course deals with the proper care and handling of enterprise data, whether the enterprise is a large multinational corporation, a family home, or something in between. Topics include storage network architecture and storage system design. We will examine data storage technology; local, network, and distributed storage; storage history; data protection policy and implementation (including redundancy, replication, backup, and archive storage); security; compression and encryption; and emerging technologies like Big Data, Cloud storage, AWS, Google, and vCloud Air.\n\nprereq: Fundamental understanding of an operating system such as Microsoft Windows, Linux, or Apple OSX, in the areas of file systems, I/O, computer architecture, and basic administration.",
+    "title": "Systems I: Ent Storag & Protec",
+    "info": "Information is one of the most valuable commodities of the 21st century. This course deals with the proper care and handling of enterprise data, whether the \"enterprise\" is a large multinational corporation, a family home, or something in between. Topics include storage network architecture and storage system design. We will examine data storage technology; local, network, and distributed storage; storage history; data protection policy and implementation (including redundancy, replication, backup, and archive storage); security; compression and encryption; and emerging technologies like Big Data, Cloud storage, AWS, Google, and vCloud Air.\n\nprereq: Fundamental understanding of an operating system such as Microsoft Windows, Linux, or Apple OSX, in the areas of file systems, I/O, computer architecture, and basic administration.",
     "prereq": []
   },
   {
     "code": "INET 4041",
     "subject": "INET",
     "id": "4041",
-    "title": "Networking II: Emerging Tech",
-    "info": "Emerging networking concepts, technologies, and applications. Topics will evolve to reflect current trends and expertise of the faculty, such as high speed networking, ATM, network security, wireless networks, multimedia, and electronic commerce. Each technology is considered for the underlying theory; the driving technological and business needs; the applications; the competing alternative technologies; and the design, implementation, and configuration of such systems. Case studies may be used to identify and analyze strategic issues and problems. Concepts and tools from this and previous ITI courses are applied to solve these problems and design realistic programs of action. Hands-on labs are included when possible. Industry speakers, tours, and demonstrations show practical applications. \n \nprereq: CSci 4211 or equivalent, or professional experience, to comprise a basic understanding and knowledge of operating systems, computer architecture, and probability theory. Senior status preferred.",
+    "title": "Networking II: Next-Gen Netwkg",
+    "info": "Emerging networking concepts, technologies, and applications. Topics will evolve to reflect current trends and expertise of the faculty, such as high-speed networking, ATM, network security, wireless networks, multimedia, and electronic commerce. Each technology is considered for the underlying theory; the driving technological and business needs; the applications; the competing alternative technologies; and the design, implementation, and configuration of such systems. Case studies may be used to identify and analyze strategic issues and problems. Concepts and tools from this and previous ITI courses are applied to solve these problems and design realistic programs of action. Hands-on labs are included when possible. Industry speakers, tours, and demonstrations show practical applications. \n \nprereq: INET 4002 and INET 4011, or equivalents, or professional experience, to comprise a basic understanding and knowledge of operating systems, computer architecture, and probability theory. Senior status preferred.",
     "prereq": {
-      "code": "CSCI 4211",
-      "subject": "CSCI",
-      "id": "4211"
+      "and": [
+        {
+          "code": "INET 4002",
+          "subject": "INET",
+          "id": "4002"
+        },
+        {
+          "code": "INET 4011",
+          "subject": "INET",
+          "id": "4011"
+        }
+      ]
     }
   },
   {
@@ -199,16 +235,29 @@
     "code": "INET 4061",
     "subject": "INET",
     "id": "4061",
-    "title": "Data Science I: Fundamentals",
-    "info": "Introduction to data science. Design strategies for business analytics: statistics for machine learning, core data mining models, data pipeline, visualization. Hands-on labs with data mining, statistics, and in-memory analytics software.\n\nprereq: Basic statistics and programming skills, laptop",
-    "prereq": []
+    "title": "Data Science I: Mach Lrng Esen",
+    "info": "Introduction to data science. Design strategies for business analytics: statistics for machine learning, core data mining models, data pipeline, visualization. Hands-on labs with data mining, statistics, and in-memory analytics software.\n\nRecommended prerequisites: CSCI 1913 or 1933, statistics.",
+    "prereq": {
+      "or": [
+        {
+          "code": "CSCI 1913",
+          "subject": "CSCI",
+          "id": "1913"
+        },
+        {
+          "code": "INET 1933",
+          "subject": "INET",
+          "id": "1933"
+        }
+      ]
+    }
   },
   {
     "code": "INET 4062",
     "subject": "INET",
     "id": "4062",
-    "title": "Data Science II",
-    "info": "This course is a follow-up to INET 4061: Data Science Fundamentals. It covers the tools required to apply and implement data science techniques such as mathematical programming libraries, cloud resources, and big data databases. It also gives an overview of advanced data science methodologies such as deep learning, reinforcement learning, recommendation systems, and linear programming. Previously offered as INET 4710.\n\nprereq: Basic programming knowledge (Java, Python, R). Linear algebra and calculus strongly recommended (e.g. MATH 2243 and 2263). INET 4061 strongly recommended.",
+    "title": "Data Science II: Adv Anlt & AI",
+    "info": "This course is a follow-up to INET 4061: Data Science Fundamentals. It covers the tools required to apply and implement data science techniques such as mathematical programming libraries, cloud resources, and big data databases. It also gives an overview of advanced data science methodologies such as deep learning, reinforcement learning, recommendation systems, and linear programming. Previously offered as INET 4710.\n\nprereq: Basic programming knowledge (Java, Python, R). Linear algebra and calculus strongly recommended (e.g., MATH 2243 and 2263). INET 4061 strongly recommended.",
     "prereq": {
       "and": [
         {
@@ -253,7 +302,7 @@
     "code": "INET 4083W",
     "subject": "INET",
     "id": "4083W",
-    "title": "Systems II: Analysis & Design",
+    "title": "Systems II: Sys Eng & Proj Mgt",
     "info": "Requirements management, analysis, and design of computer system solutions that meet business objectives. Materials and resources are intended to prepare students to be effective business analysts and systems analysts. Topics include the systems development life cycle, analysis and design tools and techniques, and communication strategies. As a writing intensive course, INET 4083W focuses especially on writing in information technology and the writing process and uses a case study and in-class exercises to develop analytical, technical, and communication skills. Students can expect to spend significant time in and out of class developing writing skills, thinking through the writing process, and drafting and revising written work. \n\nPrereq: INet 4082W (or equivalent project management experience) is recommended.",
     "prereq": {
       "code": "INET 4082",
@@ -265,12 +314,12 @@
     "code": "INET 4121",
     "subject": "INET",
     "id": "4121",
-    "title": "DevOps II: Dev Strategies",
-    "info": "DevOps (Development and Operations) is the term used to describe the collaboration of software engineers with the quality assurance and operations teams who test, deploy, and operate new systems. Its goal is to generate better and more continuous feedback regarding what is being developed, consumed, and operated, in order to increase delivery and deployment speed while maintaining system stability. Topics include configuration management, application deployment, monitoring of application and infrastructure performance, version control, and testing and building systems. Professional software engineering tools for the continuous integration tool chain are surveyed, and the Python language, combined with operating system and web functions, is used to develop tools for automating DevOps practices. (Though assignments are in Python, students with only Java or C++ should be able to learn Python quickly.)\n\nprereqs:  CSCI 4061 or operating system knowledge, basic knowledge of Python",
+    "title": "DevOps II: Python Autom & Inov",
+    "info": "This course moves the dialogue to using automation for increasing efficiency within the DevOps cycle. With a foundation in network coding, the course shifts attention to employing Python for streamlining the software development and deployment stages. It addresses core DevOps activities such as configuration management, application deployment, system monitoring, version control, and implementing CI/CD strategies. Through the use of Python, known for its ease of use and effectiveness, along with Jenkins, a versatile CI framework, students are guided in developing advanced automation scripts and systems that boost teamwork, optimize processes, and raise the bar for both development and operations groups. This course underscores the critical role of programming capabilities in developing creative responses to frequent DevOps hurdles, fostering a culture of persistent advancement and cooperation in today’s software development landscape. (Though assignments are in Python, students with only Java or C++ should be able to learn Python quickly.)\n \nSample textbook: Jez Humble, David Farley. Continuous Delivery: Reliable Software Releases Through Build, Test, and Deployment Automation.\n\nRecommended prerequisite:  INET 4001\n",
     "prereq": {
-      "code": "CSCI 4061",
-      "subject": "CSCI",
-      "id": "4061"
+      "code": "INET 4001",
+      "subject": "INET",
+      "id": "4001"
     }
   },
   {
@@ -293,12 +342,12 @@
     "code": "INET 4165",
     "subject": "INET",
     "id": "4165",
-    "title": "Security I: Principles",
-    "info": "An in-depth look at the information security profession. Focuses on real-world IT security issues and processes rather than any particular technology or product solution. Topics include risk assessments/pen testing, ethics, malicious code, preservation of business continuity/disaster recovery, security policies and procedures, security awareness, encryption, privacy and legal issues, intruder detection, forensics, secure web design, incident response, vulnerability assessment, and security audits.\n\nprereq: CSCI 4061 or equiv experience with operating systems\n",
+    "title": "Security I: Cybersecur Esentls",
+    "info": "An in-depth look at the information security profession. Focuses on real-world IT security issues and processes rather than any particular technology or product solution. Topics include risk assessments/pen testing, ethics, malicious code, preservation of business continuity/disaster recovery, security policies and procedures, security awareness, encryption, privacy and legal issues, intruder detection, forensics, secure web design, incident response, vulnerability assessment, and security audits.\n\nPrerequisite: INET 4001 or equivalent experience in operating systems and a general understanding of networks and the internet. ",
     "prereq": {
-      "code": "CSCI 4061",
-      "subject": "CSCI",
-      "id": "4061"
+      "code": "INET 4001",
+      "subject": "INET",
+      "id": "4001"
     }
   },
   {
@@ -322,7 +371,19 @@
     "subject": "INET",
     "id": "4707",
     "title": "Introduction to Databases",
-    "info": "This course prepares students to make decisions regarding the database technologies that should be included in an organization’s information technology portfolio. To that end, it covers:   \n1.  The theory and concepts of relational and NoSQL databases, the two predominant families of database technology.\n2.  How to represent data in technology-independent, relational, and NoSQL data models.\n3.  How to query relational and NoSQL databases, including hands-on experience with relational and NoSQL databases.\n4.  How to determine which categories of relational and/or NoSQL databases are appropriate for a given application.\n5.  Research into current and emerging database technology trends.\nRecommended prerequisites: INet 4001 or CSci 4061, at least 45 cr completed; CSci majors contact CSci Dept before registering.",
+    "info": "This course prepares students to make decisions regarding the database technologies that should be included in an organization’s information technology portfolio. To that end, it covers:   \n1.  The theory and concepts of relational and NoSQL databases, the two predominant families of database technology.\n2.  How to represent data in technology-independent, relational, and NoSQL data models.\n3.  How to query relational and NoSQL databases, including hands-on experience with relational and NoSQL databases.\n4.  How to determine which categories of relational and/or NoSQL databases are appropriate for a given application.\n5.  Research into current and emerging database technology trends. \nRecommended prerequisite: INET 4001.",
+    "prereq": {
+      "code": "INET 4001",
+      "subject": "INET",
+      "id": "4001"
+    }
+  },
+  {
+    "code": "INET 4709",
+    "subject": "INET",
+    "id": "4709",
+    "title": "Data Mgmt I: Data Systm Design",
+    "info": "This course provides insight into concepts and techniques for installing and managing highly scalable relational databases: storage, protection, structure, tuning, and access. Students will learn how to integrate business requirements into specific database policies and procedures. Topics include selection of hardware and software components, backup and disaster recovery, performance metrics, high availability, and monitoring techniques.  Hands-on lab exercises will utilize core concepts covered in lecture:  installation of MySQL, backup and recovery, import and export, security, transaction management, data partitioning, and database replication.   \n\nRecommended prerequisites:  INET 4001 and INET 4707.",
     "prereq": {
       "and": [
         {
@@ -331,30 +392,9 @@
           "id": "4001"
         },
         {
-          "code": "CSCI 4061",
-          "subject": "CSCI",
-          "id": "4061"
-        }
-      ]
-    }
-  },
-  {
-    "code": "INET 4709",
-    "subject": "INET",
-    "id": "4709",
-    "title": "Data Mgmt I: Fundamentals",
-    "info": "This course provides insight into concepts and techniques for installing and managing highly scalable relational databases: storage, protection, structure, tuning, and access. Students will learn how to integrate business requirements into specific database policies and procedures. Topics include selection of hardware and software components, backup and disaster recovery, performance metrics, high availability, and monitoring techniques.  Hands-on lab exercises will utilize core concepts covered in lecture:  installation of MySQL, backup and recovery, import and export, security, transaction management, data partitioning, and database replication.   \n\nprereq: INet/CSci 4707 and CSci 4061, or professional experience with SQL and basic operating systems.",
-    "prereq": {
-      "and": [
-        {
-          "code": "CSCI 4707",
-          "subject": "CSCI",
+          "code": "INET 4707",
+          "subject": "INET",
           "id": "4707"
-        },
-        {
-          "code": "CSCI 4061",
-          "subject": "CSCI",
-          "id": "4061"
         }
       ]
     }
@@ -363,22 +403,9 @@
     "code": "INET 4711",
     "subject": "INET",
     "id": "4711",
-    "title": "Data Manage II: Dist. Systems",
-    "info": "Introduction to distributed programming and systems concepts in high-scale environments with a focus on application to commercial systems in the data center. Discussion of key protocols and algorithms as well as best-practice implementations on platforms commonly associated with big data in the enterprise. Hands-on experience in the design and engineering of distributed systems on cloud-oriented technologies.\n\nprereq: INET 4031 and 4707 or consent of instructor.",
-    "prereq": {
-      "and": [
-        {
-          "code": "INET 4031",
-          "subject": "INET",
-          "id": "4031"
-        },
-        {
-          "code": "INET 4707",
-          "subject": "INET",
-          "id": "4707"
-        }
-      ]
-    }
+    "title": "Data Mgmt II: Dist Datbas Arch",
+    "info": "Introduction to distributed programming and systems concepts in high-scale environments with a focus on application to commercial systems in the data center. Discussion of key protocols and algorithms as well as best-practice implementations on platforms commonly associated with big data in the enterprise. Hands-on experience in the design and engineering of distributed systems on cloud-oriented technologies.\nINET 4031 and INET 4709, or consent of instructor.",
+    "prereq": []
   },
   {
     "code": "INET 5011",

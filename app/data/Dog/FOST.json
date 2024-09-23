@@ -84,7 +84,7 @@
     "subject": "FOST",
     "id": "1190",
     "title": "AESOP PRGRMS ABROAD",
-    "info": "Course used to award credit for work successfully completed in study abroad programs sponsored by other Big Ten universities and cosponsored by the University of Minnesota through AESOP, a study abroad \\\"common market\\\" arrangement of the Committee on Institutional Cooperation.",
+    "info": "Course used to award credit for work successfully completed in study abroad programs sponsored by other Big Ten universities and cosponsored by the University of Minnesota through AESOP, a study abroad \"common market\" arrangement of the Committee on Institutional Cooperation.",
     "prereq": []
   },
   {
@@ -932,7 +932,7 @@
     "subject": "FOST",
     "id": "3190",
     "title": "AESOP Programs Abroad",
-    "info": "Course used to award credit for work successfully completed in study abroad programs sponsored by other Big Ten universities and cosponsored by the University of Minnesota through AESOP, a study abroad \\\"common market\\\" arrangement of the Committee on Institutional Cooperation.",
+    "info": "Course used to award credit for work successfully completed in study abroad programs sponsored by other Big Ten universities and cosponsored by the University of Minnesota through AESOP, a study abroad \"common market\" arrangement of the Committee on Institutional Cooperation.",
     "prereq": []
   },
   {
@@ -1220,7 +1220,7 @@
     "subject": "FOST",
     "id": "3316",
     "title": "Study Abroad: Hlth/Soc Ecuador",
-    "info": "Study abroad placeholder course for the new program, \\\"Health and Society in Ecuador\\\"",
+    "info": "Study abroad placeholder course for the new program, \"Health and Society in Ecuador\"",
     "prereq": []
   },
   {
@@ -1254,6 +1254,27 @@
     "title": "Study Abroad: Venezuela",
     "info": "Semester or summer study in Venezuela through a University of Minnesota program administered by Learning Abroad Center and VENUSA. Spanish language, Venezuelan/Latin American studies.\n\nprereq: dept consent",
     "prereq": []
+  },
+  {
+    "code": "FOST 3332",
+    "subject": "FOST",
+    "id": "3332",
+    "title": "Global Identity",
+    "info": "Reflect on activities/readings of study abroad experiences overseas. E-journaling, written activities, group interaction using various formats.\n\nprereq: [3321 or EDPA 3102 or instr consent], studying abroad the semester student is enrolled in course",
+    "prereq": {
+      "or": [
+        {
+          "code": "FOST 3321",
+          "subject": "FOST",
+          "id": "3321"
+        },
+        {
+          "code": "EDPA 3102",
+          "subject": "EDPA",
+          "id": "3102"
+        }
+      ]
+    }
   },
   {
     "code": "FOST 3335",
