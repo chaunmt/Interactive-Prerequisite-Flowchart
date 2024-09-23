@@ -1,5 +1,5 @@
 // page with dynamic graph generation and search bar for courses in [subj]
-import Access, { allSubjects } from "../../data/access";
+import { Access, allSubjects } from "../../data/access";
 import { NavigationSearch } from "../../components/search/NavigationSearch";
 
 import { Search } from "../../data/search";
@@ -27,7 +27,7 @@ export default function Page({ params }) {
         <NavigationSearch/>
       </div>
       <div id="tableBox">
-        <CoursesTable SUBJ_COURSES={SUBJ_COURSES}/>
+        <CoursesTable courses={SUBJ_COURSES}/>
       </div>
     </div>
   );
