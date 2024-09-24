@@ -14,7 +14,7 @@ export { CoursesTable };
 function CoursesTable({ courses }: { courses: readonly Course[] }) {
   let build: build_options = {
     simplify: false, // set true to remove or/and distinction
-    decimate_orphans: true,
+    decimate_orphans: false, // this is only necessary if you're adding courses in bulk
   };
   let display: display_options = {
     // orientation: "TB",

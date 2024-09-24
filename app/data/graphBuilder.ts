@@ -21,7 +21,7 @@ const debug: {
   formatted?: boolean;
 } = {
   // process: true,
-  postprocess: true,
+  // postprocess: true,
   // raw_output: true,
   formatted: true, // some prints don't work right if this is off
 };
@@ -92,7 +92,7 @@ function buildGraph(input: build_options): GraphData {
 
   // filter out orphans
   function assist(graph: GraphData): GraphData {
-    let preserves = strong_orphans.map((sh) => `${sh.subject}_${sh.id}`);
+    let preserves = strong_orphans.map((sh) => `${sh.subject.toLowerCase()}${sh.id}`);
     let edges = graph.nodes
       .map((node) => {
         return node.inbound_edges.map((from) => {
