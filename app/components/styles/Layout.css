@@ -18,6 +18,7 @@ a {
   color: inherit;
 }
 
+
 #header {
   position: fixed;
   display: flex;
@@ -26,9 +27,9 @@ a {
   top: 0;
   left: 0;
   width: 100%;
-  height: 10%;
-  background-color: var(--header-bar);
-  padding: 0.5%;
+  /* height: 10%; */
+  /* background-color: var(--header-bar); */
+  /* padding: 0.5%; */
 
   border-style: solid;
   border-color: var(--header-bar-border);
@@ -65,17 +66,17 @@ a {
 
 #header ul li {
   display: flex;
-  padding: 10% 10%;
+  padding: 5% 8% 5% 8%;
   justify-content: center;
   align-items: center;
-  cursor: pointer;
-  border-radius: 0.4rem;
+  /* border-radius: 0.4rem; */
   font-weight: 600;
 }
 
-#header ul li:hover {
+#navigatable:hover {
   background-color: var(--header-block-hover);
   color: var(--dark-gray-2);
+  cursor: pointer;
 }
 
 #footer {

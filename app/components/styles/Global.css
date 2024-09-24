@@ -27,8 +27,13 @@
   --mild-gray-3: #d2d0d0;
   --dark-gray-1: #5d5d5d;
   --dark-gray-2: #3b413c;
+  /* ---------------------------- Dark Mode color variables ---------------------------- */
+
+  --header-black: #1B263B;
+  --primary-dark: #415A77;
 
   /* Color variables */
+  --background-color: var(--uom-offwhite);
   --header-bar: var(--mild-gray-2);
   --header-bar-border: var(--mild-gray-1);
   --header-text: black;
@@ -56,6 +61,7 @@
   --title: var(--maroon-red);
   --p-color: black;
   --p-color-hover: var(--maroon-red);
+
   
   /* ---------------------------- OLD Global color variables ---------------------------- */
   --bg-color: #eeeeee;
@@ -71,6 +77,6 @@
 
 body {
   /* Global fonts */
-  background: var(--uom-offwhite); /* offwhite color */
+  /* background: var(--background-color); */
   font-family: "Inter", "Inria Sans", sans-serif;
 }

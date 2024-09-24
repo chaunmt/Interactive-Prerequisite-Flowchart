@@ -25,7 +25,7 @@ export default function RootLayout({
 }) {
   return (
       <html lang="en">
-        <body className="bgImg">
+        <body className="bgImg dark:bg-gradient-to-t dark:from-slate-900 dark:from-39% dark:to-slate-700">
           <Providers>
             <Header />
               <main>{children}</main>

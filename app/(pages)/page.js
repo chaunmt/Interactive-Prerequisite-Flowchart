@@ -8,7 +8,7 @@ import Image from "next/image";
 
 export default function Page() {
   return (
-    <div class>
+    <div className="bg-transparent">
       <div>
         <Image
           id = "titleLogo"
