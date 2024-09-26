@@ -60,7 +60,6 @@ a {
   list-style-type: none;
   margin-right: 1%;
   gap: 0.2%;
-
 }
 
 #header ul li {
@@ -78,7 +77,7 @@ a {
   color: var(--dark-gray-2);
 }
 
-#footer {
+/* #footer {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -90,16 +89,15 @@ a {
   margin-top: auto;
   margin-bottom: 5vh;
   background-size: auto;
+} */
 
-}
-
-#footer #clubName {
+/* #footer #clubName {
   color: var(--footer-club-text);
 }
 
 #footer #github {
   color: var(--footer-github-text);
-}
+} */
 
 #titleLogo {
   display: block;
@@ -117,6 +115,6 @@ a {
 
 }*/
 
-h4 {
+/* h4 {
   color: #8b80f9;
-}
+} */
