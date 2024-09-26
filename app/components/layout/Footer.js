@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <div className="relative flex flex-col text-center items-center">
+    <div className="relative flex flex-col text-center items-center h-[10vh] w-full bg-auto mt-auto mb-[5vh] bottom-0;">
       {/* <div> */}
       <h2>© 2023 Social Coding</h2>
 
