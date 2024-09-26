@@ -4,7 +4,6 @@ import Footer from "../components/layout/Footer";
 import { Keywords } from "../components/layout/Meta";
 
 import { Metadata } from "next";
-import "../components/styles/Layout.css";
 
 export const metadata: Metadata = {
   title: {
@@ -24,7 +23,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bgImg">
+      <body className="relative z-[1] before:content-[''] min-h-screen before:absolute before:w-full before:h-full before:bg-[url(/logos/CFbg.png)] before:bg-no-repeat before:bg-center before:bg-fixed before:opacity-30 before:z-[-1] before:left-0 before:top-0">
         <Header />
         <main>{children}</main>
         <Footer />
