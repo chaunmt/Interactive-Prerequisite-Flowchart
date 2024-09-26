@@ -9,7 +9,7 @@
 #navSmall .Search input {
   border: 0;
   outline: 0;
-  background: var(--search-bar);
+  /* background: var(--search-bar); */
   padding: 2% 5%;
   border-radius: 2%;
   box-shadow: 0.05rem 0.05rem 0.2rem var(--shadow);
@@ -17,7 +17,7 @@
 
 #navSmall .Search .container {
   position: absolute;
-  background-color: var(--search-result-container);
+  /* background-color: var(--search-result-container); */
   box-shadow: 0rem 0rem 0.2rem var(--shadow);
   max-height: 15rem;
   width: 25rem;

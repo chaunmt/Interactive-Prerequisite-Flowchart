@@ -8,7 +8,7 @@
 #navBig .Search input {
   border: 0;
   outline: 0;
-  background: var(--search-bar);
+  /* background: var(--search-bar); */
   margin-top: 2%;
   width: 40%;
   max-height: 1rem;
@@ -31,4 +31,9 @@
 
 #navBig .Search ul li:hover {
   color: var(--p-color-hover);
+}
+
+/* Added to keep background color of navBig seperate from navSmall */
+#navBig .Search .container { 
+  background-color: transparent;
 }

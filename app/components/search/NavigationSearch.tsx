@@ -28,7 +28,7 @@ function SearchResultsList({
       {filteredData.length > 0 ? (
         filteredData.map((result, index) => (
           <li key={index}>
-            <Link href={result.href}>{result.display_text}</Link>
+            <Link href={result.href} className="dark:text-white">{result.display_text}</Link>
           </li>
         ))
       ) : (
@@ -75,7 +75,7 @@ function NavigationSearch() {
   return (
     <div className="Search">
       <SearchBar value={search} sendQuery={handleSearch} />
-      <div className="container">
+      <div className="container bg-slate-500">
         {search && <SearchResultsList filteredData={results} />}
       </div>
     </div>

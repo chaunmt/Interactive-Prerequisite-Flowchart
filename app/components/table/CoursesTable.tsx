@@ -24,13 +24,13 @@ function CoursesTable({ SUBJ_COURSES }: { SUBJ_COURSES: Course[] }) {
 
   return (
     <div id="containers">
-      <div id="coursesTable">{formatTable()}</div>
-      <div id="courseBox">
+      <div id="coursesTable" className="bg-stone-200 dark:text-slate-600 dark:bg-gray-800">{formatTable()}</div>
+      <div id="courseBox" className="bg-stone-200 dark:text-slate-600 dark:bg-gray-800">
         {selection[0] ? (
           // when at least one course is selected
-          <div id="infoBox">
+          <div id="infoBox" className="bg-white dark:bg-slate-900">
             <div id="infoBoxHead">
-              <h2>
+              <h2 className="dark:text-white">
                 {selection[0].code}
                 <br />
                 {selection[0].title}
@@ -41,11 +41,11 @@ function CoursesTable({ SUBJ_COURSES }: { SUBJ_COURSES: Course[] }) {
                 </button>
               </Link>
             </div>
-            <p>{selection[0].info}</p>
+            <p className="dark:text-white">{selection[0].info}</p>
           </div>
         ) : (
-          <div id="infoBox">
-            <p>
+          <div id="infoBox" className="bg-white dark:bg-slate-900">
+            <p className="dark:text-white">
               Please click on a course to add it to the graph. You may click
               multiple courses to display their prerequisites together. To
               remove a course from the graph, click it again.
@@ -80,7 +80,7 @@ function CoursesTable({ SUBJ_COURSES }: { SUBJ_COURSES: Course[] }) {
 
   function formatCard(course: Course) {
     return (
-      <button className="card" onClick={() => handleClickCard(course)}>
+      <button className="card bg-white dark:bg-slate-700 border-2 dark:border-indigo-200" onClick={() => handleClickCard(course)}>
         {course.id}
       </button>
     );
@@ -88,7 +88,7 @@ function CoursesTable({ SUBJ_COURSES }: { SUBJ_COURSES: Course[] }) {
 
   function formatTable() {
     return SUBJ_COURSES.map((course, index) => (
-      <div key={index}>{formatCard(course)}</div>
+      <div key={index} className="dark:text-indigo-200">{formatCard(course)}</div>
     ));
   }
 }

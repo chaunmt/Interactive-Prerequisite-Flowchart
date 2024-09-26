@@ -7,7 +7,7 @@ import {Button, ButtonGroup} from "@nextui-org/button";
 export default function Header() {
   //test dark mode branch
   return (
-    <div id="header" className="bg-stone-300 dark:bg-slate-900">
+    <div id="header" className="bg-stone-200 dark:bg-slate-900">
       <nav>
         <Link href={"/"}> 
           <Image 

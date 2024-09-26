@@ -27,7 +27,7 @@ export default function SearchBar({
       placeholder="Search By Class"
       value={value}
       onChange={sendQuery}
-      className="searchBar"
+      className="searchBar bg-stone-200 dark:caret-slate-600 dark:text-caret-slate-600 dark:text-slate-600"
     />
   );
 }

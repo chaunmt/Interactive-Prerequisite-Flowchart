@@ -2,14 +2,14 @@
 
 button.card {
   text-align: center;
-  background-color: var(--course-card);
+  /* background-color: var(--course-card); */
   border-radius: 0.2rem;
   padding: 0.5rem;
   width: 6rem;
   height: 3rem;
   font-size: 1.1rem;
   font-weight: bold;
-  border: none;
+  /* border: none; */
   box-shadow: 0rem 0rem 0.2rem var(--shadow);
 }
 
@@ -25,18 +25,18 @@ button.card {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(6rem, 1fr));
   gap: 0.5rem;
-  background-color: var(--graph-box);
+  /* background-color: var(--graph-box); */
   margin-right: 2%;
 }
 
 #courseBox {
-  background-color: var(--graph-box);
+  /* background-color: var(--graph-box); */
   width: 95%;
   margin-left: 2%;
 }
 
 #infoBox {
-  background-color: var(--info-box);
+  /* background-color: var(--info-box); */
   margin: 3%;
   padding-top: 0;
   padding-left: 2%;
