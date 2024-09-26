@@ -20,7 +20,7 @@ function Picker({
   return (
     <div>
       {items.map((item) => (
-        <div key={item.id}>
+        <div className="itemBox" key={item.id}>
           <button
             className="item"
             key={item.id}
