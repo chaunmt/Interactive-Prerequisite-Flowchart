@@ -18,7 +18,10 @@ export default function Header() {
       </nav>
       <ul className="justify-end flex flex-row list-none gap-[0.2%] mr-[1%]">
         {headerComponents.map((item, index) => (
-          <li className="flex justify-center items-center cursor-pointer font-semibold p-[10%] rounded-[0.4rem] hover:bg-[color:var(--header-block-hover)] hover:text-[color:var(--dark-gray-2)">
+          <li
+            key={index}
+            className="flex justify-center items-center cursor-pointer font-semibold p-[10%] rounded-[0.4rem] hover:bg-[color:var(--header-block-hover)] hover:text-[color:var(--dark-gray-2)"
+          >
             {index === 0 ? <Link href={"/"}>Home</Link> : <div>{item}</div>}
           </li>
         ))}
