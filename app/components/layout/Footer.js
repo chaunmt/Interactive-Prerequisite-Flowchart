@@ -13,7 +13,10 @@ export default function Footer() {
         <strong>Contribute to Github</strong>
       </Link>
 
-      <Link href="mailto:truon417@umn.edu" className="text-[#8b80f9]">
+      <Link
+        href="mailto:truon417@umn.edu"
+        className="text-[var(--hightlight-purple)]"
+      >
         <h4>Contact Us</h4>
       </Link>
     </div>
