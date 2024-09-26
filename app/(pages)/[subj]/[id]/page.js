@@ -4,14 +4,13 @@ import Link from "next/link";
 
 import Graph from "../../../components/graph/Graph";
 
-import Custom404 from "../../[errors]/404";
-
 import "../../../components/styles/Idpage.css";
 import "../../../components/styles/Layout.css";
 import "../../../components/styles/SearchBarSmall.css"
 
 import { FiDownload } from "react-icons/fi";
 import { IoReturnUpBackOutline } from "react-icons/io5";
+import { notFound } from "next/navigation";
 
 export async function generateMetadata({ params, searchParams }, parent) {
   return {
@@ -22,8 +21,8 @@ export async function generateMetadata({ params, searchParams }, parent) {
 export default function Page({ params }) {
   const SUBJ = params.subj.toUpperCase();
   const ID = params.id.toUpperCase();
-  if (!allSubjects.includes(SUBJ)) return <Custom404 />; // Display 404 page when subject is not available
-  if (!Access(SUBJ).ids.includes(ID)) return <Custom404 />; // Display 404 page when id is not available
+  if (!allSubjects.includes(SUBJ)) notFound()
+  if (!Access(SUBJ).ids.includes(ID)) notFound()
 
   let course = Access(SUBJ).getCourse(ID, "id");
   let build = {
