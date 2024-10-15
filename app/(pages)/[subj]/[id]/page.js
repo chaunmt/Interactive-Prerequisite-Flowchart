@@ -1,12 +1,12 @@
 import { Access, allSubjects } from "../../../data/access";
-import { NavigationSearch } from "../../../components/search/NavigationSearch";
+import NavigationSearchSmall from "../../../components/search/NavigationSearchSmall";
 import Link from "next/link";
 
 import Graph from "../../../components/graph/Graph";
 
 import "../../../components/styles/Idpage.css";
 import "../../../components/styles/Layout.css";
-import "../../../components/styles/SearchBarSmall.css"
+import "../../../components/styles/SearchBarSmall.css";
 
 import { FiDownload } from "react-icons/fi";
 import { IoReturnUpBackOutline } from "react-icons/io5";
@@ -21,23 +21,25 @@ export async function generateMetadata({ params, searchParams }, parent) {
 export default function Page({ params }) {
   const SUBJ = params.subj.toUpperCase();
   const ID = params.id.toUpperCase();
-  if (!allSubjects.includes(SUBJ)) notFound()
-  if (!Access(SUBJ).ids.includes(ID)) notFound()
+  if (!allSubjects.includes(SUBJ)) notFound();
+  if (!Access(SUBJ).ids.includes(ID)) notFound();
 
   let course = Access(SUBJ).getCourse(ID, "id");
   let build = {
     includes: [course],
-    simplify: false,  // set true to remove or/and distinction
-    decimate_orphans: false,  // if the current course is an orphan we probably shouldn't draw an empty graph
+    simplify: false, // set true to remove or/and distinction
+    decimate_orphans: false, // if the current course is an orphan we probably shouldn't draw an empty graph
   };
 
   return (
     <div id="content">
-      <div id="navSmall">
+      <div>
         <Link href={"/" + SUBJ}>
-          <button id="back"><IoReturnUpBackOutline /></button>
+          <button id="back">
+            <IoReturnUpBackOutline />
+          </button>
         </Link>
-        <NavigationSearch/>
+        <NavigationSearchSmall />
       </div>
       <div id="container">
         <div id="graph">
@@ -48,7 +50,9 @@ export default function Page({ params }) {
             >
               <b>*Possible Prerequisites</b>
             </div>
-            <button id="download"><FiDownload /></button>
+            <button id="download">
+              <FiDownload />
+            </button>
           </div>
           <Graph build={build} />
           {/* <Mermaid graph={graphString} /> */}
