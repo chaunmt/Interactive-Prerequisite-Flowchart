@@ -27,7 +27,6 @@ export default function SearchBar({
       placeholder="Search By Class"
       value={value}
       onChange={sendQuery}
-      className="searchBar"
     />
   );
 }
