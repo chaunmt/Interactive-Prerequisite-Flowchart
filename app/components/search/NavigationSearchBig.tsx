@@ -106,7 +106,7 @@ function NavigationSearchBig() {
   return (
     <div className="text-center mt-[5%]">
       <SearchBar value={search} sendQuery={handleSearch} />
-      <div className="absolute bg-search-result-container shadow-sm max-h-60 w-100 overflow-y-auto z-[999]">
+      <div className="bg-[var(--search-result-container)] shadow-sm max-h-60 w-100 overflow-y-auto z-[999]">
         {search && <SearchResultsList filteredData={results} />}
       </div>
     </div>
