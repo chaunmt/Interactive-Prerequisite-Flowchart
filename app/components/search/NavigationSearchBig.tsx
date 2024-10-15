@@ -1,11 +1,9 @@
-/**
- * NavigationSearch.tsx - Search UI whose results provide links to other pages
- */
 "use client";
-import SearchBar from "./SearchBar";
-import { Search } from "../../data/search";
-import React, { useState, useEffect } from "react";
+
+import { useState, useEffect } from "react";
 import Link from "next/link";
+import { Search } from "../../data/search";
+import SearchBar from "./SearchBar";
 
 interface NavigationSearchResult {
   display_text: string;
@@ -24,15 +22,20 @@ function SearchResultsList({
   // TODO: inline vs hoverable list options, many options, this is meant to be customizable
 
   return (
-    <ul className="list">
+    <ul className="mt-4">
       {filteredData.length > 0 ? (
         filteredData.map((result, index) => (
-          <li key={index}>
+          <li
+            key={index}
+            className="list-none pt-2 pr-2 text-gray-700 font-bold cursor-pointer hover:text-gray-900"
+          >
             <Link href={result.href}>{result.display_text}</Link>
           </li>
         ))
       ) : (
-        <li>No search results</li>
+        <li className="list-none pt-2 pr-2 text-gray-700 font-bold">
+          No search results
+        </li>
       )}
     </ul>
   );
@@ -42,7 +45,7 @@ function SearchResultsList({
  * Global search bar that allows you to choose a department and narrow down
  * results from there
  */
-function NavigationSearch() {
+function NavigationSearchBig() {
   const [search, setSearch] = useState("");
   const [results, setResults] = useState([]);
 
@@ -73,13 +76,15 @@ function NavigationSearch() {
 
   // Render the search input and results
   return (
-    <div className="Search">
+    <div className="text-center mt-[5%]">
       <SearchBar value={search} sendQuery={handleSearch} />
-      <div className="container">
-        {search && <SearchResultsList filteredData={results} />}
-      </div>
+      {search && (
+        <div className="inline-block">
+          <SearchResultsList filteredData={results} />
+        </div>
+      )}
     </div>
   );
 }
 
-export { NavigationSearch };
+export default NavigationSearchBig;
