@@ -7,10 +7,10 @@ import DualPanePicker from "../../components/picker/Picker";
 import { AccessAll } from "../../data/access";
 
 import { useEffect, useState } from "react";
-import SearchBar from "../../components/search/SearchBar";
+// import SearchBar from "../../components/search/SearchBar";
 import { Search } from "../../data/search";
 
-import "../../components/styles/SearchBar.css"
+import "../../components/styles/SearchBar.css";
 
 export default function Page({ params }) {
   let build = {
@@ -54,7 +54,6 @@ export default function Page({ params }) {
   const handleSearch = (event) => {
     setSearch(event.target.value);
   };
-  
 
   return (
     <div id="editor">
@@ -75,10 +74,12 @@ export default function Page({ params }) {
       <div id="picker">
         <div id="picker-header">
           <div id="searchPicker">
-            <SearchBar value={search} sendQuery={handleSearch} />
+            {/* <SearchBar value={search} sendQuery={handleSearch} /> */}
           </div>
           <div id="selectedPicker">
-            <div id="selectedTitle"><h2>Selected</h2></div>
+            <div id="selectedTitle">
+              <h2>Selected</h2>
+            </div>
           </div>
         </div>
         <DualPanePicker
