@@ -2,7 +2,7 @@
 
 import "../components/styles/Layout.css";
 import "../components/styles/Mainpage.css";
-import "../components/styles/SearchBarBig.css";
+// import "../components/styles/SearchBarBig.css";
 import Image from "next/image";
 import NavigationSearchBig from "../components/search/NavigationSearchBig";
 

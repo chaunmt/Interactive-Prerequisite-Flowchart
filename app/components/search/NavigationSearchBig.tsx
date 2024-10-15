@@ -3,7 +3,35 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { Search } from "../../data/search";
-import SearchBar from "./SearchBar";
+
+/**
+ * Search Bar UI Component that accepts and sends back search query values
+ *
+ * (<input> but pretty)
+ *
+ * @callback sendQuery
+ * @param {{value: string, sendQuery: function(event: any): void}} props
+ * @returns
+ */
+function SearchBar({
+  value,
+  sendQuery,
+}: {
+  value: string;
+  sendQuery: (event: any) => void;
+}) {
+  // TODO reconsider hideous type
+
+  return (
+    <input
+      type="text"
+      placeholder="Search By Class"
+      value={value}
+      onChange={sendQuery}
+      className="border-0 outline-0 bg-[var(--search-bar)] mt-[2%] w-[40%] max-h-4 p-[1.5%_5%] rounded-full shadow-sm text-lg"
+    />
+  );
+}
 
 interface NavigationSearchResult {
   display_text: string;
@@ -78,11 +106,9 @@ function NavigationSearchBig() {
   return (
     <div className="text-center mt-[5%]">
       <SearchBar value={search} sendQuery={handleSearch} />
-      {search && (
-        <div className="inline-block">
-          <SearchResultsList filteredData={results} />
-        </div>
-      )}
+      <div className="absolute bg-search-result-container shadow-sm max-h-60 w-100 overflow-y-auto z-[999]">
+        {search && <SearchResultsList filteredData={results} />}
+      </div>
     </div>
   );
 }
