@@ -3,7 +3,7 @@
  */
 "use client";
 
-import "../styles/Picker.css";
+// import "../styles/Picker.css";
 
 interface ListItem {
   id: string;
@@ -18,12 +18,10 @@ function Picker({
   onClickItem: (id: string) => void;
 }) {
   return (
-    <div>
+    <div className="grid grid-cols-2 gap-2 h-[40vh] overflow-y-auto shadow-sm scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-gray-100 hover:scrollbar-thumb-gray-400">
       {items.map((item) => (
-        <div className="itemBox" key={item.id}>
-          <button
-            className="item"
-            key={item.id}
+        <div className="p-2 border rounded shadow-sm" key={item.id}>
+          <button className="w-full h-12 text-lg font-bold rounded hover:bg-gray-100 hover:text-gray-700 transition-colors duration-200"
             onClick={() => {
               onClickItem(item.id);
             }}
@@ -63,12 +61,14 @@ export default function DualPanePicker({
   }
 
   return (
-    <div id="bars">
-      <div id="items">
-        <Picker items={items} onClickItem={addItem} />
-      </div>
-      <div id="selectedItems">
-        <Picker items={selectedItems} onClickItem={removeItem} />
+    <div className="flex justify-center items-center min-h-screen">
+      <div className="grid grid-cols-2 gap-2">
+        <div>
+          <Picker items={items} onClickItem={addItem} />
+        </div>
+        <div>
+          <Picker items={selectedItems} onClickItem={removeItem} />
+        </div>
       </div>
     </div>
   );
