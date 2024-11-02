@@ -2,24 +2,23 @@
 
 import "../components/styles/Layout.css";
 import "../components/styles/Mainpage.css";
-import "../components/styles/SearchBarBig.css"
-import { NavigationSearch } from "../components/search/NavigationSearch";
+// import "../components/styles/SearchBarBig.css";
 import Image from "next/image";
+import NavigationSearchBig from "../components/search/NavigationSearchBig";
 
 export default function Page() {
   return (
     <div id="content">
       <div>
         <Image
-          id = "titleLogo"
+          id="titleLogo"
           src={"/logos/CFLongLogo.webp"}
           alt="Title name"
-          width={1000} height={1000} // Pixel rendered
+          width={1000}
+          height={1000} // Pixel rendered
         />
       </div>
-      <div id="navBig">
-        <NavigationSearch />
-      </div>
+      <NavigationSearchBig />
     </div>
   );
 }

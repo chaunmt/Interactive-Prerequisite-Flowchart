@@ -1,11 +1,37 @@
-/**
- * NavigationSearch.tsx - Search UI whose results provide links to other pages
- */
 "use client";
-import SearchBar from "./SearchBar";
-import { Search } from "../../data/search";
-import React, { useState, useEffect } from "react";
+
+import { useState, useEffect } from "react";
 import Link from "next/link";
+import { Search } from "../../data/search";
+
+/**
+ * Search Bar UI Component that accepts and sends back search query values
+ *
+ * (<input> but pretty)
+ *
+ * @callback sendQuery
+ * @param {{value: string, sendQuery: function(event: any): void}} props
+ * @returns
+ */
+function SearchBar({
+  value,
+  sendQuery,
+}: {
+  value: string;
+  sendQuery: (event: any) => void;
+}) {
+  // TODO reconsider hideous type
+
+  return (
+    <input
+      type="text"
+      placeholder="Search By Class"
+      value={value}
+      onChange={sendQuery}
+      className="border-0 outline-0 bg-[var(--search-bar)] p-[2%_5%] rounded-md shadow-sm"
+    />
+  );
+}
 
 interface NavigationSearchResult {
   display_text: string;
@@ -24,15 +50,18 @@ function SearchResultsList({
   // TODO: inline vs hoverable list options, many options, this is meant to be customizable
 
   return (
-    <ul className="list">
+    <ul className="mt-1 mb-1 p-2">
       {filteredData.length > 0 ? (
         filteredData.map((result, index) => (
-          <li key={index}>
+          <li
+            key={index}
+            className="pt-2 pr-2 text-gray-700 font-bold cursor-pointer hover:text-gray-900 hover:bg-gray-100"
+          >
             <Link href={result.href}>{result.display_text}</Link>
           </li>
         ))
       ) : (
-        <li>No search results</li>
+        <li className="pt-2 pr-2 text-gray-700 font-bold">No search results</li>
       )}
     </ul>
   );
@@ -42,7 +71,7 @@ function SearchResultsList({
  * Global search bar that allows you to choose a department and narrow down
  * results from there
  */
-function NavigationSearch() {
+function NavigationSearchSmall() {
   const [search, setSearch] = useState("");
   const [results, setResults] = useState([]);
 
@@ -73,13 +102,13 @@ function NavigationSearch() {
 
   // Render the search input and results
   return (
-    <div className="Search">
+    <div className="w-1/2 right-0 top-0">
       <SearchBar value={search} sendQuery={handleSearch} />
-      <div className="container">
+      <div className="absolute bg-white shadow-md max-h-60 w-96 overflow-y-auto z-50">
         {search && <SearchResultsList filteredData={results} />}
       </div>
     </div>
   );
 }
 
-export { NavigationSearch };
+export default NavigationSearchSmall;
