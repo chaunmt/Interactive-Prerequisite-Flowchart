@@ -3,6 +3,7 @@ import NavigationSearchSmall from "../../../components/search/NavigationSearchSm
 import Link from "next/link";
 
 import Graph from "../../../components/graph/Graph";
+import { Deck } from "../../../components/deck/Deck";
 
 import "../../../components/styles/Idpage.css";
 import "../../../components/styles/Layout.css";
@@ -25,6 +26,8 @@ export default function Page({ params }) {
   if (!Access(SUBJ).ids.includes(ID)) notFound();
 
   let course = Access(SUBJ).getCourse(ID, "id");
+  // this will only display targets from within its subject, but subject-specific accessors will be refactored out soon
+  let targets = Access(SUBJ).target(course);
   let build = {
     includes: [course],
     simplify: false, // set true to remove or/and distinction
@@ -32,7 +35,7 @@ export default function Page({ params }) {
   };
 
   return (
-    <div id="content">
+    <div id="content" className="flex flex-col gap-4">
       <div>
         <Link href={"/" + SUBJ}>
           <button id="back">
@@ -63,6 +66,7 @@ export default function Page({ params }) {
           <p id="info">{course.info}</p>
         </div>
       </div>
+      <Deck courses={targets} />
     </div>
   );
 }
