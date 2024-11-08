@@ -1,10 +1,5 @@
 # note: follows .gitignore rules by default
 # https://prettier.io/docs/en/ignore
 
-app/data/Dog
-app/data/General
-.next
-node_modules
-
 pnpm-lock.yaml
-*.json
+app/data/**/*.json
