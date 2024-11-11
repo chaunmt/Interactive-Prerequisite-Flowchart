@@ -29,6 +29,10 @@ const nextConfig = {
   },
   // include/exclude prototype pages for different type of builds
   pageExtensions: page_ext,
+
+  images: {
+    domains: ['avatars.githubusercontent.com'], // Allow external images from GitHub avatars
+  },
 };
 
 export default nextConfig;
