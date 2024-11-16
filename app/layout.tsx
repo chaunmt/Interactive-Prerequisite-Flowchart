@@ -2,9 +2,9 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import { Keywords } from "@/components/layout/Meta";
 import "@/app/globals.css";
+import "@/components/styles/Global.css";
 
 import { Metadata } from "next";
-import "@/components/styles/Layout.css";
 
 export const metadata: Metadata = {
   title: {
@@ -24,9 +24,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bgImg">
+      <body>
         <Header />
-        <main>{children}</main>
+        <main className="py-[10%] min-h-[40vh] ">{children}</main>
         <Footer />
       </body>
     </html>
