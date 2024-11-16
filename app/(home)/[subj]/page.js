@@ -4,12 +4,12 @@ import { Access, allSubjects } from "@/backend/access";
 import { Search } from "@/backend/search";
 import { CoursesTable } from "@/components/table/CoursesTable";
 
-import "@/components/styles/SearchBarSmall.css";
-import "@/components/styles/SubjPage.css";
 import { notFound } from "next/navigation";
 import NavigationSearchSmall from "@/components/search/NavigationSearchSmall";
 
-export async function generateMetadata({ params, searchParams }, parent) {
+import "../../../components/styles/SubjPage.css";
+
+export async function generateMetadata({ params }) {
   return {
     title: `${params.subj.toUpperCase()} Courses`,
   };
@@ -21,10 +21,10 @@ export default function Page({ params }) {
   const SUBJ_COURSES = Access(SUBJ).courses;
 
   return (
-    <div id="content">
-      <h1>{Search().exactDept(SUBJ).toUpperCase()}</h1>
+    <div className="px-[5%]">
+      <h1 className="font-bold text-[var(--title)] text-[2.2rem]" >{Search().exactDept(SUBJ).toUpperCase()}</h1>
       <NavigationSearchSmall />
-      <div id="tableBox">
+      <div>
         <CoursesTable courses={SUBJ_COURSES} />
       </div>
     </div>
