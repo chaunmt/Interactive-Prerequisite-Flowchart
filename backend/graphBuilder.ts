@@ -34,7 +34,7 @@ function graphtostring(graph: GraphData): string {
     .map(
       (node) =>
         `\
-${node?.id}${node?.type == "course" ? `[${node?.meta}]` : ""}
+${node?.id}${node?.type === "course" ? `[${node?.meta}]` : ""}
   type: ${node?.type}
   edges: ${node?.inbound_edges}
 `,
@@ -61,11 +61,11 @@ function buildGraph(input: build_options): GraphData {
   function surgery(graph: GraphData): GraphData {
     graph["listdebug"];
     graph.nodes
-      .filter((n) => n.type == "course")
+      .filter((n) => n.type === "course")
       .forEach((node) => {
         node.inbound_edges
-          .map((e) => graph.nodes.find((n) => n.id == e))
-          .filter((n) => n?.type == "and")
+          .map((e) => graph.nodes.find((n) => n.id === e))
+          .filter((n) => n?.type === "and")
           .forEach((and, i) => {
             // if not a combined node
             if (!and.meta) {
@@ -83,7 +83,9 @@ function buildGraph(input: build_options): GraphData {
 
   // filter out orphans
   function assist(graph: GraphData): GraphData {
-    let preserves = strong_orphans.map((sh) => `${sh.subject.toLowerCase()}${sh.id}`);
+    let preserves = strong_orphans.map(
+      (sh) => `${sh.subject.toLowerCase()}${sh.id}`
+    );
     let edges = graph.nodes
       .map((node) => {
         return node.inbound_edges.map((from) => {
@@ -94,7 +96,7 @@ function buildGraph(input: build_options): GraphData {
     let nodes = graph.nodes.filter(
       (node) =>
         preserves.includes(node.id) ||
-        edges.some((edge) => node.id == edge.from || node.id == edge.to),
+        edges.some((edge) => node.id === edge.from || node.id === edge.to),
     );
     return { nodes: nodes };
   }
@@ -134,7 +136,7 @@ function buildGraph(input: build_options): GraphData {
     // remove duplicates
     let out: GraphData = { nodes: [] };
     for (const node of graph.nodes) {
-      let existing_node = out.nodes.find((n) => n.id == node.id);
+      let existing_node = out.nodes.find((n) => n.id === node.id);
       if (existing_node) {
         existing_node.meta = true; // existing node is a combined node
       } else {
@@ -154,7 +156,7 @@ function rawbuild(input: build_options): GraphData {
     simplify,
   } = input;
 
-  if (includes.length == 0 && soft_excludes.length == 0) {
+  if (includes.length === 0 && soft_excludes.length === 0) {
     console.warn("WARNING: no courses passed in, returning empty graph.");
     return { nodes: [] };
   }
@@ -281,7 +283,7 @@ function rawbuild(input: build_options): GraphData {
 
     let node_id = singleton(preq);
     // add this node we are currently creating to the parent's list of inbound edges
-    node_list.find((n) => n.id == state.parent)?.inbound_edges.push(node_id);
+    node_list.find((n) => n.id === state.parent)?.inbound_edges.push(node_id);
     return;
   }
 
@@ -292,7 +294,7 @@ function rawbuild(input: build_options): GraphData {
   function orx(state: build_state): build_state {
     let node_id = `${state.parent}_${state.i}_or`;
     // add this node we are currently creating to the parent's list of inbound edges
-    node_list.find((n) => n.id == state.parent)?.inbound_edges.push(node_id);
+    node_list.find((n) => n.id === state.parent)?.inbound_edges.push(node_id);
     // if (node_list.every(node => node.id !== node_id)) {
     node_list.push({ id: node_id, type: "or", inbound_edges: [] });
     // }
@@ -302,7 +304,7 @@ function rawbuild(input: build_options): GraphData {
   function andx(state: build_state): build_state {
     let node_id = `${state.parent}_${state.i}_and`;
     // add this node we are currently creating to the parent's list of inbound edges
-    node_list.find((n) => n.id == state.parent)?.inbound_edges.push(node_id);
+    node_list.find((n) => n.id === state.parent)?.inbound_edges.push(node_id);
     let edge_id = `${node_id}___${state.parent}`;
     // if (node_list.every(node => node.id !== node_id)) {
     node_list.push({ id: node_id, type: "and", inbound_edges: [] });

@@ -64,7 +64,7 @@ export function convertJSONGraph(input: GraphData, display?: display_options) {
 ---
 config:
   # # probably use this for arrow colors
-  # theme: ${display?.theme == "dark" ? "dark" : "neutral"}
+  # theme: ${display?.theme === "dark" ? "dark" : "neutral"}
   # # not yet sure how to use this or what for
   # themeCSS: ${display?.theme || "light"}
   # layout: elk  # redundant
@@ -72,7 +72,7 @@ config:
 
 `;
   let orientation = display?.orientation || "BT";
-  let styling = display?.theme == "dark" ? darkStyles : lightStyles;
+  let styling = display?.theme === "dark" ? darkStyles : lightStyles;
 
   let graph =
     frontmatter +
@@ -81,12 +81,12 @@ config:
     "\n%% node declarations\n" +
     input.nodes
       .map((n) => {
-        if (n.type == "or") {
+        if (n.type === "or") {
           // sorry if your editor bugs out: the zwj allows me to
           // add padding because mermaid trims whitespace otherwise
           return `${n.id}([‍  or  ‍]):::OR\n`;
         }
-        if (n.type == "and") {
+        if (n.type === "and") {
           // sorry if your editor bugs out: the zwj allows me to
           // add padding because mermaid trims whitespace otherwise
           return `${n.id}{{‍ and ‍}}:::AND\n`;

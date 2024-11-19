@@ -52,7 +52,7 @@ function Search() {
   function exactDept(text: string) {
     const l_text = mash(text);
     for (let apr in departments) {
-      if (mash(apr) == l_text || mash(departments[apr]) == l_text) {
+      if (mash(apr) === l_text || mash(departments[apr]) === l_text) {
         return apr + " - " + departments[apr];
       }
     }
