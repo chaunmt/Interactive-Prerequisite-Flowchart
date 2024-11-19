@@ -1,230 +1,191 @@
-import {
-  Accessor,
-  Course,
-  CourseShell,
-  PrereqTraversal,
-} from "@/backend/types";
+/**
+ * Everything in this module is meant to be readonly.
+ * Some items are not explicitly marked as such because the
+ * LSP struggles to parse large files.
+ * @module access
+ */
 
+
+/* TODO docs */
 export {
-  /** Accessor Factory - returns the subject-specific accessor to get relevant course info
-   *
-   * note: SUBJECT should be an uppercase string matching those in subjects */
-  Access,
-  /** One Accessor for all - not a factory, just directly access the methods on this one */
-  AccessAll,
-  /** a list of all subject codes */
-  subjects as allSubjects,
-  /** potentially useful utility function that helps with issues like
-   * `"CSCI 3081" != "CSCI 3081W"`—takes courses as input*/
-  isEqualCourses,
-  /** potentially useful utility function that helps with issues like
-   * `"CSCI 3081" != "CSCI 3081W"`—takes id strings as input*/
-  isEqualId,
+  /** utility functions */
+  uid_get,
+  course_get,
+  is_prereq,
+  targets,
+  prereqs,
+
+  /** readonly consts for validation purposes */
+  subject_names,
+  subjects,
+  numbers,
+
+  /** strongly deprecated, preserved for legacy/prototypes */
+  Accessor,
 };
 
-import _subjects from "../data/General/allSubjects.json";
-const subjects: readonly string[] = _subjects as readonly string[];
 
-function Access(SUBJECT: string): Accessor | undefined {
-  if (!subjects.includes(SUBJECT)) {
-    console.error(`Invalid subject "${SUBJECT}" passed to Access module!`);
-    return;
-  }
+import {
+  PrerequisiteRule,
+  Course,
+  isCourse,
+  isAndRule,
+  isOrRule,
+} from "@/data/types";
 
-  const courses: readonly Course[] = require(`../data/Dog/${SUBJECT}.json`);
-  const ids: readonly string[] = require(`../data/General/id/${SUBJECT}.json`);
+// import from trusted data source: the repository itself
+import _general from "@/data/UMNTC/Courses/general.json";
+import _honors from "@/data/UMNTC/Courses/honors.json";
+import maps from "@/data/UMNTC/Courses/subjectUidMaps.json";
+import _subjects from "@/data/UMNTC/allSubjects.json";
 
-  return {
-    /** all Courses in subject */
-    courses,
-    /** all course ID numbers in this subject */
-    ids,
-    /** Get course item that has a matching code (or id if specified)
-     * Returns undefined if none found */
-    getCourse,
-    /** Returns an array of Courses that have prereq as its prerequisites */
-    target,
-    /** Checks whether course is a prerequisite of target */
-    isPrereq,
-    /** Checks for discrepancies like xxxxW == xxxx <s>or xxxxV == xxxxH</s> */
-    isEqualCourses,
-    /** Checks for discrepancies like xxxxW == xxxx <s>or xxxxV == xxxxH</s> */
-    isEqualId,
-    /** Small utility function to get the full Course data from a CourseShell */
-    get,
-  };
+const general = _general as { [uid: string]: Course };
+const honors = _honors as { [uid: string]: Course };
+const subject_names = _subjects as { [subjcode: string]: string };
+const subjects: readonly string[] = Object.keys(maps);
+const numbers: readonly string[] = Object.values(maps).flatMap((m) =>
+  Object.keys(m)
+);
+// maps: (subject: string) --> UidMap
+/** course "number" indexes to course "uid" */
+type UidMap = { [number: string]: string };
 
-  // definitions which still need to happen in this scope (closure)
-
-  function getCourse(value: string): Course | undefined;
-  function getCourse(
-    value: string,
-    property: "code" | "id"
-  ): Course | undefined;
-  function getCourse(
-    value: string,
-    property?: "code" | "id"
-  ): Course | undefined {
-    let cmp =
-      property == undefined || property == "code" ? value.split(" ")[1] : value;
-    // binary search
-    let l = 0;
-    let r = courses.length - 1;
-    for (let m = Math.floor(r / 2); l <= r; m = Math.floor((l + r) / 2)) {
-      // this first because they can be the same course with unequal code
-      if (isEqualId(courses[m].id, cmp)) {
-        return courses[m];
-      }
-      if (courses[m].code < `${SUBJECT} ${cmp}`) {
-        l = m + 1;
-      }
-      if (courses[m].code > `${SUBJECT} ${cmp}`) {
-        r = m - 1;
-      }
-    }
-    return;
-  }
-
-  function target(prereq: CourseShell) {
-    return courses.filter((target) => isPrereq(prereq, get(target)));
-  }
-
-  function isPrereq(course: CourseShell, target: Course): boolean {
-    return PrereqTraversal(
-      reductive_or,
-      isEqualCourses,
-      iota,
-      iota
-    )(target.prereq, course);
-  }
-
-  function get(shell: CourseShell): Course {
-    return getCourse(shell.code);
-  }
+function uid_get(uids: string, honor?: boolean): Course | null;
+function uid_get(uids: string[], honor?: boolean): Course[] | null;
+function uid_get(uids: string | string[], honor?: boolean) {
+  const lambda = honor
+    ? (uid: string) => honors[uid] || general[uid] || null
+    : (uid: string) => general[uid] || null;
+  return Array.isArray(uids) ? uids.map(lambda) : lambda(uids);
 }
 
-const AccessAll: Omit<Accessor, "ids"> = (() => {
-  const courses: readonly Course[] = require(`../data/Dog/allCourses.json`);
-
-  return {
-    /** all Courses in campus */
-    courses,
-    /** Get course item that has a matching code (second parameter is ignored) */
-    getCourse,
-    /** Returns an array of Courses that have prereq as its prerequisites */
-    target,
-    /** Checks whether course is a prerequisite of target */
-    isPrereq,
-    /** Checks for discrepancies like xxxxW == xxxx <s>or xxxxV == xxxxH</s> */
-    isEqualCourses,
-    /** Checks for discrepancies like xxxxW == xxxx <s>or xxxxV == xxxxH</s> */
-    isEqualId,
-    /** Small utility function to get the full Course data from a CourseShell */
-    get,
-  };
-
-  // definitions which still need to happen in this scope (closure)
-
-  function getCourse(value: string): Course | undefined;
-  // function getCourse(value: string, property: any): Course | undefined;
-  function getCourse(value: string, property?: any): Course | undefined {
-    let cmp = value.split(" ")[1];
-    // binary search
-    let l = 0;
-    let r = courses.length - 1;
-    for (let m = Math.floor(r / 2); l <= r; m = Math.floor((l + r) / 2)) {
-      // this first because they can be the same course with unequal code
-      if (isEqualId(courses[m].id, cmp)) {
-        return courses[m];
-      }
-      if (courses[m].code.toUpperCase() < value.toUpperCase()) {
-        l = m + 1;
-      }
-      if (courses[m].code.toUpperCase() > value.toUpperCase()) {
-        r = m - 1;
-      }
-    }
+function course_get(subj: string, num: string, honor?: boolean): Course | null {
+  const subjmap: UidMap = maps[subj.toUpperCase()];
+  if (!subjmap) {
     return null;
   }
+  const uid = subjmap[num];
+  return uid_get(uid, honor);
+}
 
-  function target(prereq: CourseShell) {
-    return courses.filter((target) => isPrereq(prereq, target));
+function is_prereq(start: Course, end: Course): boolean {
+  return PrerequisiteTraversal(
+    (bools: boolean[]) => bools.some((t) => t === true),
+    (a, b: Course) => a.uid === b.uid, // string equality to compare uids
+    (arg: boolean) => arg, // do nothing
+    (arg: boolean) => arg, // do nothing
+    false
+  )(end.prereq, start);
+}
+
+/**
+ * TODO test speed - this may be really slow
+ * -- may be worthwhile to generate target lists offline
+ */
+function targets(start: Course, honor?: boolean) {
+  if (honor) return Object.entries(honors).filter(([_uid, target]) => is_prereq(start, target));
+  return Object.entries(general).filter(([_uid, target]) => is_prereq(start, target));
+}
+
+function prereqs(start: Course, honor?: boolean) {
+  let out: Course[] = [];
+  // construct and immediately invoke this function
+  PrerequisiteTraversal(
+    // traverse and push every course found
+    (_) => {}, // do nothing
+    (a, b: Course[]) => b.push(a),
+    (_) => {}, // do nothing
+    (_) => {}, // do nothing
+    undefined
+  )(start.prereq, out); // to mutate our array
+  return out;
+}
+
+
+
+/** "a little bit of functional programming never hurt anybody" - jahndan, 2024
+ *
+ * if you're using this, you probably wrote this monstrosity */
+function PrerequisiteTraversal<out, state>(
+  // output processors for each branch
+  arrl: (cl_outs: out[]) => out, // how to combine array of outputs
+  crsl: (crs: Course, state_var: state) => out, // what kind of output to derive from a course
+  orl: (al_out: out) => out, // any extra process on array-combined output
+  andl: (al_out: out) => out, // any extra process on array-combined output
+  // what default to use for empty object
+  empty_default: out,
+  // whether or not to use the honors prerequisites or general ones
+  honor_reqs?: boolean,
+  // state mutators for each branch if necessary
+  arrx?: (x: state, index: number) => state, // modify state passed through the array branch
+  orx?: (x: state) => state, // likewise for or branch
+  andx?: (x: state) => state // likewise for and branch
+): (input: PrerequisiteRule, state_var: state) => out {
+  // state mutators default to identity if not specified
+  let rx_state = arrx || ((p: state, _i: number) => p);
+  let ox_state = orx || ((p: state) => p);
+  let ax_state = andx || ((p: state) => p);
+
+  let fn = (input: PrerequisiteRule, state_var: state): out => {
+    if (isOrRule(input)) {
+      const arr_out = arrl(
+        input.or.map((value, i) => fn(value, rx_state(state_var, i)))
+      );
+      return orl(fn(arr_out, ox_state(state_var)));
+    }
+    if (isAndRule(input)) {
+      const arr_out = arrl(
+        input.and.map((value, i) => fn(value, rx_state(state_var, i)))
+      );
+      return andl(fn(arr_out, ax_state(state_var)));
+    }
+    if (typeof input === "string") {
+      return crsl(uid_get(input, honor_reqs), state_var);
+    }
+    return empty_default; // empty object
+  };
+  return fn;
+}
+
+/** legacy -- strongly @deprecated Accessor factory */
+function Accessor(subject: string) {
+  if (!subjects.includes(subject)) {
+    throw Error(`Invalid subject "${subject}" passed to Access module!`);
   }
-
-  function isPrereq(course: CourseShell, target: Course): boolean {
-    return PrereqTraversal(
-      reductive_or,
-      isEqualCourses,
-      iota,
-      iota
+  const uidmap: UidMap = maps[subject];
+  const numbers: readonly string[] = Object.keys(uidmap);
+  const general: readonly Course[] = Object.values(uidmap).map(uid => uid_get(uid, false));
+  const honors: readonly Course[] = Object.values(uidmap).map(uid => uid_get(uid, true));
+  function getTargets(prereq: Course, honor?: boolean) {
+    if (honor) return honors.filter(target => isPrereq(prereq, target));
+    return general.filter(target => isPrereq(prereq, target));
+  }
+  function isPrereq(course: Course, target: Course): boolean {
+    return PrerequisiteTraversal(
+      (bools: boolean[]) => bools.some((t) => t === true),
+      (a, b) => a === b, // string equality to compare uids
+      (arg: boolean) => arg, // do nothing
+      (arg: boolean) => arg, // do nothing
+      false
     )(target.prereq, course);
   }
-
-  function get(shell: CourseShell): Course {
-    return getCourse(shell.code);
+  function getCourse(subj: string, num: string, honor?: boolean) {
+    if (subj != subject) {
+      throw Error(`We do not have access to ${subj} courses!`);
+    }
+    const courses = honor ? honors : general;
+    const out = courses.find(c => c.number === num);
+    if (!out) {
+      throw Error(`${subj} ${num} does not exist!`);
+    }
+    return out;
   }
-})(); // IIFE
-
-// utility functions that can either be imported separately or used as members of the accessor objects
-
-function isEqualCourses(A: CourseShell, B: CourseShell) {
-  return A.subject == B.subject && isEqualId(A.id, B.id);
-}
-
-function isEqualId(idA: string, idB: string) {
-  if (extractNumbers(idA) != extractNumbers(idB)) {
-    return false;
+  return {
+    numbers,
+    general,
+    honors,
+    getTargets,
+    isPrereq,
+    getCourse
   }
-
-  // let honors = ['H', 'V'];
-  let normal = ["W", ""];
-
-  let lvA = extractWords(idA[idA.length - 1]);
-  let lvB = extractWords(idB[idB.length - 1]);
-
-  if (lvA == lvB) {
-    return true;
-  }
-  // if (honors.includes(lvA) && honors.includes(lvB)) { return true; }
-  if (normal.includes(lvA) && normal.includes(lvB)) {
-    return true;
-  }
-
-  return false;
-}
-
-// regex helpers used above
-
-function extractWords(code: string) {
-  if (!code) {
-    return "";
-  }
-  let match = code.match(/[a-zA-Z]+/g);
-  if (!match) {
-    return "";
-  }
-  return match[0];
-}
-
-function extractNumbers(code: string) {
-  if (!code) {
-    return "";
-  }
-  let match = code.match(/\d+/g);
-  if (!match) {
-    return "";
-  }
-  return match[0];
-}
-
-// trivial lambdas for isPrereq traversal
-
-/** something like unary reductive OR but on a boolean array */
-function reductive_or(couts: boolean[]) {
-  return couts.some((t) => t == true);
-}
-
-/** the identity function */
-function iota(arg: any) {
-  return arg;
 }

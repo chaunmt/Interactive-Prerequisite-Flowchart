@@ -19,6 +19,8 @@ export async function generateMetadata({ params, searchParams }, parent) {
   };
 }
 
+/* TODO generate all matching routes ahead of time */
+
 export default function Page({ params }) {
   const SUBJ = params.subj.toUpperCase();
   const ID = params.id.toUpperCase();

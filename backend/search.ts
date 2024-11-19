@@ -1,3 +1,5 @@
+// TODO get somewhat working again
+
 /// TODO consider turning this into an api endpoint instead
 /// perhaps consider making separate logic for "catalog searching" (course/subjects separated too?)
 /// as well as for "grad-planner searching" (show related courses to stuff in cart) when it's relevant

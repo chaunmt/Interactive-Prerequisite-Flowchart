@@ -4,7 +4,7 @@ import "@/components/styles/Mainpage.css";
 import "@/components/styles/Editor.css";
 import Graph from "@/components/graph/Graph";
 import DualPanePicker from "@/components/picker/Picker";
-import { AccessAll } from "@/backend/access";
+import { AccessAll } from "@/backend/access"; // TODO fix this if desired
 
 import { useEffect, useState } from "react";
 // import SearchBar from "@/components/search/SearchBar";
