@@ -1,0 +1,47 @@
+name: Code quality
+
+on:
+  pull_request:
+    branches: [main]
+
+permissions: {}
+
+jobs:
+  quality:
+    name: quality-check
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      packages: read
+      # github actions status checks
+      statuses: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          # allows us to find files that changed across commits
+          fetch-depth: 0
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4.0.0
+        with:
+          version: 9.x
+          run_install: true
+          standalone: false
+
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v4.0.4
+        with:
+          node-version: 22.x
+          cache: pnpm
+
+      - name: Turn off NextJS telemetry
+        run: pnpm exec next telemetry disable
+
+      - name: Lint checks
+        run: pnpm run lint ${{ github.workspace }}
+
+      - name: Format checks
+        run: pnpm run fmt ${{ github.workspace }}

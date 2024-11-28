@@ -3,3 +3,7 @@
 
 pnpm-lock.yaml
 data/**/*.json
+
+# causes issues inside of GitHub Actions
+cache/config.json
+
