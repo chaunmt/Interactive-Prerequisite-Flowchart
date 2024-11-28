@@ -1,8 +1,8 @@
-import { Access, allSubjects } from "@/backend/access";
+import { course_get, targets, subjects } from "@/backend/access";
+import { reformat } from "@/backend/text-manipulation";
 import NavigationSearchSmall from "@/components/search/NavigationSearchSmall";
-import Link from "next/link";
 
-import Graph from "@/components/graph/Graph";
+import Graph, { BuildOptions } from "@/components/graph/Graph";
 import { Deck } from "@/components/deck/Deck";
 
 import "@/components/styles/Idpage.css";
@@ -10,40 +10,35 @@ import "@/components/styles/Layout.css";
 import "@/components/styles/SearchBarSmall.css";
 
 import { FiDownload } from "react-icons/fi";
-import { IoReturnUpBackOutline } from "react-icons/io5";
 import { notFound } from "next/navigation";
 
-export async function generateMetadata({ params, searchParams }, parent) {
+export function generateMetadata({ params }) {
   return {
-    title: `${params.subj.toUpperCase()} ${params.id}`,
+    title: `${params.subj.toUpperCase()} ${params.num}`,
   };
 }
 
-/* TODO generate all matching routes ahead of time */
-
 export default function Page({ params }) {
-  const SUBJ = params.subj.toUpperCase();
-  const ID = params.id.toUpperCase();
-  if (!allSubjects.includes(SUBJ)) notFound();
-  if (!Access(SUBJ).ids.includes(ID)) notFound();
+  const subj: string = params.subj.toUpperCase();
+  const num: string = params.num.toUpperCase();
+  if (!subjects.includes(subj)) return notFound();
+  const course = course_get(subj, num);
+  if (!course) return notFound();
 
-  let course = Access(SUBJ).getCourse(ID, "id");
-  // this will only display targets from within its subject, but subject-specific accessors will be refactored out soon
-  let targets = Access(SUBJ).target(course);
-  let build = {
-    includes: [course],
-    simplify: false, // set true to remove or/and distinction
+  const target = targets(course);
+  const build: BuildOptions = {
+    includes: [course.uid],
     decimate_orphans: false, // if the current course is an orphan we probably shouldn't draw an empty graph
   };
 
   return (
     <div id="content" className="flex flex-col gap-4">
       <div>
-        <Link href={"/" + SUBJ}>
+        {/* <Link href={"/" + subj}>
           <button id="back">
             <IoReturnUpBackOutline />
           </button>
-        </Link>
+        </Link> */}
         <NavigationSearchSmall />
       </div>
       <div id="container">
@@ -64,11 +59,11 @@ export default function Page({ params }) {
         </div>
         <div id="infoBox">
           <div id="code">{course.code}</div>
-          <div id="title">{course.title}</div>
-          <p id="info">{course.info}</p>
+          <div id="name">{course.fullname}</div>
+          <div id="info">{reformat(course.info, true)}</div>
         </div>
       </div>
-      <Deck courses={targets} />
+      <Deck courses={target} />
     </div>
   );
 }

@@ -37,9 +37,9 @@ function spliceRecommendAt(str, splitPattern) {
   return arr.join(" or ");
 }
 
-/** ASSUMPTION: Filter out extra information from info string 
+/** ASSUMPTION: Filter out extra information from info string
  * WARNING: Omit this case because of data"s inconsistency
-*/
+ */
 function filterExtraInfo(str) {
   // if (str.toUpperCase().includes("NO PREREQUISITE")) return ""
   str = spliceRecommendAt(str, ";");
@@ -51,14 +51,17 @@ function filterExtraInfo(str) {
 function splitStringAt(str, type) {
   str = deleteSpaces(str);
 
-  let index = -1; 
-  if (type == "word") { // Find the first index of a character of type "word"
+  let index = -1;
+  if (type == "word") {
+    // Find the first index of a character of type "word"
     index = str.search(/[A-Za-z]/);
-  } else { // Find the first index of a character of type "number"
+  } else {
+    // Find the first index of a character of type "number"
     index = str.search(/\d/);
   }
 
-  if (index != -1) { // Check if a letter or digit was found
+  if (index != -1) {
+    // Check if a letter or digit was found
     return [str.slice(0, index), str.slice(index)];
   }
 
@@ -100,7 +103,7 @@ function extractCourses(str, targetSubject, targetId) {
         num = id;
       }
 
-      if (parseInt(num, 10) < 1000 && (subject != "INSIDE")) {
+      if (parseInt(num, 10) < 1000 && subject != "INSIDE") {
         return null;
       }
 
@@ -108,7 +111,7 @@ function extractCourses(str, targetSubject, targetId) {
       if (suffix && (suffix.length != 1 || !allowedSuffix.includes(suffix))) {
         id = num;
       }
-      
+
       if (!allCourseNumbers.includes(id)) {
         if (allCourseNumbers.includes(id + "W")) {
           id = id + "W";
@@ -158,11 +161,11 @@ function isEqualCourse(A, B) {
   if (!A || !B) {
     return false;
   }
-  
+
   if (!A.code || !A.subject || !A.id) {
     return false;
   }
-  
+
   if (!B.code || !B.subject || !B.id) {
     return false;
   }
@@ -171,11 +174,11 @@ function isEqualCourse(A, B) {
   if (A.code != B.code) {
     return false;
   }
-  
+
   if (A.subject != B.subject) {
     return false;
   }
-  
+
   if (A.id != B.id) {
     return false;
   }
@@ -189,7 +192,7 @@ function filterDuplicate(items) {
   if (!items) {
     return null;
   }
-  
+
   if (items.code) {
     return items;
   }
@@ -233,7 +236,7 @@ function filterExtraArray(items) {
   if (!items) {
     return null;
   }
-  
+
   if (items.id) {
     return items;
   }
@@ -288,7 +291,7 @@ function filterNull(items) {
   if (!items || items.length == 0) {
     return null;
   }
-  
+
   if (items.id) {
     return items;
   }
@@ -297,7 +300,7 @@ function filterNull(items) {
   if (items.and) {
     return { and: filterNull(items.and) };
   }
-  
+
   if (items.or) {
     return { or: filterNull(items.or) };
   }
@@ -313,7 +316,7 @@ function filterNull(items) {
     if (items[i] && !items[i]?.id) {
       items[i] = filterNull(items[i]);
     }
-    
+
     if (!items[i]) {
       items.splice(i, 1); // Delete null
     } else {
@@ -355,7 +358,7 @@ function decodeBracket(data, encodedData) {
   if (!data) {
     return null;
   }
-  
+
   // Handle "and" array, "or" array
   if (data.and) {
     if (data.and.length == 1) {
@@ -409,7 +412,8 @@ function encodeBracket(info, targetSubject, targetId) {
       if (!hasNumber(inside[inNum])) {
         info = info.replace(inside[inNum], "");
         inNum--;
-      } else { // Replace "[" + string inside + "]" with "inside" + its index in the saved array
+      } else {
+        // Replace "[" + string inside + "]" with "inside" + its index in the saved array
         info = info.replace(inside[inNum], "inside" + inNum.toString());
         i = i - inside[inNum].length + 7;
       }
@@ -449,7 +453,7 @@ function filterPrereq(info, targetSubject, targetId) {
   if (!encoded.length || encoded.length == 0) {
     return encoded;
   }
-  
+
   let data = encoded[encoded.length - 1];
   data = decodeBracket(data, encoded);
   data = filterDuplicate(data);
@@ -526,16 +530,20 @@ function exportDogs(SUBJECT) {
         }),
       );
 
-      fs.writeFile(filePath + fileName, JSON.stringify(courses, null, 2), (error) => {
-        if (error) {
-          console.error(
-            "Error exporting data to JSON file" + fileName + ":",
-            error,
-          );
-        } else {
-          console.log("Data exported to", fileName);
-        }
-      });
+      fs.writeFile(
+        filePath + fileName,
+        JSON.stringify(courses, null, 2),
+        (error) => {
+          if (error) {
+            console.error(
+              "Error exporting data to JSON file" + fileName + ":",
+              error,
+            );
+          } else {
+            console.log("Data exported to", fileName);
+          }
+        },
+      );
     });
 }
 

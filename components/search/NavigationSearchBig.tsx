@@ -1,3 +1,5 @@
+// I categorically disapprove of this entire module - jahndan, 2024-11-28
+
 "use client";
 
 import { useState, useEffect } from "react";
@@ -13,7 +15,7 @@ import { Search } from "@/backend/search";
  * @param {{value: string, sendQuery: function(event: any): void}} props
  * @returns
  */
-function SearchBar({
+export function SearchBar({
   value,
   sendQuery,
 }: {
@@ -79,21 +81,13 @@ function NavigationSearchBig() {
 
   // call Search utility to find depts/classes matching query
   useEffect(() => {
-    //first 5 departments matching query
-    const depts = Search().deptByName(search).slice(0, 5);
-    //first 20 courses matching query
+    // first 20 courses matching query
     const courses = Search().courseByName(search).slice(0, 20);
     // TODO: have some other handler deal with representation
-    const results = depts.map(({ apr, name }) => ({
-      display_text: `${apr} - ${name}`,
-      href: `/${apr}`,
+    const results = courses.map((course) => ({
+      display_text: `${course.code} - ${course.fullname}`,
+      href: `/courses/${course.subject}/${course.number}`,
     }));
-    results.push(
-      ...courses.map((course) => ({
-        display_text: `${course.code} - ${course.title}`,
-        href: `/${course.subject}/${course.id}`,
-      })),
-    );
     setResults(results);
   }, [search, setResults]);
 

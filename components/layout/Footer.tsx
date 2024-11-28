@@ -4,9 +4,8 @@ import "../styles/Layout.css";
 export default function Footer() {
   return (
     <div id="footer">
-      <h2 id="clubName">© 2023 Social Coding</h2>
+      <h2 id="clubName">© 2024 Social Coding</h2>
 
-      
       <Link
         id="github"
         href="https://github.com/chaunmt/Interactive-Prerequisite-Flowchart"

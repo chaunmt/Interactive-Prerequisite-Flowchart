@@ -1,5 +1,3 @@
-/** TODO sorting things out */
-
 export type { Course, PrerequisiteRule };
 export { isCourse, isAndRule, isOrRule };
 
@@ -37,7 +35,7 @@ type PrerequisiteRule =
   | AndRule // allows nesting
   | OrRule // allows nesting
   | string // uid corresponds to single course
-  | {}; // no prereq
+  | {}; // no prereq (accepts any non-null type, test other cases first)
 
 function isAndRule(arg: any): arg is AndRule {
   return arg && (arg as AndRule).and !== undefined;

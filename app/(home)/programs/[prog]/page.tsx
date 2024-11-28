@@ -2,6 +2,7 @@
 
 // placeholder
 
-export default function Page() {
+export default function Page({ params }) {
+  console.log(params);
   return <div></div>;
 }

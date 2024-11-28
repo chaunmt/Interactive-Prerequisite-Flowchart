@@ -2,22 +2,21 @@
 
 import "@/components/styles/Mainpage.css";
 import "@/components/styles/Editor.css";
-import Graph from "@/components/graph/Graph";
+import Graph, { BuildOptions, DisplayOptions } from "@/components/graph/Graph";
 import DualPanePicker from "@/components/picker/Picker";
-import { AccessAll } from "@/backend/access"; // TODO fix this if desired
+import { course_get } from "@/backend/access"; // TODO fix this if desired
+import { Search } from "@/backend/search";
 
 import { useEffect, useState } from "react";
-// import SearchBar from "@/components/search/SearchBar";
-import { Search } from "@/components/search/NavigationSearchSmall";
+import { SearchBar } from "@/components/search/NavigationSearchSmall";
 
 import "@/components/styles/SearchBar.css";
 
-export default function Page({ params }) {
-  let build = {
-    simplify: false, // set true to remove or/and distinction
-    decimate_orphans: true,
+export default function Page() {
+  const build: BuildOptions = {
+    // decimate_orphans: true, // if they're adding courses manually they probably want them
   };
-  let display = {
+  const display: DisplayOptions = {
     orientation: "BT",
   };
 
@@ -44,7 +43,8 @@ export default function Page({ params }) {
     const itemCourses = selectedItems
       .map((item) => {
         //todo: keep Course/CourseShell with item somehow
-        return AccessAll.getCourse(item.display);
+        const [subj, num] = item.display.split();
+        return course_get(subj, num);
       })
       .filter((item) => item !== null);
     setCourses(itemCourses);
@@ -74,7 +74,7 @@ export default function Page({ params }) {
       <div id="picker">
         <div id="picker-header">
           <div id="searchPicker">
-            {/* <SearchBar value={search} sendQuery={handleSearch} /> */}
+            <SearchBar value={search} sendQuery={handleSearch} />
           </div>
           <div id="selectedPicker">
             <div id="selectedTitle">

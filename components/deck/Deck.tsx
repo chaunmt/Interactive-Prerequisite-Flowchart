@@ -1,7 +1,6 @@
 // scrolling deck of recommendation cards i.e. courses to take after another
 
-import { Course } from "@/backend/types";
-import Link from "next/link";
+import { Course } from "@/data/types";
 
 export { Deck, Card };
 
@@ -23,7 +22,7 @@ function Card({ course }: { course: Course }) {
       </div>
       <div className="basis-full pb-2 font-normal text-base line-clamp-1 overflow-hidden text-ellipsis">
         {/* TODO use long name instead of short name */}
-        <h3>{course.title}</h3>
+        <h3>{course.name}</h3>
       </div>
       <div className="font-light text-sm h-20 line-clamp-4 text-wrap overflow-hidden text-ellipsis">
         <p>{course.info}</p>

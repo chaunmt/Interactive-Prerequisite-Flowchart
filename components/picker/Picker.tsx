@@ -1,3 +1,5 @@
+// this solely exists for a editor page prototype
+
 /**
  * Picker.tsx - Apparently called a "dual list selector"
  */
@@ -21,7 +23,8 @@ function Picker({
     <div>
       {items.map((item) => (
         <div className="itemBox" key={item.id}>
-          <button className="item"
+          <button
+            className="item"
             key={item.id}
             onClick={() => {
               onClickItem(item.id);
@@ -53,7 +56,7 @@ export default function DualPanePicker({
   function addItem(id: string) {
     const item = items.find((item) => id === item.id);
     if (selectedItems.includes(item)) return;
-    let arr = selectedItems.concat(item);
+    const arr = selectedItems.concat(item);
     setSelected(arr);
   }
 

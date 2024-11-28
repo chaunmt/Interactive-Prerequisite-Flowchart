@@ -6,17 +6,20 @@ export default function Header() {
   return (
     <div id="header">
       <nav>
-        <Link href={"/"}> 
-          <Image 
-            id="logo" 
-            src={"/logos/CFLogo.webp"} 
-            alt="interactive-prereq-logo" 
-            width={1000} height={1000} // Pixel rendered
+        <Link href={"/"}>
+          <Image
+            id="logo"
+            src={"/logos/CFLogo.webp"}
+            alt="interactive-prereq-logo"
+            width={1000}
+            height={1000} // Pixel rendered
           />
         </Link>
       </nav>
       <ul>
-        <li id="home"><Link href={"/"}>Home</Link></li>
+        <li id="home">
+          <Link href={"/"}>Home</Link>
+        </li>
         <li id="about">About</li>
         <li id="subject">Subject</li>
         <li id="setting">Setting</li>
