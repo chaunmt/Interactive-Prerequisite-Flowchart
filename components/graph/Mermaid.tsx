@@ -53,6 +53,8 @@ export default function Mermaid({ graph }) {
 
     const generateGraph = async () => {
       const element = document.querySelector(".mermaid");
+      /*--- we will need bindFunctions later ---*/
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
       const { svg, bindFunctions } = await mermaid.render("mermaid", graph);
       element.innerHTML = svg;
     };

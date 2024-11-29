@@ -15,18 +15,18 @@ export default Graph;
 import Mermaid from "./Mermaid";
 import { buildGraph } from "@/backend/graphBuilder";
 
-import type { GraphData, build_options } from "@/backend/graphBuilder";
+import type { GraphData, BuildOptions } from "@/backend/graphBuilder";
 
 export type {
   /** nodes and edges */
   GraphData,
   /** @see graphBuilder */
-  build_options,
+  BuildOptions,
   /** type definition is self-explanatory */
-  display_options,
+  DisplayOptions,
 };
 
-type display_options = {
+type DisplayOptions = {
   orientation?: "TB" | "BT" | "LR" | "RL"; // top-bottom, bottom-top, left-right, right-left
   theme?: "light" | "dark"; // assumed light if not included
   // TODO: other optional members as needed (remember to pad for undefined when using nonboolean) -- jahndan 2024/04/11
@@ -36,8 +36,8 @@ function Graph({
   build,
   display,
 }: {
-  build: build_options;
-  display?: display_options;
+  build: BuildOptions;
+  display?: DisplayOptions;
 }) {
   // TODO: add graph customization features
   const graph = buildGraph(build);
@@ -58,35 +58,35 @@ classDef default fill:#d2aef1,stroke:#815f9c,stroke-width:1px;
 `;
 
 /** naively converts a JSON representation of a graph to Mermaid's textual representation */
-export function convertJSONGraph(input: GraphData, display?: display_options) {
+export function convertJSONGraph(input: GraphData, display?: DisplayOptions) {
   // TODO sophisticated conversion if still using Mermaid -- 2024/01/13
-  let frontmatter = `\
+  const frontmatter = `\
 ---
 config:
   # # probably use this for arrow colors
-  # theme: ${display?.theme == "dark" ? "dark" : "neutral"}
+  # theme: ${display?.theme === "dark" ? "dark" : "neutral"}
   # # not yet sure how to use this or what for
   # themeCSS: ${display?.theme || "light"}
   # layout: elk  # redundant
 ---
 
 `;
-  let orientation = display?.orientation || "BT";
-  let styling = display?.theme == "dark" ? darkStyles : lightStyles;
+  const orientation = display?.orientation || "BT";
+  const styling = display?.theme === "dark" ? darkStyles : lightStyles;
 
-  let graph =
+  const graph =
     frontmatter +
     `graph ${orientation}\n` +
     styling +
     "\n%% node declarations\n" +
     input.nodes
       .map((n) => {
-        if (n.type == "or") {
+        if (n.type === "or") {
           // sorry if your editor bugs out: the zwj allows me to
           // add padding because mermaid trims whitespace otherwise
           return `${n.id}([‍  or  ‍]):::OR\n`;
         }
-        if (n.type == "and") {
+        if (n.type === "and") {
           // sorry if your editor bugs out: the zwj allows me to
           // add padding because mermaid trims whitespace otherwise
           return `${n.id}{{‍ and ‍}}:::AND\n`;
@@ -99,7 +99,10 @@ config:
     input.nodes
       .map((parent) =>
         parent.inbound_edges
-          .map((child) => `${child} --> ${parent.id}\n`)
+          .map((child) => {
+            const arrow = "-->"; // parent.type === "or" ? "-.->" : "-->";
+            return `${child} ${arrow} ${parent.id}\n`;
+          })
           .join(""),
       )
       .join("");
@@ -108,6 +111,6 @@ config:
   //     return `${e.from} --> ${e.to}\n`;
   //   })
   //   .join("");
-  console.log(graph);
+  // console.log(graph);
   return graph;
 }

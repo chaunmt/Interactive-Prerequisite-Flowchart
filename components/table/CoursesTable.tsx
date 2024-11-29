@@ -1,11 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import { Course } from "@/backend/types";
-import Graph, {
-  build_options,
-  display_options,
-} from "@/components/graph/Graph";
+import { Course } from "@/data/types";
+import Graph, { BuildOptions, DisplayOptions } from "@/components/graph/Graph";
 import Link from "next/link";
 
 import "@/components/styles/CoursesTable.css";
@@ -15,11 +12,10 @@ import { MdOpenInNew } from "react-icons/md";
 export { CoursesTable };
 
 function CoursesTable({ courses }: { courses: readonly Course[] }) {
-  let build: build_options = {
-    simplify: false, // set true to remove or/and distinction
+  const build: BuildOptions = {
     decimate_orphans: false, // this is only necessary if you're adding courses in bulk
   };
-  let display: display_options = {
+  const display: DisplayOptions = {
     // orientation: "TB",
     // theme: ??
   };
@@ -45,10 +41,10 @@ function CoursesTable({ courses }: { courses: readonly Course[] }) {
               <h2>
                 {selection.latest.code}
                 <br />
-                {selection.latest.title}
+                {selection.latest.fullname}
               </h2>
               <Link
-                href={`/${selection.latest.subject}/${selection.latest.id}`}
+                href={`/${selection.latest.subject}/${selection.latest.number}`}
               >
                 <button id="openId">
                   <MdOpenInNew />
@@ -71,11 +67,11 @@ function CoursesTable({ courses }: { courses: readonly Course[] }) {
             build={{
               includes: selection.list
                 .filter((e) => e.selected)
-                .map((e) => e.course),
+                .map((e) => e.course.uid),
               ...build,
               strong_orphans: selection.list
                 .filter((e) => e.selected)
-                .map((e) => e.course),
+                .map((e) => e.course.uid),
             }}
             display={display}
           />
@@ -87,9 +83,9 @@ function CoursesTable({ courses }: { courses: readonly Course[] }) {
   function handleClickCard(latest: Course) {
     console.log("clicked " + latest.code);
     // safe to compare objects by identity since no course objects are created (only reused)
-    let i = selection.list.map((e) => e.course).indexOf(latest);
+    const i = selection.list.map((e) => e.course).indexOf(latest);
     if (i < 0) return; // should never happen, also there should only be one
-    let { selected, course } = selection.list[i];
+    const { selected, course } = selection.list[i];
     // we're not supposed to mutate the state directly but this
     // works because we still call setSelection to update the state
     selection.list.splice(i, 1, { selected: !selected, course });
@@ -107,7 +103,7 @@ function CoursesTable({ courses }: { courses: readonly Course[] }) {
           className={e.selected ? "card_hl" : "card"}
           onClick={() => handleClickCard(e.course)}
         >
-          {e.course.id}
+          {e.course.number}
         </button>
       </div>
     ));
