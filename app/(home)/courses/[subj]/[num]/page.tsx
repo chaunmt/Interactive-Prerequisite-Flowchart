@@ -1,4 +1,4 @@
-import { course_get, targets, subjects } from "@/backend/access";
+import { course_get, targets, subjects, prereqs } from "@/backend/access";
 import { reformat } from "@/backend/text-manipulation";
 import NavigationSearchSmall from "@/components/search/NavigationSearchSmall";
 
@@ -26,6 +26,9 @@ export default function Page({ params }) {
   if (!course) return notFound();
 
   const target = targets(course);
+  console.log(target.map((c) => c.code));
+  const prereq = prereqs(course);
+  console.log(prereq.map((c) => c.code));
   const build: BuildOptions = {
     includes: [course.uid],
     decimate_orphans: false, // if the current course is an orphan we probably shouldn't draw an empty graph

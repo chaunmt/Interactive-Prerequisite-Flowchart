@@ -73,12 +73,12 @@ function course_get(subj: string, num: string, honor?: boolean): Course | null {
 function is_prereq(start: Course, end: Course, honor?: boolean): boolean {
   return PrerequisiteTraversal(
     (bools: boolean[]) => bools.some((t) => t === true),
-    (a, b: Course) => a.uid === b.uid, // string equality to compare uids
+    (a, b: string) => a.uid === b, // string equality to compare uids
     (arg: boolean) => arg, // do nothing
     (arg: boolean) => arg, // do nothing
     false,
-    honor,
-  )(end.prereq, start);
+    honor
+  )(end.prereq, start.uid);
 }
 
 /**
@@ -87,9 +87,7 @@ function is_prereq(start: Course, end: Course, honor?: boolean): boolean {
  */
 function targets(start: Course, honor?: boolean) {
   const courses = honor ? honors : general;
-  return Object.entries(courses)
-    .map(([, target]) => target)
-    .filter((target) => is_prereq(start, target));
+  return Object.values(courses).filter((target) => is_prereq(start, target));
 }
 
 function prereqs(start: Course, honor?: boolean) {
@@ -123,7 +121,7 @@ function PrerequisiteTraversal<out, state>(
   // state mutators for each branch if necessary
   arrx?: (x: state, index: number) => state, // modify state passed through the array branch
   orx?: (x: state) => state, // likewise for or branch
-  andx?: (x: state) => state, // likewise for and branch
+  andx?: (x: state) => state // likewise for and branch
 ): (input: PrerequisiteRule, state_var: state) => out {
   // state mutators default to identity if not specified
   const rx_state = arrx || ((p: state) => p);
@@ -133,17 +131,15 @@ function PrerequisiteTraversal<out, state>(
   const fn = (input: PrerequisiteRule, state_var: state): out => {
     if (isOrRule(input)) {
       const arr_out = arrl(
-        input.or.map((value, i) => fn(value, rx_state(ox_state(state_var), i))),
+        input.or.map((value, i) => fn(value, rx_state(ox_state(state_var), i)))
       );
-      return orl(fn(arr_out, state_var));
+      return orl(arr_out);
     }
     if (isAndRule(input)) {
       const arr_out = arrl(
-        input.and.map((value, i) =>
-          fn(value, rx_state(ax_state(state_var), i)),
-        ),
+        input.and.map((value, i) => fn(value, rx_state(ax_state(state_var), i)))
       );
-      return andl(fn(arr_out, state_var));
+      return andl(arr_out);
     }
     if (typeof input === "string") {
       return crsl(uid_get(input, honor_reqs), state_var);

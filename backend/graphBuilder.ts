@@ -27,12 +27,11 @@ function buildGraph(input: BuildOptions): GraphData {
   const stitched = stitch(combined);
   // console.log(`STITCH\n${graphtostring(stitched)}`);
   const graph = surgery(stitched);
-  console.log(`GRAPH\n${graphtostring(graph)}`);
-  // const graph = { nodes: combined.nodes.map((n) => ({ ...n, meta: n.id })) }; // TEMP
+  // console.log(`GRAPH\n${graphtostring(graph)}`);
   return input.decimate_orphans ? assist(graph, strong_orphans) : graph;
 }
 
-// debugging function
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 function graphtostring(graph: GraphData): string {
   return graph.nodes
     .map(

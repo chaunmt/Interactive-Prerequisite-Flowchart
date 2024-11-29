@@ -3,9 +3,9 @@ export function reformat(input: string, combine_newlines?: boolean) {
   const lst = combine_newlines
     ? input.split("\n").filter((para) => para != "")
     : input.split("\n");
-  return lst.map((para, i) => (
+  return lst.map((para) => (
     <>
-      <p key={i}>{para}</p>
+      <p>{para}</p>
       <br />
     </>
   ));
