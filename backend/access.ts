@@ -100,7 +100,7 @@ function prereqs(start: Course, honor?: boolean) {
     () => {}, // do nothing
     () => {}, // do nothing
     undefined,
-    honor
+    honor,
   )(start.prereq, out); // to mutate our array
   return out;
 }

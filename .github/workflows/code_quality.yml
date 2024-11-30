@@ -1,0 +1,41 @@
+name: Code quality
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  prettier:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          # Make sure the actual branch is checked out when running on pull requests
+          ref: ${{ github.head_ref }}
+
+      - name: Prettify code
+        uses: creyD/prettier_action@v4.3
+        with:
+          prettier_options: --check ${{ github.workspace }}
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4.0.0
+        with:
+          version: 9.x
+          run_install: true
+          standalone: false
+
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v4.0.4
+        with:
+          node-version: 20.x
+          cache: pnpm
+
+      - name: Turn off NextJS telemetry
+        run: pnpm exec next telemetry disable
+
+      - name: Lint checks
+        run: pnpm run lint ${{ github.workspace }}
