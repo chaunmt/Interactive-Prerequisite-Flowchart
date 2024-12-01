@@ -24,10 +24,11 @@ function buildGraph(input: BuildOptions): GraphData {
   // console.log(`RAW\n${graphtostring(raw)}`);
   const combined = combine(raw);
   // console.log(`COMBINE\n${graphtostring(combined)}`);
-  const stitched = stitch(combined);
-  // console.log(`STITCH\n${graphtostring(stitched)}`);
-  const graph = surgery(stitched);
-  // console.log(`GRAPH\n${graphtostring(graph)}`);
+  const stitched = surgery(combined);
+  // console.log(`GRAPH\n${graphtostring(stitched)}`);
+  // const graph = raw;
+  // const graph = combined;
+  const graph = stitched;
   return input.decimate_orphans ? assist(graph, strong_orphans) : graph;
 }
 
@@ -47,7 +48,7 @@ ${node?.id}${node?.type === "course" ? `[${node?.meta}]` : ""}
 
 /* post-build filtering functions */
 
-// filter out orphans
+/** filter out orphans */
 function assist(
   graph: GraphData,
   strong_orphans: readonly string[],
@@ -63,7 +64,7 @@ function assist(
   return { nodes: nodes };
 }
 
-// stitch top level 'and' nodes out
+/** stitch top level 'and' nodes out */
 function surgery(graph: GraphData): GraphData {
   graph.nodes
     .filter((n) => n.type === "course")
@@ -86,12 +87,7 @@ function surgery(graph: GraphData): GraphData {
   return graph;
 }
 
-function stitch(graph: GraphData): GraphData {
-  //
-  return graph;
-}
-
-// de-duplicate 'and'/'or' nodes that share same child nodes
+/** de-duplicate 'and'/'or' nodes that share same child nodes */
 function combine(graph: GraphData): GraphData {
   // canonize ids of nodes (and for edges)
   const canonized = graph.nodes.map((n) => ({
@@ -101,9 +97,11 @@ function combine(graph: GraphData): GraphData {
     inbound_edges: n.inbound_edges.map(canonize),
     // calling canonize for every node and edge may be inefficient
   }));
-  // deduplicate nodes
-  const nodes = canonized.reduce((a, b) => {
-    if (a.findIndex((c) => b.id === c.id) < 0) a.push(b);
+  // de-duplicate nodes
+  const nodes = canonized.reduce((a: NodeData[], b) => {
+    const i = a.findIndex((c) => b.id === c.id);
+    if (i < 0) a.push(b);
+    else a[i].meta = true;
     return a;
   }, []);
   return { nodes };
