@@ -13,18 +13,20 @@ export default function Page() {
       "803956",
       "004312",
       "002186",
+      "790654",
     ],
     decimate_orphans: false,
   };
 
-  const height = "";
-  // const height = "h-4/5";
+  // const height = "";
+  const height = "h-4/5";
 
   return (
     <div id="content" className="flex gap-4 h-screen">
       <div id="preqs" className={`w-1/2 ${height} overflow-auto p-4`}>
         {build.includes
-          .map((c) => [uid_get(c), ...prereqs(uid_get(c))])
+          .map((c) => uid_get(c))
+          .map((c) => [c, ...prereqs(c)])
           .flat()
           .map((c) => [c, ...prereqs(c)])
           .flat()
