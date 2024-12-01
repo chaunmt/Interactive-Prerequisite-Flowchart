@@ -15,7 +15,7 @@ export default function Header() {
         <Link href="/">
           <Image
             className="w-10 h-auto"
-            src="/logos/CFLogo.webp"
+            src="/logos/cf_logo_favicon.png"
             alt="interactive-prereq-logo"
             width={1000}
             height={1000}

@@ -7,13 +7,12 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: {
-    template: "%s | Gopher Prerequisite",
-    default: "Gopher Prerequisite",
+    template: "%s | Course Flowchart",
+    default: "Course Flowchart",
   },
   description:
-    "Explore and plan your academic journey with Gopher Prerequisite, your ultimate guide to course prerequisites at the University of Minnesota. Find detailed course information, prerequisites, and plan your curriculum efficiently.",
-  keywords: Keywords,
-  icons: "/logo.png",
+    "Explore and plan your academic journey with Course Flowchart, your ultimate guide to course prerequisites at the University of Minnesota - Twin Cities. Find detailed course information, prerequisites, and plan your curriculum efficiently.",
+  keywords: Keywords
 };
 
 export default function RootLayout({

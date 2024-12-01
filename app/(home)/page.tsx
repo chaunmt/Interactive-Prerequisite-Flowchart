@@ -12,8 +12,8 @@ export default function Page() {
       <div>
         <Image
           id="titleLogo"
-          src={"/logos/CFLongLogo.webp"}
-          alt="Title name"
+          src={"/logos/cf_logo_words.png"}
+          alt="Course Flowchart"
           width={1000}
           height={1000} // Pixel rendered
         />
@@ -24,5 +24,5 @@ export default function Page() {
 }
 
 export const metadata = {
-  title: `Home | Gopher Prerequisite`,
+  title: `Home | Course Flowchart`,
 };
