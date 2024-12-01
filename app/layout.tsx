@@ -4,7 +4,6 @@ import { Keywords } from "@/components/layout/Meta";
 import "@/app/globals.css";
 
 import { Metadata } from "next";
-import "@/components/styles/Layout.css";
 
 export const metadata: Metadata = {
   title: {

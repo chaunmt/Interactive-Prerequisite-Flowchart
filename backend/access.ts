@@ -77,7 +77,7 @@ function is_prereq(start: Course, end: Course, honor?: boolean): boolean {
     (arg: boolean) => arg, // do nothing
     (arg: boolean) => arg, // do nothing
     false,
-    honor
+    honor,
   )(end.prereq, start.uid);
 }
 
@@ -121,7 +121,7 @@ function PrerequisiteTraversal<out, state>(
   // state mutators for each branch if necessary
   arrx?: (x: state, index: number) => state, // modify state passed through the array branch
   orx?: (x: state) => state, // likewise for or branch
-  andx?: (x: state) => state // likewise for and branch
+  andx?: (x: state) => state, // likewise for and branch
 ): (input: PrerequisiteRule, state_var: state) => out {
   // state mutators default to identity if not specified
   const rx_state = arrx || ((p: state) => p);
@@ -131,13 +131,15 @@ function PrerequisiteTraversal<out, state>(
   const fn = (input: PrerequisiteRule, state_var: state): out => {
     if (isOrRule(input)) {
       const arr_out = arrl(
-        input.or.map((value, i) => fn(value, rx_state(ox_state(state_var), i)))
+        input.or.map((value, i) => fn(value, rx_state(ox_state(state_var), i))),
       );
       return orl(arr_out);
     }
     if (isAndRule(input)) {
       const arr_out = arrl(
-        input.and.map((value, i) => fn(value, rx_state(ax_state(state_var), i)))
+        input.and.map((value, i) =>
+          fn(value, rx_state(ax_state(state_var), i)),
+        ),
       );
       return andl(arr_out);
     }

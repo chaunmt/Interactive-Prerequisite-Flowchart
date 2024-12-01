@@ -29,6 +29,17 @@ const nextConfig = {
   },
   // include/exclude prototype pages for different type of builds
   pageExtensions: page_ext,
+
+  // Allow external images from GitHub avatars
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "avatars.githubusercontent.com",
+        pathname: "/u/*",
+      },
+    ],
+  },
 };
 
 export default nextConfig;
