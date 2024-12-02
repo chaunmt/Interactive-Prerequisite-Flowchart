@@ -158,12 +158,12 @@ function Accessor(subject: string) {
   }
   const uidmap: UidMap = maps[subject];
   const numbers: readonly string[] = Object.keys(uidmap);
-  const general: readonly Course[] = Object.values(uidmap).map((uid) =>
-    uid_get(uid, false),
-  );
-  const honors: readonly Course[] = Object.values(uidmap).map((uid) =>
-    uid_get(uid, true),
-  );
+  const general: readonly Course[] = Object.values(uidmap)
+    .map((uid) => uid_get(uid, false))
+    .filter((c) => c); // not null
+  const honors: readonly Course[] = Object.values(uidmap)
+    .map((uid) => uid_get(uid, true))
+    .filter((c) => c);
   function getTargets(prereq: Course, honor?: boolean) {
     const courses = honor ? honors : general;
     return courses.filter((target) => isPrereq(prereq, target));
