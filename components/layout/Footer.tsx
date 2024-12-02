@@ -35,8 +35,8 @@ export default function Footer() {
   return (
     <footer
       className="
-      relative flex flex-col items-center text-center w-full mt-auto p-4 bg-gray-100 
-      border-t border-gray-300"
+      relative flex flex-col items-center text-center w-full mt-auto p-6 pt-10 
+      border-t border-gray-300 bg-[var(--header-bar)] border-b border-[var(--header-bar-border)"
     >
       {CardSection(Head, HeadStyles)}
       {CardSection(Member, MemberStyles)}
@@ -49,32 +49,32 @@ export default function Footer() {
       >
         <button
           className="
-          bg-slate-400 text-white px-4 py-1 rounded hover:bg-white hover:text-black text-xs"
+          mt-4 bg-gray-700 text-white px-6 py-2 rounded-md hover:bg-gray-600 transition text-sm font-medium"
         >
           GitHub
         </button>
       </Link>
 
       {/* Footer Text */}
-      <p className="text-xs mt-4">
+      <p className="text-sm text-gray-600 mt-4">
         Created by and for{" "}
-        <Link href="https://twin-cities.umn.edu/" className="md:font-bold">
+        <Link href="https://twin-cities.umn.edu/" className="text-blue-500 hover:underline" target="_blank">
           University of Minnesota - Twin Cities
         </Link>{" "}
         students through{" "}
-        <Link href="https://www.socialcoding.net/" className="md:font-bold">
+        <Link href="https://www.socialcoding.net/" className="text-blue-500 hover:underline" target="_blank">
           Social Coding
         </Link>{" "}
         with data from{" "}
         <Link
           href="https://asr.umn.edu/applications-and-forms/applications/coursedog"
-          className="md:font-bold"
+          className="text-blue-500 hover:underline" target="_blank"
         >
           Coursedog
-        </Link>
-        —the University’s course and program catalog management system.
+        </Link>{" "}
+        - the University’s course and program catalog management system.
       </p>
-      <Link href="/privacynotice" className="underline text-xs mt-1">
+      <Link href="/privacynotice" className="text-xs mt-2 underline text-gray-500" target="_blank">
         Privacy Notice
       </Link>
     </footer>

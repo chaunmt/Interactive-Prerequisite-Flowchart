@@ -1,21 +1,19 @@
 // Home page - "google.com" w/ global search
 
-import "@/components/styles/Layout.css";
-import "@/components/styles/Mainpage.css";
-
 import Image from "next/image";
 import NavigationSearchBig from "@/components/search/NavigationSearchBig";
 
 export default function Page() {
   return (
-    <div id="content">
-      <div>
+    <div className="min-h-screen flex flex-col items-center justify-start bg-gray-50">
+      <div className="mt-10 mb-0">
         <Image
           id="titleLogo"
           src={"/logos/cf_logo_words.png"}
-          alt="Course Flowchart"
-          width={1000}
-          height={1000} // Pixel rendered
+          alt="Course Flowchart Logo: Navigate your course prerequisites with ease"
+          width={400}
+          height={250} // Pixel rendered
+          className="mx-auto"
         />
       </div>
       <NavigationSearchBig />

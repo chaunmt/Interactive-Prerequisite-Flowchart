@@ -5,10 +5,6 @@ import NavigationSearchSmall from "@/components/search/NavigationSearchSmall";
 import Graph, { BuildOptions } from "@/components/graph/Graph";
 import { Deck } from "@/components/deck/Deck";
 
-import "@/components/styles/Idpage.css";
-import "@/components/styles/Layout.css";
-import "@/components/styles/SearchBarSmall.css";
-
 import { FiDownload } from "react-icons/fi";
 import { notFound } from "next/navigation";
 
@@ -35,37 +31,37 @@ export default function Page({ params }) {
   };
 
   return (
-    <div id="content" className="flex flex-col gap-4">
+    <div className="p-8 space-y-8 bg-gray-50">
       <div>
-        {/* <Link href={"/" + subj}>
-          <button id="back">
-            <IoReturnUpBackOutline />
-          </button>
-        </Link> */}
         <NavigationSearchSmall />
       </div>
-      <div id="container">
-        <div id="graph">
-          <div id="head">
-            <div
-              id="warning"
-              title="Prerequisite information is unreliable and subject to change during and between terms."
-            >
-              <b>*Possible Prerequisites</b>
-            </div>
-            <button id="download">
-              <FiDownload />
+
+      {/* Main Content Grid */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        {/* Graph Section */}
+        <div className="bg-gray-100 rounded-lg p-4 shadow-md">
+          {/* Graph Header */}
+          <div className="flex justify-between items-center mb-4">
+            <div className="text-red-500 font-bold text-sm">*Possible Prerequisites</div>
+            <button className="p-2 rounded bg-gray-200 hover:bg-gray-300">
+              <FiDownload size={24} />
             </button>
           </div>
-          <Graph build={build} />
-          {/* <Mermaid graph={graphString} /> */}
+
+          {/* Graph Container */}
+          <div className="bg-gray-200 rounded-lg p-4">
+            <Graph build={build} />
+          </div>
         </div>
-        <div id="infoBox">
-          <div id="code">{course.code}</div>
-          <div id="name">{course.fullname}</div>
-          <div id="info">{reformat(course.info, true)}</div>
+
+        {/* Info Section */}
+        <div className="bg-gray-50 p-6 rounded-lg shadow-md space-y-4">
+          <div id="code" className="text-xl font-bold">{course.code}</div>
+          <div id="name" className="text-lg font-semibold">{course.fullname}</div>
+          <div id="info" className="text-gray-700">{reformat(course.info, true)}</div>
         </div>
       </div>
+
       <Deck courses={target} />
     </div>
   );

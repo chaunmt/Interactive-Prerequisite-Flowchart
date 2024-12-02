@@ -25,13 +25,33 @@ export function SearchBar({
   // TODO reconsider hideous type
 
   return (
-    <input
-      type="text"
-      placeholder="Search By Class"
-      value={value}
-      onChange={sendQuery}
-      className="border-0 outline-0 bg-[var(--search-bar)] mt-[2%] w-[40%] max-h-4 p-[1.5%_5%] rounded-full shadow-sm text-lg"
-    />
+    <div className="relative w-[90%] sm:w-[50%] mx-auto">
+      {/* Search Icon */}
+      <div className="absolute inset-y-0 left-4 flex items-center pointer-events-none">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          strokeWidth="2"
+          stroke="currentColor"
+          className="w-5 h-5 text-gray-400"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M21 21l-4.35-4.35M16.65 16.65A7.5 7.5 0 1110.5 3a7.5 7.5 0 016.15 13.65z"
+          />
+        </svg>
+      </div>
+      {/* Search input field */}
+      <input
+        type="text"
+        placeholder="Search By Class"
+        value={value}
+        onChange={sendQuery}
+        className="w-full px-12 py-3 text-lg bg-white border border-gray-300 rounded-full shadow-md focus:outline-none focus:ring-2 focus:ring-gray-400"
+      />
+    </div>
   );
 }
 
@@ -52,18 +72,18 @@ function SearchResultsList({
   // TODO: inline vs hoverable list options, many options, this is meant to be customizable
 
   return (
-    <ul className="mt-4">
+    <ul className="mt-0.2 bg-white shadow-lg rounded-md max-h-60 w-[90%] sm:w-[48%] mx-auto border border-gray-200 overflow-y-auto">
       {filteredData.length > 0 ? (
         filteredData.map((result, index) => (
           <li
             key={index}
-            className="list-none pt-2 pr-2 text-gray-700 font-bold cursor-pointer hover:text-gray-900"
+            className="py-2 px-4 rounded-md text-gray-700 font-medium cursor-pointer hover:bg-gray-100"
           >
             <Link href={result.href}>{result.display_text}</Link>
           </li>
         ))
       ) : (
-        <li className="list-none pt-2 pr-2 text-gray-700 font-bold">
+        <li className="py-2 px-4 text-gray-500 font-medium text-center">
           No search results
         </li>
       )}
@@ -98,11 +118,11 @@ function NavigationSearchBig() {
 
   // Render the search input and results
   return (
-    <div className="text-center mt-[5%]">
+    <div className="text-center mt-8 w-full">
       <SearchBar value={search} sendQuery={handleSearch} />
-      <div className="bg-[var(--search-result-container)] shadow-sm max-h-60 w-100 overflow-y-auto z-[999]">
+      {/* <div className="bg-[var(--search-result-container)] shadow-sm max-h-60 w-100 overflow-y-auto z-[999]"> */}
         {search && <SearchResultsList filteredData={results} />}
-      </div>
+      {/* </div> */}
     </div>
   );
 }

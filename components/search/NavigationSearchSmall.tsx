@@ -25,13 +25,35 @@ export function SearchBar({
   // TODO reconsider hideous type
 
   return (
-    <input
-      type="text"
-      placeholder="Search By Class"
-      value={value}
-      onChange={sendQuery}
-      className="border-0 outline-0 bg-[var(--search-bar)] p-[2%_5%] rounded-md shadow-sm"
-    />
+    <div className="relative">
+      {/* Search Icon */}
+      <div className="absolute inset-y-0 left-4 flex items-center pointer-events-none">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          strokeWidth="1.5"
+          stroke="currentColor"
+          className="size-4"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+          />
+        </svg>
+      </div>
+      {/* Search input field */}
+      <input
+        type="text"
+        placeholder="Search By Class"
+        value={value}
+        onChange={sendQuery}
+        className="outline-0 bg-[var(--search-bar)] px-12 py-3 rounded-md shadow-sm w-[19%]
+        bg-white border border-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-400"
+      />
+
+    </div>
   );
 }
 
@@ -96,9 +118,9 @@ function NavigationSearchSmall() {
 
   // Render the search input and results
   return (
-    <div className="w-1/2 right-0 top-0">
+    <div className="right-0 top-0">
       <SearchBar value={search} sendQuery={handleSearch} />
-      <div className="absolute bg-white shadow-md max-h-60 w-96 overflow-y-auto z-50">
+      <div className="mt-1 absolute bg-white shadow-md w-[19%] max-h-60 overflow-y-auto z-50">
         {search && <SearchResultsList filteredData={results} />}
       </div>
     </div>
