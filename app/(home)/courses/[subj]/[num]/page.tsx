@@ -31,38 +31,51 @@ export default function Page({ params }) {
   };
 
   return (
-    <div className="p-8 space-y-8 bg-gray-50">
-      <div>
+    <div className="min-h-screen bg-gray-50 p-6">
+      {/* Navigation Bar */}
+      <div className="mb-6">
         <NavigationSearchSmall />
       </div>
 
       {/* Main Content Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         {/* Graph Section */}
-        <div className="bg-gray-100 rounded-lg p-4 shadow-md">
+        <div className="lg:order-1 order-1 bg-white rounded-lg shadow p-4 flex-grow">
           {/* Graph Header */}
           <div className="flex justify-between items-center mb-4">
             <div className="text-red-500 font-bold text-sm">*Possible Prerequisites</div>
-            <button className="p-2 rounded bg-gray-200 hover:bg-gray-300">
-              <FiDownload size={24} />
+            <button className="p-2 rounded bg-gray-100 hover:bg-gray-200">
+              <FiDownload size={20} />
             </button>
           </div>
 
           {/* Graph Container */}
-          <div className="bg-gray-200 rounded-lg p-4">
+          <div className="bg-gray-100 rounded-md p-4 min-h-[50vh]">
             <Graph build={build} />
           </div>
         </div>
 
-        {/* Info Section */}
-        <div className="bg-gray-50 p-6 rounded-lg shadow-md space-y-4">
-          <div id="code" className="text-xl font-bold">{course.code}</div>
-          <div id="name" className="text-lg font-semibold">{course.fullname}</div>
-          <div id="info" className="text-gray-700">{reformat(course.info, true)}</div>
+        {/* Course Info Section */}
+        <div className="lg:order-2 order-2 bg-white rounded-lg shadow p-6 space-y-4">
+          <div id="code" className="text-xl font-bold text-gray-800">
+            {course.code}
+          </div>
+          <div id="name" className="text-lg font-semibold text-gray-700">
+            {course.fullname}
+          </div>
+          <div id="info" className="text-gray-600">
+            {reformat(course.info, true)}
+          </div>
         </div>
       </div>
 
-      <Deck courses={target} />
+      {/* Target Courses Section */}
+      <div className="mt-8 bg-white rounded-lg shadow p-4">
+        <h2 className="text-lg font-semibold text-gray-700 mb-4">Target Courses</h2>
+        <div className="overflow-x-auto flex gap-4">
+          <Deck courses={target} />
+        </div>
+      </div>
     </div>
   );
 }
