@@ -31,9 +31,9 @@ export default function ThemeSelector() {
   // Get the icon corresponding to the current theme
   const getThemeIcon = () => {
     const iconSize = 28; // Set icon size
-    if (theme === "light") return <CiLight className="text-gray-700" size={iconSize} />;
-    if (theme === "dark") return <FaMoon className="text-gray-700" size={iconSize} />;
-    if (theme === "computer") return <FaDesktop className="text-gray-700" size={iconSize} />;
+    if (theme === "light") return <CiLight className="text-gray-800" size={iconSize} />;
+    if (theme === "dark") return <FaMoon className="text-gray-800" size={iconSize} />;
+    if (theme === "computer") return <FaDesktop className="text-gray-800" size={iconSize} />;
   };
 
   return (
@@ -56,19 +56,19 @@ export default function ThemeSelector() {
           <ul className="flex flex-col items-center space-y-1">
             <li
               onClick={() => handleThemeChange("light")}
-              className="w-10 h-10 flex items-center justify-center cursor-pointer rounded-full hover:bg-gray-100"
+              className="text-gray-700 w-10 h-10 flex items-center justify-center cursor-pointer rounded-full hover:bg-gray-100"
             >
               <CiLight size={28} />
             </li>
             <li
               onClick={() => handleThemeChange("dark")}
-              className="w-10 h-10 flex items-center justify-center cursor-pointer rounded-full hover:bg-gray-100"
+              className="text-gray-700 w-10 h-10 flex items-center justify-center cursor-pointer rounded-full hover:bg-gray-100"
             >
               <FaMoon size={28} />
             </li>
             <li
               onClick={() => handleThemeChange("computer")}
-              className="w-10 h-10 flex items-center justify-center cursor-pointer rounded-full hover:bg-gray-100"
+              className="text-gray-700 w-10 h-10 flex items-center justify-center cursor-pointer rounded-full hover:bg-gray-100"
             >
               <FaDesktop size={28} />
             </li>
