@@ -4,6 +4,7 @@ import NavigationSearchSmall from "@/components/search/NavigationSearchSmall";
 
 import Graph, { BuildOptions } from "@/components/graph/Graph";
 import { Deck } from "@/components/deck/Deck";
+import { Target } from "@/components/deck/Target";
 
 import { FiDownload } from "react-icons/fi";
 import { notFound } from "next/navigation";

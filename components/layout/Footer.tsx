@@ -2,6 +2,8 @@ import Link from "next/link";
 import Image from "next/image";
 import contributors from "@/contributors.json";
 
+import { FaGithub, FaLinkedin, FaHome } from "react-icons/fa";
+
 // three tiered listing
 const { Head, Member, Contributor } = contributors;
 const HeadStyles = {
@@ -124,17 +126,17 @@ function CardSection(people: MemberInfo, styles: CardStyles) {
           <div className="flex gap-2 mt-auto mb-2">
             <Link href={person.Linkedin} target="_blank">
               <div className={styles.buttons}>
-                <span className="text-sm">🔗</span>
+                <span className="text-sm"><FaLinkedin/></span>
               </div>
             </Link>
             <Link href={person.Homepage} target="_blank">
               <div className={styles.buttons}>
-                <span className="text-sm">🏠</span>
+                <span className="text-sm"><FaHome/></span>
               </div>
             </Link>
             <Link href={person.GitHub} target="_blank">
               <div className={styles.buttons}>
-                <span className="text-sm">🐙</span>
+                <span className="text-sm"><FaGithub/></span>
               </div>
             </Link>
           </div>
