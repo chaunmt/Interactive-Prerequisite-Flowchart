@@ -35,8 +35,8 @@ export default function Footer() {
   return (
     <footer
       className="
-      relative flex flex-col items-center text-center w-full mt-auto p-6 pt-10 
-      border-t border-gray-300 bg-[var(--header-bar)] border-b border-[var(--header-bar-border)"
+      relative flex flex-col items-center text-center w-full mt-auto p-8 pt-12 
+      bg-gradient-to-t from-gray-100 to-white shadow-inner"
     >
       {CardSection(Head, HeadStyles)}
       {CardSection(Member, MemberStyles)}
@@ -49,14 +49,15 @@ export default function Footer() {
       >
         <button
           className="
-          mt-4 bg-gray-700 text-white px-6 py-2 rounded-md hover:bg-gray-600 transition text-sm font-medium"
+          mt-5 text-sm bg-gray-500 text-white px-6 py-2 rounded-md hover:bg-gray-700 
+          transition duration-300 shadow-md"
         >
-          GitHub
+          Contribute to our GitHub
         </button>
       </Link>
 
       {/* Footer Text */}
-      <p className="text-sm text-gray-600 mt-4">
+      <p className="text-sm text-gray-600 mt-6">
         Created by and for{" "}
         <Link href="https://twin-cities.umn.edu/" className="text-blue-500 hover:underline" target="_blank">
           University of Minnesota - Twin Cities
@@ -74,7 +75,7 @@ export default function Footer() {
         </Link>{" "}
         - the University’s course and program catalog management system.
       </p>
-      <Link href="/privacynotice" className="text-xs mt-2 underline text-gray-500" target="_blank">
+      <Link href="/privacynotice" className="text-xs mt-3 underline text-gray-500 hover:text-gray-700" target="_blank">
         Privacy Notice
       </Link>
     </footer>
