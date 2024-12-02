@@ -6,6 +6,9 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { Search } from "@/backend/search";
 
+
+import { CiSearch } from "react-icons/ci";
+
 /**
  * Search Bar UI Component that accepts and sends back search query values
  *
@@ -28,20 +31,7 @@ export function SearchBar({
     <div className="relative w-[90%] sm:w-[50%] mx-auto">
       {/* Search Icon */}
       <div className="absolute inset-y-0 left-4 flex items-center pointer-events-none">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          strokeWidth="2"
-          stroke="currentColor"
-          className="w-5 h-5 text-gray-400"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M21 21l-4.35-4.35M16.65 16.65A7.5 7.5 0 1110.5 3a7.5 7.5 0 016.15 13.65z"
-          />
-        </svg>
+        <CiSearch className="size-6 text-gray-500"/>
       </div>
       {/* Search input field */}
       <input
