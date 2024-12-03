@@ -16,11 +16,11 @@ export default function Page() {
             alt="Course Flowchart Logo: Navigate your course prerequisites with ease"
             width={400}
             height={250} // Pixel rendered
-            sizes="(max-width: 768px) 80vw, (max-width: 1200px) 50vw, 300px"
+            // sizes="(max-width: 768px) 80vw, (max-width: 1200px) 50vw, 300px"
             priority
             className="mx-auto w-96 h-auto"
             // true drop shadow using svg filters (TODO: proper svg instead of a png)
-            style={{ filter: "drop-shadow(1px 1px 1px #1112)" }}
+            // style={{ filter: "drop-shadow(1px 1px 1px #1112)" }}
           />
         </div>
 
