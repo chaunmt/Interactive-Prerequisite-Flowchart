@@ -31,7 +31,7 @@ export function SearchBar({
     <div className="relative w-[90%] sm:w-[50%] mx-auto">
       {/* Search Icon */}
       <div className="absolute inset-y-0 left-4 flex items-center pointer-events-none">
-        <CiSearch className="size-6 text-gray-500"/>
+        <CiSearch className="size-6 text-gray-500" />
       </div>
       {/* Search input field */}
       <input
@@ -39,7 +39,7 @@ export function SearchBar({
         placeholder="Search By Class"
         value={value}
         onChange={sendQuery}
-        className="w-full px-12 py-3 text-lg bg-white border border-gray-300 rounded-full shadow-md focus:outline-none focus:ring-2 focus:ring-gray-400"
+        className="w-full px-12 py-3 text-lg bg-white border border-gray-150 rounded-full shadow focus:outline-none focus:ring-2 focus:ring-gray-400"
       />
     </div>
   );
@@ -62,7 +62,7 @@ function SearchResultsList({
   // TODO: inline vs hoverable list options, many options, this is meant to be customizable
 
   return (
-    <ul className="mt-0.2 bg-white shadow-lg rounded-md max-h-60 w-[90%] sm:w-[48%] mx-auto border border-gray-200 overflow-y-auto">
+    <ul className="mt-0.2 bg-white shadow-sm rounded-md max-h-60 w-[90%] sm:w-[48%] mx-auto border border-gray-200 overflow-y-auto">
       {filteredData.length > 0 ? (
         filteredData.map((result, index) => (
           <li

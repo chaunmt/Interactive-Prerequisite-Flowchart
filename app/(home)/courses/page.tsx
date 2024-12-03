@@ -1,7 +1,14 @@
 /** course catalog home */
 
+import Link from "next/link";
+
 // placeholder
 
 export default function Page() {
-  return <div></div>;
+  return (
+    <div>
+      <p>Page under construction</p>
+      <Link href="/">Return home</Link>
+    </div>
+  );
 }

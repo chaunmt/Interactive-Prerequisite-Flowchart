@@ -43,7 +43,9 @@ export default function Page({ params }) {
         <div className="lg:order-1 order-1 bg-white rounded-lg shadow p-4 flex-grow">
           {/* Graph Header */}
           <div className="flex justify-between items-center mb-4">
-            <div className="text-red-500 font-bold text-sm">*Possible Prerequisites</div>
+            <div className="text-red-500 font-bold text-sm">
+              *Possible Prerequisites
+            </div>
             <button className="p-2 rounded bg-gray-100 hover:bg-gray-200">
               <FiDownload size={20} />
             </button>
@@ -57,10 +59,10 @@ export default function Page({ params }) {
 
         {/* Course Info Section */}
         <div className="lg:order-2 order-2 bg-white rounded-lg shadow p-6 space-y-4">
-          <div id="code" className="text-xl font-bold text-gray-800">
+          <div id="code" className="text-xl font-semibold text-gray-800">
             {course.code}
           </div>
-          <div id="name" className="text-lg font-semibold text-gray-700">
+          <div id="name" className="text-lg font-medium text-gray-700">
             {course.fullname}
           </div>
           <div id="info" className="text-gray-600">
@@ -69,9 +71,11 @@ export default function Page({ params }) {
         </div>
       </div>
 
-      {/* Target Courses Section */}
+      {/* Recommendation Section */}
       <div className="mt-8 bg-white rounded-lg shadow p-4">
-        <h2 className="text-lg font-semibold text-gray-700 mb-4">Target Courses</h2>
+        <h2 className="text-lg font-semibold text-gray-700 mb-4">
+          Recommended Courses
+        </h2>
         <div className="overflow-x-auto flex gap-4">
           <Deck courses={target} />
         </div>

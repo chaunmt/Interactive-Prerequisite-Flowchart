@@ -22,10 +22,10 @@ export default function Page({ params }) {
   const SUBJ_COURSES = Accessor(SUBJ).general;
 
   return (
-    <div id="content">
+    <div id="content" className="p-6">
       {/* <h1>{Search().exactDept(SUBJ).toUpperCase()}</h1> */}
       <NavigationSearchSmall />
-      <div id="tableBox">
+      <div id="tableBox" className="rounded-sm">
         <CoursesTable courses={SUBJ_COURSES} />
       </div>
     </div>

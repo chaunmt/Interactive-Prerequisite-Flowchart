@@ -2,24 +2,29 @@ import Link from "next/link";
 import Image from "next/image";
 import contributors from "@/contributors.json";
 
+import info from "@/package.json";
+
+const name = info.name;
+const version = info.version;
+
 import { FaGithub, FaLinkedin, FaHome } from "react-icons/fa";
 
 // three tiered listing
 const { Head, Member, Contributor } = contributors;
 const HeadStyles = {
   section: "flex flex-wrap justify-center gap-4 mb-6",
-  card: "flex flex-col items-center bg-white p-2 rounded shadow-lg w-[20vw] max-w-[250px] h-[30vh] max-h-[320px]",
+  card: "flex flex-col items-center bg-white border border-gray-100 p-2 rounded shadow w-[20vw] max-w-[250px] h-[26vh] max-h-[320px]",
   avatar:
-    "relative w-[6vw] h-[6vw] max-w-[80px] max-h-[80px] bg-gray-300 rounded-full flex items-center justify-center mt-4 overflow-hidden",
+    "shadow relative w-[6vw] h-[6vw] max-w-[80px] max-h-[80px] bg-gray-300 rounded-full flex items-center justify-center mt-4 overflow-hidden",
   name: "text-red-600 font-bold mt-2 text-sm",
   role: "text-xs overflow-hidden hover:overflow-visible hover:whitespace-normal hover:h-auto",
   buttons: "w-6 h-6 bg-gray-300 rounded-full flex items-center justify-center",
 };
 const MemberStyles = {
   section: "flex flex-wrap justify-center gap-3 mb-6",
-  card: "flex flex-col items-center bg-white p-2 rounded shadow w-[18vw] max-w-[200px] h-[25vh] max-h-[280px]",
+  card: "flex flex-col items-center bg-white border border-gray-100 p-2 rounded shadow w-[18vw] max-w-[200px] h-[22vh] max-h-[280px]",
   avatar:
-    "relative w-[5vw] h-[5vw] max-w-[70px] max-h-[70px] bg-gray-300 rounded-full flex items-center justify-center mt-2 overflow-hidden",
+    "shadow relative w-[5vw] h-[5vw] max-w-[70px] max-h-[70px] bg-gray-300 rounded-full flex items-center justify-center mt-2 overflow-hidden",
   name: "text-red-600 font-bold mt-2 text-sm",
   role: "text-xs overflow-hidden hover:overflow-visible hover:whitespace-normal hover:h-auto transition-all duration-300",
   buttons: "w-5 h-5 bg-gray-300 rounded-full flex items-center justify-center",
@@ -28,7 +33,7 @@ const ContributorStyles = {
   section: "flex flex-wrap justify-center gap-3 mb-6",
   container: "relative group flex flex-col items-center cursor-pointer",
   avatar:
-    "w-[4vw] h-[4vw] max-w-[50px] max-h-[50px] bg-gray-300 rounded-full flex items-center justify-center overflow-hidden",
+    "shadow relative w-[4vw] h-[4vw] max-w-[50px] max-h-[50px] bg-gray-300 rounded-full flex items-center justify-center overflow-hidden",
   tooltip:
     "absolute top-12 left-1/2 transform -translate-x-1/2 hidden group-hover:flex bg-black text-white text-xs rounded px-2 py-1 shadow-lg whitespace-nowrap pointer-events-none",
 };
@@ -58,26 +63,44 @@ export default function Footer() {
         </button>
       </Link>
 
+      <p className="text-sm pt-4 text-slate-400">
+        {name} v{version}
+      </p>
+
       {/* Footer Text */}
-      <p className="text-sm text-gray-600 mt-6">
+      <div className="w-2/3 text-sm text-gray-600 mt-6">
         Created by and for{" "}
-        <Link href="https://twin-cities.umn.edu/" className="text-blue-500 hover:underline" target="_blank">
+        <Link
+          href="https://twin-cities.umn.edu/"
+          className="text-blue-500 hover:underline"
+          target="_blank"
+        >
           University of Minnesota - Twin Cities
         </Link>{" "}
         students through{" "}
-        <Link href="https://www.socialcoding.net/" className="text-blue-500 hover:underline" target="_blank">
+        <Link
+          href="https://www.socialcoding.net/"
+          className="text-blue-500 hover:underline"
+          target="_blank"
+        >
           Social Coding
         </Link>{" "}
         with data from{" "}
         <Link
           href="https://asr.umn.edu/applications-and-forms/applications/coursedog"
-          className="text-blue-500 hover:underline" target="_blank"
+          className="text-blue-500 hover:underline"
+          target="_blank"
         >
           Coursedog
-        </Link>{" "}
-        - the University’s course and program catalog management system.
-      </p>
-      <Link href="/privacynotice" className="text-xs mt-3 underline text-gray-500 hover:text-gray-700" target="_blank">
+        </Link>
+        : the University’s course and program catalog management system.
+      </div>
+      <Link
+        href="/privacy"
+        className="text-xs mt-3 underline text-gray-500 hover:text-gray-700"
+        target="_blank"
+      >
+        {/* Privacy Policy? */}
         Privacy Notice
       </Link>
     </footer>
@@ -115,6 +138,7 @@ function CardSection(people: MemberInfo, styles: CardStyles) {
                 alt={`${person.Name} avatar`}
                 fill
                 style={{ objectFit: "cover" }}
+                sizes="(max-width: 768px) 60px, (max-width: 1200px) 70px, 80px"
                 className="rounded-full"
               />
             </div>
@@ -126,17 +150,23 @@ function CardSection(people: MemberInfo, styles: CardStyles) {
           <div className="flex gap-2 mt-auto mb-2">
             <Link href={person.Linkedin} target="_blank">
               <div className={styles.buttons}>
-                <span className="text-sm"><FaLinkedin/></span>
+                <span className="text-sm">
+                  <FaLinkedin />
+                </span>
               </div>
             </Link>
             <Link href={person.Homepage} target="_blank">
               <div className={styles.buttons}>
-                <span className="text-sm"><FaHome/></span>
+                <span className="text-sm">
+                  <FaHome />
+                </span>
               </div>
             </Link>
             <Link href={person.GitHub} target="_blank">
               <div className={styles.buttons}>
-                <span className="text-sm"><FaGithub/></span>
+                <span className="text-sm">
+                  <FaGithub />
+                </span>
               </div>
             </Link>
           </div>
@@ -172,6 +202,7 @@ function ContributorSection(people: ContributorInfo, styles: AvatarStyles) {
                 alt={`${person.Name} avatar`}
                 fill
                 style={{ objectFit: "cover" }}
+                sizes="(max-width: 768px) 60px, (max-width: 1200px) 70px, 80px"
                 className="rounded-full"
               />
             </div>

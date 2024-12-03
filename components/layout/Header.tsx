@@ -14,7 +14,7 @@ export default function Header() {
     <header
       className="
         relative top-0 left-0 w-full h-16 z-50 flex items-center justify-between
-        bg-white shadow-md border-b border-gray-200 px-4 md:px-6"
+        bg-white shadow border-b border-gray-200 px-4 md:px-6"
     >
       {/* Left Section: Logo and Navigation */}
       <div className="flex items-center gap-4 flex-grow">
@@ -55,22 +55,20 @@ export default function Header() {
         {/* Search Button */}
         <button
           className="
-            w-10 h-10 md:w-auto md:h-auto md:px-4 md:py-2 flex items-center justify-center bg-gray-50 border border-gray-300 rounded-full md:rounded-md hover:bg-gray-100 text-gray-600 text-sm font-medium transition gap-2"
+            w-10 h-10 md:w-auto md:h-auto md:px-4 md:py-2 flex items-center justify-center bg-gray-50 border border-gray-200 rounded-full md:rounded-md hover:bg-gray-100 text-gray-600 text-sm font-medium transition gap-2"
         >
           <CiSearch className="text-gray-500 text-lg" />
           <span className="hidden md:block">Search...</span>
         </button>
 
         {/* Theme Switcher */}
-        <div
-          className="w-10 h-10 flex items-center justify-center bg-gray-50 border border-gray-300 rounded-full hover:bg-gray-100 transition"
-        >
-          <ThemeSelector/>
+        <div className="w-10 h-10 flex items-center justify-center bg-gray-50 border border-gray-200 rounded-full hover:bg-gray-100 transition">
+          <ThemeSelector />
         </div>
 
         {/* Hamburger Menu Icon */}
         <button
-          className="md:hidden w-10 h-10 flex items-center justify-center bg-gray-50 border border-gray-300 rounded-full hover:bg-gray-100"
+          className="md:hidden w-10 h-10 flex items-center justify-center bg-gray-50 border border-gray-200 rounded-full hover:bg-gray-100"
           onClick={() => setMenuOpen(!menuOpen)}
           aria-label="Toggle menu"
         >
@@ -80,14 +78,12 @@ export default function Header() {
 
       {/* Dropdown Menu for Small Screens */}
       {menuOpen && (
-        <div
-          className="absolute top-16 left-0 w-full bg-white border-t border-gray-200 shadow-lg z-50"
-        >
+        <div className="absolute top-16 left-0 w-full bg-white border-t border-gray-150 shadow-lg z-50">
           <ul className="flex flex-col items-start p-4 gap-2">
             {[
               { display: "Home", ref: "/" },
-              { display: "Course", ref: "/courses" },
-              { display: "Program", ref: "/programs" },
+              { display: "Courses", ref: "/courses" },
+              { display: "Programs", ref: "/programs" },
             ].map(({ display, ref }) => (
               <li key={display} className="w-full">
                 <Link

@@ -31,12 +31,14 @@ function CoursesTable({ courses }: { courses: readonly Course[] }) {
 
   return (
     <div id="containers">
-      <div id="coursesTable">{formatTable()}</div>
-      <div id="courseBox">
+      <div id="coursesTable" className="rounded-sm shadow">
+        {formatTable()}
+      </div>
+      <div id="courseBox" className="rounded-sm shadow">
         {/* pls style this nicer */}
         {selection.latest ? (
           // when at least one course is selected
-          <div id="infoBox">
+          <div id="infoBox" className="rounded-sm shadow">
             <div id="infoBoxHead">
               <h2>
                 {selection.latest.code}
@@ -44,7 +46,7 @@ function CoursesTable({ courses }: { courses: readonly Course[] }) {
                 {selection.latest.fullname}
               </h2>
               <Link
-                href={`/${selection.latest.subject}/${selection.latest.number}`}
+                href={`/courses/${selection.latest.subject}/${selection.latest.number}`}
               >
                 <button id="openId">
                   <MdOpenInNew />
@@ -54,8 +56,8 @@ function CoursesTable({ courses }: { courses: readonly Course[] }) {
             <p>{selection.latest.info}</p>
           </div>
         ) : (
-          <div id="infoBox">
-            <p>
+          <div id="infoBox" className="rounded-sm shadow">
+            <p className="pt-2">
               Please click on a course to add it to the graph. You may click
               multiple courses to display their prerequisites together. To
               remove a course from the graph, click it again.
@@ -100,7 +102,7 @@ function CoursesTable({ courses }: { courses: readonly Course[] }) {
     return selection.list.map((e, index) => (
       <div key={index}>
         <button
-          className={e.selected ? "card_hl" : "card"}
+          className={e.selected ? "card_hl shadow" : "card shadow"}
           onClick={() => handleClickCard(e.course)}
         >
           {e.course.number}

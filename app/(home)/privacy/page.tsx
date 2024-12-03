@@ -1,4 +1,4 @@
-/** program catalog home */
+/** privacy policy */
 
 import Link from "next/link";
 
