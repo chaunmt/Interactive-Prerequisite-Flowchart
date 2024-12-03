@@ -2,6 +2,8 @@ import Link from "next/link";
 import Image from "next/image";
 import contributors from "@/contributors.json";
 
+import { FaGithub, FaLinkedin, FaHome } from "react-icons/fa";
+
 // three tiered listing
 const { Head, Member, Contributor } = contributors;
 const HeadStyles = {
@@ -35,8 +37,8 @@ export default function Footer() {
   return (
     <footer
       className="
-      relative flex flex-col items-center text-center w-full mt-auto p-4 bg-gray-100 
-      border-t border-gray-300"
+      relative flex flex-col items-center text-center w-full mt-auto p-8 pt-12 
+      bg-gradient-to-t from-gray-100 to-white shadow-inner"
     >
       {CardSection(Head, HeadStyles)}
       {CardSection(Member, MemberStyles)}
@@ -49,32 +51,33 @@ export default function Footer() {
       >
         <button
           className="
-          bg-slate-400 text-white px-4 py-1 rounded hover:bg-white hover:text-black text-xs"
+          mt-5 text-sm bg-gray-500 text-white px-6 py-2 rounded-md hover:bg-gray-700 
+          transition duration-300 shadow-md"
         >
-          GitHub
+          Contribute to our GitHub
         </button>
       </Link>
 
       {/* Footer Text */}
-      <p className="text-xs mt-4">
+      <p className="text-sm text-gray-600 mt-6">
         Created by and for{" "}
-        <Link href="https://twin-cities.umn.edu/" className="md:font-bold">
+        <Link href="https://twin-cities.umn.edu/" className="text-blue-500 hover:underline" target="_blank">
           University of Minnesota - Twin Cities
         </Link>{" "}
         students through{" "}
-        <Link href="https://www.socialcoding.net/" className="md:font-bold">
+        <Link href="https://www.socialcoding.net/" className="text-blue-500 hover:underline" target="_blank">
           Social Coding
         </Link>{" "}
         with data from{" "}
         <Link
           href="https://asr.umn.edu/applications-and-forms/applications/coursedog"
-          className="md:font-bold"
+          className="text-blue-500 hover:underline" target="_blank"
         >
           Coursedog
-        </Link>
-        —the University’s course and program catalog management system.
+        </Link>{" "}
+        - the University’s course and program catalog management system.
       </p>
-      <Link href="/privacynotice" className="underline text-xs mt-1">
+      <Link href="/privacynotice" className="text-xs mt-3 underline text-gray-500 hover:text-gray-700" target="_blank">
         Privacy Notice
       </Link>
     </footer>
@@ -123,17 +126,17 @@ function CardSection(people: MemberInfo, styles: CardStyles) {
           <div className="flex gap-2 mt-auto mb-2">
             <Link href={person.Linkedin} target="_blank">
               <div className={styles.buttons}>
-                <span className="text-sm">🔗</span>
+                <span className="text-sm"><FaLinkedin/></span>
               </div>
             </Link>
             <Link href={person.Homepage} target="_blank">
               <div className={styles.buttons}>
-                <span className="text-sm">🏠</span>
+                <span className="text-sm"><FaHome/></span>
               </div>
             </Link>
             <Link href={person.GitHub} target="_blank">
               <div className={styles.buttons}>
-                <span className="text-sm">🐙</span>
+                <span className="text-sm"><FaGithub/></span>
               </div>
             </Link>
           </div>

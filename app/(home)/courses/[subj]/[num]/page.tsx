@@ -5,10 +5,6 @@ import NavigationSearchSmall from "@/components/search/NavigationSearchSmall";
 import Graph, { BuildOptions } from "@/components/graph/Graph";
 import { Deck } from "@/components/deck/Deck";
 
-import "@/components/styles/Idpage.css";
-import "@/components/styles/Layout.css";
-import "@/components/styles/SearchBarSmall.css";
-
 import { FiDownload } from "react-icons/fi";
 import { notFound } from "next/navigation";
 
@@ -35,38 +31,51 @@ export default function Page({ params }) {
   };
 
   return (
-    <div id="content" className="flex flex-col gap-4">
-      <div>
-        {/* <Link href={"/" + subj}>
-          <button id="back">
-            <IoReturnUpBackOutline />
-          </button>
-        </Link> */}
+    <div className="min-h-screen bg-gray-50 p-6">
+      {/* Navigation Bar */}
+      <div className="mb-6">
         <NavigationSearchSmall />
       </div>
-      <div id="container">
-        <div id="graph">
-          <div id="head">
-            <div
-              id="warning"
-              title="Prerequisite information is unreliable and subject to change during and between terms."
-            >
-              <b>*Possible Prerequisites</b>
-            </div>
-            <button id="download">
-              <FiDownload />
+
+      {/* Main Content Grid */}
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        {/* Graph Section */}
+        <div className="lg:order-1 order-1 bg-white rounded-lg shadow p-4 flex-grow">
+          {/* Graph Header */}
+          <div className="flex justify-between items-center mb-4">
+            <div className="text-red-500 font-bold text-sm">*Possible Prerequisites</div>
+            <button className="p-2 rounded bg-gray-100 hover:bg-gray-200">
+              <FiDownload size={20} />
             </button>
           </div>
-          <Graph build={build} />
-          {/* <Mermaid graph={graphString} /> */}
+
+          {/* Graph Container */}
+          <div className="bg-gray-100 rounded-md p-4 min-h-[50vh]">
+            <Graph build={build} />
+          </div>
         </div>
-        <div id="infoBox">
-          <div id="code">{course.code}</div>
-          <div id="name">{course.fullname}</div>
-          <div id="info">{reformat(course.info, true)}</div>
+
+        {/* Course Info Section */}
+        <div className="lg:order-2 order-2 bg-white rounded-lg shadow p-6 space-y-4">
+          <div id="code" className="text-xl font-bold text-gray-800">
+            {course.code}
+          </div>
+          <div id="name" className="text-lg font-semibold text-gray-700">
+            {course.fullname}
+          </div>
+          <div id="info" className="text-gray-600">
+            {reformat(course.info, true)}
+          </div>
         </div>
       </div>
-      <Deck courses={target} />
+
+      {/* Target Courses Section */}
+      <div className="mt-8 bg-white rounded-lg shadow p-4">
+        <h2 className="text-lg font-semibold text-gray-700 mb-4">Target Courses</h2>
+        <div className="overflow-x-auto flex gap-4">
+          <Deck courses={target} />
+        </div>
+      </div>
     </div>
   );
 }
