@@ -31,9 +31,12 @@ export default function ThemeSelector() {
   // Get the icon corresponding to the current theme
   const getThemeIcon = () => {
     const iconSize = 28; // Set icon size
-    if (theme === "light") return <CiLight className="text-gray-800" size={iconSize} />;
-    if (theme === "dark") return <FaMoon className="text-gray-800" size={iconSize} />;
-    if (theme === "computer") return <FaDesktop className="text-gray-800" size={iconSize} />;
+    if (theme === "light")
+      return <CiLight className="text-gray-800" size={iconSize} />;
+    if (theme === "dark")
+      return <FaMoon className="text-gray-800" size={iconSize} />;
+    if (theme === "computer")
+      return <FaDesktop className="text-gray-800" size={iconSize} />;
   };
 
   return (
@@ -50,9 +53,7 @@ export default function ThemeSelector() {
 
       {/* Dropdown Menu */}
       {menuOpen && (
-        <div
-          className="absolute right-0 w-10 bg-gray-50 rounded-b-full shadow-lg z-50"
-        >
+        <div className="absolute right-0 w-10 bg-gray-50 rounded-b-full shadow-lg z-50">
           <ul className="flex flex-col items-center space-y-1">
             <li
               onClick={() => handleThemeChange("light")}
