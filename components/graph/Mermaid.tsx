@@ -44,6 +44,10 @@ const siteConfig: MermaidConfig = {
 mermaid.registerLayoutLoaders(elkLayouts);
 mermaid.initialize(siteConfig);
 
+const dropShadow = { dx: 0.4, dy: 0.8, std: 2, opacity: 0.25 };
+const { dx, dy, std, opacity } = dropShadow;
+const shadowTag = `<filter id="shadowTag"><feDropShadow dx="${dx}" dy="${dy}" stdDeviation="${std}" flood-opacity="${opacity}"></feDropShadow></filter>`;
+
 export default function Mermaid({ graph }) {
   const [didMount, setDidMount] = useState(false);
 
@@ -56,7 +60,24 @@ export default function Mermaid({ graph }) {
       /*--- we will need bindFunctions later ---*/
       // eslint-disable-next-line @typescript-eslint/no-unused-vars
       const { svg, bindFunctions } = await mermaid.render("mermaid", graph);
-      element.innerHTML = svg;
+
+      // creating an extra DOM manipulation to add the svg filter to mermaid output
+      const parser = new DOMParser();
+      const svgdoc = parser.parseFromString(`<div>${svg}</div>`, "text/xml");
+      const topsvg = svgdoc.getElementsByTagName("svg")[0];
+      // making svg filter available
+      topsvg.innerHTML = shadowTag + topsvg.innerHTML;
+      // actually applying the filter
+      const nodes = topsvg.getElementsByClassName("nodes")[0];
+      nodes.setAttribute("filter", "url(#shadowTag)");
+      const edges = topsvg.getElementsByClassName("edges")[0];
+      edges.setAttribute("filter", "url(#shadowTag)");
+      // getting it back into a string
+      const topdiv = svgdoc.getElementsByTagName("div")[0];
+      const fixedsvg = topdiv.innerHTML;
+
+      // updating the real page DOM
+      element.innerHTML = fixedsvg;
     };
 
     generateGraph();
