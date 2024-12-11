@@ -12,12 +12,6 @@ const page_ext =
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
-  // TEMPORARY OVERRIDE TO KEEP IT BUILDING SUCCESSFULLY
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-  // - REMOVE THIS ONCE LINT ERRORS ARE RESOLVED
-
   logging: {
     fetches: {
       fullUrl: true,
