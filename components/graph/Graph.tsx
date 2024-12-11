@@ -42,19 +42,23 @@ function Graph({
   // TODO: add graph customization features
   const graph = buildGraph(build);
 
-  return <Mermaid graph={convertJSONGraph(graph, display)} />;
+  return (
+    <>
+      <Mermaid graph={convertJSONGraph(graph, display)} />
+    </>
+  );
 }
 
 // here only SVG styling works -- text styling must happen in Mermaid init
 const lightStyles = `
-classDef AND fill:#9cc684,stroke:#53793a,stroke-width:1px;
-classDef OR fill:#63c7e1,stroke:#007d96,stroke-width:1px;
-classDef default fill:#d2aef1,stroke:#815f9c,stroke-width:1px;
+classDef AND fill:#9cc684,stroke:#53793a,stroke-width:0px;
+classDef OR fill:#63c7e1,stroke:#007d96,stroke-width:0px;
+classDef default fill:#d2aef1,stroke:#815f9c,stroke-width:0px;
 `;
 const darkStyles = `
-classDef AND fill:#9cc684,stroke:#53793a,stroke-width:1px;
-classDef OR fill:#63c7e1,stroke:#007d96,stroke-width:1px;
-classDef default fill:#d2aef1,stroke:#815f9c,stroke-width:1px;
+classDef AND fill:#4aa2ef,stroke:#53793a,stroke-width:0px;
+classDef OR fill:#53b33e,stroke:#007d96,stroke-width:0px;
+classDef default fill:#ac79ee,stroke:#815f9c,stroke-width:0px;
 `;
 
 /** naively converts a JSON representation of a graph to Mermaid's textual representation */
