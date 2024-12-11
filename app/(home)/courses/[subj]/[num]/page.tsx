@@ -43,7 +43,9 @@ export default function Page({ params }) {
         <div className="lg:order-1 order-1 bg-white rounded-lg shadow p-4 flex-grow">
           {/* Graph Header */}
           <div className="flex justify-between items-center mb-4">
-            <div className="text-red-500 font-bold text-sm">*Possible Prerequisites</div>
+            <div className="text-red-500 font-bold text-sm">
+              *Possible Prerequisites
+            </div>
             <button className="p-2 rounded bg-gray-100 hover:bg-gray-200">
               <FiDownload size={20} />
             </button>
@@ -71,7 +73,9 @@ export default function Page({ params }) {
 
       {/* Target Courses Section */}
       <div className="mt-8 bg-white rounded-lg shadow p-4">
-        <h2 className="text-lg font-semibold text-gray-700 mb-4">Target Courses</h2>
+        <h2 className="text-lg font-semibold text-gray-700 mb-4">
+          Target Courses
+        </h2>
         <div className="overflow-x-auto flex gap-4">
           <Deck courses={target} />
         </div>

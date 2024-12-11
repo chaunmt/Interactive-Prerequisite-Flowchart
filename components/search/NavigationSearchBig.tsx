@@ -6,7 +6,6 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { Search } from "@/backend/search";
 
-
 import { CiSearch } from "react-icons/ci";
 
 /**
@@ -31,7 +30,7 @@ export function SearchBar({
     <div className="relative w-[90%] sm:w-[50%] mx-auto">
       {/* Search Icon */}
       <div className="absolute inset-y-0 left-4 flex items-center pointer-events-none">
-        <CiSearch className="size-6 text-gray-500"/>
+        <CiSearch className="size-6 text-gray-500" />
       </div>
       {/* Search input field */}
       <input
@@ -111,7 +110,7 @@ function NavigationSearchBig() {
     <div className="text-center mt-8 w-full">
       <SearchBar value={search} sendQuery={handleSearch} />
       {/* <div className="bg-[var(--search-result-container)] shadow-sm max-h-60 w-100 overflow-y-auto z-[999]"> */}
-        {search && <SearchResultsList filteredData={results} />}
+      {search && <SearchResultsList filteredData={results} />}
       {/* </div> */}
     </div>
   );

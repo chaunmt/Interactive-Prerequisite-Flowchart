@@ -30,7 +30,7 @@ export function SearchBar({
     <div className="relative">
       {/* Search Icon */}
       <div className="absolute inset-y-0 left-4 flex items-center pointer-events-none">
-        <CiSearch className="size-5"/>
+        <CiSearch className="size-5" />
       </div>
       {/* Search input field */}
       <input
@@ -41,7 +41,6 @@ export function SearchBar({
         className="outline-0 bg-[var(--search-bar)] px-12 py-3 rounded-md shadow-sm w-[19%]
         bg-white border border-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-400"
       />
-
     </div>
   );
 }

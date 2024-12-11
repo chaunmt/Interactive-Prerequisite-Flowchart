@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
   description:
     "Explore and plan your academic journey with Course Flowchart, your ultimate guide to course prerequisites at the University of Minnesota - Twin Cities. Find detailed course information, prerequisites, and plan your curriculum efficiently.",
-  keywords: Keywords
+  keywords: Keywords,
 };
 
 export default function RootLayout({

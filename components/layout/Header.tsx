@@ -62,10 +62,8 @@ export default function Header() {
         </button>
 
         {/* Theme Switcher */}
-        <div
-          className="w-10 h-10 flex items-center justify-center bg-gray-50 border border-gray-300 rounded-full hover:bg-gray-100 transition"
-        >
-          <ThemeSelector/>
+        <div className="w-10 h-10 flex items-center justify-center bg-gray-50 border border-gray-300 rounded-full hover:bg-gray-100 transition">
+          <ThemeSelector />
         </div>
 
         {/* Hamburger Menu Icon */}
@@ -80,9 +78,7 @@ export default function Header() {
 
       {/* Dropdown Menu for Small Screens */}
       {menuOpen && (
-        <div
-          className="absolute top-16 left-0 w-full bg-white border-t border-gray-200 shadow-lg z-50"
-        >
+        <div className="absolute top-16 left-0 w-full bg-white border-t border-gray-200 shadow-lg z-50">
           <ul className="flex flex-col items-start p-4 gap-2">
             {[
               { display: "Home", ref: "/" },
