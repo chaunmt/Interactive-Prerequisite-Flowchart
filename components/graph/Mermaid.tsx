@@ -44,9 +44,10 @@ const siteConfig: MermaidConfig = {
 mermaid.registerLayoutLoaders(elkLayouts);
 mermaid.initialize(siteConfig);
 
-const dropShadow = { dx: 0.4, dy: 0.8, std: 2, opacity: 0.25 };
-const { dx, dy, std, opacity } = dropShadow;
-const shadowTag = `<filter id="shadowTag"><feDropShadow dx="${dx}" dy="${dy}" stdDeviation="${std}" flood-opacity="${opacity}"></feDropShadow></filter>`;
+let { dx, dy, std, opacity } = { dx: 0.4, dy: 0.8, std: 2.0, opacity: 0.15 };
+const nodeshadows = `<filter id="nodeshadows"><feDropShadow dx="${dx}" dy="${dy}" stdDeviation="${std}" flood-opacity="${opacity}"></feDropShadow></filter>`;
+({ dx, dy, std, opacity } = { dx: 0.2, dy: 0.4, std: 0.8, opacity: 0.4 });
+const allshadows = `<filter id="allshadows"><feDropShadow dx="${dx}" dy="${dy}" stdDeviation="${std}" flood-opacity="${opacity}"></feDropShadow></filter>`;
 
 export default function Mermaid({ graph }) {
   const [didMount, setDidMount] = useState(false);
@@ -61,17 +62,31 @@ export default function Mermaid({ graph }) {
       // eslint-disable-next-line @typescript-eslint/no-unused-vars
       const { svg, bindFunctions } = await mermaid.render("mermaid", graph);
 
-      // creating an extra DOM manipulation to add the svg filter to mermaid output
+      // extraneous DOM manipulation to add additional styling to mermaid output
       const parser = new DOMParser();
       const svgdoc = parser.parseFromString(`<div>${svg}</div>`, "text/xml");
       const topsvg = svgdoc.getElementsByTagName("svg")[0];
+
       // making svg filter available
-      topsvg.innerHTML = shadowTag + topsvg.innerHTML;
-      // actually applying the filter
+      topsvg.innerHTML = allshadows + nodeshadows + topsvg.innerHTML;
+
+      // // shadows don't work on these (edges won't render)
+      // const edges = topsvg.getElementsByClassName("edges")[0];
+      // edges.setAttribute("filter", "url(#shadowTag)");
+
+      // applying small drop shadow to everything instead
+      topsvg.setAttribute("filter", "url(#allshadows)");
+
+      // applying drop shadow and slightly rounded corners to nodes
       const nodes = topsvg.getElementsByClassName("nodes")[0];
-      nodes.setAttribute("filter", "url(#shadowTag)");
-      const edges = topsvg.getElementsByClassName("edges")[0];
-      edges.setAttribute("filter", "url(#shadowTag)");
+      nodes.setAttribute("filter", "url(#nodeshadows)");
+      const rects = Array.from(nodes.getElementsByTagName("rect"));
+      rects.forEach((r) => {
+        if (!r.getAttribute("rx") && !r.getAttribute("ry")) {
+          r.setAttribute("rx", "2");
+        }
+      });
+
       // getting it back into a string
       const topdiv = svgdoc.getElementsByTagName("div")[0];
       const fixedsvg = topdiv.innerHTML;
