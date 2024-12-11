@@ -61,23 +61,36 @@ export default function Footer() {
       {/* Footer Text */}
       <p className="text-sm text-gray-600 mt-6">
         Created by and for{" "}
-        <Link href="https://twin-cities.umn.edu/" className="text-blue-500 hover:underline" target="_blank">
+        <Link
+          href="https://twin-cities.umn.edu/"
+          className="text-blue-500 hover:underline"
+          target="_blank"
+        >
           University of Minnesota - Twin Cities
         </Link>{" "}
         students through{" "}
-        <Link href="https://www.socialcoding.net/" className="text-blue-500 hover:underline" target="_blank">
+        <Link
+          href="https://www.socialcoding.net/"
+          className="text-blue-500 hover:underline"
+          target="_blank"
+        >
           Social Coding
         </Link>{" "}
         with data from{" "}
         <Link
           href="https://asr.umn.edu/applications-and-forms/applications/coursedog"
-          className="text-blue-500 hover:underline" target="_blank"
+          className="text-blue-500 hover:underline"
+          target="_blank"
         >
           Coursedog
         </Link>{" "}
         - the University’s course and program catalog management system.
       </p>
-      <Link href="/privacynotice" className="text-xs mt-3 underline text-gray-500 hover:text-gray-700" target="_blank">
+      <Link
+        href="/privacynotice"
+        className="text-xs mt-3 underline text-gray-500 hover:text-gray-700"
+        target="_blank"
+      >
         Privacy Notice
       </Link>
     </footer>
@@ -126,17 +139,23 @@ function CardSection(people: MemberInfo, styles: CardStyles) {
           <div className="flex gap-2 mt-auto mb-2">
             <Link href={person.Linkedin} target="_blank">
               <div className={styles.buttons}>
-                <span className="text-sm"><FaLinkedin/></span>
+                <span className="text-sm">
+                  <FaLinkedin />
+                </span>
               </div>
             </Link>
             <Link href={person.Homepage} target="_blank">
               <div className={styles.buttons}>
-                <span className="text-sm"><FaHome/></span>
+                <span className="text-sm">
+                  <FaHome />
+                </span>
               </div>
             </Link>
             <Link href={person.GitHub} target="_blank">
               <div className={styles.buttons}>
-                <span className="text-sm"><FaGithub/></span>
+                <span className="text-sm">
+                  <FaGithub />
+                </span>
               </div>
             </Link>
           </div>

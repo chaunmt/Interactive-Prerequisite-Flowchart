@@ -23,7 +23,6 @@ export default function Page() {
         {/* Search Section */}
         <NavigationSearchBig />
       </div>
-
     </div>
   );
 }
