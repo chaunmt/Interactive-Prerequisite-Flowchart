@@ -51,14 +51,14 @@ function Graph({
 
 // here only SVG styling works -- text styling must happen in Mermaid init
 const lightStyles = `
+classDef AND stroke-width:0px;
+classDef OR stroke-width:0px;
+classDef default stroke-width:0px;
+`;
+const darkStyles = `
 classDef AND fill:#9cc684,stroke:#53793a,stroke-width:0px;
 classDef OR fill:#63c7e1,stroke:#007d96,stroke-width:0px;
 classDef default fill:#d2aef1,stroke:#815f9c,stroke-width:0px;
-`;
-const darkStyles = `
-classDef AND fill:#4aa2ef,stroke:#53793a,stroke-width:0px;
-classDef OR fill:#53b33e,stroke:#007d96,stroke-width:0px;
-classDef default fill:#ac79ee,stroke:#815f9c,stroke-width:0px;
 `;
 
 /** naively converts a JSON representation of a graph to Mermaid's textual representation */
