@@ -26,9 +26,9 @@ const MemberStyles = {
 };
 const ContributorStyles = {
   section: "flex flex-wrap justify-center gap-3 mb-6",
-  container: "relative group flex flex-col items-center cursor-pointer",
+  container: "group flex flex-col items-center cursor-pointer",
   avatar:
-    "w-[4vw] h-[4vw] max-w-[50px] max-h-[50px] bg-gray-300 rounded-full flex items-center justify-center overflow-hidden",
+    "relative w-[4vw] h-[4vw] max-w-[50px] max-h-[50px] bg-gray-300 rounded-full flex items-center justify-center overflow-hidden",
   tooltip:
     "absolute top-12 left-1/2 transform -translate-x-1/2 hidden group-hover:flex bg-black text-white text-xs rounded px-2 py-1 shadow-lg whitespace-nowrap pointer-events-none",
 };
@@ -135,6 +135,7 @@ function Card({ person, styles }) {
             src={person.Avatar}
             alt={`${person.Name} avatar`}
             fill
+            sizes="10vw"
             style={{ objectFit: "cover" }}
             className="rounded-full"
           />
@@ -204,6 +205,7 @@ function Avatar({ person, styles }) {
             src={person.Avatar}
             alt={`${person.Name} avatar`}
             fill
+            sizes="10vw"
             style={{ objectFit: "cover" }}
             className="rounded-full"
           />
