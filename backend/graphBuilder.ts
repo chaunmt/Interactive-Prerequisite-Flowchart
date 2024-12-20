@@ -184,12 +184,12 @@ function rawbuild(input: BuildOptions): GraphData {
 
   // this is the entry point in a sort of "mutual recursion" between this and processor()
   function singleton(course: Course) {
-    console.log(`>>>> singleton(${course.code}{ ${course.uid} })`);
+    // console.log(`>>>> singleton(${course.code}{ ${course.uid} })`);
     const { uid, code, prereq } = course;
 
     // skip this step if already processed
     if (node_list.every((node) => node.id !== uid)) {
-      console.log("course:", uid, code);
+      // console.log("course:", uid, code);
       node_list.push({
         id: uid,
         meta: code,
@@ -199,12 +199,12 @@ function rawbuild(input: BuildOptions): GraphData {
 
       // only process prereqs if not soft_excluded
       if (soft_excludes.every((c) => c != uid)) {
-        console.log("prereq:", { parent: uid, i: 0 });
+        // console.log("prereq:", { parent: uid, i: 0 });
         processor(prereq, { parent: uid, i: 0 });
       }
     }
 
-    console.log(`<<<< singleton(${course.code}{ ${course.uid} })`);
+    // console.log(`<<<< singleton(${course.code}{ ${course.uid} })`);
     return;
   }
 
@@ -212,59 +212,59 @@ function rawbuild(input: BuildOptions): GraphData {
     // skip if excluded
     if (hard_excludes.some((c) => c != preq.uid)) return;
 
-    console.log(
-      `>>>> crsl(${preq.code}{${preq.uid}}, {${state.parent}, ${state.i}})`,
-    );
+    // console.log(
+    //   `>>>> crsl(${preq.code}{${preq.uid}}, {${state.parent}, ${state.i}})`,
+    // );
     singleton(preq);
 
     // add this node we are currently creating to the parent's list of inbound edges
     const parent: NodeData = node_list.find((n) => n.id === state.parent);
-    console.log("edge:", preq.uid, preq.code, "-->", parent.id, parent.meta);
+    // console.log("edge:", preq.uid, preq.code, "-->", parent.id, parent.meta);
     if (!parent?.inbound_edges.includes(preq.uid))
       parent?.inbound_edges.push(preq.uid);
 
-    console.log(
-      `<<<< crsl(${preq.code}{${preq.uid}}, {${state.parent}, ${state.i}})`,
-    );
+    // console.log(
+    //   `<<<< crsl(${preq.code}{${preq.uid}}, {${state.parent}, ${state.i}})`,
+    // );
     return;
   }
 
   function arrx(state: build_state, index: number): build_state {
-    console.log(`---- arrx({${state.parent}, ${state.i}})`);
+    // console.log(`---- arrx({${state.parent}, ${state.i}})`);
     return { parent: state.parent, i: index };
   }
 
   function orx(state: build_state): build_state {
-    console.log(`>>>> orx({${state.parent}, ${state.i}})`);
+    // console.log(`>>>> orx({${state.parent}, ${state.i}})`);
 
     const node_id = `${state.parent}_${state.i}_or`;
-    console.log("or:", node_id);
+    // console.log("or:", node_id);
     node_list.push({ id: node_id, type: "or", inbound_edges: [] });
 
     // add this node we are currently creating to the parent's list of inbound edges
     const parent: NodeData = node_list.find((n) => n.id === state.parent);
-    console.log("edge:", node_id, "-->", parent.id, parent.meta);
+    // console.log("edge:", node_id, "-->", parent.id, parent.meta);
     if (!parent?.inbound_edges.includes(node_id))
       parent?.inbound_edges.push(node_id);
 
-    console.log(`<<<< orx({${state.parent}, ${state.i}})`);
+    // console.log(`<<<< orx({${state.parent}, ${state.i}})`);
     return { parent: node_id, i: 0 };
   }
 
   function andx(state: build_state): build_state {
-    console.log(`>>>> andx({${state.parent}, ${state.i}})`);
+    // console.log(`>>>> andx({${state.parent}, ${state.i}})`);
 
     const node_id = `${state.parent}_${state.i}_and`;
-    console.log("and:", node_id);
+    // console.log("and:", node_id);
     node_list.push({ id: node_id, type: "and", inbound_edges: [] });
 
     // add this node we are currently creating to the parent's list of inbound edges
     const parent: NodeData = node_list.find((n) => n.id === state.parent);
-    console.log("edge:", node_id, "-->", parent.id, parent.meta);
+    // console.log("edge:", node_id, "-->", parent.id, parent.meta);
     if (!parent?.inbound_edges.includes(node_id))
       parent?.inbound_edges.push(node_id);
 
-    console.log(`<<<< andx({${state.parent}, ${state.i}})`);
+    // console.log(`<<<< andx({${state.parent}, ${state.i}})`);
     return { parent: node_id, i: 0 };
   }
 
