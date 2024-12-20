@@ -37,12 +37,12 @@ export default function Footer() {
   return (
     <footer
       className="
-      relative flex flex-col items-center text-center w-full mt-auto p-8 pt-12 
+      relative flex flex-col items-center text-center w-full mt-auto p-8 pt-12
       bg-gradient-to-t from-gray-100 to-white shadow-inner"
     >
       {CardSection(Head, HeadStyles)}
       {CardSection(Member, MemberStyles)}
-      {ContributorSection(Contributor, ContributorStyles)}
+      {AvatarSection(Contributor, ContributorStyles)}
 
       {/* GitHub Button */}
       <Link
@@ -51,7 +51,7 @@ export default function Footer() {
       >
         <button
           className="
-          mt-5 text-sm bg-gray-500 text-white px-6 py-2 rounded-md hover:bg-gray-700 
+          mt-5 text-sm bg-gray-500 text-white px-6 py-2 rounded-md hover:bg-gray-700
           transition duration-300 shadow-md"
         >
           Contribute to our GitHub
@@ -120,47 +120,53 @@ function CardSection(people: MemberInfo, styles: CardStyles) {
   return (
     <div className={styles.section}>
       {Object.entries(people).map(([key, person]) => (
-        <div key={key} className={styles.card}>
-          <Link href={person.GitHub} target="_blank">
-            <div className={styles.avatar}>
-              <Image
-                src={person.Avatar}
-                alt={`${person.Name} avatar`}
-                fill
-                style={{ objectFit: "cover" }}
-                className="rounded-full"
-              />
-            </div>
-          </Link>
-
-          <h3 className={styles.name}>{person.Name}</h3>
-          <p className={styles.role}>{person.Role}</p>
-
-          <div className="flex gap-2 mt-auto mb-2">
-            <Link href={person.Linkedin} target="_blank">
-              <div className={styles.buttons}>
-                <span className="text-sm">
-                  <FaLinkedin />
-                </span>
-              </div>
-            </Link>
-            <Link href={person.Homepage} target="_blank">
-              <div className={styles.buttons}>
-                <span className="text-sm">
-                  <FaHome />
-                </span>
-              </div>
-            </Link>
-            <Link href={person.GitHub} target="_blank">
-              <div className={styles.buttons}>
-                <span className="text-sm">
-                  <FaGithub />
-                </span>
-              </div>
-            </Link>
-          </div>
-        </div>
+        <Card key={key} person={person} styles={styles} />
       ))}
+    </div>
+  );
+}
+
+function Card({ person, styles }) {
+  return (
+    <div className={styles.card}>
+      <Link href={person.GitHub} target="_blank">
+        <div className={styles.avatar}>
+          <Image
+            src={person.Avatar}
+            alt={`${person.Name} avatar`}
+            fill
+            style={{ objectFit: "cover" }}
+            className="rounded-full"
+          />
+        </div>
+      </Link>
+
+      <h3 className={styles.name}>{person.Name}</h3>
+      <p className={styles.role}>{person.Role}</p>
+
+      <div className="flex gap-2 mt-auto mb-2">
+        <Link href={person.Linkedin} target="_blank">
+          <div className={styles.buttons}>
+            <span className="text-sm">
+              <FaLinkedin />
+            </span>
+          </div>
+        </Link>
+        <Link href={person.Homepage} target="_blank">
+          <div className={styles.buttons}>
+            <span className="text-sm">
+              <FaHome />
+            </span>
+          </div>
+        </Link>
+        <Link href={person.GitHub} target="_blank">
+          <div className={styles.buttons}>
+            <span className="text-sm">
+              <FaGithub />
+            </span>
+          </div>
+        </Link>
+      </div>
     </div>
   );
 }
@@ -179,25 +185,31 @@ interface AvatarStyles {
   tooltip: string;
 }
 
-function ContributorSection(people: ContributorInfo, styles: AvatarStyles) {
+function AvatarSection(people: ContributorInfo, styles: AvatarStyles) {
   return (
     <div className={styles.section}>
       {Object.entries(people).map(([key, person]) => (
-        <div key={key} className={styles.container}>
-          <Link href={person.GitHub} target="_blank">
-            <div className={styles.avatar}>
-              <Image
-                src={person.Avatar}
-                alt={`${person.Name} avatar`}
-                fill
-                style={{ objectFit: "cover" }}
-                className="rounded-full"
-              />
-            </div>
-          </Link>
-          <div className={styles.tooltip}>{person.Name}</div>
-        </div>
+        <Avatar key={key} person={person} styles={styles} />
       ))}
+    </div>
+  );
+}
+
+function Avatar({ person, styles }) {
+  return (
+    <div className={styles.container}>
+      <Link href={person.GitHub} target="_blank">
+        <div className={styles.avatar}>
+          <Image
+            src={person.Avatar}
+            alt={`${person.Name} avatar`}
+            fill
+            style={{ objectFit: "cover" }}
+            className="rounded-full"
+          />
+        </div>
+      </Link>
+      <div className={styles.tooltip}>{person.Name}</div>
     </div>
   );
 }

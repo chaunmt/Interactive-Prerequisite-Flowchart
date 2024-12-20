@@ -14,7 +14,7 @@ function Deck({ courses }: { courses: readonly Course[] }) {
   );
 }
 
-function Card({ course }: { course: Course; key }) {
+function Card({ course }: { course: Course }) {
   return (
     <div className="w-[300px] min-w-[300px] bg-gray-100 shadow-lg text-black p-4 rounded-md">
       <div className="basis-1/6 font-medium text-lg rounded-lg">
