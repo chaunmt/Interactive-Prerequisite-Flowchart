@@ -46,7 +46,7 @@ export function SearchBar({
 
 interface NavigationSearchResult {
   display_text: string;
-  href: string;
+  ref: string;
 }
 
 /**
@@ -63,12 +63,12 @@ function SearchResultsList({
   return (
     <ul className="mt-0.2 bg-white shadow-lg rounded-md max-h-60 w-[90%] sm:w-[48%] mx-auto border border-gray-200 overflow-y-auto">
       {filteredData.length > 0 ? (
-        filteredData.map((result, index) => (
+        filteredData.map((result) => (
           <li
-            key={index}
+            key={result.display_text}
             className="py-2 px-4 rounded-md text-gray-700 font-medium cursor-pointer hover:bg-gray-100"
           >
-            <Link href={result.href}>{result.display_text}</Link>
+            <Link href={result.ref}>{result.display_text}</Link>
           </li>
         ))
       ) : (
@@ -95,7 +95,7 @@ function NavigationSearchBig() {
     // TODO: have some other handler deal with representation
     const results = courses.map((course) => ({
       display_text: `${course.code} - ${course.fullname}`,
-      href: `/courses/${course.subject}/${course.number}`,
+      ref: `/courses/${course.subject}/${course.number}`,
     }));
     setResults(results);
   }, [search, setResults]);

@@ -12,6 +12,21 @@ interface ListItem {
   display: string;
 }
 
+function ItemBox({ item, onClickItem }) {
+  return (
+    <div className="itemBox">
+      <button
+        className="item"
+        onClick={() => {
+          onClickItem(item.id);
+        }}
+      >
+        {item.display}
+      </button>
+    </div>
+  );
+}
+
 function Picker({
   items,
   onClickItem,
@@ -22,17 +37,7 @@ function Picker({
   return (
     <div>
       {items.map((item) => (
-        <div className="itemBox" key={item.id}>
-          <button
-            className="item"
-            key={item.id}
-            onClick={() => {
-              onClickItem(item.id);
-            }}
-          >
-            {item.display}
-          </button>
-        </div>
+        <ItemBox key={item.id} item={item} onClickItem={onClickItem} />
       ))}
     </div>
   );

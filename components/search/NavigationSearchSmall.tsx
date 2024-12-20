@@ -47,7 +47,7 @@ export function SearchBar({
 
 interface NavigationSearchResult {
   display_text: string;
-  href: string;
+  ref: string;
 }
 
 /**
@@ -64,12 +64,12 @@ function SearchResultsList({
   return (
     <ul className="mt-1 mb-1 p-2">
       {filteredData.length > 0 ? (
-        filteredData.map((result, index) => (
+        filteredData.map((result) => (
           <li
-            key={index}
+            key={result.display_text}
             className="pt-2 pr-2 text-gray-700 font-bold cursor-pointer hover:text-gray-900 hover:bg-gray-100"
           >
-            <Link href={result.href}>{result.display_text}</Link>
+            <Link href={result.ref}>{result.display_text}</Link>
           </li>
         ))
       ) : (
@@ -94,7 +94,7 @@ function NavigationSearchSmall() {
     // TODO: have some other handler deal with representation
     const results = courses.map((course) => ({
       display_text: `${course.code} - ${course.fullname}`,
-      href: `/courses/${course.subject}/${course.number}`,
+      ref: `/courses/${course.subject}/${course.number}`,
     }));
     setResults(results);
   }, [search, setResults]);

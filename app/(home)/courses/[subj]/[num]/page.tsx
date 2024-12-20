@@ -1,4 +1,4 @@
-import { course_get, targets, subjects, prereqs } from "@/backend/access";
+import { course_get, targets, subjects } from "@/backend/access";
 import { reformat } from "@/backend/text-manipulation";
 import NavigationSearchSmall from "@/components/search/NavigationSearchSmall";
 
@@ -22,9 +22,6 @@ export default function Page({ params }) {
   if (!course) return notFound();
 
   const target = targets(course);
-  console.log(target.map((c) => c.code));
-  const prereq = prereqs(course);
-  console.log(prereq.map((c) => c.code));
   const build: BuildOptions = {
     includes: [course.uid],
     decimate_orphans: false, // if the current course is an orphan we probably shouldn't draw an empty graph
@@ -72,7 +69,7 @@ export default function Page({ params }) {
       </div>
 
       {/* Target Courses Section */}
-      <div className="mt-8 bg-white rounded-lg shadow p-4">
+      <div className="mt-6 bg-white rounded-lg shadow p-4">
         <h2 className="text-lg font-semibold text-gray-700 mb-4">
           Target Courses
         </h2>
