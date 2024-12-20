@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+  width="48"
+  height="48"
+  viewBox="0 0 12.7 12.7"
+  version="1.1"
+  id="svg1"
+  xml:space="preserve"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:svg="http://www.w3.org/2000/svg"
+>
+  <g id="layer1">
+    <!-- arrow path traced in inkscape (clones used below to maintain separate colors) -->
+    <path
+      style="
+        display: inline;
+        opacity: 1;
+        fill-opacity: 1;
+        stroke-width: 0.264583;
+      "
+      id="arrowpath"
+      d="M 1.6278609,0.16153764 6.9292598,3.0919686 C 5.3854839,3.4619103 2.5596449,3.849482 2.3038675,5.9444965 2.240519,7.3103814 3.2093557,7.6953628 4.370253,7.5243071 4.8104025,7.459452 5.5628108,7.2611938 6.3156371,7.0436694 7.0684634,6.8261449 7.8347515,6.5937023 8.2765729,6.4691741 8.5291858,6.3979747 8.6502149,6.3867965 8.8296738,6.394209 8.9608747,6.3996282 9.159823,6.4626981 9.1774949,6.766394 9.1915248,7.007502 9.0042254,7.2073787 8.8382096,7.338021 8.6721937,7.4686632 8.3155595,7.6268064 8.0918102,7.7003869 7.6331387,7.8512221 7.0693978,8.0247888 6.5888077,8.1666149 5.401904,8.51688 4.1520571,8.8772515 2.9134155,8.6658235 2.6848451,8.626808 1.3772696,8.3017613 1.2242178,6.5801547 1.0539647,4.6650594 2.2878047,3.6526876 3.0057315,3.158643 3.0503235,3.127957 3.0790285,3.099894 3.0562655,3.039755 Z"
+    />
+    <!-- the actual logo -->
+    <circle
+      style="
+        display: inline;
+        fill: #1e344e;
+        fill-opacity: 1;
+        stroke-width: 0.264583;
+      "
+      id="path2"
+      cx="6.3499999"
+      cy="6.3499999"
+      r="6.25"
+    />
+    <use
+      x="0"
+      y="0"
+      xlink:href="#arrowpath"
+      id="bottomarrow"
+      transform="rotate(180,6.35,6.35)"
+      style="display: inline; fill: #f9a8d4; fill-opacity: 1"
+    />
+    <use
+      x="0"
+      y="0"
+      xlink:href="#arrowpath"
+      id="toparrow"
+      style="display: inline; fill: #7dd3fc; fill-opacity: 1"
+    />
+  </g>
+</svg>
