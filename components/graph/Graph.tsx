@@ -42,19 +42,24 @@ function Graph({
   // TODO: add graph customization features
   const graph = buildGraph(build);
 
-  return <Mermaid graph={convertJSONGraph(graph, display)} />;
+  return (
+    <>
+      <Mermaid graph={convertJSONGraph(graph, display)} />
+    </>
+  );
 }
 
-// here only SVG styling works -- text styling must happen in Mermaid init
+// very subtle outline to make the edges more obvious
 const lightStyles = `
-classDef AND fill:#9cc684,stroke:#53793a,stroke-width:1px;
-classDef OR fill:#63c7e1,stroke:#007d96,stroke-width:1px;
-classDef default fill:#d2aef1,stroke:#815f9c,stroke-width:1px;
+classDef AND stroke:#22c55e,stroke-width:0.25px;
+classDef OR stroke:#d24788,stroke-width:0.25px;
+classDef default stroke:#0995d8,stroke-width:0.25px;
 `;
+// TODO styling for dark theme
 const darkStyles = `
-classDef AND fill:#9cc684,stroke:#53793a,stroke-width:1px;
-classDef OR fill:#63c7e1,stroke:#007d96,stroke-width:1px;
-classDef default fill:#d2aef1,stroke:#815f9c,stroke-width:1px;
+classDef AND stroke:#fff,stroke-width:0.375px;
+classDef OR stroke:#fff,stroke-width:0.375px;
+classDef default stroke:#fff,stroke-width:0.375px;
 `;
 
 /** naively converts a JSON representation of a graph to Mermaid's textual representation */
