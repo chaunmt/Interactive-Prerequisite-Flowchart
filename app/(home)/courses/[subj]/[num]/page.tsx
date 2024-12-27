@@ -49,7 +49,7 @@ export default function Page({ params }) {
           </div>
 
           {/* Graph Container */}
-          <div className="bg-gray-100 rounded-md p-4 min-h-[50vh]">
+          <div className="bg-gray-100 shadow-[inset_0_0_4px_0_rgba(0,0,0,0.05)] rounded-md p-4 min-h-[50vh]">
             <Graph build={build} />
           </div>
         </div>

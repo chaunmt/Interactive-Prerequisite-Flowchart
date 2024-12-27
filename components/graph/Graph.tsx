@@ -39,27 +39,16 @@ function Graph({
   build: BuildOptions;
   display?: DisplayOptions;
 }) {
-  // TODO: add graph customization features
   const graph = buildGraph(build);
 
-  return (
-    <>
-      <Mermaid graph={convertJSONGraph(graph, display)} />
-    </>
-  );
+  return <Mermaid graph={convertJSONGraph(graph, display)} />;
 }
 
-// very subtle outline to make the edges more obvious
-const lightStyles = `
-classDef AND stroke:#22c55e,stroke-width:0.25px;
-classDef OR stroke:#d24788,stroke-width:0.25px;
-classDef default stroke:#0995d8,stroke-width:0.25px;
-`;
-// TODO styling for dark theme
-const darkStyles = `
-classDef AND stroke:#fff,stroke-width:0.375px;
-classDef OR stroke:#fff,stroke-width:0.375px;
-classDef default stroke:#fff,stroke-width:0.375px;
+// class definitions
+const nodetypes = `
+classDef AND !important
+classDef OR !important
+classDef default !important
 `;
 
 /** naively converts a JSON representation of a graph to Mermaid's textual representation */
@@ -68,21 +57,17 @@ export function convertJSONGraph(input: GraphData, display?: DisplayOptions) {
   const frontmatter = `\
 ---
 config:
-  # # probably use this for arrow colors
-  # theme: ${display?.theme === "dark" ? "dark" : "neutral"}
-  # # not yet sure how to use this or what for
-  # themeCSS: ${display?.theme || "light"}
-  # layout: elk  # redundant
+  layout: elk
+  theme: ${display?.theme === "dark" ? "dark" : "default"}
 ---
 
 `;
   const orientation = display?.orientation || "BT";
-  const styling = display?.theme === "dark" ? darkStyles : lightStyles;
 
   const graph =
     frontmatter +
     `graph ${orientation}\n` +
-    styling +
+    nodetypes +
     "\n%% node declarations\n" +
     input.nodes
       .map((n) => {
@@ -111,11 +96,5 @@ config:
           .join(""),
       )
       .join("");
-  // input.edges
-  //   .map((e) => {
-  //     return `${e.from} --> ${e.to}\n`;
-  //   })
-  //   .join("");
-  // console.log(graph);
   return graph;
 }
