@@ -5,23 +5,23 @@ import mermaid, { MermaidConfig } from "mermaid";
 import elkLayouts from "@mermaid-js/layout-elk";
 // import { reformat } from "@/backend/text-manipulation";
 
-/***
-STYLING:
-  # passed when initializing mermaid (no changes at runtime)
-  site-wide config: # Mermaid.tsx
-    - font family used for text in diagrams
-    - layout engine (elk) + its config
-    - padding between node text and borders (all nodes)
-  # passed when asking mermaid to render graph
-  diagram-specific config: # Graph.tsx
-    - theme # mermaid's base themes, mainly so arrows match site theme
-    - or-node css (just doing stroke here)
-    - and-node css (just doing stroke here)
-    - (default) course-node css (just doing stroke here)
-  # directly performing DOM manipulation to restyle client-side
-  external styling:
-    - see react useEffect hook below
-***/
+//********************************* STYLING *********************************//
+// # passed when initializing mermaid (no changes at runtime)
+// site-wide config: # Mermaid.tsx
+//   - font family used for text in diagrams
+//   - layout engine (elk) + its config
+//   - padding between node text and borders (all nodes)
+//
+// # passed when asking mermaid to render graph
+// diagram-specific config: # Graph.tsx
+//   - theme # mermaid's base themes, controls text and arrows
+//   - distinguish node types to allow us to query by class name below
+//
+// # directly performing DOM manipulation to restyle client-side
+// external restyling:
+//   - pretty much all of the actual styling is here, external to mermaid
+//   - we can use tailwind classes here, but only on the svg shapes
+//   - (see react useEffect hook below)
 
 /** site-wide configuration options for mermaid */
 const siteConfig: MermaidConfig = {
@@ -45,28 +45,22 @@ const courseStyles = [
   "stroke-[0.3]",
   "stroke-fl-course-border",
   "fill-fl-course",
-  "text-black",
   // "dark:stroke-fd-course-border",
   // "dark:fill-fd-course",
-  // "dark:text-white",
 ];
 const andStyles = [
   "stroke-[0.3]",
   "stroke-fl-and-border",
   "fill-fl-and",
-  "text-black",
   // "dark:stroke-fd-and-border",
   // "dark:fill-fd-and",
-  // "dark:text-white",
 ];
 const orStyles = [
   "stroke-[0.3]",
   "stroke-fl-or-border",
   "fill-fl-or",
-  "text-black",
   // "dark:stroke-fd-or-border",
   // "dark:fill-fd-or",
-  // "dark:text-white",
 ];
 
 /** the svg filter applied to everything to add a drop shadow */

@@ -25,7 +25,9 @@ function CoursesTable({ courses }: { courses: readonly Course[] }) {
     list: { course: Course; selected: boolean }[];
     latest?: Course;
   }>({
-    list: courses.map((course) => ({ course, selected: false })),
+    list: courses
+      .filter((c) => c)
+      .map((course) => ({ course, selected: false })),
     latest: undefined,
   });
 
@@ -97,8 +99,9 @@ function CoursesTable({ courses }: { courses: readonly Course[] }) {
   }
 
   function formatTable() {
-    return selection.list.map((e, index) => (
-      <div key={index}>
+    selection.list.map((e) => console.log(e));
+    return selection.list.map((e) => (
+      <div key={e.course.uid}>
         <button
           className={e.selected ? "card_hl" : "card"}
           onClick={() => handleClickCard(e.course)}
