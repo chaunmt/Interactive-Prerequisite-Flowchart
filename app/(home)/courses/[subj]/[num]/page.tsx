@@ -62,7 +62,7 @@ export default function Page({ params }) {
           <div id="name" className="text-lg font-semibold text-gray-700">
             {course.fullname}
           </div>
-          <div id="info" className="text-gray-600">
+          <div id="info" className="space-y-4 text-gray-600">
             {reformat(course.info, true)}
           </div>
         </div>

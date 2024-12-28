@@ -10,12 +10,7 @@ export function reformat(input: string, combine_newlines?: boolean) {
 }
 
 function Paragraph({ para }) {
-  return (
-    <>
-      <p>{para}</p>
-      <br />
-    </>
-  );
+  return <p>{para}</p>;
 }
 
 // I expect to write more of these later for converting data plaintext to html - jahndan, 2024-11-28

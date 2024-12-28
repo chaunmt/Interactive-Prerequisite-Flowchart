@@ -3,7 +3,6 @@ import React from "react";
 import { useEffect, useState } from "react";
 import mermaid, { MermaidConfig } from "mermaid";
 import elkLayouts from "@mermaid-js/layout-elk";
-// import { reformat } from "@/backend/text-manipulation";
 
 //********************************* STYLING *********************************//
 // # passed when initializing mermaid (no changes at runtime)
@@ -90,7 +89,7 @@ export default function Mermaid({ graph }) {
       const parser = new DOMParser();
       const svgdoc = parser.parseFromString(
         `<div id="top">${svg}</div>`,
-        "text/xml",
+        "text/xml"
       );
       const topsvg = svgdoc.getElementsByTagName("svg")[0];
 

@@ -3,9 +3,8 @@
 import { useState } from "react";
 import { Course } from "@/data/types";
 import Graph, { BuildOptions, DisplayOptions } from "@/components/graph/Graph";
+import { reformat } from "@/backend/text-manipulation";
 import Link from "next/link";
-
-import "@/components/styles/CoursesTable.css";
 
 import { MdOpenInNew } from "react-icons/md";
 
@@ -32,18 +31,21 @@ function CoursesTable({ courses }: { courses: readonly Course[] }) {
   });
 
   return (
-    <div id="containers">
-      <div id="coursesTable">{formatTable()}</div>
-      <div id="courseBox">
-        {/* pls style this nicer */}
+    <div className="grid grid-cols-2 pt-4">
+      <div
+        className="bg-gray-200 rounded-md shadow p-4 mr-3
+        grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6
+        gap-2 content-stretch justify-stretch items-stretch"
+      >
+        {formatTable()}
+      </div>
+      <div className="bg-gray-200 rounded-md shadow p-4 ml-3 space-y-4">
         {selection.latest ? (
           // when at least one course is selected
-          <div id="infoBox">
-            <div id="infoBoxHead">
-              <h2>
+          <div className="bg-white px-5 py-4 shadow rounded-md">
+            <div className="flex flex-row justify-between">
+              <h2 className="font-semibold text-lg/relaxed">
                 {selection.latest.code}
-                <br />
-                {selection.latest.fullname}
               </h2>
               <Link
                 href={`/${selection.latest.subject}/${selection.latest.number}`}
@@ -53,10 +55,15 @@ function CoursesTable({ courses }: { courses: readonly Course[] }) {
                 </button>
               </Link>
             </div>
-            <p>{selection.latest.info}</p>
+            <h2 className="font-medium text-base mb-1">
+              {selection.latest.fullname}
+            </h2>
+            <div className="text-sm space-y-1">
+              {reformat(selection.latest.info, true)}
+            </div>
           </div>
         ) : (
-          <div id="infoBox">
+          <div className="text-sm bg-white px-5 py-3 shadow rounded-md">
             <p>
               Please click on a course to add it to the graph. You may click
               multiple courses to display their prerequisites together. To
@@ -103,7 +110,9 @@ function CoursesTable({ courses }: { courses: readonly Course[] }) {
     return selection.list.map((e) => (
       <div key={e.course.uid}>
         <button
-          className={e.selected ? "card_hl" : "card"}
+          className={`ext-lg/tight font-medium text-center px-2 w-24 h-12 rounded-md border-none shadow ${
+            e.selected === true ? "bg-amber-200" : "bg-white"
+          }`}
           onClick={() => handleClickCard(e.course)}
         >
           {e.course.number}
