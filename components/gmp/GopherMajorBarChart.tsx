@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import React from "react";
 import { useState, useEffect } from "react";
 import { Checklist } from "./Checklist";
@@ -45,7 +45,7 @@ function GopherMajorBarChart({
   }, []);
 
   function calculateCredits(courseIds: string[]) {
-  let totalCredits = 0;
+    let totalCredits = 0;
     for (const courseId of courseIds) {
       // Match course ID with the courses data
       for (const course of allCourses) {
@@ -60,15 +60,15 @@ function GopherMajorBarChart({
   }
 
   function createStoreCourses(values: any, yourCourses: string[]) {
-    let storeCourses: string[] = [];
-    for (let e in values) {
+    const storeCourses: string[] = [];
+    for (const e in values) {
       const coursesObj = values[e]; //Ex: coursesObj = {"logic": "or","value": ["8257721","0099201","0062811","8019831"]}
       const logic = coursesObj.logic;
       const value = coursesObj.value;
 
-      for (let v of value) {
+      for (const v of value) {
         if (logic.includes("or")) {
-          for (let v of value) {
+          for (const v of value) {
             if (yourCourses.includes(v)) {
               //use 'includes()' instead of 'in' for strings
               storeCourses.push(v);
@@ -99,31 +99,34 @@ function GopherMajorBarChart({
     minCourses: number,
     maxCourses: number
   ) {
-    let subRuleObj = { [name]: "False" };
+    const subRuleObj = { [name]: "False" };
 
     switch (condition) {
-      case "completedAnyOf":
+      case "completedAnyOf": {
         if (storeCourses.length != 0) {
           subRuleObj[name] = "True";
         }
         break;
+      }
 
-      case "completedAllOf": // Logic is either "and" or "or"
+      case "completedAllOf": {
+        // Logic is either "and" or "or"
         if (storeCourses.length == values.length) {
           subRuleObj[name] = "True";
         }
         break;
+      }
 
-      case "minimumCredits":
-        let storeMinCredits = minCredits;
-        storeMinCredits -= storeCoursesCredits;
+      case "minimumCredits": {
+        const storeMinCredits = minCredits - storeCoursesCredits;
         if (storeMinCredits <= 0) {
           subRuleObj[name] = "True";
         }
         break;
+      }
 
-      case "completeVariableCoursesAndVariableCredits":
-        //Checks if credits or courses are used
+      case "completeVariableCoursesAndVariableCredits": {
+        // Checks if credits or courses are used
         if (
           storeCoursesCredits <= maxCourses &&
           storeCoursesCredits &&
@@ -143,22 +146,27 @@ function GopherMajorBarChart({
           subRuleObj[name] = "True";
         }
         break;
+      }
 
-      case "completedAtLeastXOf":
+      case "completedAtLeastXOf": {
         if (storeCourses.length >= minCourses) {
           subRuleObj[name] = "True";
         }
         break;
+      }
 
-      case "allOf":
+      case "allOf": {
         break;
+      }
 
-      case "anyOf":
+      case "anyOf": {
         break;
+      }
 
-      default:
+      default: {
         console.log("Condition Not Found:", condition);
         break;
+      }
     }
 
     return subRuleObj;
@@ -167,7 +175,7 @@ function GopherMajorBarChart({
   function createChecklist(programObj: any, yourCourses: string[]) {
     const requirements = programObj["requisites"]["requisitesSimple"];
     const checklist: any[] = [];
-    let validCourses: string[] = [];
+    const validCourses: string[] = [];
 
     requirements.forEach((req: any) => {
       const rules = req["rules"];
@@ -175,7 +183,7 @@ function GopherMajorBarChart({
 
       checklistObj["requirementTitle"] = req.name; //Adds titles like "Admission Requirements" or "Program Requirements" to checklist
 
-      for (let i in rules) {
+      for (const i in rules) {
         // Chracteristics of Rule TYPE 1: uses subRule, no values, conditions: ["allOf", "anyOf"]
         // Chracteristics of Rule TYPE 2: empty subRule, uses value, conditions: ["completedAllOf", "completedAnyOf", "completeVariableCoursesAndVariableCredits", "minimumCredits", "completedAtLeastXOf"]
         const rule = rules[i];
@@ -192,9 +200,9 @@ function GopherMajorBarChart({
 
         if (condition.includes("allOf")) {
           // Condition for handling type 1
-          let subRuleChecklist: any[] = [];
+          const subRuleChecklist: any[] = [];
 
-          for (let i in subRules) {
+          for (const i in subRules) {
             const subRule = subRules[i];
             const subName: string = subRule["name"]
               ? subRule["name"]
@@ -254,9 +262,9 @@ function GopherMajorBarChart({
             ]);
           }
         } else if (condition.includes("anyOf")) {
-          let subRuleChecklist: any[] = [];
+          const subRuleChecklist: any[] = [];
 
-          for (let i in subRules) {
+          for (const i in subRules) {
             const subRule = subRules[i];
             const subName: string = subRule["name"]
               ? subRule["name"]
@@ -323,29 +331,31 @@ function GopherMajorBarChart({
           validCourses.push(...storeCourses); // for tracking courses in program
 
           switch (condition) {
-            case "completedAnyOf":
+            case "completedAnyOf": {
               if (storeCourses.length != 0) {
                 checklistObj[coreName] = "True";
               }
               break;
+            }
 
-            case "completedAllOf": // Logic is either "and" or "or"
+            case "completedAllOf": {
+              // Logic is either "and" or "or"
               if (storeCourses.length == ruleValues.length) {
                 checklistObj[coreName] = "True";
               }
-
               break;
+            }
 
-            case "minimumCredits":
-              let storeMinCredits = rule.minCredits;
-              storeMinCredits -= storeCoursesCredits;
+            case "minimumCredits": {
+              const storeMinCredits = rule.minCredits - storeCoursesCredits;
               if (storeMinCredits <= 0) {
                 checklistObj[coreName] = "True";
               }
               break;
+            }
 
-            case "completeVariableCoursesAndVariableCredits":
-              //Checks if credits or courses are used
+            case "completeVariableCoursesAndVariableCredits": {
+              // Checks if credits or courses are used
               if (
                 storeCoursesCredits <= maxCredits &&
                 storeCoursesCredits &&
@@ -365,15 +375,18 @@ function GopherMajorBarChart({
                 checklistObj[coreName] = "True";
               }
               break;
+            }
 
-            case "completedAtLeastXOf":
+            case "completedAtLeastXOf": {
               if (storeCourses.length >= minCourses) {
                 checklistObj[coreName] = "True";
               }
               break;
+            }
 
-            default:
+            default: {
               break;
+            }
           }
         } else {
           console.log("Condition Unsupported:", condition);
@@ -445,11 +458,7 @@ function GopherMajorBarChart({
 
   return (
     <div>
-      {disableBarChart ? null : (
-        <BarChart
-          sortedByOverlap={sortedByOverlap}
-        />
-      )}
+      {disableBarChart ? null : <BarChart sortedByOverlap={sortedByOverlap} />}
       {disableChecklist ? null : (
         <Checklist yourMajorChecklist={yourMajorChecklist} />
       )}

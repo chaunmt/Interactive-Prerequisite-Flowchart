@@ -43,7 +43,7 @@ export function BarChart({ sortedByOverlap }: props) {
   // }
   const changeBorderColors = () => {
     const stepSize = Math.trunc(110 / labelsArray.length);
-    let colors: string[] = [];
+    const colors: string[] = [];
     for (let i = 0; i < labelsArray.length; i++) {
       const col = i * stepSize;
       colors.push(`hsla(${col}, 80%, 60%)`);
@@ -53,7 +53,7 @@ export function BarChart({ sortedByOverlap }: props) {
 
   const changeBackgroundColors = () => {
     const stepSize = Math.trunc(108 / labelsArray.length);
-    let colors: string[] = [];
+    const colors: string[] = [];
     for (let i = 0; i < labelsArray.length; i++) {
       const col = i * stepSize;
       colors.push(`hsla(${col}, 80%, 60%, 0.75)`);
