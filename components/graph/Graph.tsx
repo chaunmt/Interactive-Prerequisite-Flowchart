@@ -28,7 +28,6 @@ export type {
 
 type DisplayOptions = {
   orientation?: "TB" | "BT" | "LR" | "RL"; // top-bottom, bottom-top, left-right, right-left
-  theme?: "light" | "dark"; // assumed light if not included
   // TODO: other optional members as needed (remember to pad for undefined when using nonboolean) -- jahndan 2024/04/11
 };
 
@@ -39,45 +38,26 @@ function Graph({
   build: BuildOptions;
   display?: DisplayOptions;
 }) {
-  // TODO: add graph customization features
   const graph = buildGraph(build);
 
-  return <Mermaid graph={convertJSONGraph(graph, display)} />;
+  return <Mermaid input={convertJSONGraph(graph, display)} />;
 }
 
-// here only SVG styling works -- text styling must happen in Mermaid init
-const lightStyles = `
-classDef AND fill:#9cc684,stroke:#53793a,stroke-width:1px;
-classDef OR fill:#63c7e1,stroke:#007d96,stroke-width:1px;
-classDef default fill:#d2aef1,stroke:#815f9c,stroke-width:1px;
-`;
-const darkStyles = `
-classDef AND fill:#9cc684,stroke:#53793a,stroke-width:1px;
-classDef OR fill:#63c7e1,stroke:#007d96,stroke-width:1px;
-classDef default fill:#d2aef1,stroke:#815f9c,stroke-width:1px;
+// class definitions
+const nodetypes = `
+classDef AND !important
+classDef OR !important
+classDef default !important
 `;
 
 /** naively converts a JSON representation of a graph to Mermaid's textual representation */
 export function convertJSONGraph(input: GraphData, display?: DisplayOptions) {
   // TODO sophisticated conversion if still using Mermaid -- 2024/01/13
-  const frontmatter = `\
----
-config:
-  # # probably use this for arrow colors
-  # theme: ${display?.theme === "dark" ? "dark" : "neutral"}
-  # # not yet sure how to use this or what for
-  # themeCSS: ${display?.theme || "light"}
-  # layout: elk  # redundant
----
-
-`;
   const orientation = display?.orientation || "BT";
-  const styling = display?.theme === "dark" ? darkStyles : lightStyles;
 
   const graph =
-    frontmatter +
     `graph ${orientation}\n` +
-    styling +
+    nodetypes +
     "\n%% node declarations\n" +
     input.nodes
       .map((n) => {
@@ -106,11 +86,5 @@ config:
           .join(""),
       )
       .join("");
-  // input.edges
-  //   .map((e) => {
-  //     return `${e.from} --> ${e.to}\n`;
-  //   })
-  //   .join("");
-  // console.log(graph);
   return graph;
 }

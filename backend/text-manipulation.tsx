@@ -1,3 +1,5 @@
+import { Course } from "@/data/types";
+
 /** utility function for reformatting plain text to the appropriate html tags */
 export function reformat(input: string, combine_newlines?: boolean) {
   const lst = combine_newlines
@@ -10,12 +12,12 @@ export function reformat(input: string, combine_newlines?: boolean) {
 }
 
 function Paragraph({ para }) {
-  return (
-    <>
-      <p>{para}</p>
-      <br />
-    </>
-  );
+  return <p>{para}</p>;
 }
 
 // I expect to write more of these later for converting data plaintext to html - jahndan, 2024-11-28
+
+export function getDisplay(course: Course) {
+  // insert a space in the course code for display purposes
+  return `${course.subject} ${course.code.replace(course.subject, "")}`;
+}

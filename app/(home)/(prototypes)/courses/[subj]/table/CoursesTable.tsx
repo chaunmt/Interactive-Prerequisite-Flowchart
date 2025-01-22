@@ -3,9 +3,8 @@
 import { useState } from "react";
 import { Course } from "@/data/types";
 import Graph, { BuildOptions, DisplayOptions } from "@/components/graph/Graph";
+import { reformat } from "@/backend/text-manipulation";
 import Link from "next/link";
-
-import "@/components/styles/CoursesTable.css";
 
 import { MdOpenInNew } from "react-icons/md";
 
@@ -25,36 +24,42 @@ function CoursesTable({ courses }: { courses: readonly Course[] }) {
     list: { course: Course; selected: boolean }[];
     latest?: Course;
   }>({
-    list: courses.map((course) => ({ course, selected: false })),
+    list: courses
+      .filter((c) => c)
+      .map((course) => ({ course, selected: false })),
     latest: undefined,
   });
 
   return (
-    <div id="containers">
-      <div id="coursesTable">{formatTable()}</div>
-      <div id="courseBox">
-        {/* pls style this nicer */}
+    <div className="grid grid-cols-2 pt-4">
+      <div className="mr-3 grid grid-cols-1 content-stretch items-stretch justify-stretch gap-2 rounded-md bg-gray-200 p-4 shadow sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6">
+        {formatTable()}
+      </div>
+      <div className="ml-3 space-y-4 rounded-md bg-gray-200 p-4 shadow">
         {selection.latest ? (
           // when at least one course is selected
-          <div id="infoBox">
-            <div id="infoBoxHead">
-              <h2>
+          <div className="rounded-md bg-white px-5 py-4 shadow">
+            <div className="flex flex-row justify-between">
+              <h2 className="text-lg/relaxed font-semibold">
                 {selection.latest.code}
-                <br />
-                {selection.latest.fullname}
               </h2>
               <Link
-                href={`/${selection.latest.subject}/${selection.latest.number}`}
+                href={`/courses/${selection.latest.subject}/${selection.latest.number}`}
               >
                 <button id="openId">
-                  <MdOpenInNew />
+                  <MdOpenInNew size={20} />
                 </button>
               </Link>
             </div>
-            <p>{selection.latest.info}</p>
+            <h2 className="mb-1 text-base font-medium">
+              {selection.latest.fullname}
+            </h2>
+            <div className="space-y-1 text-sm font-normal">
+              {reformat(selection.latest.info, true)}
+            </div>
           </div>
         ) : (
-          <div id="infoBox">
+          <div className="rounded-md bg-white px-5 py-3 text-sm shadow">
             <p>
               Please click on a course to add it to the graph. You may click
               multiple courses to display their prerequisites together. To
@@ -97,10 +102,13 @@ function CoursesTable({ courses }: { courses: readonly Course[] }) {
   }
 
   function formatTable() {
-    return selection.list.map((e, index) => (
-      <div key={index}>
+    selection.list.map((e) => console.log(e));
+    return selection.list.map((e) => (
+      <div key={e.course.uid}>
         <button
-          className={e.selected ? "card_hl" : "card"}
+          className={`ext-lg/tight h-12 w-24 rounded-md border-none px-2 text-center font-medium shadow ${
+            e.selected === true ? "bg-amber-200" : "bg-white"
+          }`}
           onClick={() => handleClickCard(e.course)}
         >
           {e.course.number}

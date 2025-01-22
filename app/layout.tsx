@@ -1,31 +1,54 @@
+import type { Metadata } from "next";
+import { description, keywords } from "@/app/meta";
+
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
-import { Keywords } from "@/components/layout/Meta";
-import "@/app/globals.css";
+import { ThemeProvider } from "@/components/layout/Contexts";
 
-import { Metadata } from "next";
+// Google Fonts' Inter is slightly broken
+import localFont from "next/font/local";
+import { Roboto_Mono } from "next/font/google";
+import "./globals.css";
 
 export const metadata: Metadata = {
   title: {
     template: "%s | Course Flowchart",
     default: "Course Flowchart",
   },
-  description:
-    "Explore and plan your academic journey with Course Flowchart, your ultimate guide to course prerequisites at the University of Minnesota - Twin Cities. Find detailed course information, prerequisites, and plan your curriculum efficiently.",
-  keywords: Keywords,
+  description,
+  keywords,
 };
+
+const inter = localFont({
+  src: [
+    { path: "./fonts/InterVariable.ttf", style: "normal" },
+    { path: "./fonts/InterVariable-Italic.ttf", style: "italic" },
+  ],
+  display: "swap",
+  variable: "--font-inter",
+});
+
+const roboto_mono = Roboto_Mono({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-mono",
+});
 
 export default function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode;
-}) {
+}>) {
   return (
-    <html lang="en">
-      <body className="bgImg">
-        <Header />
-        <main>{children}</main>
-        <Footer />
+    <html lang="en" className={`${inter.variable} ${roboto_mono.variable}`}>
+      <body className="bg-gray-100 dark:bg-zinc-950">
+        <ThemeProvider>
+          <Header />
+          <main className="flex min-h-screen flex-col gap-4 p-4">
+            {children}
+          </main>
+          <Footer />
+        </ThemeProvider>
       </body>
     </html>
   );
