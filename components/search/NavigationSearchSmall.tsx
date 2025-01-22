@@ -29,7 +29,7 @@ export function SearchBar({
   return (
     <div className="relative">
       {/* Search Icon */}
-      <div className="absolute inset-y-0 left-4 flex items-center pointer-events-none">
+      <div className="pointer-events-none absolute inset-y-0 left-4 flex items-center">
         <CiSearch className="size-5" />
       </div>
       {/* Search input field */}
@@ -38,8 +38,7 @@ export function SearchBar({
         placeholder="Search By Class"
         value={value}
         onChange={sendQuery}
-        className="outline-0 bg-[var(--search-bar)] px-12 py-3 rounded-md shadow-sm w-[19%]
-        bg-white border border-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-400"
+        className="w-[19%] rounded-md border border-gray-300 bg-[var(--search-bar)] bg-white px-12 py-3 shadow-sm outline-0 focus:outline-none focus:ring-2 focus:ring-gray-400"
       />
     </div>
   );
@@ -62,18 +61,18 @@ function SearchResultsList({
   // TODO: inline vs hoverable list options, many options, this is meant to be customizable
 
   return (
-    <ul className="mt-1 mb-1 p-2">
+    <ul className="mb-1 mt-1 p-2">
       {filteredData.length > 0 ? (
         filteredData.map((result) => (
           <li
             key={result.display_text}
-            className="pt-2 pr-2 text-gray-700 font-bold cursor-pointer hover:text-gray-900 hover:bg-gray-100"
+            className="cursor-pointer pr-2 pt-2 font-bold text-gray-700 hover:bg-gray-100 hover:text-gray-900"
           >
             <Link href={result.ref}>{result.display_text}</Link>
           </li>
         ))
       ) : (
-        <li className="pt-2 pr-2 text-gray-700 font-bold">No search results</li>
+        <li className="pr-2 pt-2 font-bold text-gray-700">No search results</li>
       )}
     </ul>
   );
@@ -108,7 +107,7 @@ function NavigationSearchSmall() {
   return (
     <div className="right-0 top-0">
       <SearchBar value={search} sendQuery={handleSearch} />
-      <div className="mt-1 absolute bg-white shadow-md w-[19%] max-h-60 overflow-y-auto z-50">
+      <div className="absolute z-50 mt-1 max-h-60 w-[19%] overflow-y-auto bg-white shadow-md">
         {search && <SearchResultsList filteredData={results} />}
       </div>
     </div>

@@ -1,10 +1,9 @@
 // page with dynamic graph generation and search bar for courses in [subj]
 import { Accessor, subjects } from "@/backend/access";
 
-import { CoursesTable } from "@/components/table/CoursesTable";
+import { CoursesTable } from "./table/CoursesTable";
 
 import { notFound } from "next/navigation";
-import NavigationSearchSmall from "@/components/search/NavigationSearchSmall";
 
 export async function generateMetadata({ params }) {
   return {

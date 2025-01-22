@@ -32,38 +32,34 @@ function CoursesTable({ courses }: { courses: readonly Course[] }) {
 
   return (
     <div className="grid grid-cols-2 pt-4">
-      <div
-        className="bg-gray-200 rounded-md shadow p-4 mr-3
-        grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6
-        gap-2 content-stretch justify-stretch items-stretch"
-      >
+      <div className="mr-3 grid grid-cols-1 content-stretch items-stretch justify-stretch gap-2 rounded-md bg-gray-200 p-4 shadow sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6">
         {formatTable()}
       </div>
-      <div className="bg-gray-200 rounded-md shadow p-4 ml-3 space-y-4">
+      <div className="ml-3 space-y-4 rounded-md bg-gray-200 p-4 shadow">
         {selection.latest ? (
           // when at least one course is selected
-          <div className="bg-white px-5 py-4 shadow rounded-md">
+          <div className="rounded-md bg-white px-5 py-4 shadow">
             <div className="flex flex-row justify-between">
-              <h2 className="font-semibold text-lg/relaxed">
+              <h2 className="text-lg/relaxed font-semibold">
                 {selection.latest.code}
               </h2>
               <Link
-                href={`/${selection.latest.subject}/${selection.latest.number}`}
+                href={`/courses/${selection.latest.subject}/${selection.latest.number}`}
               >
                 <button id="openId">
-                  <MdOpenInNew />
+                  <MdOpenInNew size={20} />
                 </button>
               </Link>
             </div>
-            <h2 className="font-medium text-base mb-1">
+            <h2 className="mb-1 text-base font-medium">
               {selection.latest.fullname}
             </h2>
-            <div className="text-sm space-y-1">
+            <div className="space-y-1 text-sm font-normal">
               {reformat(selection.latest.info, true)}
             </div>
           </div>
         ) : (
-          <div className="text-sm bg-white px-5 py-3 shadow rounded-md">
+          <div className="rounded-md bg-white px-5 py-3 text-sm shadow">
             <p>
               Please click on a course to add it to the graph. You may click
               multiple courses to display their prerequisites together. To
@@ -110,7 +106,7 @@ function CoursesTable({ courses }: { courses: readonly Course[] }) {
     return selection.list.map((e) => (
       <div key={e.course.uid}>
         <button
-          className={`ext-lg/tight font-medium text-center px-2 w-24 h-12 rounded-md border-none shadow ${
+          className={`ext-lg/tight h-12 w-24 rounded-md border-none px-2 text-center font-medium shadow ${
             e.selected === true ? "bg-amber-200" : "bg-white"
           }`}
           onClick={() => handleClickCard(e.course)}

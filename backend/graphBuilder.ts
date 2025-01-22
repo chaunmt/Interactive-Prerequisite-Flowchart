@@ -1,5 +1,6 @@
 import { PrerequisiteTraversal, uid_get } from "@/backend/access";
 import { Course } from "@/data/types";
+import { getDisplay } from "@/backend/text-manipulation";
 
 // TODO client-side behavior to allow on-click interactivity
 // - access caching/efficiency behavior?
@@ -185,22 +186,21 @@ function rawbuild(input: BuildOptions): GraphData {
   // this is the entry point in a sort of "mutual recursion" between this and processor()
   function singleton(course: Course) {
     // console.log(`>>>> singleton(${course.code}{ ${course.uid} })`);
-    const { uid, code, prereq } = course;
 
     // skip this step if already processed
-    if (node_list.every((node) => node.id !== uid)) {
-      // console.log("course:", uid, code);
+    if (node_list.every((node) => node.id !== course.uid)) {
+      // console.log("course:", uid, course.code);
       node_list.push({
-        id: uid,
-        meta: code,
+        id: course.uid,
+        meta: getDisplay(course),
         type: "course",
         inbound_edges: [],
       });
 
       // only process prereqs if not soft_excluded
-      if (soft_excludes.every((c) => c != uid)) {
+      if (soft_excludes.every((c) => c != course.uid)) {
         // console.log("prereq:", { parent: uid, i: 0 });
-        processor(prereq, { parent: uid, i: 0 });
+        processor(course.prereq, { parent: course.uid, i: 0 });
       }
     }
 

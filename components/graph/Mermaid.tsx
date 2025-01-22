@@ -1,6 +1,8 @@
 "use client";
-import React from "react";
-import { useEffect, useState } from "react";
+
+import { useEffect, useState, useContext } from "react";
+import { ThemeContext } from "@/components/layout/Contexts";
+
 import mermaid, { MermaidConfig } from "mermaid";
 import elkLayouts from "@mermaid-js/layout-elk";
 
@@ -13,7 +15,7 @@ import elkLayouts from "@mermaid-js/layout-elk";
 //
 // # passed when asking mermaid to render graph
 // diagram-specific config: # Graph.tsx
-//   - theme # mermaid's base themes, controls text and arrows
+//   - theme # mermaid's base theming, controls text and arrows
 //   - distinguish node types to allow us to query by class name below
 //
 // # directly performing DOM manipulation to restyle client-side
@@ -41,38 +43,57 @@ mermaid.initialize(siteConfig);
 
 // only classes that can apply to svg shapes (or the contained text)
 const courseStyles = [
-  "stroke-[0.3]",
+  "drop-shadow",
+  "stroke-0.3",
   "stroke-fl-course-border",
   "fill-fl-course",
-  // "dark:stroke-fd-course-border",
-  // "dark:fill-fd-course",
+  "dark:stroke-fd-course-border",
+  "dark:fill-fd-course",
 ];
 const andStyles = [
-  "stroke-[0.3]",
+  "drop-shadow",
+  "stroke-0.3",
   "stroke-fl-and-border",
   "fill-fl-and",
-  // "dark:stroke-fd-and-border",
-  // "dark:fill-fd-and",
+  "dark:stroke-fd-and-border",
+  "dark:fill-fd-and",
 ];
 const orStyles = [
-  "stroke-[0.3]",
+  "drop-shadow",
+  "stroke-0.3",
   "stroke-fl-or-border",
   "fill-fl-or",
-  // "dark:stroke-fd-or-border",
-  // "dark:fill-fd-or",
+  "dark:stroke-fd-or-border",
+  "dark:fill-fd-or",
 ];
+const edgeStyles = ["drop-shadow-sm"];
 
-/** the svg filter applied to everything to add a drop shadow */
-const shadowfilter = `\
-<filter id="svgshadow">
-<feDropShadow
-  dx="0.12" dy="0.3"
-  stdDeviation="1.4"
-  flood-opacity="0.25" />
-</filter>
+// /** the svg filter applied to everything to add a drop shadow */
+// const shadowfilter = `\
+// <filter id="svgshadow">
+// <feDropShadow
+//   dx="0.12" dy="0.3"
+//   stdDeviation="1.4"
+//   flood-opacity="0.25" />
+// </filter>
+// `;
+
+export default function Mermaid({ input }) {
+  const { dark } = useContext(ThemeContext);
+  const frontmatter = `\
+---
+config:
+  layout: elk
+  theme: base
+  themeVariables:
+    primaryTextColor: ${dark ? `"#eee"` : `"#111"`}
+    lineColor: ${dark ? `"#eee"` : `"#111"`}
+    # used to compute other colors
+    # background: ${dark ? `"#0b0b0b"` : `"#f4f4f4"`}
+---
+
 `;
-
-export default function Mermaid({ graph }) {
+  const graph = frontmatter + input;
   const [didMount, setDidMount] = useState(false);
 
   useEffect(() => {
@@ -89,23 +110,26 @@ export default function Mermaid({ graph }) {
       const parser = new DOMParser();
       const svgdoc = parser.parseFromString(
         `<div id="top">${svg}</div>`,
-        "text/xml"
+        "text/xml",
       );
       const topsvg = svgdoc.getElementsByTagName("svg")[0];
 
+      // treat the svg as a block level tag instead of inline
+      // and center it within its container
+      topsvg.classList.add("block", "m-auto");
+
       // inserting filter into svg so it's available
-      topsvg.innerHTML = shadowfilter + topsvg.innerHTML;
+      // topsvg.innerHTML = shadowfilter + topsvg.innerHTML;
 
       // applying small drop shadow to everything
-      topsvg.setAttribute("filter", "url(#svgshadow)");
+      // topsvg.setAttribute("filter", "url(#svgshadow)");
 
       const nodes = topsvg.getElementsByClassName("nodes")[0];
-      // nodes.setAttribute("filter", "url(#nodeshadows)"); // drop shadow
       const rects = Array.from(nodes.getElementsByTagName("rect"));
       rects.forEach((r) => {
         // round corners where they aren't already
         if (!r.getAttribute("rx") && !r.getAttribute("ry")) {
-          r.setAttribute("rx", "2");
+          r.setAttribute("rx", "2"); // unset ry uses same value as rx
         }
       });
 
@@ -126,6 +150,15 @@ export default function Mermaid({ graph }) {
         courseStyles.forEach((css) => c.classList.add(css));
       });
 
+      const edges = topsvg.getElementsByClassName("edges")[0];
+      // stripping mermaid styles and manually styling each node type
+      const edgePaths = Array.from(
+        edges.getElementsByClassName("flowchart-link"),
+      );
+      edgePaths.forEach((p) => {
+        edgeStyles.forEach((css) => p.classList.add(css));
+      });
+
       // getting it back into a string
       const topdiv = svgdoc.getElementById("top");
       const fixedsvg = topdiv.innerHTML;
@@ -135,11 +168,20 @@ export default function Mermaid({ graph }) {
     };
 
     generateGraph();
-  }, [didMount, graph]);
+  }, [didMount, graph, input]);
 
   useEffect(() => {
     setDidMount(true);
   }, []);
 
-  return <pre className="mermaid font-mono text-xs/5">{graph}</pre>;
+  return (
+    // TODO sizing and placement
+    <div className="m-auto">
+      <div className="mermaid">
+        <pre className="text-clip font-mono text-xs/5 text-zinc-700 dark:text-zinc-200">
+          {graph}
+        </pre>
+      </div>
+    </div>
+  );
 }

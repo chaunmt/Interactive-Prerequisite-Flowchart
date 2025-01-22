@@ -1,0 +1,297 @@
+/*** css things ***/
+
+/*
+<svg
+  viewBox="0 0 10 10"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="myGradient" gradientTransform="rotate(90)">
+      <stop offset="5%" stop-color="gold" />
+      <stop offset="95%" stop-color="red" />
+    </linearGradient>
+  </defs>
+
+  <!-- using my linear gradient -->
+  <circle cx="5" cy="5" r="4" fill="url('#myGradient')" />
+</svg>
+*/
+
+/* matched drop/box shadow */
+
+.drop {
+  filter: drop-shadow(0 1px 2px rgb(0 0 0 / 0.5))
+    drop-shadow(0 1px 1px rgb(0 0 0 / 0.25));
+}
+
+.box {
+  box-shadow:
+    0 1px 3px 0 rgb(0 0 0 / 0.5),
+    0 1px 2px -1px rgb(0 0 0 / 0.5);
+}
+
+/* mermaidchart css */
+
+#graph-div1736858659671 {
+  font-family: "trebuchet ms", verdana, arial, sans-serif;
+  font-size: 14px;
+  fill: #333;
+}
+
+#graph-div1736858659671 .error-icon {
+  fill: #ffffff;
+}
+
+#graph-div1736858659671 .error-text {
+  fill: #000000;
+  stroke: #000000;
+}
+
+#graph-div1736858659671 .edge-thickness-normal {
+  stroke-width: 1px;
+}
+
+#graph-div1736858659671 .edge-thickness-thick {
+  stroke-width: 3.5px;
+}
+
+#graph-div1736858659671 .edge-pattern-solid {
+  stroke-dasharray: 0;
+}
+
+#graph-div1736858659671 .edge-thickness-invisible {
+  stroke-width: 0;
+  fill: none;
+}
+
+#graph-div1736858659671 .edge-pattern-dashed {
+  stroke-dasharray: 3;
+}
+
+#graph-div1736858659671 .edge-pattern-dotted {
+  stroke-dasharray: 2;
+}
+
+#graph-div1736858659671 .marker {
+  fill: #000000;
+  stroke: #000000;
+}
+
+#graph-div1736858659671 .marker.cross {
+  stroke: #000000;
+}
+
+#graph-div1736858659671 svg {
+  font-family: "trebuchet ms", verdana, arial, sans-serif;
+  font-size: 14px;
+}
+
+#graph-div1736858659671 p {
+  margin: 0;
+}
+
+#graph-div1736858659671 .label {
+  font-family: "trebuchet ms", verdana, arial, sans-serif;
+  color: #333;
+}
+
+#graph-div1736858659671 .cluster-label text {
+  fill: #000000;
+}
+
+#graph-div1736858659671 .cluster-label span {
+  color: #000000;
+}
+
+#graph-div1736858659671 .cluster-label span p {
+  background-color: transparent;
+}
+
+#graph-div1736858659671 .label text,
+#graph-div1736858659671 span {
+  fill: #333;
+  color: #333;
+}
+
+#graph-div1736858659671 .node rect,
+#graph-div1736858659671 .node circle,
+#graph-div1736858659671 .node ellipse,
+#graph-div1736858659671 .node polygon,
+#graph-div1736858659671 .node path {
+  fill: #ffffff;
+  stroke: #000000;
+  stroke-width: 1px;
+}
+
+#graph-div1736858659671 .rough-node .label text,
+#graph-div1736858659671 .node .label text,
+#graph-div1736858659671 .image-shape .label,
+#graph-div1736858659671 .icon-shape .label {
+  text-anchor: middle;
+}
+
+#graph-div1736858659671 .node .katex path {
+  fill: #000;
+  stroke: #000;
+  stroke-width: 1px;
+}
+
+#graph-div1736858659671 .rough-node .label,
+#graph-div1736858659671 .node .label,
+#graph-div1736858659671 .image-shape .label,
+#graph-div1736858659671 .icon-shape .label {
+  text-align: center;
+}
+
+#graph-div1736858659671 .node.clickable {
+  cursor: pointer;
+}
+
+#graph-div1736858659671 .root .anchor path {
+  fill: #000000 !important;
+  stroke-width: 0;
+  stroke: #000000;
+}
+
+#graph-div1736858659671 .arrowheadPath {
+  fill: #000000;
+}
+
+#graph-div1736858659671 .edgePath .path {
+  stroke: #000000;
+  stroke-width: 2px;
+}
+
+#graph-div1736858659671 .flowchart-link {
+  stroke: #000000;
+  fill: none;
+}
+
+#graph-div1736858659671 .edgeLabel {
+  background-color: hsl(-120, 0%, 80%);
+  text-align: center;
+}
+
+#graph-div1736858659671 .edgeLabel p {
+  background-color: hsl(-120, 0%, 80%);
+}
+
+#graph-div1736858659671 .edgeLabel rect {
+  opacity: 0.5;
+  background-color: hsl(-120, 0%, 80%);
+  fill: hsl(-120, 0%, 80%);
+}
+
+#graph-div1736858659671 .labelBkg {
+  background-color: rgba(204, 204, 204, 0.5);
+}
+
+#graph-div1736858659671 .cluster rect {
+  fill: #ffffff;
+  stroke: hsl(0, 0%, 90%);
+  stroke-width: 1px;
+}
+
+#graph-div1736858659671 .cluster text {
+  fill: #000000;
+}
+
+#graph-div1736858659671 .cluster span {
+  color: #000000;
+}
+
+#graph-div1736858659671 div.mermaidTooltip {
+  position: absolute;
+  text-align: center;
+  max-width: 200px;
+  padding: 2px;
+  font-family: "trebuchet ms", verdana, arial, sans-serif;
+  font-size: 12px;
+  background: #ffffff;
+  border: 1px solid hsl(0, 0%, 90%);
+  border-radius: 2px;
+  pointer-events: none;
+  z-index: 100;
+}
+
+#graph-div1736858659671 .flowchartTitleText {
+  text-anchor: middle;
+  font-size: 18px;
+  fill: #333;
+}
+
+#graph-div1736858659671 rect.text {
+  fill: none;
+  stroke-width: 0;
+}
+
+#graph-div1736858659671 .icon-shape,
+#graph-div1736858659671 .image-shape {
+  background-color: hsl(-120, 0%, 80%);
+  text-align: center;
+}
+
+#graph-div1736858659671 .icon-shape p,
+#graph-div1736858659671 .image-shape p {
+  background-color: hsl(-120, 0%, 80%);
+  padding: 2px;
+}
+
+#graph-div1736858659671 .icon-shape rect,
+#graph-div1736858659671 .image-shape rect {
+  opacity: 0.5;
+  background-color: hsl(-120, 0%, 80%);
+  fill: hsl(-120, 0%, 80%);
+}
+
+#graph-div1736858659671 .node .neo-node {
+  stroke: #000000;
+}
+
+#graph-div1736858659671 [data-look="neo"].node rect,
+#graph-div1736858659671 [data-look="neo"].cluster rect,
+#graph-div1736858659671 [data-look="neo"].node polygon {
+  stroke: url(#graph-div1736858659671-gradient);
+  filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.25));
+}
+
+#graph-div1736858659671 [data-look="neo"].node rect,
+#graph-div1736858659671 [data-look="neo"].node polygon,
+#graph-div1736858659671 [data-look="neo"].node path {
+  stroke: url(#graph-div1736858659671-gradient);
+  filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.25));
+}
+
+#graph-div1736858659671 [data-look="neo"].node .neo-line path {
+  stroke: hsl(0, 0%, 70%);
+  filter: none;
+}
+
+#graph-div1736858659671 [data-look="neo"].node circle {
+  stroke: url(#graph-div1736858659671-gradient);
+  filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.25));
+}
+
+#graph-div1736858659671 [data-look="neo"].node circle .state-start {
+  fill: #000000;
+}
+
+#graph-div1736858659671 [data-look="neo"].statediagram-cluster rect {
+  fill: #ffffff;
+  stroke: url(#graph-div1736858659671-gradient);
+  stroke-width: 1px;
+}
+
+#graph-div1736858659671 [data-look="neo"].icon-shape .icon {
+  fill: url(#graph-div1736858659671-gradient);
+  filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.25));
+}
+
+#graph-div1736858659671 [data-look="neo"].icon-shape .icon-neo path {
+  stroke: url(#graph-div1736858659671-gradient);
+  filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.25));
+}
+
+#graph-div1736858659671 :root {
+  --mermaid-font-family: "trebuchet ms", verdana, arial, sans-serif;
+}

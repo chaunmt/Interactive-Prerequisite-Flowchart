@@ -22,7 +22,7 @@ export default function Page() {
   const height = "h-4/5";
 
   return (
-    <div id="content" className="flex gap-4 h-screen">
+    <div id="content" className="flex h-screen gap-4">
       <div id="preqs" className={`w-1/2 ${height} overflow-auto p-4`}>
         {build.includes
           .map((c) => uid_get(c))

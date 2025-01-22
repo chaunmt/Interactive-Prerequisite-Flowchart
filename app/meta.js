@@ -1,4 +1,10 @@
-let Meta = {
+const meta = {
+  description: [
+    "Explore and plan your academic journey with Course Flowchart,",
+    "your ultimate guide to course prerequisites at the University",
+    "of Minnesota - Twin Cities. Find detailed course information,",
+    "prerequisites, and plan your curriculum efficiently.",
+  ],
   keywords: [
     "University of Minnesota",
     "University of Minnesota - Twin Cities",
@@ -31,4 +37,5 @@ let Meta = {
   ],
 };
 
-export const Keywords = Meta.keywords.join(", ");
+export const keywords = meta.keywords.join(", ");
+export const description = meta.description.join(" ");
