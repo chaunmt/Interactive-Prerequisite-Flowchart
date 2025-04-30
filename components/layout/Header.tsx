@@ -32,8 +32,8 @@ export default function Header() {
           <ul className="flex gap-6">
             {[
               { display: "Home", ref: "/" },
-              { display: "Course", ref: "/courses" },
-              { display: "Program", ref: "/programs" },
+              // { display: "Course", ref: "/courses" },
+              // { display: "Program", ref: "/programs" },
             ].map(({ display, ref }) => (
               <li key={display}>
                 <Link
@@ -53,18 +53,18 @@ export default function Header() {
       {/* Right Section: Search Button and Theme Switcher */}
       <div className="flex items-center gap-2 md:gap-4">
         {/* Search Button */}
-        <button
+        {/* <button
           className="
             w-10 h-10 md:w-auto md:h-auto md:px-4 md:py-2 flex items-center justify-center bg-gray-50 border border-gray-300 rounded-full md:rounded-md hover:bg-gray-100 text-gray-600 text-sm font-medium transition gap-2"
         >
           <CiSearch className="text-gray-500 text-lg" />
           <span className="hidden md:block">Search...</span>
-        </button>
+        </button> */}
 
         {/* Theme Switcher */}
-        <div className="w-10 h-10 flex items-center justify-center bg-gray-50 border border-gray-300 rounded-full hover:bg-gray-100 transition">
+        {/* <div className="w-10 h-10 flex items-center justify-center bg-gray-50 border border-gray-300 rounded-full hover:bg-gray-100 transition">
           <ThemeSelector />
-        </div>
+        </div> */}
 
         {/* Hamburger Menu Icon */}
         <button
@@ -82,8 +82,8 @@ export default function Header() {
           <ul className="flex flex-col items-start p-4 gap-2">
             {[
               { display: "Home", ref: "/" },
-              { display: "Course", ref: "/courses" },
-              { display: "Program", ref: "/programs" },
+              // { display: "Course", ref: "/courses" },
+              // { display: "Program", ref: "/programs" },
             ].map(({ display, ref }) => (
               <li key={display} className="w-full">
                 <Link
