@@ -2,9 +2,9 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import ThemeSelector from "../picker/ThemeSelector";
+// import ThemeSelector from "../picker/ThemeSelector";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { CiSearch } from "react-icons/ci";
+// import { CiSearch } from "react-icons/ci";
 import { useState } from "react";
 
 export default function Header() {
