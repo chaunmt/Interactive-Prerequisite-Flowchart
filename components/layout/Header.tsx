@@ -21,7 +21,7 @@ export default function Header() {
         <Link href="/" className="flex items-center">
           <Image
             className="w-10 h-auto"
-            src="/logos/cf_logo_favicon.png"
+            src="/logos/cf_logo_icon.png"
             alt="interactive-prereq-logo"
             width={40}
             height={40}
