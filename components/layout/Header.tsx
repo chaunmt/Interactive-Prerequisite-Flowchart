@@ -20,7 +20,7 @@ export default function Header() {
       <div className="flex items-center gap-4 flex-grow">
         <Link href="/" className="flex items-center">
           <Image
-            className="w-10 h-auto"
+            className="w-10 h-auto transform transition-transform duration-500 hover:rotate-180"
             src="/logos/cf_logo_favicon.png"
             alt="interactive-prereq-logo"
             width={40}

@@ -38,7 +38,7 @@ export function SearchBar({
         placeholder="Search By Class"
         value={value}
         onChange={sendQuery}
-        className="w-full px-12 py-3 text-lg bg-white border border-gray-300 rounded-full shadow-md focus:outline-none focus:ring-2 focus:ring-gray-400"
+        className="w-full px-12 py-3 text-lg text-center sm:text-left bg-white border border-gray-300 rounded-full shadow-md focus:outline-none focus:ring-2 focus:ring-gray-400"
       />
     </div>
   );

@@ -8,6 +8,9 @@ import { Deck } from "@/components/deck/Deck";
 import { FiDownload } from "react-icons/fi";
 import { notFound } from "next/navigation";
 
+import { Suspense } from "react"
+import Loading from "@/app/loading"
+
 export function generateMetadata({ params }) {
   return {
     title: `${params.subj.toUpperCase()} ${params.num}`,
@@ -28,7 +31,8 @@ export default function Page({ params }) {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 p-6">
+    <Suspense fallback={<Loading />}>
+      <div className="min-h-screen bg-gray-50 p-6">
       {/* Navigation Bar */}
       <div className="mb-6">
         <NavigationSearchSmall />
@@ -78,5 +82,6 @@ export default function Page({ params }) {
         </div>
       </div>
     </div>
+    </Suspense>
   );
 }
