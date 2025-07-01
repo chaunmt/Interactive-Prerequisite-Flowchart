@@ -5,7 +5,6 @@ import NavigationSearchSmall from "@/components/search/NavigationSearchSmall";
 import Graph, { BuildOptions } from "@/components/graph/Graph";
 import { Deck } from "@/components/deck/Deck";
 
-import { FiDownload } from "react-icons/fi";
 import { notFound } from "next/navigation";
 
 import { Suspense } from "react"
@@ -32,7 +31,7 @@ export default function Page({ params }) {
 
   return (
     <Suspense fallback={<Loading />}>
-      <div className="min-h-screen bg-gray-50 p-6">
+      <div className="min-h-screen bg-gray-50 dark:bg-gray-900 p-6">
       {/* Navigation Bar */}
       <div className="mb-6">
         <NavigationSearchSmall />
@@ -41,29 +40,33 @@ export default function Page({ params }) {
       {/* Main Content Grid */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         {/* Graph Section */}
-        <div className="lg:order-1 order-1 bg-white rounded-lg shadow p-4 flex-grow">
+        <div className="order-1 bg-white dark:bg-gray-900 rounded-lg shadow dark:border-gray-700 dark:border-[0.15rem] p-4 flex-grow">
           {/* Graph Header */}
-          <div className="flex justify-between items-center mb-4">
-            <div className="text-red-500 font-bold text-sm">
-              *Possible Prerequisites
+          <div className="flex justify-between items-center mb-4 ">
+            <div 
+              className="
+                font-bold text-3xl text-center justify-between items-center m-auto
+                text-sky-500 dark:text-transparent
+                dark:bg-gradient-to-r dark:from-purple-400 dark:via-pink-400 dark:to-blue-400
+                bg-200% bg-clip-text text-transparent animate-galaxy 
+              "
+            >
+              Predicted Prerequisites
             </div>
-            <button className="p-2 rounded bg-gray-100 hover:bg-gray-200">
-              <FiDownload size={20} />
-            </button>
           </div>
 
           {/* Graph Container */}
-          <div className="bg-gray-100 rounded-md p-4 min-h-[50vh]">
-            <Graph build={build} />
+          <div className="bg-gray-100 dark:bg-gray-900 dark:border-gray-700 dark:border-[0.15rem] rounded-md p-4 min-h-[50vh]">
+            <Graph build={build} display={{ theme: "light" }} />
           </div>
         </div>
 
         {/* Course Info Section */}
-        <div className="lg:order-2 order-2 bg-white rounded-lg shadow p-6 space-y-4">
-          <div id="code" className="text-xl font-bold text-gray-800">
+        <div className="order-2 bg-white dark:bg-900 rounded-lg shadow p-6 space-y-4">
+          <div id="code" className="text-3xl font-bold text-emerald-500">
             {course.code}
           </div>
-          <div id="name" className="text-lg font-semibold text-gray-700">
+          <div id="name" className="text-3xl font-bold text-emerald-500">
             {course.fullname}
           </div>
           <div id="info" className="text-gray-600">

@@ -38,12 +38,22 @@ export default function Header() {
       {/* Left Section: Logo */}
       <div className="flex items-center gap-4 flex-grow">
         <Link href="/" className="flex items-center">
+          {/* Light Mode Favicon */}
           <Image
-            className="w-[3.1rem] transform transition-transform duration-500 hover:rotate-180"
-            src="/logos/cf_logo_favicon.png"
+            className="block dark:hidden w-[3.1rem] transform transition-transform duration-500 hover:rotate-180 hover:scale-105"
+            src="/logos/favicon_blue_green.png"
             alt="interactive-prereq-logo"
             width={100}
             height={100}
+          />
+
+          {/* Dark Mode Favicon */}
+          <Image
+            className="hidden dark:block w-[3.1rem] transform transition-transform duration-500 hover:rotate-180 hover:scale-105"
+            src="/logos/favicon_blue_pink.png"
+            alt="interactive-prereq-logo"
+            width={500}
+            height={500}
           />
         </Link>
       </div>

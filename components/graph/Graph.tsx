@@ -63,11 +63,11 @@ export function convertJSONGraph(input: GraphData, display?: DisplayOptions) {
   const frontmatter = `\
 ---
 config:
-  # # probably use this for arrow colors
-  # theme: ${display?.theme === "dark" ? "dark" : "neutral"}
-  # # not yet sure how to use this or what for
-  # themeCSS: ${display?.theme || "light"}
-  # layout: elk  # redundant
+  # probably use this for arrow colors
+  theme: ${display?.theme === "dark" ? "dark" : "neutral"}
+  # not yet sure how to use this or what for
+  themeCSS: ${display?.theme || "light"}
+  layout: elk  # redundant
 ---
 
 `;
