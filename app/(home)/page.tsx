@@ -11,7 +11,7 @@ export default function Page() {
     <Suspense fallback={<Loading />}>
       <div className="relative h-screen w-screen">
         {/* Main Content */}
-        <div className="flex flex-col items-center pt-20 md:pt-40 bg-gray-50">
+        <div className="flex flex-col items-center pt-20 md:pt-40 bg-gray-50 dark:bg-gray-900">
           {/* Logo Section */}
           <div>
             <Image

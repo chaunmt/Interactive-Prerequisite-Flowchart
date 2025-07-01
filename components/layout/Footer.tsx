@@ -2,24 +2,34 @@ import Link from "next/link";
 import Image from "next/image";
 import contributors from "@/contributors.json";
 
+import { Tooltip } from "flowbite-react";
+
 import { FaGithub, FaLinkedin, FaHome } from "react-icons/fa";
 
 export default function Footer() {
   return (
     <footer className="
       relative flex flex-col items-center text-center w-full mt-auto p-8 pt-12 
-      bg-white shadow-inner" 
+      bg-white dark:bg-gray-900 shadow-inner shadow-gray-200 dark:shadow-gray-700" 
     >
       <div>
-        <span className="font-bold text-4xl text-gray-950">Meet the team</span>
-        <div className="flex flex-col md:flex-row justify-center items-center mt-8 mb-10 gap-y-4 gap-x-6 md:gap-x-10">
+        <span className="font-bold text-4xl text-gray-950 dark:text-gray-100">Meet the team</span>
+        <div 
+          className="
+            flex flex-col md:flex-row justify-center items-center 
+            mt-8 mb-10 gap-y-4 gap-x-6 md:gap-x-10
+          "
+        >
           {Object.entries(contributors?.Head ?? {})?.map(([pid, person]) => (
             <div 
               key={pid} 
-              className={"flex flex-row md:flex-col items-center text-center gap-x-2 gap-y-4 p-6 border-gray-200 border-[0.02rem] rounded-lg shadow-lg bg-cover bg-center w-[20rem] md:w-[15rem]"}
-              // style={{backgroundImage: `url(${person.Avatar})`}}
+              className="
+                flex flex-row md:flex-col items-center text-center gap-x-2 gap-y-4 p-6 
+                border-gray-200 dark:border-gray-700 border-[0.02rem] rounded-lg shadow-lg 
+                bg-cover bg-center w-[20rem] md:w-[15rem]
+              "
             >
-              <div className="bg-gray-50 rounded-lg shadow-md overflow-hidden w-[15rem] md:w-[10rem]">
+              <div className="bg-gray-50 dark:bg-gray-900 rounded-lg shadow-md overflow-hidden w-[15rem] md:w-[10rem]">
                 <Image 
                   className="w-full rounded-lg shadow-xl " 
                   height={400}
@@ -29,9 +39,9 @@ export default function Footer() {
                 />
               </div>
               <div className="flex flex-col gap-2 items-center text-center w-full">
-                <span className="font-bold">{person.Name}</span>
-                <span className="p-y-1 p-x-2 w-full font-semibold">{person.Role}</span>
-                <ul className="flex gap-4 pt-1 text-gray-900">
+                <span className="font-bold text-gray-900 dark:text-gray-300">{person.Name}</span>
+                <span className="p-y-1 p-x-2 w-full font-semibold text-gray-900 dark:text-gray-300">{person.Role}</span>
+                <ul className="flex gap-4 pt-1 text-gray-900 dark:text-gray-300">
                   <li className="text-2xl hover:scale-110">
                     <Link href={person.GitHub} target="_blank"><FaGithub/></Link>
                   </li>
@@ -50,21 +60,25 @@ export default function Footer() {
         <div className="flex flex-wrap justify-center items-center mb-8 gap-2">
           {Object.entries(contributors?.Contributor ?? {}).map(([pid, person]) => (
             <div key={pid} className={""}>
-              <div className="rounded-full overflow-hidden w-[2.5rem] md:w-[3.5rem] shadow-sm">
-                <Image 
-                  className="rounded-full hover:scale-110 hover:cursor-pointer" 
-                  height={200}
-                  width={200}
-                  src={person["Avatar"]} 
-                  alt={person["Name"]} 
-                />
-              </div>
+              <Tooltip content={person.Name}>
+                <Link href={person.GitHub} target="_blank">
+                  <div className="rounded-full overflow-hidden w-[2.5rem] md:w-[3.5rem] shadow-sm">
+                    <Image 
+                      className="rounded-full hover:scale-110 hover:cursor-pointer" 
+                      height={200}
+                      width={200}
+                      src={person["Avatar"]} 
+                      alt={person["Name"]} 
+                    />
+                  </div>
+                </Link>
+              </Tooltip>
             </div>
           ))}
         </div>
 
         <div 
-          className="text-gray-900 border-[0.15rem] border-purple-200 font-semibold
+          className="text-gray-900 dark:text-gray-50 border-[0.15rem] border-purple-200 dark:border-purple-500 font-semibold
           hover:text-gray-50 hover:bg-purple-500 hover:cursor-pointer
           p-1 m-auto mb-10 w-[20rem] items-center justify-center rounded-lg"
         >
@@ -73,11 +87,11 @@ export default function Footer() {
           </Link>
         </div>
 
-        <span className="text-sm text-gray-500 m-4">
+        <span className="text-sm text-gray-500 dark:text-gray-400 m-4">
           Created by and for{" "}
           <Link
             href="https://twin-cities.umn.edu/"
-            className="text-gray-600 font-bold hover:underline"
+            className="font-bold hover:underline"
             target="_blank"
             >
             University of Minnesota - Twin Cities
@@ -85,7 +99,7 @@ export default function Footer() {
           students through{" "}
           <Link
             href="https://www.socialcoding.net/"
-            className="text-gray-600 font-bold hover:underline"
+            className="font-bold hover:underline"
             target="_blank"
             >
             Social Coding
@@ -93,7 +107,7 @@ export default function Footer() {
           with data from{" "}
           <Link
             href="https://asr.umn.edu/applications-and-forms/applications/coursedog"
-            className="text-gray-600 font-bold hover:underline"
+            className="font-bold hover:underline"
             target="_blank"
             >
             Coursedog
