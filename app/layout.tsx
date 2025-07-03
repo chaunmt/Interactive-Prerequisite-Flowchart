@@ -23,7 +23,7 @@ export default function RootLayout({children} : {children : React.ReactNode}) {
       <head>
         <ThemeModeScript />
       </head>
-      <body className="bg-gray-50 dark:bg-gray-900">
+      <body className="bg-gray-50 dark:bg-stone-900">
         <Header />
         <main>{children}</main>
         <Footer />

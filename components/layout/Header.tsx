@@ -22,7 +22,7 @@ export default function Header() {
     return (
       <button
         disabled
-        className="p-2 rounded-full bg-gray-200 dark:bg-gray-900 text-gray-400"
+        className="p-2 rounded-full bg-gray-200 dark:bg-stone-900 text-stone-400"
         aria-label="Toggle theme"
       />
     );
@@ -31,9 +31,9 @@ export default function Header() {
   return (
     <header
       className="
-        relative top-0 left-0 w-full h-20 z-50 flex items-center justify-between
-        bg-white dark:bg-gray-900 shadow-md dark:shadow-gray-800 
-        border-b border-gray-200 dark:border-gray-700 px-4 md:px-6"
+        sticky top-0 h-20 z-50 flex items-center justify-between
+        bg-white dark:bg-stone-900 shadow dark:shadow-gray-800 
+        border-b-[0.15rem] border-gray-200 dark:border-gray-700 px-4 md:px-6 opacity-80"
     >
       {/* Left Section: Logo */}
       <div className="flex items-center gap-4 flex-grow">
@@ -64,7 +64,7 @@ export default function Header() {
           onClick={toggleMode}
           className="
             p-2 rounded-full border-[0.15rem] border-gray-200 dark:border-gray-700 shadow-sm 
-            text-gray-800 dark:text-gray-200 hover:bg-gray-200 dark:hover:bg-gray-700 
+            text-stone-800 dark:text-stone-200 hover:bg-gray-200 dark:hover:bg-gray-700 
           "
         >
           {computedMode === 'dark' ? (
