@@ -1,15 +1,15 @@
-'use client';
+"use client";
 
-import React from 'react';
-import { Breadcrumb, BreadcrumbItem } from 'flowbite-react';
-import { HiHome } from 'react-icons/hi';
+import React from "react";
+import { Breadcrumb, BreadcrumbItem } from "flowbite-react";
+import { HiHome } from "react-icons/hi";
 
 interface Props {
   locations?: string[];
 }
 
 export function PathNavigation({ locations = [] }: Props) {
-  let cumulativePath = '';
+  let cumulativePath = "";
 
   return (
     <Breadcrumb aria-label="Default breadcrumb example">

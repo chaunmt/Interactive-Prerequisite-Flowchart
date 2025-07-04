@@ -3,8 +3,8 @@ import Link from "next/link";
 import Image from "next/image";
 import NavigationSearchBig from "@/components/search/NavigationSearchBig";
 
-import { Suspense } from "react"
-import Loading from "@/app/loading"
+import { Suspense } from "react";
+import Loading from "@/app/loading";
 import contributors from "@/contributors.json";
 
 import { Tooltip } from "flowbite-react";
@@ -41,21 +41,23 @@ export default function Page() {
           </div>
 
           {/* Search Section */}
-          <NavigationSearchBig/>
+          <NavigationSearchBig />
         </div>
 
         {/* Meet the team */}
         <div className="flex flex-col items-center text-center mt-auto p-8 pt-12 h-max mb-10">
-          <span className="font-bold text-4xl text-gray-950 dark:text-gray-100">Meet the team</span>
-          <div 
+          <span className="font-bold text-4xl text-gray-950 dark:text-gray-100">
+            Meet the team
+          </span>
+          <div
             className="
               flex flex-col md:flex-row justify-center items-center 
               mt-8 mb-10 gap-y-4 gap-x-6 md:gap-x-10
             "
           >
             {Object.entries(contributors?.Head ?? {})?.map(([pid, person]) => (
-              <div 
-                key={pid} 
+              <div
+                key={pid}
                 className="
                   flex flex-row md:flex-col items-center text-center gap-x-2 gap-y-4 p-6 
                   border-gray-200 dark:border-gray-700 border-[0.02rem] rounded-lg shadow-lg 
@@ -63,26 +65,36 @@ export default function Page() {
                 "
               >
                 <div className="bg-gray-50 dark:bg-stone-900 rounded-full shadow-md overflow-hidden w-[15rem] md:w-[10rem]">
-                  <Image 
-                    className="w-full rounded-lg shadow-xl " 
+                  <Image
+                    className="w-full rounded-lg shadow-xl "
                     height={400}
                     width={400}
-                    src={person["Avatar"]} 
-                    alt={person["Name"]} 
+                    src={person["Avatar"]}
+                    alt={person["Name"]}
                   />
                 </div>
                 <div className="flex flex-col gap-2 items-center text-center w-full">
-                  <span className="font-bold text-stone-900 dark:text-gray-300">{person.Name}</span>
-                  <span className="p-y-1 p-x-2 w-full font-semibold text-stone-900 dark:text-gray-300">{person.Role}</span>
+                  <span className="font-bold text-stone-900 dark:text-gray-300">
+                    {person.Name}
+                  </span>
+                  <span className="p-y-1 p-x-2 w-full font-semibold text-stone-900 dark:text-gray-300">
+                    {person.Role}
+                  </span>
                   <ul className="flex gap-4 pt-1 text-stone-900 dark:text-gray-300">
                     <li className="text-2xl hover:scale-110">
-                      <Link href={person.GitHub} target="_blank"><FaGithub/></Link>
+                      <Link href={person.GitHub} target="_blank">
+                        <FaGithub />
+                      </Link>
                     </li>
                     <li className="text-2xl hover:scale-110">
-                      <Link href={person.Linkedin} target="_blank"><FaLinkedin/></Link>
+                      <Link href={person.Linkedin} target="_blank">
+                        <FaLinkedin />
+                      </Link>
                     </li>
                     <li className="text-2xl hover:scale-110">
-                      <Link href={person.Homepage} target="_blank"><FaHome/></Link>
+                      <Link href={person.Homepage} target="_blank">
+                        <FaHome />
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -91,23 +103,25 @@ export default function Page() {
           </div>
 
           <div className="flex flex-wrap justify-center items-center mb-8 gap-2">
-            {Object.entries(contributors?.Contributor ?? {}).map(([pid, person]) => (
-              <div key={pid} className={""}>
-                <Tooltip content={person.Name}>
-                  <Link href={person.GitHub} target="_blank">
-                    <div className="rounded-full overflow-hidden w-[2.5rem] md:w-[3.5rem] shadow-sm">
-                      <Image 
-                        className="rounded-full hover:scale-110 hover:cursor-pointer" 
-                        height={200}
-                        width={200}
-                        src={person["Avatar"]} 
-                        alt={person["Name"]} 
-                      />
-                    </div>
-                  </Link>
-                </Tooltip>
-              </div>
-            ))}
+            {Object.entries(contributors?.Contributor ?? {}).map(
+              ([pid, person]) => (
+                <div key={pid} className={""}>
+                  <Tooltip content={person.Name}>
+                    <Link href={person.GitHub} target="_blank">
+                      <div className="rounded-full overflow-hidden w-[2.5rem] md:w-[3.5rem] shadow-sm">
+                        <Image
+                          className="rounded-full hover:scale-110 hover:cursor-pointer"
+                          height={200}
+                          width={200}
+                          src={person["Avatar"]}
+                          alt={person["Name"]}
+                        />
+                      </div>
+                    </Link>
+                  </Tooltip>
+                </div>
+              ),
+            )}
           </div>
         </div>
       </div>

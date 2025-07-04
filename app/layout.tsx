@@ -5,7 +5,7 @@ import "@/app/globals.css";
 
 import { Metadata } from "next";
 
-import { ThemeModeScript } from 'flowbite-react';
+import { ThemeModeScript } from "flowbite-react";
 
 export const metadata: Metadata = {
   title: {
@@ -17,7 +17,11 @@ export const metadata: Metadata = {
   keywords: Keywords,
 };
 
-export default function RootLayout({children} : {children : React.ReactNode}) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="en">
       <head>
@@ -25,7 +29,9 @@ export default function RootLayout({children} : {children : React.ReactNode}) {
       </head>
       <body className="bg-gray-50 dark:bg-stone-900">
         <Header />
-        <main className="max-w-screen-2xl justify-center items-center m-auto">{children}</main>
+        <main className="max-w-screen-2xl justify-center items-center m-auto">
+          {children}
+        </main>
         <Footer />
       </body>
     </html>

@@ -42,7 +42,7 @@ export default function Page({ params }) {
           <div className="order-1 bg-white dark:bg-stone-900 rounded-lg shadow border-gray-200 dark:border-gray-700 border-[0.15rem] p-4 flex-grow">
             {/* Graph Header */}
             <div className="flex justify-between items-center mb-4 ">
-              <div 
+              <div
                 className="
                   font-bold text-3xl text-center justify-between items-center m-auto
                   bg-gradient-to-r 
@@ -66,10 +66,16 @@ export default function Page({ params }) {
           {/* Course Info Section */}
           <div className="order-2 bg-white dark:bg-stone-900 rounded-lg shadow border-gray-200 dark:border-gray-700 border-[0.15rem] p-6 space-y-4 ">
             <div className="p-2 md:p-6 pb-8 gap-4 justify-center items-center text-center flex flex-col border-gray-200 dark:border-gray-700 border-b-[0.1rem]">
-              <div id="code" className="text-3xl font-bold text-stone-900 dark:text-sky-400">
+              <div
+                id="code"
+                className="text-3xl font-bold text-stone-900 dark:text-sky-400"
+              >
                 {course.code}
               </div>
-              <div id="name" className="text-3xl font-bold text-stone-900 dark:text-sky-400 ">
+              <div
+                id="name"
+                className="text-3xl font-bold text-stone-900 dark:text-sky-400 "
+              >
                 {course.fullname}
               </div>
             </div>
@@ -88,7 +94,10 @@ export default function Page({ params }) {
                 <span className="text-stone-800 dark:text-stone-300 font-bold">
                   Catalog Description:
                 </span>
-                <div id="info" className="bg-gray-100 dark:bg-stone-900 text-stone-700 dark:text-stone-400 p-4 rounded-md border-gray-200 dark:border-gray-700 border-[0.1rem] dark:border-dashed">
+                <div
+                  id="info"
+                  className="bg-gray-100 dark:bg-stone-900 text-stone-700 dark:text-stone-400 p-4 rounded-md border-gray-200 dark:border-gray-700 border-[0.1rem] dark:border-dashed"
+                >
                   {reformat(course.info, true)}
                 </div>
               </li>
@@ -98,7 +107,6 @@ export default function Page({ params }) {
                 </span>
               </li>
             </ul>
-            
           </div>
         </div>
 

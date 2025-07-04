@@ -67,7 +67,7 @@ export default function Header() {
             text-stone-800 dark:text-stone-200 hover:bg-gray-200 dark:hover:bg-gray-700 
           "
         >
-          {computedMode === 'dark' ? (
+          {computedMode === "dark" ? (
             <MdSunny className="w-[1.6rem] h-[1.6rem]" />
           ) : (
             <FaMoon className="w-[1.6rem] h-[1.6rem]" />

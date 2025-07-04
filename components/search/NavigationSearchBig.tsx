@@ -66,7 +66,7 @@ function SearchResultsList({
 
   return (
     <Suspense fallback={<Loading />}>
-      <ul 
+      <ul
         className="
           mt-0.2 bg-white dark:bg-stone-800 shadow-lg rounded-md max-h-60 w-[90%] sm:w-[48%] mx-auto border border-gray-200 dark:border-gray-700 overflow-y-auto
           [&::-webkit-scrollbar]:h-[0.3rem]
