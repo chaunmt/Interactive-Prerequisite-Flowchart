@@ -1,12 +1,13 @@
 import { course_get, targets, subjects } from "@/backend/access";
 import { reformat } from "@/backend/text-manipulation";
-import NavigationSearchSmall from "@/components/search/NavigationSearchSmall";
 
 import Graph, { BuildOptions } from "@/components/graph/Graph";
-import { Deck } from "@/components/deck/Deck";
+import { PathNavigation } from "@/components/layout/PathNavigation";
 
-import { FiDownload } from "react-icons/fi";
 import { notFound } from "next/navigation";
+import { Suspense } from "react";
+import Loading from "@/app/loading";
+import { Deck } from "@/components/deck/Deck";
 
 export function generateMetadata({ params }) {
   return {
@@ -28,55 +29,97 @@ export default function Page({ params }) {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 p-6">
-      {/* Navigation Bar */}
-      <div className="mb-6">
-        <NavigationSearchSmall />
-      </div>
+    <Suspense fallback={<Loading />}>
+      <div className="min-h-screen bg-gray-50 dark:bg-stone-900 p-6">
+        {/* Navigation Bar */}
+        <div className="pb-2 md:pb-4 text-stone-700 dark:text-stone-400">
+          <PathNavigation locations={["Course", "CSCI", course.code]} />
+        </div>
 
-      {/* Main Content Grid */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        {/* Graph Section */}
-        <div className="lg:order-1 order-1 bg-white rounded-lg shadow p-4 flex-grow">
-          {/* Graph Header */}
-          <div className="flex justify-between items-center mb-4">
-            <div className="text-red-500 font-bold text-sm">
-              *Possible Prerequisites
+        {/* Main Content Grid */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          {/* Graph Section */}
+          <div className="order-1 bg-white dark:bg-stone-900 rounded-lg shadow border-gray-200 dark:border-gray-700 border-[0.15rem] p-4 flex-grow">
+            {/* Graph Header */}
+            <div className="flex justify-between items-center mb-4 ">
+              <div
+                className="
+                  font-bold text-3xl text-center justify-between items-center m-auto
+                  bg-gradient-to-r 
+                    from-purple-400 via-teal-400 to-blue-400
+                    dark:from-purple-400 dark:via-pink-400 dark:to-blue-400
+                  bg-200% bg-clip-text text-transparent animate-galaxy 
+                "
+              >
+                Predicted Prerequisites
+              </div>
             </div>
-            <button className="p-2 rounded bg-gray-100 hover:bg-gray-200">
-              <FiDownload size={20} />
-            </button>
+
+            {/* Graph Container */}
+            <div className="bg-gray-100 dark:bg-stone-900 border-gray-200 dark:border-gray-700 border-[0.1rem] m-2 p-6 rounded-md">
+              <div className="w-full max-w-screen-lg m-auto">
+                <Graph build={build} display={{ theme: "light" }} />
+              </div>
+            </div>
           </div>
 
-          {/* Graph Container */}
-          <div className="bg-gray-100 rounded-md p-4 min-h-[50vh]">
-            <Graph build={build} />
+          {/* Course Info Section */}
+          <div className="order-2 bg-white dark:bg-stone-900 rounded-lg shadow border-gray-200 dark:border-gray-700 border-[0.15rem] p-6 space-y-4 ">
+            <div className="p-2 md:p-6 pb-8 gap-4 justify-center items-center text-center flex flex-col border-gray-200 dark:border-gray-700 border-b-[0.1rem]">
+              <div
+                id="code"
+                className="text-3xl font-bold text-stone-900 dark:text-sky-400"
+              >
+                {course.code}
+              </div>
+              <div
+                id="name"
+                className="text-3xl font-bold text-stone-900 dark:text-sky-400 "
+              >
+                {course.fullname}
+              </div>
+            </div>
+            <ul className="space-y-6">
+              <li className="space-y-2">
+                <span className="text-stone-800 dark:text-stone-300 font-bold">
+                  Course Attributes:
+                </span>
+              </li>
+              <li className="space-y-2">
+                <span className="text-stone-800 dark:text-stone-300 font-bold">
+                  Liberal Educations:
+                </span>
+              </li>
+              <li className="space-y-2">
+                <span className="text-stone-800 dark:text-stone-300 font-bold">
+                  Catalog Description:
+                </span>
+                <div
+                  id="info"
+                  className="bg-gray-100 dark:bg-stone-900 text-stone-700 dark:text-stone-400 p-4 rounded-md border-gray-200 dark:border-gray-700 border-[0.1rem] dark:border-dashed"
+                >
+                  {reformat(course.info, true)}
+                </div>
+              </li>
+              <li className="space-y-2">
+                <span className="text-stone-800 dark:text-stone-300 font-bold">
+                  Equivalent Courses:
+                </span>
+              </li>
+            </ul>
           </div>
         </div>
 
-        {/* Course Info Section */}
-        <div className="lg:order-2 order-2 bg-white rounded-lg shadow p-6 space-y-4">
-          <div id="code" className="text-xl font-bold text-gray-800">
-            {course.code}
-          </div>
-          <div id="name" className="text-lg font-semibold text-gray-700">
-            {course.fullname}
-          </div>
-          <div id="info" className="text-gray-600">
-            {reformat(course.info, true)}
+        {/* Target Courses Section */}
+        <div className="mt-6 bg-white dark:bg-stone-900 rounded-lg shadow p-4 md:p-6 border-gray-200 dark:border-gray-700 border-[0.15rem] overflow-hidden">
+          <h2 className="text-3xl font-bold text-emerald-500 dark:text-emerald-400 mt-2">
+            Target Courses
+          </h2>
+          <div>
+            <Deck courses={target} />
           </div>
         </div>
       </div>
-
-      {/* Target Courses Section */}
-      <div className="mt-6 bg-white rounded-lg shadow p-4">
-        <h2 className="text-lg font-semibold text-gray-700 mb-4">
-          Target Courses
-        </h2>
-        <div className="overflow-x-auto flex gap-4">
-          <Deck courses={target} />
-        </div>
-      </div>
-    </div>
+    </Suspense>
   );
 }

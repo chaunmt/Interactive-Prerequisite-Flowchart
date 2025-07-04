@@ -1,3 +1,5 @@
+import withFlowbiteReact from "flowbite-react/plugin/nextjs";
+
 // @ts-check
 
 // include prototype pages in non-production builds
@@ -36,4 +38,4 @@ const nextConfig = {
   },
 };
 
-export default nextConfig;
+export default withFlowbiteReact(nextConfig);
