@@ -7,6 +7,8 @@ import Link from "next/link";
 import { Search } from "@/backend/search";
 
 import { CiSearch } from "react-icons/ci";
+import { Suspense } from "react";
+import Loading from "@/app/loading";
 
 /**
  * Search Bar UI Component that accepts and sends back search query values
@@ -27,20 +29,22 @@ export function SearchBar({
   // TODO reconsider hideous type
 
   return (
-    <div className="relative w-[90%] sm:w-[50%] mx-auto">
-      {/* Search Icon */}
-      <div className="absolute inset-y-0 left-4 flex items-center pointer-events-none">
-        <CiSearch className="size-6 text-gray-500" />
+    <Suspense fallback={<Loading />}>
+      <div className="relative w-[90%] sm:w-[50%] mx-auto">
+        {/* Search Icon */}
+        <div className="absolute inset-y-0 left-4 flex items-center pointer-events-none">
+          <CiSearch className="size-6 text-gray-500" />
+        </div>
+        {/* Search input field */}
+        <input
+          type="text"
+          placeholder="Search By Class"
+          value={value}
+          onChange={sendQuery}
+          className="w-full px-12 py-3 text-lg text-center sm:text-left bg-white border border-gray-300 rounded-full shadow-md focus:outline-none focus:ring-2 focus:ring-gray-400"
+        />
       </div>
-      {/* Search input field */}
-      <input
-        type="text"
-        placeholder="Search By Class"
-        value={value}
-        onChange={sendQuery}
-        className="w-full px-12 py-3 text-lg text-center sm:text-left bg-white border border-gray-300 rounded-full shadow-md focus:outline-none focus:ring-2 focus:ring-gray-400"
-      />
-    </div>
+    </Suspense>
   );
 }
 
@@ -61,22 +65,24 @@ function SearchResultsList({
   // TODO: inline vs hoverable list options, many options, this is meant to be customizable
 
   return (
-    <ul className="mt-0.2 bg-white shadow-lg rounded-md max-h-60 w-[90%] sm:w-[48%] mx-auto border border-gray-200 overflow-y-auto">
-      {filteredData.length > 0 ? (
-        filteredData.map((result) => (
-          <li
-            key={result.display_text}
-            className="py-2 px-4 rounded-md text-gray-700 font-medium cursor-pointer hover:bg-gray-100"
-          >
-            <Link href={result.ref}>{result.display_text}</Link>
+    <Suspense fallback={<Loading />}>
+      <ul className="mt-0.2 bg-white shadow-lg rounded-md max-h-60 w-[90%] sm:w-[48%] mx-auto border border-gray-200 overflow-y-auto">
+        {filteredData.length > 0 ? (
+          filteredData.map((result) => (
+            <li
+              key={result.display_text}
+              className="py-2 px-4 rounded-md text-gray-700 font-medium cursor-pointer hover:bg-gray-100"
+            >
+              <Link href={result.ref}>{result.display_text}</Link>
+            </li>
+          ))
+        ) : (
+          <li className="py-2 px-4 text-gray-500 font-medium text-center">
+            No search results
           </li>
-        ))
-      ) : (
-        <li className="py-2 px-4 text-gray-500 font-medium text-center">
-          No search results
-        </li>
-      )}
-    </ul>
+        )}
+      </ul>
+    </Suspense>
   );
 }
 
@@ -107,12 +113,14 @@ function NavigationSearchBig() {
 
   // Render the search input and results
   return (
-    <div className="text-center mt-8 w-full">
-      <SearchBar value={search} sendQuery={handleSearch} />
-      {/* <div className="bg-[var(--search-result-container)] shadow-sm max-h-60 w-100 overflow-y-auto z-[999]"> */}
-      {search && <SearchResultsList filteredData={results} />}
-      {/* </div> */}
-    </div>
+    <Suspense fallback={<Loading />}>
+      <div className="text-center mt-8 w-full">
+        <SearchBar value={search} sendQuery={handleSearch} />
+        {/* <div className="bg-[var(--search-result-container)] shadow-sm max-h-60 w-100 overflow-y-auto z-[999]"> */}
+        {search && <SearchResultsList filteredData={results} />}
+        {/* </div> */}
+      </div>
+    </Suspense>
   );
 }
 

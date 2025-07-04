@@ -7,9 +7,7 @@ import { PathNavigation } from "@/components/layout/PathNavigation";
 import { notFound } from "next/navigation";
 import { Suspense } from "react";
 import Loading from "@/app/loading";
-import { Button, Card, Carousel } from "flowbite-react";
-
-import { FaArrowRight } from "react-icons/fa6";
+import { Deck } from "@/components/deck/Deck";
 
 export function generateMetadata({ params }) {
   return {
@@ -58,8 +56,10 @@ export default function Page({ params }) {
             </div>
 
             {/* Graph Container */}
-            <div className="bg-gray-100 dark:bg-stone-900 border-gray-200 dark:border-gray-700 border-[0.1rem] p-4 min-h-[50vh]">
-              <Graph build={build} display={{ theme: "light" }} />
+            <div className="bg-gray-100 dark:bg-stone-900 border-gray-200 dark:border-gray-700 border-[0.1rem] m-2 p-6 rounded-md">
+              <div className="w-full max-w-screen-lg m-auto">
+                <Graph build={build} display={{ theme: "light" }} />
+              </div>
             </div>
           </div>
 
@@ -88,9 +88,14 @@ export default function Page({ params }) {
                 <span className="text-stone-800 dark:text-stone-300 font-bold">
                   Catalog Description:
                 </span>
-                <div id="info" className="bg-gray-100 dark:bg-stone-900 text-stone-700 dark:text-stone-400 p-4 border-gray-200 dark:border-gray-700 border-[0.1rem] dark:border-dashed">
+                <div id="info" className="bg-gray-100 dark:bg-stone-900 text-stone-700 dark:text-stone-400 p-4 rounded-md border-gray-200 dark:border-gray-700 border-[0.1rem] dark:border-dashed">
                   {reformat(course.info, true)}
                 </div>
+              </li>
+              <li className="space-y-2">
+                <span className="text-stone-800 dark:text-stone-300 font-bold">
+                  Equivalent Courses:
+                </span>
               </li>
             </ul>
             
@@ -98,27 +103,12 @@ export default function Page({ params }) {
         </div>
 
         {/* Target Courses Section */}
-        <div className="mt-6 bg-white dark:bg-stone-900 rounded-lg shadow p-2 md:p-6 border-gray-200 dark:border-gray-700 border-[0.15rem] overflow-hidden">
-          <h2 className="text-2xl font-semibold text-stone-800 dark:text-stone-300 mb-4">
+        <div className="mt-6 bg-white dark:bg-stone-900 rounded-lg shadow p-4 md:p-6 border-gray-200 dark:border-gray-700 border-[0.15rem] overflow-hidden">
+          <h2 className="text-3xl font-bold text-emerald-500 dark:text-emerald-400 mt-2">
             Target Courses
           </h2>
-          <div className="h-[26rem] text-stone-800 dark:text-stone-300 border-gray-200 dark:border-gray-700 border-[0.1rem] border-dashed p-2 md:p-6">
-            <Carousel leftControl="<" rightControl=">">
-              {target.map((course) => (
-                <Card key={course.uid} href={"/course/" + course.subject + "/" + course.number} className="max-w-sm bg-gray-50 dark:bg-purple-900">
-                  <h5 className="text-2xl font-bold tracking-tight text-stone-800 dark:text-stone-300">
-                    {course.code} {course.name}
-                  </h5>
-                  <p className="font-normal text-stone-700 dark:text-stone-400 h-[6rem] overflow-hidden">
-                    {course.info}
-                  </p>
-                  <Button className="gap-1 bg-sky-600 hover:bg-sky-800 dark:bg-sky-600 dark:hover:bg-sky-800">
-                    <span>Learn more</span>
-                    <FaArrowRight/>
-                  </Button>
-                </Card>
-              ))}
-            </Carousel>
+          <div>
+            <Deck courses={target} />
           </div>
         </div>
       </div>
