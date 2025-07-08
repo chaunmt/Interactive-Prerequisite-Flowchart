@@ -5,6 +5,8 @@ import "@/app/globals.css";
 
 import { Metadata } from "next";
 
+import { ThemeModeScript } from "flowbite-react";
+
 export const metadata: Metadata = {
   title: {
     template: "%s | Course Flowchart",
@@ -22,9 +24,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bgImg">
+      <head>
+        <ThemeModeScript />
+      </head>
+      <body className="bg-gray-50 dark:bg-stone-900">
         <Header />
-        <main>{children}</main>
+        <main className="max-w-screen-2xl justify-center items-center m-auto">
+          {children}
+        </main>
         <Footer />
       </body>
     </html>
